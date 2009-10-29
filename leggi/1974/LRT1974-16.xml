@@ -8,22 +8,27 @@
 					<entratainvigore norm="19740525" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1974-05-04;16" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1974-05-04;16@1974-05-25" />
+					<urn finevigore="t4" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1974-05-04;16@1974-05-25" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1974-05-04;16@1975" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19740525" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19740531" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19740531" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="19750510" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1974-05-04;16" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1974-05-25;20" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1974;20" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1975;28" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art5" xlink:type="simple" />
+							<dsp:pos xlink:href="#art5-t3" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1974-05-25;20" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1974-05-25;20#artunico-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -31,10 +36,40 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art5" xlink:type="simple" />
+								<dsp:pos xlink:href="#art5-t3" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art5-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1975;28" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1975;28#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 1975, n. 28" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art1-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art1-com1-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1975;28" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1975;28#art1-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2 della legge Regione Toscana 1975, n. 28" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art8-com1-pun3-pun4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art8-com1-pun3-pun3-t4" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -56,23 +91,31 @@
 			<articolato>
 				<articolo id="art1">
 					<num>ARTICOLO 1</num>
-					<comma id="art1-com1">
+					<comma finevigore="t4" id="art1-com1-t4" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>Allo scopo di provvedere a spese di investimento in beni mobili e materiali rotabili, impianti fissi ed immobili necessari per assicurare la gestione pubblica e il potenziamento dei servizi pubblici di autotrasporto di linea extraurbani per viaggiatori, anche con acquisto da imprese private che attualmente gestiscono tali servizi, la Giunta Regionale è autorizzata a contrarre, con le Sezioni Autonome per il finanziamento di opere pubbliche e di impianti di pubblica utilità della Banca Nazionale del Lavoro e del Monte dei Paschi di Siena, Tesorieri Regionali, un mutuo di L. 5.000.000.000.</corpo>
 					</comma>
-					<comma id="art1-com2">
+					<comma id="art1-com2" iniziovigore="t4">
 						<num />
-						<corpo>Il mutuo sarà costituito da due quote uguali da somministrarsi dalle Sezioni anzidette e verrà ammortizzato in 35 anni a decorrere dal 1º maggio 1974.</corpo>
+						<corpo>
+							Allo scopo di provvedere a spese di investimento in beni mobili e materiali rotabili, impianti fissi ed immobili necessari per assicurare la gestione pubblica ed il potenziamento dei servizi pubblici di autotrasporto di linea extraurbani per viaggiatori, anche con acquisto da imprese private che attualmente gestiscono tali servizi, ed al fine di finanziare i contributi straordinari, previsti dalla
+							<rif xlink:href="urn:nir:regione.toscana:legge:1975-02-05;13" xlink:type="simple">legge regionale 5-2-1975, n. 13</rif>
+							, per favorire l'ammodernamento ed il potenziamento del parco rotabile delle autolinee, la Giunta Regionale è autorizzata a contrarre con le Sezioni Autonome per il finanziamento di opere pubbliche e di impianti di pubblica utilità della Banca Nazionale del Lavoro e del Monte dei Paschi di Siena, tesorieri regionali, mutuo di lire 5 miliardi di cui lire 1 miliardo per investimenti nei servizi pubblici di trasporto di linea extraurbani e lire 4 miliardi per provvidenze, per ammodernamento e potenziamento del parco rotabile delle autolinee pubbliche.
+						</corpo>
 					</comma>
 					<comma id="art1-com3">
 						<num />
-						<corpo>Il tasso effettivo per il mutuo di cui sopra non dovrà essere superiore al 7,50%.</corpo>
+						<corpo>Il mutuo sarà costituito da due quote uguali da somministrarsi dalle Sezioni anzidette e verrà ammortizzato in 35 anni a decorrere dal 1º maggio 1974.</corpo>
 					</comma>
 					<comma id="art1-com4">
 						<num />
-						<corpo>Nessuna variazione del tasso medesimo sarà ammessa durante l'intero periodo di ammortamento.</corpo>
+						<corpo>Il tasso effettivo per il mutuo di cui sopra non dovrà essere superiore al 7,50%.</corpo>
 					</comma>
 					<comma id="art1-com5">
+						<num />
+						<corpo>Nessuna variazione del tasso medesimo sarà ammessa durante l'intero periodo di ammortamento.</corpo>
+					</comma>
+					<comma id="art1-com6">
 						<num />
 						<corpo>Gli oneri fiscali derivanti dalla contrazione del predetto mutuo e le spese necessarie per il suo perfezionamento faranno carico all'Amministrazione Regionale.</corpo>
 					</comma>
@@ -145,9 +188,9 @@
 						<corpo>Per l'accettazione degli obblighi posti a loro carico, l'attuale Tesoriere interverrà nella stipulazione del contratto del mutuo tra l'Istituto mutuante e l'Amministrazione Regionale, la quale ultima resta altresì obbligata ad inserire nei contratti di tesoreria che saranno stipulati durante il periodo di ammortamento del mutuo, clausole che impongono ai futuri tesorieri i medesimi obblighi di cui sopra.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art5" iniziovigore="t2">
+				<articolo id="art5-t3" iniziovigore="t2">
 					<num>ARTICOLO 5</num>
-					<comma id="art5-com1">
+					<comma id="art5-t3-com1">
 						<num />
 						<corpo>
 							Le rate di ammortamento del mutuo, di cui all'art. 1, per capitali ed interessi, trovano capienza, ai sensi del
@@ -155,7 +198,7 @@
 							, nei limiti del 20% dell'ammontare complessivo delle entrate tributarie della Regione.
 						</corpo>
 					</comma>
-					<comma id="art5-com2">
+					<comma id="art5-t3-com2">
 						<num />
 						<corpo>
 							Il pagamento delle annualità di ammortamento del mutuo sarà garantito dalla Regione mediante la iscrizione nei propri bilanci delle somme occorrenti al servizio del mutuo stesso per il rimborso del capitale per interessi ed accessori negli importi indicati nel
@@ -163,7 +206,7 @@
 							.
 						</corpo>
 					</comma>
-					<comma id="art5-com3">
+					<comma id="art5-t3-com3">
 						<num />
 						<corpo>
 							La Giunta Regionale, con proprio provvedimento, darà inoltre incarico irrevocabilmente all'attuale Tesoriere, per il periodo della sua gestione ed a ciascun Tesoriere pro-tempore, singolo od associato, per tutta la residua durata dell'ammortamento del mutuo, la quota delle entrate tributarie di competenza della Regione o del "fondo comune"di cui all'
@@ -171,7 +214,7 @@
 							, occorrente al versamento a favore dell'Istituto mutuante delle rate semestrali comprensive del rimborso del capitale, dell'interesse e degli accessori del mutuo alle stabilite scadenze, che si intende pertanto vincolata alla detta destinazione, con prelazione su ogni altro pagamento, affinchè lo stesso Tesoriere (singolo od associato) provveda ai detti pagamenti, autorizzandolo anche e sempre irrevocabilmente ad accantonare sul totale di tutte le entrate riscosse in ogni esercizio finanziario ed in via prioritaria rispetto ad ogni altra disposizione, le somme all'uopo occorrenti.
 						</corpo>
 					</comma>
-					<comma id="art5-com4">
+					<comma id="art5-t3-com4">
 						<num />
 						<corpo>Per l'accettazione delle obbligazioni poste a suo carico l'attuale Tesoriere interverrà nella stipulazione del contratto di mutuo fra l'Istituto mutuante e l'amministrazione regionale; la quale ultima resta altresì obbligata ad inserire nei contratti di tesoreria che saranno stipulati durante il periodo di ammortamento del mutuo, clausole che impongano ai futuri Tesorieri le medesime obbligazioni di cui sopra.</corpo>
 					</comma>
@@ -220,7 +263,7 @@
 					</comma>
 				</articolo>
 				<articolo id="art8">
-					<num />
+					<num>ARTICOLO 8</num>
 					<comma id="art8-com1">
 						<num />
 						<alinea>Gli stati di previsione del bilancio della Regione per l'esercizio finanziario 1974 sono così modificati:</alinea>
@@ -253,12 +296,14 @@
 								</corpo>
 							</ep>
 						</ep>
-						<ep id="art8-com1-pun2">
+						
+						<ep id="art8-com1-pun3">
 							<num />
 							<alinea>SPESA</alinea>
-							<ep id="art8-com1-pun2-pun1">
+							<ep id="art8-com1-pun3-pun1">
 								<num />
-								<corpo>In diminuzione
+								<corpo>
+									In diminuzione
 									<h:table>
 										<h:tbody>
 											<h:tr>
@@ -285,7 +330,7 @@
 									</h:table>
 								</corpo>
 							</ep>
-							<ep id="art8-com1-pun2-pun2">
+							<ep id="art8-com1-pun3-pun2">
 								<num />
 								<corpo>
 									In aumento
@@ -340,7 +385,7 @@
 									</h:table>
 								</corpo>
 							</ep>
-							<ep id="art8-com1-pun2-pun3">
+							<ep finevigore="t4" id="art8-com1-pun3-pun3-t4" iniziovigore="t1" status="abrogato">
 								<num />
 								<corpo>
 									Di nuova istituzione
@@ -370,7 +415,42 @@
 									</h:table>
 								</corpo>
 							</ep>
-							<ep id="art8-com1-pun2-pun4">
+							<ep id="art8-com1-pun3-pun4" iniziovigore="t4">
+								<num />
+								<corpo>
+									Di nuova istituzione:
+									<h:table>
+										<h:tbody>
+											<h:tr>
+												<h:td>Tit. II</h:td>
+												<h:td>SPESE IN CONTO CAPITALE</h:td>
+												<h:td />
+											</h:tr>
+											<h:tr>
+												<h:td>Sez. 4a</h:td>
+												<h:td>Azione ed interventi in campo economico.</h:td>
+												<h:td />
+											</h:tr>
+											<h:tr>
+												<h:td>Rubr. 10a</h:td>
+												<h:td>Trasporti.</h:td>
+												<h:td />
+											</h:tr>
+											<h:tr>
+												<h:td>Cap.</h:td>
+												<h:td>33500 Spese per investimenti in servizi pubblici di trasporto di linea extraurbani per viaggiatori</h:td>
+												<h:td>L. 1.000.000.000</h:td>
+											</h:tr>
+											<h:tr>
+												<h:td>Cap. 33560</h:td>
+												<h:td>Spese per provvidenze, per ammodernamento e potenziamento del parco rotabile delle autolinee pubbliche</h:td>
+												<h:td>L. 4.000.000.000</h:td>
+											</h:tr>
+										</h:tbody>
+									</h:table>
+								</corpo>
+							</ep>
+							<ep id="art8-com1-pun3-pun5">
 								<num />
 								<corpo>
 									RIEPILOGO
