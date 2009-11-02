@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19730727" num="34" tipo="BURT" />
 					<entratainvigore norm="19730811" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1973-07-24;42" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1973-07-24;42" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1973-07-24;42@1975-05-03" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19730811" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19750524" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1973-07-24;42" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1975-05-03;36" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -26,6 +29,118 @@
 						</h:p>
 					</nota>
 				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1975-05-03;36" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1975-05-03;36#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 3 maggio 1975, n. 36" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art1-com2" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1975-05-03;36" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1975-05-03;36#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 3 maggio 1975, n. 36" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-com1-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1975-05-03;36" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1975-05-03;36#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 3 maggio 1975, n. 36" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com3" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1975-05-03;36" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1975-05-03;36#art4-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1 della legge Regione Toscana 3 maggio 1975, n. 36" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art5-com3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-com2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1975-05-03;36" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1975-05-03;36#art5-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 1 della legge Regione Toscana 3 maggio 1975, n. 36" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art6-com1-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1975-05-03;36" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1975-05-03;36#art5-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 2 della legge Regione Toscana 3 maggio 1975, n. 36" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6-com6" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art6-com5-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1975-05-03;36" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1975-05-03;36#art5-com3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 3 della legge Regione Toscana 3 maggio 1975, n. 36" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6-com8" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1975-05-03;36" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1975-05-03;36#art5-com3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 3 della legge Regione Toscana 3 maggio 1975, n. 36" id="itt8" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6-com9" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -49,6 +164,27 @@
 							La Regione Toscana eroga contributi ai consorzi e cooperative costituiti ai sensi di legge tra imprese artigiane iscritte all'albo, per le iniziative di comune interesse delle aziende associate, di cui all'
 							<rif xlink:href="#art2" xlink:type="simple">articolo 2</rif>
 							della presente legge.
+						</corpo>
+					</comma>
+					<comma id="art1-com2" iniziovigore="t2">
+						<num />
+						<corpo>
+							La Regione eroga ai consorzi e cooperative di 2o grado, costituite fra non meno di cinque consorzi e cooperative di cui al
+							<rif xlink:href="urn:nir:regione.toscana:legge:1973-07-24;42#art1-com1" xlink:type="simple">primo comma dell'articolo 1 della legge regionale 24 luglio 1973, n. 42</rif>
+							i contributi di cui all'
+							<rif xlink:href="#art2" xlink:type="simple">articolo 2</rif>
+							secondo le percentuali, le modalità e le procedure indicate agli
+							<mrif>
+								articoli
+								<rif xlink:href="#art3" xlink:type="simple">3</rif>
+								,
+								<rif xlink:href="#art4" xlink:type="simple">4</rif>
+								e
+								<rif xlink:href="#art5" xlink:type="simple">5</rif>
+							</mrif>
+							in quanto applicabili, nonchè un contributo sulle spese di gestione ai sensi dell'
+							<rif xlink:href="#art5-com3" xlink:type="simple">articolo 5, ultimo comma</rif>
+							, della presente legge.
 						</corpo>
 					</comma>
 				</articolo>
@@ -77,7 +213,7 @@
 				</articolo>
 				<articolo id="art3">
 					<num>ARTICOLO 3</num>
-					<comma id="art3-com1">
+					<comma finevigore="t2" id="art3-com1-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>
 							I contributi previsti al
@@ -87,7 +223,17 @@
 							.
 						</corpo>
 					</comma>
-					<comma id="art3-com2">
+					<comma id="art3-com2" iniziovigore="t2">
+						<num />
+						<corpo>
+							I contributi previsti al
+							<rif xlink:href="urn:nir:regione.toscana:legge:1973-07-24;42#art2-com1" xlink:type="simple">primo comma dell'articolo 2 della legge regionale 24 luglio 1973, n. 42</rif>
+							sono accordati in misura non superiore al 50% della spesa riconosciuta ammissibile e comunque non potranno eccedere, per ogni singola iniziativa, la somma di L. 20.000.000. Tale cifra rappresenta altresì il limite massimo di cui può complessivamente beneficiare, nel corso di uno stesso anno, ogni cooperativa o consorzio per le iniziative di cui al predetto primo comma dell'
+							<rif xlink:href="#art2" xlink:type="simple">articolo 2</rif>
+							. Non sono ammesse a contributo le iniziative di importo complessivo inferiore a L. 1.000.000.
+						</corpo>
+					</comma>
+					<comma id="art3-com3">
 						<num />
 						<corpo>
 							Il contributo previsto al
@@ -95,7 +241,7 @@
 							è concesso nella misura forfettaria di L. 700.000 per cooperative e consorzi con un numero di soci non superiore a 30 ed è aumentato di L. 10.000 per ogni socio eccedente tale numero. Tale contributo non può comunque superare, per ogni singola cooperativa o consorzio, l'ammontare complessivo di L. 1.000.000.
 						</corpo>
 					</comma>
-					<comma id="art3-com3">
+					<comma id="art3-com4">
 						<num />
 						<corpo>I contributi di cui alla presente legge non sono cumulabili con altri contributi in conto capitale, ottenuti allo stesso titolo in base ad altre leggi.</corpo>
 					</comma>
@@ -140,6 +286,22 @@
 							.
 						</corpo>
 					</comma>
+					<comma id="art4-com3" iniziovigore="t2">
+						<num />
+						<alinea>Per i consorzi di 2o grado le domande, intese ad ottenere il contributo sulle spese di gestione, sono dirette al presidente della giunta regionale, entro il 30 gennaio di ogni anno, e devono contenere l'elenco dei consorzi o cooperative associate, con l'indicazione della sede e attività e con i seguenti allegati:</alinea>
+						<ep id="art4-com3-pun1">
+							<num>-</num>
+							<corpo>copia conforme dell'atto costitutivo e dello statuto sociale;</corpo>
+						</ep>
+						<ep id="art4-com3-pun2">
+							<num>-</num>
+							<corpo>programma di massima dell'attività che si intende effettuare, deliberato dagli organi competenti dell'ente con una relazione illustrativa atta a dimostrarne l'idoneità tecnica ed economica nonchè con il preventivo sommario della spesa;</corpo>
+						</ep>
+						<ep id="art4-com3-pun3">
+							<num>-</num>
+							<corpo>relazione sulla utilizzazione degli eventuali precedenti contributi regionali.</corpo>
+						</ep>
+					</comma>
 				</articolo>
 				<articolo id="art5">
 					<num>ARTICOLO 5</num>
@@ -147,32 +309,60 @@
 						<num />
 						<corpo>Le domande sono dirette al Presidente della Giunta regionale e presentate al Sindaco del Comune ove ha sede il consorzio o la cooperativa entro il 15 marzo ed il 15 settembre di ogni anno.</corpo>
 					</comma>
-					<comma id="art5-com2">
+					<comma finevigore="t2" id="art5-com2-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>Il Comune, sentita la Commissione provinciale per l'artigianato competente per territorio, esprime il proprio motivato parere anche in relazione alla compatibilità della localizzazione dell'opera con gli strumenti urbanistici ed alla misura del contributo da concedere, provvedendo al successivo invio degli atti al Presidente della Giunta regionale entro 45 giorni dalla data di ricevimento della domanda.</corpo>
+					</comma>
+					<comma id="art5-com3" iniziovigore="t2">
+						<num />
+						<corpo>Il Comune esprime il proprio motivato parere anche in relazione alla compatibilità della localizzazione dell'opera con gli strumenti urbanistici ed alla misura del contributo da concedere, provvedendo al successivo invio degli atti al presidente della Giunta regionale entro 15 giorni dalla data di ricevimento della domanda.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art6">
 					<num>ARTICOLO 6</num>
-					<comma id="art6-com1">
+					<comma finevigore="t2" id="art6-com1-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>La Giunta regionale istruisce le domande presentate, indica l'ammontare della spesa riconosciuta ammissibile e, sentita la Commissione regionale per l'artigianato, propone al Consiglio il programma di ripartizione dei fondi disponibili, segnalando altresì, anche in relazione alla compatibilità dei costi prospettati per l'opera o l'iniziativa, gli eventuali casi di inammissibilità a contributo.</corpo>
 					</comma>
-					<comma id="art6-com2">
+					<comma id="art6-com2" iniziovigore="t2">
 						<num />
-						<corpo>La pronuncia consiliare di inammissibilità al contributo e di eventuale reiezione di singole domande deve essere motivata.</corpo>
+						<corpo>Per le cooperative e consorzi fra imprese artigiane la giunta regionale istruisce le domande presentate, indica l'ammontare della spesa riconosciuta ammissibile e, sentita la commissione regionale per l'artigianato, propone al consiglio gli eventuali criteri di priorità ed il programma di ripartizione dei fondi disponibili, segnalando altresì, anche in relazione alla compatibilità dei costi prospettati per la opera o l'iniziativa, gli eventuali casi di inammissibilità a contributo.</corpo>
 					</comma>
 					<comma id="art6-com3">
 						<num />
-						<corpo>Dopo l'approvazione consiliare della ripartizione dei fondi, il Presidente della Giunta comunica al consorzio o cooperativa richiedente l'ammontare del contributo concedibile, fissando, ove necessario, i termini entro i quali l'iniziativa dovrà essere portata a compimento.</corpo>
+						<corpo>La pronuncia consiliare di inammissibilità al contributo e di eventuale reiezione di singole domande deve essere motivata.</corpo>
 					</comma>
 					<comma id="art6-com4">
 						<num />
+						<corpo>Dopo l'approvazione consiliare della ripartizione dei fondi, il Presidente della Giunta comunica al consorzio o cooperativa richiedente l'ammontare del contributo concedibile, fissando, ove necessario, i termini entro i quali l'iniziativa dovrà essere portata a compimento.</corpo>
+					</comma>
+					<comma finevigore="t2" id="art6-com5-t2" iniziovigore="t1" status="abrogato">
+						<num />
 						<corpo>Il contributo è concesso con decreto del Presidente della Giunta regionale, su conforme deliberazione della stessa, nei limiti dell'ammontare già fissato dal Consiglio e previo accertamento delle spese effettivamente sostenute, nonchè del rispetto dei termini di cui al comma precedente per l'attuazione dell'iniziativa.</corpo>
 					</comma>
-					<comma id="art6-com5">
+					<comma id="art6-com6" iniziovigore="t2">
+						<num />
+						<corpo>
+							Il contributo è concesso con deliberazione della Giunta regionale, nei limiti dell'ammontare già fissato e previo accertamento delle spese effettivamente sostenute, nonchè del rispetto dei termini di cui al comma 3 della
+							<rif xlink:href="urn:nir:regione.toscana:legge:1973-07-24;42" xlink:type="simple">legge regionale 24 luglio 1973, n. 42</rif>
+							per l'attuazione dell'iniziativa.
+						</corpo>
+					</comma>
+					<comma id="art6-com7">
 						<num />
 						<corpo>Nel caso che il contributo sia stato richiesto per la costruzione, l'ampliamento o l'ammodernamento di immobili, il contributo stesso è concesso, sempre nei limiti già fissati dal Consiglio, successivamente all'approvazione da parte della Giunta regionale del progetto esecutivo dell'opera. In tal caso, la liquidazione del contributo può avvenire nel corso dell'opera, sulla base degli stati di avanzamento.</corpo>
+					</comma>
+					<comma id="art6-com8" iniziovigore="t2">
+						<num />
+						<corpo>Per i consorzi di 2o grado la Giunta regionale istruisce le domande con l'ausilio dell'ente regionale toscano d'assistenza tecnica e gestionale e, sentita la commissione regionale per l'artigianato, propone al consiglio la relativa cifra globale da erogare ed il programma di ripartizione, secondo i criteri che tengano conto del numero dei consorzi aderenti ai consorzi di 2o grado, dei programmi elaborati dagli stessi consorzi di 2o grado e di ogni altro elemento ritenuto utile. Tale contributo è erogato con delibera della Giunta regionale in conformità al programma di ripartizione approvato dal consiglio regionale.</corpo>
+					</comma>
+					<comma id="art6-com9" iniziovigore="t2">
+						<num />
+						<corpo>
+							Ai consorzi e alle cooperative di 2o grado, costituiti successivamente al 31 gennaio di ogni anno, è concesso a domanda e con gli allegati di cui all'
+							<rif xlink:href="#art3" xlink:type="simple">articolo 3</rif>
+							della presente legge, con delibera del consiglio regionale su proposta della Giunta regionale, un contributo di spese di gestione pari a L. 100.000 per ogni mese o frazione superiore a 15 giorni, dalla data di presentazione della domanda fino al 31 dicembre successivo.
+						</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art7">
