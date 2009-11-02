@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
+	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
@@ -8,16 +8,19 @@
 					<entratainvigore norm="19720226" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1972-02-04;4" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1972-02-04;4@1973-06-25" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1972-02-04;4@1973-06-25" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1972-02-04;4@1975-05-16" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19720226" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19730721" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19750605" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1972-02-04;4" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1973-06-25;34" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1975-05-16;42" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -89,6 +92,42 @@
 							</dsp:norma>
 							<dsp:novella>
 								<dsp:pos xlink:href="#art5-com8" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1975-05-16;42" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1975-05-16;42#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 16 maggio 1975, n. 42" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6-com2" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1975-05-16;42" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1975-05-16;42#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 16 maggio 1975, n. 42" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6-com3" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1975-05-16;42" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1975-05-16;42#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 16 maggio 1975, n. 42" id="itt8" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6-com4" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 					</modifichepassive>
@@ -238,7 +277,9 @@
 					<comma id="art5-com2" iniziovigore="t2">
 						<num />
 						<corpo>
-							Il rimborso delle spese previsto dall'art. 1 della presente legge è stabilito, per tutti i consiglieri regionali, nella misura di L. 7.500 a giornata di presenza alle sedute del Consiglio, delle commissioni di cui fanno parte e della conferenza di cui all'
+							Il rimborso delle spese previsto dall'
+							<rif xlink:href="#art1-com1" xlink:type="simple">art. 1</rif>
+							della presente legge è stabilito, per tutti i consiglieri regionali, nella misura di L. 7.500 a giornata di presenza alle sedute del Consiglio, delle commissioni di cui fanno parte e della conferenza di cui all'
 							<rif xlink:href="urn:nir:regione.toscana:statuto:#art14" xlink:type="simple">art. 14 dello Statuto</rif>
 							.
 						</corpo>
@@ -257,17 +298,23 @@
 					</comma>
 					<comma id="art5-com6" iniziovigore="t2">
 						<num />
-						<corpo>
-							Il rimborso fisso mensile è aumentato:
-							<h:br />
-							-di L. 125.000 per il Presidente della Giunta e per il Presidente del Consiglio;
-							<h:br />
-							-di L. 100.000 per i componenti la Giunta;
-							<h:br />
-							-di L. 50.000 per i componenti l'ufficio di presidenza;
-							<h:br />
-							-di L. 25.000 per i Presidenti, Vice - Presidenti e Segretari delle commissioni.
-						</corpo>
+						<alinea>Il rimborso fisso mensile è aumentato:</alinea>
+						<ep id="art5-com6-pun1">
+							<num>-</num>
+							<corpo>di L. 125.000 per il Presidente della Giunta e per il Presidente del Consiglio;</corpo>
+						</ep>
+						<ep id="art5-com6-pun2">
+							<num>-</num>
+							<corpo>di L. 100.000 per i componenti la Giunta;</corpo>
+						</ep>
+						<ep id="art5-com6-pun3">
+							<num>-</num>
+							<corpo>di L. 50.000 per i componenti l'ufficio di presidenza;</corpo>
+						</ep>
+						<ep id="art5-com6-pun4">
+							<num>-</num>
+							<corpo>di L. 25.000 per i Presidenti, Vice - Presidenti e Segretari delle commissioni.</corpo>
+						</ep>
 					</comma>
 					<comma id="art5-com7">
 						<num />
@@ -290,6 +337,34 @@
 							La corresponsione dell'indennità e del rimborso delle spese decorre, per i Consiglieri, dalla data della proclamazione ai sensi dell'
 							<rif xlink:href="urn:nir:stato:legge:1971-05-22;343#art6" xlink:type="simple">art. 6 dello Statuto</rif>
 							; per i Presidenti della Giunta e del Consiglio, per i componenti la Giunta e l'ufficio di presidenza del Consiglio, per i Presidenti e Vice - presidenti delle Commissioni, dalla data delle rispettive elezioni.
+						</corpo>
+					</comma>
+					<comma id="art6-com2" iniziovigore="t3">
+						<num />
+						<alinea>La corresponsione dell'indennità e del rimborso delle spese cessa:</alinea>
+						<ep id="art6-com2-pun1">
+							<num>-</num>
+							<corpo>alla data della prima riunione del Consiglio Regionale, per i componenti l'ufficio di presidenza;</corpo>
+						</ep>
+						<ep id="art6-com2-pun2">
+							<num>-</num>
+							<corpo>fino alla permanenza nelle rispettive cariche, per i componenti la Giunta Regionale;</corpo>
+						</ep>
+						<ep id="art6-com2-pun3">
+							<num>-</num>
+							<corpo>alla data delle elezioni per il rinnovo del Consiglio Regionale, per gli altri consiglieri regionali.</corpo>
+						</ep>
+					</comma>
+					<comma id="art6-com3" iniziovigore="t3">
+						<num />
+						<corpo>Ai Consiglieri che cessano dalla carica nel corso della legislatura, l'indennità ed il rimborso delle spese sono corrisposte fino a quando viene meno il diritto di partecipare alle sedute del Consiglio.</corpo>
+					</comma>
+					<comma id="art6-com4" iniziovigore="t3">
+						<num />
+						<corpo>
+							L'indennità di carica ed il rimborso delle spese cessano, per i Consiglieri e per i componenti la Giunta Regionale, dalla data dello scioglimento del Consiglio Regionale nei casi previsti dall'
+							<rif xlink:href="urn:nir:stato:costituzione:1947-12-27#art126" xlink:type="simple">art. 126 della Costituzione</rif>
+							.
 						</corpo>
 					</comma>
 				</articolo>
