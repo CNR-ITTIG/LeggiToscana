@@ -7,18 +7,30 @@
 					<pubblicazione norm="19750228" num="10" tipo="BURT" />
 					<entratainvigore norm="19750315" />
 					<redazione id="red1" nome="" norm="" />
-					<urn iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1975-02-24;16" />
+					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1975-02-24;16" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1975-02-24;16@1975-05-23" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19750315" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19750315" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19750614" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1975-02-24;16" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1975-02-24;17" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1975-05-23;49" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Si veda anche l'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1975-05-23;49#art1" xlink:type="simple">art. unico della legge regionale 23 maggio 1975, n. 49</rif>
+							.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -49,6 +61,21 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art5-com3-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1975-05-23;49" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1975-05-23;49#artunico-com4" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 4 della legge Regione Toscana 23 maggio 1975, n. 49" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -119,7 +146,10 @@
 					</comma>
 				</articolo>
 				<articolo id="art4">
-					<num>ARTICOLO 4</num>
+					<num>
+						ARTICOLO 4
+						<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					</num>
 					<rubrica>(Limiti di densità edilizia nelle zone agricole)</rubrica>
 					<comma finevigore="t2" id="art4-com1-t2" iniziovigore="t1" status="abrogato">
 						<num />
@@ -229,7 +259,12 @@
 					</comma>
 					<comma id="art5-com4" iniziovigore="t2">
 						<num />
-						<corpo>Nel caso di edifici ricadenti nelle zone di rispetto delle strade, potranno essere autorizzati gli ampliamenti di cui al comma precedente purchè non comportino l'avanzamento dell'edificio esistente verso il fronte stradale, fatta salva comunque la competenza degli organi statali in materia di demanio statale e di sicurezza del traffico.</corpo>
+						<corpo>
+							Nel caso di edifici ricadenti nelle zone di rispetto delle strade, potranno essere autorizzati gli ampliamenti
+							<h:span finevigore="t3" id="h1" iniziovigore="t1" status="abrogato">di cui al comma precedente</h:span>
+							<h:span id="h2" iniziovigore="t3">di cui ai commi precedenti</h:span>
+							purchè non comportino l'avanzamento dell'edificio esistente verso il fronte stradale, fatta salva comunque la competenza degli organi statali in materia di demanio statale e di sicurezza del traffico.
+						</corpo>
 					</comma>
 					<comma id="art5-com5">
 						<num />
