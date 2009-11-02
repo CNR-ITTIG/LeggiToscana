@@ -1,22 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19730330" num="15" tipo="BURT" />
 					<entratainvigore norm="19730414" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1973-03-24;16" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1973-03-24;16" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1973-03-24;16@1975-05-23" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19730414" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19750614" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1973-03-24;16" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1975-05-23;51" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art15" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1975-05-23;51" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1975-05-23;51#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 23 maggio 1975, n. 51" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art15" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art15-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -37,8 +59,13 @@
 					<comma id="art1-com1">
 						<num />
 						<corpo>
-							L'asilo nido è un servizio sociale per la realizzazione delle finalità indicate negli artt. 1 e 6 della
-							<rif xlink:href="urn:nir:stato:legge:1971-12-06;1044" xlink:type="simple">legge 6-12-1971, n. 1044</rif>
+							L'asilo nido è un servizio sociale per la realizzazione delle finalità indicate negli
+							<mrif>
+								<rif xlink:href="urn:nir:stato:legge:1971-12-06;1044#art1" xlink:type="simple">artt. 1</rif>
+								e
+								<rif xlink:href="urn:nir:stato:legge:1971-12-06;1044#art6" xlink:type="simple">6</rif>
+								della legge 6-12-1971 , n. 1044
+							</mrif>
 							.
 						</corpo>
 					</comma>
@@ -266,9 +293,9 @@
 						<corpo>I bilanci di previsione sono elaborati dai singoli Comitati di gestione e proposti, per l'approvazione, all'Ente gestore.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art15">
+				<articolo finevigore="t2" id="art15-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 15</num>
-					<comma id="art15-com1">
+					<comma id="art15-t2-com1">
 						<num />
 						<corpo>
 							I contributi per la costruzione e la gestione degli asili nido di cui alla
@@ -279,13 +306,34 @@
 						</corpo>
 					</comma>
 				</articolo>
+				<articolo id="art15" iniziovigore="t2">
+					<num>ARTICOLO 15</num>
+					<comma id="art15-com1">
+						<num />
+						<corpo>
+							I contributi per la costruzione e la gestione degli asili-nido di cui alla
+							<rif xlink:href="urn:nir:stato:legge:1971-12-06;1044" xlink:type="simple">legge 6 dicembre 1971, n. 1044</rif>
+							, ivi compresi quelli integrativi della Regione e quelli previsti dall'
+							<rif xlink:href="#art24" xlink:type="simple">art. 24</rif>
+							della presente legge, sono erogati a favore dei Comuni o Consorzi di Comuni, sulla base di un piano annuale.
+						</corpo>
+					</comma>
+					<comma id="art15-com2">
+						<num />
+						<corpo>
+							Il piano di cui al precedente comma, può prevedere l'utilizzazione dei fondi assegnati alla Regione dallo Stato ai sensi della
+							<rif xlink:href="urn:nir:stato:legge:1971-12-06;1044" xlink:type="simple">legge 6 dicembre 1971, n. 1044</rif>
+							, integrando i contributi già disposti a favore dei Comuni nel biennio precedente, ove si renda necessario l'adeguamento per l'evoluzione dei costi di costruzione degli asili-nido.
+						</corpo>
+					</comma>
+				</articolo>
 				<articolo id="art16">
 					<num>ARTICOLO 16</num>
 					<comma id="art16-com1">
 						<num />
 						<corpo>
 							Le domande per l'erogazione dei contributi di cui all'
-							<rif xlink:href="#art15" xlink:type="simple">articolo precedente</rif>
+							<rif xlink:href="#art15-t2" xlink:type="simple">articolo precedente</rif>
 							e di quelli previsti dall'
 							<rif xlink:href="#art24" xlink:type="simple">art. 24</rif>
 							della presente legge, sono indirizzate al Presidente della Giunta regionale entro il 30 aprile di ogni anno.
