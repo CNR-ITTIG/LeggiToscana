@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19750207" num="07" tipo="BURT" />
 					<entratainvigore norm="19750222" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1975-02-03;8" />
+					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1975-02-03;8" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1975-02-03;8@1975-04-21" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19750222" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19750222" fonte="ra1" id="t2" tipo="modifica" />
+						<evento data="19750425" fonte="rp1" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1975-02-03;8" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1974-01-22;10" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1975-04-21;31" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -40,6 +43,23 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1975-04-21;31" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1975-04-21;31#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 21 aprile 1975, n. 31" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -93,15 +113,63 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art3">
+				<articolo finevigore="t3" id="art3-t3" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 3</num>
-					<comma id="art3-com1">
+					<comma id="art3-t3-com1">
 						<num />
 						<corpo>Per l'attuazione della presente legge è autorizzata la spesa complessiva di L. 3.050.000.000 a carico del capitolo 23500 del bilancio di previsione per l'esercizio finanziario 1974.</corpo>
 					</comma>
-					<comma id="art3-com2">
+					<comma id="art3-t3-com2">
 						<num />
 						<corpo>Le somme eventualmente non impegnate nel corrente anno, potranno essere utilizzate nel prossimo esercizio finanziario.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art3" iniziovigore="t3">
+					<num>ARTICOLO 3</num>
+					<comma id="art3-com1">
+						<num />
+						<corpo>Per l'attuazione della presente legge è autorizzata la spesa complessiva di L. 3.050.000.000 a carico del capitolo n. 14750 "Provvidenze nel settore dei trasporti pubblici di linea - Contributi intesi a garantire l'efficienza dei pubblici servizi di linea automobilistici e filoviari" del bilancio per l'anno 1975 che si istituisce con la seguente variazione: Di nuova istituzione:</corpo>
+					</comma>
+					<comma id="art3-com2">
+						<num />
+						<corpo>
+							<h:table>
+								<h:tbody>
+									<h:tr>
+										<h:td>Tit. I</h:td>
+										<h:td>SPESE CORRENTI</h:td>
+										<h:td />
+									</h:tr>
+									<h:tr>
+										<h:td>Sez. 4a</h:td>
+										<h:td>Azione ed interventi in campo economico.</h:td>
+										<h:td />
+									</h:tr>
+									<h:tr>
+										<h:td>Rubr. 12a</h:td>
+										<h:td>Trasporti.</h:td>
+										<h:td />
+									</h:tr>
+									<h:tr>
+										<h:td>Cap. 14750</h:td>
+										<h:td>"Provvidenze nel settore dei trasporti pubblici di linea - Contributi intesi a garantire l'efficienza dei pubblici servizi di linea automobilistici e filoviari"</h:td>
+										<h:td>L. 3.050.000.000</h:td>
+									</h:tr>
+								</h:tbody>
+							</h:table>
+						</corpo>
+					</comma>
+					<comma id="art3-com3">
+						<num />
+						<corpo>
+							Alla copertura della relativa spesa si provvede con le disponibilità finanziarie residuate al capitolo 23500 del Bilancio 1974 avvalendosi del disposto dell'
+							<rif xlink:href="urn:nir:stato:legge:1955-02-27;64#art1" xlink:type="simple">art. 1 della legge n. 64 del 27-2-1955</rif>
+							.
+						</corpo>
+					</comma>
+					<comma id="art3-com4">
+						<num />
+						<corpo>Le somme eventualmente non impegnate nel corrente anno potranno essere utilizzate nel prossimo esercizio finanziario.</corpo>
 					</comma>
 				</articolo>
 			</articolato>
