@@ -1,22 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19730427" num="19" tipo="BURT" />
 					<entratainvigore norm="19730512" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1973-04-19;25" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1973-04-19;25" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1973-04-19;25@1975-05-28" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19730512" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19750619" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1973-04-19;25" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1975-05-28;57" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1975-05-28;57" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1975-05-28;57#artunico-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 2 della legge Regione Toscana 28 maggio 1975, n. 57" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1975-05-28;57" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1975-05-28;57#artunico-com3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 3 della legge Regione Toscana 28 maggio 1975, n. 57" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -38,7 +72,7 @@
 						<num />
 						<corpo>
 							Allo scopo di meglio garantire la sicurezza e la regolarità dell'esercizio di ferrovie e di altre linee di trasporto ad impianto fisso in regime di concessione e favorirne il potenziamento e lo sviluppo, la Giunta Regionale è autorizzata a concedere, entro i limiti degli stanziamenti previsti dall'
-							<rif xlink:href="#art4" xlink:type="simple">art. 4</rif>
+							<rif xlink:href="#art4-t2" xlink:type="simple">art. 4</rif>
 							della presente legge, agli Enti ed alle Imprese esercenti detti servizi, contributi intesi a facilitare il finanziamento di piani di costruzione, ammodernamento, potenziamento e riattivazione degli impianti e del materiale rotabile.
 						</corpo>
 					</comma>
@@ -50,7 +84,8 @@
 						<corpo>
 							Il contributo di cui all'
 							<rif xlink:href="#art1" xlink:type="simple">art. 1</rif>
-							della presente legge potrà essere concesso, previa presentazione di progetti e programmi di costruzione, ammodernamento, potenziamento e riattivazione degli impianti e del materiale rotabile presentati dagli Enti ed Imprese interessate, nella misura massima annua del 7% sulle spese da effettuare, e per la durata massima di 15 anni.
+							della presente legge potrà essere concesso, previa presentazione di progetti e programmi di costruzione, ammodernamento, potenziamento e riattivazione degli impianti e del materiale rotabile presentati dagli Enti ed Imprese interessate, nella misura massima annua del 7% sulle spese da effettuare, e per la durata massima di 15 anni
+							<h:span id="h1" iniziovigore="t2">ovvero 'una tantum' fino alla misura massima dell'80% della spesa necessaria per la realizzazione dei programmi suddetti.</h:span>
 						</corpo>
 					</comma>
 				</articolo>
@@ -65,15 +100,30 @@
 						<corpo>I contributi saranno erogati con decreto del Presidente della Giunta Regionale sulla base del programma di distribuzione approvato dal Consiglio Regionale e resteranno vincolati alla effettiva spesa da parte dei soggetti beneficiari.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art4">
+				<articolo finevigore="t2" id="art4-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 4</num>
-					<comma id="art4-com1">
+					<comma id="art4-t2-com1">
 						<num />
 						<corpo>Per l'attuazione della presente legge è autorizzata, per l'anno 1972, la spesa di L. 163.843.750 a carico del cap. 49/46 del bilancio di previsione dell'esercizio finanziario 1972.</corpo>
 					</comma>
-					<comma id="art4-com2">
+					<comma id="art4-t2-com2">
 						<num />
 						<corpo>L'onere derivante dai finanziamenti per i successivi esercizi finanziari all'anno 1986 farà carico al corrispondente capitolo dello stato di previsione della spesa per ogni singolo esercizio finanziario.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art4" iniziovigore="t2">
+					<num>ARTICOLO 4</num>
+					<comma id="art4-com1">
+						<num />
+						<corpo>Per l'attuazione della presente legge viene autorizzata, per l'anno 1975, la spesa di L. 163.843.750 a carico del cap. 22800 del bilancio per l'esercizio finanziario 1975.</corpo>
+					</comma>
+					<comma id="art4-com2">
+						<num />
+						<corpo>L'onere relativo agli esercizi finanziari fino al 1986, nel limite di spesa di cui al comma 1, farà carico ai corrispondenti capitoli dei relativi bilanci.</corpo>
+					</comma>
+					<comma id="art4-com3">
+						<num />
+						<corpo>Le somme stanziate con la presente legge e non impegnate nell'esercizio di riferimento possono essere utilizzate entro il biennio successivo.</corpo>
 					</comma>
 				</articolo>
 			</articolato>
