@@ -17,14 +17,39 @@
 						<evento data="19740827" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19750401" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19750619" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="19750619" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1974-07-04;35" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1974-08-27;51" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1974-08-27;51" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1975-05-31;64" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1974-08-27;51" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Ad integrazione della presente legge si veda anche la
+							<rif xlink:href="urn:nir:regione.toscana:legge:1974-08-27;51" xlink:type="simple">legge regionale 27 agosto 1974, n. 51</rif>
+							.
+						</h:p>
+					</nota>
+					<nota id="n2">
+						<h:p>
+							Si veda l'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1974-08-27;51#art1" xlink:type="simple">art. 1 della legge regionale 27 agosto 1974, n. 51</rif>
+							, relativamente alle norme in materia di licenza di caccia di cui ai commi terzo, quarto, quinto, sesto e settimo del presente comma.
+						</h:p>
+					</nota>
+					<nota id="n3">
+						<h:p>
+							Si veda inoltre l'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1974-08-27;51#art8" xlink:type="simple">art. 8 della legge regionale 27 agosto 1974, n. 51</rif>
+							, relativamente al tesserino di cui al presente articolo.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -141,7 +166,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art39-com4" xlink:type="simple" />
+								<dsp:pos xlink:href="#art39-com4-t5" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -618,6 +643,18 @@
 								<dsp:pos xlink:href="#art27-com4-t4" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art39-com4-t5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1974-08-27;51" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1974-08-27;51#art6" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo6, legge Regione Toscana 27 agosto 1974, n. 51" id="itt44" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art39-com4-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -627,7 +664,11 @@
 				<dataDoc norm="19740704">4 luglio 1974</dataDoc>
 				, n.
 				<numDoc>35</numDoc>
-				<titoloDoc>Difesa della fauna e regolamentazione dell'attività venatoria.</titoloDoc>
+				<titoloDoc>
+					Difesa della fauna e regolamentazione dell'attività venatoria
+					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					.
+				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 27-5-1974</h:p>
@@ -1251,7 +1292,10 @@
 					</comma>
 				</articolo>
 				<articolo id="art18">
-					<num>ARTICOLO 18</num>
+					<num>
+						ARTICOLO 18
+						<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+					</num>
 					<comma id="art18-com1">
 						<num />
 						<corpo>La caccia può essere esercitata solo da chi sia munito di apposita licenza.</corpo>
@@ -1298,7 +1342,10 @@
 					</comma>
 				</articolo>
 				<articolo id="art19">
-					<num>ARTICOLO 19</num>
+					<num>
+						ARTICOLO 19
+						<ndr num="#n3" valore="" xlink:type="simple">(c)</ndr>
+					</num>
 					<comma id="art19-com1">
 						<num />
 						<corpo>Durante l'esercizio della caccia è obbligatorio essere muniti del porto d'armi, della licenza di caccia, del tesserino regionale e della polizza assicurativa di cui all'articolo precedente. Tali documenti devono essere esibiti ad ogni richiesta degli agenti di vigilanza.</corpo>
@@ -2412,7 +2459,7 @@
 							, esclusi barbagianni, civetta, falco nonchè specie esotiche e ornamentali, è subordinata a specifica autorizzazione del Presidente della Giunta Provinciale. Sono vietati la detenzione e il commercio di selvaggina catturata o uccisa illegalmente.
 						</corpo>
 					</comma>
-					<comma id="art39-com4" iniziovigore="t2">
+					<comma finevigore="t5" id="art39-com4-t5" iniziovigore="t2" status="abrogato">
 						<num />
 						<corpo>Sono vietati la detenzione ed il commercio di selvaggina catturata o uccisa illegalmente. Si presume catturata o uccisa illegalmente la selvaggina di cui non sia data dimostrazione della legittima provenienza.</corpo>
 					</comma>
