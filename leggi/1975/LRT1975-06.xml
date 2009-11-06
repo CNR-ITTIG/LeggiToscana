@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19750117" num="04" tipo="BURT" />
 					<entratainvigore norm="19750117" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1975-01-16;6" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1975-01-16;6" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1975-01-16;6@1976-01-22" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19750117" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19760213" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1975-01-16;6" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1976-01-22;7" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -26,6 +29,40 @@
 						</h:p>
 					</nota>
 				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com3-num4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1976-01-22;7" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1976-01-22;7#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 22 gennaio 1976, n. 7" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art1-com3-num4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art1-com3-num4-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1976-01-22;7" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1976-01-22;7#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 22 gennaio 1976, n. 7" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6-com1-letb" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art6-com1-letb-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -108,7 +145,7 @@
 								,nonchè la spesa per il decentramento di funzioni relative alla predetta legge;
 							</corpo>
 						</en>
-						<en id="art1-com3-num4">
+						<en finevigore="t2" id="art1-com3-num4-t2" iniziovigore="t1" status="abrogato">
 							<num>4)</num>
 							<corpo>
 								spesa d'investimento relativa agli enti di cui al punto 1 ed altri oneri comunque afferenti il
@@ -116,6 +153,28 @@
 								convertito nella
 								<rif xlink:href="urn:nir:stato:legge:1974-08-17;386" xlink:type="simple">legge 17 agosto 1974, n. 386</rif>
 								, nonchè spese impreviste riguardanti i precedenti gruppi di spesa.
+							</corpo>
+						</en>
+						<en id="art1-com3-num4" iniziovigore="t2">
+							<num>4)</num>
+							<corpo>
+								spesa di investimento relativa agli enti di cui al punto 1 ed altri oneri comunque afferenti il
+								<rif xlink:href="urn:nir:stato:decreto.legge:1974-07-08;264" xlink:type="simple">DL 8 luglio 1974 n. 264</rif>
+								convertito in
+								<rif xlink:href="urn:nir:stato:legge:1974-08-17;386" xlink:type="simple">legge 17 agosto 1974 n. 386</rif>
+								; oneri conseguenti all'attuazione degli
+								<mrif>
+									articoli
+									<rif xlink:href="urn:nir:stato:legge:1975-04-18;148#art9" xlink:type="simple">9</rif>
+									,
+									<rif xlink:href="urn:nir:stato:legge:1975-04-18;148#art10" xlink:type="simple">10</rif>
+									,
+									<rif xlink:href="urn:nir:stato:legge:1975-04-18;148#art11" xlink:type="simple">11</rif>
+									e
+									<rif xlink:href="urn:nir:stato:legge:1975-04-18;148#art12" xlink:type="simple">12</rif>
+									dellalegge 18 aprile 1975 n. 148
+								</mrif>
+								; spese impreviste riguardanti i precedenti gruppi di spesa.
 							</corpo>
 						</en>
 					</comma>
@@ -322,16 +381,24 @@
 						<num />
 						<alinea>
 							La somma di cui all'
-							<rif xlink:href="#art1-com3-num4" xlink:type="simple">art. 1, punto 4)</rif>
+							<rif xlink:href="#art1-com3-num4-t2" xlink:type="simple">art. 1, punto 4)</rif>
 							, eccezion fatta per le spese impreviste, è ripartita separatamente fra gli enti ospedalieri in quote comprendenti:
 						</alinea>
 						<el id="art6-com1-leta">
 							<num>a)</num>
 							<corpo>spese per interventi cui consegue una compressione dei costi di gestione e/o un miglioramento o ripristino del grado di efficienza dei servizi, per ammodernamento, acquisti di attrezzature sanitarie e tecnico - economali e di automezzi;</corpo>
 						</el>
-						<el id="art6-com1-letb">
+						<el finevigore="t2" id="art6-com1-letb-t2" iniziovigore="t1" status="abrogato">
 							<num>b)</num>
 							<corpo>spese per la didattica medica e non medica, per l'educazione sanitaria e per la ricerca scientifica;</corpo>
+						</el>
+						<el id="art6-com1-letb" iniziovigore="t2">
+							<num>b)</num>
+							<corpo>
+								spese per la didattica medica e non medica e per la ricerca scientifica; spese per il tirocinio pratico di cui alla
+								<rif xlink:href="urn:nir:stato:legge:1975-04-18;148" xlink:type="simple">legge n. 148 del 18 aprile 1975</rif>
+								.
+							</corpo>
 						</el>
 						<el id="art6-com1-letc">
 							<num>c)</num>
