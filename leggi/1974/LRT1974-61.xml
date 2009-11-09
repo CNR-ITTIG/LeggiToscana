@@ -1,22 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19740913" num="41" tipo="BURT" />
 					<entratainvigore norm="19740928" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1974-09-09;61" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1974-09-09;61" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1974-09-09;61@1976-01-30" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19740928" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19760221" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1974-09-09;61" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1976-01-30;8" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1976-01-30;8" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1976-01-30;8#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 30 gennaio 1976, n. 8" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-com3-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -145,12 +167,20 @@
 						<num />
 						<corpo>Le somme stanziate in bilancio, se non impegnate nell'anno di riferimento, possono essere utilizzate entro il biennio successivo.</corpo>
 					</comma>
-					<comma id="art4-com3">
+					<comma finevigore="t2" id="art4-com3-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>
 							Il finanziamento di L. 6.500.000.000 previsto dalla
 							<rif xlink:href="urn:nir:regione.toscana:legge:1974-05-27;23" xlink:type="simple">legge regionale 27 maggio 1974, n. 23</rif>
 							, di cui al cap. 30500 del bilancio di previsione per l'anno 1974, è destinato per la quota di L. 5.000.000.000 alle acquisizioni e per la quota di L. 1.500.000.000 ai miglioramenti indicati all'art. 1 della predetta legge.
+						</corpo>
+					</comma>
+					<comma id="art4-com4" iniziovigore="t2">
+						<num />
+						<corpo>
+							Il finanziamento di L. 6.500.000.000 previsto dalla
+							<rif xlink:href="urn:nir:regione.toscana:legge:1974-05-27;23" xlink:type="simple">legge regionale 27 maggio 1974, n. 23</rif>
+							, di cui al capitolo 30500 del bilancio di previsione dell'anno 1974, è destinato per la quota di L. 4.000.000.000 alle acquisizioni e per la quota di L. 2.500.000.000 ai miglioramenti indicati nell'articolo 1 della predetta legge.
 						</corpo>
 					</comma>
 				</articolo>
