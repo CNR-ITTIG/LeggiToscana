@@ -1,22 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19750613" num="26" tipo="BURT" />
 					<entratainvigore norm="19750628" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1975-06-07;71" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1975-06-07;71" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1975-06-07;71@1976-02-04" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19750628" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19760228" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1975-06-07;71" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1976-02-04;10" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1976-02-04;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1976-02-04;10#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 4 febbraio 1976, n. 10" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1976-02-04;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1976-02-04;10#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 4 febbraio 1976, n. 10" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1976-02-04;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1976-02-04;10#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 4 febbraio 1976, n. 10" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art9-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art20" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1976-02-04;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1976-02-04;10#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 4 febbraio 1976, n. 10" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art20-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -75,7 +133,31 @@
 							<corpo>L'assistenza sociale e psico - pedagogica per gli alunni frequentanti le scuole e i corsi di cui al presente titolo è attuata da Comuni, Province e loro Consorzi, secondo le rispettive competenze e le funzioni ad esse delegate dalle leggi regionali.</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art4">
+					<articolo finevigore="t2" id="art4-t2" iniziovigore="t1" status="abrogato">
+						<num>ARTICOLO 4</num>
+						<rubrica>(Scuola secondaria superiore)</rubrica>
+						<comma id="art4-t2-com1">
+							<num />
+							<alinea>Al fine di assicurare il diritto allo studio, sono attuati i seguenti interventi nelle scuole ed istituti di istruzione secondaria superiore ed artistica statali, ivi compresi gli istituti professionali:</alinea>
+							<el id="art4-t2-com1-leta">
+								<num>a)</num>
+								<corpo>fornitura di mezzi finanziari per l'acquisto di pubblicazioni per biblioteche di classe e di istituto e di altro materiale didattico collettivo, ivi compresi l'acquisto di strumenti scientifici per laboratori nonchè di pubblicazioni e di altro materiale didattico di uso individuale per gli allievi in condizioni di disagio economico;</corpo>
+							</el>
+							<el id="art4-t2-com1-letb">
+								<num>b)</num>
+								<corpo>servizio di mensa;</corpo>
+							</el>
+							<el id="art4-t2-com1-letc">
+								<num>c)</num>
+								<corpo>trasporti, ivi compresi i relativi oneri assicurativi per i trasportati;</corpo>
+							</el>
+							<el id="art4-t2-com1-letd">
+								<num>d)</num>
+								<corpo>alloggio per gli alunni residenti fuori sede sia sotto forma di posti gratuiti o semigratuiti in convitti e pensionati, sia sotto forma di contributi in denaro a favore di coloro che si trovano in condizioni di disagio economico.</corpo>
+							</el>
+						</comma>
+					</articolo>
+					<articolo id="art4" iniziovigore="t2">
 						<num>ARTICOLO 4</num>
 						<rubrica>(Scuola secondaria superiore)</rubrica>
 						<comma id="art4-com1">
@@ -83,11 +165,11 @@
 							<alinea>Al fine di assicurare il diritto allo studio, sono attuati i seguenti interventi nelle scuole ed istituti di istruzione secondaria superiore ed artistica statali, ivi compresi gli istituti professionali:</alinea>
 							<el id="art4-com1-leta">
 								<num>a)</num>
-								<corpo>fornitura di mezzi finanziari per l'acquisto di pubblicazioni per biblioteche di classe e di istituto e di altro materiale didattico collettivo, ivi compresi l'acquisto di strumenti scientifici per laboratori nonchè di pubblicazioni e di altro materiale didattico di uso individuale per gli allievi in condizioni di disagio economico;</corpo>
+								<corpo>fornitura di mezzi finanziari per l'acquisto di pubblicazioni per biblioteche di classe e di istituto e di altro materiale didattico collettivo, ivi compresi l'acquisto di strumenti scientifici per laboratori nonchè di pubblicazioni e di altro materiale didattico di uso individuale per gli allievi in condizione di disagio economico;</corpo>
 							</el>
 							<el id="art4-com1-letb">
 								<num>b)</num>
-								<corpo>servizio di mensa;</corpo>
+								<corpo>servizi di mensa;</corpo>
 							</el>
 							<el id="art4-com1-letc">
 								<num>c)</num>
@@ -98,39 +180,47 @@
 								<corpo>alloggio per gli alunni residenti fuori sede sia sotto forma di posti gratuiti o semigratuiti in convitti e pensionati, sia sotto forma di contributi in denaro a favore di coloro che si trovano in condizioni di disagio economico.</corpo>
 							</el>
 						</comma>
+						<comma id="art4-com2">
+							<num />
+							<corpo>
+								Gli interventi di cui alle lettere b) e c) del precedente comma saranno attuati, ove possibile, utilizzando gli stessi servizi previsti dall'
+								<rif xlink:href="urn:nir:regione.toscana:legge:1975;39#art12" xlink:type="simple">articolo 12 della legge regionale n. 39/75</rif>
+								(atti del consiglio) del 9 dicembre 1975.
+							</corpo>
+						</comma>
 					</articolo>
-					<articolo id="art5">
+					<articolo finevigore="t2" id="art5-t2" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 5</num>
 						<rubrica>(Corsi di formazione professionale)</rubrica>
-						<comma id="art5-com1">
+						<comma id="art5-t2-com1">
 							<num />
 							<corpo>I corsi di formazione professionale gestiti direttamente dalla Regione sono gratuiti per ciò che riguarda in particolare la frequenza, i materiali e le attività didattiche.</corpo>
 						</comma>
-						<comma id="art5-com2">
+						<comma id="art5-t2-com2">
 							<num />
 							<alinea>Al fine di assicurare il diritto allo studio, sono attuati inoltre i seguenti interventi a favore degli allievi:</alinea>
-							<el id="art5-com2-leta">
+							<el id="art5-t2-com2-leta">
 								<num>a)</num>
 								<corpo>presalario di L. 18.000 mensili per la frequenza dei corsi;</corpo>
 							</el>
-							<el id="art5-com2-letb">
+							<el id="art5-t2-com2-letb">
 								<num>b)</num>
 								<corpo>trasporto gratuito ivi compresi l'acquisto di appositi mezzi e relativi oneri assicurativi dal luogo di residenza abituale alla sede del corso, anche sotto forma di rimborso spese;</corpo>
 							</el>
-							<el id="art5-com2-letc">
+							<el id="art5-t2-com2-letc">
 								<num>c)</num>
 								<corpo>assegno di residenza di L. 30.000 mensili per tutti gli allievi che siano impossibilitati a raggiungere giornalmente la sede del corso dal luogo della loro residenza abituale;</corpo>
 							</el>
-							<el id="art5-com2-letd">
+							<el id="art5-t2-com2-letd">
 								<num>d)</num>
 								<corpo>mensa giornaliera gratuita.</corpo>
 							</el>
 						</comma>
-						<comma id="art5-com3">
+						<comma id="art5-t2-com3">
 							<num />
 							<corpo>
 								Gli interventi di cui alle lettere b) e d) del precedente comma saranno attuati, ove possibile, utilizzando gli stessi servizi di cui alle lettere b) e c) del
-								<rif xlink:href="#art4" xlink:type="simple">precedente art. 4</rif>
+								<rif xlink:href="#art4-t2" xlink:type="simple">precedente art. 4</rif>
 								.
 							</corpo>
 						</comma>
@@ -214,7 +304,7 @@
 							<num />
 							<alinea>
 								Le funzioni di cui all'
-								<rif xlink:href="#art4" xlink:type="simple">art. 4</rif>
+								<rif xlink:href="#art4-t2" xlink:type="simple">art. 4</rif>
 								della presente legge sono delegate alle Province che le eserciteranno, a norma dell'
 								<rif xlink:href="urn:nir:regione.toscana:statuto:#art65" xlink:type="simple">art. 65 dello Statuto</rif>
 								, secondo i seguenti indirizzi:
@@ -231,7 +321,7 @@
 								<num>b)</num>
 								<corpo>
 									gli interventi di cui alla
-									<rif xlink:href="#art4-com1-leta" xlink:type="simple">lettera a) dell'art. 4</rif>
+									<rif xlink:href="#art4-t2-com1-leta" xlink:type="simple">lettera a) dell'art. 4</rif>
 									saranno attuati in modo da assicurare agli insegnanti, alle famiglie, agli studenti e alle formazioni sociali interessate, attraverso apposite forme di consultazione democratica, la partecipazione alla scelta dei criteri e della misura dei mezzi da destinare rispettivamente agli interventi di natura collettiva ed individuale e comunque nel rispetto dell'autonomia didattica della scuola;
 								</corpo>
 							</el>
@@ -239,7 +329,7 @@
 								<num>c)</num>
 								<corpo>
 									gli interventi di cui alla
-									<rif xlink:href="#art4-com1-letb" xlink:type="simple">lettera b) dell'art. 4</rif>
+									<rif xlink:href="#art4-t2-com1-letb" xlink:type="simple">lettera b) dell'art. 4</rif>
 									potranno essere attuati in economia o in appalto, sia direttamente da parte delle Province sia sotto forma di contributi agli istituti e favoriranno gli studenti in condizioni di disagio economico, con particolare riguardo agli studenti lavoratori e agli studenti pendolari;
 								</corpo>
 							</el>
@@ -247,7 +337,7 @@
 								<num>d)</num>
 								<corpo>
 									gli interventi di cui allalettera c) e d) dell'
-									<rif xlink:href="#art4" xlink:type="simple">art. 4</rif>
+									<rif xlink:href="#art4-t2" xlink:type="simple">art. 4</rif>
 									potranno essere attuati sia direttamente da parte delle Province, sia sotto forma di contributi agli istituti;
 								</corpo>
 							</el>
@@ -255,7 +345,7 @@
 								<num>e)</num>
 								<corpo>
 									tutti gli interventi di cui all'
-									<rif xlink:href="#art4" xlink:type="simple">art. 4</rif>
+									<rif xlink:href="#art4-t2" xlink:type="simple">art. 4</rif>
 									saranno attuati in modo da favorire, nel rispetto delle competenze dello Stato, la sperimentazione didattica e la realizzazione della scuola a tempo pieno;
 								</corpo>
 							</el>
@@ -263,7 +353,7 @@
 								<num>f)</num>
 								<corpo>
 									tutti gli interventi di cui all'
-									<rif xlink:href="#art4" xlink:type="simple">art. 4</rif>
+									<rif xlink:href="#art4-t2" xlink:type="simple">art. 4</rif>
 									saranno attuati in modo da assicurare la gestione sociale della scuola;
 								</corpo>
 							</el>
@@ -271,7 +361,7 @@
 								<num>g)</num>
 								<corpo>
 									una parte degli interventi di cui all'
-									<rif xlink:href="#art4" xlink:type="simple">art. 4</rif>
+									<rif xlink:href="#art4-t2" xlink:type="simple">art. 4</rif>
 									sarà riservata gratuitamente a studenti capaci e meritevoli, oltre che in condizioni di disagio economico, mediante appositi concorsi da bandirsi da parte degli Enti delegati, su direttive impartite dal Consiglio Regionale ai sensi dell'
 									<rif xlink:href="urn:nir:regione.toscana:statuto:#art65-com2" xlink:type="simple">art. 65, secondo comma, dello Statuto</rif>
 									.
@@ -279,14 +369,14 @@
 							</el>
 						</comma>
 					</articolo>
-					<articolo id="art9">
+					<articolo finevigore="t2" id="art9-t2" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 9</num>
 						<rubrica>(Delega per i corsi di formazione professionale)</rubrica>
-						<comma id="art9-com1">
+						<comma id="art9-t2-com1">
 							<num />
 							<corpo>
 								Le funzioni di cui all'
-								<rif xlink:href="#art5" xlink:type="simple">art. 5</rif>
+								<rif xlink:href="#art5-t2" xlink:type="simple">art. 5</rif>
 								della presente legge sono delegate alle Province che le eserciteranno, a norma dell'
 								<rif xlink:href="urn:nir:regione.toscana:statuto:#art65" xlink:type="simple">art. 65 dello Statuto</rif>
 								, stabilendo gli opportuni contatti con i Comuni ai fini della costituzione dei Consorzi previsti dal
@@ -367,9 +457,9 @@
 								Per l'esercizio delle funzioni di cui agli
 								<mrif>
 									articoli
-									<rif xlink:href="#art4" xlink:type="simple">4</rif>
+									<rif xlink:href="#art4-t2" xlink:type="simple">4</rif>
 									e
-									<rif xlink:href="#art5" xlink:type="simple">5</rif>
+									<rif xlink:href="#art5-t2" xlink:type="simple">5</rif>
 								</mrif>
 								della presente legge le Province hanno facoltà di unirsi in consorzi fra loro e con i Comuni, ai sensi degli
 								<rif xlink:href="urn:nir:stato:regio.decreto:1934-03-03;383#art156" xlink:type="simple">articoli 156 e seguenti del RD 3 marzo 1934, n. 383</rif>
@@ -406,9 +496,9 @@
 									,
 									<rif xlink:href="#art2" xlink:type="simple">2</rif>
 									,
-									<rif xlink:href="#art4" xlink:type="simple">4</rif>
+									<rif xlink:href="#art4-t2" xlink:type="simple">4</rif>
 									e
-									<rif xlink:href="#art5" xlink:type="simple">5</rif>
+									<rif xlink:href="#art5-t2" xlink:type="simple">5</rif>
 								</mrif>
 								della presente legge la Regione erogherà direttamente al consorzio la percentuale delle somme spettanti agli enti delegati che questi ultimi sono tenuti e versare al Consorzio a norma dell'
 								<rif xlink:href="#art15" xlink:type="simple">articolo 15</rif>
@@ -449,9 +539,9 @@
 									,
 									<rif xlink:href="#art2" xlink:type="simple">2</rif>
 									,
-									<rif xlink:href="#art4" xlink:type="simple">4</rif>
+									<rif xlink:href="#art4-t2" xlink:type="simple">4</rif>
 									e
-									<rif xlink:href="#art5" xlink:type="simple">5</rif>
+									<rif xlink:href="#art5-t2" xlink:type="simple">5</rif>
 								</mrif>
 								o da una sua percentuale, salva la facoltà per l'ente delegato di integrarla con autonomi finanziamenti.
 							</corpo>
@@ -593,7 +683,7 @@
 							<num />
 							<alinea>
 								Per gli interventi di cui all'
-								<rif xlink:href="#art4" xlink:type="simple">articolo 4</rif>
+								<rif xlink:href="#art4-t2" xlink:type="simple">articolo 4</rif>
 								della presente legge è autorizzata la spesa di L. 1.600.000.000 da ripartirsi tra le Province e i Consorzi di cui all'
 								<rif xlink:href="#art13" xlink:type="simple">articolo 13</rif>
 								con le seguenti modalità:
@@ -602,7 +692,7 @@
 								<num>a)</num>
 								<corpo>
 									per il 30 per cento in proporzione diretta al numero di studenti frequentanti le scuole ed istituti di istruzione secondaria superiore ed artistica, di cui all'
-									<rif xlink:href="#art4" xlink:type="simple">articolo 4</rif>
+									<rif xlink:href="#art4-t2" xlink:type="simple">articolo 4</rif>
 									della presente legge, esistenti nel territorio di ciascuna Provincia o di ciascun Consorzio secondo gli ultimi dati disponibili prima della ripartizione;
 								</corpo>
 							</el>
@@ -628,14 +718,14 @@
 							</el>
 						</comma>
 					</articolo>
-					<articolo id="art20">
+					<articolo finevigore="t2" id="art20-t2" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 20</num>
 						<rubrica>(Finanziamento delle funzioni delegate per i corsi di formazione professionale)</rubrica>
-						<comma id="art20-com1">
+						<comma id="art20-t2-com1">
 							<num />
 							<corpo>
 								Per gli interventi di cui all'
-								<rif xlink:href="#art5" xlink:type="simple">articolo 5</rif>
+								<rif xlink:href="#art5-t2" xlink:type="simple">articolo 5</rif>
 								della presente legge è autorizzata la spesa annua di Lire 1.200.000.000 da ripartirsi tra le Provincie e i Consorzi di cui all'
 								<rif xlink:href="#art13" xlink:type="simple">articolo 13</rif>
 								, fino all'entrata in vigore della legge regionale di delega in materia di istruzione professionale, in base al numero di allievi frequentanti i corsi di formazione professionale direttamente gestiti dalla Regione.
@@ -673,7 +763,7 @@
 								, lettere a), b), c) e d),
 								<rif xlink:href="#art19" xlink:type="simple">19</rif>
 								, lettere a), b) e c), e
-								<rif xlink:href="#art20" xlink:type="simple">20</rif>
+								<rif xlink:href="#art20-t2" xlink:type="simple">20</rif>
 								, sono ripartite fra gli enti delegati con deliberazione della Giunta Regionale, ed erogate entro il primo marzo di ogni anno. Nella prima applicazione l'erogazione avverrà entro 60 giorni dalla entrata in vigore della presente legge.
 							</corpo>
 						</comma>
@@ -872,7 +962,7 @@
 								<num>-</num>
 								<corpo>
 									Interventi per corsi di formazione professionale (
-									<rif xlink:href="#art20" xlink:type="simple">art. 20</rif>
+									<rif xlink:href="#art20-t2" xlink:type="simple">art. 20</rif>
 									) L. 280.000.000
 								</corpo>
 							</ep>
