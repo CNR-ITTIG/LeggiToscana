@@ -1,38 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t2" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19730105" num="02" tipo="BURT" />
 					<entratainvigore norm="19730120" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1973-01-03;3" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1973-01-03;3" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1973-01-03;3@1976-04-07" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19730120" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19760701" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1973-01-03;3" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1976-04-07;15" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Ai sensi dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1974-09-05;57#art1-com1" xlink:type="simple">art. 1, comma 1, della legge regionale 5 settembre 1974, n. 57</rif>
 							, l’erogazione ai Comuni dei contributi previsti dalla presente legge, è prorogata fino all'entrata in vigore della legge di delega agli Enti locali delle funzioni amministrative in materia di assistenza e beneficenza pubblica.
 						</h:p>
 					</nota>
-					<nota id="n2">
+					<nota id="LeggeRegionale1-n2">
 						<h:p>
 							Importo elevato a L. 150.000 ai sensi dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1974-09-05;57#art1-com2" xlink:type="simple">art. 1, comma 2, della legge regionale 5 settembre 1974, n. 57</rif>
 							, a partire dalla data di entrata in vigore della stessa.
 						</h:p>
 					</nota>
-					<nota id="n3">
+					<nota id="LeggeRegionale1-n3">
 						<h:p>
 							Ai sensi dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1974-09-05;57#art2" xlink:type="simple">art. 2 della legge regionale 5 settembre 1974, n. 57</rif>
@@ -40,6 +43,22 @@
 						</h:p>
 					</nota>
 				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1973-01-03;3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1976-04-07;15" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1976-04-07;15#art32-com3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 32, comma 3 della legge Regione Toscana 7 aprile 1976, n. 15" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -49,7 +68,7 @@
 				<numDoc>3</numDoc>
 				<titoloDoc>
 					Provvedimenti a favore dei Comuni o loro Consorzi per l'assistenza domiciliare alle persone anziane
-					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 					.
 				</titoloDoc>
 			</intestazione>
@@ -65,7 +84,7 @@
 						<num />
 						<corpo>
 							La Regione concorre alle spese sostenute dai Comuni o dai loro Consorzi per l'assistenza domiciliare alle persone anziane ultrasessantenni, mediante contributi commisurati al numero degli assistiti. Per assistenza domiciliare si intende l'attività di assistenza economica oltre a quella prestata da collaboratrici domestiche o da altro personale di assistenza, generico o specializzato, con il fine di consentire alle persone anziane di mantenere la loro autonomia al di fuori di ambienti comunitari. I contributi non potranno superare la cifra annua di L. 90.000 per ogni assistito
-							<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+							<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(b)</ndr>
 							.
 						</corpo>
 					</comma>
@@ -76,7 +95,7 @@
 						<num />
 						<corpo>
 							Le domande per la concessione dei contributi di cui al precedente articolo, corredate di un elenco contenente i nominativi delle persone assistite con l'indicazione del rispettivo domicilio, devono essere presentate al Presidente della Giunta Regionale da parte dei Comuni e dei loro Consorzi, entro il mese di marzo di ogni anno
-							<ndr num="#n3" valore="" xlink:type="simple">(c)</ndr>
+							<ndr num="#LeggeRegionale1-n3" valore="" xlink:type="simple">(c)</ndr>
 							.
 						</corpo>
 					</comma>
