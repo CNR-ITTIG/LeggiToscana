@@ -8,18 +8,30 @@
 					<entratainvigore norm="19740824" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1974-08-05;46" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1974-08-05;46@1975-01-11" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1974-08-05;46@1975-01-11" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1974-08-05;46@1976-05-18" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19740824" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19750117" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19760528" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1974-08-05;46" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1975-01-11;2" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1976-05-18;20" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Ai sensi dell'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1976-05-18;18#art2" xlink:type="simple">art. 2 della legge regionale 18 maggio 1976, n. 18</rif>
+							, le domande per la concessione dei contributi di cui al presente comma, per gli interventi relativi alle cave di pietra serena e di "pietra del cardoso" di cui al precedente articolo 1, sono presentate, per l’anno 1976, nel termine di 30 giorni dalla pubblicazione della suddetta legge sul Bollettino Ufficiale della Regione Toscana.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -52,6 +64,21 @@
 								<dsp:pos xlink:href="#art9-t2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1976-05-18;20" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1976-05-18;20#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 18 maggio 1976, n. 20" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art1-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -70,11 +97,18 @@
 				<h:p>la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<articolo id="art1">
+				<articolo finevigore="t3" id="art1-t3" iniziovigore="t1" status="abrogato">
+					<num>ARTICOLO 1</num>
+					<comma id="art1-t3-com1">
+						<num />
+						<corpo>Le disposizioni della presente legge sono dirette ad attuare interventi straordinari rivolti ad agevolare iniziative per lo sviluppo nell'ambito del territorio regionale delle attività relative a coltivazione di cave di marmo, di travertino, di onice e di alabastro.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art1" iniziovigore="t3">
 					<num>ARTICOLO 1</num>
 					<comma id="art1-com1">
 						<num />
-						<corpo>Le disposizioni della presente legge sono dirette ad attuare interventi straordinari rivolti ad agevolare iniziative per lo sviluppo nell'ambito del territorio regionale delle attività relative a coltivazione di cave di marmo, di travertino, di onice e di alabastro.</corpo>
+						<corpo>Le disposizioni della presente legge sono dirette ad attuare interventi straordinari rivolti ad agevolare iniziative per lo sviluppo nell'ambito del territorio regionale delle attività relative a coltivazione di cave di marmo, di travertino, di onice, di alabastro, di roccia arenaria, limitatamente alla pietra serena, e del tipo litologico detto "pietra del cardoso"della Toscana.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art2">
@@ -110,7 +144,7 @@
 						<num />
 						<alinea>
 							A favore di imprese artigiane, di loro consorzi o cooperative, di cooperative di lavoratori e loro consorzi, di società a partecipazione di enti locali, di piccoli imprenditori singoli od associati, sono concessi contributi in conto capitale per le seguenti iniziative inerenti le attività di coltivazione di cui all'
-							<rif xlink:href="#art1" xlink:type="simple">art. 1</rif>
+							<rif xlink:href="#art1-t3" xlink:type="simple">art. 1</rif>
 							:
 						</alinea>
 						<el id="art3-com1-leta">
@@ -165,7 +199,11 @@
 					<num>ARTICOLO 6</num>
 					<comma id="art6-com1">
 						<num />
-						<corpo>Le domande per la concessione dei contributi di cui alla presente legge, sono indirizzate al presidente della Giunta Regionale e presentate al Sindaco del Comune ove è situata la cava entro il 31 marzo di ogni anno.</corpo>
+						<corpo>
+							Le domande per la concessione dei contributi di cui alla presente legge, sono indirizzate al presidente della Giunta Regionale e presentate al Sindaco del Comune ove è situata la cava entro il 31 marzo di ogni anno
+							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							.
+						</corpo>
 					</comma>
 					<comma id="art6-com2">
 						<num />
