@@ -1,22 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19750604" num="25" tipo="BURT" />
 					<entratainvigore norm="19750619" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1975-05-28;59" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1975-05-28;59" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1975-05-28;59@1976-06-04" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19750619" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19760626" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1975-05-28;59" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1976-06-04;23" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1975-05-28;59" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1976-06-04;23" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1976-06-04;23#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 4 giugno 1976, n. 23" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art7bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -137,6 +156,20 @@
 							I provvedimenti del consiglio di amministrazione in ordine alle spese di cui al
 							<rif xlink:href="#art2-com1-num3" xlink:type="simple">n. 3 del precedente articolo 2</rif>
 							devono dimostrare l'effettiva disponibilità e l'immediata utilizzazione degli ambienti destinati ad ospitare la divisione, la sezione o il servizio, nonchè la disponibilità di adeguate unità di personale.
+						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art7bis" iniziovigore="t2">
+					<num>Art. 7 bis</num>
+					<rubrica />
+					<comma id="art7bis-com1">
+						<num />
+						<corpo>
+							Entro il limite del 10% delle disponibilità annue di cui all'
+							<rif xlink:href="#art1" xlink:type="simple">articolo 1</rif>
+							, nei casi di assoluta urgenza, il finanziamento delle spese di cui all'
+							<rif xlink:href="#art2" xlink:type="simple">articolo 2</rif>
+							è disposto, su proposta della giunta regionale e previo parere favorevole della competente commissione consiliare, con decreto del Presidente della Giunta.
 						</corpo>
 					</comma>
 				</articolo>
