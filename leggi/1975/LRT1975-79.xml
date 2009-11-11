@@ -1,22 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19751230" num="59" tipo="BURT" />
 					<entratainvigore norm="19760114" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1975-12-29;79" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1975-12-29;79" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1975-12-29;79@1976-04-23" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19760114" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19760515" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1975-12-29;79" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1976-04-23;17" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com7" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1976-04-23;17" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1976-04-23;17#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 23 aprile 1976, n. 17" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com8" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1976-04-23;17" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1976-04-23;17#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 23 aprile 1976, n. 17" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art7bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -171,6 +202,10 @@
 						<num />
 						<corpo>Nei casi di cui ai due precedenti commi il consiglio di amministrazione può, ai fini di una migliore funzionalità organizzativa, nominare una giunta esecutiva con criteri di rappresentanza proporzionale alla composizione del consiglio di amministrazione stesso e nel rispetto della minoranza. Il consiglio decide quali delle proprie funzioni delegare alla giunta.</corpo>
 					</comma>
+					<comma id="art4-com8" iniziovigore="t2">
+						<num />
+						<corpo>Le disposizioni di cui ai precedenti comma quinto, sesto e settimo si applicano anche ai consigli di amministrazione degli enti unificati per fusione con leggi regionali anteriori alla presente legge.</corpo>
+					</comma>
 				</articolo>
 				<articolo id="art5">
 					<num>ARTICOLO 5</num>
@@ -259,6 +294,26 @@
 					<comma id="art7-com5">
 						<num />
 						<corpo>I consigli di amministrazione degli enti ospedalieri incorporanti restano in carica fino alla nomina del nuovo consiglio di amministrazione.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art7bis" iniziovigore="t2">
+					<num>Art. 7 bis</num>
+					<rubrica />
+					<comma id="art7bis-com1">
+						<num />
+						<corpo>Le incorporazioni possono essere anticipate rispetto alla data indicata nel primo comma dell'articolo precedente, purchè ne faccia richiesta l'ente incorporante e vi consenta l'ente incorporato e scorporato.</corpo>
+					</comma>
+					<comma id="art7bis-com2">
+						<num />
+						<corpo>
+							Le incorporazioni anticipate devono in ogni caso ottenere il parere favorevole del comitato comprensoriale di cui all'
+							<rif xlink:href="#art11" xlink:type="simple">articolo 11</rif>
+							, ove costituito, ovvero di almeno due terzi dei comuni competenti per territorio secondo la tabella A.
+						</corpo>
+					</comma>
+					<comma id="art7bis-com3">
+						<num />
+						<corpo>Nel caso di incorporazioni anticipate il decreto del presidente della Giunta regionale previsto dal primo comma dell'articolo precedente è adottato su conforme deliberazione del consiglio regionale.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art8">
@@ -817,7 +872,7 @@
 						<denAnnesso>TABELLA A</denAnnesso>
 						<titAnnesso>PIANO OSPEDALIERO TRANSITORIO DELLA REGIONE TOSCANA</titAnnesso>
 					</testata>
-					<rifesterno xlink:href="urn:nir:regione.toscana:legge:1975-12-29;79:tabella.a;piano.ospedaliero.transitorio.della.regione.toscana" xlink:type="simple" />
+					<rifesterno xlink:href="urn:nir:regione.toscana:legge:1975-12-29;79:allegato.b" xlink:type="simple" />
 				</annesso>
 				<annesso id="ann2">
 					<testata>
