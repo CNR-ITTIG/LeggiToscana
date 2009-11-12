@@ -8,16 +8,19 @@
 					<entratainvigore norm="19720701" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1972-06-05;11" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1972-06-05;11@1973-10-30" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1972-06-05;11@1973-10-30" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1972-06-05;11@1976-06-16" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19720701" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19731201" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19760710" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1972-06-05;11" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1973-10-30;56" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1976-06-16;29" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -45,6 +48,33 @@
 								<dsp:pos xlink:href="#h1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1976-06-16;29" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1976-06-16;29#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 16 giugno 1976, n. 29" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com5" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-com4-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1976-06-16;29" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1976-06-16;29#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 16 giugno 1976, n. 29" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com6" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -199,15 +229,23 @@
 						<num />
 						<corpo>Spetta comunque al Presidente il coordinamento delle funzioni delegate.</corpo>
 					</comma>
-					<comma id="art4-com4">
+					<comma finevigore="t3" id="art4-com4-t3" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>La Giunta può altresì delegare funzioni amministrative di cui al comma precedente a funzionari in servizio presso la Regione e agli Ufficiali sanitari dei Comuni e dei Consorzi comunali, che le esercitano secondo direttive vincolanti. I singoli componenti la Giunta curano il rispetto di tali direttive.</corpo>
 					</comma>
-					<comma id="art4-com5">
+					<comma id="art4-com5" iniziovigore="t3">
+						<num />
+						<corpo>La giunta può altresì delegare le funzioni amministrative e tecniche di cui al comma 1 del presente articolo nonchè quelle comunque attribuite dalla legislazione vigente ai medici e ai veterinari provinciali, a funzionari in servizio presso la Regione, agli ufficiali sanitari e ai veterinari comunali dei comuni e dei consorzi comunali; che le esercitano secondo le direttive vincolanti.</corpo>
+					</comma>
+					<comma id="art4-com6" iniziovigore="t3">
+						<num />
+						<corpo>I singoli componenti la giunta curano il rispetto di tali direttive.</corpo>
+					</comma>
+					<comma id="art4-com7">
 						<num />
 						<corpo>La delega prevista dai due comma precedenti ha effetto dal giorno di pubblicazione della deliberazione relativa sul Bollettino Ufficiale della Regione e può essere in ogni momento revocata con le stesse formalità.</corpo>
 					</comma>
-					<comma id="art4-com6">
+					<comma id="art4-com8">
 						<num />
 						<corpo>La Giunta con propria deliberazione può in ogni tempo avocare a sè l'esercizio di qualsiasi funzione amministrativa delegata.</corpo>
 					</comma>
