@@ -1,22 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19760120" num="04" tipo="BURT" />
 					<entratainvigore norm="19760204" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1976-01-12;2" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1976-01-12;2" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1976-01-12;2@1976-06-07" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19760204" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19760611" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1976-01-12;2" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1976-06-07;25" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Ai sensi dell'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1976-06-07;25#art2" xlink:type="simple">art. 2 della legge regionale 7 giugno 1976, n. 25</rif>
+							, i termini per la presentazione delle domande di cui al presente comma, sono prorogati al trentesimo giorno dalla data di entrata in vigore della suddetta legge.
+						</h:p>
+					</nota>
+				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1976-06-07;25" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1976-06-07;25#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 7 giugno 1976, n. 25" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art1-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -37,9 +68,9 @@
 				<h:p>la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<articolo id="art1">
+				<articolo finevigore="t2" id="art1-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 1</num>
-					<comma id="art1-com1">
+					<comma id="art1-t2-com1">
 						<num />
 						<corpo>
 							Per agevolare la realizzazione di nuovi alloggi su aree comprese nei piani di zona a norma della
@@ -56,14 +87,37 @@
 						</corpo>
 					</comma>
 				</articolo>
+				<articolo id="art1" iniziovigore="t2">
+					<num>ARTICOLO 1</num>
+					<comma id="art1-com1">
+						<num />
+						<corpo>
+							Per agevolare la realizzazione di nuovi alloggi su aree comprese nei piani di zona a norma della
+							<rif xlink:href="urn:nir:stato:legge:1962-04-18;167" xlink:type="simple">legge 18 aprile 1962, n. 167</rif>
+							e concesse con diritto di superficie, da parte di cooperative edilizie fruenti di contributo statale, ai sensi degli
+							<mrif>
+								articoli
+								<rif xlink:href="urn:nir:stato:legge:1971-10-22;865#art68" xlink:type="simple">68 lett. b)</rif>
+								e
+								<rif xlink:href="urn:nir:stato:legge:1971-10-22;865#art72" xlink:type="simple">72</rif>
+								della legge 22 ottobre 1971, n. 865
+							</mrif>
+							, nonchè ai sensi della
+							<rif xlink:href="urn:nir:stato:legge:1965-11-01;1179" xlink:type="simple">legge 1 novembre 1965, n. 1179</rif>
+							e successivi rifinanziamenti delle norme predette, la Regione concede un contributo "una tantum" integrativo sulla spesa degli investimenti programmati fino all'importo massimo di L. 3.500.000 per ogni alloggio da costruire.
+						</corpo>
+					</comma>
+				</articolo>
 				<articolo id="art2">
 					<num>ARTICOLO 2</num>
 					<comma id="art2-com1">
 						<num />
 						<corpo>
 							Le richieste dei contributi di cui al
-							<rif xlink:href="#art1" xlink:type="simple">precedente articolo 1</rif>
-							devono essere presentate al Presidente della Giunta regionale entro sessanta giorni dalla data di entrata in vigore della presente legge.
+							<rif xlink:href="#art1-t2" xlink:type="simple">precedente articolo 1</rif>
+							devono essere presentate al Presidente della Giunta regionale entro sessanta giorni dalla data di entrata in vigore della presente legge
+							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							.
 						</corpo>
 					</comma>
 					<comma id="art2-com2">
@@ -118,7 +172,7 @@
 						<num />
 						<corpo>
 							Alla concessione dei contributi di cui al precedente
-							<rif xlink:href="#art1" xlink:type="simple">articolo n. 1</rif>
+							<rif xlink:href="#art1-t2" xlink:type="simple">articolo n. 1</rif>
 							provvederà la Giunta regionale con propria deliberazione.
 						</corpo>
 					</comma>
