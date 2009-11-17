@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19740614" num="26" tipo="BURT" />
 					<entratainvigore norm="19740629" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1974-06-05;32" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1974-06-05;32" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1974-06-05;32@1976-08-23" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19740629" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19760911" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1974-06-05;32" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1976-08-23;57" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -26,6 +29,25 @@
 						</h:p>
 					</nota>
 				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art11-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1976-08-23;57" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1976-08-23;57#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 23 agosto 1976, n. 57" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art11-com3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art11-com2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -374,31 +396,35 @@
 						<num />
 						<corpo>In ogni Provincia e nel mandamento di Prato sarà istituito un Comitato Tecnico presieduto rispettivamente da un rappresentante dell'Amministrazione provinciale e da un rappresentante dell'Amministrazione comunale di Prato per quel mandamento.</corpo>
 					</comma>
-					<comma id="art11-com2">
+					<comma finevigore="t2" id="art11-com2-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>Fanno parte del Comitato Tecnico due esperti per ogni categoria economica i quali partecipano alle sole sedute concernenti l'esame sulle domande di imprese operanti nei rispettivi settori di competenza.</corpo>
 					</comma>
-					<comma id="art11-com3">
+					<comma id="art11-com3" iniziovigore="t2">
 						<num />
-						<corpo>Gli esperti di cui al comma precedente sono designati dalle associazioni di categoria che partecipano alla Società.</corpo>
+						<corpo>Fanno parte del Comitato tecnico: - i sindaci o gli assessori espressamente delegati i quali partecipano alle sole sedute per l'esame delle domande di imprese che insistono nel territorio comunale interessato; - due esperti per ogni categoria economica i quali partecipano alle sole sedute concernenti l'esame sulle domande di imprese operanti nei rispettivi settori di competenza.</corpo>
 					</comma>
 					<comma id="art11-com4">
 						<num />
-						<corpo>Nel caso in cui per una stessa categoria vi siano più di due associazioni, la designazione avviene secondo un criterio di rotazione.</corpo>
+						<corpo>Gli esperti di cui al comma precedente sono designati dalle associazioni di categoria che partecipano alla Società.</corpo>
 					</comma>
 					<comma id="art11-com5">
 						<num />
-						<corpo>Le funzioni di segreteria del Comitato Tecnico sono assolte, sulla base delle direttive emanate dal Consiglio di Amministrazione, da un dipendente di un Ente pubblico partecipante alla società.</corpo>
+						<corpo>Nel caso in cui per una stessa categoria vi siano più di due associazioni, la designazione avviene secondo un criterio di rotazione.</corpo>
 					</comma>
 					<comma id="art11-com6">
 						<num />
-						<corpo>Tutti i membri dei comitati tecnici sono nominati dal Consiglio di Amministrazione della Società e restano in carica tre anni.</corpo>
+						<corpo>Le funzioni di segreteria del Comitato Tecnico sono assolte, sulla base delle direttive emanate dal Consiglio di Amministrazione, da un dipendente di un Ente pubblico partecipante alla società.</corpo>
 					</comma>
 					<comma id="art11-com7">
 						<num />
-						<corpo>Alle sedute del Comitato Tecnico partecipa il rappresentante dell'Istituto di credito finanziatore.</corpo>
+						<corpo>Tutti i membri dei comitati tecnici sono nominati dal Consiglio di Amministrazione della Società e restano in carica tre anni.</corpo>
 					</comma>
 					<comma id="art11-com8">
+						<num />
+						<corpo>Alle sedute del Comitato Tecnico partecipa il rappresentante dell'Istituto di credito finanziatore.</corpo>
+					</comma>
+					<comma id="art11-com9">
 						<num />
 						<corpo>
 							Per far fronte agli oneri conseguenti al funzionamento dei Comitati Tecnici e degli altri organi sociali, la "FIDI - TOSCANA SpA" si avvale dei contributi della Regione, di cui al
