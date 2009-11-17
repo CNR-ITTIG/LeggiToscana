@@ -1,22 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19750604" num="25" tipo="BURT" />
 					<entratainvigore norm="19750619" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1975-05-28;56" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1975-05-28;56" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1975-05-28;56@1976-08-19" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19750619" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19760911" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1975-05-28;56" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1976-08-19;56" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1976-08-19;56" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1976-08-19;56#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 19 agosto 1976, n. 56" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#artunico-com4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#artunico-com3-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -47,14 +69,18 @@
 						<num />
 						<corpo>Per opere di consolidamento devono intendersi quelle tendenti ad assicurare la stabilità delle strutture dell'edificio, senza alterare sostanzialmente le strutture originarie stesse; in caso di crolli parziali di dette strutture ne è consentito il ripristino nelle forme originarie.</corpo>
 					</comma>
-					<comma id="artunico-com3">
+					<comma finevigore="t2" id="artunico-com3-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>Per opere di restauro devono intendersi quelle che tendono a ripristinare le parti alterate, ad eliminare le aggiunte degradanti, a migliorare le condizioni di abitabilità in ordine soprattutto alle esigenze igieniche. Gli edifici restaurati non possono avere diversa destinazione d'uso rispetto a quella di origine.</corpo>
 					</comma>
-					<comma id="artunico-com4">
+					<comma id="artunico-com4" iniziovigore="t2">
+						<num />
+						<corpo>Per opere di restauro devono intendersi quelle che tendono a ripristinare le parti alterate, ad eliminare aggiunta degradanti, a migliorare le condizioni di abitabilità in ordine soprattutto alle esigenze igieniche. Gli edifici restaurati non possono avere diversa destinazione d'uso rispetto a quella di origine, a meno che, con l'autorizzazione delle Autorità competenti destinati ad uso pubblico, quale quello sanitario, culturale, ricreativo e scolastico.</corpo>
+					</comma>
+					<comma id="artunico-com5">
 						<num />
 						<alinea>Interventi diversi da quelli previsti nei precedenti commi secondo e terzo, possono essere effettuati soltanto attraverso i seguenti strumenti attuativi di piani regolatori generali e programmi di fabbricazione:</alinea>
-						<ep id="artunico-com4-pun1">
+						<ep id="artunico-com5-pun1">
 							<num>-</num>
 							<corpo>
 								piani particolareggiati di cui alla
@@ -64,7 +90,7 @@
 								;
 							</corpo>
 						</ep>
-						<ep id="artunico-com4-pun2">
+						<ep id="artunico-com5-pun2">
 							<num>-</num>
 							<corpo>
 								piani per l'edilizia economica e popolare di cui alla
@@ -75,27 +101,27 @@
 							</corpo>
 						</ep>
 					</comma>
-					<comma id="artunico-com5">
+					<comma id="artunico-com6">
 						<num />
 						<alinea>Gli interventi di cui al comma precedente possono riguardare:</alinea>
-						<el id="artunico-com5-leta">
+						<el id="artunico-com6-leta">
 							<num>a)</num>
 							<corpo>il restauro di interi complessi edilizi;</corpo>
 						</el>
-						<el id="artunico-com5-letb">
+						<el id="artunico-com6-letb">
 							<num>b)</num>
 							<corpo>la ristrutturazione in casi eccezionali, di interi complessi edilizi per migliorarne la statisticità o le condizioni igienico - sanitarie, anche equilibrando e distribuendo le densità abitative e creando nuovi spazi liberi ad uso pubblico;</corpo>
 						</el>
-						<el id="artunico-com5-letc">
+						<el id="artunico-com6-letc">
 							<num>c)</num>
 							<corpo>il restauro e la destinazione ad uso collettivo di edifici o complessi di particolare valore architettonico, monumentale, urbanistico;</corpo>
 						</el>
-						<el id="artunico-com5-letd">
+						<el id="artunico-com6-letd">
 							<num>d)</num>
 							<corpo>il rifacimento o la costruzione delle infrastrutture urbane necessarie alla funzionalità dei complessi risanati.</corpo>
 						</el>
 					</comma>
-					<comma id="artunico-com6">
+					<comma id="artunico-com7">
 						<num />
 						<corpo>Ai cittadini singoli o associati può essere consentito di realizzare gli interventi di cui ai punti a), b) e c) sulla base dei progetti esecutivi predisposti dai Comuni o dai diretti interessati, stipulando con i Comuni stessi apposite convenzioni, che debbono essere approvate con deliberazione consiliare nei modi e forme di legge.</corpo>
 					</comma>
