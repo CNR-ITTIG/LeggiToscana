@@ -1,22 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19760123" num="05" tipo="BURT" />
 					<entratainvigore norm="19760207" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1976-01-17;6" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1976-01-17;6" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1976-01-17;6@1976-08-12" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19760207" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19760904" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1976-01-17;6" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1976-08-12;53" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art12-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1976-08-12;53" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1976-08-12;53#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 12 agosto 1976, n. 53" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art12-com3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art12-com2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art12-com5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1976-08-12;53" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1976-08-12;53#art1-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2 della legge Regione Toscana 12 agosto 1976, n. 53" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art12-com6-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art19-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1976-08-12;53" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1976-08-12;53#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 12 agosto 1976, n. 53" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art19-com1-com1" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art19-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1976-08-12;53" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1976-08-12;53#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 12 agosto 1976, n. 53" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art19-com1-com2" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -367,43 +425,63 @@
 							<num />
 							<corpo>I corsi di formazione professionale sono gratuiti.</corpo>
 						</comma>
-						<comma id="art12-com2">
+						<comma finevigore="t2" id="art12-com2-t2" iniziovigore="t1" status="abrogato">
 							<num />
 							<alinea>Al fine di garantire il diritto allo studio a favore di coloro che frequentano corsi di formazione di base diurni con attività non inferiore alle 30 ore settimanali, sono istituiti i seguenti interventi:</alinea>
-							<el id="art12-com2-leta">
+							<el id="art12-com2-t2-leta">
 								<num>a)</num>
 								<corpo>presalario di L. 18.000 mensili;</corpo>
 							</el>
-							<el id="art12-com2-letb">
+							<el id="art12-com2-t2-letb">
 								<num>b)</num>
 								<corpo>trasporto gratuito dal luogo di residenza abituale alla sede del corso, anche sotto forma di rimborso delle spese sostenute;</corpo>
 							</el>
-							<el id="art12-com2-letc">
+							<el id="art12-com2-t2-letc">
 								<num>c)</num>
 								<corpo>assegno di residenza di L. 30.000 mensili, per tutti gli allievi che, per carenza di mezzi di trasporto pubblico, siano impossibilitati a raggiungere giornalmente la sede del corso dal luogo della loro residenza abituale;</corpo>
 							</el>
-							<el id="art12-com2-letd">
+							<el id="art12-com2-t2-letd">
 								<num>d)</num>
 								<corpo>mensa giornaliera gratuita.</corpo>
 							</el>
 						</comma>
-						<comma id="art12-com3">
+						<comma id="art12-com3" iniziovigore="t2">
 							<num />
-							<corpo>Per coloro che frequentano corsi previsti dalla presente legge, ma non rientranti nel tipo di corso di cui al comma precedente, può essere previsto l'intervento di cui al punto b).</corpo>
+							<alinea>Al fine di garantire il diritto allo studio a favore di coloro che frequentano corsi di formazione di base diurni con attività non inferiore alle ore 30 settimanali sono istituiti i seguenti interventi:</alinea>
+							<el id="art12-com3-leta">
+								<num>a)</num>
+								<corpo>presalario di L. 18.000 mensili;</corpo>
+							</el>
+							<el id="art12-com3-letb">
+								<num>b)</num>
+								<corpo>trasporti, ivi compresi i relativi oneri assicurativi per i trasportati;</corpo>
+							</el>
+							<el id="art12-com3-letc">
+								<num>c)</num>
+								<corpo>servizio di mensa;</corpo>
+							</el>
+							<el id="art12-com3-letd">
+								<num>d)</num>
+								<corpo>alloggio per gli studenti residenti fuori sede, sia sotto forma di posti convitto, sia sotto forma di sussidi in denaro da valere quale indennità di alloggio e mantenimento.</corpo>
+							</el>
 						</comma>
 						<comma id="art12-com4">
 							<num />
-							<corpo>Agli allievi è assicurata l'assistenza di un servizio psico-sociale e di orientamento; all'inizio dei corsi sarà altresì loro assicurata la possibilità di sottoporsi ad un accertamento medico-diagnostico sul loro stato fisico.</corpo>
+							<corpo>Per coloro che frequentano corsi previsti dalla presente legge, ma non rientranti nel tipo di corso di cui al comma precedente, può essere previsto l'intervento di cui al punto b).</corpo>
 						</comma>
 						<comma id="art12-com5">
+							<num />
+							<corpo>Agli allievi è assicurata l'assistenza di un servizio psico-sociale e di orientamento; all'inizio dei corsi sarà altresì loro assicurata la possibilità di sottoporsi ad un accertamento medico-diagnostico sul loro stato fisico.</corpo>
+						</comma>
+						<comma finevigore="t2" id="art12-com6-t2" iniziovigore="t1" status="abrogato">
 							<num />
 							<corpo>
 								Con legge regionale potrà essere variato l'importo delle provvidenze di cui alle
 								<mrif>
 									lettere
-									<rif xlink:href="#art12-com2-leta" xlink:type="simple">a)</rif>
+									<rif xlink:href="#art12-com2-t2-leta" xlink:type="simple">a)</rif>
 									e
-									<rif xlink:href="#art12-com2-letc" xlink:type="simple">c)</rif>
+									<rif xlink:href="#art12-com2-t2-letc" xlink:type="simple">c)</rif>
 									del secondo comma
 								</mrif>
 								del presente articolo.
@@ -596,7 +674,7 @@
 								, e
 								<rif xlink:href="#art12" xlink:type="simple">12</rif>
 								, escluso quanto previsto dall'
-								<rif xlink:href="#art12-com5" xlink:type="simple">ultimo comma</rif>
+								<rif xlink:href="#art12-com6-t2" xlink:type="simple">ultimo comma</rif>
 								.
 							</corpo>
 						</comma>
@@ -685,6 +763,22 @@
 								<num>d)</num>
 								<corpo>gli interventi saranno altresì attuati in modo da orientare la formazione dei lavoratori verso i settori suscettibili di sviluppo e preparare un adeguato numero di lavoratori qualificati in relazione agli obiettivi determinati dalla programmazione regionale ed alle esigenze locali;</corpo>
 							</el>
+							<comma id="art19-com1-com1" iniziovigore="t2">
+								<num>1.</num>
+								<corpo>
+									gli interventi di cui all'
+									<rif xlink:href="#art12-com3" xlink:type="simple">articolo 12, secondo comma</rif>
+									, lettere b), c) e d) della presente legge potranno essere attuati direttamente dalle province o affidati in appalto; gli interessati potranno usufruire di tali interventi dietro pagamento del prezzo fissato dalle stesse provincie;
+								</corpo>
+							</comma>
+							<comma id="art19-com1-com2" iniziovigore="t2">
+								<num>2.</num>
+								<corpo>
+									una parte degli interventi di cui all'
+									<rif xlink:href="#art12-com3" xlink:type="simple">articolo 12, secondo comma</rif>
+									, lettere b), c) e d) sarà attribuita gratuitamente mediante concorso
+								</corpo>
+							</comma>
 							<el id="art19-com1-lete">
 								<num>e)</num>
 								<corpo>gli enti delegati, nell'attuazione degli interventi, si avvalgono di commissioni consultive rappresentative delle organizzazioni dei lavoratori, dei datori di lavoro, dei lavoratori autonomi, degli enti locali, dell'amministrazione scolastica statale, degli enti terzi gestori di iniziative nel campo della formazione professionale.</corpo>
@@ -921,13 +1015,13 @@
 								Le Province organizzeranno i servizi di cui all'
 								<mrif>
 									art. 12, comma secondo, lettere
-									<rif xlink:href="#art12-com2-letb" xlink:type="simple">b)</rif>
+									<rif xlink:href="#art12-com2-t2-letb" xlink:type="simple">b)</rif>
 									e
-									<rif xlink:href="#art12-com2-letd" xlink:type="simple">d)</rif>
+									<rif xlink:href="#art12-com2-t2-letd" xlink:type="simple">d)</rif>
 									,
-									<rif xlink:href="#art12-com4" xlink:type="simple">comma quarto</rif>
+									<rif xlink:href="#art12-com5" xlink:type="simple">comma quarto</rif>
 									e
-									<rif xlink:href="#art12-com5" xlink:type="simple">quinto</rif>
+									<rif xlink:href="#art12-com6-t2" xlink:type="simple">quinto</rif>
 								</mrif>
 								, avvalendosi anche di organizzazioni già esistenti, o comunque gestendoli unitariamente con altri servizi analoghi.
 							</corpo>
