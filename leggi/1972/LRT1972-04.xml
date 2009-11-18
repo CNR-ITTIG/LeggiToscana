@@ -16,13 +16,38 @@
 						<evento data="19720226" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19730721" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19750605" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="19760925" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1972-02-04;4" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1973-06-25;34" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1975-05-16;42" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1973-06-25;34" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							I rapporti percentuali di cui al presente comma sono aumentati ciascuno di cinque punti percentuali ai sensi dell'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1976-09-04;63#art7" xlink:type="simple">art. 7 della legge regionale 4 settembre 1976 ,n. 63</rif>
+							.
+						</h:p>
+					</nota>
+					<nota id="n2">
+						<h:p>
+							Ai sensi dell'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1976-09-04;63#art9" xlink:type="simple">art. 9 della legge regionale 4 settembre 1976, n. 63</rif>
+							,gli effetti giuridici ed economici dell'abrogazione del presente comma decorrono dal 1 luglio 1975.
+						</h:p>
+					</nota>
+					<nota id="n3">
+						<h:p>
+							Relativamente al rimborso spese di cui al presente comma si veda anchel'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1976-09-04;63#art8" xlink:type="simple">art. 8 della legge regionale 4 settembre 1976, n. 63</rif>
+							.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -41,7 +66,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1973-06-25;34" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1973-06-25;34#art28-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -53,7 +78,7 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art5-com1" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1973-06-25;34" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1973-06-25;34#art29-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -130,6 +155,18 @@
 								<dsp:pos xlink:href="#art6-com4" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com2-t4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1973-06-25;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1973-06-25;34#art27" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo27, legge Regione Toscana 25 giugno 1973, n. 34" id="itt9" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com2-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -196,7 +233,9 @@
 						<alinea>
 							L'indennità dei consiglieri regionali, in relazione alle funzioni e alle attività svolte nel Consiglio e nella Giunta, è stabilita mensilmente e per dodici mensilità in rapporto percentuale all'indennità percepita dai membri del Parlamento nazionale in base all'
 							<rif xlink:href="urn:nir:stato:legge:1965-10-31;1261#art1" xlink:type="simple">art. 1 della legge statale n. 1261 del 31-10-1965</rif>
-							, nella misura di:
+							, nella misura di
+							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							:
 						</alinea>
 						<el id="art2-com1-leta">
 							<num>a)</num>
@@ -219,9 +258,13 @@
 							<corpo>Consigliere regionale 55%</corpo>
 						</el>
 					</comma>
-					<comma id="art2-com2">
+					<comma finevigore="t4" id="art2-com2-t4" iniziovigore="t1" status="abrogato">
 						<num />
-						<corpo>L'aggiornamento delle predette indennità in rapporto agli eventuali aumenti delle indennità parlamentari non è automatico ma è deciso dall'ufficio di presidenza del consiglio, sentiti i presidenti dei gruppi consiliari.</corpo>
+						<corpo>
+							L'aggiornamento delle predette indennità in rapporto agli eventuali aumenti delle indennità parlamentari non è automatico ma è deciso dall'ufficio di presidenza del consiglio, sentiti i presidenti dei gruppi consiliari
+							<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+							.
+						</corpo>
 					</comma>
 					<comma id="art2-com3">
 						<num />
@@ -281,6 +324,7 @@
 							<rif xlink:href="#art1-com1" xlink:type="simple">art. 1</rif>
 							della presente legge è stabilito, per tutti i consiglieri regionali, nella misura di L. 7.500 a giornata di presenza alle sedute del Consiglio, delle commissioni di cui fanno parte e della conferenza di cui all'
 							<rif xlink:href="urn:nir:regione.toscana:statuto:#art14" xlink:type="simple">art. 14 dello Statuto</rif>
+							<ndr num="#n3" valore="" xlink:type="simple">(c)</ndr>
 							.
 						</corpo>
 					</comma>
