@@ -1,22 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19730427" num="19" tipo="BURT" />
 					<entratainvigore norm="19730512" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1973-04-26;27" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1973-04-26;27" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1973-04-26;27@1977-01-14" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19730512" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19770205" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1973-04-26;27" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1977-01-14;2" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1977-01-14;2" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1977-01-14;2#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 14 gennaio 1977, n. 2" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com2" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -44,6 +63,10 @@
 					<comma id="art2-com1">
 						<num />
 						<corpo>I pazienti ed i loro assistenti riconosciuti idonei al termine del corso di addestramento, possono partecipare alla esecuzione della dialisi al domicilio dell'uremico applicando le tecniche e pratiche apprese previa autorizzazione del servizio che ha organizzato il corso stesso.</corpo>
+					</comma>
+					<comma id="art2-com2" iniziovigore="t2">
+						<num />
+						<corpo>La dialisi può altresì essere effettuata presso apposite strutture ambulatoriali, extraospedaliere, con possibilità di prestazioni da parte di assistenti volontari anche nei riguardi di più pazienti. Tale servizio è attuato previe convenzioni stipulate tra gli Enti ospedalieri dotati di servizi di emodialisi e i Comuni o altri Enti pubblici e le Associazioni di volontariato, sulla base di uno schema tipo predisposto dalla Giunta regionale, sentita la competente commissione consiliare. Resta ferma la disciplina del vigente regolamento, in particolare per quanto attiene la frequenza ai corsi, la idoneità dei locali, degli apparecchi e dei servizi tecnici, nonchè l'assistenza dei servizi di emodialisi ospedaliera.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art3">
