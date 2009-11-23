@@ -8,18 +8,30 @@
 					<entratainvigore norm="19730120" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1973-01-02;2" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1973-01-02;2@1974-01-16" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1973-01-02;2@1974-01-16" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1973-01-02;2@1977-01-20" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19730120" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19750101" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19770212" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1973-01-02;2" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1974-01-16;41" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1977-01-20;7" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Importo elevato a L. 2.600.000.000ex
+							<rif xlink:href="urn:nir:regione.toscana:legge:1977-01-20;7#art1" xlink:type="simple">art. 1 legge regionale 20 gennaio 1977, n. 7</rif>
+							.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -98,6 +110,18 @@
 							</dsp:norma>
 							<dsp:novella>
 								<dsp:pos xlink:href="#art6-com6" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1977-01-20;7" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1977-01-20;7#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 20 gennaio 1977, n. 7" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art8-com2" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 					</modifichepassive>
@@ -271,7 +295,15 @@
 					<num>ARTICOLO 8</num>
 					<comma id="art8-com1">
 						<num />
-						<corpo>Per l'attuazione della presente legge è autorizzata la spesa annua di L. 1.800.000.000 da finanziarsi su apposito capitolo del Bilancio regionale. Alla spesa afferente il periodo che decorre dal giorno indicato al precedente articolo fino al 31 dicembre 1972, si fa fronte con il capitolo 45/13 iscritto nel Bilancio del corrente esercizio finanziario.</corpo>
+						<corpo>
+							Per l'attuazione della presente legge è autorizzata la spesa annua di L. 1.800.000.000
+							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							da finanziarsi su apposito capitolo del Bilancio regionale. Alla spesa afferente il periodo che decorre dal giorno indicato al precedente articolo fino al 31 dicembre 1972, si fa fronte con il capitolo 45/13 iscritto nel Bilancio del corrente esercizio finanziario.
+						</corpo>
+					</comma>
+					<comma id="art8-com2" iniziovigore="t3">
+						<num />
+						<corpo>Le somme stanziate ai sensi della presente legge ed eventualmente non impegnate nell'esercizio di riferimento possono essere utilizzate nell'esercizio immediatamente successivo.</corpo>
 					</comma>
 				</articolo>
 			</articolato>
