@@ -8,16 +8,19 @@
 					<entratainvigore norm="19740629" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1974-06-05;32" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1974-06-05;32@1976-08-23" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1974-06-05;32@1976-08-23" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1974-06-05;32@1977-01-14" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19740629" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19760911" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19770121" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1974-06-05;32" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1976-08-23;57" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1977-01-14;5" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -26,6 +29,13 @@
 							Ai sensi dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1974-02-03;11#art1" xlink:type="simple">art. 1 della legge regionale 3 febbraio 1974, n. 11</rif>
 							, il contributo regionale per la formazione del capitale sociale della "FIDI Toscana SpA" di cui al presente articolo è determinato in L. 200.000.000.
+						</h:p>
+					</nota>
+					<nota id="n2">
+						<h:p>
+							Ai sensi e per gli effetti dell'art 17 della presentelegge, l'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1977-01-14;5#art2" xlink:type="simple">art. 2 della legge regionale 14 gennaio 1977, n. 5</rif>
+							, determina il contributo per la formazione del fondo di garanzia della FIDI - TOSCANA SpA di cui al presente articolo in L. L. 2.559.000.000.
 						</h:p>
 					</nota>
 				</redazionale>
@@ -44,6 +54,21 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art11-com2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art19" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1977-01-14;5" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1977-01-14;5#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 14 gennaio 1977, n. 5" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art19" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art19-t3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -180,7 +205,11 @@
 					</comma>
 					<comma id="art5-com2">
 						<num />
-						<corpo>Il fondo di garanzia potrà essere articolato, con deliberazione degli organi sociali della "FIDI - TOSCANA SpA" in due sezioni: l'uno per garantire operazioni a breve termine, l'altro per garantire operazioni a medio termine.</corpo>
+						<corpo>
+							Il fondo di garanzia potrà essere articolato, con deliberazione degli organi sociali della "FIDI - TOSCANA SpA" in due sezioni: l'uno per garantire operazioni a breve termine, l'altro per garantire operazioni a medio termine
+							<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+							.
+						</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art6">
@@ -522,7 +551,7 @@
 						<num />
 						<corpo>
 							Per sostenere gli oneri derivanti dal presente articolo la "FIDI - TOSCANA SpA" si avvale dei contributi della Regione, di cui al
-							<rif xlink:href="#art19" xlink:type="simple">successivo art. 19</rif>
+							<rif xlink:href="#art19-t3" xlink:type="simple">successivo art. 19</rif>
 							, e degli altri soci nella misura determinata dallo statuto della Società.
 						</corpo>
 					</comma>
@@ -615,10 +644,10 @@
 						<corpo>La spesa prevista dal comma precedente sarà imputata all'apposito capitolo del Bilancio della Regione.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art19">
+				<articolo finevigore="t3" id="art19-t3" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 19</num>
 					<rubrica>(Contributo regionale per la Consulenza Tecnica)</rubrica>
-					<comma id="art19-com1">
+					<comma id="art19-t3-com1">
 						<num />
 						<corpo>
 							Il contributo regionale di cui all'
@@ -626,9 +655,27 @@
 							della presente legge è determinato in L. 550.000.000 per ogni esercizio finanziario.
 						</corpo>
 					</comma>
-					<comma id="art19-com2">
+					<comma id="art19-t3-com2">
 						<num />
 						<corpo>La spesa prevista dal comma precedente sarà imputata all'apposito capitolo del Bilancio della Regione.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art19" iniziovigore="t3">
+					<num>ARTICOLO 19</num>
+					<rubrica>(Contributo regionale per la Consulenza Tecnica)</rubrica>
+					<comma id="art19-com1">
+						<num />
+						<corpo>
+							Per l'anno 1976 il contributo regionale di cui all'
+							<rif xlink:href="#art13" xlink:type="simple">art. 13</rif>
+							della presente legge è determinato in lire 50.000.000 a seguito dell'avvenuta riduzione del Cap. 16600 art. 20 a mente della
+							<rif xlink:href="urn:nir:regione.toscana:legge:1976-08-25;58" xlink:type="simple">LR del 25-8-1976, n. 58</rif>
+							recante variazioni al bilancio dell'esercizio considerato.
+						</corpo>
+					</comma>
+					<comma id="art19-com2">
+						<num />
+						<corpo>Il contributo regionale di cui al comma precedente è determinato, per ciascun anno, a partire dal 1977 in L. 35.250.000 salvo quanto diversamente disposto dalla legge di approvazione del bilancio di ciascun anno di riferimento.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art20">
@@ -641,7 +688,7 @@
 							<mrif>
 								<rif xlink:href="#art18" xlink:type="simple">artt. 18</rif>
 								e
-								<rif xlink:href="#art19" xlink:type="simple">19</rif>
+								<rif xlink:href="#art19-t3" xlink:type="simple">19</rif>
 							</mrif>
 							della presente legge trova la sua copertura nella maggiore entrata derivante dall'aumento pari al 100 per cento della tassa di circolazione che nel 1974 passa da Lire 5.500.000.000 a Lire 11.000.000.000 ai sensi del
 							<rif xlink:href="urn:nir:stato:legge:1970-05-16;281#art4" xlink:type="simple">penultimo comma dell'art. 4 della legge 16-5-1970, n. 281</rif>
