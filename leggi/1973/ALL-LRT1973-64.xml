@@ -1,22 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<DocumentoNIR nome="">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19731214" num="55" tipo="BURT" />
 					<entratainvigore norm="19731229" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1973-12-07;64:allegato" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1973-12-07;64:allegato" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1973-12-07;64:allegato@1977-04-09" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19731229" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19770430" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1973-12-07;64:allegato" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1977-04-09;24" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#??" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1977-04-09;24" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1977-04-09;24#art1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo1, legge Regione Toscana 9 aprile 1977, n. 24" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#??" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1977-04-09;24" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1977-04-09;24#art1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo1, legge Regione Toscana 9 aprile 1977, n. 24" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#p2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1977-04-09;24" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1977-04-09;24#art1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo1, legge Regione Toscana 9 aprile 1977, n. 24" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#p2" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#p1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1977-04-09;24" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1977-04-09;24#art1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo1, legge Regione Toscana 9 aprile 1977, n. 24" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#p1" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -66,6 +121,7 @@
 				<h:p>- comune di Castelnuovo Garfagnana, popolazione 6.303, superficie in Kmq. 28,50;</h:p>
 				<h:p>- comune di Castiglione di Garfagnana, popolazione 2.203, superficie in Kmq. 48,64;</h:p>
 				<h:p>- comune di Fosciandora, popolazione 862, superficie in Kmq. 19,82;</h:p>
+				<h:p id="p2" iniziovigore="t2">- comune di Gallicano, popolazione 4.404, superficie in Kmq. 30,50;</h:p>
 				<h:p>- comune di Giuncugnano, popolazione 681, superficie in Kmq. 18,94;</h:p>
 				<h:p>- comune di Minucciano, popolazione 3.222, superficie in Kmq. 57,00;</h:p>
 				<h:p>- comune di Molazzana, popolazione 1.534, superficie in Kmq. 31,63;</h:p>
@@ -74,6 +130,7 @@
 				<h:p>- comune di San Romano in Garfagnana, popolazione 1.530, superficie in Kmq. 26,04;</h:p>
 				<h:p>- comune di Sillano, popolazione 1.038, superficie in Kmq. 62,15;</h:p>
 				<h:p>- comune di Vagli Sotto, popolazione 1.477, superficie in Kmq. 41,02;</h:p>
+				<h:p id="p1" iniziovigore="t2">- comune di Vergemoli, popolazione 725, superficie in Kmq. 27,30.</h:p>
 				<h:p>- comune di Villa Collemandina, popolazione 1.511, superficie in Kmq. 34,81.</h:p>
 				<h:p>Nella zona n. 10, che ha un totale di popolazione residente al 31-12-1971 di 37.722 ed una superficie in Kmq. di 424,27, vi sono le zone di intervento nei campi della sanità e dell'assistenza sociale di:</h:p>
 				<h:p>- comune di Bagni di Lucca, popolazione 8.167, superficie in Kmq. 164,65;</h:p>
@@ -81,8 +138,12 @@
 				<h:p>- comune di Borgo a Mozzano, popolazione 7.742, superficie in Kmq. 66,98;</h:p>
 				<h:p>- comune di Coreglia Antelminelli, popolazione 4.929, superficie in Kmq. 52,78;</h:p>
 				<h:p>- comune di Fabbriche di Vallico, popolazione 804, superficie in Kmq. 15,53;</h:p>
-				<h:p>- comune di Gallicano, popolazione 4.404, superficie in Kmq. 30,50;</h:p>
-				<h:p>- comune di Vergemoli, popolazione 725, superficie in Kmq. 27,30.</h:p>
+				<h:p>
+					<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">- comune di Gallicano, popolazione 4.404, superficie in Kmq. 30,50;</h:span>
+				</h:p>
+				<h:p>
+					<h:span finevigore="t2" id="h2" iniziovigore="t1" status="abrogato">- comune di Vergemoli, popolazione 725, superficie in Kmq. 27,30.</h:span>
+				</h:p>
 				<h:p>Nella zona n. 11, che ha un totale di popolazione residente al 31-12-1971 di 93.785 ed una superficie in Kmq. di 261,33, vi sono le zone di intervento nei campi della sanità e dell'assistenza sociale di:</h:p>
 				<h:p>- comune di Lucca, popolazione 89.944, superficie in Kmq. 185,53;</h:p>
 				<h:p>- comune di Pescaglia, popolazione 3.841, superficie in Kmq. 75,80.</h:p>
