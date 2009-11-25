@@ -1,22 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19770212" num="07" tipo="BURT" />
 					<entratainvigore norm="19770227" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1977-02-04;13" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1977-02-04;13" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1977-02-04;13@1977-04-04" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19770227" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19770408" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1977-02-04;13" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1977-04-04;23" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1977-04-04;23" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1977-04-04;23#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 4 aprile 1977, n. 23" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1977-02-04;13" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1977-04-04;23" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1977-04-04;23#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 4 aprile 1977, n. 23" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1977-04-04;23" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1977-04-04;23#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 4 aprile 1977, n. 23" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art5" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -46,9 +95,9 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art2">
+				<articolo finevigore="t2" id="art2-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 2</num>
-					<comma id="art2-com1">
+					<comma id="art2-t2-com1">
 						<num />
 						<corpo>
 							I contributi saranno erogati fino al limite massimo del 70% delle somme definitivamente liquidate a ciascuna impresa in base alle leggi regionali n.
@@ -56,6 +105,19 @@
 							e
 							<rif xlink:href="urn:nir:regione.toscana:legge:1976;52" xlink:type="simple">52/76</rif>
 							e pagati in bimestralità posticipate a partire dal 1 gennaio 1977.
+						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art2" iniziovigore="t2">
+					<num>ARTICOLO 2</num>
+					<comma id="art2-com1">
+						<num />
+						<corpo>
+							I contributi saranno corrisposti in unica soluzione nella stessa misura delle somme erogate a ciascuna impresa nell'anno 1976 in base alle leggi regionali
+							<rif xlink:href="urn:nir:regione.toscana:legge:1976-08-12;51" xlink:type="simple">n. 51</rif>
+							e
+							<rif xlink:href="urn:nir:regione.toscana:legge:1976-08-12;52" xlink:type="simple">n. 52</rif>
+							del 12 agosto 1976.
 						</corpo>
 					</comma>
 				</articolo>
@@ -81,15 +143,63 @@
 						<corpo>Gli enti e le imprese che intendano chiedere il contributo debbono inoltrare domanda al Presidente della Giunta regionale entro il termine di 20 giorni dalla data di entrata in vigore della presente legge.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art5">
+				<articolo finevigore="t2" id="art5-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 5</num>
-					<comma id="art5-com1">
+					<comma id="art5-t2-com1">
 						<num />
 						<corpo>
 							L'onere derivante dalla presente legge, ammontante a complessive L. 2.800.000.000, farà carico ad apposito capitolo da istituirsi nel bilancio dell'esercizio 1977 con la dizione "provvidenze nel settore dei trasporti pubblici di linea. Anticipazione contributi di esercizio a favore di imprese pubbliche e private (
 							<rif xlink:href="urn:nir:regione.toscana:legge:1977-02-04;13" xlink:type="simple">LR n. 13 4-2-77</rif>
 							)", riducendo per pari importo i capitoli corrispondenti al 14710 ed al 14720 del bilancio per l'esercizio 1976.
 						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art5" iniziovigore="t2">
+					<num>ARTICOLO 5</num>
+					<comma id="art5-com1">
+						<num />
+						<corpo>L'onere derivante dalla presente legge, ammontante a complessive L. 4.000.000.000, farà carico al capitolo 62200 del Bilancio esercizio 1977 che, dopo la variazione di cui al successivo articolo presenta la necessaria disponibilità.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art6" iniziovigore="t2">
+					<num>ARTICOLO 6</num>
+					<comma id="art6-com1">
+						<num />
+						<alinea>Allo stato di previsione della parte "spesa"del bilancio dell'esercizio 1977 sono apportate le seguenti modificazioni:</alinea>
+						<ep id="art6-com1-pun1">
+							<num />
+							<corpo>
+								In diminuzione:
+								<h:table>
+									<h:tbody>
+										<h:tr>
+											<h:td>cap. 71000</h:td>
+											<h:td>Fondo per il finanziamento di provvedimenti legislativi in corso di adozione</h:td>
+											<h:td>L. 1.200.000.000</h:td>
+										</h:tr>
+									</h:tbody>
+								</h:table>
+							</corpo>
+						</ep>
+						<ep id="art6-com1-pun2">
+							<num />
+							<corpo>
+								In aumento:
+								<h:table>
+									<h:tbody>
+										<h:tr>
+											<h:td>cap. 62200</h:td>
+											<h:td>
+												Provvidenze nel settore dei trasporti pubblici di linea - Anticipazione contributi di esercizio a favore di imprese pubbliche e private (
+												<rif xlink:href="urn:nir:regione.toscana:legge:1977-02-04;13" xlink:type="simple">legge regionale 4-2-1977 n. 13</rif>
+												)
+											</h:td>
+											<h:td>L. 1.200.000.000</h:td>
+										</h:tr>
+									</h:tbody>
+								</h:table>
+							</corpo>
+						</ep>
 					</comma>
 				</articolo>
 			</articolato>
