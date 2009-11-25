@@ -12,11 +12,71 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19770401" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19770401" fonte="ra1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1977-03-23;19" xlink:type="simple" />
+						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1975-03-20;21" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modificheattive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#mod3" xlink:type="simple" />
+							<dsp:termine da="#t2" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1975-03-20;21" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1975-03-20;21#art3" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#mod3-vir1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:tipo valore="articolo" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:subarg>
+									<ittig:tipo valore="articolo" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#mod4" xlink:type="simple" />
+							<dsp:termine da="#t2" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1975-03-20;21" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1975-03-20;21#art5" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#mod4-vir1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:tipo valore="articolo" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:subarg>
+									<ittig:tipo valore="articolo" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#mod5" xlink:type="simple" />
+							<dsp:termine da="#t2" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1975-03-20;21" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1975-03-20;21#art6" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#mod5-vir1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:tipo valore="articolo" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:subarg>
+									<ittig:tipo valore="articolo" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modificheattive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -53,11 +113,29 @@
 					<comma id="art2-com1">
 						<num />
 						<corpo>
-							<mod id="mod1">
-								Dall'entrata in vigore della presente legge le tabelle allegato A) ed allegato B) di cui agli articoli 1 e 4 della
-								<rif xlink:href="urn:nir:regione.toscana:legge:1975-03-20;21" xlink:type="simple">legge regionale 20 marzo 1975, n. 21</rif>
-								sono sostituite rispettivamente da quelle di cui all'allegato A) ed allegato B) della presente legge.
-							</mod>
+							<mmod id="mmo1">
+								<mod id="mod1">
+									Dall'entrata in vigore della presente legge le tabelle
+									<rif xlink:href="urn:nir:regione.toscana:legge:1975-03-20;21:allegato.a" xlink:type="simple">allegato A)</rif>
+								</mod>
+								<mod id="mod2">
+									ed
+									<rif xlink:href="urn:nir:regione.toscana:legge:1975-03-20;21:allegato.b" xlink:type="simple">allegato B)</rif>
+									di cui agli
+									<mrif>
+										articoli
+										<rif xlink:href="urn:nir:regione.toscana:legge:1975-03-20;21#art1" xlink:type="simple">1</rif>
+										e
+										<rif xlink:href="urn:nir:regione.toscana:legge:1975-03-20;21#art4" xlink:type="simple">4</rif>
+										della legge regionale 20 marzo 1975, n. 21
+									</mrif>
+									sono sostituite rispettivamente da quelle di cui all'
+									<rif xlink:href="urn:nir:regione.toscana:legge:1977-03-23;19:allegato.a" xlink:type="simple">allegato A)</rif>
+									ed
+									<rif xlink:href="urn:nir:regione.toscana:legge:1977-03-23;19:allegato.b" xlink:type="simple">allegato B)</rif>
+									della presente legge.
+								</mod>
+							</mmod>
 						</corpo>
 					</comma>
 				</articolo>
@@ -66,58 +144,58 @@
 					<comma id="art3-com1">
 						<num />
 						<corpo>
-							<mod id="mod2">
+							<mod id="mod3">
 								L'
 								<rif xlink:href="urn:nir:regione.toscana:legge:1975-03-20;21#art3" xlink:type="simple">articolo 3 della legge regionale 20 marzo 1975, n. 21</rif>
 								è sostituito dal seguente:
-								<virgolette id="mod2-vir1" tipo="struttura">
-									<articolo id="mod2-vir1-art1">
+								<virgolette id="mod3-vir1" tipo="struttura">
+									<articolo id="mod3-vir1-art1">
 										<num />
-										<comma id="mod2-vir1-art1-com1">
+										<comma id="mod3-vir1-art1-com1">
 											<num />
 											<corpo>Ai viaggiatori che ne facciano richiesta, sono rilasciati biglietti di abbonamenti settimanali e mensili nominali, non cedibili e validi per determinate relazioni.</corpo>
 										</comma>
-										<comma id="mod2-vir1-art1-com2">
+										<comma id="mod3-vir1-art1-com2">
 											<num />
 											<corpo>Gli abbonamenti di cui sopra sono a vista, cioè senza limitazione del numero di corse nell'ambito della loro validità.</corpo>
 										</comma>
-										<comma id="mod2-vir1-art1-com3">
+										<comma id="mod3-vir1-art1-com3">
 											<num />
 											<corpo>I biglietti di abbonamento settimanale avranno validità di cinque, sei o sette giorni alla settimana; quelli mensili per l'intero mese.</corpo>
 										</comma>
-										<comma id="mod2-vir1-art1-com4">
+										<comma id="mod3-vir1-art1-com4">
 											<num />
 											<alinea>Il prezzo degli abbonamenti è calcolato moltiplicando il relativo prezzo di corsa semplice per i seguenti numeri di corse:</alinea>
-											<ep id="mod2-vir1-art1-com4-pun1">
+											<ep id="mod3-vir1-art1-com4-pun1">
 												<num>-</num>
 												<corpo>settimanali: 10, 12 e 14 corse rispettivamente per gli abbonamenti validi cinque, sei o sette giorni;</corpo>
 											</ep>
-											<ep id="mod2-vir1-art1-com4-pun2">
+											<ep id="mod3-vir1-art1-com4-pun2">
 												<num>-</num>
 												<alinea>mensili: 48 corse ed applicando sul prezzo così ottenuto i seguenti sconti:</alinea>
-												<en id="mod2-vir1-art1-com4-pun2-num1">
+												<en id="mod3-vir1-art1-com4-pun2-num1">
 													<num>-</num>
 													<corpo>per tratte di lunghezza inferiori a 15 Km. 55%</corpo>
 												</en>
-												<en id="mod2-vir1-art1-com4-pun2-num2">
+												<en id="mod3-vir1-art1-com4-pun2-num2">
 													<num>-</num>
 													<corpo>per tratte di lunghezza da 15,1 a 50 Km. 60%</corpo>
 												</en>
-												<en id="mod2-vir1-art1-com4-pun2-num3">
+												<en id="mod3-vir1-art1-com4-pun2-num3">
 													<num>-</num>
 													<corpo>per tratte di lunghezza oltre 50 Km. 65%</corpo>
 												</en>
 											</ep>
 										</comma>
-										<comma id="mod2-vir1-art1-com5">
+										<comma id="mod3-vir1-art1-com5">
 											<num />
 											<corpo>I prezzi degli abbonamenti con frazione inferiori a L. 25 sono arrotondati alle 50 lire inferiori, quelli non inferiori a L. 25 alle 50 lire superiori.</corpo>
 										</comma>
-										<comma id="mod2-vir1-art1-com6">
+										<comma id="mod3-vir1-art1-com6">
 											<num />
 											<corpo>Sugli abbonamenti settimanali validi per 5 o 6 giorni devono risultare i giorni di non utilizzo indicati dall'utente al momento dell'acquisto.</corpo>
 										</comma>
-										<comma id="mod2-vir1-art1-com7">
+										<comma id="mod3-vir1-art1-com7">
 											<num />
 											<corpo>La giunta regionale assumerà le iniziative necessarie perchè gli abbonamenti rilasciati da un'impresa concessionaria siano resi validi anche per autolinee gestite da altra impresa sulla medesima tratta.</corpo>
 										</comma>
@@ -132,25 +210,25 @@
 					<comma id="art4-com1">
 						<num />
 						<corpo>
-							<mod id="mod3">
+							<mod id="mod4">
 								L'
 								<rif xlink:href="urn:nir:regione.toscana:legge:1975-03-20;21#art5" xlink:type="simple">articolo 5 della legge regionale 20 marzo 1975, n. 21</rif>
 								è sostituito dal seguente:
-								<virgolette id="mod3-vir1" tipo="struttura">
-									<articolo id="mod3-vir1-art1">
+								<virgolette id="mod4-vir1" tipo="struttura">
+									<articolo id="mod4-vir1-art1">
 										<num />
-										<comma id="mod3-vir1-art1-com1">
+										<comma id="mod4-vir1-art1-com1">
 											<num />
 											<alinea>La giunta regionale per periodi di tempo determinati anche su proposta delle imprese concessionarie, può stabilire prezzi di biglietti e di abbonamenti diversi ma non superiori a quelli risultanti dall'applicazione delle tariffe previste dalla presente legge, nei seguenti casi:</alinea>
-											<el id="mod3-vir1-art1-com1-leta">
+											<el id="mod4-vir1-art1-com1-leta">
 												<num>a)</num>
 												<corpo>per le autolinee sostitutive di ferrovie e di tramvie, quando vi sia l'esigenza di graduare nel tempo l'incremento tariffario;</corpo>
 											</el>
-											<el id="mod3-vir1-art1-com1-letb">
+											<el id="mod4-vir1-art1-com1-letb">
 												<num>b)</num>
 												<corpo>per tratti comuni con autolinee urbane per l'eventuale correzione di sperequazioni tariffarie;</corpo>
 											</el>
-											<el id="mod3-vir1-art1-com1-letc">
+											<el id="mod4-vir1-art1-com1-letc">
 												<num>c)</num>
 												<corpo>nei casi particolari per i quali si ravvisi l'esigenza di coordinamento tariffario con altri servizi pubblici di trasporto della zona.</corpo>
 											</el>
@@ -166,21 +244,21 @@
 					<comma id="art5-com1">
 						<num />
 						<corpo>
-							<mod id="mod4">
+							<mod id="mod5">
 								L'
 								<rif xlink:href="urn:nir:regione.toscana:legge:1975-03-20;21#art6" xlink:type="simple">articolo 6 della legge regionale 20-3-75, n. 21</rif>
 								è sostituito dal seguente:
-								<virgolette id="mod4-vir1" tipo="struttura">
-									<articolo id="mod4-vir1-art1">
+								<virgolette id="mod5-vir1" tipo="struttura">
+									<articolo id="mod5-vir1-art1">
 										<num />
-										<comma id="mod4-vir1-art1-com1">
+										<comma id="mod5-vir1-art1-com1">
 											<num />
 											<alinea>Le imprese concessionarie dovranno presentare alla giunta regionale - entro trenta giorni dall'entrata in vigore della presente legge:</alinea>
-											<el id="mod4-vir1-art1-com1-leta">
+											<el id="mod5-vir1-art1-com1-leta">
 												<num>a)</num>
 												<corpo>le nuove tabelle polimetriche e delle tariffe;</corpo>
 											</el>
-											<el id="mod4-vir1-art1-com1-letb">
+											<el id="mod5-vir1-art1-com1-letb">
 												<num>b)</num>
 												<corpo>le eventuali proposte per l'applicazione di prezzi di biglietti e di abbonamenti ai sensi del precedente articolo.</corpo>
 											</el>
