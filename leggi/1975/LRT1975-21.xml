@@ -1,22 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19750328" num="15" tipo="BURT" />
 					<entratainvigore norm="19750328" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1975-03-20;21" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1975-03-20;21" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1975-03-20;21@1977-03-23" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19750328" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19770401" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1975-03-20;21" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1977-03-23;19" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1977-03-23;19" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1977-03-23;19#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 23 marzo 1977, n. 19" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1977-03-23;19" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1977-03-23;19#art4-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1 della legge Regione Toscana 23 marzo 1977, n. 19" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art5" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1977-03-23;19" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1977-03-23;19#art5-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 1 della legge Regione Toscana 23 marzo 1977, n. 19" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art6-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -38,18 +90,18 @@
 					<articolo id="art1">
 						<num>Art. 1</num>
 						<comma id="art1-com1">
-							<num>1.</num>
+							<num />
 							<corpo>Dall'entrata in vigore della presente legge nell'esercizio delle autolinee extraurbane di concessione regionale, si applica la tariffa indicata nella tabella allegato A).</corpo>
 						</comma>
 						<comma id="art1-com2">
-							<num>2.</num>
+							<num />
 							<corpo>La stessa tariffa si applica anche alle autolinee di competenza regionale sostitutive di ferrovie e di tramvie.</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art2">
 						<num>Art. 2</num>
 						<comma id="art2-com1">
-							<num>1.</num>
+							<num />
 							<alinea>Il prezzo dei biglietti ordinari viaggiatori è calcolato in base alle distanze risultanti dalla tabella polimetrica approvata per ciascuna autolinea ed è determinato secondo i seguenti criteri e modalità:</alinea>
 							<en id="art2-com1-num1">
 								<num>1)</num>
@@ -77,69 +129,120 @@
 							</en>
 						</comma>
 						<comma id="art2-com2">
-							<num>2.</num>
+							<num />
 							<corpo>Non è ammessa alcuna riduzione sul prezzo dei biglietti ordinari e di andata e ritorno.</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art3">
+					<articolo finevigore="t2" id="art3-t2" iniziovigore="t1" status="abrogato">
 						<num>Art. 3</num>
-						<comma id="art3-com1">
-							<num>1.</num>
+						<comma id="art3-t2-com1">
+							<num />
 							<corpo>Ai viaggiatori che ne facciano richiesta, sono rilasciati biglietti di abbonamento nominali, non cedibili e validi per determinate relazioni.</corpo>
 						</comma>
-						<comma id="art3-com2">
-							<num>2.</num>
+						<comma id="art3-t2-com2">
+							<num />
 							<alinea>I tipi di abbonamento ammessi sono i seguenti:</alinea>
-							<en id="art3-com2-num1">
+							<en id="art3-t2-com2-num1">
 								<num>1)</num>
 								<corpo>validi per effettuare 10 o 12 corse, usufruibili entro 10 giorni dalla data del rilascio;</corpo>
 							</en>
-							<en id="art3-com2-num2">
+							<en id="art3-t2-com2-num2">
 								<num>2)</num>
 								<corpo>validi per effettuare 44, 52 e 60 corse usufruibili entro 30 giorni dalla data del rilascio;</corpo>
 							</en>
-							<en id="art3-com2-num3">
+							<en id="art3-t2-com2-num3">
 								<num>3)</num>
 								<corpo>validi per effettuare un numero illimitato di corse, usufruibili rispettivamente entro 7 e 30 giorni dalla data del rilascio.</corpo>
 							</en>
 						</comma>
-						<comma id="art3-com3">
-							<num>3.</num>
+						<comma id="art3-t2-com3">
+							<num />
 							<corpo>Il prezzo degli abbonamenti è calcolato moltiplicando il relativo prezzo del biglietto di corsa semplice ridotto del 60% per il numero delle corse previste per il tipo di abbonamento richiesto.</corpo>
 						</comma>
-						<comma id="art3-com4">
-							<num>4.</num>
+						<comma id="art3-t2-com4">
+							<num />
 							<corpo>
 								Per gli abbonamenti di cui al
-								<rif xlink:href="#art3-com2-num3" xlink:type="simple">punto 3)</rif>
+								<rif xlink:href="#art3-t2-com2-num3" xlink:type="simple">punto 3)</rif>
 								il numero di corse da prendere a base per la determinazione del prezzo è, rispettivamente, di 15 per quello usufruibile in 7 giorni, e di 65 per quello usufruibile in 30 giorni.
 							</corpo>
 						</comma>
-						<comma id="art3-com5">
-							<num>5.</num>
+						<comma id="art3-t2-com5">
+							<num />
 							<corpo>Su richiesta delle imprese concessionarie e purchè sussistano motivate esigenze sociali, la Giunta Regionale può consentire per tempi determinati che si continuino a rilasciare abbonamenti validi per effettuare un numero di corse diverso da quelli soprastabiliti.</corpo>
 						</comma>
-						<comma id="art3-com6">
-							<num>6.</num>
+						<comma id="art3-t2-com6">
+							<num />
 							<corpo>La Giunta Regionale assumerà le iniziative necessarie perchè gli abbonamenti rilasciati da una impresa concessionaria siano resi validi anche per autolinee gestite da altra impresa sulla medesima tratta e, su richiesta delle imprese interessate, rilascerà le relative autorizzazioni.</corpo>
 						</comma>
-						<comma id="art3-com7">
-							<num>7.</num>
+						<comma id="art3-t2-com7">
+							<num />
 							<corpo>I prezzi degli abbonamenti con frazione inferiore a lire 25 sono arrotondati alle 50 lire inferiori, quelli non inferiori a L. 25 alle 50 lire superiori.</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art3" iniziovigore="t2">
+						<num>Art. 3</num>
+						<comma id="art3-com1">
+							<num />
+							<corpo>Ai viaggiatori che ne facciano richiesta, sono rilasciati biglietti di abbonamenti settimanali e mensili nominali, non cedibili e validi per determinate relazioni.</corpo>
+						</comma>
+						<comma id="art3-com2">
+							<num />
+							<corpo>Gli abbonamenti di cui sopra sono a vista, cioè senza limitazione del numero di corse nell'ambito della loro validità.</corpo>
+						</comma>
+						<comma id="art3-com3">
+							<num />
+							<corpo>I biglietti di abbonamento settimanale avranno validità di cinque, sei o sette giorni alla settimana; quelli mensili per l'intero mese.</corpo>
+						</comma>
+						<comma id="art3-com4">
+							<num />
+							<alinea>Il prezzo degli abbonamenti è calcolato moltiplicando il relativo prezzo di corsa semplice per i seguenti numeri di corse:</alinea>
+							<ep id="art3-com4-pun1">
+								<num>-</num>
+								<corpo>settimanali: 10, 12 e 14 corse rispettivamente per gli abbonamenti validi cinque, sei o sette giorni;</corpo>
+							</ep>
+							<ep id="art3-com4-pun2">
+								<num>-</num>
+								<alinea>mensili: 48 corse ed applicando sul prezzo così ottenuto i seguenti sconti:</alinea>
+								<en id="art3-com4-pun2-num1">
+									<num>-</num>
+									<corpo>per tratte di lunghezza inferiori a 15 Km. 55%</corpo>
+								</en>
+								<en id="art3-com4-pun2-num2">
+									<num>-</num>
+									<corpo>per tratte di lunghezza da 15,1 a 50 Km. 60%</corpo>
+								</en>
+								<en id="art3-com4-pun2-num3">
+									<num>-</num>
+									<corpo>per tratte di lunghezza oltre 50 Km. 65%</corpo>
+								</en>
+							</ep>
+						</comma>
+						<comma id="art3-com5">
+							<num />
+							<corpo>I prezzi degli abbonamenti con frazione inferiori a L. 25 sono arrotondati alle 50 lire inferiori, quelli non inferiori a L. 25 alle 50 lire superiori.</corpo>
+						</comma>
+						<comma id="art3-com6">
+							<num />
+							<corpo>Sugli abbonamenti settimanali validi per 5 o 6 giorni devono risultare i giorni di non utilizzo indicati dall'utente al momento dell'acquisto.</corpo>
+						</comma>
+						<comma id="art3-com7">
+							<num />
+							<corpo>La giunta regionale assumerà le iniziative necessarie perchè gli abbonamenti rilasciati da un'impresa concessionaria siano resi validi anche per autolinee gestite da altra impresa sulla medesima tratta.</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art4">
 						<num>Art. 4</num>
 						<comma id="art4-com1">
-							<num>1.</num>
+							<num />
 							<corpo>Ciascun viaggiatore ha diritto di portare con sè gratuitamente un solo collo purchè di peso non superiore a Kg. 10 e di dimensioni non superiori a cm. 50 x 30 x 25.</corpo>
 						</comma>
 						<comma id="art4-com2">
-							<num>2.</num>
+							<num />
 							<corpo>Per ogni bagaglio appresso e per quelli che eccedono il peso o le dimensioni di cui al comma precedente, il prezzo del biglietto è calcolato in base alla tariffa indicata nella tabella allegata B.</corpo>
 						</comma>
 						<comma id="art4-com3">
-							<num>3.</num>
+							<num />
 							<corpo>Per i bagagli di peso superiore ai 10 Kg. la tassazione deve essere fatta al netto dei primi 10, trasportati in franchigia.</corpo>
 						</comma>
 					</articolo>
@@ -147,75 +250,109 @@
 				<capo id="cap2">
 					<num>Capo II</num>
 					<rubrica>NORME TRANSITORIE E FINALI</rubrica>
-					<articolo id="art5">
+					<articolo finevigore="t2" id="art5-t2" iniziovigore="t1" status="abrogato">
 						<num>Art. 5</num>
-						<comma id="art5-com1">
-							<num>1.</num>
+						<comma id="art5-t2-com1">
+							<num />
 							<alinea>
 								La Giunta Regionale per periodi di tempo determinati, su proposta anche delle imprese concessionarie, può stabilire prezzi di biglietti e di abbonamenti diversi ma non superiori a quelli risultanti dall'applicazione della tariffa unica di cui all'
 								<rif xlink:href="#art2" xlink:type="simple">art. 2</rif>
 								della presente legge, nei seguenti casi:
 							</alinea>
-							<el id="art5-com1-leta">
+							<el id="art5-t2-com1-leta">
 								<num>a)</num>
 								<corpo>per le autolinee sostitutive di ferrovie e di tramvie sulle quali, a causa del differente sistema tariffario in atto, l'applicazione della nuova disciplina comporti un aumento medio del prezzo dei biglietti superiori al 30%;</corpo>
 							</el>
-							<el id="art5-com1-letb">
+							<el id="art5-t2-com1-letb">
 								<num>b)</num>
 								<corpo>per le autolinee sulle quali fino all'entrata in vigore della presente legge venga praticata una tariffa base uguale o inferiore alla C/1 del tariffario adottato dal Ministero dei Trasporti;</corpo>
 							</el>
-							<el id="art5-com1-letc">
+							<el id="art5-t2-com1-letc">
 								<num>c)</num>
 								<corpo>per tratti comuni con autolinee urbane, ove si verifichino sperequazioni tariffarie;</corpo>
 							</el>
-							<el id="art5-com1-letd">
+							<el id="art5-t2-com1-letd">
 								<num>d)</num>
 								<corpo>nei casi in cui si renda necessaria una gradualità nell'adeguamento dei prezzi alla disciplina prevista dalla presente legge;</corpo>
 							</el>
-							<el id="art5-com1-lete">
+							<el id="art5-t2-com1-lete">
 								<num>e)</num>
 								<corpo>nei casi particolari per i quali si ravvisi l'esigenza di un coordinamento tariffario con altri servizi pubblici di trasporto della zona.</corpo>
 							</el>
 						</comma>
-						<comma id="art5-com2">
-							<num>2.</num>
+						<comma id="art5-t2-com2">
+							<num />
 							<corpo>In sede di prima applicazione della legge i nuovi prezzi dei biglietti e degli abbonamenti determinati a norma del presente articolo, non potranno superare, quale aumento medio su ogni singola autolinea, rispettivamente il 30% ed il 15% di quelli in atto.</corpo>
 						</comma>
-						<comma id="art5-com3">
-							<num>3.</num>
+						<comma id="art5-t2-com3">
+							<num />
 							<corpo>I prezzi degli abbonamenti e dei biglietti di viaggio in atto praticati, che eventualmente risultino superiori a quelli calcolati in base alla tariffa di cui all'allegata tabella non subiranno variazioni.</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art6">
+					<articolo id="art5" iniziovigore="t2">
+						<num>Art. 5</num>
+						<comma id="art5-com1">
+							<num />
+							<alinea>La giunta regionale per periodi di tempo determinati anche su proposta delle imprese concessionarie, può stabilire prezzi di biglietti e di abbonamenti diversi ma non superiori a quelli risultanti dall'applicazione delle tariffe previste dalla presente legge, nei seguenti casi:</alinea>
+							<el id="art5-com1-leta">
+								<num>a)</num>
+								<corpo>per le autolinee sostitutive di ferrovie e di tramvie, quando vi sia l'esigenza di graduare nel tempo l'incremento tariffario;</corpo>
+							</el>
+							<el id="art5-com1-letb">
+								<num>b)</num>
+								<corpo>per tratti comuni con autolinee urbane per l'eventuale correzione di sperequazioni tariffarie;</corpo>
+							</el>
+							<el id="art5-com1-letc">
+								<num>c)</num>
+								<corpo>nei casi particolari per i quali si ravvisi l'esigenza di coordinamento tariffario con altri servizi pubblici di trasporto della zona.</corpo>
+							</el>
+						</comma>
+					</articolo>
+					<articolo finevigore="t2" id="art6-t2" iniziovigore="t1" status="abrogato">
 						<num>Art. 6</num>
-						<comma id="art6-com1">
-							<num>1.</num>
+						<comma id="art6-t2-com1">
+							<num />
 							<corpo>Le imprese concessionarie dovranno presentare alla Giunta Regionale - direzione compartimentale dei trasporti in concessione - entro trenta giorni dall'entrata in vigore della presente legge, le nuove tabelle polimetriche e delle tariffe.</corpo>
 						</comma>
-						<comma id="art6-com2">
-							<num>2.</num>
+						<comma id="art6-t2-com2">
+							<num />
 							<corpo>
 								Entro lo stesso termine dovranno altresì essere presentate le eventuali proposte ai sensi ed agli effetti di cui all'
-								<rif xlink:href="#art5" xlink:type="simple">art. 5</rif>
+								<rif xlink:href="#art5-t2" xlink:type="simple">art. 5</rif>
 								.
 							</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art6" iniziovigore="t2">
+						<num>Art. 6</num>
+						<comma id="art6-com1">
+							<num />
+							<alinea>Le imprese concessionarie dovranno presentare alla giunta regionale - entro trenta giorni dall'entrata in vigore della presente legge:</alinea>
+							<el id="art6-com1-leta">
+								<num>a)</num>
+								<corpo>le nuove tabelle polimetriche e delle tariffe;</corpo>
+							</el>
+							<el id="art6-com1-letb">
+								<num>b)</num>
+								<corpo>le eventuali proposte per l'applicazione di prezzi di biglietti e di abbonamenti ai sensi del precedente articolo.</corpo>
+							</el>
 						</comma>
 					</articolo>
 					<articolo id="art7">
 						<num>Art. 7</num>
 						<comma id="art7-com1">
-							<num>1.</num>
+							<num />
 							<corpo>La Giunta Regionale è autorizzata a provvedere, con propria deliberazione, alla unificazione dei documenti di viaggio e dei relativi sistemi di rilascio.</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art8">
 						<num>Art. 8</num>
 						<comma id="art8-com1">
-							<num>1.</num>
+							<num />
 							<corpo>La disciplina prevista dalla presente legge non si applica alle autolinee di gran turismo.</corpo>
 						</comma>
 						<comma id="art8-com2">
-							<num>2.</num>
+							<num />
 							<corpo>Per quanto non previsto dalla presente legge restano valide le disposizioni in vigore.</corpo>
 						</comma>
 					</articolo>
@@ -235,10 +372,17 @@
 			<annessi>
 				<annesso id="ann1">
 					<testata>
-						<denAnnesso>Allegato</denAnnesso>
+						<denAnnesso>Allegato A</denAnnesso>
 						<titAnnesso>Tabella A - Tariffa unica regionale per le autolinee extraurbane.</titAnnesso>
 					</testata>
-					<rifesterno xlink:href="urn:nir:regione.toscana:legge:1975-03-20;21:allegato;tabella.a.-.tariffa.unica.regionale.per.le.autolinee.extraurbane." xlink:type="simple" />
+					<rifesterno xlink:href="urn:nir:regione.toscana:legge:1975-03-20;21:allegato.a" xlink:type="simple" />
+				</annesso>
+				<annesso id="ann2">
+					<testata>
+						<denAnnesso>Allegato B</denAnnesso>
+						<titAnnesso>Tabella B - Tariffe bagagli accompagnati.</titAnnesso>
+					</testata>
+					<rifesterno xlink:href="urn:nir:regione.toscana:legge:1975-03-20;21:allegato.b" xlink:type="simple" />
 				</annesso>
 			</annessi>
 		</LeggeRegionale>
