@@ -1,22 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19760910" num="44" tipo="BURT" />
 					<entratainvigore norm="19760925" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1976-09-04;64" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1976-09-04;64" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1976-09-04;64@1977-03-23" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19760925" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19770416" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1976-09-04;64" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1977-03-23;20" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art20" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1977-03-23;20" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1977-03-23;20#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 23 marzo 1977, n. 20" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art20-com5" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -677,6 +696,16 @@
 							e delle eventuali variazioni intervenute ai sensi del
 							<rif xlink:href="#art20-com3" xlink:type="simple">comma 3</rif>
 							di esso.
+						</corpo>
+					</comma>
+					<comma id="art20-com5" iniziovigore="t2">
+						<num />
+						<corpo>
+							Fino a quando il Consiglio regionale non abbia approvato i piani economici agricolo - forestali di cui all'
+							<rif xlink:href="#art9" xlink:type="simple">articolo 9</rif>
+							e i programmi annuali di cui all'
+							<rif xlink:href="#art10" xlink:type="simple">articolo 10</rif>
+							, i mezzi finanziari necessari per l'esercizio delle funzioni delegate sono annualmente assegnati ai singoli enti delegati con deliberazione del Consiglio Regionale su proposta della Giunta.
 						</corpo>
 					</comma>
 				</articolo>
