@@ -8,19 +8,21 @@
 					<entratainvigore norm="19740831" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1974-08-10;48" />
-					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1974-08-10;48@1976-08-12" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1974-08-10;48@1977-08-11" />
+					<urn finevigore="t4" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1974-08-10;48@1976-08-12" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1974-08-10;48@1977-08-11" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19740831" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19760904" fonte="rp1" id="t2" tipo="modifica" />
-						<evento data="19770903" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="19761103" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="19770903" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1974-08-10;48" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1976-08-12;47" xlink:type="simple" />
-						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1977-08-11;47" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1976-10-19;65" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1977-08-11;47" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -42,7 +44,7 @@
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art8-com1" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1976-08-12;47" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1976-08-12;47#artunico-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -68,7 +70,7 @@
 								<dsp:pos xlink:href="#art24-com1-leta" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#art24-com1-leta-t3" xlink:type="simple" />
+								<dsp:pos xlink:href="#art24-com1-leta-t4" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -83,7 +85,7 @@
 								<dsp:pos xlink:href="#art24-com5" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#art24-com4-t3" xlink:type="simple" />
+								<dsp:pos xlink:href="#art24-com4-t4" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -821,7 +823,7 @@
 						<comma id="art24-com1">
 							<num />
 							<alinea>Al finanziamento dell'Istituto si provvede mediante:</alinea>
-							<el finevigore="t3" id="art24-com1-leta-t3" iniziovigore="t1" status="abrogato">
+							<el finevigore="t4" id="art24-com1-leta-t4" iniziovigore="t1" status="abrogato">
 								<num>a)</num>
 								<corpo>
 									il contributo ordinario annuale della Regione nella misura di L. 250.000.000
@@ -829,7 +831,7 @@
 									;
 								</corpo>
 							</el>
-							<el id="art24-com1-leta" iniziovigore="t3">
+							<el id="art24-com1-leta" iniziovigore="t4">
 								<num>a)</num>
 								<corpo>
 									Il contributo ordinario annuale della Regione, determinato per ciascun esercizio con la legge di approvazione del rispettivo bilancio
@@ -878,11 +880,11 @@
 							<num />
 							<corpo>L'esercizio finanziario dell'Istituto ha inizio il 1 gennaio e termina il 31 dicembre di ogni anno.</corpo>
 						</comma>
-						<comma finevigore="t3" id="art24-com4-t3" iniziovigore="t1" status="abrogato">
+						<comma finevigore="t4" id="art24-com4-t4" iniziovigore="t1" status="abrogato">
 							<num />
 							<corpo>Il bilancio preventivo è approvato entro il 15 dicembre dell'anno precedente all'esercizio cui si riferisce.</corpo>
 						</comma>
-						<comma id="art24-com5" iniziovigore="t3">
+						<comma id="art24-com5" iniziovigore="t4">
 							<num />
 							<corpo>Il bilancio preventivo è deliberato dal Consiglio di amministrazione dello IRPET entro il 30 settembre dell'anno precedente l'esercizio cui si riferisce. Il bilancio stesso è approvato dal Consiglio regionale unitamente al bilancio regionale.</corpo>
 						</comma>
@@ -950,7 +952,7 @@
 							<num />
 							<corpo>
 								Alla spesa di L. 250.000.000 per il contributo ordinario annuale di cui alla
-								<rif xlink:href="#art24-com1-leta-t3" xlink:type="simple">lettera a) dell'art. 24</rif>
+								<rif xlink:href="#art24-com1-leta-t4" xlink:type="simple">lettera a) dell'art. 24</rif>
 								, si fa fronte con la somma prevista al Capitolo 04870 che viene istituito con la variazione di cui all'articolo seguente.
 							</corpo>
 						</comma>
