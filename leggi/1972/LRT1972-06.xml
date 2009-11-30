@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19720526" num="20" tipo="BURT" />
 					<entratainvigore norm="19720526" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1972-05-24;6" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1972-05-24;6" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1972-05-24;6@1973-01-17" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1972-05-24;6@1973-12-31" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19720526" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19730126" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19740126" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1972-05-24;6" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1973-01-17;6" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1973-12-31;68" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -49,7 +55,7 @@
 						<num />
 						<corpo>
 							La Giunta regionale è autorizzata ad attuare, nei limiti di spesa e con le modalità previste dalla presente legge ed agli effetti del
-							<rif xlink:href="urn:nir:stato:regio.decreto:1923-12-31;3267" xlink:type="simple">RD 31- 12- 1923, n. 3267</rif>
+							<rif xlink:href="urn:nir:stato:regio.decreto:1923-12-31;3267" xlink:type="simple">RD 31-12-1923, n. 3267</rif>
 							e successive modificazioni ed integrazioni, interventi relativi alla sistemazione idraulico - forestale, al rimboschimento, alla ricostituzione boschiva, alla gestione dei vivai forestali ed alle opere complementari strettamente connesse, nei bacini montani e nei comprensori di bonifica montana.
 						</corpo>
 					</comma>
@@ -60,9 +66,9 @@
 						<num />
 						<corpo>
 							Gli oneri relativi agli interventi di cui all'articolo precedente, in analogia a quanto disposto con l'
-							<rif xlink:href="urn:nir:stato:regio.decreto:1923-12-31;3267#art39" xlink:type="simple">art. 39 del RD 31- 12- 1923, n. 3267</rif>
+							<rif xlink:href="urn:nir:stato:regio.decreto:1923-12-31;3267#art39" xlink:type="simple">art. 39 del RD 31-12-1923, n. 3267</rif>
 							e dall'
-							<rif xlink:href="urn:nir:stato:legge:1966-10-27;910#art27" xlink:type="simple">art. 27 della legge 27- 10- 1966, n. 910</rif>
+							<rif xlink:href="urn:nir:stato:legge:1966-10-27;910#art27" xlink:type="simple">art. 27 della legge 27-10-1966, n. 910</rif>
 							, sono a carico della Regione.
 						</corpo>
 					</comma>
@@ -91,7 +97,7 @@
 						<num />
 						<corpo>La Giunta regionale provvede all'approvazione dei progetti e ne dispone contestualmente il finanziamento secondo le vigenti leggi dello Stato.</corpo>
 					</comma>
-					<comma id="art5-com2">
+					<comma id="art5-com3">
 						<num />
 						<corpo>Le nomine dei collaudatori sono di competenza della Giunta regionale.</corpo>
 					</comma>
