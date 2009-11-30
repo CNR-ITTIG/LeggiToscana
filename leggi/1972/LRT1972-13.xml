@@ -1,27 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19720623" num="23" tipo="BURT" />
 					<entratainvigore norm="19720708" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1972-06-17;13" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1972-06-17;13" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1972-06-17;13@1975-06-07" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1972-06-17;13@1976-07-03" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19720708" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19750628" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19760724" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1972-06-17;13" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1975-06-07;71" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1976-07-03;33" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
 					<nota id="n1">
 						<h:p>
 							Le disposizioni in materia di assistenza scolastica di cui alla presente legge incompatibili con la
-							<rif xlink:href="urn:nir:regione.toscana:legge:1975-06-07;71" xlink:type="simple">legge regionale 7 giugno 1975,n. 71, </rif>sono da ritenersi abrogate ai sensi dell'art. 31, comma secondo della stessa. Sono inoltre abrogate le disposizioni concernenti le biblioteche di enti locali e di interesse locale, ai sensi dell'<rif xlink:href="urn:nir:regione.toscana:legge:1976-07-03;33#33" xlink:type="simple">art. 33 della legge regionale 3 luglio 1976, n. 33.</rif>
+							<rif xlink:href="urn:nir:regione.toscana:legge:1975-06-07;71" xlink:type="simple">legge regionale 7 giugno 1975,n. 71,</rif>
+							sono da ritenersi abrogate ai sensi dell'art. 31, comma secondo della stessa. Sono inoltre abrogate le disposizioni concernenti le biblioteche di enti locali e di interesse locale, ai sensi dell'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1976-07-03;33#33" xlink:type="simple">art. 33 della legge regionale 3 luglio 1976, n. 33.</rif>
 						</h:p>
 					</nota>
 				</redazionale>
@@ -58,7 +66,7 @@
 							, della presente legge.
 						</corpo>
 					</comma>
-					<comma id="art1-com2">
+					<comma id="art1-com3">
 						<num />
 						<corpo>
 							Le disposizioni della presente legge restano in vigore fino all'emanazione, nella materia sopraindicata, della legge per la delega delle funzioni agli Enti locali di cui all'
