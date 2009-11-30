@@ -8,16 +8,19 @@
 					<entratainvigore norm="19740831" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1974-08-10;48" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1974-08-10;48@1976-08-12" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1974-08-10;48@1976-08-12" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1974-08-10;48@1977-08-11" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19740831" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19760904" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19770903" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1974-08-10;48" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1976-08-12;47" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1977-08-11;47" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -26,6 +29,13 @@
 							Ai sensi dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1976-10-19;65#art1" xlink:type="simple">art. 1 della legge regionale 19 ottobre 1976, n. 65</rif>
 							, tale contributo è stato integrato, per l'anno 1976, di L. 330.000.000.
+						</h:p>
+					</nota>
+					<nota id="n2">
+						<h:p>
+							Ai sensi dell'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1977-08-11;47#art3" xlink:type="simple">art. 3 della legge regionale 11 agosto 1977, n. 47</rif>
+							il contributo qui previsto è stabilito per l'anno 1977 in L. 600.000.000.
 						</h:p>
 					</nota>
 				</redazionale>
@@ -44,6 +54,36 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art8-com1-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art24-com1-leta" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1977-08-11;47" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1977-08-11;47#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 11 agosto 1977, n. 47" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art24-com1-leta" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art24-com1-leta-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art24-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1977-08-11;47" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1977-08-11;47#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 11 agosto 1977, n. 47" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art24-com5" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art24-com4-t3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -781,11 +821,19 @@
 						<comma id="art24-com1">
 							<num />
 							<alinea>Al finanziamento dell'Istituto si provvede mediante:</alinea>
-							<el id="art24-com1-leta">
+							<el finevigore="t3" id="art24-com1-leta-t3" iniziovigore="t1" status="abrogato">
 								<num>a)</num>
 								<corpo>
 									il contributo ordinario annuale della Regione nella misura di L. 250.000.000
 									<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+									;
+								</corpo>
+							</el>
+							<el id="art24-com1-leta" iniziovigore="t3">
+								<num>a)</num>
+								<corpo>
+									Il contributo ordinario annuale della Regione, determinato per ciascun esercizio con la legge di approvazione del rispettivo bilancio
+									<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
 									;
 								</corpo>
 							</el>
@@ -830,15 +878,19 @@
 							<num />
 							<corpo>L'esercizio finanziario dell'Istituto ha inizio il 1 gennaio e termina il 31 dicembre di ogni anno.</corpo>
 						</comma>
-						<comma id="art24-com4">
+						<comma finevigore="t3" id="art24-com4-t3" iniziovigore="t1" status="abrogato">
 							<num />
 							<corpo>Il bilancio preventivo è approvato entro il 15 dicembre dell'anno precedente all'esercizio cui si riferisce.</corpo>
 						</comma>
-						<comma id="art24-com5">
+						<comma id="art24-com5" iniziovigore="t3">
+							<num />
+							<corpo>Il bilancio preventivo è deliberato dal Consiglio di amministrazione dello IRPET entro il 30 settembre dell'anno precedente l'esercizio cui si riferisce. Il bilancio stesso è approvato dal Consiglio regionale unitamente al bilancio regionale.</corpo>
+						</comma>
+						<comma id="art24-com6">
 							<num />
 							<corpo>Il conto consuntivo è approvato entro il 30 aprile successivo alla chiusura dell'esercizio finanziario cui è riferito.</corpo>
 						</comma>
-						<comma id="art24-com6">
+						<comma id="art24-com7">
 							<num />
 							<corpo>La gestione economico - finanziaria dell'Istituto è regolata dalle norme che disciplinano la contabilità ed amministrazione del patrimonio della Regione, in quanto applicabili.</corpo>
 						</comma>
@@ -898,7 +950,7 @@
 							<num />
 							<corpo>
 								Alla spesa di L. 250.000.000 per il contributo ordinario annuale di cui alla
-								<rif xlink:href="#art24-com1-leta" xlink:type="simple">lettera a) dell'art. 24</rif>
+								<rif xlink:href="#art24-com1-leta-t3" xlink:type="simple">lettera a) dell'art. 24</rif>
 								, si fa fronte con la somma prevista al Capitolo 04870 che viene istituito con la variazione di cui all'articolo seguente.
 							</corpo>
 						</comma>
