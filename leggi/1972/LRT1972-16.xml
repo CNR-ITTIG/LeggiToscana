@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19720707" num="25" tipo="BURT" />
 					<entratainvigore norm="19720722" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1972-06-30;16" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1972-06-30;16" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1972-06-30;16@1974-11-21" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1972-06-30;16@1975-05-21" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19720722" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19750101" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19750614" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1972-06-30;16" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1974-11-21;70" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1975-05-21;46" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -61,7 +67,7 @@
 							, dalla presente legge.
 						</corpo>
 					</comma>
-					<comma id="art1-com2">
+					<comma id="art1-com3">
 						<num />
 						<corpo>
 							Le disposizioni della presente legge restano in vigore fino all'emanazione, nella materia sopraindicata, della legge per la delega delle funzioni agli Enti locali di cui all'
