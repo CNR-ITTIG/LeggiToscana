@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19761231" num="65" tipo="BURT" />
 					<entratainvigore norm="19770115" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1976-12-23;75" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1976-12-23;75" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1976-12-23;75@1977-06-23" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19770115" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19770701" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1976-12-23;75" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1977-06-23;34" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -22,7 +25,13 @@
 						<h:p>
 							Contributo elevato a L. 3.500.000 ai sensi dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1977-06-23;34#art1" xlink:type="simple">art. 1 della legge regionale 23 giugno 1977, n. 34</rif>
-							, si vedano inoltre gli artt. 2 e 3 della stessa.
+							. Della stessa legge, si vedano inoltre gli
+							<mrif>
+								<rif xlink:href="urn:nir:regione.toscana:legge:1977-06-23;34#art2" xlink:type="simple">artt. 2</rif>
+								e
+								<rif xlink:href="urn:nir:regione.toscana:legge:1977-06-23;34#art3" xlink:type="simple">3</rif>
+							</mrif>
+							.
 						</h:p>
 					</nota>
 				</redazionale>
