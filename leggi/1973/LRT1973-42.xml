@@ -8,20 +8,30 @@
 					<entratainvigore norm="19730811" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1973-07-24;42" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1973-07-24;42@1975-05-03" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1973-07-24;42@1975-05-03" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1973-07-24;42@1977-08-17" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19730811" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19750524" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19770910" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1973-07-24;42" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1975-05-03;36" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1977-08-17;52" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
 					<nota id="n1">
+						<h:p>
+							La presente legge è stata modificata ed integrata nella parte finanziaria dalla
+							<rif xlink:href="urn:nir:regione.toscana:legge:1977-08-17;52" xlink:type="simple">legge regionale 17 agosto 1977, n. 52</rif>
+							.
+						</h:p>
+					</nota>
+					<nota id="n2">
 						<h:p>
 							Importo elevato a L. 265.000.000 ex
 							<rif xlink:href="urn:nir:regione.toscana:legge:1974-01-07;2#art1" xlink:type="simple">art. unico legge regionale 7 gennaio 1974, n. 2</rif>
@@ -40,7 +50,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art1-com2" xlink:type="simple" />
+								<dsp:pos xlink:href="#art1-com3" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -148,7 +158,11 @@
 				<dataDoc norm="19730724">24 luglio 1973</dataDoc>
 				, n.
 				<numDoc>42</numDoc>
-				<titoloDoc>Contributi alle cooperative e consorzi tra imprese artigiane.</titoloDoc>
+				<titoloDoc>
+					Contributi alle cooperative e consorzi tra imprese artigiane
+					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					.
+				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato</h:p>
@@ -166,7 +180,7 @@
 							della presente legge.
 						</corpo>
 					</comma>
-					<comma id="art1-com2" iniziovigore="t2">
+					<comma id="art1-com3" iniziovigore="t2">
 						<num />
 						<corpo>
 							La Regione eroga ai consorzi e cooperative di 2o grado, costituite fra non meno di cinque consorzi e cooperative di cui al
@@ -371,7 +385,7 @@
 						<num />
 						<corpo>
 							Agli oneri derivanti dall'applicazione della presente legge per l'esercizio 1973 previsti in L. 200 milioni
-							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
 							, si provvede con i fondi nel capitolo 31200 dello stato di previsione della spesa per l'esercizio stesso.
 						</corpo>
 					</comma>
