@@ -1,22 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19740125" num="04" tipo="BURT" />
 					<entratainvigore norm="19740209" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1974-01-21;8" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1974-01-21;8" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1974-01-21;8@1977-08-17" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19740209" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19770910" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1974-01-21;8" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1977-08-17;49" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1977-08-17;49" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1977-08-17;49#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 17 agosto 1977, n. 49" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -84,12 +106,20 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art4">
+				<articolo finevigore="t2" id="art4-t2" iniziovigore="t1" status="abrogato">
+					<num>ARTICOLO 4</num>
+					<rubrica>Redazione al Consiglio Regionale.</rubrica>
+					<comma id="art4-t2-com1">
+						<num />
+						<corpo>Ogni sei mesi il Difensore Civico invia all'esame del Consiglio Regionale una dettagliata relazione sull'attività svolta nel semestre e segnala i casi in cui si sono verificati i ritardi o le irregolarità.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art4" iniziovigore="t2">
 					<num>ARTICOLO 4</num>
 					<rubrica>Redazione al Consiglio Regionale.</rubrica>
 					<comma id="art4-com1">
 						<num />
-						<corpo>Ogni sei mesi il Difensore Civico invia all'esame del Consiglio Regionale una dettagliata relazione sull'attività svolta nel semestre e segnala i casi in cui si sono verificati i ritardi o le irregolarità.</corpo>
+						<corpo>Il Difensore Civico invia al Consiglio regionale, entro il 31 marzo di ogni anno, la relazione sull'attività svolta nell'anno precedente, segnalando i casi in cui si sono verificati i ritardi o le irregolarità. Per i casi di particolare importanza o comunque meritevoli di urgente considerazione, il Difensore Civico può in ogni momento inviare relazioni apposite al Consiglio regionale.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art5">
