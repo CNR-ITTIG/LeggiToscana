@@ -206,8 +206,13 @@ public class FileOpenActionImpl implements FileOpenAction, Loggable, Serviceable
 				//BLOCCARE IL NUOVO FILE: file
 		
 		try {
-
-			URL url = new URL("http://217.133.94.62/LeggiToscana/xmleges.php?nome=davide&legge="+file.substring(1+file.lastIndexOf("\\")));
+			String nomeFile=file;
+			if (nomeFile.indexOf("\\")!=-1)
+				nomeFile = file.substring(1+file.lastIndexOf("\\"));
+			else
+				nomeFile = file.substring(1+file.lastIndexOf("/"));
+			nomeFile=nomeFile.substring(0, nomeFile.length()-4);
+			URL url = new URL("http://217.133.94.62/LeggiToscana/xmleges.php?nome=davide&legge="+nomeFile);
 			
 			HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 			conn.setReadTimeout(5000);
