@@ -8,16 +8,19 @@
 					<entratainvigore norm="19760925" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1976-09-04;64" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1976-09-04;64@1977-03-23" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1976-09-04;64@1977-03-23" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1976-09-04;64@1978-02-02" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19760925" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19770416" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19780225" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1976-09-04;64" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1977-03-23;20" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1978-02-02;6" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -34,6 +37,21 @@
 								<dsp:pos xlink:href="#art20-com5" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art11" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1978-02-02;6" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1978-02-02;6#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 2 febbraio 1978, n. 6" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art11" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art11-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -388,10 +406,10 @@
 						<corpo>Fino alla costituzione degli organi comprensoriali, le funzioni loro assegnate a tali organi vengono svolte dalle Amministrazioni provinciali competenti per territorio.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art11">
+				<articolo finevigore="t3" id="art11-t3" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 11</num>
 					<rubrica>(Delega di funzioni amministrative)</rubrica>
-					<comma id="art11-com1">
+					<comma id="art11-t3-com1">
 						<num />
 						<corpo>
 							A far data dal 1 gennaio 1977, e comunque dall'entrata in vigore della legge di bilancio per l'esercizio finanziario 1977, le funzioni amministrative di cui all'
@@ -408,7 +426,7 @@
 							, sono delegate alle Comunità Montane, per quanto riguarda i beni esistenti nei rispettivi territori, ed ai Comuni per gli altri beni, sempre con riferimento ai limiti delle rispettive circoscrizioni.
 						</corpo>
 					</comma>
-					<comma id="art11-com2">
+					<comma id="art11-t3-com2">
 						<num />
 						<corpo>
 							Per l'esercizio delle funzioni di cui alla presente legge, al fine di assicurare l'unitarietà di gestione dei singoli complessi agricolo - forestali di cui all'
@@ -418,7 +436,7 @@
 							.
 						</corpo>
 					</comma>
-					<comma id="art11-com3">
+					<comma id="art11-t3-com3">
 						<num />
 						<corpo>
 							I Comuni e le Comunità Montane, che si consorziano secondo le ipotesi di aggregazione territoriale di cui all'
@@ -426,15 +444,15 @@
 							, ricevono un incentivo finanziario nella misura del 10 per cento dell'ammontare del finanziamento per le funzioni delegate da essi attribuite al consorzio.
 						</corpo>
 					</comma>
-					<comma id="art11-com4">
+					<comma id="art11-t3-com4">
 						<num />
 						<corpo>Gli statuti dei consorzi prevedono, oltre all'assemblea, al consiglio direttivo e al presidente, organi di partecipazione popolare alla programmazione, gestione e controllo delle attività. Dei predetti organi fanno parte le formazioni sociali presenti nel territorio, gli organi rappresentativi delle categorie economiche interessate e delle organizzazioni sindacali dei lavoratori.</corpo>
 					</comma>
-					<comma id="art11-com5">
+					<comma id="art11-t3-com5">
 						<num />
 						<corpo>Nelle assemblee dei consorzi è garantita la presenza delle minoranze dei Consigli comunali e delle Comunità Montane.</corpo>
 					</comma>
-					<comma id="art11-com6">
+					<comma id="art11-t3-com6">
 						<num />
 						<corpo>
 							In caso di mancata costituzione del consorzio, ove gli enti delegati cui è attribuita la gestione dei singoli complessi agricolo - forestali non adottino di concerto il piano di cui all'
@@ -445,6 +463,61 @@
 							<rif xlink:href="urn:nir:regione.toscana:statuto:#art66-com2" xlink:type="simple">art. 66, comma 2 dello Statuto</rif>
 							e dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1973-04-30;30#art9-com3" xlink:type="simple">art. 9, comma 3 della legge regionale 30 aprile 1973, n. 30</rif>
+							.
+						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art11" iniziovigore="t3">
+					<num>ARTICOLO 11</num>
+					<rubrica>(Delega di funzioni amministrative)</rubrica>
+					<comma id="art11-com1">
+						<num />
+						<corpo>
+							A far data dall'1 gennaio 1977, e comunque dall'entrata in vigore della legge di bilancio per l'esercizio finanziario 1977, le funzioni amministrative di cui agli
+							<mrif>
+								artt.
+								<rif xlink:href="#art1" xlink:type="simple">1</rif>
+								e
+								<rif xlink:href="#art4" xlink:type="simple">4</rif>
+							</mrif>
+							della presente legge, comprese le concessioni sui beni stessi ai sensi dell'
+							<rif xlink:href="#art5" xlink:type="simple">art. 5</rif>
+							, sono delegate alle comunità montane, per quanto riguarda i beni esistenti nei rispettivi territori, ed ai comuni per gli altri beni, sempre con riferimento ai limiti delle rispettive circoscrizioni.
+						</corpo>
+					</comma>
+					<comma id="art11-com2">
+						<num />
+						<corpo>
+							Per l'esercizio delle funzioni di cui alla presente legge, al fine di assicurare l'unitarietà di gestione dei singoli complessi agricolo - forestali di cui all'
+							<rif xlink:href="#art7" xlink:type="simple">art. 7</rif>
+							, gli enti delegati ai sensi del precedente comma si possono riunire in consorzio secondo la disciplina degli artt. 156 e seguenti del
+							<rif xlink:href="urn:nir:stato:regio.decreto:1934-03-03;383" xlink:type="simple">RD 3 marzo 1934, n. 383</rif>
+							.
+						</corpo>
+					</comma>
+					<comma id="art11-com3">
+						<num />
+						<corpo>I Comuni e le Comunità Montane che si consorziano secondo le ipotesi di aggregazione territoriale di cui all'art. 7, ricevono un incentivo finanziario nella misura del 10 per cento dell'ammontare del finanziamento per le funzioni delegate da essi attribuite al consorzio.</corpo>
+					</comma>
+					<comma id="art11-com4">
+						<num />
+						<corpo>Gli statuti dei consorzi prevedono oltre all'assemblea, al consiglio direttivo e al Presidente, organi di partecipazione alla programmazione, gestione e controllo delle attività. Dei predetti organi fanno parte le formazioni sociali presenti nel territorio, gli organi rappresentativi delle categorie economiche interessate e delle organizzazioni sindacali dei lavoratori.</corpo>
+					</comma>
+					<comma id="art11-com5">
+						<num />
+						<corpo>Nelle assemblee dei consorzi è garantita la presenza delle minoranze dei consigli comunali, e delle comunità montane.</corpo>
+					</comma>
+					<comma id="art11-com6">
+						<num />
+						<corpo>Onde perseguire le finalità di cui al comma 2, gli enti delegati, nel caso di mancata costituzione del Consorzio, possono stipulare convocazioni fra loro per la gestione unitaria dei beni da essi amministrati, regolando i rapporti finanziari che ne derivano e garantendo comunque la partecipazione di cui al precedente comma 3.</corpo>
+					</comma>
+					<comma id="art11-com7">
+						<num />
+						<corpo>
+							In caso di mancata costituzione del Consorzio o stipula di convenzione, ove gli enti delegati cui è attribuita la gestione dei singoli complessi agricolo - forestali non adottino di concerto il piano di cui all'art. 9, ed i programmi annuali di cui all'art. 10, entro i termini ivi fissati, la Giunta regionale si sostituisce agli enti delegati ai sensi dell'
+							<rif xlink:href="urn:nir:regione.toscana:statuto:#art66-com2" xlink:type="simple">art. 66, comma 2 dello statuto</rif>
+							e dell'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1973-04-30;30#art9-com3" xlink:type="simple">art. 9, comma 3 della LR 30 aprile 1973, n. 30</rif>
 							.
 						</corpo>
 					</comma>
