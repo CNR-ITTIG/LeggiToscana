@@ -8,16 +8,19 @@
 					<entratainvigore norm="19720812" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1972-07-20;22" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1972-07-20;22@1974-08-05" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1972-07-20;22@1974-08-05" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1972-07-20;22@1978-02-16" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19720812" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19740824" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19780311" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1972-07-20;22" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1974-08-05;47" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1978-02-16;13" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -35,6 +38,21 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art3-com2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1978-02-16;13" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1978-02-16;13#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 16 febbraio 1978, n. 13" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com1-t3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -63,27 +81,39 @@
 				</articolo>
 				<articolo id="art2">
 					<num>ARTICOLO 2</num>
-					<comma id="art2-com1">
+					<comma finevigore="t3" id="art2-com1-t3" iniziovigore="t1" status="abrogato">
 						<num />
 						<alinea>Ai componenti effettivi e supplenti del Comitato regionale e delle sue sezioni decentrate è attribuita un' indennità per ogni giornata di seduta nella misura di:</alinea>
-						<ep id="art2-com1-pun1">
+						<ep id="art2-com1-t3-pun1">
 							<num>-</num>
 							<corpo>L. 20.000 al Presidente;</corpo>
 						</ep>
-						<ep id="art2-com1-pun2">
+						<ep id="art2-com1-t3-pun2">
 							<num>-</num>
 							<corpo>L. 15.000 ai componenti eletti dal Consiglio regionale;</corpo>
 						</ep>
-						<ep id="art2-com1-pun3">
+						<ep id="art2-com1-t3-pun3">
 							<num>-</num>
 							<corpo>L. 10.000 agli altri componenti.</corpo>
 						</ep>
 					</comma>
-					<comma id="art2-com2">
+					<comma id="art2-com2" iniziovigore="t3">
+						<num />
+						<alinea>Ai componenti effettivi e supplenti del Comitato Regionale e delle sue sezioni decentrate è attribuita un'indennità per ogni giornata di seduta nella misura di:</alinea>
+						<ep id="art2-com2-pun1">
+							<num />
+							<corpo>L. 20.000 al Presidente</corpo>
+						</ep>
+						<ep id="art2-com2-pun2">
+							<num />
+							<corpo>L. 15.000 agli altri componenti</corpo>
+						</ep>
+					</comma>
+					<comma id="art2-com3">
 						<num />
 						<corpo>Le indennità indicate nel precedente comma si intendono al lordo delle ritenute fiscali e la loro corresponsione decorre dalla prima seduta alla quale ciascun componente del comitato o delle sezioni ha partecipato.</corpo>
 					</comma>
-					<comma id="art2-com3">
+					<comma id="art2-com4">
 						<num />
 						<corpo>Alla liquidazione delle indennità provvede mensilmente la Giunta regionale sulla base di un prospetto riepilogativo delle presenze sottoscritto dal Segretario del Comitato regionale di controllo o della sezione decentrata.</corpo>
 					</comma>
@@ -137,7 +167,7 @@
 					<num>ARTICOLO 6</num>
 					<comma id="art6-com1">
 						<num />
-						<corpo>Alla spesa di cui alla presente legge si provvede con lo stanziamento all' uopo previsto al capitolo 30 del Bilancio della Regione per l' esercizio finanziario 1972 ed ai corrispondenti capitoli per gli esercizi successivi.</corpo>
+						<corpo>Alla spesa di cui alla presente legge si provvede con lo stanziamento all'uopo previsto al capitolo 30 del Bilancio della Regione per l' esercizio finanziario 1972 ed ai corrispondenti capitoli per gli esercizi successivi.</corpo>
 					</comma>
 				</articolo>
 			</articolato>
