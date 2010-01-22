@@ -8,16 +8,19 @@
 					<entratainvigore norm="19720729" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1972-07-06;18" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1972-07-06;18@1974-11-21" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1972-07-06;18@1974-11-21" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1972-07-06;18@1978-02-16" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19720729" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19741214" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19780311" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1972-07-06;18" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1974-11-21;69" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1978-02-16;12" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -35,6 +38,21 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art2-com2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art20" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1978-02-16;12" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1978-02-16;12#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 16 febbraio 1978, n. 12" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art20" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art20-t3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -508,11 +526,18 @@
 						<corpo>Il Comitato regionale svolge l'attività di coordinamento anche promuovendo riunioni con le singole sezioni.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art20">
+				<articolo finevigore="t3" id="art20-t3" iniziovigore="t1" status="abrogato">
+					<num>ARTICOLO 20</num>
+					<comma id="art20-t3-com1">
+						<num />
+						<corpo>Per consentire al Consiglio regionale di esaminare i risultati dell'attività di controllo, il comitato regionale, sentite le sezioni decentrate, redige una relazione sull'attività svolta nel periodo compreso tra il 1º luglio dell'anno precedente ed il 30 giugno dell' anno in corso da trasmettere al Consiglio ed alla Giunta entro il 1º settembre di ogni anno.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art20" iniziovigore="t3">
 					<num>ARTICOLO 20</num>
 					<comma id="art20-com1">
 						<num />
-						<corpo>Per consentire al Consiglio regionale di esaminare i risultati dell'attività di controllo, il comitato regionale, sentite le sezioni decentrate, redige una relazione sull'attività svolta nel periodo compreso tra il 1º luglio dell'anno precedente ed il 30 giugno dell' anno in corso da trasmettere al Consiglio ed alla Giunta entro il 1º settembre di ogni anno.</corpo>
+						<corpo>Per consentire al Consiglio regionale di esaminare i risultati dell'attività di controllo, il Comitato Regionale, sentite le Sezioni decentrate, redige una relazione sull'attività svolta nel periodo compreso tra il 1 gennaio ed il 31 dicembre dell'anno precedente da trasmettere al Consiglio regionale ed alla Giunta entro il 31 marzo di ogni anno</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art21">
