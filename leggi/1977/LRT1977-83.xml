@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale inizioefficacia="19780101">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19771230" num="69" tipo="BURT" />
 					<entratainvigore norm="19780114" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1977-12-23;83" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1977-12-23;83" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1977-12-23;83@1978-02-08" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="ATTRIBUZIONI DELEGHE" />
 						<materia valore="ASSETTO IDROGEOLOGICO" />
@@ -17,11 +18,47 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19780114" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19780217" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1977-12-23;83" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1978-02-08;11" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art42" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1978-02-08;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1978-02-08;11#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 8 febbraio 1978, n. 11" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art42" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art42-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art35" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1978-02-08;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1978-02-08;11#artunico-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 2 della legge Regione Toscana 8 febbraio 1978, n. 11" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art35-com7" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art35-com6-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -735,9 +772,22 @@
 							<num />
 							<corpo>A seguito dell'approvazione del piano di ripartizione e al fine di provvedere agli oneri aggiuntivi per l'esercizio finanziario in corso, è anticipata agli Enti delegati una quota pari all'80% delle somme assegnate con il piano di ripartizione stesso, salvo conguaglio nei termini e con le modalità di cui ai commi precedenti.</corpo>
 						</comma>
-						<comma id="art35-com6">
+						<comma finevigore="t2" id="art35-com6-t2" iniziovigore="t1" status="abrogato">
 							<num />
-							<corpo>Per l'esercizio finanziario 1978 è anticipata agli Enti delegati la quota pari al 10% dei finanziamenti assegnati ad ogni Ente per l'esercizio delle funzioni delegate ai sensi degli articoli 3 e 25, salvo conguaglio come indicato al comma precedente.</corpo>
+							<corpo>
+								Per l'esercizio finanziario 1978 è anticipata agli Enti delegati la quota pari al 10% dei finanziamenti assegnati ad ogni Ente per l'esercizio delle funzioni delegate ai sensi degli
+								<mrif>
+									articoli
+									<rif xlink:href="#art3" xlink:type="simple">3</rif>
+									e
+									<rif xlink:href="#art25" xlink:type="simple">25</rif>
+								</mrif>
+								, salvo conguaglio come indicato al comma precedente.
+							</corpo>
+						</comma>
+						<comma id="art35-com7" iniziovigore="t2">
+							<num />
+							<corpo>Per l'esercizio finanziario 1978 - secondo semestre - la Giunta regionale provvede a ripartire tra gli Enti delegati il 5% degli stanziamenti iscritti nel bilancio di previsione 1978 in base alla presente legge.</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art36">
@@ -821,11 +871,18 @@
 							<corpo>Si intendono comunque sostituiti agli organi statali centrali e periferici, gli Enti delegati ai sensi della presente legge.</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art42">
+					<articolo finevigore="t2" id="art42-t2" iniziovigore="t1" status="abrogato">
+						<num>ARTICOLO 42</num>
+						<comma id="art42-t2-com1">
+							<num />
+							<corpo>La presente legge avrà effetto dal 1 gennaio 1978.</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art42" iniziovigore="t2">
 						<num>ARTICOLO 42</num>
 						<comma id="art42-com1">
 							<num />
-							<corpo>La presente legge avrà effetto dal 1 gennaio 1978.</corpo>
+							<corpo>La presente legge avrà effetto dal 1 luglio 1978.</corpo>
 						</comma>
 					</articolo>
 				</titolo>
