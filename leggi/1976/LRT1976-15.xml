@@ -15,10 +15,12 @@
 						<evento data="19760501" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19760701" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="19780624" fonte="rp1" id="t3" tipo="modifica" />
+						<evento data="19760501" fonte="ra2" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1976-04-07;15" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1973-01-03;3" xlink:type="simple" />
+						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1977-03-12;18" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1978-05-30;35" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
@@ -34,7 +36,7 @@
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#mod4" xlink:type="simple" />
+							<dsp:pos xlink:href="#mod5" xlink:type="simple" />
 							<dsp:termine da="#t2" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1973-01-03;3" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1973-01-03;3" xlink:type="simple" />
@@ -42,6 +44,18 @@
 							<dsp:novellando>
 								<dsp:subarg>
 									<ittig:tipo valore="atto" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="" xlink:type="simple" />
+							<dsp:termine da="#t4" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1977-03-12;18" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1977-03-12;18#art20" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:subarg>
+									<ittig:tipo valore="articolo" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
 								</dsp:subarg>
 							</dsp:novellando>
 						</dsp:abrogazione>
@@ -470,6 +484,18 @@
 								<dsp:pos xlink:href="#art30-t3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art31-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1978-05-30;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1978-05-30;35" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="legge Regione Toscana 30 maggio 1978, n. 35" id="itt32" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art31-com4" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -490,9 +516,9 @@
 			<articolato>
 				<titolo id="tit1">
 					<num>TITOLO I</num>
-					<rubrica finevigore="t3" iniziovigore="t1" status="abrogato">
+					<rubrica>
 						<h:span finevigore="t3" id="h1" iniziovigore="t1" status="abrogato">INTERVENTI DI SOSTEGNO ECONOMICO E PER L'ISTITUZIONE DI SERVIZI DI ASSISTENZA SOCIALE - DELEGA DI FUNZIONI AGLI ENTI LOCALI.</h:span>
-						<h:span id="h2" iniziovigore="t3">interventi di sostegno economico e per l'istituzione dei servizi di assistenza sociale da parte degli enti locali</h:span>
+						<h:span id="h2" iniziovigore="t3">Interventi di sostegno economico e per l'istituzione dei servizi di assistenza sociale da parte degli enti locali</h:span>
 					</rubrica>
 					<articolo id="art1">
 						<num>ARTICOLO 1</num>
@@ -2456,8 +2482,10 @@
 						<comma id="art31-com4" iniziovigore="t3">
 							<num />
 							<corpo>
-								E' altresì abrogato l'
-								<rif xlink:href="urn:nir:regione.toscana:legge:1977-03-12;18#art20" xlink:type="simple">articolo 20 della legge regionale 12 marzo 1977, n. 18</rif>
+								<mod id="mod4">
+									E' altresì abrogato l'
+									<rif xlink:href="urn:nir:regione.toscana:legge:1977-03-12;18#art20" xlink:type="simple">articolo 20 della legge regionale 12 marzo 1977, n. 18</rif>
+								</mod>
 							</corpo>
 						</comma>
 					</articolo>
@@ -2485,7 +2513,7 @@
 						<comma id="art32-com3">
 							<num />
 							<corpo>
-								<mod id="mod4">
+								<mod id="mod5">
 									Dal 1 luglio 1976 è abrogata la
 									<rif xlink:href="urn:nir:regione.toscana:legge:1973-01-03;3" xlink:type="simple">legge regionale 3 gennaio 1973, n. 3</rif>
 									, modificata dalla
