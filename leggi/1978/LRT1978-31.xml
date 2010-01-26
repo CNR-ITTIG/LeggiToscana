@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19780526" num="25" tipo="BURT" />
 					<entratainvigore norm="19780610" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1978-05-17;31" />
+					<urn iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1978-05-17;31" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ordinamento" />
 						<materia valore="Emoderivati" />
@@ -17,11 +17,29 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19780610" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19780610" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1978-05-17;31" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1978-05-18;32" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art22" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1978-05-18;32" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1978-05-18;32#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 18 maggio 1978, n. 32" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art22-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -482,14 +500,14 @@
 						<corpo>Il direttore è coadiuvato dal vice direttore, che lo sostituisce in caso di sua assenza o impedimento.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art22">
+				<articolo finevigore="t2" id="art22-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 22</num>
 					<rubrica>(Personale del Consorzio per l'immunoematologia e trasfusionale di Careggi)</rubrica>
-					<comma id="art22-com1">
+					<comma id="art22-t2-com1">
 						<num />
 						<corpo>Il personale assunto dal Consorzio per l'immunoematologia e trasfusionale di Careggi entro il 31 dicembre 1975 e in servizio al momento dell'entrata in vigore della presente legge, è inquadrato nel ruolo unico regionale, a domanda da presentarsi entro 60 giorni dall'entrata in vigore della presente legge secondo i criteri di corrispondenza di cui alla Tabella "C" allegata alla legge regionale 6 settembre 1973, n. 54.</corpo>
 					</comma>
-					<comma id="art22-com2">
+					<comma id="art22-t2-com2">
 						<num />
 						<corpo>Gli effetti giuridici ed economici dell'inquadramento decorrono dalla data di esecutività del relativo provvedimento. Ai soli fini della progressione economica orizzontale, è riconosciuto il periodo di servizio effettivamente prestato a partire dal 1 gennaio 1976.</corpo>
 					</comma>
@@ -533,7 +551,7 @@
 						<meta>
 							<descrittori>
 								<pubblicazione norm="19780526" num="25" tipo="BURT" />
-					<entratainvigore norm="19780610" />
+								<entratainvigore norm="19780610" />
 								<redazione id="red2" nome="" norm="" />
 								<urn valore="urn:nir:regione.toscana:legge:1978-05-17;31:allegato" />
 							</descrittori>
