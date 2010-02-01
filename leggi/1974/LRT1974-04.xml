@@ -8,16 +8,19 @@
 					<entratainvigore norm="19740209" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1974-01-19;4" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1974-01-19;4@1974-05-22" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1974-01-19;4@1974-05-22" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1974-01-19;4@1978-09-05" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19740209" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19740531" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19780911" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1974-01-19;4" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1974-05-22;19" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1978-09-05;67" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -46,6 +49,51 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art8-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1978-09-05;67" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1978-09-05;67#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 5 settembre 1978, n. 67" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com1-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1978-09-05;67" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1978-09-05;67#art2-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 2 della legge Regione Toscana 5 settembre 1978, n. 67" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-com1-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1978-09-05;67" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1978-09-05;67#art2-com3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 3 della legge Regione Toscana 5 settembre 1978, n. 67" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -104,23 +152,27 @@
 					</articolo>
 					<articolo id="art2">
 						<num>ARTICOLO 2</num>
-						<comma id="art2-com1">
+						<comma finevigore="t3" id="art2-com1-t3" iniziovigore="t1" status="abrogato">
 							<num />
 							<corpo>Alla progettazione e alla esecuzione dei lavori si provvederà a mezzo degli Uffici del Genio Civile di Livorno, Lucca e Massa Carrara.</corpo>
 						</comma>
-						<comma id="art2-com2">
+						<comma id="art2-com2" iniziovigore="t3">
 							<num />
-							<corpo>L'attuazione dei lavori potrà essere affidata anche ai Comuni e Province interessate, che provvederanno, quindi, alla progettazione, direzione e ad ogni altro adempimento tecnico inerente ai lavori, come pure all'indizione e all'esperimento delle gare di appalto secondo le disposizioni vigenti.</corpo>
+							<corpo>Alla progettazione ed esecuzione dei lavori si provvederà a mezzo degli Uffici Regionali del Genio Civile di Livorno, Lucca e Grosseto</corpo>
 						</comma>
 						<comma id="art2-com3">
 							<num />
-							<corpo>Nei progetti delle opere la cui esecuzione è affidata agli Enti suddetti può includersi fra le somme a disposizione dell'amministrazione una aliquota non superiore al 6 per cento dell'importo complessivo della spesa, da destinare alla corresponsione forfettaria di compensi agli Enti stessi per le spese tecniche sostenute.</corpo>
+							<corpo>L'attuazione dei lavori potrà essere affidata anche ai Comuni e Province interessate, che provvederanno, quindi, alla progettazione, direzione e ad ogni altro adempimento tecnico inerente ai lavori, come pure all'indizione e all'esperimento delle gare di appalto secondo le disposizioni vigenti.</corpo>
 						</comma>
 						<comma id="art2-com4">
 							<num />
-							<corpo>Gli Enti suddetti sono tenuti a procedere alla conduzione dei lavori con le modalità che saranno indicate dalla Giunta regionale nel provvedimento di affidamento, sotto l'alta sorveglianza e con l'assistenza tecnica degli uffici regionali competenti.</corpo>
+							<corpo>Nei progetti delle opere la cui esecuzione è affidata agli Enti suddetti può includersi fra le somme a disposizione dell'amministrazione una aliquota non superiore al 6 per cento dell'importo complessivo della spesa, da destinare alla corresponsione forfettaria di compensi agli Enti stessi per le spese tecniche sostenute.</corpo>
 						</comma>
 						<comma id="art2-com5">
+							<num />
+							<corpo>Gli Enti suddetti sono tenuti a procedere alla conduzione dei lavori con le modalità che saranno indicate dalla Giunta regionale nel provvedimento di affidamento, sotto l'alta sorveglianza e con l'assistenza tecnica degli uffici regionali competenti.</corpo>
+						</comma>
+						<comma id="art2-com6">
 							<num />
 							<corpo>Gli interventi avranno luogo secondo le norme che regolano l'attuazione delle opere pubbliche dello Stato, fino all'entrata in vigore della normativa regionale in materia.</corpo>
 						</comma>
@@ -138,7 +190,7 @@
 					</articolo>
 					<articolo id="art4">
 						<num>ARTICOLO 4</num>
-						<comma id="art4-com1">
+						<comma finevigore="t3" id="art4-com1-t3" iniziovigore="t1" status="abrogato">
 							<num />
 							<corpo>
 								L'approvazione dei progetti ha luogo con deliberazione della Giunta, in conformità al programma approvato dal Consiglio regionale, ai sensi dell'
@@ -146,11 +198,15 @@
 								, e, per progetti di importo superiore a L. 100.000.000 su parere della CRTA Sezione Lavori Pubblici.
 							</corpo>
 						</comma>
-						<comma id="art4-com2">
+						<comma id="art4-com2" iniziovigore="t3">
+							<num />
+							<corpo>La Giunta regionale provvede con propria deliberazione alla approvazione dei progetti, in conformità al programma approvato dal Consiglio regionale, ai sensi dell'art. 1, e, per i progetti di importo superiore a 300.000.000 su parere della Commissione Regionale tecnico - amministrativa - Sezione Lavori Pubblici</corpo>
+						</comma>
+						<comma id="art4-com3">
 							<num />
 							<corpo>In sede di approvazione dei progetti è consentito alla Giunta di apportare variazioni in più o in meno agli importi delle singole opere programmate, nel limite di un quinto.</corpo>
 						</comma>
-						<comma id="art4-com3">
+						<comma id="art4-com4">
 							<num />
 							<corpo>L'approvazione dei progetti implica dichiarazione di pubblica utilità, indifferibilità ed urgenza delle relative opere.</corpo>
 						</comma>
@@ -163,7 +219,12 @@
 						</comma>
 						<comma id="art5-com2">
 							<num />
-							<corpo>Per i lavori non eccedenti l'importo di Lire 50 milioni e tranne nel caso che la Giunta regionale non disponga diversamente, non si procederà alla collaudazione, ma basterà un certificato dell'Ingegnere direttore che ne attesti la regolare esecuzione, purchè detto Ingegnere, nel caso in cui la esecuzione sia affidata ai Comuni e Province, sia da essi dipendente.</corpo>
+							<corpo>
+								Per i lavori non eccedenti l'importo di Lire
+								<h:span finevigore="t3" id="h1" iniziovigore="t1" status="abrogato">50 milioni</h:span>
+								<h:span id="h2" iniziovigore="t3">L. 150.000.000</h:span>
+								e tranne nel caso che la Giunta regionale non disponga diversamente, non si procederà alla collaudazione, ma basterà un certificato dell'Ingegnere direttore che ne attesti la regolare esecuzione, purchè detto Ingegnere, nel caso in cui la esecuzione sia affidata ai Comuni e Province, sia da essi dipendente.
+							</corpo>
 						</comma>
 						<comma id="art5-com3">
 							<num />
