@@ -212,7 +212,7 @@ public class FileOpenActionImpl implements FileOpenAction, Loggable, Serviceable
 			else
 				nomeFile = file.substring(1+file.lastIndexOf("/"));
 			nomeFile=nomeFile.substring(0, nomeFile.length()-4);
-			URL url = new URL("http://217.133.94.62/LeggiToscana/xmleges.php?nome=davide&legge="+nomeFile);
+			URL url = new URL("http://217.133.94.62/LeggiToscana/xmleges.php?nome=piero&legge="+nomeFile);
 			
 			HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 			conn.setReadTimeout(5000);

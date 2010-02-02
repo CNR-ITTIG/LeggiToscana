@@ -92,7 +92,7 @@ public class FileExitActionImpl extends AbstractAction implements FileExitAction
 		
 		try {
 
-			URL url = new URL("http://217.133.94.62/LeggiToscana/xmleges.php?nome=davide&legge=-");
+			URL url = new URL("http://217.133.94.62/LeggiToscana/xmleges.php?nome=piero&legge=-");
 			BufferedInputStream page = new BufferedInputStream(url.openStream());
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
