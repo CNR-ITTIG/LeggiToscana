@@ -8,16 +8,19 @@
 					<entratainvigore norm="19760114" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1975-12-29;79" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1975-12-29;79@1976-04-23" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1975-12-29;79@1976-04-23" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1975-12-29;79@1978-10-20" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19760114" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19760515" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19781112" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1975-12-29;79" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1976-04-23;17" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1978-10-20;70" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -46,6 +49,33 @@
 								<dsp:pos xlink:href="#art7bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art15-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1978-10-20;70" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1978-10-20;70#art5-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 1 della legge Regione Toscana 20 ottobre 1978, n. 70" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art15-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art15-com1-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1978-10-20;70" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1978-10-20;70#art6-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 6, comma 1 della legge Regione Toscana 20 ottobre 1978, n. 70" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -663,7 +693,11 @@
 					</comma>
 					<comma id="art13-com4">
 						<num />
-						<corpo>Ai componenti il comitato tecnico-consultivo per la programmazione sanitaria ed ospedaliera è attribuita un'indennità per ogni giornata di seduta fino ad un massimo di dieci giornate di seduta al mese, nella misura di L. 15.000.</corpo>
+						<corpo>
+							Ai componenti il comitato tecnico-consultivo per la programmazione sanitaria ed ospedaliera è attribuita un'indennità per ogni giornata di seduta
+							<h:span finevigore="t3" id="h1" iniziovigore="t1" status="abrogato">fino ad un massimo di dieci giornate di seduta al mese</h:span>
+							, nella misura di L. 15.000.
+						</corpo>
 					</comma>
 					<comma id="art13-com5">
 						<num />
@@ -759,42 +793,46 @@
 				</articolo>
 				<articolo id="art15">
 					<num>ARTICOLO 15</num>
-					<comma id="art15-com1">
+					<comma finevigore="t3" id="art15-com1-t3" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>Entro sei mesi dalla presentazione degli schemi di programma comprensoriali, la Giunta propone al Consiglio regionale la legge di approvazione del programma globale degli interventi per il quinquennio 1975-1979.</corpo>
 					</comma>
-					<comma id="art15-com2">
+					<comma id="art15-com2" iniziovigore="t3">
 						<num />
-						<corpo>Nella relazione di accompagnamento alla proposta di legge sarà data indicazione e motivazione specifica delle variazioni apportate agli schemi presentati dai comitati comprensoriali.</corpo>
+						<corpo>Entro il 28 febbraio 1979, la Giunta propone al Consiglio regionale la legge di approvazione del programma globale degli interventi per il quinquennio 1979-1983</corpo>
 					</comma>
 					<comma id="art15-com3">
 						<num />
+						<corpo>Nella relazione di accompagnamento alla proposta di legge sarà data indicazione e motivazione specifica delle variazioni apportate agli schemi presentati dai comitati comprensoriali.</corpo>
+					</comma>
+					<comma id="art15-com4">
+						<num />
 						<alinea>La legge di programma indicherà per ciascun ente ospedaliero:</alinea>
-						<ep id="art15-com3-pun1">
+						<ep id="art15-com4-pun1">
 							<num>-</num>
 							<corpo>le attività definitivamente assegnate;</corpo>
 						</ep>
-						<ep id="art15-com3-pun2">
+						<ep id="art15-com4-pun2">
 							<num>-</num>
 							<corpo>il numero e il tipo dei dipartimenti, divisioni, sezioni e servizi speciali;</corpo>
 						</ep>
-						<ep id="art15-com3-pun3">
+						<ep id="art15-com4-pun3">
 							<num>-</num>
 							<corpo>il numero dei posti letto globale e ripartito per ciascuno dei momenti organizzativi sopra specificati;</corpo>
 						</ep>
-						<ep id="art15-com3-pun4">
+						<ep id="art15-com4-pun4">
 							<num>-</num>
 							<corpo>le modalità e i tempi per l'adeguamento delle attività all'obiettivo fissato;</corpo>
 						</ep>
-						<ep id="art15-com3-pun5">
+						<ep id="art15-com4-pun5">
 							<num>-</num>
 							<corpo>i tempi per la realizzazione delle operazioni di fusione, incorporazione e scorporo di servizi;</corpo>
 						</ep>
-						<ep id="art15-com3-pun6">
+						<ep id="art15-com4-pun6">
 							<num>-</num>
 							<corpo>la destinazione dei servizi da scorporare;</corpo>
 						</ep>
-						<ep id="art15-com3-pun7">
+						<ep id="art15-com4-pun7">
 							<num>-</num>
 							<corpo>
 								la classificazione degli ospedali, sulla base dei criteri stabiliti dalla
@@ -802,27 +840,27 @@
 								, nonchè la sede e la utilizzazione degli stabilimenti disponibili;
 							</corpo>
 						</ep>
-						<ep id="art15-com3-pun8">
+						<ep id="art15-com4-pun8">
 							<num>-</num>
 							<corpo>le attrezzature e le opere edilizie necessarie.</corpo>
 						</ep>
 					</comma>
-					<comma id="art15-com4">
+					<comma id="art15-com5">
 						<num />
 						<alinea>La legge di programma stabilirà altresì:</alinea>
-						<el id="art15-com4-leta">
+						<el id="art15-com5-leta">
 							<num>a)</num>
 							<corpo>le attività complessivamente previste per il territorio regionale;</corpo>
 						</el>
-						<el id="art15-com4-letb">
+						<el id="art15-com5-letb">
 							<num>b)</num>
 							<corpo>gli interventi finanziari regionali diretti a favorire il potenziamento o l'istituzione da parte di enti locali o loro consorzi, di servizi per la prevenzione, la lotta alle malattie sociali e del lavoro, la riabilitazione;</corpo>
 						</el>
-						<el id="art15-com4-letc">
+						<el id="art15-com5-letc">
 							<num>c)</num>
 							<corpo>gli interventi finanziari regionali per la realizzazione dei programmi comprensoriali;</corpo>
 						</el>
-						<el id="art15-com4-letd">
+						<el id="art15-com5-letd">
 							<num>d)</num>
 							<corpo>le modalità per il coordinamento delle attività ospedaliere con quelle delle università della Toscana, sia nel campo della didattica e della ricerca che dell'assistenza sanitaria. A tale scopo la Giunta procede ad apposite consultazioni con gli organi rappresentativi delle università toscane.</corpo>
 						</el>
