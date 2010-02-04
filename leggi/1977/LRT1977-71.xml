@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19770916" num="52" tipo="BURT" />
 					<entratainvigore norm="19771001" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1977-09-07;71" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1977-09-07;71" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1977-09-07;71@1978-11-25" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="FORMAZIONE" />
 						<materia valore="TUTELA AMBIENTALE" />
@@ -17,11 +18,47 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19771001" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19781216" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1977-09-07;71" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1978-11-25;72" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art33-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1978-11-25;72" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1978-11-25;72#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 25 novembre 1978, n. 72" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art33-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art33-com1-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art33-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1978-11-25;72" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1978-11-25;72#art2-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 2 della legge Regione Toscana 25 novembre 1978, n. 72" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art33-com4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art33-com3-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -49,7 +86,7 @@
 				<h:p>Il Consiglio Regionale ha approvato il 26-8-1977</h:p>
 				<h:p>Il Commissario del Governo ha apposto il visto il 2-9-1977</h:p>
 				<h:p>Il Presidente della Giunta Regionale</h:p>
-				<h:p>promulga la seguente legge</h:p>
+				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
 				<titolo id="tit1">
@@ -1147,7 +1184,7 @@
 						<articolo id="art33">
 							<num>ARTICOLO 33</num>
 							<rubrica>(Contributi per la contabilità aziendale)</rubrica>
-							<comma id="art33-com1">
+							<comma finevigore="t2" id="art33-com1-t2" iniziovigore="t1" status="abrogato">
 								<num />
 								<corpo>
 									Agli imprenditori agricoli a titolo principale che ne facciano richiesta e che si impegnino a tenere una contabilità aziendale secondo gli indirizzi prescelti e le metodologie adottate dalla Regione nel rispetto dell'
@@ -1155,23 +1192,35 @@
 									, è concesso un contributo da 473 unità di conto, quale concorso alle spese di contabilità.
 								</corpo>
 							</comma>
-							<comma id="art33-com2">
+							<comma id="art33-com2" iniziovigore="t2">
+								<num />
+								<corpo>
+									Agli imprenditori agricoli a titolo principale che ne facciano richiesta e che si impegnino a tenere una contabilità aziendale secondo gli indirizzi prescelti e le metodologie adottate dalla Regione nel rispetto dell'
+									<rif xlink:href="urn:nir:comunita.europee:direttiva:1972;72-159-cee#art11" xlink:type="simple">art. 11 della direttiva 72/159 CEE</rif>
+									è concesso un contributo di 600 unità di conto, quale concorso alle spese di contabilità.
+								</corpo>
+							</comma>
+							<comma finevigore="t2" id="art33-com3-t2" iniziovigore="t1" status="abrogato">
 								<num />
 								<corpo>Il contributo di cui al comma precedente è erogato in quattro rate annuali, per l'importo di 203 unità di conto nel primo anno, di 133 unità di conto nel secondo, di 85 unità di conto nel terzo e di 52 unità di conto nel quarto.</corpo>
 							</comma>
-							<comma id="art33-com3">
+							<comma id="art33-com4" iniziovigore="t2">
 								<num />
-								<corpo>Le domande di contributo devono essere presentate alla Giunta regionale tramite gli Ispettorati Provinciali dell'Agricoltura nel cui ambito territoriale sia ricompresa, integralmente o prevalentemente, l'azienda in ordine alla quale è richiesto il contributo.</corpo>
-							</comma>
-							<comma id="art33-com4">
-								<num />
-								<corpo>La presentazione delle domande deve avvenire entro il 31 marzo il 30 giugno, il 30 settembre ed il 31 dicembre di ogni anno.</corpo>
+								<corpo>Il contributo di cui al comma precedente è erogato in 4 rate annuali per l'importo di 258 unità di conto nel primo anno, di 171 unità di conto nel secondo anno, di 105 unità di conto nel terzo e di 66 unità di conto nel quarto.</corpo>
 							</comma>
 							<comma id="art33-com5">
 								<num />
-								<corpo>Le domande possono essere presentate direttamente o mediante raccomandata con avviso di ricevimento.</corpo>
+								<corpo>Le domande di contributo devono essere presentate alla Giunta regionale tramite gli Ispettorati Provinciali dell'Agricoltura nel cui ambito territoriale sia ricompresa, integralmente o prevalentemente, l'azienda in ordine alla quale è richiesto il contributo.</corpo>
 							</comma>
 							<comma id="art33-com6">
+								<num />
+								<corpo>La presentazione delle domande deve avvenire entro il 31 marzo il 30 giugno, il 30 settembre ed il 31 dicembre di ogni anno.</corpo>
+							</comma>
+							<comma id="art33-com7">
+								<num />
+								<corpo>Le domande possono essere presentate direttamente o mediante raccomandata con avviso di ricevimento.</corpo>
+							</comma>
+							<comma id="art33-com8">
 								<num />
 								<corpo>
 									Entro 90 giorni dalla scadenza del termine di presentazione delle domande, la Giunta regionale provvede alla concessione, con deliberazione motivata, sulla base dell'istruttoria dell'Ispettorato Provinciale dell'Agricoltura e del parere del Comitato consultivo di cui all'
@@ -1179,11 +1228,11 @@
 									.
 								</corpo>
 							</comma>
-							<comma id="art33-com7">
+							<comma id="art33-com9">
 								<num />
 								<corpo>La Giunta regionale può delegare un suo componente o un funzionario regionale a provvedere alla liquidazione del contributo.</corpo>
 							</comma>
-							<comma id="art33-com8">
+							<comma id="art33-com10">
 								<num />
 								<corpo>
 									L'Ispettorato Provinciale dell'Agricoltura competente per territorio provvede al controllo sull'impiego dei contributi ed a proporre alla Giunta regionale la eventuale sospensione o revoca degli aiuti stessi, qualora non si sia provveduto all'attuazione della contabilità, al quale riguardo la Giunta si pronuncia previo parere del Comitato consultivo di cui all'
@@ -1191,7 +1240,7 @@
 									.
 								</corpo>
 							</comma>
-							<comma id="art33-com9">
+							<comma id="art33-com11">
 								<num />
 								<corpo>Ai Coltivatori diretti, singoli o associati, ed ai mezzadri che, in relazione all'attuazione di un piano di sviluppo aziendale, siano impegnati alla tenuta della contabilità aziendale, è concesso, per il periodo di durata del piano stesso eccedente i quattro anni, un contributo regionale annuo pari a 85 unità di conto, erogato con le modalità di cui al presente articolo.</corpo>
 							</comma>
@@ -1267,13 +1316,13 @@
 								<corpo>
 									Si applicano le norme previste dal
 									<mrif>
-										<rif xlink:href="#art33-com5" xlink:type="simple">quinto</rif>
+										<rif xlink:href="#art33-com7" xlink:type="simple">quinto</rif>
 										,
-										<rif xlink:href="#art33-com6" xlink:type="simple">sesto</rif>
+										<rif xlink:href="#art33-com8" xlink:type="simple">sesto</rif>
 										,
-										<rif xlink:href="#art33-com7" xlink:type="simple">settimo</rif>
+										<rif xlink:href="#art33-com9" xlink:type="simple">settimo</rif>
 										e
-										<rif xlink:href="#art33-com8" xlink:type="simple">ottavo</rif>
+										<rif xlink:href="#art33-com10" xlink:type="simple">ottavo</rif>
 										comma dell'art.33
 									</mrif>
 									.
