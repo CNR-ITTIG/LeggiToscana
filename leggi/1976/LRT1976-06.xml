@@ -10,7 +10,8 @@
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1976-01-17;6" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1976-01-17;6@1976-08-12" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1976-01-17;6@1976-09-04" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1976-01-17;6@1977-08-24" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1976-01-17;6@1977-08-24" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1976-01-17;6@1979-02-08" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -18,12 +19,14 @@
 						<evento data="19760904" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19760925" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19770916" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="19790303" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1976-01-17;6" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1976-08-12;53" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1976-09-04;59" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1977-08-24;63" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1979-02-08;8" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -234,6 +237,21 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art37-com5-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art20-com1-letd" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1979-02-08;8" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1979-02-08;8#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 8 febbraio 1979, n. 8" id="itt15" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art20-com1-letd" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art20-com1-letd-t5" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -1032,13 +1050,42 @@
 								<num>c)</num>
 								<corpo>gli insegnanti, in analogia a quanto previsto dalla normativa vigente nel settore statale, dovranno possedere il titolo di studio legale nella rispettiva materia di insegnamento e gli istruttori tecnico-pratici dovranno possedere una documentata esperienza tecnica oltre ad una adeguata preparazione culturale generale e pedagogica che li ponga in grado di seguire tutta l'attività di formazione degli allievi;</corpo>
 							</el>
-							<el id="art20-com1-letd">
+							<el finevigore="t5" id="art20-com1-letd-t5" iniziovigore="t1" status="abrogato">
 								<num>d)</num>
 								<corpo>
 									gli enti delegati al fine di gestire direttamente i corsi di formazione professionale, in modo che rispondano a criteri di flessibilità in rapporto agli interessi stabiliti dalla presente legge, possono utilizzare, in aggiunta al personale comandato ai sensi dell'
 									<rif xlink:href="#art26-com2" xlink:type="simple">art. 26 - secondo comma -</rif>
 									, personale di ruolo, oppure assunto con incarico a tempo indeterminato o a termine, personale dipendente da enti pubblici o privati mediante stipulazione di apposite convenzioni, collaboratori esterni anche con un rapporto di prestazione professionale;
 								</corpo>
+							</el>
+							<el id="art20-com1-letd" iniziovigore="t5">
+								<num>d)</num>
+								<alinea>
+									Gli enti delegati per tutte le esigenze connesse allo svolgimento delle funzioni delegate che non possono essere coperte con il personale comandato ai sensi dell'
+									<rif xlink:href="urn:nir:regione.toscana:legge:1976-01-17;6#art26" xlink:type="simple">art. 26 della LR 17-1-1976, n. 6</rif>
+									utilizzano personale docente e non docente riferibile alle seguenti categorie, imputando le relative spese esclusivamente ai fondi accreditati dalla Regione per le funzioni delegate:
+								</alinea>
+								<el id="art20-com1-letd-leta">
+									<num>a)</num>
+									<corpo>proprio personale di ruolo, sulla base di appositi provvedimenti di incarico conformi alle rispettive qualifiche di appartenenza;</corpo>
+								</el>
+								<el id="art20-com1-letd-letb">
+									<num>b)</num>
+									<corpo>personale compreso nell'elenco regionale degli operatori della formazione professionale da assumersi con rapporto di lavoro a tempo determinato o, quando trattasi di dipendenti di altri enti, mediante convenzione con l'ente di appartenenza;</corpo>
+								</el>
+								<el id="art20-com1-letd-letc">
+									<num>c)</num>
+									<corpo>personale di altri enti pubblici o privati mediante apposite convenzioni con l'ente di appartenenza;</corpo>
+								</el>
+								<el id="art20-com1-letd-letd">
+									<num>d)</num>
+									<corpo>personale con rapporto di lavoro a tempo determinato, compreso in graduatorie pubbliche appositamente istituite dall'Ente delegato, distinti per titolo, disciplina di insegnamento e mansioni specifiche, solo per le supplenze di personale per il quale sussiste l'obbligo di legge o contrattuale della conservazione dei posti di lavoro e quando tali esigenze non possono essere soddisfatte con il personale di cui alle lettere precedenti;</corpo>
+								</el>
+								<el id="art20-com1-letd-lete">
+									<num>e)</num>
+									<corpo>personale proveniente dal mondo del lavoro o della ricerca a prestazione professionale per insegnamenti ad alto contenuto tecnico scientifico o che richiedono particolari esperienze integrative della prestazione svolta dal personale di cui alle lettere precedenti.</corpo>
+								</el>
+								<coda>Il trattamento economico del personale con rapporto di lavoro a tempo determinato di cui alle lettere b) e d) del precedente comma è rapportato a quello in vigore nell'organico dell'ente delegato per qualifiche analoghe o assimilabili a quelle conferite</coda>
 							</el>
 							<el id="art20-com1-lete">
 								<num>e)</num>
