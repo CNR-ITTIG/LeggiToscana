@@ -1,22 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19780804" num="38" tipo="BURT" />
 					<entratainvigore norm="19780819" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1978-07-26;50" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1978-07-26;50" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1978-07-26;50@1979-05-07" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19780819" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19790526" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1978-07-25;50" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1979-05-07;19" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1979-05-07;19" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1979-05-07;19#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 7 maggio 1979, n. 19" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art1-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -33,9 +55,9 @@
 				<h:p>promulga la seguente legge</h:p>
 			</formulainiziale>
 			<articolato>
-				<articolo id="art1">
+				<articolo finevigore="t2" id="art1-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 1</num>
-					<comma id="art1-com1">
+					<comma id="art1-t2-com1">
 						<num />
 						<corpo>
 							Per la realizzazione dei propri fini la "Fidi - Toscana SpA" costituisce col contributo dei soci, previsto dall'
@@ -45,6 +67,21 @@
 							un fondo speciale col quale garantire, con le modalità fissate nelle convenzioni di cui al
 							<rif xlink:href="#art3" xlink:type="simple">successivo art. 3</rif>
 							della presente legge, i crediti concessi per suo tramite ad imprese che partecipano alla realizzazione dei progetti o iniziative rivolti al conseguimento degli obiettivi fissati nel programma regionale di sviluppo economico e nei piani regionali di intervento settoriale in aree insufficientemente sviluppate.
+						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art1" iniziovigore="t2">
+					<num>ARTICOLO 1</num>
+					<comma id="art1-com1">
+						<num />
+						<corpo>
+							Per la realizzazione dei propri fini la FIDI - TOSCANA SpA costituisce col contributo dei soci, previsto dall'
+							<rif xlink:href="#art6" xlink:type="simple">art. 6</rif>
+							e con i contributi previsti dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1974-06-05;32#art7" xlink:type="simple">art. 7 della Legge regionale 5-6-74 n. 32</rif>
+							, un fondo speciale, col quale garantire, con le modalità fissate nelle convenzioni di cui al
+							<rif xlink:href="#art3" xlink:type="simple">successivo art. 3</rif>
+							della presente legge, i crediti concessi per suo tramite ad imprese che partecipano alla realizzazione dei progetti o iniziative rivolti al conseguimento degli obiettivi fissati nel programma regionale di sviluppo economico e nei piani regionali di intervento settoriale, localizzati in aree insufficientemente sviluppate o destinati alla installazione di impianti per la tutela e la difesa dell'ambiente dall'inquinamento idrico atmosferico
 						</corpo>
 					</comma>
 				</articolo>
