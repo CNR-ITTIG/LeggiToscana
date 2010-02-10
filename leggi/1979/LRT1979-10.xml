@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19790223" num="9" tipo="BURT" />
 					<entratainvigore norm="19790223" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1979-02-19; 10" />
+					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1979-02-19;10" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1979-02-19;10@1979-07-30" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Agricoltura" />
 						<materia valore="Urbanistica" />
@@ -17,10 +18,12 @@
 					<eventi>
 						<evento data="19790223" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19790223" fonte="ra1" id="t2" tipo="modifica" />
+						<evento data="19790818" fonte="rp1" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
-						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1979-02-19; 10" xlink:type="simple" />
+						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1979-02-19;10" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1975-02-24;16" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1979-07-30;35" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -62,6 +65,125 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1979-07-30;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1979-07-30;35#artunico-com5" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 5 della legge Regione Toscana 30 luglio 1979, n. 35" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art12-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1979-07-30;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1979-07-30;35#artunico-com6" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 6 della legge Regione Toscana 30 luglio 1979, n. 35" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art12-com3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art12-com2-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art12-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1979-07-30;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1979-07-30;35#artunico-com6" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 6 della legge Regione Toscana 30 luglio 1979, n. 35" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art12-com4" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art12" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1979-07-30;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1979-07-30;35#artunico-com7" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 7 della legge Regione Toscana 30 luglio 1979, n. 35" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art12-com7" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1979-07-30;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1979-07-30;35#artunico-com8" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 8 della legge Regione Toscana 30 luglio 1979, n. 35" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art13" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art13-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art15" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1979-07-30;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1979-07-30;35#artunico-com9" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 9 della legge Regione Toscana 30 luglio 1979, n. 35" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art16" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1979-07-30;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1979-07-30;35#artunico-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 2 della legge Regione Toscana 30 luglio 1979, n. 35" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com4" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1979-07-30;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1979-07-30;35#artunico-com3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 3 della legge Regione Toscana 30 luglio 1979, n. 35" id="itt8" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1979-07-30;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1979-07-30;35#artunico-com4" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 4 della legge Regione Toscana 30 luglio 1979, n. 35" id="itt9" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -79,10 +201,10 @@
 				<h:p>promulga la seguente legge</h:p>
 			</formulainiziale>
 			<articolato>
-				<articolo id="art1">
-					<num>ARTICOLO 1</num>
+				<articolo id="arto1">
+					<num>ARTICOL O 1</num>
 					<rubrica>(Disciplina urbanistica delle zone agricole)</rubrica>
-					<comma id="art1-com1">
+					<comma id="arto1-com1">
 						<num />
 						<corpo>
 							Fino a quando la materia non sarà riordinata nella normativa organica regionale sull'uso del territorio, le zone agricole sono disciplinate, per quanto riguarda la materia urbanistica, dalla presente legge. Sono considerate tali le aree classificate, negli strumenti urbanistici comunali, zone omogenee "E", ai sensi del DMLLPP n. 1444 del 2 aprile 1968 e quelle destinate all'agricoltura dagli strumenti urbanistici, anche se in questi definite in maniera diversa da quella del suddetto DM. Per i Comuni sprovvisti di strumenti urbanistici sono considerate zone agricole le aree esterne ai centri abitati perimetrati ai sensi dell'
@@ -90,19 +212,19 @@
 							.
 						</corpo>
 					</comma>
-					<comma id="art1-com2">
+					<comma id="arto1-com2">
 						<num />
 						<corpo>Nelle zone agricole sono consentite, oltre alle attività inerenti alla funzione agraria e quelle estrattive, solo le attività comportanti trasformazioni urbanistiche ed edilizie previste dalla presente legge.</corpo>
 					</comma>
-					<comma id="art1-com3">
+					<comma id="arto1-com3">
 						<num />
 						<corpo>Nell'ipotesi che gli attuali strumenti urbanistici contengano, per le zone di cui sopra, norme più restrittive, esse continuano ad applicarsi fino al 180mo giorno dall'entrata in vigore della presente legge.</corpo>
 					</comma>
-					<comma id="art1-com4">
+					<comma id="arto1-com4">
 						<num />
 						<corpo>I Comuni possono adottare, senza la prescritta autorizzazione regionale, varianti agli strumenti urbanistici allo scopo di individuare nel complesso delle zone di cui al presente articolo, aree che presentino particolari caratteri morfologici, ambientali e produttivi prevedendo per esse una specifica normativa.</corpo>
 					</comma>
-					<comma id="art1-com5">
+					<comma id="arto1-com5">
 						<num />
 						<corpo>I Comuni adottano, senza la prescritta autorizzazione regionale, una variante allo strumento urbanistico per individuare, attraverso apposito elenco da inserire nelle norme tecniche di attuazione del Piano Regolatore Generale o nel Programma di Fabbricazione, costruzioni esistenti nelle zone agricole ritenute di particolare valore culturale o ambientale. Per queste costruzioni sono ammessi solo interventi di manutenzione ordinaria e straordinaria, restauro e risanamento conservativo. Il cambiamento di destinazione d'uso è in ogni caso disciplinato dalla presente legge.</corpo>
 					</comma>
@@ -147,11 +269,19 @@
 								. Il parere è espresso secondo il procedimento disciplinato dagli artt. 27 e 29 della stessa legge.
 							</corpo>
 						</comma>
-						<comma id="art2-com4">
+						<comma id="art2-com4" iniziovigore="t3">
+							<num />
+							<corpo>
+								La valutazione della indispensabilità di cui al comma precedente deve essere effettuata con riferimento alla estensione del fondo risultante alla data di entrata in vigore della
+								<rif xlink:href="urn:nir:stato:legge:1979-02-19;10" xlink:type="simple">legge 19 febbraio 79, n. 10</rif>
+								e alle costruzioni in esso esistenti alla medesima data, ferma la possibilità di comprendervi gli ampliamenti alla estensione del fondo
+							</corpo>
+						</comma>
+						<comma id="art2-com5">
 							<num />
 							<corpo>Per la proprietà agricola frazionata, possono essere presi in considerazione anche terreni non contigui, purchè appartenenti funzionalmente alla medesima azienda agricola e compresi nell'ambito di zone agricole.</corpo>
 						</comma>
-						<comma id="art2-com5">
+						<comma id="art2-com6">
 							<num />
 							<corpo>Quando i terreni di cui al comma precedente insistono in territorio di Comuni diversi la concessione è rilasciata dal Sindaco del Comune sul cui territorio è prevista la costruzione, previo assenso del Sindaco dell'altro Comune interessato.</corpo>
 						</comma>
@@ -228,7 +358,10 @@
 						</comma>
 						<comma id="art3-com8">
 							<num />
-							<corpo>Per i fondi rustici con terreni di diversa qualità colturale, la superficie minima per l'edificabilità è calcolata in base alla media ponderata delle superfici dei singoli terreni. Nel calcolo non si tiene conto delle superfici fondiarie di cui alla lettera a) del comma precedente quando le colture, realizzate dopo l'entrata in vigore della presente legge, sono al di fuori delle zone classificate ai sensi dello stesso comma.</corpo>
+							<corpo>
+								<h:span finevigore="t3" id="h1" iniziovigore="t1" status="abrogato">Per i fondi rustici con terreni di diversa qualità colturale, la superficie minima per l'edificabilità è calcolata in base alla media ponderata delle superfici dei singoli terreni. Nel calcolo non si tiene conto delle superfici fondiarie di cui alla lettera a) del comma precedente quando le colture, realizzate dopo l'entrata in vigore della presente legge, sono al di fuori delle zone classificate ai sensi dello stesso comma.</h:span>
+								<h:span id="h2" iniziovigore="t3">Per i fondi rustici con terreni di diversa qualità colturale la superficie fondiaria minima si intende raggiunta quando risulti maggiore o uguale a 1 la somma dei quozienti ottenuti dividendo le superfici dei terreni di ciascuna qualità colturale per le superfici fondiarie minime previste per le rispettive colture del presente articolo</h:span>
+							</corpo>
 						</comma>
 						<comma id="art3-com9">
 							<num />
@@ -445,7 +578,10 @@
 						<rubrica>(Edifici rurali non più utilizzati a fini agricoli)</rubrica>
 						<comma id="art9-com1">
 							<num />
-							<corpo>Negli edifici rurali non più utilizzati ai fini agricoli, sono ammessi, al solo scopo di introdurre miglioramenti igienici e distributivi, interventi di manutenzione ordinaria e straordinaria, di restauro e risanamento conservativo, di ristrutturazione edilizia, nonchè variazioni totali o parziali della destinazione d'uso di residenza rurale o di annessi agricoli, che non comportino aumento di volume e semprechè funzionali alla riutilizzazione abitativa.</corpo>
+							<corpo>
+								Negli edifici rurali non più utilizzati ai fini agricoli, sono ammessi, al solo scopo di introdurre miglioramenti igienici e distributivi, interventi di manutenzione ordinaria e straordinaria, di restauro e risanamento conservativo, di ristrutturazione edilizia, nonchè variazioni totali o parziali della destinazione d'uso di residenza rurale o di annessi agricoli, che non comportino aumento di volume e semprechè funzionali alla riutilizzazione abitativa.
+								<h:span id="h3" iniziovigore="t3">La variazione della destinazione di uso degli annessi agricoli è consentita se fanno parte di un medesimo edificio in cui sono comprese anche residenze rurali. In mancanza di tale condizione, se non inferiori a 300 mc. e compresi in un complesso edilizio</h:span>
+							</corpo>
 						</comma>
 						<comma id="art9-com2">
 							<num />
@@ -459,6 +595,7 @@
 								, che gli edifici stessi non sono più necessari alla conduzione del fondo, in quanto il fondo stesso è già servito o può essere servito da altri edifici o non appare in atto suscettibile di colture che richiedano insediamenti residenziali o annessi agricoli, tenuto conto di quanto disposto dall'
 								<rif xlink:href="#art3-com6" xlink:type="simple">art. 3, VI comma</rif>
 								.
+								<h:span id="h4" iniziovigore="t3">A questi fini la valutazione deve essere riferita alla estensione del fondo risultante alla data di entrata in vigore della legge 19 febbraio 1979, n. 10</h:span>
 							</corpo>
 						</comma>
 						<comma id="art9-com4">
@@ -477,7 +614,7 @@
 							<num />
 							<corpo>
 								Negli edifici ad uso non agricolo esistenti nelle zone di cui all'
-								<rif xlink:href="#art1" xlink:type="simple">art. 1</rif>
+								<rif xlink:href="#arto1" xlink:type="simple">art. 1</rif>
 								della presente legge, sono ammesse, al solo scopo di introdurre miglioramenti igienici e distributivi funzionali alla riutilizzazione, interventi di manutenzione ordinaria e straordinaria, di restauro e risanamento conservativo di ristrutturazione edilizia nonchè variazioni totali o parziali della destinazione d'uso originaria, che non comportino aumento di volume.
 							</corpo>
 						</comma>
@@ -551,7 +688,7 @@
 							<num />
 							<corpo>Nelle superfici boscate, comprese quelle non qualificate catastalmente come tali, ancorchè percorse dal fuoco, è comunque vietata la costruzione di edifici.</corpo>
 						</comma>
-						<comma id="art12-com2">
+						<comma finevigore="t3" id="art12-com2-t3" iniziovigore="t1" status="abrogato">
 							<num />
 							<corpo>
 								Nel rispetto delle disposizioni di cui agli articoli precedenti, su immobili che abbiano caratteristiche storico - artistiche o siano collocati in aree soggette a tutela paesaggistica o ambientale (ferme restando le disposizioni e le competenze previste dalla
@@ -561,11 +698,31 @@
 								e successive modificazioni) sono ammessi solo interventi di manutenzione ordinaria e straordinaria o di restauro e risanamento conservativo.
 							</corpo>
 						</comma>
-						<comma id="art12-com3">
+						<comma id="art12-com3" iniziovigore="t3">
+							<num />
+							<corpo>
+								Sugli immobili notificati ai sensi degli artt. 2 e 3 della
+								<rif xlink:href="urn:nir:stato:legge:1939-06-01;1089" xlink:type="simple">Legge 1 giugno 1939, n. 1089</rif>
+								e dell'
+								<rif xlink:href="urn:nir:stato:legge:1939-06-29;1497#art6" xlink:type="simple">art. 6 della legge 29 giugno 1939 n. 1497</rif>
+								sono ammessi, nel rispetto delle disposizioni che precedono, solo interventi di manutenzione ordinaria e straordinaria o di restauro e risanamento conservativo.
+							</corpo>
+						</comma>
+						<comma id="art12-com4" iniziovigore="t3">
+							<num />
+							<corpo>
+								Restano comunque ferme le disposizioni e le competenze di cui alle leggi sopracitate per quanto riguarda la tutela storico - artistica e paesistica. Nelle aree comprese nel perimetro del Parco naturale della Maremma, così come definito dal piano territoriale di coordinamento approvato dal Consiglio regionale toscano con atto n. 431 del 26 luglio 1977, continua ad applicarsi fino alla approvazione dei piani di gestione del parco di cui alla
+								<rif xlink:href="urn:nir:regione.toscana:legge:1975-06-05;65" xlink:type="simple">LR 5 giugno 1975 n. 65</rif>
+								, la disciplina prevista dalla
+								<rif xlink:href="urn:nir:regione.toscana:legge:1975-02-24;16" xlink:type="simple">LR 24 febbraio 1975 n. 16</rif>
+								e successive modificazioni nonchè quella indicata dallo stesso piano territoriale di coordinamento
+							</corpo>
+						</comma>
+						<comma id="art12-com5">
 							<num />
 							<corpo>Gli ampliamenti di edifici ricadenti nelle zone di rispetto stradale, fatta comunque salva la competenza degli organi statali in materia di demanio statale e di sicurezza del traffico, se ammessi a norma dei precedenti articoli, non debbono comunque comportare avanzamenti verso il fronte stradale.</corpo>
 						</comma>
-						<comma id="art12-com4">
+						<comma id="art12-com6">
 							<num />
 							<corpo>
 								I progetti di nuove costruzioni da realizzare in zone ricadenti sotto il vincolo idrogeologico, di cui alla
@@ -573,11 +730,15 @@
 								, devono essere accompagnati da una relazione tecnica, redatta da un geologo iscritto al relativo albo professionale, sulla compatibilità della richiesta costruzione con le condizioni geologiche dei terreni.
 							</corpo>
 						</comma>
+						<comma id="art12-com7" iniziovigore="t3">
+							<num />
+							<corpo>La relazione del geologo di cui al comma precedente non è richiesta per gli annessi agricoli di volume inferiore a mc 80 che non chiedono fondazioni di tipo speciale</corpo>
+						</comma>
 					</articolo>
-					<articolo id="art13">
+					<articolo finevigore="t3" id="art13-t3" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 13</num>
 						<rubrica>(Piano di recupero)</rubrica>
-						<comma id="art13-com1">
+						<comma id="art13-t3-com1">
 							<num />
 							<corpo>
 								Fermo restando quanto previsto dal
@@ -592,6 +753,22 @@
 								</mrif>
 								.
 							</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art13" iniziovigore="t3">
+						<num>ARTICOLO 13</num>
+						<rubrica>(Piano di recupero)</rubrica>
+						<comma id="art13-com1">
+							<num />
+							<corpo>
+								I piani di recupero del patrimonio edilizio esistente previsti negli articoli 28 e segg. della
+								<rif xlink:href="urn:nir:stato:legge:1978-08-05;457" xlink:type="simple">Legge 5-8-78 n. 457</rif>
+								nelle zone agricole di cui alla presente legge sono approvati nel rispetto delle previsioni urbanistiche comunali di cui al Comma 5 dell'art. 1 della presente legge e di quanto disposto dall'art. 9, Comma 3.
+							</corpo>
+						</comma>
+						<comma id="art13-com2">
+							<num />
+							<corpo>In attesa della normativa regionale sui piani di recupero di cui al comma precedente la ristrutturazione è consentita anche oltre i limiti di cui al Comma 2 dello stesso art. 9 con la esclusione di tipologie riferibili a residence o complessi di mini - appartamenti o monolocali</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art14">
@@ -635,6 +812,18 @@
 									<rif xlink:href="urn:nir:regione.toscana:legge:1975-02-24;16" xlink:type="simple">LR 24 febbraio 1975, n. 16</rif>
 									e successive modificazioni.
 								</mmod>
+							</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art16" iniziovigore="t3">
+						<num>ARTICOLO 16</num>
+						<rubrica>(Norma transitoria)</rubrica>
+						<comma id="art16-com1">
+							<num />
+							<corpo>
+								Nei casi di istanze di concessione presentate prima della entrata in vigore della
+								<rif xlink:href="urn:nir:stato:legge:1979;10" xlink:type="simple">legge n. 10/1979</rif>
+								la concessione, se consentita dalla normativa precedentemente vigente, è rilasciata sulla base di tale normativa
 							</corpo>
 						</comma>
 					</articolo>
