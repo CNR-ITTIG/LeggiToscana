@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19770812" num="42" tipo="BURT" />
 					<entratainvigore norm="19770827" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1977-08-04;45" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1977-08-04;45" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1977-08-04;45@1979-06-28" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19770827" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19790721" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1977-08-04;45" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1979-06-28;30" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -25,7 +28,120 @@
 							.
 						</h:p>
 					</nota>
+					<nota id="n2">
+						<h:p>
+							Si vedano inoltre i commi 2 e 3 dell'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1979-06-28;30#art1" xlink:type="simple">art. 1 della legge regionale 28 giugno 1979 n. 30</rif>
+							.
+						</h:p>
+					</nota>
 				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1979-06-28;30" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1979-06-28;30#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 28 giugno 1979, n. 30" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art7" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art7-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art10" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1979-06-28;30" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1979-06-28;30#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 28 giugno 1979, n. 30" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art10bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art11-t2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1979-06-28;30" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1979-06-28;30#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 28 giugno 1979, n. 30" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art11bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art11" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1979-06-28;30" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1979-06-28;30#art4-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1 della legge Regione Toscana 28 giugno 1979, n. 30" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art11" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art11-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art12-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1979-06-28;30" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1979-06-28;30#art5" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo5, legge Regione Toscana 28 giugno 1979, n. 30" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art12-com4" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art12-com5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1979-06-28;30" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1979-06-28;30#art5" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo5, legge Regione Toscana 28 giugno 1979, n. 30" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art12-com5" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13-com2-t2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1979-06-28;30" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1979-06-28;30#art5" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo5, legge Regione Toscana 28 giugno 1979, n. 30" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art13-com2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13-com3-t2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1979-06-28;30" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1979-06-28;30#art5" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo5, legge Regione Toscana 28 giugno 1979, n. 30" id="itt8" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art13-com3-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -257,14 +373,14 @@
 							<corpo>Dette agevolazioni possono essere concesse anche nel caso dell'acquisto di preesistenti strutture dello stesso tipo.</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art7">
+					<articolo finevigore="t2" id="art7-t2" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 7</num>
 						<rubrica>(Strutture per gli allevamenti di bassa corte)</rubrica>
-						<comma id="art7-com1">
+						<comma id="art7-t2-com1">
 							<num />
 							<corpo>Al fine di preservare l'attività agricola ed integrare i redditi agricoli possono essere concessi ai coltivatori diretti, coloni e mezzadri e loro cooperative contributi in conto capitale, nella misura massima del 50% della spesa ammissibile, per l'impianto, l'ampliamento e l'ammodernamento delle strutture necessarie alla buona conduzione di allevamenti di bassa corte.</corpo>
 						</comma>
-						<comma id="art7-com2">
+						<comma id="art7-t2-com2">
 							<num />
 							<corpo>
 								Per tali interventi il limite di cui al
@@ -272,15 +388,29 @@
 								è ridotto al 30%.
 							</corpo>
 						</comma>
-						<comma id="art7-com3">
+						<comma id="art7-t2-com3">
 							<num />
 							<corpo>
 								Gli interventi previsti dal
-								<rif xlink:href="#art7-com1" xlink:type="simple">primo comma</rif>
+								<rif xlink:href="#art7-t2-com1" xlink:type="simple">primo comma</rif>
 								sono estesi per gli stessi soggetti alla piscicoltura. Per tali interventi non si applicano i limiti di cui al
-								<rif xlink:href="#art7-com2" xlink:type="simple">secondo comma</rif>
+								<rif xlink:href="#art7-t2-com2" xlink:type="simple">secondo comma</rif>
 								del presente articolo e al
 								<rif xlink:href="#art3-com2" xlink:type="simple">secondo comma dell'art. 3</rif>
+								.
+							</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art7" iniziovigore="t2">
+						<num>ARTICOLO 7</num>
+						<rubrica>(Strutture per gli allevamenti di bassa corte)</rubrica>
+						<comma id="art7-com1">
+							<num />
+							<corpo>
+								Al fine di sviluppare le attività zootecniche nel senso più lato ed ampliare le fonti di reddito del settore agricolo, specialmente mediante l'applicazione di moderne tecnologie ed utilizzando le risorse presenti sul territorio, possono essere concessi, ai soggetti di cui all'
+								<rif xlink:href="#art3" xlink:type="simple">articolo 3</rif>
+								della presente legge, contributi in conto capitale fino al 50% della spesa ammissibile, per l'impianto, l'ampliamento e l'ammodernamento delle strutture, nonchè per l'acquisto delle attrezzature necessarie alla buona conduzione di allevamenti avicoli e cunicoli, per le zoocolture e per l'esercizio della piscicoltura
+								<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
 								.
 							</corpo>
 						</comma>
@@ -397,16 +527,23 @@
 							<corpo>Tali interventi sono concessi per l'acquisto di arieti muniti di certificazione sanitaria e genealogica.</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art11">
+					<articolo id="art10bis" iniziovigore="t2">
+						<num>ARTICOLO 10 bis</num>
+						<comma id="art10bis-com1">
+							<num />
+							<corpo>Al fine di promuovere e favorire lo sviluppo degli allevamenti caprini, le agevolazioni contributive e creditizie previste in favore degli allevamenti ovini sono estese all'acquisto dei riproduttori maschi e femmine della specie caprina.</corpo>
+						</comma>
+					</articolo>
+					<articolo finevigore="t2" id="art11-t2" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 11</num>
 						<rubrica>(Incentivi per gli allevamenti suini)</rubrica>
-						<comma id="art11-com1">
+						<comma id="art11-t2-com1">
 							<num />
 							<alinea>Per favorire lo sviluppo degli allevamenti suini, indirizzati alla produzione del suino leggero da carne, e per migliorare la produzione suinicola regionale, possono essere concesse le seguenti agevolazioni:</alinea>
-							<el id="art11-com1-leta">
+							<el id="art11-t2-com1-leta">
 								<num>a)</num>
 								<alinea>per l'acquisto di femmine indirizzate alla produzione del suino da carne:</alinea>
-								<ep id="art11-com1-leta-pun1">
+								<ep id="art11-t2-com1-leta-pun1">
 									<num>-</num>
 									<corpo>
 										prestiti agevolati pari alla spesa ammessa della durata massima di anni 4, dei quali uno di preammortamento.
@@ -415,10 +552,10 @@
 									</corpo>
 								</ep>
 							</el>
-							<el id="art11-com1-letb">
+							<el id="art11-t2-com1-letb">
 								<num>b)</num>
 								<alinea>per l'acquisto di verri, destinati agli allevamenti indirizzati alla produzione del suino leggero da carne:</alinea>
-								<ep id="art11-com1-letb-pun1">
+								<ep id="art11-t2-com1-letb-pun1">
 									<num>-</num>
 									<corpo>
 										contributi in conto capitale nella misura del 30% della spesa ammessa e prestiti agevolati pari alla differenza fra la spesa ammessa e il contributo in conto capitale della durata massima di anni 4.
@@ -427,13 +564,64 @@
 									</corpo>
 								</ep>
 							</el>
-							<el id="art11-com1-letc">
+							<el id="art11-t2-com1-letc">
 								<num>c)</num>
 								<corpo>alle cooperative che gestiscono allevamenti produttori di soggetti da rimonta, come servizio per i propri soci limitatamente al bestiame di prima dotazione, possono essere concessi contributi in conto capitale per l'acquisto di femmine e maschi purchè muniti di certificato genealogico, nella misura rispettivamente del 40 e 50% della spesa ammessa e prestiti agevolati pari alla differenza fra la spesa e il contributo in conto capitale della durata massima di anni 4;</corpo>
 							</el>
-							<el id="art11-com1-letd">
+							<el id="art11-t2-com1-letd">
 								<num>d)</num>
 								<corpo>alle cooperative che gestiscono allevamenti indirizzati esclusivamente all'ingrasso, può essere concesso un prestito a tasso agevolato pari alla spesa ammessa della durata massima di anni 3, dei quali uno di preammortamento, per l'acquisto di bestiame di prima dotazione.</corpo>
+							</el>
+						</comma>
+					</articolo>
+					<articolo id="art11" iniziovigore="t2">
+						<num>ARTICOLO 11</num>
+						<rubrica>(Incentivi per gli allevamenti suini)</rubrica>
+						<comma id="art11-com1">
+							<num />
+							<alinea>Al fine di favorire lo sviluppo degli allevamenti indirizzati alla produzione di carne suina di pronto consumo e di promuovere il miglioramento qualitativo della suinicoltura regionale, possono essere concesse le seguenti agevolazioni:</alinea>
+							<el id="art11-com1-leta">
+								<num>a)</num>
+								<corpo>per l'acquisto di femmine munite di certificazione sanitaria e di certificato genealogico, appartenenti a razze riconosciute idonee per la produzione di carne di pronto consumo, prestiti agevolati pari alla spesa riconosciuta ammissibile, della durata massima di anni 4, dei quali uno di preammortamento;</corpo>
+							</el>
+							<el id="art11-com1-letb">
+								<num>b)</num>
+								<corpo>
+									per l'acquisto di verri, di razze riconosciute idonee per la produzione di cui al punto a), muniti di certificazione sanitaria, ed iscritti al libro genealogico, contributi in conto capitale fino al 30% della spesa ammessa e prestito agevolato, pari alla differenza fra la spesa ammessa e il contributo in conto capitale, della durata massima di anni 4.
+									<h:br />
+									Per l'acquisto di verri delle razze suddette, in possesso delle caratteristiche necessarie per il funzionamento negli allevamenti iscritti al libro genealogico, il contributo in conto capitale può essere elevato fino al 50% della spesa ammessa;
+								</corpo>
+							</el>
+							<el id="art11-com1-letc">
+								<num>c)</num>
+								<corpo>alle cooperative che gestiscono allevamenti per la produzione di soggetti da rimonta come servizio per i propri soci, possono essere concessi, limitatamente al bestiame di prima dotazione, contributi in conto capitale per l'acquisto di femmine e maschi muniti di certificazione sanitaria e di certificato genealogico, nella misura massima, rispettivamente, del 40% e del 50% della spesa ammessa e prestiti agevolati, pari alla differenza fra la spesa ammessa ed il contributo in conto capitale, della durata di anni quattro;</corpo>
+							</el>
+							<el id="art11-com1-letd">
+								<num>d)</num>
+								<corpo>alle cooperative che gestiscono allevamenti indirizzati esclusivamente all'ingrasso, può essere concesso un prestito a tasso agevolato, pari alla spesa ammessa, della durata massima di anni tre, dei quali uno di preammortamento, per l'acquisto del bestiame di prima dotazione, purchè le stesse si impegnino a mantenere o ricostituire la dotazione di bestiame in uguale misura per tutta la durata del prestito.</corpo>
+							</el>
+						</comma>
+					</articolo>
+					<articolo id="art11bis" iniziovigore="t2">
+						<num>ARTICOLO 11 bis</num>
+						<comma id="art11bis-com1">
+							<num />
+							<alinea>Per favorire l'incremento e lo sviluppo degli allevamenti equini possono essere concesse le seguenti agevolazioni:</alinea>
+							<el id="art11bis-com1-leta">
+								<num>a)</num>
+								<alinea>per l'acquisto di femmine fattrici munite di certificazione sanitaria, genealogica o di origine:</alinea>
+								<ep id="art11bis-com1-leta-pun1">
+									<num>-</num>
+									<corpo>prestiti pari alla spesa ammessa della durata massima di anni 5, dei quali due di preammortamento;</corpo>
+								</ep>
+							</el>
+							<el id="art11bis-com1-letb">
+								<num>b)</num>
+								<alinea>per l'acquisto di stalloni muniti di certificazione sanitaria e genealogica:</alinea>
+								<ep id="art11bis-com1-letb-pun1">
+									<num>-</num>
+									<corpo>prestiti pari alla spesa ammessa della durata massima di anni 5. Alle cooperative, consorzi ed associazioni di allevatori, legalmente costituite, delle varie razze equine che utilizzano stalloni di pregio muniti di certificazione sanitaria e genealogica per la monta di fattrici degli allevatori propri associati, possono essere corrisposti contributi in conto capitale fino al 50% della spesa sostenuta e risultante da contratti e convenzioni stipulati fra i proprietari degli stalloni e le cooperative o consorzi o associazioni di allevatori medesime.</corpo>
+								</ep>
 							</el>
 						</comma>
 					</articolo>
@@ -476,6 +664,26 @@
 								</corpo>
 							</el>
 						</comma>
+						<comma id="art12-com4" iniziovigore="t2">
+							<num />
+							<corpo>
+								Nell'esercizio delle funzioni delegate ai sensi degli
+								<mrif>
+									artt.
+									<rif xlink:href="urn:nir:regione.toscana:legge:1974-11-21;70#art9" xlink:type="simple">9</rif>
+									,
+									<rif xlink:href="urn:nir:regione.toscana:legge:1974-11-21;70#art10" xlink:type="simple">10</rif>
+									e
+									<rif xlink:href="urn:nir:regione.toscana:legge:1974-11-21;70#art11" xlink:type="simple">11</rif>
+									della legge regionale 21 novembre 1974, n. 70
+								</mrif>
+								, i Comuni dovranno rispettare, in particolare, il criterio di favorire - per il settore zootecnico - lo svolgimento di quelle manifestazioni che armonizzino con gli obiettivi, in materia di miglioramento genetico del patrimonio zootecnico regionale, stabiliti dalla programmazione regionale e dalla presente legge.
+							</corpo>
+						</comma>
+						<comma id="art12-com5" iniziovigore="t2">
+							<num />
+							<corpo>Agli allevatori che partecipano alle suddette rassegne e manifestazioni zootecniche possono essere concessi dalla Giunta regionale premi di partecipazione.</corpo>
+						</comma>
 					</articolo>
 					<articolo id="art13">
 						<num>ARTICOLO 13</num>
@@ -504,7 +712,7 @@
 								<corpo>organizzazione della distribuzione del materiale seminale ed esecuzione degli interventi fecondanti.</corpo>
 							</el>
 						</comma>
-						<comma id="art13-com2">
+						<comma finevigore="t2" id="art13-com2-t2" iniziovigore="t1" status="abrogato">
 							<num />
 							<corpo>
 								Nell'esercizio delle funzioni delegate ai sensi degli
@@ -520,7 +728,7 @@
 								, i Comuni dovranno rispettare, in particolare, il criterio di favorire - per il settore zootecnico - lo svolgimento di quelle manifestazioni che armonizzino con gli obiettivi, in materia di miglioramento genetico del patrimonio zootecnico regionale, stabiliti dalla programmazione regionale e dalla presente legge.
 							</corpo>
 						</comma>
-						<comma id="art13-com3">
+						<comma finevigore="t2" id="art13-com3-t2" iniziovigore="t1" status="abrogato">
 							<num />
 							<corpo>Agli allevatori che partecipano alle suddette rassegne e manifestazioni zootecniche possono essere concessi dalla Giunta regionale premi di partecipazione.</corpo>
 						</comma>
