@@ -1,22 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19750502" num="20" tipo="BURT" />
 					<entratainvigore norm="19750517" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1975-04-24;34" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1975-04-24;34" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1975-04-24;34@1980-01-18" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19750517" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19800209" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1975-04-24;34" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1980-01-18;4" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1980-01-18;4" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1980-01-18;4#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 18 gennaio 1980, n. 4" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art1-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art1-com1-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -35,11 +57,15 @@
 			<articolato>
 				<articolo id="art1">
 					<num>ARTICOLO 1</num>
-					<comma id="art1-com1">
+					<comma finevigore="t2" id="art1-com1-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>La Regione interviene nel finanziamento dei lavori di costruzione, completamento, ampliamento, trasformazione e sistemazione degli edifici ospedalieri e strutture sanitarie, nonchè nel finanziamento di eventuali oneri derivanti dalla revisione di prezzi contrattuali o delle maggiori spese, comunque incontrate nella realizzazione di dette opere di edilizia ospedaliera e di strutture sanitarie e per le quali gli Enti ospedalieri interessati dimostrino la totale o parziale carenza delle occorrenti disponibilità finanziarie.</corpo>
 					</comma>
-					<comma id="art1-com2">
+					<comma id="art1-com2" iniziovigore="t2">
+						<num />
+						<corpo>La Regione interviene nel finanziamento dei lavori di costruzione, completamento, ampliamento, trasformazione e sistemazione degli edifici ospedalieri e delle strutture socio - sanitarie, nonchè nel finanziamento di eventuali oneri derivanti dalla revisione dei prezzi contrattuali o delle maggiori spese comunque incontrate nella realizzazione di dette opere di edilizia ospedaliera e di strutture socio - sanitarie e per le quali i Comuni singoli o associati, gli Enti ospedalieri, i Consorzi socio - sanitari e le Istituzioni pubbliche di assistenza e beneficenza dimostrino la totale o parziale carenza delle concorrenti disponibilità finanziarie</corpo>
+					</comma>
+					<comma id="art1-com3">
 						<num />
 						<corpo>L'intervento ha luogo mediante la concessione a favore degli Enti interessati di un contributo in conto capitale nella misura fino al 100% della spesa riconosciuta necessaria perchè le opere siano attuate nella loro integralità o perchè possano realizzarsi.</corpo>
 					</comma>
