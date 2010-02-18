@@ -1,22 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19770812" num="42" tipo="BURT" />
 					<entratainvigore norm="19770827" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1977-08-04;46" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1977-08-04;46" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1977-08-04;46@1979-12-17" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19770827" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19800105" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1977-08-04;46" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1979-12-17;62" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1979-12-17;62" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1979-12-17;62#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 17 dicembre 1979, n. 62" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art5" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -181,9 +203,9 @@
 						<corpo>E' in facoltà della Giunta regionale di concedere contributi a favore delle associazioni degli emigrati toscani all'estero.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art5">
+				<articolo finevigore="t2" id="art5-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 5</num>
-					<comma id="art5-com1">
+					<comma id="art5-t2-com1">
 						<num />
 						<corpo>
 							Alle spese per il funzionamento della Consulta regionale dell'emigrazione e dell'immigrazione, nonchè all'onere derivante dalla concessione dei contributi di cui all'
@@ -193,9 +215,16 @@
 							.
 						</corpo>
 					</comma>
-					<comma id="art5-com2">
+					<comma id="art5-t2-com2">
 						<num />
 						<corpo>Le medesime spese, per gli anni successivi, faranno carico, per analogo importo, al corrispondente capitolo dei bilanci interessati.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art5" iniziovigore="t2">
+					<num>ARTICOLO 5</num>
+					<comma id="art5-com1">
+						<num />
+						<corpo>Per le spese di funzionamento della Consulta regionale dell'emigrazione e dell'immigrazione, nonchè per gli oneri derivanti dalla concessione di contributi di cui all'art. 4 - Comma 4 -, è disposto uno stanziamento annuo di L. 70.000.000</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art6">
