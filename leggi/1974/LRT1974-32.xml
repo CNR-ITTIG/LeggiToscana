@@ -11,7 +11,8 @@
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1974-06-05;32@1976-08-23" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1974-06-05;32@1977-01-14" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1974-06-05;32@1977-07-20" />
-					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1974-06-05;32@1979-04-12" />
+					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1974-06-05;32@1979-04-12" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1974-06-05;32@1979-12-06" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -21,6 +22,7 @@
 						<evento data="19770121" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="19770813" fonte="rp4" id="t5" tipo="modifica" />
 						<evento data="19790505" fonte="rp5" id="t6" tipo="modifica" />
+						<evento data="19791214" fonte="rp6" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1974-06-05;32" xlink:type="simple" />
@@ -29,6 +31,7 @@
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1977-01-14;5" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1977-07-20;43" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1979-04-12;15" xlink:type="simple" />
+						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:1979-12-06;60" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -181,6 +184,21 @@
 								<dsp:pos xlink:href="#art9-com7-t6" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1979-12-06;60" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1979-12-06;60#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 6 dicembre 1979, n. 60" id="itt10" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com5" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-com4-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -289,11 +307,15 @@
 						<num />
 						<corpo>La Giunta indirizza l'attività dei rappresentanti della Regione nel quadro delle direttive fissate, di norma annualmente, dal Consiglio Regionale intese a stabilire i criteri di selezione degli interventi in relazione alla ubicazione delle imprese, al settore di appartenenza delle stesse ed alle relative dimensioni economiche, al tipo di operazione da agevolare, individuando inoltre la quota minima degli interventi da riservarsi alle imprese artigiane e della cooperazione.</corpo>
 					</comma>
-					<comma id="art4-com4">
+					<comma finevigore="t7" id="art4-com4-t7" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>Per quanto concerne il credito a breve termine l'intervento dovrà orientarsi verso operazioni aventi utilizzazione specifica e, comunque con durata e modalità di rimborso predeterminate, ed entro i limiti percentuali, non eccedenti un terzo del fondo destinato alle operazioni di credito a medio termine, prefissati dalle direttive del Consiglio Regionale.</corpo>
 					</comma>
-					<comma id="art4-com5">
+					<comma id="art4-com5" iniziovigore="t7">
+						<num />
+						<corpo>Per quanto concerne il credito a breve termine, l'intervento dovrà orientarsi verso operazioni aventi utilizzazione specifica e comunque con durata e modalità di rimborso predeterminate. Fino al 31-12-80 i limiti percentuali riferentisi alle operazioni di credito a breve termine, di cui all'art. 4, IV comma della Legge Regionale n. 32/74, prefissati dalle direttive del Consiglio Regionale, non dovranno eccedere i 2/3 (due terzi) del fondo destinato alle operazioni di credito a medio termine</corpo>
+					</comma>
+					<comma id="art4-com6">
 						<num />
 						<corpo>Il Consiglio Regionale emana le direttive di cui ai commi precedenti previa consultazione degli Enti locali, delle organizzazioni sindacali dei lavoratori dipendenti, della cooperazione e delle organizzazioni delle categorie economiche.</corpo>
 					</comma>
