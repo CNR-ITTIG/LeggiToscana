@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19791106" num="60" tipo="BURT" />
 					<entratainvigore norm="19791121" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1979-11-02;52" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1979-11-02;52" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1979-11-02;52@1980-01-25" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="TUTELA AMBIENTALE" />
 						<materia valore="ATTRIBUZIONI DELEGHE" />
@@ -16,11 +17,32 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19791121" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19800201" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1979-11-02;52" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1980-01-25;10" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art14" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1980-01-25;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1980-01-25;10#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 25 gennaio 1980, n. 10" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art14" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art14-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -486,15 +508,26 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art14">
+				<articolo finevigore="t2" id="art14-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 14</num>
-					<comma id="art14-com1">
+					<comma id="art14-t2-com1">
 						<num />
 						<corpo>
 							La sub - delega ai Comuni delle funzioni di cui all'
 							<rif xlink:href="#art2" xlink:type="simple">art. 2</rif>
 							, avrà effetto dal 1 gennaio 1980.
 						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art14" iniziovigore="t2">
+					<num>ARTICOLO 14</num>
+					<comma id="art14-com1">
+						<num />
+						<corpo>La sub - delega ai comuni delle funzioni di cui all'art. 2 della presente legge avrà effetto, per ognuno di essi, dalla data di nomina della Commissione territorialmente competente in materia di beni ambientali, prevista dal comma 2 dell'art. 5, se anteriore al 29 febbraio 1980 e, in caso contrario, da quest'ultima data.</corpo>
+					</comma>
+					<comma id="art14-com2">
+						<num />
+						<corpo>Per le funzioni di cui al precedente comma, che riguardano le operazioni di manutenzione di edifici, indicate all'art. 11, la sub - delega avrà effetto dal 1 gennaio 1980.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art15">
