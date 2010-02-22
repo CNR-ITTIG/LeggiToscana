@@ -1,22 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19750604" num="25" tipo="BURT" />
 					<entratainvigore norm="19750619" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1975-05-31;61" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1975-05-31;61" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1975-05-31;61@1980-01-28" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19750619" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19800222" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1975-05-31;61" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1980-01-28;11" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1980-01-28;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1980-01-28;11#art15-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 15, comma 1 della legge Regione Toscana 28 gennaio 1980, n. 11" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art1-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1980-01-28;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1980-01-28;11#art15-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 15, comma 1 della legge Regione Toscana 28 gennaio 1980, n. 11" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -33,25 +70,119 @@
 				<h:p>la seguente legge reegionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<articolo id="art1">
+				<articolo finevigore="t2" id="art1-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 1</num>
-					<comma id="art1-com1">
+					<comma id="art1-t2-com1">
 						<num />
 						<corpo>E' istituita la Consulta Regionale Toscana dei beni culturali e naturali.</corpo>
 					</comma>
-					<comma id="art1-com2">
+					<comma id="art1-t2-com2">
 						<num />
 						<corpo>La Consulta Regionale dei beni culturali e naturali è l'organo consultivo del Consiglio e della Giunta della Regione Toscana per l'esercizio delle funzioni legislative e amministrative di competenza regionale e di quelle delegate relative al patrimonio e agli istituti culturali della Regione.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art2">
+				<articolo id="art1" iniziovigore="t2">
+					<num>Art. 1</num>
+					<comma id="art1-com1">
+						<num />
+						<corpo>E' costituita la Consulta regionale toscana dei beni e delle attività culturali. La Consulta regionale dei beni e delle attività culturali è l'organo consultivo del Consiglio e della Giunta regionale toscana per l'esercizio delle funzioni legislative ed amministrative di competenza regionale, nonchè di quelle delegate relative al patrimonio e agli istituti culturali della Regione</corpo>
+					</comma>
+				</articolo>
+				<articolo finevigore="t2" id="art2-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 2</num>
-					<comma id="art2-com1">
+					<comma id="art2-t2-com1">
 						<num />
 						<alinea>La Consulta Regionale Toscana dei beni culturali e naturali è composta da:</alinea>
-						<el id="art2-com1-leta">
+						<el id="art2-t2-com1-leta">
 							<num>a)</num>
 							<corpo>un componente rappresentante della Giunta Regionale che la presiede;</corpo>
+						</el>
+						<el id="art2-t2-com1-letb">
+							<num>b)</num>
+							<corpo>i presidenti, o loro delegati, delle Amministrazioni provinciali della Toscana;</corpo>
+						</el>
+						<el id="art2-t2-com1-letc">
+							<num>c)</num>
+							<corpo>18 sindaci o un loro delegato, di cui sei dei Comuni con popolazione fino a 10.000 abitanti, sei tra quelli con popolazione compresa fra i 10.000 e i 30.000 abitanti e sei tra quelli con popolazione superiore a 30.000 abitanti designati dall'ANCI regionale;</corpo>
+						</el>
+						<el id="art2-t2-com1-letd">
+							<num>d)</num>
+							<corpo>11 esperti scelti tra il personale scientifico tecnico degli istituti culturali degli Enti locali e d'interesse locale della Toscana e tra i docenti di disciplina attinenti ai fini istituzionali della presente legge, designati dal Consiglio regionale, con voto limitato a 6;</corpo>
+						</el>
+						<el id="art2-t2-com1-lete">
+							<num>e)</num>
+							<corpo>3 studiosi in rappresentanza della vita culturale, designati dal Consiglio regionale, con voto limitato a 2;</corpo>
+						</el>
+						<el id="art2-t2-com1-letf">
+							<num>f)</num>
+							<alinea>il Soprintendente o un delegato delle seguenti Amministrazioni statali di tutela:</alinea>
+							<ep id="art2-t2-com1-letf-pun1">
+								<num>-</num>
+								<corpo>Soprintendenza ai monumenti e alle gallerie per la Provincia di Arezzo;</corpo>
+							</ep>
+							<ep id="art2-t2-com1-letf-pun2">
+								<num>-</num>
+								<corpo>Soprintendenza alle gallerie per le Province di Firenze e Pistoia;</corpo>
+							</ep>
+							<ep id="art2-t2-com1-letf-pun3">
+								<num>-</num>
+								<corpo>Soprintendenza ai monumenti delle Provincie di Firenze e Pistoia;</corpo>
+							</ep>
+							<ep id="art2-t2-com1-letf-pun4">
+								<num>-</num>
+								<corpo>Soprintendenza alle antichità dell'Etruria;</corpo>
+							</ep>
+							<ep id="art2-t2-com1-letf-pun5">
+								<num>-</num>
+								<corpo>Soprintendenza archivistica per la Toscana;</corpo>
+							</ep>
+							<ep id="art2-t2-com1-letf-pun6">
+								<num>-</num>
+								<corpo>Soprintendenza ai monumenti e alle gallerie per le Province di Pisa - Livorno - Lucca - Massa Carrara;</corpo>
+							</ep>
+							<ep id="art2-t2-com1-letf-pun7">
+								<num>-</num>
+								<corpo>Soprintendenza alle gallerie per le Province di Siena e Grosseto;</corpo>
+							</ep>
+							<ep id="art2-t2-com1-letf-pun8">
+								<num>-</num>
+								<corpo>Soprintendenza ai monumenti delle Province di Siena e Grosseto;</corpo>
+							</ep>
+						</el>
+						<el id="art2-t2-com1-letg">
+							<num>g)</num>
+							<corpo>1 rappresentante per ciascuna delle Università di Firenze, Pisa e Siena, designato dai relativi consigli di amministrazione;</corpo>
+						</el>
+						<el id="art2-t2-com1-leth">
+							<num>h)</num>
+							<corpo>3 rappresentanti della Conferenza episcopale toscana;</corpo>
+						</el>
+						<el id="art2-t2-com1-leti">
+							<num>i)</num>
+							<corpo>3 rappresentanti, uno per ciascuna, delle Organizzazioni sindacali maggiormente rappresentative, designati dai rispettivi comitati direttivi regionali;</corpo>
+						</el>
+						<el id="art2-t2-com1-letl">
+							<num>l)</num>
+							<corpo>4 rappresentanti delle Associazioni del tempo libero maggiormente rappresentative, designati dai rispettivi comitati direttivi regionali;</corpo>
+						</el>
+						<el id="art2-t2-com1-letm">
+							<num>m)</num>
+							<corpo>un rappresentante della Biblioteca nazionale di Firenze;</corpo>
+						</el>
+						<el id="art2-t2-com1-letn">
+							<num>n)</num>
+							<corpo>un rappresentante degli Archivi di Stato della Toscana.</corpo>
+						</el>
+					</comma>
+				</articolo>
+				<articolo id="art2" iniziovigore="t2">
+					<num>Art. 2</num>
+					<comma id="art2-com1">
+						<num />
+						<alinea>La Consulta è composta da:</alinea>
+						<el id="art2-com1-leta">
+							<num>a)</num>
+							<corpo>un membro della Giunta regionale che la presiede;</corpo>
 						</el>
 						<el id="art2-com1-letb">
 							<num>b)</num>
@@ -59,11 +190,11 @@
 						</el>
 						<el id="art2-com1-letc">
 							<num>c)</num>
-							<corpo>18 sindaci o un loro delegato, di cui sei dei Comuni con popolazione fino a 10.000 abitanti, sei tra quelli con popolazione compresa fra i 10.000 e i 30.000 abitanti e sei tra quelli con popolazione superiore a 30.000 abitanti designati dall'ANCI regionale;</corpo>
+							<corpo>18 sindaci o loro delegati, di cui sei dei Comuni con popolazione fino a 10.000 abitanti, sei tra quelli con popolazione compresa fra i 10.000 e i 30.000 abitanti e sei tra quelli con popolazione superiore a 30.000 abitanti designati dall'ANCI regionale;</corpo>
 						</el>
 						<el id="art2-com1-letd">
 							<num>d)</num>
-							<corpo>11 esperti scelti tra il personale scientifico tecnico degli istituti culturali degli Enti locali e d'interesse locale della Toscana e tra i docenti di disciplina attinenti ai fini istituzionali della presente legge, designati dal Consiglio regionale, con voto limitato a 6;</corpo>
+							<corpo>11 esperti scelti tra il personale scientifico e tecnico degli istituti culturali degli Enti locali e d'interesse locale della Toscana e tra i docenti di discipline attinenti ai fini istituzionali della presente legge, designati dal Consiglio regionale, con voto limitato a 6;</corpo>
 						</el>
 						<el id="art2-com1-lete">
 							<num>e)</num>
@@ -78,7 +209,7 @@
 							</ep>
 							<ep id="art2-com1-letf-pun2">
 								<num>-</num>
-								<corpo>Soprintendenza alle gallerie per le Province di Firenze e Pistoia;</corpo>
+								<corpo>Soprintendenza alle gallerie per le Provincie di Firenze e Pistoia;</corpo>
 							</ep>
 							<ep id="art2-com1-letf-pun3">
 								<num>-</num>
@@ -117,17 +248,45 @@
 							<num>i)</num>
 							<corpo>3 rappresentanti, uno per ciascuna, delle Organizzazioni sindacali maggiormente rappresentative, designati dai rispettivi comitati direttivi regionali;</corpo>
 						</el>
-						<el id="art2-com1-letl">
-							<num>l)</num>
-							<corpo>4 rappresentanti delle Associazioni del tempo libero maggiormente rappresentative, designati dai rispettivi comitati direttivi regionali;</corpo>
-						</el>
 						<el id="art2-com1-letm">
 							<num>m)</num>
-							<corpo>un rappresentante della Biblioteca nazionale di Firenze;</corpo>
+							<corpo>1 rappresentante della Biblioteca nazionale di Firenze;</corpo>
 						</el>
 						<el id="art2-com1-letn">
 							<num>n)</num>
-							<corpo>un rappresentante degli Archivi di Stato della Toscana.</corpo>
+							<corpo>1 rappresentante degli Archivi di Stato della Toscana;</corpo>
+						</el>
+						<el id="art2-com1-leto">
+							<num>o)</num>
+							<corpo>10 rappresentanti degli istituti, teatrali, musicali e cinematografici, maggiormente rappresentativi;</corpo>
+						</el>
+						<el id="art2-com1-letp">
+							<num>p)</num>
+							<corpo>3 rappresentanti dell'AGIS;</corpo>
+						</el>
+						<el id="art2-com1-letq">
+							<num>q)</num>
+							<corpo>3 rappresentanti della cooperazione culturale;</corpo>
+						</el>
+						<el id="art2-com1-letr">
+							<num>r)</num>
+							<corpo>3 rappresentanti dei conservatori musicali e istituti parificati;</corpo>
+						</el>
+						<el id="art2-com1-lets">
+							<num>s)</num>
+							<corpo>1 rappresentante della Sovrintendenza scolastica regionale;</corpo>
+						</el>
+						<el id="art2-com1-lett">
+							<num>t)</num>
+							<corpo>10 rappresentanti degli istituti culturali maggiormente rappresentativi;</corpo>
+						</el>
+						<el id="art2-com1-letv">
+							<num>v)</num>
+							<corpo>1 rappresentante della sede regionale della RAI;</corpo>
+						</el>
+						<el id="art2-com1-letz">
+							<num>z)</num>
+							<corpo>5 rappresentanti dei consigli scolastici distrettuali designati dagli stessi</corpo>
 						</el>
 					</comma>
 				</articolo>
@@ -167,7 +326,7 @@
 						<num />
 						<corpo>
 							La Consulta Regionale Toscana dei beni culturali e naturali formula proposte alla Giunta e al Consiglio regionali per tutte le questioni riguardanti l'indirizzo generale delle attività di cui all'
-							<rif xlink:href="#art1" xlink:type="simple">art. 1</rif>
+							<rif xlink:href="#art1-t2" xlink:type="simple">art. 1</rif>
 							della presente legge.
 						</corpo>
 					</comma>
