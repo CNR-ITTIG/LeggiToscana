@@ -8,18 +8,21 @@
 					<entratainvigore norm="19750322" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1975-02-27;18" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1975-02-27;18@1976-05-21" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1975-02-27;18@1976-05-21" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1975-02-27;18@1980-04-04" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19750322" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19750322" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="19760529" fonte="rp1" id="t3" tipo="modifica" />
+						<evento data="19810101" fonte="rp2" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1975-02-27;18" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1973-01-17;8" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1976-05-21;22" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1980-04-04;25" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -60,6 +63,20 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1980-04-04;25" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1980-04-04;25#art11-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 11, comma 2 della legge Regione Toscana 4 aprile 1980, n. 25" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art9-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -217,9 +234,9 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art9">
+				<articolo finevigore="t4" id="art9-t4" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 9</num>
-					<comma id="art9-com1">
+					<comma id="art9-t4-com1">
 						<num />
 						<corpo>
 							Per tutte le opere e gli interventi che gli enti locali realizzano con il concorso finanziario della Regione sotto forma di sussidio o contributo in conto capitale e per quelle a suo totale carico di cui all'
@@ -227,27 +244,27 @@
 							, la Giunta Regionale assume l'impiego di spesa ed accredita l'intero ammontare del finanziamento regionale a favore dell'Ente interessato, sulla base delle deliberazioni del Consiglio Regionale, relative ai programmi di ripartizione dei fondi disponibili.
 						</corpo>
 					</comma>
-					<comma id="art9-com2">
+					<comma id="art9-t4-com2">
 						<num />
 						<corpo>I fondi sono depositati su appositi conti correnti intestati agli enti interessati presso i relativi tesorieri al tasso d'interesse previsto dalle singole convenzioni di tesoreria.</corpo>
 					</comma>
-					<comma id="art9-com3">
+					<comma id="art9-t4-com3">
 						<num />
 						<corpo>Gli Enti beneficiari assumono ogni responsabilità in ordine al vincolo di destinazione dei fondi stessi.</corpo>
 					</comma>
-					<comma id="art9-com4">
+					<comma id="art9-t4-com4">
 						<num />
 						<corpo>L'istituto di credito presso il quale è effettuato il deposito dei fondi di cui al comma precedente provvede ai pagamenti su ordini emessi dall'Ente competente il quale cura annualmente il deposito degli interessi, maturati sulle giacenze, in conto entrata della Regione.</corpo>
 					</comma>
-					<comma id="art9-com5">
+					<comma id="art9-t4-com5">
 						<num />
 						<corpo>E' fatto obbligo agli Enti interessati di presentare alla Regione apposito rendiconto finale per ogni singolo lavoro eseguito sia a totale carico della Regione stessa che con il suo contributo a sussidio della spesa.</corpo>
 					</comma>
-					<comma id="art9-com6">
+					<comma id="art9-t4-com6">
 						<num />
 						<corpo>Tale rendiconto dovrà contenere la dimostrazione della utilizzazione delle somme accreditate e dovrà essere corredato della relativa documentazione di spesa.</corpo>
 					</comma>
-					<comma id="art9-com7">
+					<comma id="art9-t4-com7">
 						<num />
 						<corpo>
 							Alla concessione ed alla erogazione dei contributi concernenti l'acquisto delle aree e la realizzazione delle opere di urbanizzazione di cui al
@@ -255,27 +272,27 @@
 							, nonchè la formazione degli strumenti urbanistici di cui all'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1973-01-17;8#art2" xlink:type="simple">articolo 2 della predetta legge</rif>
 							provvede la Giunta nei modi e nei termini di cui al
-							<rif xlink:href="#art9-com1" xlink:type="simple">comma 1</rif>
+							<rif xlink:href="#art9-t4-com1" xlink:type="simple">comma 1</rif>
 							.
 						</corpo>
 					</comma>
-					<comma id="art9-com8">
+					<comma id="art9-t4-com8">
 						<num />
 						<corpo>I contributi concessi per l'acquisto delle aree sulle quali concedere il diritto di superficie per la costruzione di case di tipo economico e popolare e di quelle destinate alle relative opere di urbanizzazione e servizi pubblici e sociali, nonchè alla realizzazione delle opere di urbanizzazione, il rendiconto dovrà essere corredato di un elenco particolareggiato dei pagamenti eseguiti a firma del sindaco o del presidente dell'Ente.</corpo>
 					</comma>
-					<comma id="art9-com9">
+					<comma id="art9-t4-com9">
 						<num />
 						<corpo>I contributi concessi in annualità sono erogati direttamente agli enti interessati a decorrere dall'impegno di spesa della 1a annualità da assumersi sulla base del progetto approvato, quando gli enti stessi facciano fronte alla spesa con mezzi propri, ovvero agli istituti mutuanti con decorrenza dalla data di inizio dell'ammortamento dei mutui.</corpo>
 					</comma>
-					<comma id="art9-com10">
+					<comma id="art9-t4-com10">
 						<num />
 						<corpo>Gli enti beneficiari di contributi della Regione e che eseguono lavori ad essi affidati dalla Regione, comunicano alla Regione lo stato dei lavori entro il 30 giugno ed il 31 dicembre di ogni anno.</corpo>
 					</comma>
-					<comma id="art9-com11">
+					<comma id="art9-t4-com11">
 						<num />
 						<corpo>I rendiconti di cui sopra saranno approvati con deliberazione della Giunta Regionale che accetterà la spesa definitiva facente carico alla Regione.</corpo>
 					</comma>
-					<comma id="art9-com12">
+					<comma id="art9-t4-com12">
 						<num />
 						<corpo>
 							<mmod id="mmo1">
