@@ -9,18 +9,21 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1973-09-06;54" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1973-09-06;54@1974-09-04" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1973-09-06;54@1979-08-17" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1973-09-06;54@1979-08-17" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1973-09-06;54@1980-04-30" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19730930" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19740921" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19790824" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="19800524" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1973-09-06;54" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1974-09-04;56" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1979-08-17;38" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1980-04-30;35" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -1440,6 +1443,33 @@
 								<dsp:pos xlink:href="#art30-com1-t3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art16" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1980-04-30;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1980-04-30;35#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 30 aprile 1980, n. 35" id="itt95" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art16" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art16-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art16" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1980-04-30;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1980-04-30;35#art4-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1 della legge Regione Toscana 30 aprile 1980, n. 35" id="itt96" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art16bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -2086,7 +2116,7 @@
 								Fatta eccezione per quanto previsto all'
 								<rif xlink:href="#art15-t3" xlink:type="simple">art. 15</rif>
 								, il concorso consiste in un accertamento della idoneità e in una valutazione comparativa della preparazione e dei titoli degli ammessi effettuata dalla commissione di cui al
-								<rif xlink:href="#art16" xlink:type="simple">successivo art. 16</rif>
+								<rif xlink:href="#art16-t4" xlink:type="simple">successivo art. 16</rif>
 								.
 							</corpo>
 						</comma>
@@ -2108,7 +2138,7 @@
 								Fatta eccezione per quanto previsto dall'
 								<rif xlink:href="#art15" xlink:type="simple">art. 15</rif>
 								il concorso consiste in un accertamento comparato di idoneità effettuato dalla Commissione di cui al successivo
-								<rif xlink:href="#art16" xlink:type="simple">art. 16</rif>
+								<rif xlink:href="#art16-t4" xlink:type="simple">art. 16</rif>
 								attraverso la valutazione di prove che possono essere scritte, pratiche ed orali e di eventuali titoli, secondo modalità e procedimenti che sono fissati nella deliberazione del Consiglio Regionale che indice il concorso e rapportati alla professionalità richiesta per il posto da coprire.
 							</corpo>
 						</comma>
@@ -2133,13 +2163,13 @@
 							<corpo>Per l'assunzione ai predetti livelli funzionali la valutazione comparativa dei candidati può essere effettuata anche per soli titoli, ivi compresi quelli indicati al comma precedente.</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art16">
+					<articolo finevigore="t4" id="art16-t4" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 16</num>
 						<rubrica>(Commissioni di esame)</rubrica>
-						<comma id="art16-com1">
+						<comma id="art16-t4-com1">
 							<num />
 							<alinea>Le commissioni di esame sono nominate con provvedimento della Giunta e sono composte:</alinea>
-							<el id="art16-com1-leta">
+							<el id="art16-t4-com1-leta">
 								<num>a)</num>
 								<corpo>
 									per i concorsi di cui all'
@@ -2147,23 +2177,23 @@
 									:
 								</corpo>
 							</el>
-							<ep id="art16-com1-pun1">
+							<ep id="art16-t4-com1-pun1">
 								<num>-</num>
 								<corpo>dal Presidente della Giunta o suo delegato che ne assume la presidenza;</corpo>
 							</ep>
-							<ep id="art16-com1-pun2">
+							<ep id="art16-t4-com1-pun2">
 								<num>-</num>
 								<corpo>da due consiglieri regionali, di cui uno delle minoranze, designati dal Consiglio regionale;</corpo>
 							</ep>
-							<ep id="art16-com1-pun3">
+							<ep id="art16-t4-com1-pun3">
 								<num>-</num>
 								<corpo>da tre esperti delle diverse discipline amministrative e tecniche corrispondenti ai compiti oggetto del posto messo a concorso eletti dal Consiglio regionale con voto limitato a due;</corpo>
 							</ep>
-							<ep id="art16-com1-pun4">
+							<ep id="art16-t4-com1-pun4">
 								<num>-</num>
 								<corpo>da un rappresentante sindacale designato congiuntamente dalle rappresentanze sindacali del personale;</corpo>
 							</ep>
-							<el id="art16-com1-letb">
+							<el id="art16-t4-com1-letb">
 								<num>b)</num>
 								<corpo>
 									per i concorsi di cui all'
@@ -2171,26 +2201,110 @@
 									:
 								</corpo>
 							</el>
-							<ep id="art16-com1-pun5">
+							<ep id="art16-t4-com1-pun5">
 								<num>-</num>
 								<corpo>dal Presidente della Giunta o suo delegato che ne assume la presidenza;</corpo>
 							</ep>
-							<ep id="art16-com1-pun6">
+							<ep id="art16-t4-com1-pun6">
 								<num>-</num>
 								<corpo>da due consiglieri regionali, di cui uno delle minoranze, designati dal Consiglio regionale;</corpo>
 							</ep>
-							<ep id="art16-com1-pun7">
+							<ep id="art16-t4-com1-pun7">
 								<num>-</num>
 								<corpo>da tre funzionari regionali designati dal Consiglio regionale;</corpo>
 							</ep>
-							<ep id="art16-com1-pun8">
+							<ep id="art16-t4-com1-pun8">
 								<num>-</num>
 								<corpo>da un rappresentante sindacale designato congiuntamente dalle rappresentanze sindacali del personale.</corpo>
 							</ep>
 						</comma>
+						<comma id="art16-t4-com2">
+							<num />
+							<corpo>Le funzioni di segretario sono espletate, per entrambi i tipi di concorso, da un dipendente regionale designato dalla Giunta.</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art16" iniziovigore="t4">
+						<num>ARTICOLO 16</num>
+						<rubrica>(Commissioni di esame)</rubrica>
+						<comma id="art16-com1">
+							<num />
+							<alinea>Le commissioni di esame sono nominate con provvedimento della Giunta e sono composte:</alinea>
+							<el id="art16-com1-leta">
+								<num>a)</num>
+								<alinea>per i concorsi di cui all'art. 14:</alinea>
+								<ep id="art16-com1-leta-pun1">
+									<num>-</num>
+									<corpo>dal presidente della Giunta, o suo delegato, che ne assume la presidenza;</corpo>
+								</ep>
+								<ep id="art16-com1-leta-pun2">
+									<num>-</num>
+									<corpo>da due membri designati dal Consiglio regionale, di cui uno dalle minoranze, anche fuori dal proprio ambito;</corpo>
+								</ep>
+								<ep id="art16-com1-leta-pun3">
+									<num>-</num>
+									<corpo>da tre esperti delle diverse discipline amministrative e tecniche corrispondenti ai compiti oggetto del posto messo a concorso, di cui almeno uno esterno al personale regionale, eletti dal Consiglio regionale con voto limitato a due;</corpo>
+								</ep>
+								<ep id="art16-com1-leta-pun4">
+									<num>-</num>
+									<corpo>da un rappresentante sindacale designato congiuntamente dalle rappresentanze sindacali del personale maggiormente rappresentative;</corpo>
+								</ep>
+							</el>
+							<el id="art16-com1-letb">
+								<num>b)</num>
+								<alinea>per i concorsi di cui all'art. 15:</alinea>
+								<ep id="art16-com1-letb-pun1">
+									<num>-</num>
+									<corpo>dal Presidente della Giunta, o suo delegato, che ne assume la Presidenza;</corpo>
+								</ep>
+								<ep id="art16-com1-letb-pun2">
+									<num>-</num>
+									<corpo>da due membri designati dal Consiglio regionale, di cui uno delle minoranze, anche fuori dal proprio ambito;</corpo>
+								</ep>
+								<ep id="art16-com1-letb-pun3">
+									<num>-</num>
+									<corpo>da tre funzionari designati dal Consiglio regionale;</corpo>
+								</ep>
+								<ep id="art16-com1-letb-pun4">
+									<num>-</num>
+									<corpo>da un rappresentante sindacale designato congiuntamente dalle rappresentanze sindacali del personale maggiormente rappresentative.</corpo>
+								</ep>
+							</el>
+						</comma>
 						<comma id="art16-com2">
 							<num />
 							<corpo>Le funzioni di segretario sono espletate, per entrambi i tipi di concorso, da un dipendente regionale designato dalla Giunta.</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art16bis" iniziovigore="t4">
+						<num>Art. 16/Bis</num>
+						<rubrica>(Sottocommissioni di esame)</rubrica>
+						<comma id="art16bis-com1">
+							<num />
+							<corpo>Qualora i candidati ammessi ai concorsi, di cui è richiesta una valutazione comparativa della preparazione e dei titoli, superino le 300 unità, la Giunta regionale, su richiesta della Commissione d'esame di cui all'art. 16, provvede alla nomina di una o più sottocommissioni, costituite con le stesse modalità previste per la commissione.</corpo>
+						</comma>
+						<comma id="art16bis-com2">
+							<num />
+							<corpo>In tal caso i criteri di massima per la valutazione dei titoli e le modalità necessarie per dare uniformità alla valutazione dei candidati sono preventivamente deliberati in una riunione congiunta di tutte le sottocommissioni presiedute dal Presidente della Commissione.</corpo>
+						</comma>
+						<comma id="art16bis-com3">
+							<num />
+							<corpo>Le sottocommissioni provvedono inoltre all'assistenza alle prove scritte e pratiche, all'esame delle stesse ed all'espletamento delle prove orali.</corpo>
+						</comma>
+						<comma id="art16bis-com4">
+							<num />
+							<corpo>La Commissione fa propri i risultati delle sottocommissioni e redige un'unica graduatoria ai sensi del successivo art. 17.</corpo>
+						</comma>
+						<comma id="art16bis-com5">
+							<num />
+							<corpo>Ai Componenti delle Commissioni di esame, fatta eccezione per i Consiglieri ed i funzionari regionali, è attribuito un compenso nella misura massima di L. 30.000 per ogni giornata di seduta della Commissione.</corpo>
+						</comma>
+						<comma id="art16bis-com6">
+							<num />
+							<corpo>Il compenso è determinato con deliberazione, della Giunta regionale, ed è stabilito tenuto conto del numero dei partecipanti e della complessività delle operazioni concorsuali.</corpo>
+						</comma>
+						<comma id="art16bis-com7">
+							<num />
+							<corpo>Ai medesimi compete inoltre il trattamento di missione, alle condizioni e con le modalità previste per il personale regionale del massimo livello.</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art17">

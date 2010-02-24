@@ -8,16 +8,19 @@
 					<entratainvigore norm="19730930" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1973-09-06;55" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1973-09-06;55@1974-04-08" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1973-09-06;55@1974-04-08" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1973-09-06;55@1980-04-30" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19730930" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19750419" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19800524" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1973-09-06;55" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1974-04-08;15" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1980-04-30;35" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -39,7 +42,7 @@
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art23-com2" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1974-04-08;15" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1974-04-08;15#artunico-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -47,14 +50,14 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art23-com3" xlink:type="simple" />
+								<dsp:pos xlink:href="#art23-t3-com3" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#art23-com2-t2" xlink:type="simple" />
+								<dsp:pos xlink:href="#art23-t3-com2-t2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:integrazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art23-com2" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1974-04-08;15" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1974-04-08;15#artunico-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -62,9 +65,21 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art23-com4" xlink:type="simple" />
+								<dsp:pos xlink:href="#art23-t3-com4" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art23" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1980-04-30;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1980-04-30;35#art5-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 1 della legge Regione Toscana 30 aprile 1980, n. 35" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art23-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -533,7 +548,7 @@
 								<num />
 								<corpo>
 									In sede di prima attuazione dell'ordinamento degli uffici, alla dotazione organica del personale di ciascun ufficio e dipartimento della struttura operativa si provvede a norma dell'
-									<rif xlink:href="#art23" xlink:type="simple">art. 23</rif>
+									<rif xlink:href="#art23-t3" xlink:type="simple">art. 23</rif>
 									.
 								</corpo>
 							</comma>
@@ -840,14 +855,14 @@
 							</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art23">
+					<articolo finevigore="t3" id="art23-t3" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 23</num>
 						<rubrica>(Prima dotazione di personale)</rubrica>
-						<comma id="art23-com1">
+						<comma id="art23-t3-com1">
 							<num />
 							<corpo>In sede di prima attuazione dell'ordinamento degli uffici, la dotazione del personale di ciascun ufficio e dipartimento della struttura operativa della Regione è determinata dall'unita tabella A.</corpo>
 						</comma>
-						<comma finevigore="t2" id="art23-com2-t2" iniziovigore="t1" status="abrogato">
+						<comma finevigore="t2" id="art23-t3-com2-t2" iniziovigore="t1" status="abrogato">
 							<num />
 							<corpo>
 								Salvo l'espletamento della procedura di inquadramento del personale, entro tre mesi dalla entrata in vigore della presente legge, il Consiglio, con deliberazione adottata su proposta della Giunta, sentite le rappresentanze sindacali del personale e nel rispetto dell'
@@ -855,7 +870,7 @@
 								, provvederà all'adeguamento delle previsioni organiche della unita tabella A, nell'ambito della dotazione di ciascuna fascia funzionale e in relazione alla definizione del contingente del personale trasferito dallo Stato ed avente diritto all'inquadramento in una delle fasce funzionali del ruolo regionale. Ove occorra, sempre in relazione a tali esigenze si provvederà con successiva legge all'adeguamento delle previsioni organiche delle fasce funzionali di cui alla tabella B.
 							</corpo>
 						</comma>
-						<comma id="art23-com3" iniziovigore="t2">
+						<comma id="art23-t3-com3" iniziovigore="t2">
 							<num />
 							<corpo>
 								Salvo l'espletamento della procedura di inquadramento del personale, entro un anno dall'entrata in vigore della presente legge, il Consiglio, con deliberazione adottata su proposta della Giunta, sentite le rappresentanze sindacali del personale e nel rispetto dell'
@@ -865,15 +880,15 @@
 								ed avente diritto all'inquadramento in una delle fasce funzionali del ruolo regionale. Ove occorra, sempre in relazione a tali esigenze, si provvederà con successiva legge all'adeguamento delle previsioni organiche delle fasce funzionali di cui alla tabella B.
 							</corpo>
 						</comma>
-						<comma id="art23-com4" iniziovigore="t2">
+						<comma id="art23-t3-com4" iniziovigore="t2">
 							<num />
 							<corpo>Fino a quando non sarà stato provveduto agli adeguamenti organici l'inquadramento del personale suddetto viene disposto anche in soprannumero rispetto ai contingenti, per ciascuna fascia funzionale e per ciascuna mansione obiettiva compresa nella fascia stessa, previsti nelle tabelle A e B allegate alla presente legge, purchè nei limiti della dotazione organica complessiva fissata nella tabella B.</corpo>
 						</comma>
-						<comma id="art23-com5">
+						<comma id="art23-t3-com5">
 							<num />
 							<corpo>Per il periodo di un anno dalla entrata in vigore della presente legge il Consiglio potrà omettere, in deroga a quanto stabilito dal primo comma dell'art. 12 della legge sullo stato giuridico ed economico del personale, di bandire i concorsi per alcuni posti previsti dalle tabelle allegate.</corpo>
 						</comma>
-						<comma id="art23-com6">
+						<comma id="art23-t3-com6">
 							<num />
 							<corpo>Ove alla copertura dei posti organici degli uffici e dipartimenti del Consiglio, del centro direzionale e degli uffici del Comitato regionale di controllo e sue sezioni decentrate si provveda con il personale trasferito dallo Stato, è in facoltà dell'amministrazione procedere alla soppressione dei relativi posti degli uffici trasferiti.</corpo>
 						</comma>
