@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19800516" num="28" tipo="BURT" />
 					<entratainvigore norm="19800531" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1980-05-07; 41" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1980-05-07;41" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1980-05-07;41@1980-05-07" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Giovani" />
 						<materia valore="Lavoro" />
@@ -16,17 +17,149 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19800531" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19800531" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
-						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-05-07; 41" xlink:type="simple" />
+						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-05-07;41" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1980-05-07;47" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1980-05-07;47" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1980-05-07;47#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 7 maggio 1980, n. 47" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art1-com2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1980-05-07;47" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1980-05-07;47#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 7 maggio 1980, n. 47" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art1-com4-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1980-05-07;47" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1980-05-07;47#art1-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2 della legge Regione Toscana 7 maggio 1980, n. 47" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1980-05-07;47" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1980-05-07;47#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 7 maggio 1980, n. 47" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1980-05-07;47" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1980-05-07;47#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 7 maggio 1980, n. 47" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-com1-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1980-05-07;47" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1980-05-07;47#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 7 maggio 1980, n. 47" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3-com4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-com3-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1980-05-07;47" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1980-05-07;47#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 7 maggio 1980, n. 47" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3-com6" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-com5-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com2-letb" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1980-05-07;47" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1980-05-07;47#art4-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1 della legge Regione Toscana 7 maggio 1980, n. 47" id="itt8" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1980-05-07;47" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1980-05-07;47#art5-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 1 della legge Regione Toscana 7 maggio 1980, n. 47" id="itt9" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art5-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-com1-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
 				<tipoDoc>Legge Regionale</tipoDoc>
 				<dataDoc norm="19800507">7 maggio 1980</dataDoc>
-				,n.
+				, n.
 				<numDoc>41</numDoc>
 				<titoloDoc>
 					Provvedimenti urgenti per l’occupazione giovanile - Prima attuazione della
@@ -53,7 +186,7 @@
 							</mod>
 						</corpo>
 					</comma>
-					<comma id="art1-com2">
+					<comma finevigore="t2" id="art1-com2-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>
 							La durata di esecuzione dei progetti specifici di servizi socialmente utili, e quella dei relativi contratti, compresi quelli di formazione, predisposti dagli enti predetti in attuazione della
@@ -64,21 +197,23 @@
 					<comma id="art1-com3">
 						<num />
 						<corpo>
-							Le disposizioni di cui ai commi precedenti si applicano anche ai giovani soci di cooperative con le quali la Regione o gli Enti Locali hanno stipulato convenzioni ai sensi dell'
+							<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">Le disposizioni di cui ai commi precedenti si applicano</h:span>
+							<h:span id="h2" iniziovigore="t2">La disposizione di cui al comma precedente si applica</h:span>
+							anche ai giovani soci di cooperative con le quali la Regione o gli Enti Locali hanno stipulato convenzioni ai sensi dell'
 							<rif xlink:href="urn:nir:stato:legge:1977-06-01;285#art27" xlink:type="simple">articolo 27 della citata legge 1 giugno 1977, n. 285</rif>
 							e successive modificazioni ed integrazioni, limitatamente ai giovani effettivamente impiegati, nella esecuzione dei progetti in convenzione, da data non successiva a quella di entrata in vigore della
 							<rif xlink:href="urn:nir:stato:legge:1980-02-29;33" xlink:type="simple">legge 29 febbraio 1980, n. 33</rif>
 							.
 						</corpo>
 					</comma>
-					<comma id="art1-com4">
+					<comma finevigore="t2" id="art1-com4-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>Le proroghe di cui al presente articolo sono disposte con deliberazione della Giunta Regionale o dei competenti organi degli altri enti, che vi provvedono, per quanto concerne le convenzioni con cooperative, su domanda di queste stesse da presentarsi improrogabilmente nel termine di 30 giorni dall'entrata in vigore della presente legge.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art2">
+				<articolo finevigore="t2" id="art2-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 2</num>
-					<comma id="art2-com1">
+					<comma id="art2-t2-com1">
 						<num />
 						<corpo>
 							Qualora i progetti di servizi socialmente utili predisposti in attuazione della
@@ -90,48 +225,77 @@
 							, sono utilizzati precipuamente per attività di formazione professionale dei giovani impiegati nei progetti stessi.
 						</corpo>
 					</comma>
-					<comma id="art2-com2">
+					<comma id="art2-t2-com2">
 						<num />
 						<corpo>Le attività di formazione professionale di cui al precedente comma sono effettuate in conformità di indirizzi generali stabiliti dalla Giunta Regionale con propria deliberazione e sulla base di programmi specifici, predisposti dagli enti attuatari dei progetti sentite le rappresentanze provinciali delle organizzazioni sindacali dei lavoratori maggiormente rappresentative su base regionale, approvati con deliberazione della Giunta Regionale.</corpo>
 					</comma>
 				</articolo>
+				<articolo id="art2" iniziovigore="t2">
+					<num>ARTICOLO 2</num>
+					<comma id="art2-com1">
+						<num />
+						<corpo>
+							I periodi residui, fino alla scadenza dei contratti e comunque fino all'effettuazione degli esami di idoneità previsti dal
+							<rif xlink:href="#art3" xlink:type="simple">successivo articolo 3</rif>
+							, sono utilizzati precipuamente per attività di formazione professionale dei giovani.
+						</corpo>
+					</comma>
+				</articolo>
 				<articolo id="art3">
 					<num>ARTICOLO 3</num>
-					<comma id="art3-com1">
+					<comma finevigore="t2" id="art3-com1-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>
 							I giovani assunti con i contratti di cui all'
 							<rif xlink:href="#art1" xlink:type="simple">articolo 1</rif>
 							, compresi i giovani soci delle cooperative di cui al
-							<rif xlink:href="#art3-com3" xlink:type="simple">terzo comma</rif>
+							<rif xlink:href="#art3-com5-t2" xlink:type="simple">terzo comma</rif>
 							dell'articolo medesimo, sono ammessi a sostenere un esame di idoneità, per l'immissione nei ruoli della Regione e degli enti locali, alla qualifica iniziale di ciascuna carriera cui è equiparabile la qualifica professionale in base alla quale è avvenuta l'assunzione.
 						</corpo>
 					</comma>
-					<comma id="art3-com2">
+					<comma id="art3-com2" iniziovigore="t2">
+						<num />
+						<corpo>
+							I giovani assunti con i contratti di cui alla
+							<rif xlink:href="urn:nir:stato:legge:1977-06-01;285" xlink:type="simple">legge 1 giugno 1977 n. 285</rif>
+							e successive modificazioni ed integrazioni, compresi i giovani soci delle cooperative di cui al secondo comma dell'
+							<rif xlink:href="#art1" xlink:type="simple">articolo 1 della presente legge</rif>
+							, che abbiano portato a termine i contratti medesimi, sono ammessi a sostenere un esame di idoneità, per l'ammissione nei ruoli della Regione e degli enti locali, alla qualifica iniziale di ciascuna carriera cui è equiparabile la qualifica professionale in base alla quale è avvenuta l'assunzione.
+						</corpo>
+					</comma>
+					<comma finevigore="t2" id="art3-com3-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>
 							L'esame è effettuato entro il 31 dicembre 1980 ove la scadenza del rapporto, determinata ai sensi dell'
 							<rif xlink:href="#art1" xlink:type="simple">articolo 1</rif>
 							primo e
-							<rif xlink:href="#art3-com2" xlink:type="simple">secondo comma</rif>
+							<rif xlink:href="#art3-com3-t2" xlink:type="simple">secondo comma</rif>
 							, sia intervenuta o intervenga entro tale data e, per i giovani il cui rapporto scada in data successiva, almeno trenta giorni prima della data di scadenza medesima.
 						</corpo>
 					</comma>
-					<comma id="art3-com3">
+					<comma id="art3-com4" iniziovigore="t2">
+						<num />
+						<corpo>L'esame è bandito nei trenta giorni precedenti la data di scadenza dei contratti.</corpo>
+					</comma>
+					<comma finevigore="t2" id="art3-com5-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>Nel caso di cui alla prima parte del comma precedente, i contratti sono automaticamente prorogati, ove occorra, fino alla data di effettuazione dell'esame di idoneità.</corpo>
 					</comma>
-					<comma id="art3-com4">
+					<comma id="art3-com6" iniziovigore="t2">
+						<num />
+						<corpo>Qualora si renda necessario per eccezionali esigenze organizzative connesse alle procedure di espletamento degli esami, i contratti sono automaticamente prorogati fino alla data di effettuazione degli stessi, e comunque non oltre il 31dicembre 1980.</corpo>
+					</comma>
+					<comma id="art3-com7">
 						<num />
 						<corpo>
 							I giovani che avranno superato l'esame di idoneità saranno iscritti nelle graduatorie da istituirsi con la legge regionale di cui al
 							<rif xlink:href="#art4" xlink:type="simple">successivo articolo 4</rif>
 							e continueranno a svolgere provvisoriamente presso lo stesso ente la propria attività con rapporto di lavoro a tempo indeterminato, fino all'immissione nei ruoli di cui al
-							<rif xlink:href="#art3-com1" xlink:type="simple">primo comma</rif>
+							<rif xlink:href="#art3-com1-t2" xlink:type="simple">primo comma</rif>
 							. Ad essi sono attribuiti, fino all'immissione nei ruoli, il trattamento giuridico, assistenziale e previdenziale dei dipendenti dell'ente presso il quale prestano servizio, nonchè il trattamento retributivo base minimo previsto per il personale di ruolo appartenente al medesimo livello funzionale.
 						</corpo>
 					</comma>
-					<comma id="art3-com5">
+					<comma id="art3-com8">
 						<num />
 						<corpo>Nei confronti dei giovani che non sostengano l'esame ovvero non lo superino, il rapporto è risolto di diritto alla scadenza del contratto.</corpo>
 					</comma>
@@ -151,7 +315,11 @@
 						</el>
 						<el id="art4-com2-letb">
 							<num>b)</num>
-							<corpo>i requisiti per l'ammissione all'esame, con riferimento a quelli previsti dalle norme vigenti per l'accesso mediante concorso alle carriere del pubblico impiego ad eccezione dell'età;</corpo>
+							<corpo>
+								i requisiti per l'ammissione all'esame, con riferimento a quelli previsti dalle norme vigenti per l'accesso mediante concorso alle carriere del pubblico impiego
+								<h:span finevigore="t2" id="h3" iniziovigore="t1" status="abrogato">ad eccezione dell'età</h:span>
+								;
+							</corpo>
 						</el>
 						<el id="art4-com2-letc">
 							<num>c)</num>
@@ -201,7 +369,7 @@
 				</articolo>
 				<articolo id="art5">
 					<num>ARTICOLO 5</num>
-					<comma id="art5-com1">
+					<comma finevigore="t2" id="art5-com1-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>
 							All'onere derivante dall'applicazione della presente legge sarà fatto fronte con i fondi previsti dall'
@@ -209,7 +377,15 @@
 							.
 						</corpo>
 					</comma>
-					<comma id="art5-com2">
+					<comma id="art5-com2" iniziovigore="t2">
+						<num />
+						<corpo>
+							All'onere derivante dall'applicazione della presente legge sarà fatto fronte con i fondi previsti dall'
+							<rif xlink:href="urn:nir:stato:legge:1980-02-29;33#art26octies" xlink:type="simple">articolo 26 octies della legge 29 febbraio 1980, n. 33</rif>
+							ed, ove occorra, con altri stanziamenti da disporsi con successiva legge.
+						</corpo>
+					</comma>
+					<comma id="art5-com3">
 						<num />
 						<corpo>La Regione, ove si renda necessario, assicura agli enti ed organismi gestori dei singoli progetti l'anticipazione dei finanziamenti necessari.</corpo>
 					</comma>
@@ -217,7 +393,7 @@
 			</articolato>
 			<formulafinale>La presente legge è pubblicata sul Bollettino Ufficiale della Regione Toscana. E' fatto obbligo a chiunque spetti di osservarla e farla osservare come legge della Regione Toscana.</formulafinale>
 			<conclusione>
-				<soggetto codice="">La presente legge è stata approvata dal Consiglio Regionale il 25-3-1980 ed è stata vistata dal Commissario del Governo il 30- 4-1980.</soggetto>
+				<soggetto codice="">La presente legge è stata approvata dal Consiglio Regionale il 25-3-1980 ed è stata vistata dal Commissario del Governo il 30-4-1980.</soggetto>
 			</conclusione>
 		</LeggeRegionale>
 	</NIR>
