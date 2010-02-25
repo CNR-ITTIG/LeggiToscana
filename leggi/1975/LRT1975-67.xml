@@ -8,16 +8,19 @@
 					<entratainvigore norm="19750628" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1975-06-05;67" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1975-06-05;67@1978-03-31" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1975-06-05;67@1978-03-31" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1975-06-05;67@1980-05-15" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19750628" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19780422" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19800607" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1975-06-05;67" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1978-03-31;22" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1980-05-15;48" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -109,6 +112,18 @@
 								<dsp:pos xlink:href="#art8-com5-t2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1980-05-15;48" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1980-05-15;48#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 15 maggio 1980, n. 48" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com2" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -153,6 +168,14 @@
 							<num>b)</num>
 							<corpo>I proprietari ed affittuari conduttori che dimostrino di dedicare personalmente all'attività agricola almeno 2/3 del proprio tempo di lavoro e che ricavino dall'attività medesima almeno 2/3 del proprio reddito globale da lavoro, risultante dalla propria posizione fiscale.</corpo>
 						</el>
+					</comma>
+					<comma id="art2-com2" iniziovigore="t3">
+						<num />
+						<corpo>
+							Nelle zone montane e svantaggiate ai sensi della
+							<rif xlink:href="urn:nir:regione.toscana:legge:1977-09-07;71" xlink:type="simple">LR 7 settembre 1977 n. 71</rif>
+							i requisiti di tempo e di reddito di cui al primo comma sono ridotti a 1/2.
+						</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art3">
