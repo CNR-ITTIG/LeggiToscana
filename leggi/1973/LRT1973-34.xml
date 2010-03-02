@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1973-06-25;34" />
 					<urn finevigore="t5" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1973-06-25;34@1976-09-04" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1973-06-25;34@1980-05-07" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1973-06-25;34@1980-05-07" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1973-06-25;34@1980-12-13" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -18,6 +19,7 @@
 						<evento data="19760925" fonte="rp1" id="t3" tipo="modifica" />
 						<evento data="19760925" fonte="ra2" id="t4" tipo="modifica" />
 						<evento data="19800531" fonte="rp2" id="t5" tipo="modifica" />
+						<evento data="19810101" fonte="rp3" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1973-06-25;34" xlink:type="simple" />
@@ -25,6 +27,7 @@
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1972-02-04;4" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1976-09-04;63" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1980-05-07;45" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1980-12-13;92" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -90,6 +93,9 @@
 							<rif xlink:href="urn:nir:regione.toscana:legge:1976-09-04;63#art9" xlink:type="simple">art. 9 della legge regionale 4 settembre 1976, n. 63</rif>
 							,gli effetti giuridici ed economici dell'abrogazione del presente comma decorrono dal 1 luglio 1975.
 						</h:p>
+					</nota>
+					<nota id="n10">
+						<h:p>Relativamente al calcolo dell'assegno vitalizio si veda anche il comma 2 dell'art. 5 della legge regionale 7 maggio 1980, n. 45 .</h:p>
 					</nota>
 				</redazionale>
 				<disposizioni xlink:type="simple">
@@ -332,7 +338,7 @@
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art12-com1" xlink:type="simple" />
+							<dsp:pos xlink:href="#art12-com1-t6" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1980-05-07;45" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1980-05-07;45#art5-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -398,7 +404,7 @@
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art12-com1" xlink:type="simple" />
+							<dsp:pos xlink:href="#art12-com1-t6" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1980-05-07;45" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1980-05-07;45#art6" xlink:type="simple" />
 								<dsp:subarg>
@@ -425,6 +431,21 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art6-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art12-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1980-12-13;92" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1980-12-13;92#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 13 dicembre 1980, n. 92" id="itt18" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art12-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art12-com1-t6" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -719,7 +740,7 @@
 				<articolo id="art12">
 					<num>ARTICOLO 12</num>
 					<rubrica>Misura degli assegni vitalizi.</rubrica>
-					<comma id="art12-com1">
+					<comma finevigore="t6" id="art12-com1-t6" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>
 							L'ammontare mensile dell'assegno vitalizio è determinato in base alla seguente tabella, in percentuale, rispetto agli anni di contribuzione, sull'indennità
@@ -759,12 +780,53 @@
 									</h:tr>
 								</h:tbody>
 							</h:table>
+						</corpo>
+					</comma>
+					<comma id="art12-com2" iniziovigore="t6">
+						<num />
+						<corpo>
+							L'ammontare mensile dell'assegno vitalizio è determinato in base alla seguente tabella, in percentuale rispetto agli anni di contribuzione, sull'indennità mensile stabilita per le funzioni di consigliere regionale nello stesso mese cui si riferisce l'assegno vitalizio, calcolata al netto delle sole ritenute versate al fondo di previdenza previsto dall'
+							<rif xlink:href="#art1" xlink:type="simple">art. 1 della presente legge</rif>
+							:
+							<h:table>
+								<h:tbody>
+									<h:tr>
+										<h:td>Anni di contribuzione 5:</h:td>
+										<h:td>Percentuale sulla indennità mensile 30%;</h:td>
+									</h:tr>
+									<h:tr>
+										<h:td>Anni di contribuzione 6:</h:td>
+										<h:td>Percentuale sulla indennità mensile 33%;</h:td>
+									</h:tr>
+									<h:tr>
+										<h:td>Anni di contribuzione 7:</h:td>
+										<h:td>Percentuale sulla indennità mensile 36%;</h:td>
+									</h:tr>
+									<h:tr>
+										<h:td>Anni di contribuzione 8:</h:td>
+										<h:td>Percentuale sulla indennità mensile 39%;</h:td>
+									</h:tr>
+									<h:tr>
+										<h:td>Anni di contribuzione 9:</h:td>
+										<h:td>Percentuale sulla indennità mensile 42%;</h:td>
+									</h:tr>
+									<h:tr>
+										<h:td>Anni di contribuzione 10 ed oltre:</h:td>
+										<h:td>Percentuale sulla indennità mensile 45%.</h:td>
+									</h:tr>
+								</h:tbody>
+							</h:table>
+						</corpo>
+					</comma>
+					<comma id="art12-com3">
+						<num />
+						<corpo>
 							la frazione di anno si computa come anno intero purchè sia di durata non inferiore a sei mesi ed un giorno
 							<ndr num="#n3" valore="" xlink:type="simple">(c)</ndr>
 							.
 						</corpo>
 					</comma>
-					<comma id="art12-com2">
+					<comma id="art12-com4">
 						<num />
 						<corpo>La frazione inferiore a sei mesi si arrotonda a sei mesi.</corpo>
 					</comma>
