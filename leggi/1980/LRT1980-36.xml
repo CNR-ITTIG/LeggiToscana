@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19800509" num="27" tipo="BURT" />
 					<entratainvigore norm="19800524" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1980-04-30;36" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1980-04-30;36" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1980-04-30;36@1980-11-13" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="ATTIVITÀ ESTRATTIVE" />
 					</materie>
@@ -15,11 +16,47 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19800524" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19801206" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-04-30;36" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1980-11-13;84" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com2-letb" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1980-11-13;84" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1980-11-13;84#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 13 novembre 1980, n. 84" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art11-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1980-11-13;84" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1980-11-13;84#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 13 novembre 1980, n. 84" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -124,7 +161,12 @@
 						</el>
 						<el id="art4-com2-letb">
 							<num>b)</num>
-							<corpo>un piano indicativo di coltivazione corredato da planimetrie in scala 1: 2000 a sezioni in scala 1: 200 tali da individuare l'assetto che prevedibilmente il terreno verrà ad assumere in conseguenza dell'attività di coltivazione; dovranno essere indicate le zone di escavazione, la localizzazione delle aree di rispetto delle aree di deposito dei materiali estratti, gli impianti anche di prima lavorazione, le infrastrutture, i servizi, le recinzioni. Qualora fosse ritenuto necessario, in aggiunta a quelli previsti, potranno essere forniti o richiesti elaborati in scala più dettagliata;</corpo>
+							<corpo>
+								un piano indicativo di coltivazione corredato da planimetrie in scala 1: 2000 a sezioni
+								<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">in scala 1: 200 tali da individuare l'assetto</h:span>
+								<h:span id="h2" iniziovigore="t2">in scala che sia compresa tra 1: 200 e 1: 1000 atte a raffigurare l'assetto</h:span>
+								che prevedibilmente il terreno verrà ad assumere in conseguenza dell'attività di coltivazione; dovranno essere indicate le zone di escavazione, la localizzazione delle aree di rispetto delle aree di deposito dei materiali estratti, gli impianti anche di prima lavorazione, le infrastrutture, i servizi, le recinzioni. Qualora fosse ritenuto necessario, in aggiunta a quelli previsti, potranno essere forniti o richiesti elaborati in scala più dettagliata;
+							</corpo>
 						</el>
 						<el id="art4-com2-letc">
 							<num>c)</num>
@@ -311,7 +353,10 @@
 					<comma id="art11-com1">
 						<num />
 						<corpo>
-							Per tutte le coltivazioni di cave e torbiere che risultino in atto alla data di entrata in vigore della presente legge e siano rispondenti alle vigenti disposizioni minerarie, i conduttori sono tenuti ad inoltrare entro 180 giorni dalla stessa data, domanda di autorizzazione a norma dell'
+							Per tutte le coltivazioni di cave e torbiere che risultino in atto alla data di entrata in vigore della presente legge e siano rispondenti alle vigenti disposizioni minerarie, i conduttori sono tenuti ad inoltrare
+							<h:span finevigore="t2" id="h3" iniziovigore="t1" status="abrogato">entro 180 giorni</h:span>
+							<h:span id="h4" iniziovigore="t2">entro 360 giorni</h:span>
+							dalla stessa data, domanda di autorizzazione a norma dell'
 							<rif xlink:href="#art4" xlink:type="simple">art. 4</rif>
 							agli effetti e nei limiti del proseguimento delle attività.
 						</corpo>
