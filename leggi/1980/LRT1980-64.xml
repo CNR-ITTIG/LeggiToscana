@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19800530" num="32" tipo="BURT" />
 					<entratainvigore norm="19800614" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1980-05-24;64" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1980-05-24;64" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1980-05-24;64@1980-11-15" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Attività estrattive" />
 					</materie>
@@ -15,11 +16,32 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19800614" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19801206" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-05-24;64" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1980-11-15;87" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1980-11-15;87" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1980-11-15;87#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 15 novembre 1980, n. 87" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-com2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -115,15 +137,19 @@
 						<num />
 						<corpo>I piani aziendali o interaziendali, per i quali si intendono ottenere agevolazioni finanziarie ai sensi della presente legge, sono presentati ai Comuni nel cui territorio si realizzano gli interventi, in allegato alla domanda con la quale si fa richiesta di accedere alle agevolazioni.</corpo>
 					</comma>
-					<comma id="art4-com2">
+					<comma finevigore="t2" id="art4-com2-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>La domanda, da presentare entro il 15 ottobre 1980, è corredata da dichiarazione, sottoscritta e autenticata nei modi di legge, attestante sotto l'espressa responsabilità del dichiarante che ogni dato fornito risponde a verità e può essere accertato. La domanda ed il piano sono inviati mediante raccomandata con avviso di ricevimento, ovvero presentati direttamente ai competenti uffici comunali, che ne rilasciano ricevuta. Il Comune, nel termine perentorio di quarantacinque giorni successivi, sentite le organizzazioni rappresentative a livello locale, o in mancanza quelle provinciali, dei soggetti beneficiari e le organizzazioni sindacali dei lavoratori, esprime il proprio parere sui piani stessi, con riferimento agli aspetti urbanistici ambientali, igienico - sanitari, ovvero comunque connessi alla utilizzazione del territorio.</corpo>
 					</comma>
-					<comma id="art4-com3">
+					<comma id="art4-com3" iniziovigore="t2">
+						<num />
+						<corpo>La domanda da presentare entro il 15 dicembre 1980, è corredata da dichiarazione, sottoscritta e autentica nei modi di legge, attestante sotto la espressa responsabilità del dichiarante che ogni dato fornito risponde a verità o può essere accertato.</corpo>
+					</comma>
+					<comma id="art4-com4">
 						<num />
 						<corpo>Il parere del Comune, nonchè copia degli elaborati dei piani aziendali ed interaziendali, sono trasmessi alla Giunta Regionale.</corpo>
 					</comma>
-					<comma id="art4-com4">
+					<comma id="art4-com5">
 						<num />
 						<corpo>
 							I Comuni, le Province, Comunità Montane e consorzi tra detti Enti presentano alla Regione entro gli stessi termini di cui al
@@ -131,7 +157,7 @@
 							le domande, corredate dalla documentazione richiesta, intese ad ottenere le agevolazioni finanziarie, per la realizzazione della viabilità e delle altre infrastrutture a servizio dei comparti.
 						</corpo>
 					</comma>
-					<comma id="art4-com5">
+					<comma id="art4-com6">
 						<num />
 						<corpo>
 							Varianti ai piani aziendali o interaziendali o ai progetti riguardanti la viabilità e le altre infrastrutture per i quali sono state concesse agevolazioni finanziarie ai sensi della presente legge possono essere autorizzate dalla Giunta regionale solo eccezionalmente e per giustificati motivi e devono comunque risultare compatibili con gli obiettivi del programma operativo d'intervento e del piano di massima di comparto di cui all'
