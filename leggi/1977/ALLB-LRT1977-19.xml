@@ -1,29 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<DocumentoNIR nome="">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<DocumentoNIR finevigore="t2" id="DocumentoNIR1" iniziovigore="t1" nome="" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19770401" num="16" tipo="BURT" />
 					<entratainvigore norm="19770401" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1977-03-23;19:allegato.b" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1977-03-23;19:allegato.b" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1977-03-23;19:allegato.b@1981-02-21" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19770401" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19810227" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1977-03-23;19:allegato.b" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1981-02-21;23" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#??" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1981-02-21;23" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1981-02-21;23#art18-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo18, comma2, legge Regione Toscana 21 febbraio 1981, n. 23" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#DocumentoNIR1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
 				<tipoDoc>Allegato</tipoDoc>
 				<titoloDoc>TABELLA "B" TARIFFE BAGAGLI ACCOMPAGNATI</titoloDoc>
 			</intestazione>
-			<formulainiziale>Allegato alla legge regionale 23 marzo 1973, n. 19 recante "Modifiche ed integrazioni alla LR 20 marzo 1975, n. 21 relativa alla unificazione tariffaria sulle autolinee extraurbane di concessione regionale."</formulainiziale>
+			<formulainiziale>
+				Allegato alla
+				<rif xlink:href="urn:nir:regione.toscana:legge:1973-03-23;19" xlink:type="simple">legge regionale 23 marzo 1973, n. 19</rif>
+				recante "Modifiche ed integrazioni alla
+				<rif xlink:href="urn:nir:regione.toscana:legge:1975-03-20;21" xlink:type="simple">LR 20 marzo 1975, n. 21</rif>
+				relativa alla unificazione tariffaria sulle autolinee extraurbane di concessione regionale."
+			</formulainiziale>
 			<contenitore id="con1" nome="">
 				<h:p />
 				<h:table>
