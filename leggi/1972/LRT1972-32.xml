@@ -8,16 +8,19 @@
 					<entratainvigore norm="19730107" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1972-12-21;32" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1972-12-21;32@1976-12-23" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1972-12-21;32@1976-12-23" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1972-12-21;32@1981-07-09" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19730107" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19770115" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19810801" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1972-12-21;32" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1976-12-23;78" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1981-07-09;57" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -28,7 +31,59 @@
 							.
 						</h:p>
 					</nota>
+					<nota id="n2">
+						<h:p>
+							Ai sensi dell'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1981-07-09;57#art2-com1" xlink:type="simple">art. 2, comma 1 della legge regionale 9 luglio 1981, n. 57</rif>
+							i contributi di cui al presente articolo vengono corrisposti a decorrere dal primo gennaio 1981. Spetta inoltre, ai sensi del
+							<rif xlink:href="urn:nir:regione.toscana:legge:1981-07-09;57#art2-com2" xlink:type="simple">secondo comma del citato articolo</rif>
+							, all'Ufficio di Presidenza del Consiglio provvedere al conguaglio fra il contributo precedentemente dovuto e quello attuale risultante dalla modifica apportata.
+						</h:p>
+					</nota>
 				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1981-07-09;57" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1981-07-09;57#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 9 luglio 1981, n. 57" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art1-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1981-07-09;57" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1981-07-09;57#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 9 luglio 1981, n. 57" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1981-07-09;57" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1981-07-09;57#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 9 luglio 1981, n. 57" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -48,14 +103,27 @@
 				<h:p>la seguente legge:</h:p>
 			</formulainiziale>
 			<articolato>
-				<articolo id="art1">
+				<articolo finevigore="t3" id="art1-t3" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 1</num>
-					<comma id="art1-com1">
+					<comma id="art1-t3-com1">
 						<num />
 						<corpo>
 							In attuazione dell'
 							<rif xlink:href="urn:nir:regione.toscana:statuto:#art12" xlink:type="simple">art. 12 dello Statuto</rif>
 							, a ciascun gruppo consiliare organizzato secondo le prescrizioni del regolamento interno del Consiglio regionale, è assegnato un contributo fisso di L. 350.000 mensili ed un contributo variabile, in relazione alla consistenza numerica, nella misura di L. 90.000 mensili per ogni consigliere.
+						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art1" iniziovigore="t3">
+					<num>ARTICOLO 1</num>
+					<comma id="art1-com1">
+						<num />
+						<corpo>
+							Inattuazione dell'
+							<rif xlink:href="urn:nir:regione.toscana:statuto:#art12" xlink:type="simple">art. 12 dello Statuto</rif>
+							, a ciascun gruppo consiliare organizzato secondo le prescrizioni del Regolamento interno del Consiglio regionale, è assegnato un contributo fisso di L. 1.000.000 mensili ed un contributo variabile, in relazione alla consistenza numerica, nella misura di L. 250.000 mensili per ogni consigliere
+							<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+							.
 						</corpo>
 					</comma>
 				</articolo>
@@ -65,7 +133,7 @@
 						<num />
 						<corpo>
 							I contributi indicati nell'
-							<rif xlink:href="#art1" xlink:type="simple">articolo precedente</rif>
+							<rif xlink:href="#art1-t3" xlink:type="simple">articolo precedente</rif>
 							sono erogati dall'ufficio di presidenza del Consiglio, a rate trimestrali anticipate. Il computo dei trimestri segue dall'inizio dell'anno finanziario.
 						</corpo>
 					</comma>
@@ -74,32 +142,32 @@
 						<corpo>Se nel corso dell'anno finanziario, a seguito di nuove elezioni o per qualsiasi altra causa, un gruppo viene a cessare o viene a costituirsi un nuovo gruppo o varia la consistenza numerica dei gruppi esistenti, le conseguenti variazioni nell'assegnazione dei contributi decorrono dal trimestre immediatamente successivo a quello in cui la cessazione, la nuova costituzione o la variazione numerica del gruppo è intervenuta.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art3">
+				<articolo finevigore="t3" id="art3-t3" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 3</num>
-					<comma id="art3-com1">
+					<comma id="art3-t3-com1">
 						<num />
 						<corpo>
 							I contributi indicati nel
-							<rif xlink:href="#art1" xlink:type="simple">precedente art. 1</rif>
+							<rif xlink:href="#art1-t3" xlink:type="simple">precedente art. 1</rif>
 							sono corrisposti a decorrere dal 1º luglio 1970.
 						</corpo>
 					</comma>
-					<comma id="art3-com2">
+					<comma id="art3-t3-com2">
 						<num />
 						<corpo>
 							L'Ufficio di presidenza del Consiglio provvederà al conguaglio tra le somme dovute ai gruppi ai sensi dell'
-							<rif xlink:href="#art1" xlink:type="simple">art. 1</rif>
+							<rif xlink:href="#art1-t3" xlink:type="simple">art. 1</rif>
 							o quelle comunque corrisposte prima dell'entrata in vigore della presente legge.
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art4">
+				<articolo finevigore="t3" id="art4-t3" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 4</num>
-					<comma id="art4-com1">
+					<comma id="art4-t3-com1">
 						<num />
 						<corpo>Alla spesa derivante dall'applicazione della presente legge, calcolata in L. 43.800.000 per i contributi del secondo semestre 1970, di L. 87.600.000 per i contributi dell' anno 1971 e di L. 87.600.000 per i contributi dell'anno 1972, per un totale di lire 219.000.000, si fa fronte mediante prelevamento di L. 98.000.000 dal capitolo 1 e di L. 121.000.000 dal capitolo 54/1 e con la corrispondente istituzione di un apposito capitolo nel bilancio regionale per lo esercizio in corso.</corpo>
 					</comma>
-					<comma id="art4-com2">
+					<comma id="art4-t3-com2">
 						<num />
 						<corpo>La spesa relativa agli esercizi successivi farà carico al capitolo di bilancio corrispondente a quello istituito con la presente legge.</corpo>
 					</comma>
