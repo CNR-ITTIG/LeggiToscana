@@ -8,7 +8,8 @@
 					<entratainvigore norm="19771001" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1977-09-07;71" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1977-09-07;71@1978-11-25" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1977-09-07;71@1978-11-25" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1977-09-07;71@1981-08-01" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="FORMAZIONE" />
 						<materia valore="TUTELA AMBIENTALE" />
@@ -19,12 +20,25 @@
 					<eventi>
 						<evento data="19771001" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19781216" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19810822" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1977-09-07;71" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1978-11-25;72" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1981-08-01;63" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Le funzioni del Comitato consultivo di cui all'
+							<rif xlink:href="#art4-t3" xlink:type="simple">art. 4</rif>
+							della presente legge abrogato dall'art. 3, comma 7 della
+							<rif xlink:href="urn:nir:regione.toscana:legge:1981-08-01;63" xlink:type="simple">legge regionale 1 agosto 1981, n. 63</rif>
+							vengono ai sensi dello stesso articolo attribuite ad i comitati consultivi istituiti dalla citata legge.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -57,6 +71,18 @@
 								<dsp:pos xlink:href="#art33-com3-t2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1981-08-01;63" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1981-08-01;63#art3-com7" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 7 della legge Regione Toscana 1 agosto 1981, n. 63" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -90,7 +116,10 @@
 			</formulainiziale>
 			<articolato>
 				<titolo id="tit1">
-					<num>TITOLO I</num>
+					<num>
+						TITOLO I
+						<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					</num>
 					<rubrica>NORME GENERALI</rubrica>
 					<articolo id="art1">
 						<num>ARTICOLO 1</num>
@@ -193,10 +222,10 @@
 							</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art4">
+					<articolo finevigore="t3" id="art4-t3" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 4</num>
 						<rubrica>(Comitato consultivo)</rubrica>
-						<comma id="art4-com1">
+						<comma id="art4-t3-com1">
 							<num />
 							<corpo>
 								E' istituito un Comitato consultivo, con le funzioni di cui agli artt.
@@ -224,79 +253,79 @@
 								della presente legge.
 							</corpo>
 						</comma>
-						<comma id="art4-com2">
+						<comma id="art4-t3-com2">
 							<num />
 							<corpo>In attesa della costituzione dei comprensori, il Comitato si articola in Sezioni decentrate, a livello provinciale.</corpo>
 						</comma>
-						<comma id="art4-com3">
+						<comma id="art4-t3-com3">
 							<num />
 							<alinea>Le Sezioni decentrate del Comitato consultivo sono composte da:</alinea>
-							<el id="art4-com3-leta">
+							<el id="art4-t3-com3-leta">
 								<num>a)</num>
 								<corpo>il Presidente dell'Amministrazione provinciale o suo delegato con funzioni di presidente;</corpo>
 							</el>
-							<el id="art4-com3-letb">
+							<el id="art4-t3-com3-letb">
 								<num>b)</num>
 								<corpo>7 rappresentanti delle organizzazioni di coltivatori diretti;</corpo>
 							</el>
-							<el id="art4-com3-letc">
+							<el id="art4-t3-com3-letc">
 								<num>c)</num>
 								<corpo>3 rappresentanti delle organizzazioni dei mezzadri e coloni;</corpo>
 							</el>
-							<el id="art4-com3-letd">
+							<el id="art4-t3-com3-letd">
 								<num>d)</num>
 								<corpo>2 rappresentanti delle organizzazioni dei lavoratori dipendenti;</corpo>
 							</el>
-							<el id="art4-com3-lete">
+							<el id="art4-t3-com3-lete">
 								<num>e)</num>
 								<corpo>2 rappresentanti delle organizzazioni cooperative agricole;</corpo>
 							</el>
-							<el id="art4-com3-letf">
+							<el id="art4-t3-com3-letf">
 								<num>f)</num>
 								<corpo>2 rappresentanti degli imprenditori agricoli non coltivatori.</corpo>
 							</el>
 						</comma>
-						<comma id="art4-com4">
+						<comma id="art4-t3-com4">
 							<num />
 							<corpo>Funge da segretario un funzionario della Regione.</corpo>
 						</comma>
-						<comma id="art4-com5">
+						<comma id="art4-t3-com5">
 							<num />
 							<corpo>Le Sezioni hanno sede presso le rispettive Province.</corpo>
 						</comma>
-						<comma id="art4-com6">
+						<comma id="art4-t3-com6">
 							<num />
 							<corpo>Il Comitato, nelle sue sezioni decentrate, è costituito dal Presidente della Giunta regionale, anche con decreti separati, su deliberazione della Giunta stessa.</corpo>
 						</comma>
-						<comma id="art4-com7">
+						<comma id="art4-t3-com7">
 							<num />
 							<corpo>
 								I membri di cui ai punti
 								<mrif>
-									<rif xlink:href="#art4-com3-letb" xlink:type="simple">b)</rif>
+									<rif xlink:href="#art4-t3-com3-letb" xlink:type="simple">b)</rif>
 									,
-									<rif xlink:href="#art4-com3-letc" xlink:type="simple">c)</rif>
+									<rif xlink:href="#art4-t3-com3-letc" xlink:type="simple">c)</rif>
 									,
-									<rif xlink:href="#art4-com3-letd" xlink:type="simple">d)</rif>
+									<rif xlink:href="#art4-t3-com3-letd" xlink:type="simple">d)</rif>
 									,
-									<rif xlink:href="#art4-com3-lete" xlink:type="simple">e)</rif>
+									<rif xlink:href="#art4-t3-com3-lete" xlink:type="simple">e)</rif>
 									,
-									<rif xlink:href="#art4-com3-letf" xlink:type="simple">f)</rif>
+									<rif xlink:href="#art4-t3-com3-letf" xlink:type="simple">f)</rif>
 								</mrif>
 								sono nominati su designazione delle rispettive organizzazioni più rappresentative sul piano nazionale.
 							</corpo>
 						</comma>
-						<comma id="art4-com8">
+						<comma id="art4-t3-com8">
 							<num />
 							<corpo>Il Comitato nelle sue sezioni decentrate delibera a maggioranza semplice con la presenza della maggioranza dei membri della sezione; in caso di parità prevale il voto del presidente.</corpo>
 						</comma>
-						<comma id="art4-com9">
+						<comma id="art4-t3-com9">
 							<num />
 							<corpo>
 								Al momento dell'entrata in funzione dei Comitati Comprensoriali le sezioni decentrate di cui al
-								<rif xlink:href="#art4-com2" xlink:type="simple">secondo comma</rif>
+								<rif xlink:href="#art4-t3-com2" xlink:type="simple">secondo comma</rif>
 								s' intendono soppresse e contemporaneamente sostituite da sezioni decentrate articolate a livello comprensoriale composte secondo quanto previsto dal
-								<rif xlink:href="#art4-com3" xlink:type="simple">precedente terzo comma</rif>
+								<rif xlink:href="#art4-t3-com3" xlink:type="simple">precedente terzo comma</rif>
 								, fatta eccezione per il presidente dell'Amministrazione Provinciale che è sostituito dal presidente del Comitato Comprensoriale.
 							</corpo>
 						</comma>
@@ -1007,7 +1036,7 @@
 									Terminata l'istruttoria, e comunque entro 30 giorni dalla scadenza del termine per la loro presentazione ai sensi dell'
 									<rif xlink:href="#art26" xlink:type="simple">art. 26</rif>
 									, l'Ispettorato trasmette le domande, con i relativi allegati e le relazioni conclusive, alla Sezione del Comitato consultivo previsto dall'
-									<rif xlink:href="#art4" xlink:type="simple">art. 4</rif>
+									<rif xlink:href="#art4-t3" xlink:type="simple">art. 4</rif>
 									competente per territorio.
 								</corpo>
 							</comma>
@@ -1037,7 +1066,7 @@
 									Entro 30 giorni dal ricevimento degli atti a norma dell'
 									<rif xlink:href="#art27" xlink:type="simple">art. 27</rif>
 									il Comitato consultivo di cui all'
-									<rif xlink:href="#art4" xlink:type="simple">art. 4</rif>
+									<rif xlink:href="#art4-t3" xlink:type="simple">art. 4</rif>
 									esprime il parere sulla rispondenza del piano di sviluppo ai principi ed alle disposizioni della presente legge, nonchè sulla sua idoneità alla realizzazione degli obiettivi di ammodernamento mediante gli investimenti e gli altri interventi in esso programmati.
 								</corpo>
 							</comma>
@@ -1139,7 +1168,7 @@
 								<num />
 								<alinea>
 									La Giunta regionale, su proposta degli Ispettorati stessi, previo parere del Comitato consultivo di cui all'
-									<rif xlink:href="#art4" xlink:type="simple">art. 4</rif>
+									<rif xlink:href="#art4-t3" xlink:type="simple">art. 4</rif>
 									, pronuncia la decadenza delle provvidenze concesse e, in tutto o in parte, liquidate, allorquando i beneficiari:
 								</alinea>
 								<el id="art32-com3-leta">
@@ -1224,7 +1253,7 @@
 								<num />
 								<corpo>
 									Entro 90 giorni dalla scadenza del termine di presentazione delle domande, la Giunta regionale provvede alla concessione, con deliberazione motivata, sulla base dell'istruttoria dell'Ispettorato Provinciale dell'Agricoltura e del parere del Comitato consultivo di cui all'
-									<rif xlink:href="#art4" xlink:type="simple">art. 4</rif>
+									<rif xlink:href="#art4-t3" xlink:type="simple">art. 4</rif>
 									.
 								</corpo>
 							</comma>
@@ -1236,7 +1265,7 @@
 								<num />
 								<corpo>
 									L'Ispettorato Provinciale dell'Agricoltura competente per territorio provvede al controllo sull'impiego dei contributi ed a proporre alla Giunta regionale la eventuale sospensione o revoca degli aiuti stessi, qualora non si sia provveduto all'attuazione della contabilità, al quale riguardo la Giunta si pronuncia previo parere del Comitato consultivo di cui all'
-									<rif xlink:href="#art4" xlink:type="simple">art. 4</rif>
+									<rif xlink:href="#art4-t3" xlink:type="simple">art. 4</rif>
 									.
 								</corpo>
 							</comma>
@@ -1463,7 +1492,7 @@
 								<num />
 								<corpo>
 									L'Ispettorato provinciale dell'Agricoltura ricevute le domande provvede alla loro istruttoria e le trasmette, per il relativo parere, al Comitato consultivo di cui all'
-									<rif xlink:href="#art4" xlink:type="simple">art. 4</rif>
+									<rif xlink:href="#art4-t3" xlink:type="simple">art. 4</rif>
 									.
 								</corpo>
 							</comma>
@@ -1982,7 +2011,7 @@
 								<num />
 								<corpo>
 									Terminata l'istruttoria e comunque entro 30 giorni dalla data di scadenza del termine di presentazione, l'Ispettorato trasmette le domande stesse, con i relativi allegati e le relazioni conclusive sull'istruttoria svolta, alla Sezione del Comitato consultivo di cui all'
-									<rif xlink:href="#art4" xlink:type="simple">art. 4</rif>
+									<rif xlink:href="#art4-t3" xlink:type="simple">art. 4</rif>
 									competente per territorio, la quale esprime parere entro 30 giorni dal ricevimento degli atti.
 								</corpo>
 							</comma>
@@ -2061,7 +2090,7 @@
 									La decadenza dall'indennità, ai sensi e per gli effetti di cui al primo e
 									<rif xlink:href="#art54-com2" xlink:type="simple">secondo comma dell'art. 54</rif>
 									è pronunciata dalla Giunta regionale, previo parere del comitato consultivo di cui all'
-									<rif xlink:href="#art4" xlink:type="simple">art. 4</rif>
+									<rif xlink:href="#art4-t3" xlink:type="simple">art. 4</rif>
 									.
 								</corpo>
 							</comma>
@@ -2141,7 +2170,7 @@
 								<num />
 								<corpo>
 									L'organismo fondiario svolge ogni operazione in applicazione del presente articolo previo parere del Comitato consultivo di cui all'
-									<rif xlink:href="#art4" xlink:type="simple">art. 4</rif>
+									<rif xlink:href="#art4-t3" xlink:type="simple">art. 4</rif>
 									.
 								</corpo>
 							</comma>
