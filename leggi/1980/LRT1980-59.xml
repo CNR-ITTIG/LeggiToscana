@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19800530" num="32" tipo="BURT" />
 					<entratainvigore norm="19800614" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1980-05-21;59" />
+					<urn finevigore="t8" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1980-05-21;59" />
+					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1980-05-21;59@1981-08-19" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="EDILIZIA" />
 					</materie>
@@ -21,6 +22,7 @@
 						<evento data="19800614" fonte="ra4" id="t5" tipo="modifica" />
 						<evento data="19800614" fonte="ra5" id="t6" tipo="modifica" />
 						<evento data="19800614" fonte="ra6" id="t7" tipo="modifica" />
+						<evento data="19810912" fonte="rp1" id="t8" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-05-21;59" xlink:type="simple" />
@@ -30,6 +32,7 @@
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1975-05-28;56" xlink:type="simple" />
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1975-05-28;56" xlink:type="simple" />
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1975-05-28;56" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1981-08-19;64" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -122,6 +125,23 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art17-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1981-08-19;64" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1981-08-19;64#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 19 agosto 1981, n. 64" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art17-com4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art17-com3-t8" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -961,7 +981,7 @@
 								e successive modificazioni.
 							</corpo>
 						</comma>
-						<comma id="art17-com2">
+						<comma finevigore="" id="art17-com2" iniziovigore="t1" status="abrogato">
 							<num />
 							<corpo>
 								I Comuni che provvedono entro un anno dalla entrata in vigore della presente legge, alla redazione degli elenchi di cui al
@@ -971,11 +991,19 @@
 								, possono ottenere dalla Regione il rimborso fino al 90% delle spese occorse per la redazione degli elenchi stessi, fino a un massimo di Lire 10.000.000 per ogni Comune.
 							</corpo>
 						</comma>
-						<comma id="art17-com3">
+						<comma finevigore="t8" id="art17-com3-t8" iniziovigore="t1" status="abrogato">
 							<num />
 							<corpo>I contributi di cui ai precedenti commi possono riguardare anche le spese incontrate dai Comuni per rilievi, ricerche storiche, documentazione e comunque per l'acquisizione di dati conoscitivi relativi al patrimonio edilizio esistente, ivi compresi i rilievi aerofotografici.</corpo>
 						</comma>
-						<comma id="art17-com4">
+						<comma id="art17-com4" iniziovigore="t8">
+							<num />
+							<corpo>
+								I comuni che provvedono entro il 31 dicembre 1981 alla redazione e alla adozione degli elenchi di 1981 alla redazione e alla adozione degli elenchi di cui al precedente art. 7 o di quelli di cui all'
+								<rif xlink:href="urn:nir:regione.toscana:legge:1979-02-19;10#art1" xlink:type="simple">ultimo comma dell'articolo 1 della legge regionale 19 febbraio 1979, n. 10</rif>
+								, possono ottenere dalla Regione il rimborso fino al 90% delle spese occorse per la redazione degli elenchi stessi, fino ad un massimo di L. 10.000.000 per ogni comune. Il rimborso è erogato dopo l'approvazione definitiva dell'elenco da parte della Regione
+							</corpo>
+						</comma>
+						<comma id="art17-com5">
 							<num />
 							<corpo>Al fine di favorire interventi di recupero sul patrimonio edilizio esistente, la Regione promuove convenzioni con istituti di credito per la concessione di mutui a tasso agevolato ai Comuni e ai privati.</corpo>
 						</comma>
