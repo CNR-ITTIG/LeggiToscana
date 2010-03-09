@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19810213" num="8" tipo="BURT" />
 					<entratainvigore norm="19810228" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1981-02-09;15" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1981-02-09;15" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1981-08-01" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="AGRICOLTURA" />
 						<materia valore="ATTRIBUZIONI DELEGHE" />
@@ -16,11 +17,59 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19810228" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19810822" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1981-02-09;15" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1981-08-01;63" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com2-letc" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1981-08-01;63" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1981-08-01;63#art3-com10" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 10 della legge Regione Toscana 1 agosto 1981, n. 63" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com1-letc" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com1-letc-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com1-letf" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1981-08-01;63" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1981-08-01;63#art3-com11" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 11 della legge Regione Toscana 1 agosto 1981, n. 63" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-com1-letf-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1981-08-01;63" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1981-08-01;63#art3-com12" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 12 della legge Regione Toscana 1 agosto 1981, n. 63" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art5-com3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-com2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -65,12 +114,20 @@
 							<num>b)</num>
 							<corpo>le colture arboree ed erbacee comprese le piante officinali, l'arboricoltura da legno ed i boschi, i pascoli ed i prati da pascolo;</corpo>
 						</el>
-						<el id="art2-com1-letc">
+						<el finevigore="t2" id="art2-com1-letc-t2" iniziovigore="t1" status="abrogato">
 							<num>c)</num>
 							<corpo>
 								gli interventi di cui alla
 								<rif xlink:href="urn:nir:regione.toscana:legge:1977-09-07;71" xlink:type="simple">LR 7-9-1977 n. 71</rif>
 								ivi compresi i piani aziendali ed interaziendali, previo parere delle sezioni decentrate del Comitato consultivo di cui all'art. 4 della citata legge;
+							</corpo>
+						</el>
+						<el id="art2-com1-letc" iniziovigore="t2">
+							<num>c)</num>
+							<corpo>
+								gli interventi di cui alla
+								<rif xlink:href="urn:nir:regione.toscana:legge:1977-09-07;71" xlink:type="simple">LR 7-9-1977 n. 71</rif>
+								ivi compresi i piani aziendali, previo parere dei comitati consultivi di cui all'art. 3 della legge regionale di disciplina delle agevolazioni finanziarie nel settore dell'agricoltura.
 							</corpo>
 						</el>
 						<el id="art2-com1-letd">
@@ -195,7 +252,7 @@
 								;
 							</corpo>
 						</el>
-						<el id="art3-com1-letf">
+						<el finevigore="t2" id="art3-com1-letf-t2" iniziovigore="t1" status="abrogato">
 							<num>f)</num>
 							<corpo>
 								le sezioni decentrate del Comitato consultivo di cui all'
@@ -352,11 +409,23 @@
 						<num />
 						<corpo>Nell'esercizio delle funzioni di cui alla presente legge gli enti di cui agli articoli 2 e 3 assumono come proprio il metodo della programmazione, attenendosi in particolare agli obiettivi ed alle priorità contenuti nel programma regionale degli interventi in agricoltura e nei programmi e piani zonali.</corpo>
 					</comma>
-					<comma id="art5-com2">
+					<comma finevigore="t2" id="art5-com2-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>Gli enti garantiscono la partecipazione delle organizzazioni dei lavoratori agricoli, coltivatori diretti, delle cooperative agricole, degli imprenditori non coltivatori costituendo appositi organi consultivi.</corpo>
 					</comma>
-					<comma id="art5-com3">
+					<comma id="art5-com3" iniziovigore="t2">
+						<num />
+						<corpo>
+							Gli enti di cui all'
+							<rif xlink:href="#art2" xlink:type="simple">art. 2</rif>
+							della presente legge nonchè quelli di cui al
+							<rif xlink:href="urn:nir:regione.toscana:legge:1981-06-12;52#art2-com2" xlink:type="simple">comma 2 dell'art. 2 della legge regionale n. 52 del 12-6-1981</rif>
+							garantiscono la partecipazione delle categorie agricole avvalendosi dei comitati consultivi istituiti ai sensi della legge regionale di disciplina delle agevolazioni finanziarie regionali nel settore dell'agricoltura, analogamente gli altri enti di cui all'
+							<rif xlink:href="#art3" xlink:type="simple">art.</rif>
+							3 garantiscono la partecipazione costituendo appositi organi consultivi.
+						</corpo>
+					</comma>
+					<comma id="art5-com4">
 						<num />
 						<corpo>
 							Nell'esercizio delle funzioni sub-delegate dovranno essere in particolare osservate le eventuali direttive impartite dal Governo ai sensi dell'
@@ -364,7 +433,7 @@
 							.
 						</corpo>
 					</comma>
-					<comma id="art5-com4">
+					<comma id="art5-com5">
 						<num />
 						<corpo>
 							Qualora non si sia provveduto in ordine a singoli atti inerenti a funzioni sub-delegate dalla presente legge, si applica l'
@@ -372,11 +441,11 @@
 							.
 						</corpo>
 					</comma>
-					<comma id="art5-com5">
+					<comma id="art5-com6">
 						<num />
 						<corpo>Gli enti di cui ai precedenti articoli sono tenuti a fornire alla Regione, su richiesta, dati statistici e ogni altro elemento utile allo svolgimento delle sue competenze nella materia oggetto della presente legge.</corpo>
 					</comma>
-					<comma id="art5-com6">
+					<comma id="art5-com7">
 						<num />
 						<corpo>
 							Direttive ulteriori di attuazione possono essere impartite in ogni tempo dal Consiglio regionale ai sensi dell'
