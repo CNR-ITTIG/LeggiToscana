@@ -1,22 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19770610" num="32" tipo="BURT" />
 					<entratainvigore norm="19770625" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1977-06-01;33" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1977-06-01;33" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1977-06-01;33@1981-09-07" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19770625" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19810926" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1977-06-01;33" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1981-09-07;70" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Fondo elevato a L. 1.000 milioni ex
+							<rif xlink:href="urn:nir:regione.toscana:legge:1981-09-07;70#art2" xlink:type="simple">art. 2 legge regionale 7 settembre 1981, n. 70</rif>
+							.
+						</h:p>
+					</nota>
+				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1981-09-07;70" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1981-09-07;70#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 7 settembre 1981, n. 70" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art1-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art1-com1-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -35,15 +66,43 @@
 			<articolato>
 				<articolo id="art1">
 					<num>ARTICOLO 1</num>
-					<comma id="art1-com1">
+					<comma finevigore="t2" id="art1-com1-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>Al fine di promuovere e di agevolare le iniziative dirette all'ammodernamento delle strutture agricole, con particolare riguardo allo sviluppo della cooperazione e delle altre forme associative, la Regione Toscana, per facilitare il ricorso al credito agrario, può concedere fidejussioni a favore di coltivatori diretti singoli ed associati e di cooperative agricole di conduzione, di servizio e di raccolta, trasformazione, conservazione e vendita collettiva dei prodotti dei soci, comprese le stalle sociali, che non siano in grado di prestare sufficienti garanzie per contrarre mutui di miglioramento, compresi quelli per dimissioni di passività onerose e per formazione di proprietà diretto coltivatrice.</corpo>
 					</comma>
-					<comma id="art1-com2">
+					<comma id="art1-com2" iniziovigore="t2">
+						<num />
+						<alinea>Al fine di promuovere e di agevolare le iniziative dirette all'ammodernamento delle strutture agricole, con particolare riguardo allo sviluppo della cooperazione delle altre forme associative, la Regione Toscana, per facilitare il ricorso al credito agrario, può concedere fidejussioni a favore di:</alinea>
+						<ep id="art1-com2-pun1">
+							<num>-</num>
+							<corpo>coltivatori diretti singoli ed associati;</corpo>
+						</ep>
+						<ep id="art1-com2-pun2">
+							<num>-</num>
+							<corpo>
+								imprenditori agricoli iscritti all'apposito albo istituito con
+								<rif xlink:href="urn:nir:regione.toscana:legge:1975-06-05;67" xlink:type="simple">LR 5-6-75 n. 67</rif>
+								;
+							</corpo>
+						</ep>
+						<ep id="art1-com2-pun3">
+							<num>-</num>
+							<corpo>associazioni di produttori agricoli riconosciute ai sensi della vigente normativa nazionale e regionale;</corpo>
+						</ep>
+						<ep id="art1-com2-pun4">
+							<num>-</num>
+							<corpo>cooperative agricole di conduzione, di servizio e di raccolta, trasformazione conservazione e vendita collettiva di prodotti dei soci, comprese le stalle sociali;</corpo>
+						</ep>
+						<ep id="art1-com2-pun5">
+							<num>-</num>
+							<corpo>consorzi che provvedono all'esecuzione di opere di miglioramento fondiario; che non siano in grado di prestare sufficiente garanzie per contrarre mutui di miglioramento ivi compresi quelli per dimissione di passività onerose e per la formazione di proprietà diretto coltivatrice.</corpo>
+						</ep>
+					</comma>
+					<comma id="art1-com3">
 						<num />
 						<corpo>La fidejussione regionale è concessa per la differenza fra l'ammontare del mutuo, oltre gli interessi ed accessori, ed il valore cauzionale delle garanzie reali offerte determinato dall'Istituto mutuante, maggiorato, nel caso che il mutuo sia assistito dal concorso pubblico negli interessi, del valore attualizzato del concorso medesimo.</corpo>
 					</comma>
-					<comma id="art1-com3">
+					<comma id="art1-com4">
 						<num />
 						<corpo>Nel caso che il valore cauzionale dei beni presi in garanzia sia del tutto insufficiente, la fidejussione potrà coprire il 100% (cento per cento) del capitale mutuato, oltre i relativi interessi ed accessori.</corpo>
 					</comma>
@@ -236,7 +295,9 @@
 					<comma id="art10-com3">
 						<num />
 						<corpo>
-							Il predetto fondo ha una dotazione iniziale di lire 300 milioni che verrà incrementata negli anni successivi fino a raggiungere, nel 1980, lire 800 milioni, salvo quanto previsto dal
+							Il predetto fondo ha una dotazione iniziale di lire 300 milioni che verrà incrementata negli anni successivi fino a raggiungere, nel 1980, lire 800 milioni
+							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							, salvo quanto previsto dal
 							<rif xlink:href="#art11" xlink:type="simple">successivo art. 11</rif>
 							.
 						</corpo>
