@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<Legge>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19801121" num="63" tipo="BURT" />
 					<entratainvigore norm="19801206" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1980-11-15;86" />
+					<urn finevigore="t9" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1980-11-15;86" />
+					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1980-11-15;86@1981-09-07" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Formazione" />
 					</materie>
@@ -22,6 +23,7 @@
 						<evento data="19801206" fonte="ra5" id="t6" tipo="modifica" />
 						<evento data="19801206" fonte="ra6" id="t7" tipo="modifica" />
 						<evento data="19801206" fonte="ra7" id="t8" tipo="modifica" />
+						<evento data="19810926" fonte="rp1" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-11-15;86" xlink:type="simple" />
@@ -32,6 +34,7 @@
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1977-09-01;68" xlink:type="simple" />
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1979-02-08;8" xlink:type="simple" />
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:1978-06-08;37" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1981-09-07;67" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -109,6 +112,23 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art33-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1981-09-07;67" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1981-09-07;67#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 7 settembre 1981, n. 67" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art33-com3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art33-com2-t9" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -1498,10 +1518,18 @@
 								.
 							</corpo>
 						</comma>
-						<comma id="art33-com2">
+						<comma finevigore="t9" id="art33-com2-t9" iniziovigore="t1" status="abrogato">
 							<num />
 							<corpo>
 								Le somme di cui al precedente comma sono ripartite per il 60% in parti uguali tra le Associazioni intercomunali che gestiscono gli interventi e per il 40% tra Province in proporzione diretta ai finanziamenti ripartiti alle Associazioni intercomunali per il territorio di competenza con il piano annuale di cui al
+								<rif xlink:href="#art9" xlink:type="simple">precedente art. 9</rif>
+								.
+							</corpo>
+						</comma>
+						<comma id="art33-com3" iniziovigore="t9">
+							<num />
+							<corpo>
+								Le somme di cui al precedente comma sono ripartite per il 60% fra le Associazioni Intercomunali che gestiscono gli interventi secondo i criteri stabiliti dal Consiglio regionale contestualmente alla loro erogazione, tenuto conto anche delle quote di personale regionale comandato presso gli uffici delle Associazioni Intercomunali per lo svolgimento delle funzioni delegate di cui alla presente legge. Il rimanente 40% delle somme di cui al precedente comma sono ripartite tra le province in proporzione diretta ai finanziamenti ripartiti alle Associazioni Intercomunali per il territorio di competenza con il piano annuale di cui al
 								<rif xlink:href="#art9" xlink:type="simple">precedente art. 9</rif>
 								.
 							</corpo>
