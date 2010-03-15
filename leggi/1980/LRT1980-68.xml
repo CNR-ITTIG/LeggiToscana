@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19800529" num="31" tipo="BURT" />
 					<entratainvigore norm="19800613" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1980-05-24;68" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1980-05-24;68" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1980-05-24;68@1982-01-05" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="CONTRATTI" />
 						<materia valore="CONTABILITÀ" />
@@ -17,11 +18,29 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19800613" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19820127" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-05-24;68" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1982-01-05;3" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art18" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1982-01-05;3" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1982-01-05;3#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 5 gennaio 1982, n. 3" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art18-com7" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -1031,6 +1050,14 @@
 									del comma precedente, nonchè alla copertura dell'eventuale deficit di gestione dei beni di cui alla
 									<rif xlink:href="#art18-com5-letb" xlink:type="simple">lett. b)</rif>
 									.
+								</corpo>
+							</comma>
+							<comma id="art18-com7" iniziovigore="t2">
+								<num />
+								<corpo>
+									Con decreti del Presidente della Giunta regionale il personale di cuiall'
+									<rif xlink:href="urn:nir:regione.toscana:legge:1979-11-26;59#art13" xlink:type="simple">art. 13 della Legge regionale 26 novembre 1979, n. 59</rif>
+									,è nominativamente trasferito nei ruoli del comune nel cui territorio sono posti gli immobili o si trovano i mobili e le attrezzature, presso o con le quali si svolgeva prevalentemente la prestazione lavorativa al 17 settembre 1980.
 								</corpo>
 							</comma>
 						</articolo>
