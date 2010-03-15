@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t8" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1980-01-28;11" />
 					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1980-01-28;11@1981-02-09" />
-					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1980-01-28;11@1981-11-24" />
+					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1980-01-28;11@1981-11-24" />
+					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1980-01-28;11@1981-12-14" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="ATTIVITA' ARTISTICHE" />
 					</materie>
@@ -25,6 +26,7 @@
 						<evento data="19800222" fonte="ra6" id="t7" tipo="modifica" />
 						<evento data="19810228" fonte="rp1" id="t8" tipo="modifica" />
 						<evento data="19811216" fonte="rp2" id="t9" tipo="modifica" />
+						<evento data="19811222" fonte="rp3" id="t10" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-01-28;11" xlink:type="simple" />
@@ -36,6 +38,7 @@
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1976-11-10;70" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1981-02-09;16" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1981-11-24;83" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1981-12-14;92" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -165,7 +168,19 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#mmo1-vir2-art2-com1-pun1" xlink:type="simple" />
+								<dsp:pos xlink:href="#mmo1-vir2-art2-com1-punk" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art16bis" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1981-12-14;92" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1981-12-14;92#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 14 dicembre 1981, n. 92" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art16ter" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 					</modifichepassive>
@@ -195,7 +210,15 @@
 						<comma id="art1-com1">
 							<num />
 							<corpo>
-								La Regione Toscana, in attuazione delle finalità previste negli artt. 3 e 4 del proprio statuto , in base all'
+								La Regione Toscana, in attuazione delle finalità previste negli
+								<mrif>
+									artt.
+									<rif xlink:href="urn:nir:regione.toscana:statuto:1971-05-22;343#art3" xlink:type="simple">3</rif>
+									e
+									<rif xlink:href="urn:nir:regione.toscana:statuto:1971-05-22;343#art4" xlink:type="simple">4</rif>
+									del proprio statuto
+								</mrif>
+								, in base all'
 								<rif xlink:href="urn:nir:presidente.repubblica:decreto:1977-07-24;616#art49" xlink:type="simple">art. 49 del DPR 24 luglio 1977, n. 616</rif>
 								, e in conformità al programma regionale di sviluppo, promuove direttamente e sostiene, anche mediante la erogazione di contributi, le attività teatrali, musicali, cinematografiche ed audiovisive, svolte, senza fini di lucro, da enti, istituzioni, fondazioni, associazioni, comitati, società regionali o a prevalente partecipazione di enti locali, nonchè da enti locali e loro associazioni.
 							</corpo>
@@ -886,7 +909,7 @@
 													<num>i)</num>
 													<corpo>3 rappresentanti, uno per ciascuna, delle Organizzazioni sindacali maggiormente rappresentative, designati dai rispettivi comitati direttivi regionali;</corpo>
 												</el>
-												<ep id="mmo1-vir2-art2-com1-pun1" iniziovigore="t9">
+												<ep id="mmo1-vir2-art2-com1-punk" iniziovigore="t9">
 													<num>k)</num>
 													<corpo>Tre rappresentanti delle associazioni naturalistiche maggiormente rappresentative designati dal Consiglio regionale, su indicazioni delle associazioni stesse, con voto limitato a due.</corpo>
 												</ep>
@@ -1012,6 +1035,46 @@
 								<rif xlink:href="#art13" xlink:type="simple">art. 13</rif>
 								relativo al triennio 1981/83 entro tre mesi dall'approvazione del programma regionale di sviluppo.
 							</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art16ter" iniziovigore="t10">
+						<num>Art. 16 ter</num>
+						<rubrica>(Norma transitoria per i contributi relativi al periodo 1 gennaio - 31 dicembre 1982)</rubrica>
+						<comma id="art16ter-com1">
+							<num />
+							<corpo>
+								Le domande di contributo per le iniziative di particolare rilevanza regionale, di cui al titolo II, e le proposte di piano di finanziamento predisposte dalle Associazioni intercomunali, ai sensi del
+								<rif xlink:href="#art14-com8" xlink:type="simple">sesto comma dell'art. 14</rif>
+								, concernenti le attività relative al periodo 1 gennaio - 31 dicembre 1982, devono essere presentate alla Giunta regionale entro 75 giorni dalla pubblicazione dal programma di promozione delle attività teatrali, musicali, cinematografiche e audiovisive per il triennio 1982-84 sul Bollettino Ufficiale della Regione.
+							</corpo>
+						</comma>
+						<comma id="art16ter-com2">
+							<num />
+							<corpo>
+								Entro un mese da tale pubblicazione devono essere presentate al Comune nel cui territorio si intende svolgere l'iniziativa le domande di contributo per le iniziative di cui al titolo III. Entro i successivi 15 giorni il Comune trasmette le domande all'Associazione intercomunale di cui fa parte, ai sensi della
+								<rif xlink:href="urn:nir:regione.toscana:legge:1979-04-17;37" xlink:type="simple">LR 17 aprile 1979, n. 37</rif>
+								, con proprio parere di conformità al programma regionale di promozione di cui al primo comma.
+							</corpo>
+						</comma>
+						<comma id="art16ter-com3">
+							<num />
+							<corpo>
+								Nel caso di Associazioni intercomunali che non abbiano iniziato l'esercizio delle proprie funzioni, spetta ai Comuni delle aree corrispondenti trasmettere alla Giunta regionale entro la scadenza indicata nel primo comma le domande di contributo secondo le modalità di cui al
+								<rif xlink:href="#art14-com8" xlink:type="simple">sesto comma dell'art. 14</rif>
+								.
+							</corpo>
+						</comma>
+						<comma id="art16ter-com4">
+							<num />
+							<corpo>
+								Per il programma regionale di promozione delle attività teatrali, musicali, cinematografiche e audiovisive nel triennio 1982-84, mentre non è richiesto il parere della Consulta di cui all'
+								<rif xlink:href="#art15" xlink:type="simple">art. 15</rif>
+								, saranno consultati, da parte del Consiglio Regionale, gli enti e organismi ivi indicati a partecipare o designare i membri della Consulta regionale toscana dei beni e delle attività culturali.
+							</corpo>
+						</comma>
+						<comma id="art16ter-com5">
+							<num />
+							<corpo>Entro un mese dalla scadenza indicata nel primo comma la Giunta regionale predispone il piano annuale di ripartizione dei contributi che propone al Consiglio per l'approvazione.</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art17">
