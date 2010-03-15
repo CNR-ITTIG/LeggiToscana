@@ -13,7 +13,8 @@
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1974-06-05;32@1977-07-20" />
 					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1974-06-05;32@1979-04-12" />
 					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1974-06-05;32@1979-12-06" />
-					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1974-06-05;32@1981-02-09" />
+					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1974-06-05;32@1981-02-09" />
+					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1974-06-05;32@1982-01-25" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -25,6 +26,7 @@
 						<evento data="19790505" fonte="rp5" id="t6" tipo="modifica" />
 						<evento data="19791214" fonte="rp6" id="t7" tipo="modifica" />
 						<evento data="19810213" fonte="rp7" id="t8" tipo="modifica" />
+						<evento data="19820217" fonte="rp8" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1974-06-05;32" xlink:type="simple" />
@@ -35,6 +37,7 @@
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1979-04-12;15" xlink:type="simple" />
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:1979-12-06;60" xlink:type="simple" />
 						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:1981-02-09;18" xlink:type="simple" />
+						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:1982-01-25;6" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -211,7 +214,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art4-com6" xlink:type="simple" />
+								<dsp:pos xlink:href="#art4-com6-t9" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art4-com5-t8" xlink:type="simple" />
@@ -226,9 +229,39 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art4-com7" xlink:type="simple" />
+								<dsp:pos xlink:href="#art4-com8-t9" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1982-01-25;6" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1982-01-25;6#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 25 gennaio 1982, n. 6" id="itt13" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com7" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-com6-t9" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1982-01-25;6" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1982-01-25;6#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 25 gennaio 1982, n. 6" id="itt14" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com9" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-com8-t9" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -345,15 +378,23 @@
 						<num />
 						<corpo>Per quanto concerne il credito a breve termine, l'intervento dovrà orientarsi verso operazioni aventi utilizzazione specifica e comunque con durata e modalità di rimborso predeterminate. Fino al 31-12-80 i limiti percentuali riferentisi alle operazioni di credito a breve termine, di cui all'art. 4, IV comma della Legge Regionale n. 32/74, prefissati dalle direttive del Consiglio Regionale, non dovranno eccedere i 2/3 (due terzi) del fondo destinato alle operazioni di credito a medio termine</corpo>
 					</comma>
-					<comma id="art4-com6" iniziovigore="t8">
+					<comma finevigore="t9" id="art4-com6-t9" iniziovigore="t8" status="abrogato">
 						<num />
 						<corpo>Per quanto concerne il credito a breve termine l'intervento dovrà orientarsi verso operazioni aventi utilizzazione specifica e, comunque con durata e modalità di rimborso predeterminate, ed entro limiti percentuali, non eccedenti un terzo del fondo destinato alle operazioni di credito a medio termine, prefissati dalle direttive del consiglio regionale.</corpo>
 					</comma>
-					<comma id="art4-com7" iniziovigore="t8">
+					<comma id="art4-com7" iniziovigore="t9">
+						<num />
+						<corpo>Per quanto concerne il credito a breve termine l'intervento dovrà orientarsi verso operazioni aventi utilizzazione specifica e comunque con durata e modalità di rimborso predeterminate ed entro limiti percentuali, non eccedenti un terzo del fondo destinato alle operazioni di credito a medio termine, prefissati dalle direttive del Consiglio regionale.</corpo>
+					</comma>
+					<comma finevigore="t9" id="art4-com8-t9" iniziovigore="t8" status="abrogato">
 						<num />
 						<corpo>Fino al 31-12-1981 i limiti percentuali riferentisi alle operazioni a breve termine, prefissati dalle direttive del Consiglio regionale, non dovranno eccedere i 2/3 (due terzi) del fondo destinato alle operazioni di credito a medio termine.</corpo>
 					</comma>
-					<comma id="art4-com8">
+					<comma id="art4-com9" iniziovigore="t9">
+						<num />
+						<corpo>Fino al 30-6-82 i limiti percentuali riferentisi alle operazioni a breve termine, prefissati dalle direttive del Consiglio Regionale, non dovranno eccedere i due terzi (due terzi) del fondo destinato alle operazioni di credito a medio termine.</corpo>
+					</comma>
+					<comma id="art4-com10">
 						<num />
 						<corpo>Il Consiglio Regionale emana le direttive di cui ai commi precedenti previa consultazione degli Enti locali, delle organizzazioni sindacali dei lavoratori dipendenti, della cooperazione e delle organizzazioni delle categorie economiche.</corpo>
 					</comma>
