@@ -8,7 +8,8 @@
 					<entratainvigore norm="19791222" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1979-12-19;63" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1979-12-19;63@1980-05-24" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1979-12-19;63@1980-05-24" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1979-12-19;63@1982-02-08" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="ORDINAMENTO" />
 						<materia valore="ENTI SANITARI" />
@@ -18,10 +19,12 @@
 					<eventi>
 						<evento data="19791222" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19800613" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19820216" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1979-12-19;63" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1980-05-24;70" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1982-02-08;14" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -38,6 +41,42 @@
 								<dsp:pos xlink:href="#art27-com2-t2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13-com1-letb" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1982-02-08;14" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1982-02-08;14#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 8 febbraio 1982, n. 14" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art13-com1-letc" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1982-02-08;14" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1982-02-08;14#art1-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2 della legge Regione Toscana 8 febbraio 1982, n. 14" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art13-com2-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1982-02-08;14" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1982-02-08;14#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 8 febbraio 1982, n. 14" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art13bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -447,13 +486,35 @@
 								<num>b)</num>
 								<corpo>dal consiglio della comunità montana, nel caso di cui all'art. 20, secondo comma, della citata legge.</corpo>
 							</el>
+							<el id="art13-com1-letc" iniziovigore="t3">
+								<num>c)</num>
+								<corpo>
+									dal Consiglio comunale che mantiene la facoltà di cui all'
+									<rif xlink:href="urn:nir:stato:legge:1978-12-23;833#art15-com4" xlink:type="simple">articolo 15, comma 4 della Legge 23-12-78 n. 833</rif>
+									per le Unità sanitarie locali interne al territorio di un comune.
+								</corpo>
+							</el>
 						</comma>
-						<comma id="art13-com2">
+						<comma finevigore="t3" id="art13-com2-t3" iniziovigore="t1" status="abrogato">
 							<num />
 							<corpo>
 								Per le unità sanitarie locali interne al territorio di un comune, l'assemblea è costituita dal consiglio comunale che mantiene la facoltà di cui all'
 								<rif xlink:href="urn:nir:stato:legge:1978-12-23;833#art15-com4" xlink:type="simple">art. 15, quarto comma, della legge 23 dicembre 1978, n. 833</rif>
 								.
+							</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art13bis" iniziovigore="t3">
+						<num>Art. 13/bis</num>
+						<rubrica>(Disciplina delle sedute del Consiglio comunale)</rubrica>
+						<comma id="art13bis-com1">
+							<num />
+							<corpo>
+								Salvo quanto previsto dal regolamento comunale, il Consiglio comunale, nel caso di cui all'
+								<rif xlink:href="#art13-com1-letc" xlink:type="simple">articolo precedente, punto c)</rif>
+								nell'esercizio dei compiti di cui al successivo
+								<rif xlink:href="#art14" xlink:type="simple">art. 14</rif>
+								tratta gli affari concernenti le unità sanitarie locali interne al territorio comunale nel corso di apposite sedute, ovvero nel corso delle sedute convocate anche per la trattazione di altre questioni di propria competenza. Nel corso di una stessa seduta del Consiglio comunale possono essere discussi e deliberati in forma unica affari concernenti più unità sanitarie locali. Le relative proposte possono essere discusse e messe in votazione congiuntamente, qualora siano rivolte a produrre effetti indistintamente per le unità sanitarie locali in questione.
 							</corpo>
 						</comma>
 					</articolo>
