@@ -1,22 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19820415" num="23" tipo="BURT" />
 					<entratainvigore norm="19820430" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1982-04-07;30" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1982-04-07;30" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1982-04-07;30@1982-05-03" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19820430" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19820526" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1982-04-07;30" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1982-05-03;34" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Ai sensi del'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1982-05-03;34#art1-com1" xlink:type="simple">art. 1, comma 1 della legge regionale 3 maggio 1982, n. 34</rif>
+							la data del 1 febbraio 1981 è riferita all’inquadramento del personale proveniente dagli enti locali; per il restante personale si fa riferimento alla data del 31 gennaio 1981.
+						</h:p>
+					</nota>
+				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com3-leta" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1982-05-03;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1982-05-03;34#artunico-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 2 della legge Regione Toscana 3 maggio 1982, n. 34" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -122,7 +150,9 @@
 						<corpo>
 							Il personale è inquadrato nel ruolo unico regionale in conformità alle unite tabelle di corrispondenza (
 							<rif xlink:href="#ann1" xlink:type="simple">all. 1</rif>
-							) sulla base della posizione giuridica rivestita alla data del 1 febbraio 1981; sono fatte salve le modificazioni sopravvenute in base ad atti formali, ove queste retroagiscano i propri effetti anteriormente ad essa.
+							) sulla base della posizione giuridica rivestita alla data del 1 febbraio 1981
+							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							; sono fatte salve le modificazioni sopravvenute in base ad atti formali, ove queste retroagiscano i propri effetti anteriormente ad essa.
 						</corpo>
 					</comma>
 					<comma id="art4-com2">
@@ -143,7 +173,8 @@
 									<rif xlink:href="urn:nir:regione.toscana:legge:1979-08-17;38#art45-com3" xlink:type="simple">3</rif>
 									, della LR 17-8-79 n. 38
 								</mrif>
-								(con riferimento alla data del 1 febbraio 1981) e dall'
+								<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">(con riferimento alla data del 1 febbraio 1981)</h:span>
+								e dall'
 								<rif xlink:href="urn:nir:regione.toscana:legge:1979;38#art46" xlink:type="simple">art. 46 della predetta LR n. 38/79</rif>
 								, sono estese, anche attraverso collocazione in soprannumero, e ferme restando tutte le condizioni e le modalità previste dalle norme medesime, al personale sottoindicato:
 							</alinea>
@@ -373,9 +404,9 @@
 						<meta>
 							<descrittori>
 								<pubblicazione norm="19820415" num="23" tipo="BURT" />
-					<entratainvigore norm="19820430" />
-					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1982-04-07;30:allegato.1" />
+								<entratainvigore norm="19820430" />
+								<redazione id="red2" nome="" norm="" />
+								<urn valore="urn:nir:regione.toscana:legge:1982-04-07;30:allegato.1" />
 							</descrittori>
 						</meta>
 						<intestazione />
