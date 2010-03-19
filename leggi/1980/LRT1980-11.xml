@@ -10,7 +10,8 @@
 					<urn finevigore="t8" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1980-01-28;11" />
 					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1980-01-28;11@1981-02-09" />
 					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1980-01-28;11@1981-11-24" />
-					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1980-01-28;11@1981-12-14" />
+					<urn finevigore="t11" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1980-01-28;11@1981-12-14" />
+					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1980-01-28;11@1982-07-19" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="ATTIVITA' ARTISTICHE" />
 					</materie>
@@ -27,6 +28,7 @@
 						<evento data="19810228" fonte="rp1" id="t8" tipo="modifica" />
 						<evento data="19811216" fonte="rp2" id="t9" tipo="modifica" />
 						<evento data="19811222" fonte="rp3" id="t10" tipo="modifica" />
+						<evento data="19820811" fonte="rp4" id="t11" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-01-28;11" xlink:type="simple" />
@@ -39,6 +41,7 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1981-02-09;16" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1981-11-24;83" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1981-12-14;92" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1982-07-19;58" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -181,6 +184,18 @@
 							</dsp:norma>
 							<dsp:novella>
 								<dsp:pos xlink:href="#art16ter" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art16ter" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1982-07-19;58" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1982-07-19;58#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 19 luglio 1982, n. 58" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art16quater" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 					</modifichepassive>
@@ -1075,6 +1090,38 @@
 						<comma id="art16ter-com5">
 							<num />
 							<corpo>Entro un mese dalla scadenza indicata nel primo comma la Giunta regionale predispone il piano annuale di ripartizione dei contributi che propone al Consiglio per l'approvazione.</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art16quater" iniziovigore="t11">
+						<num>Art. 16 quater</num>
+						<rubrica>(Norma transitoria per i contributi relativi al periodo 1 gennaio - 31 dicembre 1983):</rubrica>
+						<comma id="art16quater-com1">
+							<num />
+							<corpo>Le domande di contributo per le iniziative di particolare rilevanza regionale, di cui al Titolo II devono essere presentate alla Giunta regionale entro il 31 ottobre 1982.</corpo>
+						</comma>
+						<comma id="art16quater-com2">
+							<num />
+							<corpo>
+								Le domande di contributo relative alle iniziative di cui al
+								<rif xlink:href="#tit3" xlink:type="simple">Titolo III</rif>
+								devono essere presentate entro il 31 luglio 1982 al Comune nel cui territorio si intende realizzare l'iniziativa.
+							</corpo>
+						</comma>
+						<comma id="art16quater-com3">
+							<num />
+							<corpo>
+								Il Comune trasmette entro il 30 settembre 1982 le domande all'associazione intercomunale di cui fa parte ai sensi della
+								<rif xlink:href="urn:nir:regione.toscana:legge:1979-04-17;37" xlink:type="simple">LR 17 aprile 1979 n. 37</rif>
+								, con proprio parere di conformità alle finalità ed al programma regionale di cui agli artt. 1 e 13.
+							</corpo>
+						</comma>
+						<comma id="art16quater-com4">
+							<num />
+							<corpo>L'associazione intercomunale predispone una proposta di piano di finanziamento, con l'indicazione delle priorità relative ai soggetti beneficiari, che trasmette alla Regione per l'approvazione entro il 31 ottobre 1982.</corpo>
+						</comma>
+						<comma id="art16quater-com5">
+							<num />
+							<corpo>La Giunta regionale predispone il piano di ripartizione dei finanziamenti e lo trasmette al Consiglio regionale che l'approva entro il 31 dicembre 1982.</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art17">
