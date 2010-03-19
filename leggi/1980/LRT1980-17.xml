@@ -8,7 +8,8 @@
 					<entratainvigore norm="19800405" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1980-03-15;17" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1980-03-15;17@1981-07-29" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1980-03-15;17@1981-07-29" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1980-03-15;17@1982-07-27" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Caccia" />
 						<materia valore="Fauna" />
@@ -18,10 +19,12 @@
 					<eventi>
 						<evento data="19800405" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19810807" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19820803" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-03-15;17" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1981-07-29;61" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1982-07-27;64" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -105,6 +108,21 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art41-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art20" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1982-07-27;64" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1982-07-27;64#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 27 luglio 1982, n. 64" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art20" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art20-t3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -1112,12 +1130,348 @@
 							<corpo>Il Consiglio regionale stabilisce con specifico regolamento le modalità per lo svolgimento dell'esame.</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art20">
+					<articolo finevigore="t3" id="art20-t3" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 20</num>
 						<rubrica>(Calendario venatorio)</rubrica>
-						<comma id="art20-com1">
+						<comma id="art20-t3-com1">
 							<num />
 							<corpo>L'esercizio della caccia è consentito tre giorni per ogni settimana che il titolare della licenza può scegliere fra quelli di lunedì, mercoledì, giovedì, sabato e domenica.</corpo>
+						</comma>
+						<comma id="art20-t3-com2">
+							<num />
+							<corpo>La stagione venatoria ha inizio il 18 agosto e termina il 10 marzo dell'anno successivo.</corpo>
+						</comma>
+						<comma id="art20-t3-com3">
+							<num />
+							<alinea>
+								Sono cacciabili ai sensi dell'
+								<rif xlink:href="urn:nir:stato:legge:1977-12-27;968#art11" xlink:type="simple">art. 11 della legge 27-12-77 n. 968</rif>
+								le specie indicate nei periodi sottospecificati:
+							</alinea>
+							<en id="art20-t3-com3-num1">
+								<num>1)</num>
+								<alinea>dal 18 agosto al 31 dicembre:</alinea>
+								<ep id="art20-t3-com3-num1-pun1">
+									<num />
+									<corpo>quaglia (Coturnix coturnix);</corpo>
+								</ep>
+								<ep id="art20-t3-com3-num1-pun2">
+									<num />
+									<corpo>tortora (Streptopelia turtur);</corpo>
+								</ep>
+								<ep id="art20-t3-com3-num1-pun3">
+									<num />
+									<corpo>calandro (Anthus campestris);</corpo>
+								</ep>
+								<ep id="art20-t3-com3-num1-pun4">
+									<num />
+									<corpo>prispolone (Anthus trivialis);</corpo>
+								</ep>
+								<ep id="art20-t3-com3-num1-pun5">
+									<num />
+									<corpo>merlo (Turdus merula);</corpo>
+								</ep>
+							</en>
+							<en id="art20-t3-com3-num2">
+								<num>2)</num>
+								<alinea>dal 18 agosto al 28 febbraio:</alinea>
+								<ep id="art20-t3-com3-num2-pun1">
+									<num />
+									<corpo>germano reale (Anas platyrhynchos);</corpo>
+								</ep>
+								<ep id="art20-t3-com3-num2-pun2">
+									<num />
+									<corpo>folaga (Fulica atra);</corpo>
+								</ep>
+								<ep id="art20-t3-com3-num2-pun3">
+									<num />
+									<corpo>gallinella d'acqua (Gallinula chloropus);</corpo>
+								</ep>
+								<ep id="art20-t3-com3-num2-pun4">
+									<num />
+									<corpo>passera mattugia (Passer montanus);</corpo>
+								</ep>
+								<ep id="art20-t3-com3-num2-pun5">
+									<num />
+									<corpo>alzavola (Anas crecca);</corpo>
+								</ep>
+								<ep id="art20-t3-com3-num2-pun6">
+									<num />
+									<corpo>canapiglia (Anas strepera);</corpo>
+								</ep>
+								<ep id="art20-t3-com3-num2-pun7">
+									<num />
+									<corpo>mestolone (Anas clypeata);</corpo>
+								</ep>
+								<ep id="art20-t3-com3-num2-pun8">
+									<num />
+									<corpo>moriglione (Aytya ferina);</corpo>
+								</ep>
+								<ep id="art20-t3-com3-num2-pun9">
+									<num />
+									<corpo>chiurlo (Numenius arquata);</corpo>
+								</ep>
+								<ep id="art20-t3-com3-num2-pun10">
+									<num />
+									<corpo>pittima minore (Limosa lapponica);</corpo>
+								</ep>
+								<ep id="art20-t3-com3-num2-pun11">
+									<num />
+									<corpo>pettegola (Tringa totanus);</corpo>
+								</ep>
+								<ep id="art20-t3-com3-num2-pun12">
+									<num />
+									<corpo>combattente (Philomachus pugnax);</corpo>
+								</ep>
+							</en>
+							<en id="art20-t3-com3-num3">
+								<num>3)</num>
+								<alinea>dal 18 agosto fino al 10 marzo:</alinea>
+								<ep id="art20-t3-com3-num3-pun1">
+									<num />
+									<corpo>passero (Passer italiae);</corpo>
+								</ep>
+								<ep id="art20-t3-com3-num3-pun2">
+									<num />
+									<corpo>passera oltremontana (Passer demesticus);</corpo>
+								</ep>
+								<ep id="art20-t3-com3-num3-pun3">
+									<num />
+									<corpo>storno (Sturmus vulgaris);</corpo>
+								</ep>
+								<ep id="art20-t3-com3-num3-pun4">
+									<num />
+									<corpo>porciglione (Rallus acquaticus);</corpo>
+								</ep>
+								<ep id="art20-t3-com3-num3-pun5">
+									<num />
+									<corpo>fischione (Anas penelope);</corpo>
+								</ep>
+								<ep id="art20-t3-com3-num3-pun6">
+									<num />
+									<corpo>codone (Anas acuta);</corpo>
+								</ep>
+								<ep id="art20-t3-com3-num3-pun7">
+									<num />
+									<corpo>marzaiola (Anas querquedula);</corpo>
+								</ep>
+								<ep id="art20-t3-com3-num3-pun8">
+									<num />
+									<corpo>moretta (Aythya fuligula);</corpo>
+								</ep>
+								<ep id="art20-t3-com3-num3-pun9">
+									<num />
+									<corpo>beccacino (cappella gallinago);</corpo>
+								</ep>
+								<ep id="art20-t3-com3-num3-pun10">
+									<num />
+									<corpo>colombaccio (Columba palumbus);</corpo>
+								</ep>
+								<ep id="art20-t3-com3-num3-pun11">
+									<num />
+									<corpo>frullino (Lymnocryptes minimus);</corpo>
+								</ep>
+								<ep id="art20-t3-com3-num3-pun12">
+									<num />
+									<corpo>donnola (Mustela nivalis);</corpo>
+								</ep>
+								<ep id="art20-t3-com3-num3-pun13">
+									<num />
+									<corpo>volpe (Vulpes vulpes);</corpo>
+								</ep>
+								<ep id="art20-t3-com3-num3-pun14">
+									<num />
+									<corpo>piviere (Charadrius apricarius);</corpo>
+								</ep>
+							</en>
+							<en id="art20-t3-com3-num4">
+								<num>4)</num>
+								<alinea>dalla terza domenica di settembre al 31 dicembre:</alinea>
+								<ep id="art20-t3-com3-num4-pun1">
+									<num />
+									<alinea>MAMMIFERI:</alinea>
+									<en id="art20-t3-com3-num4-pun1-num1">
+										<num />
+										<corpo />
+									</en>
+									<ep id="art20-t3-com3-num4-pun1-pun1">
+										<num />
+										<corpo>coniglio selvatico (Oryctolagus cuniculus);</corpo>
+									</ep>
+									<ep id="art20-t3-com3-num4-pun1-pun2">
+										<num />
+										<corpo>lepre comune (Lepus europaeus);</corpo>
+									</ep>
+									<ep id="art20-t3-com3-num4-pun1-pun3">
+										<num />
+										<corpo>capriolo (Capreolus capreolus);</corpo>
+									</ep>
+									<ep id="art20-t3-com3-num4-pun1-pun4">
+										<num />
+										<corpo>cervo (Cervus elaphus hippelaphus);</corpo>
+									</ep>
+									<ep id="art20-t3-com3-num4-pun1-pun5">
+										<num />
+										<corpo>daino (Dama dama);</corpo>
+									</ep>
+									<ep id="art20-t3-com3-num4-pun1-pun6">
+										<num />
+										<corpo>muflone (Ovis musimon)</corpo>
+									</ep>
+								</ep>
+								<ep id="art20-t3-com3-num4-pun2">
+									<num />
+									<alinea>UCCELLI:</alinea>
+									<ep id="art20-t3-com3-num4-pun2-pun1">
+										<num />
+										<corpo>coturnice (Alectoris graeca);</corpo>
+									</ep>
+									<ep id="art20-t3-com3-num4-pun2-pun2">
+										<num />
+										<corpo>fagiano di monte (Lyrurus tetrx);</corpo>
+									</ep>
+									<ep id="art20-t3-com3-num4-pun2-pun3">
+										<num />
+										<corpo>pernice rossa (Alectoris rufa);</corpo>
+									</ep>
+									<ep id="art20-t3-com3-num4-pun2-pun4">
+										<num />
+										<corpo>strana (Perdix perdix);</corpo>
+									</ep>
+									<ep id="art20-t3-com3-num4-pun2-pun5">
+										<num />
+										<corpo>fagiano (Phasianus colchicus);</corpo>
+									</ep>
+									<ep id="art20-t3-com3-num4-pun2-pun6">
+										<num />
+										<corpo>fringuello (Fringilla coelebs);</corpo>
+									</ep>
+									<ep id="art20-t3-com3-num4-pun2-pun7">
+										<num />
+										<corpo>pispola (Anthus pratensis);</corpo>
+									</ep>
+									<ep id="art20-t3-com3-num4-pun2-pun8">
+										<num />
+										<corpo>peppola (Fringilla montrifringilla);</corpo>
+									</ep>
+									<ep id="art20-t3-com3-num4-pun2-pun9">
+										<num />
+										<corpo>frosone (Coccothraustes coccotraustes);</corpo>
+									</ep>
+									<ep id="art20-t3-com3-num4-pun2-pun10">
+										<num />
+										<corpo>strillozzo (Emberiza calandra);</corpo>
+									</ep>
+									<ep id="art20-t3-com3-num4-pun2-pun11">
+										<num />
+										<corpo>colino della Virginia;</corpo>
+									</ep>
+									<ep id="art20-t3-com3-num4-pun2-pun12">
+										<num />
+										<corpo>verdone (Chloris chloris);</corpo>
+									</ep>
+									<ep id="art20-t3-com3-num4-pun2-pun13">
+										<num />
+										<corpo>fanello (Carduelis cannabina);</corpo>
+									</ep>
+									<ep id="art20-t3-com3-num4-pun2-pun14">
+										<num />
+										<corpo>spioncelol (Anthus spinoletta);</corpo>
+									</ep>
+								</ep>
+							</en>
+							<en id="art20-t3-com3-num5">
+								<num>5)</num>
+								<alinea>dalla terza domenica di settembre al 28 febbraio:</alinea>
+								<ep id="art20-t3-com3-num5-pun1">
+									<num />
+									<corpo>beccaccia (Scolapax rusticola);</corpo>
+								</ep>
+								<ep id="art20-t3-com3-num5-pun2">
+									<num />
+									<corpo>tottavilla (Lullula arborea);</corpo>
+								</ep>
+								<ep id="art20-t3-com3-num5-pun3">
+									<num />
+									<corpo>cesena (Turdus pilaris);</corpo>
+								</ep>
+							</en>
+							<en id="art20-t3-com3-num6">
+								<num>6)</num>
+								<alinea>dalla terza domenica di settembre al 10 marzo:</alinea>
+								<ep id="art20-t3-com3-num6-pun1">
+									<num />
+									<corpo>cappellaccia (Galerida cristata);</corpo>
+								</ep>
+								<ep id="art20-t3-com3-num6-pun2">
+									<num />
+									<corpo>allodola (Alauda arvensis);</corpo>
+								</ep>
+								<ep id="art20-t3-com3-num6-pun3">
+									<num />
+									<corpo>tordo bottaccio (Turdus philomelos);</corpo>
+								</ep>
+								<ep id="art20-t3-com3-num6-pun4">
+									<num />
+									<corpo>tordo sassello (Turdus iliacus);</corpo>
+								</ep>
+								<ep id="art20-t3-com3-num6-pun5">
+									<num />
+									<corpo>taccola (Colerus monedula);</corpo>
+								</ep>
+								<ep id="art20-t3-com3-num6-pun6">
+									<num />
+									<corpo>corvo (Corvus frugilegus);</corpo>
+								</ep>
+								<ep id="art20-t3-com3-num6-pun7">
+									<num />
+									<corpo>cornacchia nera (Corvus corone);</corpo>
+								</ep>
+								<ep id="art20-t3-com3-num6-pun8">
+									<num />
+									<corpo>pavoncella (Vanellus vanellus);</corpo>
+								</ep>
+							</en>
+							<en id="art20-t3-com3-num7">
+								<num>7)</num>
+								<alinea>dal primo novembre al 31 gennaio:</alinea>
+								<ep id="art20-t3-com3-num7-pun1">
+									<num />
+									<corpo>cinghiale (Sus scrofa);</corpo>
+								</ep>
+							</en>
+						</comma>
+						<comma id="art20-t3-com4">
+							<num />
+							<corpo>Il Consiglio Regionale su proposta della Giunta approva e pubblica entro il 15 giugno di ogni anno, il calendario venatorio regionale recante disposizioni relative ai tempi, ai giorni, alle specie, al numero dei capi da abbattere, ai luoghi e modi di caccia e alla durata della giornata venatoria.</corpo>
+						</comma>
+						<comma id="art20-t3-com5">
+							<num />
+							<corpo>Per importanti e motivate ragioni connesse alla consistenza faunistica o per sopravvenute particolari condizioni ambientali, stagionali o climatiche o per malattie o altre calamità, il calendario venatorio può recare disposizioni, anche riduttive rispetto alle previsioni della presente legge per l'esercizio venatorio.</corpo>
+						</comma>
+						<comma id="art20-t3-com6">
+							<num />
+							<corpo>Per il periodo compreso tra la prima domenica di ottobre e la prima domenica di novembre, il calendario venatorio può prevedere solo per la caccia alla selvaggina migratoria, la utilizzazione anche continua di giornate di caccia complessivamente a disposizione di ogni titolare di licenza di caccia, salvo l'interruzione nei giorni di martedì e venerdì.</corpo>
+						</comma>
+						<comma id="art20-t3-com7">
+							<num />
+							<corpo>Le Amministrazioni Provinciali, sentiti i Comuni entro il 15 giugno di ogni anno, provvedono a determinare le aree dove, nel periodo compreso fra il 18 agosto e la terza domenica di settembre e successivamente al 31 dicembre non è consentita la caccia vagante e l'uso del cane.</corpo>
+						</comma>
+						<comma id="art20-t3-com8">
+							<num />
+							<corpo>Le Amministrazioni Provinciali determinano altresì le aree precluse all'addestramento e all'allenamento dei cani nel periodo intercorrente fra il 1 agosto e il giovedì precedente la terza domenica di settembre pubblicando i relativi elenchi.</corpo>
+						</comma>
+						<comma id="art20-t3-com9">
+							<num />
+							<corpo>L'orario giornaliero per l'addestramento e allenamento dei cani è indicato nel calendario venatorio.</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art20" iniziovigore="t3">
+						<num>ARTICOLO 20</num>
+						<rubrica />
+						<comma id="art20-com1">
+							<num />
+							<corpo>L'esercizio della caccia è consentito tre giorni per ogni settimana che il titolare della licenza può scegliere fra quelli di: lunedì, mercoledì, giovedì, sabato e domenica.</corpo>
 						</comma>
 						<comma id="art20-com2">
 							<num />
@@ -1125,327 +1479,35 @@
 						</comma>
 						<comma id="art20-com3">
 							<num />
-							<alinea>
-								Sono cacciabili ai sensi dell'
+							<corpo>
+								Sono oggetto di caccia le specie di cui all'
 								<rif xlink:href="urn:nir:stato:legge:1977-12-27;968#art11" xlink:type="simple">art. 11 della legge 27-12-77 n. 968</rif>
-								le specie indicate nei periodi sottospecificati:
-							</alinea>
-							<en id="art20-com3-num1">
-								<num>1)</num>
-								<alinea>dal 18 agosto al 31 dicembre:</alinea>
-								<ep id="art20-com3-num1-pun1">
-									<num />
-									<corpo>quaglia (Coturnix coturnix);</corpo>
-								</ep>
-								<ep id="art20-com3-num1-pun2">
-									<num />
-									<corpo>tortora (Streptopelia turtur);</corpo>
-								</ep>
-								<ep id="art20-com3-num1-pun3">
-									<num />
-									<corpo>calandro (Anthus campestris);</corpo>
-								</ep>
-								<ep id="art20-com3-num1-pun4">
-									<num />
-									<corpo>prispolone (Anthus trivialis);</corpo>
-								</ep>
-								<ep id="art20-com3-num1-pun5">
-									<num />
-									<corpo>merlo (Turdus merula);</corpo>
-								</ep>
-							</en>
-							<en id="art20-com3-num2">
-								<num>2)</num>
-								<alinea>dal 18 agosto al 28 febbraio:</alinea>
-								<ep id="art20-com3-num2-pun1">
-									<num />
-									<corpo>germano reale (Anas platyrhynchos);</corpo>
-								</ep>
-								<ep id="art20-com3-num2-pun2">
-									<num />
-									<corpo>folaga (Fulica atra);</corpo>
-								</ep>
-								<ep id="art20-com3-num2-pun3">
-									<num />
-									<corpo>gallinella d'acqua (Gallinula chloropus);</corpo>
-								</ep>
-								<ep id="art20-com3-num2-pun4">
-									<num />
-									<corpo>passera mattugia (Passer montanus);</corpo>
-								</ep>
-								<ep id="art20-com3-num2-pun5">
-									<num />
-									<corpo>alzavola (Anas crecca);</corpo>
-								</ep>
-								<ep id="art20-com3-num2-pun6">
-									<num />
-									<corpo>canapiglia (Anas strepera);</corpo>
-								</ep>
-								<ep id="art20-com3-num2-pun7">
-									<num />
-									<corpo>mestolone (Anas clypeata);</corpo>
-								</ep>
-								<ep id="art20-com3-num2-pun8">
-									<num />
-									<corpo>moriglione (Aytya ferina);</corpo>
-								</ep>
-								<ep id="art20-com3-num2-pun9">
-									<num />
-									<corpo>chiurlo (Numenius arquata);</corpo>
-								</ep>
-								<ep id="art20-com3-num2-pun10">
-									<num />
-									<corpo>pittima minore (Limosa lapponica);</corpo>
-								</ep>
-								<ep id="art20-com3-num2-pun11">
-									<num />
-									<corpo>pettegola (Tringa totanus);</corpo>
-								</ep>
-								<ep id="art20-com3-num2-pun12">
-									<num />
-									<corpo>combattente (Philomachus pugnax);</corpo>
-								</ep>
-							</en>
-							<en id="art20-com3-num3">
-								<num>3)</num>
-								<alinea>dal 18 agosto fino al 10 marzo:</alinea>
-								<ep id="art20-com3-num3-pun1">
-									<num />
-									<corpo>passero (Passer italiae);</corpo>
-								</ep>
-								<ep id="art20-com3-num3-pun2">
-									<num />
-									<corpo>passera oltremontana (Passer demesticus);</corpo>
-								</ep>
-								<ep id="art20-com3-num3-pun3">
-									<num />
-									<corpo>storno (Sturmus vulgaris);</corpo>
-								</ep>
-								<ep id="art20-com3-num3-pun4">
-									<num />
-									<corpo>porciglione (Rallus acquaticus);</corpo>
-								</ep>
-								<ep id="art20-com3-num3-pun5">
-									<num />
-									<corpo>fischione (Anas penelope);</corpo>
-								</ep>
-								<ep id="art20-com3-num3-pun6">
-									<num />
-									<corpo>codone (Anas acuta);</corpo>
-								</ep>
-								<ep id="art20-com3-num3-pun7">
-									<num />
-									<corpo>marzaiola (Anas querquedula);</corpo>
-								</ep>
-								<ep id="art20-com3-num3-pun8">
-									<num />
-									<corpo>moretta (Aythya fuligula);</corpo>
-								</ep>
-								<ep id="art20-com3-num3-pun9">
-									<num />
-									<corpo>beccacino (cappella gallinago);</corpo>
-								</ep>
-								<ep id="art20-com3-num3-pun10">
-									<num />
-									<corpo>colombaccio (Columba palumbus);</corpo>
-								</ep>
-								<ep id="art20-com3-num3-pun11">
-									<num />
-									<corpo>frullino (Lymnocryptes minimus);</corpo>
-								</ep>
-								<ep id="art20-com3-num3-pun12">
-									<num />
-									<corpo>donnola (Mustela nivalis);</corpo>
-								</ep>
-								<ep id="art20-com3-num3-pun13">
-									<num />
-									<corpo>volpe (Vulpes vulpes);</corpo>
-								</ep>
-								<ep id="art20-com3-num3-pun14">
-									<num />
-									<corpo>piviere (Charadrius apricarius);</corpo>
-								</ep>
-							</en>
-							<en id="art20-com3-num4">
-								<num>4)</num>
-								<alinea>dalla terza domenica di settembre al 31 dicembre:</alinea>
-								<ep id="art20-com3-num4-pun1">
-									<num />
-									<alinea>MAMMIFERI:</alinea>
-									<en id="art20-com3-num4-pun1-num1">
-										<num />
-										<corpo />
-									</en>
-									<ep id="art20-com3-num4-pun1-pun1">
-										<num />
-										<corpo>coniglio selvatico (Oryctolagus cuniculus);</corpo>
-									</ep>
-									<ep id="art20-com3-num4-pun1-pun2">
-										<num />
-										<corpo>lepre comune (Lepus europaeus);</corpo>
-									</ep>
-									<ep id="art20-com3-num4-pun1-pun3">
-										<num />
-										<corpo>capriolo (Capreolus capreolus);</corpo>
-									</ep>
-									<ep id="art20-com3-num4-pun1-pun4">
-										<num />
-										<corpo>cervo (Cervus elaphus hippelaphus);</corpo>
-									</ep>
-									<ep id="art20-com3-num4-pun1-pun5">
-										<num />
-										<corpo>daino (Dama dama);</corpo>
-									</ep>
-									<ep id="art20-com3-num4-pun1-pun6">
-										<num />
-										<corpo>muflone (Ovis musimon)</corpo>
-									</ep>
-								</ep>
-								<ep id="art20-com3-num4-pun2">
-									<num />
-									<alinea>UCCELLI:</alinea>
-									<ep id="art20-com3-num4-pun2-pun1">
-										<num />
-										<corpo>coturnice (Alectoris graeca);</corpo>
-									</ep>
-									<ep id="art20-com3-num4-pun2-pun2">
-										<num />
-										<corpo>fagiano di monte (Lyrurus tetrx);</corpo>
-									</ep>
-									<ep id="art20-com3-num4-pun2-pun3">
-										<num />
-										<corpo>pernice rossa (Alectoris rufa);</corpo>
-									</ep>
-									<ep id="art20-com3-num4-pun2-pun4">
-										<num />
-										<corpo>strana (Perdix perdix);</corpo>
-									</ep>
-									<ep id="art20-com3-num4-pun2-pun5">
-										<num />
-										<corpo>fagiano (Phasianus colchicus);</corpo>
-									</ep>
-									<ep id="art20-com3-num4-pun2-pun6">
-										<num />
-										<corpo>fringuello (Fringilla coelebs);</corpo>
-									</ep>
-									<ep id="art20-com3-num4-pun2-pun7">
-										<num />
-										<corpo>pispola (Anthus pratensis);</corpo>
-									</ep>
-									<ep id="art20-com3-num4-pun2-pun8">
-										<num />
-										<corpo>peppola (Fringilla montrifringilla);</corpo>
-									</ep>
-									<ep id="art20-com3-num4-pun2-pun9">
-										<num />
-										<corpo>frosone (Coccothraustes coccotraustes);</corpo>
-									</ep>
-									<ep id="art20-com3-num4-pun2-pun10">
-										<num />
-										<corpo>strillozzo (Emberiza calandra);</corpo>
-									</ep>
-									<ep id="art20-com3-num4-pun2-pun11">
-										<num />
-										<corpo>colino della Virginia;</corpo>
-									</ep>
-									<ep id="art20-com3-num4-pun2-pun12">
-										<num />
-										<corpo>verdone (Chloris chloris);</corpo>
-									</ep>
-									<ep id="art20-com3-num4-pun2-pun13">
-										<num />
-										<corpo>fanello (Carduelis cannabina);</corpo>
-									</ep>
-									<ep id="art20-com3-num4-pun2-pun14">
-										<num />
-										<corpo>spioncelol (Anthus spinoletta);</corpo>
-									</ep>
-								</ep>
-							</en>
-							<en id="art20-com3-num5">
-								<num>5)</num>
-								<alinea>dalla terza domenica di settembre al 28 febbraio:</alinea>
-								<ep id="art20-com3-num5-pun1">
-									<num />
-									<corpo>beccaccia (Scolapax rusticola);</corpo>
-								</ep>
-								<ep id="art20-com3-num5-pun2">
-									<num />
-									<corpo>tottavilla (Lullula arborea);</corpo>
-								</ep>
-								<ep id="art20-com3-num5-pun3">
-									<num />
-									<corpo>cesena (Turdus pilaris);</corpo>
-								</ep>
-							</en>
-							<en id="art20-com3-num6">
-								<num>6)</num>
-								<alinea>dalla terza domenica di settembre al 10 marzo:</alinea>
-								<ep id="art20-com3-num6-pun1">
-									<num />
-									<corpo>cappellaccia (Galerida cristata);</corpo>
-								</ep>
-								<ep id="art20-com3-num6-pun2">
-									<num />
-									<corpo>allodola (Alauda arvensis);</corpo>
-								</ep>
-								<ep id="art20-com3-num6-pun3">
-									<num />
-									<corpo>tordo bottaccio (Turdus philomelos);</corpo>
-								</ep>
-								<ep id="art20-com3-num6-pun4">
-									<num />
-									<corpo>tordo sassello (Turdus iliacus);</corpo>
-								</ep>
-								<ep id="art20-com3-num6-pun5">
-									<num />
-									<corpo>taccola (Colerus monedula);</corpo>
-								</ep>
-								<ep id="art20-com3-num6-pun6">
-									<num />
-									<corpo>corvo (Corvus frugilegus);</corpo>
-								</ep>
-								<ep id="art20-com3-num6-pun7">
-									<num />
-									<corpo>cornacchia nera (Corvus corone);</corpo>
-								</ep>
-								<ep id="art20-com3-num6-pun8">
-									<num />
-									<corpo>pavoncella (Vanellus vanellus);</corpo>
-								</ep>
-							</en>
-							<en id="art20-com3-num7">
-								<num>7)</num>
-								<alinea>dal primo novembre al 31 gennaio:</alinea>
-								<ep id="art20-com3-num7-pun1">
-									<num />
-									<corpo>cinghiale (Sus scrofa);</corpo>
-								</ep>
-							</en>
+								e successive modificazioni ed integrazioni.
+							</corpo>
 						</comma>
 						<comma id="art20-com4">
 							<num />
-							<corpo>Il Consiglio Regionale su proposta della Giunta approva e pubblica entro il 15 giugno di ogni anno, il calendario venatorio regionale recante disposizioni relative ai tempi, ai giorni, alle specie, al numero dei capi da abbattere, ai luoghi e modi di caccia e alla durata della giornata venatoria.</corpo>
+							<corpo>Il Consiglio regionale, su proposta della Giunta approva e pubblica, entro il 15 giugno di ogni anno, il calendario venatorio regionale recante disposizioni relative ai tempi, ai giorni, alle specie, al numero dei capi da abbattere, ai luoghi e modi di caccia e alla durata della giornata venatoria.</corpo>
 						</comma>
 						<comma id="art20-com5">
 							<num />
-							<corpo>Per importanti e motivate ragioni connesse alla consistenza faunistica o per sopravvenute particolari condizioni ambientali, stagionali o climatiche o per malattie o altre calamità, il calendario venatorio può recare disposizioni, anche riduttive rispetto alle previsioni della presente legge per l'esercizio venatorio.</corpo>
+							<corpo>Per importanti e motivate ragioni connesse alla consistenza faunistica, o per sopravvenute particolari condizioni ambientali, stagionali, climatiche o per malattie o altre calamità, il calendario venatorio può recare disposizioni anche riduttive per l'esercizio della caccia.</corpo>
 						</comma>
 						<comma id="art20-com6">
 							<num />
-							<corpo>Per il periodo compreso tra la prima domenica di ottobre e la prima domenica di novembre, il calendario venatorio può prevedere solo per la caccia alla selvaggina migratoria, la utilizzazione anche continua di giornate di caccia complessivamente a disposizione di ogni titolare di licenza di caccia, salvo l'interruzione nei giorni di martedì e venerdì.</corpo>
+							<corpo>Nel periodo compreso fra la prima domenica di ottobre e la prima domenica di novembre, il calendario venatorio può prevedere, solo per la caccia alla selvaggina migratoria, la utilizzazione, anche continua, delle giornate di caccia complessivamente a disposizione del titolare di licenza di caccia, salvo l'interruzione nei giorni di martedì e venerdì.</corpo>
 						</comma>
 						<comma id="art20-com7">
 							<num />
-							<corpo>Le Amministrazioni Provinciali, sentiti i Comuni entro il 15 giugno di ogni anno, provvedono a determinare le aree dove, nel periodo compreso fra il 18 agosto e la terza domenica di settembre e successivamente al 31 dicembre non è consentita la caccia vagante e l'uso del cane.</corpo>
+							<corpo>Le Amministrazioni provinciali, sentiti i comuni, entro il 15 giugno di ogni anno, provvedono a determinare le aree dove, nel periodo compreso fra il 18 agosto e la terza domenica di settembre e successivamente al 31 dicembre non è consentita la caccia vagante e l'uso del cane.</corpo>
 						</comma>
 						<comma id="art20-com8">
 							<num />
-							<corpo>Le Amministrazioni Provinciali determinano altresì le aree precluse all'addestramento e all'allenamento dei cani nel periodo intercorrente fra il 1 agosto e il giovedì precedente la terza domenica di settembre pubblicando i relativi elenchi.</corpo>
+							<corpo>Le Amministrazioni provinciali determinano altresì le aree precluse all'addestramento e all'allenamento dei cani nel periodo intercorrente fra il 1 agosto e il giovedì precedente la terza domenica di settembre, pubblicando i relativi elenchi.</corpo>
 						</comma>
 						<comma id="art20-com9">
 							<num />
-							<corpo>L'orario giornaliero per l'addestramento e allenamento dei cani è indicato nel calendario venatorio.</corpo>
+							<corpo>L'orario giornaliero per l'addestramento e l'allenamento dei cani è indicato nel calendario venatorio.</corpo>
 						</comma>
 					</articolo>
 				</titolo>
