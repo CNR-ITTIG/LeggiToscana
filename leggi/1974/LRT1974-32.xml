@@ -14,7 +14,8 @@
 					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1974-06-05;32@1979-04-12" />
 					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1974-06-05;32@1979-12-06" />
 					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1974-06-05;32@1981-02-09" />
-					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1974-06-05;32@1982-01-25" />
+					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1974-06-05;32@1982-01-25" />
+					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1974-06-05;32@1982-06-29" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -27,6 +28,7 @@
 						<evento data="19791214" fonte="rp6" id="t7" tipo="modifica" />
 						<evento data="19810213" fonte="rp7" id="t8" tipo="modifica" />
 						<evento data="19820217" fonte="rp8" id="t9" tipo="modifica" />
+						<evento data="19820721" fonte="rp9" id="t10" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1974-06-05;32" xlink:type="simple" />
@@ -38,6 +40,7 @@
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:1979-12-06;60" xlink:type="simple" />
 						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:1981-02-09;18" xlink:type="simple" />
 						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:1982-01-25;6" xlink:type="simple" />
+						<passiva id="rp9" xlink:href="urn:nir:regione.toscana:legge:1982-06-29;53" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -256,10 +259,25 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art4-com9" xlink:type="simple" />
+								<dsp:pos xlink:href="#art4-com9-t10" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art4-com8-t9" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1982-06-29;53" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1982-06-29;53#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 29 giugno 1982, n. 53" id="itt15" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com10" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-com9-t10" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -390,11 +408,15 @@
 						<num />
 						<corpo>Fino al 31-12-1981 i limiti percentuali riferentisi alle operazioni a breve termine, prefissati dalle direttive del Consiglio regionale, non dovranno eccedere i 2/3 (due terzi) del fondo destinato alle operazioni di credito a medio termine.</corpo>
 					</comma>
-					<comma id="art4-com9" iniziovigore="t9">
+					<comma finevigore="t10" id="art4-com9-t10" iniziovigore="t9" status="abrogato">
 						<num />
 						<corpo>Fino al 30-6-82 i limiti percentuali riferentisi alle operazioni a breve termine, prefissati dalle direttive del Consiglio Regionale, non dovranno eccedere i due terzi (due terzi) del fondo destinato alle operazioni di credito a medio termine.</corpo>
 					</comma>
-					<comma id="art4-com10">
+					<comma id="art4-com10" iniziovigore="t10">
+						<num />
+						<corpo>Fino al 31 dicembre 1982 i limiti percentuali riferentisi alle operazioni di credito a breve termine, prefissati dalle direttive del Consiglio regionale, non dovranno eccedere i 2/3 (due terzi) del fondo destinato alle operazioni di credito a medio termine.</corpo>
+					</comma>
+					<comma id="art4-com11">
 						<num />
 						<corpo>Il Consiglio Regionale emana le direttive di cui ai commi precedenti previa consultazione degli Enti locali, delle organizzazioni sindacali dei lavoratori dipendenti, della cooperazione e delle organizzazioni delle categorie economiche.</corpo>
 					</comma>
