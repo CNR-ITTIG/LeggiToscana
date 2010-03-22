@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1981-02-09;15" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1981-08-01" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1982-02-23" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1982-02-23" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1982-08-24" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="AGRICOLTURA" />
 						<materia valore="ATTRIBUZIONI DELEGHE" />
@@ -20,11 +21,13 @@
 						<evento data="19810228" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19810822" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19820317" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="19820915" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1981-02-09;15" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1981-08-01;63" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1982-02-23;19" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1982-08-24;71" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -105,6 +108,18 @@
 							</dsp:norma>
 							<dsp:novella>
 								<dsp:pos xlink:href="#art3-com5" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1982-08-24;71" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1982-08-24;71#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 24 agosto 1982, n. 71" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com1-letq" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 					</modifichepassive>
@@ -232,6 +247,10 @@
 						<el id="art2-com1-letp">
 							<num>p)</num>
 							<corpo>le funzioni amministrative afferenti le materie di cui alle precedenti lettere relative ad attestazioni, dichiarazioni, certificazioni ed altri atti già attribuiti alla competenza degli Ispettorati Provinciali dell'Agricoltura, degli Ispettorati Dipartimentali delle Foreste e degli Ispettorati Provinciali di Alimentazione.</corpo>
+						</el>
+						<el id="art2-com1-letq" iniziovigore="t4">
+							<num>q)</num>
+							<corpo>le funzioni concernenti il fondo di solidarietà nazionale, nonchè degli interventi per la reintegrazione del patrimonio zootecnico decurtato da animali predatori e da eventi meteorici.</corpo>
 						</el>
 					</comma>
 					<comma id="art2-com2">
