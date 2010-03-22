@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19790823" num="44" tipo="BURT" />
 					<entratainvigore norm="19790907" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1979-08-17;37" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1979-08-17;37" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1979-08-17;37@1982-11-08" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ordinamento" />
 						<materia valore="Enti Territoriali" />
@@ -16,9 +17,11 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19790907" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19821116" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1979-08-17;37" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1982-11-08;81" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -27,8 +30,10 @@
 							Si veda anche la
 							<rif xlink:href="urn:nir:regione.toscana:legge:1980-04-15;32" xlink:type="simple">legge regionale 15 aprile 1980, n. 32</rif>
 							, e la gli
-							<mrif>artt.
-								<rif xlink:href="urn:nir:regione.toscana:legge:1981-06-12;52#art2" xlink:type="simple">2</rif>e
+							<mrif>
+								artt.
+								<rif xlink:href="urn:nir:regione.toscana:legge:1981-06-12;52#art2" xlink:type="simple">2</rif>
+								e
 								<rif xlink:href="urn:nir:regione.toscana:legge:1981-06-12;52#art3" xlink:type="simple">3</rif>
 								della legge regionale 12 giugno 1981, n. 52
 							</mrif>
@@ -43,6 +48,22 @@
 						</h:p>
 					</nota>
 				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art22-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1982-11-08;81" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1982-11-08;81#art7-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 7, comma 1 della legge Regione Toscana 8 novembre 1982, n. 81" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art22-com1-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -847,7 +868,7 @@
 				<articolo id="art22">
 					<num>ARTICOLO 22</num>
 					<rubrica>(Indennità agli amministratori. Finanziamenti)</rubrica>
-					<comma id="art22-com1">
+					<comma finevigore="t2" id="art22-com1-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>
 							In attesa della legge regionale di riordino e di omogeneizzazione delle indennità e dei rimborsi spese da corrispondere agli amministratori degli enti e delle aziende dipendenti dalla regione, nonchè delle forme associative tra gli enti locali disciplinate con legge regionale gli amministratori delle associazioni intercomunali si applicano, in quanto compatibili, le disposizioni della
