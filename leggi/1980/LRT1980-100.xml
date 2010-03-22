@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19800102" num="1" tipo="BURT" />
 					<entratainvigore norm="19800117" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1980-12-27;100" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1980-12-27;100" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1980-12-27;100@1982-11-03" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Commercio" />
 					</materie>
@@ -15,11 +16,38 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19800117" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19821124" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-12-27;100" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1982-11-03;79" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Il termine qui indicato è stabilito ai sensi dell'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1982-11-03;79#art1" xlink:type="simple">articolo 1 della legge regionale 3 novembre 1982, n. 79</rif>
+							ad unmese dall'antrata in vigore della stessa.
+						</h:p>
+					</nota>
+				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1982-11-03;79" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1982-11-03;79#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 3 novembre 1982, n. 79" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art6-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -130,7 +158,9 @@
 							<rif xlink:href="#art1" xlink:type="simple">art. 1</rif>
 							sono concessi ai sensi dell'
 							<rif xlink:href="#art2" xlink:type="simple">art. 2</rif>
-							ai Comuni che, entro sei mesi dalla data di entrata in vigore della presente legge, abbiano approvato i piani o deliberato di procedere alla integrazione e/o revisione dei piani di cui alla lett. b), nonchè alla formazione o redazione dei piani di cui alla lett. c).
+							ai Comuni che, entro sei mesi dalla data di entrata in vigore della presente legge, abbiano approvato i piani o deliberato di procedere alla integrazione e/o revisione dei piani di cui alla lett. b), nonchè alla formazione o redazione dei piani di cui alla lett. c)
+							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							.
 						</corpo>
 					</comma>
 				</articolo>
@@ -176,14 +206,14 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art6">
+				<articolo finevigore="t2" id="art6-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 6</num>
 					<rubrica>(Norme finanziarie)</rubrica>
-					<comma id="art6-com1">
+					<comma id="art6-t2-com1">
 						<num />
 						<corpo>Per la concessione dei contributi di cui alla presente legge è autorizzata la spesa di L. 880.000.000.</corpo>
 					</comma>
-					<comma id="art6-com2">
+					<comma id="art6-t2-com2">
 						<num />
 						<corpo>La spesa predetta farà carico, rispettivamente nella misura di Lire 440.000.000, ai capitoli dei bilanci di previsione 1981 e 1982 corrispondenti al capitolo 48200 del bilancio 1980.</corpo>
 					</comma>
