@@ -10,7 +10,8 @@
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1973-09-06;55" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1973-09-06;55@1974-04-08" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1973-09-06;55@1980-04-30" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1973-09-06;55@1982-07-27" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1973-09-06;55@1982-07-27" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1973-09-06;55@1982-09-08" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -18,12 +19,14 @@
 						<evento data="19750419" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19800524" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19820818" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="19820929" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1973-09-06;55" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1974-04-08;15" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1980-04-30;35" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1982-07-27;67" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1982-09-08;75" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -194,6 +197,30 @@
 								<dsp:pos xlink:href="#art15quater" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art16" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1982-09-08;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1982-09-08;75#art3-com4" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 4 della legge Regione Toscana 8 settembre 1982, n. 75" id="itt12" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art16-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art17" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1982-09-08;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1982-09-08;75#art3-com4" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 4 della legge Regione Toscana 8 settembre 1982, n. 75" id="itt13" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art17-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -802,7 +829,7 @@
 								<num />
 								<corpo>
 									Ciascun dipendente può essere assegnato a più gruppi di lavoro. Ogni gruppo di lavoro è costituito da dipendenti, anche di diverse fasce funzionali, cui sono assegnati compiti rientranti nelle mansioni obiettive determinate a norma dell'
-									<rif xlink:href="#art16" xlink:type="simple">art. 16</rif>
+									<rif xlink:href="#art16-t5" xlink:type="simple">art. 16</rif>
 									della presente legge.
 								</corpo>
 							</comma>
@@ -954,22 +981,22 @@
 								<corpo>I coordinatori di dipartimento, servizio ed Ufficio partecipano ad apposite iniziative di formazione, aggiornamento o specializzazione concernenti gli strumenti, le tecniche e le metodologie attinenti le responsabilità organizzative loro attribuite.</corpo>
 							</comma>
 						</articolo>
-						<articolo id="art16">
+						<articolo finevigore="t5" id="art16-t5" iniziovigore="t1" status="abrogato">
 							<num>ARTICOLO 16</num>
 							<rubrica>(Dotazione del personale degli uffici e dei dipartimenti)</rubrica>
-							<comma id="art16-com1">
+							<comma id="art16-t5-com1">
 								<num />
 								<corpo>La dotazione organica del personale per ciascuna fascia funzionale del ruolo regionale è determinata dalla allegata tabella B.</corpo>
 							</comma>
-							<comma id="art16-com2">
+							<comma id="art16-t5-com2">
 								<num />
 								<corpo>Nell'ambito di tale dotazione e in relazione alle esigenze del programma e alle finalità ed obiettivi della programmazione, il Consiglio, con deliberazione adottata su proposta della Giunta, sentite le rappresentanze sindacali del personale, determina, per ogni ufficio e dipartimento, la dotazione organica del personale all'interno di ciascuna fascia funzionale, specificando la denominazione, la definizione e la specializzazione richiesta per ciascuna delle mansioni obiettive da svolgere.</corpo>
 							</comma>
-							<comma id="art16-com3">
+							<comma id="art16-t5-com3">
 								<num />
 								<corpo>Per i dipartimenti e gli uffici del Consiglio la deliberazione consiliare di cui al comma precedente è proposta dall'Ufficio di Presidenza del Consiglio, nel rispetto della disciplina dello stato giuridico ed economico del personale.</corpo>
 							</comma>
-							<comma id="art16-com4">
+							<comma id="art16-t5-com4">
 								<num />
 								<corpo>
 									In sede di prima attuazione dell'ordinamento degli uffici, alla dotazione organica del personale di ciascun ufficio e dipartimento della struttura operativa si provvede a norma dell'
@@ -978,10 +1005,10 @@
 								</corpo>
 							</comma>
 						</articolo>
-						<articolo id="art17">
+						<articolo finevigore="t5" id="art17-t5" iniziovigore="t1" status="abrogato">
 							<num>ARTICOLO 17</num>
 							<rubrica>(Modifiche dell'organigramma)</rubrica>
-							<comma id="art17-com1">
+							<comma id="art17-t5-com1">
 								<num />
 								<corpo>
 									Dopo che saranno state conferite le deleghe delle funzioni amministrative ai sensi dell'
@@ -989,7 +1016,7 @@
 									, ovvero sia stato deciso l'esercizio di tali funzioni avvalendosi degli uffici degli enti locali, i posti in dotazione agli uffici che svolgevano le predette funzioni verranno soppressi non appena si renderanno vacanti, ove non si ritenga di attribuire detti posti ad enti o aziende regionali.
 								</corpo>
 							</comma>
-							<comma id="art17-com2">
+							<comma id="art17-t5-com2">
 								<num />
 								<corpo>
 									In caso di vacanze nei posti in dotazione agli uffici e ai dipartimenti del Consiglio, agli uffici e dipartimenti del centro direzionale e agli uffici del Comitato regionale di controllo e sue sezioni decentrate, si potrà provvedere alla copertura mediante richiamo di personale comandato ai sensi dell'
@@ -999,7 +1026,7 @@
 									e seguenti della medesima legge.
 								</corpo>
 							</comma>
-							<comma id="art17-com3">
+							<comma id="art17-t5-com3">
 								<num />
 								<corpo>Nel caso di copertura per richiamo di personale comandato, viene corrispondentemente ridotta la dotazione dell'ufficio cui detto personale era assegnato prima della delega delle funzioni amministrative o dell'esercizio delle medesime avvalendosi degli uffici degli enti locali.</corpo>
 							</comma>

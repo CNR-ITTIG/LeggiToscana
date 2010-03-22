@@ -8,18 +8,21 @@
 					<entratainvigore norm="19730930" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1973-09-06;54:allegato" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1973-09-06;54:allegato@1979-08-17" />
+					<urn finevigore="t4" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1973-09-06;54:allegato@1979-08-17" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1973-09-06;54:allegato@1982-09-08" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19730930" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19790824" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19781001" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="19820929" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1973-09-06;54:allegato" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1979-08-17;38" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1979-08-17;38" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1982-09-08;75" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -33,7 +36,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#con3" xlink:type="simple" />
+								<dsp:pos xlink:href="#con3-t4" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#con2-t2" xlink:type="simple" />
@@ -64,6 +67,30 @@
 							</dsp:norma>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#con49-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#??" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1982-09-08;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1982-09-08;75#art3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo3, legge Regione Toscana 8 settembre 1982, n. 75" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#con3-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#??" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1982-09-08;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1982-09-08;75#art3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo3, legge Regione Toscana 8 settembre 1982, n. 75" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#con17-t4" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>
@@ -476,7 +503,7 @@
 					</h:p>
 					<h:p />
 				</contenitore>
-				<contenitore id="con3" iniziovigore="t2" nome="">
+				<contenitore finevigore="t4" id="con3-t4" iniziovigore="t2" nome="" status="abrogato">
 					<contenitore id="con4" nome="">
 						<h:p>I Livello funzionale</h:p>
 						<h:p>Sono inserite nel primo livello le posizioni di lavoro che concernono esclusivamente attività di pulizia: trattasi di prestazioni elementari che non richiedono alcuna preparazione specifica (art. 4).</h:p>
@@ -1116,7 +1143,7 @@
 							<h:p />
 							<h:p />
 						</contenitore>
-						<contenitore id="con17" nome="">
+						<contenitore finevigore="t4" id="con17-t4" iniziovigore="t1" nome="" status="abrogato">
 							<h:p>
 								<h:b>TITOLI DI STUDIO RICHIESTI PER L'AMMISSIONE AI CONCORSI REGIONALI PER CIASCUNA MANSIONE OBIETTIVA</h:b>
 							</h:p>
