@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19821221" num="66 supplemento straordinario" tipo="BURT" />
 					<entratainvigore norm="19830105" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1982-12-16;91" />
+					<urn iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1982-12-16;91" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Enti sanitari" />
@@ -16,11 +16,47 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19830105" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19830105" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1982-12-16;91" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1982-12-16;92" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art41" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1982-12-16;92" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1982-12-16;92#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 16 dicembre 1982, n. 92" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art41" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art41-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art44" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1982-12-16;92" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1982-12-16;92#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 16 dicembre 1982, n. 92" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art44" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art44-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -1256,15 +1292,27 @@
 							</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art41">
+					<articolo finevigore="t2" id="art41-t2" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 41</num>
 						<rubrica>(Comando per esigenze di servizio)</rubrica>
-						<comma id="art41-com1">
+						<comma id="art41-t2-com1">
 							<num />
 							<corpo>
 								Il comando di cui all'
 								<rif xlink:href="urn:nir:presidente.repubblica:decreto:1979-12-20;761#art44" xlink:type="simple">articolo 44 del Decreto del Presidente della Repubblica 20 dicembre 1979 n. 761</rif>
 								, non può essere disposto nei confronti dei dipendenti di ruolo in prova nonchè degli assistenti medici e dei veterinari collaboratori nel triennio di formazione.
+							</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art41" iniziovigore="t2">
+						<num>Art. 41</num>
+						<rubrica>(Comando per esigenze di servizio)</rubrica>
+						<comma id="art41-com1">
+							<num />
+							<corpo>
+								La Giunta regionale dispone il comando per esigenze di servizio in conformità a quanto prevede l'
+								<rif xlink:href="urn:nir:presidente.repubblica:decreto:1979-12-20;761#art44" xlink:type="simple">art. 44 del DPR 20/12/1979, n. 761</rif>
+								.
 							</corpo>
 						</comma>
 					</articolo>
@@ -1344,10 +1392,10 @@
 							</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art44">
+					<articolo finevigore="t2" id="art44-t2" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 44</num>
 						<rubrica>(Individuazione delle qualifiche)</rubrica>
-						<comma id="art44-com1">
+						<comma id="art44-t2-com1">
 							<num />
 							<corpo>
 								Allo scopo di assicurare la corrispondenza tra l'organizzazione di servizi delle Unità Sanitarie Locali e le funzioni relative alle qualifiche del personale, anche ai fini dei concorsi di assunzione, il Consiglio regionale, su proposta della Giunta, emana indirizzi e direttive per l'articolazione in qualifiche dei profili professionali e posizioni funzionali di cui alla
@@ -1355,9 +1403,23 @@
 								, nei casi non previsti dal Decreto stesso e dalle relative norme di attuazione.
 							</corpo>
 						</comma>
-						<comma id="art44-com2">
+						<comma id="art44-t2-com2">
 							<num />
 							<corpo>I bandi di concorso per l'assunzione nelle qualifiche come sopra individuate stabiliscono, nel rispetto delle norme previste dal Decreto ministeriale, le materie sulle quali verteranno le prove d'esame.</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art44" iniziovigore="t2">
+						<num>Art. 44</num>
+						<rubrica>(Individuazione delle qualifiche)</rubrica>
+						<comma id="art44-com1">
+							<num />
+							<corpo>
+								Allo scopo di assicurare la corrispondenza fra l'organizzazione dei servizi delle Unità Sanitarie Locali e le funzioni relative alle qualifiche del personale, il Consiglio regionale, su proposta della Giunta emana indirizzi e direttive per l'individuazione degli specifici settori di attività cui devono riferirsi i concorsi di cui al
+								<rif xlink:href="#art3" xlink:type="simple">precedente art. 3</rif>
+								, nel rispetto delle norme del DM e del Decreto presidenziale previsto dall'
+								<rif xlink:href="urn:nir:presidente.repubblica:decreto:1979-12-20;761#art63" xlink:type="simple">art. 63 ultimo comma del DPR 20/12/1979, n. 761</rif>
+								.
+							</corpo>
 						</comma>
 					</articolo>
 				</titolo>
