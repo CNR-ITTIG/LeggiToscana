@@ -11,7 +11,8 @@
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1981-08-01" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1982-02-23" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1982-08-24" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1982-10-30" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1982-10-30" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1982-11-08" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="AGRICOLTURA" />
 						<materia valore="ATTRIBUZIONI DELEGHE" />
@@ -24,6 +25,7 @@
 						<evento data="19820317" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19820915" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="19821124" fonte="rp4" id="t5" tipo="modifica" />
+						<evento data="19821201" fonte="rp5" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1981-02-09;15" xlink:type="simple" />
@@ -31,6 +33,7 @@
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1982-02-23;19" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1982-08-24;71" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1982-10-30;78" xlink:type="simple" />
+						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1982-11-08;82" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -72,7 +75,7 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art5-com2" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1981-08-01;63" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1981-08-01;63#art3-com12" xlink:type="simple" />
 								<dsp:subarg>
@@ -87,7 +90,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art3-com3" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1982-02-23;19" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1982-02-23;19#artunico-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -102,7 +105,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:integrazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art3-com3" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1982-02-23;19" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1982-02-23;19#artunico-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -195,6 +198,18 @@
 							</dsp:norma>
 							<dsp:novella>
 								<dsp:pos xlink:href="#art3-com6-num8" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1982-11-08;82" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1982-11-08;82#art21-com6" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 21, comma 6 della legge Regione Toscana 8 novembre 1982, n. 82" id="itt13" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com1-letr" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 					</modifichepassive>
@@ -326,6 +341,14 @@
 						<el id="art2-com1-letq" iniziovigore="t4">
 							<num>q)</num>
 							<corpo>le funzioni concernenti il fondo di solidarietà nazionale, nonchè degli interventi per la reintegrazione del patrimonio zootecnico decurtato da animali predatori e da eventi meteorici.</corpo>
+						</el>
+						<el id="art2-com1-letr" iniziovigore="t6">
+							<num>r)</num>
+							<corpo>
+								l'autorizzazione alla raccolta dei tartufi di cui alla
+								<rif xlink:href="urn:nir:stato:legge:1970-07-17;568" xlink:type="simple">legge 17 luglio 1970, n. 568</rif>
+								.
+							</corpo>
 						</el>
 					</comma>
 					<comma id="art2-com2">
