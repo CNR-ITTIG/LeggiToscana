@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19820408" num="21" tipo="BURT" />
 					<entratainvigore norm="19820423" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1982-03-31;27" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1982-03-31;27" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1982-03-31;27@1982-11-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="CREDITO" />
 						<materia valore="AGRICOLTURA" />
@@ -16,11 +17,32 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19820423" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19821222" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1982-03-31;27" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1982-11-29;84" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1982-11-29;84" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1982-11-29;84#art4-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1 della legge Regione Toscana 29 novembre 1982, n. 84" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art1-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art1-com1-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -43,7 +65,7 @@
 			<articolato>
 				<articolo id="art1">
 					<num>ARTICOLO 1</num>
-					<comma id="art1-com1">
+					<comma finevigore="t2" id="art1-com1-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>
 							Gli istituti ed enti esercenti il credito agrario dovranno operare, una volta tanto, all'atto della prima somministrazione, sull'importo originario dei mutui e dei prestiti assistiti dalla garanzia fidejussoria rilasciata dalla Regione ai sensi della
@@ -51,15 +73,23 @@
 							e successive modificazioni ed integrazioni, una trattenuta dello 0,20% ridotta allo 0,10% per le operazioni di durata non superiore a due anni.
 						</corpo>
 					</comma>
-					<comma id="art1-com2">
+					<comma id="art1-com2" iniziovigore="t2">
 						<num />
-						<corpo>Tale trattenuta dovrà essere versata al Fondo semestralmente alle scadenze del 30 giugno e 31 dicembre di ogni anno.</corpo>
+						<corpo>
+							Gli istituti ed enti esercenti il credito agrario dovranno operare una trattenuta pari allo 0,30% dell'ammontare delle fidejussioni, ridotta allo 0,15% per le operazioni di durata non superiore a due anni, la trattenuta viene effettuata, una volta tanto, all'atto della prima somministrazione dei mutui e dei prestiti assistiti dalla Garanzia fidejussoria di cui alla
+							<rif xlink:href="urn:nir:regione.toscana:legge:1977-06-01;33" xlink:type="simple">LR 1/6/77 n. 33</rif>
+							e successive modificazioni ed integrazioni.
+						</corpo>
 					</comma>
 					<comma id="art1-com3">
 						<num />
+						<corpo>Tale trattenuta dovrà essere versata al Fondo semestralmente alle scadenze del 30 giugno e 31 dicembre di ogni anno.</corpo>
+					</comma>
+					<comma id="art1-com4">
+						<num />
 						<corpo>
-							La ritenuta di cui sopra dovrà essere effettuata per tutte le operazioni assistite da fidejussione regionale perfezionate con la stipula dell'atto formale di concessione a far tempo dal 1 gennaio 1982, con la sola esclusione dei mutui concessi ai sensi della L. 9-5-75 n. 153
-							<rif xlink:href="urn:nir:stato:legge:1975-05-09;153#art18" xlink:type="simple">art. 18</rif>
+							La ritenuta di cui sopra dovrà essere effettuata per tutte le operazioni assistite da fidejussione regionale perfezionate con la stipula dell'atto formale di concessione a far tempo dal 1 gennaio 1982, con la sola esclusione dei mutui concessi ai sensi della
+							<rif xlink:href="urn:nir:stato:legge:1975-05-09;153#art18" xlink:type="simple">L. 9-5-75 n. 153 art. 18</rif>
 							.
 						</corpo>
 					</comma>
