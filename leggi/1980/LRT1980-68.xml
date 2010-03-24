@@ -8,7 +8,8 @@
 					<entratainvigore norm="19800613" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1980-05-24;68" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1980-05-24;68@1982-01-05" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1980-05-24;68@1982-01-05" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1980-05-24;68@1983-04-14" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="CONTRATTI" />
 						<materia valore="CONTABILITÀ" />
@@ -19,10 +20,12 @@
 					<eventi>
 						<evento data="19800613" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19820127" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19830506" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-05-24;68" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1982-01-05;3" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1983-04-14;17" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -39,6 +42,21 @@
 								<dsp:pos xlink:href="#art18-com7" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art46" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1983-04-14;17" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1983-04-14;17#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 14 aprile 1983, n. 17" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art46-com1-letc" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art46-com1-letc-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -2128,9 +2146,13 @@
 									<num>b)</num>
 									<corpo>accreditamento in conto corrente bancario o postale, intestato al creditore;</corpo>
 								</el>
-								<el id="art46-com1-letc">
+								<el finevigore="t3" id="art46-com1-letc-t3" iniziovigore="t1" status="abrogato">
 									<num>c)</num>
 									<corpo>comunicazione in assegno circolare non trasferibile a favore del creditore, da spedirsi allo stesso a mezzo raccomandata con avviso di ricevimento;</corpo>
+								</el>
+								<el id="art46-com1-letc" iniziovigore="t3">
+									<num>c)</num>
+									<corpo>commutazione in assegno circolare non trasferibile a favore del creditore, da spedirsi allo stesso a mezzo raccomandata;</corpo>
 								</el>
 								<el id="art46-com1-letd">
 									<num>d)</num>
@@ -2145,7 +2167,7 @@
 								<num />
 								<corpo>
 									I mandati di pagamento, individuali o collettivi, rimasti interamente o parzialmente inestinti alla data del 31 dicembre, sono commutati d'ufficio in assegni circolari non trasferibili, con le modalità di cui alla
-									<rif xlink:href="#art46-com1-letc" xlink:type="simple">lett. c) del primo comma</rif>
+									<rif xlink:href="#art46-com1-letc-t3" xlink:type="simple">lett. c) del primo comma</rif>
 									.
 								</corpo>
 							</comma>
