@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19820420" num="24" tipo="BURT" />
 					<entratainvigore norm="19820505" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1982-04-13;31" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1982-04-13;31" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1982-04-13;31@1983-03-09" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tutela ambientale" />
 						<materia valore="Credito" />
@@ -17,11 +18,47 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19820505" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19830331" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1982-04-13;31" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1983-03-09;14" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1983-03-09;14" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1983-03-09;14#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 9 marzo 1983, n. 14" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art6-com1-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1983-03-09;14" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1983-03-09;14#artunico-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 2 della legge Regione Toscana 9 marzo 1983, n. 14" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6-com5" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art6-com4-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -159,14 +196,18 @@
 				<articolo id="art6">
 					<num>ARTICOLO 6</num>
 					<rubrica>(Presentazione delle domande ed ammissione alle agevolazioni creditizie)</rubrica>
-					<comma id="art6-com1">
+					<comma finevigore="t2" id="art6-com1-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>Le domande devono essere presentate entro il 30 agosto 1982 al Presidente della Giunta regionale e all'Istituto di Credito prescelto per il finanziamento.</corpo>
 					</comma>
-					<comma id="art6-com2">
+					<comma id="art6-com2" iniziovigore="t2">
+						<num />
+						<corpo>Le domande devono essere presentate al Presidente della Giunta regionale e all'Istituto di credito prescelto per il finanziamento.</corpo>
+					</comma>
+					<comma id="art6-com3">
 						<num />
 						<alinea>Alla domanda, nella quale il richiedente deve dichiarare, sotto la propria responsabilità che gli interventi previsti non beneficiano di altre agevolazioni contributive o creditizie pubbliche, deve essere allegata la seguente documentazione:</alinea>
-						<ep id="art6-com2-pun1">
+						<ep id="art6-com3-pun1">
 							<num>-</num>
 							<corpo>
 								Domanda per ottenere l'autorizzazione di cui all'
@@ -174,32 +215,42 @@
 								;
 							</corpo>
 						</ep>
-						<ep id="art6-com2-pun2">
+						<ep id="art6-com3-pun2">
 							<num>-</num>
 							<corpo>Progetto delle opere comprensivo di relazione tecnico - economica e computo metrico estimativo;</corpo>
 						</ep>
-						<ep id="art6-com2-pun3">
+						<ep id="art6-com3-pun3">
 							<num>-</num>
 							<corpo>preventivi di spesa del macchinario e del materiale mobile;</corpo>
 						</ep>
-						<ep id="art6-com2-pun4">
+						<ep id="art6-com3-pun4">
 							<num>-</num>
 							<corpo>certificato catastale od altra certificazione equivalente;</corpo>
 						</ep>
-						<ep id="art6-com2-pun5">
+						<ep id="art6-com3-pun5">
 							<num>-</num>
 							<corpo>estratto di mappa relativo alle particelle sulle quali saranno eseguite le opere.</corpo>
 						</ep>
 					</comma>
-					<comma id="art6-com3">
+					<comma finevigore="t2" id="art6-com4-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>Il programma degli interventi ammessi a contributo è deliberato dal Consiglio regionale entro il 15 novembre 1982 su proposta della Giunta regionale sentite le Associazioni intercomunali.</corpo>
 					</comma>
-					<comma id="art6-com4">
+					<comma id="art6-com5" iniziovigore="t2">
+						<num />
+						<corpo>Il programma degli interventi ammessi al contributo è deliberato dal Consiglio Regionale semestralmente o annualmente su proposta della Giunta regionale sentite le Associazioni Intercomunali.</corpo>
+					</comma>
+					<comma id="art6-com6">
 						<num />
 						<corpo>
-							L'accertamento finale di esecuzione delle opere e di effettuazione degli acquisti è subordinato al rilascio dell'autorizzazione definitiva allo scarico a norma dei commi 8 e 9 dell'
-							<rif xlink:href="urn:nir:stato:legge:1976-05-10;319#art15" xlink:type="simple">art. 15 della legge 10-5-1976 n. 319</rif>
+							L'accertamento finale di esecuzione delle opere e di effettuazione degli acquisti è subordinato al rilascio dell'autorizzazione definitiva allo scarico a norma dei
+							<mrif>
+								commi
+								<rif xlink:href="urn:nir:stato:legge:1976-05-10;319#art15-com8" xlink:type="simple">8</rif>
+								e
+								<rif xlink:href="urn:nir:stato:legge:1976-05-10;319#art15-com9" xlink:type="simple">9</rif>
+								dell'art. 15 della legge 10-5-1976 n. 319
+							</mrif>
 							.
 						</corpo>
 					</comma>
