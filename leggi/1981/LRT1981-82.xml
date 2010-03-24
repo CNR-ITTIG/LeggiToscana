@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19811120" num="62" tipo="BURT" />
 					<entratainvigore norm="19811205" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1981-11-12;82" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1981-11-12;82" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1981-11-12;82@1983-02-01" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="PUBBLICHE CALAMITÀ" />
 					</materie>
@@ -15,11 +16,47 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19811205" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19830224" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1981-11-12;82" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1983-02-01;5" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1983-02-01;5" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1983-02-01;5#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 1 febbraio 1983, n. 5" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3-com3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-com2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1983-02-01;5" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1983-02-01;5#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 1 febbraio 1983, n. 5" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art5-com3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-com2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -121,11 +158,19 @@
 								.
 							</corpo>
 						</comma>
-						<comma id="art3-com2">
+						<comma finevigore="t2" id="art3-com2-t2" iniziovigore="t1" status="abrogato">
 							<num />
 							<corpo>Il contributo è concesso nella misura annua del 7% sui mutui contratti dal richiedente fino alla concorrenza di un importo di L. 30.000.000 e per la durata massima di 10 anni.</corpo>
 						</comma>
-						<comma id="art3-com3">
+						<comma id="art3-com3" iniziovigore="t2">
+							<num />
+							<corpo>
+								Il contributo è concesso in una misura annua non superiore al 7% su mutui contratti dal richiedente di durata non superiore a 10 anni e di importo non superiore all'80% della spesa preventivata per la ricostituzione delle scorte, dei macchinari, delle attrezzature, degli arredi, delle merci in lavorazione ed in magazzino distrutti o danneggiati. Nell'ambito di tali limiti, sulla base della gravità dei danni e dell'estensione delle zone colpite, quali risultano dagli accertamenti esperiti dai Comuni interessati, il Consiglio regionale determina di volta in volta la misura del contributo, la durata e l'importo del finanziamento agevolato in sede di adozione della deliberazione di cui al
+								<rif xlink:href="#art1-com3" xlink:type="simple">comma 3 dell'art. 1</rif>
+								della presente legge.
+							</corpo>
+						</comma>
+						<comma id="art3-com4">
 							<num />
 							<corpo>
 								Tale contributo non è cumulabile con quello previsto dal
@@ -183,11 +228,19 @@
 								che abbiano subito un danno superiore rispettivamente a cinque e a sette milioni di lire e che non intendano beneficiare del contributo in conto capitale di cui allo stesso articolo.
 							</corpo>
 						</comma>
-						<comma id="art5-com2">
+						<comma finevigore="t2" id="art5-com2-t2" iniziovigore="t1" status="abrogato">
 							<num />
 							<corpo>Il contributo è concesso nella misura del 7% su mutui contratti dai richiedenti fino alla concorrenza di L. 35.000.000 e per la durata massima di 10 anni.</corpo>
 						</comma>
-						<comma id="art5-com3">
+						<comma id="art5-com3" iniziovigore="t2">
+							<num />
+							<corpo>
+								Il contributo è concesso in una misura annua non superiore al 7% su mutui contratti dal richiedente di durata non superiore a 10 anni e di importo non superiore all'80% della spesa preventivata per la ricostituzione o la riparazione degli immobili e degli stabilimenti balneari distrutti o danneggiati. Nell'ambito di tali limiti, sulla base della gravità dei danni e dell'estensione delle zone colpite, quali risultano dagli accertamenti esperiti dai Comuni interessati, il Consiglio regionale determina di volta in volta la misura del contributo, la durata e l'importo del finanziamento agevolato, in sede di adozione della deliberazione di cui al
+								<rif xlink:href="#art1-com3" xlink:type="simple">comma 3 dell'art. 1</rif>
+								della presente legge.
+							</corpo>
+						</comma>
+						<comma id="art5-com4">
 							<num />
 							<corpo>
 								Tale contributo non è cumulabile con quello previsto dal
@@ -197,7 +250,7 @@
 								.
 							</corpo>
 						</comma>
-						<comma id="art5-com4">
+						<comma id="art5-com5">
 							<num />
 							<corpo>
 								Dalle provvidenze di cui al
@@ -205,7 +258,7 @@
 								della presente legge sono esclusi i proprietari di immobili e gli esercenti di stabilimenti balneari titolari delle concessioni del demanio marittimo il cui reddito annuo accertato in via definitiva o dichiarato riferito all'anno immediatamente precedente all'evento calamitoso, sia superiore a dieci milioni, che risulti da attestato rilasciato dall'Ufficio distrettuale delle imposte dirette.
 							</corpo>
 						</comma>
-						<comma id="art5-com5">
+						<comma id="art5-com6">
 							<num />
 							<corpo>Ogni dichiarazione non risultante veritiera comporta per i trasgressori le sanzioni penali sancite dalle leggi della Repubblica.</corpo>
 						</comma>
