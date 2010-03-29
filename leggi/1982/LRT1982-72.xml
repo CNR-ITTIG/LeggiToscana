@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19820907" num="50" tipo="BURT" />
 					<entratainvigore norm="19820922" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1982-08-31;72" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1982-08-31;72" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1982-08-31;72@1983-06-06" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sistema educativo" />
 					</materie>
@@ -15,11 +16,41 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19820922" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19830630" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1982-08-31;72" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1983-06-06;39" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Relativamente al versamento dei contributi di cui al primo e secondo comma del presente articolo dell'anno accademico 1982/83 si veda la
+							<rif xlink:href="urn:nir:regione.toscana:legge:1983-06-06;39" xlink:type="simple">legge regionale 6 giugno 1983, n. 39</rif>
+							.
+						</h:p>
+					</nota>
+				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art30-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1983-06-06;39" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1983-06-06;39#artunico-com3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 3 della legge Regione Toscana 6 giugno 1983, n. 39" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -789,7 +820,11 @@
 				</articolo>
 				<articolo id="art30">
 					<num>ARTICOLO 30</num>
-					<rubrica>(Tasse e contributi)</rubrica>
+					<rubrica>
+						(Tasse e contributi
+						<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+						)
+					</rubrica>
 					<comma id="art30-com1">
 						<num />
 						<corpo>
@@ -821,8 +856,12 @@
 					<comma id="art30-com4">
 						<num />
 						<corpo>
-							All'accertamento, liquidazione e riscossione delle tasse, si applicano le norme previste in materia di tasse sulle concessioni regionali dalla
-							<rif xlink:href="urn:nir:regione.toscana:legge:1980-01-18;5" xlink:type="simple">legge regionale n. 5 del 18-1-1980</rif>
+							All'accertamento, liquidazione e riscossione delle tasse, si applicano le norme previste in materia di tasse sulle concessioni regionali
+							<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">
+								dalla
+								<rif xlink:href="urn:nir:regione.toscana:legge:1980-01-18;5" xlink:type="simple">legge regionale n. 5 del 18-1-1980</rif>
+							</h:span>
+							<h:span id="h2" iniziovigore="t2">dalle vigenti leggi</h:span>
 							.
 						</corpo>
 					</comma>
