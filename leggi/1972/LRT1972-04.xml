@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t7" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19720211" num="06" tipo="BURT" />
@@ -10,7 +10,8 @@
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1972-02-04;4" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1972-02-04;4@1973-06-25" />
 					<urn finevigore="t5" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1972-02-04;4@1975-05-16" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1972-02-04;4@1976-09-04" />
+					<urn finevigore="t7" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1972-02-04;4@1976-09-04" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1972-02-04;4@1983-06-13" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -20,6 +21,7 @@
 						<evento data="19760925" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="19760925" fonte="rp4" id="t5" tipo="modifica" />
 						<evento data="19810103" fonte="rp5" id="t6" tipo="modifica" />
+						<evento data="19830707" fonte="rp6" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1972-02-04;4" xlink:type="simple" />
@@ -28,31 +30,32 @@
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1973-06-25;34" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1976-09-04;63" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1980-12-13; 91" xlink:type="simple" />
+						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:1983-06-13;47" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							I rapporti percentuali di cui al presente comma sono aumentati ciascuno di cinque punti percentuali ai sensi dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1976-09-04;63#art7" xlink:type="simple">art. 7 della legge regionale 4 settembre 1976 ,n. 63</rif>
 							.
 						</h:p>
 					</nota>
-					<nota id="n2">
+					<nota id="LeggeRegionale1-n2">
 						<h:p>
 							Ai sensi dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1976-09-04;63#art9" xlink:type="simple">art. 9 della legge regionale 4 settembre 1976, n. 63</rif>
 							,gli effetti giuridici ed economici dell'abrogazione del presente comma decorrono dal 1 luglio 1975.
 						</h:p>
 					</nota>
-					<nota id="n3">
+					<nota id="LeggeRegionale1-n3">
 						<h:p>
 							Relativamente al rimborso spese di cui al presente comma si veda anchel'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1976-09-04;63#art8" xlink:type="simple">art. 8 della legge regionale 4 settembre 1976, n. 63</rif>
 							.
 						</h:p>
 					</nota>
-					<nota id="n4">
+					<nota id="LeggeRegionale1-n4">
 						<h:p>A far data dal 1 gennaio 1981 la misura del rimborso spese è elevata a L. 20.000.</h:p>
 					</nota>
 				</redazionale>
@@ -175,6 +178,18 @@
 								<dsp:pos xlink:href="#art2-com2-t4" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1972-02-04;4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1983-06-13;47" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1983-06-13;47#art6-com3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 6, comma 3 della legge Regione Toscana 13 giugno 1983, n. 47" id="itt10" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -242,7 +257,7 @@
 							L'indennità dei consiglieri regionali, in relazione alle funzioni e alle attività svolte nel Consiglio e nella Giunta, è stabilita mensilmente e per dodici mensilità in rapporto percentuale all'indennità percepita dai membri del Parlamento nazionale in base all'
 							<rif xlink:href="urn:nir:stato:legge:1965-10-31;1261#art1" xlink:type="simple">art. 1 della legge statale n. 1261 del 31-10-1965</rif>
 							, nella misura di
-							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 							:
 						</alinea>
 						<el id="art2-com1-leta">
@@ -270,7 +285,7 @@
 						<num />
 						<corpo>
 							L'aggiornamento delle predette indennità in rapporto agli eventuali aumenti delle indennità parlamentari non è automatico ma è deciso dall'ufficio di presidenza del consiglio, sentiti i presidenti dei gruppi consiliari
-							<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+							<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(b)</ndr>
 							.
 						</corpo>
 					</comma>
@@ -332,8 +347,8 @@
 							<rif xlink:href="#art1-com1" xlink:type="simple">art. 1</rif>
 							della presente legge è stabilito, per tutti i consiglieri regionali, nella misura di L. 7.500 a giornata di presenza alle sedute del Consiglio, delle commissioni di cui fanno parte e della conferenza di cui all'
 							<rif xlink:href="urn:nir:regione.toscana:statuto:#art14" xlink:type="simple">art. 14 dello Statuto</rif>
-							<ndr num="#n3" valore="" xlink:type="simple">(c)</ndr>
-							<ndr num="#n4" valore="" xlink:type="simple">(d)</ndr>
+							<ndr num="#LeggeRegionale1-n3" valore="" xlink:type="simple">(c)</ndr>
+							<ndr num="#LeggeRegionale1-n4" valore="" xlink:type="simple">(d)</ndr>
 							.
 						</corpo>
 					</comma>
