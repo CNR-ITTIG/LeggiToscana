@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1980-03-15;17" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1980-03-15;17@1981-07-29" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1980-03-15;17@1982-07-27" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1980-03-15;17@1982-07-27" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1980-03-15;17@1983-08-19" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Caccia" />
 						<materia valore="Fauna" />
@@ -20,11 +21,13 @@
 						<evento data="19800405" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19810807" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19820803" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="19830915" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-03-15;17" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1981-07-29;61" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1982-07-27;64" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1983-08-19;63" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -101,7 +104,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+								<dsp:pos xlink:href="" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -134,6 +137,42 @@
 								<dsp:pos xlink:href="#art20-t3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art22-com14" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1983-08-19;63" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1983-08-19;63#artunico-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 2 della legge Regione Toscana 19 agosto 1983, n. 63" id="itt8" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art22-com15" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1983-08-19;63" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1983-08-19;63#artunico-com3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 3 della legge Regione Toscana 19 agosto 1983, n. 63" id="itt9" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art22-com9" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1983-08-19;63" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1983-08-19;63#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo1, comma1, legge Regione Toscana 19 agosto 1983, n. 63" id="itt10" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -1676,7 +1715,10 @@
 						</comma>
 						<comma id="art22-com9">
 							<num />
-							<corpo>I limiti di distanza di cui ai commi precedenti non si applicano agli appostamenti fissi i cui titolari abbiano ottenuto regolare autorizzazione prima dell'entrata in vigore della presente legge.</corpo>
+							<corpo>
+								I limiti di distanza di cui ai commi precedenti non si applicano agli appostamenti fissi i cui titolari abbiano ottenuto regolare autorizzazione prima dell'entrata in vigore della presente legge.
+								<h:span id="h1" iniziovigore="t4">La scadenza di tale autorizzazione avviene quando il titolare non ottiene il rinnovo annuale per mancato pagamento della tassa di concessione regionale ovvero per il venir meno del consenso del proprietario e del conduttore del fondo.</h:span>
+							</corpo>
 						</comma>
 						<comma id="art22-com10">
 							<num />
@@ -1696,11 +1738,17 @@
 						</comma>
 						<comma id="art22-com14">
 							<num />
-							<corpo>Fatti salvi i presupposti di cui ai commi precedenti gli appostamenti fissi sono autorizzati annualmente dalla Amministrazione Provinciale, dietro presentazione di domanda corredata dal consenso di cui al comma precedente di mappa illustrante l'area nella quale l'appostamento viene collocato e di ricevuta attestante l'avvenuto pagamento della tassa di concessione regionale.</corpo>
+							<corpo>
+								Fatti salvi i presupposti di cui ai commi precedenti gli appostamenti fissi sono autorizzati annualmente dalla Amministrazione Provinciale, dietro presentazione di domanda corredata dal consenso di cui al comma precedente di mappa illustrante l'area nella quale l'appostamento viene collocato e di ricevuta attestante l'avvenuto pagamento della tassa di concessione regionale.
+								<h:span id="h2" iniziovigore="t4">Detta autorizzazione all'appostamento è concessa a titolo personale e pertanto non è cedibile.</h:span>
+							</corpo>
 						</comma>
 						<comma id="art22-com15">
 							<num />
-							<corpo>L'autorizzazione permette la costruzione di un impianto sul quale viene apposta una tabella fornita dall'Amministrazione Provinciale recante la scritta "Appostamento fisso di caccia n...".</corpo>
+							<corpo>
+								L'autorizzazione permette la costruzione di un impianto sul quale viene apposta una tabella fornita dall'Amministrazione Provinciale recante la scritta "Appostamento fisso di caccia n...".
+								<h:span id="h3" iniziovigore="t4">In caso di scadenza della autorizzazione o di sua decadenza è fatto obbligo al titolare dell'appostamento o ai suoi aventi causa di riconsegnare alla Amministrazione Provinciale l'apposita tabella.</h:span>
+							</corpo>
 						</comma>
 						<comma id="art22-com16">
 							<num />
@@ -2267,10 +2315,7 @@
 							</el>
 							<el id="art38-com1-letc">
 								<num>c)</num>
-								<corpo>
-									la sanzione amministrativa da L. 50.000 a lire L. 500.000 e la sospensione della licenza fino ad un anno per chi esercita la caccia in periodo non consentito o in zona in cui sussiste il divieto di caccia; in caso di recidiva si applica la sanzione amministrativa da L. 100.000 a L. 1.000.000 e la sospensione della licenza fino a tre anni; in caso di ulteriore recidiva la sanzione amministrativa da L. 200.000 a L. 2.000.000 e la revoca della licenza;
-									<h:span id="h1" iniziovigore="t2">Analoga sanzione si applica per chi esercita senza autorizzazione la caccia nelle aziende faunistico - venatorie o nelle aree a regolamento specifico.</h:span>
-								</corpo>
+								<corpo>la sanzione amministrativa da L. 50.000 a lire L. 500.000 e la sospensione della licenza fino ad un anno per chi esercita la caccia in periodo non consentito o in zona in cui sussiste il divieto di caccia; in caso di recidiva si applica la sanzione amministrativa da L. 100.000 a L. 1.000.000 e la sospensione della licenza fino a tre anni; in caso di ulteriore recidiva la sanzione amministrativa da L. 200.000 a L. 2.000.000 e la revoca della licenza;</corpo>
 							</el>
 							<el id="art38-com1-letd">
 								<num>d)</num>
