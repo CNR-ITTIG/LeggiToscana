@@ -12,7 +12,8 @@
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1982-02-23" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1982-08-24" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1982-10-30" />
-					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1982-11-08" />
+					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1982-11-08" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1983-07-19" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="AGRICOLTURA" />
 						<materia valore="ATTRIBUZIONI DELEGHE" />
@@ -26,6 +27,7 @@
 						<evento data="19820915" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="19821124" fonte="rp4" id="t5" tipo="modifica" />
 						<evento data="19821201" fonte="rp5" id="t6" tipo="modifica" />
+						<evento data="19830811" fonte="rp6" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1981-02-09;15" xlink:type="simple" />
@@ -34,6 +36,7 @@
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1982-08-24;71" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1982-10-30;78" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1982-11-08;82" xlink:type="simple" />
+						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:1983-07-19;56" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -212,6 +215,36 @@
 								<dsp:pos xlink:href="#art2-com1-letr" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com1-letf" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1983-07-19;56" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1983-07-19;56#art10-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 10, comma 1 della legge Regione Toscana 19 luglio 1983, n. 56" id="itt14" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com1-letf" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-com1-letf-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com1-leth" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1983-07-19;56" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1983-07-19;56#art10-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 10, comma 2 della legge Regione Toscana 19 luglio 1983, n. 56" id="itt15" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com1-leth" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-com1-leth-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -586,7 +619,7 @@
 								;
 							</corpo>
 						</el>
-						<el id="art4-com1-letf">
+						<el finevigore="t7" id="art4-com1-letf-t7" iniziovigore="t1" status="abrogato">
 							<num>f)</num>
 							<corpo>
 								le funzioni relative al riconoscimento dei centri di contabilità di cui agli
@@ -606,6 +639,28 @@
 								;
 							</corpo>
 						</el>
+						<el id="art4-com1-letf" iniziovigore="t7">
+							<num>f)</num>
+							<corpo>
+								le funzioni relative al riconoscimento dei centri di contabilità di cui agli
+								<mrif>
+									artt.
+									<rif xlink:href="urn:nir:regione.toscana:legge:1977-09-07;71#art35" xlink:type="simple">35</rif>
+									,
+									<rif xlink:href="urn:nir:regione.toscana:legge:1977-09-07;71#art36" xlink:type="simple">36</rif>
+									e
+									<rif xlink:href="urn:nir:regione.toscana:legge:1977-09-07;71#art37" xlink:type="simple">37</rif>
+									della LR 7-9-1977, n. 71
+								</mrif>
+								e delle associazioni zootecniche di cui alla
+								<rif xlink:href="urn:nir:regione.toscana:legge:1977-01-29;12" xlink:type="simple">LR 29-1-1977, n. 12</rif>
+								; al riconoscimento delle unioni ed associazioni di cui alla
+								<rif xlink:href="urn:nir:stato:legge:1978-10-20;674" xlink:type="simple">legge 20-10-1978, n. 674</rif>
+								, al riconoscimento dei consorzi e degli altri organismi di cui all'
+								<rif xlink:href="urn:nir:stato:legge:1981-10-15;590#art10" xlink:type="simple">art. 10 della legge 15-10-1981, n. 590</rif>
+								;
+							</corpo>
+						</el>
 						<el id="art4-com1-letg">
 							<num>g)</num>
 							<corpo>
@@ -614,7 +669,7 @@
 								;
 							</corpo>
 						</el>
-						<el id="art4-com1-leth">
+						<el finevigore="t7" id="art4-com1-leth-t7" iniziovigore="t1" status="abrogato">
 							<num>h)</num>
 							<corpo>
 								le delimitazioni per le zone colpite da calamità naturali e da avversità atmosferiche di cui alla
@@ -623,6 +678,10 @@
 								<rif xlink:href="urn:nir:regione.toscana:legge:1976-07-12;35" xlink:type="simple">LR 12-7-1976 n. 35</rif>
 								.
 							</corpo>
+						</el>
+						<el id="art4-com1-leth" iniziovigore="t7">
+							<num>h)</num>
+							<corpo>la delimitazione del territorio danneggiato da calamità naturali e da avversità atmosferiche; la specificazione e la concessione delle relative provvidenze.</corpo>
 						</el>
 					</comma>
 					<comma id="art4-com2">
