@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19830831" num="41" tipo="BURT" />
 					<entratainvigore norm="19830915" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1983-08-19;62" />
+					<urn iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1983-08-19;62" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Assistenza Sanitaria" />
 					</materie>
@@ -15,11 +15,29 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19830915" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19830915" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1983-08-19;62" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1983-08-19;64" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1983-08-19;64" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1983-08-19;64#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 19 agosto 1983, n. 64" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3-com2" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -75,6 +93,14 @@
 							L'esercizio di tutti i diritti di rivalsa sorgenti da fatti verificatisi prima del 31 dicembre 1983 resta di competenza della Regione a norma dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1975-02-03;10#art9" xlink:type="simple">art. 9 della LR 3-2-1975 n. 10</rif>
 							.
+						</corpo>
+					</comma>
+					<comma id="art3-com2" iniziovigore="t2">
+						<num />
+						<corpo>
+							La riscossione ed il recupero delle spese indicate nell'
+							<rif xlink:href="#art1" xlink:type="simple">art. 1</rif>
+							connesse a prestazioni erogate in data precedente a quella indicata nel primo comma, sono comunque affidate ai Comitati di Gestione delle Unità Sanitarie Locali, qualora le stesse abbiano proceduto all'accertamento del fatto che costituisce titolo, per l'esercizio dell'azione di rivalsa.
 						</corpo>
 					</comma>
 				</articolo>
