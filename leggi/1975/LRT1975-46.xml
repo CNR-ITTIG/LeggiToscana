@@ -1,22 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19750530" num="24" tipo="BURT" />
 					<entratainvigore norm="19750614" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1975-05-21;46" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1975-05-21;46" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1975-05-21;46@1983-08-02" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19750614" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19830825" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1975-05-21;46" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1983-08-02;57" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1983-08-02;57" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1983-08-02;57#art6-com5" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 6, comma 5 della legge Regione Toscana 2 agosto 1983, n. 57" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1983-08-02;57" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1983-08-02;57#art7-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 7, comma 1 della legge Regione Toscana 2 agosto 1983, n. 57" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1983-08-02;57" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1983-08-02;57#art7-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 7, comma 2 della legge Regione Toscana 2 agosto 1983, n. 57" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art5-com6" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-com5-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -97,13 +146,13 @@
 						<corpo>Nella formazione del piano la Regione tiene conto della ubicazione di impianti di interesse pubblico per la raccolta, conservazione, lavorazione, trasformazione e vendita di prodotti agricoli e zootecnici, la cui disciplina sarà regolata da appositi provvedimenti normativi regionali.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art3">
+				<articolo finevigore="t2" id="art3-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 3</num>
 					<rubrica>(Autorizzazione dell'istituzione di nuovi mercati)</rubrica>
-					<comma id="art3-com1">
+					<comma id="art3-t2-com1">
 						<num />
 						<alinea>Sono sottoposti ad autorizzazione:</alinea>
-						<el id="art3-com1-leta">
+						<el id="art3-t2-com1-leta">
 							<num>a)</num>
 							<corpo>
 								l'istituzione di nuovi mercati all'ingrosso di cui all'
@@ -111,12 +160,12 @@
 								della presente legge;
 							</corpo>
 						</el>
-						<el id="art3-com1-letb">
+						<el id="art3-t2-com1-letb">
 							<num>b)</num>
 							<corpo>l'ampliamento dei mercati e tutti gli ammodernamenti che comportino l'utilizzazione di nuove superfici.</corpo>
 						</el>
 					</comma>
-					<comma id="art3-com2">
+					<comma id="art3-t2-com2">
 						<num />
 						<corpo>
 							L'autorizzazione è concessa dal Consiglio regionale soltanto ad iniziative conformi alle previsioni del piano di cui all'
@@ -124,15 +173,15 @@
 							, corredate dai relativi progetti tecnici di massima, comprensivi delle indicazioni dell'area di ubicazione degli impianti e di tutti gli altri elementi preventivamente indicati dalla Giunta regionale con apposita deliberazione, previa consultazione degli Enti locali territoriali compresi nell'area di influenza del mercato.
 						</corpo>
 					</comma>
-					<comma id="art3-com3">
+					<comma id="art3-t2-com3">
 						<num />
 						<corpo>In attesa dell'approvazione del piano regionale dei mercati all'ingrosso, gli ampliamenti e gli ammodernamenti di cui alla lett. b) possono essere autorizzati dal Consiglio regionale con le modalità previste dal comma precedente.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art4">
+				<articolo finevigore="t2" id="art4-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 4</num>
 					<rubrica>(Gestione dei mercati all'ingrosso e vigilanza)</rubrica>
-					<comma id="art4-com1">
+					<comma id="art4-t2-com1">
 						<num />
 						<corpo>
 							Alla costruzione e gestione dei mercati all'ingrosso di cui all'
@@ -140,11 +189,11 @@
 							della presente legge provvede l'ente stesso che ha istituito il mercato.
 						</corpo>
 					</comma>
-					<comma id="art4-com2">
+					<comma id="art4-t2-com2">
 						<num />
 						<corpo>Nel caso di istituzione, costruzione e gestione del mercato all'ingrosso da parte dei consorzi, questi stessi possono deliberare l'affidamento della gestione del mercato ad uno degli enti costituenti il Consorzio.</corpo>
 					</comma>
-					<comma id="art4-com3">
+					<comma id="art4-t2-com3">
 						<num />
 						<corpo>
 							I rapporti fra ente che ha istituito il mercato ed ente gestore sono regolati da apposita convenzione cui non si applica l'
@@ -152,19 +201,19 @@
 							.
 						</corpo>
 					</comma>
-					<comma id="art4-com4">
+					<comma id="art4-t2-com4">
 						<num />
 						<corpo>Alla gestione del mercato non può provvedersi mediante la concessione.</corpo>
 					</comma>
-					<comma id="art4-com5">
+					<comma id="art4-t2-com5">
 						<num />
 						<corpo>Per i mercati già istituiti alla data di entrata in vigore della presente legge, la gestione, nel caso sia affidata in concessione ad enti od organismi diversi, alla scadenza è assunta dal Comune nel cui territorio è situato il mercato o dal Consorzio di Comuni cui lo stesso partecipi.</corpo>
 					</comma>
-					<comma id="art4-com6">
+					<comma id="art4-t2-com6">
 						<num />
 						<corpo>Per la gestione di mercato l'ente gestore si avvale di una commissione consultiva composta dai rappresentanti delle associazioni e degli operatori economici, della produzione e della distribuzione, della cooperazione e delle organizzazioni sindacali più rappresentative dei lavoratori e degli altri enti interessati.</corpo>
 					</comma>
-					<comma id="art4-com7">
+					<comma id="art4-t2-com7">
 						<num />
 						<corpo>
 							La vigilanza svolta dalla commissione provinciale prevista dall'
@@ -172,9 +221,57 @@
 							sulla gestione e sui servizi ausiliari degli impianti pubblici di mercato è soppressa.
 						</corpo>
 					</comma>
-					<comma id="art4-com8">
+					<comma id="art4-t2-com8">
 						<num />
 						<corpo>Gli enti gestori trasmettono alla Giunta regionale una relazione annuale della gestione sulla base di un apposito questionario predisposto dalla Giunta stessa.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art4" iniziovigore="t2">
+					<num>ARTICOLO 4</num>
+					<rubrica>(Gestione dei mercati all'ingrosso e vigilanza)</rubrica>
+					<comma id="art4-com1">
+						<num />
+						<alinea>
+							Alla realizzazione e gestione dei mercati all'ingrosso di cui all'
+							<rif xlink:href="#art1" xlink:type="simple">articolo 1</rif>
+							della presente legge provvedono:
+						</alinea>
+						<el id="art4-com1-leta">
+							<num>a)</num>
+							<corpo>gli enti che hanno istituito il mercato;</corpo>
+						</el>
+						<el id="art4-com1-letb">
+							<num>b)</num>
+							<corpo>società o altre forme associative costituite fra gli enti pubblici che hanno istituito il mercato ed operatori economici privati, nelle quali sia assicurata la partecipazione maggioritaria di capitale pubblico.</corpo>
+						</el>
+					</comma>
+					<comma id="art4-com2">
+						<num />
+						<corpo>Nel caso di cui alla lettera b) alla realizzazione e gestione del mercato si provvede sulla base di un atto di concessione dell'ente istitutore del mercato.</corpo>
+					</comma>
+					<comma id="art4-com3">
+						<num />
+						<corpo>Nell'atto di concessione, oltre ai casi ed alle modalità per la revoca e la decadenza della concessione, dovrà essere in particolare previsto che la gestione del mercato avvenga in conformità del regolamento di mercato.</corpo>
+					</comma>
+					<comma id="art4-com4">
+						<num />
+						<corpo>La subconcessione è vietata e comporta la decadenza della concessione. Per la gestione del mercato l'ente gestore si avvale di una commissione consultiva composta dai rappresentanti delle associazioni e degli operatori economici della produzione, della distribuzione, della cooperazione, degli altri enti interessati, nonchè delle organizzazioni sindacali più rappresentative dei lavoratori.</corpo>
+					</comma>
+					<comma id="art4-com5">
+						<num />
+						<corpo>La gestione dei mercati non può perseguire fini di lucro; i canoni e le tariffe dovranno essere fissati in modo che i proventi della gestione siano commisurati a sostenere esclusivamente le spese necessarie al funzionamento del mercato, all'ammortamento ed al miglioramento dei relativi impianti.</corpo>
+					</comma>
+					<comma id="art4-com6">
+						<num />
+						<corpo>
+							La vigilanza svolta dalla commissione provinciale di cui all'
+							<rif xlink:href="urn:nir:stato:legge:1959-03-25;125#art4-com1" xlink:type="simple">articolo 4, primo comma, della legge 25-3-1959, n. 125</rif>
+							è soppressa.
+						</corpo>
+					</comma>
+					<comma id="art4-com7">
+						<num />
+						<corpo>Gli enti gestori sono tenuti a fornire alla Giunta regionale informazioni e dati concernenti la gestione ed il funzionamento del mercato.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art5">
@@ -208,11 +305,19 @@
 						<num />
 						<corpo>Il Consiglio regionale emana il regolamento tipo sulle materie attinenti alla disciplina e al funzionamento dei mercati all'ingrosso.</corpo>
 					</comma>
-					<comma id="art5-com5">
+					<comma finevigore="t2" id="art5-com5-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>Il regolamento di mercato e le sue modifiche sono deliberati dall'ente gestore, sentite le organizzazioni sindacali più rappresentative dei lavoratori, le associazioni di categoria degli operatori economici e la cooperazione.</corpo>
 					</comma>
-					<comma id="art5-com6">
+					<comma id="art5-com6" iniziovigore="t2">
+						<num />
+						<corpo>
+							Il regolamento di mercato e le sue modifiche sono deliberati dall'ente che ha istituito il mercato, sentita la commissione consultiva di cui all'
+							<rif xlink:href="#art4" xlink:type="simple">art. 4</rif>
+							.
+						</corpo>
+					</comma>
+					<comma id="art5-com7">
 						<num />
 						<corpo>
 							Il regolamento di mercato può contenere norme integrative o derogative delle disposizioni del regolamento tipo emanato ai sensi del
@@ -220,7 +325,7 @@
 							del presente articolo, ad eccezione che per le norme di carattere generale riguardanti la commercializzazione dei prodotti espressamente indicate nel regolamento tipo.
 						</corpo>
 					</comma>
-					<comma id="art5-com7">
+					<comma id="art5-com8">
 						<num />
 						<corpo>Il regolamento di mercato deve garantire, relativamente alla destinazione dei posteggi - ivi compresa la destinazione degli esistenti al momento del rinnovo delle concessioni - la priorità nella concessione alle organizzazioni dei produttori, associati in forma cooperativa o consortile, alle cooperative e loro consorzi.</corpo>
 					</comma>
