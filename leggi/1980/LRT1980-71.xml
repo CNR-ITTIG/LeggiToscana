@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19800529" num="31" tipo="BURT" />
 					<entratainvigore norm="19800529" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1980-05-24;71" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1980-05-24;71" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1980-05-24;71@1983-10-17" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ordinamento" />
 						<materia valore="Enti sanitari" />
@@ -16,11 +17,53 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19800529" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19831110" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-05-24;71" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1983-10-17;69" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#??" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1983-10-17;69" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1983-10-17;69#art7" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo7, legge Regione Toscana 17 ottobre 1983, n. 69" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#con3" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#??" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1983-10-17;69" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1983-10-17;69#art19" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo19, legge Regione Toscana 17 ottobre 1983, n. 69" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#con5" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#??" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1983-10-17;69" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1983-10-17;69#art14" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo14, legge Regione Toscana 17 ottobre 1983, n. 69" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#con7" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -821,7 +864,7 @@
 				<annesso id="ann1">
 					<testata>
 						<denAnnesso>
-							<h:p>ALLEGATO</h:p>
+							<h:p>ALLEGATO A</h:p>
 						</denAnnesso>
 						<titAnnesso>
 							<h:p />
@@ -833,10 +876,14 @@
 					<DocumentoNIR nome="">
 						<meta>
 							<descrittori>
-								<pubblicazione norm="" num="" tipo="GU" />
-								<entratainvigore norm="" />
+								<pubblicazione norm="19800529" num="31" tipo="BURT" />
+								<entratainvigore norm="19800529" />
 								<redazione id="red2" nome="" norm="" />
-								<urn valore="urn:nir:regione.toscana:legge:1980-05-24;71:allegato.1" />
+								<urn valore="urn:nir:regione.toscana:legge:1980-05-24;71:allegato.a" />
+								<materie vocabolario="Regione Toscana">
+									<materia valore="Ordinamento" />
+									<materia valore="Enti sanitari" />
+								</materie>
 							</descrittori>
 						</meta>
 						<intestazione />
@@ -846,17 +893,56 @@
 								Individuazione dei servizi di cui all'
 								<rif xlink:href="#art6" xlink:type="simple">art. 6</rif>
 							</h:p>
-							<h:p>1. Servizio di Igiene pubblica e del territorio Sono di competenza del Servizio la profilassi delle malattie infettive e diffusive; la profilassi e vigilanza igienica relativa all'edilizia, all'aria, al suolo, alle acque superficiali e telluriche, agli approvvigionamenti idro - potabili, alla produzione, manipolazione, trasporto, vendita e somministrazione delle sostanze alimentari, delle bevande e dei relativi additivi, coloranti, surrogati e succedanei; la profilassi e vigilanza igienica degli insediamenti urbani e della collettività; la sorveglianza, ai fini igienici, delle strutture sanitarie; la tutela sanitaria dell'attività sportiva della popolazione; la medicina legale e gli accertamenti, le certificazioni e ogni altra prestazione medico - legale.</h:p>
-							<h:p>
-								Il Servizio svolge altresì le funzioni che sono delegate a norma dell'
-								<rif xlink:href="urn:nir:stato:legge:1978-12-23;833#art7-com4" xlink:type="simple">articolo 7, quarto comma, della legge 23 dicembre 1978, n. 833</rif>
-								, e dell'
-								<rif xlink:href="urn:nir:regione.toscana:legge:1979-12-19;63#art7" xlink:type="simple">art. 7 della legge regionale 19 dicembre 1979, n. 63</rif>
-								.
-							</h:p>
-							<h:p>Comprendente le seguenti unità operative:</h:p>
-							<h:p>- Igiene pubblica e sportiva.</h:p>
-							<h:p>Nelle UUSSLL con più di 100.000 abitanti, l'attività di Igiene delle strutture sanitarie è costituita in unità operativa distinta, compresa nel Servizio delle Attività specialistiche.</h:p>
+							<contenitore id="con2" nome="">
+								<h:p>1. Servizio di Igiene pubblica e del territorio Sono di competenza del Servizio la profilassi delle malattie infettive e diffusive; la profilassi e vigilanza igienica relativa all'edilizia, all'aria, al suolo, alle acque superficiali e telluriche, agli approvvigionamenti idro - potabili, alla produzione, manipolazione, trasporto, vendita e somministrazione delle sostanze alimentari, delle bevande e dei relativi additivi, coloranti, surrogati e succedanei; la profilassi e vigilanza igienica degli insediamenti urbani e della collettività; la sorveglianza, ai fini igienici, delle strutture sanitarie; la tutela sanitaria dell'attività sportiva della popolazione; la medicina legale e gli accertamenti, le certificazioni e ogni altra prestazione medico - legale.</h:p>
+								<h:p>
+									Il Servizio svolge altresì le funzioni che sono delegate a norma dell'
+									<rif xlink:href="urn:nir:stato:legge:1978-12-23;833#art7-com4" xlink:type="simple">articolo 7, quarto comma, della legge 23 dicembre 1978, n. 833</rif>
+									, e dell'
+									<rif xlink:href="urn:nir:regione.toscana:legge:1979-12-19;63#art7" xlink:type="simple">art. 7 della legge regionale 19 dicembre 1979, n. 63</rif>
+									.
+								</h:p>
+								<h:p>Comprendente le seguenti unità operative:</h:p>
+								<h:p>- Igiene pubblica e sportiva.</h:p>
+								<h:p>Nelle UUSSLL con più di 100.000 abitanti, l'attività di Igiene delle strutture sanitarie è costituita in unità operativa distinta, compresa nel Servizio delle Attività specialistiche.</h:p>
+							</contenitore>
+							<contenitore id="con3" iniziovigore="t2" nome="">
+								<h:p />
+<h:p>Il servizio  svolge inoltre  tutte  le  prestazioni  tecniche
+   concernenti le  funzioni di  igiene e  sanità pubblica  ed in
+   particolare:</h:p>
+
+<h:p>a) la  verifica di  compatibilità di cui all'art. 20, lettera f)
+   della legge 23-12-1978 n. 833, mediante espressione di parere;</h:p>
+<h:p>b) la  tutela igienico - sanitaria dell'ambiente contro i fattori
+   di inquinamento  con riferimento  all'inquinamento  dell'aria,
+   delle acque,  del suolo, da rumore o da onde elettromagnetiche
+   e da altri agenti fisici;</h:p>
+<h:p>c) il  controllo sull'allontanamento  e smaltimento  dei  rifiuti
+   solidi e liquidi, di qualunque origine e composizione, nonchè
+   dei fanghi;</h:p>
+<h:p>d) la  tutela  delle   condizioni  igieniche  degli  edifici,  in
+   relazione alla loro specifica destinazione;</h:p>
+<h:p>e) la   vigilanza  ed  il  controllo  sulle  strutture  sanitarie
+   pubbliche e  private anche in relazione all'applicazione delle
+   leggi  e   regolamenti  vigenti  nonchè  la  vigilanza  e  il
+   controllo igienico  -  sanitario  sugli  istituti  pubblici  e
+   privati di  istruzione di  ogni ordine  e grado,  nelle Unità
+   sanitarie locali  in cui  non è costituita la apposita unità
+   operativa di igiene delle strutture sanitarie";</h:p>
+<h:p>f) la    vigilanza    igienico  -  sanitaria      sugli  istituti
+   penitenziari di  cui al  Capo I, Titolo II, della L. 26 luglio
+   1975, n. 354;</h:p>
+<h:p>g) la tutela igienico - sanitaria degli stabilimenti termali e di
+   quelli di produzione di acque minerali naturali e artificiali;</h:p>
+<h:p>h) le indagini epidemiologiche su base locale anche ai fini della
+   determinazione delle mappe di rischio;</h:p>
+<h:p>i) l'attuazione  dei programmi di  educazione  sanitaria relativi
+   all'igiene e sanità pubblica;</h:p>
+<h:p>l) le funzioni di igiene e di polizia mortuaria;</h:p>
+<h:p>m) la  vigilanza  igienica  sulle  attività  di    disinfezione,
+   disinfestazione e derattizzazione da chiunque svolta".</h:p>
+							</contenitore>
 							<h:p>2. Servizio di Prevenzione, Igiene e Sicurezza nei luoghi di lavoro</h:p>
 							<h:p>Sono di competenza del Servizio l'igiene e la medicina del lavoro, nonchè la prevenzione degli infortuni sul lavoro e delle malattie professionali.</h:p>
 							<h:p>
@@ -925,19 +1011,65 @@
 								<rif xlink:href="#art6" xlink:type="simple">articolo 6</rif>
 								, nel Servizio delle Attività specialistiche.
 							</h:p>
-							<h:p>6. Servizio Farmaceutico</h:p>
-							<h:p>
-								Svolge le funzioni in materia di assistenza farmaceutica, ai sensi dell'
-								<rif xlink:href="urn:nir:stato:legge:1978-12-23;833#art28" xlink:type="simple">articolo 28 della legge 23 dicembre 1978, n. 833</rif>
-								.
-							</h:p>
-							<h:p>Coordina l'applicazione dell'Accordo Nazionale Unico, ivi comprese le forme di collaborazione di cui all'articolo 22 dell'accordo medesimo; cura la documentazione e l'informazione scientifica sul farmaco.</h:p>
-							<h:p>Gestisce i Prontuari Terapeutici. Disciplina la distribuzione del farmaco nei presidi ospedalieri e territoriali della USL e cura i controlli di qualità dei farmaci. Vigila sulle farmacie convenzionate e contribuisce al controllo della spesa farmaceutica.</h:p>
-							<h:p>
-								Comprende l'unità operativa omonima che, ai sensi dell'
-								<rif xlink:href="#art6" xlink:type="simple">articolo 6</rif>
-								, può essere riportata nel Servizio delle Attività specialistiche.
-							</h:p>
+							<contenitore id="con4" nome="">
+								<h:p>6. Servizio Farmaceutico</h:p>
+								<h:p>
+									Svolge le funzioni in materia di assistenza farmaceutica, ai sensi dell'
+									<rif xlink:href="urn:nir:stato:legge:1978-12-23;833#art28" xlink:type="simple">articolo 28 della legge 23 dicembre 1978, n. 833</rif>
+									.
+								</h:p>
+								<h:p>Coordina l'applicazione dell'Accordo Nazionale Unico, ivi comprese le forme di collaborazione di cui all'articolo 22 dell'accordo medesimo; cura la documentazione e l'informazione scientifica sul farmaco.</h:p>
+								<h:p>Gestisce i Prontuari Terapeutici. Disciplina la distribuzione del farmaco nei presidi ospedalieri e territoriali della USL e cura i controlli di qualità dei farmaci. Vigila sulle farmacie convenzionate e contribuisce al controllo della spesa farmaceutica.</h:p>
+								<h:p>
+									Comprende l'unità operativa omonima che, ai sensi dell'
+									<rif xlink:href="#art6" xlink:type="simple">articolo 6</rif>
+									, può essere riportata nel Servizio delle Attività specialistiche.
+								</h:p>
+							</contenitore>
+							<contenitore id="con5" iniziovigore="t2" nome="">
+								<h:p />
+<h:p>Il  Servizio   svolge  inoltre   tutte  le  competenze  tecniche
+concernenti in particolare:</h:p>
+
+<h:p>a) funzioni  tecniche in  ordine  alle  competenze  delle  Unità
+   Sanitarie Locali affidate ai sensi delle leggi regionali;</h:p>
+<h:p>b) prelievo  di medicinali  e  di    materiale  sanitario  per  i
+   necessari controlli, anche su disposizione del Ministero della
+   Sanità;</h:p>
+<h:p>c) presentazione di una relazione annuale al Comitato di gestione
+   sull'impiego e  sul consumo dei medicinali e di ogni materiale
+   sanitario presso  gli Ospedali,  presidi e servizi dell'Unità
+   Sanitaria locale e nelle strutture convenzionate. La relazione
+   quantificherà  inoltre  la  spesa,  presentando  proposte  di
+   possibile contenimento e di indirizzo sugli acquisti;</h:p>
+<h:p>d) controllo  sulle sostanze  stupefacenti e  psicotrope  secondo
+   quanto previsto dalla legge 22-12-1975 n. 685;</h:p>
+<h:p>e) vigilanza  generica sulle  farmacie, sia  ai  fini  tecnico  -
+   amministrativi che igienico sanitari non riservate ad apposite
+   commissioni ispettive;</h:p>
+<h:p>f) coordinamento  delle  attività  delle  farmacie  pubbliche  e
+   private con i servizi dell'USL;</h:p>
+<h:p>g) vigilanza  sui farmaci veterinari, con particolare riguardo al
+   momento prescrittivo  e distributivo  in coordinamento  con il
+   servizio di veterinaria;</h:p>
+<h:p>h) vigilanza   sull'erogazione    dell'assistenza    farmaceutica
+   attraverso le  farmacie convenzionate  secondo i  criteri e le
+   modalità di  cui agli articoli 43 e 48 della legge 23-12-1978
+   n. 833;</h:p>
+<h:p>i) tenuta  ed aggiornamento  dell'albo dei titolari di farmacia e
+   dell'archivio   dati    delle   farmacie   ivi   comprese   le
+   comunicazioni, da  parte del  direttore o  del titolare  della
+   farmacia, dell'assunzione  e della  dimissione  degli  addetti
+   all'esercizio farmaceutico;</h:p>
+<h:p>l) adempimenti  tecnici di  supporto alle  funzioni di competenza
+   del Ministero della Sanità nel settore dei farmaci;</h:p>
+<h:p>m) partecipazione  e collaborazione,    secondo  gli    indirizzi
+   regionali, alla  predisposizione e all'attuazione di programmi
+   di  educazione   sanitaria  della   popolazione,  di   ricerca
+   scientifica  nonchè   di  formazione   e   di   aggiornamento
+   professionale  per  gli  operatori  del  settore  farmaceutico
+   dipendenti dalla USL e convenzionati".</h:p>
+							</contenitore>
 							<h:p>7. Servizio Multizonale di prevenzione</h:p>
 							<h:p>E' preposto al controllo e alla tutela dell'igiene ambientale, nonchè alla prevenzione degli infortuni e delle malattie professionali. Esercita di regola le proprie attività come struttura tecnico - specialistica di supporto dei servizi delle UUSSLL con particolare riferimento ai Servizi di Igiene pubblica e del territorio di Prevenzione, Igiene e Sicurezza nei luoghi di lavoro.</h:p>
 							<h:p>Non è competente per le indagini diagnostiche sull'essere umano ai fini di prevenzione e di diagnosi e cura, salvo le attività di tossicologia industriale.</h:p>
@@ -954,21 +1086,62 @@
 							<h:p>- Fisica ambientale; (le due unità possono essere accorpate in riferimento alle esigenze locali)</h:p>
 							<h:p>- Ingegneria impiantistica.</h:p>
 							<h:p>Il Piano Sanitario Regionale individua in una delle UUSSLL dell'Associazione Intercomunale fiorentina un Servizio di Prevenzione con particolare riguardo alle malattie oncologiche.</h:p>
-							<h:p>8. Servizio di Veterinaria</h:p>
-							<h:p>Sono di competenza del Servizio la profilassi e la polizia veterinaria sugli animali destinati alla alimentazione umana, la sorveglianza sugli impianti di macellazione e di trasformazione, sugli alimenti di origine animale, sulla alimentazione zootecnica e sulle malattie trasmissibili dagli animali all'uomo, sulla riproduzione sull'allevamento e sulla sanità animale, sui farmaci di uso veterinario.</h:p>
-							<h:p>
-								Il Servizio svolge anche le funzioni che sono subdelegate a norma dell'
-								<rif xlink:href="urn:nir:stato:legge:1978-12-23;833#art7" xlink:type="simple">articolo 7 della legge 23 dicembre 1978, n. 833</rif>
-								e dell'
-								<rif xlink:href="urn:nir:regione.toscana:legge:1979-12-19;63#art7" xlink:type="simple">articolo 7 della legge regionale 19 dicembre 1979, n. 63</rif>
-								.
-							</h:p>
-							<h:p>
-								Comprende l'unità operativa omonima, che, ai sensi dell'
-								<rif xlink:href="#art6" xlink:type="simple">articolo 6</rif>
-								, può essere riportata nel Servizio di Igiene pubblica e del territorio.
-							</h:p>
-							<h:p>Il piano sanitario può attribuire ad alcuni Servizi di Veterinaria responsabilità specialistiche, tenendo conto anche della presenza nel territorio di sezioni operative dell'Istituto Zooprofilattico interregionale.</h:p>
+							<contenitore id="con6" nome="">
+								<h:p>8. Servizio di Veterinaria</h:p>
+								<h:p>Sono di competenza del Servizio la profilassi e la polizia veterinaria sugli animali destinati alla alimentazione umana, la sorveglianza sugli impianti di macellazione e di trasformazione, sugli alimenti di origine animale, sulla alimentazione zootecnica e sulle malattie trasmissibili dagli animali all'uomo, sulla riproduzione sull'allevamento e sulla sanità animale, sui farmaci di uso veterinario.</h:p>
+								<h:p>
+									Il Servizio svolge anche le funzioni che sono subdelegate a norma dell'
+									<rif xlink:href="urn:nir:stato:legge:1978-12-23;833#art7" xlink:type="simple">articolo 7 della legge 23 dicembre 1978, n. 833</rif>
+									e dell'
+									<rif xlink:href="urn:nir:regione.toscana:legge:1979-12-19;63#art7" xlink:type="simple">articolo 7 della legge regionale 19 dicembre 1979, n. 63</rif>
+									.
+								</h:p>
+								<h:p>
+									Comprende l'unità operativa omonima, che, ai sensi dell'
+									<rif xlink:href="#art6" xlink:type="simple">articolo 6</rif>
+									, può essere riportata nel Servizio di Igiene pubblica e del territorio.
+								</h:p>
+								<h:p>Il piano sanitario può attribuire ad alcuni Servizi di Veterinaria responsabilità specialistiche, tenendo conto anche della presenza nel territorio di sezioni operative dell'Istituto Zooprofilattico interregionale.</h:p>
+							</contenitore>
+							<contenitore id="con7" iniziovigore="t2" nome="">
+								<h:p />
+<h:p>Il servizio  svolge  inoltre  tutte  le  competenze  tecniche
+   concernenti  le   funzioni  in   materia  veterinaria   ed  in
+   particolare:</h:p>
+
+   <h:p>a) la  profilassi e  la  polizia  veterinaria  delle  malattie
+      infettive  e  infestive  degli  animali  secondo  le  norme
+      statali, comunitarie e regionali;</h:p>
+   <h:p>b) l'ispezione  e la  vigilanza veterinaria  sulle  stalle  di
+      sosta,  sui   concentramenti  di   animali  nonchè   sullo
+      spostamento degli stessi per ragioni di pascolo;</h:p>
+   <h:p>c) la   vigilanza   e    il    controllo    sull'importazione,
+      esportazione e  transito degli  animali, delle  carni,  dei
+      prodotti ed avanzi animali;</h:p>
+   <h:p>d) l'organizzazione e la vigilanza sull'assistenza zooiatrica;</h:p>
+   <h:p>e) l'elaborazione  e  l'organizzazione  della  esecuzione  dei
+      piani zonali di risanamento degli allevamenti;</h:p>
+   <h:p>f) la  vigilanza sugli  animali domestici  e selvatici nonchè
+      sugli ambulatori per animali;</h:p>
+   <h:p>g) l'attuazione  di programmi di educazione sanitaria inerenti
+      la profilassi e la polizia veterinaria;</h:p>
+   <h:p>h) la   sorveglianza    epidemiologica,  la  statistica  e  la
+      elaborazione  tecnico   -  finanziaria   di  programmi   di
+      risanamento degli allevamenti;</h:p>
+   <h:p>i) la    vigilanza    sui    trattamenti  immunizzanti,  sulle
+      inoculazioni  diagnostiche   e  sull'impiego   di  sostanze
+      ormonali e  antiormonali in  animali  le  cui  carni  siano
+      destinate alla alimentazione umana;</h:p>
+   <h:p>l) la  vigilanza  sull'utilizzazione    degli    animali    da
+      esperimento;</h:p>
+   <h:p>m) le  funzioni  attribuite ai sensi della LR 15-6-1979; n. 26
+      per l'incremento dell'apicoltura;</h:p>
+   <h:p>n) la  vigilanza igienica  sulle  attività  di  disinfezione,
+      disinfestazione e derattizzazione da chiunque svolta;</h:p>
+   <h:p>o) l'attuazione  degli adempimenti  disposti  dalla  autorità
+      sanitaria statale nelle materie di cui all'art. 6, lett. u)
+      della legge 23-12-1978 n. 833".</h:p>
+							</contenitore>
 							<h:p>9. Servizio di Assistenza sociale</h:p>
 							<h:p>
 								E' preposto agli interventi di Assistenza sociale, ai sensi dell'
@@ -1005,7 +1178,7 @@
 				<annesso id="ann2">
 					<testata>
 						<denAnnesso>
-							<h:p>ALLEGATO</h:p>
+							<h:p>ALLEGATO B</h:p>
 						</denAnnesso>
 						<titAnnesso>
 							<h:p />
@@ -1017,15 +1190,19 @@
 					<DocumentoNIR nome="">
 						<meta>
 							<descrittori>
-								<pubblicazione norm="" num="" tipo="GU" />
-								<entratainvigore norm="" />
+								<pubblicazione norm="19800529" num="31" tipo="BURT" />
+								<entratainvigore norm="19800529" />
 								<redazione id="red3" nome="" norm="" />
-								<urn valore="urn:nir:regione.toscana:legge:1980-05-24;71:allegato.2" />
+								<urn valore="urn:nir:regione.toscana:legge:1980-05-24;71:allegato.b" />
+								<materie vocabolario="Regione Toscana">
+									<materia valore="Ordinamento" />
+									<materia valore="Enti sanitari" />
+								</materie>
 							</descrittori>
 						</meta>
 						<intestazione />
 						<formulainiziale />
-						<contenitore id="con2" nome="">
+						<contenitore id="con8" nome="">
 							<h:p>
 								Individuazione delle unità operative per presidi di cui all'
 								<rif xlink:href="#art10" xlink:type="simple">art.10</rif>
@@ -1206,7 +1383,7 @@
 				<annesso id="ann3">
 					<testata>
 						<denAnnesso>
-							<h:p>ALLEGATO</h:p>
+							<h:p>ALLEGATO C</h:p>
 						</denAnnesso>
 						<titAnnesso>
 							<h:p />
@@ -1218,18 +1395,19 @@
 					<DocumentoNIR nome="">
 						<meta>
 							<descrittori>
-								<pubblicazione norm="" num="" tipo="GU" />
-								<entratainvigore norm="" />
+								<pubblicazione norm="19800529" num="31" tipo="BURT" />
+								<entratainvigore norm="19800529" />
 								<redazione id="red4" nome="" norm="" />
-								<urn valore="urn:nir:regione.toscana:legge:1980-05-24;71:allegato.3" />
+								<urn valore="urn:nir:regione.toscana:legge:1980-05-24;71:allegato.c" />
 								<materie vocabolario="Regione Toscana">
 									<materia valore="Ordinamento" />
+									<materia valore="Enti sanitari" />
 								</materie>
 							</descrittori>
 						</meta>
 						<intestazione />
 						<formulainiziale />
-						<contenitore id="con3" nome="">
+						<contenitore id="con9" nome="">
 							<h:p>
 								Individuazione dei dipartimenti di cui all'
 								<rif xlink:href="#art14" xlink:type="simple">art. 14</rif>
