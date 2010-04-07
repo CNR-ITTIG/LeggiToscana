@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19800516" num="28" tipo="BURT" />
 					<entratainvigore norm="19800531" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1980-05-07;44" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1980-05-07;44" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1980-05-07;44@1983-12-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Partecipazioni" />
 						<materia valore="Attività artistiche" />
@@ -16,24 +17,38 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19800531" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19840115" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-05-07;44" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1983-12-29;85" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-letb" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1983-12-29;85" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1983-12-29;85#art5-com1-leta" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 1, lettera a) della legge Regione Toscana 29 dicembre 1983, n. 85" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-com1-letb-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
 				<tipoDoc>Legge Regionale</tipoDoc>
 				<dataDoc norm="19800507">7 maggio 1980</dataDoc>
-				,n.
+				, n.
 				<numDoc>44</numDoc>
 				<titoloDoc>Partecipazione della Regione Toscana alla costituzione della Fondazione "Orchestra regionale Toscana".</titoloDoc>
 			</intestazione>
-			<?error Partecipazione della  Regione  Toscana  alla  costituzione  della
-Fondazione "Orchestra regionale Toscana".
-
-?>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 26-3-1980</h:p>
 				<h:p>Il Commissario del Governo ha apposto il visto il 30-4-1980</h:p>
@@ -68,7 +83,7 @@ Fondazione "Orchestra regionale Toscana".
 							<num>a)</num>
 							<corpo>a conferire alla Fondazione la somma di L. 250.000.000 quale concorso alla formazione del fondo di dotazione e per le opere di primo impianto;</corpo>
 						</el>
-						<el id="art3-com1-letb">
+						<el finevigore="t2" id="art3-com1-letb-t2" iniziovigore="t1" status="abrogato">
 							<num>b)</num>
 							<corpo>
 								ad erogare un contributo annuale per le spese di funzionamento della fondazione a norma e con le modalità di cui alla
@@ -125,11 +140,7 @@ Fondazione "Orchestra regionale Toscana".
 									<h:tbody>
 										<h:tr>
 											<h:td>Cap. 11950</h:td>
-											<h:td>
-												Concorso alla Formazione del fondo di dotazione per le spese di primo impianto alla Fondazione "Orchestra regionale toscana" (
-												<rif xlink:href="urn:nir:regione.toscana:legge:1980;26" xlink:type="simple">LR n. 26/80</rif>
-												- Atti Consiglio)
-											</h:td>
+											<h:td>Concorso alla Formazione del fondo di dotazione per le spese di primo impianto alla Fondazione "Orchestra regionale toscana" (LR n. 26/80 - Atti Consiglio)</h:td>
 											<h:td>L. 250.000.000</h:td>
 										</h:tr>
 									</h:tbody>
