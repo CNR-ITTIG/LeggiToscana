@@ -8,7 +8,8 @@
 					<entratainvigore norm="19800621" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1980-05-29;77" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1980-05-29;77@1982-01-05" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1980-05-29;77@1982-01-05" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1980-05-29;77@1983-12-14" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Agricoltura" />
 					</materie>
@@ -17,12 +18,23 @@
 					<eventi>
 						<evento data="19800621" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19820127" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19840106" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-05-29;77" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1982-01-05;1" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1983-12-14;79" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Termine prorogato dalla
+							<rif xlink:href="urn:nir:regione.toscana:legge:1983-12-14;79" xlink:type="simple">legge regionale 14 dicembre 1983, n. 79</rif>
+							di ulteriori tre anni a decorrere dall'entrata in vigore della stessa.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:abrogazione completa="si" implicita="no">
@@ -71,7 +83,7 @@
 							<rif xlink:href="urn:nir:comunita.europee:regolamento:1978;1360" xlink:type="simple">Regolamento CEE n. 1360/78</rif>
 							del consiglio del 19 giugno 1978 e specificatamente determina le modalità per:
 						</alinea>
-						<en id="art1-com1-num1">
+						<en id="art1-com1-num1-t3">
 							<num>1)</num>
 							<corpo>il riconoscimento delle associazioni dei produttori agricoli e delle relative unioni regionali;</corpo>
 						</en>
@@ -573,7 +585,9 @@
 						<comma id="art14-com3">
 							<num />
 							<corpo>
-								Per i primi tre anni dall'entrata in vigore della presente legge sono chiamati a far parte dei comitati regionali, in mancanza dei rappresentanti delle unioni regionali riconosciute di cui al
+								Per i primi tre anni dall'entrata in vigore della presente legge
+								<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+								sono chiamati a far parte dei comitati regionali, in mancanza dei rappresentanti delle unioni regionali riconosciute di cui al
 								<rif xlink:href="#art2" xlink:type="simple">precedente articolo 2</rif>
 								, oltre ai rappresentanti di cui al
 								<rif xlink:href="#art9-com3" xlink:type="simple">precedente articolo 9, comma 3</rif>
