@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19821109" num="60" tipo="BURT" />
 					<entratainvigore norm="19821124" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1982-10-30;76" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1982-10-30;76" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1982-10-30;76@1983-12-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Enti territoriali" />
 					</materie>
@@ -15,11 +16,22 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19821124" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19831231" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1982-10-30;76" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1983-12-29;82" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Fondo ridotto a L. 90.000.000ex
+							<rif xlink:href="urn:nir:regione.toscana:legge:1983-12-29;82#art1" xlink:type="simple">art. 1 legge regionale 29 dicembre 1983, n. 82</rif>
+							.
+						</h:p>
+					</nota>
+				</redazionale>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -52,9 +64,13 @@
 					</comma>
 					<comma id="art1-com2">
 						<num />
-						<corpo>La ripartizione è effettuata tenendo conto della opportunità di dotare ogni associazione intercomunale, per le spese suddette, di un fondo annuo pari a L. 120 milioni, comprensivo del contributo dei singoli comuni facenti parte dell'associazione e che si presume, agli effetti della presente legge, nella misura di Lire 1.000 per abitante.</corpo>
+						<corpo>
+							La ripartizione è effettuata tenendo conto della opportunità di dotare ogni associazione intercomunale, per le spese suddette, di un fondo annuo pari a L. 120 milioni
+							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							, comprensivo del contributo dei singoli comuni facenti parte dell'associazione e che si presume, agli effetti della presente legge, nella misura di Lire 1.000 per abitante.
+						</corpo>
 					</comma>
-					<comma id="art1-com3">
+					<comma id="art1-com3-t2">
 						<num />
 						<corpo>Le somme iscritte al bilancio regionale che eventualmente residuano una volta deliberata la ripartizione con i criteri di cui al comma precedente, sono ulteriormente ripartite tra le associazioni intercomunali sulla base delle particolari esigenze, debitamente documentate delle associazioni richiedenti.</corpo>
 					</comma>
