@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19820727" num="42" tipo="BURT" />
 					<entratainvigore norm="19820811" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1982-07-19;60" />
+					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1982-07-19;60" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1982-07-19;60@1984-03-14" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="ORGANI" />
 					</materie>
@@ -18,12 +19,14 @@
 						<evento data="19820811" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="19820811" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="19820811" fonte="ra3" id="t4" tipo="modifica" />
+						<evento data="19840408" fonte="rp1" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1982-07-19;60" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1974-07-19;42" xlink:type="simple" />
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1974-07-19;42" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1975-05-26;53" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1984-03-14;16" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -53,6 +56,32 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1984-03-14;16" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1984-03-14;16#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 14 marzo 1984, n. 16" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art1-com1-letd" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1984-03-14;16" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1984-03-14;16#art1-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2 della legge Regione Toscana 14 marzo 1984, n. 16" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -105,6 +134,14 @@
 								Commissione consultiva regionale per il commercio ambulante, istituita ai sensi della
 								<rif xlink:href="urn:nir:stato:legge:1976-05-19;398" xlink:type="simple">legge statale 19-5-1976, n. 398</rif>
 								;
+							</corpo>
+						</el>
+						<el id="art1-com1-letd" iniziovigore="t5">
+							<num>d)</num>
+							<corpo>
+								Commissione regionale di vigilanza sull'edilizia popolare ed economica, istituita ai sensi dell'
+								<rif xlink:href="urn:nir:presidente.repubblica:decreto:1964-05-23;655#art19" xlink:type="simple">art. 19 del DPR 23/5/1964 n. 655</rif>
+								e successive modificazioni.
 							</corpo>
 						</el>
 						<coda>sono disciplinate dalla presente legge.</coda>
@@ -179,6 +216,26 @@
 							<corpo>L. 30.000 al Presidente;</corpo>
 						</ep>
 						<ep id="art4-com1-pun2">
+							<num>-</num>
+							<corpo>L. 22.500 agli altri componenti.</corpo>
+						</ep>
+					</comma>
+				</articolo>
+				<articolo id="art4bis" iniziovigore="t5">
+					<num>Art. 4/bis</num>
+					<rubrica>
+						(Commissione regionale di vigilanza sull'edilizia popolare ed economica, istituita ai sensi del
+						<rif xlink:href="urn:nir:presidente.repubblica:decreto:1964-05-23;655" xlink:type="simple">DPR 23/5/1964, n. 655</rif>
+						)
+					</rubrica>
+					<comma id="art4bis-com1">
+						<num />
+						<alinea>Ai componenti la commissione regionale di vigilanza sull'edilizia popolare ed economica ed al segretario della stessa è attribuita una indennità per ogni giornata di seduta, nella misura di:</alinea>
+						<ep id="art4bis-com1-pun1">
+							<num>-</num>
+							<corpo>L. 30.000 al Presidente;</corpo>
+						</ep>
+						<ep id="art4bis-com1-pun2">
 							<num>-</num>
 							<corpo>L. 22.500 agli altri componenti.</corpo>
 						</ep>
