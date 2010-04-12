@@ -8,7 +8,8 @@
 					<entratainvigore norm="19781224" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1978-12-04;73" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1978-12-04;73@1981-12-14" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1978-12-04;73@1981-12-14" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1978-12-04;73@1984-03-10" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Contratti" />
 						<materia valore="Contabilità" />
@@ -19,10 +20,12 @@
 					<eventi>
 						<evento data="19781224" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19820106" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19840405" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1978-12-04;73" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1981-12-14;88" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1984-03-10;15" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -204,6 +207,33 @@
 								<dsp:pos xlink:href="#art11-com4-t2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1984-03-10;15" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1984-03-10;15#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 10 marzo 1984, n. 15" id="itt14" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com4" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1984-03-10;15" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1984-03-10;15#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 10 marzo 1984, n. 15" id="itt15" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art9-com3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art9-com2-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -279,6 +309,14 @@
 						<comma id="art2-com3">
 							<num />
 							<corpo>Tale limite può essere superato, con successiva deliberazione, in relazione a effettive esigenze da parte del funzionario delegato.</corpo>
+						</comma>
+						<comma id="art2-com4" iniziovigore="t3">
+							<num />
+							<corpo>
+								La Giunta regionale, per le aperture di credito autorizzate dal Consiglio regionale, fissa di volta in volta, nella deliberazione di accreditamento dei fondi, gli importi massimi di assunzione diretta delle spese da parte del singolo funzionario delegato, comunque nell'ambito della casistica e dei valori di cui all'
+								<rif xlink:href="urn:nir:regione.toscana:legge:1981-06-25;54#art8" xlink:type="simple">art. 8 della LR 25 giugno 1981 n. 54</rif>
+								.
+							</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art3">
@@ -690,7 +728,7 @@
 								<corpo>spese per imposte, sovraimposte e tasse.</corpo>
 							</el>
 						</comma>
-						<comma id="art9-com2">
+						<comma finevigore="t3" id="art9-com2-t3" iniziovigore="t1" status="abrogato">
 							<num />
 							<corpo>
 								I predetti funzionari delegati possono assumere iniziative relativamente alle spese di cui al
@@ -698,6 +736,14 @@
 								, nei limiti di lire 300.000 per ogni singola fornitura o prestazione, e con l'osservanza della procedura prevista all'
 								<rif xlink:href="urn:nir:regione.toscana:legge:1978-04-07;23#art7" xlink:type="simple">art. 7, penultimo comma, della LR 7-4-1978, n. 23</rif>
 								. Il limite di spesa predetto può essere superato per l'assunzione di spese aventi prezzi amministrati, tariffari, o contrattualmente predeterminati.
+							</corpo>
+						</comma>
+						<comma id="art9-com3" iniziovigore="t3">
+							<num />
+							<corpo>
+								I predetti funzionari delegati possono assumere iniziative relativamente alle spese di cui al primo comma, nei limiti di L. 500.000 per ogni singola fornitura o prestazione e con l'osservanza della procedura prevista all'
+								<rif xlink:href="urn:nir:regione.toscana:legge:1978-04-07;23#art7" xlink:type="simple">art. 7, penultimo comma, della LR 7-4-1978 n. 23</rif>
+								. Il limite di spesa predetto può essere superato per l'assunzione di spese aventi prezzi amministrati, tariffari o contrattualmente predeterminati, ed è aggiornato annualmente, con provvedimento della Giunta regionale da adottarsi nel mese di gennaio, tenuto conto della variazione di percentuale verificatasi tra gli indici generali dei prezzi al consumo per l'intera collettività nazionale, al mese di settembre degli ultimi due anni.
 							</corpo>
 						</comma>
 					</articolo>
