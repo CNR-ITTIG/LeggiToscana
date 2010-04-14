@@ -13,7 +13,8 @@
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1982-08-24" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1982-10-30" />
 					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1982-11-08" />
-					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1983-07-19" />
+					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1983-07-19" />
+					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1984-04-24" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="AGRICOLTURA" />
 						<materia valore="ATTRIBUZIONI DELEGHE" />
@@ -28,6 +29,7 @@
 						<evento data="19821124" fonte="rp4" id="t5" tipo="modifica" />
 						<evento data="19821201" fonte="rp5" id="t6" tipo="modifica" />
 						<evento data="19830811" fonte="rp6" id="t7" tipo="modifica" />
+						<evento data="19840517" fonte="rp7" id="t8" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1981-02-09;15" xlink:type="simple" />
@@ -37,6 +39,7 @@
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1982-10-30;78" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1982-11-08;82" xlink:type="simple" />
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:1983-07-19;56" xlink:type="simple" />
+						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:1984-04-24;24" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -245,6 +248,18 @@
 								<dsp:pos xlink:href="#art4-com1-leth-t7" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1984-04-24;24" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1984-04-24;24#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 24 aprile 1984, n. 24" id="itt16" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com1-leti" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -254,7 +269,7 @@
 				<dataDoc norm="19810209">9 febbraio 1981</dataDoc>
 				, n.
 				<numDoc>15</numDoc>
-				<titoloDoc>Norme per l'esercizio delle funzioni amministrative in materia di agricoltura, foreste e alimentazioni. aaa</titoloDoc>
+				<titoloDoc>Norme per l'esercizio delle funzioni amministrative in materia di agricoltura, foreste e alimentazioni.</titoloDoc>
 			</intestazione>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 30-12-1980</h:p>
@@ -682,6 +697,14 @@
 						<el id="art4-com1-leth" iniziovigore="t7">
 							<num>h)</num>
 							<corpo>la delimitazione del territorio danneggiato da calamità naturali e da avversità atmosferiche; la specificazione e la concessione delle relative provvidenze.</corpo>
+						</el>
+						<el id="art4-com1-leti" iniziovigore="t8">
+							<num>i)</num>
+							<corpo>
+								la dichiarazione di esecutività delle prescrizioni di massima e di polizia forestale, nonchè dei piani economici o di assestamento di cui al
+								<rif xlink:href="urn:nir:stato:regio.decreto.legge:1923-12-30;3267" xlink:type="simple">RDL 30 dicembre 1923 n. 3267</rif>
+								.
+							</corpo>
 						</el>
 					</comma>
 					<comma id="art4-com2">
