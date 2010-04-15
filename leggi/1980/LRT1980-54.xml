@@ -8,7 +8,8 @@
 					<entratainvigore norm="19810101" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1980-05-15;54" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1980-05-15;54@1983-06-13" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1980-05-15;54@1983-06-13" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1980-05-15;54@1984-04-24" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Tributi" />
@@ -18,10 +19,12 @@
 					<eventi>
 						<evento data="19810101" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19830707" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19840517" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-05-15;54" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1983-06-13;44" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1984-04-24;25" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -54,6 +57,21 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#con19-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#??" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1984-04-24;25" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1984-04-24;25#art30" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo30, legge Regione Toscana 24 aprile 1984, n. 25" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#con22" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#con21-t3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -1653,7 +1671,7 @@
 								<h:p>Nota: Il versamento della tassa annuale ha la validità di un anno decorrente dalla scadenza annuale della licenza di porto di fucile per uso caccia e non è dovuto qualora non si eserciti la caccia durante l'anno.</h:p>
 								<h:p>La ricevuta del versamento deve essere allegata al tesserino per l'esercizio venatorio.</h:p>
 							</contenitore>
-							<contenitore id="con21" nome="">
+							<contenitore finevigore="t3" id="con21-t3" iniziovigore="t1" nome="" status="abrogato">
 								<h:p>
 									<h:b>N. d'ordine 18;</h:b>
 									-
@@ -1755,7 +1773,57 @@
 								<h:p>Il versamento della tassa e della sopratassa annuali deve essere effettuato per ogni anno di validità della licenza successivo a quello di rilascio. Qualora durante un'intero anno di validità della licenza non si eserciti la pesca, il tributo (tasa o sopratassa) non è dovuto.</h:p>
 								<h:p />
 							</contenitore>
-							<contenitore id="con22" nome="">
+							<contenitore id="con22" iniziovigore="t3" nome="">
+								<h:p>
+									N.
+									<rif xlink:href="urn:nir:presidente.repubblica:decreto:121;1961" xlink:type="simple">DPR 1961/121 18</rif>
+									, (
+									<rif xlink:href="urn:nir:presidente.repubblica:decreto:641;1972" xlink:type="simple">DPR 1972/641</rif>
+									) Indicazione degli atti soggetti a tassa:
+								</h:p>
+								<h:p>Licenza per la pesca nelle acque interne</h:p>
+								<h:table>
+									<h:tbody>
+										<h:tr>
+											<h:td>Tipo A:</h:td>
+											<h:td>licenza per tutti gli attrezzi tassa di rilascio 29.000 tassa annuale 29.000</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>Tipo B:</h:td>
+											<h:td>licenza per la pesca con canna, con o senza mulinello, con uno o più ami, tirlindana, bilancia di lato non superiore a mt. 1,50 tassa di rilascio 14.500 tassa annuale 14.500</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>Tipo C:</h:td>
+											<h:td>licenza per la pesca con canna, con uno o più ami e con bilancia di lato non superiore a mt. 1,50 tassa di rilascio 8.500 tassa annuale 8.500</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>Tipo D:</h:td>
+											<h:td>licenza per gli stranieri per l'esercizio della pesca con canna, con o senza mulinello, con uno o più ami, tirlindana e bilancia di lato non superiore a mt. 1,50 tassa di rilascio 7.500 tassa annuale 7.500</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>NOTA:</h:td>
+											<h:td>Le licenze di tipo A, B e C hanno validità di 10 anni dalla data del rilascio; quella del tipo D ha validità di tre mesi.</h:td>
+										</h:tr>
+									</h:tbody>
+								</h:table>
+								<h:p>Alle tasse sopra indicate è aggiunta la soprattassa annuale di:</h:p>
+								<h:table>
+									<h:tbody>
+										<h:tr>
+											<h:td>L. 4.000 per le licenze di Tipo A;</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>L. 2.500 per le licenze di Tipo B;</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>L. 1.500 per le licenze di Tipo C e Tipo D. .</h:td>
+										</h:tr>
+									</h:tbody>
+								</h:table>
+								<h:p>da ripartire con criteri stabiliti dalla Giunta regionale per i Comuni, le Province, le Associazioni Intercomunali e le Comunità Montane per l'esercizio delle funzioni in materia di pesca nelle acque interne</h:p>
+								<h:p>Il versamento della tassa annuale e della soprattassa deve essere effettuato per ogni anno di validità della licenza successivo a quello di rilascio. Qualora durante un intero anno di validità della licenza non si eserciti la pesca, il tributo non è dovuto.</h:p>
+							</contenitore>
+							<contenitore id="con23" nome="">
 								<h:p>
 									<h:b>N. d'ordine 19;</h:b>
 									-
@@ -1796,7 +1864,7 @@
 								<h:p>La tassa annuale deve essere corrisposta entro il 31-1-dell'anno cui si riferisce.</h:p>
 								<h:p />
 							</contenitore>
-							<contenitore id="con23" nome="">
+							<contenitore id="con24" nome="">
 								<h:p>
 									<h:b>N. d'ordine 20;</h:b>
 									-
@@ -1822,7 +1890,7 @@
 									<h:b>TITOLO III TURISMO E INDUSTRIA ALBERGHIERA</h:b>
 								</h:p>
 							</contenitore>
-							<contenitore id="con24" nome="">
+							<contenitore id="con25" nome="">
 								<h:p>
 									<h:b>N. d'ordine 21;</h:b>
 									-
@@ -1997,7 +2065,7 @@
 								<h:p>La tassa annuale deve essere corrisposta entro il 31-1-dell'anno cui si riferisce.</h:p>
 								<h:p />
 							</contenitore>
-							<contenitore id="con25" nome="">
+							<contenitore id="con26" nome="">
 								<h:p>
 									<h:b>N. d'ordine 22;</h:b>
 									-
@@ -2133,7 +2201,7 @@
 									<h:b>TITOLO IV FIERE E MERCATI</h:b>
 								</h:p>
 							</contenitore>
-							<contenitore id="con26" nome="">
+							<contenitore id="con27" nome="">
 								<h:p>
 									<h:b>N. d'ordine 23</h:b>
 									-
@@ -2172,7 +2240,7 @@
 									<h:b>TITOLO V AGRICOLTURA</h:b>
 								</h:p>
 							</contenitore>
-							<contenitore id="con27" nome="">
+							<contenitore id="con28" nome="">
 								<h:p>
 									<h:b>N. d'ordine 24;</h:b>
 									-
@@ -2204,7 +2272,7 @@
 								<h:p>Sono esentate dalla sopraindicata tassa le licenze rilasciate per le trebbiatrici di società cooperative o dei centri macchine degli enti di riforma fondiaria.</h:p>
 								<h:p />
 							</contenitore>
-							<contenitore id="con28" nome="">
+							<contenitore id="con29" nome="">
 								<h:p>
 									<h:b>N. d'ordine 25;</h:b>
 									-
@@ -2238,7 +2306,7 @@
 									<h:b>TITOLO VI ACQUE MINERALI E TERMALI, CAVE E TERMALI, CAVE E TORBIERE</h:b>
 								</h:p>
 							</contenitore>
-							<contenitore id="con29" nome="">
+							<contenitore id="con30" nome="">
 								<h:p>
 									<h:b>N. d'ordine 26;</h:b>
 									-
@@ -2280,7 +2348,7 @@
 								<h:p>NOTA: Oltre alla tassa di concessione è dovuto il diritto proporzionale annuo previsto dalla vigente normativa in materia.</h:p>
 								<h:p />
 							</contenitore>
-							<contenitore id="con30" nome="">
+							<contenitore id="con31" nome="">
 								<h:p>
 									<h:b>N. d'ordine 27;</h:b>
 									-
@@ -2308,7 +2376,7 @@
 								</h:p>
 								<h:p />
 							</contenitore>
-							<contenitore id="con31" nome="">
+							<contenitore id="con32" nome="">
 								<h:p>
 									<h:b>N. d'ordine 28;</h:b>
 									-
@@ -2336,7 +2404,7 @@
 								</h:p>
 								<h:p />
 							</contenitore>
-							<contenitore id="con32" nome="">
+							<contenitore id="con33" nome="">
 								<h:p>
 									<h:b>N. d'ordine 29;</h:b>
 									-
@@ -2368,7 +2436,7 @@
 								</h:p>
 								<h:p />
 							</contenitore>
-							<contenitore id="con33" nome="">
+							<contenitore id="con34" nome="">
 								<h:p>
 									<h:b>N. d'ordine 30;</h:b>
 									-
@@ -2398,7 +2466,7 @@
 								</h:p>
 								<h:p />
 							</contenitore>
-							<contenitore id="con34" nome="">
+							<contenitore id="con35" nome="">
 								<h:p>
 									<h:b>N. d'ordine 31;</h:b>
 									-
@@ -2431,7 +2499,7 @@
 									<h:b>TITOLO VII TRAMVIE E SIMILI - LINEE AUTOMOBILISTICHE - NAVIGAZIONE E PORTI LACUALI</h:b>
 								</h:p>
 							</contenitore>
-							<contenitore id="con35" nome="">
+							<contenitore id="con36" nome="">
 								<h:p>
 									<h:b>N. d'ordine 32;</h:b>
 									-
@@ -2457,7 +2525,7 @@
 								</h:p>
 								<h:p />
 							</contenitore>
-							<contenitore id="con36" nome="">
+							<contenitore id="con37" nome="">
 								<h:p>
 									<h:b>N. d'ordine 33;</h:b>
 									-
@@ -2600,7 +2668,7 @@
 								<h:p>La tassa annuale e il contributo di sorveglianza devono essere corrisposti contestualmente entro il 31-1-dell'anno cui si riferiscono per mantenere in vigore la concessione.</h:p>
 								<h:p />
 							</contenitore>
-							<contenitore id="con37" nome="">
+							<contenitore id="con38" nome="">
 								<h:p>
 									<h:b>N. d'ordine 34;</h:b>
 									-
@@ -2650,7 +2718,7 @@
 								</h:p>
 								<h:p />
 							</contenitore>
-							<contenitore id="con38" nome="">
+							<contenitore id="con39" nome="">
 								<h:p>
 									<h:b>N. d'ordine 35;</h:b>
 									-
@@ -2710,7 +2778,7 @@
 								<h:p>La tassa annuale deve essere corrisposta entro il 31-1-dell'anno cui si riferisce.</h:p>
 								<h:p />
 							</contenitore>
-							<contenitore id="con39" nome="">
+							<contenitore id="con40" nome="">
 								<h:p>
 									<h:b>N. d'ordine 36;</h:b>
 									-
@@ -2802,7 +2870,7 @@
 								<h:p>La tassa annuale ed il contributo di sorveglianza devono essere corrisposti contestualmente entro il 31-1-dell'anno cui si riferiscono.</h:p>
 								<h:p />
 							</contenitore>
-							<contenitore id="con40" nome="">
+							<contenitore id="con41" nome="">
 								<h:p>
 									<h:b>N. d'ordine 37;</h:b>
 									-
@@ -2900,7 +2968,7 @@
 								<h:p>La tassa annuale ed il contributo di sorveglianza devono essere corrisposti contestualmente entro il 31-1-dell'anno cui si riferiscono.</h:p>
 								<h:p />
 							</contenitore>
-							<contenitore id="con41" nome="">
+							<contenitore id="con42" nome="">
 								<h:p>
 									<h:b>N. d'ordine 38;</h:b>
 									-
@@ -2956,7 +3024,7 @@
 								<h:p>La sopraindicata tassa è anche dovuta per i noleggi di automobili per trasporto di merci senza conducente.</h:p>
 								<h:p />
 							</contenitore>
-							<contenitore id="con42" nome="">
+							<contenitore id="con43" nome="">
 								<h:p>
 									<h:b>N. d'ordine 39;</h:b>
 									-
@@ -3121,7 +3189,7 @@
 								</h:p>
 								<h:p />
 							</contenitore>
-							<contenitore id="con43" nome="">
+							<contenitore id="con44" nome="">
 								<h:p>
 									<h:b>N. d'ordine 40;</h:b>
 									-
@@ -3157,7 +3225,7 @@
 								<h:p>La tassa annuale ed il contributo di sorveglianza devono essere corrisposti contestualmente entro il 31-1-dell'anno cui si riferiscono.</h:p>
 								<h:p />
 							</contenitore>
-							<contenitore id="con44" nome="">
+							<contenitore id="con45" nome="">
 								<h:p>
 									<h:b>N. d'ordine 41;</h:b>
 									-
@@ -3193,7 +3261,7 @@
 								<h:p>La tassa annuale ed il contributo di sorveglianza devono essere corrisposti contestualmente entro il 31-1-dell'anno cui si riferiscono.</h:p>
 								<h:p />
 							</contenitore>
-							<contenitore id="con45" nome="">
+							<contenitore id="con46" nome="">
 								<h:p>
 									<h:b>N. d'ordine 42;</h:b>
 									-
@@ -3216,7 +3284,7 @@
 								</h:p>
 								<h:p />
 							</contenitore>
-							<contenitore id="con46" nome="">
+							<contenitore id="con47" nome="">
 								<h:p>
 									<h:b>N. d'ordine 43;</h:b>
 									-
@@ -3242,7 +3310,7 @@
 								</h:p>
 								<h:p />
 							</contenitore>
-							<contenitore id="con47" nome="">
+							<contenitore id="con48" nome="">
 								<h:p>
 									<h:b>N. d'ordine 44;</h:b>
 									-
@@ -3288,7 +3356,7 @@
 									<h:b>TITOLO VIII ARTIGIANATO</h:b>
 								</h:p>
 							</contenitore>
-							<contenitore id="con48" nome="">
+							<contenitore id="con49" nome="">
 								<h:p>
 									<h:b>N. d'ordine 45;</h:b>
 									-
