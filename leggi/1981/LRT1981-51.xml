@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19810619" num="36" tipo="BURT" />
 					<entratainvigore norm="19810704" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1981-06-12;51" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1981-06-12;51" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1981-06-12;51@1984-06-18" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Storia" />
 					</materie>
@@ -15,11 +16,59 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19810704" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19840627" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1981-06-12;51" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1984-06-18;38" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1984-06-18;38" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1984-06-18;38#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 18 giugno 1984, n. 38" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3-com3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-com2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1984-06-18;38" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1984-06-18;38#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 18 giugno 1984, n. 38" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3-com5" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-com4-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1984-06-18;38" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1984-06-18;38#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 18 giugno 1984, n. 38" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3-com6" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -76,15 +125,27 @@
 							, promosse da altri enti, associazioni, istituti o comitati.
 						</corpo>
 					</comma>
-					<comma id="art3-com2">
+					<comma finevigore="t2" id="art3-com2-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>I soggetti interessati ad accedere ai contributi di cui al precedente comma devono presentare alla Giunta regionale entro il 31 ottobre di ogni anno il programma delle iniziative che intendono realizzare nell'anno successivo e la relativa richiesta di contributo.</corpo>
 					</comma>
-					<comma id="art3-com3">
+					<comma id="art3-com3" iniziovigore="t2">
+						<num />
+						<corpo>I soggetti interessati ad accedere ai contributi di cui al precedente comma possono presentare alla Giunta fino al 15/12/1984, il programma delle iniziative realizzate o che si intendono realizzare durante l'anno 1984 e la relativa richiesta di contributo.</corpo>
+					</comma>
+					<comma finevigore="t2" id="art3-com4-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>La Giunta, sentita la Commissione consiliare competente, delibera annualmente con unico atto la concessione dei contributi, sulla base delle richieste pervenute.</corpo>
 					</comma>
-					<comma id="art3-com4">
+					<comma id="art3-com5" iniziovigore="t2">
+						<num />
+						<corpo>Sono comunque valide le domande già inoltrate entro il termine del 31/10/1983.</corpo>
+					</comma>
+					<comma id="art3-com6" iniziovigore="t2">
+						<num />
+						<corpo>La Giunta, sentita la Commissione consiliare competente, delibera, con più atti, la concessione dei contributi sulla base delle richieste pervenute.</corpo>
+					</comma>
+					<comma id="art3-com7">
 						<num />
 						<corpo>I contributi concessi sono erogati dopo la presentazione alla Giunta regionale di una dettagliata relazione sulla attività effettivamente svolta, salva la possibilità che, in relazione a comprovate esigenze di immediato finanziamento, la Giunta regionale disponga, con l'atto di concessione del contributo, la erogazione in forma preventiva di una quota non superiore al cinquanta per cento dell'ammontare del contributo stesso.</corpo>
 					</comma>
@@ -140,20 +201,12 @@
 									<h:tbody>
 										<h:tr>
 											<h:td>Cap. 09460</h:td>
-											<h:td>
-												Contributo annuo all'Istituto Storico della Resistenza in Toscana" (
-												<rif xlink:href="urn:nir:regione.toscana:legge:1981;37" xlink:type="simple">LR n. 37/ 81</rif>
-												- Atti consiglio)
-											</h:td>
+											<h:td>Contributo annuo all'Istituto Storico della Resistenza in Toscana" (LR n. 37/81 - Atti consiglio)</h:td>
 											<h:td>L. 80.000.000</h:td>
 										</h:tr>
 										<h:tr>
 											<h:td>Cap. 09480</h:td>
-											<h:td>
-												Contributo annuo alla Federazione regionale Toscana delle associazioni antifasciste e della Resistenza" (
-												<rif xlink:href="urn:nir:regione.toscana:legge:1981;37" xlink:type="simple">LR n. 37/ 81</rif>
-												- Atti consiglio)
-											</h:td>
+											<h:td>Contributo annuo alla Federazione regionale Toscana delle associazioni antifasciste e della Resistenza" (LR n. 37/81 - Atti consiglio)</h:td>
 											<h:td>L. 40.000.000</h:td>
 										</h:tr>
 										<h:tr>
@@ -171,7 +224,7 @@
 			<formulafinale>La presente legge è pubblicata sul Bollettino Ufficiale della Regione. E' fatto obbligo a chiunque spetti di osservarla e farla osservare come legge della Regione Toscana.</formulafinale>
 			<conclusione>
 				<dataeluogo codice="" norm="">Firenze, 12 giugno 1981.</dataeluogo>
-				<soggetto codice="">La presente legge è stata approvata dal Consiglio Regionale il 5-5-1981 ed è stata vistata dal Commissario del Governo il 6-6- 1981.</soggetto>
+				<soggetto codice="">La presente legge è stata approvata dal Consiglio Regionale il 5-5-1981 ed è stata vistata dal Commissario del Governo il 6-6-1981.</soggetto>
 			</conclusione>
 		</LeggeRegionale>
 	</NIR>
