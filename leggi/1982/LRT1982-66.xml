@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19820803" num="43" tipo="BURT" />
 					<entratainvigore norm="19820818" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1982-07-27;66" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1982-07-27;66" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1982-07-27;66@1984-08-20" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="LAVORO" />
 						<materia valore="DISABILI" />
@@ -16,11 +17,62 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19820818" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19840913" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1982-07-27;66" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1984-08-20;57" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1984-08-20;57" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1984-08-20;57#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 20 agosto 1984, n. 57" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-com1-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1984-08-20;57" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1984-08-20;57#art1-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2 della legge Regione Toscana 20 agosto 1984, n. 57" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3-com4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-com3-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1984-08-20;57" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1984-08-20;57#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 20 agosto 1984, n. 57" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -43,7 +95,15 @@
 					<comma id="art1-com1">
 						<num />
 						<corpo>
-							Fino all'approvazione della legge regionale di riordino delle funzioni attribuite ai comuni dagli artt. 22 e 25 del DPR 24-7- 1977, n. 616, l'assistenza agli invalidi del lavoro, mediante l'erogazione dell'assegno di incollocamento, già prevista dall'Associazione Nazionale fra mutilati ed invalidi del lavoro (ANMIL) ente morale in base al decreto luogotenenziale 22-2-1945, n. 128, è attuata per l'anno 1982 secondo le modalità ed i criteri di cui agli articoli seguenti, in conformità a quanto disposto dall'
+							Fino all'approvazione della legge regionale di riordino delle funzioni attribuite ai comuni dagli
+							<mrif>
+								artt.
+								<rif xlink:href="urn:nir:presidente.repubblica:decreto:1977-07-24;616#art22" xlink:type="simple">22</rif>
+								e
+								<rif xlink:href="urn:nir:presidente.repubblica:decreto:1977-07-24;616#art25" xlink:type="simple">25</rif>
+								del DPR 24-7-1977, n. 616
+							</mrif>
+							, l'assistenza agli invalidi del lavoro, mediante l'erogazione dell'assegno di incollocamento, già prevista dall'Associazione Nazionale fra mutilati ed invalidi del lavoro (ANMIL) ente morale in base al decreto luogotenenziale 22-2-1945, n. 128, è attuata per l'anno 1982 secondo le modalità ed i criteri di cui agli articoli seguenti, in conformità a quanto disposto dall'
 							<rif xlink:href="urn:nir:presidente.repubblica:decreto:1979-03-31#art3-com2" xlink:type="simple">art. 3, comma 2 DPR 31-3-1979</rif>
 							- GU 9-5-1979, n. 125.
 						</corpo>
@@ -64,25 +124,49 @@
 				<articolo id="art3">
 					<num>ARTICOLO 3</num>
 					<rubrica>(Valutazione dello stato di bisogno)</rubrica>
-					<comma id="art3-com1">
+					<comma finevigore="t2" id="art3-com1-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>Sono ammessi alla prestazione i soggetti, che presentino regolare domanda, in possesso di un reddito personale annuo inferiore al livello di L. 7.234.955.</corpo>
 					</comma>
-					<comma id="art3-com2">
+					<comma id="art3-com2" iniziovigore="t2">
+						<num />
+						<corpo>Sono ammessi alla prestazione i soggetti, che presentino regolare domanda, in possesso di un reddito personale annuo inferiore al livello di L. 9.511.200.</corpo>
+					</comma>
+					<comma finevigore="t2" id="art3-com3-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>Il limite di reddito, di cui al precedente comma, è aumentato di un importo di L. 600.000 per ogni componente il nucleo familiare a carico dell'invalido fino ad un massimo di L. 10.834.955, corrispondente ad un nucleo composto di 7 unità.</corpo>
 					</comma>
-					<comma id="art3-com3">
+					<comma id="art3-com4" iniziovigore="t2">
+						<num />
+						<alinea>Il limite di reddito di cui al comma precedente è aumentato degli importi appresso indicati:</alinea>
+						<el id="art3-com4-leta">
+							<num>a)</num>
+							<corpo>di L. 750.000 per ogni componente il nucleo familiare a carico dell'invalido, fino ad un massimo di L. 14.011.200, corrispondente ad un nucleo composto di 7 unità.</corpo>
+						</el>
+						<el id="art3-com4-letb">
+							<num>b)</num>
+							<corpo>degli incrementi che dovessero intervenire nel corso dell'anno 1984 sulle rendite infortunistiche corrisposte dall'INAIL rispetto all'anno 1983.</corpo>
+						</el>
+					</comma>
+					<comma id="art3-com5">
 						<num />
 						<corpo>La valutazione del predetto reddito deve avvenire secondo i criteri adottati dall'ANMIL con circolare n. 23 del 6-9-1978, emanata dalla sede centrale del medesimo ente.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art4">
+				<articolo finevigore="t2" id="art4-t2" iniziovigore="t1" status="abrogato">
+					<num>ARTICOLO 4</num>
+					<rubrica>(Misura dell'assegno)</rubrica>
+					<comma id="art4-t2-com1">
+						<num />
+						<corpo>La misura dell'assegno è fissata in L. 50.000 ed avrà validità per il triennio 1982-84.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art4" iniziovigore="t2">
 					<num>ARTICOLO 4</num>
 					<rubrica>(Misura dell'assegno)</rubrica>
 					<comma id="art4-com1">
 						<num />
-						<corpo>La misura dell'assegno è fissata in L. 50.000 ed avrà validità per il triennio 1982-84.</corpo>
+						<corpo>La misura dell'assegno mensile è fissata per l'anno 1984 in L. 60.000.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art5">
