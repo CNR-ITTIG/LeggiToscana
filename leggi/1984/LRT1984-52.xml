@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19840822" num="44" tipo="BURT" />
 					<entratainvigore norm="19840906" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1984-08-13;52" />
+					<urn iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1984-08-13;52" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organizzazioni" />
 						<materia valore="Personale" />
@@ -17,11 +17,44 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19840906" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19840906" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1984-08-13;52" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1984-08-13;53" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1984-08-13;53" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1984-08-13;53#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 13 agosto 1984, n. 53" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1984-08-13;53" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1984-08-13;53#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 13 agosto 1984, n. 53" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com4" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -69,13 +102,25 @@
 						<num />
 						<corpo>Il personale di cui al precedente articolo ha facoltà di chiedere alla Regione Toscana l'immediata liquidazione delle somme accreditate dall'INA, versando alla Regione stessa un importo corrispondente all'indennità premio servizio, determinato secondo le disposizioni dell'INADEL, per il periodo dal 21 dicembre 1977 al 31/12/1980, sulla base della posizione economica in atto alla data del 31/12/1980. In tal caso è esclusa la ricongiunzione a qualunque titolo dei periodi di servizio presso l'ente di provenienza, ai fini dell'indennità di fine rapporto a carico della Regione.</corpo>
 					</comma>
-					<comma id="art2-com2">
+					<comma finevigore="t2" id="art2-com2-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>
 							Il predetto personale, in alternativa a quanto disposto dal comma precedente, ha facoltà di chiedere alla Regione entro 30 giorni dalla data di entrata in vigore della presente legge che i periodi già riconosciuti utili ai fini del preesistente trattamento di fine rapporto siano riconosciuti utili ai fini del trattamento previdenziale previsto per i dipendenti regionali dalla
 							<rif xlink:href="urn:nir:regione.toscana:legge:1982-05-10;35" xlink:type="simple">legge regionale 10/5/1982, n. 35</rif>
 							. In tal caso la Regione trattiene sulle somme accreditate dall'INA, incamerandolo in apposito capitolo di sopravvenienze attive, l'importo corrispondente all'indennità premio servizio determinato secondo le disposizioni dell'INADEL per il periodo dal 21/12/1977 al 31/12/1980, sulla base della posizione economica in atto al 31/12/1980.
 						</corpo>
+					</comma>
+					<comma id="art2-com3" iniziovigore="t2">
+						<num />
+						<corpo>
+							Il predetto personale, in alternativa a quanto disposto dal comma precedente, ha facoltà di chiedere alla Regione, entro trenta giorni dalla data di entrata in vigore della presente legge, che i periodi già riconosciuti utili ai fini del preesistente trattamento di fine rapporto siano riconosciuti utili ai fini del trattamento previdenziale previsto per i dipendenti regionali dalla
+							<rif xlink:href="urn:nir:regione.toscana:legge:1982-05-10;35" xlink:type="simple">Legge Regionale 10/5/1982 n. 35</rif>
+							.
+						</corpo>
+					</comma>
+					<comma id="art2-com4" iniziovigore="t2">
+						<num />
+						<corpo>In tal caso la Regione trattiene sulle somme accreditate dall'INA, incamerandolo in apposito capitolo di sopravvivenze attive, l'importo corrispondente all'indennità premio di servizio determinato secondo le disposizioni dell'INADEL, sulla base della posizione economica in atto al 31 dicembre 1980, per i periodi ai quali si riferisce l'indennità' di anzianità liquidata dall'INA.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art3">
