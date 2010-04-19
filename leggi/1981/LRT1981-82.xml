@@ -8,7 +8,8 @@
 					<entratainvigore norm="19811205" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1981-11-12;82" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1981-11-12;82@1983-02-01" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1981-11-12;82@1983-02-01" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1981-11-12;82@1984-08-01" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="PUBBLICHE CALAMITÀ" />
 					</materie>
@@ -17,10 +18,12 @@
 					<eventi>
 						<evento data="19811205" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19830224" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19840823" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1981-11-12;82" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1983-02-01;5" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1984-08-01;49" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -53,6 +56,21 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art5-com2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1984-08-01;49" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1984-08-01;49#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 1 agosto 1984, n. 49" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art5-com6" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-com5-t3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -250,7 +268,7 @@
 								.
 							</corpo>
 						</comma>
-						<comma id="art5-com5">
+						<comma finevigore="t3" id="art5-com5-t3" iniziovigore="t1" status="abrogato">
 							<num />
 							<corpo>
 								Dalle provvidenze di cui al
@@ -258,7 +276,15 @@
 								della presente legge sono esclusi i proprietari di immobili e gli esercenti di stabilimenti balneari titolari delle concessioni del demanio marittimo il cui reddito annuo accertato in via definitiva o dichiarato riferito all'anno immediatamente precedente all'evento calamitoso, sia superiore a dieci milioni, che risulti da attestato rilasciato dall'Ufficio distrettuale delle imposte dirette.
 							</corpo>
 						</comma>
-						<comma id="art5-com6">
+						<comma id="art5-com6" iniziovigore="t3">
+							<num />
+							<corpo>
+								Dalle provvidenze di cui al titolo III della presente legge sono esclusi i proprietari di immobili e gli esercenti di stabilimenti balneari titolari delle concessioni del demanio marittimo, il cui reddito annuo accertato in via definitiva o dichiarato riferito all'anno immediatamente precedente all'evento calamitoso, sia superiore a quindici milioni, che risulti da attestato rilasciato dall'ufficio distrettuale delle imposte dirette oppure da dichiarazione resa dall'interessato ai termini dell'
+								<rif xlink:href="urn:nir:stato:legge:1968-01-04;15#art4" xlink:type="simple">art. 4 della legge 4 gennaio 1968, n. 15</rif>
+								e successive modifiche.
+							</corpo>
+						</comma>
+						<comma id="art5-com7">
 							<num />
 							<corpo>Ogni dichiarazione non risultante veritiera comporta per i trasgressori le sanzioni penali sancite dalle leggi della Repubblica.</corpo>
 						</comma>
