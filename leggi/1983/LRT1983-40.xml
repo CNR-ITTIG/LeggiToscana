@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19830615" num="30" tipo="BURT" />
 					<entratainvigore norm="19830630" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1983-06-06;40" />
+					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1983-06-06;40" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1983-06-06;40@1984-11-12" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Enti sanitari" />
 						<materia valore="Controlli" />
@@ -17,12 +18,23 @@
 					<eventi>
 						<evento data="19830630" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19830630" fonte="ra1" id="t2" tipo="modifica" />
+						<evento data="19841206" fonte="rp1" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1983-06-06;40" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1979-12-19;63" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1984-11-12;62" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Si veda l'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1984-11-12;62#art2-com2" xlink:type="simple">art. 2, comma 2, della legge regionale 12 novembre 1984, n. 62</rif>
+							.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -44,6 +56,38 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1984-11-12;62" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1984-11-12;62#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 12 novembre 1984, n. 62" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art9-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art9-com1-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art10-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1984-11-12;62" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1984-11-12;62#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 12 novembre 1984, n. 62" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art10-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art10-com1-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -235,47 +279,51 @@
 				<articolo id="art9">
 					<num>ARTICOLO 9</num>
 					<rubrica>(Funzionamento del Collegio dei Revisori)</rubrica>
-					<comma id="art9-com1">
+					<comma finevigore="t3" id="art9-com1-t3" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>Per la validità delle adunanze del Collegio è necessaria la presenza del Presidente e di un membro.</corpo>
 					</comma>
-					<comma id="art9-com2">
+					<comma id="art9-com2" iniziovigore="t3">
 						<num />
-						<corpo>Il Collegio dei Revisori si riunisce ordinariamente almeno una volta ogni tre mesi su convocazione del Presidente da comunicarsi ai membri del Collegio almeno dieci giorni prima della riunione.</corpo>
+						<corpo>Per la validità delle adunanze del collegio, è necessaria la presenza di due componenti. In caso di assenza del membro designato dal consiglio regionale, esercita le funzioni del presidente il membro designato dal Ministero del tesoro</corpo>
 					</comma>
 					<comma id="art9-com3">
 						<num />
-						<corpo>Riunioni del Collegio dei Revisori possono essere richieste singolarmente da ciascuno dei membri. La richiesta deve essere motivata e la convocazione si svolge secondo le procedure di cui al comma precedente.</corpo>
+						<corpo>Il Collegio dei Revisori si riunisce ordinariamente almeno una volta ogni tre mesi su convocazione del Presidente da comunicarsi ai membri del Collegio almeno dieci giorni prima della riunione.</corpo>
 					</comma>
 					<comma id="art9-com4">
 						<num />
-						<corpo>Di ogni riunione viene redatto processo verbale sottoscritto dai componenti del Collegio.</corpo>
+						<corpo>Riunioni del Collegio dei Revisori possono essere richieste singolarmente da ciascuno dei membri. La richiesta deve essere motivata e la convocazione si svolge secondo le procedure di cui al comma precedente.</corpo>
 					</comma>
 					<comma id="art9-com5">
 						<num />
+						<corpo>Di ogni riunione viene redatto processo verbale sottoscritto dai componenti del Collegio.</corpo>
+					</comma>
+					<comma id="art9-com6">
+						<num />
 						<alinea>Il Comitato di Gestione dell'Unità Sanitaria Locale assicura al Collegio dei Revisori l'assistenza tecnica ed organizzativa necessaria per l'espletamento dei compiti propri del Collegio. In particolare:</alinea>
-						<ep id="art9-com5-pun1">
+						<ep id="art9-com6-pun1">
 							<num>-</num>
 							<corpo>trasmettere al Collegio tutti gli atti, i dati e le notizie che il Collegio ritenga utile acquisire;</corpo>
 						</ep>
-						<ep id="art9-com5-pun2">
+						<ep id="art9-com6-pun2">
 							<num />
 							<corpo>- garantire ai componenti del Collegio l'accesso ai servizi della Unità Sanitaria Locale qualora il Collegio ritenga necessario procedere ad atti di verifica e di controllo;</corpo>
 						</ep>
-						<ep id="art9-com5-pun3">
+						<ep id="art9-com6-pun3">
 							<num />
 							<corpo>- assicurare i locali ed i mezzi necessari per lo svolgimento dell'attività del Collegio.</corpo>
 						</ep>
 					</comma>
-					<comma id="art9-com6">
+					<comma id="art9-com7">
 						<num />
 						<corpo>I Componenti del Collegio dei Revisori possono partecipare senza diritto di voto, alle sedute dell'assemblea e del Comitato di Gestione dell'Unità Sanitaria Locale.</corpo>
 					</comma>
-					<comma id="art9-com7">
+					<comma id="art9-com8">
 						<num />
 						<corpo>Il Revisore che, senza giustificato motivo, non partecipa a due sedute consecutive del Collegio decade d'ufficio.</corpo>
 					</comma>
-					<comma id="art9-com8">
+					<comma id="art9-com9">
 						<num />
 						<corpo>Per l'esercizio delle funzioni previste dalla presente legge, ciascun Revisore ha diritto di prendere visione, anche singolarmente, di tutti gli atti amministrativi e documenti contabili dell'Unità Sanitaria Locale.</corpo>
 					</comma>
@@ -283,11 +331,19 @@
 				<articolo id="art10">
 					<num>ARTICOLO 10</num>
 					<rubrica>(Indennità ai membri del Collegio dei Revisori)</rubrica>
-					<comma id="art10-com1">
+					<comma finevigore="t3" id="art10-com1-t3" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>Al Presidente ed ai membri del Collegio dei Revisori spetta una indennità di carica lorda pari al 50% di quella corrisposta rispettivamente al Presidente ed ai membri del relativo comitato di Gestione della Unità Sanitaria Locale, nonchè, se spettante, l'indennità di missione ed il rimborso delle spese effettivamente sostenute nei limiti e secondo quanto previsto dalla normativa vigente per i dipendenti regionali.</corpo>
 					</comma>
-					<comma id="art10-com2">
+					<comma id="art10-com2" iniziovigore="t3">
+						<num />
+						<corpo>
+							Al presidente ed ai membri del collegio dei revisori compete una indennità di carica lorda mensile quale risulta dall'allegata tabella
+							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							, nonchè, se spettante, l'indennità di missione ed il rimborso delle spese effettivamente sostenute nei limiti e secondo quanto previsto dalla normativa vigente per i dipendenti regionali.
+						</corpo>
+					</comma>
+					<comma id="art10-com3">
 						<num />
 						<corpo>La liquidazione del rimborso spese è fatta con deliberazione esecutiva del Comitato di Gestione della Unità Sanitaria Locale su richiesta dell'interessato corredata dalla documentazione necessaria.</corpo>
 					</comma>
