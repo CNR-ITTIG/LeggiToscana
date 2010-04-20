@@ -14,7 +14,8 @@
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1982-10-30" />
 					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1982-11-08" />
 					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1983-07-19" />
-					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1984-04-24" />
+					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1984-04-24" />
+					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1984-10-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="AGRICOLTURA" />
 						<materia valore="ATTRIBUZIONI DELEGHE" />
@@ -30,6 +31,7 @@
 						<evento data="19821201" fonte="rp5" id="t6" tipo="modifica" />
 						<evento data="19830811" fonte="rp6" id="t7" tipo="modifica" />
 						<evento data="19840517" fonte="rp7" id="t8" tipo="modifica" />
+						<evento data="19841122" fonte="rp8" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1981-02-09;15" xlink:type="simple" />
@@ -40,6 +42,7 @@
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1982-11-08;82" xlink:type="simple" />
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:1983-07-19;56" xlink:type="simple" />
 						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:1984-04-24;24" xlink:type="simple" />
+						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:1984-10-29;60" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -260,6 +263,33 @@
 								<dsp:pos xlink:href="#art4-com1-leti" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1984-10-29;60" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1984-10-29;60#art23-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 23, comma 1 della legge Regione Toscana 29 ottobre 1984, n. 60" id="itt17" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com1-lete" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com1-letd" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1984-10-29;60" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1984-10-29;60#art23-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 23, comma 2 della legge Regione Toscana 29 ottobre 1984, n. 60" id="itt18" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3-com1-letd" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-com1-letd-t9" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -319,12 +349,16 @@
 							<corpo>
 								gli interventi di cui alla
 								<rif xlink:href="urn:nir:regione.toscana:legge:1977-09-07;71" xlink:type="simple">LR 7-9-1977 n. 71</rif>
-								ivi compresi i piani aziendali, previo parere dei comitati consultivi di cui all'art. 3 della legge regionale di disciplina delle agevolazioni finanziarie nel settore dell'agricoltura.
+								ivi compresi i piani aziendali, previo parere dei comitati consultivi di cui all'art. 3 della legge regionale di disciplina delle agevolazioni finanziarie nel settore dell'agricoltura;
 							</corpo>
 						</el>
 						<el id="art2-com1-letd">
 							<num>d)</num>
 							<corpo>le attività zootecniche;</corpo>
+						</el>
+						<el id="art2-com1-lete" iniziovigore="t9">
+							<num>e)</num>
+							<corpo>le funzioni attribuite dalla legislazione regionale concernente i servizi di sviluppo agricolo;</corpo>
 						</el>
 						<el id="art2-com1-lete">
 							<num>e)</num>
@@ -440,13 +474,17 @@
 								e successive modificazioni ed integrazioni;
 							</corpo>
 						</el>
-						<el id="art3-com1-letd">
+						<el finevigore="t9" id="art3-com1-letd-t9" iniziovigore="t1" status="abrogato">
 							<num>d)</num>
 							<corpo>
 								l'assistenza tecnica alle aziende agricole, zootecniche e forestali e la connessa attività dimostrativa e divulgativa nonchè l'assistenza tecnica ed economica alle cooperative; restano ferme le competenze attribuite all'ETSAF dalla
 								<rif xlink:href="urn:nir:regione.toscana:legge:1977-10-18;72" xlink:type="simple">LR 18-10-1977 n. 72</rif>
 								;
 							</corpo>
+						</el>
+						<el id="art3-com1-letd" iniziovigore="t9">
+							<num>d)</num>
+							<corpo>le funzioni attribuite dalla legislazione regionale concernente i servizi di sviluppo agricolo;</corpo>
 						</el>
 						<el id="art3-com1-lete">
 							<num>e)</num>

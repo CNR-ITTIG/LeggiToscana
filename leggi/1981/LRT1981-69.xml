@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19810911" num="48" tipo="BURT" />
 					<entratainvigore norm="19810926" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1981-09-07;69" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1981-09-07;69" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1981-09-07;69@1984-10-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Agricoltura" />
 						<materia valore="Organi" />
@@ -16,11 +17,44 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19810926" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19841122" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1981-09-07;69" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1984-10-29;60" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1984-10-29;60" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1984-10-29;60#art22-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 22, comma 1 della legge Regione Toscana 29 ottobre 1984, n. 60" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1984-10-29;60" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1984-10-29;60#art22-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 22, comma 2 della legge Regione Toscana 29 ottobre 1984, n. 60" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -51,92 +85,203 @@
 						<corpo>Fermo restando le competenze degli organi e degli enti regionali il Comitato esprime - con riferimento alla ricerca scientifica, tecnologica e dello sviluppo, alla divulgazione e alla assistenza tecnica in agricoltura e foreste - pareri sulle linee generali per la elaborazione dei programmi e degli investimenti, sulla impostazione dei progetti settoriali e intersettoriali, sulle direttive generali intese all'attuazione dei programmi anche interdisciplinari, nonchè sulle azioni di promozione e di coordinamento delle attività della Regione e degli enti dipendenti.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art3">
+				<articolo finevigore="t2" id="art3-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 3</num>
-					<comma id="art3-com1">
+					<comma id="art3-t2-com1">
 						<num />
 						<alinea>Il Comitato è composto:</alinea>
-						<ep id="art3-com1-pun1">
+						<ep id="art3-t2-com1-pun1">
 							<num>-</num>
 							<corpo>Presidente della Giunta regionale con funzione di presidente o suo delegato;</corpo>
 						</ep>
-						<ep id="art3-com1-pun2">
+						<ep id="art3-t2-com1-pun2">
 							<num>-</num>
 							<corpo>1 componente la Giunta regionale delegato all'istruzione e alla cultura;</corpo>
 						</ep>
-						<ep id="art3-com1-pun3">
+						<ep id="art3-t2-com1-pun3">
 							<num>-</num>
 							<corpo>3 rappresentanti dell'ETSAF;</corpo>
 						</ep>
-						<ep id="art3-com1-pun4">
+						<ep id="art3-t2-com1-pun4">
 							<num>-</num>
 							<corpo>1 rappresentante delle Amministrazioni Provinciali;</corpo>
 						</ep>
-						<ep id="art3-com1-pun5">
+						<ep id="art3-t2-com1-pun5">
 							<num>-</num>
 							<corpo>3 rappresentanti delle Associazioni dei produttori maggiormente rappresentative a livello nazionale;</corpo>
 						</ep>
-						<ep id="art3-com1-pun6">
+						<ep id="art3-t2-com1-pun6">
 							<num>-</num>
 							<corpo>3 rappresentanti delle Organizzazioni professionali maggiormente rappresentative a livello nazionale;</corpo>
 						</ep>
-						<ep id="art3-com1-pun7">
+						<ep id="art3-t2-com1-pun7">
 							<num>-</num>
 							<corpo>2 rappresentanti delle Organizzazioni cooperative maggiormente rappresentative a livello nazionale;</corpo>
 						</ep>
-						<ep id="art3-com1-pun8">
+						<ep id="art3-t2-com1-pun8">
 							<num>-</num>
 							<corpo>1 rappresentante della Federazione Sindacale Unitaria;</corpo>
 						</ep>
-						<ep id="art3-com1-pun9">
+						<ep id="art3-t2-com1-pun9">
 							<num>-</num>
 							<alinea>5 rappresentanti delle 3 Università della Toscana di cui:</alinea>
-							<ep id="art3-com1-pun9-pun1">
+							<ep id="art3-t2-com1-pun9-pun1">
 								<num>-</num>
 								<corpo>n. 2 rappresentanti della facoltà di Agraria;</corpo>
 							</ep>
-							<ep id="art3-com1-pun9-pun2">
+							<ep id="art3-t2-com1-pun9-pun2">
 								<num>-</num>
 								<corpo>n. 1 rappresentante della facoltà di Veterinaria;</corpo>
 							</ep>
-							<ep id="art3-com1-pun9-pun3">
+							<ep id="art3-t2-com1-pun9-pun3">
 								<num>-</num>
 								<corpo>n. 1 rappresentante della facoltà di Economia e Commercio;</corpo>
 							</ep>
-							<ep id="art3-com1-pun9-pun4">
+							<ep id="art3-t2-com1-pun9-pun4">
 								<num>-</num>
 								<corpo>n. 1 rappresentante della facoltà di Ingegneria;</corpo>
 							</ep>
-							<ep id="art3-com1-pun9-pun5">
+							<ep id="art3-t2-com1-pun9-pun5">
 								<num>-</num>
 								<corpo>1 rappresentante del Corpo Forestale dello Stato;</corpo>
 							</ep>
-							<ep id="art3-com1-pun9-pun6">
+							<ep id="art3-t2-com1-pun9-pun6">
 								<num>-</num>
 								<corpo>1 rappresentante dell'Istituto sperimentale per lo studio e la difesa del suolo;</corpo>
 							</ep>
-							<ep id="art3-com1-pun9-pun7">
+							<ep id="art3-t2-com1-pun9-pun7">
 								<num>-</num>
 								<corpo>1 rappresentante dell'Istituto sperimentale per la viticoltura;</corpo>
 							</ep>
-							<ep id="art3-com1-pun9-pun8">
+							<ep id="art3-t2-com1-pun9-pun8">
 								<num>-</num>
 								<corpo>1 rappresentante per la Toscana dell'Istituto sperimentale per l'enologia;</corpo>
 							</ep>
-							<ep id="art3-com1-pun9-pun9">
+							<ep id="art3-t2-com1-pun9-pun9">
 								<num>-</num>
 								<corpo>1 rappresentante dell'Istituto zooprofilattico per il Lazio e la Toscana;</corpo>
 							</ep>
-							<ep id="art3-com1-pun9-pun10">
+							<ep id="art3-t2-com1-pun9-pun10">
 								<num>-</num>
 								<corpo>1 rappresentante dell'Osservatorio di Economia Agraria.</corpo>
 							</ep>
 						</ep>
 					</comma>
 				</articolo>
-				<articolo id="art4">
+				<articolo id="art3" iniziovigore="t2">
+					<num>ARTICOLO 3</num>
+					<comma id="art3-com1">
+						<num />
+						<alinea>Il Comitato è composto da:</alinea>
+						<el id="art3-com1-leta">
+							<num>a)</num>
+							<corpo>Presidente della Giunta regionale con funzione di presidente o componente la Giunta regionale suo delegato;</corpo>
+						</el>
+						<el id="art3-com1-letb">
+							<num>b)</num>
+							<corpo>altro componente la Giunta regionale;</corpo>
+						</el>
+						<el id="art3-com1-letc">
+							<num>c)</num>
+							<corpo>6 membri eletti dal Consiglio regionale con voto limitato a 4, fra persone particolarmente esperte nelle materie di competenza del comitato;</corpo>
+						</el>
+						<el id="art3-com1-letd">
+							<num>d)</num>
+							<corpo>3 rappresentanti dell'ETSAF;</corpo>
+						</el>
+						<el id="art3-com1-lete">
+							<num>e)</num>
+							<corpo>3 rappresentanti dell'URPT;</corpo>
+						</el>
+						<el id="art3-com1-letf">
+							<num>f)</num>
+							<corpo>3 rappresentanti delle associazioni di produttori maggiormente rappresentative a livello nazionale;</corpo>
+						</el>
+						<el id="art3-com1-letg">
+							<num>g)</num>
+							<corpo>3 rappresentanti delle organizzazioni professionali maggiormente rappresentative a livello nazionale;</corpo>
+						</el>
+						<el id="art3-com1-leth">
+							<num>h)</num>
+							<corpo>2 rappresentanti delle organizzazioni cooperative maggiormente rappresentative a livello nazionale;</corpo>
+						</el>
+						<el id="art3-com1-leti">
+							<num>i)</num>
+							<corpo>1 rappresentante della Federazione sindacale unitaria;</corpo>
+						</el>
+						<el id="art3-com1-letl">
+							<num>l)</num>
+							<alinea>5 rappresentanti delle tre Università della Toscana, di cui:</alinea>
+							<en id="art3-com1-letl-num1">
+								<num>1.</num>
+								<corpo>2 rappresentanti della facoltà di scienze agrarie e forestali;</corpo>
+							</en>
+							<en id="art3-com1-letl-num2">
+								<num>2.</num>
+								<corpo>1 rappresentante della facoltà di scienze matematiche;</corpo>
+							</en>
+							<en id="art3-com1-letl-num3">
+								<num>3.</num>
+								<corpo>1 rappresentante della facoltà di scienze economiche e commerciali;</corpo>
+							</en>
+							<en id="art3-com1-letl-num4">
+								<num>4.</num>
+								<corpo>1 rappresentante della facoltà di ingegneria;</corpo>
+							</en>
+						</el>
+						<el id="art3-com1-letm">
+							<num>m)</num>
+							<corpo>1 rappresentante del Corpo Forestale dello Stato;</corpo>
+						</el>
+						<el id="art3-com1-letn">
+							<num>n)</num>
+							<corpo>1 rappresentante dell'Istituto Sperimentale per lo studio e la difesa del suolo;</corpo>
+						</el>
+						<el id="art3-com1-leto">
+							<num>o)</num>
+							<corpo>1 rappresentante dell'Istituto Sperimentale per la viticoltura;</corpo>
+						</el>
+						<el id="art3-com1-letp">
+							<num>p)</num>
+							<corpo>1 rappresentante per la Toscana dell'Istituto Sperimentale per l'enologia;</corpo>
+						</el>
+						<el id="art3-com1-letq">
+							<num>q)</num>
+							<corpo>1 rappresentante dell'Istituto zooprofilattico per il Lazio e la Toscana;</corpo>
+						</el>
+						<el id="art3-com1-lete">
+							<num>e)</num>
+							<corpo>1 rappresentante dell'Osservatorio di economia agraria;</corpo>
+						</el>
+						<el id="art3-com1-lets">
+							<num>s)</num>
+							<corpo>1 rappresentante dell'Accademia economico - agraria dei Georgofili;</corpo>
+						</el>
+						<el id="art3-com1-lett">
+							<num>t)</num>
+							<corpo>1 rappresentante dell'Accademia di scienze forestali;</corpo>
+						</el>
+						<el id="art3-com1-letu">
+							<num>u)</num>
+							<corpo>1 rappresentante dell'Istituto sperimentale di zoologia agraria di Firenze;</corpo>
+						</el>
+						<el id="art3-com1-letv">
+							<num>v)</num>
+							<corpo>1 rappresentante dell'Istituto sperimentale di selvicoltura di Arezzo;</corpo>
+						</el>
+						<el id="art3-com1-lety">
+							<num>y)</num>
+							<corpo>1 rappresentante dell'Istituto sperimentale di floricoltura, sezione operativa di Pescia;</corpo>
+						</el>
+						<el id="art3-com1-letz">
+							<num>z)</num>
+							<corpo>1 rappresentante degli ordini professionali, degli agronomi, dei veterinari e dei periti agrari.</corpo>
+						</el>
+					</comma>
+				</articolo>
+				<articolo finevigore="t2" id="art4-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 4</num>
-					<comma id="art4-com1">
+					<comma id="art4-t2-com1">
 						<num />
 						<corpo>Il Presidente può chiamare a partecipare alle riunioni del Comitato altri esperti quando vengono trattate questioni riguardanti settori di specifica competenza.</corpo>
 					</comma>

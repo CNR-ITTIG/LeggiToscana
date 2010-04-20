@@ -10,7 +10,8 @@
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1977-09-07;71" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1977-09-07;71@1978-11-25" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1977-09-07;71@1981-08-01" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1977-09-07;71@1981-10-29" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1977-09-07;71@1981-10-29" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1977-09-07;71@1984-10-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="FORMAZIONE" />
 						<materia valore="TUTELA AMBIENTALE" />
@@ -23,12 +24,14 @@
 						<evento data="19781216" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19810822" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19811121" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="19841122" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1977-09-07;71" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1978-11-25;72" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1981-08-01;63" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1981-10-29;80" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1984-10-29;60" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -146,6 +149,30 @@
 								<dsp:pos xlink:href="#art15-com2-t4" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#tit1-sez4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1984-10-29;60" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1984-10-29;60#art25-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 25, comma 1 della legge Regione Toscana 29 ottobre 1984, n. 60" id="itt8" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#tit2-sez4-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#tit1-sez5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1984-10-29;60" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1984-10-29;60#art25-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 25, comma 1 della legge Regione Toscana 29 ottobre 1984, n. 60" id="itt9" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#tit2-sez5-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -1274,7 +1301,7 @@
 							</comma>
 						</articolo>
 					</sezione>
-					<sezione id="tit2-sez4">
+					<sezione finevigore="t5" id="tit2-sez4-t5" iniziovigore="t1" status="abrogato">
 						<num>Sezione IV</num>
 						<rubrica>INTERVENTI PER LA CONTABILITA' AZIENDALE</rubrica>
 						<articolo id="art33">
@@ -1378,7 +1405,7 @@
 							</comma>
 						</articolo>
 					</sezione>
-					<sezione id="tit2-sez5">
+					<sezione finevigore="t5" id="tit2-sez5-t5" iniziovigore="t1" status="abrogato">
 						<num>Sezione V</num>
 						<rubrica>AIUTI DI AVVIAMENTO ALLE ASSOCIAZIONI DI ASSISTENZA INTERAZIENDALE</rubrica>
 						<articolo id="art36">
