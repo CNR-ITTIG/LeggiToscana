@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19800411" num="23" tipo="BURT" />
 					<entratainvigore norm="19810101" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1980-04-04;25" />
+					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1980-04-04;25" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1980-04-04;25@1984-11-26" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="OPERE PUBBLICHE" />
 					</materie>
@@ -16,10 +17,12 @@
 					<eventi>
 						<evento data="19810101" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19810101" fonte="ra1" id="t2" tipo="modifica" />
+						<evento data="19841220" fonte="rp1" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-04-04;25" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1975-02-27;18" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1984-11-26;68" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -53,6 +56,23 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1984-11-26;68" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1984-11-26;68#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 26 novembre 1984, n. 68" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art9-com5" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art9-com4-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -251,11 +271,23 @@
 						<num />
 						<corpo>I contributi sono, altresì, corrisposti agli enti beneficiari nel caso di riscatto dei mutui prima della scadenza con decorrenza dalla ricezione della dichiarazione dell'avvenuto riscatto da parte degli enti mutuanti.</corpo>
 					</comma>
-					<comma id="art9-com4">
+					<comma finevigore="t3" id="art9-com4-t3" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>I contributi in conto capitale sono erogati su richiesta dell'ente beneficiario in relazione al fabbisogno semestrale previsto. Pertanto quindici giorni prima della scadenza di ogni semestre il Capo dell'Amministrazione dell'ente interessato inoltrerà alla Regione indicazione dei fondi spesi nel semestre precedente e dell'ulteriore fabbisogno per il semestre successivo.</corpo>
 					</comma>
-					<comma id="art9-com5">
+					<comma id="art9-com5" iniziovigore="t3">
+						<num />
+						<alinea>I contributi in conto capitale sono erogati, su richiesta del legale rappresentante dell'ente beneficiario, come segue:</alinea>
+						<el id="art9-com5-leta">
+							<num>a)</num>
+							<corpo>fino al 90% dell'importo in relazione al fabbisogno semestrale previsto. Pertanto, quindici giorni prima della scadenza di ogni semestre, l'ente interessato inoltrerà alla Regione l'attestazione dei fondi spesi nel semestre precedente e la richiesta dell'ulteriore fabbisogno per il semestre successivo;</corpo>
+						</el>
+						<el id="art9-com5-letb">
+							<num>b)</num>
+							<corpo>l'ulteriore 10% dell'importo a saldo su presentazione di attestazione dell'ultimazione delle opere oggetto del contributo regionale. La predetta attestazione dovrà essere presentata alla Regione entro tre mesi dall'effettiva ultimazione delle opere pena la revoca del contributo.</corpo>
+						</el>
+					</comma>
+					<comma id="art9-com6">
 						<num />
 						<corpo>Il procedimento sopra descritto in ordine ai contributi in conto capitale si applica anche in caso di opere a totale carico della Regione, la cui esecuzione sia affidata agli Enti locali, nonchè agli altri interventi per la realizzazione dei quali gli Enti locali beneficiano comunque di un finanziamento regionale.</corpo>
 					</comma>
