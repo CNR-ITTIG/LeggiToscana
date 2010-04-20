@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19840912" num="47" tipo="BURT" />
 					<entratainvigore norm="19840927" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1984-09-04;59" />
+					<urn finevigore="t10" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1984-09-04;59" />
+					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1984-09-04;59@1984-11-12" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Formazione" />
@@ -25,6 +26,7 @@
 						<evento data="19840927" fonte="ra6" id="t7" tipo="modifica" />
 						<evento data="19840927" fonte="ra7" id="t8" tipo="modifica" />
 						<evento data="19840927" fonte="ra8" id="t9" tipo="modifica" />
+						<evento data="19841206" fonte="rp1" id="t10" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1984-09-04;59" xlink:type="simple" />
@@ -36,6 +38,7 @@
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1980-11-15;86" xlink:type="simple" />
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:1980-11-15;86" xlink:type="simple" />
 						<attiva id="ra8" xlink:href="urn:nir:regione.toscana:legge:1980-11-15;86" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1984-11-12;61" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -137,6 +140,23 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art12" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1984-11-12;61" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1984-11-12;61#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 12 novembre 1984, n. 61" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art12" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art12-t10" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -536,21 +556,21 @@
 						<num />
 						<corpo>
 							Agli oneri di spesa derivanti dall'attuazione della presente legge si fa fronte, per il 1984, con le variazioni di bilancio di cui al
-							<rif xlink:href="#art12" xlink:type="simple">successivo art. 12</rif>
+							<rif xlink:href="#art12-t10" xlink:type="simple">successivo art. 12</rif>
 							, e per gli anni successivi con le relative leggi di bilancio.
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art12">
+				<articolo finevigore="t10" id="art12-t10" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 12</num>
 					<rubrica>(Variazione di bilancio)</rubrica>
-					<comma id="art12-com1">
+					<comma id="art12-t10-com1">
 						<num />
 						<alinea>Lo stato di previsione della competenza e della cassa della parte Spesa del bilancio di previsione 1984 è modificato come segue per analogo importo:</alinea>
-						<ep id="art12-com1-pun1">
+						<ep id="art12-t10-com1-pun1">
 							<num />
 							<alinea>SPESA</alinea>
-							<ep id="art12-com1-pun1-pun1">
+							<ep id="art12-t10-com1-pun1-pun1">
 								<num />
 								<corpo>
 									In diminuzione
@@ -593,7 +613,7 @@
 									</h:table>
 								</corpo>
 							</ep>
-							<ep id="art12-com1-pun1-pun2">
+							<ep id="art12-t10-com1-pun1-pun2">
 								<num />
 								<corpo>
 									di nuova istituzione
@@ -608,6 +628,160 @@
 												<h:td />
 												<h:td>TOTALE di nuova istituzione</h:td>
 												<h:td>L. 1.600.000.000</h:td>
+											</h:tr>
+										</h:tbody>
+									</h:table>
+								</corpo>
+							</ep>
+						</ep>
+					</comma>
+				</articolo>
+				<articolo id="art12" iniziovigore="t10">
+					<num>Art. 12</num>
+					<rubrica>(Variazioni di bilancio)</rubrica>
+					<comma id="art12-com1">
+						<num />
+						<alinea>Gli stati di previsione della competenza e della cassa della parte Entrata e della parte Spesa del bilancio di previsione 1984 sono modificati come segue, per analogo importo:</alinea>
+						<ep id="art12-com1-pun1">
+							<num />
+							<alinea>ENTRATA</alinea>
+							<ep id="art12-com1-pun1-pun1">
+								<num />
+								<corpo>
+									di nuova istituzione:
+									<h:table>
+										<h:tbody>
+											<h:tr>
+												<h:td>Cap. 26110</h:td>
+												<h:td>
+													Ritenute sugli assegni fissi per contributi previdenziali, assistenziali ed assicurativi al personale del ruolo unico speciale della formazione professionale (
+													<rif xlink:href="urn:nir:regione.toscana:legge:1984;61" xlink:type="simple">LR 61/84</rif>
+													)
+												</h:td>
+												<h:td>200.000.000</h:td>
+											</h:tr>
+											<h:tr>
+												<h:td />
+												<h:td />
+												<h:td />
+											</h:tr>
+											<h:tr>
+												<h:td />
+												<h:td>Totale entrata di nuova istit.</h:td>
+												<h:td>200.000.000</h:td>
+											</h:tr>
+										</h:tbody>
+									</h:table>
+								</corpo>
+							</ep>
+						</ep>
+						<ep id="art12-com1-pun2">
+							<num />
+							<alinea>SPESA</alinea>
+							<ep id="art12-com1-pun2-pun1">
+								<num />
+								<corpo>
+									in diminuzione:
+									<h:table>
+										<h:tbody>
+											<h:tr>
+												<h:td>Cap. 00220</h:td>
+												<h:td>
+													Spese per il personale addetto ai servizi della Regione, stipendi, altri assegni fissi e contributi diversi a carico dell'Ente (LLRR
+													<rif xlink:href="urn:nir:regione.toscana:legge:1973-09-06;54" xlink:type="simple">6-9-1973, n. 54</rif>
+													,
+													<rif xlink:href="urn:nir:regione.toscana:legge:1979-08-17;38" xlink:type="simple">17-8-1979, n. 38</rif>
+													;
+													<rif xlink:href="urn:nir:regione.toscana:legge:1981-01-19;11" xlink:type="simple">19-1-1981, n. 11</rif>
+													;
+													<rif xlink:href="urn:nir:regione.toscana:legge:1982-04-07;30" xlink:type="simple">7-4-1982, n. 30</rif>
+													e
+													<rif xlink:href="urn:nir:regione.toscana:legge:1982-02-01;9" xlink:type="simple">1-2-1982, n. 9</rif>
+													)
+												</h:td>
+												<h:td>600.000.000</h:td>
+											</h:tr>
+											<h:tr>
+												<h:td>Cap. 15050</h:td>
+												<h:td>
+													Retribuzione al personale non regionale addetto al sistema di formazione professionale (LLRR
+													<rif xlink:href="urn:nir:regione.toscana:legge:1980-11-15;86" xlink:type="simple">15-11-1980, n. 86</rif>
+													e
+													<rif xlink:href="urn:nir:regione.toscana:legge:1983-05-23;35" xlink:type="simple">23-5-1983, n. 35</rif>
+													)
+												</h:td>
+												<h:td>1.000.000.000</h:td>
+											</h:tr>
+											<h:tr>
+												<h:td>Cap. 50000</h:td>
+												<h:td>Fondo globale per il finanziamento di spesa per l'adempimento di funzionali normali (spese correnti)</h:td>
+												<h:td>900.000.000</h:td>
+											</h:tr>
+											<h:tr>
+												<h:td />
+												<h:td />
+												<h:td />
+											</h:tr>
+											<h:tr>
+												<h:td />
+												<h:td>Totale spesa in diminuzione</h:td>
+												<h:td>2.500.000.000</h:td>
+											</h:tr>
+										</h:tbody>
+									</h:table>
+								</corpo>
+							</ep>
+							<ep id="art12-com1-pun2-pun2">
+								<num />
+								<corpo>
+									Di nuova istituzione:
+									<h:table>
+										<h:tbody>
+											<h:tr>
+												<h:td>Cap. 00230</h:td>
+												<h:td>
+													Spese per il personale del ruolo unico speciale della formazione professionale. Stipendi, altri assegni fissi e contributi diversi a carico dell'Ente (
+													<rif xlink:href="urn:nir:regione.toscana:legge:1984;61" xlink:type="simple">LR 61/84</rif>
+													)
+												</h:td>
+												<h:td>1.600.000.000</h:td>
+											</h:tr>
+											<h:tr>
+												<h:td>Cap. 00245</h:td>
+												<h:td>
+													Spese per il personale del ruolo unico speciale per la formazione professionale. Contributi previdenziali, assicurativi ed assistenziali a carico del personale (
+													<rif xlink:href="urn:nir:regione.toscana:legge:1984;61" xlink:type="simple">LR 61/84</rif>
+													)
+												</h:td>
+												<h:td>200.000.000</h:td>
+											</h:tr>
+											<h:tr>
+												<h:td>Cap. 00275</h:td>
+												<h:td>
+													Trattamento previdenziale a carico della Regione per il personale del ruolo unico speciale della formazione professionale (
+													<rif xlink:href="urn:nir:regione.toscana:legge:1984;61" xlink:type="simple">LR 61/84</rif>
+													)
+												</h:td>
+												<h:td>750.000.000</h:td>
+											</h:tr>
+											<h:tr>
+												<h:td>Cap. 00310</h:td>
+												<h:td>
+													Compensi per lavoro straordinario, indennità di trasferta e rimborso spese per missioni del personale del ruolo unico speciale della formazione professionale (
+													<rif xlink:href="urn:nir:regione.toscana:legge:1984;61" xlink:type="simple">LR 61/84</rif>
+													)
+												</h:td>
+												<h:td>150.000.000</h:td>
+											</h:tr>
+											<h:tr>
+												<h:td />
+												<h:td />
+												<h:td />
+											</h:tr>
+											<h:tr>
+												<h:td />
+												<h:td>Totale spesa in aumento</h:td>
+												<h:td>2.700.000.000</h:td>
 											</h:tr>
 										</h:tbody>
 									</h:table>
