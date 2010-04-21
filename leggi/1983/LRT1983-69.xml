@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19831026" num="49" tipo="BURT" />
 					<entratainvigore norm="19831110" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1983-10-17;69" />
+					<urn finevigore="t9" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1983-10-17;69" />
+					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1983-10-17;69@1984-12-10" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Farmaci" />
 						<materia valore="Assistenza Sanitaria" />
@@ -23,6 +24,7 @@
 						<evento data="19831110" fonte="ra5" id="t6" tipo="modifica" />
 						<evento data="19831110" fonte="ra6" id="t7" tipo="modifica" />
 						<evento data="19831110" fonte="ra7" id="t8" tipo="modifica" />
+						<evento data="19850103" fonte="rp1" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1983-10-17;69" xlink:type="simple" />
@@ -33,6 +35,7 @@
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1980-11-13;85" xlink:type="simple" />
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1975-05-05;39" xlink:type="simple" />
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:1980-11-15;85" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1984-12-10;71" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -137,6 +140,32 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art10-com6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1984-12-10;71" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1984-12-10;71#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 10 dicembre 1984, n. 71" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art10-com6-t9" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art16-com5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1984-12-10;71" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1984-12-10;71#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 10 dicembre 1984, n. 71" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art16-com5-t9" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -540,7 +569,7 @@
 							<num>5.</num>
 							<corpo>Lo svolgimento dell'attività ispettiva, di vigilanza e controllo è diretta e coordinata dal responsabile del servizio.</corpo>
 						</comma>
-						<comma id="art10-com6">
+						<comma finevigore="t9" id="art10-com6-t9" iniziovigore="t1" status="abrogato">
 							<num>6.</num>
 							<corpo>
 								Per l'attribuzione della qualifica di ufficiale di polizia giudiziaria si provvede secondo quanto dispone il
@@ -813,7 +842,7 @@
 							<num>4.</num>
 							<corpo>L'attività ispettiva di vigilanza e di controllo è diretta e coordinata dal predetto responsabile del servizio.</corpo>
 						</comma>
-						<comma id="art16-com5">
+						<comma finevigore="t9" id="art16-com5-t9" iniziovigore="t1" status="abrogato">
 							<num>5.</num>
 							<corpo>
 								Ai soggetti preposti allo svolgimento delle attività di pubblico servizio sono attribuite con le modalità di cui al
