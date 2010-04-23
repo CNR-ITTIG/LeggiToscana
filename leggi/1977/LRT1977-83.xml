@@ -10,7 +10,8 @@
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1977-12-23;83" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1977-12-23;83@1978-02-08" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1977-12-23;83@1978-05-30" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1977-12-23;83@1980-02-07" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1977-12-23;83@1980-02-07" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1977-12-23;83@1985-01-10" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="ATTRIBUZIONI DELEGHE" />
 						<materia valore="ASSETTO IDROGEOLOGICO" />
@@ -23,12 +24,14 @@
 						<evento data="19780217" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19780624" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19800115" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="19850131" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1977-12-23;83" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1978-02-08;11" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1978-05-30;34" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1980-02-07;13" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -49,7 +52,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art35" xlink:type="simple" />
+							<dsp:pos xlink:href="#art35-t5" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1978-02-08;11" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1978-02-08;11#artunico-com2" xlink:type="simple" />
 								<dsp:subarg>
@@ -57,10 +60,10 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art35-com7" xlink:type="simple" />
+								<dsp:pos xlink:href="#art35-t5-com7" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#art35-com6-t2" xlink:type="simple" />
+								<dsp:pos xlink:href="#art35-t5-com6-t2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -135,6 +138,18 @@
 								<dsp:pos xlink:href="#art37-com1-t4" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art35" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1#art4-com1-letf" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1, lettera f) della legge Regione Toscana 10 gennaio 1985, n. 1" id="itt8" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art35-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -847,10 +862,10 @@
 							</el>
 						</comma>
 					</articolo>
-					<articolo id="art35">
+					<articolo finevigore="t5" id="art35-t5" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 35</num>
 						<rubrica>(Oneri finanziari aggiuntivi per l'esercizio delle funzioni delegate)</rubrica>
-						<comma id="art35-com1">
+						<comma id="art35-t5-com1">
 							<num />
 							<corpo>
 								Gli oneri finanziari aggiuntivi di funzionamento previsti dall'
@@ -858,7 +873,7 @@
 								, sono stabiliti in una quota pari al 10% del finanziamento complessivamente disposto dalla presente legge per l'esercizio delle funzioni delegate.
 							</corpo>
 						</comma>
-						<comma id="art35-com2">
+						<comma id="art35-t5-com2">
 							<num />
 							<corpo>
 								Ai fini della ripartizione dei fondi di cui al comma precedente gli Enti delegati trasmettono alla Giunta regionale la documentazione relativa gli oneri di funzionamento gravanti su di essi per effetto della delega, unitamente alla documentazione di cui al
@@ -866,7 +881,7 @@
 								.
 							</corpo>
 						</comma>
-						<comma id="art35-com3">
+						<comma id="art35-t5-com3">
 							<num />
 							<corpo>
 								Sulla base della documentazione ricevuta la Giunta elabora uno schema di ripartizione dei mezzi finanziari da attribuire agli Enti delegati per gli oneri finanziari aggiuntivi e lo sottopone al loro esame per gli accordi di cui all'
@@ -874,15 +889,15 @@
 								.
 							</corpo>
 						</comma>
-						<comma id="art35-com4">
+						<comma id="art35-t5-com4">
 							<num />
 							<corpo>Il piano di ripartizione suddetto è approvato dal Consiglio regionale entro il 30 aprile.</corpo>
 						</comma>
-						<comma id="art35-com5">
+						<comma id="art35-t5-com5">
 							<num />
 							<corpo>A seguito dell'approvazione del piano di ripartizione e al fine di provvedere agli oneri aggiuntivi per l'esercizio finanziario in corso, è anticipata agli Enti delegati una quota pari all'80% delle somme assegnate con il piano di ripartizione stesso, salvo conguaglio nei termini e con le modalità di cui ai commi precedenti.</corpo>
 						</comma>
-						<comma finevigore="t2" id="art35-com6-t2" iniziovigore="t1" status="abrogato">
+						<comma finevigore="t2" id="art35-t5-com6-t2" iniziovigore="t1" status="abrogato">
 							<num />
 							<corpo>
 								Per l'esercizio finanziario 1978 è anticipata agli Enti delegati la quota pari al 10% dei finanziamenti assegnati ad ogni Ente per l'esercizio delle funzioni delegate ai sensi degli
@@ -895,7 +910,7 @@
 								, salvo conguaglio come indicato al comma precedente.
 							</corpo>
 						</comma>
-						<comma id="art35-com7" iniziovigore="t2">
+						<comma id="art35-t5-com7" iniziovigore="t2">
 							<num />
 							<corpo>Per l'esercizio finanziario 1978 - secondo semestre - la Giunta regionale provvede a ripartire tra gli Enti delegati il 5% degli stanziamenti iscritti nel bilancio di previsione 1978 in base alla presente legge.</corpo>
 						</comma>
@@ -953,7 +968,7 @@
 							<num />
 							<corpo>
 								Gli Enti delegati trasmettono annualmente, entro il 31 gennaio, alla Giunta regionale una relazione con allegati i prospetti di informazione statistica, richiesti dalla Giunta medesima, sui risultati raggiunti nell'esercizio delle funzioni delegate nonchè il rendiconto delle spese sostenute compresi gli oneri aggiuntivi di cui al
-								<rif xlink:href="#art35" xlink:type="simple">precedente articolo 35</rif>
+								<rif xlink:href="#art35-t5" xlink:type="simple">precedente articolo 35</rif>
 								.
 							</corpo>
 						</comma>

@@ -8,16 +8,19 @@
 					<entratainvigore norm="19750101" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1974-11-21;70" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1974-11-21;70@1984-02-17" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1974-11-21;70@1984-02-17" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1974-11-21;70@1985-01-10" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19750101" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19840310" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19850131" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1974-11-21;70" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1984-02-17;13" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -76,6 +79,22 @@
 						</h:p>
 					</nota>
 				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art15" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1#art4-com1-letb" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1, lettera b) della legge Regione Toscana 10 gennaio 1985, n. 1" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art15-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -104,7 +123,7 @@
 							<comma id="art1-com1">
 								<num />
 								<alinea>Sono sottoposte ad autorizzazione:</alinea>
-								<el id="art1-com1-leta-t2">
+								<el id="art1-com1-leta">
 									<num>a)</num>
 									<corpo>le esposizioni e mostre d'arte a scopo commerciale di carattere internazionale, nazionale, regionale e interprovinciale;</corpo>
 								</el>
@@ -650,13 +669,13 @@
 							<corpo>La Giunta presenta annualmente al Consiglio regionale una relazione contenente i dati informativi, contabili e statistici sull'esercizio delle funzioni delegate, nonchè tutti gli elementi, anche relativi alle funzioni proprie degli enti delegati nella stessa materia, che possano consentire al Consiglio la più completa valutazione dei risultati raggiunti.</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art15">
+					<articolo finevigore="t3" id="art15-t3" iniziovigore="t1" status="abrogato">
 						<num>
 							ARTICOLO 15
 							<ndr num="#n5" valore="" xlink:type="simple">(e)</ndr>
 						</num>
 						<rubrica>(Oneri finanziari aggiuntivi)</rubrica>
-						<comma id="art15-com1">
+						<comma id="art15-t3-com1">
 							<num />
 							<corpo>
 								Gli oneri finanziari aggiuntivi di funzionamento di cui all'
@@ -666,15 +685,15 @@
 								.
 							</corpo>
 						</comma>
-						<comma id="art15-com2">
+						<comma id="art15-t3-com2">
 							<num />
 							<corpo>
 								La Giunta elabora annualmente uno schema di ripartizione dei mezzi finanziari di cui al
-								<rif xlink:href="#art15-com1" xlink:type="simple">primo comma</rif>
+								<rif xlink:href="#art15-t3-com1" xlink:type="simple">primo comma</rif>
 								da assegnare agli enti delegati, e lo sottopone al loro esame.
 							</corpo>
 						</comma>
-						<comma id="art15-com3">
+						<comma id="art15-t3-com3">
 							<num />
 							<corpo>
 								Tale ripartizione assicura agli enti delegati una somma pari almeno al 10 per cento delle somme ripartite ai sensi delle lettere a) e b) dell'
@@ -682,7 +701,7 @@
 								della presente legge.
 							</corpo>
 						</comma>
-						<comma id="art15-com4">
+						<comma id="art15-t3-com4">
 							<num />
 							<corpo>Il piano è sottoposto all'approvazione del Consiglio e viene eseguito dalla Giunta regionale.</corpo>
 						</comma>
@@ -704,7 +723,7 @@
 							<num />
 							<corpo>
 								Gli oneri derivanti dall'applicazione della presente legge sono previsti, per l'esercizio 1975, in L. 360.000.000, di cui L. 300.000.000 per l'esercizio delle funzioni delegate e L. 60.000.000 per oneri finanziari aggiuntivi di funzionamento di cui all'
-								<rif xlink:href="#art15" xlink:type="simple">articolo 15</rif>
+								<rif xlink:href="#art15-t3" xlink:type="simple">articolo 15</rif>
 								. Tali importi saranno iscritti in bilancio come segue:
 								<h:table>
 									<h:tbody>

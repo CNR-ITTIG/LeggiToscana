@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1982-08-31;72" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1982-08-31;72@1983-06-06" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1982-08-31;72@1983-10-31" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1982-08-31;72@1983-10-31" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1982-08-31;72@1985-01-10" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sistema educativo" />
 					</materie>
@@ -19,11 +20,13 @@
 						<evento data="19820922" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19830630" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19831109" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="19850131" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1982-08-31;72" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1983-06-06;39" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1983-10-31;72" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -94,6 +97,18 @@
 								<dsp:pos xlink:href="#art30-com5" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art32" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1#art4-com1-letn" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1, lettera n) della legge Regione Toscana 10 gennaio 1985, n. 1" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art32-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -960,10 +975,10 @@
 						<corpo>L'erogazione dei fondi alle Associazioni è disposta periodicamente dalla Giunta regionale in relazione alle esigenze finanziarie connesse all'attuazione degli interventi programmati.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art32">
+				<articolo finevigore="t4" id="art32-t4" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 32</num>
 					<rubrica>(Oneri finanziari aggiuntivi)</rubrica>
-					<comma id="art32-com1">
+					<comma id="art32-t4-com1">
 						<num />
 						<corpo>
 							Gli oneri finanziari aggiuntivi di funzionamento previsti al

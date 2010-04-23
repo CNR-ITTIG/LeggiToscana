@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t9" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1980-11-15;86" />
 					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1980-11-15;86@1981-09-07" />
-					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1980-11-15;86@1984-09-04" />
+					<urn finevigore="t11" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1980-11-15;86@1984-09-04" />
+					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1980-11-15;86@1985-01-10" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Formazione" />
 					</materie>
@@ -26,6 +27,7 @@
 						<evento data="19801206" fonte="ra7" id="t8" tipo="modifica" />
 						<evento data="19810926" fonte="rp1" id="t9" tipo="modifica" />
 						<evento data="19840927" fonte="rp2" id="t10" tipo="modifica" />
+						<evento data="19850131" fonte="rp3" id="t11" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-11-15;86" xlink:type="simple" />
@@ -38,6 +40,7 @@
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:1978-06-08;37" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1981-09-07;67" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1984-09-04;59" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -141,10 +144,10 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art33-com3" xlink:type="simple" />
+								<dsp:pos xlink:href="#art33-t11-com3" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#art33-com2-t9" xlink:type="simple" />
+								<dsp:pos xlink:href="#art33-t11-com2-t9" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:abrogazione completa="si" implicita="no">
@@ -241,6 +244,18 @@
 							</dsp:norma>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art30-t10" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art33" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1#art4-com1-leti" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1, lettera i) della legge Regione Toscana 10 gennaio 1985, n. 1" id="itt10" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art33-t11" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>
@@ -1627,10 +1642,10 @@
 							</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art33">
+					<articolo finevigore="t11" id="art33-t11" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 33</num>
 						<rubrica>(Oneri finanziari aggiuntivi)</rubrica>
-						<comma id="art33-com1">
+						<comma id="art33-t11-com1">
 							<num />
 							<corpo>
 								Gli oneri finanziari aggiuntivi di funzionamento previsti al
@@ -1640,7 +1655,7 @@
 								.
 							</corpo>
 						</comma>
-						<comma finevigore="t9" id="art33-com2-t9" iniziovigore="t1" status="abrogato">
+						<comma finevigore="t9" id="art33-t11-com2-t9" iniziovigore="t1" status="abrogato">
 							<num />
 							<corpo>
 								Le somme di cui al precedente comma sono ripartite per il 60% in parti uguali tra le Associazioni intercomunali che gestiscono gli interventi e per il 40% tra Province in proporzione diretta ai finanziamenti ripartiti alle Associazioni intercomunali per il territorio di competenza con il piano annuale di cui al
@@ -1648,7 +1663,7 @@
 								.
 							</corpo>
 						</comma>
-						<comma id="art33-com3" iniziovigore="t9">
+						<comma id="art33-t11-com3" iniziovigore="t9">
 							<num />
 							<corpo>
 								Le somme di cui al precedente comma sono ripartite per il 60% fra le Associazioni Intercomunali che gestiscono gli interventi secondo i criteri stabiliti dal Consiglio regionale contestualmente alla loro erogazione, tenuto conto anche delle quote di personale regionale comandato presso gli uffici delle Associazioni Intercomunali per lo svolgimento delle funzioni delegate di cui alla presente legge. Il rimanente 40% delle somme di cui al precedente comma sono ripartite tra le province in proporzione diretta ai finanziamenti ripartiti alle Associazioni Intercomunali per il territorio di competenza con il piano annuale di cui al

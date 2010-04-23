@@ -1,22 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19780324" num="13" tipo="GU" />
 					<entratainvigore norm="19780324" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1978-03-17; 17" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1978-03-17;17" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1978-03-17;17@1985-01-10" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19780324" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19850131" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
-						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1978-03-17; 17" xlink:type="simple" />
+						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1978-03-17;17" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1#art4-com1-letg" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1, lettera g) della legge Regione Toscana 10 gennaio 1985, n. 1" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -99,9 +118,9 @@
 						<corpo>Le Province trasmettono annualmente alla Giunta regionale una relazione sull'esercizio delle funzioni amministrative delegate.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art4">
+				<articolo finevigore="t2" id="art4-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 4</num>
-					<comma id="art4-com1">
+					<comma id="art4-t2-com1">
 						<num />
 						<alinea>
 							Con separati successivi provvedimenti, da adottarsi in relazione al disposto degli
@@ -116,11 +135,11 @@
 							</mrif>
 							in corso di attuazione, sarà provveduto d'intesa con le Amministrazioni provinciali:
 						</alinea>
-						<en id="art4-com1-num1">
+						<en id="art4-t2-com1-num1">
 							<num>1)</num>
 							<corpo>alla determinazione ed erogazione delle quote di finanziamento alle Province a fronte degli oneri gravanti su di esse per lo svolgimento delle mansioni di cui alla presente legge;</corpo>
 						</en>
-						<en id="art4-com1-num2">
+						<en id="art4-t2-com1-num2">
 							<num>2)</num>
 							<corpo>alla messa a disposizione delle Province stesse del contingente di personale strettamente indispensabile per l'esercizio delle funzioni amministrative subdelegate.</corpo>
 						</en>

@@ -15,7 +15,8 @@
 					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1982-11-08" />
 					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1983-07-19" />
 					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1984-04-24" />
-					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1984-10-29" />
+					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1984-10-29" />
+					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1985-01-10" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="AGRICOLTURA" />
 						<materia valore="ATTRIBUZIONI DELEGHE" />
@@ -32,6 +33,7 @@
 						<evento data="19830811" fonte="rp6" id="t7" tipo="modifica" />
 						<evento data="19840517" fonte="rp7" id="t8" tipo="modifica" />
 						<evento data="19841122" fonte="rp8" id="t9" tipo="modifica" />
+						<evento data="19850131" fonte="rp9" id="t10" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1981-02-09;15" xlink:type="simple" />
@@ -43,6 +45,7 @@
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:1983-07-19;56" xlink:type="simple" />
 						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:1984-04-24;24" xlink:type="simple" />
 						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:1984-10-29;60" xlink:type="simple" />
+						<passiva id="rp9" xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -290,6 +293,18 @@
 								<dsp:pos xlink:href="#art3-com1-letd-t9" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1#art4-com1-letl" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1, lettera l) della legge Regione Toscana 10 gennaio 1985, n. 1" id="itt19" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art8-t10" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -860,10 +875,10 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art8">
+				<articolo finevigore="t10" id="art8-t10" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 8</num>
 					<rubrica>(Oneri finanziari aggiuntivi di funzionamento)</rubrica>
-					<comma id="art8-com1">
+					<comma id="art8-t10-com1">
 						<num />
 						<corpo>
 							L'ammontare degli oneri finanziari aggiuntivi di funzionamento di cui al
@@ -878,7 +893,7 @@
 							.
 						</corpo>
 					</comma>
-					<comma id="art8-com2">
+					<comma id="art8-t10-com2">
 						<num />
 						<corpo>A tal fine la dotazione del personale occorrente sarà concordata con la Giunta regionale.</corpo>
 					</comma>

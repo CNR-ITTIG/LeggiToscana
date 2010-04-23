@@ -9,18 +9,21 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1976-09-04;64" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1976-09-04;64@1977-03-23" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1976-09-04;64@1978-02-02" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1976-09-04;64@1978-02-02" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1976-09-04;64@1985-01-10" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19760925" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19770416" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19780225" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="19850131" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1976-09-04;64" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1977-03-23;20" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1978-02-02;6" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -52,6 +55,18 @@
 								<dsp:pos xlink:href="#art11-t3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art17" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1#art4-com1-lete" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1, lettera e) della legge Regione Toscana 10 gennaio 1985, n. 1" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art17-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -634,10 +649,10 @@
 						</el>
 					</comma>
 				</articolo>
-				<articolo id="art17">
+				<articolo finevigore="t4" id="art17-t4" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 17</num>
 					<rubrica>(Oneri aggiuntivi)</rubrica>
-					<comma id="art17-com1">
+					<comma id="art17-t4-com1">
 						<num />
 						<corpo>
 							L'ammontare degli oneri finanziari aggiuntivi di funzionamento di cui al
@@ -645,7 +660,7 @@
 							, sarà stabilito con la legge di approvazione del bilancio.
 						</corpo>
 					</comma>
-					<comma id="art17-com2">
+					<comma id="art17-t4-com2">
 						<num />
 						<corpo>
 							Ai fini della ripartizione dei fondi di cui al comma precedente gli enti delegati trasmettono alla Giunta regionale la documentazione relativa agli oneri di funzionamento gravanti su di essi per effetto della delega, unitamente alla documentazione di cui al
@@ -653,7 +668,7 @@
 							.
 						</corpo>
 					</comma>
-					<comma id="art17-com3">
+					<comma id="art17-t4-com3">
 						<num />
 						<corpo>
 							Sulla base della documentazione ricevuta e tenuto conto degli oneri relativi al personale comandato, la Giunta elabora uno schema di ripartizione dei mezzi finanziari da attribuire agli enti delegati per gli oneri finanziari aggiuntivi e lo sottopone al loro esame per gli accordi di cui all'
@@ -661,15 +676,15 @@
 							.
 						</corpo>
 					</comma>
-					<comma id="art17-com4">
+					<comma id="art17-t4-com4">
 						<num />
 						<corpo>Il piano di ripartizione suddetto è approvato dal Consiglio regionale entro il 30 aprile.</corpo>
 					</comma>
-					<comma id="art17-com5">
+					<comma id="art17-t4-com5">
 						<num />
 						<corpo>A seguito dell'approvazione del piano di ripartizione e al fine di provvedere agli oneri aggiuntivi per l'esercizio finanziario in corso, è anticipata agli enti delegati una quota pari all'80 per cento delle somme assegnate con il piano di ripartizione stesso, salvo conguaglio nei termini e con le modalità di cui ai commi precedenti.</corpo>
 					</comma>
-					<comma id="art17-com6">
+					<comma id="art17-t4-com6">
 						<num />
 						<corpo>
 							Per l'esercizio finanziario 1977 è anticipata agli enti delegati una quota pari al 10 per cento dei finanziamenti assegnati ad ogni ente per l'esercizio delle funzioni delegate ai sensi dell'
@@ -677,7 +692,7 @@
 							, salvo conguaglio come indicato al comma precedente.
 						</corpo>
 					</comma>
-					<comma id="art17-com7">
+					<comma id="art17-t4-com7">
 						<num />
 						<corpo>Gli oneri relativi al personale comandato e ai beni assegnati agli enti delegati restano a carico del bilancio regionale.</corpo>
 					</comma>

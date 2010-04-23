@@ -8,7 +8,8 @@
 					<entratainvigore norm="19791121" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1979-11-02;52" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1979-11-02;52@1980-01-25" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1979-11-02;52@1980-01-25" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1979-11-02;52@1985-01-10" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="TUTELA AMBIENTALE" />
 						<materia valore="ATTRIBUZIONI DELEGHE" />
@@ -18,10 +19,12 @@
 					<eventi>
 						<evento data="19791121" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19800201" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19850131" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1979-11-02;52" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1980-01-25;10" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -41,6 +44,18 @@
 								<dsp:pos xlink:href="#art14-t2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art15" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1#art4-com1-leth" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1, lettera h) della legge Regione Toscana 10 gennaio 1985, n. 1" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art15-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -530,9 +545,9 @@
 						<corpo>Per le funzioni di cui al precedente comma, che riguardano le operazioni di manutenzione di edifici, indicate all'art. 11, la sub - delega avrà effetto dal 1 gennaio 1980.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art15">
+				<articolo finevigore="t3" id="art15-t3" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 15</num>
-					<comma id="art15-com1">
+					<comma id="art15-t3-com1">
 						<num />
 						<corpo>
 							I finanziamenti relativi alle funzioni sub - delegate ai Comuni, ai sensi del
@@ -540,7 +555,7 @@
 							, verranno determinati annualmente, a partire dall'esercizio finanziario 1980, in sede di legge di bilancio della Regione e verranno ripartiti a consuntivo fra i Comuni, con deliberazione del Consiglio regionale, su proposta della Giunta, d'intesa con l'ANCI regionale, con particolare riferimento al numero e alla complessività degli affari trattati e in misura forfettaria per ognuno di essi.
 						</corpo>
 					</comma>
-					<comma id="art15-com2">
+					<comma id="art15-t3-com2">
 						<num />
 						<corpo>
 							Per la copertura delle spese relative alle Commissioni di cui all'

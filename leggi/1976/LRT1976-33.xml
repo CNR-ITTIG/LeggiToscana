@@ -8,16 +8,19 @@
 					<entratainvigore norm="19760724" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1976-07-03;33" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1976-07-03;33@1983-08-23" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1976-07-03;33@1983-08-23" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1976-07-03;33@1985-01-10" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19760724" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19830831" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19850131" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1976-07-03;33" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1983-08-23;65" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -46,7 +49,7 @@
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art18-com2" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1983-08-23;65" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1983-08-23;65#art1-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -58,7 +61,7 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art21-com2" xlink:type="simple" />
+							<dsp:pos xlink:href="#art21-t3-com2" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1983-08-23;65" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1983-08-23;65#art5-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -166,7 +169,7 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art19-com2" xlink:type="simple" />
+							<dsp:pos xlink:href="#art19-t3-com2" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1983-08-23;65" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1983-08-23;65#art5-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -180,6 +183,30 @@
 								<dsp:pos xlink:href="#h3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art19" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1#art4-com1-letd" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1, lettera d) della legge Regione Toscana 10 gennaio 1985, n. 1" id="itt11" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art19-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art21" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1#art4-com1-letd" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1, lettera d) della legge Regione Toscana 10 gennaio 1985, n. 1" id="itt12" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art21-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -478,9 +505,9 @@
 									, nonchè del piano di riparto per il finanziamento degli oneri aggiuntivi di cui agli
 									<mrif>
 										artt.
-										<rif xlink:href="#art19" xlink:type="simple">19</rif>
+										<rif xlink:href="#art19-t3" xlink:type="simple">19</rif>
 										e
-										<rif xlink:href="#art21" xlink:type="simple">21</rif>
+										<rif xlink:href="#art21-t3" xlink:type="simple">21</rif>
 									</mrif>
 									.
 								</corpo>
@@ -755,9 +782,9 @@
 							</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art19">
+					<articolo finevigore="t3" id="art19-t3" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 19</num>
-						<comma id="art19-com1">
+						<comma id="art19-t3-com1">
 							<num />
 							<corpo>
 								Gli oneri finanziari aggiuntivi di funzionamento previsti dall'
@@ -767,7 +794,7 @@
 								della presente legge.
 							</corpo>
 						</comma>
-						<comma id="art19-com2">
+						<comma id="art19-t3-com2">
 							<num />
 							<corpo>
 								Ai fini della ripartizione delle somme di cui al precedente comma, gli enti locali trasmettono alla Regione, entro il
@@ -776,7 +803,7 @@
 								di ogni anno, la documentazione relativa agli oneri aggiuntivi di funzionamento gravanti su di essi per effetto della delega.
 							</corpo>
 						</comma>
-						<comma id="art19-com3">
+						<comma id="art19-t3-com3">
 							<num />
 							<corpo>La Giunta regionale elabora in base alla suddetta documentazione uno schema triennale di ripartizione dei mezzi finanziari da assegnare agli enti locali e ne dà loro comunicazione.</corpo>
 						</comma>
@@ -816,9 +843,9 @@
 							<corpo>La somma di cui al precedente comma è ripartita tra le province in relazione ai programmi di sviluppo dei sistemi, da presentare alla Regione.</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art21">
+					<articolo finevigore="t3" id="art21-t3" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 21</num>
-						<comma id="art21-com1">
+						<comma id="art21-t3-com1">
 							<num />
 							<corpo>
 								Gli oneri finanziari aggiuntivi di funzionamento previsti dall'
@@ -828,7 +855,7 @@
 								della presente legge per l'esercizio delle funzioni delegate alle Provincie.
 							</corpo>
 						</comma>
-						<comma id="art21-com2">
+						<comma id="art21-t3-com2">
 							<num />
 							<corpo>
 								Ai fini della ripartizione delle somme di cui al precedente comma, le Province trasmettono alla Regione entro il
@@ -837,7 +864,7 @@
 								di ogni anno, la documentazione relativa agli oneri aggiuntivi di funzionamento gravanti su di essi per effetto della delega.
 							</corpo>
 						</comma>
-						<comma id="art21-com3">
+						<comma id="art21-t3-com3">
 							<num />
 							<corpo>La Giunta regionale, elabora in base alla suddetta documentazione uno schema triennale di ripartizione dei mezzi finanziari da assegnare alle Province e ne dà loro comunicazione.</corpo>
 						</comma>
@@ -975,11 +1002,11 @@
 									artt.
 									<rif xlink:href="#art18" xlink:type="simple">18</rif>
 									,
-									<rif xlink:href="#art19" xlink:type="simple">19</rif>
+									<rif xlink:href="#art19-t3" xlink:type="simple">19</rif>
 									,
 									<rif xlink:href="#art20" xlink:type="simple">20</rif>
 									,
-									<rif xlink:href="#art21" xlink:type="simple">21</rif>
+									<rif xlink:href="#art21-t3" xlink:type="simple">21</rif>
 									,
 									<rif xlink:href="#art22" xlink:type="simple">22</rif>
 									e
@@ -1051,7 +1078,7 @@
 												<h:td />
 												<h:td>
 													Art. 20 - Oneri aggiuntivi (
-													<rif xlink:href="#art19" xlink:type="simple">art. 19</rif>
+													<rif xlink:href="#art19-t3" xlink:type="simple">art. 19</rif>
 													)
 												</h:td>
 												<h:td>L. 25.000.000</h:td>
@@ -1069,7 +1096,7 @@
 												<h:td />
 												<h:td>
 													Art. 40 - Oneri aggiuntivi (
-													<rif xlink:href="#art21" xlink:type="simple">art. 21</rif>
+													<rif xlink:href="#art21-t3" xlink:type="simple">art. 21</rif>
 													)
 												</h:td>
 												<h:td>L. 45.000.000</h:td>

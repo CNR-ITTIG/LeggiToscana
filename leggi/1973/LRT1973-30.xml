@@ -1,22 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE NIR SYSTEM "nirflessibile.dtd">
-<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
-					<pubblicazione norm="19730504" num="20" tipo="BURT"/>
-					<entratainvigore norm="19730519"/>
-					<redazione id="red1" nome="" norm=""/>
-					<urn valore="urn:nir:regione.toscana:legge:1973-04-30;30"/>
+					<pubblicazione norm="19730504" num="20" tipo="BURT" />
+					<entratainvigore norm="19730519" />
+					<redazione id="red1" nome="" norm="" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1973-04-30;30" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1973-04-30;30@1985-01-10" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
-						<evento data="19730519" fonte="ro1" id="t1" tipo="entrata in vigore"/>
+						<evento data="19730519" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19850131" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
-						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1973-04-30;30" xlink:type="simple"/>
+						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1973-04-30;30" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13-com6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1#art4-com1-leta" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1, lettera a) della legge Regione Toscana 10 gennaio 1985, n. 1" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art13-com6-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -35,18 +54,18 @@
 				<articolo id="art1">
 					<num>ARTICOLO 1</num>
 					<comma id="art1-com1">
-						<num/>
+						<num />
 						<corpo>La Regione Toscana, per il conseguimento dei fini statutari di decentramento del potere, di rafforzamento della democrazia, di promozione delle autonomie locali, assume la delega come modo normale di esercizio delle funzioni amministrative che rientrano nelle sue attribuzioni.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art2">
 					<num>ARTICOLO 2</num>
 					<comma id="art2-com1">
-						<num/>
+						<num />
 						<corpo>La delega deve essere conferita per l'esercizio di funzioni organicamente definite.</corpo>
 					</comma>
 					<comma id="art2-com2">
-						<num/>
+						<num />
 						<corpo>
 							Le leggi di delega non potranno riservare alla Regione poteri diversi da quelli previsti dallo
 							<rif xlink:href="urn:nir:regione.toscana:statuto:" xlink:type="simple">Statuto</rif>
@@ -54,7 +73,7 @@
 						</corpo>
 					</comma>
 					<comma id="art2-com3">
-						<num/>
+						<num />
 						<corpo>
 							Le attività , per cui, nei modi previsti dall'
 							<rif xlink:href="urn:nir:regione.toscana:statuto:#art57-com4" xlink:type="simple">art. 57, quarto comma dello Statuto</rif>
@@ -65,7 +84,7 @@
 				<articolo id="art3">
 					<num>ARTICOLO 3</num>
 					<comma id="art3-com1">
-						<num/>
+						<num />
 						<corpo>
 							Sono destinatari della delega di funzioni amministrative regionali i comuni, le province, le loro aggregazioni, le comunità montane, e gli altri enti locali, nel quadro dell'
 							<rif xlink:href="urn:nir:regione.toscana:statuto:#art57" xlink:type="simple">art. 57 dello Statuto</rif>
@@ -76,26 +95,26 @@
 				<articolo id="art4">
 					<num>ARTICOLO 4</num>
 					<comma id="art4-com1">
-						<num/>
+						<num />
 						<corpo>La delega è conferita alla generalità degli enti dello stesso livello istituzionale.</corpo>
 					</comma>
 					<comma id="art4-com2">
-						<num/>
+						<num />
 						<corpo>Quando sussistano particolari motivi, la delega può essere conferita ad enti singoli o a gruppi di enti che abbiano caratteri di sostanziale omogeneità in relazione alla natura delle funzioni delegate.</corpo>
 					</comma>
 					<comma id="art4-com3">
-						<num/>
+						<num />
 						<corpo>Le leggi di delega favoriranno l'aggregazione dei Comuni fra loro e con la Provincia, in strutture associative rivolte a garantire il carattere generale ed organico della delega di funzioni regionali.</corpo>
 					</comma>
 					<comma id="art4-com4">
-						<num/>
+						<num />
 						<corpo>Le leggi di delega favoriranno il processo di ammodernamento e di razionalizzazione delle strutture funzionali degli enti delegati.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art5">
 					<num>ARTICOLO 5</num>
 					<comma id="art5-com1">
-						<num/>
+						<num />
 						<corpo>
 							La delega viene conferita previa consultazione degli enti previsti come destinatari dai relativi progetti di legge. Potranno altresì essere consultati gli altri enti previsti dall'
 							<rif xlink:href="#art3" xlink:type="simple">art. 3</rif>
@@ -103,14 +122,14 @@
 						</corpo>
 					</comma>
 					<comma id="art5-com2">
-						<num/>
+						<num />
 						<corpo>La consultazione ha luogo secondo le norme stabilite dal Consiglio Regionale.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art6">
 					<num>ARTICOLO 6</num>
 					<comma id="art6-com1">
-						<num/>
+						<num />
 						<corpo>
 							Ai fini della migliore efficienza della consultazione la Regione garantisce agli enti interessati la disponibilità dei dati di cui all'
 							<rif xlink:href="urn:nir:regione.toscana:statuto:#art72-com3" xlink:type="simple">art. 72 terzo comma dello Statuto</rif>
@@ -118,11 +137,11 @@
 						</corpo>
 					</comma>
 					<comma id="art6-com2">
-						<num/>
+						<num />
 						<corpo>I progetti e i documenti oggetto della consultazione saranno esaminati dai consigli o dagli organi equivalenti degli enti consultati.</corpo>
 					</comma>
 					<comma id="art6-com3">
-						<num/>
+						<num />
 						<corpo>
 							Mozioni e ordini del giorno potranno altresì essere presentati dagli organismi decentrati dei Comuni e dagli altri soggetti di cui all'
 							<rif xlink:href="urn:nir:regione.toscana:statuto:#art71" xlink:type="simple">art. 71 dello Statuto</rif>
@@ -133,11 +152,11 @@
 				<articolo id="art7">
 					<num>ARTICOLO 7</num>
 					<comma id="art7-com1">
-						<num/>
+						<num />
 						<corpo>La consultazione viene effettuata sulla base del disegno di legge presentato al Consiglio integrato dalla relazione illustrativa del titolare della iniziativa e da eventuali osservazioni della commissione.</corpo>
 					</comma>
 					<comma id="art7-com2">
-						<num/>
+						<num />
 						<alinea>Il disegno di legge dovrà avere in particolare per oggetto:</alinea>
 						<el id="art7-com2-leta">
 							<num>a)</num>
@@ -164,7 +183,7 @@
 				<articolo id="art8">
 					<num>ARTICOLO 8</num>
 					<comma id="art8-com1">
-						<num/>
+						<num />
 						<corpo>
 							Le ulteriori direttive di cui all'
 							<rif xlink:href="urn:nir:regione.toscana:statuto:#art65" xlink:type="simple">art. 65 dello Statuto</rif>
@@ -172,18 +191,18 @@
 						</corpo>
 					</comma>
 					<comma id="art8-com2">
-						<num/>
+						<num />
 						<corpo>L'ente delegato, qualora ritenga che le direttive del Consiglio contrastino con norme di legge o con principi dell'autonomia, può promuovere il riesame e la conferma motivata.</corpo>
 					</comma>
 					<comma id="art8-com3">
-						<num/>
+						<num />
 						<corpo>In ogni caso nei rapporti fra Regione ed ente delegato le conseguenze derivanti dall'applicazione delle direttive fanno carico alla Regione.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art9">
 					<num>ARTICOLO 9</num>
 					<comma id="art9-com1">
-						<num/>
+						<num />
 						<corpo>
 							La delega può essere revocata, tanto in via generale quanto nel caso di cui all'
 							<rif xlink:href="urn:nir:regione.toscana:statuto:#art66-com1" xlink:type="simple">art. 66 primo comma dello Statuto</rif>
@@ -191,11 +210,11 @@
 						</corpo>
 					</comma>
 					<comma id="art9-com2">
-						<num/>
+						<num />
 						<corpo>La legge di revoca indica le modalità con le quali la Regione intende esercitare le funzioni che costituiscono oggetto della revoca.</corpo>
 					</comma>
 					<comma id="art9-com3">
-						<num/>
+						<num />
 						<corpo>
 							Quando si verificano i presupposti per la sostituzione della Regione agli Enti delegati per il compimento di atti specifici, la Giunta, prima di portare a compimento la disciplina dettata dall'
 							<rif xlink:href="urn:nir:regione.toscana:statuto:#art66-com2" xlink:type="simple">art. 66 secondo comma dello Statuto</rif>
@@ -206,45 +225,45 @@
 				<articolo id="art10">
 					<num>ARTICOLO 10</num>
 					<comma id="art10-com1">
-						<num/>
+						<num />
 						<corpo>Gli atti emanati nell'esercizio delle funzioni delegate sono imputati agli Enti delegati.</corpo>
 					</comma>
 					<comma id="art10-com2">
-						<num/>
+						<num />
 						<corpo>Gli Enti delegati devono fare espressa menzione della ricevuta delega nell'emanazione degli atti, nell' espletamento dei servizi e nell'esecuzione di opere effettuate nel corso della delega.</corpo>
 					</comma>
 					<comma id="art10-com3">
-						<num/>
+						<num />
 						<corpo>Nell'ipotesi in cui la delega abbia per oggetto o comporti l'esecuzione di opere pubbliche, queste vengono a far parte del demanio o del patrimonio della Regione, a meno che le singole leggi di delega dispongano diversamente in sede di regolamento dei rapporti finanziari.</corpo>
 					</comma>
 					<comma id="art10-com4">
-						<num/>
+						<num />
 						<corpo>Gli obblighi di manutenzione e l'esercizio dei poteri di tutela sul bene competono all'Ente che esercita anche per delega la funzione pubblica alla quale il bene stesso è destinato.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art11">
 					<num>ARTICOLO 11</num>
 					<comma id="art11-com1">
-						<num/>
+						<num />
 						<corpo>La Regione e gli Enti delegati sono tenuti a fornirsi reciprocamente e a richiesta informazioni, dati statistici e ogni altro elemento utile allo svolgimento delle rispettive competenze.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art12">
 					<num>ARTICOLO 12</num>
 					<comma id="art12-com1">
-						<num/>
+						<num />
 						<corpo>Le leggi regionali nel provvedere in ordine ai mezzi finanziari necessari per l'esercizio delle funzioni delegate dovranno assicurare modalità di assegnazione e di erogazione tali da far salva l'autonomia di spesa degli Enti locali.</corpo>
 					</comma>
 					<comma id="art12-com2">
-						<num/>
+						<num />
 						<corpo>Questi hanno facoltà, nel quadro degli obiettivi e degli strumenti della programmazione regionale ed in armonia con gli indirizzi e le direttive della Regione, di destinare i mezzi propri e quelli assegnati per lo esercizio delle attività delegate secondo criteri di carattere unitario.</corpo>
 					</comma>
 					<comma id="art12-com3">
-						<num/>
+						<num />
 						<corpo>La disciplina del finanziamento sarà definita dalla legge sugli strumenti della programmazione regionale, da quella sul piano pluriennale di spesa e dalle singole leggi di delega.</corpo>
 					</comma>
 					<comma id="art12-com4">
-						<num/>
+						<num />
 						<corpo>
 							Fino a quando non sarà attuato il sistema di programmazione regionale e il suo coordinamento con la programmazione nazionale, le leggi di delega potranno non riferirsi agli strumenti di cui al comma precedente, salva l'osservanza del criterio di cui al
 							<rif xlink:href="#art12-com1" xlink:type="simple">primo comma</rif>
@@ -255,27 +274,27 @@
 				<articolo id="art13">
 					<num>ARTICOLO 13</num>
 					<comma id="art13-com1">
-						<num/>
+						<num />
 						<corpo>Per l'esercizio delle funzioni delegate potranno essere comandati presso gli Enti interessati dipendenti dalla Regione.</corpo>
 					</comma>
 					<comma id="art13-com2">
-						<num/>
+						<num />
 						<corpo>La legge regionale sullo stato giuridico ed economico del personale stabilisce i criteri e le modalità per il comando.</corpo>
 					</comma>
 					<comma id="art13-com3">
-						<num/>
+						<num />
 						<corpo>La determinazione del contingente e l'attribuzione delle mansioni specifiche del personale comandato sono concordate fra la Regione e gli Enti interessati.</corpo>
 					</comma>
 					<comma id="art13-com4">
-						<num/>
+						<num />
 						<corpo>Il personale comandato passa alla dipendenza funzionale dell'Ente delegato restando a carico della Regione ogni onere relativo.</corpo>
 					</comma>
 					<comma id="art13-com5">
-						<num/>
+						<num />
 						<corpo>Agli Enti delegati potranno essere messi a disposizione anche beni regionali necessari per l'esercizio delle funzioni delegate.</corpo>
 					</comma>
-					<comma id="art13-com6">
-						<num/>
+					<comma finevigore="t2" id="art13-com6-t2" iniziovigore="t1" status="abrogato">
+						<num />
 						<corpo>L'ammontare degli oneri finanziari aggiuntivi di funzionamento che gravano sugli Enti per effetto della delega è concordato dalla Regione con gli Enti interessati e stabilito dalla legge regionale.</corpo>
 					</comma>
 				</articolo>
