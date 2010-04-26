@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1975-05-31;61" />
 					<urn finevigore="t4" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1975-05-31;61@1980-01-28" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1975-05-31;61@1982-04-13" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1975-05-31;61@1982-04-13" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1975-05-31;61@1985-01-28" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -17,12 +18,14 @@
 						<evento data="19800222" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19811216" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19820420" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="19850221" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1975-05-31;61" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1980-01-28;11" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1980-01-28;11" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1982-04-13;32" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1985-01-28;9" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -169,6 +172,30 @@
 							</dsp:norma>
 							<dsp:novella>
 								<dsp:pos xlink:href="#art7" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com1-leti" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1985-01-28;9" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1985-01-28;9#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 28 gennaio 1985, n. 9" id="itt11" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com1-letj" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com1-leti" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1985-01-28;9" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1985-01-28;9#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 28 gennaio 1985, n. 9" id="itt12" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com1-lety" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 					</modifichepassive>
@@ -376,7 +403,7 @@
 						</el>
 						<el id="art2-t4-com1-letk" iniziovigore="t3">
 							<num>k)</num>
-							<corpo>Tre rappresentanti delle associazioni naturalistiche maggiormente rappresentative designati dal Consiglio regionale, su indicazioni delle associazioni stesse, con voto limitato a due.</corpo>
+							<corpo>Tre rappresentanti delle associazioni naturalistiche maggiormente rappresentative designati dal Consiglio regionale, su indicazioni delle associazioni stesse, con voto limitato a due;</corpo>
 						</el>
 						<el id="art2-t4-com1-letm">
 							<num>m)</num>
@@ -496,6 +523,14 @@
 						<el id="art2-com1-letl">
 							<num>l)</num>
 							<corpo>8 esperti scelti fra il personale scientifico e tecnico delle biblioteche, degli archivi e dei musei degli enti locali e d' interesse locale della Toscana, designati dal Consiglio regionale con voto limitato a 5;</corpo>
+						</el>
+						<el id="art2-com1-letj" iniziovigore="t5">
+							<num>j)</num>
+							<corpo>il Direttore della Scuola Normale superiore di Pisa o un suo delegato;</corpo>
+						</el>
+						<el id="art2-com1-lety" iniziovigore="t5">
+							<num>y)</num>
+							<corpo>un rappresentante per ciascuno dei seguenti enti: Orchestra regionale toscana, Teatro regionale toscano e Mediateca regionale toscana;</corpo>
 						</el>
 						<el id="art2-com1-letm">
 							<num>m)</num>
