@@ -10,7 +10,8 @@
 					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1976-04-07;15" />
 					<urn finevigore="t5" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1976-04-07;15@1978-05-30" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1976-04-07;15@1979-08-17" />
-					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1976-04-07;15@1982-06-12" />
+					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1976-04-07;15@1982-06-12" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1976-04-07;15@1985-01-28" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -20,6 +21,7 @@
 						<evento data="19760501" fonte="ra2" id="t4" tipo="modifica" />
 						<evento data="19790908" fonte="rp2" id="t5" tipo="modifica" />
 						<evento data="19820714" fonte="rp3" id="t6" tipo="modifica" />
+						<evento data="19850221" fonte="rp4" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1976-04-07;15" xlink:type="simple" />
@@ -28,6 +30,7 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1978-05-30;35" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1979-08-17;40" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1982-06-12;50" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1985-01-28;7" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -646,6 +649,21 @@
 								<dsp:pos xlink:href="#art24-t6" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3bis-com2-num1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1985-01-28;7" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1985-01-28;7#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 28 gennaio 1985, n. 7" id="itt44" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3bis-com2-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3bis-com2-num1-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -668,7 +686,7 @@
 					<num>TITOLO I</num>
 					<rubrica>
 						<h:span finevigore="t3" id="h1" iniziovigore="t1" status="abrogato">INTERVENTI DI SOSTEGNO ECONOMICO E PER L'ISTITUZIONE DI SERVIZI DI ASSISTENZA SOCIALE - DELEGA DI FUNZIONI AGLI ENTI LOCALI.</h:span>
-						<h:span id="h2" iniziovigore="t3">INTERVENTI DI SOSTEGNO ECONOMICO E PER L'ISTITUZIONE DEI SERVIZI DI ASSISTENZA SOCIALE DA PARTE DEGLI ENTI LOCALI</h:span>
+						<h:span id="h2" iniziovigore="t3">INTERVENTI DI SOSTEGNO ECONOMICO E PER L'ISTITUZIONE DEI SERVIZI DI ASSISTENZA SOCIALE DA PARTE DEGLI ENTI LOCALI.</h:span>
 					</rubrica>
 					<articolo id="art1">
 						<num>ARTICOLO 1</num>
@@ -755,10 +773,14 @@
 						<comma id="art3bis-com2">
 							<num />
 							<alinea>Sono in particolare assicurati:</alinea>
-							<en id="art3bis-com2-num1">
+							<en finevigore="t7" id="art3bis-com2-num1-t7" iniziovigore="t1" status="abrogato">
 								<num>1)</num>
 								<corpo>la frequenza da parte dei figli degli emigrati ad iniziative di vacanza organizzate da enti locali della Toscana;</corpo>
 							</en>
+							<comma id="art3bis-com2-com1" iniziovigore="t7">
+								<num>1)</num>
+								<corpo>la partecipazione di lavoratori anziani emigrati e di figli di emigrati a soggiorni climatici e di organizzati dagli enti locali della Toscana;</corpo>
+							</comma>
 							<en id="art3bis-com2-num2">
 								<num>2)</num>
 								<corpo>il rimborso delle spese per il trasporto delle salme dei lavoratori o dei loro familiari deceduti all'estero;</corpo>
