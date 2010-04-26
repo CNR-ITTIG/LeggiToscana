@@ -8,7 +8,8 @@
 					<entratainvigore norm="19790113" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1978-12-22;80" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1978-12-22;80@1982-11-29" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1978-12-22;80@1982-11-29" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1978-12-22;80@1985-01-28" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="PERSONALE" />
 						<materia valore="CONTROLLI" />
@@ -21,6 +22,7 @@
 						<evento data="19790113" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="19790113" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="19820601" fonte="rp1" id="t5" tipo="modifica" />
+						<evento data="19850221" fonte="rp2" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1978-12-22;80" xlink:type="simple" />
@@ -28,6 +30,7 @@
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1974-08-05;47" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1978-02-16;13" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1982-11-29;85" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1985-01-28;8" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -71,7 +74,7 @@
 					</modificheattive>
 					<modifichepassive>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:pos xlink:href="#art2-t6" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1982-11-29;85" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1982-11-29;85#art1-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -79,10 +82,25 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art2" xlink:type="simple" />
+								<dsp:pos xlink:href="#art2-t6" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art2-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1985-01-28;8" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1985-01-28;8#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 28 gennaio 1985, n. 8" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-t6" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -133,18 +151,41 @@
 						<corpo>Alla liquidazione delle indennità provvede mensilmente la Giunta regionale sulla base di un prospetto riepilogativo delle presenze, sottoscritto dal Segretario del Comitato regionale di controllo o dalla sezione decentrata.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art2" iniziovigore="t5">
+				<articolo finevigore="t6" id="art2-t6" iniziovigore="t5" status="abrogato">
 					<num>ARTICOLO 2</num>
-					<comma id="art2-com1">
+					<comma id="art2-t6-com1">
 						<num />
 						<alinea>Ai componenti effettivi e supplenti del Comitato regionale e delle sue sezioni decentrate è attribuita un'indennità per ogni giornata di seduta nella misura di:</alinea>
-						<ep id="art2-com1-pun1">
+						<ep id="art2-t6-com1-pun1">
 							<num>-</num>
 							<corpo>L. 50.000 al Presidente</corpo>
 						</ep>
-						<ep id="art2-com1-pun2">
+						<ep id="art2-t6-com1-pun2">
 							<num>-</num>
 							<corpo>L. 37.500 agli altri componenti.</corpo>
+						</ep>
+					</comma>
+					<comma id="art2-t6-com2">
+						<num />
+						<corpo>Le indennità indicate nel precedente comma si intendono al lordo delle ritenute fiscali.</corpo>
+					</comma>
+					<comma id="art2-t6-com3">
+						<num />
+						<corpo>Alla liquidazione delle indennità provvede mensilmente la Giunta regionale sulla base di un prospetto riepilogativo delle presenze, sottoscritto dal segretario del Comitato regionale di controllo o della sezione decentrata.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art2" iniziovigore="t6">
+					<num>ARTICOLO 2</num>
+					<comma id="art2-com1">
+						<num />
+						<alinea>Ai componenti effettivi e supplenti del Comitato Regionale e delle Sezioni decentrate è attribuita una indennità per ogni giornata di seduta nella misura di:</alinea>
+						<ep id="art2-com1-pun1">
+							<num>-</num>
+							<corpo>L. 70.000 al Presidente;</corpo>
+						</ep>
+						<ep id="art2-com1-pun2">
+							<num>-</num>
+							<corpo>L. 50.000 agli altri componenti.</corpo>
 						</ep>
 					</comma>
 					<comma id="art2-com2">
@@ -153,7 +194,7 @@
 					</comma>
 					<comma id="art2-com3">
 						<num />
-						<corpo>Alla liquidazione delle indennità provvede mensilmente la Giunta regionale sulla base di un prospetto riepilogativo delle presenze, sottoscritto dal segretario del Comitato regionale di controllo o della sezione decentrata.</corpo>
+						<corpo>Alla liquidazione delle indennità provvede mensilmente la Giunta regionale sulla base di un prospetto riepilogativo delle presenze compilato e sottoscritto dal Segretario del Comitato Regionale di Controllo e delle Sezioni Decentrate.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art3">
