@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<Legge>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19841121" num="57" tipo="BURT" />
 					<entratainvigore norm="19841206" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1984-11-13;66" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1984-11-13;66" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1984-11-13;66@1985-02-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Turismo" />
 					</materie>
@@ -15,11 +16,41 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19841206" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19850206" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1984-11-13;66" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1985-02-02;13" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Termine prorogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1985-02-02#art1" xlink:type="simple">art. 1 della legge regionale 2 febbraio 1985</rif>
+							al decimo giorno successivo all'entrata in vigore della stessa.
+						</h:p>
+					</nota>
+				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1985-02-02;13" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1985-02-02;13#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 2 febbraio 1985, n. 13" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art6-com1-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -155,7 +186,9 @@
 						<corpo>
 							Saranno prese in considerazione, ai fini dell'assegnazione dei contributi con le modalità di cui al
 							<rif xlink:href="#art6" xlink:type="simple">successivo art. 6</rif>
-							, le istanze presentate al Presidente della Giunta Regionale entro e non oltre il 15-11-1984, relative ad iniziative ed interventi per le quali, alla data di entrata in vigore della presente legge, siano state avanzate, nel corrente anno 1984, domande ai sensi delle leggi e dei provvedimenti indicati al
+							, le istanze presentate al Presidente della Giunta Regionale entro e non oltre il 15-11-1984
+							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							, relative ad iniziative ed interventi per le quali, alla data di entrata in vigore della presente legge, siano state avanzate, nel corrente anno 1984, domande ai sensi delle leggi e dei provvedimenti indicati al
 							<rif xlink:href="#art4" xlink:type="simple">precedente art. 4</rif>
 							, e relativamente alle quai non sia stata concessa alcuna provvidenza regionale o di altri enti pubblici non economici. A tal fine le istanze dovranno dare atto, mediante apposita certificazione, degli estremi di presentazione delle domande suddette, ed essere corredate della documentazione a suo tempo ivi allegata.
 						</corpo>
@@ -167,11 +200,15 @@
 				</articolo>
 				<articolo id="art6">
 					<num>ARTICOLO 6</num>
-					<comma id="art6-com1">
+					<comma finevigore="t2" id="art6-com1-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>All'assegnazione dei contributi di cui alla presente legge, si provvede con deliberazione del Consiglio regionale da adottarsi, su proposta della Giunta regionale, entro il 31-12-1984.</corpo>
 					</comma>
-					<comma id="art6-com2">
+					<comma id="art6-com2" iniziovigore="t2">
+						<num />
+						<corpo>All'assegnazione dei contributi di cui alla presente legge si provvede con deliberazione del Consiglio regionale da adottarsi su proposta della Giunta regionale</corpo>
+					</comma>
+					<comma id="art6-com3">
 						<num />
 						<corpo>
 							La natura e la misura dei contributi sarà determinata con riferimento alle leggi e ai provvedimenti indicati nel
@@ -179,23 +216,23 @@
 							, ove previste, o, altrimenti, con la stessa deliberazione consiliare di assegnazione.
 						</corpo>
 					</comma>
-					<comma id="art6-com3">
-						<num />
-						<corpo>Ai successivi atti di liquidazione ed erogazione ai soggetti pubblici beneficiari dei contributi assegnati provvede la Giunta regionale.</corpo>
-					</comma>
 					<comma id="art6-com4">
 						<num />
-						<corpo>
-							Con il provvedimento di cui al
-							<rif xlink:href="#art6-com1" xlink:type="simple">I comma</rif>
-							, il Consiglio regionale ripartisce la quota di stanziamento relativa alle iniziative ed agli interventi da realizzare da parte di soggetti privati, indicando i singoli progetti da finanziare, fra le Associazioni intercomunali o Comunità montane interessate per territorio. Le somme così ripartite sono vincolate alle destinazioni individuate nel provvedimento medesimo.
-						</corpo>
+						<corpo>Ai successivi atti di liquidazione ed erogazione ai soggetti pubblici beneficiari dei contributi assegnati provvede la Giunta regionale.</corpo>
 					</comma>
 					<comma id="art6-com5">
 						<num />
 						<corpo>
+							Con il provvedimento di cui al
+							<rif xlink:href="#art6-com1-t2" xlink:type="simple">I comma</rif>
+							, il Consiglio regionale ripartisce la quota di stanziamento relativa alle iniziative ed agli interventi da realizzare da parte di soggetti privati, indicando i singoli progetti da finanziare, fra le Associazioni intercomunali o Comunità montane interessate per territorio. Le somme così ripartite sono vincolate alle destinazioni individuate nel provvedimento medesimo.
+						</corpo>
+					</comma>
+					<comma id="art6-com6">
+						<num />
+						<corpo>
 							Le Associazioni intercomunali e le Comunità montane provvedono con propri atti deliberativi alla liquidazione ed erogazione dei contributi ai singoli soggetti, con le modalità fissate nella deliberazione del Consiglio regionale di cui al
-							<rif xlink:href="#art6-com1" xlink:type="simple">1° comma</rif>
+							<rif xlink:href="#art6-com1-t2" xlink:type="simple">1° comma</rif>
 							.
 						</corpo>
 					</comma>
