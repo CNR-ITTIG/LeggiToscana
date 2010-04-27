@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<Legge>
+		<Legge finevigore="t12" id="Legge1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19801121" num="63" tipo="BURT" />
@@ -10,7 +10,8 @@
 					<urn finevigore="t9" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1980-11-15;86" />
 					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1980-11-15;86@1981-09-07" />
 					<urn finevigore="t11" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1980-11-15;86@1984-09-04" />
-					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1980-11-15;86@1985-01-10" />
+					<urn finevigore="t12" iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1980-11-15;86@1985-01-10" />
+					<urn iniziovigore="t12" valore="urn:nir:regione.toscana:legge:1980-11-15;86@1985-02-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Formazione" />
 					</materie>
@@ -28,6 +29,7 @@
 						<evento data="19810926" fonte="rp1" id="t9" tipo="modifica" />
 						<evento data="19840927" fonte="rp2" id="t10" tipo="modifica" />
 						<evento data="19850131" fonte="rp3" id="t11" tipo="modifica" />
+						<evento data="19850314" fonte="rp4" id="t12" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-11-15;86" xlink:type="simple" />
@@ -41,17 +43,18 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1981-09-07;67" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1984-09-04;59" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1985-02-21;16" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="Legge1-n1">
 						<h:p>
 							Ad integrazione e modificazione della presente si veda la
 							<rif xlink:href="urn:nir:regione.toscana:legge:1984-09-02;59" xlink:type="simple">legge regionale 2 settembre 1984, n. 59</rif>
 							.
 						</h:p>
 					</nota>
-					<nota id="n2">
+					<nota id="Legge1-n2">
 						<h:p>
 							Relativamente alla assunzione di personale fino alla istituzione delle graduatorie di cui al presente articolo, si veda la
 							<rif xlink:href="urn:nir:regione.toscana:legge:1981-09-07;68" xlink:type="simple">legge regionale 7 settembre 1981, n. 68</rif>
@@ -258,6 +261,18 @@
 								<dsp:pos xlink:href="#art33-t11" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1980-11-15;86" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1985-02-21;16" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1985-02-21;16#art18-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 18, comma 1 della legge Regione Toscana 21 febbraio 1985, n. 16" id="itt11" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#Legge1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -269,7 +284,7 @@
 				<numDoc>86</numDoc>
 				<titoloDoc>
 					Esercizio delle funzioni in materia di formazione professionale
-					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					<ndr num="#Legge1-n1" valore="" xlink:type="simple">(a)</ndr>
 					.
 				</titoloDoc>
 			</intestazione>
@@ -280,7 +295,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="Legge1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>FINALITA' OGGETTO E PROGRAMMAZIONE DEGLI INTERVENTI</rubrica>
 					<articolo id="art1">
@@ -490,7 +505,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="Legge1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>ATTUAZIONE DEL PROGRAMMA</rubrica>
 					<articolo id="art9">
@@ -925,7 +940,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="Legge1-tit3">
 					<num>TITOLO III</num>
 					<rubrica>ESERCIZIO DELLE FUNZIONI AMMINISTRATIVE</rubrica>
 					<articolo id="art17">
@@ -1218,7 +1233,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit4">
+				<titolo id="Legge1-tit4">
 					<num>TITOLO IV</num>
 					<rubrica>PERSONALE DELLA FORMAZIONE PROFESSIONALE</rubrica>
 					<articolo finevigore="t10" id="art23-t10" iniziovigore="t1" status="abrogato">
@@ -1286,7 +1301,7 @@
 					<articolo finevigore="t10" id="art25-t10" iniziovigore="t1" status="abrogato">
 						<num>
 							ARTICOLO 25
-							<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+							<ndr num="#Legge1-n2" valore="" xlink:type="simple">(b)</ndr>
 						</num>
 						<rubrica>(Ricorso ad altro personale)</rubrica>
 						<comma id="art25-t10-com1">
@@ -1530,7 +1545,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit5">
+				<titolo id="Legge1-tit5">
 					<num>TITOLO V</num>
 					<rubrica>DISPOSIZIONI FINALI E TRANSITORIE</rubrica>
 					<articolo id="art31">
