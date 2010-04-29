@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<Legge>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19780414" num="16" tipo="BURT" />
 					<entratainvigore norm="19780429" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1978-04-07;23" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1978-04-07;23" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1978-04-07;23@1985-04-09" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Contratti" />
 						<materia valore="Contabilità" />
@@ -16,11 +17,71 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19780429" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19850504" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1978-04-07;23" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1985-04-09;33" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1985-04-09;33" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1985-04-09;33#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 9 aprile 1985, n. 33" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7-com5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1985-04-09;33" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1985-04-09;33#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 9 aprile 1985, n. 33" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art7-com6" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art7-com5-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art14-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1985-04-09;33" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1985-04-09;33#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 9 aprile 1985, n. 33" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art14-com2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art14-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1985-04-09;33" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1985-04-09;33#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 9 aprile 1985, n. 33" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art14-com3-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -261,7 +322,12 @@
 						<alinea>All'ordinazione delle spese relative si provvede:</alinea>
 						<en id="art7-com3-num1">
 							<num>1)</num>
-							<alinea>con ordinativi a firma del Coordinatore del Dipartimento Finanze e Bilancio:</alinea>
+							<alinea>
+								con ordinativi a firma del
+								<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">Coordinatore del Dipartimento Finanze e Bilancio</h:span>
+								<h:span id="h2" iniziovigore="t2">responsabile del competente servizio del Dipartimento Finanze e Bilancio</h:span>
+								:
+							</alinea>
 							<el id="art7-com3-num1-leta">
 								<num>a)</num>
 								<corpo>per spese sino a lire un milione;</corpo>
@@ -289,7 +355,7 @@
 							si intendono al netto degli oneri fiscali gravanti sull'oggetto della fornitura o della prestazione.
 						</corpo>
 					</comma>
-					<comma id="art7-com5">
+					<comma finevigore="t2" id="art7-com5-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>
 							Per la esecuzione delle operazioni di cui al
@@ -297,7 +363,11 @@
 							, la Giunta regionale, su proposta del Coordinatore del Dipartimento Finanze e Bilancio, può designare uno o più funzionari appartenenti a fascia d'inquadramento non inferiore alla sesta.
 						</corpo>
 					</comma>
-					<comma id="art7-com6">
+					<comma id="art7-com6" iniziovigore="t2">
+						<num />
+						<corpo>Per la esecuzione delle operazioni di cui al terzo comma, il responsabile del servizio è sostituito in caso di assenza da altro dirigente del servizio designato dal responsabile stesso, previa comunicazione alla Giunta e al coordinatore del Dipartimento.</corpo>
+					</comma>
+					<comma id="art7-com7">
 						<num />
 						<corpo>
 							Gli ordinativi previsti ai
@@ -325,7 +395,7 @@
 							.
 						</corpo>
 					</comma>
-					<comma id="art7-com7">
+					<comma id="art7-com8">
 						<num />
 						<corpo>
 							Per gli acquisti e le prestazioni di cui al
@@ -333,7 +403,7 @@
 							debbono essere richiesti preventivi con offerte al maggior numero possibile di ditte, comunque non inferiori a tre, salvo che la natura, l'urgenza dell'acquisto o della prestazione ovvero l'assenza di attività concorrenti siano tali da rendere necessario il ricorso ad una determinata ditta o persona.
 						</corpo>
 					</comma>
-					<comma id="art7-com8">
+					<comma id="art7-com9">
 						<num />
 						<corpo>Per le spese eccedenti i predetti limiti, si provvede con deliberazione della Giunta regionale.</corpo>
 					</comma>
@@ -449,7 +519,7 @@
 						<num />
 						<corpo>Il dipendente assegnato alla tenuta del magazzino risponde della conservazione e distribuzione degli oggetti esistenti nei magazzini istituiti presso gli uffici e dipartimenti dell'amministrazione regionale, nonchè della regolare tenuta dei prescritti registri.</corpo>
 					</comma>
-					<comma id="art14-com2">
+					<comma finevigore="t2" id="art14-com2-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>
 							Il Coordinatore del Dipartimento Finanze e Bilancio effettua verifiche semestrali di magazzino in presenza del dipendente di cui al
@@ -457,7 +527,7 @@
 							e di altro funzionario del Dipartimento Finanze e Bilancio.
 						</corpo>
 					</comma>
-					<comma id="art14-com3">
+					<comma finevigore="t2" id="art14-com3-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>Di ogni verifica si redige verbale, in quattro esemplari, che viene sottoscritto dagli intervenuti che ne avranno copia. La quarta copia sarà rimessa alla Giunta regionale.</corpo>
 					</comma>
