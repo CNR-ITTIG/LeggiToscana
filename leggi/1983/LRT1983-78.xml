@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19831222" num="60" tipo="BURT" />
 					<entratainvigore norm="19840106" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1983-12-14;78" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1983-12-14;78" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1983-12-14;78@1985-04-01" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Edilizia" />
 					</materie>
@@ -15,11 +16,32 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19840106" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19850425" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1983-12-14;78" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1985-04-01;30" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1985-04-01;30" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1985-04-01;30#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 1 aprile 1985, n. 30" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art13-com4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art13-com3-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -812,7 +834,7 @@
 							<num />
 							<corpo>Ogni ente proprietario o gestore di alloggi cui si applicano le disposizioni della presente legge è tenuto a comunicare al Comune territorialmente competente l'elenco degli alloggi disponibili entro 8 giorni dalla riscontrata disponibilità.</corpo>
 						</comma>
-						<comma id="art13-com3">
+						<comma finevigore="t2" id="art13-com3-t2" iniziovigore="t1" status="abrogato">
 							<num />
 							<corpo>
 								Non possono essere assegnati alloggi la cui superficie relativa alla sola unità immobiliare e determinata ai sensi dell'
@@ -822,7 +844,11 @@
 								.
 							</corpo>
 						</comma>
-						<comma id="art13-com4">
+						<comma id="art13-com4" iniziovigore="t2">
+							<num />
+							<corpo>Non può essere assegnato un alloggio con un numero di vani abitabili superiore al numero dei componenti il nucleo familiare dell'assegnatario aumentato di uno.</corpo>
+						</comma>
+						<comma id="art13-com5">
 							<num />
 							<corpo>
 								In sede di assegnazione degli alloggi deve essere accertata la permanenza dei requisiti previsti per l'assegnazione, secondo quanto disposto dall'
@@ -830,7 +856,7 @@
 								.
 							</corpo>
 						</comma>
-						<comma id="art13-com5">
+						<comma id="art13-com6">
 							<num />
 							<corpo>
 								I Comuni e gli enti proprietari o gestori degli alloggi possono svolgere in ogni momento accertamenti volti a verificare la sussistenza dei requisiti. Inoltre, ove risulti che l'assegnazione è stata conseguita in contrasto con le norme vigenti al tempo dell'assegnazione, si applicano le disposizioni di cui all'
@@ -838,7 +864,7 @@
 								.
 							</corpo>
 						</comma>
-						<comma id="art13-com6">
+						<comma id="art13-com7">
 							<num />
 							<corpo>L'annullamento dell'assegnazione comporta la risoluzione di diritto del contratto.</corpo>
 						</comma>
