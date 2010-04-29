@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19840709" num="36" tipo="BURT" />
 					<entratainvigore norm="19840724" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1984-06-30;41" />
+					<urn finevigore="t4" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1984-06-30;41" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1984-06-30;41@1985-04-09" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Urbanistica" />
 						<materia valore="Enti Territoriali" />
@@ -18,11 +19,17 @@
 						<evento data="19840724" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19840724" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="19840724" fonte="ra2" id="t3" tipo="modifica" />
+						<evento data="19850504" fonte="rp1" id="t4" tipo="modifica" />
+						<evento data="19850504" fonte="" id="t5" tipo="modifica" />
+						<evento data="19850504" fonte="ra4" id="t6" tipo="modifica" />
+						<evento data="19850504" fonte="ra3" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1984-06-30;41" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1977-08-24;60" xlink:type="simple" />
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1980-03-03;16" xlink:type="simple" />
+						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1979;35" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1985-04-09;34" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -51,7 +58,105 @@
 								</dsp:subarg>
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#mod4" xlink:type="simple" />
+							<dsp:termine da="#t7" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1979;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1979;35#com1" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:subarg>
+									<ittig:tipo valore="comma" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art16" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1985-04-09;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1985-04-09;34#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 9 aprile 1985, n. 34" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art16-com2bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art16" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1985-04-09;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1985-04-09;34#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 9 aprile 1985, n. 34" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art16-com2ter" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art16-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1985-04-09;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1985-04-09;34#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 9 aprile 1985, n. 34" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art16-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1985-04-09;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1985-04-09;34#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 9 aprile 1985, n. 34" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art16-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1985-04-09;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1985-04-09;34#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 9 aprile 1985, n. 34" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art16-com6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1985-04-09;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1985-04-09;34#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 9 aprile 1985, n. 34" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art22" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1985-04-09;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1985-04-09;34#artunico-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 2 della legge Regione Toscana 9 aprile 1985, n. 34" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h5" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -685,9 +790,25 @@
 							<num>2.</num>
 							<corpo>Il Comune può aumentare o diminuire i coefficienti di cui alle tabelle C e C1 nei limiti del 10% in più o in meno in relazione alle differenze fra i costi effettivi praticati nel Comune e i costi medi regionali di cui alle allegate tabelle A.</corpo>
 						</comma>
+						<comma id="art16-com2bis" iniziovigore="t4">
+							<num />
+							<corpo>
+								Con Deliberazione Comunale, soggetta al solo controllo di legittimita’ di cui all’
+								<rif xlink:href="urn:nir:stato:legge:1953-02-10;62#art59" xlink:type="simple">art. 59 della legge 10 febbraio 1953, n. 62</rif>
+								, ai coefficienti di cui ai nn. 1 delle tabelle C e C1, allegate, possono essere apportare riduzioni non superiori del 60% dei valori indicati.
+							</corpo>
+						</comma>
+						<comma id="art16-com2ter" iniziovigore="t4">
+							<num />
+							<corpo>Sono esclusi da tali riduzioni gli interventi riguardanti immobili, complessi edilizi o singoli immobili classificati al NCEU in categoria di lusso ai sensi della normativa vigente</corpo>
+						</comma>
 						<comma id="art16-com3">
 							<num>3.</num>
-							<corpo>Nelle zone di saturazione gli oneri di urbanizzazione primaria e secondaria e nelle zone di espansione quelli di urbanizzazione secondaria, vengono ridotti fino ad un massimo del 40%. Tale riduzione è disciplinata con deliberazione del Consiglio comunale in relazione alle dimensioni, alle tipologie ed ai carichi urbanistici indotti dagli interventi oggetto di concessione nonchè allo stato e alla consistenza delle opere di urbanizzazione esistenti, tenendo conto del loro costo così come accertato nelle tabelle allegate alla presente legge.</corpo>
+							<corpo>
+								Nelle zone
+								<h:span id="h1" iniziovigore="t4">classificate A e</h:span>
+								di saturazione gli oneri di urbanizzazione primaria e secondaria e nelle zone di espansione quelli di urbanizzazione secondaria, vengono ridotti fino ad un massimo del 40%. Tale riduzione è disciplinata con deliberazione del Consiglio comunale in relazione alle dimensioni, alle tipologie ed ai carichi urbanistici indotti dagli interventi oggetto di concessione nonchè allo stato e alla consistenza delle opere di urbanizzazione esistenti, tenendo conto del loro costo così come accertato nelle tabelle allegate alla presente legge.
+							</corpo>
 						</comma>
 						<comma id="art16-com4">
 							<num>4.</num>
@@ -696,7 +817,10 @@
 								<rif xlink:href="urn:nir:stato:legge:1962-04-18;167" xlink:type="simple">legge 18/4/1962 n. 167</rif>
 								e successive modificazioni e nei Piani per insediamenti produttivi, di cui all'
 								<rif xlink:href="urn:nir:stato:legge:1971-10-22;865#art27" xlink:type="simple">art. 27 della legge 22 ottobre 1971, n. 865</rif>
-								, la concessione edilizia è gratuita. Gli oneri per l'urbanizzazione primaria e la competente quota per la secondaria sono computati per l'intero nel costo relativo alla concessione dell'area in proprietà o in diritto di superficie.
+								, la concessione edilizia è gratuita
+								<h:span id="h2" iniziovigore="t4">fatta eccezione per le destinazioni turistiche, commerciali, direzionali per le quali si applicano i disposti del comma 2 dell’art. 10 della legge 10/1977</h:span>
+								. Gli oneri per l'urbanizzazione primaria e la competente quota per la secondaria sono computati per l'intero nel costo relativo alla concessione dell'area in proprietà o in diritto di superficie.
+								<h:span id="h3" iniziovigore="t4">Nel costo suddetto e’ altresi’ computata l’incidenza degli oneri relativi alle opere di trattamento e smaltimento dei rifiuti solidi, liquidi e gassosi e di quelle necessarie alla sistemazione dei luoghi ove siano alterate le caratteristiche. Tale incidenza e’ determinata con deliberazione del Consiglio Comunale sulla base dei parametri di cui alla tabella "B".</h:span>
 							</corpo>
 						</comma>
 						<comma id="art16-com5">
@@ -708,7 +832,9 @@
 							<corpo>
 								Il Comune adegua l'incidenza degli oneri all'aggiornamento di cui al
 								<rif xlink:href="#art15" xlink:type="simple">precedente articolo 15</rif>
-								nel termine perentorio di 60 giorni dall'entrata in vigore della presente legge e successivamente dall'entrata in vigore della deliberazione del Consiglio regionale di cui al
+								nel termine perentorio di 60 giorni
+								<h:span finevigore="t4" id="h4" iniziovigore="t1" status="abrogato">dall'entrata in vigore della presente legge e successivamente</h:span>
+								dall'entrata in vigore della deliberazione del Consiglio regionale di cui al
 								<rif xlink:href="#art15-com2" xlink:type="simple">comma 2 dell'articolo 15</rif>
 								. Tale adeguamento si applica alle domande di concessione presentate dal 1 gennaio del 1986 e di ogni anno successivo.
 							</corpo>
@@ -819,7 +945,14 @@
 										<rif xlink:href="urn:nir:regione.toscana:legge:1980-03-03;16" xlink:type="simple">legge regionale 3 marzo 1980 n. 16</rif>
 										: "
 										<rif xlink:href="urn:nir:regione.toscana:legge:1977;60" xlink:type="simple">LR 60/77</rif>
-										. Istituzione della tabella A/4 relativa ai contributi regionali per opere di urbanizzazione primaria e secondaria per interventi di insediamenti relativi a centri commerciali all'ingrosso" sono abrogate.
+										. Istituzione della tabella A/4 relativa ai contributi regionali per opere di urbanizzazione primaria e secondaria per interventi di insediamenti relativi a centri commerciali all'ingrosso"
+									</mod>
+									<mod id="mod4">
+										<h:span id="h5" iniziovigore="t4">
+											ed il
+											<rif xlink:href="urn:nir:regione.toscana:legge:1979;35#com1" xlink:type="simple">comma 1 della LR 35/1979</rif>
+										</h:span>
+										sono abrogate.
 									</mod>
 								</mmod>
 							</corpo>
@@ -861,12 +994,24 @@
 									<materia valore="Enti Territoriali" />
 								</materie>
 							</descrittori>
+							<redazionale xlink:type="simple">
+								<nota id="ann1-n1">
+									<h:p>
+										Le tabelle di cui al presente allegato sono state modificate dalla
+										<rif xlink:href="urn:nir:regione.toscana:legge:1985-04-09;34" xlink:type="simple">legge regionale 9 aprile 1985, n. 34</rif>
+										.
+									</h:p>
+								</nota>
+							</redazionale>
 						</meta>
 						<intestazione />
 						<formulainiziale />
 						<contenitore id="con1" nome="">
 							<h:p />
-							<h:p>Le tabelle A1 (a, b), A2 (a, b), A3 (a, b), A4 (a, b) definiscono l'incidenza dei costi medi regionali riferiti ad unità di utenza differenziate secondo i tipi di intervento, residenziale, industriale - artigianale, commerciale, direzionale turistico ed a centri commerciali all'ingrosso.</h:p>
+							<h:p>
+								<ndr num="#ann1-n1" valore="" xlink:type="simple">(a)</ndr>
+								Le tabelle A1 (a, b), A2 (a, b), A3 (a, b), A4 (a, b) definiscono l'incidenza dei costi medi regionali riferiti ad unità di utenza differenziate secondo i tipi di intervento, residenziale, industriale - artigianale, commerciale, direzionale turistico ed a centri commerciali all'ingrosso.
+							</h:p>
 							<h:p>I costi medi riportati nelle suddette tabelle non comprendono le spese per la realizzazione delle reti di distribuzione dell'energia elettrica e del gas che dovranno essere determinate per ogni insediamento di volta in volta in relazione all'entità della richiesta di utenza ponendola a carico dei lottizzanti o dei concessionari.</h:p>
 							<h:p>Per quanto concerne gli insediamenti industriali ed artigianali relativi ai settori alimentare, tessile, calzaturiero, chimico ed affini, cartiero e cartotecnico, si applica il valore stabilito per la generalità degli altri insediamenti, quando non siano adottati cicli tecnologici comportanti il recupero ed il riciclo delle acque in misura superiore al 30% del fabbisogno.</h:p>
 							<h:p>La tabella A5 indica per tutte le classi di Comuni l'incidenza degli oneri di urbanizzazione secondaria distinti per ogni tipo di opere.</h:p>

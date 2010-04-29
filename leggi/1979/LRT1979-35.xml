@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19790803" num="40" tipo="BURT" />
 					<entratainvigore norm="19790818" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1979-07-30;35" />
+					<urn finevigore="t10" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1979-07-30;35" />
+					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1979-07-30;35@1984-06-30" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="AGRICOLTURA" />
 						<materia valore="URBANISTICA" />
@@ -24,6 +25,7 @@
 						<evento data="19790818" fonte="ra6" id="t7" tipo="modifica" />
 						<evento data="19790818" fonte="ra7" id="t8" tipo="modifica" />
 						<evento data="19790818" fonte="ra8" id="t9" tipo="modifica" />
+						<evento data="19850504" fonte="rp1" id="t10" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1979-07-30;35" xlink:type="simple" />
@@ -35,6 +37,7 @@
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1979-02-19;10" xlink:type="simple" />
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:1979-02-19;10" xlink:type="simple" />
 						<attiva id="ra8" xlink:href="urn:nir:regione.toscana:legge:1979-02-19;10" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1984-06-30;41" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -173,6 +176,20 @@
 							</dsp:novella>
 						</dsp:integrazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1984-06-30;41" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1984-06-30;41#art22-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 22, comma 1 della legge Regione Toscana 30 giugno 1984, n. 41" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#artunico-com1-t10" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -200,7 +217,7 @@
 			<articolato>
 				<articolo id="artunico">
 					<num>ARTICOLO UNICO</num>
-					<comma id="artunico-com1">
+					<comma finevigore="t10" id="artunico-com1-t10" iniziovigore="t1" status="abrogato">
 						<num>1)</num>
 						<alinea>
 							Le tabelle "C" e "C/1" allegate alla
@@ -208,10 +225,10 @@
 							sono così integrate per quanto riguarda le zone territoriali omogenee E/F:
 							<ndr num="#n1" valore="" xlink:type="simple">(A)</ndr>
 						</alinea>
-						<ep id="artunico-com1-pun1">
+						<ep id="artunico-com1-t10-pun1">
 							<num />
 							<alinea>Tabella "C"</alinea>
-							<ep id="artunico-com1-pun1-pun1">
+							<ep id="artunico-com1-t10-pun1-pun1">
 								<num />
 								<corpo>
 									<mod id="mod1">
@@ -229,7 +246,7 @@
 									</mod>
 								</corpo>
 							</ep>
-							<ep id="artunico-com1-pun1-pun2">
+							<ep id="artunico-com1-t10-pun1-pun2">
 								<num />
 								<corpo>
 									<mod id="mod2">
@@ -247,7 +264,7 @@
 									</mod>
 								</corpo>
 							</ep>
-							<ep id="artunico-com1-pun1-pun3">
+							<ep id="artunico-com1-t10-pun1-pun3">
 								<num />
 								<corpo>
 									<mod id="mod3">
@@ -258,22 +275,22 @@
 								</corpo>
 							</ep>
 						</ep>
-						<ep id="artunico-com1-pun2">
+						<ep id="artunico-com1-t10-pun2">
 							<num />
 							<alinea>Tabella "C/1"</alinea>
-							<ep id="artunico-com1-pun2-pun1">
+							<ep id="artunico-com1-t10-pun2-pun1">
 								<num />
 								<corpo>
 									<mod id="mod4">Interventi di cui al n. 1): 0,2</mod>
 								</corpo>
 							</ep>
-							<ep id="artunico-com1-pun2-pun2">
+							<ep id="artunico-com1-t10-pun2-pun2">
 								<num />
 								<corpo>
 									<mod id="mod5">Interventi di cui al n. 2): 0,5</mod>
 								</corpo>
 							</ep>
-							<ep id="artunico-com1-pun2-pun3">
+							<ep id="artunico-com1-t10-pun2-pun3">
 								<num />
 								<corpo>
 									<mod id="mod6">
