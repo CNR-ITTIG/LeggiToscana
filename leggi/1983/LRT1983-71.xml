@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19831109" num="51" tipo="BURT" />
 					<entratainvigore norm="19831124" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1983-10-31;71" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1983-10-31;71" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1983-10-31;71@1985-11-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sistema Educativo" />
 						<materia valore="Beni Culturali" />
@@ -17,11 +18,43 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19831124" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19851126" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1983-10-31;71" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1985-11-21;63" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Ai sensi dell'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1985-11-21#art1-com1" xlink:type="simple">art. 1, comma 1 della legge regionale 21 novembre 1985</rif>
+							, limitatamente all'anno 1985, il termine di cui al presente articolo è da intendersi entro dieci giorni dall'entrata in vigore della suddetta legge.
+						</h:p>
+					</nota>
+					<nota id="n2">
+						<h:p>
+							Ai sensi dell'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1985-11-21#art1-com2" xlink:type="simple">art. 1, comma 2 della legge regionale 21 novembre 1985</rif>
+							, limitatamente all'anno 1985, il termine di cui al presente articolo è da intendersi entro trenta giorni dall'entrata in vigore della suddetta legge.
+						</h:p>
+					</nota>
+					<nota id="n3">
+						<h:p>
+							Ai sensi dell'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1985-11-21#art1-com3" xlink:type="simple">art. 1, comma 3 della legge regionale 21 novembre 1985</rif>
+							, limitatamente all'anno 1985, il termine di cui al presente articolo è da intendersi entro sessanta giorni dall'entrata in vigore della suddetta legge.
+						</h:p>
+					</nota>
+					<nota id="n4">
+						<h:p>
+							Ai sensi dell'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1985-11-21#art1-com4" xlink:type="simple">art. 1, comma 4 della legge regionale 21 novembre 1985</rif>
+							, limitatamente all'anno 1985, il termine di cui al presente articolo è da intendersi entro novanta giorni dall'entrata in vigore della suddetta legge.
+						</h:p>
+					</nota>
+				</redazionale>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -102,7 +135,10 @@
 					</comma>
 				</articolo>
 				<articolo id="art2">
-					<num>ARTICOLO 2</num>
+					<num>
+						ARTICOLO 2
+						<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					</num>
 					<comma id="art2-com1">
 						<num />
 						<corpo>
@@ -119,7 +155,10 @@
 					</comma>
 				</articolo>
 				<articolo id="art3">
-					<num>ARTICOLO 3</num>
+					<num>
+						ARTICOLO 3
+						<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+					</num>
 					<comma id="art3-com1">
 						<num />
 						<corpo>
@@ -178,7 +217,10 @@
 					</comma>
 				</articolo>
 				<articolo id="art4">
-					<num>ARTICOLO 4</num>
+					<num>
+						ARTICOLO 4
+						<ndr num="#n3" valore="" xlink:type="simple">(c)</ndr>
+					</num>
 					<comma id="art4-com1">
 						<num />
 						<corpo>
@@ -197,7 +239,10 @@
 					</comma>
 				</articolo>
 				<articolo id="art5">
-					<num>ARTICOLO 5</num>
+					<num>
+						ARTICOLO 5
+						<ndr num="#n4" valore="" xlink:type="simple">(d)</ndr>
+					</num>
 					<comma id="art5-com1">
 						<num />
 						<corpo>La Giunta regionale predispone entro il 31 dicembre, con un unico atto, il piano degli interventi finanziari di cui alla presente legge, e lo trasmette per la approvazione al Consiglio regionale.</corpo>
