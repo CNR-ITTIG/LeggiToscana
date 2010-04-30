@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1980-05-24;71" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1980-05-24;71@1983-10-17" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1980-05-24;71@1984-12-06" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1980-05-24;71@1984-12-06" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1980-05-24;71@1985-05-07" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ordinamento" />
 						<materia valore="Enti sanitari" />
@@ -20,11 +21,13 @@
 						<evento data="19800529" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19831110" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19841227" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="19850601" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-05-24;71" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1983-10-17;69" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1984-12-06;70" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1985-05-07;53" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -470,6 +473,18 @@
 								<dsp:pos xlink:href="#ann3-t3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#tit2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1985-05-07;53" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1985-05-07;53#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 7 maggio 1985, n. 53" id="itt35" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art8bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -972,6 +987,60 @@
 								<rif xlink:href="urn:nir:stato:legge:1978-12-23;833" xlink:type="simple">legge 23 dicembre 1978, n. 833</rif>
 								.
 							</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art8bis" iniziovigore="t4">
+						<num>Art. 8/bis</num>
+						<rubrica>(Servizio di assistenza religiosa)</rubrica>
+						<comma id="art8bis-com1">
+							<num />
+							<corpo>In ogni unità sanitaria locale è istituito un servizio di assistenza religiosa dotato dell'autonomia confacente alla peculiarità della sua funzione, disciplinato dalle norme del presente articolo e dalle intese di cui al successivo terzo comma, in conformità delle norme concordatarie e statali vigenti in materia.</corpo>
+						</comma>
+						<comma id="art8bis-com2">
+							<num />
+							<corpo>Il servizio di assistenza religiosa ha il compito di assicurare presso i presidi di ricovero sanitari e sociali del servizio socio - sanitario regionale, nel rispetto della volontà e libertà di coscienza dei cittadini, l'esercizio della libertà religiosa e l'adempimento delle pratiche di culto, nonchè il soddisfacimento delle esigenze spirituali proprie delle diverse confessioni, in conformità dei rispettivi ordinamenti vigenti.</corpo>
+						</comma>
+						<comma id="art8bis-com3">
+							<num />
+							<corpo>L'organizzazione del servizio e le condizioni e modalità di svolgimento delle attività sono stabilite mediante apposite intese tra l'unità sanitaria locale e, rispettivamente, l'ordinario diocesano competente per territorio per il culto cattolico e le autorità religiose competenti per territorio per gli altri culti, sulla base di schemi-tipo di intese tra la Giunta regionale e, rispettivamente per i diversi culti, le autorità religiose di livello regionale. Su tali schemi-tipo la Giunta regionale provvede ad acquisire il preventivo parere della competente commissione consiliare.</corpo>
+						</comma>
+						<comma id="art8bis-com4">
+							<num />
+							<corpo>
+								Il servizio di assistenza religiosa è svolto, secondo quanto previsto dall'
+								<rif xlink:href="urn:nir:stato:legge:1978-12-23;833#art38" xlink:type="simple">articolo 38 della L. 23/12/1978, n. 833</rif>
+								, da assistenti religiosi assunti ai sensi del
+								<rif xlink:href="urn:nir:presidente.repubblica:decreto:1979-12-20;761#art9-com3" xlink:type="simple">terzo comma dell'articolo 9 del DPR 20/12/1979, n. 761</rif>
+								ovvero incaricati in regime convenzionale. In caso di assunzione l'unità sanitaria locale istituisce i corrispondenti posti nella pianta organica, se non già previsti.
+							</corpo>
+						</comma>
+						<comma id="art8bis-com5">
+							<num />
+							<alinea>
+								Gli schemi-tipo di intese regionali di cui al
+								<rif xlink:href="#art8bis-com3" xlink:type="simple">comma 3</rif>
+								, contenenti indirizzi e direttive per le intese di livello locale, dovranno prevedere tra l'altro:
+							</alinea>
+							<ep id="art8bis-com5-pun1">
+								<num>-</num>
+								<corpo>i parametri per la determinazione del numero di assistenti religiosi da impiegare nel servizio, in relazione al numero ed alle dimensioni dei presidi di ricovero esistenti nelle varie unità sanitarie locali;</corpo>
+							</ep>
+							<ep id="art8bis-com5-pun2">
+								<num>-</num>
+								<corpo>la regolamentazione degli aspetti di cui risulti necessario assicurare una discplina uniforme in tutte le unità sanitarie locali;</corpo>
+							</ep>
+							<ep id="art8bis-com5-pun3">
+								<num>-</num>
+								<corpo>le modalità di risoluzione di eventuali controversie relative all'interpretazione od all'applicazione delle intese, nonchè le modalità di svolgimento e gli effetti reciproci delle decisioni assunte nei rispettivi ordinamenti in ordine agli assistenti religiosi;</corpo>
+							</ep>
+							<ep id="art8bis-com5-pun4">
+								<num>-</num>
+								<corpo>la facoltà di stipulare convenzioni concernenti congiuntamente più unità sanitarie locali, nel caso in cui non si raggiungano i parametri minimi di cui al primo alinea del presente comma.</corpo>
+							</ep>
+						</comma>
+						<comma id="art8bis-com6">
+							<num />
+							<corpo>Ferma restando la piena autonomia operativa degli assistenti religiosi, in ordine alle esigenze di collegamento funzionale del servizio di assistenza religiosa con gli altri servizi dell'unità sanitaria locale, l'ufficio di direzione assume le proprie decisioni sentiti gli assistenti religiosi.</corpo>
 						</comma>
 					</articolo>
 				</titolo>
