@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19780324" num="13" tipo="BURTR" />
 					<entratainvigore norm="19780324" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1978-03-17;18" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1978-03-17;18" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1978-03-17;18@1985-05-07" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Assetto Idrogeologico" />
 						<materia valore="Personale" />
@@ -16,11 +17,32 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19780324" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19850601" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1978-03-17;18" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1985-05-07;54" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1985-05-07;54" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1985-05-07;54#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 7 maggio 1985, n. 54" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#artunico-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#artunico-com1-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -43,7 +65,7 @@
 			<articolato>
 				<articolo id="artunico">
 					<num>ARTICOLO UNICO</num>
-					<comma id="artunico-com1">
+					<comma finevigore="t2" id="artunico-com1-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>
 							I compiti e le funzioni attribuite dal
@@ -55,7 +77,19 @@
 							, relativo alla delimitazione dei bacini idrografici a carattere interregionale, sono svolti in via transitoria rispettivamente dai coordinatori, dal personale e dagli uffici regionali del Genio Civile.
 						</corpo>
 					</comma>
-					<comma id="artunico-com2">
+					<comma id="artunico-com2" iniziovigore="t2">
+						<num />
+						<corpo>
+							I compiti e le funzioni attribuite dal
+							<rif xlink:href="urn:nir:stato:regio.decreto:1937-12-09;2669" xlink:type="simple">RD 9 dicembre 1937, n. 2669</rif>
+							" Regolamento sulla tutela di opere idrauliche di prima e seconda categoria e delle opere di bonifica"e successive modificazioni, all'ingegnere capo ed agli uffici del Genio Civile, per quanto trasferite alla competenza regionale per effetto dell'
+							<rif xlink:href="urn:nir:presidente.repubblica:decreto:1977-07-24;616#art89" xlink:type="simple">art. 89 del DPR 24/7/1977, n. 616</rif>
+							e del
+							<rif xlink:href="urn:nir:presidente.consiglio.ministri:decreto:1977-12-22" xlink:type="simple">decreto del Presidente del Consiglio dei Ministri 22 dicembre 1977</rif>
+							, relativo alla delimitazione dei bacini idrografici a carattere interregionale, sono svolti in via transitoria rispettivamente dagli ingegneri dirigenti gli uffici del Genio Civile e dal relativo personale.
+						</corpo>
+					</comma>
+					<comma id="artunico-com3">
 						<num />
 						<corpo>Con provvedimento della Giunta saranno stabilite le modalità per lo svolgimento delle suddette funzioni.</corpo>
 					</comma>
