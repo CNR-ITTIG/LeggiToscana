@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19840822" num="44" tipo="BURT" />
 					<entratainvigore norm="19840906" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1984-08-13;50" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1984-08-13;50" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1984-08-13;50@1986-04-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Opere Pubbliche" />
 						<materia valore="Attribuzioni Deleghe" />
@@ -16,11 +17,59 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19840906" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19860515" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1984-08-13;50" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1986-04-21;18" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1986-04-21;18" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1986-04-21;18#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 21 aprile 1986, n. 18" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art1-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1986-04-21;18" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1986-04-21;18#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 21 aprile 1986, n. 18" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1986-04-21;18" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1986-04-21;18#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 21 aprile 1986, n. 18" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -37,9 +86,9 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<articolo id="art1">
+				<articolo finevigore="t2" id="art1-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 1</num>
-					<comma id="art1-com1">
+					<comma id="art1-t2-com1">
 						<num />
 						<corpo>
 							Sono delegate ai Comuni le funzioni amministrative, già trasferite o delegate alla Regione e indicate dagli
@@ -49,7 +98,7 @@
 							nonchè nei piani per gli insediamenti produttivi.
 						</corpo>
 					</comma>
-					<comma id="art1-com2">
+					<comma id="art1-t2-com2">
 						<num />
 						<corpo>
 							Sono altresì delegate ai Comuni, oltre a quelle ad essi attribuite dall'
@@ -57,14 +106,37 @@
 							, le funzioni amministrative di competenza della Regione concernenti le occupazioni temporanee e di urgenza ed i relativi atti preparatori attinenti alle opere di cui al precedente comma da eseguire nel territorio comunale da parte di qualunque soggetto.
 						</corpo>
 					</comma>
-					<comma id="art1-com3">
+					<comma id="art1-t2-com3">
 						<num />
 						<corpo>L'adozione dei provvedimenti cui al presente articolo spetta ai Sindaci dei Comuni interessati.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art2">
+				<articolo id="art1" iniziovigore="t2">
+					<num>ARTICOLO 1</num>
+					<comma id="art1-com1">
+						<num />
+						<corpo>
+							Sono delegate ai Comuni, oltre a quelle ad esse attribuite dall'
+							<rif xlink:href="urn:nir:presidente.repubblica:decreto:1977-07-24;616#art106" xlink:type="simple">art. 106 del DPR 24/7/1977, n. 616</rif>
+							, le funzioni di cui all'
+							<rif xlink:href="urn:nir:presidente.repubblica:decreto:1977-07-24;616#art106-com1" xlink:type="simple">art. 106, comma 1 DPR 24/7/1977 n. 616</rif>
+							per le opere pubbliche di competenza comunale, nonchè per le opere di pubblica utilità da eseguire nei rispettivi territori da parte di qualunque soggetto, comprese quelle da realizzare nei piani di zona per l'edilizia economica e popolare e nelle aree localizzate ai sensi dell'
+							<rif xlink:href="urn:nir:stato:legge:1971-10-22;865#art51" xlink:type="simple">art. 51 della legge 22 ottobre 1971, n. 865</rif>
+							nonchè nei piani per gli insediamenti produttivi.
+						</corpo>
+					</comma>
+					<comma id="art1-com2">
+						<num />
+						<corpo>Sono delegate alle Province, per le opere di propria competenza, le funzioni amministrative già trasferite o subdelegate dalla Regione a norma del comma precedente.</corpo>
+					</comma>
+					<comma id="art1-com3">
+						<num />
+						<corpo>L'adozione dei provvedimenti di cui ai precedenti commi spetta ai Presidenti delle Province ed ai Sindaci dei Comuni interessati.</corpo>
+					</comma>
+				</articolo>
+				<articolo finevigore="t2" id="art2-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 2</num>
-					<comma id="art2-com1">
+					<comma id="art2-t2-com1">
 						<num />
 						<corpo>
 							Le operazioni di cui agli
@@ -78,11 +150,11 @@
 							, preordinate alla esecuzione di opere pubbliche o di pubblica utilità, rientranti nelle materie trasferite alla Regione da parte di qualunque soggetto, nonchè quelle connesse alla formazione di strumenti urbanistici esecutivi, sono autorizzate dai Comuni nel cui ambito ricadono le opere stesse.
 						</corpo>
 					</comma>
-					<comma id="art2-com2">
+					<comma id="art2-t2-com2">
 						<num />
 						<corpo>Il provvedimento che autorizza l'esecuzione delle misure e dei rilievi e la redazione degli stati di consistenza è emanato dal Sindaco del Comune interessato e deve contenere anche la nomina dei tecnici incaricati, che possono essere scelti tra i funzionari dell'ente che procede alle operazioni medesime, se trattasi di ente pubblico.</corpo>
 					</comma>
-					<comma id="art2-com3">
+					<comma id="art2-t2-com3">
 						<num />
 						<corpo>
 							Per le operazioni dichiarate urgenti ed indifferibili, la redazione dello stato di consistenza deve avvenire con l'osservanza delle disposizioni di cui all'
@@ -90,19 +162,68 @@
 							.
 						</corpo>
 					</comma>
-					<comma id="art2-com4">
+					<comma id="art2-t2-com4">
 						<num />
 						<corpo>Al proprietario ed al conduttore o possessore dell'immobile da occupare deve essere rilasciata copia del verbale di consistenza e di presa in possesso.</corpo>
 					</comma>
-					<comma id="art2-com5">
+					<comma id="art2-t2-com5">
 						<num />
 						<corpo>Il soggetto espropriante può provvedere alle comunicazioni ed alle notifiche di tutti i provvedimenti relativi alle procedure di occupazione d'urgenza ed espropriative anche a mezzo di messo comunale.</corpo>
 					</comma>
-					<comma id="art2-com6">
+					<comma id="art2-t2-com6">
 						<num />
 						<corpo>
 							Per l'espropriante di aree ricadenti nell'ambito di piani di zona per l'edilizia popolare ed economica dei piani per insediamenti produttivi definitivamente approvati, non è necessaria la procedura di cui all'
 							<rif xlink:href="urn:nir:stato:legge:1971-10-22;865#art10" xlink:type="simple">articolo 10 della legge 22 ottobre 1971, n. 865</rif>
+							.
+						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art2" iniziovigore="t2">
+					<num>ARTICOLO 2</num>
+					<comma id="art2-com1">
+						<num />
+						<corpo>
+							Le operazioni di cui agli
+							<mrif>
+								artt.
+								<rif xlink:href="urn:nir:stato:legge:1865-06-25;2359#art7" xlink:type="simple">7</rif>
+								e
+								<rif xlink:href="urn:nir:stato:legge:1865-06-25;2359#art16" xlink:type="simple">16</rif>
+								della legge 25 giugno 1865, n. 2359
+							</mrif>
+							, preordinate alla esecuzione di opere pubbliche di competenza comunale o di pubblica utilità, rientranti nelle materie trasferite alla Regione, da eseguire da parte di qualunque soggetto, nonchè quelle connesse alla formazione di strumenti urbanistici esecutivi, sono autorizzate dal Comune nel cui ambito ricadono le opere stesse.
+						</corpo>
+					</comma>
+					<comma id="art2-com2">
+						<num />
+						<corpo>Le operazioni di cui al comma precedente, preordinate alla esecuzione di opere pubbliche di competenza provinciale, sono autorizzate dalla Provincia.</corpo>
+					</comma>
+					<comma id="art2-com3">
+						<num />
+						<corpo>Il provvedimento che autorizza l'esecuzione delle misure e dei rilievi e la redazione degli stati di consistenza è emanato dal Presidente della Provincia o dal Sindaco del Comune interessato e deve contenere anche la nomina dei tecnici incaricati, che possono essere scelti tra i funzionari dell'ente che procede alle operazioni medesime, se trattasi di ente pubblico.</corpo>
+					</comma>
+					<comma id="art2-com4">
+						<num />
+						<corpo>
+							Per le operazioni dichiarate urgenti ed indifferibili. La redazione dello stato di consistenza deve avvenire con l'osservanza delle disposizioni di cui all'
+							<rif xlink:href="urn:nir:stato:legge:1978-01-03;1#art3" xlink:type="simple">art. 3 della legge 3 gennaio 1978, n. 1</rif>
+							.
+						</corpo>
+					</comma>
+					<comma id="art2-com5">
+						<num />
+						<corpo>Al proprietario ed al conduttore o possessore dell'immobile da occupare deve essere rilasciata copia del verbale di consistenza o di presa in possesso.</corpo>
+					</comma>
+					<comma id="art2-com6">
+						<num />
+						<corpo>Il soggetto espropriante può provvedere alle comunicazioni ed alle notifiche di tutti i provvedimenti relativi alle procedure di occupazione d'urgenza ed espropriative anche a mezzo di messo comunale.</corpo>
+					</comma>
+					<comma id="art2-com7">
+						<num />
+						<corpo>
+							Per l'espropriazione di aree ricadenti nell'ambito di piani di zona per l'edilizia popolare ed economica, dei piani per insediamenti produttivi definitivamente approvati, non è necessaria la procedura di cui all'
+							<rif xlink:href="urn:nir:stato:legge:1971-10-22;865#art10" xlink:type="simple">art. 10 della legge 22 ottobre 1971, n. 865</rif>
 							.
 						</corpo>
 					</comma>
@@ -148,6 +269,13 @@
 					<comma id="art5-com2">
 						<num />
 						<corpo>Il provvedimento suddetto è adottato dal Sindaco del Comune interessato.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art6" iniziovigore="t2">
+					<num>ARTICOLO 6</num>
+					<comma id="art6-com1">
+						<num />
+						<corpo>Restano salvi i provvedimenti amministrativi adottati dai Comuni prima dell'entrata in vigore della presente legge, per le opere di competenza provinciale.</corpo>
 					</comma>
 				</articolo>
 			</articolato>
