@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19830518" num="24" tipo="BURT" />
 					<entratainvigore norm="19830602" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1983-05-10;26" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1983-05-10;26" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1983-05-10;26@1986-03-10" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Enti Territoriali" />
 						<materia valore="Edilizia" />
@@ -17,18 +18,109 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19830602" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19860319" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1983-05-10;26" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1986-03-10;10" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1986-03-10;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1986-03-10;10#art4-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1 della legge Regione Toscana 10 marzo 1986, n. 10" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art9-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1986-03-10;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1986-03-10;10#art5-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 1 della legge Regione Toscana 10 marzo 1986, n. 10" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art9bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art19-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1986-03-10;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1986-03-10;10#art6-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 6, comma 1 della legge Regione Toscana 10 marzo 1986, n. 10" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art19-com5" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art19-com4-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art19-com5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1986-03-10;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1986-03-10;10#art6-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 6, comma 2 della legge Regione Toscana 10 marzo 1986, n. 10" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art27-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1986-03-10;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1986-03-10;10#art7-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 7, comma 1 della legge Regione Toscana 10 marzo 1986, n. 10" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art27-com2" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art31-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1986-03-10;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1986-03-10;10#art8-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 8, comma 1 della legge Regione Toscana 10 marzo 1986, n. 10" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
-				<tipoDoc />
-				<dataDoc norm="19830510">10 maggio 1983</dataDoc>
-				<titoloDoc>Edilizia Residenziale pubblica. Programmazione territoriale degli interventi e scelta degli operatori. Delega delle funzioni amministrative ai Comuni.</titoloDoc>
-				<numDoc>26</numDoc>
 				<emanante>Regione Toscana</emanante>
+				<tipoDoc>Legge Regionale</tipoDoc>
+				<dataDoc norm="19830510">10 maggio 1983</dataDoc>
+				, n.
+				<numDoc>26</numDoc>
+				<titoloDoc>Edilizia Residenziale pubblica. Programmazione territoriale degli interventi e scelta degli operatori. Delega delle funzioni amministrative ai Comuni.</titoloDoc>
 			</intestazione>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 29-3-1983</h:p>
@@ -273,30 +365,30 @@
 							<corpo>I bandi di concorso devono essere riferiti agli ambiti territoriali sovracomunali o comunali ai quali gli interventi si riferiscono.</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art9">
+					<articolo finevigore="t2" id="art9-t2" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 9</num>
 						<rubrica>(Requisiti dei beneficiari dei mutui agevolati)</rubrica>
-						<comma id="art9-com1">
+						<comma id="art9-t2-com1">
 							<num />
 							<alinea>Possono beneficiare dei mutui agevolati, ovvero dei contributi individuali coloro che nel rispetto di ogni altra disposizione statale al riguardo:</alinea>
-							<el id="art9-com1-leta">
+							<el id="art9-t2-com1-leta">
 								<num>a)</num>
 								<corpo>abbiano la cittadinanza italiana;</corpo>
 							</el>
-							<el id="art9-com1-letb">
+							<el id="art9-t2-com1-letb">
 								<num>b)</num>
 								<corpo>abbiano la residenza o esercitino l'attività lavorativa, esclusiva o prevalente, nell'ambito territoriale cui si riferisce il bando, salvo che si tratti di lavoratori emigrati all'estero;</corpo>
 							</el>
-							<el id="art9-com1-letc">
+							<el id="art9-t2-com1-letc">
 								<num>c)</num>
 								<corpo>non siano proprietari, nell'ambito territoriale cui si riferisce il bando, essi o i costituenti il proprio nucleo familiare di altra abitazione adeguata alle esigenze del nucleo familiare stesso - ovvero - in qualsiasi altra località di uno o più alloggi che, dedotte le spese nella misura del 25%, consentano un reddito annuo superiore alle 400.000 lire;</corpo>
 							</el>
-							<el id="art9-com1-letd">
+							<el id="art9-t2-com1-letd">
 								<num>d)</num>
 								<corpo>abbiano dichiarato un reddito almeno pari all'importo dell'indennità speciale prevista per i pubblici dipendenti.</corpo>
 							</el>
 						</comma>
-						<comma id="art9-com2">
+						<comma id="art9-t2-com2">
 							<num />
 							<corpo>
 								Ai fini della presente legge si considerano adeguate le abitazioni aventi i requisiti di cui all'
@@ -304,7 +396,7 @@
 								.
 							</corpo>
 						</comma>
-						<comma id="art9-com3">
+						<comma id="art9-t2-com3">
 							<num />
 							<corpo>
 								Ai fini della presente legge il nucleo familiare è individuato ai sensi dell'
@@ -312,15 +404,15 @@
 								.
 							</corpo>
 						</comma>
-						<comma id="art9-com4">
+						<comma id="art9-t2-com4">
 							<num />
 							<corpo>La disposizione di cui al comma precedente non si applica ai figli conviventi coniugati, ovvero alle nuove coppie formatesi entro la data di ultimazione dell'alloggio.</corpo>
 						</comma>
-						<comma id="art9-com5">
+						<comma id="art9-t2-com5">
 							<num />
 							<corpo>E' vietata l'assegnazione o la vendita di più di un alloggio allo stesso nucleo familiare.</corpo>
 						</comma>
-						<comma id="art9-com6">
+						<comma id="art9-t2-com6">
 							<num />
 							<corpo>
 								Sono altresì esclusi coloro che abbiano già ottenuto, a qualsiasi titolo, e in qualsiasi parte del territorio nazionale, l'assegnazione in uso, ovvero in proprietà o con patti di futura vendita di altri alloggi, costruiti con il concorso od il contributo dello Stato, della Regione, della Provincia o dei Comuni, o degli enti pubblici e con i mutui di cui alla
@@ -328,11 +420,11 @@
 								.
 							</corpo>
 						</comma>
-						<comma id="art9-com7">
+						<comma id="art9-t2-com7">
 							<num />
 							<corpo>Il Consiglio regionale, in sede di approvazione del programma quadriennale, può indicare quegli interventi che, interessando i Comuni particolarmente carenti di aree edificabili, devono essere intesi come riferiti ad un ambito sovracomunale anche ai fini dell'accertamento dei requisiti di cui ai commi precedenti.</corpo>
 						</comma>
-						<comma id="art9-com8">
+						<comma id="art9-t2-com8">
 							<num />
 							<corpo>
 								Relativamente agli interventi di recupero sul patrimonio edilizio esistente, i contributi finanziari previsti dalla legislazione vigente possono essere attribuiti anche a coloro che siano proprietari di più di un alloggio, purchè gli stessi siano disposti a convenzionarsi con il Comune per la locazione degli alloggi recuperati ad un canone non superiore a quello calcolato ai sensi della
@@ -340,9 +432,205 @@
 								.
 							</corpo>
 						</comma>
-						<comma id="art9-com9">
+						<comma id="art9-t2-com9">
 							<num />
 							<corpo>L'alloggio o gli alloggi oggetto del recupero non debbono aver fruito, nel passato, di altro contributo pubblico per l'acquisto, la costruzione o per il recupero.</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art9" iniziovigore="t2">
+						<num>Art. 9</num>
+						<rubrica>(Requisiti dei beneficiari dei mutui agevolati per la costruzione, l'acquisto e il recupero di alloggi)</rubrica>
+						<comma id="art9-com1">
+							<num>1.</num>
+							<alinea>Possono beneficiare di mutui agevolati per la costruzione, l'acquisto e il recupero di alloggi, coloro che, nel rispetto di ogni altra disposizione al riguardo, al momento della pubblicazione del banco di concorso:</alinea>
+							<el id="art9-com1-leta">
+								<num>a)</num>
+								<corpo>abbiano la cittadinanza italiana;</corpo>
+							</el>
+							<el id="art9-com1-letb">
+								<num>b)</num>
+								<corpo>abbiano la residenza o esercitano l'attività lavorativa, esclusiva o prevalente, nell'ambito territoriale, cui si riferisce il bando, salvo che si tratti di lavoratori emigrati all'estero;</corpo>
+							</el>
+							<el id="art9-com1-letc">
+								<num>c)</num>
+								<corpo>
+									non siano titolari del diritto di proprietà, usufrutto, uso o abitazione su alloggio adeguato alle esigenze del nucleo familiare, nell'ambito territoriale cui si riferisce il bando di concorso. E' adeguato l'alloggio la cui superficie utile, determinata ai sensi dell'
+									<rif xlink:href="urn:nir:stato:legge:1978-07-27;392#art13" xlink:type="simple">articolo 13, primo, secondo, terzo e quarto comma della legge 27/7/1978, n. 392</rif>
+									, sia non inferiore a 45 mq. per un nucleo familiare composto da 1 o 2 persone, non inferiore a 60 mq. per un nucleo di 3-4 persone, non inferiore a 75 mq. per un nucleo di 5 persone, non inferiore a 95 mq. per un nucleo di 6 persone ed oltre;
+								</corpo>
+							</el>
+							<el id="art9-com1-letd">
+								<num>d)</num>
+								<corpo>
+									non siano titolari di diritti di cui al precedente punto c) su uno o più alloggi, anche sfitti, ubicati in qualsiasi località, il cui valore locativo complessivo, determinato ai sensi della
+									<rif xlink:href="urn:nir:stato:legge:1978-07-27;392" xlink:type="simple">legge 27/7/1978, n. 392</rif>
+									, superi, dedotte le spese nella misura del 25%, le 800.000 lire annue;
+								</corpo>
+							</el>
+							<el id="art9-com1-lete">
+								<num>e)</num>
+								<corpo>
+									abbiano un reddito annuo complessivo del nucleo familiare non superiore al limite vigente al momento della pubblicazione del bando di concorso, determinato ai sensi dell'
+									<rif xlink:href="urn:nir:stato:legge:1978-08-05;457#art21" xlink:type="simple">art. 21 della legge 5/8/1978, n. 457</rif>
+									e successive modificazioni ed integrazioni e non inferiore all'importo dell'indennità speciale prevista per i pubblici dipendenti. Il reddito di riferimento è quello imponibile relativo all'ultima dichiarazione fiscale al lordo delle imposte e al netto dei contributi previdenziali e degli assegni familiari. Oltre all'imponibile fiscale vanno computati tutti gli emolumenti, indennità, pensione, sussidi, a qualsiasi titolo percepiti, ivi compresi quelli esentasse.
+								</corpo>
+							</el>
+						</comma>
+						<comma id="art9-com2">
+							<num>2.</num>
+							<corpo>
+								Ai fini della presente legge il nucleo familiare è individuato ai sensi dell'
+								<rif xlink:href="urn:nir:regione.toscana:legge:1983-12-14;78#art3" xlink:type="simple">art. 3 della LR 14/12/1983, n. 78</rif>
+								.
+							</corpo>
+						</comma>
+						<comma id="art9-com3">
+							<num>3.</num>
+							<corpo>La disposizione di cui al comma precedente non si applica ai figli conviventi coniugati, ovvero alle nuove coppie formatesi entro la data di ultimazione dell'alloggio, ovvero, in caso di acquisto, prima dell'erogazione del contributo.</corpo>
+						</comma>
+						<comma id="art9-com4">
+							<num>4.</num>
+							<corpo>E' vietata l'assegnazione di più di un contributo allo stesso nucleo familiare.</corpo>
+						</comma>
+						<comma id="art9-com5">
+							<num>5.</num>
+							<corpo>
+								Sono altresì esclusi coloro che abbiano già ottenuto, a qualsiasi titolo, contributi per l'acquisto, la costruzione o il recupero di alloggi, ovvero abbiano ottenuto, in qualsiasi parte del territorio nazionale, l'assegnazione in uso, in abitazione, in proprietà o con patto di futura vendita di altri alloggi, costruiti con il concorso od il contributo dello Stato, delle Regioni, delle Province o dei Comuni o di Enti Pubblici, o con i mutui di cui alla
+								<rif xlink:href="urn:nir:stato:legge:1950-08-10;715" xlink:type="simple">legge 10/8/1950, n. 715</rif>
+								.
+							</corpo>
+						</comma>
+						<comma id="art9-com6">
+							<num>6.</num>
+							<corpo>Non sono ammessi a contributo alloggi non conformi alle previsioni degli strumenti urbanistici ovvero classificati di lusso o accatastati nelle categorie A/1, A/8, A/9.</corpo>
+						</comma>
+						<comma id="art9-com7">
+							<num>7.</num>
+							<corpo>Il Consiglio regionale, in sede di approvazione del programma quadriennale, può indicare quegli interventi che, interessando i Comuni particolarmente carenti di aree edificabili, devono essere intesi come riferiti ad un ambito sovracomunale anche ai fini dell'accertamento dei requisiti di cui ai commi precedenti.</corpo>
+						</comma>
+						<comma id="art9-com8">
+							<num>8.</num>
+							<corpo>
+								Relativamente agli interventi di recupero sul patrimonio edilizio esistente, i contributi finanziari previsti dalla legislazione vigente possono essere attribuititi anche a coloro che siano proprietari di più di un alloggio, purchè gli stessi siano disposti a convenzionarsi con il Comune per la locazione degli alloggi recuperati, ad un canone non superiore a quello calcolato ai sensi della
+								<rif xlink:href="urn:nir:stato:legge:1978-07-27;392" xlink:type="simple">legge 27 luglio 1978, n. 392</rif>
+								.
+							</corpo>
+						</comma>
+						<comma id="art9-com9">
+							<num>9.</num>
+							<alinea>L'alloggio o gli alloggi oggetto del recupero debbono, alla data del bando:</alinea>
+							<ep id="art9-com9-pun1">
+								<num>-</num>
+								<corpo>essere censiti al NCEU;</corpo>
+							</ep>
+							<ep id="art9-com9-pun2">
+								<num>-</num>
+								<corpo>ultimati da almeno 20 anni;</corpo>
+							</ep>
+							<ep id="art9-com9-pun3">
+								<num>-</num>
+								<corpo>
+									non aver subito interventi di cui alle lettere b), c), d), e) dell'
+									<rif xlink:href="urn:nir:stato:legge:1978-08-05;457#art31" xlink:type="simple">art. 31 della legge 5/8/1978, n. 457</rif>
+									negli ultimi 20 anni.
+								</corpo>
+							</ep>
+						</comma>
+						<comma id="art9-com10">
+							<num>10.</num>
+							<corpo>Non sono ammesse domande relative ad interventi di costruzione o di recupero già iniziati alla data del bando.</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art9bis" iniziovigore="t2">
+						<num>Art. 9/bis</num>
+						<rubrica>(Requisiti dei beneficiari dei contributi "Prima casa")</rubrica>
+						<comma id="art9bis-com1">
+							<num>1.</num>
+							<alinea>Possono beneficiare dei contributi coloro che, nel rispetto di ogni altra disposizione statale al riguardo, al momento della pubblicazione del bando di concorso:</alinea>
+							<el id="art9bis-com1-leta">
+								<num>a)</num>
+								<corpo>abbiano la cittadinanza italiana;</corpo>
+							</el>
+							<el id="art9bis-com1-letb">
+								<num>b)</num>
+								<corpo>abbiano la residenza o esercitino l'attività lavorativa, esclusiva o prevalente, nel Comune ove è ubicato, l'alloggio, salvo che si tratti di lavoratori emigrati all'estero;</corpo>
+							</el>
+							<el id="art9bis-com1-letc">
+								<num>c)</num>
+								<corpo>non siano, essi o i costituenti il loro nucleo familiare, titolari del diritto di proprietà, usufrutto, uso e abitazione su alloggi o parte di essi. Nel caso di contributi per il recupero, il richiedente o i costituenti il loro nucleo familiare, dovranno essere titolari della piena proprietà dell'alloggio oggetto dell'intervento;</corpo>
+							</el>
+							<el id="art9bis-com1-letd">
+								<num>d)</num>
+								<corpo>
+									abbiano un reddito annuo complessivo del nucleo familiare non superiore al limite vigente al momento della pubblicazione del bando di concorso, determinato ai sensi dell'
+									<rif xlink:href="urn:nir:stato:legge:1978-08-05;457#art21" xlink:type="simple">art. 21 della legge 5 agosto 1978, n. 457</rif>
+									e successive modificazioni ed integrazioni, e non inferiore all'importo dell'indennità speciale prevista per i pubblici dipendenti. Il reddito di riferimento è quello imponibile relativo all'ultima dichiarazione fiscale al lordo delle imposte e al netto dei contributi previdenziali e degli assegni familiari. Oltre all'imponibile fiscale vanno computati tutti gli emolumenti, indennità, pensioni, sussidi, a qualsiasi titolo percepiti, ivi compreso quelli esentasse;
+								</corpo>
+							</el>
+							<el id="art9bis-com1-lete">
+								<num>e)</num>
+								<corpo>
+									non abbiano ottenuto, nel passato, essi o i costituenti il loro nucleo familiare, a qualsiasi titolo, contributi dello Stato, delle Regioni, delle Province, dei Comuni o di Enti Pubblici, o mutui di cui alla
+									<rif xlink:href="urn:nir:stato:legge:1950-08-10;715" xlink:type="simple">legge 10/8/1950, n. 715</rif>
+									, per l'acquisto, la costruzione o il recupero di alloggi;
+								</corpo>
+							</el>
+							<el id="art9bis-com1-letf">
+								<num>f)</num>
+								<corpo>
+									non abbiano ottenuto, essi o costituenti il loro nucleo familiare, l'assegnazione in uso, in abitazione, in proprietà o con patto di futura vendita, di alloggi costruiti con concorso o contributo dello Stato, delle Regioni, delle Province, dei Comuni o di Enti Pubblici o con i mutui di cui alla
+									<rif xlink:href="urn:nir:stato:legge:1950-08-10;715" xlink:type="simple">legge 10/8/1950, n. 715</rif>
+									.
+								</corpo>
+							</el>
+						</comma>
+						<comma id="art9bis-com2">
+							<num>2.</num>
+							<corpo>
+								Ai fini della presente legge, il nucleo familiare è individuato ai sensi dell'
+								<rif xlink:href="urn:nir:regione.toscana:legge:1983-12-14;78#art3" xlink:type="simple">art. 3 della LR 14/12/1983, n. 78</rif>
+								.
+							</corpo>
+						</comma>
+						<comma id="art9bis-com3">
+							<num>3.</num>
+							<corpo>La disposizione di cui al comma precedente non si applica ai figli conviventi coniugati, ovvero alle nuove coppie formatesi entro la data di ultimazione dell'alloggio da costruire o recuperare, ovvero, nel caso di acquisto, prima dell'erogazione del contributo.</corpo>
+						</comma>
+						<comma id="art9bis-com4">
+							<num>4.</num>
+							<corpo>E' vietata l'assegnazione di più di un contributo allo stesso nucleo familiare.</corpo>
+						</comma>
+						<comma id="art9bis-com5">
+							<num>5.</num>
+							<corpo>Non sono concessi contributi per l'acquisto qualora fra alcuno dei componenti il nucleo familiare dell'acquirente e alcuno dei componenti il nucleo familiare del venditore vi siano rapporti di parentela o affinità entro il terzo grado.</corpo>
+						</comma>
+						<comma id="art9bis-com6">
+							<num>6.</num>
+							<corpo>Non sono ammesse domande per l'acquisto o il recupero di alloggi che alla data del bando fruiscono di contributi concessi dallo Stato, dalle Regioni, dalle Province, dai Comuni o da Enti pubblici.</corpo>
+						</comma>
+						<comma id="art9bis-com7">
+							<num>7.</num>
+							<corpo>I contributi per l'acquisto non possono essere concessi ai soci di cooperative edilizie ovvero agli occupanti di alloggi di edilizia residenziale pubblica, per il pagamento degli alloggi loro assegnati. I contributi non sono altresì concessi qualora l'acquisto si riferisca alla nuda proprietà.</corpo>
+						</comma>
+						<comma id="art9bis-com8">
+							<num>8.</num>
+							<corpo>Gli alloggi da acquistare o da recuperare debbono, alla data del bando di concorso, essere censiti al NCEU ovvero deve essere stato richiesto l'accatastamento.</corpo>
+						</comma>
+						<comma id="art9bis-com9">
+							<num>9.</num>
+							<corpo>Non sono ammessi a contributo alloggi non conformi alle previsioni degli strumenti urbanistici ovvero classificati di lusso o accatastati nelle categorie A/1, A/8, A/9.</corpo>
+						</comma>
+						<comma id="art9bis-com10">
+							<num>10.</num>
+							<corpo>Le domande di contributo per la costruzione o il recupero debbono riferirsi ad interventi non iniziati alla data del bando di concorso.</corpo>
+						</comma>
+						<comma id="art9bis-com11">
+							<num>11.</num>
+							<corpo>
+								Le domande di contributo per il recupero debbono riferirsi ad alloggi ultimati da almeno venti anni alla data del bando e che nello stesso periodo non abbiano subito interventi di recupero di cui alle lettere b), c), d), e), dell'
+								<rif xlink:href="urn:nir:stato:legge:1978-08-05;457#art31" xlink:type="simple">art. 31 della legge 5/8/1978, n. 457</rif>
+								.
+							</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art10">
@@ -821,9 +1109,9 @@
 							<num />
 							<corpo>
 								Nei 30 giorni successivi alla data di scadenza del bando, la Commissione Comunale, di cui al
-								<rif xlink:href="#art19-com4" xlink:type="simple">comma 4</rif>
+								<rif xlink:href="#art19-com4-t2" xlink:type="simple">comma 4</rif>
 								del presente articolo, previa verifica dei requisiti soggettivi definiti al
-								<rif xlink:href="#art9" xlink:type="simple">precedente art. 9</rif>
+								<rif xlink:href="#art9-t2" xlink:type="simple">precedente art. 9</rif>
 								e della documentazione relativa ai criteri di selezione che danno luogo alla attribuzione dei punteggi, predispone la graduatoria provvisoria, specificando i motivi delle eventuali esclusioni ovvero delle eventuali riduzioni di punteggio rispetto a quanto dichiarato nella domanda.
 							</corpo>
 						</comma>
@@ -835,39 +1123,68 @@
 							<num />
 							<corpo>Entro i successivi 10 giorni i concorrenti possono presentare le loro osservazioni. Per le osservazioni inviate a mezzo di servizio postale fa fede la data di spedizione.</corpo>
 						</comma>
-						<comma id="art19-com4">
+						<comma finevigore="t2" id="art19-com4-t2" iniziovigore="t1" status="abrogato">
 							<num />
 							<alinea>
 								La Commissione comunale di cui al
 								<rif xlink:href="#art19-com1" xlink:type="simple">comma 1</rif>
 								è così composta:
 							</alinea>
-							<ep id="art19-com4-pun1">
+							<ep id="art19-com4-t2-pun1">
 								<num>-</num>
 								<corpo>il Sindaco od un suo delegato, con funzioni di Presidente;</corpo>
 							</ep>
-							<ep id="art19-com4-pun2">
+							<ep id="art19-com4-t2-pun2">
 								<num>-</num>
 								<corpo>due rappresentanti del Consiglio comunale di cui uno di minoranza eletti con voto limitato a uno;</corpo>
 							</ep>
-							<ep id="art19-com4-pun3">
+							<ep id="art19-com4-t2-pun3">
 								<num>-</num>
 								<corpo>un rappresentante, indicato unitariamente dalle organizzazioni sindacali provinciali maggiormente rappresentative a livello regionale;</corpo>
 							</ep>
-							<ep id="art19-com4-pun4">
+							<ep id="art19-com4-t2-pun4">
 								<num>-</num>
 								<corpo>3 rappresentanti delle cooperative edilizie indicati dalle organizzazioni provinciali legalmente riconosciute e maggiormente rappresentative a livello regionale;</corpo>
 							</ep>
-							<ep id="art19-com4-pun5">
+							<ep id="art19-com4-t2-pun5">
 								<num>-</num>
 								<corpo>4 rappresentanti indicati dalle organizzazioni provinciali degli imprenditori maggiormente rappresentative a livello regionale.</corpo>
 							</ep>
 						</comma>
-						<comma id="art19-com5">
+						<comma id="art19-com5" iniziovigore="t2">
 							<num />
-							<corpo>La Commissione è nominata dal Consiglio comunale entro 30 giorni dalla data di esecutività della deliberazione regionale di localizzazione degli interventi: decorso tale termine, la Commissione è nominata e può regolarmente funzionare quando siano stati designati almeno 6 componenti.</corpo>
+							<alinea>La Commissione comunale di cui al primo comma è così composta:</alinea>
+							<ep id="art19-com5-pun1">
+								<num>-</num>
+								<corpo>il Sindaco o suo delegato con funzioni di Presidente;</corpo>
+							</ep>
+							<ep id="art19-com5-pun2">
+								<num>-</num>
+								<corpo>due rappresentanti del Consiglio comunale di cui uno di minoranza eletti con voto limitato ad uno;</corpo>
+							</ep>
+							<ep id="art19-com5-pun3">
+								<num>-</num>
+								<corpo>un rappresentante delle Cooperative edilizie legalmente riconosciute e maggiormente rappresentative a livello regionale, nominato dalla Giunta regionale su proposta delle loro organizzazioni regionali;</corpo>
+							</ep>
+							<ep id="art19-com5-pun4">
+								<num>-</num>
+								<corpo>un rappresentante delle organizzazioni regionali degli imprenditori, nominato dalla Giunta regionale su proposta delle organizzazioni stesse;</corpo>
+							</ep>
+							<ep id="art19-com5-pun5">
+								<num>-</num>
+								<corpo>un rappresentante della Regione, nominato dalla Giunta regionale.</corpo>
+							</ep>
 						</comma>
 						<comma id="art19-com6">
+							<num />
+							<corpo>
+								La Commissione è nominata dal Consiglio comunale entro 30 giorni dalla data di esecutività della deliberazione regionale di localizzazione degli interventi: decorso tale termine, la Commissione è nominata e può regolarmente funzionare quando siano stati designati
+								<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">almeno 6 componenti</h:span>
+								<h:span id="h2" iniziovigore="t2">almeno quattro componenti</h:span>
+								.
+							</corpo>
+						</comma>
+						<comma id="art19-com7">
 							<num />
 							<corpo>Per la validità delle sedute della Commissione è necessaria la presenza della metà più uno dei suoi componenti.</corpo>
 						</comma>
@@ -1077,6 +1394,10 @@
 								</corpo>
 							</ep>
 						</comma>
+						<comma id="art27-com2" iniziovigore="t2">
+							<num />
+							<corpo>Al fine di consentire al Consiglio regionale l'espletamento dei compiti previsti nel precedente comma, la Giunta comunica ogni due mesi al Consiglio lo stato di attuazione del programma, evidenziando gli eventuali atti che si rendessero necessari per la sollecita attuazione degli interventi programmati.</corpo>
+						</comma>
 					</articolo>
 				</titolo>
 				<titolo id="tit4">
@@ -1163,8 +1484,15 @@
 							<comma id="art31-com1">
 								<num />
 								<corpo>
-									Prima del rilascio del prescritto nulla - osta, la Giunta regionale provvede alla verifica dei requisiti di cui al
-									<rif xlink:href="#art9" xlink:type="simple">precedente art. 9</rif>
+									Prima del rilascio del prescritto nulla - osta, la Giunta regionale provvede alla verifica dei requisiti
+									<h:span finevigore="t2" id="h3" iniziovigore="t1" status="abrogato">
+										di cui al precedente
+										<rif xlink:href="#art9-t2" xlink:type="simple">art. 9</rif>
+									</h:span>
+									<h:span id="h4" iniziovigore="t2">
+										di cui al precedente
+										<rif xlink:href="#art9bis" xlink:type="simple">art. 9/bis</rif>
+									</h:span>
 									, nonchè di tutte le condizioni di ammissibilità al bando e della documentazione probante relativa ai criteri di selezione che hanno dato luogo all'attribuzione dei punteggi.
 								</corpo>
 							</comma>
