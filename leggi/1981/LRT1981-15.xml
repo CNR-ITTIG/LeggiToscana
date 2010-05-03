@@ -16,7 +16,8 @@
 					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1983-07-19" />
 					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1984-04-24" />
 					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1984-10-29" />
-					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1985-01-10" />
+					<urn finevigore="t11" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1985-01-10" />
+					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1986-01-13" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="AGRICOLTURA" />
 						<materia valore="ATTRIBUZIONI DELEGHE" />
@@ -34,6 +35,7 @@
 						<evento data="19840517" fonte="rp7" id="t8" tipo="modifica" />
 						<evento data="19841122" fonte="rp8" id="t9" tipo="modifica" />
 						<evento data="19850131" fonte="rp9" id="t10" tipo="modifica" />
+						<evento data="19860206" fonte="rp10" id="t11" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1981-02-09;15" xlink:type="simple" />
@@ -46,6 +48,7 @@
 						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:1984-04-24;24" xlink:type="simple" />
 						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:1984-10-29;60" xlink:type="simple" />
 						<passiva id="rp9" xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1" xlink:type="simple" />
+						<passiva id="rp10" xlink:href="urn:nir:regione.toscana:legge:1986-01-13;2" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -305,6 +308,33 @@
 								<dsp:pos xlink:href="#art8-t10" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com5-num1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1986-01-13;2" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1986-01-13;2#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 13 gennaio 1986, n. 2" id="itt20" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3-com6-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-com6-num1-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1986-01-13;2" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1986-01-13;2#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 13 gennaio 1986, n. 2" id="itt21" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com1-letc" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -577,10 +607,18 @@
 					<comma id="art3-com6">
 						<num />
 						<alinea>Sono sub-delegate alle Province le funzioni amministrative concernenti:</alinea>
-						<en id="art3-com6-num1">
+						<en finevigore="t11" id="art3-com6-num1-t11" iniziovigore="t1" status="abrogato">
 							<num>1)</num>
 							<corpo>l'attuazione degli interventi non riservati all'AIMA per la regolamentazione dei mercati;</corpo>
 						</en>
+						<comma id="art3-com6-com1" iniziovigore="t11">
+							<num>1)</num>
+							<corpo>
+								l'attuazione degli interventi per la regolazione dei mercati agricoli attribuiti alla Regione dalla normativa statale e quelli concordati dalla stessa con l'AIMA ai sensi dell'
+								<rif xlink:href="urn:nir:stato:legge:1982-08-14;610#art3-com1-lete" xlink:type="simple">art. 3, primo comma, lett e) della Legge 14 agosto 1982, n. 610</rif>
+								.
+							</corpo>
+						</comma>
 						<en id="art3-com6-num2">
 							<num>2)</num>
 							<corpo>la vigilanza sulla tenuta dei registri e dei libri genealogici e sulla attuazione dei relativi controlli funzionali;</corpo>
@@ -662,6 +700,14 @@
 						<el id="art4-com1-letb">
 							<num>b)</num>
 							<corpo>la ricerca e la sperimentazione di interesse regionale;</corpo>
+						</el>
+						<el id="art4-com1-letc" iniziovigore="t11">
+							<num>c)</num>
+							<corpo>
+								la stipula delle convenzioni che l'AIMA ritenga di concludere con la Regione ai sensi dell'
+								<rif xlink:href="urn:nir:stato:legge:1982-08-14;610#art3-com1-lete" xlink:type="simple">art. 3, primo comma, lett. e) della Legge 14 agosto 1982, n. 610</rif>
+								.
+							</corpo>
 						</el>
 						<el id="art4-com1-letc">
 							<num>c)</num>
