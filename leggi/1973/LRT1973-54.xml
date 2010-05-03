@@ -14,7 +14,8 @@
 					<urn finevigore="t7" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1973-09-06;54@1981-01-19" />
 					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1973-09-06;54@1984-04-24" />
 					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1973-09-06;54@1985-01-28" />
-					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1973-09-06;54@1985-05-02" />
+					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1973-09-06;54@1985-05-02" />
+					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1973-09-06;54@1986-03-03" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Ordinamento" />
@@ -32,6 +33,7 @@
 						<evento data="19840517" fonte="rp6" id="t7" tipo="modifica" />
 						<evento data="19850221" fonte="rp7" id="t8" tipo="modifica" />
 						<evento data="19850525" fonte="rp8" id="t9" tipo="modifica" />
+						<evento data="19860327" fonte="rp9" id="t10" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1973-09-06;54" xlink:type="simple" />
@@ -43,6 +45,7 @@
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:1984-04-24;22" xlink:type="simple" />
 						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:1985-01-28;10" xlink:type="simple" />
 						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:1985-05-02;47" xlink:type="simple" />
+						<passiva id="rp9" xlink:href="urn:nir:regione.toscana:legge:1986-03-03;8" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -3260,6 +3263,21 @@
 								<dsp:pos xlink:href="#art27bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1986-03-03;8" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1986-03-03;8#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 3 marzo 1986, n. 8" id="itt222" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com1-t10" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -3331,10 +3349,10 @@
 					<articolo id="art2" iniziovigore="t7">
 						<num>Art. 2</num>
 						<rubrica>(Dotazione organica)</rubrica>
-						<comma id="art2-com1">
+						<comma finevigore="t10" id="art2-com1-t10" iniziovigore="t1" status="abrogato">
 							<num />
 							<alinea>La dotazione organica complessiva del personale del ruolo unico regionale è stabilita come segue:</alinea>
-							<ep id="art2-com1-pun1">
+							<ep id="art2-com1-t10-pun1">
 								<num />
 								<corpo>
 									TABELLA RISTRUTTURATA
@@ -3395,7 +3413,77 @@
 								</corpo>
 							</ep>
 						</comma>
-						<comma id="art2-com2">
+						<comma id="art2-com2" iniziovigore="t10">
+							<num />
+							<corpo>
+								la dotazione organica complessiva del personale del ruolo unico regionale è stabilita come segue:
+								<h:table>
+									<h:tbody>
+										<h:tr>
+											<h:td>QF 2a</h:td>
+											<h:td>qualifica dirigenziale</h:td>
+											<h:td>dotazione (n. posti) 121</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>QF 1a</h:td>
+											<h:td>qualifica dirigenziale</h:td>
+											<h:td>dotazione (n. posti) 374</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>QF VIII</h:td>
+											<h:td>qualifica</h:td>
+											<h:td>dotazione (n. posti) 1060</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>QF VII</h:td>
+											<h:td>qualifica</h:td>
+											<h:td>dotazione (n. posti) 910</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>QF VI</h:td>
+											<h:td>qualifica</h:td>
+											<h:td>dotazione (n. posti) 1395</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>QF V</h:td>
+											<h:td>qualifica</h:td>
+											<h:td>dotazione (n. posti) 272</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>QF IV</h:td>
+											<h:td>qualifica</h:td>
+											<h:td>dotazione (n. posti) 883</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>QF III</h:td>
+											<h:td>qualifica</h:td>
+											<h:td>dotazione (n. posti) 338</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>QF II</h:td>
+											<h:td>qualifica</h:td>
+											<h:td>dotazione (n. posti) 37</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>QF I</h:td>
+											<h:td>qualifica</h:td>
+											<h:td>dotazione (n. posti) 0</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td />
+											<h:td />
+											<h:td />
+										</h:tr>
+										<h:tr>
+											<h:td>Totale posti</h:td>
+											<h:td />
+											<h:td>5390</h:td>
+										</h:tr>
+									</h:tbody>
+								</h:table>
+							</corpo>
+						</comma>
+						<comma id="art2-com3">
 							<num />
 							<alinea>
 								In relazione alle esigenze di funzionalità della Regione, per l'attuazione dei compiti istituzionali e delle finalità ed obiettivi del programma regionale di sviluppo, il Consiglio regionale, con deliberazione adottata su proposta della Giunta, nel rispetto degli
@@ -3410,32 +3498,32 @@
 								<rif xlink:href="#art24" xlink:type="simple">art. 24</rif>
 								:
 							</alinea>
-							<el id="art2-com2-leta">
+							<el id="art2-com3-leta">
 								<num>a)</num>
 								<corpo>la dotazione organica dei singoli dipartimenti ed uffici del Consiglio regionale;</corpo>
 							</el>
-							<el id="art2-com2-letb">
+							<el id="art2-com3-letb">
 								<num>b)</num>
 								<corpo>la dotazione organica dei singoli dipartimenti ed uffici del centro direzionale;</corpo>
 							</el>
-							<el id="art2-com2-letc">
+							<el id="art2-com3-letc">
 								<num>c)</num>
 								<corpo>la dotazione organica dei singoli uffici del Comitato Regionale di Controllo e delle sue sezioni decentrate;</corpo>
 							</el>
-							<el id="art2-com2-letd">
+							<el id="art2-com3-letd">
 								<num>d)</num>
 								<corpo>la dotazione organica dei singoli uffici periferici;</corpo>
 							</el>
-							<el id="art2-com2-lete">
+							<el id="art2-com3-lete">
 								<num>e)</num>
 								<corpo>la dotazione organica di ciascuno degli enti e aziende dipendenti;</corpo>
 							</el>
-							<el id="art2-com2-letf">
+							<el id="art2-com3-letf">
 								<num>f)</num>
 								<corpo>il contingente numerico complessivo del personale da assegnare agli enti locali e loro associazioni per l'esercizio delle funzioni delegate.</corpo>
 							</el>
 						</comma>
-						<comma id="art2-com3">
+						<comma id="art2-com4">
 							<num />
 							<corpo>Nell'ambito del contingente di cui alla precedente lettera f), la Giunta regionale, sentite le organizzazioni sindacali del personale regionale maggiormente rappresentative, determina con propria deliberazione, di cui dovrà essere data immediata comunicazione al Consiglio, il contingente per ciascuno degli enti locali e loro associazioni titolari di deleghe regionali.</corpo>
 						</comma>
