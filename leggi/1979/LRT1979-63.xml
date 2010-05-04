@@ -10,7 +10,8 @@
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1979-12-19;63" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1979-12-19;63@1980-05-24" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1979-12-19;63@1982-02-08" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1979-12-19;63@1983-06-06" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1979-12-19;63@1983-06-06" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1979-12-19;63@1986-05-26" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="ORDINAMENTO" />
 						<materia valore="ENTI SANITARI" />
@@ -22,12 +23,14 @@
 						<evento data="19800613" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19820216" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19830630" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="19860619" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1979-12-19;63" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1980-05-24;70" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1982-02-08;14" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1983-06-06;40" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1986-05-26;26" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -68,7 +71,7 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:integrazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art13-com1-letb" xlink:type="simple" />
+							<dsp:pos xlink:href="#art13-t5-com1-letb" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1982-02-08;14" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1982-02-08;14#art1-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -76,7 +79,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art13-com1-letc" xlink:type="simple" />
+								<dsp:pos xlink:href="#art13-t5-com1-letc" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:abrogazione completa="si" implicita="no">
@@ -88,11 +91,11 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#art13-com2-t3" xlink:type="simple" />
+								<dsp:pos xlink:href="#art13-t5-com2-t3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:integrazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art13" xlink:type="simple" />
+							<dsp:pos xlink:href="#art13-t5" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1982-02-08;14" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1982-02-08;14#art2-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -100,11 +103,11 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art13bis" xlink:type="simple" />
+								<dsp:pos xlink:href="#art13bis-t5" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art12-com1" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1983-06-06;40" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1983-06-06;40#art1-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -112,12 +115,144 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art12-com2" xlink:type="simple" />
+								<dsp:pos xlink:href="#art12-t5-com2" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#art12-com1-t4" xlink:type="simple" />
+								<dsp:pos xlink:href="#art12-t5-com1-t4" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1986-05-26;26" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1986-05-26;26#art13-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 13, comma 1 della legge Regione Toscana 26 maggio 1986, n. 26" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art18" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1986-05-26;26" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1986-05-26;26#art13-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 13, comma 1 della legge Regione Toscana 26 maggio 1986, n. 26" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art18-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art19" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1986-05-26;26" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1986-05-26;26#art13-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 13, comma 1 della legge Regione Toscana 26 maggio 1986, n. 26" id="itt8" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art19-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1986-05-26;26" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1986-05-26;26#art13-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 13, comma 1 della legge Regione Toscana 26 maggio 1986, n. 26" id="itt9" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art12" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1986-05-26;26" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1986-05-26;26#art13-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 13, comma 1 della legge Regione Toscana 26 maggio 1986, n. 26" id="itt10" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art12-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1986-05-26;26" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1986-05-26;26#art13-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 13, comma 1 della legge Regione Toscana 26 maggio 1986, n. 26" id="itt11" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art13-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13bis" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1986-05-26;26" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1986-05-26;26#art13-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 13, comma 1 della legge Regione Toscana 26 maggio 1986, n. 26" id="itt12" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art13bis-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art14" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1986-05-26;26" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1986-05-26;26#art13-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 13, comma 1 della legge Regione Toscana 26 maggio 1986, n. 26" id="itt13" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art14-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art15" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1986-05-26;26" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1986-05-26;26#art13-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 13, comma 1 della legge Regione Toscana 26 maggio 1986, n. 26" id="itt14" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art15-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art16" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1986-05-26;26" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1986-05-26;26#art13-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 13, comma 1 della legge Regione Toscana 26 maggio 1986, n. 26" id="itt15" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art16-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art17" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1986-05-26;26" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1986-05-26;26#art13-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 13, comma 1 della legge Regione Toscana 26 maggio 1986, n. 26" id="itt16" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art17-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -155,10 +290,10 @@
 							</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art2">
+					<articolo finevigore="t5" id="art2-t5" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 2</num>
 						<rubrica>(Soggetti titolari della gestione dei servizi sanitari)</rubrica>
-						<comma id="art2-com1">
+						<comma id="art2-t5-com1">
 							<num />
 							<corpo>
 								Le associazioni intercomunali di cui alla
@@ -168,7 +303,7 @@
 								, in materia di assistenza sanitaria ed ospedaliera, mediante strutture operative denominate unità sanitarie locali corrispondenti agli ambiti territoriali di cui all'art. 1, comma primo, della citata legge regionale.
 							</corpo>
 						</comma>
-						<comma id="art2-com2">
+						<comma id="art2-t5-com2">
 							<num />
 							<corpo>
 								Nelle aree di cui all'
@@ -176,7 +311,7 @@
 								, le suddette funzioni sono esercitate dal comune di Firenze e dalle ulteriori associazioni di comuni previste dall'art. 11 della medesima legge, tramite le corrispondenti unità sanitarie locali.
 							</corpo>
 						</comma>
-						<comma id="art2-com3">
+						<comma id="art2-t5-com3">
 							<num />
 							<corpo>I soggetti di cui ai precedenti commi sono indicati nei successivi articoli della presente legge con l'espressione "comuni singoli o associati".</corpo>
 						</comma>
@@ -231,10 +366,10 @@
 							</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art5">
+					<articolo finevigore="t5" id="art5-t5" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 5</num>
 						<rubrica>(Informazione)</rubrica>
-						<comma id="art5-com1">
+						<comma id="art5-t5-com1">
 							<num />
 							<corpo>
 								Al fine di conseguire un organico processo di programmazione, la Regione, nell'ambito dei programmi previsti dall'
@@ -242,7 +377,7 @@
 								fornisce ai comuni singoli o associati le informazioni occorrenti alla predisposizione dei programmi pluriennali di attività alla verifica della loro attuazione e alla gestione dei servizi sanitari.
 							</corpo>
 						</comma>
-						<comma id="art5-com2">
+						<comma id="art5-t5-com2">
 							<num />
 							<corpo>
 								La Regione comunica inoltre alle province i dati necessari agli adempimenti di cui all'
@@ -498,25 +633,25 @@
 				<titolo id="tit4">
 					<num>TITOLO IV</num>
 					<rubrica>ORGANI DI GESTIONE</rubrica>
-					<articolo id="art12">
+					<articolo finevigore="t5" id="art12-t5" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 12</num>
 						<rubrica>(Gestione dell'unità sanitaria locale)</rubrica>
-						<comma finevigore="t4" id="art12-com1-t4" iniziovigore="t1" status="abrogato">
+						<comma finevigore="t4" id="art12-t5-com1-t4" iniziovigore="t1" status="abrogato">
 							<num />
 							<corpo>L'attività di gestione dell'unità sanitaria locale è svolta dall'assemblea, dal comitato di gestione e dal suo presidente.</corpo>
 						</comma>
-						<comma id="art12-com2" iniziovigore="t4">
+						<comma id="art12-t5-com2" iniziovigore="t4">
 							<num />
 							<alinea>Sono organi dell'Unità sanitaria locale:</alinea>
-							<en id="art12-com2-num1">
+							<en id="art12-t5-com2-num1">
 								<num>1)</num>
 								<corpo>l'Assemblea;</corpo>
 							</en>
-							<en id="art12-com2-num2">
+							<en id="art12-t5-com2-num2">
 								<num>2)</num>
 								<corpo>il Comitato di Gestione e il suo Presidente;</corpo>
 							</en>
-							<en id="art12-com2-num3">
+							<en id="art12-t5-com2-num3">
 								<num>3)</num>
 								<corpo>
 									il Collegio dei Revisori
@@ -525,18 +660,18 @@
 								</corpo>
 							</en>
 						</comma>
-						<comma id="art12-com3">
+						<comma id="art12-t5-com3">
 							<num />
 							<corpo>Rimangono ferme le attribuzioni del sindaco quale autorità sanitaria locale che a tal fine si avvale direttamente dei servizi delle unità sanitarie locali.</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art13">
+					<articolo finevigore="t5" id="art13-t5" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 13</num>
 						<rubrica>(Assemblea)</rubrica>
-						<comma id="art13-com1">
+						<comma id="art13-t5-com1">
 							<num />
 							<alinea>L'assemblea è costituita:</alinea>
-							<el id="art13-com1-leta">
+							<el id="art13-t5-com1-leta">
 								<num>a)</num>
 								<corpo>
 									dall'assemblea dell'associazione intercomunale di cui agli artt. 2 e 11 ovvero 20, ultimo comma, della
@@ -544,11 +679,11 @@
 									;
 								</corpo>
 							</el>
-							<el id="art13-com1-letb">
+							<el id="art13-t5-com1-letb">
 								<num>b)</num>
 								<corpo>dal consiglio della comunità montana, nel caso di cui all'art. 20, secondo comma, della citata legge.</corpo>
 							</el>
-							<el id="art13-com1-letc" iniziovigore="t3">
+							<el id="art13-t5-com1-letc" iniziovigore="t3">
 								<num>c)</num>
 								<corpo>
 									dal Consiglio comunale che mantiene la facoltà di cui all'
@@ -557,7 +692,7 @@
 								</corpo>
 							</el>
 						</comma>
-						<comma finevigore="t3" id="art13-com2-t3" iniziovigore="t1" status="abrogato">
+						<comma finevigore="t3" id="art13-t5-com2-t3" iniziovigore="t1" status="abrogato">
 							<num />
 							<corpo>
 								Per le unità sanitarie locali interne al territorio di un comune, l'assemblea è costituita dal consiglio comunale che mantiene la facoltà di cui all'
@@ -566,35 +701,35 @@
 							</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art13bis" iniziovigore="t3">
+					<articolo finevigore="t5" id="art13bis-t5" iniziovigore="t3" status="abrogato">
 						<num>Art. 13/bis</num>
 						<rubrica>(Disciplina delle sedute del Consiglio comunale)</rubrica>
-						<comma id="art13bis-com1">
+						<comma id="art13bis-t5-com1">
 							<num />
 							<corpo>
 								Salvo quanto previsto dal regolamento comunale, il Consiglio comunale, nel caso di cui all'
-								<rif xlink:href="#art13-com1-letc" xlink:type="simple">articolo precedente, punto c)</rif>
+								<rif xlink:href="#art13-t5-com1-letc" xlink:type="simple">articolo precedente, punto c)</rif>
 								nell'esercizio dei compiti di cui al successivo
-								<rif xlink:href="#art14" xlink:type="simple">art. 14</rif>
+								<rif xlink:href="#art14-t5" xlink:type="simple">art. 14</rif>
 								tratta gli affari concernenti le unità sanitarie locali interne al territorio comunale nel corso di apposite sedute, ovvero nel corso delle sedute convocate anche per la trattazione di altre questioni di propria competenza. Nel corso di una stessa seduta del Consiglio comunale possono essere discussi e deliberati in forma unica affari concernenti più unità sanitarie locali. Le relative proposte possono essere discusse e messe in votazione congiuntamente, qualora siano rivolte a produrre effetti indistintamente per le unità sanitarie locali in questione.
 							</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art14">
+					<articolo finevigore="t5" id="art14-t5" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 14</num>
 						<rubrica>(Compiti dell'assemblea)</rubrica>
-						<comma id="art14-com1">
+						<comma id="art14-t5-com1">
 							<num />
 							<alinea>L'assemblea:</alinea>
-							<el id="art14-com1-leta">
+							<el id="art14-t5-com1-leta">
 								<num>a)</num>
 								<corpo>elegge il comitato di gestione;</corpo>
 							</el>
-							<el id="art14-com1-letb">
+							<el id="art14-t5-com1-letb">
 								<num>b)</num>
 								<corpo>fissa gli indirizzi per la formazione dei piani e dei programmi pluriennali di attività dell'unità sanitaria locale;</corpo>
 							</el>
-							<el id="art14-com1-letc">
+							<el id="art14-t5-com1-letc">
 								<num>c)</num>
 								<corpo>
 									approva, in conformità del piano sanitario regionale, i programmi pluriennali di attività e gli altri atti di natura programmatica, compresi quelli relativi ai servizi multinazionali di cui al
@@ -602,19 +737,19 @@
 									;
 								</corpo>
 							</el>
-							<el id="art14-com1-letd">
+							<el id="art14-t5-com1-letd">
 								<num>d)</num>
 								<corpo>approva il bilancio, le sue variazioni e il conto consuntivo;</corpo>
 							</el>
-							<el id="art14-com1-lete">
+							<el id="art14-t5-com1-lete">
 								<num>e)</num>
 								<corpo>approva gli atti che comportano impegni di spesa a carattere pluriennale;</corpo>
 							</el>
-							<el id="art14-com1-letf">
+							<el id="art14-t5-com1-letf">
 								<num>f)</num>
 								<corpo>approva le convenzioni concernenti l'organizzazione e l'utilizzazione di servizi e strutture;</corpo>
 							</el>
-							<el id="art14-com1-letg">
+							<el id="art14-t5-com1-letg">
 								<num>g)</num>
 								<corpo>
 									approva il rendiconto trimestrale di cui all'
@@ -622,47 +757,47 @@
 									, e la relazione annuale prevista dall'art. 49, quarto comma, della citata legge;
 								</corpo>
 							</el>
-							<el id="art14-com1-leth">
+							<el id="art14-t5-com1-leth">
 								<num>h)</num>
 								<corpo>approva, in conformità al piano sanitario regionale, l'ordinamento dei servizi e la pianta organica del personale nonchè gli atti di natura regolamentare;</corpo>
 							</el>
-							<el id="art14-com1-leti">
+							<el id="art14-t5-com1-leti">
 								<num>i)</num>
 								<corpo>delibera ogni altro provvedimento ad essa attribuito dalle leggi vigenti.</corpo>
 							</el>
 						</comma>
 					</articolo>
-					<articolo id="art15">
+					<articolo finevigore="t5" id="art15-t5" iniziovigore="t1" status="abrogato">
 						<num>
 							ARTICOLO 15
 							<ndr num="#n3" valore="" xlink:type="simple">(c)</ndr>
 						</num>
 						<rubrica>(Comitato di gestione)</rubrica>
-						<comma id="art15-com1">
+						<comma id="art15-t5-com1">
 							<num />
 							<alinea>Il comitato di gestione è composto da un numero di membri pari a:</alinea>
-							<ep id="art15-com1-pun1">
+							<ep id="art15-t5-com1-pun1">
 								<num>-</num>
 								<corpo>13 nel caso in cui la relativa assemblea sia formata da un numero di componenti non superiore a 60;</corpo>
 							</ep>
-							<ep id="art15-com1-pun2">
+							<ep id="art15-t5-com1-pun2">
 								<num>-</num>
 								<corpo>15 nel caso in cui la relativa assemblea sia formata da un numero di componenti superiore a 60.</corpo>
 							</ep>
 						</comma>
-						<comma id="art15-com2">
+						<comma id="art15-t5-com2">
 							<num />
 							<corpo>I membri del comitato di gestione sono eletti con voto limitato rispettivamente nel numero di 8 e 9 per la maggioranza e di 5 e 6 per le minoranze.</corpo>
 						</comma>
-						<comma id="art15-com3">
+						<comma id="art15-t5-com3">
 							<num />
 							<corpo>Essi sono scelti in misura non inferiore al 50% fra i componenti dell'assemblea ovvero per i comitati di gestione delle unità sanitarie locali interne al territorio di un comune, anche fra i membri dei corrispondenti consigli circoscrizionali, eletti a suffragio diretto.</corpo>
 						</comma>
-						<comma id="art15-com4">
+						<comma id="art15-t5-com4">
 							<num />
 							<corpo>I componenti del comitato di gestione che non sono membri dell'assemblea, partecipano alle sedute di questa con diritto di parola.</corpo>
 						</comma>
-						<comma id="art15-com5">
+						<comma id="art15-t5-com5">
 							<num />
 							<corpo>
 								Nel caso di cui all'
@@ -671,74 +806,74 @@
 							</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art16">
+					<articolo finevigore="t5" id="art16-t5" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 16</num>
 						<rubrica>(Funzionamento del comitato di gestione)</rubrica>
-						<comma id="art16-com1">
+						<comma id="art16-t5-com1">
 							<num />
 							<corpo>Il comitato di gestione delibera validamente con l'intervento della maggioranza dei componenti e a maggioranza dei presenti. Uno o più componenti del comitato possono essere incaricati per seguire determinate attività, ivi comprese quelle multinazionali, secondo le direttive fissate dal comitato stesso.</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art17">
+					<articolo finevigore="t5" id="art17-t5" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 17</num>
 						<rubrica>(Compiti del comitato di gestione)</rubrica>
-						<comma id="art17-com1">
+						<comma id="art17-t5-com1">
 							<num />
 							<alinea>Il comitato di gestione:</alinea>
-							<el id="art17-com1-leta">
+							<el id="art17-t5-com1-leta">
 								<num>a)</num>
 								<corpo>nomina il presidente e il vice presidente a maggioranza assoluta dei componenti;</corpo>
 							</el>
-							<el id="art17-com1-letb">
+							<el id="art17-t5-com1-letb">
 								<num>b)</num>
 								<corpo>predispone i piani ed i programmi pluriennali di attività;</corpo>
 							</el>
-							<el id="art17-com1-letc">
+							<el id="art17-t5-com1-letc">
 								<num>c)</num>
 								<corpo>predispone il bilancio, le sue variazioni ed il conto consuntivo;</corpo>
 							</el>
-							<el id="art17-com1-letd">
+							<el id="art17-t5-com1-letd">
 								<num>d)</num>
 								<corpo>predispone gli atti di natura programmatica, compresi quelli che comportino impegni di spesa pluriennali;</corpo>
 							</el>
-							<el id="art17-com1-lete">
+							<el id="art17-t5-com1-lete">
 								<num>e)</num>
 								<corpo>predispone la pianta organica del personale, i regolamenti e le convenzioni, in relazione alla organizzazione dei servizi;</corpo>
 							</el>
-							<el id="art17-com1-letf">
+							<el id="art17-t5-com1-letf">
 								<num>f)</num>
 								<corpo>predispone la relazione annuale sull'attività svolta;</corpo>
 							</el>
-							<el id="art17-com1-letg">
+							<el id="art17-t5-com1-letg">
 								<num>g)</num>
 								<corpo>predispone ed attua i programmi di attività dei servizi multinazionali compresi nell'ambito territoriale dell'unità sanitaria locale;</corpo>
 							</el>
-							<el id="art17-com1-leth">
+							<el id="art17-t5-com1-leth">
 								<num>h)</num>
 								<corpo>compie gli altri atti ad esso attribuiti dalle leggi vigenti.</corpo>
 							</el>
 						</comma>
 					</articolo>
-					<articolo id="art18">
+					<articolo finevigore="t5" id="art18-t5" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 18</num>
 						<rubrica>(Presidente del comitato di gestione)</rubrica>
-						<comma id="art18-com1">
+						<comma id="art18-t5-com1">
 							<num />
 							<corpo>In sede di prima applicazione della presente legge e, comunque, fino all'entrata in vigore della legge di riforma delle autonomie locali, il presidente può essere eletto anche fra i membri del comitato di gestione non facenti parte dell'assemblea.</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art19">
+					<articolo finevigore="t5" id="art19-t5" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 19</num>
 						<rubrica>(Compiti del presidente del comitato di gestione)</rubrica>
-						<comma id="art19-com1">
+						<comma id="art19-t5-com1">
 							<num />
 							<corpo>Il presidente del comitato di gestione ha la rappresentanza legale dell'unità sanitaria locale, convoca e presiede il comitato di gestione ed esercita ogni altra funzione conferitagli dalle leggi vigenti.</corpo>
 						</comma>
-						<comma id="art19-com2">
+						<comma id="art19-t5-com2">
 							<num />
 							<corpo>Il vice presidente sostituisce il presidente in caso di assenza o impedimento, assumendone le funzioni.</corpo>
 						</comma>
-						<comma id="art19-com3">
+						<comma id="art19-t5-com3">
 							<num />
 							<corpo>Il presidente trasmette ai sindaci le informazioni e le notizie rilevanti ai fini dei provvedimenti di loro competenza.</corpo>
 						</comma>
@@ -794,7 +929,7 @@
 							<num />
 							<corpo>
 								L'assemblea verifica l'attuazione, da parte del comitato di gestione, delle deliberazioni da essa approvate a norma del
-								<rif xlink:href="#art14" xlink:type="simple">precedente art. 14</rif>
+								<rif xlink:href="#art14-t5" xlink:type="simple">precedente art. 14</rif>
 								.
 							</corpo>
 						</comma>
@@ -904,7 +1039,7 @@
 								L'assemblea dell'associazione convocata ai sensi dell'
 								<rif xlink:href="urn:nir:regione.toscana:legge:1979-08-17;37#art12" xlink:type="simple">ultimo comma dell'art. 12 della legge regionale 17 agosto 1979, n. 37</rif>
 								elegge, nella sua prima riunione, il comitato di gestione, con precedenza rispetto alla nomina del presidente dell'associazione medesima, in deroga al disposto di cui al citato comma dell'
-								<rif xlink:href="#art12" xlink:type="simple">art. 12</rif>
+								<rif xlink:href="#art12-t5" xlink:type="simple">art. 12</rif>
 								.
 							</corpo>
 						</comma>
@@ -940,7 +1075,7 @@
 							<num />
 							<corpo>
 								I comuni associati di cui al
-								<rif xlink:href="#art2" xlink:type="simple">precedente art. 2</rif>
+								<rif xlink:href="#art2-t5" xlink:type="simple">precedente art. 2</rif>
 								, esercitano le funzioni di competenza dei comuni o ad essi delegate nella materia dell'
 								<rif xlink:href="urn:nir:presidente.repubblica:decreto:1977-07-24;616#art22" xlink:type="simple">art. 22 del decreto del Presidente della Repubblica 24 luglio 1977, n. 616</rif>
 								.
@@ -972,7 +1107,7 @@
 							<num />
 							<alinea>
 								Le assemblee dei comuni associati di cui all'
-								<rif xlink:href="#art2" xlink:type="simple">art. 2</rif>
+								<rif xlink:href="#art2-t5" xlink:type="simple">art. 2</rif>
 								individuano, tenendo conto anche delle forme di decentramento previste dall'
 								<rif xlink:href="#art8" xlink:type="simple">art. 8</rif>
 								, penultimo comma, quali, tra le seguenti prestazioni, possono essere erogate dai singoli comuni, in deroga all'esercizio in forma associata previsto dall'articolo precedente:
@@ -1018,7 +1153,7 @@
 							<num />
 							<corpo>
 								Entro sessanta giorni dalla costituzione delle unità sanitarie locali, i comuni provvedono a mettere a disposizione dei comuni associati di cui all'
-								<rif xlink:href="#art2" xlink:type="simple">art. 2</rif>
+								<rif xlink:href="#art2-t5" xlink:type="simple">art. 2</rif>
 								, il personale, i beni e le attrezzature destinate ai servizi sociali alla data di entrata in vigore della presente legge, ivi compresi quelli già messi a disposizione dei consorzi socio - sanitari previsti dalla
 								<rif xlink:href="urn:nir:regione.toscana:legge:1974-08-20;50" xlink:type="simple">legge regionale 20 agosto 1974, n. 50</rif>
 								.
@@ -1044,7 +1179,7 @@
 							<num />
 							<corpo>
 								A decorrere dalla data di costituzione delle unità sanitarie locali, i comuni provvedono a trasferire annualmente ai comuni associati di cui all'
-								<rif xlink:href="#art2" xlink:type="simple">art. 2</rif>
+								<rif xlink:href="#art2-t5" xlink:type="simple">art. 2</rif>
 								, le risorse finanziarie da adibirsi ai servizi sociali, in ammontare non inferiore alle risorse destinate dai singoli comuni a detti servizi, anche tramite i consorzi socio - sanitari, come risulta dall'ultimo bilancio di previsione approvato.
 							</corpo>
 						</comma>
