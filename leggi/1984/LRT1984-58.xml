@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19840912" num="47" tipo="BURT" />
 					<entratainvigore norm="19840927" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1984-09-04;58" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1984-09-04;58" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1984-09-04;58@1986-08-11" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Partecipazioni" />
 						<materia valore="Commercio" />
@@ -16,11 +17,32 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19840927" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19860904" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1984-09-04;58" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1986-08-11;39" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#allegato.1-art19" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1986-08-11;39" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1986-08-11;39#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 11 agosto 1986, n. 39" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#ann1-art19" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#ann1-art19-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -561,30 +583,73 @@
 									</ep>
 								</comma>
 							</articolo>
-							<articolo id="ann1-art19">
+							<articolo finevigore="t2" id="ann1-art19-t2" iniziovigore="t1" status="abrogato">
 								<num>ARTICOLO 19</num>
-								<comma id="ann1-art19-com1">
+								<comma id="ann1-art19-t2-com1">
 									<num />
 									<alinea>La Società è amministrata dal Consiglio di Amministrazione composto da 18 membri, nominati:</alinea>
-									<ep id="ann1-art19-com1-pun1">
+									<ep id="ann1-art19-t2-com1-pun1">
 										<num>-</num>
 										<corpo>tre dal Consiglio Regionale;</corpo>
 									</ep>
-									<ep id="ann1-art19-com1-pun2">
+									<ep id="ann1-art19-t2-com1-pun2">
 										<num>-</num>
 										<corpo>tre dal Consiglio Comunale di Firenze;</corpo>
 									</ep>
-									<ep id="ann1-art19-com1-pun3">
+									<ep id="ann1-art19-t2-com1-pun3">
 										<num>-</num>
 										<corpo>uno dal Consiglio Comunale di Prato;</corpo>
 									</ep>
-									<ep id="ann1-art19-com1-pun4">
+									<ep id="ann1-art19-t2-com1-pun4">
 										<num>-</num>
 										<corpo>uno dal Consiglio Provinciale di Firenze;</corpo>
 									</ep>
-									<ep id="ann1-art19-com1-pun5">
+									<ep id="ann1-art19-t2-com1-pun5">
 										<num>-</num>
 										<corpo>uno dal Consiglio Provinciale di Pistoia;</corpo>
+									</ep>
+									<ep id="ann1-art19-t2-com1-pun6">
+										<num>-</num>
+										<corpo>uno dalla Camera di Commercio di Firenze;</corpo>
+									</ep>
+									<ep id="ann1-art19-t2-com1-pun7">
+										<num>-</num>
+										<corpo>otto dall'Assemblea su designazione degli altri Soci diversi dalla Regione e dagli altri Enti locali.</corpo>
+									</ep>
+								</comma>
+								<comma id="ann1-art19-t2-com2">
+									<num />
+									<corpo>
+										Gli amministratori durano in carica tre anni, sono rieleggibili e devono versare una cauzione di L. 200.000 (duecentomila) ciascuno secondo quanto previsto dall'ultima parte del
+										<rif xlink:href="urn:nir:stato:codice.civile:1942-03-16;262#art2387-com1" xlink:type="simple">I comma dell'art. 2387 CC</rif>
+										.
+									</corpo>
+								</comma>
+							</articolo>
+							<articolo id="ann1-art19" iniziovigore="t2">
+								<num>ARTICOLO 19</num>
+								<comma id="ann1-art19-com1">
+									<num />
+									<alinea>La Società è amministrata dal Consiglio di Amministrazione composto da 20 membri, nominati:</alinea>
+									<ep id="ann1-art19-com1-pun1">
+										<num>-</num>
+										<corpo>quattro dal Consiglio regionale;</corpo>
+									</ep>
+									<ep id="ann1-art19-com1-pun2">
+										<num>-</num>
+										<corpo>tre dal Consiglio comunale di Firenze;</corpo>
+									</ep>
+									<ep id="ann1-art19-com1-pun3">
+										<num>-</num>
+										<corpo>uno dal Consiglio comunale di Prato;</corpo>
+									</ep>
+									<ep id="ann1-art19-com1-pun4">
+										<num>-</num>
+										<corpo>uno dal Consiglio provinciale di Firenze;</corpo>
+									</ep>
+									<ep id="ann1-art19-com1-pun5">
+										<num>-</num>
+										<corpo>uno dal Consiglio provinciale di Pistoia;</corpo>
 									</ep>
 									<ep id="ann1-art19-com1-pun6">
 										<num>-</num>
@@ -592,16 +657,12 @@
 									</ep>
 									<ep id="ann1-art19-com1-pun7">
 										<num>-</num>
-										<corpo>otto dall'Assemblea su designazione degli altri Soci diversi dalla Regione e dagli altri Enti locali.</corpo>
+										<corpo>nove dall'Assemblea su designazione degli altri soci diversi dalla Regione e dagli altri Enti locali.</corpo>
 									</ep>
 								</comma>
 								<comma id="ann1-art19-com2">
 									<num />
-									<corpo>
-										Gli amministratori durano in carica tre anni, sono rieleggibili e devono versare una cauzione di L. 200.000 (duecentomila) ciascuno secondo quanto previsto dall'ultima parte del
-										<rif xlink:href="urn:nir:stato:codice.civile:1942-03-16;262#art2387-com1" xlink:type="simple">I comma dell'art. 2387 CC</rif>
-										.
-									</corpo>
+									<corpo>Gli amministratori durano in carica tre anni e sono rieleggibili.</corpo>
 								</comma>
 							</articolo>
 							<articolo id="ann1-art20">
