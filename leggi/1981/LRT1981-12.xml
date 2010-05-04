@@ -8,7 +8,8 @@
 					<entratainvigore norm="19810214" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1981-01-23;12" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1981-01-23;12@1982-07-20" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1981-01-23;12@1982-07-20" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1981-01-23;12@1986-08-04" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Attività istituzionali" />
 					</materie>
@@ -17,10 +18,12 @@
 					<eventi>
 						<evento data="19810214" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19820811" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19860819" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1981-01-23;12" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1982-07-20;62" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1986-08-04;35" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -52,6 +55,21 @@
 								<dsp:pos xlink:href="#art3-com4" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com1-num3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1986-08-04;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1986-08-04;35#art10-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 10, comma 1 della legge Regione Toscana 4 agosto 1986, n. 35" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3-com1-num3-letb" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-com1-num3-letb-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -236,9 +254,13 @@
 								<num>a)</num>
 								<corpo>delega di funzioni a componenti la Giunta o a funzionari regionali;</corpo>
 							</el>
-							<el id="art3-com1-num3-letb">
+							<el finevigore="t3" id="art3-com1-num3-letb-t3" iniziovigore="t1" status="abrogato">
 								<num>b)</num>
 								<corpo>riconoscimento di persone giuridiche private;</corpo>
+							</el>
+							<el id="art3-com1-num3-letb" iniziovigore="t3">
+								<num>b)</num>
+								<corpo>concessione e revoca del riconoscimento, estinzione delle persone giuridiche private nonchè trasformazione delle fondazioni</corpo>
 							</el>
 							<el id="art3-com1-num3-letc">
 								<num>c)</num>
