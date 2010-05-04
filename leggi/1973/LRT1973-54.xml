@@ -15,7 +15,8 @@
 					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1973-09-06;54@1984-04-24" />
 					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1973-09-06;54@1985-01-28" />
 					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1973-09-06;54@1985-05-02" />
-					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1973-09-06;54@1986-03-03" />
+					<urn finevigore="t11" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1973-09-06;54@1986-03-03" />
+					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1973-09-06;54@1986-07-07" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Ordinamento" />
@@ -34,6 +35,7 @@
 						<evento data="19850221" fonte="rp7" id="t8" tipo="modifica" />
 						<evento data="19850525" fonte="rp8" id="t9" tipo="modifica" />
 						<evento data="19860327" fonte="rp9" id="t10" tipo="modifica" />
+						<evento data="19860731" fonte="rp10" id="t11" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1973-09-06;54" xlink:type="simple" />
@@ -46,6 +48,7 @@
 						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:1985-01-28;10" xlink:type="simple" />
 						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:1985-05-02;47" xlink:type="simple" />
 						<passiva id="rp9" xlink:href="urn:nir:regione.toscana:legge:1986-03-03;8" xlink:type="simple" />
+						<passiva id="rp10" xlink:href="urn:nir:regione.toscana:legge:1986-07-07;32" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -1908,7 +1911,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art20-com2" xlink:type="simple" />
+							<dsp:pos xlink:href="#art20-com2-t11" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1984-04-24;22" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1984-04-24;22#art9-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -3276,6 +3279,21 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art2-com1-t10" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art20-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1986-07-07;32" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1986-07-07;32#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 7 luglio 1986, n. 32" id="itt223" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art20-com3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art20-com2-t11" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -5417,7 +5435,7 @@
 							<num />
 							<corpo>I posti rimasti scoperti per rinuncia o decadenza dei vincitori sono assegnati ai concorrenti dichiarati idonei nello stesso concorso secondo l'ordine della graduatoria.</corpo>
 						</comma>
-						<comma id="art20-com2">
+						<comma finevigore="t11" id="art20-com2-t11" iniziovigore="t1" status="abrogato">
 							<num />
 							<corpo>
 								<h:span finevigore="t7" id="h9" iniziovigore="t1" status="abrogato">Entro un anno</h:span>
@@ -5427,7 +5445,15 @@
 								.
 							</corpo>
 						</comma>
-						<comma id="art20-com3">
+						<comma id="art20-com3" iniziovigore="t11">
+							<num />
+							<corpo>
+								Entro tre anni dall'approvazione della graduatoria e secondo l'ordine della graduatoria medesima, possono essere conferiti, oltre i posti messi a concorso, anche i posti che risultino comunque disponibili, salvo quelli derivanti da aumento di organico o che avrebbero potuto essere messi a concorso ai sensi dell'
+								<rif xlink:href="#art12-com1" xlink:type="simple">art. 12, primo comma</rif>
+								.
+							</corpo>
+						</comma>
+						<comma id="art20-com4">
 							<num />
 							<corpo>
 								Anche per quanto previsto nel precedente comma valgono le disposizioni sulle riserve dei posti di cui al precedente
