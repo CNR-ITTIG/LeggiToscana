@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19840426" num="21" tipo="BURT" />
 					<entratainvigore norm="19840426" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1984-04-17;21" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1984-04-17;21" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1984-04-17;21@1986-05-06" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Urbanistica" />
 						<materia valore="Protezione Civile" />
@@ -16,11 +17,44 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19840426" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19860529" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1984-04-17;21" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1986-05-06;20" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1986-05-06;20" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1986-05-06;20#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 6 maggio 1986, n. 20" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1986-05-06;20" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1986-05-06;20#artunico-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 2 della legge Regione Toscana 6 maggio 1986, n. 20" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com4" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -76,9 +110,17 @@
 							cessano di applicarsi dall'entrata in vigore della presente legge.
 						</corpo>
 					</comma>
-					<comma id="art2-com2">
+					<comma finevigore="t2" id="art2-com2-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>La valutazione della adeguatezza delle indagini di cui al precedente articolo è effettuata dalla Giunta regionale in sede di approvazione degli strumenti urbanistici generali ed attuativi.</corpo>
+					</comma>
+					<comma id="art2-com3" iniziovigore="t2">
+						<num />
+						<corpo>In sede di approvazione degli strumenti urbanistici o delle loro varianti la Regione verifica l'adeguatezza delle indagini di cui al primo comma dell'articolo precedente.</corpo>
+					</comma>
+					<comma id="art2-com4" iniziovigore="t2">
+						<num />
+						<corpo>Di tale verifica deve essere fatta espressa menzione nell’atto di approvazione.</corpo>
 					</comma>
 				</articolo>
 			</articolato>
