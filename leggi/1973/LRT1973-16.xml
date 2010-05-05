@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t5" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19730330" num="15" tipo="BURT" />
@@ -10,7 +10,8 @@
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1973-03-24;16" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1973-03-24;16@1975-05-23" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1973-03-24;16@1979-01-08" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1973-03-24;16@1980-03-27" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1973-03-24;16@1980-03-27" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1973-03-24;16@1986-09-02" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -18,12 +19,14 @@
 						<evento data="19750614" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19790127" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19800419" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="19860926" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1973-03-24;16" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1975-05-23;51" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1979-01-08;2" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1980-03-27;21" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1986-09-02;47" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -79,7 +82,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art9-com11" xlink:type="simple" />
+								<dsp:pos xlink:href="#art9-com10" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -91,10 +94,10 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art9-com13" xlink:type="simple" />
+								<dsp:pos xlink:href="#art9-com12" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#art9-com12-t3" xlink:type="simple" />
+								<dsp:pos xlink:href="#art9-com11-t3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:integrazione completa="si" implicita="no">
@@ -109,6 +112,18 @@
 								<dsp:pos xlink:href="#h1" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1973-03-24;16" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1986-09-02;47" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1986-09-02;47#art19-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 19, comma 1 della legge Regione Toscana 2 settembre 1986, n. 47" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -273,15 +288,15 @@
 						<num />
 						<corpo>Sono ammessi ai suddetti concorsi anche coloro che, in possesso di un diploma di scuola media superiore diverso da quelli indicati al comma precedente, hanno frequentato, superando il relativo esame, i corsi per il perfezionamento del personale educativo istituiti dalla Regione negli anni 1975 e 1976 e attuati antecedentemente all'entrata in vigore della presente legge.</corpo>
 					</comma>
-					<comma id="art9-com11" iniziovigore="t3">
+					<comma id="art9-com10" iniziovigore="t3">
 						<num />
 						<corpo>Costituisce titolo preferenziale nei concorsi di cui al Comma 7 la frequenza di corsi professionali per il perfezionamento del personale educativo degli asili nido ed il superamento del relativo esame</corpo>
 					</comma>
-					<comma finevigore="t3" id="art9-com12-t3" iniziovigore="t1" status="abrogato">
+					<comma finevigore="t3" id="art9-com11-t3" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>Il rapporto minimo tra il personale educativo e i posti bambino non può essere inferiore ad una unità su cinque.</corpo>
 					</comma>
-					<comma id="art9-com13" iniziovigore="t3">
+					<comma id="art9-com12" iniziovigore="t3">
 						<num />
 						<corpo>Il rapporto minimo tra il personale educativo e i posti bambino non può essere inferiore ad una unità per ogni sette posti bambino</corpo>
 					</comma>
@@ -606,7 +621,7 @@
 								e 9,
 								<rif xlink:href="#art9-com3" xlink:type="simple">3°</rif>
 								e
-								<rif xlink:href="#art9-com12-t3" xlink:type="simple">ultimo comma</rif>
+								<rif xlink:href="#art9-com11-t3" xlink:type="simple">ultimo comma</rif>
 							</mrif>
 							.
 						</corpo>
