@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19840404" num="17" tipo="BURT" />
 					<entratainvigore norm="19840419" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1984-03-26;19" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1984-03-26;19" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1984-03-26;19@1986-12-22" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Fonti Energetiche" />
 					</materie>
@@ -15,11 +16,49 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19840419" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19870113" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19870113" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1984-03-26;19" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1986-12-22;54" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1986-12-22;54" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Per interventi relativi all'anno 1986, si veda l'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1986-12-22;54#art2" xlink:type="simple">art. 2 della Legge Regionale 22 dicembre 1986, n. 54</rif>
+							.
+						</h:p>
+					</nota>
+				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1986-12-22;54" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1986-12-22;54#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 22 dicembre 1986, n. 54" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:deroga completa="si" implicita="no">
+							<dsp:termine da="#t3" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1986-12-22;54" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1986-12-22;54#mod2" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:deroga>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -47,7 +86,9 @@
 							<corpo>
 								La presente legge, in attuazione della
 								<rif xlink:href="urn:nir:stato:legge:1982-05-29;308" xlink:type="simple">legge 29 maggio 1982 n. 308</rif>
-								, disciplina per gli anni 1984-85 i criteri e le modalità di accesso al finanziamento regionale delle iniziative e degli interventi per il contenimento dei consumi di energia e l'utilizzo delle fonti di energia rinnovabili.
+								, disciplina
+								<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">per gli anni 1984-85</h:span>
+								i criteri e le modalità di accesso al finanziamento regionale delle iniziative e degli interventi per il contenimento dei consumi di energia e l'utilizzo delle fonti di energia rinnovabili.
 							</corpo>
 						</comma>
 					</articolo>
@@ -188,7 +229,10 @@
 						</comma>
 					</articolo>
 					<articolo id="art6">
-						<num>ARTICOLO 6</num>
+						<num>
+							ARTICOLO 6
+							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+						</num>
 						<rubrica>(Interventi per la riduzione dei consumi energetici nel settore agricolo, industriale e artigianale)</rubrica>
 						<comma id="art6-com1">
 							<num />
