@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1980-05-29;77" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1980-05-29;77@1982-01-05" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1980-05-29;77@1983-12-14" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1980-05-29;77@1983-12-14" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1980-05-29;77@1987-01-26" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Agricoltura" />
 					</materie>
@@ -19,11 +20,13 @@
 						<evento data="19800621" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19820127" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19840106" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="19870219" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-05-29;77" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1982-01-05;1" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1983-12-14;79" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1987-01-26;7" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -32,6 +35,13 @@
 							Termine prorogato dalla
 							<rif xlink:href="urn:nir:regione.toscana:legge:1983-12-14;79" xlink:type="simple">legge regionale 14 dicembre 1983, n. 79</rif>
 							di ulteriori tre anni a decorrere dall'entrata in vigore della stessa.
+						</h:p>
+					</nota>
+					<nota id="n2">
+						<h:p>
+							Termine prorogato di tre anni a partire dalla data di entrata in vigore della
+							<rif xlink:href="urn:nir:regione.toscana:legge:1987-01-26;7" xlink:type="simple">legge regionale 26 gennaio 1987, n.7</rif>
+							.
 						</h:p>
 					</nota>
 				</redazionale>
@@ -49,6 +59,12 @@
 								<dsp:pos xlink:href="#art12-com3-t2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:proroga completa="si" implicita="no" su="efficacia">
+							<dsp:termine da="#t4" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1987-01-26;7" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1987-01-26;7#mod1" xlink:type="simple" />
+							</dsp:norma>
+						</dsp:proroga>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -83,7 +99,7 @@
 							<rif xlink:href="urn:nir:comunita.europee:regolamento:1978;1360" xlink:type="simple">Regolamento CEE n. 1360/78</rif>
 							del consiglio del 19 giugno 1978 e specificatamente determina le modalità per:
 						</alinea>
-						<en id="art1-com1-num1-t3">
+						<en id="art1-com1-num1">
 							<num>1)</num>
 							<corpo>il riconoscimento delle associazioni dei produttori agricoli e delle relative unioni regionali;</corpo>
 						</en>
@@ -592,6 +608,7 @@
 								, oltre ai rappresentanti di cui al
 								<rif xlink:href="#art9-com3" xlink:type="simple">precedente articolo 9, comma 3</rif>
 								, i rappresentanti delle organizzazioni dei produttori agricoli maggiormente rappresentative del settore.
+								<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
 							</corpo>
 						</comma>
 					</articolo>
