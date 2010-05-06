@@ -7,7 +7,8 @@
 					<pubblicazione norm="19861229" num="62" tipo="BURT" />
 					<entratainvigore norm="19870113" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1986-12-22;54" />
+					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1986-12-22;54" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1986-12-22;54@1987-03-26" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Fonti Energetiche" />
 					</materie>
@@ -18,14 +19,25 @@
 						<evento data="19870113" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="19870113" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="19870113" fonte="ra3" id="t4" tipo="modifica" />
+						<evento data="19870401" fonte="rp1" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1986-12-22;54" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1984-03-26;19" xlink:type="simple" />
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1984-03-26;19" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1984;19" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1987-03-26;20" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							La
+							<rif xlink:href="urn:nir:regione.toscana:legge:1987-03-26;20" xlink:type="simple">LEGGE REGIONALE 26 marzo 1987, n. 20</rif>
+							proroga tale termine al trentesimo giorno dall'entrata in vigore della stessa.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:abrogazione completa="si" implicita="no">
@@ -52,6 +64,17 @@
 							</dsp:dominio>
 						</dsp:deroga>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:modtermini completa="si" implicita="no">
+							<dsp:termine da="#t5" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1987-03-26;20" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1987-03-26;20#mod1" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:modtermini>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -126,7 +149,8 @@
 								<rif xlink:href="urn:nir:regione.toscana:legge:1984;19#art9-com5" xlink:type="simple">5</rif>
 								della stessa LR 19/1984
 							</mrif>
-							dovranno far pervenire le domande di contributo agli uffici della Giunta regionale entro 15 giorni dalla data d entrata in vigore della presente legge.
+							dovranno far pervenire le domande di contributo agli uffici della Giunta regionale entro 15 giorni dalla data di entrata in vigore della presente legge.
+							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
 						</corpo>
 					</comma>
 					<comma id="art2-com4">
