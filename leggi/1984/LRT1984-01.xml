@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19830111" num="2" tipo="BURT" />
 					<entratainvigore norm="19830126" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1984-01-03;1:" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1984-01-03;1" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1984-01-03;1@1987-08-26" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Trasporti" />
 					</materie>
@@ -15,11 +16,29 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19830126" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19870918" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
-						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1984-01-03;1:allegato.a" xlink:type="simple" />
+						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1984-01-03;1" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1987-08-26;47" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1987-08-26;47" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1987-08-26;47#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 26 agosto 1987, n. 47" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art8-com6" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -320,6 +339,10 @@
 						<comma id="art8-com5">
 							<num />
 							<corpo>Ai fini della determinazione del contributo spettante, il totale dei ricavi presunti, calcolato ai sensi della presente legge, non può essere considerato inferiore al totale dei ricavi effettivi della azienda.</corpo>
+						</comma>
+						<comma id="art8-com6" iniziovigore="t2">
+							<num />
+							<corpo>Le norme di cui al comma precedente non trovano applicazione qualora i maggiori ricavi effettivi rispetto ai presunti siano destinati a coprire disavanzi di esercizio non coperti dai contributi di cui alla presente legge</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art9">
