@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19841121" num="57" tipo="BURT" />
 					<entratainvigore norm="19841206" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1984-11-13;65" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1984-11-13;65" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1984-11-13;65@1987-05-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tutela Ambientale" />
 						<materia valore="Attribuzioni Deleghe" />
@@ -16,11 +17,32 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19841206" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19870527" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1984-11-13;65" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1987-05-21;31" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art11-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1987-05-21;31" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1987-05-21;31#art17-com5" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 17, comma 5 della legge Regione Toscana 21 maggio 1987, n. 31" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art11-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art11-com1-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -402,9 +424,13 @@
 						<rif xlink:href="#art10" xlink:type="simple">precedente art. 10</rif>
 						)
 					</rubrica>
-					<comma id="art11-com1">
+					<comma finevigore="t2" id="art11-com1-t2" iniziovigore="t1" status="abrogato">
 						<num>1.</num>
 						<corpo>La Regione rimborsa annualmente agli enti le spese inerenti l'esercizio delle funzioni ad essi delegate dalla presente legge.</corpo>
+					</comma>
+					<comma id="art11-com1" iniziovigore="t2">
+						<num>1.</num>
+						<corpo>La Regione assegna annualmente agli enti un finanziamento per le spese inerenti le funzioni delegate dalla presente legge.</corpo>
 					</comma>
 					<comma id="art11-com2">
 						<num>2.</num>
@@ -422,7 +448,7 @@
 						<num>1.</num>
 						<corpo>
 							Al finanziamento della stessa derivante dall'attuazione dell'
-							<rif xlink:href="#art11-com1" xlink:type="simple">art. 11, primo comma</rif>
+							<rif xlink:href="#art11-com1-t2" xlink:type="simple">art. 11, primo comma</rif>
 							, si provvede con apposito stanziamento sul bilancio di previsione per l'esercizio 1985 e seguenti.
 						</corpo>
 					</comma>
