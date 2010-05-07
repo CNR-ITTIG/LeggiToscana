@@ -16,7 +16,8 @@
 					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1973-09-06;54@1985-01-28" />
 					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1973-09-06;54@1985-05-02" />
 					<urn finevigore="t11" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1973-09-06;54@1986-03-03" />
-					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1973-09-06;54@1986-07-07" />
+					<urn finevigore="t12" iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1973-09-06;54@1986-07-07" />
+					<urn iniziovigore="t12" valore="urn:nir:regione.toscana:legge:1973-09-06;54@1987-08-03" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Ordinamento" />
@@ -36,6 +37,7 @@
 						<evento data="19850525" fonte="rp8" id="t9" tipo="modifica" />
 						<evento data="19860327" fonte="rp9" id="t10" tipo="modifica" />
 						<evento data="19860731" fonte="rp10" id="t11" tipo="modifica" />
+						<evento data="19870827" fonte="rp11" id="t12" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1973-09-06;54" xlink:type="simple" />
@@ -49,6 +51,7 @@
 						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:1985-05-02;47" xlink:type="simple" />
 						<passiva id="rp9" xlink:href="urn:nir:regione.toscana:legge:1986-03-03;8" xlink:type="simple" />
 						<passiva id="rp10" xlink:href="urn:nir:regione.toscana:legge:1986-07-07;32" xlink:type="simple" />
+						<passiva id="rp11" xlink:href="urn:nir:regione.toscana:legge:1987-08-03;42" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -653,7 +656,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art87quater" xlink:type="simple" />
+								<dsp:pos xlink:href="#art87quater-t12" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -2397,7 +2400,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art1-t3" xlink:type="simple" />
+							<dsp:pos xlink:href="#art1" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1979-08-17;38" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1979-08-17;38#art2-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -2408,7 +2411,7 @@
 								<dsp:pos xlink:href="#art1-t7" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#art1-t3" xlink:type="simple" />
+								<dsp:pos xlink:href="#art1-t1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -3267,7 +3270,7 @@
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art2-com1" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1986-03-03;8" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1986-03-03;8#art1-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -3296,6 +3299,18 @@
 								<dsp:pos xlink:href="#art20-com2-t11" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art87quater" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1987-08-03;42" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1987-08-03;42#art8-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 8, comma 2 della legge Regione Toscana 3 agosto 1987, n. 42" id="itt224" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art87quater-t12" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -3316,10 +3331,10 @@
 				<titolo id="tit1">
 					<num>TITOLO I</num>
 					<rubrica>RUOLO DEL PERSONALE REGIONALE</rubrica>
-					<articolo finevigore="t3" id="art1-t3" iniziovigore="t1" status="abrogato">
+					<articolo finevigore="t3" id="art1-t1" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 1</num>
 						<rubrica>(Fasce funzionali)</rubrica>
-						<comma id="art1-t3-com1">
+						<comma id="art1-com1">
 							<num />
 							<corpo>Il personale della Regione, delle aziende e degli enti dipendenti è assegnato ad un ruolo unico regionale ed inquadrato in sette fasce funzionali di mansioni.</corpo>
 						</comma>
@@ -9009,14 +9024,14 @@
 							<corpo>I dipendenti interessati e le modalità di svolgimento sono determinati in sede di accordo decentrato.</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art87quater" iniziovigore="t3">
+					<articolo finevigore="t12" id="art87quater-t12" iniziovigore="t3" status="abrogato">
 						<num>Art. 87/quater</num>
 						<rubrica>(Equo indennizzo)</rubrica>
-						<comma id="art87quater-com1">
+						<comma id="art87quater-t12-com1">
 							<num />
 							<corpo>La Regione, per infermità riconosciuta da causa di servizio, corrisponde ai propri dipendenti, non soggetti all'obbligo dell'iscrizione all'INAIL, un equo indennizzo per la perdita dell'integrità fisica eventualmente subita.</corpo>
 						</comma>
-						<comma id="art87quater-com2">
+						<comma id="art87quater-t12-com2">
 							<num />
 							<corpo>
 								Al riguardo valgono le norme contenute nell'
@@ -9332,7 +9347,7 @@
 								<h:span finevigore="t7" id="h93" iniziovigore="t3" status="abrogato">dei livelli funzionali previsti</h:span>
 								<h:span id="h94" iniziovigore="t7">delle qualifiche funzionali previste</h:span>
 								dall'
-								<rif xlink:href="#art1-t3" xlink:type="simple">art. 1</rif>
+								<rif xlink:href="#art1" xlink:type="simple">art. 1</rif>
 								della presente legge, in conformità ai criteri di corrispondenza fissati nella allegata tabella C e con le mansioni che verranno determinate dalla commissione paritetica per l'inquadramento, di cui al
 								<rif xlink:href="#art104" xlink:type="simple">successivo art. 104</rif>
 								, con riguardo al tipo di mansioni svolte presso lo Stato, gli enti di provenienza o presso la Regione.
@@ -9383,7 +9398,7 @@
 								<h:span finevigore="t7" id="h99" iniziovigore="t3" status="abrogato">uno dei livelli funzionali previsti</h:span>
 								<h:span id="h100" iniziovigore="t7">una delle qualifiche funzionali previste</h:span>
 								dall'
-								<rif xlink:href="#art1-t3" xlink:type="simple">art. 1</rif>
+								<rif xlink:href="#art1" xlink:type="simple">art. 1</rif>
 								della presente legge, in conformità ai criteri di corrispondenza fissati nell'allegata tabella C e con le mansioni che verranno determinate dalla commissione paritetica per l'inquadramento di cui al
 								<rif xlink:href="#art104" xlink:type="simple">successivo art. 104</rif>
 								, con riguardo al tipo di mansioni svolte presso lo Stato, gli enti di provenienza o presso la Regione.
@@ -9463,7 +9478,7 @@
 								<h:span finevigore="t7" id="h111" iniziovigore="t3" status="abrogato">uno dei livelli funzionali previsti</h:span>
 								<h:span id="h112" iniziovigore="t7">una delle qualifiche funzionali previste</h:span>
 								dall'
-								<rif xlink:href="#art1-t3" xlink:type="simple">art. 1</rif>
+								<rif xlink:href="#art1" xlink:type="simple">art. 1</rif>
 								della presente legge con le modalità stabilite al primo e
 								<rif xlink:href="#art97-com2" xlink:type="simple">secondo comma dell'art. 97</rif>
 								.
@@ -9629,7 +9644,7 @@
 								, e che tale servizio abbia prestato continuativamente per almeno sei mesi alla data del 31-3-1973
 								<ndr num="#n7" valore="" xlink:type="simple">(g)</ndr>
 								, e continui a svolgere alla data di entrata in vigore della presente legge, è inquadrato, a domanda, in una delle fasce funzionali previste dall'
-								<rif xlink:href="#art1-t3" xlink:type="simple">art. 1</rif>
+								<rif xlink:href="#art1" xlink:type="simple">art. 1</rif>
 								della presente legge, con le modalità stabilite dal primo e
 								<rif xlink:href="#art97-com2" xlink:type="simple">secondo comma dell'art. 97</rif>
 								, e con decorrenza, agli effetti giuridici ed economici, dalla data di entrata in vigore della presente legge. A detto personale spetta il trattamento economico iniziale
