@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1979-02-19;10" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1979-02-19;10@1979-07-30" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1979-02-19;10@1981-08-01" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1979-02-19;10@1981-08-01" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1979-02-19;10@1987-12-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Agricoltura" />
 						<materia valore="Urbanistica" />
@@ -21,12 +22,14 @@
 						<evento data="19790223" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="19790818" fonte="rp1" id="t3" tipo="modifica" />
 						<evento data="19810822" fonte="rp2" id="t4" tipo="modifica" />
+						<evento data="19880123" fonte="rp3" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1979-02-19;10" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1975-02-24;16" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1979-07-30;35" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1981-08-01;63" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1987-12-29;60" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -148,7 +151,7 @@
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:integrazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art2-com3-t4" xlink:type="simple" />
+							<dsp:pos xlink:href="#art2-com4-t4" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1979-07-30;35" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1979-07-30;35#artunico-com2" xlink:type="simple" />
 								<dsp:subarg>
@@ -156,7 +159,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art2-com5" xlink:type="simple" />
+								<dsp:pos xlink:href="#art2-com7" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -195,10 +198,40 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art2-com4" xlink:type="simple" />
+								<dsp:pos xlink:href="#art2-com5-t5" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#art2-com3-t4" xlink:type="simple" />
+								<dsp:pos xlink:href="#art2-com4-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1987-12-29;60" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1987-12-29;60#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 29 dicembre 1987, n. 60" id="itt11" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com2-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1987-12-29;60" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1987-12-29;60#artunico-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 2 della legge Regione Toscana 29 dicembre 1987, n. 60" id="itt12" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com6" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com5-t5" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -269,7 +302,7 @@
 								<corpo>descrizione della situazione prevedibile ad investimenti avvenuti secondo i termini di cui sopra.</corpo>
 							</el>
 						</comma>
-						<comma id="art2-com2">
+						<comma finevigore="t5" id="art2-com2-t5" iniziovigore="t1" status="abrogato">
 							<num />
 							<corpo>
 								Il piano previsto dal precedente comma non è necessario qualora la indispensabilità di nuove costruzioni risulti da un piano di sviluppo aziendale o interaziendale di cui alla
@@ -277,7 +310,17 @@
 								.
 							</corpo>
 						</comma>
-						<comma finevigore="t4" id="art2-com3-t4" iniziovigore="t1" status="abrogato">
+						<comma id="art2-com3" iniziovigore="t5">
+							<num />
+							<corpo>
+								Il piano previsto dal precedente comma non è necessario qualora la indispensabilità di nuove costruzioni risulti da un piano di sviluppo aziendale o interaziendale di cui alla
+								<rif xlink:href="urn:nir:regione.toscana:legge:1977-09-07;71" xlink:type="simple">LR 7 settembre 1977, n. 71</rif>
+								o da un piano di miglioramento aziendale di cui al
+								<rif xlink:href="urn:nir:comunita.europee:regolamento:1985-03-12;797" xlink:type="simple">Regolamento CEE n. 797 del 12/3/1985</rif>
+								.
+							</corpo>
+						</comma>
+						<comma finevigore="t4" id="art2-com4-t4" iniziovigore="t1" status="abrogato">
 							<num />
 							<corpo>
 								Fino all'entrata in vigore della legge regionale di riforma e di delega delle funzioni in materia di agricoltura, al fine di dimostrare la necessità di nuove costruzioni ed il numero di abitazioni da realizzare per gli addetti all'agricoltura, alla domanda di concessione edilizia presentata al Comune è allegato il piano di sviluppo di cui al precedente comma o, in mancanza il piano di utilizzazione di cui al
@@ -287,26 +330,37 @@
 								. Il parere è espresso secondo il procedimento disciplinato dagli artt. 27 e 29 della stessa legge.
 							</corpo>
 						</comma>
-						<comma id="art2-com4" iniziovigore="t4">
+						<comma finevigore="t5" id="art2-com5-t5" iniziovigore="t4" status="abrogato">
 							<num />
 							<corpo>
 								Al fine di dimostrare la necessità di nuove costruzione ed il numero di abitazioni da realizzare per gli addetti all'agricoltura, alla domanda di concessione edilizia presentata al Comune è allegato il piano di sviluppo di cui al precedente comma o quello previsto dall'art. 17 della legge regionale di disciplina delle agevolazioni finanziarie regionali nel settore dell'agricoltura o, in mancanza il piano di utilizzazione di cui al primo comma corredato dal parere dell'Associazione intercomunale, sentito il Comitato consultivo di cui all'art. 3 della Legge Regionale sopra menzionata. Successivamente al 31-12-1981 mantengono valore i pareri espressi anteriormente a tale data dal Comitato di cui all'
 								<rif xlink:href="urn:nir:regione.toscana:legge:1977-09-07;71#art4" xlink:type="simple">art. 4 della legge regionale 7-9-77, n. 71</rif>
+								.
 							</corpo>
 						</comma>
-						<comma id="art2-com5" iniziovigore="t3">
+						<comma id="art2-com6" iniziovigore="t5">
+							<num />
+							<corpo>
+								Al fine di dimostrare la necessità di nuove costruzioni ed il numero di abitazioni da realizzare per gli addetti alla agricoltura, alla domanda di concessione edilizia presentata al Comune è allegato il piano aziendale di cui al precedente comma o quello previsto dall'
+								<rif xlink:href="urn:nir:regione.toscana:legge:1981-08-01;63#art17" xlink:type="simple">art. 17 della LR 1/8/1981, n. 63</rif>
+								di disciplina delle agevolazioni finanziarie regionali nel settore dell'agricoltura o in mancanza il piano di utilizzazione di cui al primo comma corredato dal parere dell'Associazione intercomunale, sentito il Comitato consultivo di cui all'art. 3 della legge regionale sopra menzionata. Successivamente al 31/12/1981 mantengono valore i pareri espressi anteriormente a tale data dal Comitato di cui all'
+								<rif xlink:href="urn:nir:regione.toscana:legge:1977-09-07;71#art4" xlink:type="simple">art. 4 della LR 7/9/1977, n. 71</rif>
+								.
+							</corpo>
+						</comma>
+						<comma id="art2-com7" iniziovigore="t3">
 							<num />
 							<corpo>
 								La valutazione della indispensabilità di cui al comma precedente deve essere effettuata con riferimento alla estensione del fondo risultante alla data di entrata in vigore della
 								<rif xlink:href="urn:nir:stato:legge:1979-02-19;10" xlink:type="simple">legge 19 febbraio 79, n. 10</rif>
-								e alle costruzioni in esso esistenti alla medesima data, ferma la possibilità di comprendervi gli ampliamenti alla estensione del fondo
+								e alle costruzioni in esso esistenti alla medesima data, ferma la possibilità di comprendervi gli ampliamenti alla estensione del fondo.
 							</corpo>
 						</comma>
-						<comma id="art2-com6">
+						<comma id="art2-com8">
 							<num />
 							<corpo>Per la proprietà agricola frazionata, possono essere presi in considerazione anche terreni non contigui, purchè appartenenti funzionalmente alla medesima azienda agricola e compresi nell'ambito di zone agricole.</corpo>
 						</comma>
-						<comma id="art2-com7">
+						<comma id="art2-com9">
 							<num />
 							<corpo>Quando i terreni di cui al comma precedente insistono in territorio di Comuni diversi la concessione è rilasciata dal Sindaco del Comune sul cui territorio è prevista la costruzione, previo assenso del Sindaco dell'altro Comune interessato.</corpo>
 						</comma>
@@ -475,7 +529,7 @@
 							<num />
 							<corpo>
 								Le concessioni relative agli interventi di cui al presente titolo sono rilasciate previa sottoscrizione di apposite convenzioni o atti d'obbligo unilaterali di durata non inferiore a 10 anni in cui i concessionari diano garanzie per la effettuazione degli interventi sul fondo eventualmente previsti dal piano aziendale per rendere effettiva la capacità produttiva considerata ai sensi del
-								<rif xlink:href="#art2-com3-t4" xlink:type="simple">III comma dell'art. 2</rif>
+								<rif xlink:href="#art2-com4-t4" xlink:type="simple">III comma dell'art. 2</rif>
 								e si impegnino per sè e per i loro aventi causa a non modificare le destinazioni d'uso delle costruzioni, a non frazionare nè alienare separatamente dalla costruzione il fondo per la quota di pertinenza del fabbricato abitativo e per la quota sulla cui capacità produttiva sono stati dimensionati gli edifici rurali e gli annessi agricoli. Nelle convenzioni o negli atti di obbligo sono fissate, altresì, le sanzioni per l'inadempimento degli impegni assunti.
 							</corpo>
 						</comma>
