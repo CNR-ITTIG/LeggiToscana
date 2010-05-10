@@ -7,7 +7,8 @@
 					<pubblicazione norm="19840502" num="23" tipo="BURT" />
 					<entratainvigore norm="19840517" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1984-04-24;23" />
+					<urn finevigore="t20" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1984-04-24;23" />
+					<urn iniziovigore="t20" valore="urn:nir:regione.toscana:legge:1984-04-24;23@1987-08-26" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ordinamento" />
 						<materia valore="Ente Regione" />
@@ -34,6 +35,7 @@
 						<evento data="19840517" fonte="ra16" id="t17" tipo="modifica" />
 						<evento data="19840517" fonte="ra17" id="t18" tipo="modifica" />
 						<evento data="19840517" fonte="ra18" id="t19" tipo="modifica" />
+						<evento data="19870918" fonte="rp1" id="t20" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1984-04-24;23" xlink:type="simple" />
@@ -55,6 +57,7 @@
 						<attiva id="ra16" xlink:href="urn:nir:regione.toscana:legge:1973-09-06;55" xlink:type="simple" />
 						<attiva id="ra17" xlink:href="urn:nir:regione.toscana:legge:1973-09-06;55" xlink:type="simple" />
 						<attiva id="ra18" xlink:href="urn:nir:regione.toscana:legge:1973-09-06;55" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1987-08-26;48" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -324,6 +327,17 @@
 							</dsp:novella>
 						</dsp:integrazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:termine da="#t20" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1987-08-26;48" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1987-08-26;48#mod1" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:variazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -995,8 +1009,19 @@
 									<materia valore="Ente Regione" />
 								</materie>
 							</descrittori>
+							<redazionale xlink:type="simple">
+								<nota id="ann1-n1">
+									<h:p>
+										Per le modifiche alla seguente tabella allegata si veda la
+										<rif xlink:href="urn:nir:regione.toscana:legge:1987-08-26;48" xlink:type="simple">LEGGE REGIONALE 26 agosto 1987, n. 48</rif>
+										.
+									</h:p>
+								</nota>
+							</redazionale>
 						</meta>
-						<intestazione />
+						<intestazione>
+							<ndr num="#ann1-n1" valore="" xlink:type="simple">(a)</ndr>
+						</intestazione>
 						<formulainiziale />
 						<contenitore id="con1" nome="">
 							<h:p />
