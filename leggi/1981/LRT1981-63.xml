@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19810807" num="43" tipo="BURT" />
 					<entratainvigore norm="19810822" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1981-08-01;63" />
+					<urn finevigore="t7" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1981-08-01;63" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1981-08-01;63@1987-12-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Agricoltura" />
 					</materie>
@@ -20,6 +21,7 @@
 						<evento data="19810822" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="19810822" fonte="ra4" id="t5" tipo="modifica" />
 						<evento data="19810822" fonte="ra5" id="t6" tipo="modifica" />
+						<evento data="19880123" fonte="rp1" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1981-08-01;63" xlink:type="simple" />
@@ -28,6 +30,7 @@
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1977-10-18;72" xlink:type="simple" />
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1981-02-09;15" xlink:type="simple" />
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1975-06-05;67" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1987-12-29;61" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -141,6 +144,23 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art14-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1987-12-29;61" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1987-12-29;61#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 29 dicembre 1987, n. 61" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art14-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art14-com1-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -675,7 +695,7 @@
 					<articolo id="art14">
 						<num>ARTICOLO 14</num>
 						<rubrica>(Programma regionale degli interventi in agricoltura contenuti)</rubrica>
-						<comma id="art14-com1">
+						<comma finevigore="t7" id="art14-com1-t7" iniziovigore="t1" status="abrogato">
 							<num />
 							<corpo>
 								Il programma regionale degli interventi in agricoltura attua gli indirizzi del programma regionale di sviluppo economico di cui all'
@@ -685,26 +705,38 @@
 								, con le altre disposizioni delle leggi statali e regionali concernenti gli strumenti e le procedure della programmazione. In questo quadro, anche con riguardo alla situazione ambientale socio - economica del territorio, nonchè ai sistemi infrastrutturali esistenti, il programma regionale degli interventi in agricoltura fissa gli obiettivi di sviluppo rispetto ai quali la verifica di conformità è condizione per l'approvazione dei danni aziendali ed interaziendali.
 							</corpo>
 						</comma>
-						<comma id="art14-com2">
+						<comma id="art14-com2" iniziovigore="t7">
+							<num />
+							<corpo>
+								Il programma regionale degli interventi in agricoltura attua gli indirizzi del programma regionale di sviluppo economico di cui all'
+								<rif xlink:href="urn:nir:regione.toscana:statuto:#art48" xlink:type="simple">art. 48 dello Statuto</rif>
+								, e tiene inoltre conto degli atti della programmazione comunitaria, nazionale, regionale e locale, in armonia con le norme di cui all'
+								<rif xlink:href="urn:nir:presidente.repubblica:decreto:1977-07-24;616#art11" xlink:type="simple">art. 11 del DPR 24/7/1977, n. 616</rif>
+								, con le altre disposizioni delle leggi statali e regionali concernenti gli strumenti e le procedure della programmazione. In particolare il programma regionale degli interventi in agricoltura tiene conto delle norme di cui all'
+								<rif xlink:href="urn:nir:comunita.europee:regolamento:1985-03-12;797-1985#art8" xlink:type="simple">art. 8 del Regolamento CEE n. 797/1985 del 12 marzo 1985</rif>
+								relativo al miglioramento dell'efficienza delle strutture agrarie. In questo quadro, anche con riguardo alla situazione ambientale socio - economica del territorio, nonchè ai sistemi infrastrutturali esistenti, il programma regionale degli interventi in agricoltura fissa gli obiettivi di sviluppo rispetto ai quali la verifica di conformità è condizione per l'approvazione dei piani aziendali ed interaziendali.
+							</corpo>
+						</comma>
+						<comma id="art14-com3">
 							<num />
 							<alinea>A questi effetti, il programma regionale degli interventi in agricoltura, con disposizioni anche differenziate per le diverse aree del territorio regionale, determina:</alinea>
-							<el id="art14-com2-leta">
+							<el id="art14-com3-leta">
 								<num>a)</num>
 								<corpo>gli obiettivi globali di sviluppo alla realizzazione dei quali devono rivolgersi i piani aziendali e interaziendali, le relative priorità e criteri di valutazione;</corpo>
 							</el>
-							<el id="art14-com2-letb">
+							<el id="art14-com3-letb">
 								<num>b)</num>
 								<corpo>i tipi di intervento che possono essere agevolati finanziariamente ai sensi della presente legge; i criteri per la valutazione di congruità degli interventi rispetto agli obiettivi di cui al punto a);</corpo>
 							</el>
-							<el id="art14-com2-letc">
+							<el id="art14-com3-letc">
 								<num>c)</num>
 								<corpo>la natura e la misura delle agevolazioni finanziarie concedibili per ognuno degli interventi di cui al punto a); modalità e termini per la liquidazione delle agevolazioni;</corpo>
 							</el>
-							<el id="art14-com2-letd">
+							<el id="art14-com3-letd">
 								<num>d)</num>
 								<corpo>l'ammontare minimo o massimo degli interventi per i quali possono essere concesse le agevolazioni anche con differenziazioni per categorie di imprese ed obiettivi progettuali;</corpo>
 							</el>
-							<el id="art14-com2-lete">
+							<el id="art14-com3-lete">
 								<num>e)</num>
 								<corpo>
 									i criteri per la formazione dei piani aziendali ed interaziendali; la documentazione da presentare a corredo delle domande per lo svolgimento dell'istruttoria dei piani aziendali e interaziendali, nonchè degli interventi di cui al
@@ -712,7 +744,7 @@
 									;
 								</corpo>
 							</el>
-							<el id="art14-com2-letf">
+							<el id="art14-com3-letf">
 								<num>f)</num>
 								<corpo>
 									i criteri per la vigilanza sull'attuazione dei piani e sui singoli interventi da essi previsti, nel quadro determinato dalle disposizioni di cui al
@@ -720,7 +752,7 @@
 									.
 								</corpo>
 							</el>
-							<el id="art14-com2-letg">
+							<el id="art14-com3-letg">
 								<num>g)</num>
 								<corpo>i criteri e le modalità per gli interventi di assistenza tecnica agli operatori agricoli, nonchè la misura e le forme degli eventuali finanziamenti a riguardo.</corpo>
 							</el>
@@ -761,7 +793,7 @@
 							<num />
 							<corpo>
 								Ferma restando ogni più dettagliata indicazione del programma regionale degli interventi in agricoltura ai sensi del
-								<rif xlink:href="#art14-com2" xlink:type="simple">secondo comma dell'art. 14</rif>
+								<rif xlink:href="#art14-com3" xlink:type="simple">secondo comma dell'art. 14</rif>
 								, i piani aziendali ed interaziendali devono basarsi su una impostazione tecnico - economica che, muovendo dalla descrizione della situazione in atto, individui gli obiettivi di sviluppo che potranno essere raggiunti alla scadenza del piano la cui durata è espressamente stabilita.
 							</corpo>
 						</comma>
