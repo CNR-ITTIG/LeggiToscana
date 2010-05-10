@@ -8,7 +8,8 @@
 					<entratainvigore norm="19811118" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1981-10-27;78" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1981-10-27;78@1984-03-14" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1981-10-27;78@1984-03-14" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1981-10-27;78@1987-06-15" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Turismo" />
 					</materie>
@@ -17,10 +18,12 @@
 					<eventi>
 						<evento data="19811118" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19840408" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19870710" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1981-10-27;78" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1984-03-14;17" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1987-06-15;37" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -30,6 +33,13 @@
 							<rif xlink:href="urn:nir:regione.toscana:legge:1983-02-01;4" xlink:type="simple">legge regionale 1 febbraio 1983, n. 4</rif>
 							ed al 1 maggio 1984 ex
 							<rif xlink:href="urn:nir:regione.toscana:legge:1983-11-30;75#art1" xlink:type="simple">art. 1 legge regionale 30 novembre 1983, n. 75.</rif>
+						</h:p>
+					</nota>
+					<nota id="n2">
+						<h:p>
+							Termine prorogato al 31 dicembre 1990 dalla
+							<rif xlink:href="urn:nir:regione.toscana:legge:1987-06-15;37" xlink:type="simple">legge regionale 15 giugno 1987, n. 37</rif>
+							.
 						</h:p>
 					</nota>
 				</redazionale>
@@ -500,6 +510,12 @@
 								<dsp:pos xlink:href="#ann11-t2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:posticipo completa="si" implicita="no">
+							<dsp:termine da="#t3" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1987-06-15;37" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1987-06-15;37#mod2" xlink:type="simple" />
+							</dsp:norma>
+						</dsp:posticipo>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -1034,7 +1050,11 @@
 					</comma>
 					<comma id="art12-com8" iniziovigore="t2">
 						<num />
-						<corpo>Il primo periodo di validità della classificazione degli alberghi e delle residenze turistico - alberghiere scade alla data del 31 dicembre 1987.</corpo>
+						<corpo>
+							Il primo periodo di validità della classificazione degli alberghi e delle residenze turistico - alberghiere scade alla data del 31 dicembre 1987
+							<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+							.
+						</corpo>
 					</comma>
 					<comma id="art12-com9" iniziovigore="t2">
 						<num />
@@ -2451,7 +2471,9 @@
 								<nota id="ann6-n1">
 									<h:p>
 										Relativamente a tale voce si veda la
-										<rif xlink:href="urn:nir:regione.toscana:legge:1989-03-03;9" xlink:type="simple">legge regionale 3 marzo 1989, n. 9</rif>
+										<rif xlink:href="urn:nir:regione.toscana:legge:1986-03-03;9" xlink:type="simple">legge regionale 3 marzo 1986, n. 9</rif>
+										e, in seguito, l'
+										<rif xlink:href="urn:nir:regione.toscana:legge:1987-06-15;37#art2" xlink:type="simple">art. 2 della legge regionale 15 giugno 1987, n. 37</rif>
 										.
 									</h:p>
 								</nota>
@@ -2931,7 +2953,7 @@
 									<h:tr>
 										<h:td>
 											2.08
-											<ndr num="#ann6-n1" valore="" xlink:type="simple">(b)</ndr>
+											<ndr num="#ann6-n1" valore="" xlink:type="simple">(c)</ndr>
 										</h:td>
 										<h:td>Aria condizionata (7):</h:td>
 										<h:td />

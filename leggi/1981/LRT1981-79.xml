@@ -8,7 +8,8 @@
 					<entratainvigore norm="19811121" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1981-10-29;79" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1981-10-29;79@1986-08-11" />
+					<urn finevigore="t4" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1981-10-29;79@1986-08-11" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1981-10-29;79@1987-06-15" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Turismo" />
 					</materie>
@@ -17,12 +18,23 @@
 					<eventi>
 						<evento data="19811121" fonte="ro2" id="t1" tipo="entrata in vigore" />
 						<evento data="19860904" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19870710" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1981-10-29;79" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1986-08-11;38" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1987-06-15;37" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Termine prorogato al 31 dicembre 1990 con l'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1987-06-15;37#art3" xlink:type="simple">art. 3 della legge regionale 15 giugno 1987, n. 37</rif>
+							.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -307,6 +319,12 @@
 								<dsp:pos xlink:href="#ann3" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:proroga completa="si" implicita="no" su="efficacia">
+							<dsp:termine da="#t4" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1987-06-15;37" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1987-06-15;37#mod3" xlink:type="simple" />
+							</dsp:norma>
+						</dsp:proroga>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -325,18 +343,18 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<articolo finevigore="t3" id="art1-t3" iniziovigore="t1" status="abrogato">
+				<articolo finevigore="t2" id="art1-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 1</num>
 					<rubrica>(Attività e aziende ricettive)</rubrica>
-					<comma id="art1-t3-com1">
+					<comma id="art1-t2-com1">
 						<num />
 						<corpo>Ai fini della presente legge si definisce attività ricettiva quella diretta alla produzione di servizi per l'ospitalità.</corpo>
 					</comma>
-					<comma id="art1-t3-com2">
+					<comma id="art1-t2-com2">
 						<num />
 						<corpo>Le aziende organizzate per l'esercizio dell'attività ricettiva si distinguono in: "alberghi", "alberghi residenziali", "villaggi turistici", "campeggi".</corpo>
 					</comma>
-					<comma id="art1-t3-com3">
+					<comma id="art1-t2-com3">
 						<num />
 						<corpo>La presente legge disciplina e classifica i "villaggi turistici" e i "campeggi".</corpo>
 					</comma>
@@ -440,7 +458,11 @@
 					</comma>
 					<comma id="art4-com9">
 						<num />
-						<corpo>La classificazione ha validità per un quinquennio a partire dal 1o gennaio dell'anno successivo all'entrata in vigore della presente legge. Le operazioni relative devono essere espletate nel semestre precedente.</corpo>
+						<corpo>
+							La classificazione ha validità per un quinquennio a partire dal 1o gennaio dell'anno successivo all'entrata in vigore della presente legge. Le operazioni relative devono essere espletate nel semestre precedente
+							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							.
+						</corpo>
 					</comma>
 					<comma id="art4-com10">
 						<num />
@@ -1327,12 +1349,12 @@
 						<meta>
 							<descrittori>
 								<pubblicazione norm="19811106" num="58" tipo="BURT" />
-					<entratainvigore norm="19811121" />
-					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1981-10-29;79:allegato" />
-					<materie vocabolario="Regione Toscana">
-						<materia valore="Turismo" />
-					</materie>
+								<entratainvigore norm="19811121" />
+								<redazione id="red2" nome="" norm="" />
+								<urn valore="urn:nir:regione.toscana:legge:1981-10-29;79:allegato" />
+								<materie vocabolario="Regione Toscana">
+									<materia valore="Turismo" />
+								</materie>
 							</descrittori>
 						</meta>
 						<intestazione />
@@ -1381,12 +1403,12 @@
 						<meta>
 							<descrittori>
 								<pubblicazione norm="19811106" num="58" tipo="BURT" />
-					<entratainvigore norm="19811121" />
-					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1981-10-29;79:allegato" />
-					<materie vocabolario="Regione Toscana">
-						<materia valore="Turismo" />
-					</materie>
+								<entratainvigore norm="19811121" />
+								<redazione id="red3" nome="" norm="" />
+								<urn valore="urn:nir:regione.toscana:legge:1981-10-29;79:allegato" />
+								<materie vocabolario="Regione Toscana">
+									<materia valore="Turismo" />
+								</materie>
 							</descrittori>
 						</meta>
 						<intestazione />
@@ -1417,12 +1439,12 @@
 						<meta>
 							<descrittori>
 								<pubblicazione norm="19811106" num="58" tipo="BURT" />
-					<entratainvigore norm="19811121" />
-					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1981-10-29;79:allegato.a" />
-					<materie vocabolario="Regione Toscana">
-						<materia valore="Turismo" />
-					</materie>
+								<entratainvigore norm="19811121" />
+								<redazione id="red4" nome="" norm="" />
+								<urn valore="urn:nir:regione.toscana:legge:1981-10-29;79:allegato.a" />
+								<materie vocabolario="Regione Toscana">
+									<materia valore="Turismo" />
+								</materie>
 							</descrittori>
 						</meta>
 						<intestazione />
@@ -1514,16 +1536,16 @@
 						<meta>
 							<descrittori>
 								<pubblicazione norm="19811106" num="58" tipo="BURT" />
-					<entratainvigore norm="19811121" />
-					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1981-10-29;79:allegato.a" />
-					<materie vocabolario="Regione Toscana">
-						<materia valore="Turismo" />
-					</materie>
+								<entratainvigore norm="19811121" />
+								<redazione id="red5" nome="" norm="" />
+								<urn valore="urn:nir:regione.toscana:legge:1981-10-29;79:allegato.a" />
+								<materie vocabolario="Regione Toscana">
+									<materia valore="Turismo" />
+								</materie>
 							</descrittori>
 							<ciclodivita>
 								<eventi>
-									<evento data="19811121" fonte="ro2" id="t3" tipo="entrata in vigore" />
+									<evento data="19811121" fonte="ro2" id="t4" tipo="entrata in vigore" />
 								</eventi>
 								<relazioni>
 									<originale id="ro2" xlink:href="urn:nir:regione.toscana:legge:1981-10-29;79" xlink:type="simple" />
@@ -3318,12 +3340,12 @@
 						<meta>
 							<descrittori>
 								<pubblicazione norm="19811106" num="58" tipo="BURT" />
-					<entratainvigore norm="19811121" />
-					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1981-10-29;79:allegato.b" />
-					<materie vocabolario="Regione Toscana">
-						<materia valore="Turismo" />
-					</materie>
+								<entratainvigore norm="19811121" />
+								<redazione id="red6" nome="" norm="" />
+								<urn valore="urn:nir:regione.toscana:legge:1981-10-29;79:allegato.b" />
+								<materie vocabolario="Regione Toscana">
+									<materia valore="Turismo" />
+								</materie>
 							</descrittori>
 						</meta>
 						<intestazione />
@@ -5637,12 +5659,12 @@
 						<meta>
 							<descrittori>
 								<pubblicazione norm="19811106" num="58" tipo="BURT" />
-					<entratainvigore norm="19811121" />
-					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1981-10-29;79:allegato.b" />
-					<materie vocabolario="Regione Toscana">
-						<materia valore="Turismo" />
-					</materie>
+								<entratainvigore norm="19811121" />
+								<redazione id="red7" nome="" norm="" />
+								<urn valore="urn:nir:regione.toscana:legge:1981-10-29;79:allegato.b" />
+								<materie vocabolario="Regione Toscana">
+									<materia valore="Turismo" />
+								</materie>
 							</descrittori>
 						</meta>
 						<intestazione />
@@ -7390,12 +7412,12 @@
 						<meta>
 							<descrittori>
 								<pubblicazione norm="19811106" num="58" tipo="BURT" />
-					<entratainvigore norm="19811121" />
-					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1981-10-29;79:allegato.c" />
-					<materie vocabolario="Regione Toscana">
-						<materia valore="Turismo" />
-					</materie>
+								<entratainvigore norm="19811121" />
+								<redazione id="red8" nome="" norm="" />
+								<urn valore="urn:nir:regione.toscana:legge:1981-10-29;79:allegato.c" />
+								<materie vocabolario="Regione Toscana">
+									<materia valore="Turismo" />
+								</materie>
 							</descrittori>
 						</meta>
 						<intestazione />
@@ -9984,12 +10006,12 @@
 						<meta>
 							<descrittori>
 								<pubblicazione norm="19811106" num="58" tipo="BURT" />
-					<entratainvigore norm="19811121" />
-					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1981-10-29;79:allegato.d" />
-					<materie vocabolario="Regione Toscana">
-						<materia valore="Turismo" />
-					</materie>
+								<entratainvigore norm="19811121" />
+								<redazione id="red9" nome="" norm="" />
+								<urn valore="urn:nir:regione.toscana:legge:1981-10-29;79:allegato.d" />
+								<materie vocabolario="Regione Toscana">
+									<materia valore="Turismo" />
+								</materie>
 							</descrittori>
 						</meta>
 						<intestazione />
