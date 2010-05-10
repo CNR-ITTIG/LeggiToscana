@@ -15,9 +15,11 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19861230" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19861230" fonte="ra1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1986-12-15;53" xlink:type="simple" />
+						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1980-05-15;54" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -27,6 +29,16 @@
 							<dsp:termine da="" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1980;54" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1980;54#allegato.1" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:variazione>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#mod1" xlink:type="simple" />
+							<dsp:termine da="#t2" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1980-05-15;54" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1980-05-15;54" xlink:type="simple" />
 							</dsp:norma>
 							<dsp:dominio>
 								<dsp:testo valore="" />
@@ -59,18 +71,22 @@
 					<comma id="art1-com1">
 						<num>1.</num>
 						<corpo>
-							Gli importi delle tasse sulle concessioni regionali - previsti nella tariffa allegata alla
-							<rif xlink:href="urn:nir:regione.toscana:legge:1980-05-15;54" xlink:type="simple">LR 15 maggio 1980, n. 54</rif>
-							modificata con leggi regionali
-							<rif xlink:href="urn:nir:regione.toscana:legge:1983-06-13;44" xlink:type="simple">13 giugno 1983, n. 44</rif>
-							e
-							<rif xlink:href="urn:nir:regione.toscana:legge:1984-12-31;73" xlink:type="simple">31 dicembre 1984, n. 73</rif>
-							- sono aumentati del venti per cento con effetto dal 1 gennaio 1987, per le tasse dovute da tale data.
+							<mod id="mod1">
+								Gli importi delle tasse sulle concessioni regionali - previsti nella tariffa allegata alla
+								<rif xlink:href="urn:nir:regione.toscana:legge:1980-05-15;54" xlink:type="simple">LR 15 maggio 1980, n. 54</rif>
+								modificata con leggi regionali
+								<rif xlink:href="urn:nir:regione.toscana:legge:1983-06-13;44" xlink:type="simple">13 giugno 1983, n. 44</rif>
+								e
+								<rif xlink:href="urn:nir:regione.toscana:legge:1984-12-31;73" xlink:type="simple">31 dicembre 1984, n. 73</rif>
+								- sono aumentati del venti per cento con effetto dal 1 gennaio 1987, per le tasse dovute da tale data.
+							</mod>
 						</corpo>
 					</comma>
 					<comma id="art1-com2">
 						<num>2.</num>
-						<corpo>Sono aumentati altresì nella stessa mi sura e con la medesima decorrenza di cui al comma precedente gli importi delle altre, soprattasse e contributi indicati nelle note della tariffa stessa.</corpo>
+						<corpo>
+							<mod id="mod2">Sono aumentati altresì nella stessa mi sura e con la medesima decorrenza di cui al comma precedente gli importi delle altre, soprattasse e contributi indicati nelle note della tariffa stessa.</mod>
+						</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art2">
