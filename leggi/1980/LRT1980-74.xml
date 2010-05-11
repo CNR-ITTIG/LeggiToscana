@@ -8,7 +8,8 @@
 					<entratainvigore norm="19800621" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1980-05-29;74" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1980-05-29;74@1985-05-02" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1980-05-29;74@1985-05-02" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1980-05-29;74@1988-02-08" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Programmazione" />
@@ -19,10 +20,12 @@
 					<eventi>
 						<evento data="19800621" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19850525" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19880303" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-05-29;74" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1985-05-02;49" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1988-02-08;7" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -55,7 +58,7 @@
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:pos xlink:href="#art2-t3" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1985-05-02;49" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1985-05-02;49#art3-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -63,14 +66,14 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art2" xlink:type="simple" />
+								<dsp:pos xlink:href="#art2-t3" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art2-t2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art5" xlink:type="simple" />
+							<dsp:pos xlink:href="#art5-t3" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1985-05-02;49" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1985-05-02;49#art4-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -78,7 +81,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art5" xlink:type="simple" />
+								<dsp:pos xlink:href="#art5-t3" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art5-t2" xlink:type="simple" />
@@ -228,6 +231,36 @@
 								<dsp:pos xlink:href="#h11" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-02-08;7" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-02-08;7#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 8 febbraio 1988, n. 7" id="itt15" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-02-08;7" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-02-08;7#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 8 febbraio 1988, n. 7" id="itt16" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art5" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -340,10 +373,10 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art2" iniziovigore="t2">
+				<articolo finevigore="t3" id="art2-t3" iniziovigore="t2" status="abrogato">
 					<num>Art. 2</num>
 					<rubrica>(Dotazione organica)</rubrica>
-					<comma id="art2-com1">
+					<comma id="art2-t3-com1">
 						<num />
 						<corpo>
 							Il personale dell'IRPET è inquadrato nel ruolo unico del personale dell'Istituto, la cui dotazione organica è la seguente:
@@ -372,6 +405,48 @@
 									<h:tr>
 										<h:td>IV qualifica</h:td>
 										<h:td>n. 3</h:td>
+									</h:tr>
+									<h:tr>
+										<h:td>Totale</h:td>
+										<h:td>n. 46</h:td>
+									</h:tr>
+								</h:tbody>
+							</h:table>
+						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art2" iniziovigore="t3">
+					<num>Art. 2.</num>
+					<rubrica>(Dotazione organica)</rubrica>
+					<comma id="art2-com1">
+						<num />
+						<corpo>
+							Il personale dell'IRPET è inquadrato nel ruolo unico del personale dell'Istituto, la cui dotazione organica è la seguente:
+							<h:table>
+								<h:tbody>
+									<h:tr>
+										<h:td>II qualifica dirigenziale</h:td>
+										<h:td>n. 6</h:td>
+									</h:tr>
+									<h:tr>
+										<h:td>I qualifica dirigenziale</h:td>
+										<h:td>n. 12</h:td>
+									</h:tr>
+									<h:tr>
+										<h:td>VIII qualifica funzionale</h:td>
+										<h:td>n. 6</h:td>
+									</h:tr>
+									<h:tr>
+										<h:td>VII qualifica funzionale</h:td>
+										<h:td>n. 6</h:td>
+									</h:tr>
+									<h:tr>
+										<h:td>VI qualifica funzionale</h:td>
+										<h:td>n. 11</h:td>
+									</h:tr>
+									<h:tr>
+										<h:td>IV qualifica funzionale</h:td>
+										<h:td>n. 5</h:td>
 									</h:tr>
 									<h:tr>
 										<h:td>Totale</h:td>
@@ -463,10 +538,10 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art5" iniziovigore="t2">
+				<articolo finevigore="t3" id="art5-t3" iniziovigore="t2" status="abrogato">
 					<num>Art. 5</num>
 					<rubrica>(Profili professionali)</rubrica>
-					<comma id="art5-com1">
+					<comma id="art5-t3-com1">
 						<num />
 						<corpo>
 							Nell'ambito della declaratoria professionale delle qualifiche funzionali, disciplinata dagli articoli dal 3 al 9/octies della
@@ -523,6 +598,56 @@
 								</h:tbody>
 							</h:table>
 						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art5" iniziovigore="t3">
+					<num>Art. 5.</num>
+					<rubrica>(Profili professionali)</rubrica>
+					<comma id="art5-com1">
+						<num />
+						<corpo>
+							Nell'ambito della declaratoria professionale delle qualifiche funzionali, disciplinata dagli articoli dal 3 al 9-octies della
+							<rif xlink:href="urn:nir:regione.toscana:legge:1973-09-06;54" xlink:type="simple">LR 6-9-1973, n. 54</rif>
+							, modificati dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1984-04-24;22#art4" xlink:type="simple">art. 4 della LR 24-4-1984, n. 22</rif>
+							sono previsti i seguenti profili professionali, il cui contenuto è indicato nell'allegata tabella A:
+							<h:table>
+								<h:tbody>
+									<h:tr>
+										<h:td>Accanto alla Qualifica funzionale è indicato il Profilo Professionale:</h:td>
+										<h:td />
+									</h:tr>
+									<h:tr>
+										<h:td>II qualifica dirigenziale:</h:td>
+										<h:td>Segretario, Dirigente di ricerca</h:td>
+									</h:tr>
+									<h:tr>
+										<h:td>I qualifica dirigenziale:</h:td>
+										<h:td>Ricercatore qualificato, Dirigente amm.vo</h:td>
+									</h:tr>
+									<h:tr>
+										<h:td>VIII qualifica funzionale:</h:td>
+										<h:td>Assistente di ricerca, Funzionario amm.vo</h:td>
+									</h:tr>
+									<h:tr>
+										<h:td>VII qualifica funzionale:</h:td>
+										<h:td>Aiuto di ricerca, Istruttore direttivo</h:td>
+									</h:tr>
+									<h:tr>
+										<h:td>VI qualifica funzionale:</h:td>
+										<h:td>Collaboratore di ricerca</h:td>
+									</h:tr>
+									<h:tr>
+										<h:td>IV qualifica funzionale:</h:td>
+										<h:td>Esecutore</h:td>
+									</h:tr>
+								</h:tbody>
+							</h:table>
+						</corpo>
+					</comma>
+					<comma id="art5-com2">
+						<num />
+						<corpo>Nell'ambito della dotazione organica indicata al precedente Art. 2, il Consiglio d'Amministrazione provvede, con propria deliberazione, alla ripartizione dei posti di ciascuna qualifica tra i profili professionali compresi nella medesima.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art6">
@@ -897,8 +1022,19 @@
 									<materia valore="Organizzazioni" />
 								</materie>
 							</descrittori>
+							<redazionale xlink:type="simple">
+								<nota id="ann1-n1">
+									<h:p>
+										Per le modifiche all'allegato A si veda la
+										<rif xlink:href="urn:nir:regione.toscana:legge:1988-02-08;7" xlink:type="simple">legge regionale 8 febbraio 1988, n. 7</rif>
+										.
+									</h:p>
+								</nota>
+							</redazionale>
 						</meta>
-						<intestazione />
+						<intestazione>
+							<ndr num="#ann1-n1" valore="" xlink:type="simple">(a)</ndr>
+						</intestazione>
 						<formulainiziale />
 						<contenitore id="con1" nome="">
 							<h:p>
