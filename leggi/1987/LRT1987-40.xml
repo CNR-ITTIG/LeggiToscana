@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19870625" num="32" tipo="BURT" />
 					<entratainvigore norm="19870710" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1987-06-15;40" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1987-06-15;40" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1987-06-15;40@1987-08-19" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sviluppo Economico" />
 						<materia valore="Programmazione" />
@@ -16,11 +17,44 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19870710" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19870912" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1987-06-15;40" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1987-08-19;44" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1987-08-19;44" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1987-08-19;44#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 19 agosto 1987, n. 44" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art1-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1987-08-19;44" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1987-08-19;44#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 19 agosto 1987, n. 44" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art1bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -41,15 +75,39 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<articolo id="art1">
+				<articolo finevigore="t2" id="art1-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 1</num>
 					<rubrica>(Approvazione del Programma regionale dei finanziamenti)</rubrica>
-					<comma id="art1-com1">
+					<comma id="art1-t2-com1">
 						<num />
 						<corpo>
 							Il Programma regionale dei finanziamenti per le attività produttive di cui all'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1984-02-17;13#art7" xlink:type="simple">art. 7 della LR 17/2/84 n. 13</rif>
 							, è approvato dal Consiglio regionale entro il termine del 15 giugno 1987 ed assume come riferimento finanziario le disponibilità recate per tale anno dal bilancio annuale e da quello pluriennale.
+						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art1" iniziovigore="t2">
+					<num>ARTICOLO 1</num>
+					<rubrica>(Approvazione del Programma Regionale dei Finanziamenti)</rubrica>
+					<comma id="art1-com1">
+						<num />
+						<corpo>
+							Il Programma regionale dei finanziamenti per le attivita’produttive di cui all’
+							<rif xlink:href="urn:nir:regione.toscana:legge:1984;13#art13" xlink:type="simple">art. 7 della LR 17.2.1984, n. 13</rif>
+							, e’ approvato dal Consiglio regionale entro il termine del 31 luglio 1987 ed assume come riferimento finanziario le disponibilita’ recate per tale anno dal bilancio annuale e da quello pluriennale
+						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art1bis" iniziovigore="t2">
+					<num>ARTICOLO 1 bis</num>
+					<rubrica>(Formazione delle proposte relative ai preliminari di progetto)</rubrica>
+					<comma id="art1bis-com1">
+						<num />
+						<corpo>
+							Ai fini dell’elaborazione del Programma regionale dei finanziamenti per le attivita’ produttive non agricole per l’anno 1988, le Province deliberano, con proprio atto consiliare da adottarsi entro il 31 ottobre 1987, sulla proposta di cui all’
+							<rif xlink:href="urn:nir:regione.toscana:legge:1984;13#art9" xlink:type="simple">art. 9 della LR 17.2.1984, n. 13</rif>
+							, relativamente ai preliminari di progetto pervenuti al loro esame non oltre il 30 settembre 1987 e presentati con le modalita’ di cui all’art. 3 della predetta legge regionale
 						</corpo>
 					</comma>
 				</articolo>
