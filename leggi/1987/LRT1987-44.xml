@@ -8,15 +8,58 @@
 					<entratainvigore norm="19870912" />
 					<redazione id="red1" nome="" norm="" />
 					<urn valore="urn:nir:regione.toscana:legge:1987-08-19;44" />
+					<materie vocabolario="Regione Toscana">
+						<materia valore="Sviluppo Economico" />
+						<materia valore="Programmazione" />
+					</materie>
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19870912" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19870912" fonte="ra1" id="t2" tipo="modifica" />
+						<evento data="19870912" fonte="ra2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1987-08-19;44" xlink:type="simple" />
+						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1987-06-15;40" xlink:type="simple" />
+						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1987-06-15;40" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modificheattive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#mod1" xlink:type="simple" />
+							<dsp:termine da="#t2" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1987-06-15;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1987-06-15;40#art1" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#mod1-vir1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:tipo valore="articolo" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:subarg>
+									<ittig:tipo valore="articolo" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#mod2" xlink:type="simple" />
+							<dsp:termine da="#t3" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1987-06-15;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1987-06-15;40#art1" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#mod2-vir1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:tipo valore="articolo" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novella>
+						</dsp:integrazione>
+					</modificheattive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -54,7 +97,11 @@
 										<rubrica>(Approvazione del Programma Regionale dei Finanziamenti)</rubrica>
 										<comma id="mod1-vir1-art1-com1">
 											<num />
-											<corpo>Il Programma regionale dei finanziamenti per le attivita’produttive di cui all’art. 7 della LR 17.2.1984, n. 13, e’ approvato dal Consiglio regionale entro il termine del 31 luglio 1987 ed assume come riferimento finanziario le disponibilita’ recate per tale anno dal bilancio annuale e da quello pluriennale</corpo>
+											<corpo>
+												Il Programma regionale dei finanziamenti per le attivita’produttive di cui all’
+												<rif xlink:href="urn:nir:regione.toscana:legge:1984;13#art13" xlink:type="simple">art. 7 della LR 17.2.1984, n. 13</rif>
+												, e’ approvato dal Consiglio regionale entro il termine del 31 luglio 1987 ed assume come riferimento finanziario le disponibilita’ recate per tale anno dal bilancio annuale e da quello pluriennale
+											</corpo>
 										</comma>
 									</articolo>
 								</virgolette>
@@ -78,7 +125,11 @@
 										<rubrica>(Formazione delle proposte relative ai preliminari di progetto)</rubrica>
 										<comma id="mod2-vir1-art1bis-com1">
 											<num />
-											<corpo>Ai fini dell’elaborazione del Programma regionale dei finanziamenti per le attivita’ produttive non agricole per l’anno 1988, le Province deliberano, con proprio atto consiliare da adottarsi entro il 31 ottobre 1987, sulla proposta di cui all’art. 9 della LR 17.2.1984, n. 13, relativamente ai preliminari di progetto pervenuti al loro esame non oltre il 30 settembre 1987 e presentati con le modalita’ di cui all’art. 3 della predetta legge regionale</corpo>
+											<corpo>
+												Ai fini dell’elaborazione del Programma regionale dei finanziamenti per le attivita’ produttive non agricole per l’anno 1988, le Province deliberano, con proprio atto consiliare da adottarsi entro il 31 ottobre 1987, sulla proposta di cui all’
+												<rif xlink:href="urn:nir:regione.toscana:legge:1984;13#art9" xlink:type="simple">art. 9 della LR 17.2.1984, n. 13</rif>
+												, relativamente ai preliminari di progetto pervenuti al loro esame non oltre il 30 settembre 1987 e presentati con le modalita’ di cui all’art. 3 della predetta legge regionale
+											</corpo>
 										</comma>
 									</articolo>
 								</virgolette>
