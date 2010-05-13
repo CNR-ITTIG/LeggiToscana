@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19880609" num="34" tipo="BURT" />
 					<entratainvigore norm="19880624" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1988-05-30;41" />
+					<urn iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1988-05-30;41" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Contabilità Contratti" />
@@ -20,6 +20,7 @@
 						<evento data="19880624" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="19880624" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="19880624" fonte="ra4" id="t5" tipo="modifica" />
+						<evento data="19880624" fonte="rp1" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1988-05-30;41" xlink:type="simple" />
@@ -27,6 +28,7 @@
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1982-08-31;72" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1984-12-31;73" xlink:type="simple" />
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1987-05-21;31" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1988-05-30;42" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -72,6 +74,20 @@
 							</dsp:dominio>
 						</dsp:variazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art11" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-05-30;42" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-05-30;42#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 30 maggio 1988, n. 42" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art11-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -473,109 +489,109 @@
 							<corpo>E' autorizzata per il biennio 1989/90 la spesa di lire 2.000 milioni per interventi per l'adeguamento di attrezzature e per la ristrutturazione degli immobili di proprietà regionale utilizzati per le scuole di formazione professionale, di cui lire 1.000 milioni a carico dell'esercizio 1989 e lire 1.000 milioni a carico dell'esercizio 1990. Entro i limiti annuali e pluriennale dell'autorizzazione di spesa è data facoltà di assumere, fin dall'anno 1988, obbligazioni di spesa per l'intero periodo.</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art11">
+					<articolo finevigore="t6" id="art11-t6" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 11</num>
-						<comma id="art11-com1">
+						<comma id="art11-t6-com1">
 							<num>1.</num>
 							<corpo>E' istituito un fondo regionale per lo sviluppo di nuove imprese. A tale fondo partecipa la Regione con un primo stanziamento, a partire dall'esercizio 1988, pari a Lire 1.000.000.000. A tale fondo possono partecipare altresì gli istituti di credito, le camere di commercio, nonchè qualsiasi altro soggetto pubblico e privato.</corpo>
 						</comma>
-						<comma id="art11-com2">
+						<comma id="art11-t6-com2">
 							<num>2.</num>
 							<alinea>Il fondo verrà utilizzato per la costituzione di piccole imprese nei settori extra - agricoli, mediante:</alinea>
-							<el id="art11-com2-leta">
+							<el id="art11-t6-com2-leta">
 								<num>a)</num>
 								<corpo>attività di promozione</corpo>
 							</el>
-							<el id="art11-com2-letb">
+							<el id="art11-t6-com2-letb">
 								<num>b)</num>
 								<corpo>attività di informazione</corpo>
 							</el>
-							<el id="art11-com2-letc">
+							<el id="art11-t6-com2-letc">
 								<num>c)</num>
 								<corpo>assistenza tecnica</corpo>
 							</el>
-							<el id="art11-com2-letd">
+							<el id="art11-t6-com2-letd">
 								<num>d)</num>
 								<corpo>incentivi finanziari, mediante la concessione di contributi a fondo perduto e finanziamenti a tasso agevolato.</corpo>
 							</el>
 						</comma>
-						<comma id="art11-com3">
+						<comma id="art11-t6-com3">
 							<num>3.</num>
 							<alinea>Le imprese che possono accedere al fondo sono:</alinea>
-							<ep id="art11-com3-pun31">
+							<ep id="art11-t6-com3-pun31">
 								<num>3.1.</num>
 								<corpo>- cooperative</corpo>
 							</ep>
-							<ep id="art11-com3-pun32">
+							<ep id="art11-t6-com3-pun32">
 								<num>3.2.</num>
 								<corpo>- imprese in forma di società</corpo>
 							</ep>
-							<ep id="art11-com3-pun33">
+							<ep id="art11-t6-com3-pun33">
 								<num>3.3.</num>
 								<corpo>- imprese individuali</corpo>
 							</ep>
 						</comma>
-						<comma id="art11-com4">
+						<comma id="art11-t6-com4">
 							<num>4.</num>
 							<alinea>Le imprese devono essere costituite da:</alinea>
-							<el id="art11-com4-leta">
+							<el id="art11-t6-com4-leta">
 								<num>a)</num>
 								<corpo>giovani fino a 35 anni;</corpo>
 							</el>
-							<el id="art11-com4-letb">
+							<el id="art11-t6-com4-letb">
 								<num>b)</num>
 								<corpo>disoccupati iscritti alle liste di collocamento da più di un anno;</corpo>
 							</el>
-							<el id="art11-com4-letc">
+							<el id="art11-t6-com4-letc">
 								<num>c)</num>
 								<corpo>lavoratori in CIGS a zero ore da più di un anno;</corpo>
 							</el>
-							<el id="art11-com4-letd">
+							<el id="art11-t6-com4-letd">
 								<num>d)</num>
 								<corpo>lavoratori di aziende in liquidazione o soggette a procedure concorsuali;</corpo>
 							</el>
-							<el id="art11-com4-lete">
+							<el id="art11-t6-com4-lete">
 								<num>e)</num>
 								<corpo>emigrati di ritorno che siano cittadini italiani e residenti in Toscana. Le imprese di cui ai punti 3.1 e 3.2 devono essere costituite per almeno due terzo dai soggetti sopra indicati.</corpo>
 							</el>
 						</comma>
-						<comma id="art11-com5">
+						<comma id="art11-t6-com5">
 							<num>5.</num>
 							<corpo>La composizione societaria e la titolarità dell'impresa individuale deve permanere per almeno cinque anni dalla data di concessione dei benefici previsti dalla presente legge. La sede legale e produttiva deve essere mantenuta sul territorio della regione Toscana per almeno 5 anni. Le imprese devono essere costituite successivamente all' entrata in vigore della presente legge.</corpo>
 						</comma>
-						<comma id="art11-com6">
+						<comma id="art11-t6-com6">
 							<num>6.</num>
 							<alinea>Gli interventi di cui al precedente punto 2, lett. d) sono concessi, da parte della Giunta Regionale, previa approvazione di progetti triennali di impresa che debbono contenere:</alinea>
-							<en id="art11-com6-num1">
+							<en id="art11-t6-com6-num1">
 								<num>1.</num>
 								<corpo>- obiettivi produttivi e occupazionali,</corpo>
 							</en>
-							<en id="art11-com6-num2">
+							<en id="art11-t6-com6-num2">
 								<num>2.</num>
 								<corpo>- piano degli investimenti,</corpo>
 							</en>
-							<en id="art11-com6-num3">
+							<en id="art11-t6-com6-num3">
 								<num>3.</num>
 								<corpo>- piano finanziario,</corpo>
 							</en>
-							<en id="art11-com6-num4">
+							<en id="art11-t6-com6-num4">
 								<num>4.</num>
 								<corpo>- progetto relativo alle eventuali esigenze formative, redatto nei modi richiesti dal Fondo Sociale Europeo.</corpo>
 							</en>
 						</comma>
-						<comma id="art11-com7">
+						<comma id="art11-t6-com7">
 							<num>7.</num>
 							<corpo>Per l'approvazione dei progetti la Giunta acquisisce il parere sulla validità economico - produttiva degli stessi da parte di esperti designati dai soggetti partecipanti al fondo.</corpo>
 						</comma>
-						<comma id="art11-com8">
+						<comma id="art11-t6-com8">
 							<num>8.</num>
 							<corpo>Il Consiglio regionale, entro 60 giorni dall'entrata in vigore della presente legge, stabilisce su proposta della Giunta con apposita deliberazione i criteri e le modalità di attuazione delle iniziative di cui al precedente punto 2.</corpo>
 						</comma>
-						<comma id="art11-com9">
+						<comma id="art11-t6-com9">
 							<num>9.</num>
 							<corpo>La Giunta è autorizzata a definire intese con i soggetti di cui al secondo capoverso del punto 1, per incrementare il predetto fondo e stabilirne le specificazioni di impiego nell'ambito dei criteri e delle modalità stabiliti con la predetta deliberazione.</corpo>
 						</comma>
-						<comma id="art11-com10">
+						<comma id="art11-t6-com10">
 							<num>10.</num>
 							<corpo>
 								Per la concessione di eventuali garanzie accessorie verranno impartite direttive alla Fidi - Toscana spa ai sensi della
@@ -583,15 +599,15 @@
 								e successive modificazioni.
 							</corpo>
 						</comma>
-						<comma id="art11-com11">
+						<comma id="art11-t6-com11">
 							<num>11.</num>
 							<corpo>Sulla proposta di deliberazione sopracitata la Giunta Regionale acquisisce il parere della Commissione Regionale per l'Impiego che è tenuta ad esprimersi entro 30 giorni.</corpo>
 						</comma>
-						<comma id="art11-com12">
+						<comma id="art11-t6-com12">
 							<num>12.</num>
 							<corpo>I benefici della legge non sono cumulabili con altri concessi allo stesso titolo.</corpo>
 						</comma>
-						<comma id="art11-com13">
+						<comma id="art11-t6-com13">
 							<num>13.</num>
 							<corpo>
 								I soggetti che possono accedere ai benefici della
