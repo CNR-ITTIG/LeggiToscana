@@ -7,7 +7,8 @@
 					<pubblicazione norm="19860326" num="15" tipo="BURT" />
 					<entratainvigore norm="19860410" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1986-03-24;12" />
+					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1986-03-24;12" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1986-03-24;12@1988-04-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ordinamento" />
 						<materia valore="Enti Territoriali" />
@@ -17,12 +18,23 @@
 					<eventi>
 						<evento data="19860410" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19860410" fonte="ra1" id="t2" tipo="modifica" />
+						<evento data="19880503" fonte="rp1" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1986-03-24;12" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1980-04-19;32" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1988-04-29;30" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Termine prorogato al 31 dicembre 1988 dalla
+							<rif xlink:href="urn:nir:regione.toscana:legge:1988-04-29;30" xlink:type="simple">LEGGE REGIONALE 29 aprile 1988, n. 30</rif>
+							.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:abrogazione completa="si" implicita="no">
@@ -38,6 +50,17 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:modtermini completa="si" implicita="no">
+							<dsp:termine da="#t3" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-04-29;30" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-04-29;30#mod1" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:modtermini>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -116,7 +139,10 @@
 					<comma id="art2-com8">
 						<num>8.</num>
 						<corpo>
-							<mod id="mod1">Entro sei mesi dalla data di entrata in vigore della presente legge, la giunta presenta al consiglio regionale una proposta complessiva di riassetto e di individuazione dei soggetti destinatari delle funzioni in atto delegate o attribuite alle associazioni intercomunali. Nei successivi diciotto mesi la regione adegua le proprie leggi ai principi di cui al presente articolo. Decorso tale termine, nelle materie per le quali non si sia provveduto, sono abrogate le norme che delegano o attribuiscono funzioni alle Associazioni intercomunali.</mod>
+							<mod id="mod1">
+								Entro sei mesi dalla data di entrata in vigore della presente legge, la giunta presenta al consiglio regionale una proposta complessiva di riassetto e di individuazione dei soggetti destinatari delle funzioni in atto delegate o attribuite alle associazioni intercomunali. Nei successivi diciotto mesi la regione adegua le proprie leggi ai principi di cui al presente articolo. Decorso tale termine, nelle materie per le quali non si sia provveduto, sono abrogate le norme che delegano o attribuiscono funzioni alle Associazioni intercomunali.
+								<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							</mod>
 						</corpo>
 					</comma>
 				</articolo>
