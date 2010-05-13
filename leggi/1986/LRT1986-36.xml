@@ -7,7 +7,8 @@
 					<pubblicazione norm="19860814" num="39" tipo="BURT" />
 					<entratainvigore norm="19860829" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1986-08-04;36" />
+					<urn finevigore="t7" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1986-08-04;36" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1986-08-04;36@1988-05-16" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Organi" />
@@ -22,6 +23,7 @@
 						<evento data="19860125" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="19860125" fonte="ra4" id="t5" tipo="modifica" />
 						<evento data="19860125" fonte="ra5" id="t6" tipo="modifica" />
+						<evento data="19880609" fonte="rp1" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1986-08-04;36" xlink:type="simple" />
@@ -30,8 +32,18 @@
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1982-11-08;81" xlink:type="simple" />
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1982-11-08;81" xlink:type="simple" />
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1982-11-08;81" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1988-05-16;33" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							La
+							<rif xlink:href="urn:nir:regione.toscana:legge:1988-05-16;33" xlink:type="simple">legge regionale 16 maggio 1988, n. 33</rif>
+							abroga le disposizioni di cui al presente articolo in contrasto con la medesima.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -125,6 +137,17 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:termine da="#t7" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-05-16;33" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-05-16;33#mod1" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:variazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -190,7 +213,10 @@
 					</comma>
 				</articolo>
 				<articolo id="art2">
-					<num>ARTICOLO 2</num>
+					<num>
+						ARTICOLO 2
+						<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					</num>
 					<comma id="art2-com1">
 						<num />
 						<corpo>
