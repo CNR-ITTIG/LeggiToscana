@@ -8,7 +8,8 @@
 					<entratainvigore norm="19870204" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1987-01-10;1" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1987-01-10;1@1988-03-09" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1987-01-10;1@1988-03-09" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1987-01-10;1@1988-05-30" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Turismo" />
 					</materie>
@@ -17,10 +18,12 @@
 					<eventi>
 						<evento data="19870204" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19880331" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19880623" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1987-01-10;1" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1988-03-09;15" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1988-05-30;40" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -98,7 +101,7 @@
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art22-com1" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-03-09;15" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-03-09;15#art3-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -113,7 +116,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art25-com1" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-03-09;15" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-03-09;15#art4-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -151,6 +154,30 @@
 								<dsp:pos xlink:href="#ann3" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art26-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-05-30;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-05-30;40#art10-com4-pun2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 10, comma 4, 2 della legge Regione Toscana 30 maggio 1988, n. 40" id="itt11" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art26-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-05-30;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-05-30;40#art10-com4-pun2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 10, comma 4, 2 della legge Regione Toscana 30 maggio 1988, n. 40" id="itt12" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art26-com4-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -1019,10 +1046,11 @@
 							<corpo>
 								La violazione di quanto previsto dall'
 								<rif xlink:href="#art5" xlink:type="simple">art. 5</rif>
-								della presente legge comporta la sanzione amministrativa del pagamento della somma da lire 300.000 a lire 900.000. L'omessa esposizione di tabelle e cartellini prezzi comporta la sanzione amministrativa del pagamento da L. 50.000 a L. 150.000.
+								della presente legge comporta la sanzione amministrativa del pagamento della somma da lire 300.000 a lire 900.000.
+								<h:span finevigore="t3" id="h1" iniziovigore="t1" status="abrogato">L'omessa esposizione di tabelle e cartellini prezzi comporta la sanzione amministrativa del pagamento da L. 50.000 a L. 150.000.</h:span>
 							</corpo>
 						</comma>
-						<comma id="art26-com4">
+						<comma finevigore="t3" id="art26-com4-t3" iniziovigore="t1" status="abrogato">
 							<num />
 							<corpo>L'applicazione di prezzi superiori a quelli denunciati comporta, fatto salvo quanto disposto dalla normativa statale in materia di prezzi, la sanzione amministrativa del pagamento della somma da L. 150.000 a L. 450.000.</corpo>
 						</comma>
