@@ -7,7 +7,8 @@
 					<pubblicazione norm="19870527" num="27" tipo="BURT" />
 					<entratainvigore norm="19870527" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1987-05-21;31" />
+					<urn finevigore="t4" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1987-05-21;31" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1987-05-21;31@1988-05-30" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Demanio Patrimonio" />
 						<materia valore="Ente Regione" />
@@ -19,13 +20,24 @@
 						<evento data="19870527" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19870527" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="19870527" fonte="ra2" id="t3" tipo="modifica" />
+						<evento data="19880624" fonte="rp1" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1987-05-21;31" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1975-06-05;67" xlink:type="simple" />
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1984-11-13;65" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1988-05-30;41" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Importo elevato a L . 1.200.000.000 ex
+							<rif xlink:href="urn:nir:regione.toscana:legge:1988-05-30;41#art15" xlink:type="simple">art. 15 legge regionale 30 maggio 1988, n. 41</rif>
+							.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:abrogazione completa="si" implicita="no">
@@ -59,6 +71,17 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:termine da="#t4" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-05-30;41" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-05-30;41#mod4" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:variazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -97,7 +120,9 @@
 							<rif xlink:href="urn:nir:regione.toscana:legge:1983-01-17;3" xlink:type="simple">LR 17.1.1983, n. 3</rif>
 							l'autorizzazione di spesa di cui all'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1986-05-06;23#art1-com3" xlink:type="simple">art. 1, terzo comma, della LR 6.5.1986, n. 23</rif>
-							è aumentata di L. 1.000.000.000.
+							è aumentata di L. 1.000.000.000
+							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							.
 						</corpo>
 					</comma>
 					<comma id="art1-com4">

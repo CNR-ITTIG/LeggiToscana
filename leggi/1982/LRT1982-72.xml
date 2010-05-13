@@ -10,7 +10,8 @@
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1982-08-31;72" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1982-08-31;72@1983-06-06" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1982-08-31;72@1983-10-31" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1982-08-31;72@1985-01-10" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1982-08-31;72@1985-01-10" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1982-08-31;72@1988-05-30" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sistema educativo" />
 					</materie>
@@ -21,16 +22,25 @@
 						<evento data="19830630" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19831109" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19850131" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="19880624" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1982-08-31;72" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1983-06-06;39" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1983-10-31;72" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1988-05-30;41" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
 					<nota id="n1">
+						<h:p>
+							Ai sensi dell'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1988-05-30;41#art5-com2" xlink:type="simple">art. 5, comma 2 della legge regionale 30 maggio 1988, n. 41</rif>
+							le tariffe dei servizi a domanda individuale previsti dalla presente legge sono aumentate nella misura del 5 per cento.
+						</h:p>
+					</nota>
+					<nota id="n2">
 						<h:p>
 							Relativamente al versamento dei contributi di cui al primo e secondo comma del presente articolo dell'anno accademico 1982/83 si veda la
 							<rif xlink:href="urn:nir:regione.toscana:legge:1983-06-06;39" xlink:type="simple">legge regionale 6 giugno 1983, n. 39</rif>
@@ -109,6 +119,15 @@
 								<dsp:pos xlink:href="#art32-t4" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:termine da="#t5" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-05-30;41" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-05-30;41#mod2" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:variazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -118,7 +137,11 @@
 				<dataDoc norm="19820831">31 agosto 1982</dataDoc>
 				, n.
 				<numDoc>72</numDoc>
-				<titoloDoc>Norme sul diritto allo studio universitario.</titoloDoc>
+				<titoloDoc>
+					Norme sul diritto allo studio universitario
+					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					.
+				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 27-7-1982</h:p>
@@ -882,7 +905,7 @@
 					<num>ARTICOLO 30</num>
 					<rubrica>
 						(Tasse e contributi
-						<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+						<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
 						)
 					</rubrica>
 					<comma id="art30-com1">
