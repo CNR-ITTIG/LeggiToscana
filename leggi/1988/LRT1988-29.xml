@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19880503" num="26" tipo="BURT" />
 					<entratainvigore norm="19880518" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1988-04-23;29" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1988-04-23;29" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1988-04-23;29@1988-08-01" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organi" />
 						<materia valore="Artigianato" />
@@ -17,11 +18,32 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19880518" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19880825" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1988-04-23;29" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1988-08-01;54" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art22-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-08-01;54" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-08-01;54#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 1 agosto 1988, n. 54" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art22-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art22-com2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -683,12 +705,20 @@
 									<corpo>agli adempimenti connessi alle funzioni, in materia statistica e di programmazione della Commissione, nonchè ad ogni altro compito di essa.</corpo>
 								</ep>
 							</comma>
-							<comma id="art22-com2">
+							<comma finevigore="t2" id="art22-com2-t2" iniziovigore="t1" status="abrogato">
 								<num>2.</num>
 								<corpo>
 									A tale ufficio è assegnato personale del ruolo unico regionale di cui alla
 									<rif xlink:href="urn:nir:regione.toscana:legge:1984-04-22;22" xlink:type="simple">LR 22-4-1984, n. 22</rif>
 									, secondo le modalità e procedure ivi previste.
+								</corpo>
+							</comma>
+							<comma id="art22-com2" iniziovigore="t2">
+								<num>2)</num>
+								<corpo>
+									A tale ufficio è assegnato personale del ruolo unico regionale di cui alla
+									<rif xlink:href="urn:nir:regione.toscana:legge:1984-04-22;22" xlink:type="simple">LR 22 aprile 1984 n. 22</rif>
+									, secondo le modalità e procedure ivi previste, ovvero, sulla base di apposita convenzione, personale, nell'ambito delle previsioni di organico del ruolo unico regionale, locali ed attrezzature messi a disposizione da parte delle Camere di Commercio, Industria, Artigianato e Agricoltura.
 								</corpo>
 							</comma>
 							<comma id="art22-com3">
