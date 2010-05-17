@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19880826" num="49" tipo="BURT" />
 					<entratainvigore norm="19880910" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1988-08-19;60" />
+					<urn iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1988-08-19;60" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Rifiuti" />
 					</materie>
@@ -15,11 +15,29 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19880910" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19880910" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1988-08-19;60" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1988-08-19;61" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-08-19;61" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-08-19;61#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 19 agosto 1988, n. 61" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -144,7 +162,11 @@
 						</en>
 						<en id="art3-com4-numiii">
 							<num>III</num>
-							<corpo>- materiali derivanti da processi produttivi (in via lavorazione del legno, scarti solidi idonei della lavorazione conciaria, scarti solidi della lavorazione calzaturiera, scarti della lavorazione tessile, residui inerti delle attività di cava e di miniera, fanghi derivanti dalla lavorazione dei marmi e dei graniti, fanghi derivanti dalle lavorazioni conciarie, gessi derivanti da processi dell'industria chimica).</corpo>
+							<corpo>
+								- materiali derivanti da processi produttivi (in via lavorazione del legno, scarti solidi idonei della lavorazione conciaria, scarti solidi della lavorazione calzaturiera,
+								<h:span id="h1" iniziovigore="t2">fanghi di depurazione delle acque delle industrie cartarie,</h:span>
+								scarti della lavorazione tessile, residui inerti delle attività di cava e di miniera, fanghi derivanti dalla lavorazione dei marmi e dei graniti, fanghi derivanti dalle lavorazioni conciarie, gessi derivanti da processi dell'industria chimica).
+							</corpo>
 						</en>
 						<coda>
 							Per i materiali appartenenti alla prima categoria non sarà di norma necessario definire il regime autorizzativo e di controllo indicati ai punti d), e) ed f) delle deliberazioni di cui al
