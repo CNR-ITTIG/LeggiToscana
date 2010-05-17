@@ -8,7 +8,8 @@
 					<entratainvigore norm="19810101" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1980-04-04;25" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1980-04-04;25@1984-11-26" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1980-04-04;25@1984-11-26" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1980-04-04;25@1988-09-01" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="OPERE PUBBLICHE" />
 					</materie>
@@ -18,11 +19,13 @@
 						<evento data="19810101" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19810101" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="19841220" fonte="rp1" id="t3" tipo="modifica" />
+						<evento data="19880927" fonte="rp2" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-04-04;25" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1975-02-27;18" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1984-11-26;68" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1988-09-01;75" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -72,6 +75,51 @@
 								<dsp:pos xlink:href="#art9-com4-t3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-09-01;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-09-01;75#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 1 settembre 1988, n. 75" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-09-01;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-09-01;75#art1-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2 della legge Regione Toscana 1 settembre 1988, n. 75" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-09-01;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-09-01;75#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 1 settembre 1988, n. 75" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h6" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -119,7 +167,11 @@
 					<rubrica>(Strumenti di programmazione a livello locale)</rubrica>
 					<comma id="art3-com1">
 						<num />
-						<corpo>Sulla base delle proposte formulate dai Comuni, le Associazioni intercomunali elaborano un programma pluriennale di durata pari a quella del bilancio pluriennale della Regione, contenente una elencazione delle opere e delle iniziative per la cui realizzazione è richiesto l'intervento finanziario regionale, ordinata secondo una graduatoria di priorità che tenga conto della presunta disponibilità finanziaria utilizzabile, degli obiettivi di sviluppo, delle priorità e dei vincoli definiti negli atti programmatori regionali.</corpo>
+						<corpo>
+							<h:span finevigore="t4" id="h1" iniziovigore="t1" status="abrogato">Sulla base delle proposte formulate dai Comuni, le Associazioni intercomunali elaborano</h:span>
+							<h:span id="h2" iniziovigore="t4">I comuni, singoli oppure tramite l'associazione intercomunale o la comunità montana, elaborano</h:span>
+							un programma pluriennale di durata pari a quella del bilancio pluriennale della Regione, contenente una elencazione delle opere e delle iniziative per la cui realizzazione è richiesto l'intervento finanziario regionale, ordinata secondo una graduatoria di priorità che tenga conto della presunta disponibilità finanziaria utilizzabile, degli obiettivi di sviluppo, delle priorità e dei vincoli definiti negli atti programmatori regionali.
+						</corpo>
 					</comma>
 					<comma id="art3-com2">
 						<num />
@@ -133,7 +185,12 @@
 					</comma>
 					<comma id="art3-com3">
 						<num />
-						<corpo>Per le opere di competenza delle Province e delle Comunità montane i relativi programmi pluriennali aventi durata e contenuti uguali a quelli delle opere comunali, sono predisposti rispettivamente dalle Province e dalle Comunità montane stesse, sentite le Associazioni intercomunali territorialmente interessate.</corpo>
+						<corpo>
+							Per le opere di competenza delle Province e delle Comunità montane i relativi programmi pluriennali aventi durata e contenuti uguali a quelli delle opere comunali, sono predisposti rispettivamente dalle Province e dalle Comunità montane stesse,
+							<h:span finevigore="t4" id="h3" iniziovigore="t1" status="abrogato">sentite le Associazioni intercomunali territorialmente interessate</h:span>
+							<h:span id="h4" iniziovigore="t4">sentiti i comuni territorialmente interessati</h:span>
+							.
+						</corpo>
 					</comma>
 					<comma id="art3-com4">
 						<num />
@@ -162,7 +219,10 @@
 					<comma id="art5-com1">
 						<num />
 						<corpo>
-							Entro il trimestre successivo alla scadenza del termine per la presentazione dei programmi pluriennali delle Associazioni intercomunali, delle province e delle comunità montane, la Giunta regionale li esamina contestualmente e globalmente verificandone la rispondenza agli obiettivi e alle priorità contenute negli strumenti di programmazione regionale di cui al
+							Entro il trimestre successivo alla scadenza del termine per la presentazione dei programmi pluriennali
+							<h:span finevigore="t4" id="h5" iniziovigore="t1" status="abrogato">delle Associazioni intercomunali</h:span>
+							<h:span id="h6" iniziovigore="t4">dei comuni</h:span>
+							, delle province e delle comunità montane, la Giunta regionale li esamina contestualmente e globalmente verificandone la rispondenza agli obiettivi e alle priorità contenute negli strumenti di programmazione regionale di cui al
 							<rif xlink:href="#art2" xlink:type="simple">precedente articolo 2</rif>
 							.
 						</corpo>
