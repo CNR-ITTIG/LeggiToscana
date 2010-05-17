@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19880531" num="31 supplemento ordinario n. 9" tipo="BURT" />
 					<entratainvigore norm="19880531" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1988-05-21;34" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1988-05-21;34" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1988-05-21;34@1988-09-01" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Bilancio" />
@@ -16,11 +17,32 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19880531" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19880912" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1988-05-21;34" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1988-09-01;64" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-09-01;64" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-09-01;64#art6-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 6, comma 1 della legge Regione Toscana 1 settembre 1988, n. 64" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art9-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -177,51 +199,58 @@
 						</en>
 					</comma>
 				</articolo>
-				<articolo id="art9">
+				<articolo finevigore="t2" id="art9-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 9</num>
-					<comma id="art9-com1">
+					<comma id="art9-t2-com1">
 						<num>1.</num>
 						<corpo>Agli effetti di cui ai commi successivi il disavanzo per l'esercizio 1988 è approvato in L. 86 miliardi.</corpo>
 					</comma>
-					<comma id="art9-com2">
+					<comma id="art9-t2-com2">
 						<num>2.</num>
 						<alinea>La Giunta regionale è autorizzata a contrarre nell' esercizio 1988 mutui e prestiti, anche a tasso variabile, per l'importo di L. 86 miliardi alle seguenti condizioni:</alinea>
-						<ep id="art9-com2-pun1">
+						<ep id="art9-t2-com2-pun1">
 							<num>-</num>
 							<corpo>finalità indicate nell'allegato II) 1);</corpo>
 						</ep>
-						<ep id="art9-com2-pun2">
+						<ep id="art9-t2-com2-pun2">
 							<num>-</num>
 							<corpo>tasso massimo 13,00% annuo;</corpo>
 						</ep>
-						<ep id="art9-com2-pun3">
+						<ep id="art9-t2-com2-pun3">
 							<num>-</num>
 							<corpo>durata massima del periodo di ammortamento: anni quindici;</corpo>
 						</ep>
-						<ep id="art9-com2-pun4">
+						<ep id="art9-t2-com2-pun4">
 							<num>-</num>
 							<corpo>decorrenza del periodo di ammortamento: 1 gennaio 1989:</corpo>
 						</ep>
-						<ep id="art9-com2-pun5">
+						<ep id="art9-t2-com2-pun5">
 							<num>-</num>
 							<corpo>rata massima di ammortamento annuale per capitale e interessi: L. 13.300.000.000.</corpo>
 						</ep>
 					</comma>
-					<comma id="art9-com3">
+					<comma id="art9-t2-com3">
 						<num>3.</num>
 						<corpo>
 							In caso di eventuale maggiorazione della rata massima di ammortamento indicata al
-							<rif xlink:href="#art9-com2" xlink:type="simple">secondo comma</rif>
+							<rif xlink:href="#art9-t2-com2" xlink:type="simple">secondo comma</rif>
 							, derivante nel corso dell'ammortamento dalla variabilità del tasso, saranno apportate le occorrenti variazioni ai bilanci annuale e pluriennale con le singole leggi di bilancio.
 						</corpo>
 					</comma>
-					<comma id="art9-com4">
+					<comma id="art9-t2-com4">
 						<num>4.</num>
 						<corpo>Le singole rate di ammortamento trovano copertura finanziaria per gli anni 1989 e 1990 nel bilancio pluriennale approvato dalla presente legge.</corpo>
 					</comma>
-					<comma id="art9-com5">
+					<comma id="art9-t2-com5">
 						<num>5.</num>
 						<corpo>E' disposto che le rate di ammortamento relative agli anni seguenti il 1990 trovino copertura con le successive legge di bilancio.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art9" iniziovigore="t2">
+					<num>ARTICOLO 9</num>
+					<comma id="art9-com1">
+						<num />
+						<corpo>Agli effetti di cui ai commi successivi il disavanzo per l'esercizio 1988 è approvato in Lire 165.243.429.447.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art10">
