@@ -8,7 +8,8 @@
 					<entratainvigore norm="19831124" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1983-10-31;71" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1983-10-31;71@1985-11-21" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1983-10-31;71@1985-11-21" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1983-10-31;71@1988-09-01" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sistema Educativo" />
 						<materia valore="Beni Culturali" />
@@ -19,10 +20,12 @@
 					<eventi>
 						<evento data="19831124" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19851126" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19880927" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1983-10-31;71" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1985-11-21;63" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1988-09-01;68" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -55,6 +58,46 @@
 						</h:p>
 					</nota>
 				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-09-01;68" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-09-01;68#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 1 settembre 1988, n. 68" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-com1-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-09-01;68" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-09-01;68#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 1 settembre 1988, n. 68" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-com4-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-09-01;68" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-09-01;68#art4-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1 della legge Regione Toscana 1 settembre 1988, n. 68" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -159,7 +202,7 @@
 						ARTICOLO 3
 						<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
 					</num>
-					<comma id="art3-com1">
+					<comma finevigore="t3" id="art3-com1-t3" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>
 							I Comuni trasmettono entro il 30 settembre di ogni anno alle Associazioni Intercomunali o alle Comunità Montane, di cui fanno parte ai sensi delle leggi regionali
@@ -211,21 +254,21 @@
 							.
 						</corpo>
 					</comma>
-					<comma id="art3-com4">
+					<comma finevigore="t3" id="art3-com4-t3" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>I soggetti che presentano le domande di cui ai due commi precedenti devono contestualmente inviarne copia all'Associazione Intercomunale o alla Comunità Montana nel cui territorio si intende realizzare l'attività.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art4">
+				<articolo finevigore="t3" id="art4-t3" iniziovigore="t1" status="abrogato">
 					<num>
 						ARTICOLO 4
 						<ndr num="#n3" valore="" xlink:type="simple">(c)</ndr>
 					</num>
-					<comma id="art4-com1">
+					<comma id="art4-t3-com1">
 						<num />
 						<corpo>
 							Le Associazioni Intercomunali e le Comunità Montane predispongono e trasmettono alla Giunta regionale entro il 31 ottobre la proposta di piano di finanziamento con l'indicazione delle priorità relative alle domande di cui all'
-							<rif xlink:href="#art3-com1" xlink:type="simple">art. 3, primo comma</rif>
+							<rif xlink:href="#art3-com1-t3" xlink:type="simple">art. 3, primo comma</rif>
 							, della presente legge nonchè le eventuali osservazioni relative alle iniziative di particolare rilevanza regionale previste dalle leggi regionali
 							<rif xlink:href="urn:nir:regione.toscana:legge:1980-01-28;11" xlink:type="simple">n. 11 del 28 gennaio 1980</rif>
 							e
@@ -233,7 +276,7 @@
 							.
 						</corpo>
 					</comma>
-					<comma id="art4-com2">
+					<comma id="art4-t3-com2">
 						<num />
 						<corpo>Le Associazioni Intercomunali o le Comunità Montane formulano eventuali osservazioni in merito alle domande presentate direttamente alla Regione ai sensi delle altre leggi regionali che formano oggetto del presente provvedimento;</corpo>
 					</comma>
@@ -291,7 +334,7 @@
 							<num>c)</num>
 							<corpo>
 								il 31 dicembre per la presentazione e trasmissione delle proposte di piani di finanziamento di cui all'
-								<rif xlink:href="#art4" xlink:type="simple">art. 4</rif>
+								<rif xlink:href="#art4-t3" xlink:type="simple">art. 4</rif>
 								.
 							</corpo>
 						</el>
