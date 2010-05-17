@@ -7,7 +7,8 @@
 					<pubblicazione norm="19880609" num="34" tipo="BURT" />
 					<entratainvigore norm="19880624" />
 					<redazione id="red1" nome="" norm="" />
-					<urn iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1988-05-30;41" />
+					<urn finevigore="t7" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1988-05-30;41" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1988-05-30;41@1988-09-01" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Contabilità Contratti" />
@@ -21,6 +22,7 @@
 						<evento data="19880624" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="19880624" fonte="ra4" id="t5" tipo="modifica" />
 						<evento data="19880624" fonte="rp1" id="t6" tipo="modifica" />
+						<evento data="19880927" fonte="rp2" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1988-05-30;41" xlink:type="simple" />
@@ -29,6 +31,7 @@
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1984-12-31;73" xlink:type="simple" />
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1987-05-21;31" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1988-05-30;42" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1988-09-01;69" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -87,6 +90,21 @@
 								<dsp:pos xlink:href="#art11-t6" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art17-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-09-01;69" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-09-01;69#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 1 settembre 1988, n. 69" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art17-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art17-com1-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -789,9 +807,13 @@
 					<rubrica>INTERVENTI IN MATERIA DI OPERE PUBBLICHE E PER CALAMITA' NATURALI</rubrica>
 					<articolo id="art17">
 						<num>ARTICOLO 17</num>
-						<comma id="art17-com1">
+						<comma finevigore="t7" id="art17-com1-t7" iniziovigore="t1" status="abrogato">
 							<num>1.</num>
 							<corpo>E' autorizzata la spesa di lire 1.800 milioni per l'anno 1988 per erogare contributi in conto capitale a favore di Comuni, Province, Comunità Montane e Consorzi di enti locali per interventi di potenziamento e di sviluppo della viabilità comunale e provinciale, nonchè per il completamento di opere di edilizia scolastica. Il contributo della Regione non può superare, per ciascuna iniziativa, il 50 per cento della spesa risultante dal piano finanziario del progetto esecutivo presentato, ai fini dell'ammissione al finanziamento regionale, dei soggetti interessati. I progetti esecutivi corredati dei piani finanziari di spesa dovranno essere presentati alla Regione Toscana entro il termine del 30-06-1988. I contributi saranno assegnati con provvedimento del Consiglio Regionale adottato su proposta della Giunta regionale.</corpo>
+						</comma>
+						<comma id="art17-com1" iniziovigore="t7">
+							<num>1.</num>
+							<corpo>E' autorizzata la spesa di 1.800 milioni per l'anno 1988 per erogare contributi in conto capitale a favore di Comuni, Provincie, Comunità Montane e Consorzi di enti locali per interventi di potenziamento e di sviluppo della viabilità comunale e provinciale, nonchè per il completamento e ristrutturazione di opere di edilizia scolastica aventi il carattere di particolare urgenza. I progetti esecutivi corredati dei piani finanziari di spesa dovranno essere presentati alla Regione Toscana entro il termine del 31/10/1988. I contributi saranno assegnati con provvedimento del Consiglio Regionale adottato su proposta della Giunta Regionale.</corpo>
 						</comma>
 						<comma id="art17-com2">
 							<num>2.</num>
