@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19870211" num="9" tipo="BURT" />
 					<entratainvigore norm="19870226" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1987-02-03;8" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1987-02-03;8" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1987-02-03;8@1988-11-07" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Trasporti" />
 					</materie>
@@ -15,11 +16,32 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19870226" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19881201" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1987-02-03;8" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1988-11-07;79" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-11-07;79" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-11-07;79#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 7 novembre 1988, n. 79" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -60,9 +82,9 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art3">
+				<articolo finevigore="t2" id="art3-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 3</num>
-					<comma id="art3-com1">
+					<comma id="art3-t2-com1">
 						<num />
 						<corpo>
 							Al recupero da parte della Regione del finanziamento concesso sarà provveduto al momento della concessione dei mutui di cui al
@@ -72,9 +94,22 @@
 							.
 						</corpo>
 					</comma>
-					<comma id="art3-com2">
+					<comma id="art3-t2-com2">
 						<num />
 						<corpo>Nel caso di recupero in cinque annualità ai finanziamenti concessi si applica, con decorrenza dalla data di erogazione, un saggio di interesse pari a quello vigente al momento per le giacenze in conto presso la Tesoreria della Regione.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art3" iniziovigore="t2">
+					<num>ARTICOLO 3</num>
+					<comma id="art3-com1">
+						<num />
+						<corpo>
+							Al recupero da parte della Regione del finanziamento concesso sarà provveduto al momento della concessione dei mutui di cui al
+							<rif xlink:href="urn:nir:stato:decreto.legge:1986-12-09;833#art1-com2" xlink:type="simple">2o comma dell'art. 1 del decreto legge 9 dicembre 1986 n. 833</rif>
+							, convertito con modificazioni nella
+							<rif xlink:href="urn:nir:stato:legge:1987-02-06;18" xlink:type="simple">legge 6-2-1987 n. 18</rif>
+							.
+						</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art4">
