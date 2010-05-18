@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<Legge>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19880415" num="23" tipo="BURT" />
 					<entratainvigore norm="19880430" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1988-04-06;24" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1988-04-06;24" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1988-04-06;24@1988-11-18" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Pesca" />
 						<materia valore="Organizzazioni Pubbliche" />
@@ -17,11 +18,44 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19880430" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19881209" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1988-04-06;24" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1988-11-18;85" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#ann1-art8-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-11-18;85" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-11-18;85#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 18 novembre 1988, n. 85" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#ann1-art8-com1-pun1-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#ann1-art8-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-11-18;85" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-11-18;85#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 18 novembre 1988, n. 85" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#ann1-art8-com1-pun3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#ann1-art8-com1-pun2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -355,19 +389,27 @@
 								<comma id="ann1-art8-com1">
 									<num />
 									<alinea>Il Consiglio di Amministrazione è composto:</alinea>
-									<ep id="ann1-art8-com1-pun1">
+									<ep finevigore="t2" id="ann1-art8-com1-pun1-t2" iniziovigore="t1" status="abrogato">
 										<num>-</num>
 										<corpo>dal Presidente della Giunta Regionale o suo delegato;</corpo>
 									</ep>
-									<ep id="ann1-art8-com1-pun2">
+									<ep finevigore="t2" id="ann1-art8-com1-pun2-t2" iniziovigore="t1" status="abrogato">
 										<num>-</num>
 										<corpo>dai tre membri nominati dal Consiglio Regionale, uno dei quali in rappresentanza della minoranza;</corpo>
 									</ep>
-									<ep id="ann1-art8-com1-pun3">
+									<ep id="ann1-art8-com1-pun3" iniziovigore="t2">
+										<num>-</num>
+										<corpo>
+											dai tre rappresentanti della Regione di cui al
+											<rif xlink:href="#ann1-art6-com1" xlink:type="simple">precedente art. 6, primo comma</rif>
+											;
+										</corpo>
+									</ep>
+									<ep id="ann1-art8-com1-pun4">
 										<num>-</num>
 										<corpo>dal Presidente dell'Amministrazione della Provincia di Livorno o suo delegato;</corpo>
 									</ep>
-									<ep id="ann1-art8-com1-pun4">
+									<ep id="ann1-art8-com1-pun5">
 										<num>-</num>
 										<corpo>
 											dai Presidenti o Sindaci o loro delegati delle Amministrazioni Provinciali o dei Comuni gestori di Centri o istituti che effettuano studi e ricerche nelle materie di cui all'
