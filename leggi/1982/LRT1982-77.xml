@@ -8,7 +8,8 @@
 					<entratainvigore norm="19821124" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1982-10-30;77" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1982-10-30;77@1984-08-01" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1982-10-30;77@1984-08-01" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1982-10-30;77@1988-12-17" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Pesca" />
 					</materie>
@@ -17,10 +18,12 @@
 					<eventi>
 						<evento data="19821124" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19840823" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19890106" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1982-10-30;77" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1984-08-01;48" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1988-12-17;90" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -40,6 +43,18 @@
 								<dsp:pos xlink:href="#art7-t2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-12-17;90" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-12-17;90#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 17 dicembre 1988, n. 90" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -280,7 +295,9 @@
 						<corpo>
 							Le varianti agli strumenti urbanistici che si rendano necessarie per l'applicazione del
 							<rif xlink:href="urn:nir:regione.toscana:legge:1979;10#art4-com3" xlink:type="simple">terzo comma dell'art. 4 della LR 10/1979</rif>
-							e successive modificazioni ed integrazioni, relativamente agli impianti di cui ai comma precedenti, sono adottate dal Comune acquisito il parere favorevole dell'Associazione intercomunale e pubblicate ai sensi dell'
+							e successive modificazioni ed integrazioni, relativamente agli impianti di cui ai comma precedenti, sono adottate dal Comune
+							<h:span finevigore="t3" id="h1" iniziovigore="t1" status="abrogato">acquisito il parere favorevole dell'Associazione intercomunale</h:span>
+							e pubblicate ai sensi dell'
 							<rif xlink:href="urn:nir:stato:legge:1962-04-18;167#art6" xlink:type="simple">art. 6 della legge 18 aprile 1962, n. 167</rif>
 							.
 						</corpo>
