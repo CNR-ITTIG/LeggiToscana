@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19870610" num="30 supplemento straordinario N. 10" tipo="BURT" />
 					<entratainvigore norm="19870625" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1987-06-03;36" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1987-06-03;36" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1987-06-03;36@1988-12-17" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Agriturismo" />
 					</materie>
@@ -15,11 +16,32 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19870625" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19890106" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1987-06-03;36" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1988-12-17;89" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com7" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-12-17;89" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-12-17;89#art31-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 31, comma 1 della legge Regione Toscana 17 dicembre 1988, n. 89" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com7" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-com7-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -207,9 +229,17 @@
 							.
 						</corpo>
 					</comma>
-					<comma id="art4-com7">
+					<comma finevigore="t2" id="art4-com7-t2" iniziovigore="t1" status="abrogato">
 						<num>7.</num>
 						<corpo>L'accertamento della realizzazione della principalità viene effettuato dall'Ente locale delegato in materia di agricoltura sulla base delle attività previste dal piano e dalla relazione: l'accertamento del reddito derivante dall' attività agrituristica avviene mediante la trasmissione obbligatoria al Comune da parte delle imprese, del prezzario praticato e dalla comunicazione sulle presenze degli utenti ai sensi della legislazione vigente.</corpo>
+					</comma>
+					<comma id="art4-com7" iniziovigore="t2">
+						<num>7.</num>
+						<corpo>
+							L'accertamento della principalità è effettuato dall'ente delegato, ai sensi dell'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1981-08-01;63#art20bis" xlink:type="simple">art. 20 bis della LR 1 agosto 1981 n. 63</rif>
+							, per l'esame dei piani agricoli aziendali. Tale accertamento avviene sulla base delle attività previste dal piano e dalla relazione. L'accertamento del reddito derivante dall'attività agrituristica avviene mediante la trasmissione obbligatoria al comune del prezzario pratico e la comunicazione delle presenze degli utenti da parte delle imprese, ai sensi della legislazione vigente.
+						</corpo>
 					</comma>
 					<comma id="art4-com1">
 						<num>1.</num>
