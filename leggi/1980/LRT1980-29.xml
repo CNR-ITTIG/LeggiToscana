@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19800424" num="25" tipo="BURT" />
 					<entratainvigore norm="19800509" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1980-04-16;29" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1980-04-16;29" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1980-04-16;29@1988-12-17" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Agricoltura" />
 					</materie>
@@ -15,11 +16,59 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19800509" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19890106" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-04-16;29" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1988-12-17;89" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-12-17;89" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-12-17;89#art15-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 15, comma 1 della legge Regione Toscana 17 dicembre 1988, n. 89" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-12-17;89" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-12-17;89#art15-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 15, comma 2 della legge Regione Toscana 17 dicembre 1988, n. 89" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3-com4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-com3-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-12-17;89" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-12-17;89#art16-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 16, comma 1 della legge Regione Toscana 17 dicembre 1988, n. 89" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -96,7 +145,15 @@
 					<num>ARTICOLO 3</num>
 					<comma id="art3-com1">
 						<num />
-						<corpo>Per ottenere i benefici previsti dalla presente legge i soggetti beneficiari devono presentare la domanda al Presidente della Regione tramite gli uffici provinciali dell'agricoltura, foreste e alimentazione competenti per territorio i quali provvederanno alla istruttoria delle domande medesime ed agli accertamenti necessari.</corpo>
+						<corpo>
+							Per ottenere i benefici previsti dalla presente legge i soggetti beneficiari devono presentare la domanda
+							<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">al Presidente della Regione tramite gli uffici provinciali dell'agricoltura, foreste e alimentazione competenti per territorio</h:span>
+							<h:span id="h2" iniziovigore="t2">
+								agli enti delegati di cui al successivo
+								<rif xlink:href="#art3bis" xlink:type="simple">art. 3 bis</rif>
+							</h:span>
+							i quali provvederanno alla istruttoria delle domande medesime ed agli accertamenti necessari.
+						</corpo>
 					</comma>
 					<comma id="art3-com2">
 						<num />
@@ -108,13 +165,70 @@
 							se trattasi di terreni malcoltivati o insufficientemente coltivati.
 						</corpo>
 					</comma>
-					<comma id="art3-com3">
+					<comma finevigore="t2" id="art3-com3-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>
 							Sulle domande presentate decide la Giunta regionale la quale può delegare i propri poteri ai coordinatori degli uffici provinciali dell'agricoltura, foreste e alimentazione ai sensi della
 							<rif xlink:href="urn:nir:regione.toscana:legge:1977-08-22;56" xlink:type="simple">LR 22 agosto 1977, n. 56</rif>
 							.
 						</corpo>
+					</comma>
+					<comma id="art3-com4" iniziovigore="t2">
+						<num />
+						<corpo>
+							Gli enti delegati di cui al
+							<rif xlink:href="#art3-com1" xlink:type="simple">primo comma</rif>
+							decidono sulle domande presentate.
+						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art3bis" iniziovigore="t2">
+					<num>Art. 3 bis</num>
+					<comma id="art3bis-com1">
+						<num />
+						<alinea>
+							La funzione attribuita agli enti delegati ai sensi dell'
+							<rif xlink:href="#art3" xlink:type="simple">art. 3</rif>
+							della presente legge è esercitata:
+						</alinea>
+						<el id="art3bis-com1-leta">
+							<num>a)</num>
+							<corpo>
+								dalle comunità montane di cui al
+								<rif xlink:href="urn:nir:regione.toscana:legge:1981-06-16;52#art2-com2" xlink:type="simple">secondo comma dell'art. 2 della LR 16 giugno 1981, n. 52</rif>
+								, per i rispettivi territori;
+							</corpo>
+						</el>
+						<el id="art3bis-com1-letb">
+							<num>b)</num>
+							<corpo>dalle province, per i restanti territori.</corpo>
+						</el>
+					</comma>
+					<comma id="art3bis-com2">
+						<num />
+						<corpo>
+							Nei casi di cui alla lettera b) del precedente comma la funzione è sub-delegata dalle province alle singole associazioni intercomunali istituite ai sensi della
+							<rif xlink:href="urn:nir:regione.toscana:legge:1979-08-17;37" xlink:type="simple">LR 17 agosto 1979, n. 37</rif>
+							ovvero, per il medesimo ambito territoriale, ad altre forme associative dei comuni, in conformità ai principi di cui al quarto e
+							<rif xlink:href="urn:nir:regione.toscana:legge:1986-03-24;12#art2-com5" xlink:type="simple">quinto comma dell'art. 2 della LR 24 marzo 1986, n. 12</rif>
+							. La subdelega è disposta qualora tutti i comuni dell'area interessata ne facciano espressa richiesta, previa deliberazione dei rispettivi consigli.
+						</corpo>
+					</comma>
+					<comma id="art3bis-com3">
+						<num />
+						<corpo>La provincia, su richiesta dei comuni interessati, previa deliberazione dei rispettivi consigli, ha inoltre la facoltà di disporre la sub-delega della funzione suddetta, per ambiti territoriali diversi da quelli di cui al precedente comma, a favore di forme associative dei comuni.</corpo>
+					</comma>
+					<comma id="art3bis-com4">
+						<num />
+						<corpo>Le province deliberano la subdelega di cui ai precedenti commi e inviano i relativi atti alla Giunta regionale corredandoli con il proprio parere nel merito.</corpo>
+					</comma>
+					<comma id="art3bis-com5">
+						<num />
+						<corpo>I provvedimenti di sub-delega sono soggetti ad approvazione del Consiglio regionale, su proposta della Giunta, e sono pubblicati sul bollettino ufficiale della Regione.</corpo>
+					</comma>
+					<comma id="art3bis-com6">
+						<num />
+						<corpo>Il suddetto atto di approvazione stabilisce i termini iniziali di decorrenza dell'esercizio delle funzioni subdelegate e la disciplina dei rapporti tra regione, provincia ed ente subdelegato. Stabilisce inoltre le disposizioni di carattere transitorio, in conformità ai principi fissati dalla legge regionale.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art4">
