@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t6" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1983-07-19;56" />
 					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1983-07-19;56@1987-03-02" />
-					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1983-07-19;56@1988-03-02" />
+					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1983-07-19;56@1988-03-02" />
+					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1983-07-19;56@1988-12-17" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Pubbliche Calamità" />
 						<materia valore="Agricoltura" />
@@ -24,6 +25,7 @@
 						<evento data="19830811" fonte="ra4" id="t5" tipo="modifica" />
 						<evento data="19870326" fonte="rp1" id="t6" tipo="modifica" />
 						<evento data="19880326" fonte="rp2" id="t7" tipo="modifica" />
+						<evento data="19890106" fonte="rp3" id="t8" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1983-07-19;56" xlink:type="simple" />
@@ -33,6 +35,7 @@
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1977-08-25;65" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1987-03-02;16" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1988-03-02;14" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1988-12-17;89" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -117,6 +120,36 @@
 								<dsp:pos xlink:href="#art10-com3-t7" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-12-17;89" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-12-17;89#art18-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 18, comma 1 della legge Regione Toscana 17 dicembre 1988, n. 89" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-12-17;89" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-12-17;89#art18-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 18, comma 2 della legge Regione Toscana 17 dicembre 1988, n. 89" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3-com5" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-com4-t8" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -184,7 +217,12 @@
 					<rubrica>(Presentazione delle domande Concessione delle provvidenze)</rubrica>
 					<comma id="art3-com1">
 						<num />
-						<corpo>Le domande per la concessione alle aziende agricole delle provvidenze di cui alla presente legge devono essere presentate entro 50 giorni dalla pubblicazione della deliberazione consiliare sul Bollettino ufficiale della Regione, alle Associazioni intercomunali e Comunità Montane competenti per territorio che esercitano le funzioni delle Associazioni intercomunali, le quali ne curano la relativa istruttoria, e, ove necessario, agli Istituti di Credito.</corpo>
+						<corpo>
+							Le domande per la concessione alle aziende agricole delle provvidenze di cui alla presente legge devono essere presentate entro 50 giorni dalla pubblicazione della deliberazione consiliare sul Bollettino ufficiale della Regione,
+							<h:span finevigore="t8" id="h1" iniziovigore="t1" status="abrogato">alle Associazioni intercomunali e Comunità Montane competenti per territorio che esercitano le funzioni delle Associazioni intercomunali</h:span>
+							<h:span id="h2" iniziovigore="t8">alle Province competenti per territorio</h:span>
+							, le quali ne curano la relativa istruttoria, e, ove necessario, agli Istituti di Credito.
+						</corpo>
 					</comma>
 					<comma id="art3-com2">
 						<num />
@@ -202,9 +240,21 @@
 							all'esercizio delle funzioni amministrative in materia di bonifica devono presentare alla Giunta regionale entro 50 giorni dalla pubblicazione della deliberazione consiliare sul bollettino ufficiale della Regione la richiesta del finanziamento occorrente per il ripristino delle opere pubbliche di bonifica danneggiate.
 						</corpo>
 					</comma>
-					<comma id="art3-com4">
+					<comma finevigore="t8" id="art3-com4-t8" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>Le provvidenze previste dalla presente legge sono concesse con deliberazione della Giunta regionale.</corpo>
+					</comma>
+					<comma id="art3-com5" iniziovigore="t8">
+						<num />
+						<corpo>
+							La giunta regionale con propria deliberazione ripartisce le provvidenze previste dalla presente legge tra gli enti di cui al
+							<mrif>
+								<rif xlink:href="#art3-com1" xlink:type="simple">primo</rif>
+								e
+								<rif xlink:href="#art3-com3" xlink:type="simple">terzo comma</rif>
+							</mrif>
+							. Nei casi di cui al primo comma le province provvedono alla successiva liquidazione alle aziende agricole.
+						</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art4">
