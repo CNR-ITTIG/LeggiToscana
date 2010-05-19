@@ -8,7 +8,8 @@
 					<entratainvigore norm="19810822" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t7" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1981-08-01;63" />
-					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1981-08-01;63@1987-12-29" />
+					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1981-08-01;63@1987-12-29" />
+					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1981-08-01;63@1989-02-01" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Agricoltura" />
 					</materie>
@@ -22,6 +23,7 @@
 						<evento data="19810822" fonte="ra4" id="t5" tipo="modifica" />
 						<evento data="19810822" fonte="ra5" id="t6" tipo="modifica" />
 						<evento data="19880123" fonte="rp1" id="t7" tipo="modifica" />
+						<evento data="19890225" fonte="rp2" id="t8" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1981-08-01;63" xlink:type="simple" />
@@ -31,6 +33,7 @@
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1981-02-09;15" xlink:type="simple" />
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1975-06-05;67" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1987-12-29;61" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1989-02-01;12" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -160,6 +163,18 @@
 								<dsp:pos xlink:href="#art14-com1-t7" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art12-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1989-02-01;12" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1989-02-01;12#art5-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 1 della legge Regione Toscana 1 febbraio 1989, n. 12" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art12-com2-t8" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -651,7 +666,7 @@
 								<corpo>contributi in conto capitale in alternativa o integrazione a precedente intervento in misura pari alla attualizzazione del concorso massimo ammissibile sugli interessi.</corpo>
 							</ep>
 						</comma>
-						<comma id="art12-com2">
+						<comma finevigore="t8" id="art12-com2-t8" iniziovigore="t1" status="abrogato">
 							<num />
 							<corpo>Possono essere ammessi a contributi anche i maggiori oneri incontrati nella realizzazione delle opere per effetto del documentato aumento dei costi.</corpo>
 						</comma>

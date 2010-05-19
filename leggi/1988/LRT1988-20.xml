@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19880331" num="20" tipo="BURT" />
 					<entratainvigore norm="19880415" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1988-03-21;20" />
+					<urn finevigore="t4" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1988-03-21;20" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1988-03-21;20@1989-02-01" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Foreste" />
 						<materia valore="Cooperative" />
@@ -19,11 +20,13 @@
 						<evento data="19880415" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19880415" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="19880415" fonte="ra2" id="t3" tipo="modifica" />
+						<evento data="19890225" fonte="rp1" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1988-03-21;20" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1982-11-29;84" xlink:type="simple" />
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1982-11-29;84" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1989-02-01;12" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -47,6 +50,23 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9-com1-num1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1989-02-01;12" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1989-02-01;12#art5-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 2 della legge Regione Toscana 1 febbraio 1989, n. 12" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art9-com1-leta-pun2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art9-com1-leta-pun1-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -612,9 +632,17 @@
 									</mrif>
 									:
 								</alinea>
-								<ep id="art9-com1-leta-pun1">
+								<ep finevigore="t4" id="art9-com1-leta-pun1-t4" iniziovigore="t1" status="abrogato">
 									<num>-</num>
 									<corpo>contributi in c/capitale fino al 50% delle spesa ammessa la percentuale viene ridotta in misura corrispondente a quella eventualmente concessa o concedibile dalla normativa comunitaria; l'intervento finanziario regionale può consistere, in alternativa al contributo in c/capitale, nel concorso regionale nel pagamento degli interessi, riferito ad un mutuo il cui importo, rispetto alla spesa complessiva ammessa, non può superare, in termini di attualizzazione del concorso regionale, la quota di partecipazione regionale sopraindicata; possono essere ammessi a contributo nella misura soprarichiamata, anche i maggiori oneri incontrati nella realizzazione delle opere per effetto del documentato aumento dei costi;</corpo>
+								</ep>
+								<ep id="art9-com1-leta-pun2" iniziovigore="t4">
+									<num>-</num>
+									<corpo>
+										contributi in c/capitale fino al 50% della spesa ammessa; l'intervento finanziario regionale può consistere, in alternativa al contributo in c/capitale, nel concorso regionale nel pagamento degli interessi, riferito ad un mutuo il cui importo, rispetto alla spesa complessiva ammessa, non può superare, in termini di attualizzazione del concorso regionale, la quota di partecipazione regionale sopraindicata; possono essere ammessi a contributo, nella misura sopra richiamata, anche i maggiori oneri incontrati nella realizzazione delle opere per effetto del documentato aumento dei costi. Per i progetti trasmessi alla Commissione CEE, ai sensi del
+										<rif xlink:href="urn:nir:comunita.europee:regolamento:1977;355" xlink:type="simple">Regolamento CEE n. 355/77</rif>
+										o di altra disposizione comunitaria, valgono le specifiche disposizioni regionali in materia;
+									</corpo>
 								</ep>
 							</el>
 							<el id="art9-com1-letb">
