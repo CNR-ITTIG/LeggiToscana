@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t12" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19810213" num="8" tipo="BURT" />
@@ -17,7 +17,8 @@
 					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1984-04-24" />
 					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1984-10-29" />
 					<urn finevigore="t11" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1985-01-10" />
-					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1986-01-13" />
+					<urn finevigore="t12" iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1986-01-13" />
+					<urn iniziovigore="t12" valore="urn:nir:regione.toscana:legge:1981-02-09;15@1989-01-23" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="AGRICOLTURA" />
 						<materia valore="ATTRIBUZIONI DELEGHE" />
@@ -36,6 +37,7 @@
 						<evento data="19841122" fonte="rp8" id="t9" tipo="modifica" />
 						<evento data="19850131" fonte="rp9" id="t10" tipo="modifica" />
 						<evento data="19860206" fonte="rp10" id="t11" tipo="modifica" />
+						<evento data="19890217" fonte="rp11" id="t12" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1981-02-09;15" xlink:type="simple" />
@@ -49,10 +51,11 @@
 						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:1984-10-29;60" xlink:type="simple" />
 						<passiva id="rp9" xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1" xlink:type="simple" />
 						<passiva id="rp10" xlink:href="urn:nir:regione.toscana:legge:1986-01-13;2" xlink:type="simple" />
+						<passiva id="rp11" xlink:href="urn:nir:regione.toscana:legge:1989-01-23;10" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Per l'interpretazione autentica della presente lettera si veda la
 							<rif xlink:href="urn:nir:regione.toscana:legge:1982-03-31;29" xlink:type="simple">legge regionale 31 marzo 1982, n. 29</rif>
@@ -94,6 +97,7 @@
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1981-08-01;63" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1981-08-01;63#art3-com12" xlink:type="simple" />
 								<dsp:subarg>
+									n. 25/84
 									<ittig:notavigenza auto="articolo 3, comma 12 della legge Regione Toscana 1 agosto 1981, n. 63" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
 								</dsp:subarg>
 							</dsp:norma>
@@ -317,7 +321,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art3-com6-com1" xlink:type="simple" />
+								<dsp:pos xlink:href="#art3-com6-num1" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art3-com6-num1-t11" xlink:type="simple" />
@@ -335,6 +339,18 @@
 								<dsp:pos xlink:href="#art4-com1-letc" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1981-02-09;15" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1989-01-23;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1989-01-23;10#art10-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 10, comma 1 della legge Regione Toscana 23 gennaio 1989, n. 10" id="itt22" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -507,7 +523,7 @@
 							<num>b)</num>
 							<corpo>
 								la disciplina delle utilizzazioni boschive, il vincolo idrogeologico, le prescrizioni di polizia forestale
-								<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+								<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 								;
 							</corpo>
 						</el>
@@ -611,14 +627,14 @@
 							<num>1)</num>
 							<corpo>l'attuazione degli interventi non riservati all'AIMA per la regolamentazione dei mercati;</corpo>
 						</en>
-						<comma id="art3-com6-com1" iniziovigore="t11">
+						<en id="art3-com6-num1" iniziovigore="t11">
 							<num>1)</num>
 							<corpo>
 								l'attuazione degli interventi per la regolazione dei mercati agricoli attribuiti alla Regione dalla normativa statale e quelli concordati dalla stessa con l'AIMA ai sensi dell'
 								<rif xlink:href="urn:nir:stato:legge:1982-08-14;610#art3-com1-lete" xlink:type="simple">art. 3, primo comma, lett e) della Legge 14 agosto 1982, n. 610</rif>
 								.
 							</corpo>
-						</comma>
+						</en>
 						<en id="art3-com6-num2">
 							<num>2)</num>
 							<corpo>la vigilanza sulla tenuta dei registri e dei libri genealogici e sulla attuazione dei relativi controlli funzionali;</corpo>
