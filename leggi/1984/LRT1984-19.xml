@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t5" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19840404" num="17" tipo="BURT" />
@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1984-03-26;19" />
 					<urn finevigore="t4" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1984-03-26;19@1986-12-22" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1984-03-26;19@1988-09-01" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1984-03-26;19@1988-09-01" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1984-03-26;19@1989-07-25" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Fonti Energetiche" />
 					</materie>
@@ -20,16 +21,18 @@
 						<evento data="19870113" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19870113" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19880927" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="19890819" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1984-03-26;19" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1986-12-22;54" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1986-12-22;54" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1988-09-01;67" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1989-07-25;46" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Per interventi relativi all'anno 1986, si veda l'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1986-12-22;54#art2" xlink:type="simple">art. 2 della Legge Regionale 22 dicembre 1986, n. 54</rif>
@@ -270,6 +273,18 @@
 								<dsp:pos xlink:href="#h16" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1984-03-26;19" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1989-07-25;46" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1989-07-25;46#art17-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 17, comma 1 della legge Regione Toscana 25 luglio 1989, n. 46" id="itt16" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -288,7 +303,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>AMBITO DI APPLICAZIONE DELLA LEGGE</rubrica>
 					<articolo id="art1">
@@ -314,7 +329,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>INTERVENTI FINANZIABILI</rubrica>
 					<articolo id="art3">
@@ -444,7 +459,7 @@
 					<articolo id="art6">
 						<num>
 							ARTICOLO 6
-							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 						</num>
 						<rubrica>(Interventi per la riduzione dei consumi energetici nel settore agricolo, industriale e artigianale)</rubrica>
 						<comma id="art6-com1">
@@ -557,7 +572,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>TITOLO III</num>
 					<rubrica>PROCEDURE</rubrica>
 					<articolo id="art8">
@@ -819,7 +834,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit4">
+				<titolo id="LeggeRegionale1-tit4">
 					<num>TITOLO IV</num>
 					<rubrica>NORME FINALI E FINANZIARIE</rubrica>
 					<articolo id="art15">
