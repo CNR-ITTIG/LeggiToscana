@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19880907" num="51 supplemento straordinario n. 15" tipo="BURT" />
 					<entratainvigore norm="19880922" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1988-08-26;63" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1988-08-26;63" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1988-08-26;63@1989-07-17" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Lavoro" />
 						<materia valore="Disabili" />
@@ -16,11 +17,29 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19880922" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19890810" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1988-08-26;63" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1989-07-17;43" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1989-07-17;43" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1989-07-17;43#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 17 luglio 1989, n. 43" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3-com1bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -75,6 +94,10 @@
 					<comma id="art3-com1">
 						<num>1.</num>
 						<corpo>Sono ammessi alle prestazioni i soggetti che presentino regolare domanda in possesso di un reddito familiare non superiore al parametro, comunque determinato, per le prestazioni assistenziali dai Comuni singoli o associati.</corpo>
+					</comma>
+					<comma id="art3-com1bis" iniziovigore="t2">
+						<num>1 bis.</num>
+						<corpo>Il reddito familiare è formato, a partire dal 1° gennaio 1989 esclusivamente dai redditi personali dell'invalido e del coniuge.</corpo>
 					</comma>
 					<comma id="art3-com2">
 						<num>2.</num>
