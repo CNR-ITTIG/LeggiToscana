@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19810619" num="36" tipo="BURT" />
 					<entratainvigore norm="19810704" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1981-06-12;52" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1981-06-12;52" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1981-06-12;52@1989-08-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Enti territoriali" />
 					</materie>
@@ -15,11 +16,44 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19810704" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19890914" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1981-06-12;52" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1989-08-21;50" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1989-08-21;50" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1989-08-21;50#art1-com2-pun1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2, 1 della legge Regione Toscana 21 agosto 1989, n. 50" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art1-com1-pun16" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art1-com1-pun15-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1989-08-21;50" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1989-08-21;50#art1-com2-pun2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2, 2 della legge Regione Toscana 21 agosto 1989, n. 50" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -271,7 +305,7 @@
 								</h:table>
 							</corpo>
 						</ep>
-						<ep id="art1-com1-pun15">
+						<ep finevigore="t2" id="art1-com1-pun15-t2" iniziovigore="t1" status="abrogato">
 							<num />
 							<corpo>
 								ZONA Q
@@ -287,7 +321,23 @@
 								</h:table>
 							</corpo>
 						</ep>
-						<ep id="art1-com1-pun16">
+						<ep id="art1-com1-pun16" iniziovigore="t2">
+							<num />
+							<corpo>
+								Zona Q
+								<h:table>
+									<h:tbody>
+										<h:tr>
+											<h:td>comprendente il Comune di Loro Ciuffenna e, parzialmente, i Comuni di Castelfranco di Sopra, Pian di Scò, Reggello e Castiglion Fibocchi.</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>Estensione ha. 18.395</h:td>
+										</h:tr>
+									</h:tbody>
+								</h:table>
+							</corpo>
+						</ep>
+						<ep id="art1-com1-pun17">
 							<num />
 							<corpo>
 								ZONA R
@@ -303,7 +353,7 @@
 								</h:table>
 							</corpo>
 						</ep>
-						<ep id="art1-com1-pun17">
+						<ep id="art1-com1-pun18">
 							<num />
 							<corpo>
 								ZONA S
@@ -319,7 +369,7 @@
 								</h:table>
 							</corpo>
 						</ep>
-						<ep id="art1-com1-pun18">
+						<ep id="art1-com1-pun19">
 							<num />
 							<corpo>
 								ZONA T
@@ -351,7 +401,9 @@
 						<corpo>
 							Resta ferma la classificazione come territori montani, ai sensi delle disposizioni richiamate al
 							<rif xlink:href="#art1-com1" xlink:type="simple">primo comma</rif>
-							, dei territori dei comuni di Vaglia (ha. 5.694), Radicondoli (ha. 13.253), Subbiano (ha. 7.824), Monteverdi Marittimo (ha. 9.836), Sassetta (ha. 2.659), M. Argentario (ha. 6.024), Monticiano (ha. 10.945), e, limitatamente ad una parte del loro territorio, i comuni di Pescia (ha. 5.616), Calenzano (ha. 540), Fiesole (ha. 30), Sesto Fiorentino (ha. 380), Greve in Chianti (ha. 11.197), Calci (ha. 925), Buti (ha. 820), Cavriglia (ha. 810), Arezzo (ha. 16.553), Castiglion Fibocchi (ha. 1.270), Capolona (ha. 3.005), Castiglion F.no (ha. 3.670), Cortona (ha. 15.860), Civitella Paganico (ha. 10.385), Roccastrada (ha. 9.504), Cinigiano (ha. 2.284), Scansano (ha. 12.311), Gaiole in Chianti (ha. 5.630), Radda in Chianti (ha. 4.230), Chiusdino (ha. 2.100), Montalcino (ha. 8.034).
+							, dei territori dei comuni di Vaglia (ha. 5.694), Radicondoli (ha. 13.253), Subbiano (ha. 7.824), Monteverdi Marittimo (ha. 9.836), Sassetta (ha. 2.659), M. Argentario (ha. 6.024), Monticiano (ha. 10.945), e, limitatamente ad una parte del loro territorio, i comuni di Pescia (ha. 5.616), Calenzano (ha. 540), Fiesole (ha. 30), Sesto Fiorentino (ha. 380), Greve in Chianti (ha. 11.197), Calci (ha. 925), Buti (ha. 820), Cavriglia (ha. 810), Arezzo (ha. 16.553),
+							<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">Castiglion Fibocchi (ha. 1.270)</h:span>
+							, Capolona (ha. 3.005), Castiglion F.no (ha. 3.670), Cortona (ha. 15.860), Civitella Paganico (ha. 10.385), Roccastrada (ha. 9.504), Cinigiano (ha. 2.284), Scansano (ha. 12.311), Gaiole in Chianti (ha. 5.630), Radda in Chianti (ha. 4.230), Chiusdino (ha. 2.100), Montalcino (ha. 8.034).
 						</corpo>
 					</comma>
 					<comma id="art1-com4">
