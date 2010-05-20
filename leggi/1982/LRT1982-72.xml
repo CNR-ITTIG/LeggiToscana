@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t6" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19820907" num="50" tipo="BURT" />
@@ -11,7 +11,8 @@
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1982-08-31;72@1983-06-06" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1982-08-31;72@1983-10-31" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1982-08-31;72@1985-01-10" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1982-08-31;72@1988-05-30" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1982-08-31;72@1988-05-30" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1982-08-31;72@1989-06-14" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sistema educativo" />
 					</materie>
@@ -23,6 +24,7 @@
 						<evento data="19831109" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19850131" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="19880624" fonte="rp4" id="t5" tipo="modifica" />
+						<evento data="19890711" fonte="rp5" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1982-08-31;72" xlink:type="simple" />
@@ -30,17 +32,18 @@
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1983-10-31;72" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1988-05-30;41" xlink:type="simple" />
+						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1989-06-14;37" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Ai sensi dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1988-05-30;41#art5-com2" xlink:type="simple">art. 5, comma 2 della legge regionale 30 maggio 1988, n. 41</rif>
 							le tariffe dei servizi a domanda individuale previsti dalla presente legge sono aumentate nella misura del 5 per cento.
 						</h:p>
 					</nota>
-					<nota id="n2">
+					<nota id="LeggeRegionale1-n2">
 						<h:p>
 							Relativamente al versamento dei contributi di cui al primo e secondo comma del presente articolo dell'anno accademico 1982/83 si veda la
 							<rif xlink:href="urn:nir:regione.toscana:legge:1983-06-06;39" xlink:type="simple">legge regionale 6 giugno 1983, n. 39</rif>
@@ -128,6 +131,18 @@
 								<dsp:testo valore="" />
 							</dsp:dominio>
 						</dsp:variazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1982-08-31;72" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1989-06-14;37" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1989-06-14;37#art30-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 30, comma 1 della legge Regione Toscana 14 giugno 1989, n. 37" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -139,7 +154,7 @@
 				<numDoc>72</numDoc>
 				<titoloDoc>
 					Norme sul diritto allo studio universitario
-					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 					.
 				</titoloDoc>
 			</intestazione>
@@ -905,7 +920,7 @@
 					<num>ARTICOLO 30</num>
 					<rubrica>
 						(Tasse e contributi
-						<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+						<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(b)</ndr>
 						)
 					</rubrica>
 					<comma id="art30-com1">

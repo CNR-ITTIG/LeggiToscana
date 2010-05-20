@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19810626" num="37" tipo="BURT" />
 					<entratainvigore norm="19810901" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1981-06-19; 53" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1981-06-19;53" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1981-06-19;53@1989-06-14" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sistema educativo" />
 					</materie>
@@ -15,9 +16,11 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19810901" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19890711" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
-						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1981-06-19; 53" xlink:type="simple" />
+						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1981-06-19;53" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1989-06-14;37" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -39,12 +42,28 @@
 						</h:p>
 					</nota>
 				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1989-06-14;37" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1989-06-14;37#art30-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 30, comma 2 della legge Regione Toscana 14 giugno 1989, n. 37" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
 				<tipoDoc>Legge Regionale</tipoDoc>
 				<dataDoc norm="19810619">19 giugno 1981</dataDoc>
-				,n.
+				, n.
 				<numDoc>53</numDoc>
 				<titoloDoc>
 					Interventi per il diritto allo studio.
@@ -123,7 +142,11 @@
 					<rubrica>(Scuola secondaria superiore e formazione professionale)</rubrica>
 					<comma id="art3-com1">
 						<num />
-						<alinea>Nella fascia dell'istruzione secondaria superiore ed artistica, ivi compresi i Conservatori musicali, le Accademie di Belle Arti ed i corsi per adulti volti al conseguimento di titoli di studio, ed in quella della formazione professionale, vengono attuati i seguenti interventi:</alinea>
+						<alinea>
+							Nella fascia dell'istruzione secondaria superiore ed artistica, ivi compresi i Conservatori musicali,
+							<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">le Accademie di Belle Arti</h:span>
+							ed i corsi per adulti volti al conseguimento di titoli di studio, ed in quella della formazione professionale, vengono attuati i seguenti interventi:
+						</alinea>
 						<el id="art3-com1-leta">
 							<num>a)</num>
 							<corpo>servizio di trasporto, normalmente mediante facilitazioni di viaggio sui mezzi di linea ordinaria;</corpo>
