@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19880812" num="46" tipo="BURT" />
 					<entratainvigore norm="19880827" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1988-08-03;58" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1988-08-03;58" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1988-08-03;58@1989-07-04" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Prodotti Agricoli" />
 						<materia valore="Foreste" />
@@ -17,11 +18,32 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19880827" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19890729" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1988-08-03;58" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1989-07-04;42" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1989-07-04;42" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1989-07-04;42#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 4 luglio 1989, n. 42" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art9-com4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art9-com4-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -282,24 +304,48 @@
 						<num>3.</num>
 						<corpo>La commissione di cui al comma precedente ha sede presso l'Amministrazione provinciale e rimane in carica per cinque anni.</corpo>
 					</comma>
-					<comma id="art9-com4">
+					<comma finevigore="t2" id="art9-com4-t2" iniziovigore="t1" status="abrogato">
 						<num>4.</num>
 						<alinea>La Commissione è presieduta dal Presidente dell'Amministrazione provinciale o suo delegato ed è composta da:</alinea>
-						<ep id="art9-com4-pun1">
+						<ep id="art9-com4-t2-pun1">
 							<num>-</num>
 							<corpo>un esperto designato dal Corpo Forestale dello Stato,</corpo>
 						</ep>
-						<ep id="art9-com4-pun2">
+						<ep id="art9-com4-t2-pun2">
 							<num>-</num>
 							<corpo>un esperto designato dall'Ente Toscano Sviluppo Agricolo e Forestale (ETSAF),</corpo>
 						</ep>
-						<ep id="art9-com4-pun3">
+						<ep id="art9-com4-t2-pun3">
 							<num>-</num>
 							<corpo>tre esperti designati da ciascuna delle organizzazioni professionali agricole maggiormente rappresentative a livello provinciale.</corpo>
 						</ep>
-						<ep id="art9-com4-pun4">
+						<ep id="art9-com4-t2-pun4">
 							<num>-</num>
 							<corpo>due esperti designati dalle associazioni dei raccoglitori riconosciute esistenti nella Provincia.</corpo>
+						</ep>
+					</comma>
+					<comma id="art9-com4" iniziovigore="t2">
+						<num>4.</num>
+						<alinea>La Commissione è presieduta dal Presidente dell'Amministrazione Provinciale o suo delegato ed è composta da:</alinea>
+						<ep id="art9-com4-pun1">
+							<num>-</num>
+							<corpo>un esperto designato dal Corpo Forestale dello Stato;</corpo>
+						</ep>
+						<ep id="art9-com4-pun2">
+							<num>-</num>
+							<corpo>un esperto designato dall'Ente Toscano di Sviluppo Agricolo e Forestale (ETSAF);</corpo>
+						</ep>
+						<ep id="art9-com4-pun3">
+							<num>-</num>
+							<corpo>tre esperti designati dalle organizzazioni professionali agricole maggiormente rappresentative a livello provinciale;</corpo>
+						</ep>
+						<ep id="art9-com4-pun4">
+							<num>-</num>
+							<corpo>
+								due esperti designati dalle associazioni dei raccoglitori riconosciute ai sensi della
+								<rif xlink:href="urn:nir:regione.toscana:legge:1986-08-04;35" xlink:type="simple">LR 4-8-1986, n. 35</rif>
+								, se esistenti nella Provincia
+							</corpo>
 						</ep>
 					</comma>
 					<comma id="art9-com5">
