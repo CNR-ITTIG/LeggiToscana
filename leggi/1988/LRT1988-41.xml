@@ -8,7 +8,8 @@
 					<entratainvigore norm="19880624" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t7" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1988-05-30;41" />
-					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1988-05-30;41@1988-09-01" />
+					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1988-05-30;41@1988-09-01" />
+					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1988-05-30;41@1989-05-22" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Contabilità Contratti" />
@@ -23,6 +24,7 @@
 						<evento data="19880624" fonte="ra4" id="t5" tipo="modifica" />
 						<evento data="19880624" fonte="rp1" id="t6" tipo="modifica" />
 						<evento data="19880927" fonte="rp2" id="t7" tipo="modifica" />
+						<evento data="19890531" fonte="rp3" id="t8" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1988-05-30;41" xlink:type="simple" />
@@ -32,8 +34,18 @@
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1987-05-21;31" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1988-05-30;42" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1988-09-01;69" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1989-05-22;27" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Termine prorogato al 31 ottobre 1989 ai sensi dell'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1989-05-22;27#art1" xlink:type="simple">art. 1 della legge regionale 22 maggio 1989, n. 27</rif>
+							.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:variazione completa="si" implicita="no">
@@ -79,7 +91,7 @@
 					</modificheattive>
 					<modifichepassive>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art11" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-05-30;42" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-05-30;42#artunico-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -105,6 +117,24 @@
 								<dsp:pos xlink:href="#art17-com1-t7" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:proroga completa="si" implicita="no" su="efficacia">
+							<dsp:termine da="#t8" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1989-05-22;27" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1989-05-22;27#mod1" xlink:type="simple" />
+							</dsp:norma>
+						</dsp:proroga>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1989-05-22;27" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1989-05-22;27#art5-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 1 della legge Regione Toscana 22 maggio 1989, n. 27" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art8-com1-t8" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -176,7 +206,11 @@
 							<alinea>Nel corso dell'anno 1988 la Regione provvede:</alinea>
 							<el id="art3-com1-leta">
 								<num>a)</num>
-								<corpo>ad accertare entro il 31 ottobre 1988 le somme che, assegnate dalla Regione entro il 31-12-85 ai soggetti destinatari ai sensi di legge, non sono state utilizzate dagli stessi soggetti entro 60 giorni dalla entrata in vigore della presente legge;</corpo>
+								<corpo>
+									ad accertare entro il 31 ottobre 1988
+									<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+									le somme che, assegnate dalla Regione entro il 31-12-85 ai soggetti destinatari ai sensi di legge, non sono state utilizzate dagli stessi soggetti entro 60 giorni dalla entrata in vigore della presente legge;
+								</corpo>
 							</el>
 							<el id="art3-com1-letb">
 								<num>b)</num>
@@ -379,22 +413,22 @@
 					<rubrica>INTERVENTO IN CAMPO ECONOMICO</rubrica>
 					<articolo id="art8">
 						<num>ARTICOLO 8</num>
-						<comma id="art8-com1">
+						<comma finevigore="t8" id="art8-com1-t8" iniziovigore="t1" status="abrogato">
 							<num>1.</num>
 							<alinea>
 								Per l'anno 1988 le spese autorizzabili ai sensi dell'
 								<rif xlink:href="urn:nir:regione.toscana:legge:1974-05-30;27#art1" xlink:type="simple">art. 1 della legge regionale 30-5-74, n. 27</rif>
 								in materia di attività promozionali sono così determinate:
 							</alinea>
-							<el id="art8-com1-leta">
+							<el id="art8-com1-t8-leta">
 								<num>a)</num>
 								<corpo>quanto a lire 2.100 milioni per gli interventi di promozione a favore dell'artigianato e commercio;</corpo>
 							</el>
-							<el id="art8-com1-letb">
+							<el id="art8-com1-t8-letb">
 								<num>b)</num>
 								<corpo>quanto a lire 1.500 milioni per gli interventi di promozione a favore del turismo;</corpo>
 							</el>
-							<el id="art8-com1-letc">
+							<el id="art8-com1-t8-letc">
 								<num>c)</num>
 								<corpo>quanto a lire 1.200 milioni per gli interventi di promozione a favore dell'agricoltura.</corpo>
 							</el>
