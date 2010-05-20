@@ -11,7 +11,8 @@
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1975-04-24;33@1976-08-02" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1975-04-24;33@1976-08-12" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1975-04-24;33@1985-05-02" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1975-04-24;33@1988-09-01" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1975-04-24;33@1988-09-01" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1975-04-24;33@1989-05-29" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -20,6 +21,7 @@
 						<evento data="19760904" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19850525" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="19880927" fonte="rp4" id="t5" tipo="modifica" />
+						<evento data="19890622" fonte="rp5" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1975-04-24;33" xlink:type="simple" />
@@ -27,6 +29,7 @@
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1976-08-12;49" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1985-05-02;44" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1988-09-01;66" xlink:type="simple" />
+						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1989-05-29;35" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -46,12 +49,33 @@
 					</nota>
 					<nota id="n3">
 						<h:p>
+							Termine prorogato al 30 maggio ex
+							<rif xlink:href="urn:nir:regione.toscana:legge:1989-05-29;35" xlink:type="simple">legge regionale 29 maggio 1989, n. 35</rif>
+							.
+						</h:p>
+					</nota>
+					<nota id="n4">
+						<h:p>
+							Termine prorogato al 31 luglio ex
+							<rif xlink:href="urn:nir:regione.toscana:legge:1989-05-29;35" xlink:type="simple">legge regionale 29 maggio 1989, n. 35</rif>
+							.
+						</h:p>
+					</nota>
+					<nota id="n5">
+						<h:p>
+							Termine prorogato al 31 agosto ex
+							<rif xlink:href="urn:nir:regione.toscana:legge:1989-05-29;35" xlink:type="simple">legge regionale 29 maggio 1989, n. 35</rif>
+							.
+						</h:p>
+					</nota>
+					<nota id="n6">
+						<h:p>
 							Importo elevato di L. 25.000.000 ex
 							<rif xlink:href="urn:nir:regione.toscana:legge:1976-08-02;43#art1" xlink:type="simple">art. 1 legge regionale 2 agosto 1976, n. 43</rif>
 							.
 						</h:p>
 					</nota>
-					<nota id="n4">
+					<nota id="n7">
 						<h:p>
 							Importo ridotto di L. 25.000.000 ex
 							<rif xlink:href="urn:nir:regione.toscana:legge:1976-08-02;43#art2" xlink:type="simple">art. 2 legge regionale 2 agosto 1976, n. 43</rif>
@@ -235,6 +259,12 @@
 								<dsp:pos xlink:href="#h6" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:proroga completa="si" implicita="no" su="efficacia">
+							<dsp:termine da="#t6" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1989-05-29;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1989-05-29;35#mod1" xlink:type="simple" />
+							</dsp:norma>
+						</dsp:proroga>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -706,7 +736,9 @@
 						<corpo>
 							Le domande per ottenere i contributi di cui all'
 							<rif xlink:href="#art7" xlink:type="simple">art. 7</rif>
-							devonoessere presentate al Presidente della Giunta regionale entro il 31 gennaio di ogni anno.
+							devonoessere presentate al Presidente della Giunta regionale entro il 31 gennaio di ogni anno
+							<ndr num="#n3" valore="" xlink:type="simple">(c)</ndr>
+							.
 						</corpo>
 					</comma>
 					<comma id="art12-com3">
@@ -735,11 +767,19 @@
 					<rubrica>(Piano di riparto dei contributi per attività e iniziative)</rubrica>
 					<comma id="art13-com1">
 						<num />
-						<corpo>La Giunta regionale, sentita la commissione regionale dello sport, predispone, entro il 31 marzo di ogni anno, il piano di riparto dei contributi relativi alle attività e alle iniziative per lo sviluppo dello sport.</corpo>
+						<corpo>
+							La Giunta regionale, sentita la commissione regionale dello sport, predispone, entro il 31 marzo di ogni anno
+							<ndr num="#n4" valore="" xlink:type="simple">(d)</ndr>
+							, il piano di riparto dei contributi relativi alle attività e alle iniziative per lo sviluppo dello sport.
+						</corpo>
 					</comma>
 					<comma id="art13-com2">
 						<num />
-						<corpo>Il piano è approvato dal Consiglio regionale entro il 31 maggio di ogni anno.</corpo>
+						<corpo>
+							Il piano è approvato dal Consiglio regionale entro il 31 maggio di ogni anno
+							<ndr num="#n5" valore="" xlink:type="simple">(e)</ndr>
+							.
+						</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art14">
@@ -804,7 +844,7 @@
 							Agli oneri derivanti dall'applicazione dell'
 							<rif xlink:href="#art7" xlink:type="simple">art. 7</rif>
 							- primo e secondo comma -, della presente legge, previsti annualmente in L. 110.000.000
-							<ndr num="#n3" valore="" xlink:type="simple">(c)</ndr>
+							<ndr num="#n6" valore="" xlink:type="simple">(f)</ndr>
 							si fa fronte per l'anno 1975 con i fondi previsti al cap. 18.150 art. 30 che viene pure istituito con la variazione al bilancio di cui all'
 							<rif xlink:href="#art17" xlink:type="simple">art. 17</rif>
 							.
@@ -816,7 +856,7 @@
 							Agli oneri derivanti dall'applicazione dell'
 							<rif xlink:href="#art7" xlink:type="simple">art. 7</rif>
 							- ultimo comma - della presente legge, prevista annualmente in L. 35.000.000
-							<ndr num="#n4" valore="" xlink:type="simple">(d)</ndr>
+							<ndr num="#n7" valore="" xlink:type="simple">(g)</ndr>
 							si fa fronte per l'anno 1975 con i fondi previsti al cap. 18.150 art. 40 che viene istituito con la variazione di bilancio di cui all'
 							<rif xlink:href="#art17" xlink:type="simple">art. 17</rif>
 							.
