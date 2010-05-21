@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1975-02-24;16" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1975-02-24;16@1975-05-23" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1975-02-24;16@1979-02-19" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1975-02-24;16@1979-02-19" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1975-02-24;16@1989-08-30" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -17,12 +18,14 @@
 						<evento data="19750315" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19750614" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19790223" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="19890926" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1975-02-24;16" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1975-02-24;17" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1975-05-23;49" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1979-02-19; 10" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1989-08-30;54" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -128,6 +131,18 @@
 								<dsp:pos xlink:href="#art6-t4" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1989-08-30;54" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1989-08-30;54#artunico-com5" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 5 della legge Regione Toscana 30 agosto 1989, n. 54" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -174,10 +189,10 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art3">
+				<articolo finevigore="t5" id="art3-t5" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 3</num>
 					<rubrica>(Misura di salvaguardia)</rubrica>
-					<comma id="art3-com1">
+					<comma id="art3-t5-com1">
 						<num />
 						<corpo>
 							Le misure di salvaguardia di cui alla
