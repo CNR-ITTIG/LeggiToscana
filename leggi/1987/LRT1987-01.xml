@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1987-01-10;1" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1987-01-10;1@1988-03-09" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1987-01-10;1@1988-05-30" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1987-01-10;1@1988-05-30" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1987-01-10;1@1989-08-30" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Turismo" />
 					</materie>
@@ -19,13 +20,24 @@
 						<evento data="19870204" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19880331" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19880623" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="19890911" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1987-01-10;1" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1988-03-09;15" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1988-05-30;40" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1989-08-30;56" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Termine prorogato al 31/12/1990 dalla
+							<rif xlink:href="urn:nir:regione.toscana:legge:1989-08-30;56" xlink:type="simple">legge regionale 30 agosto 1989, n. 56</rif>
+							.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:integrazione completa="si" implicita="no">
@@ -178,6 +190,15 @@
 								<dsp:pos xlink:href="#art26-com4-t3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:modtermini completa="si" implicita="no">
+							<dsp:termine da="#t4" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1989-08-30;56" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1989-08-30;56#mod1" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:modtermini>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -1007,7 +1028,10 @@
 						</comma>
 						<comma id="art25-com2" iniziovigore="t2">
 							<num />
-							<corpo>Entro un biennio dalla data di entrata in vigore della presente legge i residence, le case per ferie, gli ostelli per la gioventù, i rifugi alpini e gli esercizi di affittacamere già operanti devono essere adeguati, per poter continuare l'attività, ai requisiti della presente legge; in tal periodo possono essere rinnovate le autorizzazioni di esercizio sempre che sussistano i requisiti previsti dalla legislazione che disciplinava precedentemente le singole attività</corpo>
+							<corpo>
+								Entro un biennio dalla data di entrata in vigore della presente legge i residence, le case per ferie, gli ostelli per la gioventù, i rifugi alpini e gli esercizi di affittacamere già operanti devono essere adeguati, per poter continuare l'attività, ai requisiti della presente legge; in tal periodo possono essere rinnovate le autorizzazioni di esercizio sempre che sussistano i requisiti previsti dalla legislazione che disciplinava precedentemente le singole attività
+								<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							</corpo>
 						</comma>
 						<comma id="art25-com3">
 							<num />
