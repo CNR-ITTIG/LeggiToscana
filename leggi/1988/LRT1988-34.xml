@@ -8,7 +8,8 @@
 					<entratainvigore norm="19880531" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1988-05-21;34" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1988-05-21;34@1988-09-01" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1988-05-21;34@1988-09-01" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1988-05-21;34@1989-09-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Bilancio" />
@@ -18,16 +19,18 @@
 					<eventi>
 						<evento data="19880531" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19880912" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19890926" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1988-05-21;34" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1988-09-01;64" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1989-09-02;60" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							<dsp:pos xlink:href="#art9-t3" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-09-01;64" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-09-01;64#art6-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -35,10 +38,25 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art9" xlink:type="simple" />
+								<dsp:pos xlink:href="#art9-t3" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art9-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1989-09-02;60" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1989-09-02;60#art5-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 1 della legge Regione Toscana 2 settembre 1989, n. 60" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art9-t3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -246,11 +264,39 @@
 						<corpo>E' disposto che le rate di ammortamento relative agli anni seguenti il 1990 trovino copertura con le successive legge di bilancio.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art9" iniziovigore="t2">
+				<articolo finevigore="t3" id="art9-t3" iniziovigore="t2" status="abrogato">
 					<num>ARTICOLO 9</num>
-					<comma id="art9-com1">
+					<comma id="art9-t3-com1">
 						<num />
 						<corpo>Agli effetti di cui ai commi successivi il disavanzo per l'esercizio 1988 è approvato in Lire 165.243.429.447.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art9" iniziovigore="t3">
+					<num>ARTICOLO 9</num>
+					<rubrica />
+					<comma id="art9-com1">
+						<num />
+						<corpo>Agli effetti di cui ai commi successivi il disavanzo per l'esercizio 1989 è approvato in L. 174.193.843.544;</corpo>
+					</comma>
+					<comma id="art9-com2">
+						<num>2.</num>
+						<corpo>La Giunta Regionale è autorizzata a contrarre nell'esercizio 1989, mutui e prestiti, anche a tasso variabile, per l'importo di L. 174.193.843.544 per la copertura del disavanzo di cui al primo per le finalità indicate nell'allegato II 1);</corpo>
+					</comma>
+					<comma id="art9-com3">
+						<num>3.</num>
+						<corpo>I mutui di cui al secondo comma, da estinguersi in un periodo non superiore a 15 anni, saranno contratti ad un tasso iniziale non superiore al 13,00% effettivo annuo e con rata di ammortamento decorrente dall'1/1/1990;</corpo>
+					</comma>
+					<comma id="art9-com4">
+						<num>4.</num>
+						<corpo>In caso di eventuale maggiorazione della rata massima di ammortamento, determinata in L. 27.000.000.000 derivante, nel corso dell'ammortamento, dalla variabilità del tasso o dagli eventuali oneri conseguenti al rischio di cambio, saranno apportate le occorrenti variazioni ai bilanci annuale e pluriennale con le singole leggi di bilancio;</corpo>
+					</comma>
+					<comma id="art9-com5">
+						<num>5.</num>
+						<corpo>Le singole rate di ammortamento trovano copertura finanziaria per gli anni 1990 e 1991 mediante gli appositi stanziamenti del bilancio pluriennale approvato dalla presente legge;</corpo>
+					</comma>
+					<comma id="art9-com6">
+						<num>6.</num>
+						<corpo>E' disposto che le rate di ammortamento relative agli anni seguenti al 1991 trovino copertura con le successive leggi di bilancio</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art10">
