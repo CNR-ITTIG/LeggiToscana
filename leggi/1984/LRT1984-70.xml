@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t31" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1984-12-06;70" />
 					<urn finevigore="t32" iniziovigore="t31" valore="urn:nir:regione.toscana:legge:1984-12-06;70@1988-06-06" />
-					<urn iniziovigore="t32" valore="urn:nir:regione.toscana:legge:1984-12-06;70@1989-08-12" />
+					<urn finevigore="t33" iniziovigore="t32" valore="urn:nir:regione.toscana:legge:1984-12-06;70@1989-08-12" />
+					<urn iniziovigore="t33" valore="urn:nir:regione.toscana:legge:1984-12-06;70@1989-08-30" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ordinamento" />
 						<materia valore="Enti Territoriali" />
@@ -50,6 +51,7 @@
 						<evento data="19841227" fonte="ra29" id="t30" tipo="modifica" />
 						<evento data="19880701" fonte="rp1" id="t31" tipo="modifica" />
 						<evento data="19890831" fonte="rp2" id="t32" tipo="modifica" />
+						<evento data="19890926" fonte="rp3" id="t33" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1984-12-06;70" xlink:type="simple" />
@@ -84,8 +86,18 @@
 						<attiva id="ra29" xlink:href="urn:nir:regione.toscana:legge:1980-05-24;71" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1988-06-06;45" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1989-08-12;49" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1989-08-30;53" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							A modificazione ed integrazione della presente si veda la
+							<rif xlink:href="urn:nir:regione.toscana:legge:1989-08-30;53" xlink:type="simple">legge regionale 30 agosto 1989, n. 53</rif>
+							.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -537,6 +549,15 @@
 								<dsp:testo valore="" />
 							</dsp:dominio>
 						</dsp:variazione>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:termine da="#t33" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1989-08-30;53" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1989-08-30;53#mod1" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:variazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -546,7 +567,11 @@
 				<dataDoc norm="19841206">6 dicembre 1984</dataDoc>
 				, n.
 				<numDoc>70</numDoc>
-				<titoloDoc>Piano Sanitario Regionale 1984-1986 e Piano Regionale dei Servizi Sociali 1984-1986.</titoloDoc>
+				<titoloDoc>
+					Piano Sanitario Regionale 1984-1986 e Piano Regionale dei Servizi Sociali 1984-1986
+					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					.
+				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 30-10-1984</h:p>
@@ -608,8 +633,8 @@
 								<num>4.</num>
 								<corpo>
 									Nella presente legge le parole "piani regionali" vanno intese quale congiunto riferimento ai piani di cui al
-									<rif xlink:href="#art2-com1" xlink:type="simple">precedente comma 1</rif>
-									).
+									<rif xlink:href="#art2-com1" xlink:type="simple">precedente comma 1)</rif>
+									.
 								</corpo>
 							</comma>
 						</articolo>
@@ -3766,7 +3791,7 @@
 							</redazionale>
 						</meta>
 						<intestazione>
-							<ndr num="#ann1-n1" valore="" xlink:type="simple">(a)</ndr>
+							<ndr num="#ann1-n1" valore="" xlink:type="simple">(b)</ndr>
 							<ndr num="#ann1-n2" valore="" xlink:type="simple">(b)</ndr>
 						</intestazione>
 						<formulainiziale />
