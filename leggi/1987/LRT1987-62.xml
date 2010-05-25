@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t20" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19880108" num="2" tipo="BURT" />
 					<entratainvigore norm="19880123" />
 					<redazione id="red1" nome="" norm="" />
-					<urn iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1987-12-29;62" />
+					<urn finevigore="t20" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1987-12-29;62" />
+					<urn iniziovigore="t20" valore="urn:nir:regione.toscana:legge:1987-12-29;62@1989-08-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Ente Regione" />
@@ -34,6 +35,7 @@
 						<evento data="19880123" fonte="ra16" id="t17" tipo="modifica" />
 						<evento data="19880123" fonte="ra17" id="t18" tipo="modifica" />
 						<evento data="19880123" fonte="rp1" id="t19" tipo="modifica" />
+						<evento data="19890915" fonte="rp2" id="t20" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1987-12-29;62" xlink:type="simple" />
@@ -55,6 +57,7 @@
 						<attiva id="ra16" xlink:href="urn:nir:regione.toscana:legge:1973-09-06;54" xlink:type="simple" />
 						<attiva id="ra17" xlink:href="urn:nir:regione.toscana:legge:1984-04-24;22" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1988-01-05;1" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -353,6 +356,18 @@
 								<dsp:pos xlink:href="#h3" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1987-12-29;62" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51#art164-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 164, comma 1 della legge Regione Toscana 21 agosto 1989, n. 51" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -371,7 +386,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<capo id="cap1">
+				<capo id="LeggeRegionale1-cap1">
 					<num>CAPO I</num>
 					<rubrica>DISPOSIZIONI GENERALI</rubrica>
 					<articolo id="art1">
@@ -413,7 +428,7 @@
 						</comma>
 					</articolo>
 				</capo>
-				<capo id="cap2">
+				<capo id="LeggeRegionale1-cap2">
 					<num>CAPO II</num>
 					<rubrica>OCCUPAZIONE</rubrica>
 					<articolo id="art2">
@@ -900,7 +915,7 @@
 						</comma>
 					</articolo>
 				</capo>
-				<capo id="cap3">
+				<capo id="LeggeRegionale1-cap3">
 					<num>CAPO III</num>
 					<rubrica>PRODUTTIVITA' ED ORGANIZZAZIONE DEL LAVORO</rubrica>
 					<articolo id="art8">
@@ -1556,7 +1571,7 @@
 						</comma>
 					</articolo>
 				</capo>
-				<capo id="cap4">
+				<capo id="LeggeRegionale1-cap4">
 					<num>CAPO IV</num>
 					<rubrica>CONTRATTAZIONE DECENTRATA E RELAZIONI SINDACALI</rubrica>
 					<articolo id="art21">
@@ -1865,7 +1880,7 @@
 						</comma>
 					</articolo>
 				</capo>
-				<capo id="cap5">
+				<capo id="LeggeRegionale1-cap5">
 					<num>CAPO V</num>
 					<rubrica>IGIENE, SICUREZZA E SALUBRITA' DEL LAVORO</rubrica>
 					<articolo id="art28">
@@ -1916,7 +1931,7 @@
 						</comma>
 					</articolo>
 				</capo>
-				<capo id="cap6">
+				<capo id="LeggeRegionale1-cap6">
 					<num>CAPO VI</num>
 					<rubrica>TRATTAMENTO ECONOMICO</rubrica>
 					<articolo id="art31">
@@ -2266,7 +2281,7 @@
 						</comma>
 					</articolo>
 				</capo>
-				<capo id="cap7">
+				<capo id="LeggeRegionale1-cap7">
 					<num>CAPO VII</num>
 					<rubrica>DIRIGENZA</rubrica>
 					<articolo id="art37">
@@ -2484,7 +2499,7 @@
 						</comma>
 					</articolo>
 				</capo>
-				<capo id="cap8">
+				<capo id="LeggeRegionale1-cap8">
 					<num>CAPO VIII</num>
 					<rubrica>PERSONALE DELLA FORMAZIONE PROFESSIONALE</rubrica>
 					<articolo id="art42">
@@ -2564,7 +2579,7 @@
 						</comma>
 					</articolo>
 				</capo>
-				<capo id="cap9">
+				<capo id="LeggeRegionale1-cap9">
 					<num>CAPO IX</num>
 					<rubrica>NORME VARIE, FINALI E DI RINVIO</rubrica>
 					<articolo id="art44">
@@ -2795,7 +2810,7 @@
 						</comma>
 					</articolo>
 				</capo>
-				<capo id="cap10">
+				<capo id="LeggeRegionale1-cap10">
 					<num>CAPO X</num>
 					<rubrica>MODIFICAZIONI ALLA DOTAZIONE ORGANICA</rubrica>
 					<articolo id="art56">

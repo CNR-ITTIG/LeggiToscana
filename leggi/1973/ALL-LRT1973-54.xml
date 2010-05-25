@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<DocumentoNIR nome="">
+		<DocumentoNIR finevigore="t5" id="DocumentoNIR1" iniziovigore="t1" nome="" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19730915" num="41" tipo="BURT" />
@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1973-09-06;54:allegato" />
 					<urn finevigore="t4" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1973-09-06;54:allegato@1979-08-17" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1973-09-06;54:allegato@1982-09-08" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1973-09-06;54:allegato@1982-09-08" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1973-09-06;54:allegato@1989-08-21" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -17,12 +18,14 @@
 						<evento data="19790824" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19781001" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19820929" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="19890915" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1973-09-06;54:allegato" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1979-08-17;38" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1979-08-17;38" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1982-09-08;75" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -91,6 +94,18 @@
 							</dsp:norma>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#con17-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#??" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51#art164" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo164, legge Regione Toscana 21 agosto 1989, n. 51" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#DocumentoNIR1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>
