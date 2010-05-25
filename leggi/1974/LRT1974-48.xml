@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t5" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19740816" num="36" tipo="BURT" />
@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1974-08-10;48" />
 					<urn finevigore="t4" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1974-08-10;48@1976-08-12" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1974-08-10;48@1977-08-11" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1974-08-10;48@1977-08-11" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1974-08-10;48@1989-12-12" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -17,23 +18,25 @@
 						<evento data="19760904" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19761103" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19770903" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="19900102" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1974-08-10;48" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1976-08-12;47" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1976-10-19;65" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1977-08-11;47" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1989-12-12;83" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Ai sensi dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1976-10-19;65#art1" xlink:type="simple">art. 1 della legge regionale 19 ottobre 1976, n. 65</rif>
 							, tale contributo è stato integrato, per l'anno 1976, di L. 330.000.000.
 						</h:p>
 					</nota>
-					<nota id="n2">
+					<nota id="LeggeRegionale1-n2">
 						<h:p>
 							L'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1977-08-11;47#art3" xlink:type="simple">art. 3 della legge regionale 11 agosto 1977, n. 47</rif>
@@ -90,6 +93,18 @@
 								<dsp:pos xlink:href="#art24-com4-t4" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1974-08-10;48" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1989-12-12;83" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1989-12-12;83#art24-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 24, comma 1 della legge Regione Toscana 12 dicembre 1989, n. 83" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -108,7 +123,7 @@
 				<h:p>la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>NORME GENERALI</rubrica>
 					<articolo id="art1">
@@ -829,7 +844,7 @@
 								<num>a)</num>
 								<corpo>
 									il contributo ordinario annuale della Regione nella misura di L. 250.000.000
-									<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+									<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 									;
 								</corpo>
 							</el>
@@ -837,7 +852,7 @@
 								<num>a)</num>
 								<corpo>
 									Il contributo ordinario annuale della Regione, determinato per ciascun esercizio con la legge di approvazione del rispettivo bilancio
-									<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+									<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(b)</ndr>
 									;
 								</corpo>
 							</el>
@@ -900,7 +915,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>NORME TRANSITORIE</rubrica>
 					<articolo id="art25">
