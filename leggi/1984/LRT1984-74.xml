@@ -8,7 +8,8 @@
 					<entratainvigore norm="19850124" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1984-12-31;74" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1984-12-31;74@1987-04-13" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1984-12-31;74@1987-04-13" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1984-12-31;74@1989-12-14" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Urbanistica" />
 						<materia valore="Attribuzioni Deleghe" />
@@ -18,12 +19,30 @@
 					<eventi>
 						<evento data="19850124" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19870508" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19900106" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1984-12-31;74" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1987-04-13;24" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1989-12-14;85" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Per una deroga alle disposizioni del presente articolo, si veda la
+							<rif xlink:href="urn:nir:regione.toscana:legge:1989-12-14;85" xlink:type="simple">legge regionale 14 dicembre 1989, n. 85</rif>
+							.
+						</h:p>
+					</nota>
+					<nota id="n2">
+						<h:p>
+							Per una deroga alle disposizioni del presente articolo, si veda la
+							<rif xlink:href="urn:nir:regione.toscana:legge:1989-12-14;85" xlink:type="simple">legge regionale 14 dicembre 1989, n. 85</rif>
+							.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -119,6 +138,15 @@
 								<dsp:pos xlink:href="#art15-com3quinquies" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:deroga completa="si" implicita="no">
+							<dsp:termine da="#t3" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1989-12-14;85" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1989-12-14;85#mod1" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="rilascio concessioni edilizie" />
+							</dsp:dominio>
+						</dsp:deroga>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -180,7 +208,10 @@
 					</comma>
 				</articolo>
 				<articolo id="art3">
-					<num>ARTICOLO 3</num>
+					<num>
+						ARTICOLO 3
+						<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					</num>
 					<rubrica>(Prescrizioni e vincoli urbanistici regionali)</rubrica>
 					<comma id="art3-com1">
 						<num>1.</num>
@@ -216,7 +247,10 @@
 					</comma>
 				</articolo>
 				<articolo id="art4">
-					<num>ARTICOLO 4</num>
+					<num>
+						ARTICOLO 4
+						<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+					</num>
 					<rubrica>(Direttive)</rubrica>
 					<comma id="art4-com1">
 						<num>1.</num>
