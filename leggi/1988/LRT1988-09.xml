@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1988-02-23;9" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1988-02-23;9@1989-05-29" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1988-02-23;9@1989-11-18" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1988-02-23;9@1989-11-18" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1988-02-23;9@1990-01-18" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Turismo" />
 					</materie>
@@ -19,11 +20,13 @@
 						<evento data="19880319" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19890622" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19900101" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="19900209" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1988-02-23;9" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1989-05-29;34" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1989-11-18;76" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1990-01-18;3" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -106,6 +109,18 @@
 								<dsp:pos xlink:href="#art31-com1-t3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art12" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1990-01-18;3" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1990-01-18;3#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 18 gennaio 1990, n. 3" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art12bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -570,6 +585,72 @@
 					<comma id="art12-com5">
 						<num>5.</num>
 						<corpo>A tali fini l'Azienda di Promozione Turistica può anche realizzare per conto degli Enti Locali stessi manifestazioni o altre iniziative di propaganda, a concorrere alla loro realizzazione.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art12bis" iniziovigore="t4">
+					<num>Art. 12 bis</num>
+					<rubrica>(Comitato territoriale per le iniziative turistiche)</rubrica>
+					<comma id="art12bis-com1">
+						<num>1.</num>
+						<corpo>
+							Al fine di garantire la crescita di iniziative coordinate di sviluppo dell'attività turistica ed il più ampio collegamento funzionale fra i Comuni e le Aziende di Promozione Turistica (APT) e fatta salva la titolarità delle competenze secondo la disciplina dettata dall'
+							<rif xlink:href="urn:nir:stato:legge:1983-05-17;217#art4" xlink:type="simple">art. 4 della legge 17-5-1983 n. 217</rif>
+							, più Comuni compresi nell'ambito territoriale di competenza di uno o più APT, possono istituire in accordo tra loro, un Comitato territoriale per le iniziative turistiche.
+						</corpo>
+					</comma>
+					<comma id="art12bis-com2">
+						<num>2.</num>
+						<corpo>Il Comitato è composto da rappresentanti di Enti ed organismi pubblici e privati, interessati allo sviluppo del Turismo dell'area di competenza, che provvedono con propri messi ad assicurare il suo funzionamento.</corpo>
+					</comma>
+					<comma id="art12bis-com3">
+						<num>3.</num>
+						<alinea>Il Comitato può, in particolare, formulare proposte:</alinea>
+						<ep id="art12bis-com3-pun1">
+							<num>-</num>
+							<corpo>
+								per l'espressione del parere di cui al
+								<rif xlink:href="urn:nir:regione.toscana:legge:1988-02-23;9#art11-com1" xlink:type="simple">I comma dell'art. 11 della legge regionale 23-2-1988 n. 9</rif>
+								, alla Giunta Regionale;
+							</corpo>
+						</ep>
+						<ep id="art12bis-com3-pun2">
+							<num>-</num>
+							<corpo>per realizzare il coordinamento fra i servizi comunali e le attività degli Uffici di Informazione ed Accoglienza Turistica (IAT);</corpo>
+						</ep>
+						<ep id="art12bis-com3-pun3">
+							<num>-</num>
+							<corpo>
+								per favorire il raccordo e l'armonizzazione delle iniziative promozionali e di propaganda turistica, nonché delle manifestazioni interessanti il territorio di competenza, ai sensi del
+								<rif xlink:href="urn:nir:regione.toscana:legge:1988-02-23;9#art12-com4" xlink:type="simple">4° comma dell'art. 12 della legge regionale 23-2-1988 n. 9</rif>
+								;
+							</corpo>
+						</ep>
+						<ep id="art12bis-com3-pun4">
+							<num>-</num>
+							<corpo>
+								alle Province per le attività di loro competenza in materia di turismo ed in particolare per la loro partecipazione alla predisposizione del programma regionale di promozione delle attività turistiche, ai sensi dell'
+								<rif xlink:href="urn:nir:regione.toscana:legge:1988-02-23;9#art5-com4" xlink:type="simple">art. 5, 4° comma, della legge regionale 23-2-1988 n. 9</rif>
+								.
+							</corpo>
+						</ep>
+					</comma>
+					<comma id="art12bis-com4">
+						<num>4.</num>
+						<corpo>
+							Il Comitato inoltre esprime il proprio parere obbligatorio in ordine alla predisposizione dei programmi annuali e poliennali di attività delle aziende di promozione turistica, di cui al
+							<rif xlink:href="urn:nir:regione.toscana:legge:1988-02-23;9#art12-com1" xlink:type="simple">comma primo dell'art. 12 della legge regionale 23-2-1988 n. 9</rif>
+							entro il termine di trenta giorni dalla richiesta.
+						</corpo>
+					</comma>
+					<comma id="art12bis-com5">
+						<num>5.</num>
+						<corpo>
+							Le APT, per specifiche iniziative, possono di volta in volta, avvalersi del Comitato, tramite appposite convenzioni, per l'espletamento dei compiti previsti dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1988-02-23;9#art9-com1" xlink:type="simple">art. 9, I comma della legge regionale 23-2-1988, n. 9</rif>
+							, che riguardano in modo peculiare il territorio dei Comuni facenti parte del Comitato stesso, nel rispetto della disciplina dettata dall'
+							<rif xlink:href="urn:nir:stato:legge:1983-05-17;217#art4" xlink:type="simple">art. 4 della Legge 17-5-1983, n. 217</rif>
+							.
+						</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art13">
