@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19791221" num="71" tipo="BURT" />
 					<entratainvigore norm="19800105" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1979-12-13;61" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1979-12-13;61" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1979-12-13;61@1990-01-18" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Parchi" />
 					</materie>
@@ -15,9 +16,11 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19800105" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19900209" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1979-12-13;61" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1990-01-18;2" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -29,6 +32,34 @@
 						</h:p>
 					</nota>
 				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1990-01-18;2" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1990-01-18;2#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 18 gennaio 1990, n. 2" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art9-com12" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1990-01-18;2" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1990-01-18;2#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 18 gennaio 1990, n. 2" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art9-com13" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -391,6 +422,14 @@
 					<comma id="art9-com11">
 						<num />
 						<corpo>I regolamenti d'uso dei piani di gestione adottati sono trasmessi alla Giunta regionale che li approva entro 60 giorni dal ricevimento. Scaduto tale termine, senza che la Giunta regionale si sia pronunciata, i regolamenti d'uso ed i piani di gestione si intendono approvati.</corpo>
+					</comma>
+					<comma id="art9-com12" iniziovigore="t2">
+						<num />
+						<corpo>In deroga alle disposizioni del comma precedente, i piani di gestione adottati in sede di prima attuazione del Piano Territoriale di Coordinamento, sono approvati dal Consiglio Regionale su proposta trasmessa dalla Giunta entro sessanta giorni dal ricevimento dei piani medesimi. I piani si intendono approvati senza ulteriori atti qualora il Consiglio non provveda entro i sessanta giorni successivi al ricevimento della proposta della Giunta.</corpo>
+					</comma>
+					<comma id="art9-com13" iniziovigore="t2">
+						<num />
+						<corpo>I piani di recupero edilizio ed urbanistico adottati in carenza dei piani di gestione di cui al comma precedente, sono approvati dal Consiglio Regionale su proposta trasmessa dalla Giunta entro trenta giorni dal ricevimento dei piani stessi. I piani si intendono approvati senza ulteriori atti qualora il Consiglio non provveda entro trenta giorni successivi al ricevimento della proposta della Giunta.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art10">
