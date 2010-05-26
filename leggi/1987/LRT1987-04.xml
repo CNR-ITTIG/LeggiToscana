@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19870128" num="6" tipo="BURT" />
 					<entratainvigore norm="19870727" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1987-01-19;4" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1987-01-19;4" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1987-01-19;4@1989-12-30" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Protezione Animali" />
 					</materie>
@@ -15,11 +16,32 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19870727" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19900125" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1987-01-19;4" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1989-12-30;89" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art14" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1989-12-30;89" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1989-12-30;89#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 30 dicembre 1989, n. 89" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art14" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art14-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -148,7 +170,7 @@
 							La mancata segnalazione nei tempi stabiliti al
 							<rif xlink:href="#art8-com1-leta" xlink:type="simple">punto a)</rif>
 							della scomparsa o della morte dei cani, comporta una sanzione pari a quella fissata dall'
-							<rif xlink:href="#art14-com1-num2" xlink:type="simple">art. 14 primo comma n. 2</rif>
+							<rif xlink:href="#art14-t2-com1-num2" xlink:type="simple">art. 14 primo comma n. 2</rif>
 							per abbandono di animale, salvo che il proprietario o il detentore dello stesso non possa dimostrare che la mancata segnalazione è stata causata da cause di forza maggiore.
 						</corpo>
 					</comma>
@@ -196,12 +218,12 @@
 						<corpo>Tale attività di educazione sanitaria sarà svolta dal Servizio veterinario delle Unità Sanitarie Locali in collaborazione con enti ed associazioni di volontariato, protezionistiche e naturalistiche e, in ambiente scolastico, con i Provveditorati agli Studi.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art14">
+				<articolo finevigore="t2" id="art14-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 14</num>
-					<comma id="art14-com1">
+					<comma id="art14-t2-com1">
 						<num>1.</num>
 						<alinea>Per l'inosservanza delle disposizioni di cui alla presente legge si applicano le seguenti sanzioni amministrative:</alinea>
-						<en id="art14-com1-num1">
+						<en id="art14-t2-com1-num1">
 							<num>1.</num>
 							<corpo>
 								da L. 100.000 a L. 300.000 per le violazioni di cui agli
@@ -218,7 +240,7 @@
 								;
 							</corpo>
 						</en>
-						<en id="art14-com1-num2">
+						<en id="art14-t2-com1-num2">
 							<num>2.</num>
 							<corpo>
 								da L. 200.000 a L. 1.000.000 per violazioni di cui all'
@@ -227,9 +249,53 @@
 							</corpo>
 						</en>
 					</comma>
-					<comma id="art14-com2">
+					<comma id="art14-t2-com2">
 						<num>2.</num>
 						<corpo>Gli importi delle sanzioni di cui al comma precedente sono riscossi dalle Unità Sanitarie Locali ed acquisite ai relativi bilanci con destinazione alle finalità della presente legge.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art14" iniziovigore="t2">
+					<num>Art. 14</num>
+					<comma id="art14-com1">
+						<num>1.</num>
+						<alinea>
+							Per la inosservanza delle norme di cui alla presente legge si applicano le seguenti sanzioni amministrative, secondo quanto stabilito dalla
+							<rif xlink:href="urn:nir:stato:legge:1981-11-24;689" xlink:type="simple">legge 689 del 24-11-1981</rif>
+							:
+						</alinea>
+						<el id="art14-com1-leta">
+							<num>a)</num>
+							<corpo>
+								da L. 50.000 a L. 600.000 per le violazioni di cui agli
+								<mrif>
+									artt.
+									<rif xlink:href="#art3" xlink:type="simple">3</rif>
+									,
+									<rif xlink:href="#art4" xlink:type="simple">4</rif>
+									,
+									<rif xlink:href="#art5" xlink:type="simple">5</rif>
+									e
+									<rif xlink:href="#art6" xlink:type="simple">6</rif>
+								</mrif>
+								;
+							</corpo>
+						</el>
+						<el id="art14-com1-letb">
+							<num>b)</num>
+							<corpo>
+								da L. 200.000 a L. 1.000.000 per la violazione di cui all'
+								<rif xlink:href="#art9" xlink:type="simple">art. 9</rif>
+								.
+							</corpo>
+						</el>
+					</comma>
+					<comma id="art14-com2">
+						<num>2.</num>
+						<corpo>La competenza del sanzionamento amministrativo è della Regione.</corpo>
+					</comma>
+					<comma id="art14-com3">
+						<num>3.</num>
+						<corpo>Gli importi delle sanzioni di cui al comma precedente sono introitati dalla Regione e costituiscono quote di Fondo Sanitario Regionale destinate al finanziamento della legge medesima.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art15">
