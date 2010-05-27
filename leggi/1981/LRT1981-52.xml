@@ -8,7 +8,8 @@
 					<entratainvigore norm="19810704" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1981-06-12;52" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1981-06-12;52@1989-08-21" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1981-06-12;52@1989-08-21" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1981-06-12;52@1990-02-22" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Enti territoriali" />
 					</materie>
@@ -17,12 +18,34 @@
 					<eventi>
 						<evento data="19810704" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19890914" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19900317" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1981-06-12;52" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1989-08-21;50" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1990-02-22;9" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Articolo abrogato, ai sensi dell'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1990-02-22;9#art20-com2-letb" xlink:type="simple">art. 20, comma 2, lett. b) della legge regionale 22 febbraio 1990 n. 9</rif>
+							, a decorrere dal primo rinnovo ordinario dei consigli comunali successivo all'entrata in vigore della stessa
+							<rif xlink:href="urn:nir:regione.toscana:legge:1990;9" xlink:type="simple">LR 9/1990</rif>
+							.
+						</h:p>
+					</nota>
+					<nota id="n2">
+						<h:p>
+							Articolo abrogato, ai sensi dell'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1990-02-22;9#art20-com2-letb" xlink:type="simple">art. 20, comma 2, lett. b) della legge regionale 22 febbraio 1990 n. 9</rif>
+							, a decorrere dal primo rinnovo ordinario dei consigli comunali successivo all'entrata in vigore della stessa
+							<rif xlink:href="urn:nir:regione.toscana:legge:1990;9" xlink:type="simple">LR 9/1990</rif>
+							.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -50,6 +73,18 @@
 							</dsp:norma>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art12" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1990-02-22;9" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1990-02-22;9#art20-com1-letc" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 20, comma 1, lettera c) della legge Regione Toscana 22 febbraio 1990, n. 9" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art12-t3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>
@@ -468,7 +503,10 @@
 					</comma>
 				</articolo>
 				<articolo id="art4">
-					<num>ARTICOLO 4</num>
+					<num>
+						ARTICOLO 4
+						<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					</num>
 					<comma id="art4-com1">
 						<num />
 						<corpo>
@@ -787,7 +825,10 @@
 					</comma>
 				</articolo>
 				<articolo id="art11">
-					<num>ARTICOLO 11</num>
+					<num>
+						ARTICOLO 11
+						<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+					</num>
 					<comma id="art11-com1">
 						<num />
 						<corpo>
@@ -799,9 +840,9 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art12">
+				<articolo finevigore="t3" id="art12-t3" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 12</num>
-					<comma id="art12-com1">
+					<comma id="art12-t3-com1">
 						<num />
 						<corpo>
 							Fino all'approvazione dello statuto la giunta esecutiva delle comunità Montane corrispondenti alle zone A, B, C, D, E, F, G, H, I, L, può delegare l'esercizio dei compiti in materia sanitaria ad un comitato nominato e composto secondo la disciplina di cui al
