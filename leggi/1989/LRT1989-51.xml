@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19890831" num="49" tipo="BURT" />
 					<entratainvigore norm="19890915" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1989-08-21;51" />
+					<urn finevigore="t12" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1989-08-21;51" />
+					<urn iniziovigore="t12" valore="urn:nir:regione.toscana:legge:1989-08-21;51@1990-03-22" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Ente Regione" />
@@ -26,6 +27,7 @@
 						<evento data="19890915" fonte="ra8" id="t9" tipo="modifica" />
 						<evento data="19890915" fonte="ra9" id="t10" tipo="modifica" />
 						<evento data="19890915" fonte="ra10" id="t11" tipo="modifica" />
+						<evento data="19900415" fonte="rp1" id="t12" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51" xlink:type="simple" />
@@ -39,8 +41,18 @@
 						<attiva id="ra8" xlink:href="urn:nir:regione.toscana:legge:1987-08-03;42" xlink:type="simple" />
 						<attiva id="ra9" xlink:href="urn:nir:regione.toscana:legge:1987-12-29;62" xlink:type="simple" />
 						<attiva id="ra10" xlink:href="urn:nir:regione.toscana:legge:1988-08-16;59" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1990-03-22;20" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Ai sensi dell'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1990-03-22;20#art2-com1" xlink:type="simple">art. 2, comma 1, della legge regionale 22 marzo 1990 n. 20</rif>
+							, la Commissione di disciplina nominata secondo i precedenti criteri continua ad operare fino alla data di insediamento della nuova.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:abrogazione completa="si" implicita="no">
@@ -164,6 +176,23 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art123" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1990-03-22;20" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1990-03-22;20#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 22 marzo 1990, n. 20" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art123" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art123-t12" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -4505,7 +4534,7 @@
 										In caso contrario, l'atto di contestazione degli addebiti è trasmesso alla Giunta regionale assieme ad una relazione sulla inchiesta svolta e alle deduzioni dell'interessato. Trattandosi di dipendenti di uffici del Consiglio Regionale copia di tali atti è contemporaneamente inviata all'ufficio di presidenza il quale, ove ritenga che non sia proponibile l'archiviazione degli atti ai sensi del
 										<rif xlink:href="#art113-com3" xlink:type="simple">terzo comma</rif>
 										del presente articolo, richiede alla Giunta regionale la irrogazione della censura o la trasmissione degli atti alla Commissione di cui all'
-										<rif xlink:href="#art123" xlink:type="simple">art. 123</rif>
+										<rif xlink:href="#art123-t12" xlink:type="simple">art. 123</rif>
 										.
 									</corpo>
 								</comma>
@@ -4541,7 +4570,7 @@
 									<num>1.</num>
 									<corpo>
 										La Giunta Regionale ricevuti gli atti, ove non ne disponga l'archiviazione ai sensi dell'articolo precedente e ritenga che la sanzione da irrogare per il fatto commesso sia la censura, provvede direttamente. Negli altri casi invia gli atti al presidente della Commissione di cui al
-										<rif xlink:href="#art123" xlink:type="simple">successivo art. 123</rif>
+										<rif xlink:href="#art123-t12" xlink:type="simple">successivo art. 123</rif>
 										per le operazioni di competenza, dandone tempestiva notizia al dipendente.
 									</corpo>
 								</comma>
@@ -4740,44 +4769,99 @@
 									</corpo>
 								</comma>
 							</articolo>
-							<articolo id="art123">
+							<articolo finevigore="t12" id="art123-t12" iniziovigore="t1" status="abrogato">
 								<num>ARTICOLO 123</num>
 								<rubrica>(Commissione di disciplina)</rubrica>
-								<comma id="art123-com1">
+								<comma id="art123-t12-com1">
 									<num>1.</num>
 									<alinea>All'inizio di ogni legislatura e comunque entro 90 giorni dalla data di insediamento del Consiglio Regionale, la Giunta nomina una Commissione di disciplina costituita da:</alinea>
-									<el id="art123-com1-leta">
+									<el id="art123-t12-com1-leta">
 										<num>a)</num>
 										<corpo>il Presidente della Giunta o un componente della medesima all'uopo delegato con funzioni di Presidente e un supplente designato dallo stesso Presidente della Giunta;</corpo>
 									</el>
-									<el id="art123-com1-letb">
+									<el id="art123-t12-com1-letb">
 										<num>b)</num>
 										<corpo>tre componenti effettivi e tre supplenti eletti con voto limitato dal Consiglio regionale;</corpo>
 									</el>
-									<el id="art123-com1-letc">
+									<el id="art123-t12-com1-letc">
 										<num>c)</num>
 										<corpo>tre componenti effettivi e tre supplenti eletti con voto limitato dal personale;</corpo>
 									</el>
 								</comma>
-								<comma id="art123-com2">
+								<comma id="art123-t12-com2">
 									<num>2.</num>
 									<corpo>Le modalità per la elezione dei componenti di cui alla lett. c) verranno stabilite dalla Giunta di intesa con le rappresentanza sindacali del personale regionale.</corpo>
 								</comma>
-								<comma id="art123-com3">
+								<comma id="art123-t12-com3">
 									<num>3.</num>
 									<corpo>Ai componenti la Commissione che non siano dipendenti regionali spetta per ogni riunione una indennità pari a quella corrisposta ai membri elettivi degli organi regionali di controllo.</corpo>
 								</comma>
-								<comma id="art123-com4">
+								<comma id="art123-t12-com4">
 									<num>4.</num>
 									<corpo>Per la validità delle riunioni è necessaria la presenza della totalità dei componenti assegnati alla Commissione. A tale fine i componenti supplenti sostituiscono i componenti effettivi assenti.</corpo>
 								</comma>
-								<comma id="art123-com5">
+								<comma id="art123-t12-com5">
 									<num>5.</num>
 									<corpo>Le proposte sono approvate se ottengono la maggioranza dei voti dei presenti.</corpo>
 								</comma>
-								<comma id="art123-com6">
+								<comma id="art123-t12-com6">
 									<num>6.</num>
 									<corpo>Le funzioni di segretario sono espletate da un dipendente regionale designato dalla Giunta.</corpo>
+								</comma>
+							</articolo>
+							<articolo id="art123" iniziovigore="t12">
+								<num>
+									Art. 123
+									<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+								</num>
+								<rubrica>(Commissione di disciplina)</rubrica>
+								<comma id="art123-com1">
+									<num>1.</num>
+									<alinea>All'inizio di ogni legislatura e comunque entro 90 giorni dalla data di insediamento del Consiglio Regionale, la Giunta nomina una commissione di disciplina costituita da:</alinea>
+									<el id="art123-com1-leta">
+										<num>a)</num>
+										<corpo>un magistrato appartenente all'ordine giudiziario, anche in quiescenza, designato dal Presidente della Corte di Appello del capoluogo regionale, con funzioni di Presidente;</corpo>
+									</el>
+									<el id="art123-com1-letb">
+										<num>b)</num>
+										<corpo>un avvocato o procuratore designato dall' Avvocatura distrettuale dello Stato per la Toscana tra i propri avvocati e procuratori;</corpo>
+									</el>
+									<el id="art123-com1-letc">
+										<num>c)</num>
+										<corpo>due dirigenti regionali designati dalla Giunta tra i dirigenti assegnati ai dipartimenti AAGG e del Personale e AAGG e Legali;</corpo>
+									</el>
+									<el id="art123-com1-letd">
+										<num>d)</num>
+										<corpo>tre componenti effettivi e due supplenti eletti con voto limitato del personale;</corpo>
+									</el>
+									<el id="art123-com1-lete">
+										<num>e)</num>
+										<corpo>un dipendente regionale di qualifica non inferiore alla VII designato dalla Giunta, con funzioni di Segretario.</corpo>
+									</el>
+								</comma>
+								<comma id="art123-com2">
+									<num>2.</num>
+									<corpo>La Giunta designa altresì un componente supplente, scegliendolo tra i dirigenti regionali, che sostituisca, in caso di assenza, il componente designato dall'Avvocatura distrettuale dello Stato o i dirigenti regionali.</corpo>
+								</comma>
+								<comma id="art123-com3">
+									<num>3.</num>
+									<corpo>Il Presidente designa tra i componenti effettivi chi lo sostituisce in caso di assenza o di impedimento; il componente che funge da Presidente viene sostituito dal relativo supplente.</corpo>
+								</comma>
+								<comma id="art123-com4">
+									<num>4.</num>
+									<corpo>Le modalità per la elezione dei componenti di cui alla lett. d) vengono stabilite dalla Giunta d'intesa con le rappresentanze sindacali del personale regionale.</corpo>
+								</comma>
+								<comma id="art123-com5">
+									<num>5.</num>
+									<corpo>Per la validità delle riunioni è necessaria la presenza dei componenti effettivi della Commissione. I componenti supplenti partecipano alle sedute della Commissione senza diritto a voto; tale diritto viene esercitato solo in caso di assenza o impedimento dei relativi componenti effettivi.</corpo>
+								</comma>
+								<comma id="art123-com6">
+									<num>6.</num>
+									<corpo>Le proposte sono approvate se ottengono la maggioranza dei voti.</corpo>
+								</comma>
+								<comma id="art123-com7">
+									<num>7.</num>
+									<corpo>Ai componenti la Commissione, che non siano dipendenti regionali, viene corrisposto un gettone di presenza di importo pari a quello previsto per i membri eletti degli organi regionali di controllo. Al Presidente spetta inoltre una indennità di funzione pari a L. 500.000 mensili.</corpo>
 								</comma>
 							</articolo>
 						</sezione>
