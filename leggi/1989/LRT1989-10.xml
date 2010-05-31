@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19890202" num="8" tipo="BURT" />
 					<entratainvigore norm="19890217" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1989-01-23;10" />
+					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1989-01-23;10" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1989-01-23;10@1990-03-31" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Attribuzioni Deleghe" />
 						<materia valore="Agricoltura" />
@@ -17,10 +18,12 @@
 					<eventi>
 						<evento data="19890217" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19890217" fonte="ra1" id="t2" tipo="modifica" />
+						<evento data="19900424" fonte="rp1" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1989-01-23;10" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1981-02-09;15" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1990-03-31;32" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -38,6 +41,20 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-letl" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1990-03-31;32" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1990-03-31;32#art12-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 12, comma 2 della legge Regione Toscana 31 marzo 1990, n. 32" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com1-letl-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -119,7 +136,7 @@
 								;
 							</corpo>
 						</el>
-						<el id="art2-com1-letl">
+						<el finevigore="t3" id="art2-com1-letl-t3" iniziovigore="t1" status="abrogato">
 							<num>l)</num>
 							<corpo>
 								la difesa contro le malattie ed i parassiti delle piante, l'autorizzazione per l'uso dei presidi sanitari di 1a e 2a categoria di cui all'

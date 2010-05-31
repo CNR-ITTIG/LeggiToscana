@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t12" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19841107" num="55" tipo="BURT" />
 					<entratainvigore norm="19841122" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t11" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1984-10-29;60" />
-					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1984-10-29;60@1988-12-17" />
+					<urn finevigore="t12" iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1984-10-29;60@1988-12-17" />
+					<urn iniziovigore="t12" valore="urn:nir:regione.toscana:legge:1984-10-29;60@1990-03-31" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Agricoltura" />
 					</materie>
@@ -26,6 +27,7 @@
 						<evento data="19841122" fonte="ra8" id="t9" tipo="modifica" />
 						<evento data="19841122" fonte="ra9" id="t10" tipo="modifica" />
 						<evento data="19890106" fonte="rp1" id="t11" tipo="modifica" />
+						<evento data="19900424" fonte="rp2" id="t12" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1984-10-29;60" xlink:type="simple" />
@@ -39,6 +41,7 @@
 						<attiva id="ra8" xlink:href="urn:nir:regione.toscana:legge:1977-09-07;71" xlink:type="simple" />
 						<attiva id="ra9" xlink:href="urn:nir:regione.toscana:legge:1977-09-07;71" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1988-12-17;89" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1990-03-31;32" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -288,7 +291,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art11-com3" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-12-17;89" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-12-17;89#art22-com3" xlink:type="simple" />
 								<dsp:subarg>
@@ -500,6 +503,18 @@
 								<dsp:pos xlink:href="#h29" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1984-10-29;60" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1990-03-31;32" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1990-03-31;32#art12-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 12, comma 2 della legge Regione Toscana 31 marzo 1990, n. 32" id="itt24" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -518,7 +533,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<capo id="cap1">
+				<capo id="LeggeRegionale1-cap1">
 					<num>CAPO I</num>
 					<rubrica>DISCIPLINA DEI SERVIZI DI SVILUPPO AGRICOLO</rubrica>
 					<articolo id="art1">
@@ -890,7 +905,7 @@
 								<num>h)</num>
 								<corpo>
 									concorre all'elaborazione dei programmi regionali per i servizi di sviluppo agricolo secondo le norme di cui al
-									<rif xlink:href="#cap2" xlink:type="simple">capo II</rif>
+									<rif xlink:href="#LeggeRegionale1-cap2" xlink:type="simple">capo II</rif>
 									della presente legge.
 								</corpo>
 							</el>
@@ -1006,7 +1021,7 @@
 						</comma>
 					</articolo>
 				</capo>
-				<capo id="cap2">
+				<capo id="LeggeRegionale1-cap2">
 					<num>CAPO II</num>
 					<rubrica>PROGRAMMA REGIONALE PER I SERVIZI DI SVILUPPO AGRICOLO</rubrica>
 					<articolo id="art9">
@@ -1268,7 +1283,7 @@
 						</comma>
 					</articolo>
 				</capo>
-				<capo id="cap3">
+				<capo id="LeggeRegionale1-cap3">
 					<num>CAPO III</num>
 					<rubrica>ATTUAZIONE DEL PROGRAMMA REGIONALE</rubrica>
 					<articolo id="art13">
@@ -1434,7 +1449,7 @@
 						</comma>
 					</articolo>
 				</capo>
-				<capo id="cap4">
+				<capo id="LeggeRegionale1-cap4">
 					<num>CAPO IV</num>
 					<rubrica>DISPOSIZIONI FINANZIARIE</rubrica>
 					<articolo id="art20">
@@ -1485,7 +1500,7 @@
 						</comma>
 					</articolo>
 				</capo>
-				<capo id="cap5">
+				<capo id="LeggeRegionale1-cap5">
 					<num>CAPO V</num>
 					<rubrica>DISPOSIZIONI DIVERSE</rubrica>
 					<articolo id="art22">
@@ -1701,7 +1716,7 @@
 								Inoltre, sempre la fine del raggiungimento degli obiettivi perseguiti dal
 								<rif xlink:href="urn:nir:comunita.europee:regolamento:270;79-270-cee" xlink:type="simple">regolamento 79/270/CEE</rif>
 								, i programmi regionali per i servizi di sviluppo agricolo di cui al
-								<rif xlink:href="#cap2" xlink:type="simple">Cap. II della presente legge</rif>
+								<rif xlink:href="#LeggeRegionale1-cap2" xlink:type="simple">Cap. II della presente legge</rif>
 								considerano elemento preferenziale nel finanziamento dei progetti l'assunzione di divulgatori agricoli formati dal suddetto centro da parte dei centri di sviluppo agricolo.
 							</corpo>
 						</comma>
@@ -1749,7 +1764,7 @@
 							<num>2.</num>
 							<corpo>
 								I progetti di cui al comma precedente sono presentati e approvati con le stesse procedure di cui al
-								<rif xlink:href="#cap2" xlink:type="simple">Capo II</rif>
+								<rif xlink:href="#LeggeRegionale1-cap2" xlink:type="simple">Capo II</rif>
 								della presente legge.
 							</corpo>
 						</comma>
