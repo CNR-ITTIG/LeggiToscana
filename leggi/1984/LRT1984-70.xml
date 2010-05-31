@@ -10,7 +10,8 @@
 					<urn finevigore="t31" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1984-12-06;70" />
 					<urn finevigore="t32" iniziovigore="t31" valore="urn:nir:regione.toscana:legge:1984-12-06;70@1988-06-06" />
 					<urn finevigore="t33" iniziovigore="t32" valore="urn:nir:regione.toscana:legge:1984-12-06;70@1989-08-12" />
-					<urn iniziovigore="t33" valore="urn:nir:regione.toscana:legge:1984-12-06;70@1989-08-30" />
+					<urn finevigore="t34" iniziovigore="t33" valore="urn:nir:regione.toscana:legge:1984-12-06;70@1989-08-30" />
+					<urn iniziovigore="t34" valore="urn:nir:regione.toscana:legge:1984-12-06;70@1990-03-31" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ordinamento" />
 						<materia valore="Enti Territoriali" />
@@ -52,6 +53,7 @@
 						<evento data="19880701" fonte="rp1" id="t31" tipo="modifica" />
 						<evento data="19890831" fonte="rp2" id="t32" tipo="modifica" />
 						<evento data="19890926" fonte="rp3" id="t33" tipo="modifica" />
+						<evento data="19900424" fonte="rp4" id="t34" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1984-12-06;70" xlink:type="simple" />
@@ -87,6 +89,7 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1988-06-06;45" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1989-08-12;49" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1989-08-30;53" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1990-03-31;29" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -558,6 +561,30 @@
 								<dsp:testo valore="" />
 							</dsp:dominio>
 						</dsp:variazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art41" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1990-03-31;29" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1990-03-31;29#art15-com1-pun4" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 15, comma 1, 4 della legge Regione Toscana 31 marzo 1990, n. 29" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art41-t34" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art40" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1990-03-31;29" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1990-03-31;29#art15-com1-pun4" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 15, comma 1, 4 della legge Regione Toscana 31 marzo 1990, n. 29" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art40-t34" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -2157,7 +2184,7 @@
 								<num>5.</num>
 								<corpo>
 									Fino all'attuazione dei provvedimenti di cui al
-									<rif xlink:href="#art41" xlink:type="simple">successivo art. 41</rif>
+									<rif xlink:href="#art41-t34" xlink:type="simple">successivo art. 41</rif>
 									l'assistenza di cui al precedente comma è garantita con le modalità previste dall'
 									<rif xlink:href="urn:nir:regione.toscana:legge:1980-03-27;20#art6" xlink:type="simple">articolo 6 della LR 27/3/1980, n. 20</rif>
 									.
@@ -2184,40 +2211,40 @@
 								<corpo>Per il periodo di validità del primo piano sanitario regionale costituisce titolo preferenziale, ai fini della nomina a coordinatore di distretto, la scelta del rapporto di lavoro a tempo pieno.</corpo>
 							</comma>
 						</articolo>
-						<articolo id="art40">
+						<articolo finevigore="t34" id="art40-t34" iniziovigore="t1" status="abrogato">
 							<num>ARTICOLO 40</num>
 							<rubrica>(Attività integrate per più unità sanitarie locali)</rubrica>
-							<comma id="art40-com1">
+							<comma id="art40-t34-com1">
 								<num>1.</num>
 								<corpo>Per esigenze di efficienza operativa o di razionalizzazione della spesa, nel periodo di validità dei piani regionali previsti dalla presente legge, in sede di approvazione del programma pluriennale socio - sanitario o della relazione annuale, le assemblee di unità sanitarie locali limitrofe possono proporre alla giunta regionale di individuare unità operative che svolgano attività di base per conto delle medesime unità sanitarie locali.</corpo>
 							</comma>
-							<comma id="art40-com2">
+							<comma id="art40-t34-com2">
 								<num>2.</num>
 								<corpo>
 									Per il potenziamento delle unità operative che svolgono l'attività di cui al
-									<rif xlink:href="#art40-com1" xlink:type="simple">primo comma</rif>
+									<rif xlink:href="#art40-t34-com1" xlink:type="simple">primo comma</rif>
 									si fa ricorso al comando di personale ai sensi dell'
 									<rif xlink:href="urn:nir:presidente.repubblica:decreto:1979-12-20;761#art44" xlink:type="simple">articolo 44 del DPR 20/12/1979, n. 761</rif>
 									.
 								</corpo>
 							</comma>
-							<comma id="art40-com3">
+							<comma id="art40-t34-com3">
 								<num>3.</num>
 								<corpo>
 									La giunta regionale, con l'atto di individuazione di cui al
-									<rif xlink:href="#art40-com1" xlink:type="simple">primo comma</rif>
+									<rif xlink:href="#art40-t34-com1" xlink:type="simple">primo comma</rif>
 									, provvede al conseguente riequilibrio delle assegnazioni finanziarie tra le unità sanitarie locali interessate.
 								</corpo>
 							</comma>
 						</articolo>
-						<articolo id="art41">
+						<articolo finevigore="t34" id="art41-t34" iniziovigore="t1" status="abrogato">
 							<num>ARTICOLO 41</num>
 							<rubrica>(Prestazioni sanitarie agli abitanti dei comuni confinanti con altre regioni)</rubrica>
-							<comma id="art41-com1">
+							<comma id="art41-t34-com1">
 								<num>1.</num>
 								<corpo>La giunta regionale stabilisce rapporti con le regioni limitrofe al fine di assicurare, agli abitanti dei comuni di confine, le necessarie prestazioni sanitarie, anche attraverso servizi, presidi e operatori di tali regioni.</corpo>
 							</comma>
-							<comma id="art41-com2">
+							<comma id="art41-t34-com2">
 								<num>2.</num>
 								<corpo>La disciplina dei predetti rapporti è approvata dal consiglio regionale.</corpo>
 							</comma>
