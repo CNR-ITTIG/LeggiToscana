@@ -8,7 +8,8 @@
 					<entratainvigore norm="19820602" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1982-05-10;35" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1982-05-10;35@1989-08-21" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1982-05-10;35@1989-08-21" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1982-05-10;35@1990-04-14" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ordinamento" />
 						<materia valore="Personale" />
@@ -19,16 +20,34 @@
 					<eventi>
 						<evento data="19820602" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19890915" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19900511" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1982-05-10;35" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1990-04-14;44" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Si veda poi l'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1990-04-14;44#art2-com2" xlink:type="simple">art. 2, comma 2, della legge regionale 14 aprile 1990, n. 44</rif>
+							.
+						</h:p>
+					</nota>
+					<nota id="n2">
+						<h:p>
+							Termine prorogato al 30 giugno 1990 dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1990-04-14;44#art2-com1" xlink:type="simple">art. 2, comma 1, della legge regionale 14 aprile 1990, n. 44</rif>
+							.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art1" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51#art164-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -40,7 +59,7 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51#art164-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -52,7 +71,7 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51#art164-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -99,6 +118,12 @@
 								<dsp:pos xlink:href="#art9-t2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:proroga completa="si" implicita="no" su="efficacia">
+							<dsp:termine da="#t3" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1990-04-14;44" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1990-04-14;44#mod1" xlink:type="simple" />
+							</dsp:norma>
+						</dsp:proroga>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -321,6 +346,7 @@
 							In tali casi l'indennità di fine rapporto percepita per il servizio prestato presso l'ente di provenienza è da considerare come acconto del trattamento previdenziale spettante, che la Regione assicura nella misura di cui all'
 							<rif xlink:href="urn:nir:stato:legge:1968-03-08;152#art4" xlink:type="simple">art. 4 della legge 8 marzo 1968, n. 152</rif>
 							.
+							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
 						</corpo>
 					</comma>
 					<comma id="art7-com5">
@@ -347,7 +373,9 @@
 						<corpo>
 							I dipendenti interessati all'applicazione del
 							<rif xlink:href="#art7-com1" xlink:type="simple">primo comma dell'art. 7</rif>
-							debbono presentare apposita domanda alla Regione nel termine perentorio di 120 giorni dalla data di entrata in vigore della presente legge.
+							debbono presentare apposita domanda alla Regione nel termine perentorio di 120 giorni
+							<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+							dalla data di entrata in vigore della presente legge.
 						</corpo>
 					</comma>
 					<comma id="art8-com2">
