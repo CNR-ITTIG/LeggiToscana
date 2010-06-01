@@ -9,20 +9,32 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1982-06-29;52" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1982-06-29;52@1987-04-27" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1982-06-29;52@1990-01-26" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1982-06-29;52@1990-01-26" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1982-06-29;52@1990-04-14" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19820721" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19870521" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19900201" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="19900511" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1982-06-29;52" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1987-04-27;25" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1990-01-26;4" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1990-04-14;46" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Si veda la
+							<rif xlink:href="urn:nir:regione.toscana:legge:1990-04-14;46" xlink:type="simple">legge regionale 14 aprile 1990, n. 46</rif>
+							.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -727,6 +739,12 @@
 								<dsp:pos xlink:href="#art11-com5quinquies" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:posticipo completa="si" implicita="no">
+							<dsp:termine da="#t4" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1990-04-14;46" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1990-04-14;46#mod1" xlink:type="simple" />
+							</dsp:norma>
+						</dsp:posticipo>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -896,7 +914,10 @@
 							<num />
 							<corpo>
 								Le perimetrazioni delle aree protette ed i contenuti delle eventuali salvaguardie integrative di cui al comma 2 dell'articolo precedente, possono essere motivatamente modificate in ogni tempo dal Consiglio regionale con le stesse procedure previste per la loro approvazione
-								<h:span id="h5" iniziovigore="t2">salvo quanto previsto dal successivo comma 5</h:span>
+								<h:span id="h5" iniziovigore="t2">
+									salvo quanto previsto dal
+									<rif xlink:href="#art5-com5" xlink:type="simple">successivo comma 5</rif>
+								</h:span>
 								.
 							</corpo>
 						</comma>
@@ -918,12 +939,24 @@
 						</comma>
 						<comma id="art5-com7" iniziovigore="t3">
 							<num />
-							<corpo>Le varianti di cui al precedente comma sono pubblicate con le procedure previste ai comma 4° e 5° dell'art. 4 della presente legge e trasmessa alla Provincia ed alla Giunta regionale entro i 30 giorni successivi alla scadenza del termine fissato per la presentazione delle osservazioni, unitamente alle controdeduzioni del Comune.</corpo>
+							<corpo>
+								Le varianti di cui al precedente comma sono pubblicate con le procedure previste ai
+								<mrif>
+									comma
+									<rif xlink:href="#art4-com4" xlink:type="simple">4°</rif>
+									e
+									<rif xlink:href="#art4-com5" xlink:type="simple">5°</rif>
+									dell'art. 4
+								</mrif>
+								della presente legge e trasmessa alla Provincia ed alla Giunta regionale entro i 30 giorni successivi alla scadenza del termine fissato per la presentazione delle osservazioni, unitamente alle controdeduzioni del Comune.
+							</corpo>
 						</comma>
 						<comma id="art5-com8" iniziovigore="t3">
 							<num />
 							<corpo>
-								Le varianti sono approvate, previo parere dei Consigli Provinciali interessati da esprimersi entro il termine perentorio di 120 giorni dal ricevimento, con le procedure previste per l'approvazione dei nuovi piani regolatori generali e delle varianti generali di cui all'
+								Le varianti sono approvate, previo parere dei Consigli Provinciali
+								<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+								interessati da esprimersi entro il termine perentorio di 120 giorni dal ricevimento, con le procedure previste per l'approvazione dei nuovi piani regolatori generali e delle varianti generali di cui all'
 								<rif xlink:href="urn:nir:regione.toscana:legge:1984-12-31;74#art11" xlink:type="simple">art. 11 della LR 31 dicembre 1984 n. 74</rif>
 								; l'approvazione della variante costituisce contestualmente modifica del perimetro delle aree protette.
 							</corpo>
