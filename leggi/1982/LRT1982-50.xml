@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t4" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1982-06-12;50" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1982-06-12;50@1985-04-09" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1982-06-12;50@1985-05-02" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1982-06-12;50@1985-05-02" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1982-06-12;50@1990-04-09" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Assistenza sociale" />
 					</materie>
@@ -21,6 +22,7 @@
 						<evento data="19820714" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="19850504" fonte="rp1" id="t4" tipo="modifica" />
 						<evento data="19850525" fonte="rp2" id="t5" tipo="modifica" />
+						<evento data="19900505" fonte="rp3" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1982-06-12;50" xlink:type="simple" />
@@ -28,6 +30,7 @@
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1977-03-12;18" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1985-04-09;36" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1985-05-02;40" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1990-04-09;40" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -199,7 +202,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#art1-com2-num7-t5" xlink:type="simple" />
+								<dsp:pos xlink:href="#art1-com2-t6-num7-t5" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:abrogazione completa="si" implicita="no">
@@ -236,6 +239,30 @@
 							</dsp:norma>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1990-04-09;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1990-04-09;40#art1-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2 della legge Regione Toscana 9 aprile 1990, n. 40" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art1-com3-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1990-04-09;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1990-04-09;40#art1-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2 della legge Regione Toscana 9 aprile 1990, n. 40" id="itt8" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art1-com2-t6" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>
@@ -281,10 +308,10 @@
 							.
 						</corpo>
 					</comma>
-					<comma id="art1-com2">
+					<comma finevigore="t6" id="art1-com2-t6" iniziovigore="t1" status="abrogato">
 						<num />
 						<alinea>In tale fondo affluiscono:</alinea>
-						<en id="art1-com2-num1">
+						<en id="art1-com2-t6-num1">
 							<num>1)</num>
 							<corpo>
 								i fondi, già destinati agli enti assistenziali disciolti assegnati alla Regione ai sensi dell'articolo 1 duodecies del
@@ -294,7 +321,7 @@
 								;
 							</corpo>
 						</en>
-						<en id="art1-com2-num2">
+						<en id="art1-com2-t6-num2">
 							<num>2)</num>
 							<corpo>
 								quota parte dell'assegnazione a favore della Regione Toscana sul fondo comune regionale ex
@@ -310,7 +337,7 @@
 								, annualmente incrementati di una percentuale non inferiore al tasso di aumento del fondo comune regionale;
 							</corpo>
 						</en>
-						<en id="art1-com2-num3">
+						<en id="art1-com2-t6-num3">
 							<num>3)</num>
 							<corpo>
 								i fondi assegnati alla Regione a norma dell'
@@ -318,7 +345,7 @@
 								;
 							</corpo>
 						</en>
-						<en id="art1-com2-num4">
+						<en id="art1-com2-t6-num4">
 							<num>4)</num>
 							<corpo>
 								gli stanziamenti da prevedere nel bilancio regionale, a norma delle vigenti disposizioni di legge, per il finanziamento delle funzioni di cui al secondo comma dell'
@@ -326,11 +353,11 @@
 								e successive integrazioni e modificazioni;
 							</corpo>
 						</en>
-						<en id="art1-com2-num5">
+						<en id="art1-com2-t6-num5">
 							<num>5)</num>
 							<corpo>i fondi regionali per i contributi ai comuni per l'esercizio delle funzioni proprie in materia di assistenza sociale;</corpo>
 						</en>
-						<en id="art1-com2-num6">
+						<en id="art1-com2-t6-num6">
 							<num>6)</num>
 							<corpo>
 								i fondi regionali relativi a spese e contributi per le funzioni di prevenzione e di intervento contro l'uso non terapeutico delle sostanze stupefacenti e psicotrope a norma della
@@ -338,7 +365,7 @@
 								;
 							</corpo>
 						</en>
-						<en finevigore="t5" id="art1-com2-num7-t5" iniziovigore="t1" status="abrogato">
+						<en finevigore="t5" id="art1-com2-t6-num7-t5" iniziovigore="t1" status="abrogato">
 							<num>7)</num>
 							<corpo>
 								i fondi regionali relativi a contributi per centri di vacanza ed associazioni di fatto e istituzioni riconosciute senza fini di lucro di cui alla
@@ -347,14 +374,14 @@
 							</corpo>
 						</en>
 					</comma>
-					<comma id="art1-com3">
+					<comma finevigore="t6" id="art1-com3-t6" iniziovigore="t1" status="abrogato">
 						<num />
 						<alinea>Il fondo di cui al comma precedente è iscritto, pro - quota, in tre differenti capitoli di bilancio, rispettivamente:</alinea>
-						<ep id="art1-com3-pun1">
+						<ep id="art1-com3-t6-pun1">
 							<num>-</num>
 							<corpo>per la parte relativa a finanziamenti di provenienza statale;</corpo>
 						</ep>
-						<ep id="art1-com3-pun2">
+						<ep id="art1-com3-t6-pun2">
 							<num>-</num>
 							<corpo>
 								per la parte relativa alle funzioni di cui all'
@@ -362,7 +389,7 @@
 								e successive integrazioni e modificazioni;
 							</corpo>
 						</ep>
-						<ep id="art1-com3-pun3">
+						<ep id="art1-com3-t6-pun3">
 							<num>-</num>
 							<corpo>per i finanziamenti regionali.</corpo>
 						</ep>
@@ -447,7 +474,7 @@
 							I comuni singoli ed associati, fino all'entrata in vigore del piano di cui al
 							<rif xlink:href="#art3-com1" xlink:type="simple">primo comma</rif>
 							, utilizzano le erogazioni regionali assegnando ai singoli interventi riferiti alle attività di settore di cui alle leggi indicate al
-							<rif xlink:href="#art1-com2" xlink:type="simple">secondo comma del precedente art. 1</rif>
+							<rif xlink:href="#art1-com2-t6" xlink:type="simple">secondo comma del precedente art. 1</rif>
 							, risorse comunque non inferiori a quelle impegnate allo stesso titolo nel precedente esercizio.
 						</corpo>
 					</comma>
@@ -493,7 +520,7 @@
 						<num />
 						<corpo>
 							Parimenti non confluiscono nel fondo sociale fino alla approvazione del piano regionale per i servizi sociali i fondi regionali relativi a contributi per centri di vacanza di cui al
-							<rif xlink:href="#art1-com2-num7-t5" xlink:type="simple">n. 7) secondo comma del precedente art. 1</rif>
+							<rif xlink:href="#art1-com2-t6-num7-t5" xlink:type="simple">n. 7) secondo comma del precedente art. 1</rif>
 							per i quali restano transitoriamente in vigore le norme dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1976-04-07;15#art24" xlink:type="simple">art. 24 della LR 7-4-76 n. 15</rif>
 							come sostituito dall'
@@ -1208,7 +1235,7 @@
 							<num>a)</num>
 							<corpo>
 								al Cap. 23160 "Fondo sociale regione" (Finanziamento statale) i finanziamenti provenienti dai provvedimenti legislativi statali indicati ai punti 1) e 3) del
-								<rif xlink:href="#art1-com2" xlink:type="simple">comma 2 dell'art. 1</rif>
+								<rif xlink:href="#art1-com2-t6" xlink:type="simple">comma 2 dell'art. 1</rif>
 								;
 							</corpo>
 						</el>
@@ -1228,7 +1255,7 @@
 							<num>c)</num>
 							<corpo>
 								al Cap. 23180 "Fondo sociale regionale" (Finanziamento regionale) i fondi di cui all'
-								<rif xlink:href="#art1-com2" xlink:type="simple">art. 1, secondo comma</rif>
+								<rif xlink:href="#art1-com2-t6" xlink:type="simple">art. 1, secondo comma</rif>
 								, punti 2, 5, 6
 								<h:span finevigore="t5" id="h2" iniziovigore="t1" status="abrogato">e 7</h:span>
 								, nonchè gli ulteriori fondi determinati con legge di bilancio.
