@@ -8,7 +8,8 @@
 					<entratainvigore norm="19780829" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1978-08-09;52" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1978-08-09;52@1989-03-01" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1978-08-09;52@1989-03-01" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1978-08-09;52@1990-04-09" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="PERSONALE" />
 						<materia valore="ENTE REGIONE" />
@@ -18,10 +19,12 @@
 					<eventi>
 						<evento data="19780829" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19890325" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19900426" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1978-08-09;52" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1989-03-01;16" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1990-04-09;41" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -230,6 +233,18 @@
 								<dsp:pos xlink:href="#h6" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1990-04-09;41" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1990-04-09;41#art21-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 21, comma 1 della legge Regione Toscana 9 aprile 1990, n. 41" id="itt16" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -377,6 +392,36 @@
 						<comma id="art4-com4">
 							<num />
 							<corpo>Per i dipendenti in missione fruenti di alloggio e/o vitto gratuito fornito dalla Regione o dal qualsiasi altro pubblico ente, l'indennità di trasferta è ridotta alla misura di cui ai punti b) e c) del primo comma.</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art4bis" iniziovigore="t3">
+						<num>Art. 4 bis</num>
+						<rubrica>Trattamento di missione per particolari categorie di dipendenti</rubrica>
+						<comma id="art4bis-com1">
+							<num>1.</num>
+							<alinea>
+								Le particolari categorie di dipendenti di cui all'
+								<rif xlink:href="urn:nir:presidente.repubblica:decreto:1988-08-23;395#art5-com7" xlink:type="simple">art. 5, comma 7, del decreto del Presidente della Repubblica 23 agosto 1988, n. 395</rif>
+								, sono individuate nel personale inviato in missione fuori della ordinaria sede di servizio per:
+							</alinea>
+							<el id="art4bis-com1-leta">
+								<num>a)</num>
+								<corpo>attività di protezione civile nelle situazioni di prima urgenza;</corpo>
+							</el>
+							<el id="art4bis-com1-letb">
+								<num>b)</num>
+								<corpo>per l'opera di intervento svolto dalle squadre per lo spegnimento di incendi boschivi.</corpo>
+							</el>
+						</comma>
+						<comma id="art4bis-com2">
+							<num>2.</num>
+							<corpo>
+								Per il personale indicato nel
+								<rif xlink:href="#art4bis-com1" xlink:type="simple">comma 1</rif>
+								, le particolarissime condizioni di cui al
+								<rif xlink:href="urn:nir:presidente.repubblica:decreto:1988-08-23;395#art5-com7" xlink:type="simple">comma 7 dell'articolo 5 del decreto del Presidente della Repubblica 23 agosto 1988, n. 395</rif>
+								sono individuate nella impossibilità della fruizione del pasto per mancanza di strutture e servizi di ristorazione; in tale circostanza è corrisposto un compenso forfettario giornaliero di lire ventimila nette in luogo dell'importo corrispondente al costo del pasto.
+							</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art5">
