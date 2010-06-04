@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t7" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1985-02-21;16" />
 					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1985-02-21;16@1989-01-23" />
-					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1985-02-21;16@1989-07-17" />
+					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1985-02-21;16@1989-07-17" />
+					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1985-02-21;16@1990-11-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Formazione" />
 						<materia valore="Attribuzioni Deleghe" />
@@ -25,6 +26,7 @@
 						<evento data="19850314" fonte="ra5" id="t6" tipo="modifica" />
 						<evento data="19890217" fonte="rp1" id="t7" tipo="modifica" />
 						<evento data="19900101" fonte="rp2" id="t8" tipo="modifica" />
+						<evento data="19901207" fonte="rp3" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1985-02-21;16" xlink:type="simple" />
@@ -35,6 +37,7 @@
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1980-11-15;86" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1989-01-23;9" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1989-07-17;45" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1990-11-29;68" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -425,7 +428,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1989-07-17;45" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1989-07-17;45#art11-com2" xlink:type="simple" />
 								<dsp:subarg>
@@ -490,6 +493,12 @@
 								<dsp:pos xlink:href="#h10" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:proroga completa="si" implicita="no" su="efficacia">
+							<dsp:termine da="#t9" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1990-11-29;68" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1990-11-29;68#mod1" xlink:type="simple" />
+							</dsp:norma>
+						</dsp:proroga>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
