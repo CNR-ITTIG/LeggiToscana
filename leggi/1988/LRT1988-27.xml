@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19880503" num="26" tipo="BURT" />
 					<entratainvigore norm="19880518" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1988-04-23;27" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1988-04-23;27" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1988-04-23;27@1991-03-09" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Unione Europea" />
 						<materia valore="Regionalismo" />
@@ -16,11 +17,71 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19880518" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19910403" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1988-04-23;27" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1991-03-09;9" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1991-03-09;9" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1991-03-09;9#art1-com4" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 4 della legge Regione Toscana 9 marzo 1991, n. 9" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h5" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1991-03-09;9" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1991-03-09;9#art1-com3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 3 della legge Regione Toscana 9 marzo 1991, n. 9" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h6" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1991-03-09;9" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1991-03-09;9#art1-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2 della legge Regione Toscana 9 marzo 1991, n. 9" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1991-03-09;9" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1991-03-09;9#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 9 marzo 1991, n. 9" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -41,7 +102,12 @@
 					<rubrica>(Finalità)</rubrica>
 					<comma id="art1-com1">
 						<num>1.</num>
-						<corpo>La Regione promuove e sostiene le iniziative dei Comuni, delle Province e delle Associazioni europeiste della Toscana volte a suscitare ed a facilitare i rapporti con i Comuni e gli altri poteri locali dei paesi rappresentati nel Parlamento Europeo, tesi a sviluppare il processo di integrazione politica europea, nel rispetto dei suoi consolidati valori di pace, di democrazia.</corpo>
+						<corpo>
+							La Regione promuove e sostiene le iniziative dei Comuni, delle Province e delle Associazioni europeiste della Toscana volte a suscitare ed a facilitare i rapporti con i Comuni e gli altri poteri locali dei paesi
+							<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">rappresentati nel Parlamento Europeo</h:span>
+							<h:span id="h2" iniziovigore="t2">d'Europa</h:span>
+							, tesi a sviluppare il processo di integrazione politica europea, nel rispetto dei suoi consolidati valori di pace, di democrazia.
+						</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art2">
@@ -74,7 +140,12 @@
 						</alinea>
 						<en id="art3-com1-num1">
 							<num>1)</num>
-							<corpo>il gemellaggio dei Comuni od altri enti locali con quelli dei paesi membri della Comunità Europea e del Consiglio d'Europa;</corpo>
+							<corpo>
+								il gemellaggio dei Comuni od altri enti locali con quelli dei paesi
+								<h:span finevigore="t2" id="h3" iniziovigore="t1" status="abrogato">membri della Comunità Europea e del Consiglio d'Europa</h:span>
+								<h:span id="h4" iniziovigore="t2">d'Europa</h:span>
+								;
+							</corpo>
 						</en>
 						<en id="art3-com1-num2">
 							<num>2)</num>
@@ -123,7 +194,11 @@
 					<rubrica>(Programma di iniziative per lo sviluppo del processo di integrazione politica europea)</rubrica>
 					<comma id="art4-com1">
 						<num>1.</num>
-						<corpo>Le Amministrazioni provinciali inoltrano alla Giunta regionale entro il 30 settembre di ogni anno apposita proposta coordinata contenente il programma di iniziative di cui al precedente articolo.</corpo>
+						<corpo>
+							Le Amministrazioni provinciali inoltrano alla Giunta regionale entro il 30 settembre di ogni anno apposita proposta coordinata
+							<h:span id="h5" iniziovigore="t2">per l'anno successivo</h:span>
+							contenente il programma di iniziative di cui al precedente articolo.
+						</corpo>
 					</comma>
 					<comma id="art4-com2">
 						<num>2.</num>
@@ -158,7 +233,9 @@
 					<comma id="art5-com2">
 						<num>2.</num>
 						<corpo>
-							Il Consiglio regionale, tenendo conto delle risultanze dell'attività pregressa, determina gli indirizzi ai quali Comuni, Province e Associazioni europeiste devono attenersi in ordine agli adempimenti di cui ai precedenti
+							Il Consiglio regionale, tenendo conto delle risultanze dell'attività pregressa, determina gli indirizzi
+							<h:span id="h6" iniziovigore="t2">per l'anno successivo</h:span>
+							ai quali Comuni, Province e Associazioni europeiste devono attenersi in ordine agli adempimenti di cui ai precedenti
 							<mrif>
 								articoli
 								<rif xlink:href="#art2" xlink:type="simple">2</rif>
