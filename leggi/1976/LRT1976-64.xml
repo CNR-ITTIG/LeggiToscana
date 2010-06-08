@@ -10,7 +10,8 @@
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1976-09-04;64" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1976-09-04;64@1977-03-23" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1976-09-04;64@1978-02-02" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1976-09-04;64@1985-01-10" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1976-09-04;64@1985-01-10" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1976-09-04;64@1991-05-16" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -18,14 +19,25 @@
 						<evento data="19770416" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19780225" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19850131" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="19910608" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1976-09-04;64" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1977-03-23;20" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1978-02-02;6" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1991-05-16;20" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Ai sensi dell'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1991-05-16;20#art15-com3" xlink:type="simple">art. 15, comma 3, della legge regionale 16 maggio 1991 n. 20</rif>
+							, il parere dell'ente delegato non risulta essere più necessario.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:integrazione completa="si" implicita="no">
@@ -56,7 +68,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art17" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1#art4-com1-lete" xlink:type="simple" />
 								<dsp:subarg>
@@ -65,6 +77,27 @@
 							</dsp:norma>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art17-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:termine da="#t5" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1991-05-16;20" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1991-05-16;20#mod1" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="parere ente delegato" />
+							</dsp:dominio>
+						</dsp:variazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1991-05-16;20" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1991-05-16;20#art15-com3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 15, comma 3 della legge Regione Toscana 16 maggio 1991, n. 20" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com3-t5" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>
@@ -129,12 +162,14 @@
 					<comma id="art2-com2">
 						<num />
 						<corpo>
-							Tuttavia la Regione, con delibera motivata del Consiglio regionale, sentito il parere dell'ente delegato, può alienare beni immobili appartenenti al patrimonio agricolo - forestale i quali, per la loro natura o condizione, non siano utilizzabili per i fini stabiliti nell'
+							Tuttavia la Regione, con delibera motivata del Consiglio regionale, sentito il parere dell'ente delegato
+							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							, può alienare beni immobili appartenenti al patrimonio agricolo - forestale i quali, per la loro natura o condizione, non siano utilizzabili per i fini stabiliti nell'
 							<rif xlink:href="#art8" xlink:type="simple">art. 8</rif>
 							o la cui cessione risulti necessaria per soddisfare esigenze d'interesse esclusivamente locale di uso del territorio, compatibili con le previsioni degli strumenti urbanistici, sempre che tali alienazioni non riescano di pregiudizio alla gestione del complesso agricolo - forestale cui appartengono.
 						</corpo>
 					</comma>
-					<comma id="art2-com3">
+					<comma finevigore="t5" id="art2-com3-t5" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>
 							Il ricavato verrà reimpiegato per l'acquisto di altri beni ai sensi dell'
