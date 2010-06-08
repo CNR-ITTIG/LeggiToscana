@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19910306" num="14" tipo="BURT" />
 					<entratainvigore norm="19910321" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1991-02-25;8" />
+					<urn finevigore="t4" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1991-02-25;8" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1991-02-25;8@1991-05-11" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Bilancio" />
@@ -18,13 +19,29 @@
 						<evento data="19910321" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19910321" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="19910321" fonte="ra2" id="t3" tipo="modifica" />
+						<evento data="19910605" fonte="rp1" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1991-02-25;8" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1980-05-15;54" xlink:type="simple" />
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1980-05-15;54" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1991-05-11;16" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Ai sensi della
+							<rif xlink:href="urn:nir:regione.toscana:legge:1991-05-11;16" xlink:type="simple">Legge Regionale 11 maggio 1991 n. 16</rif>
+							, sugli importi di seguito elencati si applica la maggiorazione del venti per cento prevista dalla
+							<rif xlink:href="urn:nir:regione.toscana:legge:1990-11-29;69" xlink:type="simple">Legge Regionale 29 novembre 1990 n. 69</rif>
+							.
+						</h:p>
+					</nota>
+					<nota id="n2">
+						<h:p>Ai sensi della Legge Regionale 11 maggio 1991 n. 16, sugli importi di seguito elencati si applica la maggiorazione del venti per cento prevista dalla Legge Regionale 29 novembre 1990 n. 69.</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:variazione completa="si" implicita="no">
@@ -38,6 +55,17 @@
 							</dsp:dominio>
 						</dsp:variazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:termine da="#t4" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1991-05-11;16" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1991-05-11;16#mod1" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="tasse concessioni regionali" />
+							</dsp:dominio>
+						</dsp:variazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -102,7 +130,10 @@
 					</comma>
 				</articolo>
 				<articolo id="art2">
-					<num>ARTICOLO 2</num>
+					<num>
+						ARTICOLO 2
+						<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					</num>
 					<comma id="art2-com1">
 						<num />
 						<alinea>
@@ -656,7 +687,10 @@
 					</comma>
 				</articolo>
 				<articolo id="art6">
-					<num>ARTICOLO 6</num>
+					<num>
+						ARTICOLO 6
+						<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+					</num>
 					<comma id="art6-com1">
 						<num />
 						<alinea>
