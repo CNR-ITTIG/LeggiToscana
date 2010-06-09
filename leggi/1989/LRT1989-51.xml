@@ -11,7 +11,8 @@
 					<urn finevigore="t13" iniziovigore="t12" valore="urn:nir:regione.toscana:legge:1989-08-21;51@1990-03-22" />
 					<urn finevigore="t14" iniziovigore="t13" valore="urn:nir:regione.toscana:legge:1989-08-21;51@1990-04-09" />
 					<urn finevigore="t15" iniziovigore="t14" valore="urn:nir:regione.toscana:legge:1989-08-21;51@1991-07-10" />
-					<urn iniziovigore="t15" valore="urn:nir:regione.toscana:legge:1989-08-21;51@1991-07-19" />
+					<urn finevigore="t16" iniziovigore="t15" valore="urn:nir:regione.toscana:legge:1989-08-21;51@1991-07-19" />
+					<urn iniziovigore="t16" valore="urn:nir:regione.toscana:legge:1989-08-21;51@1991-08-12" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Ente Regione" />
@@ -34,6 +35,7 @@
 						<evento data="19900426" fonte="rp2" id="t13" tipo="modifica" />
 						<evento data="19910802" fonte="rp3" id="t14" tipo="modifica" />
 						<evento data="19910810" fonte="rp4" id="t15" tipo="modifica" />
+						<evento data="19910905" fonte="rp5" id="t16" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51" xlink:type="simple" />
@@ -51,6 +53,7 @@
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1990-04-09;41" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1991-07-10;33" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1991-07-19;36" xlink:type="simple" />
+						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1991-08-12;40" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -406,6 +409,21 @@
 								<dsp:pos xlink:href="#art160-com4" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art34-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1991-08-12;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1991-08-12;40#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 12 agosto 1991, n. 40" id="itt16" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art34-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art34-com1-t16" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -2235,9 +2253,13 @@
 					<articolo id="art34">
 						<num>ARTICOLO 34</num>
 						<rubrica>(Commissioni di esame)</rubrica>
-						<comma id="art34-com1">
+						<comma finevigore="t16" id="art34-com1-t16" iniziovigore="t1" status="abrogato">
 							<num>1.</num>
 							<corpo>La Commissione giudicatrice del concorso è composta dal Presidente della Giunta Regionale, o da un suo delegato, che la presiede, e da quattro membri, di cui tre esperti nelle materie oggetto del concorso eletti dal Consiglio Regionale con voto limitato a due, e uno in rappresentanza delle organizzazioni sindacali.</corpo>
+						</comma>
+						<comma id="art34-com1" iniziovigore="t16">
+							<num>1.</num>
+							<corpo>La Commissione giudicatrice del concorso è composta dal Presidente della Giunta o suo delegato, che la presiede e da quattro membri di cui tre esperti nelle materie oggetto del concorso eletti dal Consiglio Regionale con voto limitato a due e uno in rappresentanza delle organizzazioni sindacali; per i concorsi fini alla qualifica ottavo il Presidente della Giunta delega, in qualità di Presidente della Commissione, un dipendente regionale della seconda qualifica dirigenziale oppure un dirigente di pubbliche amministrazioni inquadrato nelle qualifiche apicali dei rispettivi comparti.</corpo>
 						</comma>
 						<comma id="art34-com2">
 							<num>2.</num>
