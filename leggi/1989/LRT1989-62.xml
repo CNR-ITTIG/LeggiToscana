@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19890920" num="53" tipo="BURT" />
 					<entratainvigore norm="19891005" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1989-09-11;62" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1989-09-11;62" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1989-09-11;62@1991-07-23" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Enti Territoriali" />
@@ -17,11 +18,32 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19891005" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19910810" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1989-09-11;62" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1991-07-23;37" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1991-07-23;37" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1991-07-23;37#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 23 luglio 1991, n. 37" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -145,8 +167,12 @@
 						<comma id="art3-com4">
 							<num>4.</num>
 							<corpo>
-								Dopo l'espletamento dei concorsi di cui al primo e
-								<rif xlink:href="#art3-com3" xlink:type="simple">terzo comma</rif>
+								Dopo l'espletamento dei concorsi di cui al
+								<mrif>
+									<rif xlink:href="#art3-com1" xlink:type="simple">primo</rif>
+									e
+									<rif xlink:href="#art3-com3" xlink:type="simple">terzo comma</rif>
+								</mrif>
 								la Giunta regionale dispone il trasferimento di tutto il personale che ha avanzato domanda e contestualmente gli Enti delegati provvedono all'inquadramento nei propri ruoli di tale personale tenendo conto degli esiti dei concorsi stessi. A tal fine la Regione provvede alla riduzione della pianta organica regionale, ai sensi del
 								<rif xlink:href="urn:nir:regione.toscana:legge:1973-09-06;54#art30-com4" xlink:type="simple">quarto comma dell'art. 30 della legge regionale 6 settembre 1973, n. 54</rif>
 								, come sostituito dall'
@@ -159,8 +185,23 @@
 						<comma id="art3-com5">
 							<num>5.</num>
 							<corpo>
-								Il personale trasferito agli Enti delegati conserva i benefici derivanti dall'applicazione della
-								<rif xlink:href="urn:nir:regione.toscana:legge:1982-05-10;35" xlink:type="simple">legge regionale 10 maggio 1982, n. 35</rif>
+								Il personale trasferito agli Enti delegati
+								<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">
+									conserva i benefici derivanti dall'applicazione della
+									<rif xlink:href="urn:nir:regione.toscana:legge:1982-05-10;35" xlink:type="simple">legge regionale 10 maggio 1982, n. 35</rif>
+								</h:span>
+								<h:span id="h2" iniziovigore="t2">
+									conserva il beneficio di cui al combinato disposto degli
+									<mrif>
+										artt.
+										<rif xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51#art150" xlink:type="simple">150</rif>
+										,
+										<rif xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51#art151" xlink:type="simple">151</rif>
+										e
+										<rif xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51#art152" xlink:type="simple">152</rif>
+										della legge regionale 21 agosto 1989, n. 51
+									</mrif>
+								</h:span>
 								. I relativi oneri sono a carico della Regione Toscana che provvede direttamente alla erogazione dei benefici stessi.
 							</corpo>
 						</comma>
