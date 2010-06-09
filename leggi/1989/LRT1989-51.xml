@@ -10,7 +10,8 @@
 					<urn finevigore="t12" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1989-08-21;51" />
 					<urn finevigore="t13" iniziovigore="t12" valore="urn:nir:regione.toscana:legge:1989-08-21;51@1990-03-22" />
 					<urn finevigore="t14" iniziovigore="t13" valore="urn:nir:regione.toscana:legge:1989-08-21;51@1990-04-09" />
-					<urn iniziovigore="t14" valore="urn:nir:regione.toscana:legge:1989-08-21;51@1991-07-10" />
+					<urn finevigore="t15" iniziovigore="t14" valore="urn:nir:regione.toscana:legge:1989-08-21;51@1991-07-10" />
+					<urn iniziovigore="t15" valore="urn:nir:regione.toscana:legge:1989-08-21;51@1991-07-19" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Ente Regione" />
@@ -32,6 +33,7 @@
 						<evento data="19900415" fonte="rp1" id="t12" tipo="modifica" />
 						<evento data="19900426" fonte="rp2" id="t13" tipo="modifica" />
 						<evento data="19910802" fonte="rp3" id="t14" tipo="modifica" />
+						<evento data="19910810" fonte="rp4" id="t15" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51" xlink:type="simple" />
@@ -48,6 +50,7 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1990-03-22;20" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1990-04-09;41" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1991-07-10;33" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1991-07-19;36" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -367,6 +370,42 @@
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1991-07-10;33#mod1" xlink:type="simple" />
 							</dsp:norma>
 						</dsp:proroga>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art160" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1991-07-19;36" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1991-07-19;36#art1-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2 della legge Regione Toscana 19 luglio 1991, n. 36" id="itt13" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art160-com2" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art160" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1991-07-19;36" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1991-07-19;36#art1-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2 della legge Regione Toscana 19 luglio 1991, n. 36" id="itt14" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art160-com3" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art160" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1991-07-19;36" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1991-07-19;36#art1-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2 della legge Regione Toscana 19 luglio 1991, n. 36" id="itt15" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art160-com4" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -6195,6 +6234,18 @@
 						<comma id="art160-com1">
 							<num>1.</num>
 							<corpo>Il dipendente è collocato a riposto d'ufficio dal primo giorno del mese successivo a quello del compimento del 65° anno di età.</corpo>
+						</comma>
+						<comma id="art160-com2" iniziovigore="t15">
+							<num>2.</num>
+							<corpo>Al personale che per effetto del disposto del primo comma debba essere collocato a riposo per raggiunti limiti di età e non abbia raggiunto l'anzianità contributiva richiesta per ottenere il minimo della pensione, è consentito rimanere in servizio su richiesta fino al raggiungimento del limite minimo e comunque non oltre il settantesimo anno di età, semprechè non abbia ottenuto la liquidazione di una pensione diretta a carico dell'INPS o maturato l'anzianità contributiva per ottenerla.</corpo>
+						</comma>
+						<comma id="art160-com3" iniziovigore="t15">
+							<num>3.</num>
+							<corpo>L'anzianità contributiva da prendere in considerazione, insieme con quella connessa al servizio effettivo prestato presso la Regione Toscana, al fine di consentire la permanenza in servizio prevista dal comma precedente, deve intendersi comprensiva di tutti i servizi e periodi riscattati nonché di quelli computabili e ricongiungibili per il trattamento di quiescenza risultante da atti formali ovvero da comunicazioni scritte degli enti previdenziali o dell'amministrazione statale di provenienza.</corpo>
+						</comma>
+						<comma id="art160-com4" iniziovigore="t15">
+							<num>4.</num>
+							<corpo>Le richieste di permanenza in servizio di cui al secondo comma devono essere prodotte, a pena di decadenza, non oltre l'ultimo giorno dell'ottavo mese precedente quello di compimento del sessantacinquesimo anno di età.</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art161">
