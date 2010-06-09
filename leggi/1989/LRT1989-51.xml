@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t12" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1989-08-21;51" />
 					<urn finevigore="t13" iniziovigore="t12" valore="urn:nir:regione.toscana:legge:1989-08-21;51@1990-03-22" />
-					<urn iniziovigore="t13" valore="urn:nir:regione.toscana:legge:1989-08-21;51@1990-04-09" />
+					<urn finevigore="t14" iniziovigore="t13" valore="urn:nir:regione.toscana:legge:1989-08-21;51@1990-04-09" />
+					<urn iniziovigore="t14" valore="urn:nir:regione.toscana:legge:1989-08-21;51@1991-07-10" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Ente Regione" />
@@ -30,6 +31,7 @@
 						<evento data="19890915" fonte="ra10" id="t11" tipo="modifica" />
 						<evento data="19900415" fonte="rp1" id="t12" tipo="modifica" />
 						<evento data="19900426" fonte="rp2" id="t13" tipo="modifica" />
+						<evento data="19910802" fonte="rp3" id="t14" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51" xlink:type="simple" />
@@ -45,20 +47,36 @@
 						<attiva id="ra10" xlink:href="urn:nir:regione.toscana:legge:1988-08-16;59" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1990-03-22;20" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1990-04-09;41" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1991-07-10;33" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
 					<nota id="n1">
+						<h:p>
+							Si veda poi la
+							<rif xlink:href="urn:nir:regione.toscana:legge:1991-07-10;33" xlink:type="simple">legge regionale 10 luglio 1991, n. 33</rif>
+							.
+						</h:p>
+					</nota>
+					<nota id="n2">
 						<h:p>
 							Ai sensi dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1990-03-22;20#art2-com1" xlink:type="simple">art. 2, comma 1, della legge regionale 22 marzo 1990 n. 20</rif>
 							, la Commissione di disciplina nominata secondo i precedenti criteri continua ad operare fino alla data di insediamento della nuova.
 						</h:p>
 					</nota>
-					<nota id="n2">
+					<nota id="n3">
 						<h:p>
-							Relativamente alle indennità di cui al presente articolo si vedano gli artt. 38, comma 1 e 43 commi 1 e 2 della
-							<rif xlink:href="urn:nir:regione.toscana:legge:1990-04-09;41" xlink:type="simple">legge regionale 9 aprile 1990, n. 41</rif>
+							Relativamente alle indennità di cui al presente articolo si vedano gli
+							<mrif>
+								artt.
+								<rif xlink:href="urn:nir:regione.toscana:legge:1990-04-09;41#art38-com1" xlink:type="simple">38, comma 1</rif>
+								e 43 commi
+								<rif xlink:href="urn:nir:regione.toscana:legge:1990-04-09;41#art43-com1" xlink:type="simple">1</rif>
+								e
+								<rif xlink:href="urn:nir:regione.toscana:legge:1990-04-09;41#art43-com2" xlink:type="simple">2</rif>
+								della legge regionale 9 aprile 1990, n. 41
+							</mrif>
 							.
 						</h:p>
 					</nota>
@@ -343,6 +361,12 @@
 								<dsp:pos xlink:href="#art127-t13" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:proroga completa="si" implicita="no" su="efficacia">
+							<dsp:termine da="#t14" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1991-07-10;33" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1991-07-10;33#mod1" xlink:type="simple" />
+							</dsp:norma>
+						</dsp:proroga>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -2320,7 +2344,11 @@
 						</comma>
 						<comma id="art38-com4">
 							<num>4.</num>
-							<corpo>Le graduatorie dei concorsi restano aperte per tre anni a decorrere dalla data di esecutività della delibera di approvazione, e possono essere utilizzate, nel rispetto delle percentuali di riserva dei posti e sentite le Organizzazioni Sindacali, per gli ulteriori posti di pari qualifica funzionale e profilo professionale che si dovessero rendere vacanti e disponibili successivamente all'indizione del concorso stesso, ad eccezione di quelli istituiti o trasformati successivamente all'indizione di tale concorso.</corpo>
+							<corpo>
+								Le graduatorie dei concorsi restano aperte per tre anni
+								<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+								a decorrere dalla data di esecutività della delibera di approvazione, e possono essere utilizzate, nel rispetto delle percentuali di riserva dei posti e sentite le Organizzazioni Sindacali, per gli ulteriori posti di pari qualifica funzionale e profilo professionale che si dovessero rendere vacanti e disponibili successivamente all'indizione del concorso stesso, ad eccezione di quelli istituiti o trasformati successivamente all'indizione di tale concorso.
+							</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art39">
@@ -4966,7 +4994,7 @@
 							<articolo id="art123" iniziovigore="t12">
 								<num>
 									Art. 123
-									<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+									<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
 								</num>
 								<rubrica>(Commissione di disciplina)</rubrica>
 								<comma id="art123-com1">
@@ -5263,7 +5291,7 @@
 					<articolo id="art129">
 						<num>
 							ARTICOLO 129
-							<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+							<ndr num="#n3" valore="" xlink:type="simple">(c)</ndr>
 						</num>
 						<rubrica>(Indennità)</rubrica>
 						<comma id="art129-com1">
