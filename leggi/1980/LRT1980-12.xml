@@ -11,7 +11,8 @@
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1980-01-28;12@1981-02-09" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1980-01-28;12@1981-12-14" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1980-01-28;12@1982-07-19" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1980-01-28;12@1988-09-01" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1980-01-28;12@1988-09-01" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1980-01-28;12@1991-09-09" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="ATTIVITA' ARTISTICHE" />
 					</materie>
@@ -23,6 +24,7 @@
 						<evento data="19811222" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19820811" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="19880927" fonte="rp4" id="t5" tipo="modifica" />
+						<evento data="19911004" fonte="rp5" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-01-28;12" xlink:type="simple" />
@@ -30,13 +32,16 @@
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1981-12-14;91" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1982-07-19;59" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1988-09-01;68" xlink:type="simple" />
+						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1991-09-09;46" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
 					<nota id="n1">
 						<h:p>
-							Ad integrazione e modificazione della presente si veda la
-							<rif xlink:href="urn:nir:regione.toscana:legge:1983-10-31;71" xlink:type="simple">legge regionale 31 ottobre 1983, n. 71</rif>
+							A modificazione dei termini per i finanziamenti della Regione di cui alla presente legge si vedano le LLRR
+							<rif xlink:href="urn:nir:regione.toscana:legge:1983-10-31;71" xlink:type="simple">31 ottobre 1983, n. 71</rif>
+							e
+							<rif xlink:href="urn:nir:regione.toscana:legge:1991-09-09;46" xlink:type="simple">9 settembre 1991, n. 46</rif>
 							.
 						</h:p>
 					</nota>
@@ -181,6 +186,12 @@
 								<dsp:pos xlink:href="#art4-com10-t5" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:proroga completa="si" implicita="no" su="efficacia">
+							<dsp:termine da="#t6" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1991-09-09;46" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1991-09-09;46#mod5" xlink:type="simple" />
+							</dsp:norma>
+						</dsp:proroga>
 					</modifichepassive>
 				</disposizioni>
 			</meta>

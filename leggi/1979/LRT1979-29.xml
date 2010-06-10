@@ -8,7 +8,8 @@
 					<entratainvigore norm="19790721" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1979-06-28;29" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1979-06-28;29@1983-08-23" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1979-06-28;29@1983-08-23" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1979-06-28;29@1991-09-09" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sistema educativo" />
 					</materie>
@@ -17,17 +18,21 @@
 					<eventi>
 						<evento data="19790721" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19830831" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19911004" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1979-06-28;29" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1983-08-23;66" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1991-09-09;46" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
 					<nota id="n1">
 						<h:p>
-							Ad integrazione e modificazione della presente si veda la
-							<rif xlink:href="urn:nir:regione.toscana:legge:1983-10-31;71" xlink:type="simple">legge regionale 31 ottobre 1983, n. 71</rif>
+							A modificazione dei termini per i finanziamenti della Regione di cui alla presente legge si vedano le LLRR
+							<rif xlink:href="urn:nir:regione.toscana:legge:1983-10-31;71" xlink:type="simple">31 ottobre 1983, n. 71</rif>
+							e
+							<rif xlink:href="urn:nir:regione.toscana:legge:1991-09-09;46" xlink:type="simple">9 settembre 1991, n. 46</rif>
 							.
 						</h:p>
 					</nota>
@@ -130,6 +135,12 @@
 								<dsp:pos xlink:href="#art8-t2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:proroga completa="si" implicita="no" su="efficacia">
+							<dsp:termine da="#t3" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1991-09-09;46" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1991-09-09;46#mod3" xlink:type="simple" />
+							</dsp:norma>
+						</dsp:proroga>
 					</modifichepassive>
 				</disposizioni>
 			</meta>

@@ -9,25 +9,30 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1976-07-03;33" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1976-07-03;33@1983-08-23" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1976-07-03;33@1985-01-10" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1976-07-03;33@1985-01-10" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1976-07-03;33@1991-09-09" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19760724" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19830831" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19850131" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="19911004" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1976-07-03;33" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1983-08-23;65" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1991-09-09;46" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
 					<nota id="n1">
 						<h:p>
-							Ad integrazione e modificazione della presente si veda la
-							<rif xlink:href="urn:nir:regione.toscana:legge:1983-10-31;71" xlink:type="simple">legge regionale 31 ottobre 1983, n. 71</rif>
+							A modificazione dei termini per i finanziamenti della Regione di cui alla presente legge si vedano le LLRR
+							<rif xlink:href="urn:nir:regione.toscana:legge:1983-10-31;71" xlink:type="simple">31 ottobre 1983, n. 71</rif>
+							e
+							<rif xlink:href="urn:nir:regione.toscana:legge:1991-09-09;46" xlink:type="simple">9 settembre 1991, n. 46</rif>
 							.
 						</h:p>
 					</nota>
@@ -207,6 +212,12 @@
 								<dsp:pos xlink:href="#art21-t3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:proroga completa="si" implicita="no" su="efficacia">
+							<dsp:termine da="#t4" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1991-09-09;46" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1991-09-09;46#mod2" xlink:type="simple" />
+							</dsp:norma>
+						</dsp:proroga>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
