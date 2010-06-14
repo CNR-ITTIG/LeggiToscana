@@ -11,7 +11,8 @@
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1980-04-30;36@1980-11-13" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1980-04-30;36@1981-05-11" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1980-04-30;36@1988-09-01" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1980-04-30;36@1990-10-10" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1980-04-30;36@1990-10-10" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1980-04-30;36@1992-03-24" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="ATTIVITÀ ESTRATTIVE" />
 					</materie>
@@ -23,6 +24,7 @@
 						<evento data="19810530" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19880927" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="19901103" fonte="rp4" id="t5" tipo="modifica" />
+						<evento data="19920416" fonte="rp5" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-04-30;36" xlink:type="simple" />
@@ -30,6 +32,7 @@
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1981-05-11;44" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1988-09-01;65" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1990-10-10;65" xlink:type="simple" />
+						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1992-03-24;10" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -543,6 +546,12 @@
 								<dsp:pos xlink:href="#h1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:proroga completa="si" implicita="no" su="efficacia">
+							<dsp:termine da="#t6" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1992-03-24;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1992-03-24;10#" xlink:type="simple" />
+							</dsp:norma>
+						</dsp:proroga>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
