@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19910130" num="6" tipo="BURT" />
 					<entratainvigore norm="19910214" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1991-01-24;3" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1991-01-24;3" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1991-01-24;3@1992-04-30" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Credito" />
 						<materia valore="Agricoltura" />
@@ -16,11 +17,71 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19910214" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19920522" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1991-01-24;3" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1992-04-30;14" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-t2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1992-04-30;14" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1992-04-30;14#artunico-com3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 3 della legge Regione Toscana 30 aprile 1992, n. 14" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-t2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1992-04-30;14" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1992-04-30;14#artunico-com3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 3 della legge Regione Toscana 30 aprile 1992, n. 14" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art21" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1992-04-30;14" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1992-04-30;14#artunico-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 2 della legge Regione Toscana 30 aprile 1992, n. 14" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art1-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1991-01-24;3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1992-04-30;14" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1992-04-30;14#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 30 aprile 1992, n. 14" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -28,7 +89,10 @@
 				<dataDoc norm="19910124">24 gennaio 1991</dataDoc>
 				, n.
 				<numDoc>3</numDoc>
-				<titoloDoc>Concorso a favore di operatori agricoli per la riduzione del rischio di cambio di operazioni di credito agrario di conduzione in valuta estera ed ecu.</titoloDoc>
+				<titoloDoc>
+					<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">Concorso a favore di operatori agricoli per la riduzione del rischio di cambio di operazioni di credito agrario di conduzione in valuta estera ed ecu.</h:span>
+					<h:span id="h2" iniziovigore="t2">Concorso a favore degli operatori agricoli per la riduzione del rischio di cambio in operazioni di credito agrario in valuta estera ed Ecu.</h:span>
+				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 28-12-1990</h:p>
@@ -37,9 +101,9 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<articolo id="art1">
+				<articolo finevigore="t2" id="art1-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 1</num>
-					<comma id="art1-com1">
+					<comma id="art1-t2-com1">
 						<num>1.</num>
 						<corpo>
 							Al fine di ridurre il rischio di cambio assunto dagli operatori agricoli, aventi titolo per accedere alle agevolazioni previste dalla
@@ -47,21 +111,63 @@
 							, con operazioni di credito di conduzione in valuta estera ed ECU della durata massima di 12 mesi e ad un tasso fisso inferiore di almeno 3 punti al tasso di riferimento vigente all'atto della stipulazione del prestito per il credito agrario di esercizio, la Giunta Regionale può intervenire con un concorso a favore dei medesimi operatori agricoli fino ad un massimo del 3 per cento in più del prezzo della valuta all'atto della stipulazione del prestito.
 						</corpo>
 					</comma>
-					<comma id="art1-com2">
+					<comma id="art1-t2-com2">
 						<num>2.</num>
 						<corpo>
 							L'intervento regionale di cui al
-							<rif xlink:href="#art1-com1" xlink:type="simple">primo comma</rif>
+							<rif xlink:href="#art1-t2-com1" xlink:type="simple">primo comma</rif>
 							viene liquidato agli Istituti di Credito autorizzati sulla base della differenza in più tra il presso in Lire della valuta all'atto della estinzione ed il prezzo in Lire della medesima valuta all'atto della stipulazione del prestito assistito.
+						</corpo>
+					</comma>
+					<comma id="art1-t2-com3">
+						<num>3.</num>
+						<corpo>A tali fini la Giunta regionale stipula apposite convenzioni con gli istituti di Credito autorizzati.</corpo>
+					</comma>
+					<comma id="art1-t2-com4">
+						<num>4.</num>
+						<corpo>Agli oneri di spesa derivanti dalla presente legge e decorrenti dall'anno 1991 si fa fronte, da tale anno per gli anni successivi, con legge di bilancio.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art1" iniziovigore="t2">
+					<num>ARTICOLO 1</num>
+					<rubrica />
+					<comma id="art1-com1">
+						<num>1.</num>
+						<corpo>Per favorire l'accesso ad credito agrario di esercizio, di durata non superiore a 12 mesi, con fondi derivanti da provvista in valuta estera o ECU, la Regione può concedere agli imprenditori agricoli contributi a copertura del rischio di cambio;</corpo>
+					</comma>
+					<comma id="art1-com2">
+						<num>2.</num>
+						<corpo>
+							Il limite massimo del contributo viene stabilito in due punti percentuali in ragione d'anno, elevato a tre punti nelle zone delimitate ai sensi dell'
+							<rif xlink:href="urn:nir:comunita.europee:direttiva:1975;75-268-cee#art3" xlink:type="simple">articolo 3 della Direttiva 75/268/CEE</rif>
+							Qualora la variazione del cambio comporti un onere superiore ai limiti massimi previsti, l'eccedenza rimane a carico del beneficiario;
 						</corpo>
 					</comma>
 					<comma id="art1-com3">
 						<num>3.</num>
-						<corpo>A tali fini la Giunta regionale stipula apposite convenzioni con gli istituti di Credito autorizzati.</corpo>
+						<corpo>Il contributo regionale viene corrisposto in lire agli Istituti di Credito in base alla differenza fra il cambio del giorno dell'estinzione e quello del perfezionamento del prestito.</corpo>
 					</comma>
-					<comma id="art1-com4">
-						<num>4.</num>
-						<corpo>Agli oneri di spesa derivanti dalla presente legge e decorrenti dall'anno 1991 si fa fronte, da tale anno per gli anni successivi, con legge di bilancio.</corpo>
+				</articolo>
+				<articolo id="art2" iniziovigore="t2">
+					<num>Art. 2.</num>
+					<rubrica />
+					<comma id="art2-com1">
+						<num />
+						<corpo>
+							I contributi previsti dalla presente legge sono concessi per i prestiti di cui all'articolo 2, n. 1 e n. 4 lettera b, della
+							<rif xlink:href="urn:nir:stato:legge:1928-07-05;1760" xlink:type="simple">legge 5 luglio 1928, n. 1760</rif>
+							. Tali prestiti sono assistiti dal Fondo interbancario di garanzia di cui all'
+							<rif xlink:href="urn:nir:stato:legge:1961-06-02;454#art36" xlink:type="simple">articolo 36 della legge 2 giugno 1961, n. 454</rif>
+							.
+						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art3" iniziovigore="t2">
+					<num>Art. 3.</num>
+					<rubrica />
+					<comma id="art3-com1">
+						<num />
+						<corpo>Agli oneri derivanti dalla presente legge, pari a L. 1.000.000.000 per l'anno 1992 si fa fronte, per l'anno 1992 con i fondi iscritti sul cap. 21464 del bilancio di previsione 1992 e, per gli anni successivi, con legge di bilancio.</corpo>
 					</comma>
 				</articolo>
 			</articolato>
