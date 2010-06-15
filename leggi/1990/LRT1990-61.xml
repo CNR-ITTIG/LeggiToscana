@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19900510" num="32 Suppl. Ord. 16bis" tipo="BURT" />
 					<entratainvigore norm="19900525" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1990-04-30;61" />
+					<urn finevigore="t55" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1990-04-30;61" />
+					<urn iniziovigore="t55" valore="urn:nir:regione.toscana:legge:1990-04-30;61@1992-04-30" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Assistenza Sociale" />
 						<materia valore="Assistenza Sanitaria" />
@@ -69,6 +70,7 @@
 						<evento data="19900525" fonte="ra51" id="t52" tipo="modifica" />
 						<evento data="19900525" fonte="ra52" id="t53" tipo="modifica" />
 						<evento data="19900525" fonte="ra53" id="t54" tipo="modifica" />
+						<evento data="19920522" fonte="rp1" id="t55" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1990-04-30;61" xlink:type="simple" />
@@ -125,8 +127,18 @@
 						<attiva id="ra51" xlink:href="urn:nir:regione.toscana:legge:1984-12-06;70" xlink:type="simple" />
 						<attiva id="ra52" xlink:href="urn:nir:regione.toscana:legge:1984-12-06;70" xlink:type="simple" />
 						<attiva id="ra53" xlink:href="urn:nir:regione.toscana:legge:1984-12-06;70" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1992-04-30;16" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Per una deroga alle presenti disposizioni si veda la
+							<rif xlink:href="urn:nir:regione.toscana:legge:1992-04-30;16" xlink:type="simple">legge regionale 30 aprile 1992, n. 16</rif>
+							.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -818,6 +830,17 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:deroga completa="si" implicita="no">
+							<dsp:termine da="#t55" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1992-04-30;16" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1992-04-30;16#mod1" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="abrogazione allegati" />
+							</dsp:dominio>
+						</dsp:deroga>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -2565,6 +2588,7 @@
 								, alla medesima
 								<rif xlink:href="urn:nir:regione.toscana:legge:1984-12-06;70" xlink:type="simple">LR 6 dicembre 1984, n. 70</rif>
 								.
+								<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
 							</mmod>
 						</corpo>
 					</comma>
