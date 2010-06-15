@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19911211" num="70" tipo="BURT" />
 					<entratainvigore norm="19911226" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1991-12-02;58" />
+					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1991-12-02;58" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1991-12-02;58@1992-04-30" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ordinamento" />
 						<materia valore="Enti Territoriali" />
@@ -17,12 +18,23 @@
 					<eventi>
 						<evento data="19911226" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19911226" fonte="ra1" id="t2" tipo="modifica" />
+						<evento data="19920522" fonte="rp1" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1991-12-02;58" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1986-03-24;12" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1992-04-30;18" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Termine prorogato di ulteriori 3 mesi ai sensi dell'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1992-04-30;18#art1" xlink:type="simple">articolo 1, ultimo comma, della legge regionale 30 aprile 1992, n. 18</rif>
+							.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:variazione completa="si" implicita="no">
@@ -36,6 +48,14 @@
 							</dsp:dominio>
 						</dsp:variazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:proroga completa="si" implicita="no" su="efficacia">
+							<dsp:termine da="#t3" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1992-04-30;18" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1992-04-30;18#mod1" xlink:type="simple" />
+							</dsp:norma>
+						</dsp:proroga>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -87,7 +107,11 @@
 					</comma>
 					<comma id="art2-com4">
 						<num />
-						<corpo>Nell'ambito di cui al precedente comma, il commissario liquidatore verifica i rapporti attivi e passivi, lo stato di consistenza dei beni, il personale in servizio. Su tale base, entro sei mesi dall'entrata in vigore della presente legge, predispone un piano di successione e lo trasmette alla giunta regionale.</corpo>
+						<corpo>
+							Nell'ambito di cui al precedente comma, il commissario liquidatore verifica i rapporti attivi e passivi, lo stato di consistenza dei beni, il personale in servizio. Su tale base, entro sei mesi dall'entrata in vigore della presente legge
+							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							, predispone un piano di successione e lo trasmette alla giunta regionale.
+						</corpo>
 					</comma>
 					<comma id="art2-com5">
 						<num />
