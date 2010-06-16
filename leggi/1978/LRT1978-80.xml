@@ -10,7 +10,8 @@
 					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1978-12-22;80" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1978-12-22;80@1982-11-29" />
 					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1978-12-22;80@1985-01-28" />
-					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1978-12-22;80@1988-07-11" />
+					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1978-12-22;80@1988-07-11" />
+					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1978-12-22;80@1992-07-07" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="PERSONALE" />
 						<materia valore="CONTROLLI" />
@@ -25,6 +26,7 @@
 						<evento data="19820601" fonte="rp1" id="t5" tipo="modifica" />
 						<evento data="19850101" fonte="rp2" id="t6" tipo="modifica" />
 						<evento data="19880804" fonte="rp3" id="t7" tipo="modifica" />
+						<evento data="19920730" fonte="rp4" id="t8" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1978-12-22;80" xlink:type="simple" />
@@ -34,6 +36,7 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1982-11-29;85" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1985-01-28;8" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1988-07-11;49" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1992-07-07;31" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -116,7 +119,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:pos xlink:href="#art2-t8" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-07-11;49" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-07-11;49#art1-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -124,12 +127,36 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art2" xlink:type="simple" />
+								<dsp:pos xlink:href="#art2-t8" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art2-t7" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1992-07-07;31" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1992-07-07;31#art55-com1-letc" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 55, comma 1, lettera c) della legge Regione Toscana 7 luglio 1992, n. 31" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art6-t8" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1992-07-07;31" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1992-07-07;31#art55-com1-letc" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 55, comma 1, lettera c) della legge Regione Toscana 7 luglio 1992, n. 31" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-t8" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -224,25 +251,25 @@
 						<corpo>Alla liquidazione delle indennità provvede mensilmente la Giunta regionale sulla base di un prospetto riepilogativo delle presenze compilato e sottoscritto dal Segretario del Comitato Regionale di Controllo e delle Sezioni Decentrate.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art2" iniziovigore="t7">
+				<articolo finevigore="t8" id="art2-t8" iniziovigore="t7" status="abrogato">
 					<num>ARTICOLO 2</num>
-					<comma id="art2-com1">
+					<comma id="art2-t8-com1">
 						<num />
 						<alinea>Ai componenti effettivi e supplenti del Comitato Regionale e delle Sezioni decentrate è attribuita una indennità per ogni giornata di seduta nella misura di:</alinea>
-						<ep id="art2-com1-pun1">
+						<ep id="art2-t8-com1-pun1">
 							<num>-</num>
 							<corpo>L. 100.000 al Presidente;</corpo>
 						</ep>
-						<ep id="art2-com1-pun2">
+						<ep id="art2-t8-com1-pun2">
 							<num>-</num>
 							<corpo>L. 70.000 agli altri componenti.</corpo>
 						</ep>
 					</comma>
-					<comma id="art2-com2">
+					<comma id="art2-t8-com2">
 						<num />
 						<corpo>Le indennità indicate nel precedente comma si intendono al lordo delle ritenute fiscali.</corpo>
 					</comma>
-					<comma id="art2-com3">
+					<comma id="art2-t8-com3">
 						<num />
 						<corpo>Alla liquidazione delle indennità provvede mensilmente la Giunta regionale sulla base di un prospetto riepilogativo delle presenze compilato e sottoscritto dal Segretario del Comitato Regionale di Controllo e delle Sezioni Decentrate</corpo>
 					</comma>
@@ -299,9 +326,9 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art6">
+				<articolo finevigore="t8" id="art6-t8" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 6</num>
-					<comma id="art6-com1">
+					<comma id="art6-t8-com1">
 						<num />
 						<corpo>Al maggior onere derivante dall'applicazione della presente legge si provvede con lo stanziamento previsto al Cap. 02000 del bilancio della Regione per l'esercizio finanziario 1978 e ai corrispondenti capitoli per gli anni successivi.</corpo>
 					</comma>
