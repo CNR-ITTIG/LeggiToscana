@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19900411" num="24" tipo="BURT" />
 					<entratainvigore norm="19900426" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1990-04-09;41" />
+					<urn finevigore="t15" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1990-04-09;41" />
+					<urn iniziovigore="t15" valore="urn:nir:regione.toscana:legge:1990-04-09;41@1992-07-20" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Ente Regione" />
@@ -29,6 +30,7 @@
 						<evento data="19900426" fonte="ra11" id="t12" tipo="modifica" />
 						<evento data="19900426" fonte="ra12" id="t13" tipo="modifica" />
 						<evento data="19900426" fonte="ra13" id="t14" tipo="modifica" />
+						<evento data="19920813" fonte="rp1" id="t15" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1990-04-09;41" xlink:type="simple" />
@@ -45,6 +47,7 @@
 						<attiva id="ra11" xlink:href="urn:nir:regione.toscana:legge:1978-08-09;52" xlink:type="simple" />
 						<attiva id="ra12" xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51" xlink:type="simple" />
 						<attiva id="ra13" xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1992-07-20;32" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -206,6 +209,44 @@
 							</dsp:dominio>
 						</dsp:variazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art28-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1992-07-20;32" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1992-07-20;32#art15-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 15, comma 1 della legge Regione Toscana 20 luglio 1992, n. 32" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1992-07-20;32" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1992-07-20;32#art15-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 15, comma 2 della legge Regione Toscana 20 luglio 1992, n. 32" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art13-com2" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art14" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1992-07-20;32" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1992-07-20;32#art15-com3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 15, comma 3 della legge Regione Toscana 20 luglio 1992, n. 32" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art14-com4" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -214,7 +255,7 @@
 				<dataDoc norm="19900409">9 aprile 1990</dataDoc>
 				, n.
 				<numDoc>41</numDoc>
-				<titoloDoc>Recepimento del 5o accordo contrattuale nazionale per il personale delle Regioni a statuto ordinario.</titoloDoc>
+				<titoloDoc>Recepimento del 5° accordo contrattuale nazionale per il personale delle Regioni a statuto ordinario.</titoloDoc>
 			</intestazione>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 21-3-1990</h:p>
@@ -861,6 +902,10 @@
 							<num>1.</num>
 							<corpo>Le organizzazioni sindacali hanno diritto di affiggere, in appositi spazi che l'Amministrazione ha l'obbligo di predisporre in luoghi accessibili a tutto il personale all'interno della struttura, pubblicazioni, testi e comunicati inerenti a materie di interesse sindacale e del lavoro.</corpo>
 						</comma>
+						<comma id="art13-com2" iniziovigore="t15">
+							<num>2.</num>
+							<corpo>Le Organizzazioni sindacali e il Comitato d'Ente per le pari opportunità uomo - donna hanno diritto di affiggere, in appositi spazi che l'Amministrazione ha l'obbligo di predisporre in luoghi accessibili a tutto il personale all'interno della struttura, pubblicazioni, testi e comunicati inerenti a materie di interesse sindacale e del lavoro, nonché alle azioni positive.</corpo>
+						</comma>
 					</articolo>
 					<articolo id="art14">
 						<num>ARTICOLO 14</num>
@@ -882,6 +927,10 @@
 									è abrogato.
 								</mod>
 							</corpo>
+						</comma>
+						<comma id="art14-com4" iniziovigore="t15">
+							<num>4.</num>
+							<corpo>Per l'esercizio della sua attività può essere concesso dall'Amministrazione Regionale al Comitato d'Ente per le pari opportunità uomo - donna l'uso continuativo di un locale idoneo.</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art15">
@@ -1332,6 +1381,7 @@
 								I Comitati per la pari opportunità, di cui all'
 								<rif xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51#art70" xlink:type="simple">art. 70 della legge regionale 21 agosto 1989, n. 51</rif>
 								, devono essere insediati entro sessanta giorni dalla data di entrata in vigore della presente legge. La Giunta regionale assicura, mediante specifica disciplina, le condizioni e gli strumenti idonei per il loro funzionamento.
+								<h:span id="h1" iniziovigore="t15">È in ogni caso garantito ai Comitati il diritto di informazione preventiva su tutti i temi oggetto della contrattazione decentrata ed il diritto ad essere sentito dall'Amministrazione regionale sugli interventi che riguardino o che comunque ricadono sulle dipendenti donne.</h:span>
 							</corpo>
 						</comma>
 						<comma id="art28-com2">
@@ -2126,7 +2176,7 @@
 						<comma id="art43-com1">
 							<num>1.</num>
 							<corpo>
-								<mod id="">
+								<mod id="mod14">
 									L'indennità spettante al personale inquadrato nell'ottava qualifica funzione prevista dall'
 									<rif xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51#art129-letb" xlink:type="simple">art- 129 lettera b) della legge regionale 21 agosto 1989, n. 51</rif>
 									è incrementata di L. 500.000 annue a decorrere dal 1o ottobre 1990. La predetta indennità è corrisposta con le modalità di cui all'
@@ -2138,7 +2188,7 @@
 						<comma id="art43-com2">
 							<num>2.</num>
 							<corpo>
-								<mod id="">
+								<mod id="mod15">
 									L'indennità di cui all'
 									<rif xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51#art129" xlink:type="simple">art. 129 lettera a) della legge regionale 21 agosto 1989, n. 51</rif>
 									è incrementata di L. 400.000 annue lorde ripartite per dodici mesi a decorrere dal 1o ottobre 1990.
