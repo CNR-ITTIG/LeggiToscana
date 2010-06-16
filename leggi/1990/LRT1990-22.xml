@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19900331" num="20" tipo="BURT" />
 					<entratainvigore norm="19900415" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1990-03-22;22" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1990-03-22;22" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1990-03-22;22@1992-07-06" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Immigrazione" />
 					</materie>
@@ -15,11 +16,68 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19900415" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19920730" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1990-03-22;22" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1992-07-06;29" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1992-07-06;29" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1992-07-06;29#art2-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 2 della legge Regione Toscana 6 luglio 1992, n. 29" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art8-com2bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1992-07-06;29" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1992-07-06;29#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 6 luglio 1992, n. 29" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art8-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art8-com2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1992-07-06;29" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1992-07-06;29#art1-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2 della legge Regione Toscana 6 luglio 1992, n. 29" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com2" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1992-07-06;29" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1992-07-06;29#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 6 luglio 1992, n. 29" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com1-letr" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -237,6 +295,14 @@
 								<num>q)</num>
 								<corpo>il Direttore dell'Ufficio regionale del Lavoro e della Massima Occupazione o suo delegato.</corpo>
 							</el>
+							<el id="art4-com1-letr" iniziovigore="t2">
+								<num>r)</num>
+								<corpo>il sovrintendente scolastico per la Regione Toscana o suo delegato.</corpo>
+							</el>
+						</comma>
+						<comma id="art4-com2" iniziovigore="t2">
+							<num>2.</num>
+							<corpo>Per ognuno dei membri effettivi di cui al comma 1, lettera b, c, d, e, f, g, h, i, l, m, n, o, p, è nominato il rispettivo supplente.</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art5">
@@ -332,9 +398,21 @@
 							<num>1.</num>
 							<corpo>La Consulta è convocata dal suo Presidente almeno due volte l'anno. Il Presidente è comunque tenuto a convocare la Consulta, qualora ne facciano richiesta almeno un terzo dei suoi componenti.</corpo>
 						</comma>
-						<comma id="art8-com2">
+						<comma finevigore="t2" id="art8-com2-t2" iniziovigore="t1" status="abrogato">
 							<num>2.</num>
 							<corpo>La Consulta si riunisce validamente con la maggioranza dei suoi componenti e delibera a maggioranza dei presenti.</corpo>
+						</comma>
+						<comma id="art8-com2" iniziovigore="t2">
+							<num>2.</num>
+							<corpo>La Consulta si riunisce, in prima convocazione, con la presenza della metà più uno dei suoi componenti e in seconda convocazione, con almeno un terzo dei suoi componenti. La Consulta adotta le proprie deliberazioni con la maggioranza dei presenti:</corpo>
+						</comma>
+						<comma id="art8-com2bis" iniziovigore="t2">
+							<num>2 bis.</num>
+							<corpo>
+								Le nomine di cui ai commi 3 e 4 del
+								<rif xlink:href="#art7-com3" xlink:type="simple">precedente art. 7</rif>
+								sono validamente deliberate purché alla seduta abbia partecipato la metà più uno dei membri della Consulta.
+							</corpo>
 						</comma>
 						<comma id="art8-com3">
 							<num>3.</num>
