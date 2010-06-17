@@ -7,7 +7,8 @@
 					<pubblicazione norm="19920527" num="30 Suppl. Ord. 23" tipo="BURT" />
 					<entratainvigore norm="19920611" />
 					<redazione id="red1" nome="" norm="" />
-					<urn iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1992-05-21;20" />
+					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1992-05-21;20" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1992-05-21;20@1992-09-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Bilancio" />
@@ -17,16 +18,18 @@
 					<eventi>
 						<evento data="19920611" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19920611" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19920911" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1992-05-21;20" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1992-05-21;21" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1992-09-02;41" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							<dsp:pos xlink:href="#art9-t3" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1992-05-21;21" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1992-05-21;21#art4-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -34,10 +37,25 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art9" xlink:type="simple" />
+								<dsp:pos xlink:href="#art9-t3" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art9-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1992-09-02;41" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1992-09-02;41#art5-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 1 della legge Regione Toscana 2 settembre 1992, n. 41" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art9-t3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -282,14 +300,14 @@
 						<corpo>È disposto che le rate di ammortamento relative agli anni seguenti al 1994 trovino copertura con le successive leggi di bilancio.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art9" iniziovigore="t2">
+				<articolo finevigore="t3" id="art9-t3" iniziovigore="t2" status="abrogato">
 					<num>Art. 9</num>
 					<rubrica />
-					<comma id="art9-com1">
+					<comma id="art9-t3-com1">
 						<num>1.</num>
 						<corpo>Agli effetti di cui ai commi successivi il disavanzo per l'esercizio 1992 è approvato in L. 117.875.703.794.</corpo>
 					</comma>
-					<comma id="art9-com2">
+					<comma id="art9-t3-com2">
 						<num>2.</num>
 						<corpo>
 							La Giunta Regionale è autorizzata ad estinguere anticipatamente mutui contratti con Istituti di credito a norma dell'
@@ -297,49 +315,57 @@
 							e successive modificazioni negli esercizi precedenti che, per le mutate condizioni del mercato finanziario, comportano oneri eccessivi a carico del bilancio regionale.
 						</corpo>
 					</comma>
-					<comma id="art9-com3">
+					<comma id="art9-t3-com3">
 						<num>3.</num>
 						<alinea>La Giunta Regionale è autorizzata altresì a contrarre, nell'esercizio 1992 mutui e prestiti per i seguenti importi e per le finalità di seguito indicate:</alinea>
-						<ep id="art9-com3-pun1">
+						<ep id="art9-t3-com3-pun1">
 							<num>-</num>
 							<corpo>
 								L. 117.875.703.794 per la copertura del disavanzo di cui al
-								<rif xlink:href="#art9-com1" xlink:type="simple">primo comma</rif>
+								<rif xlink:href="#art9-t3-com1" xlink:type="simple">primo comma</rif>
 								per le finalità indicate nell'allegato II) 1);
 							</corpo>
 						</ep>
-						<ep id="art9-com3-pun2">
+						<ep id="art9-t3-com3-pun2">
 							<num>-</num>
 							<corpo>L. 70.000.000.000 quale importo massimo per la estinzione anticipata dei mutui di cui al secondo comma, comprensivo del debito residuo dei predetti mutui e degli oneri contrattualmente previsti per la risoluzione anticipata dei finanziamenti stessi.</corpo>
 						</ep>
 					</comma>
-					<comma id="art9-com4">
+					<comma id="art9-t3-com4">
 						<num>4.</num>
 						<corpo>I mutui di cui al terzo comma, da estinguersi in un periodo non superiore a 15 anni, saranno contratti ad un tasso iniziale non superiore al 14,00% effettivo annuo e con rata di ammortamento decorrente dall'1/1/1993.</corpo>
 					</comma>
-					<comma id="art9-com5">
+					<comma id="art9-t3-com5">
 						<num>5.</num>
 						<corpo>In caso di eventuale maggiorazione della rata massima di ammortamento determinata in L. 18.583.000.000 derivante, nel corso dell'ammortamento, della variabilità del tasso o dagli eventuali oneri conseguenti al rischio di cambio, saranno apportate le occorrenti variazioni ai bilanci annuale e pluriennale con le singole leggi di bilancio.</corpo>
 					</comma>
-					<comma id="art9-com6">
+					<comma id="art9-t3-com6">
 						<num>6.</num>
 						<alinea>Le singole rate di ammortamento trovano copertura finanziaria nel modo seguente:</alinea>
-						<el id="art9-com6-leta">
+						<el id="art9-t3-com6-leta">
 							<num>a)</num>
 							<corpo>
 								per quanto concerne gli oneri derivanti da nuovi mutui contratti per l'estinzione anticipata autorizzata ai sensi del
-								<rif xlink:href="#art9-com2" xlink:type="simple">secondo comma</rif>
+								<rif xlink:href="#art9-t3-com2" xlink:type="simple">secondo comma</rif>
 								, mediante l'utilizzo degli stanziamenti iscritti per far fronte agli oneri conseguenti ai mutui di cui con il presente articolo viene autorizzata l'estinzione anticipata;
 							</corpo>
 						</el>
-						<el id="art9-com6-letb">
+						<el id="art9-t3-com6-letb">
 							<num>b)</num>
 							<corpo>per quanto riguarda gli oneri derivanti per gli anni 1993 e 1994 dai mutui per la copertura del disavanzo per l'esercizio 1992, mediante gli appositi stanziamenti del bilancio pluriennale approvato dalla presente legge.</corpo>
 						</el>
 					</comma>
-					<comma id="art9-com7">
+					<comma id="art9-t3-com7">
 						<num>7.</num>
 						<corpo>È disposto che le rate di ammortamento relative agli anni seguenti al 1994 trovino copertura con le successive leggi di bilancio.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art9" iniziovigore="t3">
+					<num>Art. 9</num>
+					<rubrica></rubrica>
+					<comma id="art9-com1">
+						<num />
+						<corpo>Agli effetti di cui ai commi successivi il disavanzo per l'esercizio 1992 è approvato in L. 162.331.291.905.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art10">

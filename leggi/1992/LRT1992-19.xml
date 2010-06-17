@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19920527" num="30" tipo="BURT" />
 					<entratainvigore norm="19920611" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1992-05-21;19" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1992-05-21;19" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1992-05-21;19@1992-09-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Contabilità Contratti" />
@@ -16,11 +17,32 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19920611" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19920911" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1992-05-21;19" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1992-09-02;41" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1992-09-02;41" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1992-09-02;41#art6-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 6, comma 1 della legge Regione Toscana 2 settembre 1992, n. 41" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art8" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art8-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -171,15 +193,30 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art8">
+				<articolo finevigore="t2" id="art8-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 8</num>
-					<comma id="art8-com1">
+					<comma id="art8-t2-com1">
 						<num>1.</num>
 						<corpo>
 							L'autorizzazione di spesa di cui all'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1991-05-24;26#art6" xlink:type="simple">art. 6 della LR 26 del 24/5/1991</rif>
 							e successive modificazioni è aumentata di L. 1.500.000.000. Al bilancio pluriennale 1992/1994 fa carico la spesa di L. 3.000.000.000 ripartita quanto a L. 2.000.000.000 sul bilancio 1992, di cui L. 1.000.000.000 proveniente da precedente autorizzazione, quanto a L. 500.000.000 sull'anno 1993 e L. 500.000.000 sull'anno 1994.
 						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art8" iniziovigore="t2">
+					<num>Art. 8</num>
+					<comma id="art8-com1">
+						<num>1.</num>
+						<corpo>
+							L'autorizzazione di spesa di cui all'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1991-05-24;26#art6" xlink:type="simple">art. 6 della LR 26 del 24/5/1991</rif>
+							e successive variazioni è aumentata di L. 1.500.000.000.
+						</corpo>
+					</comma>
+					<comma id="art8-com2">
+						<num />
+						<corpo>Al bilancio pluriennale 1992/94 fa carico la spesa di L. 2.500.000.000 ripartita quanto a L. 1.500.000.000 sul bilancio 1992, di cui L. 1.000.000.000 proveniente da precedente autorizzazione, quanto a L. 500.000.000 sull'anno 1993 e lire 500.000.000 sull'anno 1994.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art9">
