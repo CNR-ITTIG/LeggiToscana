@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t7" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19820629" num="37" tipo="BURT" />
@@ -10,7 +10,8 @@
 					<urn finevigore="t4" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1982-06-12;50" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1982-06-12;50@1985-04-09" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1982-06-12;50@1985-05-02" />
-					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1982-06-12;50@1990-04-09" />
+					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1982-06-12;50@1990-04-09" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1982-06-12;50@1992-09-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Assistenza sociale" />
 					</materie>
@@ -23,6 +24,7 @@
 						<evento data="19850504" fonte="rp1" id="t4" tipo="modifica" />
 						<evento data="19850525" fonte="rp2" id="t5" tipo="modifica" />
 						<evento data="19900505" fonte="rp3" id="t6" tipo="modifica" />
+						<evento data="19920926" fonte="rp4" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1982-06-12;50" xlink:type="simple" />
@@ -31,6 +33,7 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1985-04-09;36" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1985-05-02;40" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1990-04-09;40" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1992-09-02;42" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -263,6 +266,18 @@
 							</dsp:norma>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art1-com2-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1982-06-21;50" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1992-09-02;42" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1992-09-02;42#art34-com1-letd" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 34, comma 1, lettera d) della legge Regione Toscana 2 settembre 1992, n. 42" id="itt9" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>
