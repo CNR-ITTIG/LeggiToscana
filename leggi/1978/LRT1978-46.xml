@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19780728" num="37" tipo="BURT" />
 					<entratainvigore norm="19780812" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1978-07-22;46" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1978-07-22;46" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1978-07-22;46@1992-09-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="ATTRIBUZIONI DELEGHE" />
 					</materie>
@@ -15,9 +16,11 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19780812" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19920926" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1978-07-22;46" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1992-09-02;45" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -42,6 +45,34 @@
 						</h:p>
 					</nota>
 				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com1-num5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1992-09-02;45" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1992-09-02;45#art5-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 1 della legge Regione Toscana 2 settembre 1992, n. 45" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com1-num5-letb-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1992-09-02;45" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1992-09-02;45#art6-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 6, comma 1 della legge Regione Toscana 2 settembre 1992, n. 45" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com1-letd" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -130,8 +161,8 @@
 								<num>a)</num>
 								<corpo>
 									approvazione dei regolamenti per la disciplina delle concessioni degli agri marmiferi di cui all'
-									<rif xlink:href="urn:nir:stato:regio.decreto:1927-07-29;1443" xlink:type="simple">art. 64</rif>
-									, ultimo capoverso del RD 29 luglio 1927, n. 1443 ;
+									<rif xlink:href="urn:nir:stato:regio.decreto:1927-07-29;1443#art64" xlink:type="simple">art. 64, ultimo capoverso del RD 29 luglio 1927, n. 1443</rif>
+									;
 								</corpo>
 							</el>
 							<el id="art2-com1-num3-letb">
@@ -140,8 +171,8 @@
 									dichiarazione di appartenenza alla categoria delle cave della coltivazione di sostanze non contemplate dall'
 									<rif xlink:href="urn:nir:stato:regio.decreto:1927-07-29;1443#art2" xlink:type="simple">art. 2 del RD 29 luglio 1927, n. 1443</rif>
 									, e successive modificazioni, nè dai decreti emanati ai sensi dell'
-									<rif xlink:href="urn:nir:stato:regio.decreto:1927-07-29;1443" xlink:type="simple">art. 3</rif>
-									del RD predetto;
+									<rif xlink:href="urn:nir:stato:regio.decreto:1927-07-29;1443#art3" xlink:type="simple">art. 3 del RD predetto</rif>
+									;
 								</corpo>
 							</el>
 						</en>
@@ -164,7 +195,7 @@
 									;
 								</corpo>
 							</el>
-							<el id="art2-com1-num5-letb">
+							<el finevigore="t2" id="art2-com1-num5-letb-t2" iniziovigore="t1" status="abrogato">
 								<num>b)</num>
 								<corpo>delimitazione del territorio danneggiato da calamità naturali o avversità atmosferiche di carattere eccezionale e specificazione del tipo di provvidenza da applicarsi;</corpo>
 							</el>
@@ -251,14 +282,20 @@
 					<comma id="art2-com3">
 						<num />
 						<corpo>
-							Il Consiglio regionale, in materia di ordinamento degli enti amministrativi locali operanti nelle materie di cui al DPR n. 616 ivi compresi gli enti costituiti per l'organizzazione di fiere, mostre ed esposizioni nazionali ed internazionali, ed in ordine alle istituzioni culturali di interesse locale di cui all'
-							<rif xlink:href="urn:nir:presidente.repubblica:decreto:1977-07-24;616#art49-com3" xlink:type="simple">art. 49</rif>
-							, 3 comma del DPR n. 616, fermo restando il disposto contenuto nell'ultimo comma del citato articolo, esercita le funzioni concernenti l'istituzione, la nomina e lo scioglimento degli organi amministrativi, la fusione, la soppressione e l'estinzione degli enti ed istituzioni stesse.
+							Il Consiglio regionale, in materia di ordinamento degli enti amministrativi locali operanti nelle materie di cui al
+							<rif xlink:href="urn:nir:presidente.repubblica:decreto:1977-07-24;616" xlink:type="simple">DPR n. 616</rif>
+							ivi compresi gli enti costituiti per l'organizzazione di fiere, mostre ed esposizioni nazionali ed internazionali, ed in ordine alle istituzioni culturali di interesse locale di cui all'
+							<rif xlink:href="urn:nir:presidente.repubblica:decreto:1977-07-24;616#art49-com3" xlink:type="simple">art. 49, 3 comma del DPR n. 616</rif>
+							, fermo restando il disposto contenuto nell'ultimo comma del citato articolo, esercita le funzioni concernenti l'istituzione, la nomina e lo scioglimento degli organi amministrativi, la fusione, la soppressione e l'estinzione degli enti ed istituzioni stesse.
 						</corpo>
 					</comma>
 					<comma id="art2-com4">
 						<num />
-						<corpo>Al Consiglio regionale sono attribuite tutte le funzioni amministrative in ordine ai consorzi industriali di cui all'art. 65 del DPR n. 616.</corpo>
+						<corpo>
+							Al Consiglio regionale sono attribuite tutte le funzioni amministrative in ordine ai consorzi industriali di cui all'
+							<rif xlink:href="urn:nir:presidente.repubblica:decreto:1977-07-24;616#art65" xlink:type="simple">art. 65 del DPR n. 616</rif>
+							.
+						</corpo>
 					</comma>
 					<comma id="art2-com5">
 						<num />
@@ -325,6 +362,10 @@
 						<el id="art4-com1-letc">
 							<num>c)</num>
 							<corpo>in ordine alla polizia amministrativa.</corpo>
+						</el>
+						<el id="art4-com1-letd" iniziovigore="t2">
+							<num>d)</num>
+							<corpo>delimitazione del territorio danneggiato da calamità naturali o avversità atmosferiche di carattere eccezionale in materia di agricoltura e di bonifica e specificazione delle provvidenze da applicarsi.</corpo>
 						</el>
 					</comma>
 					<comma id="art4-com2">
