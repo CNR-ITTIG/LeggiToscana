@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19920818" num="45bis" tipo="BURT" />
 					<entratainvigore norm="19920902" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1992-08-13;38" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1992-08-13;38" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1992-08-13;38@1993-01-05" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Caccia" />
 					</materie>
@@ -15,11 +16,41 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19920902" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19930107" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1992-08-13;38" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1993-01-05;1" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1992-08-13;38" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1993-01-05;1" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1993-01-05;1#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 5 gennaio 1993, n. 1" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1992-08-13;38" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1993-01-05;1" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1993-01-05;1#artunico-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 2 della legge Regione Toscana 5 gennaio 1993, n. 1" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -74,6 +105,10 @@
 								Modalità e forme di caccia.
 								<h:br />
 								Dal 20 settembre 1992 al 31 gennaio 1993, l'esercizio venatorio è consentito ad appostamento fisso, temporaneo e/o in forma vagante con l'ausilio del cane. La caccia al cinghiale è disciplinata secondo le norme del regolamento per la gestione del cinghiale di cui all'Ordinanza del Presidente della Giunta Regionale n. 6 del 21-10-1991 e successive modificazioni ed integrazioni o di altri atti approvati dal Consiglio Regionale o dal Presidente della Giunta Regionale. È vietato, per l'installazione degli appostamenti temporanei, prelevare materiale fresco da colture arboree sia agricole che forestali e da piante destinate alla produzione agricola. Tutti i terreni devono essere liberati dagli appostamenti temporanei, a cura dei fruitori, al termine dell'utilizzazione, L'accesso agli appostamenti fissi o temporanei nelle zone dove non è permessa la caccia vagante, è consentito solo con il fucile smontato o racchiuso in idoneo involucro. Tutti i cacciatori sono tenuti alla raccolta dei bossoli delle cartucce sparate.
+								<h:span id="h1" iniziovigore="t2">
+									<h:br />
+									Le Amm.ni Prov.li che si avvalgono delle deroghe di cui al successivo punto 8, individuano le zone dove è consentita la caccia da appostamento e/o in forma vagante e con l'ausilio del cane nel periodo compreso fra il 7 e il 31 gennaio 1993. La caccia alla volpe e al cinghiale nel periodo suddetto può essere esercitata nella forma della battuta con l'uso dei cani.
+								</h:span>
 							</corpo>
 						</en>
 						<en id="artunico-com1-num3">
@@ -166,6 +201,10 @@
 								Deroghe al presente calendario.
 								<h:br />
 								Nelle aziende faunistico - venatorie a preminente vocazione venatoria è consentita, nel rispetto dei piani di abbattimento, approvati dalle Amministrazioni Provinciali, la caccia alla starna e alla pernice rossa, provenienti da allevamento fino al 31 di dicembre e al germano reale d'allevamento fino al 31 gennaio.
+								<h:span id="h2" iniziovigore="t2">
+									<h:br />
+									Le Amministrazioni Provinciali possono, con provvedimento motivato, vietare la caccia al fagiano, fatta eccezione per le aziende faunistico - venatorie e a preminente vocazione venatoria, nel periodo compreso fra il 7 e il 31 gennaio 1993.
+								</h:span>
 							</corpo>
 						</en>
 						<en id="artunico-com1-num9">
