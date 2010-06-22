@@ -11,7 +11,8 @@
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1987-01-10;1@1988-03-09" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1987-01-10;1@1988-05-30" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1987-01-10;1@1989-08-30" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1987-01-10;1@1991-01-28" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1987-01-10;1@1991-01-28" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1987-01-10;1@1993-01-25" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Turismo" />
 					</materie>
@@ -23,6 +24,7 @@
 						<evento data="19880623" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19890911" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="19910221" fonte="rp4" id="t5" tipo="modifica" />
+						<evento data="19930218" fonte="rp5" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1987-01-10;1" xlink:type="simple" />
@@ -30,6 +32,7 @@
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1988-05-30;40" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1989-08-30;56" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1991-01-28;5" xlink:type="simple" />
+						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1993-01-25;4" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -180,7 +183,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:abrogazione completa="si" implicita="no">
@@ -210,6 +213,30 @@
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1991-01-28;5#mod1" xlink:type="simple" />
 							</dsp:norma>
 						</dsp:proroga>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com2-lete" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1993-01-25;4" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1993-01-25;4#artunico-com1-pun1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1, 1 della legge Regione Toscana 25 gennaio 1993, n. 4" id="itt13" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1993-01-25;4" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1993-01-25;4#artunico-com1-pun2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1, 2 della legge Regione Toscana 25 gennaio 1993, n. 4" id="itt14" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3-com6" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -342,7 +369,10 @@
 							</el>
 							<el id="art3-com2-lete">
 								<num>e)</num>
-								<corpo>uno o più locali comuni di soggiorno, distinti dalla sala da pranzo, dimensionati complessivamente nel rapporto minimo di mq 1 per ogni posto letto effettivo, con un minimo di mq 8;</corpo>
+								<corpo>
+									uno o più locali comuni di soggiorno, distinti dalla sala da pranzo, dimensionati complessivamente nel rapporto minimo di mq 1 per ogni posto letto effettivo, con un minimo di mq 8;
+									<h:span id="h1" iniziovigore="t6">limitatamente agli ostelli per la gioventù il rapporto minimo per ogni posto letto effettivo è di mq 0,50 e i locali comuni di soggiorno, ferma restando la loro dimensione minima di mq 8, possono coincidere con la sala pranzo;</h:span>
+								</corpo>
 							</el>
 							<el id="art3-com2-letf">
 								<num>f)</num>
@@ -373,7 +403,20 @@
 							<num />
 							<corpo>Per gli immobili esistenti, ove non vi sia la superficie minima necessaria di cui al punto a), è sufficiente che sia garantita l'esistenza di una cubatura minima di mc 12 per persona.</corpo>
 						</comma>
-						<comma id="art3-com6">
+						<comma id="art3-com6" iniziovigore="t6">
+							<num />
+							<corpo>
+								Limitatamente agli ostelli della gioventù, ivi compresi quelli autorizzati e da autorizzare successivamente alla data del 4 febbraio 1987, la cubatura minima di cui ai precedenti
+								<mrif>
+									commi
+									<rif xlink:href="#art3-com4" xlink:type="simple">4</rif>
+									e
+									<rif xlink:href="#art3-com5" xlink:type="simple">5</rif>
+								</mrif>
+								è stabilita in 9 mc a persona.
+							</corpo>
+						</comma>
+						<comma id="art3-com7">
 							<num />
 							<corpo>
 								Per quanto non specificatamente previsto dalle presenti disposizioni, si applicano alle case per ferie e agli ostelli per la gioventù le prescrizioni sanitarie previste per le aziende alberghiere dal
@@ -1082,7 +1125,7 @@
 								La violazione di quanto previsto dall'
 								<rif xlink:href="#art5" xlink:type="simple">art. 5</rif>
 								della presente legge comporta la sanzione amministrativa del pagamento della somma da lire 300.000 a lire 900.000.
-								<h:span finevigore="t3" id="h1" iniziovigore="t1" status="abrogato">L'omessa esposizione di tabelle e cartellini prezzi comporta la sanzione amministrativa del pagamento da L. 50.000 a L. 150.000.</h:span>
+								<h:span finevigore="t3" id="h2" iniziovigore="t1" status="abrogato">L'omessa esposizione di tabelle e cartellini prezzi comporta la sanzione amministrativa del pagamento da L. 50.000 a L. 150.000.</h:span>
 							</corpo>
 						</comma>
 						<comma finevigore="t3" id="art26-com4-t3" iniziovigore="t1" status="abrogato">
