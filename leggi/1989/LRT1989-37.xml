@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t7" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1989-06-14;37" />
 					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1989-06-14;37@1989-12-12" />
-					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1989-06-14;37@1992-09-02" />
+					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1989-06-14;37@1992-09-02" />
+					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1989-06-14;37@1993-02-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sistema Educativo" />
 						<materia valore="Organizzazioni Pubbliche" />
@@ -26,6 +27,7 @@
 						<evento data="19890711" fonte="ra5" id="t6" tipo="modifica" />
 						<evento data="19891228" fonte="rp1" id="t7" tipo="modifica" />
 						<evento data="19920926" fonte="rp2" id="t8" tipo="modifica" />
+						<evento data="19930226" fonte="rp3" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1989-06-14;37" xlink:type="simple" />
@@ -36,6 +38,7 @@
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1981-06-19;53" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1989-12-12;84" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1992-09-02;47" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1993-02-02;9" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -160,6 +163,18 @@
 								<dsp:pos xlink:href="#art15-com5-t8" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1993-02-02;9" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1993-02-02;9#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 2 febbraio 1993, n. 9" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art9-com3bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -459,6 +474,10 @@
 						<comma id="art9-com3">
 							<num>3.</num>
 							<corpo>Gli studenti vincitori di assegno di studio e fuori sede usufruiscano gratuitamente, a domanda, del servizio abitativo.</corpo>
+						</comma>
+						<comma id="art9-com3bis" iniziovigore="t9">
+							<num>3 bis</num>
+							<corpo>Il beneficio dell'alloggio, attribuito agli studenti iscritti all'ultimo anno di corso o al primo fuori corso dei corsi di laurea per i quali è previsto uno sbarramento, può essere prorogato per un massimo di 20 mesi a decorrere dal termine dei suddetti anni accademici.</corpo>
 						</comma>
 						<comma id="art9-com4">
 							<num>4.</num>
