@@ -1,22 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19750207" num="07" tipo="BURT" />
 					<entratainvigore norm="19750207" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1975-02-03;10" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1975-02-03;10" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1975-02-03;10@1993-04-06" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19750207" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19930501" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1975-02-03;10" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1993-04-06;23" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1993-04-06;23" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1993-04-06;23#art10-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 10, comma 1 della legge Regione Toscana 6 aprile 1993, n. 23" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -102,9 +121,9 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art4">
+				<articolo finevigore="t2" id="art4-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 4</num>
-					<comma id="art4-com1">
+					<comma id="art4-t2-com1">
 						<num />
 						<corpo>
 							I cittadini italiani di cui al
@@ -112,23 +131,23 @@
 							, residenti in Toscana, qualora si avvalgono per il ricovero ospedaliero di istituti di cura non convenzionati, avranno diritto ad un rimborso delle spese sostenute, deliberato dalla Giunta regionale, nella misura corrispondente alla spesa media sostenuta dalla Regione per analoghe prestazioni nelle case di cura private convenzionate.
 						</corpo>
 					</comma>
-					<comma id="art4-com2">
+					<comma id="art4-t2-com2">
 						<num />
 						<corpo>L'entità della quota e i criteri per la riscossione sono determinati annualmente con deliberazione della Giunta regionale da adottarsi entro il 31 dicembre di ogni anno.</corpo>
 					</comma>
-					<comma id="art4-com3">
+					<comma id="art4-t2-com3">
 						<num />
 						<corpo>La Giunta regionale assicura altresì ai cittadini residenti e che ne abbiano diritto in base ai vigenti ordinamenti, il rimborso delle spese sostenute per cure ospedaliere erogate fuori del territorio nazionale durante la loro permanenza all'estero.</corpo>
 					</comma>
-					<comma id="art4-com4">
+					<comma id="art4-t2-com4">
 						<num />
 						<corpo>Gli oneri sostenuti dalle casse marittime per l'assistenza ospedaliera all'estero dei loro iscritti, sono rimborsati dalla Giunta regionale toscana per i marittimi residenti sul territorio regionale.</corpo>
 					</comma>
-					<comma id="art4-com5">
+					<comma id="art4-t2-com5">
 						<num />
 						<corpo>La Giunta regionale può delegare le funzioni amministrative di cui ai commi 1, 3 e 4 del presente articolo a funzionari in servizio presso la Regione, che le esercitano secondo direttive vincolanti.</corpo>
 					</comma>
-					<comma id="art4-com6">
+					<comma id="art4-t2-com6">
 						<num />
 						<corpo>I singoli componenti della Giunta regionale curano il rispetto di tali direttive.</corpo>
 					</comma>
@@ -284,7 +303,7 @@
 						<num />
 						<corpo>
 							Devono altresì essere autorizzati dalla Regione i ricoveri di cui al
-							<rif xlink:href="#art4-com1" xlink:type="simple">comma 1 dell'art. 4</rif>
+							<rif xlink:href="#art4-t2-com1" xlink:type="simple">comma 1 dell'art. 4</rif>
 							.
 						</corpo>
 					</comma>
