@@ -15,7 +15,8 @@
 					<urn finevigore="t35" iniziovigore="t36" valore="urn:nir:regione.toscana:legge:1984-12-06;70@1990-04-30" />
 					<urn finevigore="t37" iniziovigore="t35" valore="urn:nir:regione.toscana:legge:1984-12-06;70@1990-04-09" />
 					<urn finevigore="t38" iniziovigore="t37" valore="urn:nir:regione.toscana:legge:1984-12-06;70@1992-03-11" />
-					<urn iniziovigore="t38" valore="urn:nir:regione.toscana:legge:1984-12-06;70@1992-09-02" />
+					<urn finevigore="t39" iniziovigore="t38" valore="urn:nir:regione.toscana:legge:1984-12-06;70@1992-09-02" />
+					<urn iniziovigore="t39" valore="urn:nir:regione.toscana:legge:1984-12-06;70@1993-05-26" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ordinamento" />
 						<materia valore="Enti Territoriali" />
@@ -62,6 +63,7 @@
 						<evento data="19900525" fonte="rp6" id="t36" tipo="modifica" />
 						<evento data="19920403" fonte="rp7" id="t37" tipo="modifica" />
 						<evento data="19920926" fonte="rp8" id="t38" tipo="modifica" />
+						<evento data="19930619" fonte="rp9" id="t39" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1984-12-06;70" xlink:type="simple" />
@@ -102,6 +104,7 @@
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:1990-04-30;61" xlink:type="simple" />
 						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:1992-03-11;6" xlink:type="simple" />
 						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:1992-09-02;42" xlink:type="simple" />
+						<passiva id="rp9" xlink:href="urn:nir:regione.toscana:legge:1993-05-26;33" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -110,6 +113,13 @@
 							A modificazione ed integrazione della presente si veda la
 							<rif xlink:href="urn:nir:regione.toscana:legge:1989-08-30;53" xlink:type="simple">legge regionale 30 agosto 1989, n. 53</rif>
 							.
+						</h:p>
+					</nota>
+					<nota id="n2">
+						<h:p>
+							L'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1993-05-26;33#art2" xlink:type="simple">art. 2 della legge regionale 26 maggio 1993 n. 33</rif>
+							specifica che la disposizione deve applicarsi esclusivamente ai ricoveri in corso alla data di entrata in vigore della stessa legge (19 giugno 1993).
 						</h:p>
 					</nota>
 				</redazionale>
@@ -1395,6 +1405,18 @@
 								<dsp:pos xlink:href="#art12-com9-t38" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art38" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1993-05-26;33" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1993-05-26;33#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 26 maggio 1993, n. 33" id="itt62" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art38-com8" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -3879,6 +3901,15 @@
 									</mod>
 								</corpo>
 							</comma>
+							<comma id="art38-com8" iniziovigore="t39">
+								<num>8.</num>
+								<corpo>
+									Allorchè il soggetto non autosufficiente, sia dimissibile solo mediante trasferimento in residenza sanitaria assistita, e detto trasferimento sia impossibile per indisponibilità di posti, l'unità sanitaria locale, assume a proprio carico la quota capitaria di cui all'
+									<rif xlink:href="urn:nir:regione.toscana:legge:1980-03-27;20#art6-com2" xlink:type="simple">art. 6, comma 2, della LR 27-3-80, n. 20</rif>
+									.
+									<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+								</corpo>
+							</comma>
 						</articolo>
 						<articolo id="art38bis" iniziovigore="t36">
 							<num>Art. 38 bis</num>
@@ -5825,7 +5856,7 @@
 						<intestazione>
 							<titoloDoc>
 								"ALLEGATI" ALLA PARTE DISPOSITIVA DEL PIANO SANITARIO REGIONALE 1984-1986 E DEL PIANO DEI SERVIZI SOCIALI 1984-1986
-								<ndr num="#ann1-n1" valore="" xlink:type="simple">(b)</ndr>
+								<ndr num="#ann1-n1" valore="" xlink:type="simple">(c)</ndr>
 							</titoloDoc>
 						</intestazione>
 						<formulainiziale />
