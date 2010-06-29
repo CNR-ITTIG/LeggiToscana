@@ -8,7 +8,8 @@
 					<entratainvigore norm="19880518" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1988-04-23;29" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1988-04-23;29@1988-08-01" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1988-04-23;29@1988-08-01" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1988-04-23;29@1993-07-19" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organi" />
 						<materia valore="Artigianato" />
@@ -19,10 +20,12 @@
 					<eventi>
 						<evento data="19880518" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19880825" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19930812" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1988-04-23;29" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1988-08-01;54" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1993-07-19;43" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -42,6 +45,30 @@
 								<dsp:pos xlink:href="#art22-com2-t2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1993-07-19;43" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1993-07-19;43#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 19 luglio 1993, n. 43" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1993-07-19;43" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1993-07-19;43#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 19 luglio 1993, n. 43" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art7-com2-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -104,10 +131,10 @@
 							<corpo>Rimangono ferme le competenze statutarie e di legge, statale e regionale, della Regione, delle Province e dei Comuni, singoli e associati.</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art3">
+					<articolo finevigore="t3" id="art3-t3" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 3</num>
 						<rubrica>(Commissione circondariale di Prato)</rubrica>
-						<comma id="art3-com1">
+						<comma id="art3-t3-com1">
 							<num>1.</num>
 							<corpo>
 								Nel circondario di Prato, di cui alla
@@ -115,7 +142,7 @@
 								, è istituita la Commissione circondariale per l'artigianato di Prato con le funzioni, i compiti e la disciplina delle Commissioni provinciali previste dalla presente legge.
 							</corpo>
 						</comma>
-						<comma id="art3-com2">
+						<comma id="art3-t3-com2">
 							<num>2.</num>
 							<corpo>Ai fini della presente legge, con la dizione "commissioni provinciali per l'artigianato" si intende anche la Commissione circondariale di Prato.</corpo>
 						</comma>
@@ -256,7 +283,7 @@
 									.
 								</corpo>
 							</comma>
-							<comma id="art7-com2">
+							<comma finevigore="t3" id="art7-com2-t3" iniziovigore="t1" status="abrogato">
 								<num>2.</num>
 								<corpo>La Commissione circondariale di Prato ha sede, nel capoluogo del circondario, presso i locali uffici della Camera di commercio.</corpo>
 							</comma>
@@ -274,7 +301,7 @@
 									Qualora ricorrano particolari motivazioni per le quali non si possa addivenire alla stipula delle convenzioni o non risulti possibile proseguirne lo svolgimento, il Consiglio regionale, con propria deliberazione, può determinare diversamente la sede di cui al
 									<rif xlink:href="#art7-com1" xlink:type="simple">primo</rif>
 									e al
-									<rif xlink:href="#art7-com2" xlink:type="simple">secondo comma</rif>
+									<rif xlink:href="#art7-com2-t3" xlink:type="simple">secondo comma</rif>
 									.
 								</corpo>
 							</comma>
