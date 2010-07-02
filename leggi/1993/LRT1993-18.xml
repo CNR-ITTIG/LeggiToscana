@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19930408" num="20 Supplemento Ordinario n. 16" tipo="BURT" />
 					<entratainvigore norm="19930408" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1993-03-31;18" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1993-03-31;18" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1993-03-31;18@1993-08-11" />
 					<materie vocabolario="Grandi voci TESEO">
 						<materia valore="Famiglia e infanzia" />
 					</materie>
@@ -19,11 +20,47 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19930408" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19930912" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1993-03-31;18" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1993-08-11;53" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art11-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1993-08-11;53" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1993-08-11;53#art7-com7" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 7, comma 7 della legge Regione Toscana 11 agosto 1993, n. 53" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art11-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1993-08-11;53" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1993-08-11;53#art7-com7" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 7, comma 7 della legge Regione Toscana 11 agosto 1993, n. 53" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -334,7 +371,12 @@
 					<num>ARTICOLO 11</num>
 					<comma id="art11-com1">
 						<num>1.</num>
-						<corpo>La Giunta regionale è autorizzata a contrarre nell'esercizio 1993 mutui per la parziale copertura dei disavanzo delle aziende di trasporto pubblico locale fino ad un importo massimo di L. 50.000.000.000.</corpo>
+						<corpo>
+							La Giunta regionale è autorizzata a contrarre nell'esercizio 1993 mutui per la parziale copertura dei disavanzo delle aziende di trasporto pubblico locale fino ad un importo massimo di
+							<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">L. 50.000.000.000</h:span>
+							<h:span id="h2" iniziovigore="t2">L. 60.000.000.000</h:span>
+							.
+						</corpo>
 					</comma>
 					<comma id="art11-com2">
 						<num>2.</num>
@@ -346,7 +388,12 @@
 					</comma>
 					<comma id="art11-com3">
 						<num>3.</num>
-						<corpo>In caso di eventuale maggiorazione della rata massima di ammortamento determinate in L. 10.000.000.000 derivanti, nel corso dell'ammortamento, dalla variabilità del tasso o dagli eventuali oneri conseguenti al rischio di cambio, saranno apportate le occorrenti variazioni di bilanci annuale e pluriennale con le singole leggi di bilancio.</corpo>
+						<corpo>
+							In caso di eventuale maggiorazione della rata massima di ammortamento determinate in
+							<h:span finevigore="t2" id="h3" iniziovigore="t1" status="abrogato">L. 10.000.000.000</h:span>
+							<h:span id="h4" iniziovigore="t2">L. 12.100.000.000</h:span>
+							derivanti, nel corso dell'ammortamento, dalla variabilità del tasso o dagli eventuali oneri conseguenti al rischio di cambio, saranno apportate le occorrenti variazioni di bilanci annuale e pluriennale con le singole leggi di bilancio.
+						</corpo>
 					</comma>
 					<comma id="art11-com4">
 						<num>4.</num>

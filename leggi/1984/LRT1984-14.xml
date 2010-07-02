@@ -10,7 +10,8 @@
 					<urn finevigore="t17" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1984-02-28;14" />
 					<urn finevigore="t18" iniziovigore="t17" valore="urn:nir:regione.toscana:legge:1984-02-28;14@1984-05-26" />
 					<urn finevigore="t19" iniziovigore="t18" valore="urn:nir:regione.toscana:legge:1984-02-28;14@1985-01-10" />
-					<urn iniziovigore="t19" valore="urn:nir:regione.toscana:legge:1984-02-28;14@1988-03-12" />
+					<urn finevigore="t20" iniziovigore="t19" valore="urn:nir:regione.toscana:legge:1984-02-28;14@1988-03-12" />
+					<urn iniziovigore="t20" valore="urn:nir:regione.toscana:legge:1984-02-28;14@1993-08-11" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Trasporti" />
 						<materia valore="Attribuzioni Deleghe" />
@@ -37,6 +38,7 @@
 						<evento data="19840619" fonte="rp1" id="t17" tipo="modifica" />
 						<evento data="19850131" fonte="rp2" id="t18" tipo="modifica" />
 						<evento data="19880406" fonte="rp3" id="t19" tipo="modifica" />
+						<evento data="19930912" fonte="rp4" id="t20" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1984-02-28;14" xlink:type="simple" />
@@ -58,6 +60,7 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1984-05-26;37" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1988-03-12;18" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1993-08-11;53" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -173,7 +176,7 @@
 					</modificheattive>
 					<modifichepassive>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art23" xlink:type="simple" />
+							<dsp:pos xlink:href="#art23-t20" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1984-05-26;37" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1984-05-26;37#artunico-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -181,7 +184,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art23" xlink:type="simple" />
+								<dsp:pos xlink:href="#art23-t20" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art23-t17" xlink:type="simple" />
@@ -247,6 +250,36 @@
 								<dsp:pos xlink:href="#art28bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art22-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1993-08-11;53" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1993-08-11;53#art6-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 6, comma 1 della legge Regione Toscana 11 agosto 1993, n. 53" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art22-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art22-com1-t20" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art23" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1993-08-11;53" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1993-08-11;53#art6-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 6, comma 2 della legge Regione Toscana 11 agosto 1993, n. 53" id="itt8" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art23" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art23-t20" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -931,7 +964,7 @@
 					<articolo id="art22">
 						<num>ARTICOLO 22</num>
 						<rubrica>(Servizi di bacino ed interbacino - Attribuzione e delega delle funzioni)</rubrica>
-						<comma id="art22-com1">
+						<comma finevigore="t20" id="art22-com1-t20" iniziovigore="t1" status="abrogato">
 							<num />
 							<corpo>
 								Sono attribuite, delegate e subdelegate alle Province tutte le funzioni amministrative non di competenza di organi statali e non riservate alla Regione dal
@@ -939,7 +972,15 @@
 								, relative ai servizi di trasporto di bacino ed interbacino.
 							</corpo>
 						</comma>
-						<comma id="art22-com2">
+						<comma id="art22-com2" iniziovigore="t20">
+							<num />
+							<corpo>
+								Sono attribuite, delegate e subdelegate alle province tutte le funzioni amministrative non di competenza di organi statali e non riservate alla Regione ai sensi del
+								<rif xlink:href="#art23" xlink:type="simple">successivo art. 23</rif>
+								, relative ai servizi di trasporto di bacino, interbacino ed interregionali.
+							</corpo>
+						</comma>
+						<comma id="art22-com3">
 							<num />
 							<corpo>
 								Nel caso in cui i servizi interessino il territorio di più Province tutte le funzioni amministrative di cui al precedente comma sono delegate alla Provincia nel cui territorio vi sia prevalenza di interesse secondo la individuazione di cui alla
@@ -976,9 +1017,41 @@
 							</en>
 						</comma>
 					</articolo>
-					<articolo id="art23" iniziovigore="t17">
+					<articolo finevigore="t20" id="art23-t20" iniziovigore="t17" status="abrogato">
 						<num>ARTICOLO 23</num>
 						<rubrica>(Funzioni amministrative esercitate dalla Regione)</rubrica>
+						<comma id="art23-t20-com1">
+							<num />
+							<alinea>Restano riservate alla Regione le funzioni concernenti:</alinea>
+							<en id="art23-t20-com1-num1">
+								<num>1)</num>
+								<corpo>la concessione di contributi per spese di investimenti;</corpo>
+							</en>
+							<en id="art23-t20-com1-num2">
+								<num>2)</num>
+								<corpo>
+									le intese con l'Amministrazione statale competente ai sensi dell'
+									<rif xlink:href="urn:nir:presidente.repubblica:decreto:1977-07-24;616#art81-com3" xlink:type="simple">art. 81, 3° comma del DPR 24 luglio 1977 n. 616</rif>
+									, relativamente ai progetti delle ferrovie in concessione;
+								</corpo>
+							</en>
+							<en id="art23-t20-com1-num3">
+								<num>3)</num>
+								<corpo>
+									le tasse sulle concessioni regionali di cui alla
+									<rif xlink:href="urn:nir:regione.toscana:legge:1980-05-15;54" xlink:type="simple">Legge Regionale 15 maggio 1980 n. 54</rif>
+									;
+								</corpo>
+							</en>
+							<en id="art23-t20-com1-num4">
+								<num>4)</num>
+								<corpo>i servizi interregionali che interessano il territorio di regioni contermini.</corpo>
+							</en>
+						</comma>
+					</articolo>
+					<articolo id="art23" iniziovigore="t20">
+						<num>Art. 23</num>
+						<rubrica>Funzioni amministrative esercitate dalla Regione</rubrica>
 						<comma id="art23-com1">
 							<num />
 							<alinea>Restano riservate alla Regione le funzioni concernenti:</alinea>
@@ -990,21 +1063,21 @@
 								<num>2)</num>
 								<corpo>
 									le intese con l'Amministrazione statale competente ai sensi dell'
-									<rif xlink:href="urn:nir:presidente.repubblica:decreto:1977-07-24;616#art81-com3" xlink:type="simple">art. 81, 3° comma del DPR 24 luglio 1977 n. 616</rif>
+									<rif xlink:href="urn:nir:presidente.repubblica:decreto:1977-07-24;616#art81-com3" xlink:type="simple">art. 81, 3° comma, del DPR 24 luglio 1977 n. 616</rif>
 									, relativamente ai progetti delle ferrovie in concessione;
 								</corpo>
 							</en>
 							<en id="art23-com1-num3">
 								<num>3)</num>
 								<corpo>
-									le tasse sulle concessioni regionali di cui alla
-									<rif xlink:href="urn:nir:regione.toscana:legge:1980-05-15;54" xlink:type="simple">Legge Regionale 15 maggio 1980 n. 54</rif>
+									le tasse sulle successioni regionali di cui alla
+									<rif xlink:href="urn:nir:regione.toscana:legge:1980-05-15;54" xlink:type="simple">legge regionale 15 maggio 1980 n. 54</rif>
 									;
 								</corpo>
 							</en>
 							<en id="art23-com1-num4">
 								<num>4)</num>
-								<corpo>i servizi interregionali che interessano il territorio di regioni contermini.</corpo>
+								<corpo>i servizi definiti di interesse regionale che soddisfano ad esigenze di mobilità di livello regionale collegando tra loro capoluoghi di provincia e/o centri aventi comunque rilevanza nell'ambito regionale.</corpo>
 							</en>
 						</comma>
 					</articolo>
