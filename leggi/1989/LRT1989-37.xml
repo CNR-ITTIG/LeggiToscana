@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t10" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19890626" num="36" tipo="BURT" />
@@ -10,7 +10,8 @@
 					<urn finevigore="t7" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1989-06-14;37" />
 					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1989-06-14;37@1989-12-12" />
 					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1989-06-14;37@1992-09-02" />
-					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1989-06-14;37@1993-02-02" />
+					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1989-06-14;37@1993-02-02" />
+					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1989-06-14;37@1993-08-01" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sistema Educativo" />
 						<materia valore="Organizzazioni Pubbliche" />
@@ -28,6 +29,7 @@
 						<evento data="19891228" fonte="rp1" id="t7" tipo="modifica" />
 						<evento data="19920926" fonte="rp2" id="t8" tipo="modifica" />
 						<evento data="19930226" fonte="rp3" id="t9" tipo="modifica" />
+						<evento data="19930904" fonte="rp4" id="t10" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1989-06-14;37" xlink:type="simple" />
@@ -39,6 +41,7 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1989-12-12;84" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1992-09-02;47" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1993-02-02;9" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1993-08-01;55" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -175,6 +178,18 @@
 								<dsp:pos xlink:href="#art9-com3bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1989-06-14;37" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1993-08-01;55" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1993-08-01;55#art40-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 40, comma 1 della legge Regione Toscana 1 agosto 1993, n. 55" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -193,7 +208,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>Finalità - Destinatari - Requisiti di merito e di reddito</rubrica>
 					<articolo id="art1">
@@ -307,7 +322,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>Interventi</rubrica>
 					<articolo id="art5">
@@ -605,7 +620,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>TITOLO III</num>
 					<rubrica>Delega delle funzioni</rubrica>
 					<articolo id="art14">
@@ -749,7 +764,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit4">
+				<titolo id="LeggeRegionale1-tit4">
 					<num>TITOLO IV</num>
 					<rubrica>Programmazione - Bilanci - Controllo di gestione</rubrica>
 					<articolo id="art19">
@@ -982,7 +997,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit5">
+				<titolo id="LeggeRegionale1-tit5">
 					<num>TITOLO V</num>
 					<rubrica>Disposizioni finali e transitorie</rubrica>
 					<articolo id="art25">
@@ -1094,7 +1109,7 @@
 							<num>1.</num>
 							<corpo>
 								Le disposizioni di cui al
-								<rif xlink:href="#tit2" xlink:type="simple">titolo II</rif>
+								<rif xlink:href="#LeggeRegionale1-tit2" xlink:type="simple">titolo II</rif>
 								hanno efficacia dal 1/1/1990 anche nell'ipotesi di mancata costituzione dell'Azienda a tale data. Fino alla costituzione dell'Azienda si applica il disposto dell'
 								<rif xlink:href="#art14-com3" xlink:type="simple">art. 14, terzo comma</rif>
 								, anche ai Comuni di Firenze, Pisa e Siena.
