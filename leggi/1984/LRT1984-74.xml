@@ -10,7 +10,8 @@
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1984-12-31;74" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1984-12-31;74@1987-04-13" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1984-12-31;74@1989-12-14" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1984-12-31;74@1990-01-26" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1984-12-31;74@1990-01-26" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1984-12-31;74@1993-10-18" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Urbanistica" />
 						<materia valore="Attribuzioni Deleghe" />
@@ -22,12 +23,14 @@
 						<evento data="19870508" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19900106" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19900201" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="19931111" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1984-12-31;74" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1987-04-13;24" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1989-12-14;85" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1990-01-26;4" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1993-10-18;74" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -220,6 +223,36 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art2-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1993-10-18;74" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1993-10-18;74#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 18 ottobre 1993, n. 74" id="itt13" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art7-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art7-com2-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1993-10-18;74" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1993-10-18;74#artunico-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 2 della legge Regione Toscana 18 ottobre 1993, n. 74" id="itt14" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art7-com3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art7-com3-t5" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -472,11 +505,21 @@
 							; le proposte debbono essere specificatamente motivate con riferimento alle caratteristiche del rispettivo territorio provinciale.
 						</corpo>
 					</comma>
-					<comma id="art7-com2">
+					<comma finevigore="t5" id="art7-com2-t5" iniziovigore="t1" status="abrogato">
 						<num>2.</num>
 						<corpo>Le deliberazioni dei Consigli provinciali concernenti le proposte sono inviate al Consiglio regionale il quale delibera su di esse nei successivi sei mesi. Qualora entro tale termine sulla proposta non sia stato adottato alcun provvedimento, essa è iscritta di diritto all'ordine del giorno del Consiglio.</corpo>
 					</comma>
-					<comma id="art7-com3">
+					<comma id="art7-com2" iniziovigore="t5">
+						<num>2.</num>
+						<corpo>
+							Le deliberazioni dei consigli provinciali concernenti le proposte sono inviate alla Giunta regionale, la quale, compiuti gli atti istruttori previsti dalla
+							<rif xlink:href="urn:nir:regione.toscana:legge:1972-07-03;17" xlink:type="simple">legge regionale 3 luglio 1972, n. 17</rif>
+							e acquisito il parere della CRTA, presenta la propria proposta, entro tre mesi dal ricevimento, al Consiglio regionale. Ove occorra un termine maggiore per l'istruttoria, comunque non superiore complessivamente a sei mesi, la Giunta ne informa il Consiglio, motivando adeguatamente. Il Consiglio delibera sulla proposta della Giunta con le procedure previste dall'
+							<rif xlink:href="#art11" xlink:type="simple">art. 11</rif>
+							.
+						</corpo>
+					</comma>
+					<comma finevigore="t5" id="art7-com3-t5" iniziovigore="t1" status="abrogato">
 						<num>3.</num>
 						<corpo>
 							Le deliberazioni del Consiglio regionale sono assunte con il procedimento di cui agli
@@ -487,6 +530,27 @@
 								<rif xlink:href="#art4" xlink:type="simple">4</rif>
 							</mrif>
 							, secondo che trattasi di proposte di prescrizioni o vincoli, ovvero di direttive.
+						</corpo>
+					</comma>
+					<comma id="art7-com3" iniziovigore="t5">
+						<num>3.</num>
+						<corpo>
+							Le deliberazione del Consiglio regionale sono assunte con il procedimento di cui agli
+							<mrif>
+								articoli
+								<rif xlink:href="#art3" xlink:type="simple">3</rif>
+								e
+								<rif xlink:href="#art4" xlink:type="simple">4</rif>
+							</mrif>
+							, secondo che si tratti di prescrizioni e vincoli, ovvero di direttive. Si prescinde dalla consultazione preventiva prevista dal
+							<mrif>
+								<rif xlink:href="#art3-com3" xlink:type="simple">terzo comma dell'art. 3</rif>
+								e dal
+								<rif xlink:href="#art4-com3" xlink:type="simple">terzo comma dell'art. 4</rif>
+							</mrif>
+							, qualora le deliberazioni vengano approvate per decorso del termine di 15 giorni previsto dall'
+							<rif xlink:href="#art11-com2" xlink:type="simple">art. 11, secondo comma</rif>
+							.
 						</corpo>
 					</comma>
 					<comma id="art7-com4">
