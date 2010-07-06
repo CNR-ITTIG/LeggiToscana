@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19930317" num="16" tipo="BURT" />
 					<entratainvigore norm="19930401" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1993-03-08;12" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1993-03-08;12" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1993-03-08;12@1993-10-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organi" />
 						<materia valore="Assetto Idrogeologico" />
@@ -16,11 +17,59 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19930401" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19931113" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1993-03-08;12" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1993-10-21;77" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1993-10-21;77" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1993-10-21;77#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 21 ottobre 1993, n. 77" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1993-10-21;77" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1993-10-21;77#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 21 ottobre 1993, n. 77" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art6-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1993-10-21;77" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1993-10-21;77#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 21 ottobre 1993, n. 77" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com3" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -60,10 +109,10 @@
 						<num />
 						<corpo>Il Commissario ha il compito di esercitare le funzioni di indirizzo e di controllo della programmazione dello specifico settore degli interventi per il completamento di tutte le opere afferenti all'invaso del Bilancino.</corpo>
 					</comma>
-					<comma id="art2-com2">
+					<comma finevigore="t2" id="art2-com2-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<alinea>In particolare, spetta al Commissario:</alinea>
-						<ep id="art2-com2-pun1">
+						<ep id="art2-com2-t2-pun1">
 							<num>-</num>
 							<corpo>
 								esercitare i poteri conferiti al tecnico regionale di cui all'
@@ -73,37 +122,37 @@
 								, adottando le misure necessarie per la realizzazione del coordinamento con gli organi regionali aventi competenza nella materia delle opere pubbliche di interesse regionale e per l'intesa reciproca con l'Autorità di bacino;
 							</corpo>
 						</ep>
-						<ep id="art2-com2-pun2">
+						<ep id="art2-com2-t2-pun2">
 							<num>-</num>
 							<corpo>esercitare, in relazione ai lavori in oggetto, le competenze di ogni altro organo regionale o delegato dalla Regione in materia;</corpo>
 						</ep>
-						<ep id="art2-com2-pun3">
+						<ep id="art2-com2-t2-pun3">
 							<num>-</num>
 							<corpo>esercitare la vigilanza sulla conduzione dei lavori;</corpo>
 						</ep>
-						<ep id="art2-com2-pun4">
+						<ep id="art2-com2-t2-pun4">
 							<num>-</num>
 							<corpo>
 								adottare direttamente, o proporre alla Giunta regionale o al Presidente della Giunta regionale, quando si tratti di competenze inderogabili affidate a tali organi dello
 								<rif xlink:href="urn:nir:regione.toscana:statuto:" xlink:type="simple">Statuto regionale</rif>
 								o da norme statali di principio, le misure di assistenza, vigilanza e direzione necessarie per assicurare la buona esecuzione delle forniture o dei lavori relativi alle opere in questione, nonché al modo di regolarne la contabilità e la liquidazione, fermo restando quanto stabilito dal
-								<rif xlink:href="#art6" xlink:type="simple">successivo art. 6</rif>
+								<rif xlink:href="#art6-t2" xlink:type="simple">successivo art. 6</rif>
 								;
 							</corpo>
 						</ep>
-						<ep id="art2-com2-pun5">
+						<ep id="art2-com2-t2-pun5">
 							<num>-</num>
 							<corpo>provvedere, quando ne ravvisi la necessità, alla emanazione di istruzioni vincolanti per gli organi o i soggetti, pubblici e privati, incaricati in qualunque modo dell'esecuzione delle opere dell'invaso di Bilancino o delle opere connesse, ivi comprese le istruzioni attinenti alla erogazione dei pagamenti ai soggetti pubblici o privati coinvolti a qualunque titolo nella esecuzione dei lavori in oggetto;</corpo>
 						</ep>
-						<ep id="art2-com2-pun6">
+						<ep id="art2-com2-t2-pun6">
 							<num>-</num>
 							<corpo>provvedere alla proposta di sostituzione, ove necessario, di tutti i soggetti od organi che non adempiano ai compiti loro spettanti nei termini perentori posti da atti amministrativi o da accordi o contratti;</corpo>
 						</ep>
-						<ep id="art2-com2-pun7">
+						<ep id="art2-com2-t2-pun7">
 							<num>-</num>
 							<corpo>avvalersi, quando lo reputi necessario e previa intesa con il Presidente della Giunta Regionale, della collaborazione occasionale o continuativa di esperti, persone fisiche o giuridiche, nazionali o estere, di università e di istituti universitari, nonché di ogni altro soggetto o ufficio regionale, e di personale, anche delle qualifiche dirigenziali, messo a disposizione su una richiesta dalla amministrazione regionale, dagli enti regionali e locali e dal Consorzio per le Risorse Idriche - Schema 23, proponendo alla Giunta regionale, di intesa con la Autorità di bacino, la determinazione dei compensi di tutti i soggetti od organi di cui può avvalersi;</corpo>
 						</ep>
-						<ep id="art2-com2-pun8">
+						<ep id="art2-com2-t2-pun8">
 							<num>-</num>
 							<corpo>
 								proporre alla Giunta regionale l'adozione dei provvedimenti autoritativi di espropriazione o trasferimento di beni immobili e dei conseguenti atti di trascrizione, anche allo scopo di attuare la migliore e più celere esecuzione del trasferimento delle competenze già esercitate dal Consorzio per le Risorse Idriche - Schema 23 per effetto del
@@ -111,13 +160,65 @@
 								;
 							</corpo>
 						</ep>
-						<ep id="art2-com2-pun9">
+						<ep id="art2-com2-t2-pun9">
 							<num>-</num>
 							<corpo>proporre alla Giunta regionale o ai soggetti e organi pubblici altrimenti competenti la revoca di concessioni, autorizzazioni o nullaosta rilasciati da autorità o soggetti pubblici in ogni caso in cui ravvisi gravi inefficienze, ritardi, gravi disservizi o anomalie, illegittimità nelle procedure finalizzate alla realizzazione dei lavori in oggetto;</corpo>
 						</ep>
-						<ep id="art2-com2-pun10">
+						<ep id="art2-com2-t2-pun10">
 							<num>-</num>
 							<corpo>proporre alla Giunta regionale l'adozione di ogni altra misura, anche cautelare, giudicata opportuna o necessaria per il raggiungimento delle finalità della presente legge e la migliore e più celere esecuzione dei lavori, nel rispetto dei principi fondamentali dell'ordinamento giuridico dello Stato.</corpo>
+						</ep>
+					</comma>
+					<comma id="art2-com3" iniziovigore="t2">
+						<num />
+						<alinea>In particolare, spetta al Commissario:</alinea>
+						<ep id="art2-com3-pun1">
+							<num>-</num>
+							<corpo>
+								citare i poteri conferiti al tecnico regionale di cui all'
+								<rif xlink:href="urn:nir:stato:legge:1992-12-23;505#art4-com3" xlink:type="simple">art. 4, 3° comma, della legge 23 dicembre 1992, 505</rif>
+								;
+							</corpo>
+						</ep>
+						<ep id="art2-com3-pun2">
+							<num>-</num>
+							<corpo>esercitare, in relazione agli interventi di cui al primo comma del presente articolo, le competenze di tutti gli organi della Regione Toscana in materia;</corpo>
+						</ep>
+						<ep id="art2-com3-pun3">
+							<num>-</num>
+							<corpo>esercitare l'alta vigilanza sulla conduzione dei lavori;</corpo>
+						</ep>
+						<ep id="art2-com3-pun4">
+							<num>-</num>
+							<corpo>
+								adottare direttamente, o proporre alla Giunta Regionale o al Presidente della Giunta Regionale, quando si tratti di competenze inderogabili affidate a tali organi dallo
+								<rif xlink:href="urn:nir:regione.toscana:statuto:" xlink:type="simple">Statuto regionale</rif>
+								o da norme statali di principio, le misure di assistenza, vigilanza e direzione necessarie per assicurare la buona esecuzione delle forniture o dei lavori relativi alle opere in questione, nonché al modo di regolarne la contabilità e la liquidazione, fermo restando quanto stabilito dal successivo art. 6;
+							</corpo>
+						</ep>
+						<ep id="art2-com3-pun5">
+							<num>-</num>
+							<corpo>provvedere, quando ne ravvisi la necessità, all'emanazione di istruzioni vincolanti per gli organi o i soggetti, pubblici o privati, incaricati in qualunque modo dell'esecuzione delle opere dell'invaso di Bilancino e delle opere connesse, ivi comprese le istruzioni attinenti all'erogazione dei pagamenti ai soggetti pubblici o privati coinvolti a qualunque titolo nella esecuzione dei lavori in oggetto;</corpo>
+						</ep>
+						<ep id="art2-com3-pun6">
+							<num>-</num>
+							<corpo>provvedere alla proposta di sostituzione, ove necessario, di tutti i soggetti od organi che non adempiano ai compiti loro spettanti nei termini perentori posti da atti amministrativi o da accordi o contratti;</corpo>
+						</ep>
+						<ep id="art2-com3-pun7">
+							<num>-</num>
+							<corpo>avvalersi, quando lo reputi necessario e previa intesa con il Presidente dalla Giunta Regionale, della collaborazione occasionale o continuativa di esperti, persone fisiche o giuridiche, nazionali od estere, di università o istituti universitari, nonché di ogni altro soggetto o ufficio regionale, e di personale, anche delle qualifiche dirigenziali, messo a disposizione su sua richiesta dall'Amministrazione Regionale, dagli Enti regionali e locali e dal Consorzio per le Risorse Idriche - Schema 23, proponendo alla Giunta Regionale la determinazione dei compensi di tutti i soggetti od organi di cui può avvalersi; le spese relative alle predette prestazioni saranno poste a carico dei fondi provenienti dal Bilancio Regionale ed accreditati al Commissario ai sensi dell'art. 6, fondi ai quali possono far carico altresì le spese afferenti all'acquisto di materiali e strumentazione necessari al funzionamento dell'ufficio del Commissario;</corpo>
+						</ep>
+						<ep id="art2-com3-pun8">
+							<num>-</num>
+							<corpo>adottare, in favore della Regione Toscana, i provvedimenti autoritativi di espropriazione o trasferimento e dei conseguenti atti di trascrizione, di beni immobili, anche già espropriati, allo scopo di attuare la maggiore e più celere esecuzione del trasferimento delle competenze già esercitate dal Consorzio per le Risorse Idriche - Schema 23 per effetto del successivo art. 4;</corpo>
+						</ep>
+						<ep id="art2-com3-pun9">
+							<num>-</num>
+							<corpo>proporre alla Giunta Regionale o ai soggetti o organi pubblici altrimenti competenti la revoca di concessione, autorizzazioni o nulla osta rilasciati da autorità o soggetti pubblici in ogni caso in cui ravvisi gravi inefficienze, ritardi, gravi disservizi o anomalie, illegittimità nelle procedure finalizzate alla realizzazione dei lavori in oggetto;</corpo>
+						</ep>
+						<ep id="art2-com3-pun10">
+							<num>-</num>
+							<corpo>proporre alla Giunta Regionale l'adozione di ogni altra misura, anche cautelare, giudicata opportuna o necessaria per il raggiungimento delle finalità della presente legge e la migliore e più celere esecuzione dei lavori, nel rispetto dei principi fondamentali dell'ordinamento giuridico dello Stato.</corpo>
 						</ep>
 					</comma>
 				</articolo>
@@ -147,16 +248,16 @@
 								<rif xlink:href="urn:nir:stato:legge:1992-12-23;505#art4-com3" xlink:type="simple">3</rif>
 								della l. 23 dicembre 1992 n. 505
 							</mrif>
-							, l'affidamento dell'esecuzione dei lavori per la costruzione dell'invaso del Bilancino sul fiume Sieve e delle opere connesse, già in concesso con delibera GR n. 2302/1984 al Consorzio per le risorse Idriche Schema 23, viene revocato allo scopo di trasferire al Commissario nominato con la presente legge le relative funzione.
+							, l'affidamento dell'esecuzione dei lavori per la costruzione dell'invaso del Bilancino sul fiume Sieve e delle opere connesse, già in concesso con delibera GR n. 2302/1984 al Consorzio per le risorse Idriche Schema 23, viene revocato allo scopo di trasferire al Commissario nominato con la presente legge le relative funzione. Il Commissario adotta o, se del caso, propone alla giunta regionale, l'adozione di tutti gli atti necessari ad assicurare che il trasferimento delle funzioni avvenga in modo completo, e tale da favorire il migliore e più celere svolgimento dei lavori.
 						</corpo>
 					</comma>
 					<comma id="art4-com2">
 						<num />
-						<corpo>Il Commissario adotta o, se del caso, propone alla giunta regionale, l'adozione di tutti gli atti necessari ad assicurare che il trasferimento delle funzioni avvenga in modo completo, e tale da favorire il migliore e più celere svolgimento dei lavori.</corpo>
-					</comma>
-					<comma id="art4-com3">
-						<num />
 						<corpo>Per effetto del trasferimento, spetta in particolare al Commissario il potere di subentrare nei rapporti convenzionali e contrattuali già autorizzati o instaurati dal Consorzio Schema 23 con soggetti privati o pubblici; di proporre agli stessi le modifiche che dovessero essere funzionali alla più celere e idonea ripresa ed esecuzione dei lavori; di instaurare nuovi rapporti contrattuali e convenzionali e di risolvere quelli esistenti; di procedere alla rescissione d'ufficio dei contratti e degli accordi esistenti in ogni caso in cui ravvisi gravi inefficienze, ritardi, gravi disservizi o anomalie, illegittimità nelle procedure di esecuzione degli stessi.</corpo>
+					</comma>
+					<comma id="art4-com3" iniziovigore="t2">
+						<num />
+						<corpo>Compete al Commissario l'esercizio di tutte le facoltà spettanti al Consorzio per le Risorse Idriche - Schema 23 sulle aree espropriate ed espropriande per la realizzazione dell'invaso di Bilancino ed opere connesse.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art5">
@@ -170,9 +271,9 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art6">
+				<articolo finevigore="t2" id="art6-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 6</num>
-					<comma id="art6-com1">
+					<comma id="art6-t2-com1">
 						<num />
 						<corpo>
 							Le somme relative alle spese autorizzate ai sensi dell'
@@ -182,6 +283,28 @@
 							e successive modifiche e integrazioni, in modo che il Commissario possa direttamente impiegarle e avvalersene, con le intese con l'Autorità di bacino previste dall'
 							<rif xlink:href="urn:nir:stato:legge:1992-12-23;505#art4-com2" xlink:type="simple">art. 4, comma 2, l. 232 dicembre 1992 n. 505</rif>
 							.)
+						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art6" iniziovigore="t2">
+					<num>Art. 6</num>
+					<comma id="art6-com1">
+						<num />
+						<corpo>
+							Le somme relative alle spese autorizzate ai sensi dell'
+							<rif xlink:href="urn:nir:stato:legge:1992-12-23;505#art4-com1" xlink:type="simple">art. 4, 1° comma L. 23 dicembre 1992, n. 505</rif>
+							, ed ogni altra somma stanziata dalla Regione Toscana o dovuta da Amministrazioni locali per l'esecuzione ed il completamento della diga di Bilancino e delle opere connesse sono trasferite dal bilancio regionale al Commissario, nelle forme e con le modalità previste dalla
+							<rif xlink:href="urn:nir:regione.toscana:legge:1978-12-04;73" xlink:type="simple">legge regionale 4 dicembre 1978, n. 73</rif>
+							e successive modifiche ed integrazioni in modo che il Commissario possa direttamente impiegarle ed avvalersene.
+						</corpo>
+					</comma>
+					<comma id="art6-com2">
+						<num />
+						<corpo>
+							Ai fini del controllo tecnico e amministrativo di cui all'
+							<rif xlink:href="urn:nir:stato:legge:1992-12-23;505#art4-com2" xlink:type="simple">art. 4, 2° comma della legge 23 dicembre 1992, n. 505</rif>
+							, il Commissario trasmette all'Autorità di Bacino i progetti e le perizie con i relativi contratti, nonché gli stadi di avanzamento dei lavori ed i certificati di collaudo relativi agli interventi finanziati con i fondi di cui all'
+							<rif xlink:href="urn:nir:stato:legge:1992;505#art4-com1" xlink:type="simple">art. 4, 1° comma della stessa legge n. 505/92</rif>
 						</corpo>
 					</comma>
 				</articolo>
@@ -198,7 +321,7 @@
 						<num />
 						<corpo>
 							Le indennità e i rimborsi spettanti al Commissario e alla Commissione consultiva saranno determinati con deliberazione della Giunta Regionale e saranno posti a carico delle disponibilità indicate al
-							<rif xlink:href="#art6" xlink:type="simple">precedente art. 6</rif>
+							<rif xlink:href="#art6-t2" xlink:type="simple">precedente art. 6</rif>
 							.
 						</corpo>
 					</comma>
