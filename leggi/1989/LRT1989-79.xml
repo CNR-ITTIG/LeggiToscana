@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19891211" num="68" tipo="BURT" />
 					<entratainvigore norm="19891226" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1989-12-01;79" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1989-12-01;79" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1989-12-01;79@1993-11-12" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organi" />
 						<materia valore="Opere Pubbliche" />
@@ -17,11 +18,44 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19891226" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19931204" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1989-12-01;79" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1993-11-12;87" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1993-11-12;87" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1993-11-12;87#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 12 novembre 1993, n. 87" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1993-11-12;87" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1993-11-12;87#artunico-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 2 della legge Regione Toscana 12 novembre 1993, n. 87" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -69,26 +103,46 @@
 						<coda>Nel notiziario dovranno essere pubblicati anche i dati relativi al conferimento di incarichi professionali, ivi compresi quelli conferiti dal concessionario di opere pubbliche, che saranno raccolti in apposito Registro Regionale.</coda>
 					</comma>
 				</articolo>
-				<articolo id="art2">
+				<articolo finevigore="t2" id="art2-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 2</num>
-					<comma id="art2-com1">
+					<comma id="art2-t2-com1">
 						<num>1.</num>
 						<corpo>Gli Enti locali sono tenuti ad inviare al Comitato Regionale di Controllo sugli atti degli enti locali o sulle sue Sezioni decentrate e alla Giunta Regionale il contratto di appalto o, qualora mancante, la deliberazione di affidamento dei lavori, eventuali deliberazioni successive relative a perizie e revisioni dei prezzi, nonchè la deliberazione di approvazione del collaudo o del certificato di regolare esecuzione, avvalendosi dell'apposito modello di trasmissione approvato dalla Giunta Regionale, debitamente compilato in ogni sua parte.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art3">
+				<articolo id="art2" iniziovigore="t2">
+					<num>Art. 2</num>
+					<rubrica />
+					<comma id="art2-com1">
+						<num>1.</num>
+						<alinea>
+							Per la realizzazione delle finalità di cui all'
+							<rif xlink:href="#art1" xlink:type="simple">art. 1</rif>
+							, gli Enti pubblici sono tenuti ad inviare alla Giunta regionale le informazioni relative a:
+						</alinea>
+						<ep id="art2-com1-pun1">
+							<num>-</num>
+							<corpo>bandi di gara - contratti di appalto (o, qualora mancanti, deliberazioni di affidamento dei lavori) - deliberazioni di approvazione dei collaudi o dei certificati di regolare esecuzione - deliberazioni di affidamento di incarichi professionali relativi a opere pubbliche.</corpo>
+						</ep>
+					</comma>
+					<comma id="art2-com2">
+						<num>2.</num>
+						<corpo>Le caratteristiche e le modalità organizzative di trasmissione di tali informazioni, nonché degli ulteriori elementi informativi ritenuti necessari, sono stabilite dalla Giunta regionale con proprio atto amministrativo.</corpo>
+					</comma>
+				</articolo>
+				<articolo finevigore="t2" id="art3-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 3</num>
-					<comma id="art3-com1">
+					<comma id="art3-t2-com1">
 						<num>1.</num>
 						<corpo>
 							Gli organi di controllo di cui al
-							<rif xlink:href="#art2" xlink:type="simple">precedente art. 2</rif>
+							<rif xlink:href="#art2-t2" xlink:type="simple">precedente art. 2</rif>
 							trasmettono alla Giunta Regionale, copia dei modelli di cui allo stesso
-							<rif xlink:href="#art2" xlink:type="simple">precedente art. 2</rif>
+							<rif xlink:href="#art2-t2" xlink:type="simple">precedente art. 2</rif>
 							relativi agli atti esecutivi.
 						</corpo>
 					</comma>
-					<comma id="art3-com2">
+					<comma id="art3-t2-com2">
 						<num>2.</num>
 						<corpo>Gli altri Enti pubblici sono tenuti a trasmettere alla Giunta Regionale i dati relativi agli appalti e alle concessioni secondo le modalità stabilite dalla stessa Giunta Regionale.</corpo>
 					</comma>
