@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19920911" num="52" tipo="BURT" />
 					<entratainvigore norm="19920926" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1992-09-02;42" />
+					<urn finevigore="t14" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1992-09-02;42" />
+					<urn iniziovigore="t14" valore="urn:nir:regione.toscana:legge:1992-09-02;42@1993-11-04" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Assistenza Sociale" />
 					</materie>
@@ -27,6 +28,7 @@
 						<evento data="19920926" fonte="ra10" id="t11" tipo="modifica" />
 						<evento data="19920926" fonte="ra11" id="t12" tipo="modifica" />
 						<evento data="19920926" fonte="ra12" id="t13" tipo="modifica" />
+						<evento data="19931127" fonte="rp1" id="t14" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1992-09-02;42" xlink:type="simple" />
@@ -42,6 +44,7 @@
 						<attiva id="ra10" xlink:href="urn:nir:regione.toscana:legge:1984-12-06;70" xlink:type="simple" />
 						<attiva id="ra11" xlink:href="urn:nir:regione.toscana:legge:1992-04-30;16" xlink:type="simple" />
 						<attiva id="ra12" xlink:href="urn:nir:regione.toscana:legge:1992-04-30;16" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1993-11-04;80" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -193,6 +196,38 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1993-11-04;80" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1993-11-04;80#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 4 novembre 1993, n. 80" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art5-com4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-com4-t14" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art32" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1993-11-04;80" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1993-11-04;80#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 4 novembre 1993, n. 80" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art32" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art32-t14" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -361,9 +396,17 @@
 									.
 								</corpo>
 							</comma>
-							<comma id="art5-com4">
+							<comma finevigore="t14" id="art5-com4-t14" iniziovigore="t1" status="abrogato">
 								<num>4.</num>
 								<corpo>Al fine di delineare in modo coordinato la struttura delle convenzioni, il Consiglio regionale approva, entro tre mesi dall'entrata in vigore della presente legge, uno schema - tipo di convenzione da inviare ai comuni.</corpo>
+							</comma>
+							<comma id="art5-com4" iniziovigore="t14">
+								<num>4.</num>
+								<corpo>
+									Al fine di delineare in modo coordinato il contenuto delle convenzioni, il Consiglio regionale approva nel rispetto dei tempi previsti dall'
+									<rif xlink:href="#art32" xlink:type="simple">art. 32</rif>
+									uno schema tipo di convenzione per la gestione associata da inviare ai Comuni.
+								</corpo>
 							</comma>
 							<comma id="art5-com5">
 								<num>5.</num>
@@ -1155,26 +1198,50 @@
 				<titolo id="tit4">
 					<num>TITOLO IV</num>
 					<rubrica>DISPOSIZIONI TRANSITORIE E FINALI</rubrica>
-					<articolo id="art32">
+					<articolo finevigore="t14" id="art32-t14" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 32</num>
 						<rubrica>(Termini attuativi della presente legge)</rubrica>
-						<comma id="art32-com1">
+						<comma id="art32-t14-com1">
 							<num>1.</num>
 							<corpo>In sede di prima attuazione, le convenzioni fra i comuni che intendono associarsi devono essere stipulate entro dodici mesi dall'entrata in vigore della presente legge.</corpo>
 						</comma>
-						<comma id="art32-com2">
+						<comma id="art32-t14-com2">
 							<num>2.</num>
 							<corpo>Entro lo stesso termine, i comuni associati che intendono attribuire o confermare la gestione delle attività di assistenza sociale all'USL, adottano i relativi provvedimenti deliberativi di attribuzione.</corpo>
 						</comma>
-						<comma id="art32-com3">
+						<comma id="art32-t14-com3">
 							<num>3.</num>
 							<corpo>Il primo Piano regionale per l'assistenza sociale di cui alla presente legge è approvato dal Consiglio regionale entro il 30 aprile 1993. A tal fine la Giunta regionale provvederà ad inoltrare la relativa proposta al Consiglio regionale entro il mese di febbraio 1993.</corpo>
 						</comma>
-						<comma id="art32-com4">
+						<comma id="art32-t14-com4">
 							<num>4.</num>
 							<corpo>
 								A decorrere dal 15 giugno 1994 e con cadenza annuale, nel rispetto dei termini della procedura di programmazione di cui al
 								<rif xlink:href="#art9-com1" xlink:type="simple">precedente articolo 9, comma 1</rif>
+								, i comuni possono provvedere alla variazione delle modalità di gestione adottate.
+							</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art32" iniziovigore="t14">
+						<num>Art. 32</num>
+						<rubrica>(Termini attuativi della presente legge)</rubrica>
+						<comma id="art32-com1">
+							<num>1.</num>
+							<corpo>Le convenzioni tra i comuni che intendono associarsi devono essere stipulate entro il 28 febbraio 1994.</corpo>
+						</comma>
+						<comma id="art32-com2">
+							<num>2.</num>
+							<corpo>Entro lo stesso termine, i comuni associati che intendono attribuire o confermare la gestione delle attività di assistenza sociale alla USL, adottano i relativi provvedimenti deliberativi di attribuzione.</corpo>
+						</comma>
+						<comma id="art32-com3">
+							<num>3.</num>
+							<corpo>Il primo Piano regionale per l'assistenza sociale di cui alla presente legge è approvato dal Consiglio regionale entro il 31 dicembre 1993. A tal fine la Giunta regionale provvede ad inoltrare la relativa proposta al Consiglio entro il mese di ottobre 1993.</corpo>
+						</comma>
+						<comma id="art32-com4">
+							<num>4.</num>
+							<corpo>
+								A decorrere dal 15 dicembre 1994 e con cadenza annuale, nel rispetto dei termini della procedura di programmazione di cui all'
+								<rif xlink:href="#art9-com1" xlink:type="simple">art. 9, comma 1</rif>
 								, i comuni possono provvedere alla variazione delle modalità di gestione adottate.
 							</corpo>
 						</comma>
