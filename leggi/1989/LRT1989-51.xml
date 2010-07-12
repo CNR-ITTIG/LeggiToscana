@@ -15,7 +15,8 @@
 					<urn finevigore="t17" iniziovigore="t16" valore="urn:nir:regione.toscana:legge:1989-08-21;51@1991-08-12" />
 					<urn finevigore="t18" iniziovigore="t17" valore="urn:nir:regione.toscana:legge:1989-08-21;51@1991-11-14" />
 					<urn finevigore="t19" iniziovigore="t18" valore="urn:nir:regione.toscana:legge:1989-08-21;51@1991-12-02" />
-					<urn iniziovigore="t19" valore="urn:nir:regione.toscana:legge:1989-08-21;51@1992-07-20" />
+					<urn finevigore="t20" iniziovigore="t19" valore="urn:nir:regione.toscana:legge:1989-08-21;51@1992-07-20" />
+					<urn iniziovigore="t20" valore="urn:nir:regione.toscana:legge:1989-08-21;51@1993-12-30" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Ente Regione" />
@@ -42,6 +43,7 @@
 						<evento data="19911208" fonte="rp6" id="t17" tipo="modifica" />
 						<evento data="19911226" fonte="rp7" id="t18" tipo="modifica" />
 						<evento data="19920813" fonte="rp8" id="t19" tipo="modifica" />
+						<evento data="19930122" fonte="rp9" id="t20" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51" xlink:type="simple" />
@@ -63,6 +65,7 @@
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:1991-11-14;53" xlink:type="simple" />
 						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:1991-12-02;56" xlink:type="simple" />
 						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:1992-07-20;32" xlink:type="simple" />
+						<passiva id="rp9" xlink:href="urn:nir:regione.toscana:legge:1993-12-30;108" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -556,6 +559,18 @@
 								<dsp:pos xlink:href="#art94-com5" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art92" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1993-12-30;108" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1993-12-30;108#art13-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 13, comma 1 della legge Regione Toscana 30 dicembre 1993, n. 108" id="itt27" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art92-t20" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -4338,14 +4353,14 @@
 								<corpo>Il dipendente sceglie liberamente il luogo ove stabilire la propria dimora, purchè tale scelta sia conciliabile col pieno e regolare adempimento dei doveri d'ufficio.</corpo>
 							</comma>
 						</articolo>
-						<articolo id="art92">
+						<articolo finevigore="t20" id="art92-t20" iniziovigore="t1" status="abrogato">
 							<num>ARTICOLO 92</num>
 							<rubrica>(Incompatibilità)</rubrica>
-							<comma id="art92-com1">
+							<comma id="art92-t20-com1">
 								<num>1.</num>
 								<corpo>Il dipendente non può esercitare alcun commercio, industria o professione nè assumere impieghi alle dipendenze di privati o di enti pubblici, o incarichi professionali retribuiti.</corpo>
 							</comma>
-							<comma id="art92-com2">
+							<comma id="art92-t20-com2">
 								<num>2.</num>
 								<corpo>
 									Il dipendente non può altresì assumere cariche in società costituite con fini di lucro, salvo che non si tratti di società cooperative tra pubblici dipendente. Nei casi stabiliti dalla legge o quando sia autorizzato dalla Giunta il dipendente può assumere cariche negli Enti e nelle Società di cui agli
@@ -4359,7 +4374,7 @@
 									.
 								</corpo>
 							</comma>
-							<comma id="art92-com3">
+							<comma id="art92-t20-com3">
 								<num>3.</num>
 								<corpo>L'impiegato che si trovi in una delle situazioni previste dai comma precedenti è dichiarato decaduto se la situazione di incompatibilità non cessa nel termine indicato in apposita diffida. Sono fatte comunque le sanzioni disciplinari.</corpo>
 							</comma>
@@ -6392,7 +6407,7 @@
 								<num>d)</num>
 								<corpo>
 									nell'ipotesi di cui all'
-									<rif xlink:href="#art92" xlink:type="simple">art. 92</rif>
+									<rif xlink:href="#art92-t20" xlink:type="simple">art. 92</rif>
 									;
 								</corpo>
 							</el>
