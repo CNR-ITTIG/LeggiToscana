@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19930820" num="52" tipo="BURT" />
 					<entratainvigore norm="19930904" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1993-08-01;55" />
+					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1993-08-01;55" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1993-08-01;55@1993-12-30" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sistema Educativo" />
 						<materia valore="Organizzazioni Pubbliche" />
@@ -18,12 +19,30 @@
 					<eventi>
 						<evento data="19930904" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19930904" fonte="ra1" id="t2" tipo="modifica" />
+						<evento data="19940122" fonte="rp1" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1993-08-01;55" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1989-06-14;37" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1993-12-30;104" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Ad integrazione del presente articolo si veda l'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1993-12-30;104#art3" xlink:type="simple">art. 3 della legge regionale 30 dicembre 1993, n. 104</rif>
+							.
+						</h:p>
+					</nota>
+					<nota id="n2">
+						<h:p>
+							Per l'interpretazione autentica del presente periodo si veda l'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1994-12-30;104#art3-com1" xlink:type="simple">art. 3, comma 1 della legge regionale 30 dicembre 1994, n. 104</rif>
+							.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:abrogazione completa="si" implicita="no">
@@ -39,6 +58,35 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art22-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1993-12-30;104" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1993-12-30;104#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 30 dicembre 1993, n. 104" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art38-com7-letc" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1993-12-30;104" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1993-12-30;104#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 30 dicembre 1993, n. 104" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art38-com7-letc" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art38-com7-letc-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -668,7 +716,10 @@
 							</comma>
 							<comma id="art22-com2">
 								<num>2.</num>
-								<corpo>I componenti del Consiglio di amministrazione durano in carica 5 anni, salvo la componente studentesca che viene rinnovata contestualmente al rinnovo delle rappresentanze studentesche negli organismi di governo degli Atenei; decadono, in ogni casi, al termine del mandato dell'organismo che li ha eletti. I membri possono essere confermati per una sola volta.</corpo>
+								<corpo>
+									I componenti del Consiglio di amministrazione durano in carica 5 anni, salvo la componente studentesca che viene rinnovata contestualmente al rinnovo delle rappresentanze studentesche negli organismi di governo degli Atenei; decadono, in ogni casi, al termine del mandato dell'organismo che li ha eletti. I membri possono essere confermati per una sola volta.
+									<h:span id="h1" iniziovigore="t3">Il Consiglio di Amministrazione si intende validamente costituito con la nomina di almeno i due terzi dei suoi componenti.</h:span>
+								</corpo>
 							</comma>
 							<comma id="art22-com3">
 								<num>3.</num>
@@ -1186,7 +1237,10 @@
 					<num>TITOLO V</num>
 					<rubrica>DISPOSIZIONI FINALI</rubrica>
 					<articolo id="art37">
-						<num>ARTICOLO 37</num>
+						<num>
+							ARTICOLO 37
+							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+						</num>
 						<rubrica>(Revoca della delega delle funzioni, scioglimento e liquidazione delle Aziende comunali per il DSU)</rubrica>
 						<comma id="art37-com1">
 							<num>1.</num>
@@ -1201,7 +1255,9 @@
 							<corpo>
 								Le Aziende, istituite dai Comuni destinatari di delega a norma dell'
 								<rif xlink:href="urn:nir:regione.toscana:legge:1989-06-14;37#art14" xlink:type="simple">art. 14 della LR n. 37 del 14-6-1989</rif>
-								, sono sciolte e la Giunta regionale nomina per ciascuna azienda il Commissario straordinario e liquidatore con i poteri di ordinaria amministrazione al fine di predisporre le condizioni e gli atti necessari alla liquidazione e di assicurare l'ordinaria gestione amministrativa dell'Azienda stessa.
+								, sono sciolte
+								<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+								e la Giunta regionale nomina per ciascuna azienda il Commissario straordinario e liquidatore con i poteri di ordinaria amministrazione al fine di predisporre le condizioni e gli atti necessari alla liquidazione e di assicurare l'ordinaria gestione amministrativa dell'Azienda stessa.
 							</corpo>
 						</comma>
 						<comma id="art37-com3">
@@ -1299,12 +1355,20 @@
 									, rappresentano in ciascuno dei tre Consigli di Amministrazione delle Aziende la lista che ha ottenuto il maggior numero di voti nelle elezioni per il diritto allo studio universitario;
 								</corpo>
 							</el>
-							<el id="art38-com7-letc">
+							<el finevigore="t3" id="art38-com7-letc-t3" iniziovigore="t1" status="abrogato">
 								<num>c)</num>
 								<corpo>
 									fanno parte della Commissione di controllo degli utenti sulla qualità dei servizi e sulle attività, di cui all'
 									<rif xlink:href="#art18" xlink:type="simple">art. 18</rif>
 									della presente legge, cinque studenti nominati tra quelli che, nelle elezioni per il Consiglio di Amministrazione delle soppresse aziende, abbiano, in rapporto proporzionale tra i voti della lista di appartenenza e i voti complessivi espressi nella elezione, riportato più voti, con arrotondamento all'unità per la lista che abbia il resto superiore a 50%.
+								</corpo>
+							</el>
+							<el id="art38-com7-letc" iniziovigore="t3">
+								<num>c)</num>
+								<corpo>
+									fanno parte della Commissione di controllo degli utenti sulla qualità dei servizi e sulle attività, di cui all'
+									<rif xlink:href="#art18" xlink:type="simple">art. 18</rif>
+									della presente legge, cinque studenti scelti fra i candidati delle liste per le elezioni del Consiglio di Amministrazione delle soppresse aziende. Per ogni quorum raggiunto da ciascuna lista è assegnato un rappresentante. Il quorum si ottiene dividendo per cinque il totale dei voti validi. Nel caso in cui restino da designare uno o più componenti la Commissione, i posti sono assegnati alle liste che abbiano conseguito i resti maggiori.
 								</corpo>
 							</el>
 						</comma>
