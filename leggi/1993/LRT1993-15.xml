@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19930331" num="18" tipo="BURT" />
 					<entratainvigore norm="19930415" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1993-03-22;15" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1993-03-22;15" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1993-03-22;15@1994-01-19" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organizzazioni Pubbliche" />
 						<materia valore="Ordinamento" />
@@ -17,11 +18,41 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19930415" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19940126" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1993-03-22;15" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1994-01-19;8" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Termine prorogato per un periodo non superiore ai 3 mesi dalla data di entrata in vigore della
+							<rif xlink:href="urn:nir:regione.toscana:legge:1994-01-19;8" xlink:type="simple">legge regionale 19 gennaio 1994, n. 8</rif>
+							(26/01/1994).
+						</h:p>
+					</nota>
+				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art10-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1994-01-19;8" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-01-19;8#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 19 gennaio 1994, n. 8" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art10-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art10-com1-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -125,7 +156,11 @@
 					</comma>
 					<comma id="art5-com2">
 						<num>2.</num>
-						<corpo>L'amministratore straordinario ha il compito di predisporre, entro 6 mesi dalla nomina, il piano di liquidazione dell'Ente, da approvare con deliberazione del Consiglio regionale.</corpo>
+						<corpo>
+							L'amministratore straordinario ha il compito di predisporre, entro 6 mesi dalla nomina
+							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							, il piano di liquidazione dell'Ente, da approvare con deliberazione del Consiglio regionale.
+						</corpo>
 					</comma>
 					<comma id="art5-com3">
 						<num>3.</num>
@@ -316,9 +351,13 @@
 				<articolo id="art10">
 					<num>ARTICOLO 10</num>
 					<rubrica>(Remunerazione dell'amministratore straordinario e del commissario)</rubrica>
-					<comma id="art10-com1">
+					<comma finevigore="t2" id="art10-com1-t2" iniziovigore="t1" status="abrogato">
 						<num>1.</num>
 						<corpo>All'amministratore straordinario, ove funzionario regionale ed al commissario spetta un compenso annuo pari a L. 3.000.000.</corpo>
+					</comma>
+					<comma id="art10-com1" iniziovigore="t2">
+						<num>1.</num>
+						<corpo>All'Amministratore straordinario, se dipendente regionale, ed al Commissario, spetta un compenso annuo pari al 30% del trattamento economico ad esso spettante quali dirigenti regionali, comprensivo delle indennità di responsabilità di servizio o di unità operativa complessa.</corpo>
 					</comma>
 					<comma id="art10-com2">
 						<num>2.</num>
