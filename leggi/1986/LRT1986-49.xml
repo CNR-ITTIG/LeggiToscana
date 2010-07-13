@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<Legge>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19861113" num="54" tipo="BURT" />
 					<entratainvigore norm="19861128" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1986-11-03;49" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1986-11-03;49" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1986-11-03;49@1994-01-28" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organizzazioni" />
 						<materia valore="Ordinamento" />
@@ -17,11 +18,32 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19861128" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19940204" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1986-11-03;49" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1994-01-28;11" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art21" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1994-01-28;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-01-28;11#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 28 gennaio 1994, n. 11" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art21" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art21-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -693,24 +715,48 @@
 						<corpo>Il Consiglio regionale delibera, su proposta della Giunta, entro 60 giorni dalla data di ricevimento degli atti.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art21">
+				<articolo finevigore="t2" id="art21-t2" iniziovigore="t1" status="abrogato">
+					<num>ARTICOLO 21</num>
+					<rubrica>(Atti soggetti al controllo della Giunta regionale)</rubrica>
+					<comma id="art21-t2-com1">
+						<num>1.</num>
+						<corpo>Di tutti gli atti diversi da quelli indicati nell'articolo precedente, esclusi quelli meramente esecutivi, le aziende rinviano comunicazione alla Giunta regionale entro dieci giorni dalla loro adozione.</corpo>
+					</comma>
+					<comma id="art21-t2-com2">
+						<num>2.</num>
+						<corpo>La comunicazione contiene dettagliata indicazione dell'oggetto, dell'onere finanziario e dell'imputazione in bilancio.</corpo>
+					</comma>
+					<comma id="art21-t2-com3">
+						<num>3.</num>
+						<corpo>Gli atti divengono esecutivi se trascorsi 10 giorni dal ricevimento della comunicazione la Giunta non abbia comunicato richiesta di copia delle delibere adottate.</corpo>
+					</comma>
+					<comma id="art21-t2-com4">
+						<num>4.</num>
+						<corpo>Le deliberazioni oggetto di richiesta divengono esecutive qualora la Giunta non ne abbia deliberato l'annullamento entro 30 giorni dal loro ricevimento oppure dal ricevimento di chiarimenti od elementi integrativi di giudizio richiesti entro il suddetto termine.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art21" iniziovigore="t2">
 					<num>ARTICOLO 21</num>
 					<rubrica>(Atti soggetti al controllo della Giunta regionale)</rubrica>
 					<comma id="art21-com1">
 						<num>1.</num>
-						<corpo>Di tutti gli atti diversi da quelli indicati nell'articolo precedente, esclusi quelli meramente esecutivi, le aziende rinviano comunicazione alla Giunta regionale entro dieci giorni dalla loro adozione.</corpo>
+						<corpo>Di tutti gli atti diversi da quelli indicati nell'articolo precedente, esclusi quelli meramente esecutivi, le Aziende inviano comunicazione alla Giunta regionale entro dieci giorni dalla loro adozione.</corpo>
 					</comma>
 					<comma id="art21-com2">
 						<num>2.</num>
-						<corpo>La comunicazione contiene dettagliata indicazione dell'oggetto, dell'onere finanziario e dell'imputazione in bilancio.</corpo>
+						<corpo>La comunicazione deve contenere dettagliata indicazione dell'oggetto, dell'onere finanziario e dell'imputazione in bilancio.</corpo>
 					</comma>
 					<comma id="art21-com3">
 						<num>3.</num>
-						<corpo>Gli atti divengono esecutivi se trascorsi 10 giorni dal ricevimento della comunicazione la Giunta non abbia comunicato richiesta di copia delle delibere adottate.</corpo>
+						<corpo>Gli atti divengono esecutivi se trascorsi 15 giorni dal ricevimento della comunicazione la Giunta non abbia richiesta copia delle delibere adottate.</corpo>
 					</comma>
 					<comma id="art21-com4">
 						<num>4.</num>
-						<corpo>Le deliberazioni oggetto di richiesta divengono esecutive qualora la Giunta non ne abbia deliberato l'annullamento entro 30 giorni dal loro ricevimento oppure dal ricevimento di chiarimenti od elementi integrativi di giudizio richiesti entro il suddetto termine.</corpo>
+						<corpo>Le deliberazioni oggetto di richiesta divengono esecutive se, trascorsi 30 giorni dal ricevimento, ovvero dal ricevimento di chiarimenti o elementi integrativi, la Giunta non comunica la richiesta d'iscrizione all'O.d.g. del relativo provvedimento di annullamento.</corpo>
+					</comma>
+					<comma id="art21-com5">
+						<num>5.</num>
+						<corpo>I termini di cui ai commi 3 e 4 decorrono dalla data di acquisizione al protocollo regionale dei relativi atti.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art22">
