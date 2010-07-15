@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t9" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1992-08-18;39" />
 					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1992-08-18;39@1993-09-01" />
-					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1992-08-18;39@1993-12-30" />
+					<urn finevigore="t12" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1992-08-18;39@1993-12-30" />
+					<urn iniziovigore="t12" valore="urn:nir:regione.toscana:legge:1992-08-18;39@1994-03-07" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ordinamento" />
 						<materia valore="Montagna" />
@@ -29,6 +30,7 @@
 						<evento data="19930917" fonte="rp1" id="t9" tipo="modifica" />
 						<evento data="19940122" fonte="rp2" id="t10" tipo="modifica" />
 						<evento data="19940122" fonte="ra8" id="t11" tipo="modifica" />
+						<evento data="19940310" fonte="rp3" id="t12" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1992-08-18;39" xlink:type="simple" />
@@ -42,6 +44,7 @@
 						<attiva id="ra8" xlink:href="urn:nir:regione.toscana:legge:1988-05-16;33" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1993-09-01;61" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1993-12-30;103" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1994-03-07;21" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -616,6 +619,36 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#con25-t10" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art28-com2-letc" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1994-03-07;21" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-03-07;21#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 7 marzo 1994, n. 21" id="itt34" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art28-com2-letc" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art28-com2-letc-t12" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art28-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1994-03-07;21" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-03-07;21#artunico-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 2 della legge Regione Toscana 7 marzo 1994, n. 21" id="itt35" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -2041,7 +2074,7 @@
 								<num>b)</num>
 								<corpo>l'elenco del personale della comunità montana con i dati sulle qualifiche possedute, sul trattamento economico, sulla carriera pregressa;</corpo>
 							</el>
-							<el id="art28-com2-letc">
+							<el finevigore="t12" id="art28-com2-letc-t12" iniziovigore="t1" status="abrogato">
 								<num>c)</num>
 								<corpo>
 									un piano di successione per il trasferimento dei beni, dei rapporti attivi e passivi pendenti, del personale della comunità montana, ad eccezione di quello inquadrato ai sensi della
@@ -2051,11 +2084,24 @@
 									, fossero istituiti tra i comuni già facenti parte della Comunità Montana.
 								</corpo>
 							</el>
+							<el id="art28-com2-letc" iniziovigore="t12">
+								<num>c)</num>
+								<corpo>
+									un piano di successione per il trasferimento dei beni, dei rapporti attivi e passivi pendenti, del personale della comunità montana, ad eccezione di quello inquadrato ai sensi della
+									<rif xlink:href="urn:nir:regione.toscana:legge:1989-09-11;62" xlink:type="simple">Legge Regionale 11-9-1989, n. 62</rif>
+									, nonché dell'esercizio delle funzioni già delegate dalle Regioni alla comunità montana: i trasferimenti sono disposti a favore degli enti locali individuati ai sensi delle leggi regionali di delega delle funzioni amministrative: possono essere inoltre disposti a favore del consorzio volontario o dell'unione di comuni che fossero istituiti, entro il termine di otto mesi di cui al
+									<rif xlink:href="#art28-com3" xlink:type="simple">successivo terzo comma</rif>
+									, tra i comuni già facenti parte della comunità montana.
+								</corpo>
+							</el>
 						</comma>
 						<comma id="art28-com3">
 							<num>3.</num>
 							<corpo>
-								Il Commissario liquidatore predispone gli atti di sua competenza e li trasmette alla Giunta regionale entro il termine di tre mesi dalla data di cui al
+								Il Commissario liquidatore predispone gli atti di sua competenza e li trasmette alla Giunta regionale entro il termine
+								<h:span finevigore="t12" id="h3" iniziovigore="t1" status="abrogato">di tre mesi</h:span>
+								<h:span id="h4" iniziovigore="t12">di otto mesi</h:span>
+								dalla data di cui al
 								<rif xlink:href="#art28-com1" xlink:type="simple">primo comma</rif>
 								. In caso di mancato invio entro il suddetto termine, il Consiglio regionale, su proposta della Giunta, nomina un nuovo Commissario per gli adempimenti di cui al
 								<rif xlink:href="#art28-com2" xlink:type="simple">secondo comma</rif>
