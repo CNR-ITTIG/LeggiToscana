@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19930820" num="52" tipo="BURT" />
 					<entratainvigore norm="19930904" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1993-08-11;54" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1993-08-11;54" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1993-08-11;54@1994-04-19" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tossicodipendenze" />
 						<materia valore="Albi" />
@@ -16,11 +17,47 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19930904" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19940513" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1993-08-11;54" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1994-04-19;32" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art18" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1994-04-19;32" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-04-19;32#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 19 aprile 1994, n. 32" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art18" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art18-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art19" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1994-04-19;32" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-04-19;32#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 19 aprile 1994, n. 32" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art19" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art19-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -716,10 +753,10 @@
 						<corpo>A tal fine i responsabili degli Enti ausiliari forniscono le informazioni richieste compilando schede ed altri strumenti informativi predisposti dalla Giunta regionale.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art18">
+				<articolo finevigore="t2" id="art18-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 18</num>
 					<rubrica>(Norma transitoria)</rubrica>
-					<comma id="art18-com1">
+					<comma id="art18-t2-com1">
 						<num>1.</num>
 						<corpo>
 							Per sei mesi dall'entrata in vigore della presente legge è prorogata l'efficacia dell'albo regionale provvisorio degli Enti ausiliari. L'iscrizione al predetto albo comporta gli effetti previsti dalla
@@ -729,11 +766,11 @@
 							, recante la disciplina degli stupefacenti e sostanze psicotrope, prevenzione, cura e riabilitazione dei relativi stati di tossicodipendenza".
 						</corpo>
 					</comma>
-					<comma id="art18-com2">
+					<comma id="art18-t2-com2">
 						<num>2.</num>
 						<corpo>
 							Entro due mesi dall'entrata in vigore della presente legge gli Enti iscritti all'albo di cui al
-							<rif xlink:href="#art18-com1" xlink:type="simple">comma 1</rif>
+							<rif xlink:href="#art18-t2-com1" xlink:type="simple">comma 1</rif>
 							fanno domanda al Presidente della Giunta regionale per essere iscritti nell'albo di cui all'
 							<rif xlink:href="#art1" xlink:type="simple">art. 1</rif>
 							. A tal fine devono presentare autocertificazione dalla quale risulti che l'atto costitutivo o lo statuto nonché i dati ed i documenti di cui all'
@@ -741,7 +778,7 @@
 							comma 3 e 4, non hanno subito variazioni o dalla quale risultino le variazioni intervenute.
 						</corpo>
 					</comma>
-					<comma id="art18-com3">
+					<comma id="art18-t2-com3">
 						<num>3.</num>
 						<corpo>
 							Nel caso in cui siano intervenute variazioni relative ai dati di cui all'
@@ -751,10 +788,66 @@
 							.
 						</corpo>
 					</comma>
-					<comma id="art18-com4">
+					<comma id="art18-t2-com4">
 						<num>4.</num>
 						<corpo>
 							Il Presidente della Giunta regionale, entro quattro mesi dall'entrata in vigore della presente legge, acquisito il parere di cui al comma 3 , se necessario ai sensi di quanto ivi disposto, ed accertato il permanere dei requisiti in base ai quali era stata disposta l'iscrizione all'albo provvisorio, iscrive l'Ente all'albo regionale di cui all'
+							<rif xlink:href="#art1" xlink:type="simple">art. 1</rif>
+							. Nel caso in cui siano venuti meno i requisiti suddetti, entro lo stesso termine, pronuncia decreto motivato di diniego.
+						</corpo>
+					</comma>
+					<comma id="art18-t2-com5">
+						<num>5.</num>
+						<corpo>Contro il provvedimento di diniego dell'iscrizione nel registro è ammesso ricorso agli organi giurisdizionali secondo quanto previsto dalle disposizioni vigenti.</corpo>
+					</comma>
+					<comma id="art18-t2-com6">
+						<num>6.</num>
+						<corpo>
+							Gli enti ausiliari che non abbiano provveduto nel termine di cui al comma 2 , alla presentazione della domanda ed all'invio della documentazione nello stesso indicata, sono cancellati dall'albo regionale provvisorio. Se intendono essere iscritti all'albo di cui all'
+							<rif xlink:href="#art1" xlink:type="simple">art. 1</rif>
+							, gli Enti devono presentare domanda secondo quanto previsto dall'
+							<rif xlink:href="#art11" xlink:type="simple">art. 11</rif>
+							.
+						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art18" iniziovigore="t2">
+					<num>Art. 18</num>
+					<rubrica>(Norma transitoria)</rubrica>
+					<comma id="art18-com1">
+						<num>1.</num>
+						<corpo>
+							Per 15 mesi dall'entrata in vigore della presente legge è prorogata l'efficacia dell'albo regionale provvisorio degli Enti ausiliari. L'iscrizione al predetto albo comporta gli effetti previsti dalla
+							<rif xlink:href="urn:nir:stato:legge:1990-06-26;162" xlink:type="simple">legge 26 giugno 1990, n. 162</rif>
+							"Aggiornamento, modifiche ed integrazioni della
+							<rif xlink:href="urn:nir:stato:legge:1975-12-22;685" xlink:type="simple">L. 22 dicembre 1975 n. 685</rif>
+							, recante la disciplina degli stupefacenti e sostanze psicotrope, prevenzione, cura e riabilitazione dei relativi stati di tossicodipendenza.
+						</corpo>
+					</comma>
+					<comma id="art18-com2">
+						<num>2.</num>
+						<corpo>
+							Entro 10 mesi dall'entrata in vigore della presente legge gli Enti iscritti all'albo di cui al comma 1 fanno domanda al Presidente della Giunta Regionale per essere iscritti nell'albo di cui all'
+							<rif xlink:href="#art1" xlink:type="simple">art. 1</rif>
+							. A tal fine devono presentare autocertificazione dalla quale risulti che l'atto costitutivo o lo statuto nonché i dati ed i documenti di cui all'
+							<rif xlink:href="#art11" xlink:type="simple">art. 11</rif>
+							, comma 3 e 4, non hanno subito variazioni o dalla quale risultino le variazioni intervenute.
+						</corpo>
+					</comma>
+					<comma id="art18-com3">
+						<num>3.</num>
+						<corpo>
+							Nel caso in cui siano intervenute variazioni relative ai dati di cui all'
+							<rif xlink:href="#art11" xlink:type="simple">art. 11</rif>
+							commi 3 e 4 lettera a), copia della domanda e della autocertificazione di cui al comma 2, è inviata all'Unità Sanitaria Locale in cui l'Ente ha la propria sede operativa. In caso di più sedi la domanda è inviata a ciascuna Unità Sanitaria Locale in cui le sedi stesse sono ubicate. L'Unità Sanitaria Locale entro 30 giorni dal ricevimento della domanda esprime il parere di cui all'
+							<rif xlink:href="#art12-com4" xlink:type="simple">art. 12, comma 4</rif>
+							.
+						</corpo>
+					</comma>
+					<comma id="art18-com4">
+						<num>4.</num>
+						<corpo>
+							Il Presidente della Giunta Regionale, entro 12 mesi dall'entrata in vigore della presente legge, acquisito il parere di cui al comma 3, se necessario ai sensi di quanto ivi disposto, ed accertato il permanere dei requisiti in base ai quali era stata disposta l'iscrizione all'albo provvisorio, iscrive l'Ente all'albo regionale di cui all'
 							<rif xlink:href="#art1" xlink:type="simple">art. 1</rif>
 							. Nel caso in cui siano venuti meno i requisiti suddetti, entro lo stesso termine, pronuncia decreto motivato di diniego.
 						</corpo>
@@ -766,7 +859,7 @@
 					<comma id="art18-com6">
 						<num>6.</num>
 						<corpo>
-							Gli enti ausiliari che non abbiano provveduto nel termine di cui al comma 2 , alla presentazione della domanda ed all'invio della documentazione nello stesso indicata, sono cancellati dall'albo regionale provvisorio. Se intendono essere iscritti all'albo di cui all'
+							Gli Enti ausiliari che non abbiano provveduto nel termine di cui al comma 2, alla presentazione della domanda e all'invio della documentazione nello stesso indicata, sono cancellati dall'Albo provvisorio. Se intendono essere iscritti all'Albo di cui all'
 							<rif xlink:href="#art1" xlink:type="simple">art. 1</rif>
 							, gli Enti devono presentare domanda secondo quanto previsto dall'
 							<rif xlink:href="#art11" xlink:type="simple">art. 11</rif>
@@ -774,10 +867,10 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art19">
+				<articolo finevigore="t2" id="art19-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 19</num>
 					<rubrica>(Norme finali)</rubrica>
-					<comma id="art19-com1">
+					<comma id="art19-t2-com1">
 						<num>1.</num>
 						<corpo>
 							Ai fini del convenzionamento con le unità sanitarie locali, sulla base dello schema - tipo approvato con
@@ -787,7 +880,7 @@
 							, il Consiglio regionale, entro il 31 dicembre 1993 determina l'ammontare delle rette giornaliere da corrispondere agli Enti ausiliari.
 						</corpo>
 					</comma>
-					<comma id="art19-com2">
+					<comma id="art19-t2-com2">
 						<num>2.</num>
 						<corpo>
 							Le rette di cui al precedente comma, fermo restando il rispetto dei requisiti di cui ai precedenti
@@ -800,11 +893,11 @@
 							, devono essere determinate tenuto conto del programma svolto dall'Ente ausiliario e del personale impiegato.
 						</corpo>
 					</comma>
-					<comma id="art19-com3">
+					<comma id="art19-t2-com3">
 						<num>3.</num>
 						<corpo>Le convenzioni in atto tra unità sanitarie locali e Enti ausiliari decadono a far data dal 31-12-1993.</corpo>
 					</comma>
-					<comma id="art19-com4">
+					<comma id="art19-t2-com4">
 						<num>4.</num>
 						<corpo>
 							Gli Enti di cui all'
@@ -812,6 +905,57 @@
 							possono chiedere l'iscrizione al registro regionale istituito ai sensi della
 							<rif xlink:href="urn:nir:regione.toscana:legge:1993-04-26;28" xlink:type="simple">LR 26 aprile 1993, n. 28</rif>
 							concernente "Norme relative ai rapporti delle organizzazioni di volontariato con la Regione, gli Enti locali e gli altri Enti pubblici. Istituzione del registro regionale delle organizzazioni di volontariato", purché in possesso dei requisiti previsti dalla predetta legge.
+						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art19" iniziovigore="t2">
+					<num>Art. 19</num>
+					<rubrica>(Norme finali)</rubrica>
+					<comma id="art19-com1">
+						<num>1.</num>
+						<corpo>
+							Ai fini del convenzionamento con le Unità Sanitarie Locali -- sulla base dello schema-tipo di convenzione approvato con
+							<rif xlink:href="urn:nir:ministero.sanita:decreto:1993-02-19;nir-1" xlink:type="simple">decreto del Ministero della Sanità in data 19 febbraio 1993</rif>
+							, emanato ai sensi dell'
+							<rif xlink:href="urn:nir:presidente.repubblica:decreto:1990-10-09;309#art117-com3" xlink:type="simple">art. 117, comma 3, del DPR 9 ottobre 1990, n. 309</rif>
+							-- il Consiglio regionale, entro il 30 giugno 1994, in attesa della determinazione della retta giornaliera sulla base dell'accordo nazionale di cui all'
+							<rif xlink:href="urn:nir:ministero.sanita:decreto:1993-02-19;nir-1#art10" xlink:type="simple">art. 10 del decreto ministeriale citato</rif>
+							, stabilisce in via transitoria l'ammontare delle stesse rette.
+						</corpo>
+					</comma>
+					<comma id="art19-com2">
+						<num>2.</num>
+						<corpo>
+							Il Consiglio Regionale entro 60 giorni dalla stipula dell'accordo predetto ridetermina l'entità delle rette, in relazione a quanto dallo stesso accordo stabilito. Fatto salvo l'adeguamento automatico annuale di cui all'
+							<rif xlink:href="urn:nir:ministero.sanita:decreto:1993-02-19;nir-1#art10" xlink:type="simple">art. 10 del decreto ministeriale, 19 febbraio 1993</rif>
+							, il Consiglio rivede l'entità delle rette, con cadenza triennale, a seguito della rideterminazione mediante l'accordo nazionale.
+						</corpo>
+					</comma>
+					<comma id="art19-com3">
+						<num>3.</num>
+						<corpo>
+							Le rette di cui al precedente comma, fermo restando il rispetto dei requisiti di cui ai precedenti
+							<mrif>
+								artt.
+								<rif xlink:href="#art5" xlink:type="simple">5</rif>
+								e
+								<rif xlink:href="#art6" xlink:type="simple">6</rif>
+							</mrif>
+							, devono essere determinate tenuto conto del programma svolto dall'Ente ausiliario e del personale impiegato.
+						</corpo>
+					</comma>
+					<comma id="art19-com4">
+						<num>4.</num>
+						<corpo>Le convenzioni in atto tra Unità Sanitarie Locali ed Enti ausiliari decadono a far data dal 31 dicembre 1994.</corpo>
+					</comma>
+					<comma id="art19-com5">
+						<num>5.</num>
+						<corpo>
+							Gli Enti di cui all'
+							<rif xlink:href="#art1" xlink:type="simple">art. 1</rif>
+							possono richiedere iscrizione al Registro regionale istituito ai sensi della
+							<rif xlink:href="urn:nir:regione.toscana:legge:1993-04-26;28" xlink:type="simple">LR 26 aprile 1993 n. 28</rif>
+							concernente "Norme relative ai rapporti dell'organizzazioni di volontariato con la Regione, gli Enti Locali e gli altri Enti pubblici. Istituzione del Registro Regionale dell'organizzazione di volontariato", perché in possesso dei requisiti previsti dalla predetta Legge.
 						</corpo>
 					</comma>
 				</articolo>
