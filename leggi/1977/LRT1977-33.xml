@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t7" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19770610" num="32" tipo="BURT" />
@@ -12,7 +12,8 @@
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1977-06-01;33@1982-11-29" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1977-06-01;33@1987-08-26" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1977-06-01;33@1993-09-06" />
-					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1977-06-01;33@1994-01-12" />
+					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1977-06-01;33@1994-01-12" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1977-06-01;33@1994-05-30" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -22,6 +23,7 @@
 						<evento data="19870918" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="19930930" fonte="rp4" id="t5" tipo="modifica" />
 						<evento data="19940128" fonte="rp5" id="t6" tipo="modifica" />
+						<evento data="19941223" fonte="rp6" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1977-06-01;33" xlink:type="simple" />
@@ -30,31 +32,32 @@
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1987-08-26;49" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1993-09-06;68" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1994-01-12;5" xlink:type="simple" />
+						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:1994-05-30;41" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Relativamente alle convenzioni di cui alla presente legge si veda l'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1993-09-06;68#art4" xlink:type="simple">art. 4 della legge regionale 6 settembre 1993, n. 68</rif>
 							.
 						</h:p>
 					</nota>
-					<nota id="n2">
+					<nota id="LeggeRegionale1-n2">
 						<h:p>
 							In deroga alle disposizioni di cui al presente articolo si veda la
 							<rif xlink:href="urn:nir:regione.toscana:legge:1987-08-26;49" xlink:type="simple">legge regionale 26 agosto 1987, n. 49</rif>
 							.
 						</h:p>
 					</nota>
-					<nota id="n3">
+					<nota id="LeggeRegionale1-n3">
 						<h:p>
 							In deroga alle disposizioni di cui al presente articolo si veda la
 							<rif xlink:href="urn:nir:regione.toscana:legge:1987-08-26;49" xlink:type="simple">legge regionale 26 agosto 1987, n. 49</rif>
 							.
 						</h:p>
 					</nota>
-					<nota id="n4">
+					<nota id="LeggeRegionale1-n4">
 						<h:p>
 							Fondo elevato a L. 1.000 milioni ex
 							<rif xlink:href="urn:nir:regione.toscana:legge:1981-09-07;70#art2" xlink:type="simple">art. 2 legge regionale 7 settembre 1981, n. 70</rif>
@@ -277,6 +280,18 @@
 								<dsp:pos xlink:href="#art3-com2" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1977-06-01;33" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1994-05-30;41" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-05-30;41#art19-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 19, comma 1 della legge Regione Toscana 30 maggio 1994, n. 41" id="itt15" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -288,7 +303,7 @@
 				<numDoc>33</numDoc>
 				<titoloDoc>
 					Norme per il rilascio di fidejussioni da parte della Regione Toscana a garanzia di operazioni di credito agrario
-					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 					.
 				</titoloDoc>
 			</intestazione>
@@ -302,7 +317,7 @@
 				<articolo id="art1">
 					<num>
 						ARTICOLO 1
-						<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+						<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(b)</ndr>
 					</num>
 					<comma finevigore="t2" id="art1-com1-t2" iniziovigore="t1" status="abrogato">
 						<num />
@@ -363,7 +378,7 @@
 				<articolo id="art3">
 					<num>
 						ARTICOLO 3
-						<ndr num="#n3" valore="" xlink:type="simple">(c)</ndr>
+						<ndr num="#LeggeRegionale1-n3" valore="" xlink:type="simple">(c)</ndr>
 					</num>
 					<comma id="art3-com1">
 						<num />
@@ -623,7 +638,7 @@
 						<num />
 						<corpo>
 							Il predetto fondo ha una dotazione iniziale di lire 300 milioni che verrà incrementata negli anni successivi fino a raggiungere, nel 1980, lire 800 milioni
-							<ndr num="#n4" valore="" xlink:type="simple">(d)</ndr>
+							<ndr num="#LeggeRegionale1-n4" valore="" xlink:type="simple">(d)</ndr>
 							, salvo quanto previsto dal
 							<rif xlink:href="#art11" xlink:type="simple">successivo art. 11</rif>
 							.
