@@ -16,7 +16,8 @@
 					<urn finevigore="t18" iniziovigore="t17" valore="urn:nir:regione.toscana:legge:1989-08-21;51@1991-11-14" />
 					<urn finevigore="t19" iniziovigore="t18" valore="urn:nir:regione.toscana:legge:1989-08-21;51@1991-12-02" />
 					<urn finevigore="t20" iniziovigore="t19" valore="urn:nir:regione.toscana:legge:1989-08-21;51@1992-07-20" />
-					<urn iniziovigore="t20" valore="urn:nir:regione.toscana:legge:1989-08-21;51@1993-12-30" />
+					<urn finevigore="t21" iniziovigore="t20" valore="urn:nir:regione.toscana:legge:1989-08-21;51@1993-12-30" />
+					<urn iniziovigore="t21" valore="urn:nir:regione.toscana:legge:1989-08-21;51@1994-05-16" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Ente Regione" />
@@ -44,6 +45,7 @@
 						<evento data="19911226" fonte="rp7" id="t18" tipo="modifica" />
 						<evento data="19920813" fonte="rp8" id="t19" tipo="modifica" />
 						<evento data="19930122" fonte="rp9" id="t20" tipo="modifica" />
+						<evento data="19940609" fonte="rp10" id="t21" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51" xlink:type="simple" />
@@ -66,6 +68,7 @@
 						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:1991-12-02;56" xlink:type="simple" />
 						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:1992-07-20;32" xlink:type="simple" />
 						<passiva id="rp9" xlink:href="urn:nir:regione.toscana:legge:1993-12-30;108" xlink:type="simple" />
+						<passiva id="rp10" xlink:href="urn:nir:regione.toscana:legge:1994-05-16;36" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -571,6 +574,36 @@
 								<dsp:pos xlink:href="#art92-t20" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art121-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1994-05-16;36" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-05-16;36#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 16 maggio 1994, n. 36" id="itt28" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art121-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art121-com1-t21" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art123-com7" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1994-05-16;36" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-05-16;36#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 16 maggio 1994, n. 36" id="itt29" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art123-com7" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art123-com7-t21" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -5210,9 +5243,13 @@
 							<articolo id="art121">
 								<num>ARTICOLO 121</num>
 								<rubrica>(Estinzione del procedimento disciplinare)</rubrica>
-								<comma id="art121-com1">
+								<comma finevigore="t21" id="art121-com1-t21" iniziovigore="t1" status="abrogato">
 									<num>1.</num>
 									<corpo>Il procedimento disciplinare si estingue quando siano decorsi i termini stabiliti dagli articoli precedenti per il compimento delle singole sue fasi, ovvero decorsi trenta giorni dall'ultimo atto senza che nessun atto ulteriore sia stato compiuto.</corpo>
+								</comma>
+								<comma id="art121-com1" iniziovigore="t21">
+									<num>1.</num>
+									<corpo>Il procedimento disciplinare si estingue quando siano decorsi i termini stabiliti dagli articoli precedenti per il compimento delle singole sue fasi, ovvero decorsi sessanta giorni dall'ultimo atto senza che nessun atto ulteriore sia stato compiuto.</corpo>
 								</comma>
 								<comma id="art121-com2">
 									<num>2.</num>
@@ -5343,9 +5380,17 @@
 									<num>6.</num>
 									<corpo>Le proposte sono approvate se ottengono la maggioranza dei voti.</corpo>
 								</comma>
-								<comma id="art123-com7">
+								<comma finevigore="t21" id="art123-com7-t21" iniziovigore="t1" status="abrogato">
 									<num>7.</num>
 									<corpo>Ai componenti la Commissione, che non siano dipendenti regionali, viene corrisposto un gettone di presenza di importo pari a quello previsto per i membri eletti degli organi regionali di controllo. Al Presidente spetta inoltre una indennità di funzione pari a L. 500.000 mensili.</corpo>
+								</comma>
+								<comma id="art123-com7" iniziovigore="t21">
+									<num>7.</num>
+									<corpo>
+										Ai componenti della commissione che non siano dipendenti regionali spetta un'indennità di funzione pari al 10% di quella prevista per i componenti dell'organo di controllo dell'
+										<rif xlink:href="urn:nir:regione.toscana:legge:1992-07-07;31#art12-com1" xlink:type="simple">art. 12, comma 1, della LR 7.7.1992, n. 31</rif>
+										. Al Presidente è inoltre corrisposta un'ulteriore indennità di carica mensile pari a L. 500.000.
+									</corpo>
 								</comma>
 							</articolo>
 						</sezione>
