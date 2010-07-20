@@ -8,7 +8,8 @@
 					<entratainvigore norm="19900426" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t15" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1990-04-09;41" />
-					<urn iniziovigore="t15" valore="urn:nir:regione.toscana:legge:1990-04-09;41@1992-07-20" />
+					<urn finevigore="t16" iniziovigore="t15" valore="urn:nir:regione.toscana:legge:1990-04-09;41@1992-07-20" />
+					<urn iniziovigore="t16" valore="urn:nir:regione.toscana:legge:1990-04-09;41@1994-07-11" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Ente Regione" />
@@ -31,6 +32,7 @@
 						<evento data="19900426" fonte="ra12" id="t13" tipo="modifica" />
 						<evento data="19900426" fonte="ra13" id="t14" tipo="modifica" />
 						<evento data="19920813" fonte="rp1" id="t15" tipo="modifica" />
+						<evento data="19940804" fonte="rp2" id="t16" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1990-04-09;41" xlink:type="simple" />
@@ -48,6 +50,7 @@
 						<attiva id="ra12" xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51" xlink:type="simple" />
 						<attiva id="ra13" xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1992-07-20;32" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1994-07-11;51" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -260,6 +263,18 @@
 							</dsp:norma>
 							<dsp:novella>
 								<dsp:pos xlink:href="#art14-com4" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art12" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1994-07-11;51" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-07-11;51#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 11 luglio 1994, n. 51" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art12bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 					</modifichepassive>
@@ -905,9 +920,42 @@
 									<mod id="mod6">
 										e
 										<rif xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51#art60-com5" xlink:type="simple">5</rif>
-										dell'art. 60 della LR 21 agosto 1989, n. 51 sono abrogati.
+										dell'
+										<rif xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51#art60" xlink:type="simple">art. 60 della LR 21 agosto 1989, n. 51</rif>
+										sono abrogati.
 									</mod>
 								</mmod>
+							</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art12bis" iniziovigore="t16">
+						<num>Art. 12/bis</num>
+						<rubrica>(Norma di rinvio)</rubrica>
+						<comma id="art12bis-com1">
+							<num>1.</num>
+							<corpo>
+								Alle aspettative e ai permessi sindacali previsti dai precedenti
+								<mrif>
+									artt.
+									<rif xlink:href="#art9" xlink:type="simple">9</rif>
+									,
+									<rif xlink:href="#art11" xlink:type="simple">11</rif>
+									e
+									<rif xlink:href="#art12" xlink:type="simple">12</rif>
+								</mrif>
+								si applicano le disposizioni stabilite dai
+								<mrif>
+									comma
+									<rif xlink:href="urn:nir:stato:legge:1993-12-24;537#art3-com31" xlink:type="simple">31</rif>
+									,
+									<rif xlink:href="urn:nir:stato:legge:1993-12-24;537#art3-com32" xlink:type="simple">32</rif>
+									,
+									<rif xlink:href="urn:nir:stato:legge:1993-12-24;537#art3-com33" xlink:type="simple">33</rif>
+									,
+									<rif xlink:href="urn:nir:stato:legge:1993-12-24;537#art3-com34" xlink:type="simple">34</rif>
+									dell'art. 3 della L. 24-12-1993, n. 537
+								</mrif>
+								.
 							</corpo>
 						</comma>
 					</articolo>

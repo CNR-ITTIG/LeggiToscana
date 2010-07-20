@@ -17,7 +17,8 @@
 					<urn finevigore="t19" iniziovigore="t18" valore="urn:nir:regione.toscana:legge:1989-08-21;51@1991-12-02" />
 					<urn finevigore="t20" iniziovigore="t19" valore="urn:nir:regione.toscana:legge:1989-08-21;51@1992-07-20" />
 					<urn finevigore="t21" iniziovigore="t20" valore="urn:nir:regione.toscana:legge:1989-08-21;51@1993-12-30" />
-					<urn iniziovigore="t21" valore="urn:nir:regione.toscana:legge:1989-08-21;51@1994-05-16" />
+					<urn finevigore="t22" iniziovigore="t21" valore="urn:nir:regione.toscana:legge:1989-08-21;51@1994-05-16" />
+					<urn iniziovigore="t22" valore="urn:nir:regione.toscana:legge:1989-08-21;51@1994-07-11" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Ente Regione" />
@@ -46,6 +47,7 @@
 						<evento data="19920813" fonte="rp8" id="t19" tipo="modifica" />
 						<evento data="19930122" fonte="rp9" id="t20" tipo="modifica" />
 						<evento data="19940609" fonte="rp10" id="t21" tipo="modifica" />
+						<evento data="19940804" fonte="rp11" id="t22" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51" xlink:type="simple" />
@@ -69,6 +71,7 @@
 						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:1992-07-20;32" xlink:type="simple" />
 						<passiva id="rp9" xlink:href="urn:nir:regione.toscana:legge:1993-12-30;108" xlink:type="simple" />
 						<passiva id="rp10" xlink:href="urn:nir:regione.toscana:legge:1994-05-16;36" xlink:type="simple" />
+						<passiva id="rp11" xlink:href="urn:nir:regione.toscana:legge:1994-07-11;51" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -604,6 +607,30 @@
 								<dsp:pos xlink:href="#art123-com7-t21" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art84" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1994-07-11;51" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-07-11;51#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 11 luglio 1994, n. 51" id="itt30" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art84bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art76-com5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1994-07-11;51" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-07-11;51#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 11 luglio 1994, n. 51" id="itt31" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art76-com5-t22" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -3951,7 +3978,7 @@
 									, il dipendente ha diritto per tutto il periodo di aspettativa alla retribuzione corrispondente al posto ricoperto.
 								</corpo>
 							</comma>
-							<comma id="art76-com5">
+							<comma finevigore="t22" id="art76-com5-t22" iniziovigore="t1" status="abrogato">
 								<num>5.</num>
 								<corpo>Il dipendente può essere collocato a domanda in congedo straordinario per malattia per attendere a cure idropiniche a terminali, con obbligo di presentazione di formale certificazione medica del periodo di cure effettuate.</corpo>
 							</comma>
@@ -4148,6 +4175,53 @@
 							<comma id="art84-com1">
 								<num>1.</num>
 								<corpo>Le assenze dal servizio dei dipendenti regionali per lo svolgimento di incarichi pubblici sono disciplinate dalle norme della legislazione nazionale.</corpo>
+							</comma>
+						</articolo>
+						<articolo id="art84bis" iniziovigore="t22">
+							<num>Art. 84/bis</num>
+							<rubrica>(Retribuzione del primo giorno di congedo straordinario)</rubrica>
+							<comma id="art84bis-com1">
+								<num>1.</num>
+								<alinea>Per primo giorno di ogni periodo ininterrotto di congedo straordinario per:</alinea>
+								<ep id="art84bis-com1-pun1">
+									<num>-</num>
+									<corpo>contrarre matrimonio;</corpo>
+								</ep>
+								<ep id="art84bis-com1-pun2">
+									<num>-</num>
+									<corpo>esami;</corpo>
+								</ep>
+								<ep id="art84bis-com1-pun3">
+									<num>-</num>
+									<corpo>cure per mutilati, invalidi civili, invalidi di guerra o per servizio;</corpo>
+								</ep>
+								<ep id="art84bis-com1-pun4">
+									<num>-</num>
+									<corpo>gravi motivi;</corpo>
+								</ep>
+								<ep id="art84bis-com1-pun5">
+									<num>-</num>
+									<corpo>malattia;</corpo>
+								</ep>
+								<coda>spettano al dipendente tutti gli assegni ridotti di un terzo, escluse le indennità per servizi e funzioni di carattere speciale e per prestazioni di lavoro straordinario.</coda>
+							</comma>
+							<comma id="art84bis-com2">
+								<num>2.</num>
+								<corpo>
+									Le disposizioni di cui al precedente comma non si applicano ai lavoratori per i quali è previsto il diritto all'esenzione dalla spesa sanitaria, appartenenti ad una delle categorie elencate all'
+									<rif xlink:href="urn:nir:ministero.sanita:decreto:1991-02-01;nir-1#art6" xlink:type="simple">art. 6 del decreto del Ministro della Sanità 1 febbraio 1991</rif>
+									, pubblicato nella Gazzetta Ufficiale n. 32 del 7 febbraio 1991, e successive modificazioni ed integrazioni, o affetti da una delle forme morbose comprese negli
+									<mrif>
+										artt.
+										<rif xlink:href="urn:nir:ministero.sanita:decreto:1991-02-01;nir-1#art1" xlink:type="simple">1</rif>
+										,
+										<rif xlink:href="urn:nir:ministero.sanita:decreto:1991-02-01;nir-1#art2" xlink:type="simple">2</rif>
+										e
+										<rif xlink:href="urn:nir:ministero.sanita:decreto:1991-02-01;nir-1#art3" xlink:type="simple">3</rif>
+										dello stesso decreto
+									</mrif>
+									e individuate con decreto del Ministero della Sanità nel caso in cui tali forme morbose richiedano cure ospedaliere o ambulanti ricorrenti.
+								</corpo>
 							</comma>
 						</articolo>
 					</capo>
