@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19821214" num="65" tipo="BURT" />
 					<entratainvigore norm="19821229" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1982-12-06;88" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1982-12-06;88" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1982-12-06;88@1994-07-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Protezione civile" />
 						<materia valore="Edilizia" />
@@ -16,11 +17,29 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19821229" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19940813" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1982-12-06;88" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1994-07-21;56" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1994-07-21;56" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-07-21;56#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 21 luglio 1994, n. 56" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art7bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -197,6 +216,22 @@
 							<rif xlink:href="#art5" xlink:type="simple">art. 5</rif>
 							della presente legge integrata con la dichiarazione predetta.
 						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art7bis" iniziovigore="t2">
+					<num>Art. 7 bis</num>
+					<rubrica>(Competenze del Dipartimento Ambiente)</rubrica>
+					<comma id="art7bis-com1">
+						<num>1.</num>
+						<corpo>
+							Le competenze attribuite agli Uffici del Genio Civile dalla presente Legge sono esercitate dal Dipartimento Ambiente della Regione Toscana e gli adempimenti previsti presso detti uffici sono svolti presso il Dipartimento Ambiente in ordine a costruzioni progettate per conto di enti pubblici e finanziate con fondi pubblici di cui alla
+							<rif xlink:href="urn:nir:stato:legge:1986-10-28;730" xlink:type="simple">legge 28-10-1986 n. 730</rif>
+							. Detti progetti devono essere controllati ai sensi della vigente normativa sismica tenendo conto anche della convenienza tecnico-economica delle soluzioni progettuali e della sperimentazione di metodologie di analisi e calcolo, di tecniche, tecnologie ed uso di materiali innovativi.
+						</corpo>
+					</comma>
+					<comma id="art7bis-com2">
+						<num>2.</num>
+						<corpo>Le competenze di cui al primo comma, saranno attribuite al Dipartimento Ambiente, anche nel caso di altre leggi nazionali finalizzate al finanziamento di interventi preventivi di adeguamento o miglioramento sismico per la messa in sicurezza di edifici, emanate successivamente all'entrata in vigore della presente Legge ed individuate con apposito provvedimento del Consiglio Regionale pubblicato sul Bollettino Ufficiale della Regione Toscana.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art8">
