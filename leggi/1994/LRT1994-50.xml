@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="iso-8859-15"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19940720" num="48" tipo="BURT" />
 					<entratainvigore norm="19940720" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1994-07-11;50" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1994-07-11;50" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1994-07-11;50@1994-07-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Finanziamenti" />
 						<materia valore="Assetto Idrogeologico" />
@@ -16,11 +17,47 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19940720" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19940729" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-07-11;50" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1994-07-21;55" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1994-07-21;55" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-07-21;55#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 21 luglio 1994, n. 55" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1994-07-21;55" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-07-21;55#artunico-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 2 della legge Regione Toscana 21 luglio 1994, n. 55" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-com4-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -61,7 +98,10 @@
 						<corpo>
 							Per i bacini o sottobacini che ricadono nei territori di propria competenza, le Amministrazioni Provinciali provvedono alla predisposizione delle proposte che concorrono a formare il programma di cui all'
 							<rif xlink:href="#art1" xlink:type="simple">art. 1</rif>
-							, sentiti gli enti Locali interessati e con la collaborazione degli Uffici regionali del Genio Civile.
+							,
+							<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">sentiti gli enti Locali</h:span>
+							<h:span id="h2" iniziovigore="t2">di concerto con gli Enti locali</h:span>
+							interessati e con la collaborazione degli Uffici regionali del Genio Civile.
 						</corpo>
 					</comma>
 					<comma id="art2-com2">
@@ -148,9 +188,13 @@
 						<num>3.</num>
 						<corpo>Il programma di interventi può essere modificato dal Consiglio Regionale su proposta della Giunta per sopravvenute esigenze di sicurezza idraulica.</corpo>
 					</comma>
-					<comma id="art4-com4">
+					<comma finevigore="t2" id="art4-com4-t2" iniziovigore="t1" status="abrogato">
 						<num>4.</num>
 						<corpo>Nel programma sono comunque compresi i progetti esecutivi già  approvati dalla Giunta regionale e di cui all'allegato elenco, relativi ad interventi finalizzati alla messa in sicurezza idraulica degli insediamenti abitativi e produttivi esistenti.</corpo>
+					</comma>
+					<comma id="art4-com4" iniziovigore="t2">
+						<num>4.</num>
+						<corpo>nel programma sono comunque compresi i progetti esecutivi, relativi ad interventi finalizzati alla messa in sicurezza idraulica degli insediamenti abitativi e produttivi esistenti, già approvati dalla Giunta regionale alla data di entrata in vigore della presente legge e comunque fino ad importo complessivo di L. 25 miliardi.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art5">
@@ -384,9 +428,9 @@
 				ed entra in vigore il giorno stesso della sua pubblicazione.
 			</formulafinale>
 			<conclusione>
-				<soggetto codice="">La presente legge è stata approvata dal Consiglio Regionale il 31-5-1994 ed è stata vistata dal Commissario del Governo il 4-7- 1994.</soggetto>
 				<dataeluogo codice="" norm="">Firenze, 11 Luglio 1994</dataeluogo>
 				<firma tipo="sottoscrizione">CHITI</firma>
+				<soggetto codice="">La presente legge è stata approvata dal Consiglio Regionale il 31-5-1994 ed è stata vistata dal Commissario del Governo il 4-7-1994.</soggetto>
 			</conclusione>
 		</LeggeRegionale>
 	</NIR>
