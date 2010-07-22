@@ -21,12 +21,14 @@
 						<evento data="19900517" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19920403" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19930828" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="19940818" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1983-05-18;33" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1990-04-21;50" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1992-03-11;7" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1993-08-05;47" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1993-08-05;47" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -207,6 +209,21 @@
 								<dsp:pos xlink:href="#art18bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art16-com3-letd-t5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1993-08-05;47" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1993-08-05;47#art2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo2, legge Regione Toscana 5 agosto 1993, n. 47" id="itt13" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art16-com3-letdbis" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art16-com3-letd-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -703,10 +720,24 @@
 									;
 								</corpo>
 							</el>
-							<el id="art16-com3-letd">
+							<el finevigore="t5" id="art16-com3-letd-t5" iniziovigore="t1" status="abrogato">
 								<num>d)</num>
 								<corpo>
 									ai ciechi totali e sordomuti di cui agli
+									<mrif>
+										artt.
+										<rif xlink:href="urn:nir:stato:legge:1968-04-02;482#art6" xlink:type="simple">6</rif>
+										e
+										<rif xlink:href="urn:nir:stato:legge:1968-04-02;482#art7" xlink:type="simple">7</rif>
+										della legge 2 aprile 1968, n. 482
+									</mrif>
+									;
+								</corpo>
+							</el>
+							<el id="art16-com3-letdbis" iniziovigore="t5">
+								<num>d)</num>
+								<corpo>
+									ai soggetti privi della vista e sordomuti di cui agli
 									<mrif>
 										artt.
 										<rif xlink:href="urn:nir:stato:legge:1968-04-02;482#art6" xlink:type="simple">6</rif>
