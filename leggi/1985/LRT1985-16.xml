@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t12" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19850227" num="9 supplemento straordinario" tipo="BURT" />
@@ -12,7 +12,8 @@
 					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1985-02-21;16@1989-07-17" />
 					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1985-02-21;16@1990-11-29" />
 					<urn finevigore="t11" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1985-02-21;16@1991-12-24" />
-					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1985-02-21;16@1992-08-03" />
+					<urn finevigore="t12" iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1985-02-21;16@1992-08-03" />
+					<urn iniziovigore="t12" valore="urn:nir:regione.toscana:legge:1985-02-21;16@1994-08-31" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Formazione" />
 						<materia valore="Attribuzioni Deleghe" />
@@ -31,6 +32,7 @@
 						<evento data="19901207" fonte="rp3" id="t9" tipo="modifica" />
 						<evento data="19911224" fonte="rp4" id="t10" tipo="modifica" />
 						<evento data="19920827" fonte="rp5" id="t11" tipo="modifica" />
+						<evento data="19940907" fonte="rp6" id="t12" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1985-02-21;16" xlink:type="simple" />
@@ -44,10 +46,11 @@
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1990-11-29;68" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1991-12-24;61" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1992-08-03;34" xlink:type="simple" />
+						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:1994-08-31;70" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Per l'anno 1989 il termine è stato prorogato al 15 maggio dalla
 							<rif xlink:href="urn:nir:regione.toscana:legge:1989-04-17;24" xlink:type="simple">legge regionale 17 aprile 1989, n. 24</rif>
@@ -58,13 +61,13 @@
 							.
 						</h:p>
 					</nota>
-					<nota id="n2">
+					<nota id="LeggeRegionale1-n2">
 						<h:p>
 							Per l'anno 1989 il termine è stato prorogato al 30 giugno dalla
 							<rif xlink:href="urn:nir:regione.toscana:legge:1989-04-17;24" xlink:type="simple">legge regionale 17 aprile 1989, n. 24</rif>
 						</h:p>
 					</nota>
-					<nota id="n3">
+					<nota id="LeggeRegionale1-n3">
 						<h:p>
 							Termine prorogato al 30 settembre, relativamente all'anno 1989, dalla
 							<rif xlink:href="urn:nir:regione.toscana:legge:1989-04-17;24" xlink:type="simple">legge regionale 17 aprile 1989, n. 24</rif>
@@ -75,7 +78,7 @@
 							.
 						</h:p>
 					</nota>
-					<nota id="n4">
+					<nota id="LeggeRegionale1-n4">
 						<h:p>
 							Termine prorogato al 10 novembre, relativamente all'anno 1989, dalla
 							<rif xlink:href="urn:nir:regione.toscana:legge:1989-04-17;24" xlink:type="simple">legge regionale 17 aprile 1989, n. 24</rif>
@@ -562,6 +565,18 @@
 								<dsp:pos xlink:href="#art5-com2-t11" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1985-02-21;16" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1994-08-31;70" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-08-31;70#art22-com2-pun1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 22, comma 2, 1 della legge Regione Toscana 31 agosto 1994, n. 70" id="itt31" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -580,7 +595,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>FINALITA' ED OGGETTO DELLA FORMAZIONE PROFESSIONALE</rubrica>
 					<articolo id="art1">
@@ -697,7 +712,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>PROGRAMMAZIONE DEGLI INTERVENTI DI FORMAZIONE PROFESSIONALE</rubrica>
 					<articolo id="art4">
@@ -797,9 +812,9 @@
 							<num>2.</num>
 							<corpo>
 								La Giunta regionale, sentita la Commissione consiliare competente, sottopone lo schema di programma entro il 28 febbraio
-								<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+								<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 								all'esame delle Province le quali devono far pervenire le loro osservazioni nonchè le proposte di intervento elaborate per progetti entro il termine perentorio di 60 giorni
-								<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+								<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(b)</ndr>
 								, tenuto conto
 								<h:span finevigore="t7" id="h5" iniziovigore="t1" status="abrogato">del parere delle AAII e delle CCMM presenti nel territorio di loro competenza nonchè</h:span>
 								delle proposte presentate entro il 28 febbraio da altri soggetti per le attività da autorizzare e riconoscere; per i progetti formativi nel settore agricolo le Province dovranno riferirsi al programma regionale dei servizi di sviluppo agricolo e ai piani zonali agricolo - forestali. Le Province dovranno corredare ciascun progetto di apposita relazione tecnico - contabile nonchè del consuntivo annuale dei progetti realizzati e della relazione illustrativa dei risultati della verifica di efficienza di cui al
@@ -831,7 +846,7 @@
 								La Giunta Regionale, viste le osservazioni e le proposte delle Province, e dopo aver acquisito il parere della Commissione Regionale per l'Impiego, da esprimersi entro e non oltre il 31 maggio, definisce la proposta di programma con le modalità di cui all'
 								<rif xlink:href="#art4" xlink:type="simple">art. 4</rif>
 								e la trasmette entro il 10 giugno
-								<ndr num="#n3" valore="" xlink:type="simple">(c)</ndr>
+								<ndr num="#LeggeRegionale1-n3" valore="" xlink:type="simple">(c)</ndr>
 								al Consiglio regionale.
 							</corpo>
 						</comma>
@@ -847,7 +862,7 @@
 							<num>5.</num>
 							<corpo>
 								Entro il 31 luglio
-								<ndr num="#n4" valore="" xlink:type="simple">(d)</ndr>
+								<ndr num="#LeggeRegionale1-n4" valore="" xlink:type="simple">(d)</ndr>
 								il Consiglio regionale approva il programma, ripartisce le risorse per le attività gestite direttamente o convenzionate fra i soggetti di cui al
 								<rif xlink:href="#art6-t7-com1" xlink:type="simple">primo comma dell'art. 6</rif>
 								e autorizza i progetti di cui all'
@@ -883,7 +898,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>TITOLO III</num>
 					<rubrica>ATTRIBUZIONE DELLE FUNZIONI AMMINISTRATIVE E DISCIPLINA DEI CORSI</rubrica>
 					<articolo finevigore="t7" id="art6-t7" iniziovigore="t1" status="abrogato">
@@ -1307,7 +1322,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit4">
+				<titolo id="LeggeRegionale1-tit4">
 					<num>TITOLO IV</num>
 					<rubrica>DISPOSIZIONI FINALI E TRANSITORIE</rubrica>
 					<articolo id="art15">
