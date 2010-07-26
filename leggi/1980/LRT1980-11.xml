@@ -16,7 +16,8 @@
 					<urn finevigore="t14" iniziovigore="t13" valore="urn:nir:regione.toscana:legge:1980-01-28;11@1983-05-02" />
 					<urn finevigore="t15" iniziovigore="t14" valore="urn:nir:regione.toscana:legge:1980-01-28;11@1984-03-26" />
 					<urn finevigore="t16" iniziovigore="t15" valore="urn:nir:regione.toscana:legge:1980-01-28;11@1988-09-01" />
-					<urn iniziovigore="t16" valore="urn:nir:regione.toscana:legge:1980-01-28;11@1991-09-09" />
+					<urn finevigore="t17" iniziovigore="t16" valore="urn:nir:regione.toscana:legge:1980-01-28;11@1991-09-09" />
+					<urn iniziovigore="t17" valore="urn:nir:regione.toscana:legge:1980-01-28;11@1994-11-18" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="ATTIVITA' ARTISTICHE" />
 					</materie>
@@ -39,6 +40,7 @@
 						<evento data="19840419" fonte="rp7" id="t14" tipo="modifica" />
 						<evento data="19880927" fonte="rp8" id="t15" tipo="modifica" />
 						<evento data="19911004" fonte="rp9" id="t16" tipo="modifica" />
+						<evento data="19950101" fonte="rp10" id="t17" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-01-28;11" xlink:type="simple" />
@@ -57,6 +59,7 @@
 						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:1984-03-26;18" xlink:type="simple" />
 						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:1988-09-01;68" xlink:type="simple" />
 						<passiva id="rp9" xlink:href="urn:nir:regione.toscana:legge:1991-09-09;46" xlink:type="simple" />
+						<passiva id="rp10" xlink:href="urn:nir:regione.toscana:legge:1994-11-18;88" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -326,6 +329,18 @@
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1991-09-09;46#mod4" xlink:type="simple" />
 							</dsp:norma>
 						</dsp:proroga>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1994-11-18;88" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-11-18;88#art10-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 10, comma 1 della legge Regione Toscana 18 novembre 1994, n. 88" id="itt14" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art9-t17" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -605,10 +620,10 @@
 							</el>
 						</comma>
 					</articolo>
-					<articolo id="art9">
+					<articolo finevigore="t17" id="art9-t17" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 9</num>
 						<rubrica>(Formazione ed educazione musicale)</rubrica>
-						<comma id="art9-com1">
+						<comma id="art9-t17-com1">
 							<num />
 							<corpo>La Regione eroga contributi agli organismi di formazione e di educazione musicale qualificati per i programmi e le attività didattiche, per il livello professionale del corpo docente e per l'organizzazione.</corpo>
 						</comma>
