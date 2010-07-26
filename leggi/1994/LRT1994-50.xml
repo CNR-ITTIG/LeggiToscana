@@ -8,7 +8,8 @@
 					<entratainvigore norm="19940720" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1994-07-11;50" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1994-07-11;50@1994-07-21" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1994-07-11;50@1994-07-21" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1994-07-11;50@1994-08-31" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Finanziamenti" />
 						<materia valore="Assetto Idrogeologico" />
@@ -18,10 +19,12 @@
 					<eventi>
 						<evento data="19940720" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19940729" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19940907" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-07-11;50" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1994-07-21;55" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1994-08-31;71" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -56,6 +59,18 @@
 								<dsp:pos xlink:href="#art4-com4-t2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1994-08-31;71" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-08-31;71#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 31 agosto 1994, n. 71" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6-com6" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -268,6 +283,13 @@
 							Al cofinanziamento dei progetti per la parte residuale provvedono gli enti interessati e sottoscrittori degli accordi di programma di cui all'
 							<rif xlink:href="#art5" xlink:type="simple">art. 5</rif>
 							per ciascun bacino o sottobacino.
+						</corpo>
+					</comma>
+					<comma id="art6-com6" iniziovigore="t3">
+						<num>6.</num>
+						<corpo>
+							La Giunta regionale, al solo fine di consentire l'accelerazione delle procedure di gara, può, previa apposita convenzione che disciplini le modalità di restituzione, anticipare la quota di cofinanziamento a carico delle altre amministrazioni firmatarie dell'accordo di programma di cui all'
+							<rif xlink:href="#art6-com5" xlink:type="simple">art. 5</rif>
 						</corpo>
 					</comma>
 				</articolo>
