@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19930519" num="30" tipo="BURT" />
 					<entratainvigore norm="19930603" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1993-05-12;29" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1993-05-12;29" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1993-05-12;29@1994-11-07" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tutela Ambientale" />
 						<materia valore="Finanziamenti" />
@@ -16,11 +17,44 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19930603" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19941116" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1993-05-12;29" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1994-11-07;85" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1994-11-07;85" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-11-07;85#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 7 novembre 1994, n. 85" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1994-11-07;85" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-11-07;85#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 7 novembre 1994, n. 85" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -164,11 +198,27 @@
 					</comma>
 					<comma id="art4-com5">
 						<num>5.</num>
-						<corpo>La Giunta regionale provvede con apposito atto a certificare l'avvenuta bonifica ed a svincolare la fidejussione prestata.</corpo>
+						<corpo>
+							La Giunta regionale provvede con apposito atto a certificare l'avvenuta bonifica ed a svincolare la fidejussione prestata
+							<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">.</h:span>
+							<h:span id="h2" iniziovigore="t2">, sentito il parere del Comitato di cui all' articolo 10 della legge regionale 13 novembre 1984 n. 65</h:span>
+						</corpo>
 					</comma>
 					<comma id="art4-com6">
 						<num>6.</num>
 						<corpo>Per l'esercizio delle funzioni di verifica e controllo relative alle indagini preliminare al progetto di bonifica e all'esecuzione del medesimo, la Giunta regionale si avvale del servizi 2, 4 e 9 della UUSSLL competenti per territorio.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art4bis" iniziovigore="t2">
+					<num>Articolo 4bis</num>
+					<rubrica>(Procedimento particolare nel caso di realizzazione per lotti del progetto di bonifica)</rubrica>
+					<comma id="art4bis-com1">
+						<num>1.</num>
+						<corpo>
+							Qualora sulla base del progetto di bonifica, sia possibile l'utilizzazione dell'area per lotti successivi e ricorrano particolari condizioni d'interesse pubblico con riguardo allo sviluppo economico e occupazionale della zona interessata, la Giunta regionale, previo parere positivo del Comitato di cui all'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1984-11-13;65#art10" xlink:type="simple">articolo 10 della legge regionale 13 novembre 1984, n. 65</rif>
+							, autorizza il Sindaco a rilasciare le concessioni edilizie e il certificato di agibilità relativo alle opere realizzate nei singoli lotti, fermo lo svincolo della fidejussione ad avvenuto completamento dell'intero progetto di bonifica.
+						</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art5">
