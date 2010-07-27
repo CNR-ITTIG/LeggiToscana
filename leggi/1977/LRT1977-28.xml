@@ -10,7 +10,8 @@
 					<urn finevigore="t4" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1977-05-06;28" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1977-05-06;28@1980-04-19" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1977-05-06;28@1983-06-06" />
-					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1977-05-06;28@1985-04-15" />
+					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1977-05-06;28@1985-04-15" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1977-05-06;28@1994-12-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Contabilità Contratti" />
@@ -24,6 +25,7 @@
 						<evento data="19800509" fonte="rp2" id="t4" tipo="modifica" />
 						<evento data="19830630" fonte="rp3" id="t5" tipo="modifica" />
 						<evento data="19850509" fonte="rp4" id="t6" tipo="modifica" />
+						<evento data="19941224" fonte="rp5" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1977-05-06;28" xlink:type="simple" />
@@ -32,6 +34,7 @@
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1980-04-19;31" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1983-06-06;38" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1985-04-15;37" xlink:type="simple" />
+						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1994-12-02;91" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -378,6 +381,48 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#h6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art91-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1994-12-02;91" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-12-02;91#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 2 dicembre 1994, n. 91" id="itt24" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art91-com4" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art125-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1994-12-02;91" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-12-02;91#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 2 dicembre 1994, n. 91" id="itt25" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art125-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art125-com1-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art125-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1994-12-02;91" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-12-02;91#art2-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 2 della legge Regione Toscana 2 dicembre 1994, n. 91" id="itt26" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art125-com4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art125-com3-t7" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -2728,6 +2773,10 @@
 									, curando la pubblicazione di esse nel Bollettino Ufficiale della Regione.
 								</corpo>
 							</comma>
+							<comma id="art91-com4" iniziovigore="t7">
+								<num />
+								<corpo>Le disposizioni di cui ai commi precedenti si applicano anche alle entrate derivanti dalle assegnazioni di soggetti diversi dallo Stato purché vincolate a scopi specifici e sempre che le relative spese siano tassativamente regolate dalle leggi statali o regionali.</corpo>
+							</comma>
 						</articolo>
 						<articolo id="art92">
 							<num>ARTICOLO 92</num>
@@ -3912,11 +3961,15 @@
 							<articolo id="art125">
 								<num>ARTICOLO 125</num>
 								<rubrica>(Garanzia dei creditori)</rubrica>
-								<comma id="art125-com1">
+								<comma finevigore="t7" id="art125-com1-t7" iniziovigore="t1" status="abrogato">
 									<num />
 									<corpo>Le somme, costituenti economie di spesa ai sensi dell'articolo precedente, sono riprodotte in capitoli speciali dei successivi bilanci, aventi ad oggetto la ricostituzione dei debiti regionali, allorquando siano reclamate dai creditori.</corpo>
 								</comma>
-								<comma id="art125-com2">
+								<comma id="art125-com2" iniziovigore="t7">
+									<num />
+									<corpo>Le somme, costituenti economie di spesa ai sensi dell'articolo precedente, sono riprodotte in capitoli speciali dei successivi bilanci, aventi ad oggetto la ricostituzione dei debiti regionali, allorquando siano reclamate dai creditori. A tal fine la legge di bilancio può istituire appositi capitoli e la Giunta, accertato che il debito non si è estinto per prescrizione od altra causa, ne dispone il pagamento.</corpo>
+								</comma>
+								<comma finevigore="t7" id="art125-com3-t7" iniziovigore="t1" status="abrogato">
 									<num />
 									<corpo>
 										La Giunta regionale, accertato che il debito non si è estinto per prescrizione od altra causa, preleva la somma dal fondo di riserva per spese obbligatorie e dispone il pagamento, secondo la disciplina della
@@ -3924,7 +3977,11 @@
 										del Capo seguente.
 									</corpo>
 								</comma>
-								<comma id="art125-com3">
+								<comma id="art125-com4" iniziovigore="t7">
+									<num />
+									<corpo>Qualora i capitoli speciali istituiti ai sensi del primo comma non presentino uno stanziamento o presentino uno stanziamento insufficiente, la Giunta regionale, accertato che il debito non si è estinto per prescrizione od altra causa, preleva la somma dal fondo di riserva per spese obbligatorie e dispone il pagamento, secondo la disciplina della Sezione I del Capo seguente.</corpo>
+								</comma>
+								<comma id="art125-com5">
 									<num />
 									<corpo>In sede di legge di rendiconto, si provvede alla cancellazione del debito dall'elenco di cui al III comma dell'articolo precedente.</corpo>
 								</comma>
