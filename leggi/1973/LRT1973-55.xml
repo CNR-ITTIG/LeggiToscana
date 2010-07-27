@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t9" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19730915" num="41" tipo="BURT" />
@@ -14,7 +14,8 @@
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1973-09-06;55@1982-09-08" />
 					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1973-09-06;55@1984-04-24" />
 					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1973-09-06;55@1987-08-26" />
-					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1973-09-06;55@1992-07-07" />
+					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1973-09-06;55@1992-07-07" />
+					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1973-09-06;55@1994-10-04" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -26,6 +27,7 @@
 						<evento data="19840517" fonte="rp5" id="t6" tipo="modifica" />
 						<evento data="19870918" fonte="rp6" id="t7" tipo="modifica" />
 						<evento data="19920730" fonte="rp7" id="t8" tipo="modifica" />
+						<evento data="19941122" fonte="rp8" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1973-09-06;55" xlink:type="simple" />
@@ -36,17 +38,18 @@
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1984-04-24;23" xlink:type="simple" />
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:1987-08-26;48" xlink:type="simple" />
 						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:1992-07-07;31" xlink:type="simple" />
+						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:1994-10-04;81" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Per la soppressione dei seguenti uffici, si veda la
 							<rif xlink:href="urn:nir:regione.toscana:legge:1978-12-15;79" xlink:type="simple">Legge Regionale 15 dicembre 1978, n. 79</rif>
 							.
 						</h:p>
 					</nota>
-					<nota id="n2">
+					<nota id="LeggeRegionale1-n2">
 						<h:p>
 							Per la soppressione dei seguenti uffici, si veda la
 							<rif xlink:href="urn:nir:regione.toscana:legge:1978-12-15;79" xlink:type="simple">Legge Regionale 15 dicembre 1978, n. 79</rif>
@@ -614,6 +617,18 @@
 								<dsp:pos xlink:href="#h1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1973-09-06;55" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1994-10-04;81" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-10-04;81#art36-com1-leta" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 36, comma 1, lettera a) della legge Regione Toscana 4 ottobre 1994, n. 81" id="itt44" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -631,10 +646,10 @@
 				<h:p>la seguente legge:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>ORDINAMENTO DEGLI UFFICI</rubrica>
-					<capo id="tit1-cap1">
+					<capo id="LeggeRegionale1-tit1-cap1">
 						<num>Capo I</num>
 						<rubrica>NORME GENERALI</rubrica>
 						<articolo id="art1">
@@ -662,13 +677,13 @@
 								<num />
 								<corpo>
 									Fanno altresì parte della struttura operativa della Regione gli uffici trasferiti dallo Stato, fino a quando il conferimento delle deleghe delle funzioni amministrative agli Enti locali renderà necessaria una nuova articolazione delle attività loro attribuite secondo la disciplina del
-									<rif xlink:href="#tit2" xlink:type="simple">titolo II</rif>
+									<rif xlink:href="#LeggeRegionale1-tit2" xlink:type="simple">titolo II</rif>
 									della presente legge.
 								</corpo>
 							</comma>
 						</articolo>
 					</capo>
-					<capo id="tit1-cap2">
+					<capo id="LeggeRegionale1-tit1-cap2">
 						<num>Capo II</num>
 						<rubrica>DISCIPLINA DEGLI UFFICI E DEI DIPARTIMENTI DEL CONSIGLIO</rubrica>
 						<articolo id="art3">
@@ -686,13 +701,13 @@
 									, nel rispetto del principio del ruolo unico posto nell'
 									<rif xlink:href="urn:nir:regione.toscana:statuto:#art62" xlink:type="simple">art. 62 dello Statuto</rif>
 									medesimo e della disciplina contenuta nella legge sullo stato giuridico ed economico del personale, ferme restando le norme di cui al
-									<rif xlink:href="#tit1-cap6" xlink:type="simple">Capo VI</rif>
+									<rif xlink:href="#LeggeRegionale1-tit1-cap6" xlink:type="simple">Capo VI</rif>
 									del presente titolo.
 								</corpo>
 							</comma>
 						</articolo>
 					</capo>
-					<capo id="tit1-cap3">
+					<capo id="LeggeRegionale1-tit1-cap3">
 						<num>Capo III</num>
 						<rubrica>DISCIPLINA DEGLI UFFICI E DIPARTIMENTI DEL CENTRO DIREZIONALE</rubrica>
 						<articolo finevigore="t7" id="art4-t7" iniziovigore="t1" status="abrogato">
@@ -1082,7 +1097,7 @@
 							</comma>
 						</articolo>
 					</capo>
-					<capo id="tit1-cap4">
+					<capo id="LeggeRegionale1-tit1-cap4">
 						<num>Capo IV</num>
 						<rubrica>DISCIPLINA DEGLI UFFICI DEL CONTROLLO</rubrica>
 						<articolo finevigore="t8" id="art11-t8" iniziovigore="t1" status="abrogato">
@@ -1110,7 +1125,7 @@
 							</comma>
 						</articolo>
 					</capo>
-					<capo id="tit1-cap5">
+					<capo id="LeggeRegionale1-tit1-cap5">
 						<num>Capo V</num>
 						<rubrica>DISCIPLINA DELLE SEGRETERIE</rubrica>
 						<articolo finevigore="t6" id="art12-t6" iniziovigore="t1" status="abrogato">
@@ -1144,7 +1159,7 @@
 							</comma>
 						</articolo>
 					</capo>
-					<capo id="tit1-cap6">
+					<capo id="LeggeRegionale1-tit1-cap6">
 						<num>Capo VI</num>
 						<rubrica>DISCIPLINA COMUNE DEGLI UFFICI E DEI DIPARTIMENTI DELLA STRUTTURA OPERATIVA</rubrica>
 						<articolo finevigore="t4" id="art13-t4" iniziovigore="t1" status="abrogato">
@@ -1969,7 +1984,7 @@
 						</articolo>
 					</capo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>DISPOSIZIONI TRANSITORIE E FINALI</rubrica>
 					<articolo id="art18">
@@ -1999,7 +2014,7 @@
 					<articolo id="art19">
 						<num>
 							ARTICOLO 19
-							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 						</num>
 						<rubrica>(Attribuzioni degli uffici trasferiti)</rubrica>
 						<comma id="art19-com1">
@@ -2081,7 +2096,7 @@
 					<articolo id="art20">
 						<num>
 							ARTICOLO 20
-							<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+							<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(b)</ndr>
 						</num>
 						<rubrica>(Ufficio regionale dei servizi urbanistici e lavori pubblici)</rubrica>
 						<comma id="art20-com1">

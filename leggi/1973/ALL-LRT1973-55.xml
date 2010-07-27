@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="iso-8859-15"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<DocumentoNIR nome="xxxxx">
+		<DocumentoNIR finevigore="t3" id="DocumentoNIR1" iniziovigore="t1" nome="xxxxx" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19730915" num="41" tipo="BURT" />
 					<entratainvigore norm="19730930" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1973-09-06;55:allegato" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1973-09-06;55:allegato@1973-09-06" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1973-09-06;55:allegato@1973-09-06" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1973-09-06;55:allegato@1994-10-04" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19730930" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19790824" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19941122" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1973-09-06;55:allegato" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1973-09-06;54" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1994-10-04;81" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -37,6 +40,18 @@
 								<dsp:pos xlink:href="#con3-t2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#??" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1994-10-04;81" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-10-04;81#art36-com1-leta" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo36, comma1, letteraa, legge Regione Toscana 4 ottobre 1994, n. 81" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#DocumentoNIR1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>

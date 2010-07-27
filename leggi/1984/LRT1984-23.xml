@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t21" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19840502" num="23" tipo="BURT" />
 					<entratainvigore norm="19840517" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t20" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1984-04-24;23" />
-					<urn iniziovigore="t20" valore="urn:nir:regione.toscana:legge:1984-04-24;23@1987-08-26" />
+					<urn finevigore="t21" iniziovigore="t20" valore="urn:nir:regione.toscana:legge:1984-04-24;23@1987-08-26" />
+					<urn iniziovigore="t21" valore="urn:nir:regione.toscana:legge:1984-04-24;23@1994-10-04" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ordinamento" />
 						<materia valore="Ente Regione" />
@@ -36,6 +37,7 @@
 						<evento data="19840517" fonte="ra17" id="t18" tipo="modifica" />
 						<evento data="19840517" fonte="ra18" id="t19" tipo="modifica" />
 						<evento data="19870918" fonte="rp1" id="t20" tipo="modifica" />
+						<evento data="19941122" fonte="rp2" id="t21" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1984-04-24;23" xlink:type="simple" />
@@ -58,6 +60,7 @@
 						<attiva id="ra17" xlink:href="urn:nir:regione.toscana:legge:1973-09-06;55" xlink:type="simple" />
 						<attiva id="ra18" xlink:href="urn:nir:regione.toscana:legge:1973-09-06;55" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1987-08-26;48" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1994-10-04;81" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -337,6 +340,18 @@
 								<dsp:testo valore="" />
 							</dsp:dominio>
 						</dsp:variazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1984-04-24;23" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1994-10-04;81" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-10-04;81#art36-com1-letb" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 36, comma 1, lettera b) della legge Regione Toscana 4 ottobre 1994, n. 81" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
