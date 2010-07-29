@@ -8,7 +8,8 @@
 					<entratainvigore norm="19930930" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1993-09-06;67" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1993-09-06;67@1994-02-08" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1993-09-06;67@1994-02-08" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1993-09-06;67@1994-12-15" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Trasporti" />
 					</materie>
@@ -17,10 +18,12 @@
 					<eventi>
 						<evento data="19930930" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19940304" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19950105" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1993-09-06;67" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1994-02-08;18" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1994-12-15;95" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -28,6 +31,13 @@
 						<h:p>
 							Si veda anchel'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1994-02-08;18#art5" xlink:type="simple">art. 5 della legge regionale 8 febbraio 1994, n. 18</rif>
+							.
+						</h:p>
+					</nota>
+					<nota id="n2">
+						<h:p>
+							Termine prorogato ai sensi della
+							<rif xlink:href="urn:nir:regione.toscana:legge:1994-12-15;95" xlink:type="simple">Legge regionale 15 dicembre 1994, n. 95</rif>
 							.
 						</h:p>
 					</nota>
@@ -136,6 +146,15 @@
 								<dsp:pos xlink:href="#art6-com12-t2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:modtermini completa="si" implicita="no">
+							<dsp:termine da="#t3" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1994-12-15;95" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-12-15;95#" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:modtermini>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -402,7 +421,11 @@
 					</comma>
 					<comma id="art4-com3">
 						<num>3.</num>
-						<corpo>Per l'iscrizione di diritto nel ruolo l'interessato deve presentare domanda scritta, entro 60 gg. dalla data di entrata in vigore della presente legge, alla Commissione regionale per la formazione e la conservazione dei ruoli specificando la provincia e la sezione del ruolo in cui chiede di essere iscritto.</corpo>
+						<corpo>
+							Per l'iscrizione di diritto nel ruolo l'interessato deve presentare domanda scritta, entro 60 gg. dalla data di entrata in vigore della presente legge
+							<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+							, alla Commissione regionale per la formazione e la conservazione dei ruoli specificando la provincia e la sezione del ruolo in cui chiede di essere iscritto.
+						</corpo>
 					</comma>
 					<comma id="art4-com4">
 						<num>4.</num>
