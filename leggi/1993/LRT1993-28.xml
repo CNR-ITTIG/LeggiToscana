@@ -8,7 +8,8 @@
 					<entratainvigore norm="19930520" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1993-04-26;28" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1993-04-26;28@1994-06-10" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1993-04-26;28@1994-06-10" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1993-04-26;28@1994-12-28" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Volontariato" />
 						<materia valore="Albi" />
@@ -21,6 +22,7 @@
 						<evento data="19930520" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="19930520" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="19940705" fonte="rp1" id="t5" tipo="modifica" />
+						<evento data="19941228" fonte="rp2" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1993-04-26;28" xlink:type="simple" />
@@ -28,6 +30,7 @@
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1992;33" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1990-04-09;36" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1994-06-10;44" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1994-12-28;111" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -130,6 +133,33 @@
 								<dsp:pos xlink:href="#art16-com4-t5" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1994-12-28;111" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-12-28;111#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 28 dicembre 1994, n. 111" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art9-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art9-com1-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art17" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1994-12-28;111" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-12-28;111#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 28 dicembre 1994, n. 111" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art17-com4" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -452,9 +482,13 @@
 				<articolo id="art9">
 					<num>ARTICOLO 9</num>
 					<rubrica>(Studi e ricerche sull'attività di volontariato)</rubrica>
-					<comma id="art9-com1">
+					<comma finevigore="t6" id="art9-com1-t6" iniziovigore="t1" status="abrogato">
 						<num>1.</num>
 						<corpo>Per sostenere il ruolo del volontariato organizzato e favorirne lo sviluppo, la Giunta regionale patrocina, promuove, esplica direttamente o partecipa alle iniziative di studio e di ricerca sul volontariato.</corpo>
+					</comma>
+					<comma id="art9-com1" iniziovigore="t6">
+						<num>1.</num>
+						<corpo>Per sostenere il ruolo del volontariato organizzato a favorirne lo sviluppo, la Giunta regionale patrocina, promuove, esplica direttamente e partecipa ad iniziative di studio, ricerca, informazione e sperimentazione sul volontariato.</corpo>
 					</comma>
 					<comma id="art9-com2">
 						<num>2.</num>
@@ -829,7 +863,14 @@
 					<comma id="art17-com1">
 						<num>1.</num>
 						<corpo>
-							Agli oneri di spesa derivanti nel corso del 1993 dall'attuazione degli articoli 8 e 9 e quantificati in L. 100.000.000 si fa fronte con lo stanziamento del cap. 17020 del bilancio 1993 la cui declaratoria è sostituita dalla seguente:
+							Agli oneri di spesa derivanti nel corso del 1993 dall'attuazione degli
+							<mrif>
+								articoli
+								<rif xlink:href="#art8" xlink:type="simple">8</rif>
+								e
+								<rif xlink:href="#art9" xlink:type="simple">9</rif>
+							</mrif>
+							e quantificati in L. 100.000.000 si fa fronte con lo stanziamento del cap. 17020 del bilancio 1993 la cui declaratoria è sostituita dalla seguente:
 							<h:br />
 							"Interventi e iniziative a sostegno associazioni volontariato (
 							<mrif>
@@ -853,6 +894,48 @@
 					<comma id="art17-com3">
 						<num>3.</num>
 						<corpo>Agli oneri di spesa per gli esercizi successivi si farà fronte con le relative leggi di bilancio.</corpo>
+					</comma>
+					<comma id="art17-com4" iniziovigore="t6">
+						<num>4.</num>
+						<alinea>
+							Agli oneri di spesa derivanti dall'
+							<rif xlink:href="#art9" xlink:type="simple">art. 9</rif>
+							si fa fronte per l'esercizio 1994 con la conseguente variazione per competenza e cassa:
+						</alinea>
+						<ep id="art17-com4-pun1">
+							<num />
+							<corpo>
+								In diminuzione
+								<h:table>
+									<h:tbody>
+										<h:tr>
+											<h:td>Cap. 50000</h:td>
+											<h:td>Fondo globale per il finanziamento di spesa per funzioni normali</h:td>
+											<h:td>L. 150.000.000</h:td>
+										</h:tr>
+									</h:tbody>
+								</h:table>
+							</corpo>
+						</ep>
+						<ep id="art17-com4-pun2">
+							<num />
+							<corpo>
+								In aumento
+								<h:table>
+									<h:tbody>
+										<h:tr>
+											<h:td>Cap. 18145</h:td>
+											<h:td>
+												Interventi e iniziative a sostegno e sviluppo del volontariato che opera nel campo della cultura (
+												<rif xlink:href="#art9" xlink:type="simple">art. 9</rif>
+												)
+											</h:td>
+											<h:td>L. 150.000.000</h:td>
+										</h:tr>
+									</h:tbody>
+								</h:table>
+							</corpo>
+						</ep>
 					</comma>
 				</articolo>
 				<articolo id="art18">
