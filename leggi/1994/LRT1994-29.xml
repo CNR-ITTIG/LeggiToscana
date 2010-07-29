@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19940421" num="29" tipo="BURT" />
 					<entratainvigore norm="19940421" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1994-04-12;29" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1994-04-12;29" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1994-04-12;29@1994-12-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Imprese" />
 						<materia valore="Credito" />
@@ -16,11 +17,71 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19940421" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19941223" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-04-12;29" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1994-12-21;105" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1994-12-21;105" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-12-21;105#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 21 dicembre 1994, n. 105" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art5-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-com1-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1994-12-21;105" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-12-21;105#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 21 dicembre 1994, n. 105" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art5-com2" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1994-12-21;105" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-12-21;105#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 21 dicembre 1994, n. 105" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art5-com3" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1994-12-21;105" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-12-21;105#art1-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo1, comma2, legge Regione Toscana 21 dicembre 1994, n. 105" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -150,12 +211,60 @@
 					</articolo>
 					<articolo id="art5">
 						<num>ARTICOLO 5</num>
-						<comma id="art5-com1">
+						<comma finevigore="t2" id="art5-com1-t2" iniziovigore="t1" status="abrogato">
 							<num>1.</num>
 							<corpo>Per l'attuazione di interventi in favore di imprese Cooperative individuati nel Piano di Indirizzo di settore da adottarsi dal Consiglio Regionale entro il 30-6-1994, è autorizzata la spesa di L. 4.000.000.000.</corpo>
 						</comma>
-						<comma id="art5-com2">
+						<comma id="art5-com1" iniziovigore="t2">
+							<num>1.</num>
+							<alinea>Per l'attuazione degli interventi in favore di imprese cooperative, le risorse finanziarie per l'anno 1994, ammontanti a L. 4.000.000.000, sono concesse in favore di Agri-Gest scrl e di Agrietrusca srl per un importo di L. 2.000.000.000 cadauno, per l'attivazione delle seguenti tipologie d'intervento:</alinea>
+							<el id="art5-com1-leta">
+								<num>a)</num>
+								<corpo>capitalizzazione</corpo>
+							</el>
+							<el id="art5-com1-letb">
+								<num>b)</num>
+								<corpo>
+									concessione di prestiti a medio termine della durata di 5 (cinque) anni con tasso a carico della cooperativa pari a quello previsto per i prestiti di pari durata ai sensi dell'
+									<rif xlink:href="urn:nir:regione.toscana:legge:1994;29#art3" xlink:type="simple">art. 3 della LR n. 29/94</rif>
+									;
+								</corpo>
+							</el>
+						</comma>
+						<comma id="art5-com2" iniziovigore="t2">
 							<num>2.</num>
+							<alinea>I soggetti di cui al comma precedente attiveranno gli interventi sulla base dei seguenti criteri:</alinea>
+							<el id="art5-com2-leta">
+								<num>a)</num>
+								<corpo>all'atto dell'istruttoria la cooperativa richiedente deve presentare un margine operativo lordo positivo;</corpo>
+							</el>
+							<el id="art5-com2-letb">
+								<num>b)</num>
+								<corpo>il rapporto fra capitale circolante e indebitamento a breve termine, a seguito dell'intervento, deve risultare pari a 1;</corpo>
+							</el>
+							<el id="art5-com2-letc">
+								<num>c)</num>
+								<corpo>l'ammontare dell'intervento sarà quindi determinato esclusivamente dall'importo necessario per raggiungere il parametro di cui sopra;</corpo>
+							</el>
+							<el id="art5-com2-letd">
+								<num>d)</num>
+								<corpo>
+									gli interventi dovranno essere prioritariamente volti a favore delle cooperative che non hanno usufruito dei benefici di cui alla
+									<rif xlink:href="urn:nir:regione.toscana:legge:1988;20" xlink:type="simple">LR 20/88</rif>
+									.
+								</corpo>
+							</el>
+						</comma>
+						<comma id="art5-com3" iniziovigore="t2">
+							<num>3.</num>
+							<corpo>La liquidazione delle risorse finanziarie di cui al comma 1 a favore delle società beneficiarie della presente legge regionale è subordinata alla presentazione alla Giunta regionale della documentazione attestante l'avvenuto finanziamento di operazioni a favore di cooperative agricole che presentino i requisiti di cui al comma 2.</corpo>
+						</comma>
+						<comma id="art5-com4">
+							<num>
+								<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">2</h:span>
+								<h:span id="h2" iniziovigore="t2">4</h:span>
+								.
+							</num>
 							<corpo>
 								Le iniziative previste dalla
 								<rif xlink:href="urn:nir:regione.toscana:legge:1988-03-21;20" xlink:type="simple">LR 21-3-1988, n. 20</rif>
