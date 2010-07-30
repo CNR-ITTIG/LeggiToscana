@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1988-04-23;29" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1988-04-23;29@1988-08-01" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1988-04-23;29@1993-07-19" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1988-04-23;29@1993-07-19" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1988-04-23;29@1994-12-28" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organi" />
 						<materia valore="Artigianato" />
@@ -21,13 +22,24 @@
 						<evento data="19880518" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19880825" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19930812" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="19950112" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1988-04-23;29" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1988-08-01;54" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1993-07-19;43" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1994-12-28;113" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Termini prorogati ai sensi della
+							<rif xlink:href="urn:nir:regione.toscana:legge:1994-12-28;113" xlink:type="simple">Legge regionale 28 dicembre 1994, n. 113</rif>
+							.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -69,6 +81,15 @@
 								<dsp:pos xlink:href="#art7-com2-t3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:modtermini completa="si" implicita="no">
+							<dsp:termine da="#t4" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1994-12-28;113" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-12-28;113#mod1" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:modtermini>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -1557,6 +1578,7 @@
 								Il decreto di cui al comma precedente è adottato almeno centoventi giorni prima della scadenza del quinquennio di durata in carica delle Commissioni provinciali ai sensi dell'
 								<rif xlink:href="#art6" xlink:type="simple">art. 6</rif>
 								, 1o e 2o comma .
+								<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
 							</corpo>
 						</comma>
 					</articolo>
