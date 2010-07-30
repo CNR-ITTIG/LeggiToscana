@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19930828" num="52" tipo="BURT" />
 					<entratainvigore norm="19930912" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1993-08-11;53" />
+					<urn finevigore="t11" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1993-08-11;53" />
+					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1993-08-11;53@1994-12-28" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Trasporti" />
 						<materia valore="Finanziamenti" />
@@ -25,6 +26,7 @@
 						<evento data="19930912" fonte="ra7" id="t8" tipo="modifica" />
 						<evento data="19930912" fonte="ra8" id="t9" tipo="modifica" />
 						<evento data="19930912" fonte="ra9" id="t10" tipo="modifica" />
+						<evento data="19950112" fonte="rp1" id="t11" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1993-08-11;53" xlink:type="simple" />
@@ -37,6 +39,7 @@
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:1984-02-28;14" xlink:type="simple" />
 						<attiva id="ra8" xlink:href="urn:nir:regione.toscana:legge:1993-03-31;18" xlink:type="simple" />
 						<attiva id="ra9" xlink:href="urn:nir:regione.toscana:legge:1993-03-31;18" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1994-12-28;112" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -245,6 +248,23 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1994-12-28;112" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-12-28;112#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 28 dicembre 1994, n. 112" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -270,10 +290,10 @@
 						<corpo>Al fine di incrementare i livelli di efficienza del trasporto pubblico locale e contribuire al suo risanamento finanziario, la Regione Toscana interviene con i provvedimenti previsti dalla presente legge.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art2">
+				<articolo finevigore="t11" id="art2-t11" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 2</num>
 					<rubrica>(Concorso della Regione per il ripiano dei disavanzi delle aziende di trasporto pubbliche e private)</rubrica>
-					<comma id="art2-com1">
+					<comma id="art2-t11-com1">
 						<num>1.</num>
 						<corpo>
 							La Regione concorre al parziale ripiano dei disavanzi, relativi agli anni 1987-88-89-90-91, delle aziende di trasporto con i contributi assegnati alla Regione Toscana in attuazione del
@@ -283,7 +303,7 @@
 							.
 						</corpo>
 					</comma>
-					<comma id="art2-com2">
+					<comma id="art2-t11-com2">
 						<num>2.</num>
 						<corpo>
 							La Regione, ai sensi dell'
@@ -293,37 +313,37 @@
 							, concorre inoltre al parziale ripiano dei disavanzi delle aziende di trasporto relativi agli anni 1987-88- 89-90, con un ulteriore contributo di L. 60 miliardi.
 						</corpo>
 					</comma>
-					<comma id="art2-com3">
+					<comma id="art2-t11-com3">
 						<num>3.</num>
 						<corpo>
 							Lo stanziamento di cui al
-							<rif xlink:href="#art2-com1" xlink:type="simple">comma 1</rif>
+							<rif xlink:href="#art2-t11-com1" xlink:type="simple">comma 1</rif>
 							, e quello di cui al
-							<rif xlink:href="#art2-com2" xlink:type="simple">comma 2</rif>
+							<rif xlink:href="#art2-t11-com2" xlink:type="simple">comma 2</rif>
 							limitatamente alla somma di ire 50 miliardi, sono complessivamente ripartiti fra le aziende pubbliche - ivi comprese quelle sostituite in forma di spa a partecipazione di enti locali - e aziende di proprietà privata in proporzione all'entità dei passeggeri chilometro complessivamente trasportati negli anni indicati nei rispettivi commi dalle due categorie di aziende. Per la determinazione di tali valori si assumono le metodologie previste nella deliberazione del Consiglio Regionale n. 111 del 19 febbraio 1992.
 						</corpo>
 					</comma>
-					<comma id="art2-com4">
+					<comma id="art2-t11-com4">
 						<num>4.</num>
 						<corpo>
 							Gli stanziamenti suddivisi ai sensi del comma precedente sono distintamente ripartiti, nell'ambito di ciascuna categoria, fra le aziende interessate in proporzione all'entità dei disavanzi dei servizi di trasporto pubblico locale degli anni indicati, determinati secondo i criteri indicati al
-							<rif xlink:href="#art2-com6" xlink:type="simple">successivo sesto comma</rif>
+							<rif xlink:href="#art2-t11-com6" xlink:type="simple">successivo sesto comma</rif>
 							.
 						</corpo>
 					</comma>
-					<comma id="art2-com5">
+					<comma id="art2-t11-com5">
 						<num>5.</num>
 						<corpo>
 							Il residuo stanziamento di cui al
-							<rif xlink:href="#art2-com2" xlink:type="simple">precedente comma 2</rif>
+							<rif xlink:href="#art2-t11-com2" xlink:type="simple">precedente comma 2</rif>
 							, pari a 10 miliardi, è ripartito fra le aziende di trasporto di proprietà privata in proporzione all'entità dei disavanzi dei servizi di trasporto pubblico locali degli anni indicati nello stesso
-							<rif xlink:href="#art2-com2" xlink:type="simple">comma 2</rif>
+							<rif xlink:href="#art2-t11-com2" xlink:type="simple">comma 2</rif>
 							, determinati secondo i criteri indicati al
-							<rif xlink:href="#art2-com6" xlink:type="simple">successivo sesto comma</rif>
+							<rif xlink:href="#art2-t11-com6" xlink:type="simple">successivo sesto comma</rif>
 							.
 						</corpo>
 					</comma>
-					<comma id="art2-com6">
+					<comma id="art2-t11-com6">
 						<num>6.</num>
 						<corpo>
 							L'ammontare complessivo degli interventi finanziari previsti ai commi precedenti, assegnato a ciascuna azienda di trasporto, non può essere superiore all'entità dei disavanzi dei servizi di trasporto pubblico locale degli anni indicati - determinati secondi i criteri che saranno definiti dalla Giunta Regionale con proprio provvedimento pubblicato sul Bollettino Ufficiale della Regione Toscana in analogia anche con quanto stabilito dagli
@@ -357,19 +377,19 @@
 							.
 						</corpo>
 					</comma>
-					<comma id="art2-com7">
+					<comma id="art2-t11-com7">
 						<num>7.</num>
 						<corpo>Per beneficiare degli interventi finanziari di cui al presente articolo le aziende di trasporto interessate devono presentare domanda, dentro e non oltre 30 giorni dalla data di entrata in vigore della presente legge.</corpo>
 					</comma>
-					<comma id="art2-com8">
+					<comma id="art2-t11-com8">
 						<num>8.</num>
 						<corpo>
 							Per le aziende di proprietà privata l'ammissione ai contributi previsti dai commi precedenti è subordinata all'impegno da parte delle aziende stesse ad assumere a proprio carico la relativa quota parte delle rate di preammortamento e ammortamento del mutuo regionale, limitatamente alla quota prevista al
-							<rif xlink:href="#art2-com5" xlink:type="simple">comma 5</rif>
+							<rif xlink:href="#art2-t11-com5" xlink:type="simple">comma 5</rif>
 							, determinata in relazione ai contributi concessi in base al comma stesso.
 						</corpo>
 					</comma>
-					<comma id="art2-com9">
+					<comma id="art2-t11-com9">
 						<num>9.</num>
 						<corpo>
 							La aziende interessate provvedono al rimborso della quota di preammortamento, nonché della quota di ammortamento dei mutui a proprio carico, tramite ritenute operate annualmente dalla Giunta Regionale a valere sui contributi di esercizio di cui alla
@@ -377,31 +397,179 @@
 							relativi alle annualità corrispondenti a quelle di preammortamento e ammortamento dei mutui stessi. A tal fine le aziende sono tenute a prestare, a favore della Regione, idonea fideiussione.
 						</corpo>
 					</comma>
-					<comma id="art2-com10">
+					<comma id="art2-t11-com10">
 						<num>10.</num>
 						<alinea>La Giunta regionale approva il programma di assegnazione dei finanziamenti alle aziende di trasporto interessate a procedere alla erogazione degli stessi nel modo seguente:</alinea>
-						<el id="art2-com10-leta">
+						<el id="art2-t11-com10-leta">
 							<num>a)</num>
 							<corpo>
 								per le quote relative al
-								<rif xlink:href="#art2-com1" xlink:type="simple">comma 1</rif>
+								<rif xlink:href="#art2-t11-com1" xlink:type="simple">comma 1</rif>
 								del presente articolo successivamente alla assegnazione alla Regione dei contributi statali;
 							</corpo>
 						</el>
-						<el id="art2-com10-letb">
+						<el id="art2-t11-com10-letb">
 							<num>b)</num>
 							<corpo>
 								per le quote di cui al
-								<rif xlink:href="#art2-com2" xlink:type="simple">comma 2</rif>
+								<rif xlink:href="#art2-t11-com2" xlink:type="simple">comma 2</rif>
 								del presente articolo dopo la realizzazione del mutuo che la Regione assumerà per consentire il finanziamento della spesa prevista dal
-								<rif xlink:href="#art2-com2" xlink:type="simple">secondo comma</rif>
+								<rif xlink:href="#art2-t11-com2" xlink:type="simple">secondo comma</rif>
 								del presente articolo.
 							</corpo>
 						</el>
 					</comma>
-					<comma id="art2-com11">
+					<comma id="art2-t11-com11">
 						<num>11.</num>
 						<corpo>Dalle assegnazioni effettuate a favore delle aziende pubbliche ai sensi del presente articolo la Regione dà comunicazione agli Enti locali interessati ai fini di consentire loro le necessarie registrazioni contabili.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art2" iniziovigore="t11">
+					<num>ARTICOLO 2</num>
+					<rubrica>(Concorso della Regione per il ripiano dei disavanzi delle aziende di trasporto pubbliche e private)</rubrica>
+					<comma id="art2-com1">
+						<num>1.</num>
+						<corpo>
+							La Regione concorre al parziale ripiano dei disavanzi, relativi agli anni 1987-88-89-90-91, delle aziende di trasporto con i contributi assegnati alla Regione Toscana in attuazione del
+							<rif xlink:href="urn:nir:stato:decreto.legge:1992-12-19;485" xlink:type="simple">Decreto Legge 19-12-1992, n. 485</rif>
+							, convertito con modificazioni, dalla
+							<rif xlink:href="urn:nir:stato:legge:1993-01-17;32" xlink:type="simple">Legge 17-1-1993, n. 32</rif>
+							.
+						</corpo>
+					</comma>
+					<comma id="art2-com2">
+						<num>2.</num>
+						<corpo>
+							La Regione, ai sensi dell'
+							<rif xlink:href="urn:nir:stato:decreto.legge:1990-10-31;310#art2bis" xlink:type="simple">art. 2 bis del Decreto Legge 31-10-1990, n. 310</rif>
+							, convertito con modificazioni, dalla
+							<rif xlink:href="urn:nir:stato:legge:1990-12-22;403" xlink:type="simple">Legge 22-12-1990, n 403</rif>
+							, nonché ai sensi dell'
+							<rif xlink:href="urn:nir:stato:decreto.legge:1994-09-30;563#art1" xlink:type="simple">art. 1 del Decreto Legge 30-9-1994, n. 563</rif>
+							, concorre inoltre al parziale ripiano dei disavanzi delle aziende di trasporto relativi agli anni 1987-88-89-90-91-92-93, con un ulteriore contributo di L. 60 miliardi.
+						</corpo>
+					</comma>
+					<comma id="art2-com3">
+						<num>3.</num>
+						<corpo>
+							Lo stanziamento di cui al
+							<rif xlink:href="#art2-com1" xlink:type="simple">comma 1</rif>
+							è ripartito tra le aziende in proporzione ai contributi erogati, in ciascuno degli anni indicati al medesimo comma, ai sensi della
+							<rif xlink:href="urn:nir:regione.toscana:legge:1984-01-03;1" xlink:type="simple">Legge Regionale 3-1-1984, n. 1</rif>
+							.
+						</corpo>
+					</comma>
+					<comma id="art2-com4">
+						<num>4.</num>
+						<alinea>
+							Lo stanziamento di cui al
+							<rif xlink:href="#art2-com2" xlink:type="simple">comma 2</rif>
+							, è ripartito come segue:
+						</alinea>
+						<el id="art2-com4-leta">
+							<num>a)</num>
+							<corpo>
+								L. 44.650.000.000, corrispondenti, per gli anni che vanno dal 1987 al 1993, alla minore entrata globalmente derivante alle aziende di trasporto dal rilascio delle tessere di libera circolazione di cui all'
+								<rif xlink:href="urn:nir:regione.toscana:legge:1983-05-18;33#art16" xlink:type="simple">art. 16 della Legge Regionale 18-5-1983 n. 33</rif>
+								, sono suddivisi tra le aziende medesime secondo quanto stabilito al successivo
+								<rif xlink:href="#art2-com5" xlink:type="simple">comma 5</rif>
+								, a ripiano delle relative quote dei disavanzi aziendali derivanti dal rilascio delle tessere medesime;
+							</corpo>
+						</el>
+						<el id="art2-com4-letb">
+							<num>b)</num>
+							<corpo>
+								L. 10.000.000.000 sono suddivisi tra le aziende di trasporto di proprietà privata in proporzione all'entità dei disavanzi dei servizi di trasporto pubblico locale relativi agli anni indicati al
+								<rif xlink:href="#art2-com2" xlink:type="simple">comma 2</rif>
+								, determinati secondo i criteri indicati al successivo
+								<rif xlink:href="#art2-com6" xlink:type="simple">comma 6</rif>
+								;
+							</corpo>
+						</el>
+						<el id="art2-com4-letc">
+							<num>c)</num>
+							<corpo>
+								L. 5.350.000.000 sono suddivisi tra le aziende di trasporto in proporzione ai contributi erogati in ciascuno degli anni indicati al precedente
+								<rif xlink:href="#art2-com2" xlink:type="simple">comma 2</rif>
+								.
+							</corpo>
+						</el>
+					</comma>
+					<comma id="art2-com5">
+						<num>5.</num>
+						<corpo>
+							La quota del disavanzo propria di ciascuna azienda relativa agli anni che vanno dal 1987 al 1993, imputabile ai mancati ricavi derivanti dal rilascio delle tessere di libera circolazione è determinata suddividendo tra le aziende l'importo totale indicato alla
+							<rif xlink:href="#art2-com4-leta" xlink:type="simple">lettera a) del comma 4</rif>
+							, proporzionalmente al numero degli autobus chilometro dei servizi oggetto di contributo effettuati globalmente da ciascuna azienda negli anni di riferimento e applicando alle percorrenze dei servizi urbani un fattore moltiplicativo pari a 1,75.
+						</corpo>
+					</comma>
+					<comma id="art2-com6">
+						<num>6.</num>
+						<corpo>
+							L'ammontare complessivo dell'intervento finanziario previsto al precedente
+							<rif xlink:href="#art2-com1" xlink:type="simple">comma 1</rif>
+							assegnato a ciascuna azienda di trasporto, non può superare l'entità dei disavanzi dei servizi di trasporto pubblico locale relativi agli anni indicati nel comma medesimo. L'ammontare complessivo dell'intervento finanziario previsto dal precedente
+							<rif xlink:href="#art2-com2" xlink:type="simple">comma 2</rif>
+							assegnato a ciascuna azienda di trasporto, non può superare l'entità dei disavanzi dei servizi di trasporto pubblico locale relativi agli anni indicati nel comma medesimo al netto dell'ammontare del contributo assegnato ai sensi del precedente
+							<rif xlink:href="#art2-com1" xlink:type="simple">comma 1</rif>
+							.
+							<h:br />
+							<h:br />
+							L'entità dei disavanzi aziendali dei servizi di trasporto pubblico locale è determinata sulla base delle risultanze dei conti consuntivi aziendali trasmessi ai sensi dell'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1984;1#art6" xlink:type="simple">art. 6 della LR 1/1984</rif>
+							non coperti dai contributi di cui all'
+							<rif xlink:href="urn:nir:stato:legge:1981;151#art6" xlink:type="simple">art. 6 della L. 151/1981</rif>
+							, dagli interventi finanziari previsti dai Decreti Legge
+							<rif xlink:href="urn:nir:stato:decreto.legge:1990-06-15;151" xlink:type="simple">15-6-1990, n. 151</rif>
+							, convertito dalla
+							<rif xlink:href="urn:nir:stato:legge:1990-08-04;223" xlink:type="simple">Legge 4-8-1990, n. 223</rif>
+							, e
+							<rif xlink:href="urn:nir:stato:decreto.legge:1991-01-23;24" xlink:type="simple">23-1-1991, n. 24</rif>
+							, convertito dalla
+							<rif xlink:href="urn:nir:stato:legge:1991-03-21;97" xlink:type="simple">legge 21-3-1991, n. 97</rif>
+							, nonché limitatamente agli importi residuati dopo l'applicazione dei
+							<mrif>
+								commi
+								<rif xlink:href="urn:nir:stato:decreto.legge:1990-10-10;310#art2-com1" xlink:type="simple">1</rif>
+								,
+								<rif xlink:href="urn:nir:stato:decreto.legge:1990-10-10;310#art2-com2" xlink:type="simple">2</rif>
+								,
+								<rif xlink:href="urn:nir:stato:decreto.legge:1990-10-10;310#art2-com3" xlink:type="simple">3</rif>
+								e
+								<rif xlink:href="urn:nir:stato:decreto.legge:1990-10-10;310#art2-com4" xlink:type="simple">4</rif>
+								dell'art. 2 del DL 10-10-1990, n. 310
+							</mrif>
+							, convertito con modificazioni dalla
+							<rif xlink:href="urn:nir:stato:legge:1990-12-22;403" xlink:type="simple">L. 22-12-1990, n. 403</rif>
+							. Il contributo assegnato a ciascuna azienda non può comunque essere superiore al valore di L/Km. 700 calcolato come media dei disavanzi degli anni di applicazione della presente legge e riferito alle percorrenze dei servizi ammessi ai contributi della
+							<rif xlink:href="urn:nir:regione.toscana:legge:1984;1" xlink:type="simple">LR n. 1/84</rif>
+							.
+							<h:br />
+							<h:br />
+							Ai fini della determinazione del complessivo disavanzo per il periodo 1987-1993 si procede alla somma algebrica dei risultati d'esercizio di ciascuno degli anni considerati.
+						</corpo>
+					</comma>
+					<comma id="art2-com7">
+						<num>7.</num>
+						<corpo>Nei limiti e con i criteri stabiliti dal presente articolo, il contributo della Regione viene erogato a favore delle aziende a prescindere dagli interventi effettuati dagli enti locali a copertura dei disavanzi aziendali.</corpo>
+					</comma>
+					<comma id="art2-com8">
+						<num>8.</num>
+						<corpo>La Giunta regionale delibera ed eroga l'assegnazione dei contributi alle aziende di trasporto interessate.</corpo>
+					</comma>
+					<comma id="art2-com9">
+						<num>9.</num>
+						<corpo>
+							L'assegnazione dei contributi previsti alla
+							<rif xlink:href="#art2-com4-letb" xlink:type="simple">lettera b) del precedente comma 4</rif>
+							, è subordinata all'impegno da parte delle aziende destinatarie ad assumere a proprio carico la relativa quota parte delle rate di preammortamento e ammortamento del mutuo regionale, determinata in relazione ai contributi assegnati. Le aziende provvedono al rimborso delle quote di preammortamento e ammortamento dei mutui a proprio carico, tramite ritenute operate annualmente dalla Giunta regionale a valere sui contributi di esercizio di cui alla
+							<rif xlink:href="urn:nir:regione.toscana:legge:1984;1" xlink:type="simple">LR 1/84</rif>
+							, relativi alle annualità corrispondenti a quelle di preammortamento e ammortamento dei mutui stessi. A tal fine le aziende sono tenute a prestare, a favore della Regione, idonea fideiussione.
+						</corpo>
+					</comma>
+					<comma id="art2-com10">
+						<num>10.</num>
+						<corpo>La Regione dà comunicazione agli Enti locali interessati delle assegnazioni effettuate a favore delle aziende pubbliche ai sensi del presente articolo, ai fini di consentire loro le necessarie registrazioni contabili.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art3">
@@ -837,15 +1005,15 @@
 						<num>3.</num>
 						<corpo>
 							Le aziende private che hanno cessato l'attività alla data di entrata in vigore della presente legge possono accedere solo ai benefici previsti dal
-							<rif xlink:href="#art2-com3" xlink:type="simple">comma 3 dell'articolo 2</rif>
+							<rif xlink:href="#art2-t11-com3" xlink:type="simple">comma 3 dell'articolo 2</rif>
 							della presente legge e l'ammontare del contributo ad esse assegnato non può essere comunque superiore al valore di L/km 490 calcolato secondo le indicazioni contenute nel
-							<rif xlink:href="#art2-com6" xlink:type="simple">comma 6 dello stesso articolo</rif>
+							<rif xlink:href="#art2-t11-com6" xlink:type="simple">comma 6 dello stesso articolo</rif>
 							. A tali aziende non si applicano le norme contenute nei
 							<mrif>
 								commi
-								<rif xlink:href="#art2-com8" xlink:type="simple">8</rif>
+								<rif xlink:href="#art2-t11-com8" xlink:type="simple">8</rif>
 								e
-								<rif xlink:href="#art2-com9" xlink:type="simple">9</rif>
+								<rif xlink:href="#art2-t11-com9" xlink:type="simple">9</rif>
 								dell'articolo 2
 							</mrif>
 							e l'obbligo di presentare il piano di risanamento aziendale previsto all'
@@ -934,7 +1102,7 @@
 							<num>B)</num>
 							<alinea>
 								per quanto attiene le previsioni di spesa di 60 miliardi di cui al
-								<rif xlink:href="#art2-com2" xlink:type="simple">comma 2 dell'articolo 2</rif>
+								<rif xlink:href="#art2-t11-com2" xlink:type="simple">comma 2 dell'articolo 2</rif>
 								, si provvede mediante lo stanziamento del cap. 25570 del bilancio di previsione 1993 al quale vengono apportate le seguenti variazioni di analogo importo agli stati di previsione della competenza e della cassa:
 							</alinea>
 							<ep id="art8-com1-letb-pun1">
@@ -972,7 +1140,7 @@
 							<num>C)</num>
 							<alinea>
 								per quanto attiene le previsioni di spesa di cui al
-								<rif xlink:href="#art2-com1" xlink:type="simple">comma 1 dell'art. 2</rif>
+								<rif xlink:href="#art2-t11-com1" xlink:type="simple">comma 1 dell'art. 2</rif>
 								, si provvede mediante l'iscrizione dei seguenti stanziamenti nel bilancio di previsione 1993 al quale vengono apportate le variazioni di analogo importo agli stati di previsione della competenza e della cassa:
 							</alinea>
 							<ep id="art8-com1-letc-pun1">
@@ -1018,7 +1186,7 @@
 							<num>D)</num>
 							<alinea>
 								Alle spese derivanti dall'ammortamento del mutuo di cui all'
-								<rif xlink:href="#art2" xlink:type="simple">articolo 2</rif>
+								<rif xlink:href="#art2-t11" xlink:type="simple">articolo 2</rif>
 								si provvede con gli stanziamenti iscritti ai cap. 50203 e 50223 del bilancio di previsione 1993 ai quali vengono apportate le seguenti variazioni di analogo importo agli stati di previsione della competenza e della cassa:
 							</alinea>
 							<ep id="art8-com1-letd-pun1">
