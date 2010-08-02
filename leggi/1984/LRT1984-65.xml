@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t3" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19841121" num="57" tipo="BURT" />
 					<entratainvigore norm="19841206" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1984-11-13;65" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1984-11-13;65@1987-05-21" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1984-11-13;65@1987-05-21" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1984-11-13;65@1995-01-12" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tutela Ambientale" />
 						<materia valore="Attribuzioni Deleghe" />
@@ -18,17 +19,28 @@
 					<eventi>
 						<evento data="19841206" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19870527" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19950204" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1984-11-13;65" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1987-05-21;31" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1995-01-12;4" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Ad integrazione della presentesi veda la
 							<rif xlink:href="urn:nir:regione.toscana:legge:1993-05-14;31" xlink:type="simple">legge regionale 14 maggio 1993, n. 31</rif>
+							.
+						</h:p>
+					</nota>
+					<nota id="LeggeRegionale1-n2">
+						<h:p>
+							L'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1995-01-12;4#art15" xlink:type="simple">art. 15 della L.R. 12 gennaio 1995, n. 4</rif>
+							abroga la presente legge salvo quanto previsto dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1995-01-12;4#art13-com2" xlink:type="simple">art. 13, secondo comma della stessa legge</rif>
 							.
 						</h:p>
 					</nota>
@@ -50,6 +62,18 @@
 								<dsp:pos xlink:href="#art11-com1-t2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1984-11-13;65" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-01-12;4" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-01-12;4#art15-com1-pun1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 15, comma 1, 1 della legge Regione Toscana 12 gennaio 1995, n. 4" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -61,7 +85,8 @@
 				<numDoc>65</numDoc>
 				<titoloDoc>
 					Norme per lo smaltimento dei rifiuti solidi e dei fanghi
-					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
+					<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(b)</ndr>
 					.
 				</titoloDoc>
 			</intestazione>
