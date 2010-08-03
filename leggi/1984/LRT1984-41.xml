@@ -11,7 +11,8 @@
 					<urn finevigore="t8" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1984-06-30;41@1985-04-09" />
 					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1984-06-30;41@1988-07-11" />
 					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1984-06-30;41@1988-12-17" />
-					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1984-06-30;41@1993-12-16" />
+					<urn finevigore="t11" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1984-06-30;41@1993-12-16" />
+					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1984-06-30;41@1995-01-16" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Urbanistica" />
 						<materia valore="Enti Territoriali" />
@@ -29,6 +30,7 @@
 						<evento data="19880804" fonte="rp2" id="t8" tipo="modifica" />
 						<evento data="19890106" fonte="rp3" id="t9" tipo="modifica" />
 						<evento data="19940107" fonte="rp4" id="t10" tipo="modifica" />
+						<evento data="19950204" fonte="rp5" id="t11" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1984-06-30;41" xlink:type="simple" />
@@ -39,6 +41,7 @@
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1988-07-11;48" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1988-12-17;88" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1993-12-16;94" xlink:type="simple" />
+						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -312,6 +315,18 @@
 								<dsp:pos xlink:href="#art16-t10" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#tit1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41-com1-pun13" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 41, comma 1, 13 della legge Regione Toscana 16 gennaio 1995, n. 5" id="itt18" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#tit1-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -356,7 +371,7 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<titolo id="tit1">
+				<titolo finevigore="t11" id="tit1-t11" iniziovigore="t1" status="abrogato">
 					<num>TITOLO I</num>
 					<rubrica>DEI PROGRAMMI PLURIENNALI DI ATTUAZIONE</rubrica>
 					<articolo id="art2">
