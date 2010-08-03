@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19850517" num="24" tipo="BURT" />
 					<entratainvigore norm="19850517" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1985-05-07;51" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1985-05-07;51" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1985-05-07;51@1995-01-16" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Urbanistica" />
 						<materia valore="Tributi" />
@@ -17,11 +18,41 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19850517" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19950204" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1985-05-07;51" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41-com1-pun16" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 41, comma 1, 16 della legge Regione Toscana 16 gennaio 1995, n. 5" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-com2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41-com1-pun16" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 41, comma 1, 16 della legge Regione Toscana 16 gennaio 1995, n. 5" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-com3-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -132,7 +163,7 @@
 							. Tali varianti non potranno ampliare i volumi preesistenti ma dovranno limitarsi a prevedere eventuali ristrutturazioni dei medesimi alla razionalizzazione della viabilità e alla dotazione degli standards necessari.
 						</corpo>
 					</comma>
-					<comma id="art3-com2">
+					<comma finevigore="t2" id="art3-com2-t2" iniziovigore="t1" status="abrogato">
 						<num>2.</num>
 						<corpo>
 							Per le varianti in parola si applica la procedura di cui agli
@@ -146,7 +177,7 @@
 							.
 						</corpo>
 					</comma>
-					<comma id="art3-com3">
+					<comma finevigore="t2" id="art3-com3-t2" iniziovigore="t1" status="abrogato">
 						<num>3.</num>
 						<corpo>
 							Decorsi tre mesi dal ricevimento da parte della Regione delle varianti suddette senza che la Giunta regionale abbia proposto modifiche per il raggiungimento dei fini di cui al citato

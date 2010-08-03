@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t6" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19850109" num="2" tipo="BURT" />
@@ -11,7 +11,8 @@
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1984-12-31;74@1987-04-13" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1984-12-31;74@1989-12-14" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1984-12-31;74@1990-01-26" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1984-12-31;74@1993-10-18" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1984-12-31;74@1993-10-18" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1984-12-31;74@1995-01-16" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Urbanistica" />
 						<materia valore="Attribuzioni Deleghe" />
@@ -24,6 +25,7 @@
 						<evento data="19900106" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19900201" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="19931111" fonte="rp4" id="t5" tipo="modifica" />
+						<evento data="19950204" fonte="rp5" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1984-12-31;74" xlink:type="simple" />
@@ -31,17 +33,18 @@
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1989-12-14;85" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1990-01-26;4" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1993-10-18;74" xlink:type="simple" />
+						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Per una deroga alle disposizioni del presente articolo, si veda la
 							<rif xlink:href="urn:nir:regione.toscana:legge:1989-12-14;85" xlink:type="simple">legge regionale 14 dicembre 1989, n. 85</rif>
 							.
 						</h:p>
 					</nota>
-					<nota id="n2">
+					<nota id="LeggeRegionale1-n2">
 						<h:p>
 							Per una deroga alle disposizioni del presente articolo, si veda la
 							<rif xlink:href="urn:nir:regione.toscana:legge:1989-12-14;85" xlink:type="simple">legge regionale 14 dicembre 1989, n. 85</rif>
@@ -255,6 +258,18 @@
 								<dsp:pos xlink:href="#art7-com3-t5" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1984-12-31;74" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41-com1-pun15" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 41, comma 1, 15 della legge Regione Toscana 16 gennaio 1995, n. 5" id="itt15" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -358,7 +373,7 @@
 				<articolo id="art3">
 					<num>
 						ARTICOLO 3
-						<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+						<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 					</num>
 					<rubrica>(Prescrizioni e vincoli urbanistici regionali)</rubrica>
 					<comma id="art3-com1">
@@ -397,7 +412,7 @@
 				<articolo id="art4">
 					<num>
 						ARTICOLO 4
-						<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+						<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(b)</ndr>
 					</num>
 					<rubrica>(Direttive)</rubrica>
 					<comma id="art4-com1">
