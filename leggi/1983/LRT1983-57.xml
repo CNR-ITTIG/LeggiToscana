@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19830810" num="38 supplemento straordinario" tipo="BURT" />
 					<entratainvigore norm="19830825" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1983-08-02;57" />
+					<urn finevigore="t6" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1983-08-02;57" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1983-08-02;57@1995-01-16" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Commercio" />
 					</materie>
@@ -19,6 +20,7 @@
 						<evento data="19830825" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="19830825" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="19830825" fonte="ra4" id="t5" tipo="modifica" />
+						<evento data="19950204" fonte="rp1" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1983-08-02;57" xlink:type="simple" />
@@ -26,6 +28,7 @@
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1975-05-21;46" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1975-05-21;46" xlink:type="simple" />
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1974-01-12;3" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -100,6 +103,32 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41-com1-pun11" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 41, comma 1, 11 della legge Regione Toscana 16 gennaio 1995, n. 5" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-com2-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41-com1-pun11" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 41, comma 1, 11 della legge Regione Toscana 16 gennaio 1995, n. 5" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-com3-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -221,11 +250,11 @@
 							, svolte al di fuori del mercato stesso.
 						</corpo>
 					</comma>
-					<comma id="art5-com2">
+					<comma finevigore="t6" id="art5-com2-t6" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>Limitatamente ai comuni nel cui territorio già esistono mercati all'ingrosso, il vincolo è subordinato alla disponibilità delle aree contigue alla sede del mercato.</corpo>
 					</comma>
-					<comma id="art5-com3">
+					<comma finevigore="t6" id="art5-com3-t6" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>I comuni adottano le necessarie determinazioni normative ed attuative ai sensi della vigente disciplina urbanistica; salva l'applicazione delle disposizioni di cui al comma successivo nel caso di adozione del piano per gli insediamenti produttivi (pip) o del piano particolareggiato di esecuzione (ppe).</corpo>
 					</comma>
