@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t10" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19900201" num="8" tipo="BURT" />
 					<entratainvigore norm="19900201" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1990-01-26;4" />
+					<urn finevigore="t10" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1990-01-26;4" />
+					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1990-01-26;4@1995-01-16" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Urbanistica" />
 						<materia valore="Tutela Ambientale" />
@@ -24,6 +25,7 @@
 						<evento data="19900201" fonte="ra6" id="t7" tipo="modifica" />
 						<evento data="19900201" fonte="ra7" id="t8" tipo="modifica" />
 						<evento data="19900201" fonte="ra8" id="t9" tipo="modifica" />
+						<evento data="19950204" fonte="rp1" id="t10" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1990-01-26;4" xlink:type="simple" />
@@ -35,6 +37,7 @@
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1984-12-31;74" xlink:type="simple" />
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:1982-06-29;52" xlink:type="simple" />
 						<attiva id="ra8" xlink:href="urn:nir:regione.toscana:legge:1984-12-31;74" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -167,6 +170,20 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1990-01-26;4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41-com1-pun23" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 41, comma 1, 23 della legge Regione Toscana 16 gennaio 1995, n. 5" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -175,7 +192,13 @@
 				<dataDoc norm="19900126">26 gennaio 1990</dataDoc>
 				, n.
 				<numDoc>4</numDoc>
-				<titoloDoc>Modifiche ed integrazioni alle LLRR 74/84 e 52/82. Contenuti paesistici ed ambientali della pianificazione urbanistica.</titoloDoc>
+				<titoloDoc>
+					Modifiche ed integrazioni alle LLRR
+					<rif xlink:href="urn:nir:regione.toscana:legge:1984;74" xlink:type="simple">74/84</rif>
+					e
+					<rif xlink:href="urn:nir:regione.toscana:legge:1982;52" xlink:type="simple">52/82</rif>
+					. Contenuti paesistici ed ambientali della pianificazione urbanistica.
+				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 27-12-1989</h:p>
@@ -210,7 +233,7 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>ATTRIBUZIONE DI SPECIFICA CONSIDERAZIONE DEI VALORI PAESISTICI ED AMBIENTALI ALLA PIANIFICAZIONE TERRITORIALE ED URBANISTICA</rubrica>
 					<articolo id="art2">
@@ -388,7 +411,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>DISCIPLINA DEL COORDINAMENTO DELLA PIANIFICAZIONE URBANISTICA</rubrica>
 					<articolo id="art7">
@@ -652,34 +675,34 @@
 									<rif xlink:href="urn:nir:regione.toscana:legge:1984-12-31;74#art16" xlink:type="simple">art. 16 della LR 31 dicembre 1984 n. 74</rif>
 									, è così sostituito: "
 									<virgolette id="mod4-vir1" tipo="struttura">
-										<articolo id="mod4-vir1-art6">
+										<articolo id="mod4-vir1-art16">
 											<num>Art. 16</num>
 											<rubrica>(Contributi ed agevolazioni)</rubrica>
-											<comma id="mod4-vir1-art6-com1">
+											<comma id="mod4-vir1-art16-com1">
 												<num>1.</num>
 												<corpo>Per favorire il coordinamento degli strumenti urbanistici ai sensi del precedente art. 8 ivi compreso il loro adeguamento agli atti del QRCT la Regione concede alle Province ed ai Comuni contributi fino all'80% degli oneri finanziari indicati nelle deliberazioni d'intesa di cui al 2° comma dello stesso art. 8 ovvero nei programmi di adeguamento deliberati dai singoli consigli comunali.</corpo>
 											</comma>
-											<comma id="mod4-vir1-art6-com2">
+											<comma id="mod4-vir1-art16-com2">
 												<num>2.</num>
 												<alinea>I contributi assegnati ai Comuni sono erogati:</alinea>
-												<el id="mod4-vir1-art6-com2-leta">
+												<el id="mod4-vir1-art16-com2-leta">
 													<num>a)</num>
 													<corpo>per l'elaborazione delle proposte di adeguamento, direttamente ai soggetti in due rate: 70% all'inizio delle attività e 30% all'invio delle deliberazioni alla Regione;</corpo>
 												</el>
-												<el id="mod4-vir1-art6-com2-letb">
+												<el id="mod4-vir1-art16-com2-letb">
 													<num>b)</num>
 													<corpo>per l'adeguamento degli strumenti urbanistici, in un'unica soluzione sulla base di richiesta documentata deliberata dal consiglio comunale.</corpo>
 												</el>
 											</comma>
-											<comma id="mod4-vir1-art6-com3">
+											<comma id="mod4-vir1-art16-com3">
 												<num>3.</num>
 												<corpo>Gli incaricati di elaborare il coordinamento, qualora non provvedano nei termini fissati nei programmi di lavoro, sono tenuti alla restituzione del contributo erogato.</corpo>
 											</comma>
-											<comma id="mod4-vir1-art6-com4">
+											<comma id="mod4-vir1-art16-com4">
 												<num>4.</num>
 												<corpo>I contributi di cui al presente articolo sono assegnati dalla Giunta Regionale sulla base di criteri di ripartizione e di priorità individuati in relazione agli obiettivi nel Programma Regionale di Sviluppo.</corpo>
 											</comma>
-											<comma id="mod4-vir1-art6-com5">
+											<comma id="mod4-vir1-art16-com5">
 												<num>5.</num>
 												<corpo>All'onere derivante è fatto fronte mediante la legge di bilancio.</corpo>
 											</comma>
@@ -702,7 +725,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>TITOLO III</num>
 					<rubrica>DISPOSIZIONI PARTICOLARI</rubrica>
 					<articolo id="art12">

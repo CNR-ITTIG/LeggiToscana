@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19880322" num="17" tipo="BURT" />
 					<entratainvigore norm="19880406" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1988-03-12;17" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1988-03-12;17" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1988-03-12;17@1995-01-16" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Nomadi" />
 					</materie>
@@ -15,11 +16,29 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19880406" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19950204" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1988-03-12;17" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41-com1-pun21" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 41, comma 1, 21 della legge Regione Toscana 16 gennaio 1995, n. 5" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-com2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -98,7 +117,7 @@
 							<num>1.</num>
 							<corpo>Il campo sosta è collocato in un quartiere o frazione di Comune in modo che siano sempre facilitati l'accesso ai servizi pubblici e la partecipazione degli utenti alla vita sociale.</corpo>
 						</comma>
-						<comma id="art5-com2">
+						<comma finevigore="t2" id="art5-com2-t2" iniziovigore="t1" status="abrogato">
 							<num>2.</num>
 							<corpo>L'area da adibire a campo di sosta deve essere classificata come zona F di cui all'art. 2 del DM 2 aprile 1968. Qualora il Comune intenda adibire a tale scopo area con diversa classificazione, si rende necessaria l'approvazione di apposita motivata variante allo strumento urbanistico generale nella quale si devono rispettare i criteri espressi nel comma precedente.</corpo>
 						</comma>

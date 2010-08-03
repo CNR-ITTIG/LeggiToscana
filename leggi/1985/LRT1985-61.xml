@@ -8,7 +8,8 @@
 					<entratainvigore norm="19851126" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1985-10-31;61" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1985-10-31;61@1992-06-20" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1985-10-31;61@1992-06-20" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1985-10-31;61@1995-01-16" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Fonti Energetiche" />
 						<materia valore="Attribuzioni Deleghe" />
@@ -18,10 +19,12 @@
 					<eventi>
 						<evento data="19851126" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19920715" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19950204" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1985-10-31;61" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1992-06-20;27" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -281,6 +284,18 @@
 								<dsp:pos xlink:href="#art13quater" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art14" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41-com1-pun20" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 41, comma 1, 20 della legge Regione Toscana 16 gennaio 1995, n. 5" id="itt19" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art14-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -1107,9 +1122,9 @@
 							<corpo>Agli oneri per gli anni successivi sarà fatto fronte con le successive leggi di bilancio.</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art14">
+					<articolo finevigore="t3" id="art14-t3" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 14</num>
-						<comma id="art14-com1">
+						<comma id="art14-t3-com1">
 							<num>1.</num>
 							<corpo>
 								Ai fini della localizzazione degli impianti di distribuzione dei carburanti il Comune adotta, ove necessario, apposita variante dello strumento urbanistico; a tale effetto non è richiesta la preventiva autorizzazione regionale. La variante, pubblicata ai sensi dell'

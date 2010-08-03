@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19940630" num="45" tipo="BURT" />
 					<entratainvigore norm="19940715" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1994-06-27;48" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1994-06-27;48" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1994-06-27;48@1995-01-16" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Viabilità" />
 						<materia valore="Tutela Ambientale" />
@@ -16,11 +17,41 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19940715" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19950204" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-06-27;48" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41-com1-pun29" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 41, comma 1, 29 della legge Regione Toscana 16 gennaio 1995, n. 5" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art6-com4-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41-com1-pun29" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 41, comma 1, 29 della legge Regione Toscana 16 gennaio 1995, n. 5" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art7-com2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -243,7 +274,7 @@
 						<num>3.</num>
 						<corpo>La Provincia individua i percorsi previo parere vincolante dei Comuni interessati e previo consenso dei proprietari e conduttori dei fondi. Sono altresì sentite le Comunità montane, se interessate.</corpo>
 					</comma>
-					<comma id="art6-com4">
+					<comma finevigore="t2" id="art6-com4-t2" iniziovigore="t1" status="abrogato">
 						<num>4.</num>
 						<corpo>
 							I Comuni adeguano, ove occorra, il proprio strumento urbanistico alla deliberazione provinciale di individuazione dei percorsi di cui al
@@ -267,7 +298,7 @@
 							. L'individuazione deve altresì tenere conto dei vigenti strumenti di pianificazione urbanistica e urbanistico-territoriale con specifica considerazione dei valori paesistici.
 						</corpo>
 					</comma>
-					<comma id="art7-com2">
+					<comma finevigore="t2" id="art7-com2-t2" iniziovigore="t1" status="abrogato">
 						<num>2.</num>
 						<corpo>
 							I Comuni adeguano, ove occorra, il proprio strumento urbanistico alla deliberazione provinciale di individuazione delle aree di cui al

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19920617" num="34" tipo="BURT" />
 					<entratainvigore norm="19920702" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1992-06-09;26" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1992-06-09;26" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1992-06-09;26@1995-01-16" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Programmazione" />
 						<materia valore="Ordinamento" />
@@ -17,11 +18,44 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19920702" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19950204" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1992-06-09;26" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art7-com11" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 7, comma 11 della legge Regione Toscana 16 gennaio 1995, n. 5" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art6-com2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art7-com11" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 7, comma 11 della legge Regione Toscana 16 gennaio 1995, n. 5" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art6-com3-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -361,13 +395,17 @@
 							<num>1.</num>
 							<corpo>La regione elabora gli atti di pianificazione territoriale di propria competenza in attuazione del Prs e in conformità alle disposizioni legislative nazionali e regionali.</corpo>
 						</comma>
-						<comma id="art6-com2">
+						<comma finevigore="t2" id="art6-com2-t2" iniziovigore="t1" status="abrogato">
 							<num>2.</num>
 							<corpo>Quando un atto di programmazione regionale, attuativo del Prs, comporti la modifica o l'integrazione di disposizioni contenute in atti regionali di pianificazione territoriale, esso deve essere presentato, per l'approvazione da parte dell'organo competente, contestualmente alla proposta di modifica o di integrazione dell'atto di pianificazione, e può essere approvato solo dopo che tale proposta sia stata adottata. L'efficacia degli atti di programmazione è subordinata al perfezionamento della corrispondente modifica e integrazione dell'atto di pianificazione territoriale.</corpo>
 						</comma>
-						<comma id="art6-com3">
+						<comma finevigore="t2" id="art6-com3-t2" iniziovigore="t1" status="abrogato">
 							<num>3.</num>
 							<corpo>Le disposizioni di cui al comma due si applicano anche quando un atto di programmazione regionale, attuativo del Prs, comporti la modifica o l'integrazione di atti con i quali la regione disciplina i criteri e le metodologie di valutazione di impatto ambientale degli strumenti urbanistici, dei piani territoriali e degli altipiani e progetti che modificano l'uso del territorio.</corpo>
+						</comma>
+						<comma id="art6-com2" iniziovigore="t2">
+							<num>2.</num>
+							<corpo>Le prescrizioni di carattere territoriale contenute in atti di programmazione regionale, attuativi del PRS, ove già non previste nel piano di indirizzo territoriale PIT di cui alla presente legge regionale, recante "Norme per il governo del territorio" , o difformi da esso, sono adottate contestualmente alla variante al medesimo e acquistano efficacia subordinatamente all'approvazione della variante stessa.</corpo>
 						</comma>
 						<comma id="art6-com4">
 							<num>4.</num>

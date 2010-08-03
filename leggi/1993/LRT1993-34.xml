@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19930604" num="33" tipo="BURT" />
 					<entratainvigore norm="19930619" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1993-05-26;34" />
+					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1993-05-26;34" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1993-05-26;34@1995-01-16" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Pesca" />
 					</materie>
@@ -16,10 +17,12 @@
 					<eventi>
 						<evento data="19930619" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19930619" fonte="ra1" id="t2" tipo="modifica" />
+						<evento data="19950204" fonte="rp1" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1993-05-26;34" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1982-10-30;77" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -37,6 +40,44 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41-com1-pun25" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 41, comma 1, 25 della legge Regione Toscana 16 gennaio 1995, n. 5" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41-com1-pun25" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 41, comma 1, 25 della legge Regione Toscana 16 gennaio 1995, n. 5" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art8-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art10-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41-com1-pun25" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 41, comma 1, 25 della legge Regione Toscana 16 gennaio 1995, n. 5" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -189,14 +230,8 @@
 								<rif xlink:href="urn:nir:regione.toscana:legge:1979-02-19;10#art4-com3" xlink:type="simple">art. 4, terzo comma, della LR 19 febbraio 1979, n. 10</rif>
 								, il Comune può destinare specifiche aree all'attività di acquacoltura, anche prevedendo il ricorso al piano di cui all'
 								<rif xlink:href="urn:nir:stato:legge:1971-10-28;865#art27" xlink:type="simple">art. 27 della legge 28 ottobre 1971, n. 865</rif>
-								in presenza di iniziative con carattere prevalentemente industriale. Tali varianti sono approvate ai sensi dell'
-								<mrif>
-									<rif xlink:href="urn:nir:regione.toscana:legge:1984-12-31;74#art98-com2-letd" xlink:type="simple">art. 98, secondo comma, lett. d)</rif>
-									e dell'
-									<rif xlink:href="urn:nir:regione.toscana:legge:1984-12-31;74#art10-com3" xlink:type="simple">art. 10, terzo comma</rif>
-									, della legge regionale 31 dicembre 1984, n. 74
-								</mrif>
-								.
+								in presenza di iniziative con carattere prevalentemente industriale.
+								<h:span finevigore="t3" id="h1" iniziovigore="t1" status="abrogato">Tali varianti sono approvate ai sensi dell'art. 98, secondo comma, lett. d) e dell'art. 10, terzo comma , della legge regionale 31 dicembre 1984, n. 74.</h:span>
 							</corpo>
 						</comma>
 						<comma id="art5-com2">
@@ -324,21 +359,21 @@
 							</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art8">
+					<articolo finevigore="t3" id="art8-t3" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 8</num>
 						<rubrica>(Competenze regionali)</rubrica>
-						<comma id="art8-com1">
+						<comma id="art8-t3-com1">
 							<num>1.</num>
 							<alinea>
 								Con atti quadro regionale di coordinamento territoriale (QRCT), ai sensi della
 								<rif xlink:href="urn:nir:regione.toscana:legge:1984-12-31;74" xlink:type="simple">LR 31-12-1984 n. 74</rif>
 								e successive modifiche, la Regione può:
 							</alinea>
-							<ep id="art8-com1-pun1">
+							<ep id="art8-t3-com1-pun1">
 								<num>-</num>
 								<corpo>individuare aree del territorio regionale da destinare ad attività di acquacoltura;</corpo>
 							</ep>
-							<ep id="art8-com1-pun2">
+							<ep id="art8-t3-com1-pun2">
 								<num>-</num>
 								<corpo>
 									dettare, anche ai fini della valutazione dei piani aziendali di cui all'
@@ -347,7 +382,7 @@
 								</corpo>
 							</ep>
 						</comma>
-						<comma id="art8-com2">
+						<comma id="art8-t3-com2">
 							<num>2.</num>
 							<corpo>Le Province e i Comuni conformano i propri strumenti urbanistici alle disposizioni degli atti di QRCT di cui al precedente comma, nei tempi e nei modi in questi definiti.</corpo>
 						</comma>
@@ -394,14 +429,8 @@
 								<rif xlink:href="#art10-com2" xlink:type="simple">secondo comma</rif>
 								, i comuni provvedono, entro dodici mesi dall'entrata in vigore della presente legge, ad adeguare la propria disciplina urbanistica tramite apposite varianti qualora gli impianti interessati eccedano i limiti di cui all'allegato A, ovvero insistano in aree comprese nel sistema regionale delle aree protette di cui alla
 								<rif xlink:href="urn:nir:regione.toscana:legge:1982-06-29;52" xlink:type="simple">LR 29-6-1982 n. 52</rif>
-								e succ. mod. Tali varianti sono approvate ai sensi dell'
-								<mrif>
-									<rif xlink:href="urn:nir:regione.toscana:legge:1984-12-31;74#art9-com2-letd" xlink:type="simple">art. 9, secondo comma lett. d)</rif>
-									e dall'
-									<rif xlink:href="urn:nir:regione.toscana:legge:1984-12-31;74#art10-com3" xlink:type="simple">art. 10 terzo comma</rif>
-									, della LR 31 dicembre 1984 n. 74
-								</mrif>
-								.
+								e succ. mod.
+								<h:span finevigore="t3" id="h2" iniziovigore="t1" status="abrogato">Tali varianti sono approvate ai sensi dell'art. 9, secondo comma lett. d) e dall'art. 10 terzo comma , della LR 31 dicembre 1984 n. 74 .</h:span>
 							</corpo>
 						</comma>
 						<comma id="art10-com4">
