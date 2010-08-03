@@ -8,7 +8,8 @@
 					<entratainvigore norm="19780812" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1978-07-22;46" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1978-07-22;46@1992-09-02" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1978-07-22;46@1992-09-02" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1978-07-22;46@1995-01-16" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="ATTRIBUZIONI DELEGHE" />
 					</materie>
@@ -17,10 +18,12 @@
 					<eventi>
 						<evento data="19780812" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19920926" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19950204" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1978-07-22;46" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1992-09-02;45" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -71,6 +74,18 @@
 								<dsp:pos xlink:href="#art4-com1-letd" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41-com1-pun4" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 41, comma 1, 4 della legge Regione Toscana 16 gennaio 1995, n. 5" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art7-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -475,10 +490,10 @@
 						<corpo>Sulle istanze di concessione decide la Giunta regionale su conforme parere della commissione prevista dai comma precedenti.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art7">
+				<articolo finevigore="t3" id="art7-t3" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 7</num>
 					<rubrica>(Funzioni consultive della CRTA)</rubrica>
-					<comma id="art7-com1">
+					<comma id="art7-t3-com1">
 						<num />
 						<corpo>
 							Tutte le funzioni consultive demandate dall'attuale legislazione statale ad organi collegiali dello Stato in materia di urbanistica, viabilità, acquedotti e lavori pubblici di interesse regionale, navigazione e porti lacuali, sono esercitate dalla Commissione regionale Tecnico Amministrativa di cui all'art. 4 e successivi della

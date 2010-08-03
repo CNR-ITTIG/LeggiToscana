@@ -8,7 +8,8 @@
 					<entratainvigore norm="19790901" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1979-08-09;36" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1979-08-09;36@1993-05-12" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1979-08-09;36@1993-05-12" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1979-08-09;36@1995-01-16" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Turismo" />
 						<materia valore="Trasporti" />
@@ -18,10 +19,12 @@
 					<eventi>
 						<evento data="19790901" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19930603" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19950204" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1979-08-09;36" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1993-05-12;30" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -56,6 +59,30 @@
 								<dsp:pos xlink:href="#art8-com3-t2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41-com1-pun5" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 41, comma 1, 5 della legge Regione Toscana 16 gennaio 1995, n. 5" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41-com1-pun5" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 41, comma 1, 5 della legge Regione Toscana 16 gennaio 1995, n. 5" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -190,9 +217,13 @@
 					<comma id="art6-com2">
 						<num />
 						<corpo>
-							La Giunta regionale, sentite le rappresentanze regionali di comuni, province e comunità montane, delle formazioni economiche e sociali, nonchè la commissione Tecnica amministrativa di cui all'
-							<rif xlink:href="urn:nir:regione.toscana:legge:1972-07-03;17#art4" xlink:type="simple">art. 4 della LR 3-7-72 n. 17</rif>
-							, a sezioni riunite ed integrata con il componente della Giunta stessa incaricato del settore, formula la proposta di cui al
+							La Giunta regionale, sentite le rappresentanze regionali di comuni, province e comunità montane, delle formazioni economiche e sociali,
+							<h:span finevigore="t3" id="h1" iniziovigore="t1" status="abrogato">
+								nonchè la commissione Tecnica amministrativa di cui all'
+								<rif xlink:href="urn:nir:regione.toscana:legge:1972-07-03;17#art4" xlink:type="simple">art. 4 della LR 3-7-72 n. 17</rif>
+								, a sezioni riunite ed integrata con il componente della Giunta stessa incaricato del settore,
+							</h:span>
+							formula la proposta di cui al
 							<rif xlink:href="#art6-com1" xlink:type="simple">comma precedente</rif>
 							.
 						</corpo>
@@ -207,8 +238,8 @@
 					<comma id="art7-com2">
 						<num />
 						<corpo>
-							I suddetti piani regolatori e i progetti di massima redatti in conformità del comma precedente, sono approvati dalla Giunta regionale, sentita la CRTA nella composizione di cui all'
-							<rif xlink:href="#art5" xlink:type="simple">art. 5</rif>
+							I suddetti piani regolatori e i progetti di massima redatti in conformità del comma precedente, sono approvati dalla Giunta regionale
+							<h:span finevigore="t3" id="h2" iniziovigore="t1" status="abrogato">, sentita la CRTA nella composizione di cui all'art. 5</h:span>
 							ed alla loro realizzazione si provvede tramite progetti esecutivi.
 						</corpo>
 					</comma>

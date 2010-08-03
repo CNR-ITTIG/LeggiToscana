@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t3" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19720707" num="25" tipo="BURT" />
 					<entratainvigore norm="19720722" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1972-07-03;17" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1972-07-03;17@1984-01-11" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1972-07-03;17@1984-01-11" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1972-07-03;17@1995-01-16" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19720722" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19840127" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19950204" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1972-07-03;17" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1984-01-11;3" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="LeggeRegionale1-n1">
+						<h:p>
+							La disposizioni della presente legge cessano di avere efficacia ai sensi dell'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41" xlink:type="simple">articolo 41 della legge regionale 16 gennaio 1995, n. 5</rif>
+							fatto salvo quanto previsto dall’
+							<rif xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art40" xlink:type="simple">articolo 40 della legge regionale 16 gennaio 1995, n. 5</rif>
+							.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:integrazione completa="si" implicita="no">
@@ -124,6 +138,18 @@
 								<dsp:pos xlink:href="#h2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1972-07-03;17" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 41, comma 2 della legge Regione Toscana 16 gennaio 1995, n. 5" id="itt9" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -137,6 +163,7 @@
 					Norme per l'esercizio delle funzioni trasferite o delegate alla Regione dal
 					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-15;8" xlink:type="simple">DPR 15 gennaio 1972, n. 8</rif>
 					, in materia di urbanistica e viabilità, acquedotti e lavori pubblici di interesse regionale.
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 				</titoloDoc>
 			</intestazione>
 			<formulainiziale>

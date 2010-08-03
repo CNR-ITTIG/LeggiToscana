@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19750314" num="13" tipo="BURT" />
 					<entratainvigore norm="19750314" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1975-03-11;19" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1975-03-11;19" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1975-03-11;19@1995-01-16" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19750314" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19950204" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1975-03-11;19" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -28,6 +31,58 @@
 						</h:p>
 					</nota>
 				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41-com1-pun3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 41, comma 1, 3 della legge Regione Toscana 16 gennaio 1995, n. 5" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41-com1-pun3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 41, comma 1, 3 della legge Regione Toscana 16 gennaio 1995, n. 5" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-com2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41-com1-pun3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 41, comma 1, 3 della legge Regione Toscana 16 gennaio 1995, n. 5" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-com3-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41-com1-pun3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 41, comma 1, 3 della legge Regione Toscana 16 gennaio 1995, n. 5" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-com4-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -89,9 +144,13 @@
 					<rubrica>(Disposizioni urbanistiche)</rubrica>
 					<comma id="art4-com1">
 						<num />
-						<corpo>I parchi di campeggio devono essere realizzati, agli effetti della presente legge, in Comuni muniti di piano regolatore generale o programma di fabbricazione approvato ai sensi di legge, ovvero adottato e trasmesso all'autorità competente per l'approvazione.</corpo>
+						<corpo>
+							I parchi di campeggio devono essere realizzati, agli effetti della presente legge, in Comuni muniti di piano regolatore generale o programma di fabbricazione approvato ai sensi di legge
+							<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">, ovvero adottato e trasmesso all'autorità competente per l'approvazione</h:span>
+							.
+						</corpo>
 					</comma>
-					<comma id="art4-com2">
+					<comma finevigore="t2" id="art4-com2-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>
 							Nel caso di non conformità con la destinazione delle aree ai sensi dei suddetti strumenti urbanistici approvati o adottati, l'ubicazione dei nuovi parchi di campeggio di cui alla presente legge è disposta con deliberazione del Consiglio Comunale. Tale deliberazione costituisce, in deroga alle norme vigenti, variante o modifica al piano regolatore generale o al programma di fabbricazione, a norma della
@@ -99,7 +158,7 @@
 							e successive modificazioni e integrazioni.
 						</corpo>
 					</comma>
-					<comma id="art4-com3">
+					<comma finevigore="t2" id="art4-com3-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>
 							La deliberazione, pubblicata nel primo giorno festivo immediatamente successivo a quello dell'adozione, è trasmessa alla Giunta Regionale entro il quindicesimo giorno dalla data di adozione. La variante o modifica è approvata in deroga all'
@@ -107,7 +166,7 @@
 							con decreto del Presidente dalla Giunta regionale, previo parere della Commissione regionale tecnico - amministrativa.
 						</corpo>
 					</comma>
-					<comma id="art4-com4">
+					<comma finevigore="t2" id="art4-com4-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>La variante o modifica secondo le procedure di cui ai commi 2 e 3 del presente articolo è approvata contestualmente alla concessione del contributo regionale previsto dalla presente legge.</corpo>
 					</comma>
