@@ -8,7 +8,8 @@
 					<entratainvigore norm="19840426" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1984-04-17;21" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1984-04-17;21@1986-05-06" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1984-04-17;21@1986-05-06" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1984-04-17;21@1995-01-16" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Urbanistica" />
 						<materia valore="Protezione Civile" />
@@ -18,10 +19,12 @@
 					<eventi>
 						<evento data="19840426" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19860529" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19950204" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1984-04-17;21" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1986-05-06;20" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -35,7 +38,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art2-com3" xlink:type="simple" />
+								<dsp:pos xlink:href="#art2-com3-t3" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art2-com2-t2" xlink:type="simple" />
@@ -50,9 +53,33 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art2-com4" xlink:type="simple" />
+								<dsp:pos xlink:href="#art2-com4-t3" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41-com1-pun12" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 41, comma 1, 12 della legge Regione Toscana 16 gennaio 1995, n. 5" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com3-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41-com1-pun12" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 41, comma 1, 12 della legge Regione Toscana 16 gennaio 1995, n. 5" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com4-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -114,11 +141,11 @@
 						<num />
 						<corpo>La valutazione della adeguatezza delle indagini di cui al precedente articolo è effettuata dalla Giunta regionale in sede di approvazione degli strumenti urbanistici generali ed attuativi.</corpo>
 					</comma>
-					<comma id="art2-com3" iniziovigore="t2">
+					<comma finevigore="t3" id="art2-com3-t3" iniziovigore="t2" status="abrogato">
 						<num />
 						<corpo>In sede di approvazione degli strumenti urbanistici o delle loro varianti la Regione verifica l'adeguatezza delle indagini di cui al primo comma dell'articolo precedente.</corpo>
 					</comma>
-					<comma id="art2-com4" iniziovigore="t2">
+					<comma finevigore="t3" id="art2-com4-t3" iniziovigore="t2" status="abrogato">
 						<num />
 						<corpo>Di tale verifica deve essere fatta espressa menzione nell’atto di approvazione.</corpo>
 					</comma>
