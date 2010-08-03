@@ -10,7 +10,8 @@
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1982-04-13;31" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1982-04-13;31@1983-03-09" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1982-04-13;31@1984-11-12" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1982-04-13;31@1988-12-17" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1982-04-13;31@1988-12-17" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1982-04-13;31@1995-01-16" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tutela ambientale" />
 						<materia valore="Credito" />
@@ -23,12 +24,14 @@
 						<evento data="19830331" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19841206" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19890106" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="19950204" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1982-04-13;31" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1983-03-09;14" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1984-11-12;64" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1988-12-17;92" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -87,7 +90,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art9bis" xlink:type="simple" />
+								<dsp:pos xlink:href="#art9bis-t5" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -102,7 +105,7 @@
 								<dsp:pos xlink:href="#art1" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#art1-t3" xlink:type="simple" />
+								<dsp:pos xlink:href="#art1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -252,6 +255,18 @@
 								<dsp:pos xlink:href="#h7" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9bis" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41-com1-pun9" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 41, comma 1, 9 della legge Regione Toscana 16 gennaio 1995, n. 5" id="itt16" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art9bis-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -281,10 +296,10 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<articolo finevigore="t3" id="art1-t3" iniziovigore="t1" status="abrogato">
+				<articolo id="art1">
 					<num>ARTICOLO 1</num>
 					<rubrica>(Finalità)</rubrica>
-					<comma id="art1-t3-com1">
+					<comma id="art1-com1">
 						<num />
 						<corpo>
 							La Regione, nell'ambito delle proprie competenze in materia di tutela delle acque dall'inquinamento di cui alla
@@ -727,10 +742,10 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art9bis" iniziovigore="t3">
+				<articolo finevigore="t5" id="art9bis-t5" iniziovigore="t3" status="abrogato">
 					<num>Art. 9-bis</num>
 					<rubrica>(Approvazione delle varianti urbanistiche)</rubrica>
-					<comma id="art9bis-com1">
+					<comma id="art9bis-t5-com1">
 						<num />
 						<corpo>
 							Le varianti agli strumenti urbanistici che si rendono necessarie per l'applicazione dell'
