@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19930820" num="52" tipo="BURT" />
 					<entratainvigore norm="19930904" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1993-08-11;60" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1993-08-11;60" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1993-08-11;60@1995-02-01" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Trasporti" />
 						<materia valore="Assistenza Sanitaria" />
@@ -16,11 +17,47 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19930904" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19950224" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1993-08-11;60" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-02-01;15" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art10-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-02-01;15" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-02-01;15#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 1 febbraio 1995, n. 15" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art10-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art10-com1-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art10-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-02-01;15" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-02-01;15#artunico-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 2 della legge Regione Toscana 1 febbraio 1995, n. 15" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art10-com4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art10-com4-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -501,13 +538,17 @@
 				<articolo id="art10">
 					<num>ARTICOLO 10</num>
 					<rubrica>(Norma transitoria)</rubrica>
-					<comma id="art10-com1">
+					<comma finevigore="t2" id="art10-com1-t2" iniziovigore="t1" status="abrogato">
 						<num>1.</num>
 						<corpo>
 							Tutti i soggetti che alla data di pubblicazione della presente legge gestiscono attività di trasporto sanitario sono tenuti a richiedere l'autorizzazione prevista dall'
 							<rif xlink:href="#art2" xlink:type="simple">art. 2</rif>
 							entro i successivi due anni.
 						</corpo>
+					</comma>
+					<comma id="art10-com1" iniziovigore="t2">
+						<num>1.</num>
+						<corpo>I soggetti che alla data di pubblicazione della presente legge gestiscono attività di trasporto sanitario sono tenuti a richiedere l'autorizzazione prevista dall'art. 2 entro il 30 giugno 1996</corpo>
 					</comma>
 					<comma id="art10-com2">
 						<num>2.</num>
@@ -537,11 +578,11 @@
 						<num>3.</num>
 						<corpo>
 							I soggetti già convenzionati con le unità sanitarie locali alla data di entrata in vigore della presente legge, fermo restando l'obbligo del
-							<rif xlink:href="#art10-com1" xlink:type="simple">primo comma</rif>
+							<rif xlink:href="#art10-com1-t2" xlink:type="simple">primo comma</rif>
 							, non sono tenuti ad effettuare la notifica prevista dal comma precedente.
 						</corpo>
 					</comma>
-					<comma id="art10-com4">
+					<comma finevigore="t2" id="art10-com4-t2" iniziovigore="t1" status="abrogato">
 						<num>4.</num>
 						<corpo>
 							Ai fini della dimostrazione del possesso dei requisiti specifici di cui alla tabella 1 prevista ai sensi dell'
@@ -549,6 +590,14 @@
 							, relativamente al personale non medico con specifico addestramento nell'attività di primo soccorso già in servizio alla data di entrata in vigore della presente legge presso le organizzazioni di volontariato, le stesse notificano, entro il termine perentorio di 90 giorni dalla entrata in vigore delle disposizioni del Consiglio regionale previste dal citato
 							<rif xlink:href="#art8" xlink:type="simple">art. 8</rif>
 							, alla unità sanitaria competente per territorio i nominativi dei volontari in possesso di attestato di frequenza e superamento di apposito corso svolto dalle associazioni medesime.
+						</corpo>
+					</comma>
+					<comma id="art10-com4" iniziovigore="t2">
+						<num>4.</num>
+						<corpo>
+							Ai fini della dimostrazione del possesso dei requisiti specifici, di cui alla tabella 1 prevista ai sensi dell'
+							<rif xlink:href="#art8-com1-leta" xlink:type="simple">art. 8, comma 1, lett. a</rif>
+							, relativamente al personale non medico con specifico addestramento nell'attività di primo soccorso già in servizio alla data del 28 febbraio 1995 presso le organizzazioni del volontariato, le stesse notificano entro il termine perentorio del 30 giugno 1995 alla unità sanitaria locale competente per territorio i nominativi dei volontari in possesso di attestato di frequenza e superamento di apposito corso svolto dalle associazioni medesime.
 						</corpo>
 					</comma>
 					<comma id="art10-com5">
