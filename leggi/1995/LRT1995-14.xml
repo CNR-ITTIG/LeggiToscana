@@ -4,29 +4,55 @@
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
-					<pubblicazione norm="" num="" tipo="GU" />
-					<entratainvigore norm="" />
+					<pubblicazione norm="19950209" num="13" tipo="BURT" />
+					<entratainvigore norm="19950224" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="" />
+					<urn valore="urn:nir:regione.toscana:legge:1995-02-01;14" />
+					<materie vocabolario="Regione Toscana">
+						<materia valore="Finanziamenti" />
+						<materia valore="Beni Culturali" />
+					</materie>
 				</descrittori>
+				<ciclodivita>
+					<eventi>
+						<evento data="19950224" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19950224" fonte="ra1" id="t2" tipo="modifica" />
+					</eventi>
+					<relazioni>
+						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-02-01;14" xlink:type="simple" />
+						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1991-09-09;46" xlink:type="simple" />
+					</relazioni>
+				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modificheattive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#mod1" xlink:type="simple" />
+							<dsp:termine da="#t2" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1991-09-09;46" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1991-09-09;46" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:subarg>
+									<ittig:tipo valore="atto" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modificheattive>
+				</disposizioni>
 			</meta>
 			<intestazione>
-				<tipoDoc />
-				<dataDoc norm="" />
-				<titoloDoc />
+				<emanante>Regione Toscana</emanante>
+				<tipoDoc>Legge Regionale</tipoDoc>
+				<dataDoc norm="19950201">1 febbraio 1995</dataDoc>
+				, n.
+				<numDoc>14</numDoc>
+				<titoloDoc>Disciplina degli atti e delle procedure della programmazione e degli interventi finanziari regionali nei settori delle attività e dei beni culturali.</titoloDoc>
 			</intestazione>
-			<?error Disciplina degli  atti e  delle procedure  della programmazione e
-degli interventi finanziari regionali nei settori delle attivit&#xE0;
-e dei beni culturali.
-
-?>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 28-12-1994</h:p>
-				<h:p>Il Commissario del Governo ha apposto il</h:p>
-				<preambolo>
-					<h:p>visto il 25-1-1995 Il Presidente della Giunta Regionale</h:p>
-				</preambolo>
-				<h:p>promulga la seguente legge</h:p>
+				<h:p>Il Commissario del Governo ha apposto il visto il 25-1-1995</h:p>
+				<h:p>Il Presidente della Giunta Regionale</h:p>
+				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
 				<articolo id="art1">
@@ -34,11 +60,27 @@ e dei beni culturali.
 					<rubrica>(Unificazione delle procedure)</rubrica>
 					<comma id="art1-com1">
 						<num>1.</num>
-						<corpo>Le procedure del finanziamento regionale relativo agli interventi previsti, nel settore delle attività culturali, dalle leggi regionali 33/1976, 29/1979, 11/1980, 12/1980, 89/1980, sono disciplinate dalla presente legge.</corpo>
+						<corpo>
+							Le procedure del finanziamento regionale relativo agli interventi previsti, nel settore delle attività culturali, dalle leggi regionali
+							<rif xlink:href="urn:nir:regione.toscana:legge:1976;33" xlink:type="simple">33/1976</rif>
+							,
+							<rif xlink:href="urn:nir:regione.toscana:legge:1979;29" xlink:type="simple">29/1979</rif>
+							,
+							<rif xlink:href="urn:nir:regione.toscana:legge:1980;11" xlink:type="simple">11/1980</rif>
+							,
+							<rif xlink:href="urn:nir:regione.toscana:legge:1980;12" xlink:type="simple">12/1980</rif>
+							,
+							<rif xlink:href="urn:nir:regione.toscana:legge:1980;89" xlink:type="simple">89/1980</rif>
+							, sono disciplinate dalla presente legge.
+						</corpo>
 					</comma>
 					<comma id="art1-com2">
 						<num>2.</num>
-						<corpo>La disciplina si conforma ai principi della LR 9 giugno 1992, n. 26.</corpo>
+						<corpo>
+							La disciplina si conforma ai principi della
+							<rif xlink:href="urn:nir:regione.toscana:legge:1992-06-09;26" xlink:type="simple">LR 9 giugno 1992, n. 26</rif>
+							.
+						</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art2">
@@ -49,7 +91,11 @@ e dei beni culturali.
 						<alinea>Il Piano di Indirizzo stabilisce:</alinea>
 						<el id="art2-com1-leta">
 							<num>a)</num>
-							<corpo>i parametri, i criteri e gli indicatori socio-economico- culturali in base ai quali la Regione assume il provvedimento di cui all'art. 4, comma primo;</corpo>
+							<corpo>
+								i parametri, i criteri e gli indicatori socio-economico- culturali in base ai quali la Regione assume il provvedimento di cui all'
+								<rif xlink:href="#art4-com1" xlink:type="simple">art. 4, comma primo</rif>
+								;
+							</corpo>
 						</el>
 						<el id="art2-com1-letb">
 							<num>b)</num>
@@ -81,7 +127,11 @@ e dei beni culturali.
 						</el>
 						<el id="art2-com2-letf">
 							<num>f)</num>
-							<corpo>la quota percentuale sul totale dei finanziamenti regionali da destinare annualmente ai progetti di interesse regionale. g) la misura percentuale relativa al concorso finanziario dei soggetti privati, pubblici e degli Enti locali così come previsto dall'art. 6.</corpo>
+							<corpo>
+								la quota percentuale sul totale dei finanziamenti regionali da destinare annualmente ai progetti di interesse regionale. g) la misura percentuale relativa al concorso finanziario dei soggetti privati, pubblici e degli Enti locali così come previsto dall'
+								<rif xlink:href="#art6" xlink:type="simple">art. 6</rif>
+								.
+							</corpo>
 						</el>
 					</comma>
 				</articolo>
@@ -90,7 +140,11 @@ e dei beni culturali.
 					<rubrica>(Procedure di formazione ed approvazione del Piano di Indirizzo)</rubrica>
 					<comma id="art3-com1">
 						<num>1.</num>
-						<corpo>La Giunta Regionale, ai fini della formazione del piano di indirizzo di cui all'articolo precedente, elabora un documento preliminare sui contenuti del piano di cui all'art. 2 e lo trasmette alle Province entro il 30 giugno di ogni anno.</corpo>
+						<corpo>
+							La Giunta Regionale, ai fini della formazione del piano di indirizzo di cui all'articolo precedente, elabora un documento preliminare sui contenuti del piano di cui all'
+							<rif xlink:href="#art2" xlink:type="simple">art. 2</rif>
+							e lo trasmette alle Province entro il 30 giugno di ogni anno.
+						</corpo>
 					</comma>
 					<comma id="art3-com2">
 						<num>2.</num>
@@ -98,19 +152,45 @@ e dei beni culturali.
 					</comma>
 					<comma id="art3-com3">
 						<num>3.</num>
-						<corpo>Le conferenze di programmazione si concludono con un verbale, da inviare alla Giunta Regionale, entro il 30 ottobre di ogni anno, sottoscritto dai rappresentanti dei soggetti partecipanti, nel quale sono riportate le osservazioni, pareri e proposte presentate in ordine al documento preliminare e, nel contempo, sono formulati pareri e proposte in ordine ai contenuti di cui all'art. 2.</corpo>
+						<corpo>
+							Le conferenze di programmazione si concludono con un verbale, da inviare alla Giunta Regionale, entro il 30 ottobre di ogni anno, sottoscritto dai rappresentanti dei soggetti partecipanti, nel quale sono riportate le osservazioni, pareri e proposte presentate in ordine al documento preliminare e, nel contempo, sono formulati pareri e proposte in ordine ai contenuti di cui all'
+							<rif xlink:href="#art2" xlink:type="simple">art. 2</rif>
+							.
+						</corpo>
 					</comma>
 					<comma id="art3-com4">
 						<num>4.</num>
-						<corpo>La Giunta Regionale, entro il 31 dicembre di ogni anno, tenuto conto delle osservazioni, dei pareri e delle proposte emerse nelle conferenze provinciali di programmazione, elabora il piano di indirizzo provvisorio e lo verifica con le Province nel corso di una conferenza di programmazione regionale che si conclude nelle stesse forme di cui al terzo comma.</corpo>
+						<corpo>
+							La Giunta Regionale, entro il 31 dicembre di ogni anno, tenuto conto delle osservazioni, dei pareri e delle proposte emerse nelle conferenze provinciali di programmazione, elabora il piano di indirizzo provvisorio e lo verifica con le Province nel corso di una conferenza di programmazione regionale che si conclude nelle stesse forme di cui al
+							<rif xlink:href="#art3-com3" xlink:type="simple">terzo comma</rif>
+							.
+						</corpo>
 					</comma>
 					<comma id="art3-com5">
 						<num>5.</num>
-						<corpo>Il piano di indirizzo è successivamente predisposto dalla Giunta Regionale per l'approvazione del Consiglio Regionale entro il 31 gennaio dell'anno successivo a quello in cui è iniziato il procedimento di cui al comma primo del presente articolo. Al Consiglio Regionale sono preventivamente comunicati i verbali delle conferenze di cui al terzo e quarto comma del presente articolo.</corpo>
+						<corpo>
+							Il piano di indirizzo è successivamente predisposto dalla Giunta Regionale per l'approvazione del Consiglio Regionale entro il 31 gennaio dell'anno successivo a quello in cui è iniziato il procedimento di cui al
+							<rif xlink:href="#art3-com1" xlink:type="simple">comma primo</rif>
+							del presente articolo. Al Consiglio Regionale sono preventivamente comunicati i verbali delle conferenze di cui al
+							<mrif>
+								<rif xlink:href="#art3-com3" xlink:type="simple">terzo</rif>
+								e
+								<rif xlink:href="#art3-com4" xlink:type="simple">quarto comma</rif>
+							</mrif>
+							del presente articolo.
+						</corpo>
 					</comma>
 					<comma id="art3-com6">
 						<num>6.</num>
-						<corpo>Il Piano di Indirizzo ha validità triennale. Può comunque essere oggetto annualmente, con efficacia a decorrere dall'anno successivo, di modifiche, aggiornamenti e rielaborazioni, con le stesse procedure previste dai commi precedenti. Le modifiche e gli aggiornamenti di limitata portata possono essere disposti, con adeguata motivazione espressa nell'atto di approvazione, con la sola applicazione delle procedure di cui al quarto e quinto comma del presente articolo.</corpo>
+						<corpo>
+							Il Piano di Indirizzo ha validità triennale. Può comunque essere oggetto annualmente, con efficacia a decorrere dall'anno successivo, di modifiche, aggiornamenti e rielaborazioni, con le stesse procedure previste dai commi precedenti. Le modifiche e gli aggiornamenti di limitata portata possono essere disposti, con adeguata motivazione espressa nell'atto di approvazione, con la sola applicazione delle procedure di cui al
+							<mrif>
+								<rif xlink:href="#art3-com4" xlink:type="simple">quarto</rif>
+								e
+								<rif xlink:href="#art3-com5" xlink:type="simple">quinto comma</rif>
+							</mrif>
+							del presente articolo.
+						</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art4">
@@ -118,7 +198,16 @@ e dei beni culturali.
 					<rubrica>(Procedure di attuazione del Piano di Indirizzo)</rubrica>
 					<comma id="art4-com1">
 						<num>1.</num>
-						<alinea>Ai sensi dell'art. 2, secondo comma, lettere e, f, la Giunta Regionale, con deliberazione di riparto da adottare entro sessanta giorni dalla data di approvazione del bilancio regionale stabilisce:</alinea>
+						<alinea>
+							Ai sensi dell'
+							<mrif>
+								art. 2, secondo comma , lettere
+								<rif xlink:href="#art2-com2-lete" xlink:type="simple">e</rif>
+								,
+								<rif xlink:href="#art2-com2-letf" xlink:type="simple">f</rif>
+							</mrif>
+							, la Giunta Regionale, con deliberazione di riparto da adottare entro sessanta giorni dalla data di approvazione del bilancio regionale stabilisce:
+						</alinea>
 						<el id="art4-com1-leta">
 							<num>a)</num>
 							<corpo>per ciascuna provincia, le risorse finanziarie destinate al finanziamento dei progetti dei soggetti privati, pubblici e degli Enti Locali;</corpo>
@@ -130,7 +219,11 @@ e dei beni culturali.
 					</comma>
 					<comma id="art4-com2">
 						<num>2.</num>
-						<corpo>Le domande dei soggetti privati per ottenere il finanziamento, redatte secondo le prescrizioni delle singole leggi di settore di cui all'art. 1, comma primo, sono presentate al comune, territorialmente competente, entro il 31 gennaio di ogni anno.</corpo>
+						<corpo>
+							Le domande dei soggetti privati per ottenere il finanziamento, redatte secondo le prescrizioni delle singole leggi di settore di cui all'
+							<rif xlink:href="#art1-com1" xlink:type="simple">art. 1, comma primo</rif>
+							, sono presentate al comune, territorialmente competente, entro il 31 gennaio di ogni anno.
+						</corpo>
 					</comma>
 					<comma id="art4-com3">
 						<num>3.</num>
@@ -138,7 +231,15 @@ e dei beni culturali.
 					</comma>
 					<comma id="art4-com4">
 						<num>4.</num>
-						<corpo>Le Province, ciascuna per il proprio territorio e nell'ambito dei fondi ad essa assegnati e liquidati dal piano di riparto, tenendo anche conto delle deliberazioni dei Comuni, formulano una graduatoria e concedono i finanziamenti di cui al comma primo, lettera a, per gli interventi previsti dalle leggi regionali di cui all'art. 1, primo comma, nei casi disciplinati da tali leggi e in conformità alle indicazioni del piano di indirizzo di cui all'art. 2, fino ad esaurimento del fondo regionale ad essa assegnato. La Provincia invia copia della delibera di assegnazione dei finanziamenti alla Giunta Regionale che ne dà comunicazione al Consiglio Regionale.</corpo>
+						<corpo>
+							Le Province, ciascuna per il proprio territorio e nell'ambito dei fondi ad essa assegnati e liquidati dal piano di riparto, tenendo anche conto delle deliberazioni dei Comuni, formulano una graduatoria e concedono i finanziamenti di cui al
+							<rif xlink:href="#art4-com1-leta" xlink:type="simple">comma primo, lettera a</rif>
+							, per gli interventi previsti dalle leggi regionali di cui all'
+							<rif xlink:href="#art1-com1" xlink:type="simple">art. 1, primo comma</rif>
+							, nei casi disciplinati da tali leggi e in conformità alle indicazioni del piano di indirizzo di cui all'
+							<rif xlink:href="#art2" xlink:type="simple">art. 2</rif>
+							, fino ad esaurimento del fondo regionale ad essa assegnato. La Provincia invia copia della delibera di assegnazione dei finanziamenti alla Giunta Regionale che ne dà comunicazione al Consiglio Regionale.
+						</corpo>
 					</comma>
 					<comma id="art4-com5">
 						<num>5.</num>
@@ -146,7 +247,11 @@ e dei beni culturali.
 					</comma>
 					<comma id="art4-com6">
 						<num>6.</num>
-						<corpo>Le Province esercitano la vigilanza sulla realizzazione dei progetti e delle attività finanziate ai sensi della presente legge. Esse revocano il finanziamento, qualora esso sia distolto dalle finalità per le quali è stato concesso o non siano osservate le disposizioni di legge e curano le attività di rendicontazione disciplinate dalla legge regionale n. 92 del 13.12.1993. La rendicontazione con una relazione di valutazione sui risultati conseguiti deve essere inviata alla Giunta Regionale.</corpo>
+						<corpo>
+							Le Province esercitano la vigilanza sulla realizzazione dei progetti e delle attività finanziate ai sensi della presente legge. Esse revocano il finanziamento, qualora esso sia distolto dalle finalità per le quali è stato concesso o non siano osservate le disposizioni di legge e curano le attività di rendicontazione disciplinate dalla
+							<rif xlink:href="urn:nir:regione.toscana:legge:1993-12-13;92" xlink:type="simple">legge regionale n. 92 del 13.12.1993</rif>
+							. La rendicontazione con una relazione di valutazione sui risultati conseguiti deve essere inviata alla Giunta Regionale.
+						</corpo>
 					</comma>
 					<comma id="art4-com7">
 						<num>7.</num>
@@ -154,7 +259,11 @@ e dei beni culturali.
 					</comma>
 					<comma id="art4-com8">
 						<num>8.</num>
-						<corpo>La realizzazione dei progetti di cui al comma precedente è direttamente curata dalla Giunta Regionale o affidata a soggetti pubblici e privati territorialmente interessati secondo le intese o le convenzioni raggiunte nel corso dell'elaborazione dei progetti operativi ai sensi del secondo comma dell'art. 9 della legge regionale 26/92. L'affidamento è disposto d'intesa con l'ente interessato.</corpo>
+						<corpo>
+							La realizzazione dei progetti di cui al comma precedente è direttamente curata dalla Giunta Regionale o affidata a soggetti pubblici e privati territorialmente interessati secondo le intese o le convenzioni raggiunte nel corso dell'elaborazione dei progetti operativi ai sensi del
+							<rif xlink:href="urn:nir:regione.toscana:legge:1992;26#art9-com2" xlink:type="simple">secondo comma dell'art. 9 della legge regionale 26/92</rif>
+							. L'affidamento è disposto d'intesa con l'ente interessato.
+						</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art5">
@@ -173,7 +282,11 @@ e dei beni culturali.
 						</el>
 						<el id="art5-com2-letb">
 							<num>b)</num>
-							<corpo>corsi di qualificazione e aggiornamento degli operatori culturali nei settori previsti dalle leggi di cui al primo comma.</corpo>
+							<corpo>
+								corsi di qualificazione e aggiornamento degli operatori culturali nei settori previsti dalle leggi di cui al
+								<rif xlink:href="#art5-com1" xlink:type="simple">primo comma</rif>
+								.
+							</corpo>
 						</el>
 					</comma>
 				</articolo>
@@ -182,7 +295,11 @@ e dei beni culturali.
 					<rubrica>(Concorso finanziario)</rubrica>
 					<comma id="art6-com1">
 						<num>1.</num>
-						<corpo>I soggetti privati, pubblici e gli Enti Locali, contestualmente alla presentazione della domanda di contributo ai sensi delle leggi regionali di cui all'art. 1, devono coprire finanziariamente l'iniziativa presentata in una misura percentuale definita triennalmente dal Piano di Indirizzo. Tale copertura può essere garantita sia con fondi propri che provenienti da sponsorizzazioni e/o da fondi privati.</corpo>
+						<corpo>
+							I soggetti privati, pubblici e gli Enti Locali, contestualmente alla presentazione della domanda di contributo ai sensi delle leggi regionali di cui all'
+							<rif xlink:href="#art1" xlink:type="simple">art. 1</rif>
+							, devono coprire finanziariamente l'iniziativa presentata in una misura percentuale definita triennalmente dal Piano di Indirizzo. Tale copertura può essere garantita sia con fondi propri che provenienti da sponsorizzazioni e/o da fondi privati.
+						</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art7">
@@ -190,7 +307,11 @@ e dei beni culturali.
 					<rubrica>(Norme finanziarie)</rubrica>
 					<comma id="art7-com1">
 						<num>1.</num>
-						<corpo>È costituita con legge di bilancio, a far data dall'esercizio 1996, un fondo derivante dall'unificazione dei finanziamenti per le leggi regionali di cui all'art. 1, primo comma.</corpo>
+						<corpo>
+							È costituita con legge di bilancio, a far data dall'esercizio 1996, un fondo derivante dall'unificazione dei finanziamenti per le leggi regionali di cui all'
+							<rif xlink:href="#art1-com1" xlink:type="simple">art. 1, primo comma</rif>
+							.
+						</corpo>
 					</comma>
 					<comma id="art7-com2">
 						<num>2.</num>
@@ -204,17 +325,11 @@ e dei beni culturali.
 						<num>1.</num>
 						<corpo>
 							<mod id="mod1">
-								È abrogata la legge regionale n. 46 del 9 settembre 1991: "
-								<virgolette id="mod1-vir1" tipo="parola">
-									Modificazioni alla LR 31.10.1983, n. 71 concernente i termini
-									<h:br />
-									per i finanziamenti della Regione in materia di attività, beni
-									<h:br />
-									culturali ed educazione permanente di cui alle LLRR 33/1976,
-									<h:br />
-									29/1979, 11/1980, 12/1980, 89/1980.
-								</virgolette>
-								"
+								È abrogata la
+								<rif xlink:href="urn:nir:regione.toscana:legge:1991-09-09;46" xlink:type="simple">legge regionale n. 46 del 9 settembre 1991</rif>
+								: "Modificazioni alla
+								<rif xlink:href="urn:nir:regione.toscana:legge:1983-10-31;71" xlink:type="simple">LR 31.10.1983, n. 71</rif>
+								concernente i termini per i finanziamenti della Regione in materia di attività, beni culturali ed educazione permanente di cui alle LLRR 33/1976, 29/1979, 11/1980, 12/1980, 89/1980. "
 							</mod>
 						</corpo>
 					</comma>
@@ -224,45 +339,77 @@ e dei beni culturali.
 					<rubrica>(Norme transitorie e finali)</rubrica>
 					<comma id="art9-com1">
 						<num>1.</num>
-						<corpo>Fino all'entrata in vigore del Piano di Indirizzo previsto dall'art. 2 si applicano, per la programmazione degli interventi gli obiettivi ed i criteri generali approvati con deliberazione del Consiglio regionale n. 376 del 25 luglio 1994.</corpo>
+						<corpo>
+							Fino all'entrata in vigore del Piano di Indirizzo previsto dall'
+							<rif xlink:href="#art2" xlink:type="simple">art. 2</rif>
+							si applicano, per la programmazione degli interventi gli obiettivi ed i criteri generali approvati con deliberazione del Consiglio regionale n. 376 del 25 luglio 1994.
+						</corpo>
 					</comma>
 					<comma id="art9-com2">
 						<num>2.</num>
 						<alinea>La predisposizione del primo Piano di Indirizzo seguirà il seguente iter formativo:</alinea>
 						<ep id="art9-com2-pun1">
 							<num>-</num>
-							<corpo>entro il 30 giugno la Giunta Regionale predispone il documento preliminare di cui all'art. 3, primo comma; - entro il 30 settembre la Provincia convoca la conferenza di programmazione con i Comuni e le altre parti sociali così come previsto all'art. 3 comma 2; - entro il 30 ottobre il verbale finale della conferenza di programmazione provinciale viene rimesso alla Giunta Regionale; - entro il 31 dicembre la Giunta Regionale elabora il Piano di Indirizzo definitivo e lo verifica con le Province in una Conferenza di Programmazione Regionale così come previsto dall'art. 3, comma 4; - entro il 31 gennaio il Consiglio Regionale approva il Piano di Indirizzo come previsto dall'art. 3, comma 5.</corpo>
+							<corpo>
+								entro il 30 giugno la Giunta Regionale predispone il documento preliminare di cui all'
+								<rif xlink:href="#art3-com1" xlink:type="simple">art. 3, primo comma</rif>
+								;
+							</corpo>
+						</ep>
+						<ep id="art9-com2-pun2">
+							<num>-</num>
+							<corpo>
+								entro il 30 settembre la Provincia convoca la conferenza di programmazione con i Comuni e le altre parti sociali così come previsto all'
+								<rif xlink:href="#art3-com2" xlink:type="simple">art. 3 comma 2</rif>
+								;
+							</corpo>
+						</ep>
+						<ep id="art9-com2-pun3">
+							<num>-</num>
+							<corpo>entro il 30 ottobre il verbale finale della conferenza di programmazione provinciale viene rimesso alla Giunta Regionale;</corpo>
+						</ep>
+						<ep id="art9-com2-pun4">
+							<num>-</num>
+							<corpo>
+								entro il 31 dicembre la Giunta Regionale elabora il Piano di Indirizzo definitivo e lo verifica con le Province in una Conferenza di Programmazione Regionale così come previsto dall'
+								<rif xlink:href="#art3-com4" xlink:type="simple">art. 3, comma 4</rif>
+								;
+							</corpo>
+						</ep>
+						<ep id="art9-com2-pun5">
+							<num>-</num>
+							<corpo>
+								entro il 31 gennaio il Consiglio Regionale approva il Piano di Indirizzo come previsto dall'
+								<rif xlink:href="#art3-com5" xlink:type="simple">art. 3, comma 5</rif>
+								.
+							</corpo>
 						</ep>
 					</comma>
 					<comma id="art9-com3">
 						<num>3.</num>
-						<corpo>Le scadenze degli adempimenti previsti dall'art. 4 saranno stabilite con apposito atto della Giunta Regionale da inviare agli enti interessati.</corpo>
+						<corpo>
+							Le scadenze degli adempimenti previsti dall'
+							<rif xlink:href="#art4" xlink:type="simple">art. 4</rif>
+							saranno stabilite con apposito atto della Giunta Regionale da inviare agli enti interessati.
+						</corpo>
 					</comma>
 					<comma id="art9-com4">
 						<num>4.</num>
 						<corpo>
-							<mod id="mod2">Per l'anno 1995 l'erogazione dei finanziamenti relativi agli interventi di cui alle leggi indicate nell'art. 1 avverrà in attuazione ed in conformità della delibera del Consiglio Regionale n. 376 del 27-7-1994. La soppressione dei capitoli di bilancio relativi alle leggi di settore di cui all'art. 1 avverrà con la legge di bilancio di previsione per l'anno 1996.</mod>
+							Per l'anno 1995 l'erogazione dei finanziamenti relativi agli interventi di cui alle leggi indicate nell'
+							<rif xlink:href="#art1" xlink:type="simple">art. 1</rif>
+							avverrà in attuazione ed in conformità della delibera del Consiglio Regionale n. 376 del 27-7-1994. La soppressione dei capitoli di bilancio relativi alle leggi di settore di cui all'
+							<rif xlink:href="#art1" xlink:type="simple">art. 1</rif>
+							avverrà con la legge di bilancio di previsione per l'anno 1996.
 						</corpo>
 					</comma>
 				</articolo>
 			</articolato>
-			<formulafinale />
+			<formulafinale>La presente legge è pubblicata sul Bollettino Ufficiale della Regione. È fatto obbligo a chiunque spetti di osservarla e farla osservare come legge della Regione Toscana.</formulafinale>
 			<conclusione>
-				<dataeluogo codice="00100" norm="">La presente legge è pubblicata sul Bollettino Ufficiale della Regione. È fatto obbligo a chiunque spetti di osservarla e farla osservare come legge della Regione Toscana. Firenze, 1 febbraio 1995</dataeluogo>
+				<dataeluogo codice="00100" norm="">Firenze, 1 febbraio 1995</dataeluogo>
+				<firma tipo="sottoscrizione">FRATINI (Incaricato con DPGR 18-6-1993 n. 340)</firma>
+				<soggetto codice="">La presente legge è stata approvata dal Consiglio Regionale il 28-12-1994 ed è stata vistata dal Commissario del Governo il 25- 1-1995.</soggetto>
 			</conclusione>
-			<?error FRATINI
-(Incaricato con DPGR 18-6-1993 n. 340)
-
-La presente  legge &#xE8;  stata approvata dal Consiglio Regionale il
-28-12-1994 ed &#xE8; stata vistata dal Commissario del Governo il 25-
-1-1995.
-
-
-
-BENI CULTURALI
-FINANZIAMENTI
-
-
-?>
 		</LeggeRegionale>
 	</NIR>
