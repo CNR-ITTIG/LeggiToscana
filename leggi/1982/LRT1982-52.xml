@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale finevigore="t5" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
+		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19820706" num="38" tipo="BURT" />
@@ -30,7 +30,16 @@
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="LeggeRegionale1-n1">
+					<nota id="n1">
+						<h:p>
+							Abrogazione ai sensi dell'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41" xlink:type="simple">articolo 41 della legge regionale 16 gennaio 1995, n. 5</rif>
+							fatto salvo quanto previsto dall’
+							<rif xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art37" xlink:type="simple">articolo 37</rif>
+							della medesima legge.
+						</h:p>
+					</nota>
+					<nota id="n2">
 						<h:p>
 							Si veda la
 							<rif xlink:href="urn:nir:regione.toscana:legge:1990-04-14;46" xlink:type="simple">legge regionale 14 aprile 1990, n. 46</rif>
@@ -749,15 +758,39 @@
 							</dsp:norma>
 						</dsp:posticipo>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1982-06-29;52" xlink:type="simple" />
+							<dsp:pos xlink:href="#tit1-t5" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple">
-								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41-com1-pun10" xlink:type="simple" />
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41" xlink:type="simple" />
 								<dsp:subarg>
-									<ittig:notavigenza auto="articolo 41, comma 1, 10 della legge Regione Toscana 16 gennaio 1995, n. 5" id="itt53" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+									<ittig:notavigenza auto="articolo41, legge Regione Toscana 16 gennaio 1995, n. 5" id="itt53" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+								<dsp:pos xlink:href="#tit1-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#tit2-t5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo41, legge Regione Toscana 16 gennaio 1995, n. 5" id="itt54" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#tit2-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#tit4-t5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo41, legge Regione Toscana 16 gennaio 1995, n. 5" id="itt55" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#tit4-t5" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>
@@ -821,8 +854,11 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<titolo id="LeggeRegionale1-tit1">
-					<num>TITOLO I</num>
+				<titolo finevigore="t5" id="tit1-t5" iniziovigore="t1" status="abrogato">
+					<num>
+						TITOLO I
+						<ndr num="#n1" valore="" xlink:type="simple">(b)</ndr>
+					</num>
 					<rubrica>SISTEMA REGIONALE DELLE AREE PROTETTE</rubrica>
 					<articolo id="art2">
 						<num>ARTICOLO 2</num>
@@ -970,7 +1006,7 @@
 							<num />
 							<corpo>
 								Le varianti sono approvate, previo parere dei Consigli Provinciali
-								<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
+								<ndr num="#n2" valore="" xlink:type="simple">(a)</ndr>
 								interessati da esprimersi entro il termine perentorio di 120 giorni dal ricevimento, con le procedure previste per l'approvazione dei nuovi piani regolatori generali e delle varianti generali di cui all'
 								<rif xlink:href="urn:nir:regione.toscana:legge:1984-12-31;74#art11" xlink:type="simple">art. 11 della LR 31 dicembre 1984 n. 74</rif>
 								; l'approvazione della variante costituisce contestualmente modifica del perimetro delle aree protette.
@@ -1124,8 +1160,11 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="LeggeRegionale1-tit2">
-					<num>TITOLO II</num>
+				<titolo finevigore="t5" id="tit2-t5" iniziovigore="t1" status="abrogato">
+					<num>
+						TITOLO II
+						<ndr num="#n1" valore="" xlink:type="simple">(c)</ndr>
+					</num>
 					<rubrica>DISCIPLINA DELLE AREE PROTETTE</rubrica>
 					<articolo id="art8">
 						<num>ARTICOLO 8</num>
@@ -2152,7 +2191,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="LeggeRegionale1-tit3">
+				<titolo id="tit3">
 					<num>TITOLO III</num>
 					<rubrica>PARCHI E RISERVE</rubrica>
 					<articolo id="art19">
@@ -2240,8 +2279,11 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="LeggeRegionale1-tit4">
-					<num>TITOLO IV</num>
+				<titolo finevigore="t5" id="tit4-t5" iniziovigore="t1" status="abrogato">
+					<num>
+						TITOLO IV
+						<ndr num="#n1" valore="" xlink:type="simple">(d)</ndr>
+					</num>
 					<rubrica>NORME FINALI</rubrica>
 					<articolo id="art21">
 						<num>ARTICOLO 21</num>
