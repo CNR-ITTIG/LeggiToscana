@@ -11,7 +11,8 @@
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1979-11-02;52@1980-01-25" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1979-11-02;52@1985-01-10" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1979-11-02;52@1993-04-19" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1979-11-02;52@1995-01-16" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1979-11-02;52@1995-01-16" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1979-11-02;52@1995-02-23" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="TUTELA AMBIENTALE" />
 						<materia valore="ATTRIBUZIONI DELEGHE" />
@@ -24,6 +25,7 @@
 						<evento data="19850131" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19930513" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="19950204" fonte="rp4" id="t5" tipo="modifica" />
+						<evento data="19950316" fonte="rp5" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1979-11-02;52" xlink:type="simple" />
@@ -31,6 +33,7 @@
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1993-04-19;24" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple" />
+						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1995-02-23;21" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -373,6 +376,30 @@
 								<dsp:pos xlink:href="#art3-com5-t5" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-02-23;21" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-02-23;21#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 23 febbraio 1995, n. 21" id="itt25" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com2-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-02-23;21" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-02-23;21#artunico-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 2 della legge Regione Toscana 23 febbraio 1995, n. 21" id="itt26" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h24" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -458,7 +485,7 @@
 							.
 						</corpo>
 					</comma>
-					<comma id="art2-com2">
+					<comma finevigore="t6" id="art2-com2-t6" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>
 							Nel caso in cui i Comuni ritengano più opportuna l'applicazione della sanzione consistente nel pagamento delle indennità di cui al
@@ -661,6 +688,7 @@
 								<rif xlink:href="urn:nir:stato:legge:1939-06-29;1497#art15" xlink:type="simple">art. 15</rif>
 								della stessa legge
 							</h:span>
+							<h:span id="h24" iniziovigore="t6">o le sanzioni di cui all'art. 15 della stessa legge</h:span>
 							nel termine all'uopo fissato dalla Giunta regionale questa, sentita la Commissione consiliare competente, può sostituirsi al Comune.
 						</corpo>
 					</comma>
