@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19940107" num="2" tipo="BURT" />
 					<entratainvigore norm="19940122" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1993-12-30;104" />
+					<urn finevigore="t6" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1993-12-30;104" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1993-12-30;104@1995-03-06" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sistema Educativo" />
 						<materia valore="Organizzazioni Pubbliche" />
@@ -21,6 +22,7 @@
 						<evento data="19940122" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="19940122" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="19940122" fonte="ra4" id="t5" tipo="modifica" />
+						<evento data="19950331" fonte="rp1" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1993-12-30;104" xlink:type="simple" />
@@ -28,6 +30,7 @@
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1993-08-31;55" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1993-08-31;55" xlink:type="simple" />
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1993-08-11;55" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-03-06;23" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -69,6 +72,23 @@
 							</dsp:novella>
 						</dsp:integrazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-03-06;23" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-03-06;23#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 6 marzo 1995, n. 23" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -170,7 +190,10 @@
 							<mod id="mod5">
 								Il commissario straordinario e liquidatore, per lo svolgimento delle funzioni di cui al precedente comma, adotta tutti gli atti di competenza della azienda. A tal fine si avvale della collaborazione del dirigente che ha svolto le funzioni di direttore fino al momento della entrata in vigore della LR 11-8- 1993, n. 55. Questi, dopo l'approvazione del piano di liquidazione, esercita le funzioni attribuite al direttore dall'
 								<rif xlink:href="urn:nir:regione.toscana:legge:1993-08-11;55#art25" xlink:type="simple">art. 25 della LR 11-8-1993, n. 55</rif>
-								, fino alla nomina del direttore stesso e comunque non oltre dodici mesi dall'entrata in vigore della presente legge.
+								, fino alla nomina del direttore stesso e
+								<h:span finevigore="t6" id="h1" iniziovigore="t1" status="abrogato">comunque non oltre dodici mesi dall'entrata in vigore della presente legge</h:span>
+								<h:span id="h2" iniziovigore="t6">e comunque non oltre 12 mesi dall'entrata in vigore dei regolamenti organizzativi delle aziende secondo quanto disposto autonomamente dai singoli Consigli di Amministrazione</h:span>
+								.
 							</mod>
 						</corpo>
 					</comma>
