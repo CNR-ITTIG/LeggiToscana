@@ -11,7 +11,8 @@
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1981-10-29;79@1986-08-11" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1981-10-29;79@1987-06-15" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1981-10-29;79@1988-05-30" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1981-10-29;79@1991-06-17" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1981-10-29;79@1991-06-17" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1981-10-29;79@1995-03-23" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Turismo" />
 					</materie>
@@ -23,6 +24,7 @@
 						<evento data="19870710" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19880623" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="19910711" fonte="rp4" id="t5" tipo="modifica" />
+						<evento data="19950415" fonte="rp5" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1981-10-29;79" xlink:type="simple" />
@@ -30,13 +32,16 @@
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1987-06-15;37" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1988-05-30;40" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1991-06-17;29" xlink:type="simple" />
+						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1995-03-23;29" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
 					<nota id="n1">
 						<h:p>
-							Termine prorogato al 31 dicembre 1990 con l'
+							Termine prorogato al 31 dicembre 1990 dall'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1987-06-15;37#art3" xlink:type="simple">art. 3 della legge regionale 15 giugno 1987, n. 37</rif>
+							ed al 31 dicembre 1996 dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1995-03-23;29#art2" xlink:type="simple">art. 2 della legge regionale 23 marzo 1995, n. 29</rif>
 							.
 						</h:p>
 					</nota>
@@ -391,6 +396,12 @@
 								<dsp:pos xlink:href="#art25-com8" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:proroga completa="si" implicita="no" su="efficacia">
+							<dsp:termine da="#t6" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-03-23;29" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-03-23;29#mod2" xlink:type="simple" />
+							</dsp:norma>
+						</dsp:proroga>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -398,7 +409,7 @@
 				<emanante>Regione Toscana</emanante>
 				<tipoDoc>Legge Regionale</tipoDoc>
 				<dataDoc norm="19811029">29 ottobre 1981</dataDoc>
-				,n.
+				, n.
 				<numDoc>79</numDoc>
 				<titoloDoc>Disciplina e classificazione dei campeggi e dei villaggi turistici.</titoloDoc>
 			</intestazione>
