@@ -8,7 +8,8 @@
 					<entratainvigore norm="19940204" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1994-01-28;11" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1994-01-28;11@1995-01-16" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1994-01-28;11@1995-01-16" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1994-01-28;11@1995-04-03" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organizzazioni Pubbliche" />
 						<materia valore="Ordinamento" />
@@ -20,11 +21,13 @@
 						<evento data="19940204" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19940204" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="19950120" fonte="rp1" id="t3" tipo="modifica" />
+						<evento data="19950422" fonte="rp2" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-01-28;11" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1986-11-03;49" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-01-16;6" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1995-04-03;33" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -64,6 +67,33 @@
 								<dsp:pos xlink:href="#art1-com3-t3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-04-03;33" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-04-03;33#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 3 aprile 1995, n. 33" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com3-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-04-03;33" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-04-03;33#artunico-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 2 della legge Regione Toscana 3 aprile 1995, n. 33" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com4" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -129,7 +159,7 @@
 							e successive modificazione ed integrazioni, non possono essere nominati Amministratori i Consiglieri regionali e i componenti degli organi di altri Enti regionali, nonché i Sindaci, i Presidenti delle Amministrazioni provinciali, gli Assessori comunali e provinciali, i Presidenti delle Comunità montane e i membri degli esecutivi di tali Enti, nonché gli Amministratori Straordinari delle USL, gli imprenditori e gli amministratori di società che forniscono beni o prestano servizi alle aziende.
 						</corpo>
 					</comma>
-					<comma id="art2-com3">
+					<comma finevigore="t4" id="art2-com3-t4" iniziovigore="t1" status="abrogato">
 						<num>3.</num>
 						<corpo>
 							Gli Amministratori decadono dall'incarico per una sopravvenuta causa di incompatibilità e nei casi previsti dalla
@@ -137,6 +167,29 @@
 							e successive modificazioni ed integrazioni. Agli amministratori è corrisposto un compenso pari a quello già attribuito ai Presidenti delle rispettive aziende ai sensi della
 							<rif xlink:href="urn:nir:regione.toscana:legge:1987-01-26;5" xlink:type="simple">LR 26 gennaio 1987 n. 5</rif>
 							.
+						</corpo>
+					</comma>
+					<comma id="art2-com3" iniziovigore="t4">
+						<num>3.</num>
+						<corpo>
+							Gli Amministratori straordinari decadono dall'incarico per una sopravvenuta causa di incompatibilità e nei casi previsti dalla
+							<rif xlink:href="urn:nir:stato:legge:1990-03-19;55" xlink:type="simple">L. 19.3.1990, n. 55</rif>
+							e successive modificazioni ed integrazioni. Agli Amministratori delle ATER è corrisposta una indennità mensile di carica pari all'80% dell'indennità dei Presidenti delle Province, secondo la classificazione della Provincia di riferimento nell'allegato B della
+							<rif xlink:href="urn:nir:stato:legge:1985-12-27;816" xlink:type="simple">L. 27 dicembre 1985 n. 816</rif>
+							, calcolata applicando il limite massimo secondo quanto disposto dall'
+							<rif xlink:href="urn:nir:stato:legge:1992-03-25;81#art31-com1-leta" xlink:type="simple">art. 31 comma 1, lett. a) della L. 25 marzo 1992, n. 81</rif>
+							. All'Amministratore dell'ARER è corrisposta una indennità mensile di carica pari al 90% dell'indennità dei Presidenti delle Province con popolazione superiore ad un milione di abitanti, calcolata applicando il limite massimo secondo quanto disposto dall'
+							<rif xlink:href="urn:nir:stato:legge:1993-03-25;81#art31-com1-leta" xlink:type="simple">art. 31 comma 1, lett. a) della L. 25 marzo 1993, n. 81</rif>
+							.
+						</corpo>
+					</comma>
+					<comma id="art2-com4" iniziovigore="t4">
+						<num>4.</num>
+						<corpo>
+							Ai Presidenti ed ai membri dei Collegi sindacali delle ARER e dell'ATER è corrisposta, rispettivamente, una indennità mensile di carica pari al 30% ed al 25% dell'indennità dei Presidenti delle Province, secondo la classificazione della Provincia di riferimento nell'allegato B della
+							<rif xlink:href="urn:nir:stato:legge:1985-12-27;816" xlink:type="simple">L. 27 dicembre 1985, n. 816</rif>
+							, calcolata applicando il limite massimo secondo quanto disposto dall'
+							<rif xlink:href="urn:nir:stato:legge:1993-03-25;81#art31-com1-leta" xlink:type="simple">art. 31, comma 1, lett. a) della L. 25 marzo 1993, n. 81</rif>
 						</corpo>
 					</comma>
 				</articolo>
