@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1988-08-19;60" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1988-08-19;60@1989-09-02" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1988-08-19;60@1993-09-06" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1988-08-19;60@1993-09-06" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1988-08-19;60@1995-04-04" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Rifiuti" />
 					</materie>
@@ -20,12 +21,14 @@
 						<evento data="19880910" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19890926" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19930930" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="19950422" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1988-08-19;60" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1988-08-19;61" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1989-09-02;61" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1993-09-06;64" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1995-04-04;35" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -288,6 +291,33 @@
 								<dsp:pos xlink:href="#art13ter" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art10-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-04-04;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-04-04;35#art4-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1 della legge Regione Toscana 4 aprile 1995, n. 35" id="itt21" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art10-com1-letc" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art10" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-04-04;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-04-04;35#art4-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 2 della legge Regione Toscana 4 aprile 1995, n. 35" id="itt22" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art10-num4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art10-com4-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -870,6 +900,10 @@
 							<num>b)</num>
 							<corpo>promozione della commercializzazione delle materie riutilizzabili risultanti dai processi di riciclaggio e di preselezione dei rifiuti.</corpo>
 						</el>
+						<el id="art10-com1-letc" iniziovigore="t5">
+							<num>c)</num>
+							<corpo>erogazione di servizi in favore della Regione Toscana e degli Enti Locali in materia di tutela ambientale e smaltimento dei rifiuti al fine di coordinare azioni e programmi volti all'incremento dell'efficienza ed efficacia ed alla qualificazione della spesa nell'espletamento delle funzioni di competenza.</corpo>
+						</el>
 					</comma>
 					<comma id="art10-com2">
 						<num>2.</num>
@@ -891,70 +925,142 @@
 						<num>3.</num>
 						<corpo>La Giunta regionale riferisce al Consiglio entro tre mesi dall'entrata in vigore della presente legge, in ordine alla disponibilità a partecipare all'iniziativa da parte degli enti o delle aziende pubbliche che effettuano i servizi di smaltimento di rifiuti, delle Camere di Commercio, Industria, Artigianato e Agricoltura della Regione e delle loro strutture tecniche operanti nel settore, delle associazioni di categoria dei soggetti economici interessati. La Giunta regionale predispone una proposta di apposita convenzione con i soggetti suddetti.</corpo>
 					</comma>
-					<comma id="art10-com4">
+					<comma finevigore="t5" id="art10-com4-t5" iniziovigore="t1" status="abrogato">
 						<num>4.</num>
 						<alinea>Il Consiglio regionale approva la convenzione e stabilisce con legge la partecipazione della Regione alla Società, nonchè l'ammontare delle azioni da sottoscrivere, a condizione che la convenzione preveda, fra l'altro:</alinea>
-						<el id="art10-com4-leta">
+						<el id="art10-com4-t5-leta">
 							<num>a)</num>
 							<corpo>criteri di composizione del Consiglio di Amministrazione che assicurino un'adeguata rappresentanza degli amministratori e/o tecnici delle aziende municipalizzate della Toscana e dei consorzi fra Comuni che svolgono il servizio di smaltimento dei rifiuti;</corpo>
 						</el>
-						<el id="art10-com4-letb">
+						<el id="art10-com4-t5-letb">
 							<num>b)</num>
 							<corpo>la partecipazione alla Società da parte dei vari soggetti interessati in forme tali da garantire un capitale sociale iniziale non inferiore a due miliardi di lire;</corpo>
 						</el>
-						<el id="art10-com4-letc">
+						<el id="art10-com4-t5-letc">
 							<num>c)</num>
 							<corpo>la facoltà di nomina, da parte della Regione, del direttore generale della Società;</corpo>
 						</el>
-						<el id="art10-com4-letd">
+						<el id="art10-com4-t5-letd">
 							<num>d)</num>
 							<corpo>l'autorizzazione preventiva del Consiglio di Amministrazione della Società al trasferimento delle azioni, fermo il diritto di prelazione da parte dei soci, a soggetti economici privati che presentino adeguate garanzie economiche, tecniche e professionali come produttori o utilizzatori di materie prime secondarie;</corpo>
 						</el>
-						<el id="art10-com4-lete">
+						<el id="art10-com4-t5-lete">
 							<num>e)</num>
 							<corpo>"limitazione del diritto di opzione dei soci fondatori, in sede di aumento di capitale, a una quota non superiore all'85% delle nuove emissioni, ferma comunque la prevalente partecipazione della Regione e degli Enti locali";</corpo>
 						</el>
-						<el id="art10-com4-letf">
+						<el id="art10-com4-t5-letf">
 							<num>f)</num>
 							<alinea>la esplicitazione degli scopi sociali in conformità ai seguenti indirizzi:</alinea>
-							<ep id="art10-com4-letf-pun1">
+							<ep id="art10-com4-t5-letf-pun1">
 								<num>-</num>
 								<corpo>promozione dell'uso del combustibile alternativo;</corpo>
 							</ep>
-							<ep id="art10-com4-letf-pun2">
+							<ep id="art10-com4-t5-letf-pun2">
 								<num>-</num>
 								<corpo>promozione dell'uso del compost e dei fertilizzanti organici, derivanti dalla frazione organica dei rifiuti;</corpo>
 							</ep>
-							<ep id="art10-com4-letf-pun3">
+							<ep id="art10-com4-t5-letf-pun3">
 								<num>-</num>
 								<corpo>promozione di tutte le iniziative atte a facilitare la commercializzazione delle materie risultanti dai processi di preselezione e di riciclaggio dei rifiuti;</corpo>
 							</ep>
-							<ep id="art10-com4-letf-pun4">
+							<ep id="art10-com4-t5-letf-pun4">
 								<num>-</num>
 								<corpo>promozione e partecipazione ad iniziative per l'individuazione e la sperimentazione di tecnologie e di procedure atte a ridurre la produzione di rifiuti, a facilitare il riutilizzo di frazioni normalmente presenti nei rifiuti, ad assicurare un idoneo smaltimento delle frazioni dei rifiuti non recuperabili ed in particolare dei rifiuti tossici e nocivi;</corpo>
 							</ep>
 						</el>
-						<el id="art10-com4-letg">
+						<el id="art10-com4-t5-letg">
 							<num>g)</num>
 							<alinea>la precisazione delle seguenti modalità operative dell' Agenzia:</alinea>
-							<ep id="art10-com4-letg-pun1">
+							<ep id="art10-com4-t5-letg-pun1">
 								<num>-</num>
 								<corpo>stipula diretta dei contratti di vendita delle materie seconde, dietro procura delle aziende produttrici;</corpo>
 							</ep>
-							<ep id="art10-com4-letg-pun2">
+							<ep id="art10-com4-t5-letg-pun2">
 								<num>-</num>
 								<corpo>pubblicazione di bollettini periodici sui flussi delle materie seconde, con particolare riferimento alle quantità, alle caratteristiche fisico - chimiche e merceologiche, ai prezzi correnti ed ai siti di produzione e di utilizzo;</corpo>
 							</ep>
-							<ep id="art10-com4-letg-pun3">
+							<ep id="art10-com4-t5-letg-pun3">
 								<num>-</num>
 								<corpo>invio, su richiesta delle singole aziende, di avvisi circa la possibilità di collocamento dei singoli rifiuti;</corpo>
 							</ep>
-							<ep id="art10-com4-letg-pun4">
+							<ep id="art10-com4-t5-letg-pun4">
 								<num>-</num>
 								<corpo>l'indicazione dei criteri di determinazione del contributo da corrispondere da parte delle aziende che beneficiano dell'assistenza tecnica dell'Agenzia.</corpo>
 							</ep>
 						</el>
 					</comma>
+					<en id="art10-num4" iniziovigore="t5">
+						<num>4.</num>
+						<alinea>Il Consiglio regionale approva la convenzione e stabilisce con legge la partecipazione della Regione alla Società, nonché l'ammontare delle azioni da sottoscrivere, a condizione che la convenzione preveda, fra l'altro:</alinea>
+						<el id="art10-num4-leta">
+							<num>a)</num>
+							<corpo>criteri di composizione del Consiglio di Amministrazione che assicurino un'adeguata rappresentanza degli amministratori e/o tecnici delle aziende municipalizzate della Toscana e dei consorzi fra Comuni che svolgono il servizio di smaltimento rifiuti;</corpo>
+						</el>
+						<el id="art10-num4-letb">
+							<num>b)</num>
+							<corpo>la partecipazione alla Società da parte dei vari soggetti interessati in forme tali da garantire un capitale sociale iniziale non inferiore ai due miliardi di lire;</corpo>
+						</el>
+						<el id="art10-num4-letc">
+							<num>c)</num>
+							<corpo>la facoltà di nomina, da parte della Regione, del direttore generale della Società;</corpo>
+						</el>
+						<el id="art10-num4-letd">
+							<num>d)</num>
+							<corpo>l'autorizzazione preventiva del Consiglio di Amministrazione della Società al trasferimento delle azioni, fermo il diritto di prelazione da parte dei soci, a soggetti economici privati che presentino adeguate garanzie economiche, tecniche e professioni come produttori o utilizzatori di materie prime secondarie;</corpo>
+						</el>
+						<el id="art10-num4-lete">
+							<num>e)</num>
+							<corpo>"limitazione del diritto di opzione dei soci fondatori, in sede di aumento di capitale, a una quota non superiore all'85% delle nuove emissioni, ferma comunque la prevalente partecipazione della Regione e degli Enti locali" ;</corpo>
+						</el>
+						<el id="art10-num4-letf">
+							<num>f)</num>
+							<alinea>la esplicitazione degli scopi sociali in conformità ai seguenti indirizzi:</alinea>
+							<en id="art10-num4-letf-num1">
+								<num>1 -</num>
+								<corpo>promozione dell'uso del combustibile alternativo;</corpo>
+							</en>
+							<en id="art10-num4-letf-num2">
+								<num>2 -</num>
+								<corpo>promozione dell'uso del compost e dei fertilizzanti organici derivanti dalla frazione organica dei rifiuti;</corpo>
+							</en>
+							<en id="art10-num4-letf-num3">
+								<num>3 -</num>
+								<corpo>promozione di tutte le iniziative atte a facilitare la commercializzazione delle materie risultanti dai processi di preselezione e di riciclaggio dei rifiuti;</corpo>
+							</en>
+							<en id="art10-num4-letf-num4">
+								<num>4 -</num>
+								<corpo>promozione e partecipazione ad iniziative per l'individuazione e la sperimentazione di tecnologie e di procedere atte a ridurre la produzione di rifiuti, a facilitare il riutilizzo di frazioni normalmente presenti nei rifiuti, ad assicurare un idoneo smaltimento delle frazioni dei rifiuti non recuperabili ed in particolare dei rifiuti tossici e nocivi;</corpo>
+							</en>
+							<en id="art10-num4-letf-num5">
+								<num>5 -</num>
+								<corpo>erogazione di servizi e prestazioni quali studi e indagini nonché attività di informazione, assistenza di interventi di smaltimento, di limitazione e di riutilizzo dei rifiuti, con particolare riferimento ai sistemi di raccolta differenziata; "</corpo>
+							</en>
+							<en id="art10-num4-letf-num6">
+								<num>6 -</num>
+								<corpo>fornitura di servizi di assistenza tecnica a soggetti pubblici e privati, compresa quella per l'accesso ai benefici previsti da programmi di sostegno finanziario comunitari e nazionali in materia di tutela, educazione e formazione ambientale" .</corpo>
+							</en>
+						</el>
+						<el id="art10-num4-letg">
+							<num>g)</num>
+							<alinea>la precisazione delle seguenti modalità operative dell'Agenzia:</alinea>
+							<ep id="art10-num4-letg-pun1">
+								<num>-</num>
+								<corpo>stipula diretta dei contratti di vendita delle materie seconde, dietro procura delle aziende produttrici;</corpo>
+							</ep>
+							<ep id="art10-num4-letg-pun2">
+								<num>-</num>
+								<corpo>pubblicazione di bollettini periodici sui flussi delle materie seconde, con particolare riferimento alla quantità, alle caratteristiche fisico-chimiche e merceologiche, ai prezzi correnti ed ai siti di produzione e di utilizzo;</corpo>
+							</ep>
+							<ep id="art10-num4-letg-pun3">
+								<num>-</num>
+								<corpo>invio, su richiesta delle singole aziende, di avvisi circa la possibilità di collocamento dei singoli rifiuti;</corpo>
+							</ep>
+							<ep id="art10-num4-letg-pun4">
+								<num>-</num>
+								<corpo>l'indicazione di criteri di determinazione del contributo da corrispondere da parte delle aziende che beneficiano dell'assistenza tecnica dell'Agenzia.</corpo>
+							</ep>
+						</el>
+					</en>
 					<comma id="art10-com5" iniziovigore="t4">
 						<num>5.</num>
 						<corpo>La Giunta regionale, previa apposita convenzione, può affidare ala Agenzia lo svolgimento di determinate attività o servizi inerenti i compiti e le finalità di cui al comma 1 del presente articolo e dell'articolo 11 ter.</corpo>

@@ -8,7 +8,8 @@
 					<entratainvigore norm="19930603" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1993-05-12;29" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1993-05-12;29@1994-11-07" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1993-05-12;29@1994-11-07" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1993-05-12;29@1995-04-04" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tutela Ambientale" />
 						<materia valore="Finanziamenti" />
@@ -18,10 +19,12 @@
 					<eventi>
 						<evento data="19930603" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19941116" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19950422" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1993-05-12;29" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1994-11-07;85" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1995-04-04;35" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -51,6 +54,42 @@
 							</dsp:norma>
 							<dsp:novella>
 								<dsp:pos xlink:href="#art4bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-04-04;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-04-04;35#art5-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 1 della legge Regione Toscana 4 aprile 1995, n. 35" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com2bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-04-04;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-04-04;35#art5-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 1 della legge Regione Toscana 4 aprile 1995, n. 35" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com2ter" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4bis" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-04-04;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-04-04;35#art6-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 6, comma 1 della legge Regione Toscana 4 aprile 1995, n. 35" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4ter" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 					</modifichepassive>
@@ -180,6 +219,18 @@
 						<num>2.</num>
 						<corpo>L'approvazione del progetto di bonifica è condizionata al previo rilascio di idonea fidejussione a favore della Regione a garanzia dell'esecuzione dell'intervento.</corpo>
 					</comma>
+					<comma id="art4-com2bis" iniziovigore="t3">
+						<num>2 bis.</num>
+						<corpo>L'importo della fidejussione è pari all'importo delle spese previste per la realizzazione dell'intervento di bonifica approvato.</corpo>
+					</comma>
+					<comma id="art4-com2ter" iniziovigore="t3">
+						<num>2 ter.</num>
+						<corpo>
+							Le Province, i Comuni, le Comunità Montane, i loro consorzi ed aziende rilasciando idonea fidejussione a favore della Regione Toscana a garanzia dell'esecuzione dell'intervento per gli importi che nel provvedimento di approvazione del progetto non risultano, dalle certificazioni di cui all'
+							<rif xlink:href="urn:nir:stato:legge:1990;142#art53" xlink:type="simple">art. 53 L. 142/90</rif>
+							, finanziati ed imputati a specifico capitolo di bilancio dell'ente.
+						</corpo>
+					</comma>
 					<comma id="art4-com3">
 						<num>3.</num>
 						<corpo>
@@ -210,7 +261,7 @@
 					</comma>
 				</articolo>
 				<articolo id="art4bis" iniziovigore="t2">
-					<num>Articolo 4bis</num>
+					<num>ARTICOLO 4bis</num>
 					<rubrica>(Procedimento particolare nel caso di realizzazione per lotti del progetto di bonifica)</rubrica>
 					<comma id="art4bis-com1">
 						<num>1.</num>
@@ -219,6 +270,14 @@
 							<rif xlink:href="urn:nir:regione.toscana:legge:1984-11-13;65#art10" xlink:type="simple">articolo 10 della legge regionale 13 novembre 1984, n. 65</rif>
 							, autorizza il Sindaco a rilasciare le concessioni edilizie e il certificato di agibilità relativo alle opere realizzate nei singoli lotti, fermo lo svincolo della fidejussione ad avvenuto completamento dell'intero progetto di bonifica.
 						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art4ter" iniziovigore="t3">
+					<num>ARTICOLO 4 ter.</num>
+					<rubrica>(approvazione per stralci funzionali dei progetti di bonifica presentati da soggetti pubblici)</rubrica>
+					<comma id="art4ter-com1">
+						<num />
+						<corpo>Per la bonifica di discariche o aree inquinate la cui responsabilità è riconducibile esclusivamente ad un soggetto pubblico, l'Amm.ne regionale, sulla base di un progetto generale, e di un piano economico-finanziario che dimostri la possibilità di coprire l'intero importo dell'intervento nel termine massimo di tre anni, può approvare, sentito il Comitato Tecnico, anche singoli stralci funzionali del progetto generale qualora sia dimostrato, che lo stralcio medesimo è efficace a ridurre l'inquinamento. Per detti progetti l'importo della fideiussione è calcolato sul progetto generale.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art5">
