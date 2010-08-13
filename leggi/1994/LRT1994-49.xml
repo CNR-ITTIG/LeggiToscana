@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19940630" num="45 bis" tipo="BURT" />
 					<entratainvigore norm="19940630" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1994-06-29;49" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1994-06-29;49" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1994-06-29;49@1995-03-23" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Usl" />
 						<materia valore="Ordinamento" />
@@ -17,11 +18,32 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19940630" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19950331" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-06-29;49" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-03-23;28" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#allegato.a" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-03-23;28" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-03-23;28#art7-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 7, comma 1 della legge Regione Toscana 23 marzo 1995, n. 28" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#ann2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#ann1-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -96,7 +118,7 @@
 							<num>1.</num>
 							<corpo>
 								Negli ambiti territoriali individuati dall'
-								<rif xlink:href="#ann1" xlink:type="simple">allegato 1</rif>
+								<rif xlink:href="#ann1-t2" xlink:type="simple">allegato 1</rif>
 								alla presente legge, della quale costituisce parte integrante, sono istituite le unità sanitarie locali, aziende aventi le caratteristiche di cui all'
 								<rif xlink:href="urn:nir:stato:decreto.legislativo:1993-12-07;517#art3-com1" xlink:type="simple">articolo 3, comma 1, del decreto delegato</rif>
 								.
@@ -154,7 +176,7 @@
 							<num>1.</num>
 							<alinea>
 								Ciascuna unità sanitaria locale si articola nelle zone individuate dall'
-								<rif xlink:href="#ann1" xlink:type="simple">allegato 1</rif>
+								<rif xlink:href="#ann1-t2" xlink:type="simple">allegato 1</rif>
 								, di cui all'
 								<rif xlink:href="#art2-com1" xlink:type="simple">articolo 2, comma 1</rif>
 								. L'ambito di ogni zona ricomprende per intero uno o più distretti. Le delimitazioni distrettuali sono quelle individuate ai sensi dell'
@@ -212,7 +234,7 @@
 								Sono aziende ospedaliere di cui all'
 								<rif xlink:href="urn:nir:stato:decreto.legislativo:1993-12-07;517#art4-com1" xlink:type="simple">articolo 4, comma 1, del decreto delegato</rif>
 								, gli ospedali indicati nell'
-								<rif xlink:href="#ann2" xlink:type="simple">allegato 2</rif>
+								<rif xlink:href="#ann3" xlink:type="simple">allegato 2</rif>
 								alla presente legge, riconosciuti ai sensi dell'
 								<rif xlink:href="urn:nir:stato:decreto.legislativo:1993-12-07;517#art4-com2" xlink:type="simple">articolo 4, comma 2, dello stesso decreto</rif>
 								.
@@ -1149,7 +1171,7 @@
 								, e
 								<rif xlink:href="urn:nir:regione.toscana:legge:1979-08-17;37" xlink:type="simple">17 agosto 1979, n. 37</rif>
 								, nel rispettivo ambito territoriale, delimitato ai sensi dell'
-								<rif xlink:href="#ann1" xlink:type="simple">allegato 1</rif>
+								<rif xlink:href="#ann1-t2" xlink:type="simple">allegato 1</rif>
 								alla presente legge; con l'avvenuto subentro, le unità sanitarie locali costituite, ai sensi delle predette leggi regionali, si intendono estinte.
 							</corpo>
 						</comma>
@@ -1178,7 +1200,7 @@
 								e n.
 								<rif xlink:href="urn:nir:regione.toscana:legge:1979-08-17;37" xlink:type="simple">37/79</rif>
 								ed operanti per intero in un medesimo ambito territoriale, tra quelli delimitati ai sensi dell'
-								<rif xlink:href="#ann1" xlink:type="simple">allegato 1</rif>
+								<rif xlink:href="#ann1-t2" xlink:type="simple">allegato 1</rif>
 								alla presente legge, sono amministrate da un unico commissario straordinario nominato dalla giunta regionale entro il trentesimo giorno suddetto, con le modalità ed i requisiti previsti per la nomina dei direttori generali di cui all'
 								<rif xlink:href="#art17" xlink:type="simple">articolo 17</rif>
 								.
@@ -1344,7 +1366,7 @@
 							<num>7.</num>
 							<corpo>
 								Alla data di entrata in vigore della presente legge, alle conferenze dei sindaci operanti presso le unità sanitarie locali, subentra una conferenza composta dai sindaci dei comuni ricompresi nello stesso ambito territoriale di cui all'
-								<rif xlink:href="#ann1" xlink:type="simple">allegato 1</rif>
+								<rif xlink:href="#ann1-t2" xlink:type="simple">allegato 1</rif>
 								. La conferenza è convocata, entro i trenta giorni successivi, dal sindaco del comune con il maggior numero di abitanti, che la presiede. Il funzionamento della conferenza è disciplinato da uno dei regolamenti scelto dalla conferenza stessa fra quelli già approvati dal consiglio regionale nel rispettivo ambito territoriale di competenza. In mancanza, si applica il regolamento del consiglio comunale del comune con il maggior numero di abitanti. Per le unità sanitarie locali di cui all'
 								<rif xlink:href="#art23-com8" xlink:type="simple">articolo 23, comma 8</rif>
 								continuano ad operare le conferenze dei sindaci ivi costituite.
@@ -1398,7 +1420,7 @@
 								Fino all'adozione di tali provvedimenti, gli ambiti di cui al
 								<rif xlink:href="#art26-com1" xlink:type="simple">comma 1</rif>
 								sono quelli definiti dall'
-								<rif xlink:href="#ann2" xlink:type="simple">allegato 1</rif>
+								<rif xlink:href="#ann3" xlink:type="simple">allegato 1</rif>
 								alla presente legge.
 							</corpo>
 						</comma>
@@ -1518,7 +1540,7 @@
 				<soggetto codice="">La presente legge è stata approvata dal Consiglio Regionale il 27-28 maggio 1994 ed è stata vistata dal Commissario del Governo il 28 Giugno 1994.</soggetto>
 			</conclusione>
 			<annessi>
-				<annesso id="ann1">
+				<annesso finevigore="t2" id="ann1-t2" iniziovigore="t1" status="abrogato">
 					<testata>
 						<denAnnesso>
 							<h:p>ALLEGATO 1</h:p>
@@ -2176,7 +2198,204 @@
 						<conclusione />
 					</DocumentoNIR>
 				</annesso>
-				<annesso id="ann2">
+				<annesso id="ann2" iniziovigore="t2">
+					<testata>
+						<denAnnesso>
+							<h:p>Allegato 1</h:p>
+						</denAnnesso>
+						<titAnnesso>
+							<h:p>Gli ambiti territoriali del SSR - Ambiti aziendali e zone socio sanitarie</h:p>
+						</titAnnesso>
+						<preAnnesso>
+							<h:p />
+						</preAnnesso>
+					</testata>
+					<DocumentoNIR nome="">
+						<meta>
+							<descrittori>
+								<pubblicazione norm="" num="" tipo="GU" />
+								<entratainvigore norm="" />
+								<redazione id="red2" nome="" norm="" />
+								<urn valore="urn:nir:regione.toscana:legge:1995-03-23;28:allegato.a" />
+							</descrittori>
+						</meta>
+						<intestazione />
+						<formulainiziale />
+						<contenitore id="con1" nome="">
+							<h:p>AZIENDA: USL 1 di MASSA E CARRARA</h:p>
+							<h:p>Zona: della Lunigiana</h:p>
+							<h:p>Comuni:</h:p>
+							<h:p>Aulla, Bagnone, Casola in Lunigiana, Comano, Filattiera, Fivizzano, Licciana Nardi, Mulazzo, Podenzana, Pontremoli, Tresana, Villafranca in Lunigiana, Zeri.</h:p>
+							<h:p>Provincia: MS Numero comuni: 13</h:p>
+							<h:p>Zona: delle Apuane:</h:p>
+							<h:p>Comuni:</h:p>
+							<h:p>Carrara, Fosdinovo, Massa, Montignoso.</h:p>
+							<h:p>Provincia: MS Numero comuni: 4</h:p>
+							<h:p>Totale numero comuni: 17</h:p>
+							<h:p>AZIENDA USL 2 di LUCCA</h:p>
+							<h:p>Zona: della Valle del Serchio:</h:p>
+							<h:p>Comuni:</h:p>
+							<h:p>Bagni di Lucca, Barga, Borgo a Mozzano, Camporgiano, Careggine, Castelnuovo di Garfagnana, Castiglione di Garfagnana, Coreglia Antelminelli, Fabbriche di Vallico, Fosciandora, Gallicano, Giuncugnano, Minucciano, Molazzana, Piazza al Serchio, Pieve Fosciana, San Romano in Garfagnana, Sillano, Vagli Sotto, Vergemoli, Villa Collemandina.</h:p>
+							<h:p>Provincia: LU Numero comuni: 21</h:p>
+							<h:p>Zona: della Piana di Lucca:</h:p>
+							<h:p>Comuni:</h:p>
+							<h:p>Altopascio, Capannori, Lucca, Montecarlo, Pescaglia, Porcari, Villa Basilica.</h:p>
+							<h:p>Provincia: LU Numero comuni: 7</h:p>
+							<h:p>Totale numero comuni: 28</h:p>
+							<h:p>AZIENDA USL 3 di PISTOIA</h:p>
+							<h:p>Zona: della Val di Nievole(1)</h:p>
+							<h:p>Comuni:</h:p>
+							<h:p>Buggiano, Chiesina Uzzanese, Lamporecchio, Larciano, Massa e Cozzile, Monsummano Terme, Montecatini Terme, Pescia, Pieve a Nievole, Ponte Buggianese, Uzzano.</h:p>
+							<h:p>Provincia: PT Numero comuni: 11</h:p>
+							<h:p>Zona: Pistoiese</h:p>
+							<h:p>Comuni:</h:p>
+							<h:p>Abetone, Agliana, Cutigliano, Marliana, Montale, Pistoia, Piteglio, Sambuca Pistoiese, San Marcello Pistoiese, Serravalle Pistoiese, Quarrata.</h:p>
+							<h:p>Provincia: PT Numero comuni: 11</h:p>
+							<h:p>Totale numero comuni: 22</h:p>
+							<h:p>(1) Area a gestione sperimentale</h:p>
+							<h:p>AZIENDA USL 4 di PRATO</h:p>
+							<h:p>Zona: Pratese</h:p>
+							<h:p>Comuni:</h:p>
+							<h:p>Cantagallo, Carmignano, Montemurlo, Poggio a Caiano, Prato, Vaiano, Vernio.</h:p>
+							<h:p>Provincia: FI Numero comuni: 7</h:p>
+							<h:p>Totale numero comuni: 7</h:p>
+							<h:p>AZIENDA USL 5 di PISA</h:p>
+							<h:p>Zona: dell'Alta Val di Cecina</h:p>
+							<h:p>Comuni:</h:p>
+							<h:p>Castelnuovo di Val di Cecina, Montecatini Val di Cecina, Pomarance, Volterra.</h:p>
+							<h:p>Provincia: PI Numero comuni: 4</h:p>
+							<h:p>Zona: della Vald'Era Comuni:</h:p>
+							<h:p>Bientina, Buti, Calcinaia, Capannoli, Casciana Terme, Chianni, Crespina, Lajatico, Lari, Palaia, Peccioli, Ponsacco, Pontedera, Santa Maria a Monte, Terricciola.</h:p>
+							<h:p>Provincia: PI Numero comuni: 15</h:p>
+							<h:p>Zona: Pisana</h:p>
+							<h:p>Comuni:</h:p>
+							<h:p>Calci, Cascina, Fauglia, Lorenzana, Orciano Pisano, Pisa, San Giuliano Terme, Vecchiano, Vicopisano.</h:p>
+							<h:p>Provincia: PI Numero comuni: 9</h:p>
+							<h:p>Totale numero comuni: 28</h:p>
+							<h:p>AZIENDA USL 6 di LIVORNO</h:p>
+							<h:p>Zona: della Bassa Val di Cecina</h:p>
+							<h:p>Comuni:</h:p>
+							<h:p>Casale Marittimo, Castellina Marittima, Guardistallo, Montescudaio, Riparbella, Santa Luce.</h:p>
+							<h:p>Provincia: PI Numero comuni: 6</h:p>
+							<h:p>Comuni:</h:p>
+							<h:p>Bibbona, Castagneto Carducci, Cecina, Rosignano Marittimo.</h:p>
+							<h:p>Provincia: LI Numero comuni: 4</h:p>
+							<h:p>Zona: della Val di Cornia (1)</h:p>
+							<h:p>Comuni:</h:p>
+							<h:p>Monteverdi Marittimo.</h:p>
+							<h:p>Provincia: PI Numero comuni: 1</h:p>
+							<h:p>Comuni:</h:p>
+							<h:p>Campiglia Marittinma, Piombino, San Vincenzo, Sassetta, Suvereto.</h:p>
+							<h:p>Provincia: LI Numero comuni: 5</h:p>
+							<h:p>Zona: dell'Elba(1)</h:p>
+							<h:p>Comuni:</h:p>
+							<h:p>Campo nell'Elba, Capoliveri, Marciana, Marciana Marina, Porto Azzurro, Portoferraio, Rio Marina, Rio nell'Elba.</h:p>
+							<h:p>Provincia: LI Numero comuni: 8</h:p>
+							<h:p>Zona Livornese</h:p>
+							<h:p>Comuni:</h:p>
+							<h:p>Capraia Isola, Collesalvetti, Livorno.</h:p>
+							<h:p>Provincia: LI Numero comuni: 3</h:p>
+							<h:p>Totale numero comuni: 27</h:p>
+							<h:p>(1) Area a gestione sperimentale unificata</h:p>
+							<h:p>AZIENDA USL 7 di SIENA</h:p>
+							<h:p>Zona: dell'Alta Val d'Elsa</h:p>
+							<h:p>Comuni:</h:p>
+							<h:p>Casole d'Elsa, Colle di Val d'Elsa, Poggibonsi, Radicondoli, San Gimignano.</h:p>
+							<h:p>Provincia: SI Numero comuni:5</h:p>
+							<h:p>Zona: della Val di Chiana Senese</h:p>
+							<h:p>Comuni:</h:p>
+							<h:p>Cetona, Chianciano Terme, Chiusi, Montepulciano, Pienza, San Casciano dei Bagni, Sarteano, Sinalunga, Torrita di Siena, Trequanda.</h:p>
+							<h:p>Provincia: SI Numero comuni: 10</h:p>
+							<h:p>Zona: dell'Amiata Senese</h:p>
+							<h:p>Comuni:</h:p>
+							<h:p>Abbadia San Salvatore, Castiglione d'Orcia, Piancastagnaio, Radicofani.</h:p>
+							<h:p>Provincia: SI Numero comuni: 4</h:p>
+							<h:p>Zona: Senese</h:p>
+							<h:p>Comuni:</h:p>
+							<h:p>Asciano, Buonconvento, Castellina in Chianti, Castelnuovo Berardenga, Chiusdino, Gaiole in Chianti, Montalcino, Monteriggioni, Monteroni d'Arbia, Monticiano, Murlo, Radda in Chianti, Rapolano Terme, San Giovanni d'Asso, San Quirico d'Orcia, Siena, Sovicille.</h:p>
+							<h:p>Provincia: SI Numero comuni: 17</h:p>
+							<h:p>Totale numero comuni: 36</h:p>
+							<h:p>AZIENDA USL 8 di AREZZO</h:p>
+							<h:p>Zona: del Casentino</h:p>
+							<h:p>Comuni:</h:p>
+							<h:p>Bibbiena, Castelfocognano, Castel San Niccolò, Chitignano, Chiusi della Verna, Montemignaio, Ortignano Raggiolo, Poppi, Pratovecchio, Stia, Talla.</h:p>
+							<h:p>Provincia: AR Numero comuni: 11</h:p>
+							<h:p>Zona: della Val Tiberina</h:p>
+							<h:p>Comuni:</h:p>
+							<h:p>Anghiari, Badia Tebalda, Caprese Michelangelo, Monterchi, Pieve Santo Stefano, Sansepolcro, Sestino.</h:p>
+							<h:p>Provincia: AR Numero comuni: 7</h:p>
+							<h:p>Zona: del Valdarno (1)</h:p>
+							<h:p>Comuni:</h:p>
+							<h:p>Bucine, Castelfranco di Sopra, Cavriglia, Laterina, Loro Ciuffenna, Montevarchi, Pergine Valdarno, Pian di Scò, San Giovanni Valdarno, Terranuova Bracciolini.</h:p>
+							<h:p>Provincia: AR Numero comuni: 10</h:p>
+							<h:p>Zona: della Val di Chiana Aretina</h:p>
+							<h:p>Comuni:</h:p>
+							<h:p>Castiglion Fiorentino, Cortona, Foiano della Chiana, Lucignano, Marciano della Chiana.</h:p>
+							<h:p>Provincia: AR Numero comuni: 5</h:p>
+							<h:p>Zona: Aretina</h:p>
+							<h:p>Comuni:</h:p>
+							<h:p>Arezzo, Capolona, Castiglion Fibocchi, Civitella in Val di Chiana, Monte San Savino, Subbiano.</h:p>
+							<h:p>Provincia: Ar Numero comuni: 6</h:p>
+							<h:p>Totale numero comuni: 39</h:p>
+							<h:p>(1) Area a gestione sperimentale</h:p>
+							<h:p>AZIENDA USL 9 di GROSSETO</h:p>
+							<h:p>Zona: delle Colline Metallifere</h:p>
+							<h:p>Comuni:</h:p>
+							<h:p>Follonica, Gavorrano, Massa Marittima, Monterotondo Marittimo, Montieri, Scarlino.</h:p>
+							<h:p>Provincia: GR Numero comuni: 6</h:p>
+							<h:p>Zona: delle Colline dell'Albegna</h:p>
+							<h:p>Comuni:</h:p>
+							<h:p>Capalbio, Isola del Giglio, Magliano in Toscana, Manciano, Monte Argentario, Orbetello, Pitigliano, Sorano.</h:p>
+							<h:p>Provincia: GR Numero comuni: 8</h:p>
+							<h:p>Zona: dell'Amiata Grossetana</h:p>
+							<h:p>Comuni:</h:p>
+							<h:p>Arcidosso, Castel del Piano, Castell'Azzara, Roccalbegna, Santa Fiora, Seggiano, Semproniano.</h:p>
+							<h:p>Provincia: GR Numero comuni: 7</h:p>
+							<h:p>Zona: Grossetana</h:p>
+							<h:p>Comuni:</h:p>
+							<h:p>Campagnatico, Castiglion della Pescaia, Cinigiano, Civitella Paganico, Grosseto, Roccastrada, Scansano.</h:p>
+							<h:p>Provincia: GR Numero comuni: 7</h:p>
+							<h:p>Totale numero comuni: 28</h:p>
+							<h:p>AZIENDA USL 10 di FIRENZE</h:p>
+							<h:p>Zona: Firenze</h:p>
+							<h:p>Comuni:</h:p>
+							<h:p>Firenze</h:p>
+							<h:p>Provincia: FI Numero comuni: 1</h:p>
+							<h:p>Zona: Fiorentina Nord-Ovest</h:p>
+							<h:p>Comuni:</h:p>
+							<h:p>Calenzano, Campi Bisenzio, Fiesole, Lastra a Signa, Scandicci, Sesto Fiorentino, Signa, Vaglia.</h:p>
+							<h:p>Provincia: FI Numero comuni: 8</h:p>
+							<h:p>Zona: Fiorentina Sud-Est</h:p>
+							<h:p>Comuni:</h:p>
+							<h:p>Bagno a Ripoli, Barberino Val d'Elsa, Figline Valdarno, Greve in Chianti, Impruneta, Incisa, Pelago, Pontassieve, Reggello, Rignano sull'Arno, Rufina, San Casciano Val di Pesa, Tavarnelle Val di Pesa.</h:p>
+							<h:p>Provincia: FI Numero comuni: 13</h:p>
+							<h:p>Zona: del Mugello</h:p>
+							<h:p>Comuni:</h:p>
+							<h:p>Barberino di Mugello, Borgo San Lorenzo, Dicomano, Firenzuola, Londa, Marradi, Palazzuolo sul Senio, San Godenzo, San Piero a Sieve, Scarperia, Vicchio.</h:p>
+							<h:p>Provincia: FI Numero comuni: 11</h:p>
+							<h:p>Totale numero comuni: 33</h:p>
+							<h:p>AZIENDA USL 11 di EMPOLI</h:p>
+							<h:p>Zona: Empolese</h:p>
+							<h:p>Comuni:</h:p>
+							<h:p>Capraia e Limite, Castelfiorentino, Cerreto Guidi, Certaldo, Empoli, Gambassi Terme, Montaione, Montelupo Fiorentino, Montespertoli, Vinci.</h:p>
+							<h:p>Provincia: FI Numero comuni: 10</h:p>
+							<h:p>Zona: Valdarno Inferiore</h:p>
+							<h:p>Comuni:</h:p>
+							<h:p>Fucecchio Provincia: FI Numero comuni: 1</h:p>
+							<h:p>Comuni:</h:p>
+							<h:p>Castelfranco di Sotto, Montopoli in Val d'Arno, San Miniato, Santa Croce sull'Arno.</h:p>
+							<h:p>Provincia: PI Numero comuni: 4</h:p>
+							<h:p>Totale numero comuni: 15</h:p>
+							<h:p>Azienda USL 12 di Viareggio Zona: della Versilia</h:p>
+							<h:p>Comuni:</h:p>
+							<h:p>Camaiore, Forte dei Marmi. Massarosa, Pietrasanta, Seravezza, Stazzema, Viareggio.</h:p>
+							<h:p>Provincia: LU Numero comuni: 7 Totale numero comuni: 7</h:p>
+						</contenitore>
+						<formulafinale />
+						<conclusione />
+					</DocumentoNIR>
+				</annesso>
+				<annesso id="ann3">
 					<testata>
 						<denAnnesso>
 							<h:p>ALLEGATO 2</h:p>
@@ -2193,7 +2412,7 @@
 							<descrittori>
 								<pubblicazione norm="" num="" tipo="GU" />
 								<entratainvigore norm="" />
-								<redazione id="red3" nome="" norm="" />
+								<redazione id="red4" nome="" norm="" />
 								<urn valore="urn:nir:regione.toscana:legge:1994-06-29;49:allegato.b" />
 							</descrittori>
 						</meta>
@@ -2201,7 +2420,7 @@
 							<titoloDoc>LE AZIENDE REGIONALI OSPEDALIERE E GLI OSPEDALI GESTITI</titoloDoc>
 						</intestazione>
 						<formulainiziale />
-						<contenitore id="con13" nome="">
+						<contenitore id="con25" nome="">
 							<h:p />
 							<h:p>
 								AZIENDA OSPEDALIERA PISANA
