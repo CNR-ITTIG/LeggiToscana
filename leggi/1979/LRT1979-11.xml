@@ -8,7 +8,8 @@
 					<entratainvigore norm="19790331" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1979-03-08;11" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1979-03-08;11@1980-05-15" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1979-03-08;11@1980-05-15" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1979-03-08;11@1995-04-08" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ordinamento" />
 						<materia valore="Organi" />
@@ -18,10 +19,12 @@
 					<eventi>
 						<evento data="19790331" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19800607" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19950503" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1979-03-08;11" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1980-05-15;55" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1995-04-08;45" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -35,9 +38,24 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art10bis" xlink:type="simple" />
+								<dsp:pos xlink:href="#art10bis-t3" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art10bis" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-04-08;45" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-04-08;45#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 8 aprile 1995, n. 45" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art10bis" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art10bis-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -270,15 +288,34 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art10bis" iniziovigore="t2">
+				<articolo finevigore="t3" id="art10bis-t3" iniziovigore="t2" status="abrogato">
 					<num>ARTICOLO 10-bis</num>
-					<comma id="art10bis-com1">
+					<comma id="art10bis-t3-com1">
 						<num />
 						<corpo>I nominati o designati di cui alla presente legge cessano dall'incarico allo scadere di ogni legislatura regionale, salvo le diverse disposizioni previste dalle rispettive leggi istitutive. Continuano comunque a svolgere le proprie funzioni fino a quando gli organi regionali non abbiano provveduto alla nuova nomina o designazione.</corpo>
 					</comma>
-					<comma id="art10bis-com2">
+					<comma id="art10bis-t3-com2">
 						<num />
 						<corpo>Gli organi regionali provvedono, in ciascuna legislatura, alle nomine o designazioni di loro competenza entro tre mesi dal loro insediamento. I nominati o designati possono essere confermati.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art10bis" iniziovigore="t3">
+					<num>ARTICOLO 10-bis</num>
+					<comma id="art10bis-com1">
+						<num>1.</num>
+						<corpo>Le nomine o designazioni di cui alla presente legge, la cui durata coincide con la legislatura regionale, scadono il centoventesimo giorno successivo alla prima seduta del Consiglio regionale ovvero alla elezione della Giunta, secondo le rispettive competenze."</corpo>
+					</comma>
+					<comma id="art10bis-com2">
+						<num>2.</num>
+						<corpo>Gli organi regionali provvedono in ciascuna legislatura alle nomine e designazioni di competenza di norma entro centoventi giorni dal loro insediamento. I soggetti nominati o designati possono essere confermati.</corpo>
+					</comma>
+					<comma id="art10bis-com3">
+						<num>3.</num>
+						<corpo>
+							Resta ferma la disciplinatransitoria di cui alla
+							<rif xlink:href="urn:nir:regione.toscana:legge:1992-12-30;61" xlink:type="simple">LR 30 dicembre 1992, n. 61</rif>
+							.
+						</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art11">
