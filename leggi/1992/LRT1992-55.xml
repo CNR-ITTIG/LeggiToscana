@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19921228" num="73" tipo="BURT" />
 					<entratainvigore norm="19930112" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1992-12-17;55" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1992-12-17;55" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1992-12-17;55@1995-04-11" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Opere Pubbliche" />
 						<materia valore="Attività Estrattive" />
@@ -16,11 +17,41 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19930112" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19950418" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1992-12-17;55" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-04-11;48" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com1-leta" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-04-11;48" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-04-11;48#art6-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 6, comma 2 della legge Regione Toscana 11 aprile 1995, n. 48" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com1-leta-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-04-11;48" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-04-11;48#art6-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 6, comma 2 della legge Regione Toscana 11 aprile 1995, n. 48" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -59,7 +90,7 @@
 					<comma id="art2-com1">
 						<num>1.</num>
 						<alinea>Sono soggette alla presente legge le opere pubbliche la cui esecuzione è sottoposta a:</alinea>
-						<el id="art2-com1-leta">
+						<el finevigore="t2" id="art2-com1-leta-t2" iniziovigore="t1" status="abrogato">
 							<num>a)</num>
 							<corpo>
 								intese di cui all'
@@ -181,10 +212,10 @@
 						<corpo>Il progetto deve essere corredato da pareri e dalle autorizzazioni delle amministrazioni preposte alla tutela ambientale, paesaggistico - territoriale e della salute dei cittadini, se necessarie a norma della legislazione vigente.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art3">
+				<articolo finevigore="t2" id="art3-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 3</num>
 					<rubrica>(Opere pubbliche di interesse statale)</rubrica>
-					<comma id="art3-com1">
+					<comma id="art3-t2-com1">
 						<num>1.</num>
 						<corpo>
 							La Regione, anche nella espressione dei pareri di competenza o nella stipulazione di convenzioni relative ad opere pubbliche da eseguirsi da amministrazioni statali e nell'espressione del parere previsto all'
