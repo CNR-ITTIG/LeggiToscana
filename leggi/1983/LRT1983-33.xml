@@ -10,7 +10,8 @@
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1983-05-18;33" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1983-05-18;33@1990-04-21" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1983-05-18;33@1992-03-11" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1983-05-18;33@1993-08-05" />
+					<urn finevigore="t6" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1983-05-18;33@1993-08-05" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1983-05-18;33@1995-04-13" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Trasporti" />
 					</materie>
@@ -22,6 +23,7 @@
 						<evento data="19920403" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19930828" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="19940818" fonte="rp4" id="t5" tipo="modifica" />
+						<evento data="19950503" fonte="rp5" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1983-05-18;33" xlink:type="simple" />
@@ -29,6 +31,7 @@
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1992-03-11;7" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1993-08-05;47" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1993-08-05;47" xlink:type="simple" />
+						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1995-04-13;58" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -38,6 +41,13 @@
 							<rif xlink:href="urn:nir:regione.toscana:legge:1993-08-05;47#art7-com1" xlink:type="simple">art. 7, comma 1, della legge regionale 5 agosto 1993 n. 47</rif>
 							, le disposizioni del presente articolo si applicano a decorrere dal sessantesimo giorno successivo a quello della pubblicazione sul BURT della deliberazione consiliare cui si fa riferimento al
 							<rif xlink:href="#art16-com6" xlink:type="simple">sesto comma dell'articolo stesso</rif>
+							.
+						</h:p>
+					</nota>
+					<nota id="n2">
+						<h:p>
+							Relativamente l'applicazione del presente articolo si veda anche l'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1995-04-13;58#art2" xlink:type="simple">art. 2 della legge regionale 13 aprile 1995, n. 58</rif>
 							.
 						</h:p>
 					</nota>
@@ -218,12 +228,24 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art16-com3-letdbis" xlink:type="simple" />
+								<dsp:pos xlink:href="#art16-com3-letd" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art16-com3-letd-t5" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art17" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-04-13;58" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-04-13;58#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 13 aprile 1995, n. 58" id="itt14" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art17bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -734,7 +756,7 @@
 									;
 								</corpo>
 							</el>
-							<el id="art16-com3-letdbis" iniziovigore="t5">
+							<el id="art16-com3-letd" iniziovigore="t5">
 								<num>d)</num>
 								<corpo>
 									ai soggetti privi della vista e sordomuti di cui agli
@@ -826,6 +848,42 @@
 						<comma id="art17-com2">
 							<num />
 							<corpo>L'Ente locale può deliberare concessioni di viaggio gratuite o ridotte per determinare categorie di utenti provvedendo a rimborsare all'azienda la differenza del prezzo di ogni documento di viaggio.</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art17bis" iniziovigore="t6">
+						<num>
+							Art. 17 bis
+							<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+						</num>
+						<rubrica />
+						<comma id="art17bis-com1">
+							<num>1.</num>
+							<corpo>A bordo dei mezzi in servizio di trasporto pubblico locale è obbligatoria la vendita dei biglietti per corsa semplice; ove, sui servizi urbani, i biglietti per corsa semplice siano sostituiti con biglietti a tempo, è obbligatoria la vendita di questi ultimi.</corpo>
+						</comma>
+						<comma id="art17bis-com2">
+							<num>2.</num>
+							<corpo>Sui mezzi in servizio urbano, la vendita di cui al comma 1 del presente articolo, è obbligatoria dalle ore ventuno alle ore sei.</corpo>
+						</comma>
+						<comma id="art17bis-com3">
+							<num>3.</num>
+							<alinea>Al prezzo dei biglietti venduti a bordo possono essere applicate le seguenti maggiorazioni:</alinea>
+							<el id="art17bis-com3-leta">
+								<num>a)</num>
+								<corpo>servizio urbano: fino ad un massimo di lire mille;</corpo>
+							</el>
+							<el id="art17bis-com3-letb">
+								<num>b)</num>
+								<corpo>servizi extraurbani: fino ad un massimo del 30% calcolato sul prezzo dei biglietti venduti a terra.</corpo>
+							</el>
+							<coda>Il prezzo dei biglietti maggiorati ai sensi delle precedenti lettere può essere arrotondato alle mille lire superiori.</coda>
+						</comma>
+						<comma id="art17bis-com4">
+							<num>4.</num>
+							<corpo>
+								Sui servizi urbani l'entità della maggiorazione di cui al precedente comma è stabilita dai Comuni competenti all'esercizio delle funzioni amministrative relative ai servizi medesimi; sui servizi extraurbani l'entità della maggiorazione è stabilita dalle aziende di trasporto, che debbono darne comunicazione agli Enti esercenti le funzioni di vigilanza ai sensi dell'
+								<rif xlink:href="urn:nir:regione.toscana:legge:1984-02-28;14#art15" xlink:type="simple">art. 15 della LR 28.2.1984, n. 14</rif>
+								, almeno 15 giorni prima dell'adozione del provvedimento.
+							</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art17bis" iniziovigore="t3">
