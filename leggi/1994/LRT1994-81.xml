@@ -8,7 +8,8 @@
 					<entratainvigore norm="19941122" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t10" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1994-10-04;81" />
-					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1994-10-04;81@1994-11-07" />
+					<urn finevigore="t11" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1994-10-04;81@1994-11-07" />
+					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1994-10-04;81@1995-04-12" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Ente Regione" />
@@ -26,6 +27,7 @@
 						<evento data="19941122" fonte="ra7" id="t8" tipo="modifica" />
 						<evento data="19941122" fonte="ra8" id="t9" tipo="modifica" />
 						<evento data="19941201" fonte="rp1" id="t10" tipo="modifica" />
+						<evento data="19950503" fonte="rp2" id="t11" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-10-04;81" xlink:type="simple" />
@@ -38,8 +40,18 @@
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:1991-11-14;53" xlink:type="simple" />
 						<attiva id="ra8" xlink:href="urn:nir:regione.toscana:legge:1991-11-14;54" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1994-11-07;82" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1995-04-12;56" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Ad integrazione della presente si veda la
+							<rif xlink:href="urn:nir:regione.toscana:legge:1995-04-12;56" xlink:type="simple">legge regionale 12 aprile 1995, n. 56</rif>
+							.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:abrogazione completa="si" implicita="no">
@@ -122,6 +134,15 @@
 								<dsp:pos xlink:href="#art30-com4-t10" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:termine da="#t11" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-04-12;56" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-04-12;56#mod1" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:variazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -134,7 +155,9 @@
 				<titoloDoc>
 					Recepimento del
 					<rif xlink:href="urn:nir:stato:decreto.legislativo:1993-02-03;29" xlink:type="simple">decreto legislativo 3 febbraio 1993, n. 29</rif>
-					. Modifiche all'ordinamento della dirigenza e della struttura operativa regionale.
+					. Modifiche all'ordinamento della dirigenza e della struttura operativa regionale
+					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					.
 				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
