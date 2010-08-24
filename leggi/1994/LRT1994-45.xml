@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19940623" num="43" tipo="BURT" />
 					<entratainvigore norm="19940708" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1994-06-16;45" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1994-06-16;45" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1994-06-16;45@1995-04-14" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Organi" />
@@ -16,11 +17,71 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19940708" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19950421" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-06-16;45" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-04-14;61" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-04-14;61" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-04-14;61#art15-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 15, comma 1 della legge Regione Toscana 14 aprile 1995, n. 61" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art13-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art13-com1-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-04-14;61" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-04-14;61#art15-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 15, comma 2 della legge Regione Toscana 14 aprile 1995, n. 61" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art13-com1bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-04-14;61" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-04-14;61#art15-com3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 15, comma 3 della legge Regione Toscana 14 aprile 1995, n. 61" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art13-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art13-com2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13-com5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-04-14;61" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-04-14;61#art15-com4" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 15, comma 4 della legge Regione Toscana 14 aprile 1995, n. 61" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art13-com5-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -358,13 +419,25 @@
 				<articolo id="art13">
 					<num>ARTICOLO 13</num>
 					<rubrica>(Oneri finanziari)</rubrica>
-					<comma id="art13-com1">
+					<comma finevigore="t2" id="art13-com1-t2" iniziovigore="t1" status="abrogato">
 						<num>1.</num>
 						<corpo>Gli oneri finanziari relativi al compimento degli atti o attività del commissario, nonché gli oneri finanziari relativi ai compensi e alle spese della gestione commissariale sono a carico degli specifici stanziamenti disposti, ai sensi della vigente normativa, per la realizzazione dei corrispondenti interventi.</corpo>
 					</comma>
-					<comma id="art13-com2">
+					<comma id="art13-com1" iniziovigore="t2">
+						<num>1.</num>
+						<corpo>Gli oneri finanziari relativi al compimento degli atti o attività del Commissario sono a carico degli specifici stanziamenti disposti, ai sensi della vigente normativa, per la realizzazione dei corrispondenti interventi.</corpo>
+					</comma>
+					<comma id="art13-com1bis" iniziovigore="t2">
+						<num>1 bis.</num>
+						<corpo>Gli oneri finanziari relativi ai compensi e alle spese di gestione commissariale sono posti a carico del capitolo 12661 del bilancio di previsione 1995 sempre che le attività inerenti la gestione si riferiscano ad interventi derivanti da funzioni amministrative di competenza regionale anche se delegate dalla Regione ad Enti Locali. Sono altresì posti a carico del cap. 12661 del bilancio di previsione 1995 gli oneri di cui al successivo terzo comma, per la quota parte riferita ai compensi e alle spese di gestione Commissariale.</corpo>
+					</comma>
+					<comma finevigore="t2" id="art13-com2-t2" iniziovigore="t1" status="abrogato">
 						<num>2.</num>
 						<corpo>In assenza di specifici stanziamenti, gli oneri finanziari sono a carico dei bilanci delle amministrazioni o degli enti competenti in via ordinaria al compimento degli atti o delle attività del commissario.</corpo>
+					</comma>
+					<comma id="art13-com2" iniziovigore="t2">
+						<num>2.</num>
+						<corpo>Gli oneri finanziari relativi ai compensi e alle spese della gestione commissariale non imputabili al finanziamento a carico del bilancio regionale ai sensi del I comma bis sono a carico del bilancio delle amministrazioni o degli enti competenti in via ordinaria al compimento degli atti o delle attività del Commissario.</corpo>
 					</comma>
 					<comma id="art13-com3">
 						<num>3.</num>
@@ -374,7 +447,7 @@
 						<num>4.</num>
 						<corpo>Qualora il commissario operi per il compimento di atti di un consorzio o di altra forma associativa tra enti locali, la spesa può essere ripartita tra i singoli enti associati, in proporzione alla quota di partecipazione, ovvero, in via subordinata, in proporzione al numero dei residenti nell'ambito del territorio degli enti locali interessati.</corpo>
 					</comma>
-					<comma id="art13-com5">
+					<comma finevigore="t2" id="art13-com5-t2" iniziovigore="t1" status="abrogato">
 						<num>5.</num>
 						<corpo>In via eccezionale, e limitatamente ai compensi e alle spese della gestione commissariale, la giunta regionale può assumere i relativi oneri a carico del bilancio regionale, nell'ambito degli stanziamenti appositamente previsti.</corpo>
 					</comma>
