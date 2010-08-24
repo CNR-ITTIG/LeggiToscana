@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19950120" num="6" tipo="BURT" />
 					<entratainvigore norm="19950204" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1995-01-16;5" />
+					<urn finevigore="t69" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1995-01-16;5" />
+					<urn iniziovigore="t69" valore="urn:nir:regione.toscana:legge:1995-01-16;5@1995-04-13" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Urbanistica" />
 						<materia valore="Tutela Ambientale" />
@@ -83,6 +84,7 @@
 						<evento data="19950204" fonte="ra65" id="t66" tipo="modifica" />
 						<evento data="19950204" fonte="ra66" id="t67" tipo="modifica" />
 						<evento data="19950204" fonte="ra67" id="t68" tipo="modifica" />
+						<evento data="19950418" fonte="rp1" id="t69" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple" />
@@ -153,6 +155,7 @@
 						<attiva id="ra65" xlink:href="urn:nir:regione.toscana:legge:1988-03-12;17" xlink:type="simple" />
 						<attiva id="ra66" xlink:href="urn:nir:regione.toscana:legge:1994-05-23;39" xlink:type="simple" />
 						<attiva id="ra67" xlink:href="urn:nir:regione.toscana:legge:1994-10-17;76" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-04-13;59" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -926,6 +929,20 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art37-com6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-04-13;59" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-04-13;59#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 13 aprile 1995, n. 59" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -2772,6 +2789,11 @@
 								Per le modificazioni agli atti del QRCT e al perimetro delle aree protette, fino all'approvazione del PTC o degli atti di cui all'
 								<rif xlink:href="#art38" xlink:type="simple">articolo 38</rif>
 								, continuano ad applicarsi le disposizioni vigenti all'entrata in vigore della presente legge.
+								<h:span id="h1" iniziovigore="t69">
+									Continuano altresì ad applicarsi, fino all'approvazione del PTG, le sanzioni previste dalla
+									<rif xlink:href="urn:nir:regione.toscana:legge:1982-06-29;52" xlink:type="simple">legge regionale 29 giugno1982, n. 52</rif>
+									e succ. mod. per violazioni alla disciplina del sistema regionale delle aree protette.
+								</h:span>
 							</corpo>
 						</comma>
 					</articolo>
