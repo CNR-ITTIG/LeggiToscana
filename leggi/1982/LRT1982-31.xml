@@ -11,7 +11,8 @@
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1982-04-13;31@1983-03-09" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1982-04-13;31@1984-11-12" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1982-04-13;31@1988-12-17" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1982-04-13;31@1995-01-16" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1982-04-13;31@1995-01-16" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1982-04-13;31@1995-04-14" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tutela ambientale" />
 						<materia valore="Credito" />
@@ -25,6 +26,7 @@
 						<evento data="19841206" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19890106" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="19950204" fonte="rp4" id="t5" tipo="modifica" />
+						<evento data="19950506" fonte="rp5" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1982-04-13;31" xlink:type="simple" />
@@ -32,6 +34,7 @@
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1984-11-12;64" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1988-12-17;92" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple" />
+						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1995-04-14;64" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -41,7 +44,9 @@
 							<rif xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41" xlink:type="simple">articolo 41 della legge regionale 16 gennaio 1995, n. 5</rif>
 							fatto salvo quanto previsto dall’
 							<rif xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art37" xlink:type="simple">articolo 37</rif>
-							della medesima legge.
+							della medesima legge. Il presente articolo è stato nuovamente abrogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1995-04-14;64#art10-com1" xlink:type="simple">art. 10, comma 1 della legge regionale 14 aprile1995, n. 64</rif>
+							.
 						</h:p>
 					</nota>
 				</redazionale>
@@ -101,7 +106,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art9bis-t5" xlink:type="simple" />
+								<dsp:pos xlink:href="#art9bis-t6" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -275,9 +280,36 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#art9bis-t5" xlink:type="simple" />
+								<dsp:pos xlink:href="#art9bis-t6" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9bis" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-04-14;64" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-04-14;64#art10-com1-letc" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 10, comma 1, lettera c) della legge Regione Toscana 14 aprile 1995, n. 64" id="itt17" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art9bis-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com2-num6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-04-14;64" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-04-14;64#art11-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 11, comma 2 della legge Regione Toscana 14 aprile 1995, n. 64" id="itt18" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6-com2-num6" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art6-com2-num6-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -616,12 +648,20 @@
 							<num>5)</num>
 							<corpo>estratto di mappa relativo alle particelle sulle quali saranno eseguite le opere;</corpo>
 						</en>
-						<en id="art6-com2-num6">
+						<en finevigore="t6" id="art6-com2-num6-t6" iniziovigore="t1" status="abrogato">
 							<num>6)</num>
 							<corpo>
 								piano di utilizzazione aziendale (nei casi in cui è prescritta la concessione edilizia) previsto dalla
 								<rif xlink:href="urn:nir:regione.toscana:legge:1979-02-19;10" xlink:type="simple">legge regionale 19 febbraio 1979, n. 10</rif>
 								, e successive modificazioni ed integrazioni, concernente norme urbanistiche transitorie nelle zone agricole.
+							</corpo>
+						</en>
+						<en id="art6-com2-num6" iniziovigore="t6">
+							<num>6)</num>
+							<corpo>
+								programma di miglioramento agricolo ambientale (nei casi in cui è prescritta la concessione edilizia) previsto dall'
+								<rif xlink:href="urn:nir:regione.toscana:legge:14949048-04-14;64#art5" xlink:type="simple">art. 5 della LR 14.4.95 n. 64</rif>
+								concernente la disciplina degli interventi di trasformazione urbanistica ed edilizia nelle zone con prevalente funzione agricola.
 							</corpo>
 						</en>
 					</comma>
@@ -753,10 +793,10 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo finevigore="t5" id="art9bis-t5" iniziovigore="t3" status="abrogato">
+				<articolo finevigore="t6" id="art9bis-t6" iniziovigore="t3" status="abrogato">
 					<num>Art. 9-bis</num>
 					<rubrica>(Approvazione delle varianti urbanistiche)</rubrica>
-					<comma id="art9bis-t5-com1">
+					<comma id="art9bis-t6-com1">
 						<num />
 						<corpo>
 							Le varianti agli strumenti urbanistici che si rendono necessarie per l'applicazione dell'
