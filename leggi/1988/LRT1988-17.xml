@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t3" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19880322" num="17" tipo="BURT" />
 					<entratainvigore norm="19880406" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1988-03-12;17" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1988-03-12;17@1995-01-16" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1988-03-12;17@1995-01-16" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1988-03-12;17@1995-04-18" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Nomadi" />
 					</materie>
@@ -17,14 +18,16 @@
 					<eventi>
 						<evento data="19880406" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19950204" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19950513" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1988-03-12;17" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1995-04-18;73" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Abrogazione ai sensi dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41" xlink:type="simple">articolo 41 della legge regionale 16 gennaio 1995, n. 5</rif>
@@ -37,7 +40,7 @@
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art5-com2" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41-com1-pun21" xlink:type="simple" />
 								<dsp:subarg>
@@ -46,6 +49,18 @@
 							</dsp:norma>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art5-com2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1988-03-12;17" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-04-18;73" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-04-18;73#art17-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 17, comma 2 della legge Regione Toscana 18 aprile 1995, n. 73" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>
@@ -66,7 +81,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>Tutela dei Rom, allestimento campi sosta e programmi di intervento</rubrica>
 					<articolo id="art1">
@@ -132,7 +147,7 @@
 							<num>2.</num>
 							<corpo>
 								L'area da adibire a campo di sosta deve essere classificata come zona F di cui all'art. 2 del DM 2 aprile 1968. Qualora il Comune intenda adibire a tale scopo area con diversa classificazione, si rende necessaria l'approvazione di apposita motivata variante allo strumento urbanistico generale nella quale si devono rispettare i criteri espressi nel comma precedente.
-								<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+								<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 							</corpo>
 						</comma>
 						<comma id="art5-com3">
@@ -365,7 +380,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>TRANSITO DI ORGANIZZAZIONE PER I CAMPI DI TRANSITO E PER SEDENTARIZZATI DESTINATI ALLA POPOLAZIONE ROM</rubrica>
 					<articolo id="art13">
