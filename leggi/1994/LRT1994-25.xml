@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19940401" num="23" tipo="BURT" />
 					<entratainvigore norm="19940416" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1994-03-23;25" />
+					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1994-03-23;25" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1994-03-23;25@1995-04-18" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Infanzia" />
 						<materia valore="Finanziamenti" />
@@ -16,11 +17,48 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19940416" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19940416" fonte="ra1" id="t2" tipo="modifica" />
+						<evento data="19950513" fonte="rp1" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-03-23;25" xlink:type="simple" />
+						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1990-04-14;45" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-04-18;74" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modificheattive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#mod1" xlink:type="simple" />
+							<dsp:termine da="#t2" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1990-04-14;45" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1990-04-14;45" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:subarg>
+									<ittig:tipo valore="atto" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-04-18;74" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-04-18;74#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 18 aprile 1995, n. 74" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -37,295 +75,156 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
-					<num>TITOLO I</num>
-					<articolo id="art1">
-						<num>ARTICOLO 1</num>
-						<rubrica>(Stagione venatoria e giornate di caccia)</rubrica>
-						<comma id="art1-com1">
-							<num>1.</num>
-							<corpo>La stagione venatoria ha inizio il 20/9/1998 e termina il 31/01/1999.</corpo>
-						</comma>
-						<comma id="art1-com2">
-							<num>2.</num>
-							<corpo>Per l'intera stagione venatoria la caccia è consentita tre giorni per ogni settimana, che il titolare della licenza può scegliere fra quelli di lunedì, mercoledì, giovedì, sabato e domenica.</corpo>
-						</comma>
-						<comma id="art1-com3">
-							<num>3.</num>
-							<corpo>Nel periodo dal 1 ottobre al 30 novembre 1998, fermo restando il divieto di caccia nei giorni di martedì e venerdì è consentito ad ogni cacciatore, per la caccia da appostamento alla selvaggina migratoria, di usufruire anche in modo continuativo delle giornate di caccia a propria disposizione per l'intera stagione venatoria.</corpo>
-						</comma>
-					</articolo>
-					<articolo id="art2">
-						<num>ARTICOLO 2</num>
-						<rubrica>(Giornata venatoria)</rubrica>
-						<comma id="art2-com1">
-							<num>1.</num>
-							<alinea>L'esercizio venatorio è consentito da un'ora prima del sorgere del sole fino al tramonto secondo i seguenti specifici orari:</alinea>
-							<el id="art2-com1-leta">
-								<num>a)</num>
-								<corpo>dal 20 al 30 settembre: dalle ore 6,00 alle ore 19,00 (ora legale);</corpo>
-							</el>
-							<el id="art2-com1-letb">
-								<num>b)</num>
-								<corpo>dal 1 ottobre al 15 ottobre: dalle ore 6,30 alle ore 18,30 (ora legale);</corpo>
-							</el>
-							<el id="art2-com1-letc">
-								<num>c)</num>
-								<corpo>dal 16 ottobre al 25 ottobre: dalle ore 6,45 alle ore 18,15 (ora legale);</corpo>
-							</el>
-							<el id="art2-com1-letd">
-								<num>d)</num>
-								<corpo>dal 26 ottobre al 31 ottobre: dalle ore 6,00 alle ore 17,00;</corpo>
-							</el>
-							<el id="art2-com1-lete">
-								<num>e)</num>
-								<corpo>dal 1 novembre al 15 novembre: dalle ore 6,00 alle ore 16,45;</corpo>
-							</el>
-							<el id="art2-com1-letf">
-								<num>f)</num>
-								<corpo>dal 16 novembre al 30 novembre: dalle ore 6,15 alle ore 16,45;</corpo>
-							</el>
-							<el id="art2-com1-letg">
-								<num>g)</num>
-								<corpo>dal 1 dicembre al 15 dicembre: dalle ore 6,30 alle ore 16,30;</corpo>
-							</el>
-							<el id="art2-com1-leth">
-								<num>h)</num>
-								<corpo>dal 16 dicembre al 31 dicembre: dalle ore 6,45 alle ore 16,45;</corpo>
-							</el>
-							<el id="art2-com1-leti">
-								<num>i)</num>
-								<corpo>dal 1 gennaio al 15 gennaio: dalle ore 7,00 alle ore 17,00;</corpo>
-							</el>
-							<el id="art2-com1-letl">
-								<num>l)</num>
-								<corpo>dal 16 gennaio al 31 gennaio: dalle ore 6,45 alle ore 17,15.</corpo>
-							</el>
-						</comma>
-						<comma id="art2-com2">
-							<num>2.</num>
-							<corpo>Fanno eccezione: la caccia di selezione agli ungulati che termina un'ora dopo il tramonto e la caccia alla beccaccia che inizia al sorgere del sole.</corpo>
-						</comma>
-					</articolo>
-				</titolo>
-				<titolo id="tit2">
-					<num>TITOLO II</num>
-					<rubrica>ESERCIZIO DELLA CACCIA</rubrica>
-					<articolo id="art3">
-						<num>ARTICOLO 3</num>
-						<rubrica>(Modalità e forme di caccia)</rubrica>
-						<comma id="art3-com1">
-							<num>1.</num>
-							<corpo>L'esercizio venatorio dal 20 settembre 1998 al 31 gennaio 1999 è consentito, anche con l'ausilio del cane in forma vagante e da appostamento fisso o temporaneo.</corpo>
-						</comma>
-						<comma id="art3-com2">
-							<num>2.</num>
-							<corpo>Le Provincie possono regolamentare, nel periodo compreso fra il 2 gennaio ed il 31 gennaio 1999, la caccia vagante e l'uso del cane.</corpo>
-						</comma>
-						<comma id="art3-com3">
-							<num>3.</num>
-							<corpo>È vietato, per l'installazione degli appostamenti temporanei, prelevare materiale fresco da colture arboree sia agricole che forestali e da piante destinate alla produzione agricola. Può essere utilizzata vegetazione spontanea, esclusivamente arbustiva o erbacea, appartenente a specie non tutelate dalla normativa vigente.</corpo>
-						</comma>
-						<comma id="art3-com4">
-							<num>4.</num>
-							<corpo>Gli appostamenti temporanei possono essere installati un'ora prima dell'orario di caccia; al termine della giornata venatoria i terreni devono essere liberati del materiale usato a cura dei fruitori. Gli appostamenti per la caccia agli ungulati possono essere lasciati in essere con il consenso del proprietario e conduttore del fondo.</corpo>
-						</comma>
-						<comma id="art3-com5">
-							<num>5.</num>
+				<articolo id="art1">
+					<num>ARTICOLO 1</num>
+					<rubrica>(Oggetto della legge)</rubrica>
+					<comma id="art1-com1">
+						<num>1.</num>
+						<corpo>
+							In attuazione degli
+							<mrif>
+								articoli
+								<rif xlink:href="urn:nir:regione.toscana:statuto:1971-05-22;343#art3" xlink:type="simple">3</rif>
+								e
+								<rif xlink:href="urn:nir:regione.toscana:statuto:1971-05-22;343#art4" xlink:type="simple">4</rif>
+								della Statuto
+							</mrif>
+							, la Regione promuove e sostiene nel settore dell'infanzia e dell'età evolutiva lo studio, la ricerca e la documentazione nonchè la sperimentazione socio-assistenziale ed educativa e la formazione degli operatori dei servizi. A tal fine, la Regione concorre al finanziamento delle attività esercitate in dette materie dall'Istituto degli Innocenti di Firenze in conformità alle indicazioni contenute nel programma regionale di sviluppo e negli atti di programmazione disposti secondo i criteri e le procedure di cui alla
+							<rif xlink:href="urn:nir:regione.toscana:legge:1992-06-09;26" xlink:type="simple">LR 9 giugno 1992, n. 26</rif>
+							.
+						</corpo>
+					</comma>
+					<comma id="art1-com2">
+						<num>2.</num>
+						<corpo>La Regione assume inoltre con il concorso dell'Istituto degli Innocenti iniziative attinenti la sfera dell'infanzia e dell'età evolutiva per diffondere la conoscenza di esperienze operative e di studio riferite a contesti culturali diversi.</corpo>
+					</comma>
+					<comma id="art1-com3">
+						<num>3.</num>
+						<corpo>La Giunta regionale promuove idonee iniziative al fine di garantire il coordinamento delle attività esercitate, ai sensi della presente legge, dall'Istituto degli Innocenti con quelle svolte dagli enti locali nel settore dell'infanzia e dell'età evolutiva.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art2">
+					<num>ARTICOLO 2</num>
+					<rubrica>(Programmazione)</rubrica>
+					<comma id="art2-com1">
+						<num>1.</num>
+						<corpo>
+							Per le finalità previste dall'
+							<rif xlink:href="#art1" xlink:type="simple">art. 1</rif>
+							, la Regione definisce i contenuti del programma di attività dell'istituto degli Innocenti nell'ambito degli atti di programmazione relativi ai diversi settori di intervento costituiti da: il Piano Regionale dei Servizi Sociali di cui alla
+							<rif xlink:href="urn:nir:regione.toscana:legge:1992-09-02;42" xlink:type="simple">LR 2 settembre 1992, nº 42</rif>
+							, dall'atto di programmazione di cui all'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1991-09-09;46#art2" xlink:type="simple">art. 2 della LR 9 settembre 1991, n. 46</rif>
+							, dal Piano di indirizzo di cui all'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1981-06-19;53#art12" xlink:type="simple">art. 12 della LR 19 giugno 1981, n. 53</rif>
+							modificata con
+							<rif xlink:href="urn:nir:regione.toscana:legge:1993-06-23;41" xlink:type="simple">LR 23 giugno 1993, n. 41</rif>
+							e loro modificazioni e integrazioni.
+						</corpo>
+					</comma>
+					<comma id="art2-com2">
+						<num>2.</num>
+						<corpo>
+							L'Istituto degli Innocenti, entro 30 giorni dalla data di pubblicazione degli atti di programma di cui al
+							<rif xlink:href="#art2-com1" xlink:type="simple">comma 1</rif>
+							, invia alla Giunta regionale un programma attuativo di durata triennale, riferito al triennio successivo all'anno di presentazione contenente le previsioni finanziarie per il relativo periodo con specificazione delle spese previste per ogni esercizio annuale.
+						</corpo>
+					</comma>
+					<comma id="art2-com3">
+						<num>3.</num>
+						<corpo>
+							Con la scadenza e la procedura prevista dai piani e programmi di cui al
+							<rif xlink:href="#art2-com2" xlink:type="simple">comma 2</rif>
+							, l'Istituto degli Innocenti provvede annualmente all'aggiornamento del piano triennale.
+						</corpo>
+					</comma>
+					<comma id="art2-com4">
+						<num>4.</num>
+						<corpo>
+							L'Istituto degli Innocenti, entro la stessa data di cui al
+							<rif xlink:href="#art2-com3" xlink:type="simple">comma 3</rif>
+							ed in concomitanza con gli aggiornamenti annuali, presenta alla Giunta regionale una relazione sull'attività svolta nell'anno precedente con il rendiconto delle spese sostenute allegando copia del bilancio di riferimento.
+						</corpo>
+					</comma>
+					<comma id="art2-com5">
+						<num>5.</num>
+						<corpo>
+							La Giunta regionale, verificata la rispondenza del programma di attività dell'Istituto degli Innocenti agli atti di programmazione di cui al
+							<rif xlink:href="#art2-com1" xlink:type="simple">comma 1</rif>
+							, propone al Consiglio regionale l'approvazione del programma suddetto e del relativo contributo.
+						</corpo>
+					</comma>
+					<comma id="art2-com6">
+						<num>6.</num>
+						<corpo>La Giunta regionale, sulla base di quanto disposto dal provvedimento del Consiglio regionale, liquida il contributo annuale.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art3">
+					<num>ARTICOLO 3</num>
+					<rubrica>(Rappresentanti della Regione Toscana)</rubrica>
+					<comma id="art3-com1">
+						<num>1.</num>
+						<corpo>
+							I rappresentanti della Regione nominati nel Consiglio di Amministrazione dell'Istituto degli Innocenti, nel rispetto delle disposizioni di cui all'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1979-03-08;11#art9-com1" xlink:type="simple">art. 9, comma 1 della LR 8 marzo 1979, n. 11</rif>
+							e dell'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1990-04-09;40#art3" xlink:type="simple">art. 3 della LR 9 aprile 1990, n. 40</rif>
+							, inviano alla Giunta regionale copia dei bilanci di previsione ed i consuntivi dell'Istituto.
+						</corpo>
+					</comma>
+					<comma id="art3-com2">
+						<num>2.</num>
+						<corpo>I predetti rappresentanti trasmettono al Consiglio regionale e alla Giunta una relazione annuale sull'andamento generale dell'attività e sulla tenuta degli atti contabili e di amministrazione.</corpo>
+					</comma>
+				</articolo>
+				<articolo finevigore="t3" id="art4-t3" iniziovigore="t1" status="abrogato">
+					<num>ARTICOLO 4</num>
+					<rubrica>(Norme finanziarie)</rubrica>
+					<comma id="art4-t3-com1">
+						<num>1.</num>
+						<corpo>Agli oneri di spesa derivanti dalla presente legge si fa fronte per l'anno 1994 con i fondi stanziati sul capitolo 17100 del bilancio 1994 e per gli esercizi successivi con le relative leggi di bilancio.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art4" iniziovigore="t3">
+					<num>Art. 4</num>
+					<rubrica>(Norma finanziaria)</rubrica>
+					<comma id="art4-com1">
+						<num>1.</num>
+						<alinea>Agli oneri di spesa derivanti dalla presente legge si fa fronte per l'anno 1995 come segue:</alinea>
+						<el id="art4-com1-leta">
+							<num>a)</num>
+							<corpo>per le iniziative attinenti il settore dell'infanzia nonché la sperimentazione socio assistenziale, educativa e la formazione degli operatori dei Servizi, con i fondi stanziati sul capitolo 17100 del bilancio 1995;</corpo>
+						</el>
+						<el id="art4-com1-letb">
+							<num>b)</num>
 							<corpo>
-								L'accesso agli appostamenti fisso o agli appostamenti temporanei nelle zone dove non è permessa la caccia vagante o nel caso di fruizione continuativa di giornate di caccia di cui al
-								<rif xlink:href="#art1-com3" xlink:type="simple">precedente art. 1 comma 3</rif>
-								, è consentito solo con il fucile smontato o racchiuso in idoneo involucro.
+								per le iniziative attinenti la sfera dell'età evolutiva per diffondere la conoscenza di esperienze operative e di studio compreso la relativa ricerca, sperimentazione e documentazione, riconducibili all'
+								<rif xlink:href="urn:nir:regione.toscana:legge:1981;53#art12" xlink:type="simple">art. 12 della LR n. 53/81</rif>
+								, modificata con
+								<rif xlink:href="urn:nir:regione.toscana:legge:1993;41" xlink:type="simple">LR n. 41/93</rif>
+								, con i fondi stanziati sul capitolo 24270 del bilancio 1995;
 							</corpo>
-						</comma>
-						<comma id="art3-com6">
-							<num>6.</num>
-							<corpo>Il cacciatore è tenuto alla raccolta dei bossoli delle cartucce sparate. È altresì tenuto, al termine della caccia, alla raccolta dei bossoli intorno alla postazione usata.</corpo>
-						</comma>
-						<comma id="art3-com7">
-							<num>7.</num>
-							<corpo>Non è consentita la posta alla beccaccia né la caccia èda appostamento al beccaccino.</corpo>
-						</comma>
-					</articolo>
-					<articolo id="art4">
-						<num>ARTICOLO 4</num>
-						<rubrica>(Carniere giornaliero)</rubrica>
-						<comma id="art4-com1">
-							<num>1.</num>
-							<corpo>Per ogni giornata di caccia il carniere complessivo non può superare i due capi di selvaggina stanziale ed i 20 capi di selvaggina migratoria.</corpo>
-						</comma>
-						<comma id="art4-com2">
-							<num>2.</num>
-							<alinea>Il prelievo giornaliero di ogni cacciatore non potrà superare per specie le seguenti quantità:</alinea>
-							<ep id="art4-com2-pun1">
-								<num>-</num>
-								<corpo>lepri: 1 capo;</corpo>
-							</ep>
-							<ep id="art4-com2-pun2">
-								<num>-</num>
-								<corpo>palmipedi, trampolieri e rallidi: 8 capi complessivi;</corpo>
-							</ep>
-							<ep id="art4-com2-pun3">
-								<num>-</num>
-								<corpo>beccacce: 3 capi;</corpo>
-							</ep>
-							<ep id="art4-com2-pun4">
-								<num>-</num>
-								<corpo>tortore: 10 capi.</corpo>
-							</ep>
-						</comma>
-						<comma id="art4-com3">
-							<num>3.</num>
-							<corpo>I limiti giornalieri di carniere relativi alla selvaggina stanziale di cui ai commi precedenti non si applicano nelle aziende faunistico-venatorie e agrituristico-venatorie e per le specie: volpe e cinghiale;</corpo>
-						</comma>
-					</articolo>
-					<articolo id="art5">
-						<num>ARTICOLO 5</num>
-						<rubrica>(Allenamento ed addestramento cani)</rubrica>
-						<comma id="art5-com1">
-							<num>1.</num>
-							<corpo>
-								L'allenamento dei cani è consentito, nei giorni di mercoledì, giovedì, sabato e domenica di ogni settimana, dal 16 agosto al 17 settembre 1998, dal sorgere del sole alle ore 11.00 e dalle ore 14.00 alle ore 19.00 (ora legale), sull'intero territorio regionale non soggetto a divieto di caccia. Dal 10 settembre al 17 settembre l'allenamento ed addestramento dei cani è consentito ai soli cacciatori iscritti all'A.T.C. L'allenamento non è consentito nelle aree interessate dalle produzioni agricole di cui all'
-								<rif xlink:href="urn:nir:regione.toscana:legge:1994;3#art42-com2" xlink:type="simple">art. 42 secondo comma della LR 3/94</rif>
-								e alla delibera consiliare 588/95, anche se prive di tabellazione. Per i cacciatori non residenti in Toscana non iscritti ad A.T.C. Toscani l'accesso è consentito solo in regime di reciprocità.
-							</corpo>
-						</comma>
-					</articolo>
-					<articolo id="art6">
-						<num>ARTICOLO 6</num>
-						<rubrica>(Tesserino venatorio)</rubrica>
-						<comma id="art6-com1">
-							<num>1.</num>
-							<corpo>Per esercitare la caccia, il cacciatore deve essere munito del tesserino venatorio, valido su tutto il territorio nazionale, rilasciato dal Comune di residenza, previa esibizione della licenza di caccia valida e del cedolino attestante la riconsegna del tesserino della stagione precedente. I cacciatori che hanno cambiato residenza dopo l'inizio della precedente stagione venatoria ritireranno il tesserino al Comune di provenienza.</corpo>
-						</comma>
-						<comma id="art6-com2">
-							<num>2.</num>
-							<corpo>Il cacciatore, all'inizio della giornata venatoria, dovrà marcare, con un segno puntiforme (.) mediante penna indelebile di colore scuro, preferibilmente nero, gli appositi spazi del tesserino venatorio in corrispondenza della data della giornata di caccia, ovvero èl'Ambito Territoriale di Caccia, l'eventuale mobilità, l'accesso ad istituto privato, la fruizione continuativa delle giornate di caccia alla selvaggina migratoria da appostamento. Deve essere altresì indicato, dopo l'abbattimento, ogni capo di selvaggina stanziale e, al termine della giornata di caccia, il numero complessivo dei capi di selvaggina migratoria abbattuti. Tale norma non si applica per l'abbattimento di cinghiali in forma organizzata.</corpo>
-						</comma>
-						<comma id="art6-com3">
-							<num>3.</num>
-							<corpo>Il deposito dei capi di stanziale abbattuti deve essere indicato sul tesserino venatorio mediante l'apposizione di un cerchio attorno al segno puntiforme (.) che contrassegna l'abbattimento del capo, così come indicato nel tesserino venatorio.</corpo>
-						</comma>
-						<comma id="art6-com4">
-							<num>4.</num>
-							<corpo>Il tesserino è mezzo di controllo delle quantità e delle specie prelevate ed a tal fine deve essere riconsegnato non oltre il 28 febbraio di ogni anno al Comune di residenza.</corpo>
-						</comma>
-					</articolo>
-				</titolo>
-				<titolo id="tit3">
-					<num>TITOLO III</num>
-					<rubrica>CALENDARIO VENATORIO</rubrica>
-					<articolo id="art7">
-						<num>ARTICOLO 7</num>
-						<rubrica>(Periodi di caccia e specie cacciabili)</rubrica>
-						<comma id="art7-com1">
-							<num>1.</num>
-							<corpo>Dal 20 settembre al 31 dicembre 1998 la caccia è consentita a: coniglio selvatico, allodola, merlo, pernice rossa, quaglia, starna, tortora (Streptopelia turtur). Per la pernice rossa e la starna le Province possono determinare limitazioni relative ad aree e periodi di caccia.</corpo>
-						</comma>
-						<comma id="art7-com2">
-							<num>2.</num>
-							<corpo>Dal 20 settembre al 7 dicembre 1998 è consentita la caccia alla lepre comune. Le Province, tenuto conto della consistenza faunistica, possono prolungare il periodo di caccia a tale specie fino al 31 dicembre 1998.</corpo>
-						</comma>
-						<comma id="art7-com3">
-							<num>3.</num>
-							<corpo>Dal 20 settembre 1998 al 31 gennaio 1999 la caccia è consentita alle seguenti specie: alzavola, beccaccia, beccaccino, canapiglia, cesena, codone, colombaccio, combattente, cornacchia grigia, fagiano, fischione, folaga, frullino, gallinella d'acqua, gazza, germano reale, ghiandaia, marzaiola, mestolone, moretta, moriglione, pavoncella, porciglione, tordo bottaccio, tordo sassello, volpe.</corpo>
-						</comma>
-						<comma id="art7-com4">
-							<num>4.</num>
-							<corpo>
-								Dal 1 novembre 1998 al 31 gennaio 1999 è consentita la caccia al cinghiale secondo le modalità stabilite dal
-								<rif xlink:href="urn:nir:regione.toscana:regolamento:1996;4" xlink:type="simple">regolamento regionale 4/96</rif>
-								. Per l'attivazione del piano faunistico Provinciale, le Province individuano i territori nei quali la caccia al cinghiale può essere anticipata a partire dal 1 ottobre 1998 nel rispetto dell'arco temporale di cui all'
-								<rif xlink:href="urn:nir:stato:legge:1992;157#art18" xlink:type="simple">art. 18 Legge 157/92</rif>
-								. Ai fini del contenimento dei danni alle produzioni agricole nelle aree non vocate, il cinghiale è abbattibile per l'intera stagione venatoria, secondo quanto previsto dal
-								<rif xlink:href="urn:nir:regione.toscana:regolamento:1996-07-15;4#art15-com1" xlink:type="simple">Regolamento regionale 15 luglio 1996 n. 4, art. 15 comma I</rif>
-								.
-							</corpo>
-						</comma>
-						<comma id="art7-com5">
-							<num>5.</num>
-							<corpo>
-								Nel rispetto delle indicazioni dei piani di cui all'
-								<rif xlink:href="urn:nir:regione.toscana:legge:1994;3#art30-com6" xlink:type="simple">art. è30 comma 6 della LR 3/94</rif>
-								le Provincie, sentito l'I.N.F.S., predispongono a partire dal 1 agosto, nel rispetto dell'arco temporale di cui al
-								<rif xlink:href="urn:nir:stato:legge:1992-02-11;157#art18-com2" xlink:type="simple">II comma dell'art. 18 della Legge 11 febbraio 1992 n.157</rif>
-								, forme di prelievo sulla base di piani di assestamento delle popolazioni di capriolo, daino, muflone e cervo. In assenza del piano di assestamento provinciale sono autorizzati dalla Provincia stessa, nelle Aziende Faunistico Venatorie, piani di assestamento presentati dal concessionario. L'autorizzazione è subordinata al parere favorevole dell'I.N.F.S.
-							</corpo>
-						</comma>
-					</articolo>
-					<articolo id="art8">
-						<num>ARTICOLO 8</num>
-						<rubrica>(Deroghe)</rubrica>
-						<comma id="art8-com1">
-							<num>1.</num>
-							<corpo>
-								La Giunta Regionale può consentire, sulla base delle scelte effettuate nei piani faunistico-venatori provinciali, su richiesta circostanziata delle Provincie, nei giorni 2 e 6 settembre 1998 la caccia da appostamento alla tortora (Streptopelia turtur), al colombaccio e al merlo. Nei giorni di cui sopra, il prelievo giornaliero del merlo da appostamento temporaneo non può superare i 4 capi. La Giunta Regionale nell'atto di autorizzazione individua gli orari di caccia e i territori ove questa può essere svolta, nel rispetto dell'arco temporale di cui all'
-								<rif xlink:href="urn:nir:stato:legge:1992;157#art18-com2" xlink:type="simple">art. 18 comma 2 della Legge n. 157/92</rif>
-								.
-							</corpo>
-						</comma>
-						<comma id="art8-com2">
-							<num>2.</num>
-							<corpo>
-								L'allenamento e l'addestramento dei cani è vietato nelle giornate di caccia autorizzate ai sensi del
-								<rif xlink:href="#art8-com1" xlink:type="simple">precedente comma 1</rif>
-								.
-							</corpo>
-						</comma>
-						<comma id="art8-com3">
-							<num>3.</num>
-							<corpo>Nelle aziende agrituristico-venatorie è consentita, inoltre, nel rispetto dei piani di abbattimento approvati dalle Provincie, la caccia alle seguenti specie provenienti da allevamento: germano reale, pernice rossa, starna, lepre e ungulati in aree recintate, fino al 31 gennaio 1999. Per gli ungulati, in dette aziende, il prelievo venatorio è consentito a partire dal 1 ottobre 1998.</corpo>
-						</comma>
-						<comma id="art8-com4">
-							<num>4.</num>
-							<corpo>Le Provincie possono, sentiti i Comitati di Gestione degli A.T.C., vietare la caccia al fagiano, fatta eccezione per le aziende faunistico-venatorie e agrituristico-venatorie, nel periodo compreso tra l'1 ed il 31 gennaio 1999.</corpo>
-						</comma>
-					</articolo>
-				</titolo>
-				<titolo id="tit4">
-					<num>TITOLO IV</num>
-					<rubrica>NORME GENERALI</rubrica>
-					<articolo id="art9">
-						<num>ARTICOLO 9</num>
-						<rubrica>(Immissioni)</rubrica>
-						<comma id="art9-com1">
-							<num>1.</num>
-							<corpo>Nei territori degli A.T.C. è vietata l'immissione di selvaggina successivamente al 31 agosto 1998, fatta eccezione per le strutture di ambientamento o zone di rispetto appositamente predisposte dove la caccia è vietata.</corpo>
-						</comma>
-					</articolo>
-					<articolo id="art10">
-						<num>ARTICOLO 10</num>
-						<rubrica>(Sanzioni)</rubrica>
-						<comma id="art10-com1">
-							<num>1.</num>
-							<corpo>
-								Per le violazioni alle norme della presente legge, non espressamente previste dalla
-								<rif xlink:href="urn:nir:regione.toscana:legge:1994;3" xlink:type="simple">LR n.3/1994</rif>
-								e dalla
-								<rif xlink:href="urn:nir:stato:legge:1992;157" xlink:type="simple">Legge n. 157/92</rif>
-								si applicano le sanzioni di cui alla lettera q) della
-								<rif xlink:href="urn:nir:regione.toscana:legge:1994;3" xlink:type="simple">LR 3/94</rif>
-								.
-							</corpo>
-						</comma>
-					</articolo>
-					<articolo id="art11">
-						<num>ARTICOLO 11</num>
-						<rubrica>(Norma finale)</rubrica>
-						<comma id="art11-com1">
-							<num>1.</num>
-							<corpo>Per tutto quanto non previsto dalla presente legge, valgono le disposizioni vigenti in materia.</corpo>
-						</comma>
-						<comma id="art11-com2">
-							<num>2.</num>
-							<corpo>
-								La Giunta Regionale, nell'attivazione degli accordi di cui all'
-								<rif xlink:href="urn:nir:regione.toscana:regolamento:1996-05-03;3#art12-com3" xlink:type="simple">art. 12 comma III del Regolamento regionale 3 maggio 1996 n. 3</rif>
-								e successive modifiche ed integrazioni determina le forme e le modalità di caccia tenuto conto delle condizioni di reciprocità.
-							</corpo>
-						</comma>
-					</articolo>
-				</titolo>
+						</el>
+					</comma>
+					<comma id="art4-com2">
+						<num>2.</num>
+						<corpo>Agli oneri di spesa per gli anni successivi si provvederà con legge di bilancio.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art5">
+					<num>ARTICOLO 5</num>
+					<rubrica>(Abrogazione)</rubrica>
+					<comma id="art5-com1">
+						<num>1.</num>
+						<corpo>
+							<mod id="mod1">
+								La
+								<rif xlink:href="urn:nir:regione.toscana:legge:1990-04-14;45" xlink:type="simple">LR 14 aprile 1990, n. 45</rif>
+								è abrogata.
+							</mod>
+						</corpo>
+					</comma>
+				</articolo>
 			</articolato>
 			<formulafinale>La presente legge è pubblicata sul Bollettino Ufficiale della Regione. È fatto obbligo a chiunque spetta di osservarla e farla osservare come legge della Regione Toscana.</formulafinale>
 			<conclusione>
