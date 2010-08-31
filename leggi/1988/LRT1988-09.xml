@@ -10,7 +10,8 @@
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1988-02-23;9" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1988-02-23;9@1989-05-29" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1988-02-23;9@1989-11-18" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1988-02-23;9@1990-01-18" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1988-02-23;9@1990-01-18" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1988-02-23;9@1995-07-19" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Turismo" />
 					</materie>
@@ -21,12 +22,14 @@
 						<evento data="19890622" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19900101" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19900209" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="19950817" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1988-02-23;9" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1989-05-29;34" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1989-11-18;76" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1990-01-18;3" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1995-07-19;80" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -121,6 +124,18 @@
 								<dsp:pos xlink:href="#art12bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com1-letb" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-07-19;80" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-07-19;80#art26-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 26, comma 2 della legge Regione Toscana 19 luglio 1995, n. 80" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com1-letb-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -167,7 +182,7 @@
 								;
 							</corpo>
 						</el>
-						<el id="art2-com1-letb">
+						<el finevigore="t5" id="art2-com1-letb-t5" iniziovigore="t1" status="abrogato">
 							<num>b)</num>
 							<corpo>
 								attività professionali di cui all'
