@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19950421" num="31 Supplemento Ordinario N. 12" tipo="BURT" />
 					<entratainvigore norm="19950421" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1995-04-14;61" />
+					<urn finevigore="t7" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1995-04-14;61" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1995-04-14;61@1995-08-11" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Bilancio" />
@@ -21,6 +22,7 @@
 						<evento data="19950421" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="19950421" fonte="ra4" id="t5" tipo="modifica" />
 						<evento data="19950421" fonte="ra5" id="t6" tipo="modifica" />
+						<evento data="19950905" fonte="rp1" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-04-14;61" xlink:type="simple" />
@@ -29,6 +31,7 @@
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1995-01-19;8" xlink:type="simple" />
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1994-06-16;45" xlink:type="simple" />
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1995-01-19;8" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-08-11;87" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -129,6 +132,20 @@
 							</dsp:dominio>
 						</dsp:variazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-08-11;87" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-08-11;87#art1-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2 della legge Regione Toscana 11 agosto 1995, n. 87" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art8-com2-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -414,7 +431,7 @@
 							sono unificati in un unico fondo rischi con il quale garantire le iniziative previste a favore delle nuove imprese dalle citate leggi regionali.
 						</corpo>
 					</comma>
-					<comma id="art8-com2">
+					<comma finevigore="t7" id="art8-com2-t7" iniziovigore="t1" status="abrogato">
 						<num>2.</num>
 						<corpo>
 							La denominazione del cap. 2180 del bilancio del corrente esercizio è modificata come segue "Fidi Toscana spa - Fondo rischi per garantire le iniziative previste a favore delle nuove imprese dalla
