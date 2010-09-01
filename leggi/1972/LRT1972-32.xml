@@ -10,7 +10,8 @@
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1972-12-21;32" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1972-12-21;32@1976-12-23" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1972-12-21;32@1981-07-09" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1972-12-21;32@1988-02-08" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1972-12-21;32@1988-02-08" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1972-12-21;32@1995-08-11" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -18,12 +19,14 @@
 						<evento data="19770115" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19810801" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19880303" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="19950821" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1972-12-21;32" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1976-12-23;78" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1981-07-09;57" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1988-02-08;6" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1995-08-11;86" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -93,7 +96,7 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art1" xlink:type="simple" />
+							<dsp:pos xlink:href="#art1-t5" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-02-08;6" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-02-08;6#artunico-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -101,10 +104,25 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art1" xlink:type="simple" />
+								<dsp:pos xlink:href="#art1-t5" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art1-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-08-11;86" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-08-11;86#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 11 agosto 1995, n. 86" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art1-t5" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -153,12 +171,12 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art1" iniziovigore="t4">
+				<articolo finevigore="t5" id="art1-t5" iniziovigore="t4" status="abrogato">
 					<num>
 						ARTICOLO 1
 						<ndr num="#n3" valore="" xlink:type="simple">(c)</ndr>
 					</num>
-					<comma id="art1-com1">
+					<comma id="art1-t5-com1">
 						<num />
 						<corpo>
 							In attuazione dell'
@@ -166,33 +184,104 @@
 							, a ciascun gruppo consiliare organizzato secondo le prescrizioni del regolamento interno del Consiglio regionale, è assegnato un contributo fisso di lire un milione e duecentomila mensili ed un contributo variabile in relazione alla consistenza numerica, nella misura di lire quattrocentomila mensili per ogni consigliere.
 						</corpo>
 					</comma>
-					<comma id="art1-com2">
+					<comma id="art1-t5-com2">
 						<num />
 						<alinea>Per le spese di aggiornamento, studio e documentazione, comprese l'acquisizione di consulenze qualificate e la collaborazione di esperti, nonchè per diffondere tra la società civile la conoscenza dell'attività dei gruppi consiliari, è assegnato a ciascun gruppo un contributo nella seguente misura:</alinea>
-						<el id="art1-com2-leta">
+						<el id="art1-t5-com2-leta">
 							<num>a)</num>
 							<corpo>lire 1.200.000 mensili ai gruppi costituiti da un consigliere;</corpo>
 						</el>
-						<el id="art1-com2-letb">
+						<el id="art1-t5-com2-letb">
 							<num>b)</num>
 							<corpo>lire 1.400.000 mensili ai gruppi costituiti da due consiglieri;</corpo>
 						</el>
-						<el id="art1-com2-letc">
+						<el id="art1-t5-com2-letc">
 							<num>c)</num>
 							<corpo>lire 1.600.000 mensili ai gruppi costituiti da tre a cinque consiglieri;</corpo>
 						</el>
-						<el id="art1-com2-letd">
+						<el id="art1-t5-com2-letd">
 							<num>d)</num>
 							<corpo>lire 1.800.000 mensili ai gruppi costituiti da sei a quindici consiglieri;</corpo>
 						</el>
-						<el id="art1-com2-lete">
+						<el id="art1-t5-com2-lete">
 							<num>e)</num>
 							<corpo>lire 2.000.000 mensili ai gruppi costituiti da sedici consiglieri ed oltre.</corpo>
 						</el>
 					</comma>
-					<comma id="art1-com3">
+					<comma id="art1-t5-com3">
 						<num />
 						<corpo>Il regolamento interno del Consiglio regionale disciplina le modalità di rendicontazione periodica in ordine all'impiego dei contributi, nonchè le modalità di pubblicazione degli estratti di detta rendicontazione.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art1" iniziovigore="t5">
+					<num>Art. 1</num>
+					<comma id="art1-com1">
+						<num />
+						<corpo>
+							In attuazione dell'
+							<rif xlink:href="urn:nir:regione.toscana:statuto:#art12" xlink:type="simple">art. 12 dello Statuto</rif>
+							, a ciascun gruppo consiliare organizzato secondo le prescrizioni del regolamento interno del Consiglio regionale, è assegnato un contributo fisso di L. 1.800.000 mensili ed un contributo variabile, in relazione alla consistenza numerica, nella misura di L. 600.000 mensili per ogni consigliere.
+						</corpo>
+					</comma>
+					<comma id="art1-com2">
+						<num />
+						<alinea>Per le spese di aggiornamento, studio e documentazione, comprese l'acquisizione di consulenze qualificate e la collaborazione di esperti, nonché per diffondere tra la società civile la conoscenza dell'attività dei gruppi consiliari, è assegnato a ciascun gruppo un contributo nella seguente misura:</alinea>
+						<el id="art1-com2-leta">
+							<num>a)</num>
+							<corpo>L. 1.400.000 mensili ai gruppi costituiti da un consigliere;</corpo>
+						</el>
+						<el id="art1-com2-letb">
+							<num>b)</num>
+							<corpo>L. 1.700.000 mensili ai gruppi costituiti da due consiglieri;</corpo>
+						</el>
+						<el id="art1-com2-letc">
+							<num>c)</num>
+							<corpo>L. 2.100.000 mensili ai gruppi costituiti da tre consiglieri;</corpo>
+						</el>
+						<el id="art1-com2-letd">
+							<num>d)</num>
+							<corpo>L. 2.400.000 mensili ai gruppi costituiti da quattro consiglieri;</corpo>
+						</el>
+						<el id="art1-com2-lete">
+							<num>e)</num>
+							<corpo>L. 2.500.000 mensili ai gruppi costituiti da cinque consiglieri;</corpo>
+						</el>
+						<el id="art1-com2-letf">
+							<num>f)</num>
+							<corpo>L. 2.600.000 mensili ai gruppi costituiti da sei a sette consiglieri;</corpo>
+						</el>
+						<el id="art1-com2-letg">
+							<num>g)</num>
+							<corpo>L. 2.800.000 mensili ai gruppi costituiti da otto a nove consiglieri;</corpo>
+						</el>
+						<el id="art1-com2-leth">
+							<num>h)</num>
+							<corpo>L. 3.000.000 mensili ai gruppi costituiti da dieci a undici consiglieri;</corpo>
+						</el>
+						<el id="art1-com2-leti">
+							<num>i)</num>
+							<corpo>L. 3.300.000 mensili ai gruppi costituiti da dodici a tredici consiglieri;</corpo>
+						</el>
+						<el id="art1-com2-letl">
+							<num>l)</num>
+							<corpo>L. 3.500.000 mensili ai gruppi costituiti da quattordici a quindici consiglieri;</corpo>
+						</el>
+						<el id="art1-com2-letm">
+							<num>m)</num>
+							<corpo>L. 3.700.000 mensili ai gruppi costituiti da sedici a diciassette consiglieri;</corpo>
+						</el>
+						<el id="art1-com2-letn">
+							<num>n)</num>
+							<corpo>L. 3.900.000 mensili ai gruppi costituiti da diciotto a venti consiglieri;</corpo>
+						</el>
+						<el id="art1-com2-leto">
+							<num>o)</num>
+							<corpo>L. 4.000.000 mensili ai gruppi costituiti oltre i venti consiglieri.</corpo>
+						</el>
+					</comma>
+					<comma id="art1-com3">
+						<num />
+						<corpo>Il regolamento interno del Consiglio regionale disciplina le modalità di rendicontazione perio-dica in ordine all'impiego dei contributi, nonché le modalità di pubblicazione degli estratti di detta rendicontazione (crf. art. 14 Reg. int.).</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art2">
