@@ -10,7 +10,8 @@
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1988-04-23;29" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1988-04-23;29@1988-08-01" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1988-04-23;29@1993-07-19" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1988-04-23;29@1994-12-28" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1988-04-23;29@1994-12-28" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1988-04-23;29@1995-08-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organi" />
 						<materia valore="Artigianato" />
@@ -23,12 +24,14 @@
 						<evento data="19880825" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19930812" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19950112" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="19950907" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1988-04-23;29" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1988-08-01;54" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1993-07-19;43" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1994-12-28;113" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1995-08-29;91" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -58,7 +61,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1993-07-19;43" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1993-07-19;43#artunico-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -70,7 +73,7 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art7-com2" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1993-07-19;43" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1993-07-19;43#artunico-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -90,6 +93,33 @@
 								<dsp:testo valore="" />
 							</dsp:dominio>
 						</dsp:modtermini>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-08-29;91" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-08-29;91#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 29 agosto 1995, n. 91" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art5-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-com1-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#tit3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-08-29;91" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-08-29;91#art16-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 16, comma 2 della legge Regione Toscana 29 agosto 1995, n. 91" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#tit3-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -236,20 +266,48 @@
 						<articolo id="art5">
 							<num>ARTICOLO 5</num>
 							<rubrica>(Composizione. Presidenza)</rubrica>
-							<comma id="art5-com1">
+							<comma finevigore="t5" id="art5-com1-t5" iniziovigore="t1" status="abrogato">
 								<num>1.</num>
 								<alinea>Le Commissioni provinciali per l'artigianato sono composte di ventisette membri, così ripartiti:</alinea>
-								<el id="art5-com1-leta">
+								<el id="art5-com1-t5-leta">
 									<num>a)</num>
 									<corpo>
 										diciotto titolari di imprese artigiane operanti nella provincia da almeno tre anni, eletti con il procedimento di cui al
-										<rif xlink:href="#tit3" xlink:type="simple">Titolo III</rif>
+										<rif xlink:href="#tit3-t5" xlink:type="simple">Titolo III</rif>
 										della presente legge;
 									</corpo>
 								</el>
-								<el id="art5-com1-letb">
+								<el id="art5-com1-t5-letb">
 									<num>b)</num>
 									<corpo>tre rappresentanti delle organizzazioni sindacali più rappresentative dei lavoratori dipendenti, designati dai livelli provinciali delle OOSS di categoria;</corpo>
+								</el>
+								<el id="art5-com1-t5-letc">
+									<num>c)</num>
+									<corpo>un rappresentante designato dall'INPS;</corpo>
+								</el>
+								<el id="art5-com1-t5-letd">
+									<num>d)</num>
+									<corpo>un rappresentante dell'Ufficio provinciale del Lavoro, designato dal responsabile dell'ufficio competente per territorio;</corpo>
+								</el>
+								<el id="art5-com1-t5-lete">
+									<num>e)</num>
+									<corpo>tre esperti designati dalla Giunta regionale, dei quali due su indicazione delle organizzazioni artigiane di categoria;</corpo>
+								</el>
+								<el id="art5-com1-t5-letf">
+									<num>f)</num>
+									<corpo>un rappresentante designato dalle Camere di commercio, industria, artigianato e agricoltura competenti per territorio.</corpo>
+								</el>
+							</comma>
+							<comma id="art5-com1" iniziovigore="t5">
+								<num>1.</num>
+								<alinea>Le Commissioni Provinciali per l'Artigianato sono composte di diciotto membri, così ripartiti:</alinea>
+								<el id="art5-com1-leta">
+									<num>a)</num>
+									<corpo>dodici titolari di imprese artigiane operanti nella Provincia da almeno 3 anni, eletti con il procedimento di cui alla presente legge;</corpo>
+								</el>
+								<el id="art5-com1-letb">
+									<num>b)</num>
+									<corpo>un rappresentante delle organizzazioni sindacali più rappresentative dei lavoratori dipendenti, designato dai livelli provinciali delle Organizzazioni Sindacali di categoria;</corpo>
 								</el>
 								<el id="art5-com1-letc">
 									<num>c)</num>
@@ -257,15 +315,15 @@
 								</el>
 								<el id="art5-com1-letd">
 									<num>d)</num>
-									<corpo>un rappresentante dell'Ufficio provinciale del Lavoro, designato dal responsabile dell'ufficio competente per territorio;</corpo>
+									<corpo>un rappresentante dell'Ufficio Provinciale del Lavoro, designato dal responsabile dell'Ufficio competente per territorio;</corpo>
 								</el>
 								<el id="art5-com1-lete">
 									<num>e)</num>
-									<corpo>tre esperti designati dalla Giunta regionale, dei quali due su indicazione delle organizzazioni artigiane di categoria;</corpo>
+									<corpo>due esperti designati dalla Giunta Regionale su indicazione delle organizzazioni artigiane di categoria;</corpo>
 								</el>
 								<el id="art5-com1-letf">
 									<num>f)</num>
-									<corpo>un rappresentante designato dalle Camere di commercio, industria, artigianato e agricoltura competenti per territorio.</corpo>
+									<corpo>un rappresentante designato dalle Camere di Commercio, Industria, Artigianato e Agricoltura competenti per territorio.</corpo>
 								</el>
 							</comma>
 							<comma id="art5-com2">
@@ -338,7 +396,7 @@
 								<num>2.</num>
 								<corpo>
 									Ricevuta comunicazione dell'esito dell'elezione dei membri di Commissione di cui alla
-									<rif xlink:href="#art5-com1-leta" xlink:type="simple">lettera a) del primo comma dell'art. 5</rif>
+									<rif xlink:href="#art5-com1-t5-leta" xlink:type="simple">lettera a) del primo comma dell'art. 5</rif>
 									, il Presidente della Giunta regionale, trascorsi trenta giorni dalla data in cui ha provveduto a trasmettere le richieste di designazione degli altri membri di cui al comma citato, procede alla valida costituzione delle Commissioni stesse.
 								</corpo>
 							</comma>
@@ -375,7 +433,7 @@
 									<num>b)</num>
 									<corpo>
 										revoca da parte dell'organismo avente titolo alla designazione ai sensi delle lettere b), c), d), e) ed f) del
-										<rif xlink:href="#art5-com1" xlink:type="simple">1o comma dell'art. 5</rif>
+										<rif xlink:href="#art5-com1-t5" xlink:type="simple">1o comma dell'art. 5</rif>
 										;
 									</corpo>
 								</el>
@@ -392,7 +450,7 @@
 								<num>3.</num>
 								<corpo>
 									I componenti dimissionari, decaduti o deceduti sono sostituiti, con decreto del Presidente della Giunta regionale, dal primo dei candidati non eletti della stessa lista, nel caso di membri elettivi di cui alla
-									<rif xlink:href="#art5-com1-leta" xlink:type="simple">lett. a) dell'art. 5, 1o comma</rif>
+									<rif xlink:href="#art5-com1-t5-leta" xlink:type="simple">lett. a) dell'art. 5, 1o comma</rif>
 									e, negli altri casi, su designazione degli organismi aventi titoli ai sensi delle lettere b), c), d), e) ed f) del detto comma.
 								</corpo>
 							</comma>
@@ -1558,7 +1616,7 @@
 						</articolo>
 					</capo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo finevigore="t5" id="tit3-t5" iniziovigore="t1" status="abrogato">
 					<num>TITOLO III</num>
 					<rubrica>Elezione dei rappresentanti delle imprese artigiane nelle Commissioni provinciali per l'artigianato.</rubrica>
 					<articolo id="art54">
