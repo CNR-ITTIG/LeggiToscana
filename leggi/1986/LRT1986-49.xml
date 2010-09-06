@@ -8,7 +8,8 @@
 					<entratainvigore norm="19861128" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1986-11-03;49" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1986-11-03;49@1994-01-28" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1986-11-03;49@1994-01-28" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1986-11-03;49@1995-11-22" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organizzazioni" />
 						<materia valore="Ordinamento" />
@@ -19,10 +20,12 @@
 					<eventi>
 						<evento data="19861128" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19940204" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19951216" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1986-11-03;49" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1994-01-28;11" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1995-11-22;100" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -42,6 +45,18 @@
 								<dsp:pos xlink:href="#art21-t2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art17-com5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-11-22;100" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-11-22;100#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 22 novembre 1995, n. 100" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art17-com6" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -669,6 +684,10 @@
 							<rif xlink:href="#art17-com1" xlink:type="simple">primo comma</rif>
 							è iscritto sotto il profilo previdenziale alla Cassa per la Pensione ai dipendenti degli Enti locali, amministrata dagli Istituti di Previdenza del Ministero del Tesoro.
 						</corpo>
+					</comma>
+					<comma id="art17-com6" iniziovigore="t3">
+						<num>6.</num>
+						<corpo>Le variazioni successive alla pianta organica del personale delle aziende sono approvate con legge con le stesse modalità di cui al primo comma se a tali variazioni corrisponde un aumento di spesa; negli altri casi sono adottate da ciascuna azienda e approvate, su proposta della Giunta regionale, in via amministrativa dal Consiglio Regionale.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art18">
