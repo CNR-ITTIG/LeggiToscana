@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19940608" num="39" tipo="BURT" />
 					<entratainvigore norm="19940623" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1994-06-01;42" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1994-06-01;42" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1994-06-01;42@1995-11-30" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Assistenza Sanitaria" />
 					</materie>
@@ -15,11 +16,74 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19940623" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19951222" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-06-01;42" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-11-30;102" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-11-30;102" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-11-30;102#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 30 novembre 1995, n. 102" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-11-30;102" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-11-30;102#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 30 novembre 1995, n. 102" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-11-30;102" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-11-30;102#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 30 novembre 1995, n. 102" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-11-30;102" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-11-30;102#art4-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1 della legge Regione Toscana 30 novembre 1995, n. 102" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art6-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -60,28 +124,82 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art3">
+				<articolo finevigore="t2" id="art3-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 3</num>
 					<rubrica>(Destinatari e modalità del trattamento)</rubrica>
-					<comma id="art3-com1">
+					<comma id="art3-t2-com1">
 						<num>1.</num>
 						<corpo>
 							I soggetti affetti da insufficienza respiratoria cronica, per i quali possono ricorrere le condizioni di ossigenoterapia a lungo termine, accedono alle unità operative delle unità sanitarie locali le quali abbiano ricevuto la prescritta abilitazione all'ammissione al trattamento ai sensi del
-							<rif xlink:href="#art3-com3" xlink:type="simple">comma 3</rif>
+							<rif xlink:href="#art3-t2-com3" xlink:type="simple">comma 3</rif>
 							.
 						</corpo>
 					</comma>
-					<comma id="art3-com2">
+					<comma id="art3-t2-com2">
 						<num>2.</num>
 						<corpo>Al fine di consentire una migliore fruibilità del servizio, l'ammissione al trattamento è consentita anche a quei soggetti che, a seguito della propria personale impossibilità di accesso all'unità operativa abilitata, facciano pervenire alla stessa, unitamente alla certificazione medica sulle proprie condizioni di salute, copia della cartella clinica con la diagnosi, gli esami, le prestazioni effettuate e le prescrizioni terapeutiche. L'unità operativa abilitata, sulla base delle documentazioni presentate, provvede o meno all'ammissione in trattamento.</corpo>
 					</comma>
-					<comma id="art3-com3">
+					<comma id="art3-t2-com3">
 						<num>3.</num>
 						<corpo>L'ammissione al trattamento di ossigenoterapia a lungo termine è subordinata all'esecuzione di specifici protocolli diagnostici da parte di quelle unità operative che siano state abilitate con apposito provvedimento della Giunta regionale.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art4">
+				<articolo id="art3" iniziovigore="t2">
+					<num>Art. 3</num>
+					<rubrica>(Destinatari e modalità di trattamento)</rubrica>
+					<comma id="art3-com1">
+						<num>1.</num>
+						<corpo>I soggetti affetti da insufficienza respiratoria cronica, per i quali possono ricorrere le condizioni di ossigenoterapia a lungo termine, accedono alle strutture di cui al comma 3 al fine dell'ammissione al trattamento.</corpo>
+					</comma>
+					<comma id="art3-com2">
+						<num>2.</num>
+						<corpo>Al fine di consentire una migliore fruibilità del servizio, l'ammissione al trattamento è consentita anche a quei soggetti che, a seguito della propria personale impossibilità di accesso alla struttura, facciano pervenire alla stessa, unitamente alla certificazione medica sulle proprie condizioni di salute, copia della cartella clinica con la diagnosi, gli esami, le prestazioni effettuate e le prescrizioni terapeutiche. La struttura sulla base delle documentazioni presentate, provvede o meno all'ammissione in trattamento.</corpo>
+					</comma>
+					<comma id="art3-com3">
+						<num>3.</num>
+						<corpo>L'ammissione al trattamento di ossigenoterapia a lungo termine è subordinata all'esecuzione di specifici protocolli diagnostici da parte delle strutture operative di pneumologia e di fisiopatologia respiratoria o, in loro carenza, da altre strutture individuate dalle Aziende sanitarie.</corpo>
+					</comma>
+				</articolo>
+				<articolo finevigore="t2" id="art4-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 4</num>
+					<rubrica>(Modalità di erogazione)</rubrica>
+					<comma id="art4-t2-com1">
+						<num>1.</num>
+						<corpo>La prescrizione di ossigenoterapia a lungo termine è a carico del servizio sanitario esclusivamente in base alle modalità di cui alla presente legge.</corpo>
+					</comma>
+					<comma id="art4-t2-com2">
+						<num>2.</num>
+						<corpo>
+							Gli oneri finanziari relativi sono assunti a carico del bilancio regionale ai sensi dell'
+							<rif xlink:href="#art6-t2" xlink:type="simple">art. 6</rif>
+							.
+						</corpo>
+					</comma>
+					<comma id="art4-t2-com3">
+						<num>3.</num>
+						<corpo>
+							Per i fini di cui all'
+							<rif xlink:href="#art3-t2" xlink:type="simple">art. 3</rif>
+							ed allo scopo di assicurare la fornitura delle bombole di ossigeno direttamente al domicilio dei pazienti in conformità di quanto disposto dall'
+							<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;538#art14-com5" xlink:type="simple">art. 14, comma 5, del Decreto Legislativo 30 dicembre 1992, n. 538</rif>
+							, la Giunta regionale è autorizzata a stipulare contratti con le ditte fornitrici aventi i requisiti di legge, previa effettuazione di gara da effettuarsi in base alla vigente normativa, e introducendo clausole che consentano la verifica della quantità di ossigeno effettivamente consumata.
+						</corpo>
+					</comma>
+					<comma id="art4-t2-com4">
+						<num>4.</num>
+						<corpo>
+							La Giunta regionale provvede agli ordinativi di fornitura, sulla base delle richieste pervenute dalle unità operative abilitate di cui all'
+							<rif xlink:href="#art3-t2" xlink:type="simple">art. 3</rif>
+							.
+						</corpo>
+					</comma>
+					<comma id="art4-t2-com5">
+						<num>5.</num>
+						<corpo>La Giunta Regionale, entro un anno dall'entrata in vigore della presente legge, provvede alla verifica del funzionamento del servizio e della sua economicità, riferendo al Consiglio.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art4" iniziovigore="t2">
+					<num>Art. 4</num>
 					<rubrica>(Modalità di erogazione)</rubrica>
 					<comma id="art4-com1">
 						<num>1.</num>
@@ -90,56 +208,60 @@
 					<comma id="art4-com2">
 						<num>2.</num>
 						<corpo>
-							Gli oneri finanziari relativi sono assunti a carico del bilancio regionale ai sensi dell'
-							<rif xlink:href="#art6" xlink:type="simple">art. 6</rif>
-							.
+							Per i fini di cui all'
+							<rif xlink:href="#art3" xlink:type="simple">art. 3</rif>
+							e allo scopo di assicurare la fornitura delle bombole di ossigeno direttamente al domicilio dei pazienti in conformità a quanto disposto dall'
+							<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;538#art14-com5" xlink:type="simple">art. 14, comma 5, del Decreto Legislativo 30 dicembre 1992, n. 538</rif>
+							, le Aziende Unità sanitarie locali sono autorizzate a stipulare contratti con le ditte fornitrici aventi i requisiti di legge, previa gara da effettuarsi in base alla vigente normativa e introducendo clausole che consentano la verifica della quantità di ossigeno effettivamente consumata.
 						</corpo>
 					</comma>
 					<comma id="art4-com3">
 						<num>3.</num>
 						<corpo>
-							Per i fini di cui all'
-							<rif xlink:href="#art3" xlink:type="simple">art. 3</rif>
-							ed allo scopo di assicurare la fornitura delle bombole di ossigeno direttamente al domicilio dei pazienti in conformità di quanto disposto dall'
-							<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;538#art14-com5" xlink:type="simple">art. 14, comma 5, del Decreto Legislativo 30 dicembre 1992, n. 538</rif>
-							, la Giunta regionale è autorizzata a stipulare contratti con le ditte fornitrici aventi i requisiti di legge, previa effettuazione di gara da effettuarsi in base alla vigente normativa, e introducendo clausole che consentano la verifica della quantità di ossigeno effettivamente consumata.
-						</corpo>
-					</comma>
-					<comma id="art4-com4">
-						<num>4.</num>
-						<corpo>
-							La Giunta regionale provvede agli ordinativi di fornitura, sulla base delle richieste pervenute dalle unità operative abilitate di cui all'
+							Le Aziende Unità sanitarie locali provvedono agli ordinativi di fornitura sulla base delle richieste pervenute dalle strutture operative abilitate di cui all'
 							<rif xlink:href="#art3" xlink:type="simple">art. 3</rif>
 							.
 						</corpo>
 					</comma>
-					<comma id="art4-com5">
-						<num>5.</num>
-						<corpo>La Giunta Regionale, entro un anno dall'entrata in vigore della presente legge, provvede alla verifica del funzionamento del servizio e della sua economicità, riferendo al Consiglio.</corpo>
-					</comma>
 				</articolo>
-				<articolo id="art5">
+				<articolo finevigore="t2" id="art5-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 5</num>
 					<rubrica>(Istituzione del registro regionale)</rubrica>
-					<comma id="art5-com1">
+					<comma id="art5-t2-com1">
 						<num>1.</num>
 						<corpo>
 							La Giunta Regionale delibera l'istituzione, entro tre mesi dall'entrata in vigore della presente legge, di un registro regionale cui affluiscono, in base ai cicli di cura programmati di cui all'
-							<rif xlink:href="#art3" xlink:type="simple">art. 3</rif>
+							<rif xlink:href="#art3-t2" xlink:type="simple">art. 3</rif>
 							, le notizie concernenti l'inizio, l'evoluzione e l'esito dei trattamenti.
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art6">
+				<articolo finevigore="t2" id="art6-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 6</num>
 					<rubrica>(Norme finanziarie)</rubrica>
-					<comma id="art6-com1">
+					<comma id="art6-t2-com1">
 						<num>1.</num>
 						<corpo>Agli oneri derivanti dalla presente legge, stimati per l'anno 1994 in lire due miliardi e cinquecento milioni, si fa fronte con i fondi allocati al Capitolo 17220 del bilancio.</corpo>
 					</comma>
-					<comma id="art6-com2">
+					<comma id="art6-t2-com2">
 						<num>2.</num>
 						<corpo>Per gli esercizi successivi si provvederà con legge di bilancio.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art6" iniziovigore="t2">
+					<num>Art. 6</num>
+					<rubrica>(Norme finanziarie)</rubrica>
+					<comma id="art6-com1">
+						<num>1.</num>
+						<corpo>Agli oneri derivanti dalla presente legge e decorrenti dall'anno 1996 si provvede, per tale anno e per gli anni successivi, con legge di bilancio imputando la spesa al capitolo corrispondente al capitolo 17165 del bilancio 1995.</corpo>
+					</comma>
+					<comma id="art6-com2">
+						<num>2.</num>
+						<corpo>
+							Per l'anno 1995 continua a produrre effetti l'autorizzazione di cui all'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1994-06-01;42#art6-com2" xlink:type="simple">art. 6, comma 2, della LR 1 giugno 1994, n. 42</rif>
+							.
+						</corpo>
 					</comma>
 				</articolo>
 			</articolato>
