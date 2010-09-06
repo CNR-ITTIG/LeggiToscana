@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19930107" num="2" tipo="BURT" />
 					<entratainvigore norm="19930122" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1993-12-30;109" />
+					<urn finevigore="t4" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1993-12-30;109" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1993-12-30;109@1995-12-04" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Imprese" />
 						<materia valore="Finanziamenti" />
@@ -18,11 +19,13 @@
 						<evento data="19930122" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19930122" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="19930122" fonte="ra2" id="t3" tipo="modifica" />
+						<evento data="19951213" fonte="rp1" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1993-12-30;109" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1987-02-16;12" xlink:type="simple" />
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1987-02-16;12" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-12-04;103" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -49,6 +52,23 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-12-04;103" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-12-04;103#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 4 dicembre 1995, n. 103" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art7-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art7-com1-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -234,7 +254,7 @@
 					<articolo id="art7">
 						<num>ARTICOLO 7</num>
 						<rubrica>(Interventi per il consolidamento dell'indebitamento a breve termine delle piccole imprese)</rubrica>
-						<comma id="art7-com1">
+						<comma finevigore="t4" id="art7-com1-t4" iniziovigore="t1" status="abrogato">
 							<num>1.</num>
 							<corpo>
 								La Regione concorre, a favore dei soggetti indicati dall'
@@ -244,6 +264,14 @@
 								, come convertito dalla
 								<rif xlink:href="urn:nir:stato:legge:1993-07-19;237" xlink:type="simple">legge 19 luglio 1993, n. 237</rif>
 								. Il contributo regionale è corrisposto in proporzione alla consistenza, alla data di 60 giorni dopo l'entrata in vigore della presente legge, dei fondi consortili aventi la sopraindicata finalità esclusiva. Per la definizione di piccola impresa si applicano i criteri di cui al decreto del Ministro dell'Industria, del Commercio e dell'Artigianato del 1o giugno 1993.
+							</corpo>
+						</comma>
+						<comma id="art7-com1" iniziovigore="t4">
+							<num>1.</num>
+							<corpo>
+								La Regione concorre, a favore dei soggetti indicati dall'
+								<rif xlink:href="urn:nir:regione.toscana:legge:1993;66#art1" xlink:type="simple">articolo 1 della LR n. 66/93</rif>
+								, all'incremento dei loro fondi di garanzia con un importo di L. 100.000.000 cadauno e con un importo di L. 300.000.000 da ripartirsi proporzionalmente agli affidamenti garantiti dai Consorzi Fidi come risultano in essere alla data del 31.12.94 sulla base del loro bilancio 1994 e di apposite attestazioni bancarie.
 							</corpo>
 						</comma>
 						<comma id="art7-com2">
