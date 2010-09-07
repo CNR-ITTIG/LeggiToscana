@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19950414" num="27" tipo="BURT" />
 					<entratainvigore norm="19950429" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1995-04-06;41" />
+					<urn finevigore="t10" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1995-04-06;41" />
+					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1995-04-06;41@1995-11-13" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Ente Regione" />
@@ -25,6 +26,7 @@
 						<evento data="19950429" fonte="ra6" id="t7" tipo="modifica" />
 						<evento data="19950429" fonte="ra7" id="t8" tipo="modifica" />
 						<evento data="19950429" fonte="ra8" id="t9" tipo="modifica" />
+						<evento data="19951205" fonte="rp1" id="t10" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-04-06;41" xlink:type="simple" />
@@ -36,6 +38,7 @@
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1991-05-16;20" xlink:type="simple" />
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:1992-12-30;63" xlink:type="simple" />
 						<attiva id="ra8" xlink:href="urn:nir:regione.toscana:legge:1991-05-16;20" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-11-13;99" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -186,6 +189,20 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-11-13;99" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-11-13;99#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 13 novembre 1995, n. 99" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-t10" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -224,9 +241,9 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art2">
+				<articolo finevigore="t10" id="art2-t10" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 2</num>
-					<comma id="art2-com1">
+					<comma id="art2-t10-com1">
 						<num />
 						<corpo>
 							<mmod id="mmo1">
