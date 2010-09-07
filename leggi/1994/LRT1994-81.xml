@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t10" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1994-10-04;81" />
 					<urn finevigore="t11" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1994-10-04;81@1994-11-07" />
-					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1994-10-04;81@1995-04-12" />
+					<urn finevigore="t12" iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1994-10-04;81@1995-04-12" />
+					<urn iniziovigore="t12" valore="urn:nir:regione.toscana:legge:1994-10-04;81@1996-01-25" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Ente Regione" />
@@ -28,6 +29,7 @@
 						<evento data="19941122" fonte="ra8" id="t9" tipo="modifica" />
 						<evento data="19941201" fonte="rp1" id="t10" tipo="modifica" />
 						<evento data="19950503" fonte="rp2" id="t11" tipo="modifica" />
+						<evento data="19960220" fonte="rp3" id="t12" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-10-04;81" xlink:type="simple" />
@@ -41,6 +43,7 @@
 						<attiva id="ra8" xlink:href="urn:nir:regione.toscana:legge:1991-11-14;54" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1994-11-07;82" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1995-04-12;56" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1996-01-25;5" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -143,6 +146,21 @@
 								<dsp:testo valore="" />
 							</dsp:dominio>
 						</dsp:variazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art14-com2-leta" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-01-25;5" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-01-25;5#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 25 gennaio 1996, n. 5" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art14-com2-leta-pun11" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art14-com2-leta-pun10-t12" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -856,9 +874,16 @@
 									<num>-</num>
 									<corpo>fornisce risposte a rilievi degli organi di controllo sugli atti emanati;</corpo>
 								</ep>
-								<ep id="art14-com2-leta-pun10">
+								<ep finevigore="t12" id="art14-com2-leta-pun10-t12" iniziovigore="t1" status="abrogato">
 									<num>-</num>
 									<corpo>rappresenta in giudizio l'amministrazione regionale, relativamente agli adempimenti di competenza del dipartimento, ed ha i corrispondenti poteri di conciliare e transigere;</corpo>
+								</ep>
+								<ep id="art14-com2-leta-pun11" iniziovigore="t12">
+									<num>-</num>
+									<corpo>
+										può rappresentare in giudizio l'Amministrazione Regionale, relativamente agli adempimenti di competenza del Dipartimento, con i corrispondenti poteri di conciliare e transigere, fermo restando comunque il potere di rappresentanza generale in giudizio attribuito al Presidente della Giunta Regionale dall'
+										<rif xlink:href="urn:nir:regione.toscana:statuto:#art47" xlink:type="simple">art. 47, lettera e) dello Statuto della Regione Toscana</rif>
+									</corpo>
 								</ep>
 							</el>
 							<el id="art14-com2-letb">
