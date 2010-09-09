@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t4" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19790706" num="35" tipo="BURT" />
@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1979-06-28;29" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1979-06-28;29@1983-08-23" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1979-06-28;29@1991-09-09" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1979-06-28;29@1991-09-09" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1979-06-28;29@1996-01-25" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sistema educativo" />
 					</materie>
@@ -19,15 +20,17 @@
 						<evento data="19790721" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19830831" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19911004" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="19960220" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1979-06-28;29" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1983-08-23;66" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1991-09-09;46" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1996-01-25;6" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							A modificazione dei termini per i finanziamenti della Regione di cui alla presente legge si vedano le LLRR
 							<rif xlink:href="urn:nir:regione.toscana:legge:1983-10-31;71" xlink:type="simple">31 ottobre 1983, n. 71</rif>
@@ -36,21 +39,21 @@
 							.
 						</h:p>
 					</nota>
-					<nota id="n2">
+					<nota id="LeggeRegionale1-n2">
 						<h:p>
 							Il presente comma inserito dall'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1983-08-23;66#art1" xlink:type="simple">art. 1 della legge regionale 23 agosto 1983, n. 66</rif>
 							ha efficacia ai sensi dello stesso, fino all'entrata in vigore della nuova legislazione regionale relativa alla disciplina sostanziale delle attività di promozione educativa delle comunità locali e alla disciplina dei finanziamenti regionali a sostegno delle attività culturali, educative e sportive.
 						</h:p>
 					</nota>
-					<nota id="n3">
+					<nota id="LeggeRegionale1-n3">
 						<h:p>
 							Il presente comma inserito dall'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1983-08-23;66#art1" xlink:type="simple">art. 1 della legge regionale 23 agosto 1983, n. 66</rif>
 							ha efficacia ai sensi dello stesso, fino all'entrata in vigore della nuova legislazione regionale relativa alla disciplina sostanziale delle attività di promozione educativa delle comunità locali e alla disciplina dei finanziamenti regionali a sostegno delle attività culturali, educative e sportive.
 						</h:p>
 					</nota>
-					<nota id="n4">
+					<nota id="LeggeRegionale1-n4">
 						<h:p>
 							L'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1980-01-25;9#art3" xlink:type="simple">art. 3 della legge regionale 25 gennaio 1980, n. 9</rif>
@@ -141,6 +144,18 @@
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1991-09-09;46#mod3" xlink:type="simple" />
 							</dsp:norma>
 						</dsp:proroga>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1979-06-28;29" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-01-25;6" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-01-25;6#art7-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 7, comma 1 della legge Regione Toscana 25 gennaio 1996, n. 6" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -152,7 +167,7 @@
 				<numDoc>29</numDoc>
 				<titoloDoc>
 					Disciplina transitoria della promozione e gestione di interventi di educazione permanente
-					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 					.
 				</titoloDoc>
 			</intestazione>
@@ -218,7 +233,7 @@
 						<num />
 						<corpo>
 							Il finanziamento regionale di cui al successivo articolo 9, detratta la quota di cui all'art. 6, è assegnato sotto forma di contributo, mediante piano di riparto approvato dal Consiglio regionale su proposta della Giunta regionale, ai comuni singoli o associati in relazione ai programmi di attività educative da essi presentati
-							<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+							<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(b)</ndr>
 							.
 						</corpo>
 					</comma>
@@ -234,7 +249,7 @@
 						<num />
 						<corpo>
 							Tali programmi devono indicare, pena l'esclusione dal contributo regionale, le attività da realizzare, la loro durata nel tempo, i destinatari, le spese previste per ciascuna attività' e la somma stanziata dal Comune per il complesso delle iniziative programmate nell'anno solare di riferimento
-							<ndr num="#n3" valore="" xlink:type="simple">(c)</ndr>
+							<ndr num="#LeggeRegionale1-n3" valore="" xlink:type="simple">(c)</ndr>
 							.
 						</corpo>
 					</comma>
@@ -458,7 +473,7 @@
 							<num />
 							<corpo>
 								Per gli anni successivi le spese saranno determinate dalle singole leggi di bilancio
-								<ndr num="#n4" valore="" xlink:type="simple">(d)</ndr>
+								<ndr num="#LeggeRegionale1-n4" valore="" xlink:type="simple">(d)</ndr>
 								.
 							</corpo>
 						</ep>
