@@ -8,7 +8,8 @@
 					<entratainvigore norm="19930401" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1993-03-08;12" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1993-03-08;12@1993-10-21" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1993-03-08;12@1993-10-21" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1993-03-08;12@1996-02-19" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organi" />
 						<materia valore="Assetto Idrogeologico" />
@@ -18,10 +19,12 @@
 					<eventi>
 						<evento data="19930401" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19931113" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19960228" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1993-03-08;12" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1993-10-21;77" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1996-02-19;13" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -66,6 +69,18 @@
 							</dsp:norma>
 							<dsp:novella>
 								<dsp:pos xlink:href="#art4-com3" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-02-19;13" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-02-19;13#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 19 febbraio 1996, n. 13" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com4" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 					</modifichepassive>
@@ -220,6 +235,10 @@
 							<num>-</num>
 							<corpo>proporre alla Giunta Regionale l'adozione di ogni altra misura, anche cautelare, giudicata opportuna o necessaria per il raggiungimento delle finalità della presente legge e la migliore e più celere esecuzione dei lavori, nel rispetto dei principi fondamentali dell'ordinamento giuridico dello Stato.</corpo>
 						</ep>
+					</comma>
+					<comma id="art2-com4" iniziovigore="t3">
+						<num />
+						<corpo>Il Commissario è incaricato, altresì, della temporanea gestione, sorveglianza e manutenzione dell'invaso e delle altre opere realizzate in attesa della loro presa in carico da parte degli enti competenti.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art3">
