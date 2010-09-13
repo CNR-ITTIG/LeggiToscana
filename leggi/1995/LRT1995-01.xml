@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19950102" num="1" tipo="BURT" />
 					<entratainvigore norm="19950117" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1995-01-02;1" />
+					<urn finevigore="t14" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1995-01-02;1" />
+					<urn iniziovigore="t14" valore="urn:nir:regione.toscana:legge:1995-01-02;1@1996-02-22" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Usl" />
 						<materia valore="Ordinamento" />
@@ -28,6 +29,7 @@
 						<evento data="19950101" fonte="ra10" id="t11" tipo="modifica" />
 						<evento data="19950117" fonte="ra11" id="t12" tipo="modifica" />
 						<evento data="19950117" fonte="ra12" id="t13" tipo="modifica" />
+						<evento data="19960319" fonte="rp1" id="t14" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-01-02;1" xlink:type="simple" />
@@ -43,6 +45,7 @@
 						<attiva id="ra10" xlink:href="urn:nir:regione.toscana:legge:1992-10-20;50" xlink:type="simple" />
 						<attiva id="ra11" xlink:href="urn:nir:regione.toscana:legge:1992-09-03;48" xlink:type="simple" />
 						<attiva id="ra12" xlink:href="urn:nir:regione.toscana:legge:1990-04-09;38" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1996-02-22;14" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -168,6 +171,32 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art29-com5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-02-22;14" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-02-22;14#art46-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 46, comma 1 della legge Regione Toscana 22 febbraio 1996, n. 14" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art29-com5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-02-22;14" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-02-22;14#art46-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 46, comma 2 della legge Regione Toscana 22 febbraio 1996, n. 14" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art29-com5bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -1824,8 +1853,14 @@
 							<corpo>
 								Entro il 30 settembre la conferenza dei sindaci approva il piano attuativo locale di cui all'
 								<rif xlink:href="urn:nir:regione.toscana:legge:1994-06-29;49#art6-com3" xlink:type="simple">articolo 6 comma 3 della legge regionale 29 giugno 1994, n. 49</rif>
-								, esamina il bilancio pluriennale di previsione ed il bilancio di esercizio e rimette al direttore generale ed alla giunta regionale le relative osservazioni.
+								, esamina il bilancio pluriennale di previsione
+								<h:span finevigore="t14" id="h1" iniziovigore="t1" status="abrogato">ed il bilancio di esercizio</h:span>
+								e rimette al direttore generale ed alla giunta regionale le relative osservazioni.
 							</corpo>
+						</comma>
+						<comma id="art29-com5bis" iniziovigore="t14">
+							<num>5 bis.</num>
+							<corpo>Entro il 20 maggio la Conferenza dei Sindaci esamina il bilancio di esercizio dell'Azienda U.S.L. e rimette al Direttore generale e alla Giunta regionale le relative osservazioni.</corpo>
 						</comma>
 						<comma id="art29-com6">
 							<num>6.</num>
