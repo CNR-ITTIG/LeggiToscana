@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19950127" num="8" tipo="BURT" />
 					<entratainvigore norm="19950211" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1995-01-20;9" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1995-01-20;9" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1995-01-20;9@1996-03-15" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Diritti" />
 					</materie>
@@ -15,11 +16,29 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19950211" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19960511" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-01-20;9" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1996-03-15;18" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art41-com1-letc" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-03-15;18" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-03-15;18#art18-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 18, comma 2 della legge Regione Toscana 15 marzo 1996, n. 18" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art41-com1-letc-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -1201,7 +1220,7 @@
 									<num>b)</num>
 									<corpo>gli atti amministrativi generali, in qualunque forma adottati, con i quali si dispone in ordine alla organizzazione degli uffici regionali, alle modalità di svolgimento dei procedimenti amministrativi, alla conoscibilità degli atti, alla applicazione di norme giuridiche, ad eccezione degli ordini di servizio dei coordinatori e dei responsabili dei servizi e delle note ad esclusivo uso interno;</corpo>
 								</el>
-								<el id="art41-com1-letc">
+								<el finevigore="t2" id="art41-com1-letc-t2" iniziovigore="t1" status="abrogato">
 									<num>c)</num>
 									<corpo>le proposte di legge e di regolamento e le altre proposte di atti amministrativi trasmessi all'approvazione del Consiglio regionale;</corpo>
 								</el>
