@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1994-06-29;49" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1994-06-29;49@1995-03-23" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1994-06-29;49@1996-02-22" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1994-06-29;49@1996-02-22" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1994-06-29;49@1996-03-28" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Usl" />
 						<materia valore="Ordinamento" />
@@ -21,11 +22,13 @@
 						<evento data="19940630" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19950331" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19960319" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="19960424" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-06-29;49" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-03-23;28" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1996-02-22;14" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1996-03-28;25" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -46,7 +49,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art20" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-02-22;14" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-02-22;14#art49-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -57,6 +60,21 @@
 								<dsp:pos xlink:href="#art20-t3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art19-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-03-28;25" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-03-28;25#art4-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1 della legge Regione Toscana 28 marzo 1996, n. 25" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art19-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art19-com2-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -1028,16 +1046,24 @@
 								Il direttore generale nell'esercizio delle proprie funzioni è coadiuvato dal direttore amministrativo e dal direttore sanitario previsti dall'
 								<rif xlink:href="urn:nir:stato:decreto.legislativo:1993-12-07;517#art3-com6" xlink:type="simple">articolo 3, comma 6, del decreto delegato</rif>
 								, nonché dal coordinatore dei servizi sociali di cui al
-								<rif xlink:href="#art19-com2" xlink:type="simple">successivo comma 2</rif>
+								<rif xlink:href="#art19-com2-t4" xlink:type="simple">successivo comma 2</rif>
 								.
 							</corpo>
 						</comma>
-						<comma id="art19-com2">
+						<comma finevigore="t4" id="art19-com2-t4" iniziovigore="t1" status="abrogato">
 							<num>2.</num>
 							<corpo>
 								L'incarico di coordinamento dei servizi sociali è conferito dal direttore generale secondo quanto previsto dall'
 								<rif xlink:href="urn:nir:regione.toscana:legge:1992-09-02;42#art13" xlink:type="simple">articolo 13 della legge regionale 2 settembre 1992, n. 42</rif>
 								, ovvero a funzionario di altro profilo che abbia svolto per almeno cinque anni qualificata attività di direzione dei servizi sociali nelle unità sanitarie locali.
+							</corpo>
+						</comma>
+						<comma id="art19-com2" iniziovigore="t4">
+							<num>2.</num>
+							<corpo>
+								L'incarico di coordinamento dei servizi sociali è conferito in conformità di quanto previsto dall'articolo 14 (Il coordinatore dei servizi sociali) della
+								<rif xlink:href="urn:nir:regione.toscana:legge:1992-09-02;42" xlink:type="simple">LR 2 settembre 1992, n. 42</rif>
+								.
 							</corpo>
 						</comma>
 						<comma id="art19-com3">

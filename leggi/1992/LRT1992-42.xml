@@ -8,7 +8,8 @@
 					<entratainvigore norm="19920926" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t14" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1992-09-02;42" />
-					<urn iniziovigore="t14" valore="urn:nir:regione.toscana:legge:1992-09-02;42@1993-11-04" />
+					<urn finevigore="t15" iniziovigore="t14" valore="urn:nir:regione.toscana:legge:1992-09-02;42@1993-11-04" />
+					<urn iniziovigore="t15" valore="urn:nir:regione.toscana:legge:1992-09-02;42@1996-03-28" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Assistenza Sociale" />
 					</materie>
@@ -29,6 +30,7 @@
 						<evento data="19920926" fonte="ra11" id="t12" tipo="modifica" />
 						<evento data="19920926" fonte="ra12" id="t13" tipo="modifica" />
 						<evento data="19931127" fonte="rp1" id="t14" tipo="modifica" />
+						<evento data="19960424" fonte="rp2" id="t15" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1992-09-02;42" xlink:type="simple" />
@@ -45,6 +47,7 @@
 						<attiva id="ra11" xlink:href="urn:nir:regione.toscana:legge:1992-04-30;16" xlink:type="simple" />
 						<attiva id="ra12" xlink:href="urn:nir:regione.toscana:legge:1992-04-30;16" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1993-11-04;80" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1996-03-28;25" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -225,6 +228,36 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art32-t14" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-03-28;25" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-03-28;25#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 28 marzo 1996, n. 25" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art13" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art13-t15" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art14" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-03-28;25" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-03-28;25#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 28 marzo 1996, n. 25" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art14" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art14-t15" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -669,10 +702,10 @@
 								<corpo>I comuni definiscono, secondo i propri statuti e regolamenti e nelle eventuali convenzioni, le modalità di consultazione dei cittadini ai fini della redazione del programma annuale, gli strumenti mediante i quali rilevare l'efficacia delle prestazioni e le segnalazioni sulla qualità dei servizi, le modalità di partecipazione alle attività sia distrettuali che zonali del volontariato e delle associazioni con finalità socio - assistenziali.</corpo>
 							</comma>
 						</articolo>
-						<articolo id="art13">
+						<articolo finevigore="t15" id="art13-t15" iniziovigore="t1" status="abrogato">
 							<num>ARTICOLO 13</num>
 							<rubrica>(Organizzazione dei servizi di assistenza sociale nelle USL)</rubrica>
-							<comma id="art13-com1">
+							<comma id="art13-t15-com1">
 								<num>1.</num>
 								<corpo>
 									Le USL gestiscono le attività ad alta integrazione socio - sanitaria, di cui al
@@ -684,7 +717,7 @@
 									.
 								</corpo>
 							</comma>
-							<comma id="art13-com2">
+							<comma id="art13-t15-com2">
 								<num>2.</num>
 								<corpo>
 									Al responsabile del servizio, nominato dall'organo di gestione sulla base dei requisiti previsti dalla
@@ -694,49 +727,137 @@
 									, è affidato il coordinamento del settore dell'assistenza sociale dell'USL.
 								</corpo>
 							</comma>
-							<comma id="art13-com3">
+							<comma id="art13-t15-com3">
 								<num>3.</num>
 								<corpo>Per ciascuna unità operativa, con atto dell'organo di gestione, viene attribuita la responsabilità analogamente a quanto previsto per il responsabile del servizio.</corpo>
 							</comma>
 						</articolo>
-						<articolo id="art14">
+						<articolo id="art13" iniziovigore="t15">
+							<num>Art. 13</num>
+							<rubrica>Organizzazione dei servizi di assistenza nelle Aziende unità sanitarie locali</rubrica>
+							<comma id="art13-com1">
+								<num>1.</num>
+								<corpo>
+									Per l'esercizio delle funzioni in materia di assistenza sociale l'Azienda unità sanitaria locale articola la propria organizzazione secondo quanto previsto dal
+									<rif xlink:href="urn:nir:regione.toscana:legge:1995-01-02;1#cap2" xlink:type="simple">capo II</rif>
+									e dal
+									<rif xlink:href="urn:nir:regione.toscana:legge:1995-01-02;1#cap3" xlink:type="simple">capo III</rif>
+									della LR 2 gennaio 1995, n. 1 .
+								</corpo>
+							</comma>
+							<comma id="art13-com2">
+								<num>2.</num>
+								<alinea>La responsabilità della direzione di unità operativa di assistenza sociale è affidata:</alinea>
+								<el id="art13-com2-leta">
+									<num>a)</num>
+									<corpo>per il personale iscritto nei ruoli nominativi del servizio sanitario nazionale, a soggetti che rivestono la qualifica funzionale di assistente sociale coordinatore;</corpo>
+								</el>
+								<el id="art13-com2-letb">
+									<num>b)</num>
+									<corpo>per il personale del comparto degli Enti locali, comandato o messo a disposizione dell'Azienda unità sanitaria locale e assegnato al dipartimento di assistenza sociale, a soggetti che rivestono le seguenti qualifiche funzionali: - istruttore direttivo assistente sociale o qualifiche di livello equivalente di VII livello o superiore in possesso del diploma di assistente sociale e con formale assegnazione al settore dei servizi sociali.</corpo>
+								</el>
+							</comma>
+							<comma id="art13-com3">
+								<num>3.</num>
+								<corpo>I soggetti che rivestono le posizioni giuridiche di cui al comma 2, lett. a) e b), devono inoltre essere in possesso di almeno cinque anni di esperienze lavorative nel settore dei servizi sociali risultanti da formali provvedimenti di assegnazione.</corpo>
+							</comma>
+							<comma id="art13-com4">
+								<num>4.</num>
+								<corpo>Ai direttori di unità operativa ed ai responsabili delle aree funzionali è riconosciuta una indennità di funzione ai sensi dei vigenti contratti di lavoro.</corpo>
+							</comma>
+						</articolo>
+						<articolo finevigore="t15" id="art14-t15" iniziovigore="t1" status="abrogato">
 							<num>ARTICOLO 14</num>
 							<rubrica>(Attribuzioni del coordinatore)</rubrica>
-							<comma id="art14-com1">
+							<comma id="art14-t15-com1">
 								<num>1.</num>
 								<alinea>Il coordinatore del Servizio assistenza sociale:</alinea>
-								<ep id="art14-com1-pun1">
+								<ep id="art14-t15-com1-pun1">
 									<num>-</num>
 									<corpo>elabora proposte in ordine all'organizzazione del servizio ed ai programmi di attività;</corpo>
 								</ep>
-								<ep id="art14-com1-pun2">
+								<ep id="art14-t15-com1-pun2">
 									<num>-</num>
 									<corpo>verifica l'attuazione dei programmi;</corpo>
 								</ep>
-								<ep id="art14-com1-pun3">
+								<ep id="art14-t15-com1-pun3">
 									<num>-</num>
 									<corpo>organizza e controlla la gestione del sistema informativo secondo le indicazioni regionali;</corpo>
 								</ep>
-								<ep id="art14-com1-pun4">
+								<ep id="art14-t15-com1-pun4">
 									<num>-</num>
 									<corpo>cura l'aggiornamento del personale del servizio;</corpo>
 								</ep>
-								<ep id="art14-com1-pun5">
+								<ep id="art14-t15-com1-pun5">
 									<num>-</num>
 									<corpo>dispone l'assegnazione del personale alle articolazioni organizzative nell'ambito delle norme contrattuali relative alla mobilità;</corpo>
 								</ep>
-								<ep id="art14-com1-pun6">
+								<ep id="art14-t15-com1-pun6">
 									<num>-</num>
 									<corpo>nomina i componenti degli Uffici di coordinamento per le attività sociali di distretto;</corpo>
 								</ep>
-								<ep id="art14-com1-pun7">
+								<ep id="art14-t15-com1-pun7">
 									<num>-</num>
 									<corpo>cura l'integrazione con le attività sanitarie di zona;</corpo>
 								</ep>
-								<ep id="art14-com1-pun8">
+								<ep id="art14-t15-com1-pun8">
 									<num>-</num>
 									<corpo>è sentito dai competenti organi comunali in ordine ai problemi inerenti l'assistenza sociale, nel caso di comuni associati con l'USL.</corpo>
 								</ep>
+							</comma>
+						</articolo>
+						<articolo id="art14" iniziovigore="t15">
+							<num>Art. 14</num>
+							<rubrica>Il coordinatore dei servizi sociali</rubrica>
+							<comma id="art14-com1">
+								<num>1.</num>
+								<alinea>Il coordinatore dei servizi sociali coadiuva il direttore generale ed, in particolare:</alinea>
+								<ep id="art14-com1-pun1">
+									<num>-</num>
+									<corpo>presta assistenza nei rapporti intrattenuti con l'esecutivo della conferenza dei sindaci;</corpo>
+								</ep>
+								<ep id="art14-com1-pun2">
+									<num>-</num>
+									<corpo>fornisce pareri sugli atti relativi alle materie di competenza;</corpo>
+								</ep>
+								<ep id="art14-com1-pun3">
+									<num>-</num>
+									<corpo>svolge attività d'indirizzo e di supporto nei confronti dei responsabili delle strutture organizzative con riferimento agli aspetti organizzativi e di coordinamento dei servizi.</corpo>
+								</ep>
+							</comma>
+							<comma id="art14-com2">
+								<num>2.</num>
+								<corpo>
+									Il coordinatore dei servizi sociali dirige e coordina le attività socio-assistenziali dell'Azienda unità sanitaria locale e quelle ad essa delegate ai sensi dell'art. 5, fornisce pareri obbligatori, per quanto di propria competenza, sugli atti del direttore generale dell'Azienda, assume gli atti delegati dal direttore generale ai sensi dell'
+									<rif xlink:href="urn:nir:regione.toscana:legge:1994-06-29;49#art16-com2" xlink:type="simple">art. 16, comma 2, della LR 29 giugno 1994, n. 49</rif>
+									, esercita ogni altra funzione a lui attribuita dalla normativa statale e regionale in materia;
+								</corpo>
+							</comma>
+							<comma id="art14-com3">
+								<num>3.</num>
+								<corpo>Il coordinatore dei servizi sociali della Aziende unità sanitaria locale è nominato dal direttore generale con provvedimento motivato, sentita la conferenza dei sindaci. Il rapporto di lavoro è a tempo pieno, regolato da contratto di diritto privato di durata quinquennale, rinnovabile, e non può comunque protrarsi oltre il settantesimo anno di età.</corpo>
+							</comma>
+							<comma id="art14-com4">
+								<num>4.</num>
+								<corpo>
+									Possono essere nominati coordinatori dei servizi sociali della Azienda unità sanitaria locale i laureati in sociologia o in discipline equipollenti con corso di laurea in sociologia o a indirizzo sociologico e gli assistenti sociali iscritti all'albo di cui alla
+									<rif xlink:href="urn:nir:stato:legge:1993-03-23;84" xlink:type="simple">legge 23 marzo 1993, n. 84</rif>
+									. Ai fini della nomina, i soggetti non devono avere compiuto il sessantacinquesimo anno di età e devono avere svolto per almeno cinque anni qualificata attività di direzione tecnico- professionale in enti o strutture di assistenza sociale pubblici o privati di media o grande dimensione. In sede di prima applicazione della deliberazione del Consiglio regionale n. 527 del 21 dicembre 1995 "Piano sanitario regionale 1996- 98", possono essere altresì nominati coloro i quali abbiano svolto per almeno cinque anni le funzioni di coordinatore dei servizi sociali delle unità sanitarie locali confluite nelle Aziende sanitarie e non abbiano compiuto il sessantacinquesimo anno di età.
+								</corpo>
+							</comma>
+							<comma id="art14-com5">
+								<num>5.</num>
+								<corpo>
+									Al coordinatore dei servizi sociali si applicano, in quanto compatibili, le disposizioni previste per il direttore sanitario e per il direttore amministrativo dall'art. 3, commi 6, 7, 8, 9 e 11 del
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:1992;502" xlink:type="simple">decreto legislativo 502/92</rif>
+									e successive modifiche ed integrazioni. Il trattamento economico del coordinatore dei servizi sociali è determinato con deliberazione della Giunta regionale in misura non superiore al settanta per cento del trattamento base attribuito al direttore generale, tenendo conto della complessità delle funzioni ed, in particolare, dell'esercizio della delega dei singoli Enti locali all'Azienda USL ai sensi dell'
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:1992;502#art3-com3" xlink:type="simple">art. 3, comma 3, del D.Lgs. n. 502/92</rif>
+									.
+								</corpo>
+							</comma>
+							<comma id="art14-com6">
+								<num>6.</num>
+								<corpo>Gli oneri per il coordinatore dei servizi sociali sono ripartiti in eguale misura tra gli Enti locali interessati e l'Azienda unità sanitaria locale nei casi di gestione delegata.</corpo>
 							</comma>
 						</articolo>
 					</capo>
