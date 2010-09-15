@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19940608" num="39" tipo="BURT" />
 					<entratainvigore norm="19940623" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1994-05-30;41" />
+					<urn finevigore="t10" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1994-05-30;41" />
+					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1994-05-30;41@1996-03-28" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Partecipazioni Regionali" />
 						<materia valore="Credito" />
@@ -25,6 +26,7 @@
 						<evento data="19941223" fonte="ra6" id="t7" tipo="modifica" />
 						<evento data="19941223" fonte="ra7" id="t8" tipo="modifica" />
 						<evento data="19941223" fonte="ra8" id="t9" tipo="modifica" />
+						<evento data="19960409" fonte="rp1" id="t10" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-05-30;41" xlink:type="simple" />
@@ -36,8 +38,18 @@
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1987-08-26;49" xlink:type="simple" />
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:1974-09-05;59" xlink:type="simple" />
 						<attiva id="ra8" xlink:href="urn:nir:regione.toscana:legge:1993-09-06;68" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1996-03-28;24" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Ad integrazione del presente articolo si veda l'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1996-03-28;24#art5" xlink:type="simple">art. 5 della legge regionale 28 marzo 1996, n. 24</rif>
+							.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:abrogazione completa="si" implicita="no">
@@ -125,6 +137,38 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13-com5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-03-28;24" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-03-28;24#art6-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 6, comma 1 della legge Regione Toscana 28 marzo 1996, n. 24" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art13-com5" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art13-com5-t10" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13-com6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-03-28;24" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-03-28;24#art6-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 6, comma 1 della legge Regione Toscana 28 marzo 1996, n. 24" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art13-com6" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art13-com6-t10" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -489,13 +533,25 @@
 								, adotta il relativo provvedimento entro i successivi trenta giorni, autorizzando il conseguente pagamento tramite la Fidi Agricola SPA
 							</corpo>
 						</comma>
-						<comma id="art13-com5">
+						<comma finevigore="t10" id="art13-com5-t10" iniziovigore="t1" status="abrogato">
 							<num>5.</num>
 							<corpo>La Fidi Agricola SPA propone alla Giunta regionale la stipulazione di transazioni ove non sia conveniente avviare o proseguire il recupero coattivo del credito.</corpo>
 						</comma>
-						<comma id="art13-com6">
+						<comma id="art13-com5" iniziovigore="t10">
+							<num>5.</num>
+							<corpo>
+								La Fidi Agricola SpA può stipulare transazioni, ove non sia conveniente avviare o proseguire il recupero coattivo del credito, con i criteri e le modalità previsti dalla
+								<rif xlink:href="urn:nir:regione.toscana:legge:1996-03-28;24" xlink:type="simple">LR 28 marzo 1996, n. 24</rif>
+								.
+							</corpo>
+						</comma>
+						<comma finevigore="t10" id="art13-com6-t10" iniziovigore="t1" status="abrogato">
 							<num>6.</num>
 							<corpo>La Fidi Agricola SPA può altresì proporre alla Giunta regionale di esonerare gli enti creditizi dall'obbligo dell'escussione del debitore principale e degli eventuali coobbligati o rinunziare a tale escussione, nei casi in cui la Regione Toscana si surroghi nell'escussione all'ente creditizio e qualora sussistano documentati motivi di convenienza in rapporto agli oneri da sostenere e ai recuperi prevedibili.</corpo>
+						</comma>
+						<comma id="art13-com6" iniziovigore="t10">
+							<num>6.</num>
+							<corpo>La Fidi Agricola SpA può esonerare gli enti creditizi dall'obbligo dell'escussione del debitore principale o rinunciare a tale escussione, nei casi in cui la Regione Toscana si surroghi nell'escussione dell'ente creditizio e qualora sussistano documentati motivi di convenienza in rapporto agli oneri da sostenere e ai recuperi prevedibili.</corpo>
 						</comma>
 						<comma id="art13-com7">
 							<num>7.</num>
@@ -619,7 +675,10 @@
 						</comma>
 					</articolo>
 					<articolo id="art17">
-						<num>ARTICOLO 17</num>
+						<num>
+							ARTICOLO 17
+							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+						</num>
 						<rubrica>(Finanziamento gestione stralcio)</rubrica>
 						<comma id="art17-com1">
 							<num>1.</num>
