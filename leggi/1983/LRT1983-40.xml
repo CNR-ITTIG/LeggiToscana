@@ -10,7 +10,8 @@
 					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1983-06-06;40" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1983-06-06;40@1984-11-12" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1983-06-06;40@1988-02-08" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1983-06-06;40@1994-01-25" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1983-06-06;40@1994-01-25" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1983-06-06;40@1996-04-09" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Enti sanitari" />
 						<materia valore="Controlli" />
@@ -23,6 +24,7 @@
 						<evento data="19841206" fonte="rp1" id="t3" tipo="modifica" />
 						<evento data="19880303" fonte="rp2" id="t4" tipo="modifica" />
 						<evento data="19940217" fonte="rp3" id="t5" tipo="modifica" />
+						<evento data="19960417" fonte="rp4" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1983-06-06;40" xlink:type="simple" />
@@ -30,6 +32,7 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1984-11-12;62" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1988-02-08;8" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1994-01-25;10" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1996-04-09;27" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -148,6 +151,18 @@
 								<dsp:testo valore="" />
 							</dsp:dominio>
 						</dsp:variazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-04-09;27" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-04-09;27#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 9 aprile 1996, n. 27" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art8-com2-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -332,7 +347,7 @@
 							<corpo>redigere una relazione trimestrale sulla gestione amministrativo - contabile dell'Unità Sanitaria Locale da trasmettere alla Regione e ai Ministeri della Sanità e del Tesoro.</corpo>
 						</ep>
 					</comma>
-					<comma id="art8-com2">
+					<comma finevigore="t6" id="art8-com2-t6" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>Le predette funzioni sono esercitate limitatamente al settore sanitario o comunque alle entrate e spese riconducibili al bilancio sanitario.</corpo>
 					</comma>
