@@ -12,7 +12,8 @@
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1977-05-06;28@1983-06-06" />
 					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1977-05-06;28@1985-04-15" />
 					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1977-05-06;28@1994-12-02" />
-					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1977-05-06;28@1995-04-06" />
+					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1977-05-06;28@1995-04-06" />
+					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1977-05-06;28@1996-05-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Contabilità Contratti" />
@@ -28,6 +29,7 @@
 						<evento data="19850509" fonte="rp4" id="t6" tipo="modifica" />
 						<evento data="19941224" fonte="rp5" id="t7" tipo="modifica" />
 						<evento data="19950429" fonte="rp6" id="t8" tipo="modifica" />
+						<evento data="19960513" fonte="rp7" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1977-05-06;28" xlink:type="simple" />
@@ -38,6 +40,7 @@
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1985-04-15;37" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1994-12-02;91" xlink:type="simple" />
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:1995-04-06;37" xlink:type="simple" />
+						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:1996-05-02;32" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -444,7 +447,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art5" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-04-06;37" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-04-06;37#art2-com3" xlink:type="simple" />
 								<dsp:subarg>
@@ -668,6 +671,18 @@
 								<dsp:pos xlink:href="#h2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art36" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-05-02;32" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-05-02;32#art5-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 1 della legge Regione Toscana 2 maggio 1996, n. 32" id="itt45" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art36-com4" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -1486,9 +1501,9 @@
 						<rubrica>(Mutui e prestiti)</rubrica>
 						<comma id="art36-com01">
 							<num />
-							<corpo>Agli effetti della previsione e della autorizzazione alla relativa contrazione, in sede di legge di bilancio o di leggi di variazione del medesimo, i mutui ed i prestiti sono soggetti al regime di cui al presente articolo.</corpo>
-						</comma>
-						<comma id="art36-coma">
+							<alinea>Agli effetti della previsione e della autorizzazione alla relativa contrazione, in sede di legge di bilancio o di leggi di variazione del medesimo, i mutui ed i prestiti sono soggetti al regime di cui al presente articolo.</alinea>
+						
+						<el id="art36-coma">
 							<num>a)</num>
 							<corpo>
 								Autorizzazione I mutui e i prestiti possono essere autorizzati esclusivamente per provvedere a spese di investimento, salvo quanto ulteriormente previsto dall'
@@ -1501,8 +1516,8 @@
 								<h:br />
 								In ogni caso gli oneri futuri di ammortamento trovano copertura nell'ambito del bilancio pluriennale della Regione. Non può essere autorizzata la contrazione di nuovi mutui e prestiti se non è stato approvato dal Consiglio regionale il rendiconto relativo all'esercizio anteriore di due anni a quello cui si riferiscono i nuovi mutui e prestiti.
 							</corpo>
-						</comma>
-						<comma id="art36-comb">
+						</el>
+						<el id="art36-comb">
 							<num>b)</num>
 							<corpo>
 								Contrazione Alla contrazione dei mutui e prestiti provvede la Giunta regionale, che ne determina le condizioni e le modalità sulla base della legge di autorizzazione, ai sensi dell'
@@ -1511,10 +1526,19 @@
 								<h:br />
 								Le somme iscritte nello stato di previsione dell'entrata, in relazione a mutui e prestiti autorizzati ma non stipulati entro il termine dell'esercizio, costituiscono minori entrate rispetto alle previsioni.
 							</corpo>
-						</comma>
-						<comma id="art36-comc">
+						</el>
+						<el id="art36-comc">
 							<num>c)</num>
 							<corpo>Riscossione Le entrate da mutui e prestiti stipulati entro il termine dell'esercizio, se non riscosse, vengono iscritte tra i residui attivi.</corpo>
+						</el>
+						</comma>
+						<comma id="art36-com4" iniziovigore="t9">
+							<num />
+							<corpo>
+								I mutui che la Regione può contrarre ai sensi di apposite leggi statali, i cui oneri di ammortamento fanno carico al bilancio dello Stato, sono assunti con provvedimento del dirigente della struttura dipartimentale funzionalmente competente, a norma della
+								<rif xlink:href="urn:nir:regione.toscana:legge:1994-11-07;81" xlink:type="simple">legge regionale 7.11.1994, n. 81</rif>
+								sull'ordinamento della dirigenza
+							</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art37">
