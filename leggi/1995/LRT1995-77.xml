@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19950802" num="49" tipo="BURT" />
 					<entratainvigore norm="19950817" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1995-07-19;77" />
+					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1995-07-19;77" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1995-07-19;77@1996-06-10" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ordinamento" />
 						<materia valore="Enti Territoriali" />
@@ -18,10 +19,12 @@
 					<eventi>
 						<evento data="19950817" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19950817" fonte="ra1" id="t2" tipo="modifica" />
+						<evento data="19960620" fonte="rp1" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-07-19;77" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1973-04-30;30" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1996-06-10;90" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -39,6 +42,20 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art19-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-06-10;90" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-06-10;90#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 10 giugno 1996, n. 90" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -604,7 +621,10 @@
 						</comma>
 						<comma id="art19-com3">
 							<num>3.</num>
-							<corpo>La Regione promuove e incentiva le forme di assistenza di cui al comma precedente e assume, agli stessi fini, ulteriori iniziative.</corpo>
+							<corpo>
+								La Regione promuove e incentiva le forme di assistenza di cui al comma precedente e assume, agli stessi fini, ulteriori iniziative.
+								<h:span id="h1" iniziovigore="t3">In tale ambito promuove, realizza ed incentiva interventi formativi finalizzati.</h:span>
+							</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art20">
