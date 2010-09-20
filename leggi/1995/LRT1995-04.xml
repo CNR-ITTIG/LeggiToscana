@@ -8,7 +8,8 @@
 					<entratainvigore norm="19950204" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t4" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1995-01-12;4" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1995-01-12;4@1995-04-04" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1995-01-12;4@1995-04-04" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1995-01-12;4@1996-06-28" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Rifiuti" />
 					</materie>
@@ -19,12 +20,14 @@
 						<evento data="19950204" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="19950204" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="19950422" fonte="rp1" id="t4" tipo="modifica" />
+						<evento data="19960708" fonte="rp2" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-01-12;4" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1984-11-13;65" xlink:type="simple" />
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1993-05-19;31" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-04-04;35" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1996-06-28;47" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -77,6 +80,48 @@
 							</dsp:norma>
 							<dsp:novella>
 								<dsp:pos xlink:href="#art2-com1-letq" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com2-lete" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-06-28;47" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-06-28;47#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 28 giugno 1996, n. 47" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art5-com2-lete" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-com2-lete-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-06-28;47" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-06-28;47#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 28 giugno 1996, n. 47" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art13-com3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art13-com3-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13-com5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-06-28;47" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-06-28;47#art2-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 2 della legge Regione Toscana 28 giugno 1996, n. 47" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art13-com5bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 					</modifichepassive>
@@ -498,9 +543,17 @@
 							<num>d)</num>
 							<corpo>la localizzazione degli impianti di smaltimento di rifiuti tossici e nocivi;</corpo>
 						</el>
-						<el id="art5-com2-lete">
+						<el finevigore="t5" id="art5-com2-lete-t5" iniziovigore="t1" status="abrogato">
 							<num>e)</num>
 							<corpo>le modalità e i tempi di realizzazione degli interventi;</corpo>
+						</el>
+						<el id="art5-com2-lete" iniziovigore="t5">
+							<num>e)</num>
+							<corpo>
+								le modalità e i tempi di realizzazione degli interventi nonché le modalità e i criteri per l'affidamento in concessione ai sensi del
+								<rif xlink:href="#art2-com3" xlink:type="simple">comma 3 dell'art. 2</rif>
+								;
+							</corpo>
 						</el>
 						<el id="art5-com2-letf">
 							<num>f)</num>
@@ -800,12 +853,20 @@
 							.
 						</corpo>
 					</comma>
-					<comma id="art13-com3">
+					<comma finevigore="t5" id="art13-com3-t5" iniziovigore="t1" status="abrogato">
 						<num>3.</num>
 						<corpo>
 							Il piano regionale provvisorio si applica fino all'approvazione del nuovo piano regionale di cui all'
 							<rif xlink:href="#art6" xlink:type="simple">art. 6</rif>
 							, con le procedure ed i contenuti previsti dalla presente legge.
+						</corpo>
+					</comma>
+					<comma id="art13-com3" iniziovigore="t5">
+						<num>3.</num>
+						<corpo>
+							Il piano regionale provvisorio si applica fino all'acquisizione di efficacia del nuovo piano regionale di cui all'
+							<rif xlink:href="#art5" xlink:type="simple">art. 5</rif>
+							.
 						</corpo>
 					</comma>
 					<comma id="art13-com4">
@@ -825,6 +886,21 @@
 							<rif xlink:href="#art5" xlink:type="simple">art. 5</rif>
 							. Fino a tale termine, compatibilmente con le prescrizioni del nuovo piano regionale, mantengono efficacia le disposizioni del piano regionale provvisorio relativamente ai contenuti di cui all'
 							<rif xlink:href="#art7" xlink:type="simple">art. 7</rif>
+							.
+						</corpo>
+					</comma>
+					<comma id="art13-com5bis" iniziovigore="t5">
+						<num>5 bis.</num>
+						<corpo>
+							Le disposizioni di cui alla
+							<mrif>
+								<rif xlink:href="#art2-com1-letc" xlink:type="simple">lettera c) del comma 1</rif>
+								e al
+								<rif xlink:href="#art2-com3" xlink:type="simple">comma 3</rif>
+								dell'art. 2
+							</mrif>
+							si applicano solo dopo l'acquisizione di efficacia del piano regionale di cui all'
+							<rif xlink:href="#art5" xlink:type="simple">art. 5</rif>
 							.
 						</corpo>
 					</comma>
