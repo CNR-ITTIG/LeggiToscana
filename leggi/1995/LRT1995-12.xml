@@ -8,7 +8,8 @@
 					<entratainvigore norm="19950221" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1995-01-27;12" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1995-01-27;12@1995-07-19" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1995-01-27;12@1995-07-19" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1995-01-27;12@1996-07-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Imprese" />
 						<materia valore="Credito" />
@@ -18,10 +19,12 @@
 					<eventi>
 						<evento data="19950221" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19950817" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19960723" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-01-27;12" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-07-19;76" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1996-07-02;50" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -87,6 +90,18 @@
 							</dsp:norma>
 							<dsp:novella>
 								<dsp:pos xlink:href="#art16ter" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art15-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-07-02;50" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-07-02;50#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 2 luglio 1996, n. 50" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 					</modifichepassive>
@@ -583,6 +598,7 @@
 									La Regione Toscana interviene, con una autorizzazione di spesa di L. 1.000.000.000, a favore delle iniziative, di cui alla
 									<rif xlink:href="#art10-com1-letg" xlink:type="simple">lett. g), dell'art. 10</rif>
 									, concernenti la realizzazione di opere di urbanizzazione previste in piani attuativi approvati ed operanti (Piani Insediamenti Produttivi, Piani di Lottizzazione, Piani di Recupero) aventi esplicita destinazione d'uso pubblico, artigianale e/o industriale e non ricadenti nelle zone individuate dai programmi comunitari, mediante la concessione di contributi in conto capitale nella misura massima del 20% della spesa documentata ammissibile.
+									<h:span id="h1" iniziovigore="t3">per i soggetti privati e del 40% per i soggetti pubblici.</h:span>
 								</corpo>
 							</comma>
 							<comma id="art15-com2">
@@ -680,7 +696,11 @@
 							<num>Articolo 16/bis.</num>
 							<comma id="art16bis-com1">
 								<num>1.</num>
-								<corpo>La Regione realizza le finalità di cui all'art. 10 lett. i) mediante un contributo straordinario per l'anno 1995 di Lit. 100.000.000 a società dotata di personalità giuridica, costituita da personale dipendente dello stabilimento Cantiere Navale "L. Orlando" di Livorno o loro rappresentanti, con lo scopo di rilevare lo stesso stabilimento navale.</corpo>
+								<corpo>
+									La Regione realizza le finalità di cui all'
+									<rif xlink:href="#art10-com1-leti" xlink:type="simple">art. 10 lett. i)</rif>
+									mediante un contributo straordinario per l'anno 1995 di Lit. 100.000.000 a società dotata di personalità giuridica, costituita da personale dipendente dello stabilimento Cantiere Navale "L. Orlando" di Livorno o loro rappresentanti, con lo scopo di rilevare lo stesso stabilimento navale.
+								</corpo>
 							</comma>
 							<comma id="art16bis-com2">
 								<num>2.</num>
@@ -707,7 +727,11 @@
 							<num>Articolo 16/ter</num>
 							<comma id="art16ter-com1">
 								<num>1.</num>
-								<corpo>La Regione realizza le finalità di cui all'art. 10, lett. l) mediante la concessione di un contributo straordinario per l'anno 1995 di L. 65.000.000 alla Provincia di Livorno per la costituzione e l'avvio, d'intesa con la Provincia di Pisa, di una "Agenzia di marketing" dell'Area Pisa-Livorno finalizzata soprattutto alla promozione di nuove iniziative produttive connesse con il sistema delle istituzioni scientifiche e di ricerca esistenti nell'area.</corpo>
+								<corpo>
+									La Regione realizza le finalità di cui all'
+									<rif xlink:href="#art10-com1-leti" xlink:type="simple">art. 10, lett. l)</rif>
+									mediante la concessione di un contributo straordinario per l'anno 1995 di L. 65.000.000 alla Provincia di Livorno per la costituzione e l'avvio, d'intesa con la Provincia di Pisa, di una "Agenzia di marketing" dell'Area Pisa-Livorno finalizzata soprattutto alla promozione di nuove iniziative produttive connesse con il sistema delle istituzioni scientifiche e di ricerca esistenti nell'area.
+								</corpo>
 							</comma>
 							<comma id="art16ter-com2">
 								<num>2.</num>
