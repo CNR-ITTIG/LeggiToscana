@@ -10,7 +10,8 @@
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1981-10-27;78" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1981-10-27;78@1984-03-14" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1981-10-27;78@1987-06-15" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1981-10-27;78@1995-03-23" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1981-10-27;78@1995-03-23" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1981-10-27;78@1996-07-19" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Turismo" />
 					</materie>
@@ -21,12 +22,14 @@
 						<evento data="19840408" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19870710" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19950415" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="19960813" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1981-10-27;78" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1984-03-14;17" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1987-06-15;37" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1995-03-23;29" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1996-07-19;57" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -523,6 +526,12 @@
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1987-06-15;37#mod2" xlink:type="simple" />
 							</dsp:norma>
 						</dsp:posticipo>
+						<dsp:proroga completa="si" implicita="no" su="efficacia">
+							<dsp:termine da="#t5" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-07-19;57" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-07-19;57#mod1" xlink:type="simple" />
+							</dsp:norma>
+						</dsp:proroga>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
