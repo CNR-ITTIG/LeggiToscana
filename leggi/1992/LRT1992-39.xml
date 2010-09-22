@@ -10,7 +10,8 @@
 					<urn finevigore="t9" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1992-08-18;39" />
 					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1992-08-18;39@1993-09-01" />
 					<urn finevigore="t12" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1992-08-18;39@1993-12-30" />
-					<urn iniziovigore="t12" valore="urn:nir:regione.toscana:legge:1992-08-18;39@1994-03-07" />
+					<urn finevigore="t13" iniziovigore="t12" valore="urn:nir:regione.toscana:legge:1992-08-18;39@1994-03-07" />
+					<urn iniziovigore="t13" valore="urn:nir:regione.toscana:legge:1992-08-18;39@1996-08-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ordinamento" />
 						<materia valore="Montagna" />
@@ -31,6 +32,7 @@
 						<evento data="19940122" fonte="rp2" id="t10" tipo="modifica" />
 						<evento data="19940122" fonte="ra8" id="t11" tipo="modifica" />
 						<evento data="19940310" fonte="rp3" id="t12" tipo="modifica" />
+						<evento data="19960827" fonte="rp4" id="t13" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1992-08-18;39" xlink:type="simple" />
@@ -45,6 +47,7 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1993-09-01;61" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1993-12-30;103" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1994-03-07;21" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1996-08-02;63" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -649,6 +652,21 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art35" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-08-02;63" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-08-02;63#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 2 agosto 1996, n. 63" id="itt36" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art35" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art35-t13" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -2397,32 +2415,56 @@
 							</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art35">
+					<articolo finevigore="t13" id="art35-t13" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 35</num>
 						<rubrica>(Criteri di ripartizione dei fondi assegnati dalla legge statale)</rubrica>
-						<comma id="art35-com1">
+						<comma id="art35-t13-com1">
 							<num>1.</num>
 							<alinea>
 								I fondi assegnati alla Regione ai sensi della vigente legge statale sono ripartiti fra le Comunità Montane e tra i comuni di cui al secondo comma dell'
 								<rif xlink:href="#ann1" xlink:type="simple">allegato 1</rif>
 								, secondo i seguenti criteri:
 							</alinea>
-							<el id="art35-com1-leta">
+							<el id="art35-t13-com1-leta">
 								<num>a)</num>
 								<corpo>per sei decimi in proporzione diretta alla superficie territoriale;</corpo>
 							</el>
-							<el id="art35-com1-letb">
+							<el id="art35-t13-com1-letb">
 								<num>b)</num>
 								<corpo>per quattro decimi in proporzione diretta alla popolazione residente determinata sulla base della più recente pubblicazione Istat per i Comuni totalmente montani e sulla base dei dati disponibili presso i Comuni per quelli solo parzialmente montani.</corpo>
 							</el>
 						</comma>
-						<comma id="art35-com2">
+						<comma id="art35-t13-com2">
 							<num>2.</num>
 							<corpo>
 								Il dieci per cento dei fondi di cui al
-								<rif xlink:href="#art35-com1" xlink:type="simple">primo comma</rif>
+								<rif xlink:href="#art35-t13-com1" xlink:type="simple">primo comma</rif>
 								può essere destinato dalla Regione all'integrazione e al completamento di progetti ed opere in corso di realizzazione, sentito il parere dell'UNCEM regionale.
 							</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art35" iniziovigore="t13">
+						<num>Art. 35</num>
+						<rubrica>(Criteri di ripartizione delle risorse finanziarie destinate alle spese generali di funzionamento)</rubrica>
+						<comma id="art35-com1">
+							<num>1.</num>
+							<alinea>
+								Le risorse del bilancio regionale destinate alle spese generali di funzionamento delle comunità montane e a quelle dei comuni non ricompresi in comunità montane e a quelle dei comuni non ricompresi in comunità montane ma classificati parzialmente o totalmente montani, elencati nell'allegato n. 1 della presente legge, così come risulta modificato dall'
+								<rif xlink:href="urn:nir:regione.toscana:legge:1995-04-12;53#art1-com3" xlink:type="simple">art. 1, terzo comma, della legge regionale 12 aprile 1995, n. 53</rif>
+								, sono così ripartite:
+							</alinea>
+							<el id="art35-com1-leta">
+								<num>a)</num>
+								<corpo>per sei decimi, in proporzione diretta alla superficie territoriale classificata montana;</corpo>
+							</el>
+							<el id="art35-com1-letb">
+								<num>b)</num>
+								<corpo>per quattro decimi, in proporzione diretta alla popolazione residente nei territori classificati montani, determinata sulla base della più recente pubblicazione dell'Istat per i comuni interamente montani, e sulla base dei dati comunicati ufficialmente dal comune agli uffici competenti della regione, per i comuni parzialmente montani.</corpo>
+							</el>
+						</comma>
+						<comma id="art35-com2">
+							<num>2.</num>
+							<corpo>Alla spesa di cui al comma precedente si fa fronte, per l'anno 1996, con le disponibilità recate dal capitolo 25020 del bilancio del corrente esercizio. Per gli anni successivi si provvede con legge di bilancio.</corpo>
 						</comma>
 					</articolo>
 					<articolo finevigore="t10" id="art36-t10" iniziovigore="t1" status="abrogato">
