@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19940907" num="60" tipo="BURT" />
 					<entratainvigore norm="19940907" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1994-08-31;70" />
+					<urn finevigore="t4" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1994-08-31;70" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1994-08-31;70@1996-07-31" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Formazione" />
 					</materie>
@@ -17,11 +18,13 @@
 						<evento data="19940907" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19940907" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="19940907" fonte="ra2" id="t3" tipo="modifica" />
+						<evento data="19960823" fonte="rp1" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-08-31;70" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1985-02-21;16" xlink:type="simple" />
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1984-09-04;59" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1996-07-31;61" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -51,6 +54,50 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art12" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-07-31;61" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-07-31;61#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 31 luglio 1996, n. 61" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art12" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art12-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art15-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-07-31;61" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-07-31;61#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 31 luglio 1996, n. 61" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art19" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-07-31;61" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-07-31;61#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 31 luglio 1996, n. 61" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art19-com8" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -561,16 +608,24 @@
 							</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art12">
+					<articolo finevigore="t4" id="art12-t4" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 12</num>
 						<rubrica>(Anno formativo)</rubrica>
-						<comma id="art12-com1">
+						<comma id="art12-t4-com1">
 							<num>1.</num>
 							<corpo>L'anno formativo decorre dal primo giorno del mese di settembre e termina con l'ultimo giorno del mese di agosto dell'anno successivo.</corpo>
 						</comma>
-						<comma id="art12-com2">
+						<comma id="art12-t4-com2">
 							<num>2.</num>
 							<corpo>La Giunta regionale, in base a specifiche motivazioni, anche connesse alla gestione di risorse statali e di fondi comunitari, può consentire l'esaurimento degli interventi relativi all'anno formativo anche oltre il 31 agosto, purché entro il 31 dicembre dello stesso anno.</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art12" iniziovigore="t4">
+						<num>Art. 12</num>
+						<rubrica>(Anno formativo)</rubrica>
+						<comma id="art12-com1">
+							<num>1.</num>
+							<corpo>L'anno formativo decorre dal primo giorno del mese di gennaio e termina l'ultimo giorno del mese di dicembre del medesimo anno.</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art13">
@@ -769,7 +824,12 @@
 						<rubrica>(Programma annuale di attività)</rubrica>
 						<comma id="art15-com1">
 							<num>1.</num>
-							<corpo>La Giunta Regionale, entro il 31 marzo di ogni anno e in conformità del piano triennale e dei suoi aggiornamenti, sentite le parti sociali, approva con atto meramente esecutivo uno schema di programma, con la specificazione delle risorse per ciascuna Provincia, articolate per obiettivi ed assi prioritari d'intervento.</corpo>
+							<corpo>
+								La Giunta Regionale,
+								<h:span finevigore="t4" id="h1" iniziovigore="t1" status="abrogato">entro il 31 marzo di ogni anno</h:span>
+								<h:span id="h2" iniziovigore="t4">entro il 30 giugno di ogni anno</h:span>
+								e in conformità del piano triennale e dei suoi aggiornamenti, sentite le parti sociali, approva con atto meramente esecutivo uno schema di programma, con la specificazione delle risorse per ciascuna Provincia, articolate per obiettivi ed assi prioritari d'intervento.
+							</corpo>
 						</comma>
 						<comma id="art15-com2">
 							<num>2.</num>
@@ -1051,8 +1111,16 @@
 							<num>7.</num>
 							<corpo>
 								Per esigenze di personale non soddisfatte con il ricorso a personale proprio od alle altre forme indicate nei commi precedenti, le Provincie possono instaurare rapporti di lavoro a tempo determinato per la durata massima dell'anno formativo, tenuto conto di quanto previsto all'
-								<rif xlink:href="#art12-com2" xlink:type="simple">articolo 12, comma 2</rif>
+								<rif xlink:href="#art12-t4-com2" xlink:type="simple">articolo 12, comma 2</rif>
 								. Per le attività di insegnamento la durata del rapporto di lavoro non può superare la durata dell'intervento per la realizzazione del quale esso è instaurato. I rapporti di lavoro a tempo determinato non sono rinnovabili prima che sia trascorso un anno dalla cessazione del rapporto precedente.
+							</corpo>
+						</comma>
+						<comma id="art19-com8" iniziovigore="t4">
+							<num>8.</num>
+							<corpo>
+								Tra le funzioni relative alla formazione professionale sono da intendersi ricomprese quelle di cui all'
+								<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-15;10#art4" xlink:type="simple">art. 4 del DPR 15 gennaio 1972, n. 10, lettera b)</rif>
+								.
 							</corpo>
 						</comma>
 					</articolo>
