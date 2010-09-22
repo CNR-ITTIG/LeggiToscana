@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19960708" num="38" tipo="BURT" />
 					<entratainvigore norm="19960708" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1996-06-28;49" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1996-06-28;49" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1996-06-28;49@1996-07-31" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Caccia" />
 					</materie>
@@ -15,11 +16,29 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19960708" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19960808" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1996-06-28;49" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1996-07-31;62" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-07-31;62" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-07-31;62#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 31 luglio 1996, n. 62" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -249,7 +268,9 @@
 						<comma id="art8-com1">
 							<num>1.</num>
 							<corpo>
-								La Giunta regionale può consentire, sulla base delle scelte effettuate nei piani faunistico-venatori provinciali, su richiesta, circostanziata, delle Province, nei giorni 1, 7 e 8 settembre 1996 la caccia da appostamento alla tortora (Streptopelia turtur), al colombaccio e al merlo. Da appostamento temporaneo, nei giorni di cui sopra, il prelievo giornaliero del merlo non può superare i 4 capi. La Giunta regionale nell'atto di autorizzazione individua gli orari di caccia e i territori ove questa può essere svolta, nel rispetto dell'arco temporale di cui all'
+								La Giunta regionale può consentire, sulla base delle scelte effettuate nei piani faunistico-venatori provinciali, su richiesta, circostanziata, delle Province, nei giorni 1, 7 e 8 settembre 1996 la caccia da appostamento alla tortora (Streptopelia turtur), al colombaccio e al merlo.
+								<h:span id="h1" iniziovigore="t2">La Giunta regionale può altresì consentire la caccia, da appostamento fisso, all'alzavola e al germano reale.</h:span>
+								Da appostamento temporaneo, nei giorni di cui sopra, il prelievo giornaliero del merlo non può superare i 4 capi. La Giunta regionale nell'atto di autorizzazione individua gli orari di caccia e i territori ove questa può essere svolta, nel rispetto dell'arco temporale di cui all'
 								<rif xlink:href="urn:nir:stato:legge:1992;157#art18-com1" xlink:type="simple">art. 18 comma 1 della Legge n. 157/92</rif>
 								.
 							</corpo>
