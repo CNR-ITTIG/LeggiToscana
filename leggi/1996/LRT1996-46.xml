@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19960701" num="36" tipo="BURT" />
 					<entratainvigore norm="19960701" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1996-06-27;46" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1996-06-27;46" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1996-06-27;46@1996-08-08" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Pubbliche Calamità" />
 						<materia valore="Finanziamenti" />
@@ -16,11 +17,53 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19960701" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19960813" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1996-06-27;46" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1996-08-08;66" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-08-08;66" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-08-08;66#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 8 agosto 1996, n. 66" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com6" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-08-08;66" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-08-08;66#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 8 agosto 1996, n. 66" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-08-08;66" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-08-08;66#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 8 agosto 1996, n. 66" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -88,7 +131,10 @@
 					</comma>
 					<comma id="art4-com2">
 						<num>2.</num>
-						<corpo>Sono beneficiarie le piccole e medie Imprese che hanno i requisiti previsti dalla Raccomandazione della Commissione delle Comunità Europee n. 96/280/CE del 3.4.1996. I contributi in conto interessi sono pari a 5 punti annui, su finanziamenti di durata non superiore a 7 anni, con preammortamento fino a 2 anni, di importo non superiore al 75% della spesa ammissibile, e comunque non superiore a 300 milioni di lire, ad un tasso di interesse non superiore al tasso di riferimento. Sono ammissibili le spese finalizzate alla ricostruzione o alla straordinaria manutenzione di immobili, impianti, macchinari, automezzi, attrezzature e scorte. Nel caso in cui l'investimento sia destinato esclusivamente alla ricostruzione delle scorte, ferme restando tutte le altre condizioni, il finanziamento è di durata non superiore a 36 mesi, con preammortamento fino a 6 mesi.</corpo>
+						<corpo>
+							Sono beneficiarie le piccole e medie Imprese che hanno i requisiti previsti dalla Raccomandazione della Commissione delle Comunità Europee n. 96/280/CE del 3.4.1996. I contributi in conto interessi sono pari a 5 punti annui, su finanziamenti di durata non superiore a 7 anni, con preammortamento fino a 2 anni, di importo non superiore al 75% della spesa ammissibile, e comunque non superiore a 300 milioni di lire, ad un tasso di interesse non superiore al tasso di riferimento. Sono ammissibili le spese finalizzate alla ricostruzione o alla straordinaria manutenzione di immobili, impianti, macchinari, automezzi, attrezzature e scorte. Nel caso in cui l'investimento sia destinato esclusivamente alla ricostruzione delle scorte, ferme restando tutte le altre condizioni, il finanziamento è di durata non superiore a 36 mesi, con preammortamento fino a 6 mesi.
+							<h:span id="h1" iniziovigore="t2">Sono compresi tra le scorte anche i beni di terzi in temporaneo deposito o in lavorazione presso l'impresa danneggiata. In ogni caso le disposizioni di cui al presente articolo non si applicano ai soggetti proprietari dei beni in deposito od in lavorazione presso le imprese danneggiate.</h:span>
+						</corpo>
 					</comma>
 					<comma id="art4-com3">
 						<num>3.</num>
@@ -104,7 +150,18 @@
 					</comma>
 					<comma id="art4-com5">
 						<num>5.</num>
-						<corpo>Per gli interventi previsti dal presente articolo, è costituito presso la Fidi Toscana SpA un apposito fondo, con i contributi della Regione Toscana e di eventuali altri soggetti pubblici e privati. Il contributo della Regione Toscana al fondo è determinato in lire 2.000.000.000.=.</corpo>
+						<corpo>
+							Per gli interventi previsti dal presente articolo, è costituito presso la Fidi Toscana SpA un apposito fondo, con i contributi della Regione Toscana e di eventuali altri soggetti pubblici e privati. Il contributo della Regione Toscana al fondo è determinato in lire 2.000.000.000.=.
+							<h:span id="h2" iniziovigore="t2">Gli interessi maturati sulle disponibilità finanziarie del fondo sono destinati al fondo medesimo, al netto degli oneri fiscali di competenza, nonché delle spese di gestione e di pubblicizzazione, nei limiti queste ultime del 4% della consistenza del fondo; e comunque in un importo non superiore agli interessi maturati.</h:span>
+						</corpo>
+					</comma>
+					<comma id="art4-com6" iniziovigore="t2">
+						<num>6.</num>
+						<corpo>
+							Sono beneficiari altresì gli esercenti le libere professioni. La domanda di contributi in conto interessi deve essere presentata alla Fidi Toscana SpA, corredata da una dichiarazione sostitutiva di atto di notorietà di cui all'
+							<rif xlink:href="urn:nir:stato:legge:1968-01-04;15#art4" xlink:type="simple">art. 4 della legge 4 gennaio 1968 n. 15</rif>
+							contenente l'indicazione dei danni subiti, dal numero di partita IVA e dell'avvenuta presentazione della dichiarazione di redditi dell'anno 1995. Per le attività professionali iniziate dopo l'1.1.1996, nella dichiarazione di cui sopra, in luogo dell'avvenuta dichiarazione dei redditi, deve essere indicato il volume di affari presunto dichiarato in occasione della richiesta della partita IVA.
+						</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art5">
