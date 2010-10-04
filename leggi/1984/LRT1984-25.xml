@@ -10,7 +10,8 @@
 					<urn finevigore="t4" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1984-04-24;25" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1984-04-24;25@1988-12-17" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1984-04-24;25@1989-10-16" />
-					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1984-04-24;25@1992-08-10" />
+					<urn finevigore="t8" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1984-04-24;25@1992-08-10" />
+					<urn finevigore="t7" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1984-04-24;25@1996-11-14" />
 					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1984-04-24;25@1996-03-28" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Pesca" />
@@ -25,6 +26,7 @@
 						<evento data="19891109" fonte="rp2" id="t5" tipo="modifica" />
 						<evento data="19920903" fonte="rp3" id="t6" tipo="modifica" />
 						<evento data="19970101" fonte="rp4" id="t7" tipo="modifica" />
+						<evento data="19961210" fonte="rp5" id="t8" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1984-04-24;25" xlink:type="simple" />
@@ -34,6 +36,7 @@
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1989-10-16;63" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1992-08-10;35" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1996-03-28;26" xlink:type="simple" />
+						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1996-11-14;82" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -550,7 +553,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art22-com9" xlink:type="simple" />
+								<dsp:pos xlink:href="#art22-com9-t8" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art22-com8-t5" xlink:type="simple" />
@@ -716,6 +719,21 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art24-com1-lete-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art22" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-11-14;82" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-11-14;82#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 14 novembre 1996, n. 82" id="itt47" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art22-com10" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art22-com9-t8" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -1745,9 +1763,23 @@
 							della presente legge. Le specie catturate trattate con i necessari accorgimenti alla fine della gara devono essere reimmesse in acqua.
 						</corpo>
 					</comma>
-					<comma id="art22-com9" iniziovigore="t5">
+					<comma finevigore="t8" id="art22-com9-t8" iniziovigore="t5" status="abrogato">
 						<num />
-						<corpo>Nelle gare di pesca non si applicano i limiti di cui all'art. 20. Le specie catturate trattate con i necessari accorgimenti, alla fine della gara devono essere reimmesse in acqua. Nelle gare di pesca a salmonidi, ove precedentemente sia stato effettuato adeguato, ripopolamento alla presenza degli agenti di vigilanza, la specie ittiche possono essere trattenute dal pescatore, nei limiti di cattura e misura minima di cui all'art. 20</corpo>
+						<corpo>
+							Nelle gare di pesca non si applicano i limiti di cui all'
+							<rif xlink:href="#art20" xlink:type="simple">art. 20</rif>
+							. Le specie catturate trattate con i necessari accorgimenti, alla fine della gara devono essere reimmesse in acqua. Nelle gare di pesca a salmonidi, ove precedentemente sia stato effettuato adeguato, ripopolamento alla presenza degli agenti di vigilanza, la specie ittiche possono essere trattenute dal pescatore, nei limiti di cattura e misura minima di cui all'
+							<rif xlink:href="#art20" xlink:type="simple">art. 20</rif>
+							.
+						</corpo>
+					</comma>
+					<comma id="art22-com10" iniziovigore="t8">
+						<num />
+						<corpo>
+							Nelle gare di pesca non si applicano i limiti di cui all'
+							<rif xlink:href="#art20" xlink:type="simple">art. 20</rif>
+							. Le specie catturate trattate con i necessari accorgimenti, alla fine della gara devono essere reimmesse in acqua. Nelle gare di pesca a salmonidi deve essere precedentemente effettuato adeguato ripopolamento alla presenza degli agenti di vigilanza, e tutte le specie ittiche catturate dovranno essere consegnate a fine gara agli agenti di vigilanza i quali provvederanno, su disposizione della Provincia, a recapitarle presso enti di assistenza e/o beneficenza che si siano dichiarati disponibili a riceverli per utilizzo alimentare.
+						</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art23">
