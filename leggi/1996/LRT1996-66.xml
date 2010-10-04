@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19960813" num="45" tipo="BURT" />
 					<entratainvigore norm="19960813" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1996-08-08;66" />
+					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1996-08-08;66" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1996-08-08;66@1996-11-14" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Pubbliche Calamità" />
 					</materie>
@@ -18,12 +19,14 @@
 						<evento data="19960813" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="19960813" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="19960813" fonte="ra3" id="t4" tipo="modifica" />
+						<evento data="19961125" fonte="rp1" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1996-08-08;66" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1996-06-27;46" xlink:type="simple" />
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1996-06-27;46" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1996-06-27;46" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1996-11-14;87" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -71,6 +74,20 @@
 							</dsp:novella>
 						</dsp:integrazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-11-14;87" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-11-14;87#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 14 novembre 1996, n. 87" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -203,7 +220,9 @@
 						<corpo>
 							I fondi per gli interventi a favore delle popolazioni colpite di cui all'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1996-06-27;46#art2" xlink:type="simple">art. 2 della legge regionale 27 giugno 1996 n. 46</rif>
-							risultanti in esubero rispetto all'assegnazione di contributi di prima assistenza e per la sistemazione dei nuclei familiari colpiti dagli eventi calamitosi del 19.6.1996 effettuata secondo la disciplina recata dall'ordinanza commissariale del Presidente della Giunta regionale n. 7 dell'1 luglio 1996, possono essere utilizzati dal Commissario delegato nominato con ordinanza del Ministro dell'interno n. 2449 del 25 giugno 1996, per l'assegnazione ai Comuni anche quale concorso degli stessi all'abbattimento dei tassi di interesse praticati da istituti bancari su prestiti finalizzati al ripristino di danni a beni immobili o mobili danneggiati dagli eventi calamitosi, allo scopo di favorire il ripristino delle abitazioni.
+							risultanti in esubero rispetto all'assegnazione di contributi di prima assistenza e per la sistemazione dei nuclei familiari colpiti dagli eventi calamitosi del 19.6.1996 effettuata secondo la disciplina recata dall'ordinanza commissariale del Presidente della Giunta regionale n. 7 dell'1 luglio 1996, possono essere utilizzati dal Commissario delegato nominato con ordinanza del Ministro dell'interno n. 2449 del 25 giugno 1996, per l'assegnazione ai Comuni anche quale concorso degli stessi all'abbattimento dei tassi di interesse praticati da istituti bancari su prestiti finalizzati al ripristino di danni a beni immobili o mobili danneggiati dagli eventi calamitosi, allo scopo di favorire il ripristino delle abitazioni
+							<h:span id="h1" iniziovigore="t5">o comunque per l'ulteriore finanziamento degli interventi previsti nel piano di cui all'articolo 3 della suddetta ordinanza 2449/96 e sue rimodulazioni e integrazioni</h:span>
+							.
 						</corpo>
 					</comma>
 				</articolo>

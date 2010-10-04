@@ -8,7 +8,8 @@
 					<entratainvigore norm="19960701" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1996-06-27;46" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1996-06-27;46@1996-08-08" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1996-06-27;46@1996-08-08" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1996-06-27;46@1996-11-14" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Pubbliche Calamità" />
 						<materia valore="Finanziamenti" />
@@ -18,10 +19,12 @@
 					<eventi>
 						<evento data="19960701" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19960813" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19961125" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1996-06-27;46" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1996-08-08;66" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1996-11-14;87" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -47,7 +50,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:integrazione completa="si" implicita="no">
@@ -59,7 +62,34 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-11-14;87" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-11-14;87#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 14 novembre 1996, n. 87" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
 								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-11-14;87" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-11-14;87#art1-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2 della legge Regione Toscana 14 novembre 1996, n. 87" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com7" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 					</modifichepassive>
@@ -124,7 +154,12 @@
 				</articolo>
 				<articolo id="art4">
 					<num>ARTICOLO 4</num>
-					<rubrica>(Agevolazioni in favore di piccole e medie Imprese danneggiate)</rubrica>
+					<rubrica>
+						(
+						<h:span finevigore="t3" id="h1" iniziovigore="t1" status="abrogato">Agevolazioni in favore di piccole e medie Imprese danneggiate</h:span>
+						<h:span id="h2" iniziovigore="t3">Soggetti beneficiari degli interventi e procedure</h:span>
+						)
+					</rubrica>
 					<comma id="art4-com1">
 						<num>1.</num>
 						<corpo>Sono concessi tramite la Fidi Toscana SpA, contributi in conto interessi su finanziamenti a medio termine concessi dalle banche alle piccole e medie imprese per la ricostruzione dei beni danneggiati.</corpo>
@@ -133,7 +168,7 @@
 						<num>2.</num>
 						<corpo>
 							Sono beneficiarie le piccole e medie Imprese che hanno i requisiti previsti dalla Raccomandazione della Commissione delle Comunità Europee n. 96/280/CE del 3.4.1996. I contributi in conto interessi sono pari a 5 punti annui, su finanziamenti di durata non superiore a 7 anni, con preammortamento fino a 2 anni, di importo non superiore al 75% della spesa ammissibile, e comunque non superiore a 300 milioni di lire, ad un tasso di interesse non superiore al tasso di riferimento. Sono ammissibili le spese finalizzate alla ricostruzione o alla straordinaria manutenzione di immobili, impianti, macchinari, automezzi, attrezzature e scorte. Nel caso in cui l'investimento sia destinato esclusivamente alla ricostruzione delle scorte, ferme restando tutte le altre condizioni, il finanziamento è di durata non superiore a 36 mesi, con preammortamento fino a 6 mesi.
-							<h:span id="h1" iniziovigore="t2">Sono compresi tra le scorte anche i beni di terzi in temporaneo deposito o in lavorazione presso l'impresa danneggiata. In ogni caso le disposizioni di cui al presente articolo non si applicano ai soggetti proprietari dei beni in deposito od in lavorazione presso le imprese danneggiate.</h:span>
+							<h:span id="h3" iniziovigore="t2">Sono compresi tra le scorte anche i beni di terzi in temporaneo deposito o in lavorazione presso l'impresa danneggiata. In ogni caso le disposizioni di cui al presente articolo non si applicano ai soggetti proprietari dei beni in deposito od in lavorazione presso le imprese danneggiate.</h:span>
 						</corpo>
 					</comma>
 					<comma id="art4-com3">
@@ -152,7 +187,7 @@
 						<num>5.</num>
 						<corpo>
 							Per gli interventi previsti dal presente articolo, è costituito presso la Fidi Toscana SpA un apposito fondo, con i contributi della Regione Toscana e di eventuali altri soggetti pubblici e privati. Il contributo della Regione Toscana al fondo è determinato in lire 2.000.000.000.=.
-							<h:span id="h2" iniziovigore="t2">Gli interessi maturati sulle disponibilità finanziarie del fondo sono destinati al fondo medesimo, al netto degli oneri fiscali di competenza, nonché delle spese di gestione e di pubblicizzazione, nei limiti queste ultime del 4% della consistenza del fondo; e comunque in un importo non superiore agli interessi maturati.</h:span>
+							<h:span id="h4" iniziovigore="t2">Gli interessi maturati sulle disponibilità finanziarie del fondo sono destinati al fondo medesimo, al netto degli oneri fiscali di competenza, nonché delle spese di gestione e di pubblicizzazione, nei limiti queste ultime del 4% della consistenza del fondo; e comunque in un importo non superiore agli interessi maturati.</h:span>
 						</corpo>
 					</comma>
 					<comma id="art4-com6" iniziovigore="t2">
@@ -161,6 +196,14 @@
 							Sono beneficiari altresì gli esercenti le libere professioni. La domanda di contributi in conto interessi deve essere presentata alla Fidi Toscana SpA, corredata da una dichiarazione sostitutiva di atto di notorietà di cui all'
 							<rif xlink:href="urn:nir:stato:legge:1968-01-04;15#art4" xlink:type="simple">art. 4 della legge 4 gennaio 1968 n. 15</rif>
 							contenente l'indicazione dei danni subiti, dal numero di partita IVA e dell'avvenuta presentazione della dichiarazione di redditi dell'anno 1995. Per le attività professionali iniziate dopo l'1.1.1996, nella dichiarazione di cui sopra, in luogo dell'avvenuta dichiarazione dei redditi, deve essere indicato il volume di affari presunto dichiarato in occasione della richiesta della partita IVA.
+						</corpo>
+					</comma>
+					<comma id="art4-com7" iniziovigore="t3">
+						<num>7.</num>
+						<corpo>
+							Sono beneficiari altresì gli esercenti altre attività di lavoro autonomo e le associazioni in qualsiasi forma costituite purché rivolte a soddisfare le esigenze del tempo libero e della domanda turistica. La domanda di contributi in conto interessi deve essere presentata alla Fidi Toscana SpA, corredata da una dichiarazione sostitutiva di atto di notorietà di cui all'
+							<rif xlink:href="urn:nir:stato:legge:1968-01-04;15#art4" xlink:type="simple">art. 4 della legge 4 gennaio 1968, n. 15</rif>
+							, contenente l'indicazione dei danni subiti. Per gli esercenti altre attività di lavoro autonomo, la dichiarazione di cui sopra deve contenere l'indicazione del codice fiscale e dell'avvenuta presentazione della dichiarazione dei redditi relativa all'anno 1995. Per le attività iniziate dopo il 1.1.1996, la dichiarazione di cui sopra deve contenere l'attestazione che l'esercizio dell'attività è iniziato in corso dell'anno e comunque precedentemente al 19 giugno 1996. Per le associazioni in qualsiasi forma costituite deve essere allegato altresì lo statuto vigente ed il rendiconto annuale.
 						</corpo>
 					</comma>
 				</articolo>
