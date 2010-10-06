@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19921228" num="73 Supplemento Straordinario n. 271" tipo="BURT" />
 					<entratainvigore norm="19930112" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1992-12-17;56" />
+					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1992-12-17;56" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1992-12-17;56@1997-01-15" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Enti Territoriali" />
@@ -17,16 +18,18 @@
 					<eventi>
 						<evento data="19930112" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19930112" fonte="ra1" id="t2" tipo="modifica" />
+						<evento data="19970208" fonte="rp1" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1992-12-17;56" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1990-03-31;30" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1997-01-15;1" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:variazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#" xlink:type="simple" />
+							<dsp:pos xlink:href="#mod1" xlink:type="simple" />
 							<dsp:termine da="#t2" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1990-03-31;30" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1990-03-31;30" xlink:type="simple" />
@@ -36,6 +39,23 @@
 							</dsp:dominio>
 						</dsp:variazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#allegato.a" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-01-15;1" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-01-15;1#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 15 gennaio 1997, n. 1" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -61,7 +81,7 @@
 					<comma id="art1-com1">
 						<num>1.</num>
 						<corpo>
-							<mod id="">
+							<mod id="mod1">
 								La presente legge sostituisce la precedente
 								<rif xlink:href="urn:nir:regione.toscana:legge:1990-03-31;30" xlink:type="simple">LR 31 marzo 1990, n. 30</rif>
 								"Caratteristiche delle uniformi, dei segni distintivi e dei mezzi di comunicazione della Polizia Municipale".
@@ -184,7 +204,12 @@
 							<h:p>I colori adottati negli accessori sono il Blu Pantone 280, l'Argento Pantone 877 ed il Rosso Pantone 199.</h:p>
 							<contenitore id="con2" nome="">
 								<h:p>I) AGENTI APPIEDATI Vestiario maschile e femminile</h:p>
-								<h:p>1) GIACCA MASCHILE ad un petto di colore blu notte, in cordellino di lana, rifinita con impunture al bavero, alle spalline, alle tasche; spacco nel centro dietro di cm. 28 circa. Nella uniforme estiva il tessuto sarà di fibre più leggere. I bottoni, di metallo color argento, recanti in rilievo il simbolo della PM, sono n. 6 di cm 2 da apporre all'abbottonatura e alle tasche inferiori, n. 4 di cm 1,5 da apporre agli spallini e alle tasche superiori. Sul colletto sono applicati n. 2 alamari, in lega metallica leggera di cm 2,3 per cm 4,5 recanti il simbolo della PM (vedi allegato E), nei colori: blu la torre, il cerchio e il filo di contorno; argento satinato il quadrato e lo sfondo. Gli alamari si applicano ai capi di vestiario di cui ai nn.: 1), 2), 6), 7), 8), 12), 44), 45).</h:p>
+								<h:p>
+									1) GIACCA MASCHILE ad un petto di colore blu notte,
+									<h:span finevigore="t3" id="h1" iniziovigore="t1" status="abrogato">in cordellino di lana</h:span>
+									<h:span id="h2" iniziovigore="t3">in tessuto di lana cardato o pettinato tipo cordellino o flanella</h:span>
+									, rifinita con impunture al bavero, alle spalline, alle tasche; spacco nel centro dietro di cm. 28 circa. Nella uniforme estiva il tessuto sarà di fibre più leggere. I bottoni, di metallo color argento, recanti in rilievo il simbolo della PM, sono n. 6 di cm 2 da apporre all'abbottonatura e alle tasche inferiori, n. 4 di cm 1,5 da apporre agli spallini e alle tasche superiori. Sul colletto sono applicati n. 2 alamari, in lega metallica leggera di cm 2,3 per cm 4,5 recanti il simbolo della PM (vedi allegato E), nei colori: blu la torre, il cerchio e il filo di contorno; argento satinato il quadrato e lo sfondo. Gli alamari si applicano ai capi di vestiario di cui ai nn.: 1), 2), 6), 7), 8), 12), 44), 45).
+								</h:p>
 								<h:p>2) GIACCA FEMMINILE nel medesimo tessuto e colore di quella maschile, a doppio petto sciallato, con n. 4 bottoni come al n. 1) di cm 2; modellata in vita, con n. 2 tasche a pattina stondata e spallini stondati senza impunture, fermati da un bottone come al n. 1) di cm 1,5, n. 2 spacchi laterali sul retro alti cm 20. Nella versione estiva il tessuto sarà di fibre più leggere.</h:p>
 								<h:p>3) PANTALONE UNISEX del medesimo colore e tessuto della giacca, pences alla vita e chiusura a cerniera, tasche laterali oblique impunture lungo l'apertura, taschino interno anteriore, tasca posteriore interna a fessura con bottone blu, n. 6 passanti per la cintura di cm 3,5 di altezza. Nella uniforme estiva il tessuto sarà di fibre più leggere.</h:p>
 								<h:p>4) GONNA del medesimo tessuto e colore della giacca, diritta con cannoni al centro davanti e dietro, lunghezza al ginocchio. Nella uniforme estiva il tessuto sarà di fibre più leggere. Tale capo è in dotazione unitamente al n. 3) sia nell'uniforme estiva che invernale.</h:p>
