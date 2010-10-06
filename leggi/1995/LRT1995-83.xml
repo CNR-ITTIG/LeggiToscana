@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19950807" num="50" tipo="BURT" />
 					<entratainvigore norm="19950822" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1995-07-27;83" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1995-07-27;83" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1995-07-27;83@1996-12-27" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organizzazioni Pubbliche" />
 						<materia valore="Ordinamento" />
@@ -17,11 +18,59 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19950822" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19960107" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-07-27;83" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1996-12-27;98" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art11-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-12-27;98" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-12-27;98#artunico-com3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 3 della legge Regione Toscana 27 dicembre 1996, n. 98" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art11-com3-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art11-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-12-27;98" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-12-27;98#art1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo1, legge Regione Toscana 27 dicembre 1996, n. 98" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art11-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-12-27;98" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-12-27;98#art1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo1, legge Regione Toscana 27 dicembre 1996, n. 98" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -279,13 +328,23 @@
 					<rubrica>(Relazione previsionale programmatica e bilancio)</rubrica>
 					<comma id="art11-com1">
 						<num>1.</num>
-						<corpo>La relazione previsionale programmatica annuale è adottata dalla Giunta regionale e trasmessa al Consiglio che dovrà provvedere alla sua approvazione entro 30 giorni dal ricevimento. Trascorso detto termine la relazione previsionale si intende approvata.</corpo>
+						<corpo>
+							La relazione previsionale programmatica annuale è adottata dalla Giunta regionale e trasmessa al Consiglio che dovrà provvedere alla sua approvazione entro
+							<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">30 giorni</h:span>
+							<h:span id="h2" iniziovigore="t2">45 giorni</h:span>
+							dal ricevimento. Trascorso detto termine la relazione previsionale si intende approvata.
+						</corpo>
 					</comma>
 					<comma id="art11-com2">
 						<num>2.</num>
-						<corpo>Il bilancio dell'Azienda è inviato dall'Amministratore della Giunta regionale che provvede, nel termine di venti giorni, alla adozione ed alla trasmissione al Consiglio regionale, per l'approvazione entro 30 giorni dal ricevimento.</corpo>
+						<corpo>
+							Il bilancio dell'Azienda è inviato dall'Amministratore della Giunta regionale che provvede, nel termine di venti giorni, alla adozione ed alla trasmissione al Consiglio regionale, per l'approvazione entro
+							<h:span finevigore="t2" id="h3" iniziovigore="t1" status="abrogato">30 giorni</h:span>
+							<h:span id="h4" iniziovigore="t2">45 giorni</h:span>
+							dal ricevimento.
+						</corpo>
 					</comma>
-					<comma id="art11-com3">
+					<comma finevigore="t2" id="art11-com3-t2" iniziovigore="t1" status="abrogato">
 						<num>3.</num>
 						<corpo>Il Consiglio regionale provvede all'approvazione nel termine di sessanta giorni dal ricevimento.</corpo>
 					</comma>
