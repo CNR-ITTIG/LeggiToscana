@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19961230" num="58" tipo="BURT" />
 					<entratainvigore norm="19970114" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1996-12-20;96" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1996-12-20;96" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1996-12-20;96@1997-02-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Edilizia" />
 					</materie>
@@ -15,11 +16,47 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19970114" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19970228" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1996-12-20;96" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1997-02-21;13" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art40-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-02-21;13" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-02-21;13#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 21 febbraio 1997, n. 13" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art40-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-02-21;13" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-02-21;13#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 21 febbraio 1997, n. 13" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -1669,7 +1706,13 @@
 							<corpo>
 								Le Commissioni provinciali per la formazione delle graduatorie, nominate ai sensi della
 								<rif xlink:href="urn:nir:regione.toscana:legge:1989-05-04;25" xlink:type="simple">LR 4 maggio 1989, n. 25</rif>
-								, rimangono in carica fino all'approvazione delle graduatorie definitive dei bandi di concorso in fase di espletamento alla data di entrata in vigore della presente legge, comunque non oltre il 31 dicembre 1996. Le nuove Commissioni provinciali, le Commissioni circondariali, per i circondari già costituiti alla data di entrata in vigore della presente legge, sono nominate, in sede di prima applicazione, entro la stessa data ed entrano in carica dal 1 gennaio 1997. La Commissione metropolitana, quando costituita la città metropolitana, e le Commissioni circondariali, per i circondari istituiti dopo l'entrata in vigore della presente legge, sono nominate entro sessanta giorni dalla loro costituzione.
+								, rimangono in carica fino all'approvazione delle graduatorie definitive dei bandi di concorso in fase di espletamento alla data di entrata in vigore della presente legge, comunque non oltre il
+								<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">31 dicembre 1996</h:span>
+								<h:span id="h2" iniziovigore="t2">30 giugno 1997</h:span>
+								. Le nuove Commissioni provinciali, le Commissioni circondariali, per i circondari già costituiti alla data di entrata in vigore della presente legge, sono nominate, in sede di prima applicazione, entro la stessa data ed entrano in carica dal
+								<h:span finevigore="t2" id="h3" iniziovigore="t1" status="abrogato">1 gennaio 1997</h:span>
+								<h:span id="h4" iniziovigore="t2">1 luglio 1997</h:span>
+								. La Commissione metropolitana, quando costituita la città metropolitana, e le Commissioni circondariali, per i circondari istituiti dopo l'entrata in vigore della presente legge, sono nominate entro sessanta giorni dalla loro costituzione.
 							</corpo>
 						</comma>
 						<comma id="art40-com3">
