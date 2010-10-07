@@ -12,7 +12,8 @@
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1979-11-02;52@1985-01-10" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1979-11-02;52@1993-04-19" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1979-11-02;52@1995-01-16" />
-					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1979-11-02;52@1995-02-23" />
+					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1979-11-02;52@1995-02-23" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1979-11-02;52@1997-02-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="TUTELA AMBIENTALE" />
 						<materia valore="ATTRIBUZIONI DELEGHE" />
@@ -26,6 +27,7 @@
 						<evento data="19930513" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="19950204" fonte="rp4" id="t5" tipo="modifica" />
 						<evento data="19950316" fonte="rp5" id="t6" tipo="modifica" />
+						<evento data="19970315" fonte="rp6" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1979-11-02;52" xlink:type="simple" />
@@ -34,6 +36,7 @@
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1993-04-19;24" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1995-02-23;21" xlink:type="simple" />
+						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:1997-02-21;12" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -400,6 +403,21 @@
 								<dsp:pos xlink:href="#h24" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-02-21;12" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-02-21;12#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 21 febbraio 1997, n. 12" id="itt27" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6-com2-leta" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art6-com2-leta-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -804,9 +822,13 @@
 					<comma id="art6-com2">
 						<num>2.</num>
 						<alinea>In relazione alle specifiche finalità dell'incarico di consulenza tecnica possono essere nominati in qualità di esperti:</alinea>
-						<el id="art6-com2-leta">
+						<el finevigore="t7" id="art6-com2-leta-t7" iniziovigore="t1" status="abrogato">
 							<num>a)</num>
 							<corpo>architetti, ingegneri, agronomi e forestali, geologi, iscritti da almeno dieci anni agli albi dei relativi ordini professionali ovvero in possesso di diploma post - universitario di specializzazione in materia paesaggistico - ambientale;</corpo>
+						</el>
+						<el id="art6-com2-leta" iniziovigore="t7">
+							<num>a)</num>
+							<corpo>architetti, ingegneri, agronomi e forestali, geologi iscritti da almeno cinque anni agli albi dei relativi ordini professionali oppure in possesso di diploma post universitario di specializzazione in materia paesaggistico- ambientale;</corpo>
 						</el>
 						<el id="art6-com2-letb">
 							<num>b)</num>
