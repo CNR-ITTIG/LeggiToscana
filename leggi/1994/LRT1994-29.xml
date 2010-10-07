@@ -8,7 +8,8 @@
 					<entratainvigore norm="19940421" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1994-04-12;29" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1994-04-12;29@1994-12-21" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1994-04-12;29@1994-12-21" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1994-04-12;29@1997-02-04" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Imprese" />
 						<materia valore="Credito" />
@@ -18,10 +19,12 @@
 					<eventi>
 						<evento data="19940421" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19941223" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19970301" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-04-12;29" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1994-12-21;105" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1997-02-04;10" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -89,6 +92,57 @@
 								<dsp:pos xlink:href="#h1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-02-04;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-02-04;10#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 4 febbraio 1997, n. 10" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art8-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art8-com2-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-02-04;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-02-04;10#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 4 febbraio 1997, n. 10" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art8-com2bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-02-04;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-02-04;10#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 4 febbraio 1997, n. 10" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art8-com2ter" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-02-04;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-02-04;10#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 4 febbraio 1997, n. 10" id="itt8" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art8-com2quater" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -323,9 +377,29 @@
 									.
 								</corpo>
 							</comma>
-							<comma id="art8-com2">
+							<comma finevigore="t3" id="art8-com2-t3" iniziovigore="t1" status="abrogato">
 								<num>2.</num>
 								<corpo>La garanzia sussidiaria di Fidi Toscana SPA è prestata nella misura del 15 % dell'importo relativo all'operazione di consolidamento garantita. Con le disponibilità del Fondo speciale rischi, Fidi Toscana SPA attiva operazioni di consolidamento per un importo non superiore a 50 volte l'entità del fondo medesimo. Per la copertura delle eventuali perdite, comprensive di capitale e interessi, derivanti dalle operazioni di consolidamento garantite, si fa fronte esclusivamente con le disponibilità del Fondo. La liquidazione delle eventuali perdite definitive è effettuata dopo la scadenza di tutte le operazioni di consolidamento attivate.</corpo>
+							</comma>
+							<comma id="art8-com2" iniziovigore="t3">
+								<num>2.</num>
+								<corpo>La garanzia sussidiaria di Fidi Toscana SpA è prestata nella misura del 25% dell'importo relativo all'operazione di consolidamento garantita.</corpo>
+							</comma>
+							<comma id="art8-com2bis" iniziovigore="t3">
+								<num />
+								<corpo>
+									Con le disponibilità finanziarie non impegnate del Fondo Speciale rischi di cui all'
+									<rif xlink:href="urn:nir:regione.toscana:legge:1994;29#art13" xlink:type="simple">art. 13 della Legge Regionale 29/94</rif>
+									, Fidi Toscana SpA attiva operazioni di consolidamento per un importo non superiore a 32 volte l'entità del Fondo medesimo.
+								</corpo>
+							</comma>
+							<comma id="art8-com2ter" iniziovigore="t3">
+								<num />
+								<corpo>Per la copertura delle eventuali perdite, comprensive di capitali ed interessi, derivanti dalle operazioni di consolidamento garantite, si fa fronte esclusivamente con le disponibilità del Fondo.</corpo>
+							</comma>
+							<comma id="art8-com2quater" iniziovigore="t3">
+								<num />
+								<corpo>La liquidazione delle eventuali perdite definitive è effettuata dopo la scadenza naturale delle operazioni poste in essere in ciascun anno solare.</corpo>
 							</comma>
 							<comma id="art8-com3">
 								<num>3.</num>
