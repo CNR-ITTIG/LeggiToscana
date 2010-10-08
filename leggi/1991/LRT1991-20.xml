@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t4" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1991-05-16;20" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1991-05-16;20@1995-04-06" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1991-05-16;20@1997-01-29" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1991-05-16;20@1997-01-29" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1991-05-16;20@1997-04-24" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Demanio Patrimonio" />
@@ -22,6 +23,7 @@
 						<evento data="19910608" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="19950429" fonte="rp1" id="t4" tipo="modifica" />
 						<evento data="19970222" fonte="rp2" id="t5" tipo="modifica" />
+						<evento data="19970520" fonte="rp3" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1991-05-16;20" xlink:type="simple" />
@@ -29,6 +31,7 @@
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1976-09-04;64" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-04-06;41" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1997-01-29;9" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1997-04-24;29" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -441,6 +444,45 @@
 								<dsp:pos xlink:href="#art15-com3-t5" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-04-24;29" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-04-24;29#art16-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 16, comma 1 della legge Regione Toscana 24 aprile 1997, n. 29" id="itt27" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6-com3" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art21-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-04-24;29" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-04-24;29#art16-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 16, comma 2 della legge Regione Toscana 24 aprile 1997, n. 29" id="itt28" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art21-com3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art21-com3-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art21-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-04-24;29" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-04-24;29#art16-com3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 16, comma 3 della legge Regione Toscana 24 aprile 1997, n. 29" id="itt29" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art21-com4" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -626,6 +668,10 @@
 						<comma id="art6-com2">
 							<num>2.</num>
 							<corpo>Il provvedimento che accerta la cessazione dei beni dalla loro destinazione all'uso pubblico rende i medesimi disponibili per la vendita. La relativa deliberazione è pubblicata sul Bollettino Ufficiale della Regione.</corpo>
+						</comma>
+						<comma id="art6-com3" iniziovigore="t6">
+							<num>3.</num>
+							<corpo>Il passaggio dei beni mobili dalla categoria del demanio a quella del patrimonio indisponibile e dalla categoria del patrimonio indisponibile a quella del patrimonio disponibile è effettuato con il decreto del dirigente della struttura funzionalmente preposta con il quale si accerta la condizione di cedibilità del bene.</corpo>
 						</comma>
 					</articolo>
 				</titolo>
@@ -1144,9 +1190,17 @@
 							<num>2.</num>
 							<corpo>L'atto di aggiudicazione produce effetto a favore del miglior offerente solo dopo che sia stato pagato il prezzo d'asta definitivo.</corpo>
 						</comma>
-						<comma id="art21-com3">
+						<comma finevigore="t6" id="art21-com3-t6" iniziovigore="t1" status="abrogato">
 							<num>3.</num>
 							<corpo>Qualora l'asta vada deserta per due volte la Giunta regionale può deliberare di procedere alla alienazione del bene a trattativa privata.</corpo>
+						</comma>
+						<comma id="art21-com3" iniziovigore="t6">
+							<num>3.</num>
+							<corpo>Qualora l'asta vada deserta per due volte, la procedura può essere ripetuta con il sistema delle offerte segrete al ribasso, fissando il limite minimo oltre il quale le offerte non sono ammissibili.</corpo>
+						</comma>
+						<comma id="art21-com4" iniziovigore="t6">
+							<num>4.</num>
+							<corpo>In caso di ulteriore esito infruttuoso, si procede a trattativa privata, comunque mantenendo il limite minimo di cui al precedente comma.</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art22">

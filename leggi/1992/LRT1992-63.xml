@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t4" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19920107" num="3" tipo="BURT" />
@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1992-12-30;63" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1992-12-30;63@1994-11-18" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1992-12-30;63@1995-04-06" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1992-12-30;63@1995-04-06" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1992-12-30;63@1997-04-24" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Demanio Patrimonio" />
@@ -20,13 +21,26 @@
 						<evento data="19920122" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19941213" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19950429" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="19970520" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1992-12-30;63" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1994-11-18;87" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1995-04-06;41" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1997-04-24;29" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="LeggeRegionale1-n1">
+						<h:p>
+							L'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1997-04-24;29#art15-com2" xlink:type="simple">art. 15, comma 2, della legge regionale 24 aprile 1997, n. 29</rif>
+							, stabilisce che i procedimenti di alienazione avviati ai sensi della presente legge per i quali la Regione ha già ricevuto la accettazione di offerte da parte degli occupanti legittimi anteriormente alla data di entrata in vigore della stessa
+							<rif xlink:href="urn:nir:regione.toscana:legge:1997;29" xlink:type="simple">L.R. 29/1997</rif>
+							, sono conclusi secondo le modalità previste dalla presente legge.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:integrazione completa="si" implicita="no">
@@ -116,6 +130,18 @@
 								<dsp:pos xlink:href="#h10" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1992-12-30;63" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-04-24;29" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-04-24;29#art15-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 15, comma 1 della legge Regione Toscana 24 aprile 1997, n. 29" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -125,7 +151,11 @@
 				<dataDoc norm="19921230">30 dicembre 1992</dataDoc>
 				, n.
 				<numDoc>63</numDoc>
-				<titoloDoc>Alienazione di alcuni beni immobili di proprietà regionale.</titoloDoc>
+				<titoloDoc>
+					Alienazione di alcuni beni immobili di proprietà regionale
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
+					.
+				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 24-11-1992</h:p>
