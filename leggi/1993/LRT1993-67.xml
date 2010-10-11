@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1993-09-06;67" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1993-09-06;67@1994-02-08" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1993-09-06;67@1994-12-15" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1993-09-06;67@1994-12-15" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1993-09-06;67@1993-09-06" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Trasporti" />
 					</materie>
@@ -19,11 +20,13 @@
 						<evento data="19930930" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19940304" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19950105" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="19970610" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1993-09-06;67" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1994-02-08;18" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1994-12-15;95" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir: :legge:1993-09-06;67" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -155,6 +158,21 @@
 								<dsp:testo valore="" />
 							</dsp:dominio>
 						</dsp:modtermini>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir: :legge:1993-09-06;67" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir: :legge:1993-09-06;67#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge 6 settembre 1993, n. 67" id="itt8" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6-com4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art6-com4-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -578,9 +596,13 @@
 							In corrispondenza di ciascun componente effettivo viene contemporaneamente nominato un supplente che partecipa all'attività della Commissione in assenza del titolare.
 						</corpo>
 					</comma>
-					<comma id="art6-com4">
+					<comma finevigore="t4" id="art6-com4-t4" iniziovigore="t1" status="abrogato">
 						<num>4.</num>
 						<corpo>Il decreto di nomina attribuisce altresì le funzioni di segretario e di segretario supplente della Commissione a dipendente del Dipartimento competente per materia di livello non inferiore al settimo.</corpo>
+					</comma>
+					<comma id="art6-com4" iniziovigore="t4">
+						<num>4.</num>
+						<corpo>Il decreto di nomina attribuisce altresì funzioni di segretario e di segretario supplente della Commissione a un dipendente del Dipartimento competente per materia, ritenuto idoneo all'incarico in base alle mansioni ed a livello di inquadramento.</corpo>
 					</comma>
 					<comma id="art6-com5">
 						<num>5.</num>
