@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1996-06-27;46" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1996-06-27;46@1996-08-08" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1996-06-27;46@1996-11-14" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1996-06-27;46@1996-11-14" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1996-06-27;46@1997-06-05" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Pubbliche Calamità" />
 						<materia valore="Finanziamenti" />
@@ -20,11 +21,13 @@
 						<evento data="19960701" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19960813" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19961125" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="19970701" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1996-06-27;46" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1996-08-08;66" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1996-11-14;87" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1997-06-05;40" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -90,6 +93,18 @@
 							</dsp:norma>
 							<dsp:novella>
 								<dsp:pos xlink:href="#art4-com7" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-06-05;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-06-05;40#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 5 giugno 1997, n. 40" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 					</modifichepassive>
@@ -204,6 +219,22 @@
 							Sono beneficiari altresì gli esercenti altre attività di lavoro autonomo e le associazioni in qualsiasi forma costituite purché rivolte a soddisfare le esigenze del tempo libero e della domanda turistica. La domanda di contributi in conto interessi deve essere presentata alla Fidi Toscana SpA, corredata da una dichiarazione sostitutiva di atto di notorietà di cui all'
 							<rif xlink:href="urn:nir:stato:legge:1968-01-04;15#art4" xlink:type="simple">art. 4 della legge 4 gennaio 1968, n. 15</rif>
 							, contenente l'indicazione dei danni subiti. Per gli esercenti altre attività di lavoro autonomo, la dichiarazione di cui sopra deve contenere l'indicazione del codice fiscale e dell'avvenuta presentazione della dichiarazione dei redditi relativa all'anno 1995. Per le attività iniziate dopo il 1.1.1996, la dichiarazione di cui sopra deve contenere l'attestazione che l'esercizio dell'attività è iniziato in corso dell'anno e comunque precedentemente al 19 giugno 1996. Per le associazioni in qualsiasi forma costituite deve essere allegato altresì lo statuto vigente ed il rendiconto annuale.
+						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art4bis" iniziovigore="t4">
+					<num>Art. 4 bis</num>
+					<rubrica>(Termine)</rubrica>
+					<comma id="art4bis-com1">
+						<num>1.</num>
+						<corpo>La documentazione prevista ai fini dell'erogazione dei contributi in conto interessi di cui all'art. 4, comprendente, tra l'altro, l'attestazione dell'erogazione del finanziamento da parte della banca e del completamento dell'investimento da parte dei soggetti beneficiari, deve pervenire alla Fidi Toscana SpA entro il termine perentorio del 15 luglio 1997.</corpo>
+					</comma>
+					<comma id="art4bis-com2">
+						<num>2.</num>
+						<corpo>
+							In caso di inosservanza del termine di cui al comma 1, le domande già presentate per la concessione dei contributi di cui all'
+							<rif xlink:href="#art4" xlink:type="simple">art. 4</rif>
+							decadono per la parte di finanziamento assistito da contributo non utilizzato; ugualmente decadono le relative deliberazioni di concessione adottate dalla Fidi Toscana SpA.
 						</corpo>
 					</comma>
 				</articolo>
