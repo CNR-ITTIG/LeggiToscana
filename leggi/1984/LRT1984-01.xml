@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1984-01-03;1" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1984-01-03;1@1987-08-26" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1984-01-03;1@1993-08-11" />
+					<urn finevigore="t5" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1984-01-03;1@1993-08-11" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1984-01-03;1@1997-04-24" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Trasporti" />
 					</materie>
@@ -20,14 +21,25 @@
 						<evento data="19870918" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19930912" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19940101" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="19970505" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1984-01-03;1" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1987-08-26;47" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1993-08-11;53" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1993-08-11;53" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1997-04-24;31" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							L'
+							<rif xlink:href="urn:nir:stato:legge:1997-04-24;31#art3-com2" xlink:type="simple">art. 3, comma 2, della legge 24 aprile 1997, n. 31</rif>
+							assegna però questa modifica al comma 2 di questo stesso articolo.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:integrazione completa="si" implicita="no">
@@ -136,6 +148,18 @@
 							</dsp:norma>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art7-com3-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art11-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-04-24;31" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-04-24;31#art3-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 2 della legge Regione Toscana 24 aprile 1997, n. 31" id="itt9" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>
@@ -575,7 +599,12 @@
 						</comma>
 						<comma id="art11-com4">
 							<num>4.</num>
-							<corpo>L'erogazione dei contributi avviene in via preventiva con acconti trimestrali anticipati da erogarsi integralmente nel primo mese di pertinenza.</corpo>
+							<corpo>
+								L'erogazione dei contributi avviene in via preventiva con acconti
+								<h:span finevigore="t5" id="h1" iniziovigore="t1" status="abrogato">trimestrali anticipati</h:span>
+								<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+								da erogarsi integralmente nel primo mese di pertinenza.
+							</corpo>
 						</comma>
 						<comma id="art11-com5">
 							<num>5.</num>
