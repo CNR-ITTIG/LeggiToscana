@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19801212" num="67" tipo="BURT" />
 					<entratainvigore norm="19801227" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1980-12-04;89" />
+					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1980-12-04;89" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1980-12-04;89@1997-05-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Beni culturali" />
 						<materia valore="Deleghe" />
@@ -18,10 +19,12 @@
 					<eventi>
 						<evento data="19801227" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19911004" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19970614" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-12-04;89" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1991-09-09;46" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1997-05-21;37" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -42,6 +45,22 @@
 						</h:p>
 					</nota>
 				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-05-21;37" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-05-21;37#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 21 maggio 1997, n. 37" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art13bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -573,6 +592,30 @@
 						<comma id="art13-com3">
 							<num />
 							<corpo>Per il personale dei musei potrà essere previsto l'obbligo di frequentare periodicamente corsi di aggiornamento professionale, promossi, finanziati, riconosciuti o indicati dalla Regione; le spese relative sono a carico dell'Ente locale.</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art13bis" iniziovigore="t3">
+						<num>ARTICOLO 13 bis</num>
+						<rubrica>(Istituzione di punti vendita)</rubrica>
+						<comma id="art13bis-com1">
+							<num>1.</num>
+							<corpo>
+								Gli Enti locali e i soggetti proprietari di musei di interesse locale, per le finalità di cui all'
+								<rif xlink:href="#art1" xlink:type="simple">art. 1</rif>
+								, possono istituire presso i musei locali o in altre istituzioni o strutture culturali punti di vendita riguardanti: cataloghi ed altro materiale illustrativo, riproduzione di beni culturali, oggettistica, pubblicazioni, materiale audiovisivo che facciano riferimento alle opere conservate nel museo e nel territorio della località.
+							</corpo>
+						</comma>
+						<comma id="art13bis-com2">
+							<num>2.</num>
+							<corpo>
+								Qualora l'Ente locale non sia in grado di realizzare il servizio di cui al comma 1, può richiedere di aderire al sistema museale associativo di cui all'
+								<rif xlink:href="#art12" xlink:type="simple">art. 12</rif>
+								che è tenuto ad assicurare il servizio medesimo.
+							</corpo>
+						</comma>
+						<comma id="art13bis-com3">
+							<num>3.</num>
+							<corpo>La gestione dei servizi di cui al comma 1 può essere affidata a proprio personale oppure a soggetti da individuarsi mediante le procedure previste dalle disposizioni vigenti.</corpo>
 						</comma>
 					</articolo>
 				</titolo>
