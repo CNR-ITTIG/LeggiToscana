@@ -15,11 +15,45 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19970722" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19970722" fonte="ra1" id="t2" tipo="modifica" />
+						<evento data="19970722" fonte="ra2" id="t3" tipo="modifica" />
+						<evento data="19970722" fonte="ra3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1997-06-27;45" xlink:type="simple" />
+						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1989-07-25;46" xlink:type="simple" />
+						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1989-07-25;46" xlink:type="simple" />
+						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1990-12-03;72" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modificheattive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#mod1" xlink:type="simple" />
+							<dsp:termine da="#t2" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1989-07-25;46" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1989-07-25;46" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:subarg>
+									<ittig:tipo valore="atto" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#mod2" xlink:type="simple" />
+							<dsp:termine da="#t4" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1990-12-03;72" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1990-12-03;72" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:subarg>
+									<ittig:tipo valore="atto" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modificheattive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -45,7 +79,11 @@
 						<comma id="art1-com1">
 							<num>1.</num>
 							<corpo>
-								La presente legge individua e definisce gli atti di programmazione e gli interventi operativi in materia di risorse energetiche in attuazione delle leggi 9 maggio 1991, nn. 9 e 10, dell'
+								La presente legge individua e definisce gli atti di programmazione e gli interventi operativi in materia di risorse energetiche in attuazione delle leggi 9 maggio 1991, nn.
+								<rif xlink:href="urn:nir:stato:legge:1991;9" xlink:type="simple">9</rif>
+								e
+								<rif xlink:href="urn:nir:stato:legge:1991;10" xlink:type="simple">10</rif>
+								, dell'
 								<rif xlink:href="urn:nir:stato:legge:1995-12-28;549#art3-com1" xlink:type="simple">art. 3, comma 1, della legge 28 dicembre 1995, n. 549</rif>
 								, nonché in attuazione dei principi della
 								<rif xlink:href="urn:nir:stato:legge:1997-03-15;59" xlink:type="simple">legge 15 marzo 1997, n. 59</rif>
@@ -73,7 +111,11 @@
 							</el>
 							<el id="art1-com2-letd">
 								<num>d)</num>
-								<corpo>promuove, attraverso apposite convenzioni ed accordi di programma, l'uso del finanziamento da terze parti, anche mediante locazione finanziaria, per interventi di riduzione dei consumi come modalità privilegiata per finanziarie l'attuazione del punto a) del presente comma.</corpo>
+								<corpo>
+									promuove, attraverso apposite convenzioni ed accordi di programma, l'uso del finanziamento da terze parti, anche mediante locazione finanziaria, per interventi di riduzione dei consumi come modalità privilegiata per finanziarie l'attuazione del
+									<rif xlink:href="#art1-com2-leta" xlink:type="simple">punto a)</rif>
+									del presente comma.
+								</corpo>
 							</el>
 						</comma>
 						<comma id="art1-com3">
@@ -140,8 +182,12 @@
 								<corpo>
 									dell'utilizzo energetico dei rifiuti ai sensi del
 									<rif xlink:href="urn:nir:stato:decreto.legislativo:1997-02-05;22" xlink:type="simple">DLgs. 5 febbraio 1997, n. 22</rif>
-									. g) mappatura delle esigenze di tutela ambientale legate agli impianti energetici.
+									.
 								</corpo>
+							</el>
+							<el id="art2-com3-letg">
+								<num>g)</num>
+								<corpo>mappatura delle esigenze di tutela ambientale legate agli impianti energetici.</corpo>
 							</el>
 						</comma>
 						<comma id="art2-com4">
@@ -190,8 +236,12 @@
 								<corpo>
 									la qualificazione degli operatori pubblici e privati per le attività di cui al P.E.R., anche in riferimento al
 									<rif xlink:href="urn:nir:presidente.repubblica:decreto:1993-08-26;412" xlink:type="simple">DPR 26 agosto 1993, n. 412</rif>
-									, mediante programmi di formazione della Regione. g) le indicazioni per gli interventi derivanti dalle esigenze di tutela ambientale.
+									, mediante programmi di formazione della Regione.
 								</corpo>
+							</el>
+							<el id="art2-com4-letg">
+								<num>g)</num>
+								<corpo>le indicazioni per gli interventi derivanti dalle esigenze di tutela ambientale.</corpo>
 							</el>
 						</comma>
 						<comma id="art2-com5">
@@ -227,7 +277,11 @@
 							</el>
 							<el id="art3-com3-letc">
 								<num>c)</num>
-								<corpo>cinque esperti designati uno per ciascuno delle associazioni degli industriali, degli artigiani, dei commercianti, degli agricoltori, e delle organizzazioni regionali del movimento cooperativo. d) un esperto designato dalle organizzazioni regionali dei sindacati dei lavoratori.</corpo>
+								<corpo>cinque esperti designati uno per ciascuno delle associazioni degli industriali, degli artigiani, dei commercianti, degli agricoltori, e delle organizzazioni regionali del movimento cooperativo.</corpo>
+							</el>
+							<el id="art3-com3-letd">
+								<num>d)</num>
+								<corpo>un esperto designato dalle organizzazioni regionali dei sindacati dei lavoratori.</corpo>
 							</el>
 						</comma>
 						<comma id="art3-com4">
@@ -250,9 +304,7 @@
 							<num>7.</num>
 							<corpo>
 								I termini di scadenza e di rinnovo dei componenti del Comitato sono disciplinati dall'
-								<rif xlink:href="#art10" xlink:type="simple">art. 10</rif>
-								/bis della
-								<rif xlink:href="urn:nir:regione.toscana:legge:1979-03-08;11" xlink:type="simple">legge regionale 8 marzo 1979, n. 11</rif>
+								<rif xlink:href="urn:nir:regione.toscana:legge:1979-03-08;11#art10bis" xlink:type="simple">art. 10/bis della legge regionale 8 marzo 1979, n. 11</rif>
 								, così come modificata dalla
 								<rif xlink:href="urn:nir:regione.toscana:legge:1995-04-03;45" xlink:type="simple">legge regionale 3 aprile 1995, n. 45</rif>
 								.
@@ -305,8 +357,18 @@
 						<comma id="art5-com1">
 							<num>1.</num>
 							<corpo>
-								I progetti energetici corrispondenti alle caratteristiche previste dagli artt. 11, 12, 13, 14 della
-								<rif xlink:href="urn:nir:stato:legge:1991-01-09;10" xlink:type="simple">legge 9 gennaio 1991, n. 10</rif>
+								I progetti energetici corrispondenti alle caratteristiche previste dagli
+								<mrif>
+									artt.
+									<rif xlink:href="urn:nir:stato:legge:1991-01-09;10#art11" xlink:type="simple">11</rif>
+									,
+									<rif xlink:href="urn:nir:stato:legge:1991-01-09;10#art12" xlink:type="simple">12</rif>
+									,
+									<rif xlink:href="urn:nir:stato:legge:1991-01-09;10#art13" xlink:type="simple">13</rif>
+									,
+									<rif xlink:href="urn:nir:stato:legge:1991-01-09;10#art14" xlink:type="simple">14</rif>
+									della legge 9 gennaio 1991, n. 10
+								</mrif>
 								, sono considerati di interesse regionale e per la loro attuazione il Presidente della Giunta regionale può promuovere un accordo di programma ai sensi dell'
 								<rif xlink:href="urn:nir:stato:legge:1990-06-08;142#art27" xlink:type="simple">art. 27 della legge 8 giugno 1990, n.142</rif>
 								e della
@@ -333,8 +395,14 @@
 						<comma id="art6-com1">
 							<num>1.</num>
 							<corpo>
-								Le funzioni concernenti la erogazione dei contributi di cui agli artt. 8 e 10 della
-								<rif xlink:href="urn:nir:stato:legge:1991-01-09;10" xlink:type="simple">legge 9 gennaio 1991, n. 10</rif>
+								Le funzioni concernenti la erogazione dei contributi di cui agli
+								<mrif>
+									artt.
+									<rif xlink:href="urn:nir:stato:legge:1991-01-09;10#art8" xlink:type="simple">8</rif>
+									e
+									<rif xlink:href="urn:nir:stato:legge:1991-01-09;10#art10" xlink:type="simple">10</rif>
+									della legge 9 gennaio 1991, n. 10
+								</mrif>
 								sono attribuite ai Comuni.
 							</corpo>
 						</comma>
@@ -367,16 +435,21 @@
 								<rif xlink:href="urn:nir:stato:legge:1986-12-09;896#art17" xlink:type="simple">art. 17 della Legge 9.12.1986, n. 896</rif>
 								, modificata dalla
 								<rif xlink:href="urn:nir:stato:legge:1995-11-08;470" xlink:type="simple">legge 8 Novembre 1995 n. 470</rif>
-								, secondo quanto disposto al comma 8 del medesimo articolo.
+								, secondo quanto disposto al
+								<rif xlink:href="urn:nir:stato:legge:1986-12-09;896#art17-com8" xlink:type="simple">comma 8 del medesimo articolo</rif>
+								.
 							</corpo>
 						</comma>
 						<comma id="art7-com2">
 							<num>2.</num>
 							<corpo>
 								Ai fini dell'attribuzione dei fondi regionali acquisiti ai sensi del
-								<rif xlink:href="#art7-com2" xlink:type="simple">comma 2</rif>
-								e del punto b)
-								<rif xlink:href="urn:nir:stato:legge:1986-12-09;896#art17-com3" xlink:type="simple">comma 3 dell'art. 17 della citata legge 9 Dicembre 1986, n. 896</rif>
+								<mrif>
+									<rif xlink:href="urn:nir:stato:legge:1986-12-09;896#art17-com2" xlink:type="simple">comma 2</rif>
+									e del
+									<rif xlink:href="urn:nir:stato:legge:1986-12-09;896#art17-com3-letb" xlink:type="simple">punto b) comma 3</rif>
+									dell'art. 17 della citata legge 9 Dicembre 1986, n. 896
+								</mrif>
 								, gli Enti locali delle aree geotermiche, entro il 31 Marzo di ogni anno presentano alla Giunta regionale, direttamente o tramite organismi di diritto pubblico o privato ai quali gli stessi partecipino, progetti di investimenti finalizzati agli obiettivi indicati al
 								<rif xlink:href="urn:nir:stato:legge:1986;896#art17-com8" xlink:type="simple">comma 8 dell'art. 17 della legge 896/86</rif>
 								. La Giunta regionale accerta la conformità dei progetti rispetto agli obiettivi sopracitati e assegna i contributi entro il successivo 31 maggio.
