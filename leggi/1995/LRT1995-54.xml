@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19950418" num="29 bis" tipo="BURT" />
 					<entratainvigore norm="19950503" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1995-04-12;54" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1995-04-12;54" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1995-04-12;54@1997-07-16" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Zootecnia" />
 						<materia valore="Fitobiologia" />
@@ -16,11 +17,59 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19950503" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19970810" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-04-12;54" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1997-07-16;49" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-07-16;49" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-07-16;49#art5-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 1 della legge Regione Toscana 16 luglio 1997, n. 49" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com1-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-07-16;49" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-07-16;49#art6-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 6, comma 1 della legge Regione Toscana 16 luglio 1997, n. 49" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#allegato.c" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-07-16;49" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-07-16;49#art8-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 8, comma 2 della legge Regione Toscana 16 luglio 1997, n. 49" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#ann3-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -48,12 +97,27 @@
 				<articolo id="art2">
 					<num>ARTICOLO 2</num>
 					<rubrica>(Disposizioni per la zootecnia biologica)</rubrica>
-					<comma id="art2-com1">
+					<comma finevigore="t2" id="art2-com1-t2" iniziovigore="t1" status="abrogato">
 						<num>1.</num>
 						<corpo>
 							I principi e i metodi di produzione biologica per le produzioni animali sono definiti con deliberazione del Consiglio Regionale, su proposta della Giunta Regionale, previo parere della Commissione Regionale per le Attività Biologiche di cui all'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1994-04-19;31#art7" xlink:type="simple">art. 7 della LR 19-04-1994 n. 31</rif>
-							. In sede di prima applicazione le disposizioni in merito sono quelle di cui all'allegato "A" della presente legge.
+							. In sede di prima applicazione le disposizioni in merito sono quelle di cui all'
+							<rif xlink:href="#ann1" xlink:type="simple">allegato "A"</rif>
+							della presente legge.
+						</corpo>
+					</comma>
+					<comma id="art2-com1" iniziovigore="t2">
+						<num>1.</num>
+						<corpo>
+							I principi e i metodi di produzione biologica per le produzioni animali sono definiti con deliberazione del Consiglio regionale, su proposta della Giunta regionale. In sede di prima applicazione, si applicano le disposizioni di cui agli
+							<mrif>
+								allegati
+								<rif xlink:href="#ann1" xlink:type="simple">A</rif>
+								e
+								<rif xlink:href="#ann2" xlink:type="simple">B</rif>
+							</mrif>
+							della presente legge.
 						</corpo>
 					</comma>
 					<comma id="art2-com2">
@@ -71,36 +135,56 @@
 						<corpo>Ai fini della applicazione della presente legge si dà mandato alla Giunta Regionale affinché, nel termine di sessanta giorni dall'entrata in vigore della presente legge predisponga la modulistica necessaria.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art3">
+				<articolo finevigore="t2" id="art3-t2" iniziovigore="t1" status="abrogato">
+					<num>ARTICOLO 3</num>
+					<rubrica>(Controlli)</rubrica>
+					<comma id="art3-t2-com1">
+						<num>1.</num>
+						<corpo>Gli Organismi abilitati a svolgere il controllo sulle attività di produzione, preparazione e importazione dei prodotti zootecnici ottenuti secondo il metodo di produzione biologico sono quelli che hanno ottenuto il riconoscimento con le modalità previste dalla normativa vigente.</corpo>
+					</comma>
+					<comma id="art3-t2-com2">
+						<num>2.</num>
+						<corpo>Il Consiglio regionale, con proprio atto, su proposta della Giunta regionale, indica i requisiti minimi e le misure precauzionali necessari al fine dello svolgimento dell'attività di controllo. In sede di prima applicazione viene fatto riferimento a quelli previsti nell'allegato "B" della presente legge.</corpo>
+					</comma>
+					<comma id="art3-t2-com3">
+						<num>3.</num>
+						<corpo>
+							Gli Organismi di controllo, di cui al
+							<rif xlink:href="#art3-t2-com1" xlink:type="simple">precedente comma 1</rif>
+							, devono trasmettere alla Giunta regionale, entro il 30 novembre, il piano tipo annuale di controllo relativo alle produzioni zootecniche biologiche. La Giunta Regionale ha trenta giorni per formulare osservazioni e per approvarlo con proprio atto.
+						</corpo>
+					</comma>
+					<comma id="art3-t2-com4">
+						<num>4.</num>
+						<corpo>Periodicamente l'Organismo di controllo invia al Dipartimento Agricoltura e Foreste una relazione inerente i controlli effettuati sugli operatori biologici specificando le specie e le quantità di produzioni controllate.</corpo>
+					</comma>
+					<comma id="art3-t2-com5">
+						<num>5.</num>
+						<corpo>La Regione effettua annualmente, attraverso l'ARSIA, controlli a campione su una percentuale di operatori biologici non inferiore al 10%. Le modalità per lo svolgimento della suddetta attività di verifica sono stabilite dal Consiglio Regionale con proprio atto, su proposta della Giunta Regionale. In sede di prima applicazione viene fatto riferimento alle modalità riportate nell'allegato "C" della presente legge.</corpo>
+					</comma>
+					<comma id="art3-t2-com6">
+						<num>6.</num>
+						<corpo>Nel caso in cui l'ARSIA riscontri inadeguatezze od omissioni riconducibili agli Organismi di controllo ne dà comunicazione alla Giunta Regionale la quale provvede ad inviare i dati al Ministero delle Risorse Agricole Alimentari e Forestali.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art3" iniziovigore="t2">
 					<num>ARTICOLO 3</num>
 					<rubrica>(Controlli)</rubrica>
 					<comma id="art3-com1">
 						<num>1.</num>
-						<corpo>Gli Organismi abilitati a svolgere il controllo sulle attività di produzione, preparazione e importazione dei prodotti zootecnici ottenuti secondo il metodo di produzione biologico sono quelli che hanno ottenuto il riconoscimento con le modalità previste dalla normativa vigente.</corpo>
+						<corpo>
+							I controlli sulle produzioni animali ottenute mediante metodi biologici di cui alla presente legge vengono svolti con le modalità previste dalla
+							<rif xlink:href="urn:nir:regione.toscana:legge:1997-07-16;49" xlink:type="simple">LR del 16/07/1997 n. 49</rif>
+							;
+						</corpo>
 					</comma>
 					<comma id="art3-com2">
 						<num>2.</num>
-						<corpo>Il Consiglio regionale, con proprio atto, su proposta della Giunta regionale, indica i requisiti minimi e le misure precauzionali necessari al fine dello svolgimento dell'attività di controllo. In sede di prima applicazione viene fatto riferimento a quelli previsti nell'allegato "B" della presente legge.</corpo>
-					</comma>
-					<comma id="art3-com3">
-						<num>3.</num>
 						<corpo>
-							Gli Organismi di controllo, di cui al
-							<rif xlink:href="#art3-com1" xlink:type="simple">precedente comma 1</rif>
-							, devono trasmettere alla Giunta regionale, entro il 30 novembre, il piano tipo annuale di controllo relativo alle produzioni zootecniche biologiche. La Giunta Regionale ha trenta giorni per formulare osservazioni e per approvarlo con proprio atto.
+							In sede di prima applicazione sono validi quali requisiti minimi e misure precauzionali necessari al fine dello svolgimento dell'attività di controllo quelli previsti nell'
+							<rif xlink:href="#ann2" xlink:type="simple">allegato "B"</rif>
+							della presente legge. Il Consiglio regionale può variarli e integrarli, su proposta della Giunta regionale.
 						</corpo>
-					</comma>
-					<comma id="art3-com4">
-						<num>4.</num>
-						<corpo>Periodicamente l'Organismo di controllo invia al Dipartimento Agricoltura e Foreste una relazione inerente i controlli effettuati sugli operatori biologici specificando le specie e le quantità di produzioni controllate.</corpo>
-					</comma>
-					<comma id="art3-com5">
-						<num>5.</num>
-						<corpo>La Regione effettua annualmente, attraverso l'ARSIA, controlli a campione su una percentuale di operatori biologici non inferiore al 10%. Le modalità per lo svolgimento della suddetta attività di verifica sono stabilite dal Consiglio Regionale con proprio atto, su proposta della Giunta Regionale. In sede di prima applicazione viene fatto riferimento alle modalità riportate nell'allegato "C" della presente legge.</corpo>
-					</comma>
-					<comma id="art3-com6">
-						<num>6.</num>
-						<corpo>Nel caso in cui l'ARSIA riscontri inadeguatezze od omissioni riconducibili agli Organismi di controllo ne dà comunicazione alla Giunta Regionale la quale provvede ad inviare i dati al Ministero delle Risorse Agricole Alimentari e Forestali.</corpo>
 					</comma>
 				</articolo>
 			</articolato>
@@ -535,7 +619,7 @@
 						<conclusione />
 					</DocumentoNIR>
 				</annesso>
-				<annesso id="ann3">
+				<annesso finevigore="t2" id="ann3-t2" iniziovigore="t1" status="abrogato">
 					<testata>
 						<denAnnesso>
 							<h:p>ALLEGATO C</h:p>

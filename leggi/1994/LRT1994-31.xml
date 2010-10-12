@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t2" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19940428" num="31" tipo="BURT" />
 					<entratainvigore norm="19940513" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1994-04-19;31" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1994-04-19;31" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1994-04-19;31@1997-07-16" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Fitobiologia" />
 					</materie>
@@ -15,11 +16,29 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19940513" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19970810" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-04-19;31" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1997-07-16;49" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1994-04-19;31" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-07-16;49" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-07-16;49#art8-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 8, comma 1 della legge Regione Toscana 16 luglio 1997, n. 49" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -88,622 +107,618 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>SOGGETTI OPERATORI BIOLOGICI</rubrica>
-				
-				<articolo id="art4">
-					<num>ARTICOLO 4</num>
-					<rubrica>(Operatore biologico)</rubrica>
-					<comma id="art4-com1">
-						<num>1.</num>
-						<corpo>
-							È operatore biologico, ai sensi dell'
-							<rif xlink:href="urn:nir:comunita.europee:regolamento:1991;2092#art4" xlink:type="simple">art. 4 sub. 5 del Regolamento CEE n. 2092/91</rif>
-							, la persona fisica o giuridica che produce, prepara o importa i prodotti di cui al
-							<rif xlink:href="#art2" xlink:type="simple">precedente art. 2</rif>
-							, per la loro commercializzazione.
-						</corpo>
-					</comma>
-					<comma id="art4-com2">
-						<num>2.</num>
-						<alinea>Ai fini della presente legge:</alinea>
-						<el id="art4-com2-leta">
-							<num>a)</num>
-							<corpo>per produzione si intendono le operazioni volte alla produzione di prodotti agricoli nello stato in cui vengono normalmente prodotti nell'azienda agricola;</corpo>
-						</el>
-						<el id="art4-com2-letb">
-							<num>b)</num>
-							<corpo>per preparazione si intendono le operazioni di trasformazione, di conservazione, di condizionamento e di confezionamento dei prodotti agricoli provenienti da produzioni biologiche;</corpo>
-						</el>
-						<el id="art4-com2-letc">
-							<num>c)</num>
+					<articolo id="art4">
+						<num>ARTICOLO 4</num>
+						<rubrica>(Operatore biologico)</rubrica>
+						<comma id="art4-com1">
+							<num>1.</num>
 							<corpo>
-								per importazione si intendono le attività volte all'approvvigionamento di prodotti da paesi terzi in conformità all'
-								<rif xlink:href="urn:nir:comunita.europee:regolamento:1991;2092#art11" xlink:type="simple">art. 11 del Regolamento CEE n. 2092/91</rif>
-								e successive modifiche ed integrazioni.
+								È operatore biologico, ai sensi dell'
+								<rif xlink:href="urn:nir:comunita.europee:regolamento:1991;2092#art4" xlink:type="simple">art. 4 sub. 5 del Regolamento CEE n. 2092/91</rif>
+								, la persona fisica o giuridica che produce, prepara o importa i prodotti di cui al
+								<rif xlink:href="#art2" xlink:type="simple">precedente art. 2</rif>
+								, per la loro commercializzazione.
 							</corpo>
-						</el>
-					</comma>
-					<comma id="art4-com3">
-						<num>3.</num>
-						<corpo>
-							Gli operatori biologici che producono, preparano o importano ai fini della commercializzazione i prodotti di cui al
-							<rif xlink:href="#art2" xlink:type="simple">precedente art. 2</rif>
-							, notificano, ai sensi dell'
-							<rif xlink:href="urn:nir:comunita.europee:regolamento:1991;2092#art8" xlink:type="simple">art. 8, paragrafi 1 e 2 del Regolamento CEE n. 2092/91</rif>
-							, la dichiarazione di esercizio di tale attività all'Associazione ai cui controlli si impegnano ad assoggettarsi.
-						</corpo>
-					</comma>
-					<comma id="art4-com4">
-						<num>4.</num>
-						<corpo>
-							Gli operatori biologici devono essere iscritti all'Albo regionale di cui al
-							<rif xlink:href="#art5" xlink:type="simple">successivo articolo 5</rif>
-							.
-						</corpo>
-					</comma>
-				</articolo>
-				<articolo id="art5">
-					<num>ARTICOLO 5</num>
-					<rubrica>(Albo regionale degli operatori biologici)</rubrica>
-					<comma id="art5-com1">
-						<num>1.</num>
-						<corpo>Presso il Dipartimento Agricoltura e Foreste della Giunta regionale è istituito l'Albo regionale degli operatori biologici.</corpo>
-					</comma>
-					<comma id="art5-com2">
-						<num>2.</num>
-						<alinea>L'Albo è diviso in quattro sezioni:</alinea>
-						<en id="art5-com2-num1">
-							<num>1)</num>
-							<corpo>Nella prima sezione sono iscritti gli operatori che svolgono l'attività produttiva biologica su tutte le superfici aziendali;</corpo>
-						</en>
-						<en id="art5-com2-num2">
-							<num>2)</num>
-							<corpo>nella seconda sezione gli operatori che svolgono l'attività produttiva biologica solo su una o più unità di produzione i cui appezzamenti e i luoghi di produzione e di magazzinaggio siano nettamente separati da qualsiasi altra unità che non produca conformemente alle norme di produzione di cui alla presente legge;</corpo>
-						</en>
-						<en id="art5-com2-num3">
-							<num>3)</num>
-							<corpo>nella terza sezione gli operatori preparatori di prodotti biologici;</corpo>
-						</en>
-						<en id="art5-com2-num4">
-							<num>4)</num>
-							<corpo>nella quarta sezione gli operatori importatori di prodotti biologici.</corpo>
-						</en>
-					</comma>
-					<comma id="art5-com3">
-						<num>3.</num>
-						<corpo>Possono richiedere l'iscrizione nell'Albo alla prima e seconda sezione gli operatori produttori che adottano modalità di produzione, in conformità alla presente legge, da almeno due anni prima della semina, per le colture erbacee, e da almeno tre anni per le colture arboree e perenni diverse dai prati. La Giunta regionale è autorizzata, per motivate ragioni e per casi specifici, a ridurre o prolungare i termini di cui sopra.</corpo>
-					</comma>
-					<comma id="art5-com4">
-						<num>4.</num>
-						<corpo>
-							Possono essere iscritti all'Albo, rispettivamente nella terza o quarta sezione, gli operatori che preparano o importano per la commercializzazione i prodotti di cui al
-							<rif xlink:href="#art2" xlink:type="simple">precedente art. 2</rif>
-							, nel rispetto delle disposizioni del
-							<rif xlink:href="urn:nir:comunita.europee:regolamento:1991;2092" xlink:type="simple">Regolamento CEE n. 2092/91</rif>
-							e delle tecniche di trasformazione definite in apposito regolamento, emanato entro dodici mesi dall'entrata in vigore della presente legge, dal Consiglio regionale, sentita la Commissione di cui al
-							<rif xlink:href="#art7" xlink:type="simple">successivo art. 7</rif>
-							.
-						</corpo>
-					</comma>
-					<comma id="art5-com5">
-						<num>5.</num>
-						<corpo>La domanda di iscrizione nell'Albo può essere presentata in ogni tempo e deve essere accompagnata dalla certificazione, rilasciata dall'Associazione che svolge il controllo, attestante il rispetto della normativa comunitaria e regionale da parte dell'operatore nonché, per gli operatori produttori, la conclusione positiva della conversione su tutta la produzione o su alcune unità biologiche separate.</corpo>
-					</comma>
-					<comma id="art5-com6">
-						<num>6.</num>
-						<corpo>L'iscrizione all'Albo è determinata entro sessanta giorni dalla richiesta, con deliberazione della Giunta regionale. In caso di richiesta di documentazione integrativa il termine è sospeso ed inizia a decorrere nuovamente dal giorno in cui la documentazione perviene ai competenti uffici.</corpo>
-					</comma>
-					<comma id="art5-com7">
-						<num>7.</num>
-						<corpo>
-							La cancellazione e la sospensione dall'Albo è determinata dalla Giunta regionale su segnalazione dell'Associazione cui è affidato il controllo sentita la Commissione di cui al
-							<rif xlink:href="#art7" xlink:type="simple">successivo articolo 7</rif>
-							. La relativa deliberazione è comunicata all'operatore a mezzo di raccomandata con avviso di ricevimento.
-						</corpo>
-					</comma>
-					<comma id="art5-com8">
-						<num>8.</num>
-						<corpo>Avverso i provvedimenti di rifiuto di iscrizione, di cancellazione o sospensione di cui al precedente comma è ammesso, da parte degli interessati, ricorso in opposizione alla Giunta regionale. Il ricorso è presentato nel termine di 30 giorni dal ricevimento della comunicazione; la Giunta regionale decide sul ricorso entro 60 giorni dal ricevimento del medesimo. In caso di accoglimento del ricorso, con lo stesso atto la Giunta regionale dispone, con decorrenza immediata, l'integrazione dell'Albo, dandone comunicazione al soggetto interessato.</corpo>
-					</comma>
-				</articolo>
-				<articolo id="art6">
-					<num>ARTICOLO 6</num>
-					<rubrica>(Riconoscimento delle Associazioni dei produttori biologici)</rubrica>
-					<comma id="art6-com1">
-						<num>1.</num>
-						<corpo>
-							Ai sensi e per gli effetti della
-							<rif xlink:href="urn:nir:regione.toscana:legge:1980-05-29;77" xlink:type="simple">LR 29 maggio 1980, n. 77</rif>
-							sono riconosciute le Associazioni regionali dei produttori biologici.
-						</corpo>
-					</comma>
-					<comma id="art6-com2">
-						<num>2.</num>
-						<alinea>
-							In aggiunta a quanto previsto dalla
-							<rif xlink:href="urn:nir:regione.toscana:legge:1980-05-29;77" xlink:type="simple">LR 29 maggio 1980, n. 77</rif>
-							, per essere riconosciute le Associazioni devono:
-						</alinea>
-						<el id="art6-com2-leta">
-							<num>a)</num>
-							<corpo>operare sul territorio regionale;</corpo>
-						</el>
-						<el id="art6-com2-letb">
-							<num>b)</num>
-							<corpo>avere soci il cui centro aziendale ricada nel territorio regionale;</corpo>
-						</el>
-						<el id="art6-com2-letc">
-							<num>c)</num>
-							<corpo>essere costituite da almeno 80 aziende che utilizzano il metodo di produzione biologica con un fatturato complessivo superiore a due miliardi di lire di produzione immessa sul mercato, aggiornabili annualmente sulla base degli indici ISTAT riferiti all'anno precedente;</corpo>
-						</el>
-					</comma>
-					<comma id="art6-com3">
-						<num>3.</num>
-						<alinea>I compiti delle Associazioni sono quelli volti a:</alinea>
-						<el id="art6-com3-leta">
-							<num>a)</num>
-							<corpo>stipulare contratti interprofessionali;</corpo>
-						</el>
-						<el id="art6-com3-letb">
-							<num>b)</num>
-							<corpo>orientare la produzione e promuovere la valorizzazione dei prodotti degli associati;</corpo>
-						</el>
-						<el id="art6-com3-letc">
-							<num>c)</num>
-							<corpo>promuovere attività di assistenza tecnica, formazione professionale e divulgazione in funzione delle esigenze del settore.</corpo>
-						</el>
-					</comma>
-					<comma id="art6-com4">
-						<num>4.</num>
-						<alinea>In particolare gli Statuti delle Associazioni devono prevedere:</alinea>
-						<el id="art6-com4-leta">
-							<num>a)</num>
-							<corpo>la definizione delle modalità di iscrizione, di recesso e di esclusione degli operatori;</corpo>
-						</el>
-						<el id="art6-com4-letb">
-							<num>b)</num>
-							<corpo>l'impegno a tenere e a far consultare agli interessati l'elenco aggiornato degli operatori contenente i nomi e i relativi indirizzi;</corpo>
-						</el>
-						<el id="art6-com4-letc">
-							<num>c)</num>
-							<corpo>l'impegno ad esercitare la vigilanza nei confronti delle aziende associate;</corpo>
-						</el>
-						<el id="art6-com4-letd">
-							<num>d)</num>
+						</comma>
+						<comma id="art4-com2">
+							<num>2.</num>
+							<alinea>Ai fini della presente legge:</alinea>
+							<el id="art4-com2-leta">
+								<num>a)</num>
+								<corpo>per produzione si intendono le operazioni volte alla produzione di prodotti agricoli nello stato in cui vengono normalmente prodotti nell'azienda agricola;</corpo>
+							</el>
+							<el id="art4-com2-letb">
+								<num>b)</num>
+								<corpo>per preparazione si intendono le operazioni di trasformazione, di conservazione, di condizionamento e di confezionamento dei prodotti agricoli provenienti da produzioni biologiche;</corpo>
+							</el>
+							<el id="art4-com2-letc">
+								<num>c)</num>
+								<corpo>
+									per importazione si intendono le attività volte all'approvvigionamento di prodotti da paesi terzi in conformità all'
+									<rif xlink:href="urn:nir:comunita.europee:regolamento:1991;2092#art11" xlink:type="simple">art. 11 del Regolamento CEE n. 2092/91</rif>
+									e successive modifiche ed integrazioni.
+								</corpo>
+							</el>
+						</comma>
+						<comma id="art4-com3">
+							<num>3.</num>
 							<corpo>
-								l'impegno ad eseguire i controlli di cui al
-								<rif xlink:href="#art8" xlink:type="simple">successivo art. 8</rif>
-								anche con la partecipazione di rappresentanti dei consumatori;
+								Gli operatori biologici che producono, preparano o importano ai fini della commercializzazione i prodotti di cui al
+								<rif xlink:href="#art2" xlink:type="simple">precedente art. 2</rif>
+								, notificano, ai sensi dell'
+								<rif xlink:href="urn:nir:comunita.europee:regolamento:1991;2092#art8" xlink:type="simple">art. 8, paragrafi 1 e 2 del Regolamento CEE n. 2092/91</rif>
+								, la dichiarazione di esercizio di tale attività all'Associazione ai cui controlli si impegnano ad assoggettarsi.
 							</corpo>
-						</el>
-						<el id="art6-com4-lete">
-							<num>e)</num>
-							<corpo>le modalità di applicazione della sospensione o della esclusione del socio dalla associazione nel caso in cui si accertino irregolarità.</corpo>
-						</el>
-					</comma>
-					<comma id="art6-com5">
-						<num>5.</num>
-						<alinea>Le Associazioni devono espressamente assumere:</alinea>
-						<el id="art6-com5-leta">
-							<num>a)</num>
-							<corpo>l'impegno a comunicare le informazioni e i dati acquisiti esclusivamente all'operatore biologico ed alla Regione;</corpo>
-						</el>
-						<el id="art6-com5-letb">
-							<num>b)</num>
-							<corpo>l'impegno a consentire alla Regione, a fini d'ispezione, il libero accesso ai loro uffici ed impianti;</corpo>
-						</el>
-						<el id="art6-com5-letc">
-							<num>c)</num>
-							<corpo>l'impegno a trasmettere alla Regione, entro il 31 dicembre di ogni anno, l'elenco degli operatori controllati, con una breve relazione;</corpo>
-						</el>
-						<el id="art6-com5-letd">
-							<num>d)</num>
+						</comma>
+						<comma id="art4-com4">
+							<num>4.</num>
 							<corpo>
-								l'impegno ad eseguire, ai sensi dell'
-								<rif xlink:href="#art8-com7-letb" xlink:type="simple">art. 8, comma 7, lettera b)</rif>
-								i controlli in sostituzione di associazioni sospese o revocate.
+								Gli operatori biologici devono essere iscritti all'Albo regionale di cui al
+								<rif xlink:href="#art5" xlink:type="simple">successivo articolo 5</rif>
+								.
 							</corpo>
-						</el>
-					</comma>
-					<comma id="art6-com6">
-						<num>6.</num>
-						<alinea>Il responsabile dell'Associazione non deve:</alinea>
-						<el id="art6-com6-leta">
-							<num>a)</num>
+						</comma>
+					</articolo>
+					<articolo id="art5">
+						<num>ARTICOLO 5</num>
+						<rubrica>(Albo regionale degli operatori biologici)</rubrica>
+						<comma id="art5-com1">
+							<num>1.</num>
+							<corpo>Presso il Dipartimento Agricoltura e Foreste della Giunta regionale è istituito l'Albo regionale degli operatori biologici.</corpo>
+						</comma>
+						<comma id="art5-com2">
+							<num>2.</num>
+							<alinea>L'Albo è diviso in quattro sezioni:</alinea>
+							<en id="art5-com2-num1">
+								<num>1)</num>
+								<corpo>Nella prima sezione sono iscritti gli operatori che svolgono l'attività produttiva biologica su tutte le superfici aziendali;</corpo>
+							</en>
+							<en id="art5-com2-num2">
+								<num>2)</num>
+								<corpo>nella seconda sezione gli operatori che svolgono l'attività produttiva biologica solo su una o più unità di produzione i cui appezzamenti e i luoghi di produzione e di magazzinaggio siano nettamente separati da qualsiasi altra unità che non produca conformemente alle norme di produzione di cui alla presente legge;</corpo>
+							</en>
+							<en id="art5-com2-num3">
+								<num>3)</num>
+								<corpo>nella terza sezione gli operatori preparatori di prodotti biologici;</corpo>
+							</en>
+							<en id="art5-com2-num4">
+								<num>4)</num>
+								<corpo>nella quarta sezione gli operatori importatori di prodotti biologici.</corpo>
+							</en>
+						</comma>
+						<comma id="art5-com3">
+							<num>3.</num>
+							<corpo>Possono richiedere l'iscrizione nell'Albo alla prima e seconda sezione gli operatori produttori che adottano modalità di produzione, in conformità alla presente legge, da almeno due anni prima della semina, per le colture erbacee, e da almeno tre anni per le colture arboree e perenni diverse dai prati. La Giunta regionale è autorizzata, per motivate ragioni e per casi specifici, a ridurre o prolungare i termini di cui sopra.</corpo>
+						</comma>
+						<comma id="art5-com4">
+							<num>4.</num>
 							<corpo>
-								avere riportato condanne definitive per delitti non colposi per i quali la legge commini la pena della reclusione non inferiore nel minimo a due anni o nel massimo a cinque anni, ovvero per i delitti di cui agli
-								<mrif>
-									artt.
-									<rif xlink:href="urn:nir:stato:codice.penale:1930-10-19;1398#art513" xlink:type="simple">513</rif>
-									,
-									<rif xlink:href="urn:nir:stato:codice.penale:1930-10-19;1398#art515" xlink:type="simple">515</rif>
-									,
-									<rif xlink:href="urn:nir:stato:codice.penale:1930-10-19;1398#art516" xlink:type="simple">516</rif>
-									,
-									<rif xlink:href="urn:nir:stato:codice.penale:1930-10-19;1398#art517" xlink:type="simple">517</rif>
-									,
-									<rif xlink:href="urn:nir:stato:codice.penale:1930-10-19;1398#art640" xlink:type="simple">640</rif>
-									e
-									<rif xlink:href="urn:nir:stato:codice.penale:1930-10-19;1398#art640bis" xlink:type="simple">640 bis</rif>
-									del Codice Penale
-								</mrif>
-								, ovvero condanne che importino l'interdizione dai pubblici uffici per la durata superiore a tre anni;
+								Possono essere iscritti all'Albo, rispettivamente nella terza o quarta sezione, gli operatori che preparano o importano per la commercializzazione i prodotti di cui al
+								<rif xlink:href="#art2" xlink:type="simple">precedente art. 2</rif>
+								, nel rispetto delle disposizioni del
+								<rif xlink:href="urn:nir:comunita.europee:regolamento:1991;2092" xlink:type="simple">Regolamento CEE n. 2092/91</rif>
+								e delle tecniche di trasformazione definite in apposito regolamento, emanato entro dodici mesi dall'entrata in vigore della presente legge, dal Consiglio regionale, sentita la Commissione di cui al
+								<rif xlink:href="#art7" xlink:type="simple">successivo art. 7</rif>
+								.
 							</corpo>
-						</el>
-						<el id="art6-com6-letb">
-							<num>b)</num>
+						</comma>
+						<comma id="art5-com5">
+							<num>5.</num>
+							<corpo>La domanda di iscrizione nell'Albo può essere presentata in ogni tempo e deve essere accompagnata dalla certificazione, rilasciata dall'Associazione che svolge il controllo, attestante il rispetto della normativa comunitaria e regionale da parte dell'operatore nonché, per gli operatori produttori, la conclusione positiva della conversione su tutta la produzione o su alcune unità biologiche separate.</corpo>
+						</comma>
+						<comma id="art5-com6">
+							<num>6.</num>
+							<corpo>L'iscrizione all'Albo è determinata entro sessanta giorni dalla richiesta, con deliberazione della Giunta regionale. In caso di richiesta di documentazione integrativa il termine è sospeso ed inizia a decorrere nuovamente dal giorno in cui la documentazione perviene ai competenti uffici.</corpo>
+						</comma>
+						<comma id="art5-com7">
+							<num>7.</num>
 							<corpo>
-								essere sottoposto ad una delle misure di prevenzione personale ai sensi degli
-								<mrif>
-									artt.
-									<rif xlink:href="urn:nir:stato:legge:1956-12-27;1423#art3" xlink:type="simple">3</rif>
-									e
-									<rif xlink:href="urn:nir:stato:legge:1956-12-27;1423#art4" xlink:type="simple">4</rif>
-									della L. 27-12-1956, n. 1423
-								</mrif>
-								, come modificati dagli
-								<mrif>
-									artt.
-									<rif xlink:href="urn:nir:stato:legge:1988-08-03;327#art4" xlink:type="simple">4</rif>
-									e
-									<rif xlink:href="urn:nir:stato:legge:1988-08-03;327#art5" xlink:type="simple">5</rif>
-									della L. 3-8-1988, n. 327
-								</mrif>
-								, o essere soggetto alle disposizioni dell'
-								<rif xlink:href="urn:nir:stato:legge:1990-03-19;55#art3" xlink:type="simple">art. 3 della L. 19-3-1990, n. 55</rif>
-								, come modificato dalla
-								<rif xlink:href="urn:nir:stato:legge:1991-07-12;203" xlink:type="simple">L. 12-7-1991, n. 203</rif>
-								;
+								La cancellazione e la sospensione dall'Albo è determinata dalla Giunta regionale su segnalazione dell'Associazione cui è affidato il controllo sentita la Commissione di cui al
+								<rif xlink:href="#art7" xlink:type="simple">successivo articolo 7</rif>
+								. La relativa deliberazione è comunicata all'operatore a mezzo di raccomandata con avviso di ricevimento.
 							</corpo>
-						</el>
-						<el id="art6-com6-letc">
-							<num>c)</num>
-							<corpo>essere stato dichiarato fallito né deve avere in corso procedure concorsuali.</corpo>
-						</el>
-					</comma>
-					<comma id="art6-com7">
-						<num>7.</num>
-						<alinea>Il requisito dell'idoneità morale di cui al precedente comma è comprovata a mezzo:</alinea>
-						<el id="art6-com7-leta">
-							<num>a)</num>
-							<corpo>del casellario giudiziario, di data non anteriore a tre mesi;</corpo>
-						</el>
-						<el id="art6-com7-letb">
-							<num>b)</num>
+						</comma>
+						<comma id="art5-com8">
+							<num>8.</num>
+							<corpo>Avverso i provvedimenti di rifiuto di iscrizione, di cancellazione o sospensione di cui al precedente comma è ammesso, da parte degli interessati, ricorso in opposizione alla Giunta regionale. Il ricorso è presentato nel termine di 30 giorni dal ricevimento della comunicazione; la Giunta regionale decide sul ricorso entro 60 giorni dal ricevimento del medesimo. In caso di accoglimento del ricorso, con lo stesso atto la Giunta regionale dispone, con decorrenza immediata, l'integrazione dell'Albo, dandone comunicazione al soggetto interessato.</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art6">
+						<num>ARTICOLO 6</num>
+						<rubrica>(Riconoscimento delle Associazioni dei produttori biologici)</rubrica>
+						<comma id="art6-com1">
+							<num>1.</num>
 							<corpo>
-								della certificazione prevista dall'
-								<rif xlink:href="urn:nir:stato:legge:1965-05-31;575#art10sexies" xlink:type="simple">art. 10 sexies della L. 31-5-1965, n. 575</rif>
-								, introdotto dall'
-								<rif xlink:href="urn:nir:stato:legge:1990-03-19;55#art7" xlink:type="simple">art. 7 della L. 19-3-1990, n. 55</rif>
-								, come da ultimo sostituito dalla
-								<rif xlink:href="urn:nir:stato:legge:1991-07-12;203" xlink:type="simple">L. 12-7-1991, n. 203</rif>
-								;
+								Ai sensi e per gli effetti della
+								<rif xlink:href="urn:nir:regione.toscana:legge:1980-05-29;77" xlink:type="simple">LR 29 maggio 1980, n. 77</rif>
+								sono riconosciute le Associazioni regionali dei produttori biologici.
 							</corpo>
-						</el>
-						<el id="art6-com7-letc">
-							<num>c)</num>
+						</comma>
+						<comma id="art6-com2">
+							<num>2.</num>
+							<alinea>
+								In aggiunta a quanto previsto dalla
+								<rif xlink:href="urn:nir:regione.toscana:legge:1980-05-29;77" xlink:type="simple">LR 29 maggio 1980, n. 77</rif>
+								, per essere riconosciute le Associazioni devono:
+							</alinea>
+							<el id="art6-com2-leta">
+								<num>a)</num>
+								<corpo>operare sul territorio regionale;</corpo>
+							</el>
+							<el id="art6-com2-letb">
+								<num>b)</num>
+								<corpo>avere soci il cui centro aziendale ricada nel territorio regionale;</corpo>
+							</el>
+							<el id="art6-com2-letc">
+								<num>c)</num>
+								<corpo>essere costituite da almeno 80 aziende che utilizzano il metodo di produzione biologica con un fatturato complessivo superiore a due miliardi di lire di produzione immessa sul mercato, aggiornabili annualmente sulla base degli indici ISTAT riferiti all'anno precedente;</corpo>
+							</el>
+						</comma>
+						<comma id="art6-com3">
+							<num>3.</num>
+							<alinea>I compiti delle Associazioni sono quelli volti a:</alinea>
+							<el id="art6-com3-leta">
+								<num>a)</num>
+								<corpo>stipulare contratti interprofessionali;</corpo>
+							</el>
+							<el id="art6-com3-letb">
+								<num>b)</num>
+								<corpo>orientare la produzione e promuovere la valorizzazione dei prodotti degli associati;</corpo>
+							</el>
+							<el id="art6-com3-letc">
+								<num>c)</num>
+								<corpo>promuovere attività di assistenza tecnica, formazione professionale e divulgazione in funzione delle esigenze del settore.</corpo>
+							</el>
+						</comma>
+						<comma id="art6-com4">
+							<num>4.</num>
+							<alinea>In particolare gli Statuti delle Associazioni devono prevedere:</alinea>
+							<el id="art6-com4-leta">
+								<num>a)</num>
+								<corpo>la definizione delle modalità di iscrizione, di recesso e di esclusione degli operatori;</corpo>
+							</el>
+							<el id="art6-com4-letb">
+								<num>b)</num>
+								<corpo>l'impegno a tenere e a far consultare agli interessati l'elenco aggiornato degli operatori contenente i nomi e i relativi indirizzi;</corpo>
+							</el>
+							<el id="art6-com4-letc">
+								<num>c)</num>
+								<corpo>l'impegno ad esercitare la vigilanza nei confronti delle aziende associate;</corpo>
+							</el>
+							<el id="art6-com4-letd">
+								<num>d)</num>
+								<corpo>
+									l'impegno ad eseguire i controlli di cui al
+									<rif xlink:href="#art8" xlink:type="simple">successivo art. 8</rif>
+									anche con la partecipazione di rappresentanti dei consumatori;
+								</corpo>
+							</el>
+							<el id="art6-com4-lete">
+								<num>e)</num>
+								<corpo>le modalità di applicazione della sospensione o della esclusione del socio dalla associazione nel caso in cui si accertino irregolarità.</corpo>
+							</el>
+						</comma>
+						<comma id="art6-com5">
+							<num>5.</num>
+							<alinea>Le Associazioni devono espressamente assumere:</alinea>
+							<el id="art6-com5-leta">
+								<num>a)</num>
+								<corpo>l'impegno a comunicare le informazioni e i dati acquisiti esclusivamente all'operatore biologico ed alla Regione;</corpo>
+							</el>
+							<el id="art6-com5-letb">
+								<num>b)</num>
+								<corpo>l'impegno a consentire alla Regione, a fini d'ispezione, il libero accesso ai loro uffici ed impianti;</corpo>
+							</el>
+							<el id="art6-com5-letc">
+								<num>c)</num>
+								<corpo>l'impegno a trasmettere alla Regione, entro il 31 dicembre di ogni anno, l'elenco degli operatori controllati, con una breve relazione;</corpo>
+							</el>
+							<el id="art6-com5-letd">
+								<num>d)</num>
+								<corpo>
+									l'impegno ad eseguire, ai sensi dell'
+									<rif xlink:href="#art8-com7-letb" xlink:type="simple">art. 8, comma 7, lettera b)</rif>
+									i controlli in sostituzione di associazioni sospese o revocate.
+								</corpo>
+							</el>
+						</comma>
+						<comma id="art6-com6">
+							<num>6.</num>
+							<alinea>Il responsabile dell'Associazione non deve:</alinea>
+							<el id="art6-com6-leta">
+								<num>a)</num>
+								<corpo>
+									avere riportato condanne definitive per delitti non colposi per i quali la legge commini la pena della reclusione non inferiore nel minimo a due anni o nel massimo a cinque anni, ovvero per i delitti di cui agli
+									<mrif>
+										artt.
+										<rif xlink:href="urn:nir:stato:codice.penale:1930-10-19;1398#art513" xlink:type="simple">513</rif>
+										,
+										<rif xlink:href="urn:nir:stato:codice.penale:1930-10-19;1398#art515" xlink:type="simple">515</rif>
+										,
+										<rif xlink:href="urn:nir:stato:codice.penale:1930-10-19;1398#art516" xlink:type="simple">516</rif>
+										,
+										<rif xlink:href="urn:nir:stato:codice.penale:1930-10-19;1398#art517" xlink:type="simple">517</rif>
+										,
+										<rif xlink:href="urn:nir:stato:codice.penale:1930-10-19;1398#art640" xlink:type="simple">640</rif>
+										e
+										<rif xlink:href="urn:nir:stato:codice.penale:1930-10-19;1398#art640bis" xlink:type="simple">640 bis</rif>
+										del Codice Penale
+									</mrif>
+									, ovvero condanne che importino l'interdizione dai pubblici uffici per la durata superiore a tre anni;
+								</corpo>
+							</el>
+							<el id="art6-com6-letb">
+								<num>b)</num>
+								<corpo>
+									essere sottoposto ad una delle misure di prevenzione personale ai sensi degli
+									<mrif>
+										artt.
+										<rif xlink:href="urn:nir:stato:legge:1956-12-27;1423#art3" xlink:type="simple">3</rif>
+										e
+										<rif xlink:href="urn:nir:stato:legge:1956-12-27;1423#art4" xlink:type="simple">4</rif>
+										della L. 27-12-1956, n. 1423
+									</mrif>
+									, come modificati dagli
+									<mrif>
+										artt.
+										<rif xlink:href="urn:nir:stato:legge:1988-08-03;327#art4" xlink:type="simple">4</rif>
+										e
+										<rif xlink:href="urn:nir:stato:legge:1988-08-03;327#art5" xlink:type="simple">5</rif>
+										della L. 3-8-1988, n. 327
+									</mrif>
+									, o essere soggetto alle disposizioni dell'
+									<rif xlink:href="urn:nir:stato:legge:1990-03-19;55#art3" xlink:type="simple">art. 3 della L. 19-3-1990, n. 55</rif>
+									, come modificato dalla
+									<rif xlink:href="urn:nir:stato:legge:1991-07-12;203" xlink:type="simple">L. 12-7-1991, n. 203</rif>
+									;
+								</corpo>
+							</el>
+							<el id="art6-com6-letc">
+								<num>c)</num>
+								<corpo>essere stato dichiarato fallito né deve avere in corso procedure concorsuali.</corpo>
+							</el>
+						</comma>
+						<comma id="art6-com7">
+							<num>7.</num>
+							<alinea>Il requisito dell'idoneità morale di cui al precedente comma è comprovata a mezzo:</alinea>
+							<el id="art6-com7-leta">
+								<num>a)</num>
+								<corpo>del casellario giudiziario, di data non anteriore a tre mesi;</corpo>
+							</el>
+							<el id="art6-com7-letb">
+								<num>b)</num>
+								<corpo>
+									della certificazione prevista dall'
+									<rif xlink:href="urn:nir:stato:legge:1965-05-31;575#art10sexies" xlink:type="simple">art. 10 sexies della L. 31-5-1965, n. 575</rif>
+									, introdotto dall'
+									<rif xlink:href="urn:nir:stato:legge:1990-03-19;55#art7" xlink:type="simple">art. 7 della L. 19-3-1990, n. 55</rif>
+									, come da ultimo sostituito dalla
+									<rif xlink:href="urn:nir:stato:legge:1991-07-12;203" xlink:type="simple">L. 12-7-1991, n. 203</rif>
+									;
+								</corpo>
+							</el>
+							<el id="art6-com7-letc">
+								<num>c)</num>
+								<corpo>
+									del certificato della Cancelleria del competente Tribunale dal quale risulti che il richiedente non è assoggettato ad alcuna delle procedure concorsuali di cui al
+									<rif xlink:href="urn:nir:stato:regio.decreto:1942-03-16;267" xlink:type="simple">RD 16-3-1942, n. 267</rif>
+									di data non anteriore a tre mesi.
+								</corpo>
+							</el>
+						</comma>
+						<comma id="art6-com8">
+							<num>8.</num>
+							<corpo>Il requisito dell'idoneità morale si intende soddisfatto quando per le condanne penali o per la dichiarazione di fallimento sia intervenuta la riabilitazione a norma delle vigenti disposizioni di legge.</corpo>
+						</comma>
+						<comma id="art6-com9">
+							<num>9.</num>
+							<corpo>Al fine di ottenere il riconoscimento le Associazioni devono presentare domanda alla Giunta regionale allegando copia dell'atto costitutivo e dello Statuto , nonché ogni altro documento atto a dimostrare il possesso dei requisiti previsti dalla legge.</corpo>
+						</comma>
+						<comma id="art6-com10">
+							<num>10.</num>
 							<corpo>
-								del certificato della Cancelleria del competente Tribunale dal quale risulti che il richiedente non è assoggettato ad alcuna delle procedure concorsuali di cui al
-								<rif xlink:href="urn:nir:stato:regio.decreto:1942-03-16;267" xlink:type="simple">RD 16-3-1942, n. 267</rif>
-								di data non anteriore a tre mesi.
+								Il riconoscimento è concesso, ovvero negato, dal Consiglio regionale, sentita la Commissione regionale per le attività biologiche, secondo le modalità e con i tempi previsti dalla
+								<rif xlink:href="urn:nir:regione.toscana:legge:1980-05-29;77" xlink:type="simple">LR 29 maggio 1980, n. 77</rif>
+								. In caso di richiesta di documentazione integrativa il termine di 90 giorni di cui all'a
+								<rif xlink:href="urn:nir:regione.toscana:legge:1980-05-29;77#art3-com5" xlink:type="simple">rt. 3, comma 5, della legge regionale sopra citata</rif>
+								è sospeso ed inizia a decorrere nuovamente dal giorno in cui la documentazione perviene ai competenti uffici.
 							</corpo>
-						</el>
-					</comma>
-					<comma id="art6-com8">
-						<num>8.</num>
-						<corpo>Il requisito dell'idoneità morale si intende soddisfatto quando per le condanne penali o per la dichiarazione di fallimento sia intervenuta la riabilitazione a norma delle vigenti disposizioni di legge.</corpo>
-					</comma>
-					<comma id="art6-com9">
-						<num>9.</num>
-						<corpo>Al fine di ottenere il riconoscimento le Associazioni devono presentare domanda alla Giunta regionale allegando copia dell'atto costitutivo e dello Statuto , nonché ogni altro documento atto a dimostrare il possesso dei requisiti previsti dalla legge.</corpo>
-					</comma>
-					<comma id="art6-com10">
-						<num>10.</num>
-						<corpo>
-							Il riconoscimento è concesso, ovvero negato, dal Consiglio regionale, sentita la Commissione regionale per le attività biologiche, secondo le modalità e con i tempi previsti dalla
-							<rif xlink:href="urn:nir:regione.toscana:legge:1980-05-29;77" xlink:type="simple">LR 29 maggio 1980, n. 77</rif>
-							. In caso di richiesta di documentazione integrativa il termine di 90 giorni di cui all'a
-							<rif xlink:href="urn:nir:regione.toscana:legge:1980-05-29;77#art3-com5" xlink:type="simple">rt. 3, comma 5, della legge regionale sopra citata</rif>
-							è sospeso ed inizia a decorrere nuovamente dal giorno in cui la documentazione perviene ai competenti uffici.
-						</corpo>
-					</comma>
-				</articolo>
-				<articolo id="art7">
-					<num>ARTICOLO 7</num>
-					<rubrica>(Commissione regionale per le attività biologiche in agricoltura)</rubrica>
-					<comma id="art7-com1">
-						<num>1.</num>
-						<alinea>È istituita presso la Giunta regionale la Commissione regionale per le attività biologiche in agricoltura con i seguenti compiti:</alinea>
-						<el id="art7-com1-leta">
-							<num>a)</num>
-							<corpo>favorire lo sviluppo dell'agricoltura biologica;</corpo>
-						</el>
-						<el id="art7-com1-letb">
-							<num>b)</num>
-							<corpo>esprimere parere in ordine al riconoscimento delle Associazioni e sulle sanzioni a carico delle stesse e degli operatori;</corpo>
-						</el>
-						<el id="art7-com1-letc">
-							<num>c)</num>
-							<corpo>proporre alla Giunta regionale metodologie di controllo nei confronti delle Associazioni;</corpo>
-						</el>
-						<el id="art7-com1-letd">
-							<num>d)</num>
-							<corpo>esprimere parere in relazione alle richieste di deroghe;</corpo>
-						</el>
-					</comma>
-					<comma id="art7-com2">
-						<num>2.</num>
-						<alinea>La commissione è composta:</alinea>
-						<el id="art7-com2-leta">
-							<num>a)</num>
-							<corpo>dai tre coordinatori dei Dipartimenti Agricoltura e foreste, Attività produttive, industria, Commercio e Dipartimento Sicurezza sociale della Regione o loro delegati;</corpo>
-						</el>
-						<el id="art7-com2-letb">
-							<num>b)</num>
-							<corpo>da tre esperti designati d'intesa dalle Associazioni dei produttori biologici operanti sul territorio regionale;</corpo>
-						</el>
-						<el id="art7-com2-letc">
-							<num>c)</num>
-							<corpo>da un rappresentante designato dalle Associazioni dei consumatori;</corpo>
-						</el>
-						<el id="art7-com2-letd">
-							<num>d)</num>
-							<corpo>da un funzionario tecnico dell'ARSIA;</corpo>
-						</el>
-						<el id="art7-com2-lete">
-							<num>e)</num>
-							<corpo>da tre rappresentanti delle organizzazioni professionali agricole maggiormente rappresentative.</corpo>
-						</el>
-					</comma>
-					<comma id="art7-com3">
-						<num>3.</num>
-						<corpo>La Commissione resta in carica per cinque anni; è presieduta dal Coordinatore del Dipartimento agricoltura e foreste.</corpo>
-					</comma>
-					<comma id="art7-com4">
-						<num>4.</num>
-						<corpo>La Commissione è validamente insediata con la presenza di almeno n. 5 membri.</corpo>
-					</comma>
-					<comma id="art7-com5">
-						<num>5.</num>
-						<corpo>La Commissione, per lo svolgimento delle proprie funzioni tecniche, si avvale dell'ARSIA; le funzioni di segreteria sono svolte dal Dipartimento agricoltura e foreste.</corpo>
-					</comma>
-				</articolo>
+						</comma>
+					</articolo>
+					<articolo id="art7">
+						<num>ARTICOLO 7</num>
+						<rubrica>(Commissione regionale per le attività biologiche in agricoltura)</rubrica>
+						<comma id="art7-com1">
+							<num>1.</num>
+							<alinea>È istituita presso la Giunta regionale la Commissione regionale per le attività biologiche in agricoltura con i seguenti compiti:</alinea>
+							<el id="art7-com1-leta">
+								<num>a)</num>
+								<corpo>favorire lo sviluppo dell'agricoltura biologica;</corpo>
+							</el>
+							<el id="art7-com1-letb">
+								<num>b)</num>
+								<corpo>esprimere parere in ordine al riconoscimento delle Associazioni e sulle sanzioni a carico delle stesse e degli operatori;</corpo>
+							</el>
+							<el id="art7-com1-letc">
+								<num>c)</num>
+								<corpo>proporre alla Giunta regionale metodologie di controllo nei confronti delle Associazioni;</corpo>
+							</el>
+							<el id="art7-com1-letd">
+								<num>d)</num>
+								<corpo>esprimere parere in relazione alle richieste di deroghe;</corpo>
+							</el>
+						</comma>
+						<comma id="art7-com2">
+							<num>2.</num>
+							<alinea>La commissione è composta:</alinea>
+							<el id="art7-com2-leta">
+								<num>a)</num>
+								<corpo>dai tre coordinatori dei Dipartimenti Agricoltura e foreste, Attività produttive, industria, Commercio e Dipartimento Sicurezza sociale della Regione o loro delegati;</corpo>
+							</el>
+							<el id="art7-com2-letb">
+								<num>b)</num>
+								<corpo>da tre esperti designati d'intesa dalle Associazioni dei produttori biologici operanti sul territorio regionale;</corpo>
+							</el>
+							<el id="art7-com2-letc">
+								<num>c)</num>
+								<corpo>da un rappresentante designato dalle Associazioni dei consumatori;</corpo>
+							</el>
+							<el id="art7-com2-letd">
+								<num>d)</num>
+								<corpo>da un funzionario tecnico dell'ARSIA;</corpo>
+							</el>
+							<el id="art7-com2-lete">
+								<num>e)</num>
+								<corpo>da tre rappresentanti delle organizzazioni professionali agricole maggiormente rappresentative.</corpo>
+							</el>
+						</comma>
+						<comma id="art7-com3">
+							<num>3.</num>
+							<corpo>La Commissione resta in carica per cinque anni; è presieduta dal Coordinatore del Dipartimento agricoltura e foreste.</corpo>
+						</comma>
+						<comma id="art7-com4">
+							<num>4.</num>
+							<corpo>La Commissione è validamente insediata con la presenza di almeno n. 5 membri.</corpo>
+						</comma>
+						<comma id="art7-com5">
+							<num>5.</num>
+							<corpo>La Commissione, per lo svolgimento delle proprie funzioni tecniche, si avvale dell'ARSIA; le funzioni di segreteria sono svolte dal Dipartimento agricoltura e foreste.</corpo>
+						</comma>
+					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>TITOLO III</num>
 					<rubrica>CONTROLLI ED OBBLIGHI</rubrica>
-				
-				<articolo id="art8">
-					<num>ARTICOLO 8</num>
-					<rubrica>(Controlli sulle attività)</rubrica>
-					<comma id="art8-com1">
-						<num>1.</num>
-						<corpo>
-							Le Associazioni dei produttori biologici di cui all'
-							<rif xlink:href="#art6" xlink:type="simple">art. 6</rif>
-							, esercitano il controllo sul rispetto delle disposizioni del
-							<rif xlink:href="urn:nir:comunita.europee:regolamento:1991;2092" xlink:type="simple">Reg. CEE 2092/91</rif>
-							e successive modificazioni ed integrazioni e della presente legge, nei confronti dei produttori associati.
-						</corpo>
-					</comma>
-					<comma id="art8-com2">
-						<num>2</num>
-						<corpo>Sono, altresì, soggetti al controllo di cui al primo comma, anche gli operatori iscritti alla terza e alla quarta sezione dell'Albo regionale.</corpo>
-					</comma>
-					<comma id="art8-com3">
-						<num>3.</num>
-						<alinea>Ai fini dell'attività di controllo, le Associazioni devono:</alinea>
-						<el id="art8-com3-leta">
-							<num>a)</num>
-							<corpo>dimostrare di avere almeno tre anni di esperienza di controllo regionale o extra-regionale;</corpo>
-						</el>
-						<el id="art8-com3-letb">
-							<num>b)</num>
-							<corpo>proporre un piano-tipo di controllo contenente la descrizione particolareggiata delle misure di controllo e delle misure precauzionali che l'Associazione si impegna ad imporre ai propri associati ed agli operatori controllati;</corpo>
-						</el>
-						<el id="art8-com3-letc">
-							<num>c)</num>
-							<corpo>indicare le risorse di personale qualificato e le attrezzature di carattere tecnico finalizzate all'attività di controllo;</corpo>
-						</el>
-						<el id="art8-com3-letd">
-							<num>d)</num>
-							<corpo>impegnarsi ad effettuare, per ogni produttore associato, due controlli in loco, completi, l'anno; per gli operatori iscritti alla terza e quarta sezione dell'Albo, almeno tre controlli in loco, completi, l'anno;</corpo>
-						</el>
-						<el id="art8-com3-lete">
-							<num>e)</num>
-							<corpo>prevedere la definizione degli oneri finanziari connessi all'esercizio del controllo, compresi quelli relativi alla stampa delle fascette ed il corrispettivo dovuto dagli operatori per i servizi prestati;</corpo>
-						</el>
-						<el id="art8-com3-letf">
-							<num>f)</num>
-							<corpo>prevedere forme di partecipazione di rappresentanti delle associazioni dei consumatori nell'esercizio dei controlli.</corpo>
-						</el>
-					</comma>
-					<comma id="art8-com4">
-						<num>4.</num>
-						<corpo>
-							Qualora, nel corso di uno dei controlli, si sospetti l'utilizzazione di un prodotto non autorizzato e, comunque, almeno sul 10 per cento delle aziende controllate, l'Associazione provvede a prelevare e trasmettere campioni di prodotti ai laboratori chimici dei Servizi multizonali di prevenzione delle USL oppure in laboratori riconosciuti idonei dalla Giunta regionale previo parere della Commissione di cui all'
-							<rif xlink:href="#art7" xlink:type="simple">art. 7</rif>
-							, anche su richiesta delle Associazioni stesse.
-						</corpo>
-					</comma>
-					<comma id="art8-com5">
-						<num>5.</num>
-						<corpo>I campioni per le analisi dei terreni e dei substrati vengono inviati al laboratorio di analisi chimico-fisica dei terreni dell'ARSIA ed ai laboratori convenzionati con l'ARSIA</corpo>
-					</comma>
-					<comma id="art8-com6">
-						<num>6.</num>
-						<corpo>La Regione effettua annualmente attraverso l'ARSIA controlli a campione su una percentuale di operatori non inferiore al 10% degli operatori iscritti all'Albo. Le analisi sui prodotti sono effettuate dai laboratori chimici del Servizio multizonale di prevenzione dell'USL Area Pistoiese. I costi relativi sono a carico della Regione.</corpo>
-					</comma>
-					<comma id="art8-com7">
-						<num>7.</num>
-						<alinea>
-							Nel caso in cui i controlli di cui al comma precedente diano risultati in contrasto con le disposizioni della presente legge, la Giunta regionale, sentita la Commissione di cui all'
-							<rif xlink:href="#art7" xlink:type="simple">art. 7</rif>
-							della presente legge può:
-						</alinea>
-						<el id="art8-com7-leta">
-							<num>a)</num>
-							<corpo>nel caso che il risultato sia imputabile esclusivamente all'operatore, disporre la sua sospensione o la cancellazione dall'Albo regionale, con effetto immediato della non etichettabilità della sua produzione e la revoca dei benefici previsti dalla legislazione vigente;</corpo>
-						</el>
-						<el id="art8-com7-letb">
-							<num>b)</num>
-							<corpo>nel caso che il risultato sia addebitabile anche a controlli inadeguati o omessi dall'Associazione titolare del controllo, fermo restando quanto previsto nella precedente lettera a) , disporre anche la sospensione dell'Associazione medesima per un periodo non superiore a sei mesi o, nei casi più gravi, proporre al Consiglio regionale la revoca del riconoscimento. Durante il periodo di sospensione o in caso di revoca le attività sono svolte da altra Associazione individuata nello stesso provvedimento di sospensione o di revoca. Entro 30 giorni gli operatori interessati possono optare per una diversa Associazione dandone motivata comunicazione.</corpo>
-						</el>
-					</comma>
-					<comma id="art8-com8">
-						<num>8.</num>
-						<corpo>Le Associazioni dei produttori biologici inviano annualmente alla Regione una relazione sull'attività svolta dichiarando le specie e le quantità di produzioni controllate e rappresentate.</corpo>
-					</comma>
-					<comma id="art8-com9">
-						<num>9.</num>
-						<corpo>
-							In regime di reciprocità, per comprovate esigenze, ed in assenza di difformità in relazione alle modalità del controllo, la Giunta regionale può autorizzare gli operatori biologici iscritti all'Albo di cui all'
-							<rif xlink:href="#art5" xlink:type="simple">articolo 5</rif>
-							della presente legge ad essere controllati da un organismo di controllo riconosciuto da altra Regione.
-						</corpo>
-					</comma>
-					<comma id="art8-com10">
-						<num>10.</num>
-						<corpo>Entro tre mesi dall'entrata in vigore della presente legge la Giunta regionale, con apposito regolamento provvederà ad emanare direttive tecniche sulle procedure e modalità dei controlli.</corpo>
-					</comma>
-					<comma id="art8-com11">
-						<num>11.</num>
-						<corpo>
-							Le Associazioni dei produttori biologici ricevono le notifiche di cui al
-							<rif xlink:href="#art4-com3" xlink:type="simple">precedente art. 4, comma 3</rif>
-							, ed assistono gli operatori nella predisposizione della documentazione necessaria per ottenere l'iscrizione all'Albo regionale.
-						</corpo>
-					</comma>
-				</articolo>
-				<articolo id="art9">
-					<num>Articolo 9</num>
-					<rubrica>(Obblighi degli operatori)</rubrica>
-					<comma id="art9-com1">
-						<num>1.</num>
-						<alinea>Gli operatori biologici, ai fini del controllo previsto dalla presente legge devono:</alinea>
-						<el id="art9-com1-leta">
-							<num>a)</num>
-							<corpo>conservare la documentazione atta a identificare le caratteristiche e l'origine delle materie prime acquistate e l'eventuale cessione nonché la documentazione atta a identificare i destinatari e le caratteristiche delle produzioni cedute;</corpo>
-						</el>
-						<el id="art9-com1-letb">
-							<num>b)</num>
-							<corpo>tenere aggiornato il registro di carico e scarico delle fascette ricevute dalle Associazioni riconosciute;</corpo>
-						</el>
-						<el id="art9-com1-letc">
-							<num>c)</num>
-							<corpo>dimostrare all'Associazione indicata per i controlli la conformità alle norme della presente legge dei prodotti agricoli trasformati e non trasformati di produzione extra- regionale eventualmente reimpiegati.</corpo>
-						</el>
-					</comma>
-				</articolo>
+					<articolo id="art8">
+						<num>ARTICOLO 8</num>
+						<rubrica>(Controlli sulle attività)</rubrica>
+						<comma id="art8-com1">
+							<num>1.</num>
+							<corpo>
+								Le Associazioni dei produttori biologici di cui all'
+								<rif xlink:href="#art6" xlink:type="simple">art. 6</rif>
+								, esercitano il controllo sul rispetto delle disposizioni del
+								<rif xlink:href="urn:nir:comunita.europee:regolamento:1991;2092" xlink:type="simple">Reg. CEE 2092/91</rif>
+								e successive modificazioni ed integrazioni e della presente legge, nei confronti dei produttori associati.
+							</corpo>
+						</comma>
+						<comma id="art8-com2">
+							<num>2</num>
+							<corpo>Sono, altresì, soggetti al controllo di cui al primo comma, anche gli operatori iscritti alla terza e alla quarta sezione dell'Albo regionale.</corpo>
+						</comma>
+						<comma id="art8-com3">
+							<num>3.</num>
+							<alinea>Ai fini dell'attività di controllo, le Associazioni devono:</alinea>
+							<el id="art8-com3-leta">
+								<num>a)</num>
+								<corpo>dimostrare di avere almeno tre anni di esperienza di controllo regionale o extra-regionale;</corpo>
+							</el>
+							<el id="art8-com3-letb">
+								<num>b)</num>
+								<corpo>proporre un piano-tipo di controllo contenente la descrizione particolareggiata delle misure di controllo e delle misure precauzionali che l'Associazione si impegna ad imporre ai propri associati ed agli operatori controllati;</corpo>
+							</el>
+							<el id="art8-com3-letc">
+								<num>c)</num>
+								<corpo>indicare le risorse di personale qualificato e le attrezzature di carattere tecnico finalizzate all'attività di controllo;</corpo>
+							</el>
+							<el id="art8-com3-letd">
+								<num>d)</num>
+								<corpo>impegnarsi ad effettuare, per ogni produttore associato, due controlli in loco, completi, l'anno; per gli operatori iscritti alla terza e quarta sezione dell'Albo, almeno tre controlli in loco, completi, l'anno;</corpo>
+							</el>
+							<el id="art8-com3-lete">
+								<num>e)</num>
+								<corpo>prevedere la definizione degli oneri finanziari connessi all'esercizio del controllo, compresi quelli relativi alla stampa delle fascette ed il corrispettivo dovuto dagli operatori per i servizi prestati;</corpo>
+							</el>
+							<el id="art8-com3-letf">
+								<num>f)</num>
+								<corpo>prevedere forme di partecipazione di rappresentanti delle associazioni dei consumatori nell'esercizio dei controlli.</corpo>
+							</el>
+						</comma>
+						<comma id="art8-com4">
+							<num>4.</num>
+							<corpo>
+								Qualora, nel corso di uno dei controlli, si sospetti l'utilizzazione di un prodotto non autorizzato e, comunque, almeno sul 10 per cento delle aziende controllate, l'Associazione provvede a prelevare e trasmettere campioni di prodotti ai laboratori chimici dei Servizi multizonali di prevenzione delle USL oppure in laboratori riconosciuti idonei dalla Giunta regionale previo parere della Commissione di cui all'
+								<rif xlink:href="#art7" xlink:type="simple">art. 7</rif>
+								, anche su richiesta delle Associazioni stesse.
+							</corpo>
+						</comma>
+						<comma id="art8-com5">
+							<num>5.</num>
+							<corpo>I campioni per le analisi dei terreni e dei substrati vengono inviati al laboratorio di analisi chimico-fisica dei terreni dell'ARSIA ed ai laboratori convenzionati con l'ARSIA</corpo>
+						</comma>
+						<comma id="art8-com6">
+							<num>6.</num>
+							<corpo>La Regione effettua annualmente attraverso l'ARSIA controlli a campione su una percentuale di operatori non inferiore al 10% degli operatori iscritti all'Albo. Le analisi sui prodotti sono effettuate dai laboratori chimici del Servizio multizonale di prevenzione dell'USL Area Pistoiese. I costi relativi sono a carico della Regione.</corpo>
+						</comma>
+						<comma id="art8-com7">
+							<num>7.</num>
+							<alinea>
+								Nel caso in cui i controlli di cui al comma precedente diano risultati in contrasto con le disposizioni della presente legge, la Giunta regionale, sentita la Commissione di cui all'
+								<rif xlink:href="#art7" xlink:type="simple">art. 7</rif>
+								della presente legge può:
+							</alinea>
+							<el id="art8-com7-leta">
+								<num>a)</num>
+								<corpo>nel caso che il risultato sia imputabile esclusivamente all'operatore, disporre la sua sospensione o la cancellazione dall'Albo regionale, con effetto immediato della non etichettabilità della sua produzione e la revoca dei benefici previsti dalla legislazione vigente;</corpo>
+							</el>
+							<el id="art8-com7-letb">
+								<num>b)</num>
+								<corpo>nel caso che il risultato sia addebitabile anche a controlli inadeguati o omessi dall'Associazione titolare del controllo, fermo restando quanto previsto nella precedente lettera a) , disporre anche la sospensione dell'Associazione medesima per un periodo non superiore a sei mesi o, nei casi più gravi, proporre al Consiglio regionale la revoca del riconoscimento. Durante il periodo di sospensione o in caso di revoca le attività sono svolte da altra Associazione individuata nello stesso provvedimento di sospensione o di revoca. Entro 30 giorni gli operatori interessati possono optare per una diversa Associazione dandone motivata comunicazione.</corpo>
+							</el>
+						</comma>
+						<comma id="art8-com8">
+							<num>8.</num>
+							<corpo>Le Associazioni dei produttori biologici inviano annualmente alla Regione una relazione sull'attività svolta dichiarando le specie e le quantità di produzioni controllate e rappresentate.</corpo>
+						</comma>
+						<comma id="art8-com9">
+							<num>9.</num>
+							<corpo>
+								In regime di reciprocità, per comprovate esigenze, ed in assenza di difformità in relazione alle modalità del controllo, la Giunta regionale può autorizzare gli operatori biologici iscritti all'Albo di cui all'
+								<rif xlink:href="#art5" xlink:type="simple">articolo 5</rif>
+								della presente legge ad essere controllati da un organismo di controllo riconosciuto da altra Regione.
+							</corpo>
+						</comma>
+						<comma id="art8-com10">
+							<num>10.</num>
+							<corpo>Entro tre mesi dall'entrata in vigore della presente legge la Giunta regionale, con apposito regolamento provvederà ad emanare direttive tecniche sulle procedure e modalità dei controlli.</corpo>
+						</comma>
+						<comma id="art8-com11">
+							<num>11.</num>
+							<corpo>
+								Le Associazioni dei produttori biologici ricevono le notifiche di cui al
+								<rif xlink:href="#art4-com3" xlink:type="simple">precedente art. 4, comma 3</rif>
+								, ed assistono gli operatori nella predisposizione della documentazione necessaria per ottenere l'iscrizione all'Albo regionale.
+							</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art9">
+						<num>Articolo 9</num>
+						<rubrica>(Obblighi degli operatori)</rubrica>
+						<comma id="art9-com1">
+							<num>1.</num>
+							<alinea>Gli operatori biologici, ai fini del controllo previsto dalla presente legge devono:</alinea>
+							<el id="art9-com1-leta">
+								<num>a)</num>
+								<corpo>conservare la documentazione atta a identificare le caratteristiche e l'origine delle materie prime acquistate e l'eventuale cessione nonché la documentazione atta a identificare i destinatari e le caratteristiche delle produzioni cedute;</corpo>
+							</el>
+							<el id="art9-com1-letb">
+								<num>b)</num>
+								<corpo>tenere aggiornato il registro di carico e scarico delle fascette ricevute dalle Associazioni riconosciute;</corpo>
+							</el>
+							<el id="art9-com1-letc">
+								<num>c)</num>
+								<corpo>dimostrare all'Associazione indicata per i controlli la conformità alle norme della presente legge dei prodotti agricoli trasformati e non trasformati di produzione extra- regionale eventualmente reimpiegati.</corpo>
+							</el>
+						</comma>
+					</articolo>
 				</titolo>
-				<titolo id="tit4">
+				<titolo id="LeggeRegionale1-tit4">
 					<num>TITOLO IV</num>
 					<rubrica>ETICHETTATURA</rubrica>
-				
-				<articolo id="art10">
-					<num>ARTICOLO 10</num>
-					<rubrica>(Rilascio etichette e fascette di controllo)</rubrica>
-					<comma id="art10-com1">
-						<num>1.</num>
-						<alinea>Le Associazioni degli operatori biologici riconosciute provvedono al rilascio agli operatori controllati positivamente, di fascette numerate per la qualificazione dei prodotti biologici, recanti le seguenti indicazioni:</alinea>
-						<el id="art10-com1-leta">
-							<num>a)</num>
-							<corpo>denominazione dell'Associazione rilasciante responsabile del controllo;</corpo>
-						</el>
-						<el id="art10-com1-letb">
-							<num>b)</num>
-							<corpo>la dizione - "AGRICOLTURA BIOLOGICA - REGIME DI CONTROLLO CEE REGIONE TOSCANA".</corpo>
-						</el>
-					</comma>
-					<comma id="art10-com2">
-						<num>2.</num>
-						<corpo>
-							Nel caso previsto dall'
-							<rif xlink:href="#art8-com7" xlink:type="simple">art. 8, comma 7</rif>
-							, l'Associazione provvede al ritiro delle fascette eventualmente già rilasciate all'operatore.
-						</corpo>
-					</comma>
-				</articolo>
-				<articolo id="art11">
-					<num>ARTICOLO 11</num>
-					<rubrica>(Aiuti alla produzione biologica)</rubrica>
-					<comma id="art11-com1">
-						<num>1.</num>
-						<corpo>Nei confronti dei produttori biologici si applicano i benefici previsti dagli specifici regolamenti comunitari.</corpo>
-					</comma>
-					<comma id="art11-com2">
-						<num>2.</num>
-						<corpo>Le Aziende che utilizzano il metodo di produzione biologico e le aziende di preparazione di prodotti biologici accedono alle agevolazioni previste dalle leggi regionali vigenti di sostegno alle attività agro-industriali, secondo i criteri individuati nei programmi regionali.</corpo>
-					</comma>
-				</articolo>
-				<articolo id="art12">
-					<num>ARTICOLO 12</num>
-					<rubrica>(Finanziamento per le attività di sostegno, ricerca, formazione)</rubrica>
-					<comma id="art12-com1">
-						<num>1.</num>
-						<corpo>La Regione, con le modalità e secondo le procedure previste dalla normativa regionale vigente in materia, finanzia le attività dimostrative, di ricerca, di formazione e assistenza tecnica che riguardano tecniche di produzione e preparazione di prodotti biologici.</corpo>
-					</comma>
-				</articolo>
+					<articolo id="art10">
+						<num>ARTICOLO 10</num>
+						<rubrica>(Rilascio etichette e fascette di controllo)</rubrica>
+						<comma id="art10-com1">
+							<num>1.</num>
+							<alinea>Le Associazioni degli operatori biologici riconosciute provvedono al rilascio agli operatori controllati positivamente, di fascette numerate per la qualificazione dei prodotti biologici, recanti le seguenti indicazioni:</alinea>
+							<el id="art10-com1-leta">
+								<num>a)</num>
+								<corpo>denominazione dell'Associazione rilasciante responsabile del controllo;</corpo>
+							</el>
+							<el id="art10-com1-letb">
+								<num>b)</num>
+								<corpo>la dizione - "AGRICOLTURA BIOLOGICA - REGIME DI CONTROLLO CEE REGIONE TOSCANA".</corpo>
+							</el>
+						</comma>
+						<comma id="art10-com2">
+							<num>2.</num>
+							<corpo>
+								Nel caso previsto dall'
+								<rif xlink:href="#art8-com7" xlink:type="simple">art. 8, comma 7</rif>
+								, l'Associazione provvede al ritiro delle fascette eventualmente già rilasciate all'operatore.
+							</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art11">
+						<num>ARTICOLO 11</num>
+						<rubrica>(Aiuti alla produzione biologica)</rubrica>
+						<comma id="art11-com1">
+							<num>1.</num>
+							<corpo>Nei confronti dei produttori biologici si applicano i benefici previsti dagli specifici regolamenti comunitari.</corpo>
+						</comma>
+						<comma id="art11-com2">
+							<num>2.</num>
+							<corpo>Le Aziende che utilizzano il metodo di produzione biologico e le aziende di preparazione di prodotti biologici accedono alle agevolazioni previste dalle leggi regionali vigenti di sostegno alle attività agro-industriali, secondo i criteri individuati nei programmi regionali.</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art12">
+						<num>ARTICOLO 12</num>
+						<rubrica>(Finanziamento per le attività di sostegno, ricerca, formazione)</rubrica>
+						<comma id="art12-com1">
+							<num>1.</num>
+							<corpo>La Regione, con le modalità e secondo le procedure previste dalla normativa regionale vigente in materia, finanzia le attività dimostrative, di ricerca, di formazione e assistenza tecnica che riguardano tecniche di produzione e preparazione di prodotti biologici.</corpo>
+						</comma>
+					</articolo>
 				</titolo>
-				<titolo id="tit5">
+				<titolo id="LeggeRegionale1-tit5">
 					<num>TITOLO V</num>
 					<rubrica>NORME FINANZIARIE E FINALI</rubrica>
-				
-				<articolo id="art13">
-					<num>ARTICOLO 13</num>
-					<rubrica>(Finanziamento dei controlli)</rubrica>
-					<comma id="art13-com1">
-						<num>1.</num>
-						<corpo>
-							Alla copertura della spesa necessaria per l'effettuazione dei controlli di cui all'
-							<rif xlink:href="#art8-com6" xlink:type="simple">art. 8, comma 6</rif>
-							, si provvede, per il 1994, con lo stanziamento iscritto al cap. 13133 del bilancio di previsione che viene istituito con la variazione di cui al comma successivo.
-						</corpo>
-					</comma>
-					<comma id="art13-com2">
-						<num>2.</num>
-						<alinea>Al bilancio di previsione per l'anno 1994 è apportata per analogo importo la seguente variazione agli stati di previsione della competenza e della cassa della parte "spesa":</alinea>
-						<ep id="art13-com2-pun1">
-							<num />
+					<articolo id="art13">
+						<num>ARTICOLO 13</num>
+						<rubrica>(Finanziamento dei controlli)</rubrica>
+						<comma id="art13-com1">
+							<num>1.</num>
 							<corpo>
-								In diminuzione:
-								<h:table>
-									<h:tbody>
-										<h:tr>
-											<h:td>Cap. 13126</h:td>
-											<h:td>Fondo pagamento concorso interessi attualizzati mutui contratti e forme assimilate attuazione programma regionale interventi agricoltura</h:td>
-											<h:td>L. 100.000.000</h:td>
-										</h:tr>
-									</h:tbody>
-								</h:table>
+								Alla copertura della spesa necessaria per l'effettuazione dei controlli di cui all'
+								<rif xlink:href="#art8-com6" xlink:type="simple">art. 8, comma 6</rif>
+								, si provvede, per il 1994, con lo stanziamento iscritto al cap. 13133 del bilancio di previsione che viene istituito con la variazione di cui al comma successivo.
 							</corpo>
-						</ep>
-						<ep id="art13-com2-pun2">
-							<num />
-							<corpo>
-								Di nuova istituzione:
-								<h:table>
-									<h:tbody>
-										<h:tr>
-											<h:td>Cap. 13133</h:td>
-											<h:td>
-												Controlli sulle attività biologiche di cui all'
-												<rif xlink:href="urn:nir:regione.toscana:legge:1994;31#art8" xlink:type="simple">art. 8 della LR 31/1994</rif>
-											</h:td>
-											<h:td>L. 100.000.000</h:td>
-										</h:tr>
-									</h:tbody>
-								</h:table>
-							</corpo>
-						</ep>
-					</comma>
-					<comma id="art13-com3">
-						<num>3.</num>
-						<corpo>Agli oneri di spesa per gli esercizi successivi all'anno 1994 si provvede con le relative leggi di bilancio.</corpo>
-					</comma>
-				</articolo>
+						</comma>
+						<comma id="art13-com2">
+							<num>2.</num>
+							<alinea>Al bilancio di previsione per l'anno 1994 è apportata per analogo importo la seguente variazione agli stati di previsione della competenza e della cassa della parte "spesa":</alinea>
+							<ep id="art13-com2-pun1">
+								<num />
+								<corpo>
+									In diminuzione:
+									<h:table>
+										<h:tbody>
+											<h:tr>
+												<h:td>Cap. 13126</h:td>
+												<h:td>Fondo pagamento concorso interessi attualizzati mutui contratti e forme assimilate attuazione programma regionale interventi agricoltura</h:td>
+												<h:td>L. 100.000.000</h:td>
+											</h:tr>
+										</h:tbody>
+									</h:table>
+								</corpo>
+							</ep>
+							<ep id="art13-com2-pun2">
+								<num />
+								<corpo>
+									Di nuova istituzione:
+									<h:table>
+										<h:tbody>
+											<h:tr>
+												<h:td>Cap. 13133</h:td>
+												<h:td>
+													Controlli sulle attività biologiche di cui all'
+													<rif xlink:href="urn:nir:regione.toscana:legge:1994;31#art8" xlink:type="simple">art. 8 della LR 31/1994</rif>
+												</h:td>
+												<h:td>L. 100.000.000</h:td>
+											</h:tr>
+										</h:tbody>
+									</h:table>
+								</corpo>
+							</ep>
+						</comma>
+						<comma id="art13-com3">
+							<num>3.</num>
+							<corpo>Agli oneri di spesa per gli esercizi successivi all'anno 1994 si provvede con le relative leggi di bilancio.</corpo>
+						</comma>
+					</articolo>
 				</titolo>
 			</articolato>
 			<formulafinale>La presente legge è pubblicata sul Bollettino Ufficiale della Regione. È fatto obbligo a chiunque spetti di osservarla e farla osservare come legge della Regione Toscana.</formulafinale>
