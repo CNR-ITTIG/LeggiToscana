@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t3" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19730427" num="19" tipo="BURT" />
 					<entratainvigore norm="19730512" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1973-04-19;25" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1973-04-19;25@1975-05-28" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1973-04-19;25@1975-05-28" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1973-04-19;25@1984-02-28" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19730512" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19750619" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19850101" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1973-04-19;25" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1975-05-28;57" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1984-02-28;14" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -49,6 +52,18 @@
 								<dsp:pos xlink:href="#art4-t2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1973-04-19;25" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1984-02-28;14" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1984-02-28;14#art37-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 37, comma 1 della legge Regione Toscana 28 febbraio 1984, n. 14" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
