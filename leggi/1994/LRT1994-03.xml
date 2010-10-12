@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="iso-8859-15"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19940113" num="4 bis" tipo="BURT" />
 					<entratainvigore norm="19940128" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1994-01-12;3" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1994-01-12;3" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1994-01-12;3@1997-08-04" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Fauna" />
 						<materia valore="Caccia" />
@@ -16,9 +17,11 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19940128" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19970824" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-01-12;3" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1997-08-04;58" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -29,6 +32,22 @@
 						<h:p>Per le aziende faunistico-venatorie e per le aziende agrituristico-venatorie per ogni 100 lire di tassa e? dovuta una soprattassa di L. 100, che dovra? essere versata contestualmente alla tassa. Le tasse debbono essere corrisposte entro il 31 gennaio dell?anno cui si riferiscono. Le tasse di autorizzazione previste per le aziende faunistico-venatorie e per le aziende agrituristico-venatorie sono ridotte alla misura di un ottavo per i territori montani o per quelli classificati tali ai sensi della legge 25 luglio 1952, n. 991, e successive modificazioni ed integrazioni.</h:p>
 					</nota>
 				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art28-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-08-04;58" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-08-04;58#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 4 agosto 1997, n. 58" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -72,7 +91,13 @@
 							<corpo>
 								Le disposizioni della presente legge, ai sensi della
 								<rif xlink:href="urn:nir:stato:legge:1989-03-09;86" xlink:type="simple">legge 9 marzo 1989, n. 86</rif>
-								realizzano altresì l'attuazione delle direttive comunitarie concernenti la conservazione degli uccelli selvatici n. 79/409 del 2-4-79, n. 85/411 del 5-7-85 e n. 91/244 del 63-91.
+								realizzano altresì l'attuazione delle direttive comunitarie concernenti la conservazione degli uccelli selvatici n.
+								<rif xlink:href="urn:nir:comunita.europee:direttiva:1979-04-02;409" xlink:type="simple">79/409 del 2-4-79</rif>
+								, n.
+								<rif xlink:href="urn:nir:comunita.europee:direttiva:1985-07-05;411" xlink:type="simple">85/411 del 5-7-85</rif>
+								e n.
+								<rif xlink:href="urn:nir:comunita.europee:direttiva:1991-03-06;244" xlink:type="simple">91/244 del 63-91</rif>
+								.
 							</corpo>
 						</comma>
 						<comma id="art1-com3">
@@ -264,14 +289,14 @@
 									<rif xlink:href="urn:nir:stato:legge:1992-02-11;157#art10-com11" xlink:type="simple">11</rif>
 									della L. 11 febbraio 1992 n. 157
 								</mrif>
-								, adotta gli indirizzi regionali di programmazione faunistico- venatoria in conformitÃ  con l'
+								, adotta gli indirizzi regionali di programmazione faunistico- venatoria in conformità  con l'
 								<rif xlink:href="urn:nir:regione.toscana:legge:1992-06-09;26#art7" xlink:type="simple">art. 7 della LR 9 giugno 1992, n. 26</rif>
 								.
 							</corpo>
 						</comma>
 						<comma id="art7-com2">
 							<num>2.</num>
-							<alinea>Gli indirizzi regionali dispongono in ordine ai criteri di redazione dei piani faunistico venatori provinciali in modo da garantirne l'omogeneità . Gli indirizzi regionali concernono inoltre:</alinea>
+							<alinea>Gli indirizzi regionali dispongono in ordine ai criteri di redazione dei piani faunistico venatori provinciali in modo da garantirne l'omogeneità. Gli indirizzi regionali concernono inoltre:</alinea>
 							<el id="art7-com2-leta">
 								<num>a)</num>
 								<corpo>l'istituzione delle oasi di protezione nonchè l'individuazione delle zone di protezione lungo le rotte di migrazione dell'avifauna, sulla base delle indicazioni dell'INFS con riferimento anche ai parametri gestionali delle stesse;</corpo>
@@ -494,7 +519,7 @@
 							</el>
 							<el id="art9-com4-letb">
 								<num>b)</num>
-								<corpo>garantisce che la percentuale del territorio agro-silvo- pastorale provinciale destinata ad aziende faunistico- venatorie, ad aziende agrituristico-venatorie ed a centri privati di riproduzione della fauna selvatica allo stato naturale non superi globalmente il 15%;</corpo>
+								<corpo>garantisce che la percentuale del territorio agro-silvo-pastorale provinciale destinata ad aziende faunistico- venatorie, ad aziende agrituristico-venatorie ed a centri privati di riproduzione della fauna selvatica allo stato naturale non superi globalmente il 15%;</corpo>
 							</el>
 							<el id="art9-com4-letc">
 								<num>c)</num>
@@ -849,7 +874,7 @@
 						</comma>
 						<comma id="art15-com3">
 							<num>3.</num>
-							<corpo>Le Province gestiscono le oasi di protezione. Per la gestione possono avvalersi del concorso di associazioni culturali, ambientaliste, venatorie ed agricole. Le priorità  per la realizzazione degli interventi è affidata ai proprietari o conduttori i cui terreni ricadono nell'oasi. Nel caso in cui le oasi ricadano in zone di terreno demaniale la gestione avviene d'intesa con la ComunitÃ  montana e/o i comuni interessati.</corpo>
+							<corpo>Le Province gestiscono le oasi di protezione. Per la gestione possono avvalersi del concorso di associazioni culturali, ambientaliste, venatorie ed agricole. Le priorità  per la realizzazione degli interventi è affidata ai proprietari o conduttori i cui terreni ricadono nell'oasi. Nel caso in cui le oasi ricadano in zone di terreno demaniale la gestione avviene d'intesa con la Comunità montana e/o i comuni interessati.</corpo>
 						</comma>
 						<comma id="art15-com4">
 							<num>4.</num>
@@ -1008,7 +1033,7 @@
 						</comma>
 						<comma id="art18-com7">
 							<num>7.</num>
-							<corpo>Il prelievo, tramite cattura, degli animali appartenenti alle specie in indirizzo produttivo Ãï¿œ consentito al titolare dell'impresa agricola, ai dipendenti nonchè alle persone nominativamente indicate nel provvedimento di autorizzazione.</corpo>
+							<corpo>Il prelievo, tramite cattura, degli animali appartenenti alle specie in indirizzo produttivo è consentito al titolare dell'impresa agricola, ai dipendenti nonchè alle persone nominativamente indicate nel provvedimento di autorizzazione.</corpo>
 						</comma>
 						<comma id="art18-com8">
 							<num>8.</num>
@@ -1479,6 +1504,7 @@
 								L'opzione sulla forma di caccia prescelta in via esclusiva a norma del presente articolo ha la durata di un anno e si intende rinnovata se entro il 1 novembre il cacciatore non fa pervenire alla Provincia richiesta di modifica che avrà  comunque valore ad iniziare dalla successiva stagione venatoria. La mancata presentazione da parte del cacciatore della opzione sulla forma di caccia comporterà  come scelta quella prevista al
 								<rif xlink:href="#art28-com3-letc" xlink:type="simple">comma 3, lett. c)</rif>
 								del presente articolo.
+								<h:span id="h1" iniziovigore="t2">Il cacciatore fuori dai termini di cui sopra può richiedere alla Provincia di modificare l'opzione sulla forma di caccia prescelta solo per fatti gravi intervenuti che giustifichino il cambiamento. La Provincia, valutata la richiesta, autorizza la modifica. Nel caso che tale autorizzazione venga concessa successivamente alla stampa ovvero alla consegna del tesserino venatorio il cacciatore è tenuto a provvedere presso il Comune di residenza alle operazioni di modifica delle indicazioni relative alla forma di caccia e a comunicare all'A.T.C. o agli A.T.C. interessati la sua nuova posizione venatoria.</h:span>
 							</corpo>
 						</comma>
 						<comma id="art28-com5">
@@ -2043,7 +2069,7 @@
 					</articolo>
 					<articolo id="art38">
 						<num>ARTICOLO 38</num>
-						<rubrica>(Soccorso di fauna selvatica in difficoltà )</rubrica>
+						<rubrica>(Soccorso di fauna selvatica in difficoltà)</rubrica>
 						<comma id="art38-com1">
 							<num>1.</num>
 							<corpo>Chiunque rinvenga fauna selvatica in difficoltà  è tenuto a darne immediata comunicazione alla Provincia o al Comune nel cui territorio è avvenuto il rinvenimento ed eventualmente a consegnarla ai medesimi. Entro le 24 ore successive al ritrovamento. Spetta alla Provincia competente per territorio provvedere al ricovero della suddetta fauna selvatica presso centri specializzati di recupero o servizi veterinario e a provvedere alla successiva liberazione, una volta accertata la completa guarigione. La Regione o le Province possono stipulare apposite convenzioni con centri specializzati per il recupero della fauna selvatica ferita o in difficoltà, anche al fine di favorirne il funzionamento per gli scopi di cui al presente articolo.</corpo>
@@ -2238,7 +2264,9 @@
 							<corpo>
 								Ai proprietari o conduttori di fondi, per la realizzazione di progetti per la valorizzazione del territorio, l'incremento della fauna selvatica, il ripristino degli equilibri naturali, secondo le indicazioni previste dagli indirizzi di cui al
 								<rif xlink:href="#art7" xlink:type="simple">precedente art. 7</rif>
-								, potranno essere assegnati contributi in conto capitale. Tali progetti potranno prevedere la creazione di strutture per l'allevamento della fauna selvatica nonchè dei riproduttori nel periodo autunnale; la realizzazione e la manutenzione di strutture di ambientamento della fauna selvatica, coltivazioni programmate per l'alimentazione naturale dei mammiferi e degli uccelli; l'utilizzazione programmata secondo piani di assestamento delle aree boschive, l'adozione di forme di lotta integrata o di lotta guidata, il ricorso a tecniche colturali o tecnologiche innovative non pregiudizievoli per l'ambiente, la valorizzazione agrituristica di percorsi per l'accesso alla natura e alla conoscenza scientifica e culturale della fauna ospite, per la manutenzione e la pulizia dei boschi anche al fine di prevenire incendi, in riferimento anche ai contenuti della direttiva CEE 79/409 e della risoluzione dell'assemblea parlamentare del consiglio d'Europa n. 882 del 1 Luglio 1987.
+								, potranno essere assegnati contributi in conto capitale. Tali progetti potranno prevedere la creazione di strutture per l'allevamento della fauna selvatica nonchè dei riproduttori nel periodo autunnale; la realizzazione e la manutenzione di strutture di ambientamento della fauna selvatica, coltivazioni programmate per l'alimentazione naturale dei mammiferi e degli uccelli; l'utilizzazione programmata secondo piani di assestamento delle aree boschive, l'adozione di forme di lotta integrata o di lotta guidata, il ricorso a tecniche colturali o tecnologiche innovative non pregiudizievoli per l'ambiente, la valorizzazione agrituristica di percorsi per l'accesso alla natura e alla conoscenza scientifica e culturale della fauna ospite, per la manutenzione e la pulizia dei boschi anche al fine di prevenire incendi, in riferimento anche ai contenuti della
+								<rif xlink:href="urn:nir:comunita.europee:direttiva:1979;409" xlink:type="simple">direttiva CEE 79/409</rif>
+								e della risoluzione dell'assemblea parlamentare del consiglio d'Europa n. 882 del 1 Luglio 1987.
 							</corpo>
 						</comma>
 						<comma id="art46-com2">
@@ -2559,7 +2587,9 @@
 						<comma id="art51-com3">
 							<num>3.</num>
 							<corpo>
-								Alle guardie venatorie volontarie di cui alla lettera f) l'esercizio venatorio è vietato soltanto durante l'espletamento delle loro funzioni. Fatta eccezione per gli interventi di cui all'
+								Alle guardie venatorie volontarie di cui alla
+								<rif xlink:href="#art51-com1-letf" xlink:type="simple">lettera f)</rif>
+								l'esercizio venatorio è vietato soltanto durante l'espletamento delle loro funzioni. Fatta eccezione per gli interventi di cui all'
 								<rif xlink:href="#art37" xlink:type="simple">articolo 37</rif>
 								, durante lo svolgimento del loro servizio, alle stesse è vietato l'impiego dei mezzi di cui all'
 								<rif xlink:href="#art31" xlink:type="simple">articolo 31</rif>
@@ -2677,7 +2707,18 @@
 							<corpo>
 								Nei casi previsti dall'
 								<rif xlink:href="urn:nir:stato:legge:1992;157#art30" xlink:type="simple">art. 30 della legge 157/92</rif>
-								, gli agenti che esercitano funzioni di polizia giudiziaria procedono al sequestro delle armi, della fauna selvatica e dei mezzi di caccia, con esclusione del cane e dei richiami vivi autorizzati. In caso di condanna per le ipotesi di cui al medesimo articolo 30, comma 1 , lettere a), b), d) ed e), le armi ed i suddetti mezzi sono in ogni caso confiscati.
+								, gli agenti che esercitano funzioni di polizia giudiziaria procedono al sequestro delle armi, della fauna selvatica e dei mezzi di caccia, con esclusione del cane e dei richiami vivi autorizzati. In caso di condanna per le ipotesi di cui al medesimo
+								<mrif>
+									articolo 30, comma 1, lettere
+									<rif xlink:href="urn:nir:stato:legge:1992;157#art30-com1-leta" xlink:type="simple">a)</rif>
+									,
+									<rif xlink:href="urn:nir:stato:legge:1992;157#art30-com1-letb" xlink:type="simple">b)</rif>
+									,
+									<rif xlink:href="urn:nir:stato:legge:1992;157#art30-com1-letd" xlink:type="simple">d)</rif>
+									ed
+									<rif xlink:href="urn:nir:stato:legge:1992;157#art30-com1-lete" xlink:type="simple">e)</rif>
+								</mrif>
+								, le armi ed i suddetti mezzi sono in ogni caso confiscati.
 							</corpo>
 						</comma>
 						<comma id="art54-com3">
@@ -2801,7 +2842,7 @@
 							</el>
 							<el id="art58-com1-letc">
 								<num>c)</num>
-								<corpo>sanzione amministrativa da lire 300.000 a lire 1.800.000 per chi esercita la caccia senza licenza ovvero senza aver effettuato il versamento delle tasse di concessione governativa o regionale; se la violazione Ãï¿œ nuovamente commessa, la sanzione è da lire 500.000 a lire 3.000.000;</corpo>
+								<corpo>sanzione amministrativa da lire 300.000 a lire 1.800.000 per chi esercita la caccia senza licenza ovvero senza aver effettuato il versamento delle tasse di concessione governativa o regionale; se la violazione è nuovamente commessa, la sanzione è da lire 500.000 a lire 3.000.000;</corpo>
 							</el>
 							<el id="art58-com1-letd">
 								<num>d)</num>
@@ -3049,19 +3090,8 @@
 			<formulafinale>La presente legge è pubblicata sul Bollettino Ufficiale della Regione. E' fatto obbligo a chiunque spetta di osservarla e farla osservare come legge della Regione Toscana.</formulafinale>
 			<conclusione>
 				<dataeluogo codice="00100" norm="">Firenze, 12 gennaio 1994</dataeluogo>
+				<firma tipo="sottoscrizione">CHITI</firma>
+				<soggetto codice="">La presente legge è stata approvata dal Consiglio Regionale il 22 Dicembre 1993 ed è stata vistata dal Commissario del Governo l'8 gennaio 1994.</soggetto>
 			</conclusione>
-			<?error CHITI
-
-La presente  legge &#xC3;&#x161;  stata approvata dal Consiglio Regionale il
-22 Dicembre  1993 ed &#xC3;&#x161; stata vistata dal Commissario del Governo
-l'8 gennaio 1994.
-
-
-
-FAUNA
-CACCIA
-
-
-?>
 		</LeggeRegionale>
 	</NIR>
