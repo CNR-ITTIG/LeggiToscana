@@ -12,7 +12,8 @@
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1984-04-24;25@1989-10-16" />
 					<urn finevigore="t8" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1984-04-24;25@1992-08-10" />
 					<urn finevigore="t7" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1984-04-24;25@1996-11-14" />
-					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1984-04-24;25@1996-03-28" />
+					<urn finevigore="t9" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1984-04-24;25@1996-03-28" />
+					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1984-04-24;25@1997-08-11" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Pesca" />
 					</materie>
@@ -27,6 +28,7 @@
 						<evento data="19920903" fonte="rp3" id="t6" tipo="modifica" />
 						<evento data="19970101" fonte="rp4" id="t7" tipo="modifica" />
 						<evento data="19961210" fonte="rp5" id="t8" tipo="modifica" />
+						<evento data="19970821" fonte="rp6" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1984-04-24;25" xlink:type="simple" />
@@ -37,6 +39,7 @@
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1992-08-10;35" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1996-03-28;26" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1996-11-14;82" xlink:type="simple" />
+						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:1997-08-11;63" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -734,6 +737,36 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art22-com9-t8" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art24" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-08-11;63" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-08-11;63#art6-com3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 6, comma 3 della legge Regione Toscana 11 agosto 1997, n. 63" id="itt48" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h27" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h26" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art24" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-08-11;63" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-08-11;63#art6-com3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 6, comma 3 della legge Regione Toscana 11 agosto 1997, n. 63" id="itt49" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h29" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h28" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -1905,7 +1938,12 @@
 						</el>
 						<el id="art24-com1-letd">
 							<num>d)</num>
-							<corpo>nella misura del 24% a favore della Giunta regionale per iniziative di interesse regionale in favore dell'ambiente e della ittiofauna, per attività di educazione e propaganda e per l'espletamento in genere dei compiti propri della Giunta stessa ai sensi della presente legge. Parte delle somme di cui alla lettera d) del precedente comma sono date a contributo a favore delle associazioni nazionali riconosciute dei pescatori per l'espletamento dei compiti previsti dalla presente legge;</corpo>
+							<corpo>
+								nella misura del
+								<h:span finevigore="t9" id="h26" iniziovigore="t1" status="abrogato">24%</h:span>
+								<h:span id="h27" iniziovigore="t9">17,66%</h:span>
+								a favore della Giunta regionale per iniziative di interesse regionale in favore dell'ambiente e della ittiofauna, per attività di educazione e propaganda e per l'espletamento in genere dei compiti propri della Giunta stessa ai sensi della presente legge. Parte delle somme di cui alla lettera d) del precedente comma sono date a contributo a favore delle associazioni nazionali riconosciute dei pescatori per l'espletamento dei compiti previsti dalla presente legge;
+							</corpo>
 						</el>
 						<el finevigore="t7" id="art24-com1-lete-t7" iniziovigore="t1" status="abrogato">
 							<num>e)</num>
@@ -1917,7 +1955,12 @@
 						</el>
 						<el id="art24-com1-lete" iniziovigore="t7">
 							<num>e)</num>
-							<corpo>nella misura del 12% a favore dell'ARPAT per le attività svolte dal personale del disciolto Consorzio regionale di Idrobiologia e Pesca.</corpo>
+							<corpo>
+								nella misura del
+								<h:span finevigore="t9" id="h28" iniziovigore="t1" status="abrogato">12%</h:span>
+								<h:span id="h29" iniziovigore="t9">18,33%</h:span>
+								a favore dell'ARPAT per le attività svolte dal personale del disciolto Consorzio regionale di Idrobiologia e Pesca.
+							</corpo>
 						</el>
 					</comma>
 				</articolo>

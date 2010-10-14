@@ -10,7 +10,8 @@
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1984-01-03;1" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1984-01-03;1@1987-08-26" />
 					<urn finevigore="t5" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1984-01-03;1@1993-08-11" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1984-01-03;1@1997-04-24" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1984-01-03;1@1997-04-24" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1984-01-03;1@1997-08-11" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Trasporti" />
 					</materie>
@@ -22,6 +23,7 @@
 						<evento data="19930912" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19940101" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="19970505" fonte="rp4" id="t5" tipo="modifica" />
+						<evento data="19970821" fonte="rp5" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1984-01-03;1" xlink:type="simple" />
@@ -29,6 +31,7 @@
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1993-08-11;53" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1993-08-11;53" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1997-04-24;31" xlink:type="simple" />
+						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1997-08-11;63" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -55,7 +58,7 @@
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1993-08-11;53" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1993-08-11;53#art5-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -162,6 +165,21 @@
 								<dsp:pos xlink:href="#h1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art11-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-08-11;63" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-08-11;63#art6-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 6, comma 2 della legge Regione Toscana 11 agosto 1997, n. 63" id="itt10" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art11-com4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art11-com4-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -597,7 +615,7 @@
 							<num>3.</num>
 							<corpo>Le aziende che intendono accedere per la prima volta ai contributi di cui alla presente legge, o che richiedono l'adeguamento dei contributi a seguito di modifiche concessionali, avanzano apposita istanza alla Giunta Regionale.</corpo>
 						</comma>
-						<comma id="art11-com4">
+						<comma finevigore="t6" id="art11-com4-t6" iniziovigore="t1" status="abrogato">
 							<num>4.</num>
 							<corpo>
 								L'erogazione dei contributi avviene in via preventiva con acconti
@@ -605,6 +623,10 @@
 								<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
 								da erogarsi integralmente nel primo mese di pertinenza.
 							</corpo>
+						</comma>
+						<comma id="art11-com4" iniziovigore="t6">
+							<num>4.</num>
+							<corpo>L'erogazione dei contributi avviene in via preventiva, con acconti mensili, da erogarsi entro il mese di pertinenza.</corpo>
 						</comma>
 						<comma id="art11-com5">
 							<num>5.</num>

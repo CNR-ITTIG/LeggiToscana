@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19960409" num="20 ter" tipo="BURT" />
 					<entratainvigore norm="19960424" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1996-03-28;26" />
+					<urn finevigore="t12" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1996-03-28;26" />
+					<urn iniziovigore="t12" valore="urn:nir:regione.toscana:legge:1996-03-28;26@1997-08-11" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tutela Ambientale" />
 						<materia valore="Pesca" />
@@ -27,6 +28,7 @@
 						<evento data="19960424" fonte="ra8" id="t9" tipo="modifica" />
 						<evento data="19960424" fonte="ra9" id="t10" tipo="modifica" />
 						<evento data="19970101" fonte="ra10" id="t11" tipo="modifica" />
+						<evento data="19970821" fonte="rp1" id="t12" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1996-03-28;26" xlink:type="simple" />
@@ -40,6 +42,7 @@
 						<attiva id="ra8" xlink:href="urn:nir:regione.toscana:legge:1995-04-18;66" xlink:type="simple" />
 						<attiva id="ra9" xlink:href="urn:nir:regione.toscana:legge:1984;25" xlink:type="simple" />
 						<attiva id="ra10" xlink:href="urn:nir:regione.toscana:legge:1984;25" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1997-08-11;63" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -176,6 +179,20 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art11-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-08-11;63" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-08-11;63#art6-com4" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 6, comma 4 della legge Regione Toscana 11 agosto 1997, n. 63" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -566,7 +583,9 @@
 							<corpo>
 								A decorrere dall'anno 1997 e per gli anni successivi al finanziamento degli oneri si provvede con legge di bilancio che disporrà la istituzione di apposito capitolo con la seguente denominazione:
 								<h:br />
-								"Contributo all'ARPAT per lo svolgimento delle attività già svolte dal disciolto Consorzio regionale di Idrobiologia e Pesca e dal Servizio Fitosanitario regionale" (
+								"Contributo all'ARPAT per lo svolgimento delle attività già svolte dal disciolto Consorzio regionale di Idrobiologia e Pesca
+								<h:span finevigore="t12" id="h1" iniziovigore="t1" status="abrogato">e dal Servizio Fitosanitario regionale</h:span>
+								" (
 								<rif xlink:href="urn:nir:regione.toscana:legge:1996-03-28;26" xlink:type="simple">LR 28 marzo 1996, n. 26</rif>
 								).
 							</corpo>
