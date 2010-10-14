@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19961230" num="58" tipo="BURT" />
 					<entratainvigore norm="19970114" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1996-12-19;95" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1996-12-19;95" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1996-12-19;95@1997-08-11" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Montagna" />
 						<materia valore="Finanziamenti" />
@@ -16,11 +17,32 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19970114" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19970905" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1996-12-19;95" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1997-08-11;66" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-08-11;66" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-08-11;66#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 11 agosto 1997, n. 66" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com3-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -89,12 +111,20 @@
 							<num>2.</num>
 							<corpo>La Regione, in particolare, definisce direttive, concorda protocolli d'intesa e stipula convenzioni-quadro con le Amministrazioni centrali e periferiche dello Stato, con gli istituti di credito e con altri soggetti pubblici e privati, per favorire lo sviluppo nei Comuni montani, anche mediante il decentramento dalle aree urbane di attività economiche e culturali e di servizi, compresi quelli socio-sanitari, che inducano la riantropizzazione delle zone montane.</corpo>
 						</comma>
-						<comma id="art2-com3">
+						<comma finevigore="t2" id="art2-com3-t2" iniziovigore="t1" status="abrogato">
 							<num>3.</num>
 							<corpo>
 								La Regione, come previsto dalla
 								<rif xlink:href="urn:nir:stato:legge:1994;97#art19" xlink:type="simple">legge n. 97/94 art. 19</rif>
 								, attiva interventi di credito agevolato per il trasferimento di attività economiche in zone montane, definendo con appositi provvedimenti uno specifico fondo presso la Fidi Toscana SpA, nonché le relative direttive di attuazione, le modalità, i requisiti e i criteri per l'accesso ai benefici, gli stessi benefici sono attribuiti ai già residenti.
+							</corpo>
+						</comma>
+						<comma id="art2-com3" iniziovigore="t2">
+							<num>3.</num>
+							<corpo>
+								La Regione, come previsto dalla
+								<rif xlink:href="urn:nir:stato:legge:1994;97#art19" xlink:type="simple">legge n. 97/1994, art. 19</rif>
+								, attiva interventi di credito agevolato per il trasferimento di attività economiche in zone montane, definendo con appositi provvedimenti uno specifico fondo presso la Fidi Toscana SpA, nonché le relative direttive di attuazione, le modalità, i requisiti e i criteri per l'accesso ai benefici; analoghi benefici possono essere attribuiti a coloro che già svolgono attività economiche in zone montane.
 							</corpo>
 						</comma>
 						<comma id="art2-com4">
@@ -676,15 +706,15 @@
 					<DocumentoNIR nome="">
 						<meta>
 							<descrittori>
-					<pubblicazione norm="19961230" num="58" tipo="BURT" />
-					<entratainvigore norm="19970114" />
-					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1996-12-19;95:allegato.a" />
-					<materie vocabolario="Regione Toscana">
-						<materia valore="Montagna" />
-						<materia valore="Finanziamenti" />
-					</materie>
-				</descrittori>
+								<pubblicazione norm="19961230" num="58" tipo="BURT" />
+								<entratainvigore norm="19970114" />
+								<redazione id="red2" nome="" norm="" />
+								<urn valore="urn:nir:regione.toscana:legge:1996-12-19;95:allegato.a" />
+								<materie vocabolario="Regione Toscana">
+									<materia valore="Montagna" />
+									<materia valore="Finanziamenti" />
+								</materie>
+							</descrittori>
 						</meta>
 						<intestazione>
 							<titoloDoc>PARAMETRI E PROCEDIMENTO DI CALCOLO PER IL RIPARTO TRA LE CM DELLA QUOTA DEL FONDO RISERVATA AGLI INTERVENTI SPECIALI</titoloDoc>
