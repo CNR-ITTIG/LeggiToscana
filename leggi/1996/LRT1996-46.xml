@@ -10,7 +10,8 @@
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1996-06-27;46" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1996-06-27;46@1996-08-08" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1996-06-27;46@1996-11-14" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1996-06-27;46@1997-06-05" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1996-06-27;46@1997-06-05" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1996-06-27;46@1997-08-11" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Pubbliche Calamità" />
 						<materia valore="Finanziamenti" />
@@ -22,12 +23,16 @@
 						<evento data="19960813" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19961125" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19970701" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="19970821" fonte="rp4" id="t5" tipo="modifica" />
+						<evento data="19970821" fonte="rp5" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1996-06-27;46" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1996-08-08;66" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1996-11-14;87" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1997-06-05;40" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1997-08-11;64" xlink:type="simple" />
+						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1997-08-11;64" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -107,6 +112,39 @@
 								<dsp:pos xlink:href="#art4bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-08-11;64" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-08-11;64#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 11 agosto 1997, n. 64" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:proroga completa="si" implicita="no" su="efficacia">
+							<dsp:termine da="#t6" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-08-11;64" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-08-11;64#mod2" xlink:type="simple" />
+							</dsp:norma>
+						</dsp:proroga>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4bis-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-08-11;64" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-08-11;64#art3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo3, legge Regione Toscana 11 agosto 1997, n. 64" id="itt8" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h6" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -164,6 +202,38 @@
 							, nonché ai fondi resi disponibili dalla cessione del patrimonio ERP, effettuata ai sensi della
 							<rif xlink:href="urn:nir:stato:legge:1993-12-24;560" xlink:type="simple">legge 24.12.93, n. 560</rif>
 							.
+						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art3bis" iniziovigore="t5">
+					<num>Art. 3 bis</num>
+					<rubrica>(Interventi straordinari per la ricostruzione di Cardoso)</rubrica>
+					<comma id="art3bis-com1">
+						<num>1.</num>
+						<corpo>
+							Al fine di ripristinare nel comune di Stazzema, frazione di Cardoso adeguate condizioni di vita e per agevolare la permanenza dei residenti che, a seguito degli eventi alluvionali del giugno 1996, abbiano subito la distruzione o il danneggiamento irreparabile degli immobili di residenza, la Regione Toscana, utilizzando i fondi di cui all'
+							<rif xlink:href="#art3" xlink:type="simple">art. 3</rif>
+							, concorre al finanziamento degli interventi previsti in un apposito piano di recupero approvato dal Comune di Stazzema; il concorso finanziario regionale ha ad oggetto la costruzione, tramite l'ATER di Lucca, di alloggi di edilizia agevolata e sovvenzionata e la realizzazione delle opere di urbanizzazione primaria e secondaria.
+						</corpo>
+					</comma>
+					<comma id="art3bis-com2">
+						<num>2.</num>
+						<corpo>Gli alloggi di edilizia agevolata sono destinati all'acquisto da parte dei residenti, già proprietari degli immobili distrutti o irreparabilmente danneggiati; gli alloggi di edilizia sovvenzionata sono destinati all'assegnazione ai residenti già conduttori di immobili distrutti o irreparabilmente danneggiati.</corpo>
+					</comma>
+					<comma id="art3bis-com3">
+						<num>3.</num>
+						<corpo>La Giunta Regionale determina il numero e le caratteristiche delle unità abitative, tenuto conto degli immobili distrutti o irreparabilmente danneggiati, nonché i criteri per la determinazione dell'ammontare dei contributi regionali previsti al comma 1.</corpo>
+					</comma>
+					<comma id="art3bis-com4">
+						<num>4.</num>
+						<corpo>La Giunta Regionale può anche disporre l'anticipazione a favore dell'ATER di Lucca delle disponibilità finanziarie necessarie per la realizzazione della totalità degli alloggi, determinando le modalità per la restituzione delle somme eccedenti il contributo regionale, definito ai sensi del comma 3.</corpo>
+					</comma>
+					<comma id="art3bis-com5">
+						<num>5.</num>
+						<corpo>
+							Ove nell'ambito del Comune di Stazzema, frazione Cardoso, ai sensi dell'
+							<rif xlink:href="urn:nir:stato:decreto.legge:1996;576#art4-com9" xlink:type="simple">art. 4, comma 9 del DL 576/96</rif>
+							, siano individuati immobili da demolire in quanto costituenti ostacolo al regolare deflusso delle acque, le disposizioni di cui ai precedenti commi si applicano anche ai soggetti residenti negli immobili in questione.
 						</corpo>
 					</comma>
 				</articolo>
@@ -227,7 +297,12 @@
 					<rubrica>(Termine)</rubrica>
 					<comma id="art4bis-com1">
 						<num>1.</num>
-						<corpo>La documentazione prevista ai fini dell'erogazione dei contributi in conto interessi di cui all'art. 4, comprendente, tra l'altro, l'attestazione dell'erogazione del finanziamento da parte della banca e del completamento dell'investimento da parte dei soggetti beneficiari, deve pervenire alla Fidi Toscana SpA entro il termine perentorio del 15 luglio 1997.</corpo>
+						<corpo>
+							La documentazione prevista ai fini dell'erogazione dei contributi in conto interessi di cui all'art. 4, comprendente, tra l'altro, l'attestazione dell'erogazione del finanziamento da parte della banca e del completamento dell'investimento da parte dei soggetti beneficiari, deve pervenire alla Fidi Toscana SpA entro il termine perentorio del
+							<h:span finevigore="t5" id="h5" iniziovigore="t1" status="abrogato">15 luglio 1997</h:span>
+							<h:span id="h6" iniziovigore="t5">31 ottobre 1997</h:span>
+							.
+						</corpo>
 					</comma>
 					<comma id="art4bis-com2">
 						<num>2.</num>
