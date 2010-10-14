@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19940729" num="50" tipo="BURT" />
 					<entratainvigore norm="19940729" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1994-07-21;52" />
+					<urn finevigore="t7" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1994-07-21;52" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1994-07-21;52@1997-08-11" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Parchi" />
 						<materia valore="Attività Estrattive" />
@@ -21,6 +22,7 @@
 						<evento data="19940729" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="19940729" fonte="ra4" id="t5" tipo="modifica" />
 						<evento data="19940729" fonte="ra5" id="t6" tipo="modifica" />
+						<evento data="19970905" fonte="rp1" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-07-21;52" xlink:type="simple" />
@@ -29,8 +31,25 @@
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1985-01-21;5" xlink:type="simple" />
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1985-01-21;5" xlink:type="simple" />
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1985-01-21;5" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1997-08-11;65" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Ai sensidall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1997-08-11;65#art29-com6" xlink:type="simple">art. 29, comma 6, della legge regionale 11 agosto 1997, n. 65</rif>
+							ilpresente comma viene abrogato a decorrere dalla data di entrata in vigore del piano e del regolamento del Parco Regionale delle Alpi Apuane di cui alla sopracitata legge.
+						</h:p>
+					</nota>
+					<nota id="n2">
+						<h:p>
+							Ai sensi dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1997-08-11;65#art29-com6" xlink:type="simple">art. 29, comma 6, della legge regionale 11 agosto 1997, n. 65</rif>
+							il presentearticolo viene abrogato a decorrere dalla data di entrata in vigore del piano e del regolamento del Parco Regionale delle Alpi Apuane di cui alla sopracitata legge.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:integrazione completa="si" implicita="no">
@@ -109,6 +128,17 @@
 							</dsp:novella>
 						</dsp:integrazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:termine da="#t7" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-08-11;65" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-08-11;65#mod3" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:variazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -260,7 +290,9 @@
 							<rif xlink:href="urn:nir:regione.toscana:legge:1994-03-07;22#art9" xlink:type="simple">art. 9 della LR 7.3.1994, n. 22</rif>
 							, prosegue in via temporanea esclusivamente al fine di garantire l'attuale fornitura di dolomia industriale ai settori vetrario e delle acciaierie fino alla rilocalizzazione in altri siti di detta attività in conformità al piano delle attività estrattive di cui all'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1980-04-30;36#art3" xlink:type="simple">art. 3 della LR 30-4-1980, n. 36</rif>
-							e succ. mod.
+							e succ. mod
+							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							.
 						</corpo>
 					</comma>
 					<comma id="art4-com2">
@@ -273,7 +305,10 @@
 					</comma>
 				</articolo>
 				<articolo id="art5">
-					<num>ARTICOLO 5</num>
+					<num>
+						ARTICOLO 5
+						<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+					</num>
 					<rubrica>
 						(Interpretazione autentica dell'
 						<rif xlink:href="urn:nir:regione.toscana:legge:1985-01-21;5#art6" xlink:type="simple">articolo 6 della legge regionale 21 gennaio 1985, n. 5</rif>
