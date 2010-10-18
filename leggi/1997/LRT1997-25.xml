@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19970414" num="17" tipo="BURT" />
 					<entratainvigore norm="19970429" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1997-04-04;25" />
+					<urn finevigore="t18" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1997-04-04;25" />
+					<urn iniziovigore="t18" valore="urn:nir:regione.toscana:legge:1997-04-04;25@1997-11-27" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Urbanistica" />
 						<materia valore="Agricoltura" />
@@ -32,6 +33,8 @@
 						<evento data="19970429" fonte="ra14" id="t15" tipo="modifica" />
 						<evento data="19970429" fonte="ra15" id="t16" tipo="modifica" />
 						<evento data="19970429" fonte="ra16" id="t17" tipo="modifica" />
+						<evento data="19971205" fonte="rp1" id="t18" tipo="modifica" />
+						<evento data="19971205" fonte="ra17" id="t19" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1997-04-04;25" xlink:type="simple" />
@@ -51,6 +54,8 @@
 						<attiva id="ra14" xlink:href="urn:nir:regione.toscana:legge:1994;76" xlink:type="simple" />
 						<attiva id="ra15" xlink:href="urn:nir:regione.toscana:legge:1994;76" xlink:type="simple" />
 						<attiva id="ra16" xlink:href="urn:nir:regione.toscana:legge:1994;76" xlink:type="simple" />
+						<attiva id="ra17" xlink:href="urn:nir:regione.toscana:legge:1995;64" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1997-11-27;88" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -225,6 +230,24 @@
 								</dsp:subarg>
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#mod9" xlink:type="simple" />
+							<dsp:termine da="#t19" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995;64" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995;64#art9" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#mod9-vir1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:tipo valore="articolo" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:subarg>
+									<ittig:tipo valore="articolo" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novellando>
+						</dsp:sostituzione>
 						<dsp:abrogazione completa="si" implicita="no">
 							<dsp:pos xlink:href="#mod10" xlink:type="simple" />
 							<dsp:termine da="#t12" />
@@ -323,6 +346,23 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9-com5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-11-27;88" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-11-27;88#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 27 novembre 1997, n. 88" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -1075,7 +1115,10 @@
 												<corpo>
 													Il mantenimento delle serre già installate ai sensi della
 													<rif xlink:href="urn:nir:regione.toscana:legge:1979-02-19;10#art7-com2-leta" xlink:type="simple">LR 19 Febbraio 1979 . n. 10, secondo comma, lett. a), dell'art. 7</rif>
-													, è consentito a condizione che sia effettuata, entro sei mesi dall'entrata in vigore della presente legge, la dichiarazione di cui all'art. 3, comma 12.
+													, è consentito a condizione che sia effettuata,
+													<h:span finevigore="t18" id="h1" iniziovigore="t1" status="abrogato">entro sei mesi dall'entrata in vigore della presente legge</h:span>
+													<h:span id="h2" iniziovigore="t18">entro sei mesi dall'entrata in vigore del regolamento di attuazione della presente legge</h:span>
+													, la dichiarazione di cui all'art. 3, comma 12.
 												</corpo>
 											</comma>
 										</articolo>
