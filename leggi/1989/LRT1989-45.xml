@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19890726" num="42" tipo="BURT" />
 					<entratainvigore norm="19900101" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1989-07-17;45" />
+					<urn finevigore="t8" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1989-07-17;45" />
+					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1989-07-17;45@1997-10-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Lavoro" />
 						<materia valore="Formazione" />
@@ -22,6 +23,7 @@
 						<evento data="19900101" fonte="ra4" id="t5" tipo="modifica" />
 						<evento data="19900101" fonte="ra5" id="t6" tipo="modifica" />
 						<evento data="19900101" fonte="ra6" id="t7" tipo="modifica" />
+						<evento data="19971120" fonte="rp1" id="t8" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1989-07-17;45" xlink:type="simple" />
@@ -31,6 +33,7 @@
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1985-02-21;16" xlink:type="simple" />
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1985-02-21;16" xlink:type="simple" />
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1985-02-21;16" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1997-10-29;78" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -129,6 +132,23 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-10-29;78" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-10-29;78#art9-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 9, comma 1 della legge Regione Toscana 29 ottobre 1997, n. 78" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-t8" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -197,29 +217,29 @@
 				<titolo id="tit2">
 					<num>TITOLO II</num>
 					<rubrica>PROGRAMMAZIONE DELLE ATTIVITA' DI ORIENTAMENTO</rubrica>
-					<articolo id="art3">
+					<articolo finevigore="t8" id="art3-t8" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 3</num>
 						<rubrica>(Programma regionale per l'orientamento. Contenuti)</rubrica>
-						<comma id="art3-com1">
+						<comma id="art3-t8-com1">
 							<num>1.</num>
 							<corpo>Il programma regionale degli interventi per l'orientamento professionale è strumento di attuazione del programma regionale di sviluppo.</corpo>
 						</comma>
-						<comma id="art3-com2">
+						<comma id="art3-t8-com2">
 							<num>2.</num>
 							<alinea>Il programma si compone di due parti. La prima parte stabilisce in particolare:</alinea>
-							<el id="art3-com2-leta">
+							<el id="art3-t8-com2-leta">
 								<num>a)</num>
 								<corpo>gli obiettivi e le priorità relative alla tipologia di intervento;</corpo>
 							</el>
-							<el id="art3-com2-letb">
+							<el id="art3-t8-com2-letb">
 								<num>b)</num>
 								<corpo>le metodologie e gli strumenti da attivare per il conseguimento degli obiettivi;</corpo>
 							</el>
-							<el id="art3-com2-letc">
+							<el id="art3-t8-com2-letc">
 								<num>c)</num>
 								<corpo>i criteri e le modalità per le verifiche di efficienza del sistema;</corpo>
 							</el>
-							<el id="art3-com2-letd">
+							<el id="art3-t8-com2-letd">
 								<num>d)</num>
 								<corpo>
 									i criteri per la localizzazione delle strutture territoriali per l'orientamento di cui all'
@@ -227,11 +247,11 @@
 									;
 								</corpo>
 							</el>
-							<el id="art3-com2-lete">
+							<el id="art3-t8-com2-lete">
 								<num>e)</num>
 								<corpo>i criteri di definizione degli organigrammi necessari a garantire l'attuazione del programma;</corpo>
 							</el>
-							<el id="art3-com2-letf">
+							<el id="art3-t8-com2-letf">
 								<num>f)</num>
 								<corpo>
 									le modalità di coordinamento fra gli interventi regionali di cui all'
@@ -239,30 +259,102 @@
 									;
 								</corpo>
 							</el>
-							<el id="art3-com2-letg">
+							<el id="art3-t8-com2-letg">
 								<num>g)</num>
 								<corpo>i criteri generali di raccordo con i soggetti territoriali pubblici e privati che operano nell'ambito delle finalità della presente legge;</corpo>
 							</el>
-							<el id="art3-com2-leth">
+							<el id="art3-t8-com2-leth">
 								<num>h)</num>
 								<corpo>eventuali ulteriori direttive.</corpo>
 							</el>
 						</comma>
-						<comma id="art3-com3">
+						<comma id="art3-t8-com3">
 							<num>3.</num>
 							<alinea>La seconda parte dispone in ordine al riparto dei finanziamenti fra gli enti delegati. La ripartizione avverrà sulla base dei seguenti criteri generali:</alinea>
-							<el id="art3-com3-leta">
+							<el id="art3-t8-com3-leta">
 								<num>a)</num>
 								<corpo>popolazione residente e caratteristiche socio - economiche del territorio, per gli interventi che hanno carattere di continuità di servizio;</corpo>
 							</el>
-							<el id="art3-com3-letb">
+							<el id="art3-t8-com3-letb">
 								<num>b)</num>
 								<corpo>valutazione di specifiche esigenze legate a fenomeni di trasformazione del mondo del lavoro per gli interventi a carattere progettuale e innovativo;</corpo>
 							</el>
-							<el id="art3-com3-letc">
+							<el id="art3-t8-com3-letc">
 								<num>c)</num>
 								<corpo>verifica dell'efficienza degli interventi attuati in coerenza con gli obiettivi regionali.</corpo>
 							</el>
+						</comma>
+					</articolo>
+					<articolo id="art3" iniziovigore="t8">
+						<num>Art. 3</num>
+						<rubrica>(Piano regionale triennale per l'orientamento)</rubrica>
+						<comma id="art3-com1">
+							<num>1.</num>
+							<corpo>Il Consiglio regionale, su proposta della Giunta e sulla base delle determinazioni del Programma regionale di sviluppo e degli altri strumenti della programmazione regionale, sentite le Provincie e i soggetti maggiormente interessati, approva il Piano regionale triennale per l'orientamento professionale.</corpo>
+						</comma>
+						<comma id="art3-com2">
+							<num>2.</num>
+							<corpo>Il Piano regionale indica gli obiettivi e le strategie dell'intervento regionale e le risorse che si prevede di destinare.</corpo>
+						</comma>
+						<comma id="art3-com3">
+							<num>3.</num>
+							<alinea>Il Piano triennale stabilisce in particolare:</alinea>
+							<el id="art3-com3-leta">
+								<num>a)</num>
+								<corpo>gli obiettivi e le priorità relative alle tipologie di intervento;</corpo>
+							</el>
+							<el id="art3-com3-letb">
+								<num>b)</num>
+								<corpo>le metodologie e gli strumenti da attivare per il conseguimento degli obiettivi;</corpo>
+							</el>
+							<el id="art3-com3-letc">
+								<num>c)</num>
+								<corpo>i criteri e gli strumenti essenziali per il monitoraggio, la valutazione e il controllo dei risultati dell'attività;</corpo>
+							</el>
+							<el id="art3-com3-letd">
+								<num>d)</num>
+								<corpo>
+									i criteri per la localizzazione delle strutture territoriali per l'orientamento di cui all'
+									<rif xlink:href="#art6" xlink:type="simple">art. 6</rif>
+									;
+								</corpo>
+							</el>
+							<el id="art3-com3-lete">
+								<num>e)</num>
+								<corpo>
+									le modalità di coordinamento fra gli interventi regionali di cui all'
+									<rif xlink:href="#art1-com2" xlink:type="simple">art. 1, comma 2</rif>
+									;
+								</corpo>
+							</el>
+							<el id="art3-com3-letf">
+								<num>f)</num>
+								<corpo>i criteri generali di raccordo con i soggetti territoriali pubblici e privati che operano nell'ambito delle finalità della presente legge;</corpo>
+							</el>
+							<el id="art3-com3-letg">
+								<num>g)</num>
+								<corpo>i criteri, anche in fasce percentuali, per la ripartizione e l'impiego delle risorse finanziarie in relazione agli obiettivi indicati;</corpo>
+							</el>
+							<el id="art3-com3-leth">
+								<num>h)</num>
+								<corpo>le risorse finanziarie finalizzate alla realizzazione degli interventi regionali.</corpo>
+							</el>
+						</comma>
+						<comma id="art3-com4">
+							<num>4.</num>
+							<corpo>
+								Il Piano triennale può contenere ulteriori prescrizioni, indirizzi e direttive rivolte alla Giunta regionale e alle Province in relazione alle rispettive competenze previste dalla presente legge per la formazione e l'attuazione del programma di attività di cui all'
+								<rif xlink:href="#art4" xlink:type="simple">art. 4</rif>
+								.
+							</corpo>
+						</comma>
+						<comma id="art3-com5">
+							<num>5.</num>
+							<corpo>
+								La Giunta regionale può proporre al Consiglio eventuali aggiornamenti annuali del Piano triennale da approvarsi con le procedure di cui al
+								<rif xlink:href="#art3-com1" xlink:type="simple">comma 1</rif>
+								.
+							</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art4">
@@ -326,7 +418,7 @@
 								Nel caso in cui la Provincia non provveda al compimento di determinati atti inerenti l'esercizio delle funzioni delegate di cui al
 								<rif xlink:href="#art5-com1" xlink:type="simple">primo comma</rif>
 								entro i termini perentori stabiliti dal programma regionale di cui all'
-								<rif xlink:href="#art3" xlink:type="simple">art. 3</rif>
+								<rif xlink:href="#art3-t8" xlink:type="simple">art. 3</rif>
 								, la Giunta regionale, sentita la commissione consiliare competente, può sostituirsi alla Provincia stessa nel compimento di tali atti.
 							</corpo>
 						</comma>
@@ -372,9 +464,9 @@
 								Le strutture territoriali per l'orientamento si integrano o coordinano con i servizi informativi promossi da altri soggetti sul medesimo territorio, secondo intese locali che le Amministrazioni provinciali determinano sulla base dei criteri generali di cui alle
 								<mrif>
 									lettere
-									<rif xlink:href="#art3-com2-letf" xlink:type="simple">f)</rif>
+									<rif xlink:href="#art3-t8-com2-letf" xlink:type="simple">f)</rif>
 									e
-									<rif xlink:href="#art3-com2-letg" xlink:type="simple">g)</rif>
+									<rif xlink:href="#art3-t8-com2-letg" xlink:type="simple">g)</rif>
 									del secondo comma dell'art. 3
 								</mrif>
 								.
