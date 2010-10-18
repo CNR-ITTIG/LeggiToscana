@@ -1,22 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19760820" num="41" tipo="BURT" />
 					<entratainvigore norm="19760904" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1976-08-12;45" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1976-08-12;45" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1976-08-12;45@1997-10-03" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19760904" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19971028" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1976-08-12;45" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1997-10-03;72" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-10-03;72" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-10-03;72#art67-com1-letb" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 67, comma 1, lettera b) della legge Regione Toscana 3 ottobre 1997, n. 72" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -61,35 +80,35 @@
 						<corpo>I finanziamenti di cui all'articolo precedente sono assegnati dal consiglio regionale su proposta della giunta.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art3">
+				<articolo finevigore="t2" id="art3-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 3</num>
-					<comma id="art3-com1">
+					<comma id="art3-t2-com1">
 						<num />
 						<alinea>Con effetto dalla data di entrata in vigore della presente legge e sino all'adozione della legge quadro in materia di assistenza sociale e beneficenza pubblica, gli ECA e le altre IPAB non possono, senza espressa autorizzazione:</alinea>
-						<en id="art3-com1-num1">
+						<en id="art3-t2-com1-num1">
 							<num>1.</num>
 							<corpo>istituire nuovi servizi;</corpo>
 						</en>
-						<en id="art3-com1-num2">
+						<en id="art3-t2-com1-num2">
 							<num>2.</num>
 							<corpo>assumere nuovo personale, anche nell'ambito dei posti previsti dalle vigenti piante organiche;</corpo>
 						</en>
-						<en id="art3-com1-num3">
+						<en id="art3-t2-com1-num3">
 							<num>3.</num>
 							<corpo>assumere temporaneamente personale in sostituzione di dipendenti collocati in aspettativa o in congedo.</corpo>
 						</en>
 					</comma>
-					<comma id="art3-com2">
+					<comma id="art3-t2-com2">
 						<num />
 						<corpo>
 							L'autorizzazione di cui al
-							<rif xlink:href="#art3-com1" xlink:type="simple">primo comma</rif>
+							<rif xlink:href="#art3-t2-com1" xlink:type="simple">primo comma</rif>
 							è concesso al fine di garantire servizi indispensabili alla comunità locale ovvero attività essenziali alla continuità amministrativa dell'Ente e sempre che non sia possibile provvedere ai sensi dell'
 							<rif xlink:href="urn:nir:stato:legge:1890-07-17;6972#art31-com2" xlink:type="simple">art. 31, II comma, della legge 17 luglio 1890, n. 6972</rif>
 							.
 						</corpo>
 					</comma>
-					<comma id="art3-com3">
+					<comma id="art3-t2-com3">
 						<num />
 						<corpo>
 							L'autorizzazione non è richiesta per la sostituzione temporanea prevista dall'
@@ -97,7 +116,7 @@
 							.
 						</corpo>
 					</comma>
-					<comma id="art3-com4">
+					<comma id="art3-t2-com4">
 						<num />
 						<corpo>
 							L'autorizzazione è rilasciata dagli enti locali interessati, ai quali sono state delegate le funzioni amministrative previste dalla
