@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1996-12-20;96" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1996-12-20;96@1997-02-21" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1996-12-20;96@1997-04-24" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1996-12-20;96@1997-04-24" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1996-12-20;96@1997-10-03" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Edilizia" />
 					</materie>
@@ -19,11 +20,13 @@
 						<evento data="19970114" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19970228" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19970520" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="19971028" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1996-12-20;96" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1997-02-21;13" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1997-04-24;30" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1997-10-03;72" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -118,6 +121,18 @@
 								<dsp:pos xlink:href="#h11" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art17-com10" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-10-03;72" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-10-03;72#art29-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 29, comma 2 della legge Regione Toscana 3 ottobre 1997, n. 72" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art17-com11" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -982,6 +997,10 @@
 								<rif xlink:href="#art17-com8" xlink:type="simple">comma 8</rif>
 								non siano di proprietà comunale, una convenzione stipulata dal Comune con l'ente proprietario determina le modalità di utilizzazione e di manutenzione, la durata e il canone di locazione da corrispondere, calcolato ai sensi della presente legge.
 							</corpo>
+						</comma>
+						<comma id="art17-com11" iniziovigore="t4">
+							<num>11.</num>
+							<corpo>Con la legge regionale concernente l'organizzazione e la promozione delle politiche sociali e il conseguente riordino dei servizi socio-assistenziali sono individuate specifiche provvidenze in favore di categorie a rischio e di soggetti svantaggiati.</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art18">

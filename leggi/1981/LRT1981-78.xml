@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t6" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19811103" num="57" tipo="BURT" />
@@ -11,7 +11,8 @@
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1981-10-27;78@1984-03-14" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1981-10-27;78@1987-06-15" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1981-10-27;78@1995-03-23" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1981-10-27;78@1996-07-19" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1981-10-27;78@1996-07-19" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1981-10-27;78@1997-11-12" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Turismo" />
 					</materie>
@@ -23,6 +24,7 @@
 						<evento data="19870710" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19950415" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="19960813" fonte="rp4" id="t5" tipo="modifica" />
+						<evento data="19971206" fonte="rp5" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1981-10-27;78" xlink:type="simple" />
@@ -30,10 +32,20 @@
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1987-06-15;37" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1995-03-23;29" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1996-07-19;57" xlink:type="simple" />
+						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1997-11-12;83" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
+						<h:p>
+							La presente viene abrogata dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1997-11-12;83#art24" xlink:type="simple">art. 24 della legge regionale 12 novembre 1997, n. 83</rif>
+							fatto salvo quanto previsto dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1997-11-12;83#art22-com5" xlink:type="simple">art. 22, comma 5 della stessa</rif>
+							.
+						</h:p>
+					</nota>
+					<nota id="LeggeRegionale1-n2">
 						<h:p>
 							Termine prorogato al 1 novembre 1983 ex
 							<rif xlink:href="urn:nir:regione.toscana:legge:1983-02-01;4" xlink:type="simple">legge regionale 1 febbraio 1983, n. 4</rif>
@@ -41,7 +53,7 @@
 							<rif xlink:href="urn:nir:regione.toscana:legge:1983-11-30;75#art1" xlink:type="simple">art. 1 legge regionale 30 novembre 1983, n. 75.</rif>
 						</h:p>
 					</nota>
-					<nota id="n2">
+					<nota id="LeggeRegionale1-n3">
 						<h:p>
 							Termine prorogato al 31 dicembre 1990 dalla
 							<rif xlink:href="urn:nir:regione.toscana:legge:1987-06-15;37" xlink:type="simple">legge regionale 15 giugno 1987, n. 37</rif>
@@ -532,6 +544,18 @@
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-07-19;57#mod1" xlink:type="simple" />
 							</dsp:norma>
 						</dsp:proroga>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1981-10-27;78" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-11-12;83" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-11-12;83#art24-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 24, comma 1 della legge Regione Toscana 12 novembre 1997, n. 83" id="itt34" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -545,6 +569,7 @@
 					Classificazione degli alberghi e degli
 					<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">alberghi residenziali</h:span>
 					<h:span id="h2" iniziovigore="t2">residenze turistico - alberghiere</h:span>
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 					.
 				</titoloDoc>
 			</intestazione>
@@ -1012,7 +1037,7 @@
 							<h:span finevigore="t2" id="h29" iniziovigore="t1" status="abrogato">alberghi residenziali</h:span>
 							<h:span id="h30" iniziovigore="t2">residenze turistico - alberghiere</h:span>
 							è operante dal 1 gennaio 1983
-							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(b)</ndr>
 							.
 						</corpo>
 					</comma>
@@ -1068,7 +1093,7 @@
 						<num />
 						<corpo>
 							Il primo periodo di validità della classificazione degli alberghi e delle residenze turistico - alberghiere scade alla data del 31 dicembre 1987
-							<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+							<ndr num="#LeggeRegionale1-n3" valore="" xlink:type="simple">(c)</ndr>
 							.
 						</corpo>
 					</comma>
@@ -2969,7 +2994,7 @@
 									<h:tr>
 										<h:td>
 											2.08
-											<ndr num="#ann6-n1" valore="" xlink:type="simple">(c)</ndr>
+											<ndr num="#ann6-n1" valore="" xlink:type="simple">(d)</ndr>
 										</h:td>
 										<h:td>Aria condizionata (7):</h:td>
 										<h:td />

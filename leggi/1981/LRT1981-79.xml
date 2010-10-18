@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t12" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19811106" num="58" tipo="BURT" />
@@ -17,7 +17,8 @@
 					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1981-10-29;79@1996-07-11" />
 					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1981-10-29;79@1996-07-19" />
 					<urn finevigore="t11" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1981-10-29;79@1997-01-22" />
-					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1981-10-29;79@1997-05-07" />
+					<urn finevigore="t12" iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1981-10-29;79@1997-05-07" />
+					<urn iniziovigore="t12" valore="urn:nir:regione.toscana:legge:1981-10-29;79@1997-11-12" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Turismo" />
 					</materie>
@@ -35,6 +36,7 @@
 						<evento data="19960813" fonte="rp8" id="t9" tipo="modifica" />
 						<evento data="19970215" fonte="rp9" id="t10" tipo="modifica" />
 						<evento data="19970516" fonte="rp10" id="t11" tipo="modifica" />
+						<evento data="19971206" fonte="rp11" id="t12" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1981-10-29;79" xlink:type="simple" />
@@ -48,10 +50,20 @@
 						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:1996-07-19;57" xlink:type="simple" />
 						<passiva id="rp9" xlink:href="urn:nir:regione.toscana:legge:1997-01-22;7" xlink:type="simple" />
 						<passiva id="rp10" xlink:href="urn:nir:regione.toscana:legge:1997-05-07;33" xlink:type="simple" />
+						<passiva id="rp11" xlink:href="urn:nir:regione.toscana:legge:1997-11-12;83" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
+						<h:p>
+							La presente legge viene abrogata dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1997-11-12;83#art24" xlink:type="simple">art. 24 della legge regionale 12 novembre 1997, n. 83</rif>
+							fatto salvo quanto previsto dell'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1997-11-12;83#art22-com5" xlink:type="simple">art. 22, comma 5 della stessa</rif>
+							.
+						</h:p>
+					</nota>
+					<nota id="LeggeRegionale1-n2">
 						<h:p>
 							Termine prorogato al 31 dicembre 1990 dall'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1987-06-15;37#art3" xlink:type="simple">art. 3 della legge regionale 15 giugno 1987, n. 37</rif>
@@ -545,6 +557,18 @@
 								<dsp:pos xlink:href="#art25-com8-t11" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1981-10-29;79" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-11-12;83" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-11-12;83#art24-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 24, comma 1 della legge Regione Toscana 12 novembre 1997, n. 83" id="itt35" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -554,7 +578,11 @@
 				<dataDoc norm="19811029">29 ottobre 1981</dataDoc>
 				, n.
 				<numDoc>79</numDoc>
-				<titoloDoc>Disciplina e classificazione dei campeggi e dei villaggi turistici.</titoloDoc>
+				<titoloDoc>
+					Disciplina e classificazione dei campeggi e dei villaggi turistici
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
+					.
+				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 23-9-1981</h:p>
@@ -680,7 +708,7 @@
 						<num />
 						<corpo>
 							La classificazione ha validità per un quinquennio a partire dal 1o gennaio dell'anno successivo all'entrata in vigore della presente legge. Le operazioni relative devono essere espletate nel semestre precedente
-							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(b)</ndr>
 							.
 						</corpo>
 					</comma>

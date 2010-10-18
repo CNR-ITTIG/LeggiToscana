@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19970821" num="33" tipo="BURT" />
 					<entratainvigore norm="19970905" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1997-08-11;65" />
+					<urn finevigore="t10" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1997-08-11;65" />
+					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1997-08-11;65@1997-10-17" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Parchi" />
 					</materie>
@@ -23,6 +24,7 @@
 						<evento data="19970905" fonte="ra6" id="t7" tipo="modifica" />
 						<evento data="19970905" fonte="ra7" id="t8" tipo="modifica" />
 						<evento data="19970905" fonte="ra8" id="t9" tipo="modifica" />
+						<evento data="19971022" fonte="rp1" id="t10" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1997-08-11;65" xlink:type="simple" />
@@ -34,6 +36,7 @@
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1994;24" xlink:type="simple" />
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:1994;24" xlink:type="simple" />
 						<attiva id="ra8" xlink:href="urn:nir:regione.toscana:legge:1994;52" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1997-10-17;73" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -117,6 +120,23 @@
 							</dsp:dominio>
 						</dsp:variazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art31-com5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-10-17;73" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-10-17;73#artunico-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 2 della legge Regione Toscana 17 ottobre 1997, n. 73" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -1059,7 +1079,12 @@
 							<num>5.</num>
 							<corpo>
 								Entro le aree contigue destinate ad attività di cava risultanti dalla cartografia allegata, restano in vigore le disposizioni della
-								<rif xlink:href="urn:nir:stato:legge:1994-01-21;52" xlink:type="simple">legge 21 gennaio 1994, n. 52</rif>
+								<h:span finevigore="t10" id="h1" iniziovigore="t1" status="abrogato">
+									<rif xlink:href="urn:nir:stato:legge:1994;52" xlink:type="simple">legge 21 gennaio 1994, n. 52</rif>
+								</h:span>
+								<h:span id="h2" iniziovigore="t10">
+									<rif xlink:href="urn:nir:stato:legge:1994;52" xlink:type="simple">LR 21 luglio 1994, n. 52</rif>
+								</h:span>
 								; tali aree comprendono anche le discariche, i servizi e gli accessi funzionali all'attività di cava. Per l'utilizzazione industriale della dolomia le convenzioni di cui all'
 								<rif xlink:href="urn:nir:regione.toscana:legge:1980;36#art9" xlink:type="simple">articolo 9 della LR 36/80</rif>
 								e successive modificazioni individuano quantità e modalità di escavazione con riferimento a specifici fabbisogni nel settore vetrario e delle acciaierie.

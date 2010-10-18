@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t3" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19850510" num="22" tipo="BURT" />
 					<entratainvigore norm="19850525" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1985-05-02;42" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1985-05-02;42@1991-05-11" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1985-05-02;42@1991-05-11" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1985-05-02;42@1997-10-03" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Disabili" />
 						<materia valore="Albi" />
@@ -18,10 +19,12 @@
 					<eventi>
 						<evento data="19850525" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19910605" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19971028" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1985-05-02;42" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1991-05-11;18" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1997-10-03;72" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -86,6 +89,18 @@
 								<dsp:pos xlink:href="#art1-com2-t2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1985-05-02;42" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-10-03;72" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-10-03;72#art67-com1-letf" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 67, comma 1, lettera f) della legge Regione Toscana 3 ottobre 1997, n. 72" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>

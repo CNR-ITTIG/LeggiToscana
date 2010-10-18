@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19830107" num="2" tipo="BURT" />
 					<entratainvigore norm="19830122" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1982-12-31;96" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1982-12-31;96" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1982-12-31;96@1997-10-03" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Assistenza sociale" />
 					</materie>
@@ -15,11 +16,29 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19830122" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19971028" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1982-12-31;96" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1997-10-03;72" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art10" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-10-03;72" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-10-03;72#art67-com1-letd" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 67, comma 1, lettera d) della legge Regione Toscana 3 ottobre 1997, n. 72" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art10-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -294,22 +313,22 @@
 						<corpo>I proventi netti derivanti dall'amministrazione dei beni acquisiti a seguito dell'estinzione debbono essere portati ad incremento dei fondi di bilancio iscritti per lo svolgimento di attività assistenziali degli enti destinatari.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art10">
+				<articolo finevigore="t2" id="art10-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 10</num>
 					<rubrica>(Norma transitoria)</rubrica>
-					<comma id="art10-com1">
+					<comma id="art10-t2-com1">
 						<num />
 						<corpo>Fino all'adozione della Legge di riforma della assistenza o di legge nazionale che detti norme in merito, è fatto divieto agli organi amministrativi delle IIPPAABB, aventi sede nel territorio regionale, di procedere alla alienazione o trasformazione di beni immobili o di titoli, alla costituzione di diritti reali sugli stessi, alla stipulazione di contratti di locazione o di affitto di durata superiore a quella minima prevista dalla legislazione vigente.</corpo>
 					</comma>
-					<comma id="art10-com2">
+					<comma id="art10-t2-com2">
 						<num />
 						<corpo>In deroga al divieto di cui al precedente comma, la Giunta regionale, sentiti i Comuni singoli o associati interessati, può autorizzare di volta in volta gli atti strettamente necessari alla realizzazione di programmi di pubblico interesse.</corpo>
 					</comma>
-					<comma id="art10-com3">
+					<comma id="art10-t2-com3">
 						<num />
 						<corpo>
 							Il divieto di cui al
-							<rif xlink:href="#art10-com1" xlink:type="simple">primo comma</rif>
+							<rif xlink:href="#art10-t2-com1" xlink:type="simple">primo comma</rif>
 							non si applica alle istituzioni di cui all'
 							<rif xlink:href="urn:nir:stato:legge:1978-12-23;833#art45" xlink:type="simple">art. 45 della legge 23-12-1978 n. 833</rif>
 							.
