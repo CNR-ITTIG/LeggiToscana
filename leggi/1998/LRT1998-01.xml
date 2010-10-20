@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19980121" num="2" tipo="BURT" />
 					<entratainvigore norm="19980205" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1998-01-14;1" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1998-01-14;1" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1998-01-14;1@1998-04-15" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Zootecnia" />
 					</materie>
@@ -15,11 +16,47 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19980205" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19980509" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-01-14;1" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1998-04-15;21" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7-com1-letb" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-04-15;21" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-04-15;21#art1-com1-pun1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1, 1 della legge Regione Toscana 15 aprile 1998, n. 21" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art14-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-04-15;21" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-04-15;21#art1-com2-pun1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2, 1 della legge Regione Toscana 15 aprile 1998, n. 21" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -188,7 +225,14 @@
 						</el>
 						<el id="art7-com1-letb">
 							<num>b)</num>
-							<corpo>parziale rimborso delle spese di trasporto sostenute, a favore degli allevatori, per ogni capo presentato alle manifestazioni a carattere provinciale o interprovinciale, determinato come compenso forfettario per ogni capo partecipante, secondo quanto previsto al comma 2 dell'art. 9;</corpo>
+							<corpo>
+								parziale rimborso delle spese di trasporto sostenute, a favore degli allevatori, per ogni capo presentato alle manifestazioni a carattere provinciale o interprovinciale, determinato come compenso forfettario per ogni capo partecipante, secondo quanto previsto al
+								<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">comma 2 dell'art. 9</h:span>
+								<h:span id="h2" iniziovigore="t2">
+									<rif xlink:href="#art9-com1" xlink:type="simple">comma 1 dell'art. 9</rif>
+								</h:span>
+								;
+							</corpo>
 						</el>
 					</comma>
 					<comma id="art7-com2">
@@ -497,7 +541,10 @@
 					<comma id="art14-com1">
 						<num>1.</num>
 						<corpo>
-							Per l'anno 1997 le funzioni di cui all'
+							Per l'
+							<h:span finevigore="t2" id="h3" iniziovigore="t1" status="abrogato">anno 1997</h:span>
+							<h:span id="h4" iniziovigore="t2">anno 1998</h:span>
+							le funzioni di cui all'
 							<rif xlink:href="#art11" xlink:type="simple">articolo 11</rif>
 							sono esercitate dalla competente struttura della Giunta regionale, limitatamente all'assunzione degli impegni di spesa ed alla liquidazione delle anticipazioni sui contributi.
 						</corpo>
