@@ -8,7 +8,8 @@
 					<entratainvigore norm="19930112" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1992-12-17;55" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1992-12-17;55@1995-04-11" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1992-12-17;55@1995-04-11" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1992-12-17;55@1998-05-18" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Opere Pubbliche" />
 						<materia valore="Attività Estrattive" />
@@ -18,10 +19,12 @@
 					<eventi>
 						<evento data="19930112" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19950418" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19980612" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1992-12-17;55" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-04-11;48" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -48,6 +51,42 @@
 							</dsp:norma>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art3-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25#art32-com1-pun10" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 32, comma 1, 10 della legge Regione Toscana 18 maggio 1998, n. 25" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art7-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25#art32-com1-pun10" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 32, comma 1, 10 della legge Regione Toscana 18 maggio 1998, n. 25" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art9-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art11" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25#art32-com1-pun10" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 32, comma 1, 10 della legge Regione Toscana 18 maggio 1998, n. 25" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art11-t3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>
@@ -317,10 +356,10 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art7">
+				<articolo finevigore="t3" id="art7-t3" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 7</num>
 					<rubrica>(Occupazione temporanea del sito di cava e discarica per la realizzazione dell'opera pubblica)</rubrica>
-					<comma id="art7-com1">
+					<comma id="art7-t3-com1">
 						<num>1.</num>
 						<corpo>
 							L'adozione dei provvedimenti previsti dal
@@ -353,17 +392,17 @@
 						</el>
 					</comma>
 				</articolo>
-				<articolo id="art9">
+				<articolo finevigore="t3" id="art9-t3" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 9</num>
 					<rubrica>(Catalogo regionale delle materie prime secondarie)</rubrica>
-					<comma id="art9-com1">
+					<comma id="art9-t3-com1">
 						<num>1.</num>
 						<corpo>È istituito presso la Giunta regionale il "Catalogo regionale delle materie prime secondarie e dei materiali di risulta derivanti dallo sfruttamento delle cave" ai fini di favorirne l'utilizzo per la esecuzione di opere pubbliche.</corpo>
 					</comma>
-					<comma id="art9-com2">
+					<comma id="art9-t3-com2">
 						<num>2.</num>
 						<alinea>Il catalogo comprende:</alinea>
-						<ep id="art9-com2-pun1">
+						<ep id="art9-t3-com2-pun1">
 							<num>-</num>
 							<corpo>
 								le materie prime secondarie, individuate in relazione alla loro specifica provenienza e destinazione ai sensi del
@@ -374,11 +413,11 @@
 							</corpo>
 						</ep>
 					</comma>
-					<comma id="art9-com3">
+					<comma id="art9-t3-com3">
 						<num>3.</num>
 						<corpo>Il catalogo viene pubblicato annualmente sul Bollettino Ufficiale della Regione Toscana.</corpo>
 					</comma>
-					<comma id="art9-com4">
+					<comma id="art9-t3-com4">
 						<num>4.</num>
 						<corpo>
 							L'organizzazione e la gestione tecnica del Catalogo è di competenza della Giunta regionale che a questo scopo può avvalersi dell'Agenzia regionale "Regione Recupero Risorse" costituita con
@@ -396,7 +435,7 @@
 						<num>1.</num>
 						<corpo>
 							I capitolati relativi ad opere pubbliche per le quali sia prevista in sede progettuale l'utilizzazione di materie prime secondarie e degli altri materiali compresi nel catalogo di cui all'
-							<rif xlink:href="#art9" xlink:type="simple">art. 9</rif>
+							<rif xlink:href="#art9-t3" xlink:type="simple">art. 9</rif>
 							sono integrati a cura delle Amministrazioni interessate sulla base delle eventuali specifiche prescrizioni tecniche previste nello stesso catalogo.
 						</corpo>
 					</comma>
@@ -404,15 +443,15 @@
 						<num>2.</num>
 						<corpo>
 							Il deposito degli atti progettuali definitivi e di collaudo presso l'Autorità competente all'approvazione dell'opera pubblica garantisce la gestione e conservazione della stessa opera secondo le prescrizioni concernenti la messa in opera e sistemazione finale dei materiali di cui al catalogo istituito ai sensi dell'
-							<rif xlink:href="#art9" xlink:type="simple">art. 9</rif>
+							<rif xlink:href="#art9-t3" xlink:type="simple">art. 9</rif>
 							.
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art11">
+				<articolo finevigore="t3" id="art11-t3" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 11</num>
 					<rubrica>(Agenzia regionale "Regione Recupero Risorse")</rubrica>
-					<comma id="art11-com1">
+					<comma id="art11-t3-com1">
 						<num>1.</num>
 						<corpo>
 							Ad integrazione di quanto previsto dall'

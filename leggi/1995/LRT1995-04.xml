@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t6" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19950120" num="6" tipo="BURT" />
@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t4" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1995-01-12;4" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1995-01-12;4@1995-04-04" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1995-01-12;4@1996-06-28" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1995-01-12;4@1996-06-28" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1995-01-12;4@1998-05-18" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Rifiuti" />
 					</materie>
@@ -21,6 +22,7 @@
 						<evento data="19950204" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="19950422" fonte="rp1" id="t4" tipo="modifica" />
 						<evento data="19960708" fonte="rp2" id="t5" tipo="modifica" />
+						<evento data="19980612" fonte="rp3" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-01-12;4" xlink:type="simple" />
@@ -28,6 +30,7 @@
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1993-05-19;31" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-04-04;35" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1996-06-28;47" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -124,6 +127,18 @@
 								<dsp:pos xlink:href="#art13-com5bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1995-01-12;4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25#art32-com1-pun7" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 32, comma 1, 7 della legge Regione Toscana 18 maggio 1998, n. 25" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>

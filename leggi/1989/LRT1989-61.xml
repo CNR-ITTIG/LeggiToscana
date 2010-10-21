@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19890911" num="51" tipo="BURT" />
 					<entratainvigore norm="19890926" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1989-09-02;61" />
+					<urn finevigore="t7" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1989-09-02;61" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1989-09-02;61@1998-05-18" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Rifiuti" />
 					</materie>
@@ -20,6 +21,7 @@
 						<evento data="19890926" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="19890926" fonte="ra4" id="t5" tipo="modifica" />
 						<evento data="19890926" fonte="ra5" id="t6" tipo="modifica" />
+						<evento data="19980612" fonte="rp1" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1989-09-02;61" xlink:type="simple" />
@@ -28,8 +30,18 @@
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1988-08-19;60" xlink:type="simple" />
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1988-08-19;60" xlink:type="simple" />
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1988-08-19;60" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Intero testo di legge abrogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25#art38-com1" xlink:type="simple">art. 38, comma 1, della legge regionale 18 maggio 1998, n. 25</rif>
+							, ad eccezione del comma 5 dell'art. unico.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -120,6 +132,56 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25#art32-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 32, comma 1 della legge Regione Toscana 18 maggio 1998, n. 25" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#artunico-com1-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#artunico-com2-t7" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25#art38-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo38, comma1, legge Regione Toscana 18 maggio 1998, n. 25" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#artunico-com2-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#artunico-com3-t7" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25#art38-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo38, comma1, legge Regione Toscana 18 maggio 1998, n. 25" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#artunico-com3-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#artunico-com4-t7" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25#art38-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo38, comma1, legge Regione Toscana 18 maggio 1998, n. 25" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#artunico-com4-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -131,7 +193,9 @@
 				<titoloDoc>
 					Modifiche ed integrazioni alla
 					<rif xlink:href="urn:nir:regione.toscana:legge:1988;60" xlink:type="simple">LR 60/88</rif>
-					. Norme per la limitazione ed il recupero dei rifiuti.
+					. Norme per la limitazione ed il recupero dei rifiuti
+					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					.
 				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
@@ -143,7 +207,7 @@
 			<articolato>
 				<articolo id="artunico">
 					<num>ARTICOLO UNICO</num>
-					<comma id="artunico-com1">
+					<comma finevigore="t7" id="artunico-com1-t7" iniziovigore="t1" status="abrogato">
 						<num>1.</num>
 						<corpo>
 							<mod id="mod1">
@@ -157,7 +221,7 @@
 							</mod>
 						</corpo>
 					</comma>
-					<comma id="artunico-com2">
+					<comma finevigore="t7" id="artunico-com2-t7" iniziovigore="t1" status="abrogato">
 						<num>2.</num>
 						<corpo>
 							<mod id="mod2">
@@ -182,7 +246,7 @@
 							</mod>
 						</corpo>
 					</comma>
-					<comma id="artunico-com3">
+					<comma finevigore="t7" id="artunico-com3-t7" iniziovigore="t1" status="abrogato">
 						<num>3.</num>
 						<corpo>
 							<mod id="mod3">
@@ -199,7 +263,7 @@
 							</mod>
 						</corpo>
 					</comma>
-					<comma id="artunico-com4">
+					<comma finevigore="t7" id="artunico-com4-t7" iniziovigore="t1" status="abrogato">
 						<num>4.</num>
 						<corpo>
 							<mod id="mod4">
