@@ -8,7 +8,8 @@
 					<entratainvigore norm="19900412" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1990-03-19;17" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1990-03-19;17@1993-12-16" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1990-03-19;17@1993-12-16" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1990-03-19;17@1998-06-05" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Finanziamenti" />
 						<materia valore="Emigrazione" />
@@ -19,11 +20,13 @@
 						<evento data="19900412" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19900412" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="19940107" fonte="rp1" id="t3" tipo="modifica" />
+						<evento data="19980630" fonte="rp2" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1990-03-19;17" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1981-01-07;1" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1993-12-16;95" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1998-06-05;27" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -270,6 +273,45 @@
 								<dsp:pos xlink:href="#art23-com2bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art20-com5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-06-05;27" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-06-05;27#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 5 giugno 1998, n. 27" id="itt18" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art20-com5" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art20-com5-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art20-com5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-06-05;27" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-06-05;27#art1-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2 della legge Regione Toscana 5 giugno 1998, n. 27" id="itt19" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art20-com6" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art14-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-06-05;27" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-06-05;27#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 5 giugno 1998, n. 27" id="itt20" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -350,7 +392,7 @@
 						</el>
 						<el id="art3-com1-lete" iniziovigore="t3">
 							<num>e)</num>
-							<corpo>valorizzazione di ogni forma di collaborazione con le associazioni dei Toscani all'estero e con i coordinamenti continentali o sub - continentali in occasioni di iniziative di promozione</corpo>
+							<corpo>valorizzazione di ogni forma di collaborazione con le associazioni dei Toscani all'estero e con i coordinamenti continentali o sub - continentali in occasioni di iniziative di promozione.</corpo>
 						</el>
 					</comma>
 					<comma finevigore="t3" id="art3-com2-t3" iniziovigore="t1" status="abrogato">
@@ -359,7 +401,7 @@
 					</comma>
 					<comma id="art3-com2" iniziovigore="t3">
 						<num>2.</num>
-						<corpo>Le attività di cui al comma precedente potranno essere realizzate con il concorso della Consulta regionale dei Toscani all'estero; possono altresì essere realizzate con la collaborazione delle associazioni nazionali in Toscana nonché tramite le associazioni dei Toscani all'estero e/o i Coordinamenti continentali o sub - continentali. Le associazioni dei Toscani all'estero e i Coordinamenti possono essere destinatari, nell'ambito del piano annuale degli interventi, di specifici contributi di sostegno volti ad assicurarne, anche attraverso l'acquisizione di beni e servizi, il loro migliore funzionamento. A tal fine le associazioni ed i Coordinamenti presentano alla Giunta regionale e alla Consulta le relative proposte e/o programmi</corpo>
+						<corpo>Le attività di cui al comma precedente potranno essere realizzate con il concorso della Consulta regionale dei Toscani all'estero; possono altresì essere realizzate con la collaborazione delle associazioni nazionali in Toscana nonché tramite le associazioni dei Toscani all'estero e/o i Coordinamenti continentali o sub - continentali. Le associazioni dei Toscani all'estero e i Coordinamenti possono essere destinatari, nell'ambito del piano annuale degli interventi, di specifici contributi di sostegno volti ad assicurarne, anche attraverso l'acquisizione di beni e servizi, il loro migliore funzionamento. A tal fine le associazioni ed i Coordinamenti presentano alla Giunta regionale e alla Consulta le relative proposte e/o programmi.</corpo>
 					</comma>
 					<comma finevigore="t3" id="art3-com3-t3" iniziovigore="t1" status="abrogato">
 						<num>3.</num>
@@ -374,6 +416,7 @@
 						<corpo>
 							Per la realizzazione degli interventi che comportano lo svolgimento all'estero delle attività di mero rilievo internazionale di cui ai commi precedenti, la Giunta regionale trasmette al Governo nazionale specifica richiesta di assenso; per lo svolgimento di ulteriori attività all'estero che, nell'ambito delle finalità della presente legge, assumono la caratteristica di attività promozionali, la Giunta regionale promuove l'intesa con il Governo nazionale, ai sensi dell'
 							<rif xlink:href="urn:nir:presidente.repubblica:decreto:1977-07-24;616#art4-com2" xlink:type="simple">articolo 4, secondo comma, del DPR 24-7-1977, n. 616</rif>
+							.
 						</corpo>
 					</comma>
 					<comma finevigore="t3" id="art3-com4-t3" iniziovigore="t1" status="abrogato">
@@ -386,7 +429,20 @@
 					</comma>
 					<comma id="art3-com4" iniziovigore="t3">
 						<num>4.</num>
-						<corpo>Ai fini della presente legge, per associazioni dei Toscani all'estero si intendono tutte le associazioni, i circoli e le altre forme organizzate riconosciute ai sensi del successivo articolo 5, comma 1, 2 e 3; per i coordinamenti continentali o sub - continentali si intendono i Coordinamenti riconosciuti ai sensi dell'articolo 5 bis</corpo>
+						<corpo>
+							Ai fini della presente legge, per associazioni dei Toscani all'estero si intendono tutte le associazioni, i circoli e le altre forme organizzate riconosciute ai sensi del successivo
+							<mrif>
+								articolo 5, comma
+								<rif xlink:href="#art5-com1" xlink:type="simple">1</rif>
+								,
+								<rif xlink:href="#art5-com2" xlink:type="simple">2</rif>
+								e
+								<rif xlink:href="#art5-com3" xlink:type="simple">3</rif>
+							</mrif>
+							; per i coordinamenti continentali o sub - continentali si intendono i Coordinamenti riconosciuti ai sensi dell'
+							<rif xlink:href="#art5bis" xlink:type="simple">articolo 5 bis</rif>
+							.
+						</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art4">
@@ -398,7 +454,11 @@
 							La Giunta Regionale, in attuazione degli indirizzi del programma regionale di sviluppo, entro il 30 novembre di ogni anno trasmette al Consiglio regionale per l'approvazione, il piano degli interventi per l'anno successivo, con riferimento ai contenuti di cui all'
 							<rif xlink:href="#art3" xlink:type="simple">art. 3</rif>
 							.
-							<h:span id="h1" iniziovigore="t3">Il piano degli interventi è articolato in modo da evidenziare, per lo svolgimento delle attività all'estero, quelle che importano la richiesta di assenso e quelle che importano l'intesa, ai sensi del precedente art. 3, comma 3. La Giunta regionale, quando non abbia provveduto a trasmettere al Governo nazionale la richiesta di assenso ovvero non abbia realizzato l'intesa prima della presentazione del piano al Consiglio regionale, è tenuta a richiedere l'assenso e a realizzare l'intesa secondo l'ordine di priorità delle iniziative stabilito nella deliberazione di approvazione del Consiglio regionale</h:span>
+							<h:span id="h1" iniziovigore="t3">
+								Il piano degli interventi è articolato in modo da evidenziare, per lo svolgimento delle attività all'estero, quelle che importano la richiesta di assenso e quelle che importano l'intesa, ai sensi del precedente
+								<rif xlink:href="#art3-com3" xlink:type="simple">art. 3, comma 3</rif>
+								. La Giunta regionale, quando non abbia provveduto a trasmettere al Governo nazionale la richiesta di assenso ovvero non abbia realizzato l'intesa prima della presentazione del piano al Consiglio regionale, è tenuta a richiedere l'assenso e a realizzare l'intesa secondo l'ordine di priorità delle iniziative stabilito nella deliberazione di approvazione del Consiglio regionale.
+							</h:span>
 						</corpo>
 					</comma>
 					<comma finevigore="t3" id="art4-com2-t3" iniziovigore="t1" status="abrogato">
@@ -430,15 +490,23 @@
 						<alinea>Il piano di cui al precedente comma stabilisce:</alinea>
 						<el id="art4-com2-leta">
 							<num>a)</num>
-							<corpo>gli interventi di cui al precedente articolo 3, articolati, ove opportuno, per aree geografiche;</corpo>
+							<corpo>
+								gli interventi di cui al precedente
+								<rif xlink:href="#art3" xlink:type="simple">articolo 3</rif>
+								, articolati, ove opportuno, per aree geografiche;
+							</corpo>
 						</el>
 						<el id="art4-com2-letb">
 							<num>b)</num>
-							<corpo>i criteri per l'attuazione da parte della Giunta regionale degli interventi di cui alla precedente lettera a), anche con riguardo alle modalità e alle prescrizioni per la partecipazione alle attività di altri soggetti pubblici o privati e in particolare delle associazioni nazionali più rappresentative operanti in Toscana, nonché, ai sensi dell'art. 3, comma 2, delle associazioni dei Toscani all'estero e dei Coordinamenti;</corpo>
+							<corpo>
+								i criteri per l'attuazione da parte della Giunta regionale degli interventi di cui alla precedente lettera a), anche con riguardo alle modalità e alle prescrizioni per la partecipazione alle attività di altri soggetti pubblici o privati e in particolare delle associazioni nazionali più rappresentative operanti in Toscana, nonché, ai sensi dell'
+								<rif xlink:href="#art3-com2" xlink:type="simple">art. 3, comma 2</rif>
+								, delle associazioni dei Toscani all'estero e dei Coordinamenti;
+							</corpo>
 						</el>
 						<el id="art4-com2-letc">
 							<num>c)</num>
-							<corpo>le previsioni finanziarie con riferimento ai diversi capitoli del bilancio regionale, e l'autorizzazione alla spesa nei limiti delle previsioni di bilancio qualora l'approvazione del piano preceda l'approvazione del bilancio regionale</corpo>
+							<corpo>le previsioni finanziarie con riferimento ai diversi capitoli del bilancio regionale, e l'autorizzazione alla spesa nei limiti delle previsioni di bilancio qualora l'approvazione del piano preceda l'approvazione del bilancio regionale.</corpo>
 						</el>
 					</comma>
 					<comma id="art4-com3">
@@ -451,11 +519,19 @@
 					<rubrica>(Fondo per le iniziative e le spese imprevedibili e urgenti)</rubrica>
 					<comma id="art4bis-com1">
 						<num>1.</num>
-						<corpo>Per le iniziative e le spese imprevedibili e urgenti rientranti nelle finalità della presente legge, è istituito apposito fondo, per una spesa complessiva annuale non superiore al 10% di quella prevista nel piano di cui all'art. 4.</corpo>
+						<corpo>
+							Per le iniziative e le spese imprevedibili e urgenti rientranti nelle finalità della presente legge, è istituito apposito fondo, per una spesa complessiva annuale non superiore al 10% di quella prevista nel piano di cui all'
+							<rif xlink:href="#art4" xlink:type="simple">art. 4</rif>
+							.
+						</corpo>
 					</comma>
 					<comma id="art4bis-com2">
 						<num>2.</num>
-						<corpo>All'attuazione delle iniziative ed alla liquidazione delle spese di cui al precedente primo comma provvede la Giunta regionale, previa, quando occorra, richiesta di assenso o intesa ai sensi dell'art. 3, comma 3. La Giunta regionale dà comunicazione al Consiglio entro 1o giorni dalla relativa deliberazione degli interventi disposti ai sensi del presente articolo</corpo>
+						<corpo>
+							All'attuazione delle iniziative ed alla liquidazione delle spese di cui al precedente primo comma provvede la Giunta regionale, previa, quando occorra, richiesta di assenso o intesa ai sensi dell'
+							<rif xlink:href="#art3-com3" xlink:type="simple">art. 3, comma 3</rif>
+							. La Giunta regionale dà comunicazione al Consiglio entro 1o giorni dalla relativa deliberazione degli interventi disposti ai sensi del presente articolo.
+						</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art5">
@@ -484,11 +560,25 @@
 					</comma>
 					<comma id="art5-com1" iniziovigore="t3">
 						<num>1.</num>
-						<corpo>Ai fini previsti dall'art. 3, comma 2, dell'art. 4, comma 2, lettera b), e dall'art. 7 sono riconosciuti quali associazioni dei Toscani all'estero quelle costituite da almeno due anni, che abbiano svolto un'attività documentabile, che, nell'area di riferimento, abbiano almeno 50 associati appartenenti alla comunità di origine toscana, che garantiscano la pubblicità dei propri atti e funzionino secondo criteri democratici. Eccezionalmente possono essere riconosciute associazioni anche con un numero inferiore a 50 aderenti qualora nell'area di riferimento non si siano altre associazioni o circoli di Toscani all'estero già riconosciute.</corpo>
+						<corpo>
+							Ai fini previsti dall'
+							<mrif>
+								<rif xlink:href="#art3-com2" xlink:type="simple">art. 3, comma 2</rif>
+								, dell'
+								<rif xlink:href="#art4-com2-t3-letb" xlink:type="simple">art. 4, comma 2, lettera b)</rif>
+								, e dall'
+								<rif xlink:href="#art7" xlink:type="simple">art. 7</rif>
+							</mrif>
+							sono riconosciuti quali associazioni dei Toscani all'estero quelle costituite da almeno due anni, che abbiano svolto un'attività documentabile, che, nell'area di riferimento, abbiano almeno 50 associati appartenenti alla comunità di origine toscana, che garantiscano la pubblicità dei propri atti e funzionino secondo criteri democratici. Eccezionalmente possono essere riconosciute associazioni anche con un numero inferiore a 50 aderenti qualora nell'area di riferimento non si siano altre associazioni o circoli di Toscani all'estero già riconosciute.
+						</corpo>
 					</comma>
 					<comma id="art5-com2" iniziovigore="t3">
 						<num>2.</num>
-						<corpo>L'assistenza dei presupposti e delle condizioni sopra indicati viene accertata dalla Consulta che, con deliberazione dell'esecutivo, ne riconosce la validità ai fini dell'applicazione della presente legge. Per le associazioni con un numero inferiore a 50 aderenti la deliberazione dell'esecutivo è adottata a maggioranza qualificata. La Consulta, con deliberazione dell'esecutivo, accerta altresì la perdita dei presupposti e delle condizioni del riconoscimento; in relazione alla violazione degli obblighi di cui al successivo art. 5 ter, propone alla Giunta regionale l'esclusione delle associazioni dagli interventi previsti dalla presente legge, fino a quando non siano ripristinate le condizioni di corretto funzionamento</corpo>
+						<corpo>
+							L'assistenza dei presupposti e delle condizioni sopra indicati viene accertata dalla Consulta che, con deliberazione dell'esecutivo, ne riconosce la validità ai fini dell'applicazione della presente legge. Per le associazioni con un numero inferiore a 50 aderenti la deliberazione dell'esecutivo è adottata a maggioranza qualificata. La Consulta, con deliberazione dell'esecutivo, accerta altresì la perdita dei presupposti e delle condizioni del riconoscimento; in relazione alla violazione degli obblighi di cui al successivo
+							<rif xlink:href="#art5ter" xlink:type="simple">art. 5 ter</rif>
+							, propone alla Giunta regionale l'esclusione delle associazioni dagli interventi previsti dalla presente legge, fino a quando non siano ripristinate le condizioni di corretto funzionamento.
+						</corpo>
 					</comma>
 					<comma id="art5-com3">
 						<num>3.</num>
@@ -512,21 +602,11 @@
 					<rubrica>(Coordinamenti continentali o sub - continentali e loro funzionamento)</rubrica>
 					<comma id="art5bis-com1">
 						<num>1.</num>
-						<corpo>
-							La giunta regionale, sentita la Consulta, propone al Consiglio l'individuazione delle aree continentali o sub - continentali in cui il Consiglio stesso riconosce i Coordinamenti costituiti dalle Associazioni dei Toscani all'estero, sulla base di uno
-							<rif xlink:href="urn:nir:regione.toscana:statuto:" xlink:type="simple">statuto</rif>
-							approvato dall'Assemblea dei presidenti delle Associazioni, con il compito di coordinare le iniziative e le attività delle associazioni e circoli operanti nell'area. Il Consiglio regionale approva altresì, su proposta della Giunta, gli indirizzi a cui devono essere improntati i rapporti tra Coordinamenti, Regione e Consulta. Il riconoscimento di Coordinamenti sub - continentali è alternativo al riconoscimento nella stessa area, del Coordinamento continentale.
-						</corpo>
+						<corpo>La giunta regionale, sentita la Consulta, propone al Consiglio l'individuazione delle aree continentali o sub-continentali in cui il Consiglio stesso riconosce i Coordinamenti costituiti dalle Associazioni dei Toscani all'estero, sulla base di uno statuto approvato dall'Assemblea dei presidenti delle Associazioni, con il compito di coordinare le iniziative e le attività delle associazioni e circoli operanti nell'area. Il Consiglio regionale approva altresì, su proposta della Giunta, gli indirizzi a cui devono essere improntati i rapporti tra Coordinamenti, Regione e Consulta. Il riconoscimento di Coordinamenti sub - continentali è alternativo al riconoscimento nella stessa area, del Coordinamento continentale.</corpo>
 					</comma>
 					<comma id="art5bis-com2">
 						<num>2.</num>
-						<corpo>
-							Il riconoscimento di cui al primo comma è subordinato alla verifica dello
-							<rif xlink:href="urn:nir:regione.toscana:statuto:" xlink:type="simple">statuto</rif>
-							del Coordinamento che deve ispirarsi ai criteri di democraticità a garantire la pubblicità degli atti. Lo
-							<rif xlink:href="urn:nir:regione.toscana:statuto:" xlink:type="simple">statuto</rif>
-							deve altresì regolare l'attività del Coordinamento e i rapporti con le singole associazioni.
-						</corpo>
+						<corpo>Il riconoscimento di cui al primo comma è subordinato alla verifica dello statuto del Coordinamento che deve ispirarsi ai criteri di democraticità a garantire la pubblicità degli atti. Lo statuto deve altresì regolare l'attività del Coordinamento e i rapporti con le singole associazioni.</corpo>
 					</comma>
 					<comma id="art5bis-com3">
 						<num>3.</num>
@@ -534,15 +614,15 @@
 					</comma>
 					<comma id="art5bis-com4">
 						<num>4.</num>
-						<corpo>Ai sensi dell'art. 3, comma 2, i Coordinamenti possono essere destinatari di specifici contributi di sostegno allo svolgimento delle attività dei Coordinamenti stessi e/o delle singole associazioni che ne fanno parte, previa presentazione dei relativi programmi; il piano annuale stabilisce la misura dei contributi, in relazione a criteri obiettivi che tengano conto della consistenza delle associazioni dei Toscani nell'area geografia di riferimento, della realtà sociale in cui operano, dei compiti che normalmente vengono assolti; il piano annuale stabilisce altresì le prescrizioni, i criteri e le priorità che i Coordinamenti devono osservare nella realizzazione dei programmi presentati, ovvero della parte dei programmi stessi approvati e finanziati.</corpo>
+						<corpo>
+							Ai sensi dell'
+							<rif xlink:href="#art3-com2" xlink:type="simple">art. 3, comma 2</rif>
+							, i Coordinamenti possono essere destinatari di specifici contributi di sostegno allo svolgimento delle attività dei Coordinamenti stessi e/o delle singole associazioni che ne fanno parte, previa presentazione dei relativi programmi; il piano annuale stabilisce la misura dei contributi, in relazione a criteri obiettivi che tengano conto della consistenza delle associazioni dei Toscani nell'area geografia di riferimento, della realtà sociale in cui operano, dei compiti che normalmente vengono assolti; il piano annuale stabilisce altresì le prescrizioni, i criteri e le priorità che i Coordinamenti devono osservare nella realizzazione dei programmi presentati, ovvero della parte dei programmi stessi approvati e finanziati.
+						</corpo>
 					</comma>
 					<comma id="art5bis-com5">
 						<num>5.</num>
-						<corpo>
-							L'attività e il funzionamento dei coordinamenti sono posti sotto la vigilanza e il controllo della Consulta che, con deliberazione dell'esecutivo, può richiedere al Consiglio regionale in ogni tempo la revoca del loro riconoscimento e dei compiti loro affidati per la violazione dello
-							<rif xlink:href="urn:nir:regione.toscana:statuto:" xlink:type="simple">statuto</rif>
-							e per la sopravvenuta perdita della rappresentatività delle associazioni dei Toscani all'estero. La Giunta può altresì richiedere la revoca del riconoscimento in carenza della rendicontazione delle somme loro assegnate. L'atto di revoca è adottato dal Consiglio regionale
-						</corpo>
+						<corpo>L'attività e il funzionamento dei coordinamenti sono posti sotto la vigilanza e il controllo della Consulta che, con deliberazione dell'esecutivo, può richiedere al Consiglio regionale in ogni tempo la revoca del loro riconoscimento e dei compiti loro affidati per la violazione dello statuto e per la sopravvenuta perdita della rappresentatività delle associazioni dei Toscani all'estero. La Giunta può altresì richiedere la revoca del riconoscimento in carenza della rendicontazione delle somme loro assegnate. L'atto di revoca è adottato dal Consiglio regionale.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art5ter" iniziovigore="t3">
@@ -550,7 +630,13 @@
 					<rubrica>(Obblighi per le Associazioni dei Toscani all'estero e per i Coordinamenti)</rubrica>
 					<comma id="art5ter-com1">
 						<num>1.</num>
-						<corpo>Le associazioni dei Toscani all'estero e i Coordinamenti continentali o sub - continentali sono tenuti a presentare annualmente alla Giunta regionale e alla Consulta sulla base di un apposito modello predisposto dalla Giunta regionale nei tempi e con le modalità da essa stabiliti, una relazione finale sull'attività svolta e sulla utilizzazione dei contributi assegnati ai sensi di cui all'articolo 3 comma 2. La relazione sulla utilizzazione dei contributi di cui all'articolo 3 comma 2 è integrata dal rendiconto delle spese sostenute. La mancata o irregolare presentazione della relazione finale comporta, tra l'altro, l'impossibilità di erogazione di nuovi contributi</corpo>
+						<corpo>
+							Le associazioni dei Toscani all'estero e i Coordinamenti continentali o sub - continentali sono tenuti a presentare annualmente alla Giunta regionale e alla Consulta sulla base di un apposito modello predisposto dalla Giunta regionale nei tempi e con le modalità da essa stabiliti, una relazione finale sull'attività svolta e sulla utilizzazione dei contributi assegnati ai sensi di cui all'
+							<rif xlink:href="#art3-com2" xlink:type="simple">articolo 3 comma 2</rif>
+							. La relazione sulla utilizzazione dei contributi di cui all'
+							<rif xlink:href="#art3-com2" xlink:type="simple">articolo 3 comma 2</rif>
+							è integrata dal rendiconto delle spese sostenute. La mancata o irregolare presentazione della relazione finale comporta, tra l'altro, l'impossibilità di erogazione di nuovi contributi.
+						</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art6">
@@ -609,7 +695,11 @@
 						</el>
 						<el id="art6-com2-leth" iniziovigore="t3">
 							<num>h)</num>
-							<corpo>formulare indicazioni in ordine alla individuazione dei Coordinamenti di cui al precedente art. 5 bis, nonché alla disciplina statutaria e ai rapporti con le associazioni e con la Consulta stessa</corpo>
+							<corpo>
+								formulare indicazioni in ordine alla individuazione dei Coordinamenti di cui al precedente
+								<rif xlink:href="#art5bis" xlink:type="simple">art. 5 bis</rif>
+								, nonché alla disciplina statutaria e ai rapporti con le associazioni e con la Consulta stessa.
+							</corpo>
 						</el>
 					</comma>
 					<comma id="art6-com3">
@@ -622,7 +712,11 @@
 					</comma>
 					<comma id="art6-com3bis" iniziovigore="t3">
 						<num>3 bis)</num>
-						<corpo>In occasione della sessione della Consulta di cui al comma precedente, la Consulta decide, di norma, su tutti gli argomenti di cui al comma 2, provvedendo direttamente e/o delegando il Comitato esecutivo con atto di indirizzo generale</corpo>
+						<corpo>
+							In occasione della sessione della Consulta di cui al comma precedente, la Consulta decide, di norma, su tutti gli argomenti di cui al
+							<rif xlink:href="#art6-com2" xlink:type="simple">comma 2</rif>
+							, provvedendo direttamente e/o delegando il Comitato esecutivo con atto di indirizzo generale.
+						</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art7">
@@ -870,9 +964,13 @@
 					<comma id="art14-com1">
 						<num>1.</num>
 						<corpo>
-							La Regione, in collaborazione con i Comuni, promuove, ai sensi della
-							<rif xlink:href="urn:nir:regione.toscana:legge:1976-04-07;15" xlink:type="simple">LR 7 aprile 1976, n. 15</rif>
-							e successive modificazioni ed integrazioni, soggiorni di vacanza, integrati con attività culturali e di studio per i soggetti di cui al
+							La Regione, in collaborazione con i Comuni, promuove
+							<h:span finevigore="t4" id="h2" iniziovigore="t1" status="abrogato">
+								, ai sensi della
+								<rif xlink:href="urn:nir:regione.toscana:legge:1976-04-07;15" xlink:type="simple">LR 7 aprile 1976, n. 15</rif>
+								e successive modificazioni ed integrazioni,
+							</h:span>
+							soggiorni di vacanza, integrati con attività culturali e di studio per i soggetti di cui al
 							<rif xlink:href="#art2" xlink:type="simple">precedente art. 2</rif>
 							, di età compresa tra i dodici e i ventisei anni.
 						</corpo>
@@ -1019,12 +1117,32 @@
 						<num>4.</num>
 						<corpo>Per le finalità di cui ai precedenti commi è istituito un apposito fondo di rotazione.</corpo>
 					</comma>
-					<comma id="art20-com5">
+					<comma finevigore="t4" id="art20-com5-t4" iniziovigore="t1" status="abrogato">
 						<num>5.</num>
 						<corpo>
 							Per gli altri interventi di assistenza sociale si rinvia a quanto disposto dalla
 							<rif xlink:href="urn:nir:regione.toscana:legge:1976-04-07;15" xlink:type="simple">LR 7-4-1976 n. 15</rif>
 							e successive modificazioni ed integrazioni.
+						</corpo>
+					</comma>
+					<comma id="art20-com5" iniziovigore="t4">
+						<num>5.</num>
+						<alinea>I lavoratori emigrati all'estero e le loro famiglie possono beneficiare altresì dei seguenti interventi di carattere socio-assistenziale:</alinea>
+						<el id="art20-com5-leta">
+							<num>a)</num>
+							<corpo>contributo alle spese di viaggio e di trasporto masserizie sostenute dal lavoratore emigrato, ovvero dal coniuge e dagli ascendenti o discendenti di primo grado, nel caso in cui il lavoratore medesimo, dopo almeno cinque anni di permanenza all'estero, rientri definitivamente nella Regione.</corpo>
+						</el>
+						<el id="art20-com5-letb">
+							<num>b)</num>
+							<corpo>contributo alle spese per il trasporto delle salme del lavoratore, ovvero del coniuge e degli ascendenti o discendenti di primo grado deceduti all'estero.</corpo>
+						</el>
+					</comma>
+					<comma id="art20-com6" iniziovigore="t4">
+						<num>6.</num>
+						<corpo>
+							Il contributo alle spese di cui al
+							<rif xlink:href="#art20-com5" xlink:type="simple">comma 5</rif>
+							è effettuato dalla Regione, sulla base delle prescrizioni del piano annuale degli interventi, in favore del Comune competente che abbia provveduto all'erogazione ai diretti beneficiari.
 						</corpo>
 					</comma>
 				</articolo>
@@ -1099,7 +1217,7 @@
 					<rubrica>(Norma transitoria)</rubrica>
 					<comma id="art22-com1">
 						<num />
-						<corpo>Per l'anno 1994 la Giunta regionale, entro il 30 gennaio dello stesso anno, trasmette al Consiglio regionale per l'approvazione il piano annuale degli interventi. Il Comitato esecutivo della Consulta invia alla Giunta regionale, entro il 15 dicembre 1993, le proposte per la formulazione del piano suddetto</corpo>
+						<corpo>Per l'anno 1994 la Giunta regionale, entro il 30 gennaio dello stesso anno, trasmette al Consiglio regionale per l'approvazione il piano annuale degli interventi. Il Comitato esecutivo della Consulta invia alla Giunta regionale, entro il 15 dicembre 1993, le proposte per la formulazione del piano suddetto.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art23">
@@ -1114,7 +1232,7 @@
 								sul capitolo 18120 (interventi in materia di assistenza sociale a favore degli emigrati) per le attività e gli interventi di cui all'
 								<rif xlink:href="#art14-com1" xlink:type="simple">art. 14, 1° comma</rif>
 								ed all'
-								<rif xlink:href="#art20-com5" xlink:type="simple">art. 20, 5° comma</rif>
+								<rif xlink:href="#art20-com5-t4" xlink:type="simple">art. 20, 5° comma</rif>
 								;
 							</corpo>
 						</el>
@@ -1266,7 +1384,11 @@
 					</comma>
 					<comma id="art23-com2bis" iniziovigore="t3">
 						<num>2 bis.</num>
-						<corpo>Agli oneri di spesa di cui al primo comma dell'articolo 4 bis, decorrenti dall'anno 1994, si fa fronte annualmente con legge di bilancio imputando la spesa al capitolo corrispondente al cap. 17065 del Bilancio 1993</corpo>
+						<corpo>
+							Agli oneri di spesa di cui al primo comma dell'
+							<rif xlink:href="#art4bis" xlink:type="simple">articolo 4 bis</rif>
+							, decorrenti dall'anno 1994, si fa fronte annualmente con legge di bilancio imputando la spesa al capitolo corrispondente al cap. 17065 del Bilancio 1993.
+						</corpo>
 					</comma>
 				</articolo>
 			</articolato>
