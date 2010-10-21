@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19980429" num="15" tipo="BURT" />
 					<entratainvigore norm="19980429" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1998-04-22;23" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1998-04-22;23" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1998-04-22;23@1998-06-18" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Giovani" />
 						<materia valore="Agricoltura" />
@@ -16,11 +17,77 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19980429" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19980714" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-04-22;23" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1998-06-18;32" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-06-18;32" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-06-18;32#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 18 giugno 1998, n. 32" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art8-com2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-06-18;32" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-06-18;32#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 18 giugno 1998, n. 32" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-06-18;32" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-06-18;32#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 18 giugno 1998, n. 32" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9-com4-leta" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-06-18;32" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-06-18;32#art4-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1 della legge Regione Toscana 18 giugno 1998, n. 32" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9-com5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-06-18;32" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-06-18;32#art5-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 1 della legge Regione Toscana 18 giugno 1998, n. 32" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -270,7 +337,7 @@
 								<num>1.</num>
 								<corpo>Al giovane imprenditore agricolo è concesso un contributo a fronte dei prestiti contratti per acquisto della proprietà di terreni agricoli in arrotondamento, con esclusione della formazione della proprietaria coltivatrice.</corpo>
 							</comma>
-							<comma id="art8-com2">
+							<comma finevigore="t2" id="art8-com2-t2" iniziovigore="t1" status="abrogato">
 								<num>2.</num>
 								<corpo>
 									Il contributo può essere concesso altresì a fronte di presentazione di contratti di affitto, regolarmente registrati ai sensi della
@@ -288,7 +355,11 @@
 							</comma>
 							<comma id="art8-com4">
 								<num>4.</num>
-								<corpo>La spesa ammissibile sulla quale vengono applicate le percentuali di cui al precedente comma è costituita dall'ammontare dei prestiti contratti per l'acquisto, e, nel caso dell'affitto, dal valore attualizzato di 15 annualità del canone di affitto calcolato dall'Ente Delegato competente per territorio in base ai valori medi dagli affitti agricoli di riferimento per ogni provincia in vigore al momento dell'erogazione del contributo.</corpo>
+								<corpo>
+									La spesa ammissibile sulla quale vengono applicate le percentuali di cui al precedente comma è costituita dall'ammontare dei prestiti contratti per l'acquisto
+									<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">, e, nel caso dell'affitto, dal valore attualizzato di 15 annualità del canone di affitto calcolato dall'Ente Delegato competente per territorio in base ai valori medi dagli affitti agricoli di riferimento per ogni provincia in vigore al momento dell'erogazione del contributo</h:span>
+									.
+								</corpo>
 							</comma>
 							<comma id="art8-com5">
 								<num>5.</num>
@@ -339,6 +410,7 @@
 									L'ammontare della percentuale di contributo, sul totale della spesa ammissibile, è applicabile nella misura del 35% innalzabile fino al 75% per le zone svantaggiate, ai sensi dell'
 									<rif xlink:href="urn:nir:comunita.europee:regolamento:1997;950#art21" xlink:type="simple">art. 21, par. 2 del Reg. (CE) n. 950/97</rif>
 									.
+									<h:span id="h2" iniziovigore="t2">Per le spese di pubblicità delle iniziative di cui al comma 4, lett. b), c) ed e) del presente articolo tale ammontare, per le zone svantaggiate, non può superare il 50%.</h:span>
 								</corpo>
 							</comma>
 							<comma id="art9-com4">
@@ -354,6 +426,7 @@
 										manutenzione e salvaguardia del territorio rurale finalizzate all'ottimizzazione degli interventi, ivi compresi gli interventi di sistemazione ambientale di cui alla
 										<rif xlink:href="urn:nir:regione.toscana:legge:1995-04-14;64" xlink:type="simple">LR 14/4/1995, n. 64</rif>
 										"Disciplina degli interventi di trasformazione urbanistica ed edilizia nelle zone con prevalente funzione agricola";
+										<h:span id="h3" iniziovigore="t2">Nell'ambito di tali attività, sono escluse le spese relative ad affitto e leasing;</h:span>
 									</corpo>
 								</el>
 								<el id="art9-com4-letb">
@@ -375,7 +448,10 @@
 							</comma>
 							<comma id="art9-com5">
 								<num>5.</num>
-								<corpo>La concessione del contributo è subordinata all'approvazione del piano-programma delle attività e degli investimenti, con particolare riguardo alla qualità delle attività ed alla adeguatezza e coerenza degli investimenti.</corpo>
+								<corpo>
+									La concessione del contributo è subordinata all'approvazione del piano-programma delle attività e degli investimenti, con particolare riguardo alla qualità delle attività ed alla adeguatezza e coerenza degli investimenti.
+									<h:span id="h4" iniziovigore="t2">Sono escluse le spese per l'organizzazione e la partecipazione a fiere, esposizioni, mostre, mercati e attività similari.</h:span>
+								</corpo>
 							</comma>
 							<comma id="art9-com6">
 								<num>6.</num>
