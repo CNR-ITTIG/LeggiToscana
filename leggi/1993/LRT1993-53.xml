@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t13" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19930828" num="52" tipo="BURT" />
@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t11" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1993-08-11;53" />
 					<urn finevigore="t12" iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1993-08-11;53@1994-12-28" />
-					<urn iniziovigore="t12" valore="urn:nir:regione.toscana:legge:1993-08-11;53@1995-04-13" />
+					<urn finevigore="t13" iniziovigore="t12" valore="urn:nir:regione.toscana:legge:1993-08-11;53@1995-04-13" />
+					<urn iniziovigore="t13" valore="urn:nir:regione.toscana:legge:1993-08-11;53@1998-07-31" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Trasporti" />
 						<materia valore="Finanziamenti" />
@@ -29,6 +30,7 @@
 						<evento data="19930912" fonte="ra9" id="t10" tipo="modifica" />
 						<evento data="19950112" fonte="rp1" id="t11" tipo="modifica" />
 						<evento data="19950503" fonte="rp2" id="t12" tipo="modifica" />
+						<evento data="19980822" fonte="rp3" id="t13" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1993-08-11;53" xlink:type="simple" />
@@ -43,6 +45,7 @@
 						<attiva id="ra9" xlink:href="urn:nir:regione.toscana:legge:1993-03-31;18" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1994-12-28;112" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1995-04-13;57" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1998-07-31;42" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -333,6 +336,18 @@
 								<dsp:pos xlink:href="#art3-com13-t12" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1993-08-11;53" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-07-31;42" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-07-31;42#art33-com1-pun6" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 33, comma 1, 6 della legge Regione Toscana 31 luglio 1998, n. 42" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
