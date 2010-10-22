@@ -11,7 +11,8 @@
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1994-06-29;49@1995-03-23" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1994-06-29;49@1996-02-22" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1994-06-29;49@1996-03-28" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1994-06-29;49@1997-10-03" />
+					<urn finevigore="t7" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1994-06-29;49@1997-10-03" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1994-06-29;49@1998-06-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Usl" />
 						<materia valore="Ordinamento" />
@@ -26,6 +27,7 @@
 						<evento data="19960424" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="19971028" fonte="rp4" id="t5" tipo="modifica" />
 						<evento data="19971028" fonte="rp5" id="t6" tipo="modifica" />
+						<evento data="19980815" fonte="rp6" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-06-29;49" xlink:type="simple" />
@@ -34,6 +36,7 @@
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1996-03-28;25" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1997-10-03;72" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1997-10-03;72" xlink:type="simple" />
+						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:1998-06-21;37" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -162,6 +165,21 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art2-com2-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#allegato.c" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-06-21;37" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-06-21;37#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 21 giugno 1998, n. 37" id="itt9" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -2618,7 +2636,8 @@
 							<h:p>
 								AZIENDA OSPEDALIERA SENESE
 								<h:br />
-								Presidio ospedaliero gestito: Ospedali Senesi, Ospedale di Abbadia San Salvatore.
+								<h:span finevigore="t7" id="h1" iniziovigore="t1" status="abrogato">Presidio ospedaliero gestito: Ospedali Senesi, Ospedale di Abbadia San Salvatore.</h:span>
+								<h:span id="h2" iniziovigore="t7">Presidio ospedaliero gestito: Ospedali Senesi.</h:span>
 							</h:p>
 							<h:p>
 								AZIENDA OSPEDALIERA CAREGGI
