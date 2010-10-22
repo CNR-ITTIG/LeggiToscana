@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19980528" num="19" tipo="BURT" />
 					<entratainvigore norm="19980612" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1998-05-18;25" />
+					<urn finevigore="t15" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1998-05-18;25" />
+					<urn iniziovigore="t15" valore="urn:nir:regione.toscana:legge:1998-05-18;25@1998-06-18" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tutela Ambientale" />
 						<materia valore="Rifiuti" />
@@ -29,6 +30,7 @@
 						<evento data="19980612" fonte="ra11" id="t12" tipo="modifica" />
 						<evento data="19980612" fonte="ra12" id="t13" tipo="modifica" />
 						<evento data="19980612" fonte="ra13" id="t14" tipo="modifica" />
+						<evento data="19980629" fonte="rp1" id="t15" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25" xlink:type="simple" />
@@ -45,6 +47,7 @@
 						<attiva id="ra11" xlink:href="urn:nir:regione.toscana:legge:1992-12-17;55" xlink:type="simple" />
 						<attiva id="ra12" xlink:href="urn:nir:regione.toscana:legge:1992-12-17;55" xlink:type="simple" />
 						<attiva id="ra13" xlink:href="urn:nir:regione.toscana:legge:1992-12-17;55" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1998-06-18;34" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -194,6 +197,23 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art31-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-06-18;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-06-18;34#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 18 giugno 1998, n. 34" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art31-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art31-com1-t15" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -2178,12 +2198,22 @@
 					<articolo id="art31">
 						<num>ARTICOLO 31</num>
 						<rubrica>(Disposizioni transitorie)</rubrica>
-						<comma id="art31-com1">
+						<comma finevigore="t15" id="art31-com1-t15" iniziovigore="t1" status="abrogato">
 							<num>1.</num>
 							<corpo>
 								Fino all'approvazione di un nuovo piano regionale ai sensi dell'
 								<rif xlink:href="#art9" xlink:type="simple">art. 9, comma 9</rif>
 								, resta valido il piano regionale vigente all'entrata in vigore della presente legge. Tale piano produce gli effetti di cui all'
+								<rif xlink:href="#art13" xlink:type="simple">art. 13</rif>
+								.
+							</corpo>
+						</comma>
+						<comma id="art31-com1" iniziovigore="t15">
+							<num>1.</num>
+							<corpo>
+								Fino all'approvazione di un nuovo piano regionale, ai sensi dell'
+								<rif xlink:href="#art10" xlink:type="simple">art. 10</rif>
+								, resta valido il piano regionale approvato con deliberazione del Consiglio regionale 8 Aprile 1998, n. 88 Tale piano produce gli effetti di cui all'
 								<rif xlink:href="#art13" xlink:type="simple">art. 13</rif>
 								.
 							</corpo>

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19951214" num="78" tipo="BURT" />
 					<entratainvigore norm="19951229" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1995-12-05;104" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1995-12-05;104" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1995-12-05;104@1998-06-18" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Attività Estrattive" />
 					</materie>
@@ -15,11 +16,53 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19951229" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19980714" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-12-05;104" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1998-06-18;33" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-06-18;33" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-06-18;33#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 18 giugno 1998, n. 33" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-06-18;33" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-06-18;33#art1-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2 della legge Regione Toscana 18 giugno 1998, n. 33" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com2bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-06-18;33" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-06-18;33#art1-com3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 3 della legge Regione Toscana 18 giugno 1998, n. 33" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com6" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -70,7 +113,22 @@
 					</comma>
 					<comma id="art2-com2">
 						<num>2.</num>
-						<corpo>La concessione è subordinata al rispetto degli strumenti urbanistici e ai vincoli ambientali, paesaggistici e idrogeologici previsti dalla legge.</corpo>
+						<corpo>
+							La concessione è subordinata al rispetto degli strumenti urbanistici e ai vincoli ambientali, paesaggistici e idrogeologici previsti dalla legge.
+							<h:span id="h1" iniziovigore="t2">Nonché al rispetto, in fase di coltivazione, delle norme di igiene e sicurezza del lavoro e di polizia mineraria.</h:span>
+						</corpo>
+					</comma>
+					<comma id="art2-com2bis" iniziovigore="t2">
+						<num>2 bis.</num>
+						<alinea>La concessione può essere revocata:</alinea>
+						<el id="art2-com2bis-leta">
+							<num>a)</num>
+							<corpo>in presenza di situazioni di pericolo o di compromissione delle zone limitrofe quando determinati da irrazionale coltivazione del giacimento;</corpo>
+						</el>
+						<el id="art2-com2bis-letb">
+							<num>b)</num>
+							<corpo>in caso di inadempienze a provvedimenti di sicurezza, emessi dall'autorità di vigilanza e alle altre norme di polizia mineraria.</corpo>
+						</el>
 					</comma>
 					<comma id="art2-com3">
 						<num>3.</num>
@@ -83,6 +141,10 @@
 					<comma id="art2-com5">
 						<num>5.</num>
 						<corpo>Per il rilascio e l'esercizio della concessione, si applica, in quanto compatibile con le disposizioni di cui ai precedenti commi, la disciplina stabilita dalla legge regionale per il rilascio e l'esercizio di autorizzazione alla coltivazione di cava o torbiera.</corpo>
+					</comma>
+					<comma id="art2-com6" iniziovigore="t2">
+						<num>6.</num>
+						<corpo>La disciplina concessoria, come regolata dalla presente legge e dai successivi regolamenti comunali, si applica anche alle concessioni livellarie di agri marmiferi già rilasciate dai Comuni di Carrara e di Massa e dalle soppresse "vicinanze"di Carrara.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art3">
