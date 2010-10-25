@@ -8,7 +8,8 @@
 					<entratainvigore norm="19960805" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1996-07-25;58" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1996-07-25;58@1997-06-20" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1996-07-25;58@1997-06-20" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1996-07-25;58@1998-08-06" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Viabilità" />
 					</materie>
@@ -17,10 +18,12 @@
 					<eventi>
 						<evento data="19960805" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19970715" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19980829" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1996-07-25;58" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1997-06-20;43" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1998-08-06;51" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -68,7 +71,7 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art5" xlink:type="simple" />
+							<dsp:pos xlink:href="#art5-t3" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-06-20;43" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-06-20;43#art3-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -76,7 +79,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art5" xlink:type="simple" />
+								<dsp:pos xlink:href="#art5-t3" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art5-t2" xlink:type="simple" />
@@ -91,9 +94,39 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art6-com4" xlink:type="simple" />
+								<dsp:pos xlink:href="#art6-com4-t3" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-08-06;51" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-08-06;51#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 6 agosto 1998, n. 51" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art5" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-08-06;51" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-08-06;51#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 6 agosto 1998, n. 51" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6-com4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art6-com4-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -192,15 +225,27 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art5" iniziovigore="t2">
+				<articolo finevigore="t3" id="art5-t3" iniziovigore="t2" status="abrogato">
 					<num>Art. 5</num>
 					<rubrica>(Assegnazione dei contributi e degli incarichi di progettazione)</rubrica>
-					<comma id="art5-com1">
+					<comma id="art5-t3-com1">
 						<num>1.</num>
 						<corpo>
 							La Giunta regionale assegna i contributi entro 60 giorni dalla scadenza del termine di cui all'
 							<rif xlink:href="#art3" xlink:type="simple">art. 3</rif>
 							. L'incarico di progettazione deve essere affidato entro 10 mesi dalla data di assegnazione del contributo, a pena di decadenza.
+						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art5" iniziovigore="t3">
+					<num>Art. 5</num>
+					<rubrica>(Assegnazione dei contributi e degli incarichi di progettazione)</rubrica>
+					<comma id="art5-com1">
+						<num>1.</num>
+						<corpo>
+							La Giunta regionale assegna i contributi nei 60 giorni successivi al termine di cui all'
+							<rif xlink:href="#art3" xlink:type="simple">art. 3</rif>
+							, stabilendo il termine perentorio per l'affidamento dell'incarico di progettazione. Il mancato rispetto del termine per l'affidamento dell'incarico di progettazione determina la revoca dei contributi.
 						</corpo>
 					</comma>
 				</articolo>
@@ -291,12 +336,20 @@
 							.
 						</corpo>
 					</comma>
-					<comma id="art6-com4" iniziovigore="t2">
+					<comma finevigore="t3" id="art6-com4-t3" iniziovigore="t2" status="abrogato">
+						<num>4.</num>
+						<corpo>
+							Il termine di cui all'
+							<rif xlink:href="#art5-t3" xlink:type="simple">art. 5</rif>
+							per l'affidamento degli incarichi relativi alle istanze di contributo finanziate per l'anno 1996 è fissato al 30 Novembre 1997.
+						</corpo>
+					</comma>
+					<comma id="art6-com4" iniziovigore="t3">
 						<num>4.</num>
 						<corpo>
 							Il termine di cui all'
 							<rif xlink:href="#art5" xlink:type="simple">art. 5</rif>
-							per l'affidamento degli incarichi relativi alle istanze di contributo finanziate per l'anno 1996 è fissato al 30 Novembre 1997.
+							per l'affidamento degli incarichi relativi alle istanze di contributo, finanziate nell'anno 1996 è differito al 28 febbraio 1998.
 						</corpo>
 					</comma>
 				</articolo>
