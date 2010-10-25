@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19980410" num="12" tipo="BURT" />
 					<entratainvigore norm="19980425" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1998-04-01;20" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1998-04-01;20" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1998-04-01;20@1998-07-31" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Assetto Idrogeologico" />
 					</materie>
@@ -15,11 +16,29 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19980425" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19980807" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-04-01;20" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1998-07-31;43" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-07-31;43" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-07-31;43#art18-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 18, comma 1 della legge Regione Toscana 31 luglio 1998, n. 43" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art5bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -178,7 +197,7 @@
 						<corpo>
 							Il Presidente della Giunta regionale, nei termini indicati dall'
 							<rif xlink:href="urn:nir:stato:decreto.legge:1996-11-12;576#art4-com9" xlink:type="simple">art. 4, comma 9 del DL 12 novembre 1996, n. 576</rif>
-							, effettua la ricognizione di tutti gli immobili suscettibili di recare ostacolo al regolare deflusso delle acque e la trasmette ai comuni interessati i quali provvedono al relativo deposito per un periodo di 30 giorni consecutivi, dandone avviso ai proprietari, i quali possono prendere visione e presentare osservazioni.
+							, effettua la ricognizione di tutti gli immobili suscettibili di recare ostacolo al regolare deflusso delle acque e la trasmette ai comart. 4uni interessati i quali provvedono al relativo deposito per un periodo di 30 giorni consecutivi, dandone avviso ai proprietari, i quali possono prendere visione e presentare osservazioni.
 						</corpo>
 					</comma>
 					<comma id="art5-com2">
@@ -211,6 +230,36 @@
 							La ricognizione può essere rimodulata, con le medesime procedure di cui al presente articolo in seguito alla approvazione di rimodulazioni o integrazioni del piano di cui all'
 							<rif xlink:href="urn:nir:stato:decreto.legge:1996-11-12;576#art6" xlink:type="simple">art. 6 del DL 12 novembre 1996, n. 576</rif>
 							ovvero all'adozione di nuovi piani previsti dalla legge. I provvedimenti di individuazione particolareggiata conseguenti concernono i soli immobili interessati dalla rimodulazione.
+						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art5bis" iniziovigore="t2">
+					<num>Art. 5-bis</num>
+					<rubrica>(Accesso agli immobili e demolizioni in via d'urgenza)</rubrica>
+					<comma id="art5bis-com1">
+						<num>1.</num>
+						<corpo>
+							Nelle more della procedura di individuazione di cui all'
+							<rif xlink:href="#art5" xlink:type="simple">art. 5</rif>
+							, il Presidente della Giunta regionale può autorizzare l'accesso agli immobili compresi nella ricognizione di cui al medesimo
+							<rif xlink:href="#art5bis-com1" xlink:type="simple">art. 5, comma 1</rif>
+							, qualora sia necessario ai fini del rispetto dei termini prescritti per la realizzazione degli interventi di messa in sicurezza da realizzare nell'ambito degli immobili medesimi. A tale fine può avvalersi degli enti locali territorialmente interessati.
+						</corpo>
+					</comma>
+					<comma id="art5bis-com2">
+						<num>2.</num>
+						<corpo>
+							Ove sussistano le condizioni di cui al comma 1, il Presidente della Giunta regionale può altresì ordinare la demolizione degli immobili edificati, previo accertamento del relativo valore con le modalità di cui all'
+							<rif xlink:href="#art4-com2" xlink:type="simple">art. 4, comma 2</rif>
+							. In tali casi, se non provvede il proprietario, la perizia giurata è redatta d'ufficio.
+						</corpo>
+					</comma>
+					<comma id="art5bis-com3">
+						<num>3.</num>
+						<corpo>
+							Ove si proceda ai sensi del presente articolo, al proprietario non è dovuta alcuna indennità ulteriore rispetto al contributo di cui all’
+							<rif xlink:href="#art4" xlink:type="simple">art. 4</rif>
+							.
 						</corpo>
 					</comma>
 				</articolo>
