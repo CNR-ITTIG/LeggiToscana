@@ -8,7 +8,8 @@
 					<entratainvigore norm="19900101" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t8" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1989-07-17;45" />
-					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1989-07-17;45@1997-10-29" />
+					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1989-07-17;45@1997-10-29" />
+					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1989-07-17;45@1998-08-06" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Lavoro" />
 						<materia valore="Formazione" />
@@ -24,6 +25,8 @@
 						<evento data="19900101" fonte="ra5" id="t6" tipo="modifica" />
 						<evento data="19900101" fonte="ra6" id="t7" tipo="modifica" />
 						<evento data="19971120" fonte="rp1" id="t8" tipo="modifica" />
+						<evento data="19980829" fonte="rp2" id="t9" tipo="modifica" />
+						<evento data="19980829" fonte="rp3" id="t10" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1989-07-17;45" xlink:type="simple" />
@@ -34,8 +37,26 @@
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1985-02-21;16" xlink:type="simple" />
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1985-02-21;16" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1997-10-29;78" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1998-08-06;52" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1998-08-06;52" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Articolo abrogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1998-08-06;52#art18" xlink:type="simple">art. 18 della legge regionale 6 agosto 1998, n. 52</rif>
+							, a decorrere dalla data di efficacia del primo piano regionale di cui all'articolo 10 della suddetta legge.
+						</h:p>
+					</nota>
+					<nota id="n2">
+						<h:p>
+							Articolo abrogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1998-08-06;52#art18" xlink:type="simple">art. 18 della legge regionale 6 agosto 1998, n. 52</rif>
+							, a decorrere dalla data di efficacia del primo piano regionale di cui all'articolo 10 della suddetta legge.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:abrogazione completa="si" implicita="no">
@@ -148,6 +169,24 @@
 								<dsp:pos xlink:href="#art3-t8" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:termine da="#t9" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-08-06;52" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-08-06;52#mod4" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:variazione>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:termine da="#t10" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-08-06;52" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-08-06;52#mod5" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:variazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -424,7 +463,10 @@
 						</comma>
 					</articolo>
 					<articolo id="art6">
-						<num>ARTICOLO 6</num>
+						<num>
+							ARTICOLO 6
+							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+						</num>
 						<rubrica>(Strutture territoriali per l'orientamento. Attività)</rubrica>
 						<comma id="art6-com1">
 							<num>1.</num>
@@ -474,7 +516,10 @@
 						</comma>
 					</articolo>
 					<articolo id="art7">
-						<num>ARTICOLO 7</num>
+						<num>
+							ARTICOLO 7
+							<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+						</num>
 						<rubrica>(Strutture territoriali per l'orientamento aperte al pubblico. Organizzazione)</rubrica>
 						<comma id="art7-com1">
 							<num>1.</num>
