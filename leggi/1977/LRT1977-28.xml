@@ -14,7 +14,8 @@
 					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1977-05-06;28@1994-12-02" />
 					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1977-05-06;28@1995-04-06" />
 					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1977-05-06;28@1996-05-02" />
-					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1977-05-06;28@1996-10-29" />
+					<urn finevigore="t11" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1977-05-06;28@1996-10-29" />
+					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1977-05-06;28@1998-08-13" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Contabilità Contratti" />
@@ -32,6 +33,7 @@
 						<evento data="19950429" fonte="rp6" id="t8" tipo="modifica" />
 						<evento data="19960513" fonte="rp7" id="t9" tipo="modifica" />
 						<evento data="19961108" fonte="rp8" id="t10" tipo="modifica" />
+						<evento data="19980908" fonte="rp9" id="t11" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1977-05-06;28" xlink:type="simple" />
@@ -44,6 +46,7 @@
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:1995-04-06;37" xlink:type="simple" />
 						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:1996-05-02;32" xlink:type="simple" />
 						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:1996-10-29;78" xlink:type="simple" />
+						<passiva id="rp9" xlink:href="urn:nir:regione.toscana:legge:1998-08-13;59" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -696,6 +699,18 @@
 							</dsp:norma>
 							<dsp:novella>
 								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art145-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-08-13;59" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-08-13;59#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 13 agosto 1998, n. 59" id="itt47" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art145-com2" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 					</modifichepassive>
@@ -4943,7 +4958,27 @@
 								, e agli eventuali interventi non programmati, sulla base del bilancio pluriennale ed in relazione alle scelte del programma regionale di sviluppo.
 							</corpo>
 						</comma>
-						<comma id="art145-com2">
+						<comma id="art145-com2" iniziovigore="t11">
+							<num />
+							<alinea>Ai fini di cui al comma precedente il rendiconto si completa con il rapporto di gestione che contiene, con riferimento all'anno di rendiconto e ai due esercizi precedenti, i risultati relativi:</alinea>
+							<el id="art145-com2-leta">
+								<num>a)</num>
+								<corpo>alle entrate e alle spese delle gestioni finanziarie e patrimoniali;</corpo>
+							</el>
+							<el id="art145-com2-letb">
+								<num>b)</num>
+								<corpo>allo stato di attuazione delle politiche di intervento con l'indicazione delle risorse stanziate e utilizzate e dai dati di efficacia conseguiti;</corpo>
+							</el>
+							<el id="art145-com2-letc">
+								<num>c)</num>
+								<corpo>al quadro d'insieme dei pagamenti regionali distinti per spese correnti e di investimento e per categorie di soggetti percettori pubblici e privati;</corpo>
+							</el>
+							<el id="art145-com2-letd">
+								<num>d)</num>
+								<corpo>alle spese ed ai costi dei fattori di produzione quali l'amministrazione generale, le politiche del personale, dell'informatica, delle consulenze professionali, degli studi e delle ricerche, specificando per ciascun fattore gli atti amministrativi adottati.</corpo>
+							</el>
+						</comma>
+						<comma id="art145-com3">
 							<num />
 							<corpo>
 								Al rendiconto sono allegati i bilanci delle società a partecipazione regionale, a norma dell'
