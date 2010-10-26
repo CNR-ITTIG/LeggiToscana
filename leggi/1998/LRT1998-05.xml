@@ -8,7 +8,8 @@
 					<entratainvigore norm="19980202" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1998-01-23;5" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1998-01-23;5@1998-03-20" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1998-01-23;5@1998-03-20" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1998-01-23;5@1998-08-06" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Bilancio" />
@@ -18,16 +19,18 @@
 					<eventi>
 						<evento data="19980202" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19980414" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19980814" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-01-23;5" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1998-03-20;15" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1998-08-06;57" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							<dsp:pos xlink:href="#art9-t3" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-03-20;15" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-03-20;15#art5-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -35,10 +38,25 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art9" xlink:type="simple" />
+								<dsp:pos xlink:href="#art9-t3" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art9-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-08-06;57" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-08-06;57#art5-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 1 della legge Regione Toscana 6 agosto 1998, n. 57" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art9-t3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -255,14 +273,14 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art9" iniziovigore="t2">
+				<articolo finevigore="t3" id="art9-t3" iniziovigore="t2" status="abrogato">
 					<num>ARTICOLO 9</num>
 					<rubrica />
-					<comma id="art9-com1">
+					<comma id="art9-t3-com1">
 						<num>1.</num>
 						<corpo>Agli effetti di cui ai commi successivi il disavanzo per l'esercizio 1998 è approvato in L.119.572.000.000.</corpo>
 					</comma>
-					<comma id="art9-com2">
+					<comma id="art9-t3-com2">
 						<num>2.</num>
 						<corpo>
 							La Giunta regionale è autorizzata a contrarre nell'esercizio 1998 mutui e prestiti per l'importo di L. 119.572.000.000 per la copertura del disavanzo di cui al primo comma per le finalità indicate nell'allegato II) 1), così come modificato dal precedente
@@ -270,33 +288,61 @@
 							.
 						</corpo>
 					</comma>
-					<comma id="art9-com3">
+					<comma id="art9-t3-com3">
 						<num>3.</num>
 						<corpo>I mutui di cui al secondo comma, da estinguersi in un periodo non superiore a 20 anni, saranno contratti ad un tasso iniziale massimo del 7,5% effettivo annuo e con ammortamento decorrente quanto a L. 32.000.000.000 dall'1.1.1998 e quanto a L. 87.572.000.000 dall'1.1.1999.</corpo>
 					</comma>
-					<comma id="art9-com4">
+					<comma id="art9-t3-com4">
 						<num>4.</num>
 						<corpo>Gli oneri annui di ammortamento relativi al mutuo di L. 32.000.000.000 determinati in L.3.136.000.000 trovano copertura finanziaria mediante appositi stanziamenti del bilancio 1998; gli oneri derivanti negli anni 1999 e 2000 trovano copertura finanziaria negli appositi stanziamenti del bilancio pluriennale approvato dalla presente legge.</corpo>
 					</comma>
-					<comma id="art9-com5">
+					<comma id="art9-t3-com5">
 						<num>5.</num>
 						<corpo>Gli oneri annui di ammortamento relativi al mutuo di L. 87.572.000.000 determinati in L. 8.564.000.000 trovano copertura finanziaria negli anni 1999 e 2000 negli appositi stanziamenti del bilancio pluriennale approvato dalla presente legge.</corpo>
 					</comma>
-					<comma id="art9-com6">
+					<comma id="art9-t3-com6">
 						<num>6.</num>
 						<corpo>L'eventuale maggiorazione della rata di ammortamento dei mutui di cui al quarto e quinto comma dovuta alla variabilità del tasso o dagli eventuali oneri conseguenti al rischio di cambio, troverà copertura finanziaria con variazione ai bilanci annuali e pluriennali attraverso le singole leggi di bilancio.</corpo>
 					</comma>
-					<comma id="art9-com7">
+					<comma id="art9-t3-com7">
 						<num>7.</num>
 						<corpo>È disposto che le rate di ammortamento relative agli anni seguenti al 2000 trovino copertura con le successive leggi di bilancio.</corpo>
 					</comma>
-					<comma id="art9-com8">
+					<comma id="art9-t3-com8">
 						<num>8.</num>
 						<corpo>
 							La Giunta regionale è altresì autorizzata ad emettere, in sostituzione parziale o totale dei mutui di cui al quinto comma, prestiti obbligazionari, con le modalità previste dalla
 							<rif xlink:href="urn:nir:stato:legge:1994-12-23;724" xlink:type="simple">legge 23 dicembre 1994, n. 724</rif>
 							e successive modificazioni con oneri a carico del bilancio regionale non superiori a quelli indicati al quinto comma.
 						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art9" iniziovigore="t3">
+					<num>ARTICOLO 9</num>
+					<rubrica></rubrica>
+					<comma id="art9-com1">
+						<num>1.</num>
+						<corpo>Agli effetti di cui ai commi successivi il disavanzo per l'esercizio 1998 è approvato in Lire 242.666.261.594=.</corpo>
+					</comma>
+					<comma id="art9-com2">
+						<num>2.</num>
+						<corpo>La Giunta Regionale è autorizzata a contrarre, nell'esercizio 1998 mutui e prestiti per l'importo di Lire 242.666.261.594 per la copertura del disavanzo di cui al primo comma per le finalità indicate nell'allegato II) 1.</corpo>
+					</comma>
+					<comma id="art9-com3">
+						<num>3.</num>
+						<corpo>I mutui di cui al secondo comma, da estinguersi in un periodo non superiore a 15 anni, saranno contratti ad un tasso iniziale massimo del 6% effettivo annuo e con rata di ammortamento decorrente dall'1.1.1999.</corpo>
+					</comma>
+					<comma id="art9-com4">
+						<num>4.</num>
+						<corpo>In caso di eventuale maggiorazione della rata massima di ammortamento determinata in Lire 24.000.000.000= derivante, nel corso dell'ammortamento, dalla variabilità del tasso o dagli eventuali oneri conseguenti al rischio di cambio, saranno apportate le occorrenti variazioni ai bilanci annuale e pluriennale con le singole leggi di bilancio.</corpo>
+					</comma>
+					<comma id="art9-com5">
+						<num>5.</num>
+						<corpo>Gli oneri derivanti negli anni 1999 e 2000 delle singole rate di ammortamento trovano copertura finanziaria mediante gli appositi stanziamenti del bilancio pluriennale approvato dalla legge di bilancio.</corpo>
+					</comma>
+					<comma id="art9-com6">
+						<num>6.</num>
+						<corpo>È disposto che le rate di ammortamento relative agli anni seguenti al 2000 trovino copertura con le successive leggi di bilancio.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art10">

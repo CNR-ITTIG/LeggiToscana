@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19950821" num="53" tipo="BURT" />
 					<entratainvigore norm="19950905" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1995-08-11;85" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1995-08-11;85" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1995-08-11;85@1998-08-06" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Demanio Patrimonio" />
 					</materie>
@@ -15,11 +16,68 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19950905" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19980814" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-08-11;85" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1998-08-06;57" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-08-06;57" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-08-06;57#art6-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 6, comma 1 della legge Regione Toscana 6 agosto 1998, n. 57" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#artunico-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#artunico-com1-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-08-06;57" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-08-06;57#art6-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 6, comma 1 della legge Regione Toscana 6 agosto 1998, n. 57" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#artunico-com2" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-08-06;57" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-08-06;57#art6-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 6, comma 1 della legge Regione Toscana 6 agosto 1998, n. 57" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#artunico-com3" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-08-06;57" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-08-06;57#art6-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 6, comma 1 della legge Regione Toscana 6 agosto 1998, n. 57" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#artunico-com4" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -38,7 +96,7 @@
 			<articolato>
 				<articolo id="artunico">
 					<num>ARTICOLO UNICO</num>
-					<comma id="artunico-com1">
+					<comma finevigore="t2" id="artunico-com1-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>
 							A decorrere dall'1.1.1994, l'imposta regionale sulle concessioni dei beni del demanio marittimo è commisurata al 15 per cento del canone statale di concessione determinato ai sensi dell'
@@ -47,6 +105,30 @@
 							<rif xlink:href="urn:nir:stato:legge:1993-12-04;494" xlink:type="simple">legge 4 dicembre 1993, n. 494</rif>
 							.
 						</corpo>
+					</comma>
+					<comma id="artunico-com1" iniziovigore="t2">
+						<num>1.</num>
+						<corpo>A decorrere dal 1 gennaio 1994 l'imposta sulle concessioni statali dei beni del demanio e del patrimonio indisponibile prevista dall'articolo 2 della legge 16 maggio 1970 n. 281e successive modificazioni, è commisurata, limitatamente alle concessioni demaniali marittime, al quindici per cento del canone statale di concessione.</corpo>
+					</comma>
+					<comma id="artunico-com2" iniziovigore="t2">
+						<num>2.</num>
+						<corpo>Il contributo in favore delle istituzioni culturali di rilievo regionale di cui allaLR 18.2.98, n. 12è elevato per l'anno 1998 di L. 300.000.000.</corpo>
+					</comma>
+					<comma id="artunico-com3" iniziovigore="t2">
+						<num>3.</num>
+						<alinea>Le spese impegnate al 31.12.1998 e per le quali alla scadenza del corrente esercizio la liquidazione risulti non effettuata per inadempimenti e ritardi del soggetto beneficiario che non possono dare luogo immediatamente a pronunciamenti di revoca o di decadenza, sono sottoposte alla seguente procedura a cura dei competenti dipartimenti:</alinea>
+						<el id="artunico-com3-leta">
+							<num>a)</num>
+							<corpo>è inviato entro il 28.2.1999 al soggetto beneficiario un avviso con il quale viene assegnato il termine di 30 giorni per effettuare gli adempimenti che danno titolo alla liquidazione della spesa;</corpo>
+						</el>
+						<el id="artunico-com3-letb">
+							<num>b)</num>
+							<corpo>le somme che alla scadenza del termine di cui alla lettera a) risultino non liquidabili sono revocate con decreto del competente dirigente da notificarsi al soggetto interessato.</corpo>
+						</el>
+					</comma>
+					<comma id="artunico-com4" iniziovigore="t2">
+						<num>4.</num>
+						<corpo>Le disponibilità finanziarie derivanti dal comma precedente sono riutilizzate secondo le vigenti norme di contabilità e nel rispetto dei vincoli di destinazione gravanti sulle correlative entrate.</corpo>
 					</comma>
 				</articolo>
 			</articolato>
