@@ -8,7 +8,8 @@
 					<entratainvigore norm="19950224" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1995-02-01;14" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1995-02-01;14@1996-04-29" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1995-02-01;14@1996-04-29" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1995-02-01;14@1998-08-13" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Finanziamenti" />
 						<materia valore="Beni Culturali" />
@@ -19,11 +20,13 @@
 						<evento data="19950224" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19950224" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="19960503" fonte="rp1" id="t3" tipo="modifica" />
+						<evento data="19980824" fonte="rp2" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-02-01;14" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1991-09-09;46" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1996-04-29;30" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1998-08-13;61" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -64,6 +67,30 @@
 							</dsp:norma>
 							<dsp:novella>
 								<dsp:pos xlink:href="#art9-com5" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com2-letg" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-08-13;61" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-08-13;61#art4-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1 della legge Regione Toscana 13 agosto 1998, n. 61" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com2-leth" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com2-letg" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-08-13;61" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-08-13;61#art4-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1 della legge Regione Toscana 13 agosto 1998, n. 61" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com2-leti" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 					</modifichepassive>
@@ -158,9 +185,41 @@
 						</el>
 						<el id="art2-com2-letf">
 							<num>f)</num>
+							<corpo>la quota percentuale sul totale dei finanziamenti regionali da destinare annualmente ai progetti di interesse regionale.</corpo>
+						</el>
+						<el id="art2-com2-letg">
+							<num>g)</num>
 							<corpo>
-								la quota percentuale sul totale dei finanziamenti regionali da destinare annualmente ai progetti di interesse regionale. g) la misura percentuale relativa al concorso finanziario dei soggetti privati, pubblici e degli Enti locali così come previsto dall'
+								la misura percentuale relativa al concorso finanziario dei soggetti privati, pubblici e degli Enti locali così come previsto dall'
 								<rif xlink:href="#art6" xlink:type="simple">art. 6</rif>
+								.
+							</corpo>
+						</el>
+						<el id="art2-com2-leth" iniziovigore="t4">
+							<num>h)</num>
+							<corpo>
+								La quota percentuale dei finanziamenti che le Province devono destinare agli interventi previsti dalle leggi regionali
+								<rif xlink:href="urn:nir:regione.toscana:legge:1976;33" xlink:type="simple">33/1976</rif>
+								,
+								<rif xlink:href="urn:nir:regione.toscana:legge:1980;11" xlink:type="simple">11/1980</rif>
+								,
+								<rif xlink:href="urn:nir:regione.toscana:legge:1981;12" xlink:type="simple">12/1981</rif>
+								,
+								<rif xlink:href="urn:nir:regione.toscana:legge:1980;89" xlink:type="simple">89/1980</rif>
+								e dall'
+								<rif xlink:href="urn:nir:regione.toscana:legge:1998;61#art3" xlink:type="simple">art. 3 LR 13.08 /1998 n. 61</rif>
+								"Disciplina transitoria per gli interventi nei settori delle attività e dei Beni culturali ed integrazione alla
+								<rif xlink:href="urn:nir:regione.toscana:legge:1995-02-01;14" xlink:type="simple">legge regionale 1 febbraio 1995 n. 14</rif>
+								";
+							</corpo>
+						</el>
+						<el id="art2-com2-leti" iniziovigore="t4">
+							<num>i)</num>
+							<corpo>
+								Le indicazioni per l'utilizzo delle somme non impiegate di cui all'
+								<rif xlink:href="urn:nir:regione.toscana:legge:1997;44#art6-com3" xlink:type="simple">art. 6, comma 3 della legge regionale 44/1997</rif>
+								e all'
+								<rif xlink:href="urn:nir:regione.toscana:legge:1998;28#art6" xlink:type="simple">art. 6 della legge Regionale 28/1998</rif>
 								.
 							</corpo>
 						</el>
