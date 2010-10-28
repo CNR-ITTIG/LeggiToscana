@@ -12,7 +12,8 @@
 					<urn finevigore="t12" iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1994-10-04;81@1995-04-12" />
 					<urn finevigore="t13" iniziovigore="t12" valore="urn:nir:regione.toscana:legge:1994-10-04;81@1996-01-25" />
 					<urn finevigore="t14" iniziovigore="t13" valore="urn:nir:regione.toscana:legge:1994-10-04;81@1996-09-03" />
-					<urn iniziovigore="t14" valore="urn:nir:regione.toscana:legge:1994-10-04;81@1998-06-09" />
+					<urn finevigore="t15" iniziovigore="t14" valore="urn:nir:regione.toscana:legge:1994-10-04;81@1998-06-09" />
+					<urn iniziovigore="t15" valore="urn:nir:regione.toscana:legge:1994-10-04;81@1998-08-13" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Ente Regione" />
@@ -34,6 +35,7 @@
 						<evento data="19960220" fonte="rp3" id="t12" tipo="modifica" />
 						<evento data="19960927" fonte="rp4" id="t13" tipo="modifica" />
 						<evento data="19980619" fonte="rp5" id="t14" tipo="modifica" />
+						<evento data="19980908" fonte="rp6" id="t15" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-10-04;81" xlink:type="simple" />
@@ -50,6 +52,7 @@
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1996-01-25;5" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1996-09-03;75" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1998-06-09;30" xlink:type="simple" />
+						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:1998-08-13;66" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -291,7 +294,7 @@
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art7-com2" xlink:type="simple" />
+							<dsp:pos xlink:href="#art7-t15-com2" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-09-03;75" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-09-03;75#art6-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -924,7 +927,7 @@
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art34-com1" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-09-03;75" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-09-03;75#art23-com2" xlink:type="simple" />
 								<dsp:subarg>
@@ -936,7 +939,7 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art34-com2" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-09-03;75" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-09-03;75#art23-com2" xlink:type="simple" />
 								<dsp:subarg>
@@ -1026,6 +1029,21 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art34-com3-t14" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-08-13;66" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-08-13;66#art33-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 33, comma 1 della legge Regione Toscana 13 agosto 1998, n. 66" id="itt69" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art7" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art7-t15" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -1337,14 +1355,14 @@
 							<corpo>Alle strutture del centro direzionale possono essere assegnate proiezioni di personale organicamente dipendente da dipartimenti funzionali, al fine di garantire uniformità di indirizzo tecnico e di criteri operativi nell'esercizio diffuso di determinati compiti di supporto tecnico- amministrativo. Gli operatori collocati in proiezione sono posti alle dipendenze funzionali della struttura di assegnazione, ferma la dipendenza organica dal dipartimento di appartenenza dal quale ricevono altresì l'indirizzo tecnico-operativo.</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art7">
+					<articolo finevigore="t15" id="art7-t15" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 7</num>
 						<rubrica>(Gli uffici del comitato di controllo e del genio civile)</rubrica>
-						<comma id="art7-com1">
+						<comma id="art7-t15-com1">
 							<num>1.</num>
 							<corpo>Della struttura operativa della Regione fanno parte anche l'ufficio del comitato regionale di controllo sugli atti degli enti locali e gli uffici del genio civile.</corpo>
 						</comma>
-						<comma id="art7-com2">
+						<comma id="art7-t15-com2">
 							<num>2.</num>
 							<corpo>
 								L'ufficio del comitato regionale di controllo è struttura equiparata, sotto il profilo dell'organizzazione interna,
@@ -1363,10 +1381,26 @@
 								.
 							</corpo>
 						</comma>
-						<comma id="art7-com3">
+						<comma id="art7-t15-com3">
 							<num>3.</num>
 							<corpo>
 								Gli uffici del genio civile, costituiti in ogni capoluogo di provincia con le competenze e i rapporti con il centro direzionale stabiliti nell'allegato A della presente legge, sono equiparati ai servizi di cui all'
+								<rif xlink:href="#art4-com4" xlink:type="simple">art. 4, quarto comma</rif>
+								.
+							</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art7" iniziovigore="t15">
+						<num>Art. 7</num>
+						<rubrica>(Uffici del Genio Civile)</rubrica>
+						<comma id="art7-com1">
+							<num>1.</num>
+							<corpo>Della struttura operativa della Regione fanno anche parte gli uffici del Genio Civile, costituiti in ogni capoluogo di provincia con le competenze e i rapporti con il Centro Direzionale stabiliti nell'allegato A alla presente legge.</corpo>
+						</comma>
+						<comma id="art7-com2">
+							<num>2.</num>
+							<corpo>
+								Gli Uffici del Genio Civile sono equiparati ai servizi di cui all'
 								<rif xlink:href="#art4-com4" xlink:type="simple">art. 4, quarto comma</rif>
 								.
 							</corpo>
@@ -1381,7 +1415,7 @@
 								Ciascun dipendente regionale è assegnato dalla Giunta, su proposta dell'ufficio di presidenza per il personale addetto al Consiglio regionale, ad una delle strutture di massima dimensione di cui all'
 								<rif xlink:href="#art3" xlink:type="simple">art. 3</rif>
 								o ad uno degli uffici di cui all'
-								<rif xlink:href="#art7" xlink:type="simple">art. 7</rif>
+								<rif xlink:href="#art7-t15" xlink:type="simple">art. 7</rif>
 								o ad uno degli enti od aziende regionali il cui personale è inquadrato nel ruolo unico regionale.
 							</corpo>
 						</comma>
@@ -1393,7 +1427,7 @@
 								, ad una delle strutture extra dipartimentali di cui all'
 								<rif xlink:href="#art6bis" xlink:type="simple">art. 6 bis</rif>
 								, ad uno degli uffici di cui all'
-								<rif xlink:href="#art7" xlink:type="simple">art. 7</rif>
+								<rif xlink:href="#art7-t15" xlink:type="simple">art. 7</rif>
 								o ad uno degli enti o aziende regionali.
 							</corpo>
 						</comma>
@@ -1463,7 +1497,7 @@
 										commi 1 e 2,
 									</h:span>
 									ed agli uffici di cui all'
-									<rif xlink:href="#art7" xlink:type="simple">art. 7</rif>
+									<rif xlink:href="#art7-t15" xlink:type="simple">art. 7</rif>
 									, una quota parte del bilancio regionale destinata al finanziamento degli atti e dei procedimenti di competenza.
 								</corpo>
 							</el>
@@ -1754,7 +1788,7 @@
 									<mrif>
 										<rif xlink:href="#art3-com2" xlink:type="simple">art. 3, secondo comma</rif>
 										, e dell'
-										<rif xlink:href="#art7-com2" xlink:type="simple">art. 7 secondo comma</rif>
+										<rif xlink:href="#art7-t15-com2" xlink:type="simple">art. 7 secondo comma</rif>
 									</mrif>
 									; coordinatore degli uffici del genio civile ai sensi dell'
 									<rif xlink:href="#ann1" xlink:type="simple">allegato A</rif>
@@ -1792,7 +1826,7 @@
 										commi 2 e 4
 									</h:span>
 									e dell'
-									<rif xlink:href="#art7-com3" xlink:type="simple">art. 7 terzo comma</rif>
+									<rif xlink:href="#art7-t15-com3" xlink:type="simple">art. 7 terzo comma</rif>
 									; posizione individuale equiparata ai sensi dell'
 									<mrif>
 										art. 4,
@@ -1987,7 +2021,7 @@
 							<num>4.</num>
 							<corpo>
 								I compiti propri del coordinatore sono esercitati, in quanto compatibili con le disposizioni della presente legge, anche dai dirigenti responsabili degli uffici di cui all'
-								<rif xlink:href="#art7-com3" xlink:type="simple">art. 7, terzo comma</rif>
+								<rif xlink:href="#art7-t15-com3" xlink:type="simple">art. 7, terzo comma</rif>
 								.
 							</corpo>
 						</comma>
@@ -2214,7 +2248,7 @@
 									, primo e secondo comma.
 								</h:span>
 								o agli uffici di cui all'
-								<rif xlink:href="#art7" xlink:type="simple">art. 7</rif>
+								<rif xlink:href="#art7-t15" xlink:type="simple">art. 7</rif>
 								ovvero agli enti od aziende regionali il cui personale è inquadrato nel ruolo unico del personale regionale.
 							</corpo>
 						</comma>
@@ -2344,7 +2378,7 @@
 							<num>4.</num>
 							<corpo>
 								Le funzioni di responsabilità dirigenziale all'interno degli uffici di cui all'
-								<rif xlink:href="#art7-com3" xlink:type="simple">art. 7, terzo comma</rif>
+								<rif xlink:href="#art7-t15-com3" xlink:type="simple">art. 7, terzo comma</rif>
 								, sono attribuite con deliberazione della Giunta regionale, su proposta, per le funzioni di cui all'
 								<rif xlink:href="#art13-com3-letc" xlink:type="simple">art. 13, terzo comma lett. c)</rif>
 								, del dirigente responsabile dell'ufficio.
@@ -2433,7 +2467,7 @@
 							<num>1.</num>
 							<corpo>
 								Gli incarichi di coordinatore e di responsabile di ufficio di cui all'
-								<rif xlink:href="#art7-com3" xlink:type="simple">art. 7, terzo comma</rif>
+								<rif xlink:href="#art7-t15-com3" xlink:type="simple">art. 7, terzo comma</rif>
 								, hanno durata triennale, possono essere revocati in ogni tempo con provvedimento motivato e sono rinnovabili.
 							</corpo>
 						</comma>
@@ -2547,7 +2581,7 @@
 							<num>1.</num>
 							<corpo>
 								Entro il 31 gennaio di ogni anno, ciascun dirigente presenta una relazione sull'attività svolta nell'anno precedente. La relazione è rimessa al dirigente della struttura sovraordinata, e da questi al coordinatore o al responsabile di ufficio di cui all'
-								<rif xlink:href="#art7-com3" xlink:type="simple">art. 7, terzo comma</rif>
+								<rif xlink:href="#art7-t15-com3" xlink:type="simple">art. 7, terzo comma</rif>
 								.
 							</corpo>
 						</comma>
@@ -2697,7 +2731,7 @@
 							<num>4.</num>
 							<corpo>
 								Determinate strutture interne, nell'ambito delle materie di loro competenza, possono svolgere, su richiesta del comitato tecnico della programmazione, controlli di natura ispettiva riguardanti l'intero centro direzionale e gli uffici di cui all'
-								<rif xlink:href="#art7" xlink:type="simple">art. 7</rif>
+								<rif xlink:href="#art7-t15" xlink:type="simple">art. 7</rif>
 								.
 							</corpo>
 						</comma>
@@ -3063,7 +3097,7 @@
 								<num>a)</num>
 								<corpo>
 									deliberano, all'interno dei dipartimenti, dell'avvocatura e degli uffici di cui all'
-									<rif xlink:href="#art7" xlink:type="simple">art. 7</rif>
+									<rif xlink:href="#art7-t15" xlink:type="simple">art. 7</rif>
 									, le principali strutture o posizioni individuali di cui all'
 									<rif xlink:href="#art4" xlink:type="simple">art. 4</rif>
 									;
