@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19970131" num="4" tipo="BURT" />
 					<entratainvigore norm="19970215" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1997-01-22;7" />
+					<urn finevigore="t8" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1997-01-22;7" />
+					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1997-01-22;7@1998-08-14" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Turismo" />
 					</materie>
@@ -21,6 +22,7 @@
 						<evento data="19970215" fonte="ra4" id="t5" tipo="modifica" />
 						<evento data="19970215" fonte="ra5" id="t6" tipo="modifica" />
 						<evento data="19970215" fonte="ra6" id="t7" tipo="modifica" />
+						<evento data="19980824" fonte="rp1" id="t8" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1997-01-22;7" xlink:type="simple" />
@@ -30,6 +32,7 @@
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1981;79" xlink:type="simple" />
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1987-01-10;1" xlink:type="simple" />
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1987-01-10;1" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1998-08-14;69" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -114,6 +117,20 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-08-14;69" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-08-14;69#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 14 agosto 1998, n. 69" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com5" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -241,6 +258,10 @@
 					<comma id="art4-com4">
 						<num>4.</num>
 						<corpo>In caso di cessione della struttura il titolare o gestore subentrante deve trasmettere alla Provincia la comunicazione dei prezzi solo in caso di variazione di quanto comunicato dal gestore uscente.</corpo>
+					</comma>
+					<comma id="art4-com5" iniziovigore="t8">
+						<num>5.</num>
+						<corpo>I titolari o i gestori delle strutture ricettive, in occasione di ristrutturazioni che comportino sostanziali variazioni dei servizi offerti, possono effettuare contestualmente alla dichiarazione di nuova classificazione, la comunicazione alla Provincia di nuovi prezzi da praticare in conseguenza dell'attribuzione del nuovo livello di classificazione.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art5">
