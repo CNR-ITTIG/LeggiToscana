@@ -12,7 +12,8 @@
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1994-06-29;49@1996-02-22" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1994-06-29;49@1996-03-28" />
 					<urn finevigore="t7" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1994-06-29;49@1997-10-03" />
-					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1994-06-29;49@1998-06-21" />
+					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1994-06-29;49@1998-06-21" />
+					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1994-06-29;49@1998-09-30" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Usl" />
 						<materia valore="Ordinamento" />
@@ -28,6 +29,7 @@
 						<evento data="19971028" fonte="rp4" id="t5" tipo="modifica" />
 						<evento data="19971028" fonte="rp5" id="t6" tipo="modifica" />
 						<evento data="19980815" fonte="rp6" id="t7" tipo="modifica" />
+						<evento data="19981023" fonte="rp7" id="t8" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-06-29;49" xlink:type="simple" />
@@ -37,10 +39,18 @@
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1997-10-03;72" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1997-10-03;72" xlink:type="simple" />
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:1998-06-21;37" xlink:type="simple" />
+						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:1998-09-30;71" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
 					<nota id="n1">
+						<h:p>
+							Le disposizioni della presente legge in contrasto con la
+							<rif xlink:href="urn:nir:regione.toscana:legge:1998-09-30;71" xlink:type="simple">legge regionale 30 settembre 1998, n. 71</rif>
+							, sono da considerarsi abrogate ai sensi dell'art. 35 della stessa.
+						</h:p>
+					</nota>
+					<nota id="n2">
 						<h:p>
 							Si veda l'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1997-10-03;72#art13-com2" xlink:type="simple">art. 13, comma 2, della legge regionale 3 ottobre 1997, n. 72</rif>
@@ -182,6 +192,15 @@
 								<dsp:pos xlink:href="#h1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:termine da="#t8" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-09-30;71" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-09-30;71#mod1" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:variazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -191,7 +210,11 @@
 				<dataDoc norm="19940629">29 giugno 1994</dataDoc>
 				, n.
 				<numDoc>49</numDoc>
-				<titoloDoc>Norme per il riordino del Servizio Sanitario Regionale.</titoloDoc>
+				<titoloDoc>
+					Norme per il riordino del Servizio Sanitario Regionale
+					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					.
+				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 27/28-5-1994</h:p>
@@ -540,7 +563,7 @@
 								. Il funzionamento della conferenza in riferimento all'articolazione zonale è disciplinato dal regolamento di cui al
 								<rif xlink:href="#art6-com2" xlink:type="simple">comma 2</rif>
 								. Ogni articolazione zonale della conferenza elegge il proprio presidente. Il presidente della conferenza presiede anche l'articolazione zonale della quale fa parte il comune ove ricopre la carica di sindaco. L'articolazione zonale rimette all'esecutivo della conferenza dei sindaci osservazioni e proposte sul piano attuativo locale
-								<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+								<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
 								.
 							</corpo>
 						</comma>
