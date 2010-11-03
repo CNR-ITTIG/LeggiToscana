@@ -1,19 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t2" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
-					<pubblicazione norm="" num="" tipo="GU" />
-					<entratainvigore norm="" />
+					<pubblicazione norm="19980904" num="53" tipo="BURT" />
+					<entratainvigore norm="19980919" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1991-08-26;43" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1991-08-26;43" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1991-08-26;43@1998-10-26" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Formazione" />
 						<materia valore="Assistenza Sanitaria" />
 					</materie>
 				</descrittori>
+				<ciclodivita>
+					<eventi>
+						<evento data="19980919" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19981120" fonte="rp1" id="t2" tipo="modifica" />
+					</eventi>
+					<relazioni>
+						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1991-08-26;43" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1998-10-26;74" xlink:type="simple" />
+					</relazioni>
+				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1991-08-26;43" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-10-26;74" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-10-26;74#art15-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 15, comma 2 della legge Regione Toscana 26 ottobre 1998, n. 74" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -47,7 +74,7 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>NATURA DELLE ATTIVITÀ DI FORMAZIONE PERMANENTE</rubrica>
 					<articolo id="art2">
@@ -223,10 +250,10 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>FINANZIAMENTO, PROGRAMMAZIONE, ATTUAZIONE E VERIFICA DELLE ATTIVITÀ' DI FORMAZIONE PERMANENTE</rubrica>
-					<capo id="tit2-cap1">
+					<capo id="LeggeRegionale1-tit2-cap1">
 						<num>Capo I</num>
 						<rubrica>Articolazione Territoriale e Programmazione Pluriennale delle Attività</rubrica>
 						<articolo id="art5">
@@ -312,7 +339,7 @@
 							</comma>
 						</articolo>
 					</capo>
-					<capo id="tit2-cap2">
+					<capo id="LeggeRegionale1-tit2-cap2">
 						<num>CAPO II</num>
 						<rubrica>Programma e Attuazione Annuale delle Attività Formative a Livello Zonale</rubrica>
 						<articolo id="art7">
@@ -556,7 +583,7 @@
 							</comma>
 						</articolo>
 					</capo>
-					<capo id="tit2-cap3">
+					<capo id="LeggeRegionale1-tit2-cap3">
 						<num>CAPO III</num>
 						<rubrica>Programma e Attuazione delle Attività Formative a Carattere Multizonale e Regionale</rubrica>
 						<articolo id="art13">
@@ -689,7 +716,7 @@
 						</articolo>
 					</capo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>TITOLO III</num>
 					<rubrica>ORGANIZZAZIONE DELLE ATTIVITÀ DI INFORMAZIONE PERMANENTE</rubrica>
 					<articolo id="art15">
@@ -969,7 +996,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit4">
+				<titolo id="LeggeRegionale1-tit4">
 					<num>TITOLO IV</num>
 					<rubrica>DISPOSIZIONI GENERALI E FINALI</rubrica>
 					<articolo id="art21">

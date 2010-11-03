@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t2" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19860326" num="15" tipo="BURT" />
 					<entratainvigore norm="19860410" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1986-03-24;13" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1986-03-24;13" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1986-03-24;13@1998-10-26" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Formazione" />
 						<materia valore="Assistenza Sanitaria" />
@@ -16,11 +17,40 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19860410" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19981120" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1986-03-24;13" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1998-10-26;74" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="LeggeRegionale1-n1">
+						<h:p>
+							L'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1998-10-26;74#art15-com3" xlink:type="simple">art. 15, comma 3, della legge regionale 26 ottobre 1998, n. 74</rif>
+							, abrogativo della presente legge stabilisce inoltre che le relative attività sono ricondotte al campo di applicazione della
+							<rif xlink:href="urn:nir:regione.toscana:legge:1994-08-31;70" xlink:type="simple">LR 31 agosto 1994, n. 70</rif>
+							tenuto conto delle specifiche norme transitorie contenute nell’art. 16.
+						</h:p>
+					</nota>
+				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1986-03-24;13" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-10-26;74" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-10-26;74#art15-com3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 15, comma 3 della legge Regione Toscana 26 ottobre 1998, n. 74" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -28,7 +58,11 @@
 				<dataDoc norm="19860324">24 marzo 1986</dataDoc>
 				, n.
 				<numDoc>13</numDoc>
-				<titoloDoc>Disciplina per l'autorizzazione dei corsi per le arti sanitarie di ottico, odontotecnico, meccanico ortopedico.</titoloDoc>
+				<titoloDoc>
+					Disciplina per l'autorizzazione dei corsi per le arti sanitarie di ottico, odontotecnico, meccanico ortopedico
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
+					.
+				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 25-2-1986</h:p>
