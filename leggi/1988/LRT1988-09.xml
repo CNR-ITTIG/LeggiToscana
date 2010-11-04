@@ -12,7 +12,8 @@
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1988-02-23;9@1989-11-18" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1988-02-23;9@1990-01-18" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1988-02-23;9@1995-07-19" />
-					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1988-02-23;9@1997-04-14" />
+					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1988-02-23;9@1997-04-14" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1988-02-23;9@1998-11-18" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Turismo" />
 					</materie>
@@ -25,6 +26,7 @@
 						<evento data="19900209" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="19950817" fonte="rp4" id="t5" tipo="modifica" />
 						<evento data="19970506" fonte="rp5" id="t6" tipo="modifica" />
+						<evento data="19981127" fonte="rp6" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1988-02-23;9" xlink:type="simple" />
@@ -33,6 +35,7 @@
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1990-01-18;3" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1995-07-19;80" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1997-04-14;28" xlink:type="simple" />
+						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:1998-11-18;84" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -40,6 +43,13 @@
 						<h:p>
 							Per l'interpretazione autentica della presente lettera si veda la
 							<rif xlink:href="urn:nir:regione.toscana:legge:1988-11-07;81" xlink:type="simple">legge regionale 7 novembre 1988, n. 81</rif>
+							.
+						</h:p>
+					</nota>
+					<nota id="n2">
+						<h:p>
+							Si veda in seguito la
+							<rif xlink:href="urn:nir:regione.toscana:legge:1998-11-18;84" xlink:type="simple">Legge Regionale 18 novembre 1998, n. 84</rif>
 							.
 						</h:p>
 					</nota>
@@ -199,6 +209,15 @@
 								<dsp:pos xlink:href="#art6-t6" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:termine da="#t7" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-11-18;84" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-11-18;84#mod1" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:variazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -780,7 +799,10 @@
 					</comma>
 				</articolo>
 				<articolo id="art15">
-					<num>ARTICOLO 15</num>
+					<num>
+						ARTICOLO 15
+						<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+					</num>
 					<rubrica>(Il Consiglio di Amministrazione)</rubrica>
 					<comma finevigore="t2" id="art15-com1-t2" iniziovigore="t1" status="abrogato">
 						<num>1.</num>
