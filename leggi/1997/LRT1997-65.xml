@@ -8,7 +8,8 @@
 					<entratainvigore norm="19970905" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t10" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1997-08-11;65" />
-					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1997-08-11;65@1997-10-17" />
+					<urn finevigore="t11" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1997-08-11;65@1997-10-17" />
+					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1997-08-11;65@1998-11-18" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Parchi" />
 					</materie>
@@ -25,6 +26,7 @@
 						<evento data="19970905" fonte="ra7" id="t8" tipo="modifica" />
 						<evento data="19970905" fonte="ra8" id="t9" tipo="modifica" />
 						<evento data="19971022" fonte="rp1" id="t10" tipo="modifica" />
+						<evento data="19981212" fonte="rp2" id="t11" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1997-08-11;65" xlink:type="simple" />
@@ -37,8 +39,18 @@
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:1994;24" xlink:type="simple" />
 						<attiva id="ra8" xlink:href="urn:nir:regione.toscana:legge:1994;52" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1997-10-17;73" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1998-11-18;81" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Per una successiva variazione del territorio del parco, si veda poi la
+							<rif xlink:href="urn:nir:regione.toscana:legge:1998-11-18;81" xlink:type="simple">Legge Regionale 18 novembre 1998, n. 81</rif>
+							.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:variazione completa="si" implicita="no">
@@ -136,6 +148,15 @@
 								<dsp:pos xlink:href="#h1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:termine da="#t11" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-11-18;81" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-11-18;81#mod1" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:variazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -158,7 +179,10 @@
 					<num>TITOLO I</num>
 					<rubrica>DISPOSIZIONI SULL'ORGANIZZAZIONE</rubrica>
 					<articolo id="art1">
-						<num>ARTICOLO 1</num>
+						<num>
+							ARTICOLO 1
+							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+						</num>
 						<rubrica>(Istituzione dell'Ente "Parco Regionale delle Alpi Apuane")</rubrica>
 						<comma id="art1-com1">
 							<num>1.</num>
