@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t6" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19951201" num="74" tipo="BURT" />
@@ -10,7 +10,8 @@
 					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1995-11-22;100" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1995-11-22;100@1997-02-12" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1995-11-22;100@1997-07-16" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1995-11-22;100@1998-07-31" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1995-11-22;100@1998-07-31" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1995-11-22;100@1998-11-03" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Edilizia" />
 					</materie>
@@ -22,6 +23,7 @@
 						<evento data="19970306" fonte="rp1" id="t3" tipo="modifica" />
 						<evento data="19970726" fonte="rp2" id="t4" tipo="modifica" />
 						<evento data="19980807" fonte="rp3" id="t5" tipo="modifica" />
+						<evento data="19981127" fonte="rp4" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-11-22;100" xlink:type="simple" />
@@ -29,10 +31,11 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1997-02-12;11" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1997-07-16;51" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1998-07-31;46" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1998-11-03;77" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Si veda prima la
 							<rif xlink:href="urn:nir:regione.toscana:legge:1997-02-12;11" xlink:type="simple">legge regionale 12 febbraio 1997, n. 11</rif>
@@ -82,6 +85,18 @@
 								<dsp:testo valore="" />
 							</dsp:dominio>
 						</dsp:variazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1995-11-22;100" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-11-03;77" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-11-03;77#art10-com1-letc" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 10, comma 1, lettera c) della legge Regione Toscana 3 novembre 1998, n. 77" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -107,7 +122,7 @@
 				<articolo id="art1">
 					<num>
 						ARTICOLO 1
-						<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+						<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 					</num>
 					<rubrica>(Proroga)</rubrica>
 					<comma id="art1-com1">
