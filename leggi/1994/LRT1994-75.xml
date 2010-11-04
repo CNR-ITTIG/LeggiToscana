@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t3" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19941026" num="68" tipo="BURT" />
 					<entratainvigore norm="19941110" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1994-10-17;75" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1994-10-17;75@1995-04-11" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1994-10-17;75@1995-04-11" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1994-10-17;75@1998-11-03" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Opere Pubbliche" />
 						<materia valore="Controlli" />
@@ -19,12 +20,23 @@
 					<eventi>
 						<evento data="19941110" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19950418" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19981127" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-10-17;75" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-04-11;48" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1998-11-03;78" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="LeggeRegionale1-n1">
+						<h:p>
+							La presente legge è stata abrogata dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1998-11-03;78#art40" xlink:type="simple">art. 40 della legge regionale 3 novembre 1998, n. 78</rif>
+							, salvo qunato disposto dagli artt. 38 e 39 della stessa.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -132,6 +144,18 @@
 								<dsp:pos xlink:href="#h5" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1994-10-17;75" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-11-03;78" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-11-03;78#art40-com1-letd" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 40, comma 1, lettera d) della legge Regione Toscana 3 novembre 1998, n. 78" id="itt8" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -146,6 +170,7 @@
 					<h:span id="h2" iniziovigore="t2">
 						Norme speciali per l'individuazione dei siti di cava di prestito necessari alla realizzazione delle opere pubbliche di cui ad accordi di programma Stato-Regione, nonché delle opere pubbliche di interesse statale di cui al
 						<rif xlink:href="urn:nir:presidente.repubblica:decreto:1994-04-18;383" xlink:type="simple">DPR 18-4-1994, n. 383</rif>
+						<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 						.
 					</h:span>
 				</titoloDoc>
