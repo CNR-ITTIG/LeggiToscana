@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t8" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1989-07-17;45" />
 					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1989-07-17;45@1997-10-29" />
-					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1989-07-17;45@1998-08-06" />
+					<urn finevigore="t11" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1989-07-17;45@1998-08-06" />
+					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1989-07-17;45@1998-11-26" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Lavoro" />
 						<materia valore="Formazione" />
@@ -27,6 +28,7 @@
 						<evento data="19971120" fonte="rp1" id="t8" tipo="modifica" />
 						<evento data="19980829" fonte="rp2" id="t9" tipo="modifica" />
 						<evento data="19980829" fonte="rp3" id="t10" tipo="modifica" />
+						<evento data="19981219" fonte="rp4" id="t11" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1989-07-17;45" xlink:type="simple" />
@@ -39,6 +41,7 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1997-10-29;78" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1998-08-06;52" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1998-08-06;52" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1998-11-26;85" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -187,6 +190,18 @@
 								<dsp:testo valore="" />
 							</dsp:dominio>
 						</dsp:variazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-11-26;85" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-11-26;85#art32-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 32, comma 1 della legge Regione Toscana 26 novembre 1998, n. 85" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art8-com3-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -557,7 +572,7 @@
 							<num>2.</num>
 							<corpo>La Giunta Regionale realizza attività sperimentali di orientamento, gestendole direttamente o mediante convenzioni con l'Università, o con altre istituzioni scientifiche di ricerca pubbliche o private, od eventualmente anche avvalendosi degli uffici degli Enti delegati.</corpo>
 						</comma>
-						<comma id="art8-com3">
+						<comma finevigore="t11" id="art8-com3-t11" iniziovigore="t1" status="abrogato">
 							<num>3.</num>
 							<corpo>La Giunta Regionale cura la periodica attività di aggiornamento degli operatori di orientamento professionale.</corpo>
 						</comma>
