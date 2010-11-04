@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t4" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19921228" num="73 Supplemento Straordinario n. 271" tipo="BURT" />
 					<entratainvigore norm="19930112" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1992-12-17;56" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1992-12-17;56@1997-01-15" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1992-12-17;56@1997-01-15" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1992-12-17;56@1998-11-18" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Enti Territoriali" />
@@ -19,11 +20,13 @@
 						<evento data="19930112" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19930112" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="19970208" fonte="rp1" id="t3" tipo="modifica" />
+						<evento data="19981212" fonte="rp2" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1992-12-17;56" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1990-03-31;30" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1997-01-15;1" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1998-11-18;82" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -55,6 +58,18 @@
 								<dsp:pos xlink:href="#h1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1992-12-17;56" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-11-18;82" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-11-18;82#art11-com1-pun1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 11, comma 1, 1 della legge Regione Toscana 18 novembre 1998, n. 82" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
