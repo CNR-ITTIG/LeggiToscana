@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19960708" num="38" tipo="BURT" />
 					<entratainvigore norm="19960708" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1996-06-28;48" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1996-06-28;48" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1996-06-28;48@1998-11-26" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organi" />
 						<materia valore="Demanio Patrimonio" />
@@ -17,11 +18,32 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19960708" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19981207" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1996-06-28;48" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1998-11-26;86" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-11-26;86" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-11-26;86#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 26 novembre 1998, n. 86" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-com1-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -87,15 +109,19 @@
 				<articolo id="art3">
 					<num>ARTICOLO 3</num>
 					<rubrica>(Durata della gestione commissariale)</rubrica>
-					<comma id="art3-com1">
+					<comma finevigore="t2" id="art3-com1-t2" iniziovigore="t1" status="abrogato">
 						<num>1.</num>
 						<corpo>Il Commissario straordinario esercita il proprio mandato nel termine di due anni dalla nomina.</corpo>
+					</comma>
+					<comma id="art3-com1" iniziovigore="t2">
+						<num>1.</num>
+						<corpo>Il Commissario straordinario esercita il proprio mandato nel termine del 31/12/1999.</corpo>
 					</comma>
 					<comma id="art3-com2">
 						<num>2.</num>
 						<corpo>
 							Ultimata la liquidazione o, comunque, decorso il termine di cui al
-							<rif xlink:href="#art3-com1" xlink:type="simple">comma 1</rif>
+							<rif xlink:href="#art3-com1-t2" xlink:type="simple">comma 1</rif>
 							, gli eventuali beni residui confluiscono nel patrimonio della Regione.
 						</corpo>
 					</comma>
