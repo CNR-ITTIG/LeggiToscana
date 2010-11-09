@@ -10,7 +10,8 @@
 					<urn finevigore="t4" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1991-05-16;20" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1991-05-16;20@1995-04-06" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1991-05-16;20@1997-01-29" />
-					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1991-05-16;20@1997-04-24" />
+					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1991-05-16;20@1997-04-24" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1991-05-16;20@1999-01-20" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Demanio Patrimonio" />
@@ -24,6 +25,7 @@
 						<evento data="19950429" fonte="rp1" id="t4" tipo="modifica" />
 						<evento data="19970222" fonte="rp2" id="t5" tipo="modifica" />
 						<evento data="19970520" fonte="rp3" id="t6" tipo="modifica" />
+						<evento data="19990213" fonte="rp4" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1991-05-16;20" xlink:type="simple" />
@@ -32,6 +34,7 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-04-06;41" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1997-01-29;9" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1997-04-24;29" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1999-01-20;2" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -483,6 +486,21 @@
 								<dsp:pos xlink:href="#art21-com4" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-01-20;2" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-01-20;2#art11-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 11, comma 1 della legge Regione Toscana 20 gennaio 1999, n. 2" id="itt30" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art6-com1-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -661,9 +679,13 @@
 					<articolo id="art6">
 						<num>ARTICOLO 6</num>
 						<rubrica>(Passaggio dei beni del demanio al patrimonio)</rubrica>
-						<comma id="art6-com1">
+						<comma finevigore="t7" id="art6-com1-t7" iniziovigore="t1" status="abrogato">
 							<num>1.</num>
 							<corpo>Il passaggio dei beni alla categoria del demanio a quella del patrimonio e dalla categoria del patrimonio indisponibile a quella del patrimonio disponibile è deliberato dalla Giunta regionale, sentita la competente Commissione consiliare, quando i beni medesimi non siano più necessari all'uso pubblico.</corpo>
+						</comma>
+						<comma id="art6-com1" iniziovigore="t7">
+							<num>1.</num>
+							<corpo>Il passaggio dei beni dalla categoria del demanio a quella del patrimonio e dalla categoria del patrimonio indisponibile a quella del patrimonio disponibile è deliberato dalla Giunta regionale, quando i beni medesimi non siano più necessari all'uso pubblico.</corpo>
 						</comma>
 						<comma id="art6-com2">
 							<num>2.</num>
