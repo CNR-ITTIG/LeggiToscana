@@ -8,7 +8,8 @@
 					<entratainvigore norm="19940128" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1994-01-12;3" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1994-01-12;3@1997-08-04" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1994-01-12;3@1997-08-04" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1994-01-12;3@1999-02-12" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Fauna" />
 						<materia valore="Caccia" />
@@ -18,10 +19,12 @@
 					<eventi>
 						<evento data="19940128" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19970824" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19990309" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-01-12;3" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1997-08-04;58" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1999-02-12;7" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -46,6 +49,33 @@
 								<dsp:pos xlink:href="#h1" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art28" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-02-12;7" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-02-12;7#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 12 febbraio 1999, n. 7" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art28-com12" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art30-com10" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-02-12;7" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-02-12;7#art1-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2 della legge Regione Toscana 12 febbraio 1999, n. 7" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art30-com10" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art30-com10-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -1539,6 +1569,10 @@
 							<num>11.</num>
 							<corpo>A partire dalla stagione venatoria 1995-96 i calendari venatori delle province devono indicare le zone dove l'attività  venatoria è consentita in forma programmata, quelle riservate alla gestione venatoria privata e le zone dove l'esercizio venatorio non è consentito.</corpo>
 						</comma>
+						<comma id="art28-com12" iniziovigore="t3">
+							<num>12.</num>
+							<corpo>Nelle aziende agrituristico venatorie non è necessario il possesso del tesserino per l'esercizio dell'attività venatoria.</corpo>
+						</comma>
 					</articolo>
 					<articolo id="art29">
 						<num>ARTICOLO 29</num>
@@ -1665,9 +1699,13 @@
 							<num>9.</num>
 							<corpo>Le Province determinano le zone per l'addestramento e l'allenamento dei cani nel periodo intercorrente tra il 15 agosto e il giovedì precedente la terza domenica di settembre, con esclusione dei giorni di caccia in eventuale periodo di caccia aperta, pubblicando i relativi elenchi.</corpo>
 						</comma>
-						<comma id="art30-com10">
+						<comma finevigore="t3" id="art30-com10-t3" iniziovigore="t1" status="abrogato">
 							<num>10.</num>
 							<corpo>L'orario giornaliero per l'addestramento e l'allenamento dei cani è indicato nel calendario venatorio.</corpo>
+						</comma>
+						<comma id="art30-com10" iniziovigore="t3">
+							<num>10.</num>
+							<corpo>l'allenamento e l'addestramento dei cani si svolge nei giorni di martedì, giovedì, sabato e domenica. Il calendario venatorio fissa gli orari giornalieri.</corpo>
 						</comma>
 						<comma id="art30-com11">
 							<num>11.</num>
