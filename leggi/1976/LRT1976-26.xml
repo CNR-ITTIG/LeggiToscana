@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19760625" num="32" tipo="BURT" />
 					<entratainvigore norm="19760710" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1976-06-16;26" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1976-06-16;26" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1976-06-16;26@1999-02-23" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sicurezza" />
 						<materia valore="Assistenza Sanitaria" />
@@ -16,9 +17,11 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19760710" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19990320" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1976-06-16;26" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1999-02-23;8" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -29,6 +32,13 @@
 							limita l'applicazione della presente normativa a gabinetti di analisi chimiche a scopo diagnostico, gabinetti ove s'impiegano a scopo diagnostico sostanze radioattive e, infine, gabinetti di analisi radiologiche a scopo diagnostico.
 						</h:p>
 					</nota>
+					<nota id="n2">
+						<h:p>
+							Il testo storico dell'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1999-02-23;8#art21" xlink:type="simple">art. 21 della Legge Regionale 23 febbraio 1999 n. 8</rif>
+							dispone l'abrogazione dell'intero testo della presente legge dall'esecutività della deliberazione con cui il Consiglio Regionale definisce, al fine di dettare una disciplina uniforme su tutto il territorio regionale, i requisiti strutturali, tecnologici ed organizzativi generali e specifici delle strutture pubbliche e private per l'esercizio delle diverse tipologie di attività sanitarie.
+						</h:p>
+					</nota>
 				</redazionale>
 			</meta>
 			<intestazione>
@@ -37,10 +47,7 @@
 				<dataDoc norm="19760616">16 giugno 1976</dataDoc>
 				, n.
 				<numDoc>26</numDoc>
-				<titoloDoc>
-					Norme di salvaguardia per il rilascio di autorizzazioni ad aprire, porre in esercizio, ampliare servizi diagnostici e ambulatoriali extraospedalieri.
-					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
-				</titoloDoc>
+				<titoloDoc>Norme di salvaguardia per il rilascio di autorizzazioni ad aprire, porre in esercizio, ampliare servizi diagnostici e ambulatoriali extraospedalieri.</titoloDoc>
 			</intestazione>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 11-5-1976</h:p>
@@ -50,7 +57,11 @@
 			</formulainiziale>
 			<articolato>
 				<articolo id="artunico">
-					<num>ARTICOLO UNICO</num>
+					<num>
+						ARTICOLO UNICO
+						<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+						<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+					</num>
 					<comma id="artunico-com1">
 						<num />
 						<corpo>Il consiglio regionale, entro sei mesi dall'entrata in vigore della presente legge, fissa i criteri per il rilascio delle autorizzazioni ad aprire, porre in esercizio o ampliare ambulatori, gabinetti di analisi per il pubblico a scopo di accertamento diagnostico, stabilimenti di cure fisiche di ogni genere, nonchè istituti, gabinetti medici e ambulatori ove si impiegano, anche saltuariamente, sostanze radioattive naturali o artificiali a scopo terapeutico o diagnostico, ovvero apparecchi contenenti dette sostanze ed apparecchi generatori di radiazioni ionizzanti a scopo terapeutico.</corpo>
