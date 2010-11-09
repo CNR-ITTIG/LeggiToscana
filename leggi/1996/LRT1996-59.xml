@@ -8,7 +8,8 @@
 					<entratainvigore norm="19960823" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1996-07-29;59" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1996-07-29;59@1998-02-06" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1996-07-29;59@1998-02-06" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1996-07-29;59@1999-01-26" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Programmazione" />
 						<materia valore="Organizzazioni Pubbliche" />
@@ -22,6 +23,7 @@
 						<evento data="19961022" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="19961022" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="19980303" fonte="rp1" id="t5" tipo="modifica" />
+						<evento data="19990205" fonte="rp2" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1996-07-29;59" xlink:type="simple" />
@@ -29,6 +31,7 @@
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1980-05-29;74" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1985-05-02;49" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1998-02-06;10" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1999-01-26;3" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -161,15 +164,28 @@
 								<dsp:pos xlink:href="#art18-com3bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art11-com2bis" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-01-26;3" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-01-26;3#art7-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 7, comma 1 della legge Regione Toscana 26 gennaio 1999, n. 3" id="itt8" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art11-com2bis-letc" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
-				<tipoDoc />
-				<dataDoc norm="19960729">29 luglio 1996</dataDoc>
-				<titoloDoc>Ordinamento dell'Istituto regionale per la programmazione economica della Toscana (IRPET).</titoloDoc>
-				<numDoc>59</numDoc>
 				<emanante>Regione Toscana</emanante>
+				<tipoDoc>Legge Regionale</tipoDoc>
+				<dataDoc norm="19960729">29 luglio 1996</dataDoc>
+				, n.
+				<numDoc>59</numDoc>
+				<titoloDoc>Ordinamento dell'Istituto regionale per la programmazione economica della Toscana (IRPET).</titoloDoc>
 			</intestazione>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 18-6-1996</h:p>
@@ -522,6 +538,10 @@
 						<el id="art11-com2bis-letb">
 							<num>b)</num>
 							<corpo>per l'iscrizione delle relative spese in capitoli, specificamente elencati e anche relativi a spese generali, che attengono alla realizzazione dei suddetti studi, ricerche e consulenze.</corpo>
+						</el>
+						<el id="art11-com2bis-letc" iniziovigore="t6">
+							<num>c)</num>
+							<corpo>per integrazione di fondi a favore di capitoli per spese obbligatorie mediante prelevamento dal fondo di riserva per spese obbligatorie.</corpo>
 						</el>
 						<coda>Il Consiglio di amministrazione dell'IRPET adotta le variazioni di bilancio di cui al presente comma e le trasmette alla Giunta regionale, che provvede a darne tempestiva comunicazione al Consiglio regionale e a curarne la pubblicazione nel Bollettino Ufficiale della Regione.</coda>
 					</comma>

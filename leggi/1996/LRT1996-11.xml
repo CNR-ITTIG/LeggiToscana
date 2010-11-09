@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1996-02-07;11" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1996-02-07;11@1997-03-05" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1996-02-07;11@1998-08-13" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1996-02-07;11@1998-08-13" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1996-02-07;11@1999-01-26" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organizzazioni Pubbliche" />
 						<materia valore="Imprese" />
@@ -21,11 +22,13 @@
 						<evento data="19960302" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19970329" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19980908" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="19990205" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1996-02-07;11" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1997-03-05;17" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1998-08-13;67" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1999-01-26;3" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -33,6 +36,8 @@
 						<h:p>
 							Relativamente l'applicazione delle disposizioni della presente legge si veda l'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1998-08-13;67#art6" xlink:type="simple">art. 6 della legge regionale 13 agosto 1998, n. 67</rif>
+							.La presente legge inoltre è stata ulteriormente prorogata per l'anno 1999 dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1999-01-26;3#art14-com1" xlink:type="simple">art. 14, comma 1 della legge regionale 26 gennaio 1999, n. 3</rif>
 							.
 						</h:p>
 					</nota>
@@ -69,7 +74,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art13-com2" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-03-05;17" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-03-05;17#art2-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -183,7 +188,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art10" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-08-13;67" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-08-13;67#art4-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -195,7 +200,7 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art16-com2" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-08-13;67" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-08-13;67#art4-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -230,6 +235,12 @@
 								<dsp:pos xlink:href="#art15ter" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:proroga completa="si" implicita="no" su="efficacia">
+							<dsp:termine da="#t4" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-01-26;3" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-01-26;3#mod6" xlink:type="simple" />
+							</dsp:norma>
+						</dsp:proroga>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -589,7 +600,7 @@
 							<num>Art. 15 bis</num>
 							<comma id="art15bis-com1">
 								<num>1.</num>
-								<corpo>La Fidi Toscana SpA è autorizzata ad erogare i contributi di cui al Programma attuativo regionale approvato dalla Giunta regionale in esecuzione del punto 10 della Deliberazione CIPE dell'8.8.1996, nel rispetto delle modalità stabilite dal programma stesso."</corpo>
+								<corpo>La Fidi Toscana SpA è autorizzata ad erogare i contributi di cui al Programma attuativo regionale approvato dalla Giunta regionale in esecuzione del punto 10 della Deliberazione CIPE dell'8.8.1996, nel rispetto delle modalità stabilite dal programma stesso.</corpo>
 							</comma>
 						</articolo>
 						<articolo id="art15ter" iniziovigore="t3">

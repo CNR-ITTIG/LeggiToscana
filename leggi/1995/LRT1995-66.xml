@@ -8,7 +8,8 @@
 					<entratainvigore norm="19950513" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t16" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1995-04-18;66" />
-					<urn iniziovigore="t16" valore="urn:nir:regione.toscana:legge:1995-04-18;66@1996-03-28" />
+					<urn finevigore="t17" iniziovigore="t16" valore="urn:nir:regione.toscana:legge:1995-04-18;66@1996-03-28" />
+					<urn iniziovigore="t17" valore="urn:nir:regione.toscana:legge:1995-04-18;66@1999-01-26" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tutela Ambientale" />
 						<materia valore="Organizzazioni Pubbliche" />
@@ -33,6 +34,7 @@
 						<evento data="19950513" fonte="ra13" id="t14" tipo="modifica" />
 						<evento data="19950513" fonte="ra14" id="t15" tipo="modifica" />
 						<evento data="19960424" fonte="rp1" id="t16" tipo="modifica" />
+						<evento data="19990205" fonte="rp2" id="t17" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-04-18;66" xlink:type="simple" />
@@ -51,6 +53,7 @@
 						<attiva id="ra13" xlink:href="urn:nir:regione.toscana:legge:1983;69" xlink:type="simple" />
 						<attiva id="ra14" xlink:href="urn:nir:regione.toscana:legge:1983;69" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1996-03-28;26" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1999-01-26;3" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -344,6 +347,36 @@
 								<dsp:pos xlink:href="#art24-com3bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art25-com1-leta" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-01-26;3" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-01-26;3#art9-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 9, comma 1 della legge Regione Toscana 26 gennaio 1999, n. 3" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art25-com1-leta" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art25-com1-leta-t17" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art25-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-01-26;3" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-01-26;3#art9-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 9, comma 2 della legge Regione Toscana 26 gennaio 1999, n. 3" id="itt8" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art25-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art25-com2-t17" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -1498,9 +1531,13 @@
 						<comma id="art25-com1">
 							<num>1.</num>
 							<alinea>Le entrate dell'ARPAT sono costituite da:</alinea>
-							<el id="art25-com1-leta">
+							<el finevigore="t17" id="art25-com1-leta-t17" iniziovigore="t1" status="abrogato">
 								<num>a)</num>
 								<corpo>una quota del fondo sanitario, erogata a titolo di avviamento, determinata secondo parametri fissati dalla Giunta regionale in relazione al numero dei posti delle dotazioni organiche dei presidi multizonali di prevenzione e dei servizi di igiene pubblica trasferiti all'ARPAT, alle relative spese per beni e servizi, nonché ai livelli delle prestazioni tecnico- laboratoristiche erogate;</corpo>
+							</el>
+							<el id="art25-com1-leta" iniziovigore="t17">
+								<num>a)</num>
+								<corpo>una quota del Fondo Sanitario Regionale;</corpo>
 							</el>
 							<el id="art25-com1-letb">
 								<num>b)</num>
@@ -1523,7 +1560,7 @@
 								<corpo>proventi derivanti da informazioni specialistiche fornite a terzi in forma di consulenza.</corpo>
 							</el>
 						</comma>
-						<comma id="art25-com2">
+						<comma finevigore="t17" id="art25-com2-t17" iniziovigore="t1" status="abrogato">
 							<num>2.</num>
 							<corpo>
 								Le entrate di cui alle
@@ -1535,6 +1572,14 @@
 									del comma 1
 								</mrif>
 								sono determinate sulla base degli accordi di programma e delle convenzioni di cui all'
+								<rif xlink:href="#art5" xlink:type="simple">art. 5</rif>
+								.
+							</corpo>
+						</comma>
+						<comma id="art25-com2" iniziovigore="t17">
+							<num>2.</num>
+							<corpo>
+								Ai fini della determinazione della quota del Fondo Sanitario Regionale, di cui alla lettera a) del comma 1, da assegnare all'ARPAT per tutte le funzioni trasferite dalla Regione e dalle Aziende USL, comprese le spese di personale beni e servizi, è determinata, a partire dall'esercizio 1999, nella misura dello 0,75% del Fondo Sanitario Nazionale assegnato alla Regione Toscana al netto delle compensazioni interregionali. Le entrate di cui alle lettere b) e d) del comma 1 sono determinate sulla base degli accordi di programma e delle convenzioni di cui all'
 								<rif xlink:href="#art5" xlink:type="simple">art. 5</rif>
 								.
 							</corpo>
@@ -1809,7 +1854,7 @@
 							<num>3.</num>
 							<corpo>
 								In fase di prima attuazione le quote di cui alla
-								<rif xlink:href="#art25-com1-leta" xlink:type="simple">lett. a) del comma primo dell'art. 25</rif>
+								<rif xlink:href="#art25-com1-leta-t17" xlink:type="simple">lett. a) del comma primo dell'art. 25</rif>
 								sono calcolate sulla base della ripartizione alla data del 31.12.1994. Tali quote sono considerate a copertura dei costi sostenuti per le prestazioni di cui al
 								<rif xlink:href="#art6-com3" xlink:type="simple">comma terzo dell'art. 6</rif>
 								, erogate dall'ARPAT in favore delle Aziende unità sanitarie locali.

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19981112" num="37" tipo="BURT" />
 					<entratainvigore norm="19981127" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1998-11-03;77" />
+					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1998-11-03;77" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1998-11-03;77@2010-11-08" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Edilizia" />
 					</materie>
@@ -18,12 +19,14 @@
 						<evento data="19981127" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="19981127" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="19981127" fonte="ra3" id="t4" tipo="modifica" />
+						<evento data="19981231" fonte="rp1" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-11-03;77" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1986-11-03;49" xlink:type="simple" />
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1994-01-28;11" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1995-11-22;100" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir: :legge:2010-11-08;da assegnare" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -65,6 +68,35 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir: :legge:2010-11-08;da assegnare" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir: :legge:2010-11-08;da assegnare#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge 8 novembre 2010, n. da assegnare" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir: :legge:2010-11-08;da assegnare" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir: :legge:2010-11-08;da assegnare#artunico-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 2 della legge 8 novembre 2010, n. da assegnare" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art9-com1bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -382,7 +414,12 @@
 				</articolo>
 				<articolo id="art9">
 					<num>ARTICOLO 9</num>
-					<rubrica>(Norma transitoria)</rubrica>
+					<rubrica>
+						(
+						<h:span finevigore="t5" id="h1" iniziovigore="t1" status="abrogato">Norma transitoria</h:span>
+						<h:span id="h2" iniziovigore="t5">Norme transitorie</h:span>
+						)
+					</rubrica>
 					<comma id="art9-com1">
 						<num>1.</num>
 						<corpo>
@@ -392,6 +429,21 @@
 							<rif xlink:href="#art6-com3" xlink:type="simple">art. 6</rif>
 							comma 3 e 4, del soggetto cui compete la gestione unitaria del patrimonio immobiliare di ERP nel territorio di riferimento ai sensi dell'
 							<rif xlink:href="#art5-com1" xlink:type="simple">art. 5, comma 1</rif>
+							.
+						</corpo>
+					</comma>
+					<comma id="art9-com1bis" iniziovigore="t5">
+						<num>1bis)</num>
+						<corpo>
+							Gli amministratori straordinari e i collegi dei sindaci revisori delle ATER in carica alla data del 3 novembre 1998, sono prorogati nelle loro funzioni fino all'emanazione della deliberazione del Consiglio regionale prevista dall'
+							<rif xlink:href="#art7-com1" xlink:type="simple">art. 7, comma 1</rif>
+							. Con tale atto il Consiglio può regolare lo svolgimento delle attività correnti delle ATER, anche attraverso ulteriori proroghe a ciò necessarie, fino all'operatività dei nuovi soggetti di cui all'
+							<mrif>
+								art. 6, commi
+								<rif xlink:href="#art6-com1" xlink:type="simple">1</rif>
+								e
+								<rif xlink:href="#art6-com3" xlink:type="simple">3</rif>
+							</mrif>
 							.
 						</corpo>
 					</comma>
