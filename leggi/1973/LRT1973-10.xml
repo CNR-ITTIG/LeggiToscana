@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t4" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19730202" num="05" tipo="BURT" />
@@ -9,36 +9,39 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1973-01-29;10" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1973-01-29;10@1973-08-02" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1973-01-29;10@1974-11-27" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1973-01-29;10@1974-11-27" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1973-01-29;10@1999-03-10" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19730217" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19730818" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19741206" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="19990403" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1973-01-29;10" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1973-08-02;45" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1974-11-27;72" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Misura elevata al 3% ai sensi dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1974-11-27;72#art6" xlink:type="simple">art. 6 della legge regionale 27 novembre 1974, n. 72</rif>
 							.
 						</h:p>
 					</nota>
-					<nota id="n2">
+					<nota id="LeggeRegionale1-n2">
 						<h:p>
 							Ad integrazione del finanziamento della presente legge si veda l'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1975-12-30;81#art8" xlink:type="simple">art. 8 della legge regionale 30 dicembre 1975, n. 81</rif>
 							.
 						</h:p>
 					</nota>
-					<nota id="n3">
+					<nota id="LeggeRegionale1-n3">
 						<h:p>
 							Finanziamento elevato a L. 600.000.000 ai sensi dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1973-08-02;45#art1" xlink:type="simple">articolo 1 della legge regionale 2 agosto 1973, n. 45</rif>
@@ -138,6 +141,18 @@
 								<dsp:pos xlink:href="#art14-com1-leta-t3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1973-01-29;10" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12#ann1-art1-com1-pun9" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 1, comma 1, 9 della legge Regione Toscana 10 marzo 1999, n. 12" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -192,7 +207,7 @@
 							sono concessi ad enti pubblici e a privati operatori.
 						</corpo>
 					</comma>
-					<comma id="art2-com3">
+					<comma id="art2-com2">
 						<num />
 						<corpo>
 							I contributi di cui alla
@@ -620,7 +635,7 @@
 						<num />
 						<corpo>
 							Le spese conseguenti agli accertamenti effettuati dai Comuni sono a carico del bilancio regionale, nella misura del 2%
-							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 							dell'ammontare del contributo erogato e vengono liquidate annualmente su rendiconti presentati dai singoli Comuni.
 						</corpo>
 					</comma>
@@ -730,7 +745,7 @@
 				<articolo id="art16">
 					<num>
 						ARTICOLO 16
-						<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+						<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(b)</ndr>
 					</num>
 					<rubrica>Oneri finanziari e previsioni di bilancio.</rubrica>
 					<comma id="art16-com1">
@@ -741,7 +756,7 @@
 							e per gli oneri di cui all'
 							<rif xlink:href="#art12" xlink:type="simple">art. 12</rif>
 							della presente legge è autorizzata per l'anno 1972 la spesa di L. 500.000.000.
-							<ndr num="#n3" valore="" xlink:type="simple">(c)</ndr>
+							<ndr num="#LeggeRegionale1-n3" valore="" xlink:type="simple">(c)</ndr>
 						</corpo>
 					</comma>
 					<comma id="art16-com2">

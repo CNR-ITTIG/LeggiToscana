@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t4" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19720526" num="20" tipo="BURT" />
@@ -9,22 +9,25 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1972-05-24;6" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1972-05-24;6@1973-01-17" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1972-05-24;6@1973-12-31" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1972-05-24;6@1973-12-31" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1972-05-24;6@1999-03-10" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19720526" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19730126" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19740126" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="19990403" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1972-05-24;6" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1973-01-17;6" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1973-12-31;68" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Tale importo è stato elevato a L. 950 milioni dall'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1973-01-17;6#art1" xlink:type="simple">art. 1 della legge regionale 17 gennaio 1973, n. 6</rif>
@@ -34,6 +37,22 @@
 						</h:p>
 					</nota>
 				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1972-05-24;6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12#ann1-art1-com1-pun1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 1, comma 1, 1 della legge Regione Toscana 10 marzo 1999, n. 12" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -97,7 +116,7 @@
 						<num />
 						<corpo>La Giunta regionale provvede all'approvazione dei progetti e ne dispone contestualmente il finanziamento secondo le vigenti leggi dello Stato.</corpo>
 					</comma>
-					<comma id="art5-com3">
+					<comma id="art5-com2">
 						<num />
 						<corpo>Le nomine dei collaudatori sono di competenza della Giunta regionale.</corpo>
 					</comma>
@@ -108,7 +127,7 @@
 						<num />
 						<corpo>
 							Ai fini della realizzazione degli interventi stabiliti con la presente legge è disposto il finanziamento di 300 milioni di lire
-							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 							.
 						</corpo>
 					</comma>

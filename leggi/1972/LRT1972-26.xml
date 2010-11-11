@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t5" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19720825" num="32" tipo="BURT" />
@@ -10,7 +10,8 @@
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1972-08-24;26" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1972-08-24;26@1974-07-16" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1972-08-24;26@1977-01-20" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1972-08-24;26@1977-08-24" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1972-08-24;26@1977-08-24" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1972-08-24;26@1999-03-10" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -18,23 +19,25 @@
 						<evento data="19750101" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19770212" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19770916" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="19990403" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1972-08-24;26" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1974-07-16;40" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1977-01-20;8" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1977-08-24;62" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Si veda la
 							<rif xlink:href="urn:nir:regione.toscana:legge:1977-08-24;62" xlink:type="simple">legge regionale 24 agosto 1977, n. 62</rif>
 							, la quale apporta modifiche alla presente.
 						</h:p>
 					</nota>
-					<nota id="n2">
+					<nota id="LeggeRegionale1-n2">
 						<h:p>
 							Contributo elevato al 60% ai sensi dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1977-08-24;62#art5" xlink:type="simple">art. 5 della legge regionale 24 agosto 1977, n. 62</rif>
@@ -86,6 +89,18 @@
 								<dsp:pos xlink:href="#art8-com2" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1972-08-24;26" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12#ann1-art1-com1-pun4" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 1, comma 1, 4 della legge Regione Toscana 10 marzo 1999, n. 12" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -97,7 +112,7 @@
 				<numDoc>26</numDoc>
 				<titoloDoc>
 					Estensione dell'assistenza farmaceutica ai coltivatori diretti
-					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 					.
 				</titoloDoc>
 			</intestazione>
@@ -113,11 +128,11 @@
 						<num />
 						<corpo>In attesa dell'istituzione del Servizio sanitario nazionale la Regione Toscana eroga contributi ai Comuni della Regione ai fini dell'assistenza farmaceutica ai coltivatori diretti titolari, coadiuvanti e familiari iscritti negli appositi elenchi degli Uffici provinciali dei Contributi Unificati ed ai pensionati coltivatori diretti che come tali godono di pensione da parte dell'Istituto Nazionale di Previdenza e loro familiari.</corpo>
 					</comma>
-					<comma id="art1-com3">
+					<comma id="art1-com2">
 						<num />
 						<corpo>Hanno altresì diritto all'assistenza farmaceutica erogata dalla Regione coloro che in attesa di essere compresi negli elenchi degli Uffici provinciali dei Contributi Unificati ed ai quali i predetti Uffici attestino il possesso di tutti i requisiti necessari per l'iscrizione.</corpo>
 					</comma>
-					<comma id="art1-com4">
+					<comma id="art1-com3">
 						<num />
 						<corpo>L'intervento finanziario della Regione si attua tramite i Comuni, i quali possono aderire previa deliberazione.</corpo>
 					</comma>
@@ -157,7 +172,7 @@
 						<num />
 						<corpo>
 							Per l'assistenza farmaceutica di cui ai precedenti articoli, la Regione contribuisce nella misura del 35%
-							<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+							<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(b)</ndr>
 							del costo dei medicinali quale risulta dal prezzo segnato in fustella.
 						</corpo>
 					</comma>

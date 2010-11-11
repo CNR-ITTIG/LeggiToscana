@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t2" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19730330" num="15" tipo="BURT" />
 					<entratainvigore norm="19730414" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1973-03-27;17" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1973-03-27;17" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1973-03-27;17@1999-03-10" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19730414" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19990403" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1973-03-27;17" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Le leggi regionali
 							<rif xlink:href="urn:nir:regione.toscana:legge:1980-01-18;5" xlink:type="simple">18 gennaio 1980, n. 5</rif>
@@ -28,6 +31,22 @@
 						</h:p>
 					</nota>
 				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1973-03-27;17" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12#ann1-art1-com1-pun12" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="Allegato, articolo 1, comma 1, 12 della legge Regione Toscana 10 marzo 1999, n. 12" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -37,7 +56,7 @@
 				<numDoc>17</numDoc>
 				<titoloDoc>
 					Disciplina delle tasse sulle concessioni della Regione Toscana.
-					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
@@ -196,12 +215,788 @@
 				<soggetto codice="">La presente legge è stata approvata dal Consiglio regionale il 16 febbraio 1973 ed è stata vistata dal Commissario di Governo in data 20 marzo 1973.</soggetto>
 			</conclusione>
 			<annessi>
+				
 				<annesso id="ann1">
 					<testata>
 						<denAnnesso>Allegato</denAnnesso>
-						<titAnnesso>Regione Toscana, tasse di concessione regionale, tariffa.</titAnnesso>
 					</testata>
-					<rifesterno xlink:href="urn:nir:regione.toscana:legge:1973-03-27;17:allegato;regione.toscana,.tasse.di.concessione.regionale,.tariffa." xlink:type="simple" />
+					<DocumentoNIR nome="xxxxx">
+						<meta>
+							<descrittori>
+								<pubblicazione norm="" num="" tipo="GU" />
+								<entratainvigore norm="" />
+								<redazione id="red2" nome="" norm="" />
+								<urn valore="urn:nir:regione.toscana:legge:1973-03-27;17:allegato" />
+							</descrittori>
+						</meta>
+						<intestazione>
+							
+							<titoloDoc>Regione Toscana, tasse di concessione regionale, tariffa.</titoloDoc>
+						</intestazione>
+						<contenitore id="con1" nome="">
+				
+				<h:p>ASSISTENZA SANITARIA E OSPEDALIERA.</h:p>
+				<h:p>
+					Voci della tariffa delle concessioni regionali relative alle materie trasferite col
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-14;4" xlink:type="simple">DPR 14-1-1972, n. 4</rif>
+					.
+				</h:p>
+				<h:p>
+					NUMERO D’ORDINE 1,
+					<rif xlink:href="urn:nir:stato:legge:1961;121" xlink:type="simple">legge 121-1961</rif>
+					(DPR 641) numero d’ordine 15, concessione per l’apertura ed esercizio di farmacia:
+				</h:p>
+				<h:p>1) nei comuni e centri abitati (frazioni o borgate) con popolazione non superiore ai 5.000 abitanti, - tassa di apertura L. 20.000, - annuale L. 4.000;</h:p>
+				<h:p>2) nei comuni e centri abitati (frazioni o borgate) con popolazione superiore a 5.000 e non a 10.000 abitanti, - tassa d’apertura L. 50.000, - annuale L. 10.000;</h:p>
+				<h:p>3) nei comuni e centri abitati (frazioni o borgate) con popolazione superiore a 10.000 e non a 15.000 abitanti, - tassa d’apertura L. 100.000, - annuale L. 20.000;</h:p>
+				<h:p>4) nei comuni e centri abitati (frazioni o borgate) con popolazione superiore a 15.000 e non a 40.000 abitanti, - tassa d’apertura L. 160.000, - annuale L. 32.000;</h:p>
+				<h:p>5) nei comuni e centri abitati (frazioni o borgate) con popolazione superiore a 40.000 e non a 100.000 abitanti, - tassa d’apertura L. 240.000, - annuale L. 48.000;</h:p>
+				<h:p>6) nei comuni e centri abitati (frazioni o borgate) con popolazione superiore a 100.000 e non a 200.000 abitanti, - tassa d’apertura L. 320.000, - annuale L. 64.000;</h:p>
+				<h:p>7) nei comuni e centri abitati (frazioni o borgate) con popolazione superiore a 200.000 e non a 500.000 abitanti, - tassa d’apertura L. 500.000, - annuale L. 100.000;</h:p>
+				<h:p>8) nei comuni e centri abitati (frazioni o borgate) con popolazione superiore a 500.000 abitanti, - tassa d’apertura L. 800.000, - annuale L. 160.000.</h:p>
+				<h:p>
+					-
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-14;4#art1-letm" xlink:type="simple">DPR 14-1-1972, n. 4, art. 1, lettera m).</rif>
+				</h:p>
+				<h:p>Nota - La popolazione va calcolata in base ai risultati dell’ultimo censimento. Quando una farmacia aperta in un determinato centro abitato debba servire anche la popolazione di uno o più centri limitrofi, la tassa va commisurata alla popolazione totale di tutti i centri abitati serviti.</h:p>
+				<h:p>Per centro abitato si intende una frazione o una borgata o anche un qualsiasi aggruppamento di case abitate, separato e distinto dal nucleo o dai nuclei costituenti la restante popolazione del Comune cui il centro abitato appartiene.</h:p>
+				<h:p>La tassa riflette non soltanto le concessioni per l’apertura e l’esercizio di nuove farmacie, ma anche le concessioni per l’esercizio di farmacie già istituite e conferite ad altri titolari.</h:p>
+				<h:p>
+					La concessione per l’apertura e l’esercizio di una farmacia è valevole, ai sensi dell’
+					<rif xlink:href="urn:nir:stato:regio.decreto:1934-07-27;1265#art109" xlink:type="simple">art. 109 del TU delle leggi sanitarie 27- 7-1934, n. 1265</rif>
+					, solo per la sede indicata nella concessione stessa e pertanto la tassa è dovuta, anche nel caso in cui venga concesso il trasferimento da una sede ad un’altra dello stesso Comune. La tassa invece non è dovuta nel caso di trasferimento di farmacia entro i limiti della stessa sede, ai sensi del secondo comma del citato
+					<rif xlink:href="urn:nir:stato:regio.decreto:1934-07-27;1265#art109" xlink:type="simple">art. 109</rif>
+					e dell’art. 28 del regolamento 30-9-1938, n. 1706.
+				</h:p>
+				<h:p>
+					La tassa deve essere corrisposta anche per le autorizzazioni concesse a norma degli
+					<mrif>
+						artt.
+						<rif xlink:href="urn:nir:stato:regio.decreto:1934-07-27;1265#art369" xlink:type="simple">.369</rif>
+						e
+						<rif xlink:href="urn:nir:stato:regio.decreto:1934-07-27;1265#art370" xlink:type="simple">370</rif>
+						del TU delle leggi sanitarie
+					</mrif>
+					ai nuovi titolari di farmacie legittime in occasione dei trapassi di queste ultime mortis causa o per atto fra vivi.
+				</h:p>
+				<h:p>
+					Analogamente la tassa è dovuta per l’autorizzazione alla gestione provvisoria delle farmacie, di cui al penultimo comma dell’
+					<rif xlink:href="urn:nir:stato:regio.decreto:1934-07-27;1265#art369" xlink:type="simple">art. 369 del suddetto TU</rif>
+					.
+				</h:p>
+				<h:p>
+					La tassa è ridotta alla misura di un quarto di quella dovuta dal titolare della farmacia principale, quando si tratti di farmacia succursale istituita ai sensi dell’
+					<rif xlink:href="urn:nir:stato:regio.decreto:1934-07-27;1265#art116" xlink:type="simple">art. 116 del citato TU</rif>
+					.
+				</h:p>
+				<h:p>
+					Non è dovuta tassa per le concessioni provvisorie emesse ai sensi del
+					<rif xlink:href="urn:nir:stato:regio.decreto:1934-07-27;1265#art129-com1" xlink:type="simple">comma 1 dell’art. 129 del citato TU</rif>
+					, nè nel caso previsto dal comma 2 dell’art. 68 del regolamento 30-9-1938, n.1706.
+				</h:p>
+				<h:p>
+					Sono esenti dal pagamento della tassa sopraindicata le autorizzazioni rilasciate dal medico provinciale per la gestione di farmacie interne - escluse qualsiasi facoltà di vendita al pubblico - da parte delle istituzioni pubbliche di assistenza e beneficenza delle Provincie per gli Ospedali psichiatrici e per le altre istituzioni ospedaliere che da essa dipendono (art. 114 del succitato TU, modificato dall’
+					<rif xlink:href="urn:nir:stato:legge:1960-05-20;519#art1" xlink:type="simple">art. 1 della legge 20-5-1960, n. 519</rif>
+					).
+				</h:p>
+				<h:p>
+					Sono inoltre esenti dal pagamento della tassa sopraindicata le farmacie gestite in Comuni con popolazione inferiore a 5.000 abitanti, i cui titolari godono dell’indennità di residenza, stabilita dall’art. 115 del TU delle leggi sanitarie, approvato con
+					<rif xlink:href="urn:nir:stato:regio.decreto:1934-07-27;1265#art115" xlink:type="simple">RD 27-7-1934, n. 1265</rif>
+					e successive modificazioni.
+				</h:p>
+				<h:p>
+					Oltre alla tassa di concessione, i titolari delle farmacie sono tenuti al pagamento di una tassa annuale di ispezione regionale, ai sensi dell’art. 128 del citato TU delle leggi sanitarie e nella misura indicata dall’articolo unico, tabella n. 3, della
+					<rif xlink:href="urn:nir:stato:legge:1952-04-14;403" xlink:type="simple">legge 14-4-1952, n. 403</rif>
+					.
+				</h:p>
+				<h:p>La tassa annuale deve essere corrisposta entro il 31-12-dell’anno precedente a quello a cui si riferisce.</h:p>
+				<h:p>
+					NUMERO D’ORDINE 2,
+					<rif xlink:href="urn:nir:stato:legge:1961;121" xlink:type="simple">legge 121-1961</rif>
+					numero d’ordine 25, DPR 641 numero d’ordine 12, autorizzazione per aprire o porre in esercizio gabinetti medici ed ambulatori in genere dove si applicano, anche saltuariamente, la radioterapia e la radiumterapia (
+					<mrif>
+						articoli
+						<rif xlink:href="urn:nir:stato:regio.decreto:1934-07-27;1265#art194" xlink:type="simple">194</rif>
+						e
+						<rif xlink:href="urn:nir:stato:regio.decreto:1934-07-27;1265#art196" xlink:type="simple">196</rif>
+						del TU delle leggi sanitarie
+					</mrif>
+					e
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1955-06-10;854#art24" xlink:type="simple">art. 24 del DPR 10-6-1955, n. 854</rif>
+					), - tassa d’apertura L. 150.000, - annuale L. 75.000.
+				</h:p>
+				<h:p>
+					-
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-14;4#art1-lete" xlink:type="simple">DPR 14-1-1972, n. 4, art. 1, lettera e).</rif>
+				</h:p>
+				<h:p>Nota - La tassa annuale deve essere assolta entro il 31-1-dell’anno cui si riferisce.</h:p>
+				<h:p>Non sono soggette a tassa le autorizzazioni concesse agli enti pubblici di assistenza.</h:p>
+				<h:p>
+					NUMERO D’ORDINE 3,
+					<rif xlink:href="urn:nir:stato:legge:1961;121" xlink:type="simple">legge 121-1961</rif>
+					(DPR 641) numero d’ordine 27, autorizzazione per aprire o mantenere in esercizio ambulatori, case o istituti di cura medico - chirurgica o di assistenza ostetrica, gabinetti di analisi per il pubblico a scopo di accertamento diagnostico, case o pensioni per gestanti (
+					<rif xlink:href="urn:nir:stato:regio.decreto:1934-07-27;1265#art193" xlink:type="simple">art. 193 del TU delle leggi sanitarie</rif>
+					e
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1955-06-10;854#art23" xlink:type="simple">art. 23 del DPR 10-6-1955, numero 854</rif>
+					):
+				</h:p>
+				<h:p>1) per le case o istituti di cura medico - chirurgica o di assistenza ostetrica, case o pensioni per gestanti:</h:p>
+				<h:p>- se l’istituto ha non più di 10 posti letto, - tassa d’apertura L. 50.000, - annuale L. 25.000;</h:p>
+				<h:p>- se l’istituto ha non più di 50 posti letto, - tassa d’apertura L. 100.000, - annuale L. 50.000;</h:p>
+				<h:p>- se l’istituto ha non più di 100 posti letto, - tassa d’apertura L. 200.000, - annuale L. 100.000;</h:p>
+				<h:p>- se l’istituto ha più di 100 posti letto, - tassa d’apertura L. 500.000, - annuale L. 250.000;</h:p>
+				<h:p>2) per gli ambulatori e per i gabinetti di analisi per il pubblico, - tassa d’apertura L. 20.000, - annuale L. 10.000.</h:p>
+				<h:p>
+					-
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-14;4#art1-lete" xlink:type="simple">DPR 14-1-1972, n. 4, art. 1, lettera e)</rif>
+					.
+				</h:p>
+				<h:p>Nota - Sono ambulatori gli istituti aventi individualità e organizzazione propria ed autonoma e che, quindi non costituiscono lo studio privato o personale in cui il medico esercita la professione. Essi presentano le stesse caratteristiche delle case ed istituti di cura che possono essere autorizzati anche a favore di chi non sia medico purchè siano diretti da medici.</h:p>
+				<h:p>Conseguentemente non sono soggetti ad autorizzazione, e quindi al pagamento della tassa sopradistinta, i gabinetti personali e privati, in cui i medici generici e specializzati, compresi gli odontoiatri, esercitano la loro professione.</h:p>
+				<h:p>Sono case di cura, da distinguersi perciò dalle case di salute, quelle ove vengono ricoverate le persone affette da malattie in atto e perciò bisognevoli di speciali cure mediche e chirurgiche.</h:p>
+				<h:p>Per l’esercizio di ambulatorio si intende anche il trasporto di malati e feriti.</h:p>
+				<h:p>
+					La sopraindicata tassa è dovuta indipendentemente da quella che gli stabilimenti sanitari devono ai comuni in forza della
+					<rif xlink:href="urn:nir:stato:legge:1870-08-11;5784#Allegato-0" xlink:type="simple">legge 11-8-1870, n. 5784, allegato O</rif>
+					.
+				</h:p>
+				<h:p>Sono esenti dal pagamento della tassa gli ambulatori comunali, i pubblici istituti di cura per tubercolotici ed i consorzi provinciali antitubercolari; l’INPS, l’ONMI ed i suoi organi provinciali e comunali; l’INAIL e la cassa marittima meridionale per l’assicurazione per gli infortuni sul lavoro e le malattie della gente di mare; gli istituti che provvedono alla assistenza obbligatoria a favore di determinate categorie di persone.</h:p>
+				<h:p>Le tasse annuali di esercizio devono essere pagate entro il 31-1- dell’anno cui il tributo si riferisce.</h:p>
+				<h:p>
+					NUMERO D’ORDINE 4,
+					<rif xlink:href="urn:nir:stato:legge:1961;121" xlink:type="simple">legge 121-1961</rif>
+					(DPR 641) numero d’ordine 28, licenza per la pubblicità a mezzo della stampa e in qualsiasi altro modo, concernente ambulatori o case o istituti di cura medico - chirurgica o di assistenza ostetrica, case o pensioni per gestanti (
+					<rif xlink:href="urn:nir:stato:regio.decreto:1934-07-27;1265#art201-com1" xlink:type="simple">art. 201, I comma, del TU delle leggi sanitarie</rif>
+					, sostituito dall’
+					<rif xlink:href="urn:nir:stato:legge:1941-05-01;422#art7" xlink:type="simple">art. 7 della legge 1-5-1941, n. 422</rif>
+					e
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1955-06-10;854#art25" xlink:type="simple">art. 25 del DPR 10-6-1955, n. 854</rif>
+					), - tassa d’apertura L. 2.500, - annuale L. 2.500.
+				</h:p>
+				<h:p>
+					-
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-14;4#art1-letf" xlink:type="simple">DPR 14-1-1972, n. 4, art. 1, lettera f)</rif>
+					.
+				</h:p>
+				<h:p>Nota - la tassa deve essere pagata entro il 31-1-dell’anno cui si riferisce.</h:p>
+				<h:p>Sono dovute tante tasse quanti sono i testi o manifesti pubblicitari, anche se l’autorizzazione viene concessa con un unico provvedimento.</h:p>
+				<h:p>
+					NUMERO D’ORDINE 5,
+					<rif xlink:href="urn:nir:stato:legge:1961;121" xlink:type="simple">legge 121-1961</rif>
+					(DPR 641) numero d’ordine 30, autorizzazione rilasciata dal sindaco ai sensi dell’
+					<rif xlink:href="urn:nir:stato:regio.decreto:1934-07-27;1265#art231" xlink:type="simple">art. 231 del TU</rif>
+					citato, modificato dalla
+					<rif xlink:href="urn:nir:stato:legge:1939-06-16;112" xlink:type="simple">legge 16-6-1939, numero 112</rif>
+					, per l’apertura dei seguenti pubblici esercizi, e vidimazione annuale dell’autorizzazione medesima:
+				</h:p>
+				<h:p>a) degli alberghi e ristoranti di lusso, - tassa d’apertura L. 90.000, - annuale L. 90.000;</h:p>
+				<h:p>b) degli alberghi e ristoranti di I categoria, - tassa d’apertura L. 50.000, - annuale L. 50.000;</h:p>
+				<h:p>c) degli alberghi e ristoranti di II categoria e delle pensioni di I categoria, - tassa d’apertura L. 25.000, - annuale L. 25.000;</h:p>
+				<h:p>d) degli alberghi e ristoranti di III categoria e delle pensioni di II categoria, - tassa d’apertura L. 18.000, - annuale L. 18.000;</h:p>
+				<h:p>e) degli alberghi, ristoranti e pensioni di altre categorie:</h:p>
+				<h:p>- nei comuni e centri abitati (frazioni o borgate) con popolazione superiore a 500.000 abitanti, - tassa d’apertura L. 15.000, - annuale L. 15.000;</h:p>
+				<h:p>- nei comuni e centri abitati (frazioni o borgate) con popolazione superiore a 100.000 abitanti, - tassa d’apertura L. 10.000, - annuale L. 10.000;</h:p>
+				<h:p>- nei comuni e centri abitati (frazioni o borgate) con popolazione superiore a 50.000 abitanti, - tassa d’apertura L. 8.000, - annuale L. 8.000;</h:p>
+				<h:p>- nei comuni o centri abitati (frazioni o borgate) con popolazione superiore a 10.000 abitanti, - tassa d’apertura L. 5.000, - annuale L. 5.000;</h:p>
+				<h:p>- nei comuni e centri abitati (frazioni o borgate) con popolazione non superiore ai 10.000 abitanti, - tassa d’apertura L. 2.000, - annuale L. 2.000;</h:p>
+				<h:p>f) delle locande, degli alberghi diurni, degli esercizi di affittacamere, delle mescite, dei caffè, delle osterie, degli esercizi di vendita e di bibite analcooliche:</h:p>
+				<h:p>- nei comuni o centri abitati (frazioni o borgate) con popolazione superiore a 500.000 abitanti, - tassa d’apertura L. 8.000, - annuale L. 8.000;</h:p>
+				<h:p>- nei comuni o centri abitati (frazioni o borgate) con popolazione superiore a 100.000 abitanti, - tassa d’apertura L. 6.000, - annuale L. 6.000;</h:p>
+				<h:p>- nei comuni o centri abitati (frazioni o borgate) con popolazione superiore a 50.000 abitanti, - tassa d’apertura L. 3.000, - annuale L. 3.000;</h:p>
+				<h:p>- nei comuni o centri abitati (frazioni o borgate) con popolazione superiore a 10.000 abitanti, - tassa d’apertura L. 2.000, - annuale L. 2.000;</h:p>
+				<h:p>- nei comuni o centri abitati (frazioni o borgate) con popolazione non superiore a 10.000 abitanti, - tassa d’apertura L. 1.000, - annuale L. 1.000.</h:p>
+				<h:p>
+					-
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-14;4#art1" xlink:type="simple">DPR 14-1-1972, n. 4, art. 1</rif>
+					.
+				</h:p>
+				<h:p>Nota - La vidimazione deve avere luogo, col pagamento della tassa sopraindicata, entro il mese di gennaio dell’anno per il quale la detta formalità deve essere adempiuta.</h:p>
+				<h:p>
+					Per la classificazione degli alberghi e delle pensioni valgono le norme di cui al
+					<rif xlink:href="urn:nir:stato:regio.decreto.legge:1937-01-18;975" xlink:type="simple">RDL 18-1-1937, n. 975</rif>
+					. Per gli altri esercizi la classificazione deve risultare dalla licenza.
+				</h:p>
+				<h:p>La popolazione del Comune o del centro abitato (frazione o borgata) va calcolata in base ai risultati dell’ultimo censimento.</h:p>
+				<h:p>Per centro abitato si intende un separato e distinto aggruppamento di popolazione.</h:p>
+				<h:p>L’autorizzazione occorre anche per le "dipendenze" staccate dall’esercizio principale dell’albergo, costituendo queste esercizi a sè stanti. La tassa è dovuta in aggiunta a quella sulla autorizzazione prescritta dal TU delle leggi di Pubblica Sicurezza.</h:p>
+				<h:p>CACCIA (1) E PESCA NELLE ACQUE INTERNE.</h:p>
+				<h:p>
+					Voci della tariffa delle concessioni regionali relative alle materie trasferite col
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-15;11" xlink:type="simple">DPR 15-1-1972, n. 11</rif>
+					.
+				</h:p>
+				<h:p>(1) La materia della caccia viene definita con apposita legge regionale.</h:p>
+				<h:p>
+					NUMERO D’ORDINE 7,
+					<rif xlink:href="urn:nir:stato:legge:1961;121" xlink:type="simple">legge 121-1961</rif>
+					(DPR 641) numero d’ordine 54, licenza per la pesca lacuale e fluviale rilasciata dall’Amministrazione provinciale a termini dell’
+					<rif xlink:href="urn:nir:stato:regio.decreto.legge:1938-04-11;1183#art3" xlink:type="simple">art. 3 del RDL 11-4-1938, n. 1183</rif>
+					, e successive modificazioni:
+				</h:p>
+				<h:p>- tipo A: licenza per la pesca con tutti gli attrezzi, - tassa d’apertura L. 4.000, - annuale L. 4.000;</h:p>
+				<h:p>- tipo B: licenza per la pesca con canna, con o senza mulinello, con uno o più ami, tirlindana, bilancia di lato non superiore a metri 1,50, - tassa d’apertura L. 2.000, - annuale L. 2.000;</h:p>
+				<h:p>- tipo C: licenza per la pesca con canna, con uno o più ami, e con la bilancia di lato non superiore a metri 1,50, - tassa d’apertura L. 1.200, - annuale L. 1.200;</h:p>
+				<h:p>- tipo D: licenza per gli stranieri per l’esercizio della pesca con la canna, con o senza mulinello, con uno o più ami, tirlindana e bilancia di lato non superiore a metri 1,50, - tassa d’apertura L. 1.000, - annuale L. 1.000.</h:p>
+				<h:p>
+					-
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-15;11#art1-letp" xlink:type="simple">DPR 15-1-1972, n. 11, art. 1, lettera p)</rif>
+					.
+				</h:p>
+				<h:p>Nota - Le licenze di tipo A, B e C hanno validità di 5 anni dalla data di rilascio; quella del tipo D ha la validità di 3 mesi.</h:p>
+				<h:p>Nel caso di smarrimento o distruzione della licenza non può rilasciarsi un duplicato del documento, bensi’ una nuova licenza con il pagamento della relativa tassa sopratassa.</h:p>
+				<h:p>
+					Alle tasse sopraindicate è aggiunto un diritto a favore dell’Ente Nazionale per la Protezione Animali (
+					<rif xlink:href="urn:nir:stato:legge:1938-04-11;612#art4" xlink:type="simple">art. 4, n. 2, della legge 11-4-1938, n. 612</rif>
+					e successive modificazioni), nonchè la sopratassa di:
+				</h:p>
+				<h:p>- L. 1.500 per le licenze di tipo A;</h:p>
+				<h:p>- L. 1.000 per le licenze di tipo B;</h:p>
+				<h:p>- L. 500 per le licenze di tipo C e di tipo D, da ripartire fra il Consorzio regionale obbligatorio per la tutela e l’incremento della pesca in Toscana, le amministrazioni provinciali della Toscana, le associazioni dei pescatori sportivi, gli agenti che esplicano il servizio di vigilanza e le associazioni regionali cooperative di categorie giuridicamente riconosciute, secondo criteri da stabilirsi con provvedimenti del Consiglio regionale.</h:p>
+				<h:p>
+					NUMERO D’ORDINE 8,
+					<rif xlink:href="urn:nir:stato:legge:1961;121" xlink:type="simple">legge 121-1961</rif>
+					numero d’ordine 55, DPR 641 numero d’ordine 28, autorizzazione per la pesca nelle acque interne con apparecchi a generatore autonomo di energia elettrica aventi caratteristiche tali da garantire la conservazione del patrimonio ittico (
+					<rif xlink:href="urn:nir:stato:decreto.legge:1948-03-19;735#art1" xlink:type="simple">art. 1 del DL 19-3-1948, n. 735</rif>
+					), - tassa d’apertura L. 1.000, - annuale L. 1.000.
+				</h:p>
+				<h:p>
+					-
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-15;11#art1-letp" xlink:type="simple">DPR 15-1-1972, n. 11, art. 1, lettera p)</rif>
+					.
+				</h:p>
+				<h:p>
+					NUMERO D’ORDINE 9,
+					<rif xlink:href="urn:nir:stato:legge:1961;121" xlink:type="simple">legge 121-1961</rif>
+					(DPR 641) numero d’ordine 178, autorizzazione per eseguire lavori di acquicoltura nei tratti di corsi o bacini pubblici di acqua dolce, privi o poveri di pesci di importanza economica, ai termini ed agli effetti dell’art. 11 del TU delle leggi sulla pesca, approvate con
+					<rif xlink:href="urn:nir:stato:regio.decreto:1931-10-08;1604" xlink:type="simple">RD 8-10-1931, n.1604</rif>
+					, sostituito dall’
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1955-06-18;987#art51" xlink:type="simple">art. 51 del DPR 18-6-1955, n. 987</rif>
+					, - tassa d’apertura L. 4.000.
+				</h:p>
+				<h:p>
+					-
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-15;11#art1-letp" xlink:type="simple">DPR 15-1-1972, n. 11, art. 1, lettera p)</rif>
+					.
+				</h:p>
+				<h:p>Nota - l’autorizzazione importa anche l’esclusività della pesca, che può essere concessa per la durata di anni 15.</h:p>
+				<h:p>
+					NUMERO D’ORDINE 10,
+					<rif xlink:href="urn:nir:stato:legge:1961;121" xlink:type="simple">legge 121-1961</rif>
+					(DPR 641) numero d’ordine 174, permesso agli stabilimenti industriali per versare rifiuti nelle acque pubbliche o nelle zone di mare (
+					<rif xlink:href="urn:nir:stato:regio.decreto:1931-10-08;1604#art9" xlink:type="simple">art. 9 del TU 8-10-1931, n. 1604</rif>
+					, modificato dall’
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1954-07-13;747#art6" xlink:type="simple">art. 6 del DPR 13-7-1954, n. 747</rif>
+					), - tassa d’apertura L. 10.000, - annuale L. 5.000.
+				</h:p>
+				<h:p>
+					-
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-15;11#art1" xlink:type="simple">DPR 15-1-1972, n. 11, art. 1, lettera p). e q)</rif>
+					.
+				</h:p>
+				<h:p>Nota - La tassa annuale deve essere corrisposta entro il 31-1- dell’anno cui si riferisce.</h:p>
+				<h:p>TURISMO E INDUSTRIA ALBERGHIERA.</h:p>
+				<h:p>
+					Voci della tariffa delle concessioni regionali relative alle materie trasferite con
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-14;6" xlink:type="simple">DPR 14-1-1972, n. 6</rif>
+					.
+				</h:p>
+				<h:p>
+					NUMERO D’ORDINE 11,
+					<rif xlink:href="urn:nir:stato:legge:1961;121" xlink:type="simple">legge 121-1961</rif>
+					, numero d’ordine 89, DPR 641 numero d’ordine 59, 1) autorizzazione rilasciata ai sensi dell’
+					<rif xlink:href="urn:nir:stato:legge:1958-03-21;326#art2" xlink:type="simple">art. 2 della legge 21-3-1958, n. 326</rif>
+					, per l’apertura e l’esercizio di uno dei seguenti complessi ricettivi complementari a carattere turistico sociale: tassa di rilascio e tassa annuale, dovuta per ciascun successivo anno solare:
+				</h:p>
+				<h:p>a) alberghi ed ostelli per la gioventù, - tassa d’apertura L. 2000, - annuale L. 2.000;</h:p>
+				<h:p>b) campeggi di superficie:</h:p>
+				<h:p>- non superiore a 1.000 metri quadrati, - tassa d’apertura L. 4.000, - annuale L. 4.000;</h:p>
+				<h:p>- non superiore a 2.000 metri quadrati, - tassa d’apertura L. 8.000, - annuale L. 8.000;</h:p>
+				<h:p>- superiore a 2.000 metri quadrati, - tassa d’apertura L. 10.000, - annuale L. 10.000;</h:p>
+				<h:p>c) villaggi turistici, - tassa d’apertura L. 5.000, - annuale L. 5.000;</h:p>
+				<h:p>d) case per ferie, - tassa d’apertura L. 6.000, - annuale L. 6.000;</h:p>
+				<h:p>
+					e) altri allestimenti in genere che non abbiano le caratteristiche volute dal
+					<rif xlink:href="urn:nir:stato:regio.decreto.legge:1937-01-18;975" xlink:type="simple">RDL 18-1-1937, n. 975</rif>
+					, convertito nella
+					<rif xlink:href="urn:nir:stato:legge:1937-12-30;2651" xlink:type="simple">legge 30-12-1937, n. 2651</rif>
+					, e successive modificazioni, - tassa d’apertura L. 3.000, - annuale L. 3.000;
+				</h:p>
+				<h:p>f) autostelli, - tassa d’apertura L. 5.000, - annuale L. 5.000;</h:p>
+				<h:p>- se funzionanti su autostrade, - tassa d’apertura L. 10.000, - annuale L. 10.000.</h:p>
+				<h:p>
+					NUMERO D’ORDINE 11,
+					<rif xlink:href="urn:nir:stato:legge:1961;121" xlink:type="simple">legge 121-1961</rif>
+					numero d’ordine 89, DPR 641 numero d’ordine 59, 2) autorizzazione rilasciata ai titolari o gestori dell’esercizio di uno dei predetti complessi ricettivi complementari per la nomina di un proprio rappresentante (
+					<rif xlink:href="urn:nir:stato:legge:1958-03-21;326#art6" xlink:type="simple">art. 6 legge 21-3-1958, n. 326</rif>
+					), - tassa d’apertura L. 1.000, - annuale L. 1.000.
+				</h:p>
+				<h:p>
+					-
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-14;6#art1-letg" xlink:type="simple">DPR 14-1-1972, n. 6, art. 1, lettera g)</rif>
+					.
+				</h:p>
+				<h:p>
+					Nota - Qualora, ai sensi del terzo comma dell’
+					<rif xlink:href="urn:nir:stato:legge:1958-03-21;326#art2" xlink:type="simple">art. 2 della legge 21-3-1958, n. 326</rif>
+					, le autorizzazioni comprendano anche l’esercizio delle attività di vendita di bevande alcooliche ed analcooliche, mensa ed autorimessa, sulle autorizzazioni stesse sono altresi’ dovute, rispettivamente, le tasse di cui ai numeri 53, lettera e), 55 e 71 della tabella allegata al
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-10-26;641" xlink:type="simple">DPR 26-10-1972, n. 641</rif>
+					.
+				</h:p>
+				<h:p>La tassa annuale deve essere corrisposta entro il 31-1-dell’anno cui si riferisce.</h:p>
+				<h:p>
+					NUMERO D’ORDINE 12,
+					<rif xlink:href="urn:nir:stato:legge:1961;121" xlink:type="simple">legge 121-1961</rif>
+					numero d’ordine 95, DPR 641 numero d’ordine 64, licenza per aprire o condurre agenzie di viaggio: nei comuni aventi una popolazione:
+				</h:p>
+				<h:p>- non superiore a 10.000 abitanti, - tassa d’apertura L. 6.000, - annuale L. 3.000;</h:p>
+				<h:p>- superiore a 10.000 e non a 20.000 abitanti, - tassa d’apertura L. 12.000, - annuale L. 6.000;</h:p>
+				<h:p>- superiore a 20.000 e non a 50.000 abitanti, - tassa d’apertura L. 24.000, - annuale L. 12.000;</h:p>
+				<h:p>- superiore a 50.000 e non a 100.000 abitanti, - tassa d’apertura L. 36.000, - annuale L. 18.000;</h:p>
+				<h:p>- superiore a 100.000 e non a 500.000 abitanti, - tassa d’apertura L. 60.000, - annuale L. 30.000;</h:p>
+				<h:p>- superiore a 500.000 abitanti, - tassa d’apertura L. 100.000, - annuale L. 50.000.</h:p>
+				<h:p>
+					-
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-14;6#art1-letf" xlink:type="simple">DPR 14-1-1972, n. 6, art. 1, lettera f)</rif>
+					.
+				</h:p>
+				<h:p>Nota - Il rilascio delle licenze a persone fisiche o giuridiche straniere è subordinato al nulla osta dello Stato.</h:p>
+				<h:p>FIERE E MERCATI.</h:p>
+				<h:p>
+					Voci della tariffa delle concessioni regionali relative alle materie trasferite col
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-15;7" xlink:type="simple">DPR 15-1-1972, n. 7</rif>
+					e agricoltura col
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-15;11" xlink:type="simple">DPR 15-1-1972, n. 11</rif>
+					.
+				</h:p>
+				<h:p>
+					NUMERO D’ORDINE 13,
+					<rif xlink:href="urn:nir:stato:legge:1961;121" xlink:type="simple">legge 121-1961</rif>
+					(DPR 641) numero d’ordine 119, deliberazione relativa a fiere e mercati, giusta la
+					<rif xlink:href="urn:nir:stato:legge:1866-05-17;2933" xlink:type="simple">legge 17-5-1866, numero 2933</rif>
+					e l’art. 53, numero 11, del TU delle leggi comunali e provinciali approvato con
+					<rif xlink:href="urn:nir:stato:regio.decreto:1934-03-03;383#art53" xlink:type="simple">RD 3-3-1934, numero 383</rif>
+					:
+				</h:p>
+				<h:p>a) per istituzione di fiere e mercati:</h:p>
+				<h:p>in comuni aventi una popolazione:</h:p>
+				<h:p>- non superiore a 5.000 abitanti, - tassa d’apertura L. 2.000;</h:p>
+				<h:p>- superiore a 5.000 e non a 10.000 abitanti, - tassa d’apertura L. 4.000;</h:p>
+				<h:p>- superiore a 10.000 e non a 30.000 abitanti, - tassa d’apertura L. 6.000;</h:p>
+				<h:p>- superiore a 30.000 e non a 60.000 abitanti, - tassa d’apertura L. 8.000;</h:p>
+				<h:p>- superiore a 60.000 abitanti, - tassa d’apertura L. 10.000;</h:p>
+				<h:p>b) per il cambiamento in modo permanente di fiere e mercati:</h:p>
+				<h:p>in comuni aventi una popolazione:</h:p>
+				<h:p>- non superiore a 5.000 abitanti, - tassa d’apertura L. 1.000;</h:p>
+				<h:p>- superiore a 5.000 e non a 10.000 abitanti, - tassa d’apertura L. 2.000;</h:p>
+				<h:p>- superiore a 10.000 e non a 30.000 abitanti, - tassa d’apertura L. 3.000;</h:p>
+				<h:p>- superiore a 30.000 e non a 60.000 abitanti, - tassa d’apertura L. 4.000;</h:p>
+				<h:p>- superiore a 60.000 abitanti, - tassa d’apertura L. 5.000.</h:p>
+				<h:p>
+					-
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-15;7#art1-leta" xlink:type="simple">DPR 15-1-1972, numero 7, art. 1, lettera a)</rif>
+					.
+				</h:p>
+				<h:p>Nota - La stessa è dovuta per ciascuna fiera o mercato, cui si riferisce il cambiamento in modo permanente.</h:p>
+				<h:p>
+					NUMERO D’ORDINE 14,
+					<rif xlink:href="urn:nir:stato:legge:1961;121" xlink:type="simple">legge 121-1961</rif>
+					(DPR 641) numero d’ordine 121, licenza dell’Ispettorato provinciale dell’agricoltura per l’esercizio della trebbiatura a macchina azionata a motore (art.5 DLL 3-7-1944, n. 152):
+				</h:p>
+				<h:p>- per ogni trebbiatrice o sgranatrice di qualunque tipo e qualunque sia la lunghezza del battitore, - tassa d’apertura L. 1.000.</h:p>
+				<h:p>
+					-
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1962-01-15;11#art1-letc" xlink:type="simple">DPR 15-1-1962, n. 11, art. 1, lettera c)</rif>
+					.
+				</h:p>
+				<h:p>Nota - La licenza di trebbiatura ha valore soltanto per la macchina o le macchine trebbiatrici, per la specie di piante, per l’annata agraria e nell’ambito della Provincia per la quale è stata rilasciata.</h:p>
+				<h:p>
+					Il trebbiatore che intende impiegare le proprie macchine nel territorio di altre Provincie deve sottoporre la licenza al visto di autorizzazione degli Ispettorati Provinciali dell’agricoltura competenti per territorio (
+					<rif xlink:href="urn:nir:stato:regio.decreto.legge:1942-04-23;433#art6" xlink:type="simple">art. 6 del RDL 23-4-1942, n. 433</rif>
+					).
+				</h:p>
+				<h:p>La licenza scade il 31-12-di ciascun anno. La rinnovazione può essere richiesta entro il 30-4-di ciascun anno.</h:p>
+				<h:p>La sopraindicata tassa deve essere versata dagli aspiranti alla licenza per l’esercizio della trebbiatura a macchina all’atto in cui viene inoltrata la domanda per ottenere la licenza stessa e il visto di autorizzazione.</h:p>
+				<h:p>Fra le macchine trebbiatrici debbono comprendersi sia le trebbiatrici propriamente dette, in uso per qualsiasi specie di pianta, sia le altre macchine, quali sgranatoi che compiono le operazioni di separazione delle granelle dal resto delle parti di pianta da cui sono portate.</h:p>
+				<h:p>Sono esentate dalla sopraindicata tassa le licenze rilasciate per le trebbiatrici di società cooperative e dei centri macchine degli enti di riforma fondiaria.</h:p>
+				<h:p>ACQUE MINERALI E TERMALI, CAVE E TORBIERE.</h:p>
+				<h:p>
+					Voci della tariffa delle concessioni regionali relative alle materie trasferite col
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-14;2" xlink:type="simple">DPR 14-1-1972, n. 2</rif>
+				</h:p>
+				<h:p>
+					NUMERO D’ORDINE 15,
+					<rif xlink:href="urn:nir:stato:legge:1961;121" xlink:type="simple">legge 121-1961</rif>
+					numero d’ordine 163, DPR 641 numero d’ordine 99, permesso rilasciato dal competente ufficio regionale per la ricerca di sorgenti di acque minerali e termali:
+				</h:p>
+				<h:p>- tassa d’apertura L. 10.000.</h:p>
+				<h:p>
+					-
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-14;2#art1-leta" xlink:type="simple">DPR 14-1-1972, n. 2, art. 1, lettera a)</rif>
+					.
+				</h:p>
+				<h:p>
+					NUMERO D’ORDINE 16,
+					<rif xlink:href="urn:nir:stato:legge:1961;121" xlink:type="simple">legge 121-1961</rif>
+					numero d’ordine 165, DPR 641 numero d’ordine 101, autorizzazione a trasferire il permesso di ricerca di sorgenti di acque minerali e termali, di cui sopra (
+					<rif xlink:href="urn:nir:stato:regio.decreto:1927-07-29;1443#art8" xlink:type="simple">art. 8 del RD 29-7-1927, n. 1443</rif>
+					):
+				</h:p>
+				<h:p>- per ogni trasferimento, - tassa d’apertura L. 50.000.</h:p>
+				<h:p>
+					-
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-14;2#art1-leta" xlink:type="simple">DPR 14-1-1972, n. 2, art. 1, lettera a)</rif>
+					.
+				</h:p>
+				<h:p>
+					NUMERO D’ORDINE 17,
+					<rif xlink:href="urn:nir:stato:legge:1961;121" xlink:type="simple">legge 121-1961</rif>
+					(DPR 641) numero d’ordine 167, decreto della Regione che autorizza il trasferimento per l’atto tra vivi della concessione per la coltivazione di giacimenti di acque minerali e termali (
+					<rif xlink:href="urn:nir:stato:regio.decreto:1927-07-29;1443#art27" xlink:type="simple">art. 27 del RD 29-7-1927, n. 1443</rif>
+					), - tassa d’apertura L. 50.000.
+				</h:p>
+				<h:p>
+					-
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-14;2#art1-leta" xlink:type="simple">DPR 14-1-1972, n. 2, art. 1, lettera a)</rif>
+					.
+				</h:p>
+				<h:p>
+					NUMERO D’ORDINE 18,
+					<rif xlink:href="urn:nir:stato:legge:1961;121" xlink:type="simple">legge 121-1961</rif>
+					numero d’ordine 168, DPR 641 numero d’ordine 104, autorizzazione del competente ufficio regionale per l’iscrizione di ipoteche sui giacimenti di acque minerali e termali e loro pertinenze (
+					<rif xlink:href="urn:nir:stato:regio.decreto:1927-07-29;1443#art22-com2" xlink:type="simple">art. 22, secondo comma, RD 29-7-1927, n. 1443</rif>
+					) e sulle cave e torbiere e loro pertinenze (
+					<rif xlink:href="urn:nir:stato:regio.decreto:1927-07-29;1143#art45-com2" xlink:type="simple">art. 45, secondo comma, RD 29-7-1927, numero 1143</rif>
+					, sostituito dall’
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1955-06-28;620#art7" xlink:type="simple">art. 7 del DPR 28-6-1955, n. 620</rif>
+					), - tassa d’apertura L. 20.000.
+				</h:p>
+				<h:p>
+					-
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-14;2#art1-com1" xlink:type="simple">DPR 14-1-1972, n. 2, art. 1, primo comma</rif>
+					.
+				</h:p>
+				<h:p>
+					NUMERO D’ORDINE 19,
+					<rif xlink:href="urn:nir:stato:legge:1961;121" xlink:type="simple">legge 121-1961</rif>
+					(DPR 641) numero d’ordine 169, concessione per la coltivazione di giacimenti di acque minerali e termali di cui agli artt. 14 e seguenti del
+					<rif xlink:href="urn:nir:stato:regio.decreto:1927-07-29;1443" xlink:type="simple">RD 29-7-1927, n.1443</rif>
+					, - tassa d’apertura L. 100.000.
+				</h:p>
+				<h:p>
+					-
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-14;2#art1" xlink:type="simple">DPR 14-1-1972, n. 2, art. 1, lettera b) e c)</rif>
+					.
+				</h:p>
+				<h:p>
+					NUMERO D’ORDINE 20,
+					<rif xlink:href="urn:nir:stato:legge:1961;121" xlink:type="simple">legge 121-1961</rif>
+					(DPR 641) numero d’ordine 170, concessione per la coltivazione di cave e torbiere data dalla Regione a favore di terzi, quando il proprietario non la intraprenda in proprio o non dia alla coltivazione medesima sufficiente sviluppo (
+					<rif xlink:href="urn:nir:stato:regio.decreto:1927-07-29;1443#art45-com2" xlink:type="simple">art. 45, secondo comma, del RD 29-7-1927, n. 1443</rif>
+					, sostituito dall’
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1955-06-28;620#art7" xlink:type="simple">art. 7 del DPR 28-6-1955, n. 620</rif>
+					, - tassa d’apertura L. 20.000.
+				</h:p>
+				<h:p>
+					-
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-14;2#art1-lete" xlink:type="simple">DPR 14-1-1972, n. 2, art. 1, lettera e)</rif>
+					.
+				</h:p>
+				<h:p>URBANISTICA E LAVORI PUBBLICI.</h:p>
+				<h:p>
+					Voci della tariffa delle concessioni regionali relative alle materie trasferite col
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-15;8" xlink:type="simple">DPR 15-1-1972, n. 8</rif>
+					.
+				</h:p>
+				<h:p>
+					NUMERO D’ORDINE 21,
+					<rif xlink:href="urn:nir:stato:legge:1961;121" xlink:type="simple">legge 121-1961</rif>
+					(DPR 641) numero d’ordine 146, dichiarazione che un’opera è di pubblica utilità (
+					<rif xlink:href="urn:nir:stato:legge:1865-06-25;2359" xlink:type="simple">legge 25-6-1865, n. 2359</rif>
+					e successive modificazioni):
+				</h:p>
+				<h:p>- se la spesa complessiva dell’opera è prevista in somma non maggiore di L. 500.000, - tassa d’apertura L. 5.000;</h:p>
+				<h:p>- se la spesa complessiva dell’opera è prevista in somma non maggiore di L. 10.000.000, - tassa d’apertura L. 10.000;</h:p>
+				<h:p>- per ogni milione o frazione di milione in più saranno dovute in aumento alle L. 10.000, - tassa d’apertura L. 1500.</h:p>
+				<h:p>
+					-
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-15;8#art3" xlink:type="simple">DPR 15-1-1972, n. 8, art. 3</rif>
+					.
+				</h:p>
+				<h:p>Nota - La tassa si riferisce alle dichiarazioni di pubblica utilità da parte della Regione, fatte tanto con legge quanto con decreto;</h:p>
+				<h:p>essa è pure dovuta ogni qualvolta l’approvazione di progetti tecnici abbia anche efficacia di dichiarazione di pubblica utilità.</h:p>
+				<h:p>La tassa deve essere liquidata sulla base dell’ammontare complessivo della spesa quale risulta all’atto dell’emanazione del provvedimento, tenendo conto di ogni eventuale aggiornamento.</h:p>
+				<h:p>Non è dovuta la tassa quando si tratta di opere che sono da considerarsi di pubblica utilità perchè obbligatorie per disposto di legge statale.</h:p>
+				<h:p>
+					Non è nemmeno dovuta la tassa sulle dichiarazioni di indifferibilità e di occupazione temporanea di urgenza di immobili, ai sensi dell’
+					<rif xlink:href="urn:nir:stato:legge:1865-06-25;2359#art71" xlink:type="simple">art. 71 della legge 25-6-1865, n. 2359</rif>
+					.
+				</h:p>
+				<h:p>TRANVIE E LINEE AUTOMOBILISTICHE, NAVIGAZIONE E PORTI LACUALI.</h:p>
+				<h:p>
+					Voci della tariffa delle concessioni regionali relative alle materie trasferite col
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-14;5" xlink:type="simple">DPR 14-1-1972, n. 5</rif>
+					.
+				</h:p>
+				<h:p>
+					NUMERO D’ORDINE 22,
+					<rif xlink:href="urn:nir:stato:legge:1961;121" xlink:type="simple">legge 121-1961</rif>
+					(DPR 641) numero d’ordine 152, autorizzazione per introdursi nei fondi altrui allo scopo dello studio preliminare di un progetto di impianto di via funicolare aerea privata - d’interesse regionale - (
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1955-06-28;771#art30" xlink:type="simple">art. 30 del DPR 28-6-1955, n. 771</rif>
+					), - tassa d’apertura L. 2.000.
+				</h:p>
+				<h:p>
+					-
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-14;5#art1-leta" xlink:type="simple">DPR 14-1-1972, n. 5, art. 1, lettera a)</rif>
+					.
+				</h:p>
+				<h:p>
+					NUMERO D’ORDINE 23,
+					<rif xlink:href="urn:nir:stato:legge:1961;121" xlink:type="simple">legge 121-1961</rif>
+					(DPR 641) numero d’ordine 153, concessione della costruzione e dell’esercizio di vie funicolari aeree (funivie) - d’interesse regionale - in servizio pubblico per trasporto di persone e di cose (
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1955-06-28;771#art20" xlink:type="simple">art. 20 del DPR 28-6-1955, n.771</rif>
+					):
+				</h:p>
+				<h:p>a) se adibite a trasporto di cose, - tassa d’apertura L. 5.000, - annuale L. 2.500;</h:p>
+				<h:p>b) se adibita al trasporto di persone:</h:p>
+				<h:p>- con cabine di portata fino a 30 persone, - tassa d’apertura L. 20.000, - annuale L. 10.000;</h:p>
+				<h:p>- con cabine di portata oltre 30 persone, - tassa d’apertura L. 30.000, - annuale L. 15.000.</h:p>
+				<h:p>
+					-
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-14;5#art1-leta" xlink:type="simple">DPR 14-1-1972, n. 5, art. 1, lettera a)</rif>
+					.
+				</h:p>
+				<h:p>Nota - La concessione può avere la durata fino ad anni 25 e può essere prorogata di altri 10 anni.</h:p>
+				<h:p>Le funivie adibite al trasporto promiscuo di persone (non oltre 15) e di cose, concesse esclusivamente per i servizi forestali ed agricoli, sono soggette alla sola tassa di cui alla lettera a).</h:p>
+				<h:p>La tassa annuale deve essere corrisposta entro il 31-1-dell’anno cui si riferisce.</h:p>
+				<h:p>
+					NUMERO D’ORDINE 24,
+					<rif xlink:href="urn:nir:stato:legge:1961;121" xlink:type="simple">legge 121-1961</rif>
+					(DPR 641) numero d’ordine 154, la licenza per l’impianto di funicolari aeree o teleferiche - d’interesse regionale - destinate al trasporto di prodotti agrari, minerari e forestali e di qualsiasi altra industria (
+					<mrif>
+						artt.
+						<rif xlink:href="urn:nir:stato:regio.decreto:1908-08-25;829#art4" xlink:type="simple">4</rif>
+						e
+						<rif xlink:href="urn:nir:stato:regio.decreto:1908-08-25;829#art7-com1" xlink:type="simple">7</rif>
+						, primo comma, del regolamento approvato con RD 25-8-1908, n. 829
+					</mrif>
+					, sostituiti dagli
+					<mrif>
+						artt.
+						<rif xlink:href="urn:nir:presidente.repubblica:decreto:1955-06-28;771#art33" xlink:type="simple">33</rif>
+						e
+						<rif xlink:href="urn:nir:presidente.repubblica:decreto:1955-06-28;771#art35" xlink:type="simple">35</rif>
+						del DPR 28-6-1955, numero 771
+					</mrif>
+					):
+				</h:p>
+				<h:p>a) se rilasciata dal Presidente della Giunta provinciale, - tassa d’apertura L. 6.000;</h:p>
+				<h:p>b) se rilasciata dal sindaco, - tassa d’apertura L. 3.000.</h:p>
+				<h:p>
+					-
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-14;5#art1-leta" xlink:type="simple">DPR 14-1-1972, n. 5, art. 1, lettera a)</rif>
+					.
+				</h:p>
+				<h:p>
+					NUMERO D’ORDINE 25,
+					<rif xlink:href="urn:nir:stato:legge:1961;121" xlink:type="simple">legge 121-1961</rif>
+					(DPR 641) numero d’ordine 155, licenza d’esercizio di una funicolare aerea o teleferica - d’interesse regionale - rilasciata nel caso contemplato dal comma 3 dell’art. 14 del regolamento 25-8-1908, n. 829, sostituito dall’
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1955-06-28;771#art38" xlink:type="simple">art. 38 del DPR 28-6-1955, n. 771</rif>
+					, e cioè quando la funicolare interessi corsi d’acqua, strade, ferrovie ed altre opere pubbliche:
+				</h:p>
+				<h:p>a) se rilasciata dal Presidente della Giunta provinciale, - tassa d’apertura L. 6.000, - annuale L. 6.000;</h:p>
+				<h:p>b) se rilasciata dal sindaco, - tassa d’apertura L. 4.000, - annuale L. 4.000.</h:p>
+				<h:p>
+					-
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-14;5#art1-leta" xlink:type="simple">DPR 14-1-1972, n. 5, art. 1, lettera a)</rif>
+					.
+				</h:p>
+				<h:p>Nota - La tassa stabilita dal presente numero è dovuta indipendentemente da quella per la licenza di impianto della teleferica o funicolare aerea.</h:p>
+				<h:p>
+					NUMERO D’ORDINE 26,
+					<rif xlink:href="urn:nir:stato:legge:1961;121" xlink:type="simple">legge 121-1961</rif>
+					(DPR 641) numero d’ordine 156, concessione di filovie - d’interesse regionale - (
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1955-06-28;771#art19" xlink:type="simple">art. 19 del DPR 28-6-1955, n. 771</rif>
+					):
+				</h:p>
+				<h:p>a) se emessa dal Presidente della Giunta regionale:</h:p>
+				<h:p>1) già di pertinenza del Ministero dei Trasporti, - tassa d’apertura L. 25.000, - annuale L. 12.500;</h:p>
+				<h:p>2) già di pertinenza della direzione compartimentale o ufficio distaccato della motorizzazione civile e dei trasporti in concessione, - tassa d’apertura L. 15.000, - annuale L. 7.500;</h:p>
+				<h:p>b) se emessa dal sindaco, - tassa d’apertura L. 10.000, - annuale L. 5.000.</h:p>
+				<h:p>
+					-
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-14;5#art1-leta" xlink:type="simple">DPR 14-1-1972, n. 5, art. 1, lettera a)</rif>
+					.
+				</h:p>
+				<h:p>Nota - La concessione ha la durata massima di anni 30, salvo rinnovo.</h:p>
+				<h:p>La tassa annuale deve essere pagata entro il 31-1-dell’anno cui si riferisce.</h:p>
+				<h:p>
+					NUMERO D’ORDINE 27,
+					<rif xlink:href="urn:nir:stato:legge:1961;121" xlink:type="simple">legge 121-1961</rif>
+					(DPR 641) numero d’ordine 157, concessione dell’impianto e l’esercizio pubblico di slittovie, sciovie e altri mezzi di trasporto terrestri a fune senza rotaia - d’interesse regionale - (
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1955-06-28;771#art26" xlink:type="simple">art. 26 del DPR 28-6-1955, n. 771</rif>
+					):
+				</h:p>
+				<h:p>a) se emessa dal Presidente della Giunta regionale, - tassa d’apertura L. 10.000, - annuale L. 5.000;</h:p>
+				<h:p>b) se emessa dal Presidente della Giunta provinciale, - tassa d’apertura L. 6.000, - annuale L. 3.000;</h:p>
+				<h:p>c) se emessa dal sindaco, - tassa d’apertura L. 3.000, - annuale L. 1.500.</h:p>
+				<h:p>
+					-
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-14;5#art1-leta" xlink:type="simple">DPR 14-1-1972, n. 5, art. 1, lettera a)</rif>
+					.
+				</h:p>
+				<h:p>Nota - Quando l’impianto abbia carattere di stabilità per ciò che si riferisce alle parti meccaniche, ai fabbricati ed alla linea, la concessione ha la durata massima di anni dieci, salvo rinnovo.</h:p>
+				<h:p>Negli altri casi la concessione ha la durata di una stagione, salvo rinnovo di stagione in stagione.</h:p>
+				<h:p>
+					Ai sensi dell’
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1955-06-28;771#art27" xlink:type="simple">art. 27 del DPR 28-6-1955, n. 771</rif>
+					, per gli impianti riconosciuti di particolare importanza turistica, può essere dichiarata la pubblica utilità dell’opera.
+				</h:p>
+				<h:p>
+					In tal caso saranno applicabili le disposizioni di cui all’
+					<rif xlink:href="urn:nir:stato:legge:1927-06-23;1110#art2" xlink:type="simple">art. 2 della legge 23-6-1927, n. 1110</rif>
+					, sulle funivie.
+				</h:p>
+				<h:p>La tassa annuale deve essere pagata entro il 31-1-dell’anno cui si riferisce.</h:p>
+				<h:p>
+					NUMERO D’ORDINE 28,
+					<rif xlink:href="urn:nir:stato:legge:1961;121" xlink:type="simple">legge 121-1961</rif>
+					, numero d’ordine 184, DPR 641 numero d’ordine 110, autorizzazioni e concessioni per esercizi pubblici - d’interesse regionale - di autotrasporti di merci rilasciate ai sensi degli
+					<mrif>
+						artt.
+						<rif xlink:href="urn:nir:stato:legge:1935-06-20;1349#art1" xlink:type="simple">1</rif>
+						,
+						<rif xlink:href="urn:nir:stato:legge:1935-06-20;1349#art4" xlink:type="simple">4</rif>
+						,
+						<rif xlink:href="urn:nir:stato:legge:1935-06-20;1349#art7" xlink:type="simple">7</rif>
+						della legge 20-6-1935, n.1349
+					</mrif>
+					, sostituiti dagli
+					<mrif>
+						artt.
+						<rif xlink:href="urn:nir:presidente.repubblica:decreto:1955-06-28;771#art57" xlink:type="simple">57</rif>
+						,
+						<rif xlink:href="urn:nir:presidente.repubblica:decreto:1955-06-28;771#art59" xlink:type="simple">59</rif>
+						e
+						<rif xlink:href="urn:nir:presidente.repubblica:decreto:1955-06-28;771#art60" xlink:type="simple">60</rif>
+						del DPR 28-6-1955 , n.771,
+					</mrif>
+					, nonchè della
+					<rif xlink:href="urn:nir:stato:legge:1968-03-18;413" xlink:type="simple">legge 18-3-1968, n. 413</rif>
+					:
+				</h:p>
+				<h:p>- per ogni veicolo, comprese le appendici e per ogni rimorchio di qualsiasi tipo, cui si riferisce l’autorizzazione o concessione:</h:p>
+				<h:p>a) portata fino a 10 quintali, - tassa d’apertura L. 1.600, - annuale L. 1.600;</h:p>
+				<h:p>b) portata fino a 35 quintali, - tassa d’apertura L. 3.000, - annuale L. 3.000;</h:p>
+				<h:p>c) portata oltre 35 quintali, - tassa d’apertura L. 4.000, - annuale L. 4.000.</h:p>
+				<h:p>
+					-
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-14;5#art1-letb" xlink:type="simple">DPR 14-1-1972, n. 5, art. 1, lettera b)</rif>
+					.
+				</h:p>
+				<h:p>Nota - Nel caso di passaggio di proprietà di un autoveicolo già munito di autorizzazione per trasporto di merci, il nuovo proprietario per poter effettuare il trasporto di merci con detto autoveicolo deve munirsi di altra apposita autorizzazione, con il relativo pagamento della tassa.</h:p>
+				<h:p>La tassa annuale deve essere corrisposta entro il 31-1-dell’anno cui si riferisce il tributo per mantenere in vigore l’atto amministrativo.</h:p>
+				<h:p>
+					NUMERO D’ORDINE 29,
+					<rif xlink:href="urn:nir:stato:legge:1961;121" xlink:type="simple">legge 121-1961</rif>
+					, numero d’ordine 185, DPR 641 numero d’ordine 111, concessione, tanto provvisoria che definitiva, di servizi pubblici automobilistici - d’interesse regionale - per viaggiatori, bagagli e pacchi agricoli (autolinee) di qualunque natura e durata che si effettuino ad itinerario fisso, anche se abbiano carattere saltuario (
+					<mrif>
+						artt.
+						<rif xlink:href="urn:nir:stato:legge:1939-09-28;1822#art1" xlink:type="simple">1</rif>
+						e
+						<rif xlink:href="urn:nir:stato:legge:1939-09-28;1822#art2" xlink:type="simple">2</rif>
+						della legge 28-9-1939, n. 1822
+					</mrif>
+					, e
+					<mrif>
+						artt.
+						<rif xlink:href="urn:nir:presidente.repubblica:decreto:1955-06-28;771#art45" xlink:type="simple">45</rif>
+						e
+						<rif xlink:href="urn:nir:presidente.repubblica:decreto:1955-06-28;771#art46" xlink:type="simple">46</rif>
+						del DPR 28-6-1955, n. 771
+					</mrif>
+					):
+				</h:p>
+				<h:p>1) autoservizi con frequenza giornaliera, - tassa d’apertura L. 700, - annuale L. 700 (1);</h:p>
+				<h:p>2) autoservizi con frequenza non superiore a 4 giorni per settimana, - tassa d’apertura L. 400, - annuale L. 400 (1);</h:p>
+				<h:p>3) autoservizi con frequenza non superiore a 2 giorni per settimana, - tassa d’apertura L. 300, - annuale L. 300 (1);</h:p>
+				<h:p>4) servizi automobilistici di gran turismo:</h:p>
+				<h:p>a) autoservizi con frequenza giornaliera, - tassa d’apertura L. 350, - annuale L. 350 (1);</h:p>
+				<h:p>b) autoservizi con frequenza non superiore a 4 giorni per settimana, - tassa d’apertura L. 200, - annuale L. 200 (1);</h:p>
+				<h:p>c) autoservizi con frequenza non superiore a 2 giorni per settimana, - tassa d’apertura L. 150, - annuale L. 150 (1);</h:p>
+				<h:p>5) concessione di autoservizi a carattere esclusivamente operaio e per studenti, - tassa annuale L. 1.000 (1);</h:p>
+				<h:p>6) concessione di autoservizi accordata per brevi periodi di tempo, in occasione di particolari contingenze:</h:p>
+				<h:p>a) per il primo giorno di validità, - tassa d’apertura L. 1.000;</h:p>
+				<h:p>b) per ogni giorno ulteriore di validità, - tassa d’apertura L. 500.</h:p>
+				<h:p>
+					-
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-14;5#art1-letb" xlink:type="simple">DPR 14-1-1972, n. 5, art. 1, lettera b)</rif>
+					.
+				</h:p>
+				<h:p>Nota - La tassa annuale deve essere corrisposta entro il 31-12- dell’anno precedente a quello cui si riferisce il tributo, per mantenere in vigore l’autorizzazione.</h:p>
+				<h:p>Per le concessioni, tanto provvisorie che definitive, autorizzanti l’esercizio di autolinee per periodi non superiori al semestre, la misura della tassa è ridotta a metà.</h:p>
+				<h:p>
+					Sono considerati autoservizi di gran turismo quelli che presentano le caratteristiche di cui all’
+					<rif xlink:href="urn:nir:stato:legge:1939-09-26;1822#art12" xlink:type="simple">art. 12 della legge 26-9-1939, n. 1822</rif>
+					.
+				</h:p>
+				<h:p>
+					NUMERO D’ORDINE 30,
+					<rif xlink:href="urn:nir:stato:legge:1961;121" xlink:type="simple">legge 121-1961</rif>
+					(DPR 641) numero d’ordine 186, concessione per l’esercizio di servizi pubblici di linee di navigazione interna per trasporto di persone o di cose, ai sensi dell’
+					<rif xlink:href="urn:nir:stato:regio.decreto:1942-03-30;327#art225" xlink:type="simple">art. 225, primo comma, del codice della navigazione</rif>
+					, - tassa d’apertura L. 6.000.
+				</h:p>
+				<h:p>
+					-
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-14;5#art4" xlink:type="simple">DPR 14-1-1972, n. 5, art. 4</rif>
+					.
+				</h:p>
+				<h:p>
+					NUMERO D’ORDINE 31,
+					<rif xlink:href="urn:nir:stato:legge:1961;121" xlink:type="simple">legge 121-1961</rif>
+					(DPR 641) numero d’ordine 187, concessione per l’esercizio di servizi pubblici di navigazione interna di rimorchio o di traino con mezzi meccanici, ai sensi dell’
+					<rif xlink:href="urn:nir:stato:regio.decreto:1942-03-30;327#art225" xlink:type="simple">art. 225, secondo comma, del codice della navigazione</rif>
+					, - tassa d’apertura L. 4.000.
+				</h:p>
+				<h:p>
+					-
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-14;5#art4" xlink:type="simple">DPR 14-1-1972, n. 5, art. 4</rif>
+					.
+				</h:p>
+				<h:p>
+					NUMERO D’ORDINE 32,
+					<rif xlink:href="urn:nir:stato:legge:1961;121" xlink:type="simple">legge 121-1961</rif>
+					(DPR 641) numero d’ordine 188, autorizzazione per l’esercizio di servizi di navigazione interna di trasporto, di rimorchio o di traino, non compresi nei numeri precedenti, ai sensi dell’
+					<rif xlink:href="urn:nir:stato:regio.decreto:1942-03-30;327#art226" xlink:type="simple">art. 226 del codice della navigazione</rif>
+					, - tassa d’apertura L. 2.000.
+				</h:p>
+				<h:p>
+					-
+					<mrif>
+						DPR 14-1-1972, n. 5, artt.
+						<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-14;5#art4" xlink:type="simple">4</rif>
+						e
+						<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-14;5#art5" xlink:type="simple">5</rif>
+					</mrif>
+					.
+				</h:p>
+				<h:p>
+					NUMERO D’ORDINE 33,
+					<rif xlink:href="urn:nir:stato:legge:1961;121" xlink:type="simple">legge 121-1961</rif>
+					(DPR 641) numero d’ordine 189, autorizzazione al trasporto e al rimorchio con navi e galleggianti, mediante annotazione apposta dall’ufficio di iscrizione sulla licenza di navigazione, ai sensi dell’
+					<rif xlink:href="urn:nir:stato:regio.decreto:1942-03-30;327#art227" xlink:type="simple">art. 227 del codice della navigazione</rif>
+					, - tassa d’apertura L. 4.000.
+				</h:p>
+				<h:p>
+					-
+					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-14;5#art4" xlink:type="simple">DPR 14-1-1972, n. 5, art. 4</rif>
+					.
+				</h:p>
+				<h:p>Note (1) Per le concessioni aventi durata superiore ad un anno.</h:p>
+				<h:p />
+				<h:p />
+			</contenitore>
+					</DocumentoNIR>
 				</annesso>
 			</annessi>
 		</LeggeRegionale>

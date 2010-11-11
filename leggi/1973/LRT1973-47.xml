@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t5" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19730810" num="36" tipo="BURT" />
@@ -10,7 +10,8 @@
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1973-08-03;47" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1973-08-03;47@1974-01-21" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1973-08-03;47@1977-01-20" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1973-08-03;47@1978-02-24" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1973-08-03;47@1978-02-24" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1973-08-03;47@1999-03-10" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -18,16 +19,18 @@
 						<evento data="19740209" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19770212" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19780318" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="19990403" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1973-08-03;47" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1974-01-21;6" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1977-01-20;10" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1978-02-24; 15" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Ai sensi dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1974-01-21;6#art1" xlink:type="simple">art. 1 della legge regionale 21 gennaio 1974, n. 6</rif>
@@ -88,6 +91,18 @@
 								<dsp:pos xlink:href="#art8-t4" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1973-08-03;47" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12#ann1-art1-com1-pun20" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 1, comma 1, 20 della legge Regione Toscana 10 marzo 1999, n. 12" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -220,7 +235,7 @@
 						<num />
 						<corpo>
 							Entro tre mesi dall'entrata in vigore della presente legge, e successivamente entro il 30 aprile di ciascun anno, i Comuni, i Consorzi e le Comunità montane producono le domande per ottenere i contributi della Regione con l'indicazione dei servizi da istituire o potenziare, nonchè di ogni altro elemento di conoscenza richiesto dalla Giunta regionale
-							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 							.
 						</corpo>
 					</comma>
