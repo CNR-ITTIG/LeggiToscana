@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t3" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19751231" num="60" tipo="BURT" />
 					<entratainvigore norm="19751231" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1975-12-30;81" />
+					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1975-12-30;81" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1975-12-30;81@1999-03-10" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19751231" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19751231" fonte="ra1" id="t2" tipo="modifica" />
+						<evento data="19990403" fonte="rp1" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1975-12-30;81" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1974-10-31;64" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Per il finanziamento della presente legge si veda anche la
 							<rif xlink:href="urn:nir:regione.toscana:legge:1978-02-24;14" xlink:type="simple">legge regionale 24 febbraio 1978, n. 14</rif>
@@ -48,6 +51,20 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1975-12-30;81" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12#ann1-art1-com1-pun89" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 1, comma 1, 89 della legge Regione Toscana 10 marzo 1999, n. 12" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -58,7 +75,7 @@
 				<numDoc>81</numDoc>
 				<titoloDoc>
 					Provvedimenti per la realizzazione di interventi urgenti a sostegno dell'economia regionale.
-					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
@@ -68,7 +85,7 @@
 				<h:p>la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>DISPOSIZIONI GENERALI</rubrica>
 					<articolo id="art1">
@@ -96,7 +113,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>INTERVENTI FINANZIARI DELLA REGIONE NEL SETTORE DELL'AGRICOLTURA E DELLE FORESTE</rubrica>
 					<articolo id="art2">
@@ -206,7 +223,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>TITOLO III</num>
 					<rubrica>INTERVENTI FINANZIARI DELLA REGIONE NEL SETTORE DELLE ATTIVITA' ARTIGIANE E TURISTICHE</rubrica>
 					<articolo id="art7">
@@ -318,7 +335,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit4">
+				<titolo id="LeggeRegionale1-tit4">
 					<num>TITOLO IV</num>
 					<rubrica>INTERVENTI FINANZIARI DELLA REGIONE NEL SETTORE DELLE OPERE PUBBLICHE E DELLE STRUTTURE A CARATTERE SOCIALE</rubrica>
 					<articolo id="art12">
@@ -442,7 +459,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit5">
+				<titolo id="LeggeRegionale1-tit5">
 					<num>TITOLO V</num>
 					<rubrica>INTERVENTI FINANZIARI DELLA REGIONE NEL SETTORE DEI TRASPORTI</rubrica>
 					<articolo id="art17">
@@ -486,7 +503,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit6">
+				<titolo id="LeggeRegionale1-tit6">
 					<num>TITOLO VI</num>
 					<rubrica>INTERVENTI FINANZIARI DI ORDINARIA GESTIONE DEL BILANCIO</rubrica>
 					<articolo id="art20">
@@ -598,7 +615,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit7">
+				<titolo id="LeggeRegionale1-tit7">
 					<num>TITOLO VII</num>
 					<rubrica>DISPOSIZIONI FINANZIARIE</rubrica>
 					<articolo id="art21">
@@ -925,7 +942,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit8">
+				<titolo id="LeggeRegionale1-tit8">
 					<num>TITOLO VIII</num>
 					<rubrica>DISPOSIZIONI TRANSITORIE E FINALI</rubrica>
 					<articolo id="art26">

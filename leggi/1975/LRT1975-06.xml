@@ -1,34 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t3" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19750117" num="04" tipo="BURT" />
 					<entratainvigore norm="19750117" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1975-01-16;6" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1975-01-16;6@1976-01-22" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1975-01-16;6@1976-01-22" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1975-01-16;6@1999-03-10" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19750117" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19760213" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19990403" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1975-01-16;6" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1976-01-22;7" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Relativamente al finanziamento delle spese di cui al presente articolo si veda anche la
 							<rif xlink:href="urn:nir:regione.toscana:legge:1975-05-28;59" xlink:type="simple">legge regionale 28 maggio 1975, n. 59</rif>
 							.
 						</h:p>
 					</nota>
-					<nota id="n2">
+					<nota id="LeggeRegionale1-n2">
 						<h:p>
 							In attuazione del presente comma, il finanziamento della spesa per la formazione del personale tecnico e infermieristico degli enti ospedalieri nonchè per il tirocinio pratico è disciplinato transitoriamente dalla
 							<rif xlink:href="urn:nir:regione.toscana:legge:1976-01-22;7" xlink:type="simple">legge regionale 22 gennaio 1976, n. 7</rif>
@@ -68,6 +71,18 @@
 								<dsp:pos xlink:href="#art6-com1-letb-t2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1975-01-16;6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12#ann1-art1-com1-pun61" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="ALLEGATO, articolo 1, comma 1, 61 della legge Regione Toscana 10 marzo 1999, n. 12" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -382,7 +397,7 @@
 				<articolo id="art6">
 					<num>
 						ARTICOLO 6
-						<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+						<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 					</num>
 					<comma id="art6-com1">
 						<num />
@@ -428,7 +443,7 @@
 						<num />
 						<corpo>
 							Il Consiglio regionale, entro tre mesi dall'entrata in vigore della presente legge, approva la disciplina relativa al finanziamento delle spese di cui al comma precedente
-							<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+							<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(b)</ndr>
 							.
 						</corpo>
 					</comma>
