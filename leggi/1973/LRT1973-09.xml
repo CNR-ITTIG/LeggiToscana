@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t4" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19730202" num="05" tipo="BURT" />
@@ -9,29 +9,32 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1973-01-29;9" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1973-01-29;9@1974-11-27" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1973-01-29;9@1975-12-30" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1973-01-29;9@1975-12-30" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1973-01-29;9@1999-03-10" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19730217" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19741206" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19751231" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="19990403" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1973-01-29;9" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1974-11-27;71" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1975-12-30;81" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Misura elevata al 3% ex
 							<rif xlink:href="urn:nir:regione.toscana:legge:1974-11-27;71#art3" xlink:type="simple">art. 3 legge regionale 27 novembre 1974, n. 71</rif>
 							.
 						</h:p>
 					</nota>
-					<nota id="n2">
+					<nota id="LeggeRegionale1-n2">
 						<h:p>
 							Ad integrazione del fianziamento della presente legge si veda l'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1975-12-30;81#art8" xlink:type="simple">art. 8 della legge regionale 30 dicembre 1975, n. 81</rif>
@@ -71,6 +74,18 @@
 								<dsp:pos xlink:href="#art8-t2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1973-01-29;9" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12#ann1-art1-com1-pun8" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 1, comma 1, 8 della legge Regione Toscana 10 marzo 1999, n. 12" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -309,7 +324,7 @@
 						<num />
 						<corpo>
 							Le spese conseguenti agli accertamenti, di cui all'articolo precedente, sono a carico del bilancio regionale nella misura del 2%
-							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 							dell'ammontare del contributo erogato e vengono liquidate annualmente sul rendiconto presentato dai singoli Comuni.
 						</corpo>
 					</comma>
@@ -341,7 +356,7 @@
 				<articolo id="art11">
 					<num>
 						ARTICOLO 11
-						<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+						<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(b)</ndr>
 					</num>
 					<rubrica>Oneri finanziari e previsioni di Bilancio.</rubrica>
 					<comma id="art11-com1">
