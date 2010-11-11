@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19931112" num="67" tipo="BURT" />
 					<entratainvigore norm="19931127" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1993-11-04;79" />
+					<urn finevigore="t4" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1993-11-04;79" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1993-11-04;79@1999-03-22" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organizzazioni Pubbliche" />
 						<materia valore="Ordinamento" />
@@ -19,11 +20,13 @@
 						<evento data="19931127" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19931127" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="19931127" fonte="ra2" id="t3" tipo="modifica" />
+						<evento data="19990415" fonte="rp1" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1993-11-04;79" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1978-05-17;31" xlink:type="simple" />
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1988-03-02;13" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1999-03-22;15" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -53,6 +56,20 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-03-22;15" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-03-22;15#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 22 marzo 1999, n. 15" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art7-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -206,95 +223,95 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art7">
+				<articolo finevigore="t4" id="art7-t4" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 7</num>
 					<rubrica>(Commissione regionale)</rubrica>
-					<comma id="art7-com1">
+					<comma id="art7-t4-com1">
 						<num>1.</num>
 						<corpo>È istituita la Commissione regionale per il settore emotrasfusionale, di seguito nominata Commissione.</corpo>
 					</comma>
-					<comma id="art7-com2">
+					<comma id="art7-t4-com2">
 						<num>2.</num>
 						<alinea>La Commissione è così composta:</alinea>
-						<el id="art7-com2-leta">
+						<el id="art7-t4-com2-leta">
 							<num>a)</num>
 							<corpo>Assessore regionale alla sanità, o suo delegato, con funzioni di Presidente;</corpo>
 						</el>
-						<el id="art7-com2-letb">
+						<el id="art7-t4-com2-letb">
 							<num>b)</num>
 							<corpo>4 membri designati dalle associazioni regionali del volontariato della donazione del sangue;</corpo>
 						</el>
-						<el id="art7-com2-letc">
+						<el id="art7-t4-com2-letc">
 							<num>c)</num>
 							<corpo>1 membro designato dalle associazioni degli emofiliaci;</corpo>
 						</el>
-						<el id="art7-com2-letd">
+						<el id="art7-t4-com2-letd">
 							<num>d)</num>
 							<corpo>4 membri proposti dalla conferenza dei primari delle unità operative di immunoematologia e trasfusione del sangue delle Unità Sanitarie Locali della Toscana;</corpo>
 						</el>
-						<el id="art7-com2-lete">
+						<el id="art7-t4-com2-lete">
 							<num>e)</num>
 							<corpo>5 esperti di cui 4 non appartenenti al settore emotrasfusionale, individuati dalla Giunta regionale.</corpo>
 						</el>
 					</comma>
-					<comma id="art7-com3">
+					<comma id="art7-t4-com3">
 						<num>3.</num>
 						<corpo>Il Presidente della Giunta regionale, con proprio decreto, nomina a far parte della Commissione coloro che sono stati designati a norma del successivo comma.</corpo>
 					</comma>
-					<comma id="art7-com4">
+					<comma id="art7-t4-com4">
 						<num>4.</num>
 						<corpo>
 							I componenti di cui alle
 							<mrif>
 								lettere
-								<rif xlink:href="#art7-com2-letd" xlink:type="simple">d)</rif>
+								<rif xlink:href="#art7-t4-com2-letd" xlink:type="simple">d)</rif>
 								,
-								<rif xlink:href="#art7-com2-lete" xlink:type="simple">e)</rif>
+								<rif xlink:href="#art7-t4-com2-lete" xlink:type="simple">e)</rif>
 							</mrif>
 							sono designati dal Consiglio regionale, con voto limitato a tre, su deliberazione presentata dalla Giunta.
 						</corpo>
 					</comma>
-					<comma id="art7-com5">
+					<comma id="art7-t4-com5">
 						<num>5.</num>
 						<alinea>La Commissione svolge funzioni consultive e propositive a favore della Regione in materia di attività emotrasfusionale, in particolare:</alinea>
-						<el id="art7-com5-leta">
+						<el id="art7-t4-com5-leta">
 							<num>a)</num>
 							<corpo>elabora proposte concernenti il piano sangue e le sue revisioni, con l'obiettivo di assicurare l'autosufficienza regionale di sangue, plasma ed emoderivati;</corpo>
 						</el>
-						<el id="art7-com5-letb">
+						<el id="art7-t4-com5-letb">
 							<num>b)</num>
 							<corpo>esprime il proprio parere sugli atti di programmazione regionale concernenti il settore emotrasfusionale;</corpo>
 						</el>
-						<el id="art7-com5-letc">
+						<el id="art7-t4-com5-letc">
 							<num>c)</num>
 							<corpo>verifica l'attuazione del piano sangue;</corpo>
 						</el>
-						<el id="art7-com5-letd">
+						<el id="art7-t4-com5-letd">
 							<num>d)</num>
 							<corpo>elabora proposte per l'aggiornamento professionale degli operatori del settore emotrasfusionale;</corpo>
 						</el>
-						<el id="art7-com5-lete">
+						<el id="art7-t4-com5-lete">
 							<num>e)</num>
 							<corpo>elabora proposte per la promozione della donazione volontaria del sangue, del plasma e degli emocomponenti;</corpo>
 						</el>
-						<el id="art7-com5-letf">
+						<el id="art7-t4-com5-letf">
 							<num>f)</num>
 							<corpo>elabora proposte per l'organizzazione delle attività emotrasfusionali delle UUSSLL;</corpo>
 						</el>
-						<el id="art7-com5-letg">
+						<el id="art7-t4-com5-letg">
 							<num>g)</num>
 							<corpo>esprime il parere, a richiesta degli uffici regionali, delle unità sanitarie locali e delle associazioni di donatori, su ogni questione attinente il settore emotrasfusionale.</corpo>
 						</el>
 					</comma>
-					<comma id="art7-com6">
+					<comma id="art7-t4-com6">
 						<num>6.</num>
 						<corpo>La Commissione ha sede presso il Dipartimento Sicurezza Sociale della Regione Toscana. Le funzioni di segreteria sono svolte da un dipendente regionale individuato dalla Giunta regionale.</corpo>
 					</comma>
-					<comma id="art7-com7">
+					<comma id="art7-t4-com7">
 						<num>7.</num>
 						<corpo>La Commissione si riunisce, di norma, ogni due mesi o a richiesta di un terzo di componenti con l'indicazione dell'argomento da iscrivere all'ordine del giorno.</corpo>
 					</comma>
-					<comma id="art7-com8">
+					<comma id="art7-t4-com8">
 						<num>8.</num>
 						<corpo>Ai membri in missione fuori dal Comune di residenza spetta il trattamento stabilito per il personale dirigente dipendente dalla Regione Toscana, alle condizioni e con i limiti previsti dalla vigente normativa.</corpo>
 					</comma>
@@ -328,7 +345,7 @@
 							Agli oneri di spesa derivanti dall'
 							<rif xlink:href="#art6-com1" xlink:type="simple">art. 6, comma 1</rif>
 							, e dell'
-							<rif xlink:href="#art7-com5" xlink:type="simple">art. 7, comma 5</rif>
+							<rif xlink:href="#art7-t4-com5" xlink:type="simple">art. 7, comma 5</rif>
 							, della presente legge, decorrenti dall'anno 1994, si fa fronte da tale anno con legge di bilancio.
 						</corpo>
 					</comma>
