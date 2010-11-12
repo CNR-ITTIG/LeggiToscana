@@ -1,30 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t2" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19770415" num="18" tipo="BURT" />
 					<entratainvigore norm="19770430" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1977-04-09;24" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1977-04-09;24" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1977-04-09;24@1999-03-10" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19770430" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19990403" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1977-04-09;24" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							A modificazione della suddivisione del territorio regionale operata con la presente legge si veda anche la
 							<rif xlink:href="urn:nir:regione.toscana:legge:1978-04-28;27" xlink:type="simple">legge regionale 28 aprile 1978, n. 27</rif>
 						</h:p>
 					</nota>
 				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1977-04-09;24" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12#ann1-art1-com1-pun126" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="Allegato, articolo 1, comma 1, 126 della legge Regione Toscana 10 marzo 1999, n. 12" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -37,7 +56,7 @@
 					<rif xlink:href="urn:nir:regione.toscana:legge:1973-12-07;64" xlink:type="simple">7 dicembre 1973 n. 64</rif>
 					e
 					<rif xlink:href="urn:nir:regione.toscana:legge:1976-06-16;28" xlink:type="simple">16 giugno 1976, n. 28</rif>
-					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 					.
 				</titoloDoc>
 			</intestazione>
@@ -95,10 +114,9 @@
 							<descrittori>
 								<pubblicazione norm="" num="" tipo="" />
 								<entratainvigore norm="" />
-								<redazione id="" nome="" norm="" />
+								<redazione id="red2" nome="" norm="" />
 								<urn valore="urn:nir:regione.toscana:legge:1977-04-09;24:allegato" />
 							</descrittori>
-							
 						</meta>
 						<intestazione>
 							<emanante>Regione Toscana</emanante>
