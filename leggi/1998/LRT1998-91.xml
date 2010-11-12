@@ -8,7 +8,8 @@
 					<entratainvigore norm="19990105" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1998-12-11;91" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1998-12-11;91@1999-01-19" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1998-12-11;91@1999-01-19" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1998-12-11;91@1999-04-15" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tutela Ambientale" />
 						<materia valore="Protezione Civile" />
@@ -18,10 +19,12 @@
 					<eventi>
 						<evento data="19990105" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19990213" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19990508" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-12-11;91" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1999-01-19;1" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1999-04-15;26" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -78,6 +81,21 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art14-com3-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-04-15;26" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-04-15;26#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 15 aprile 1999, n. 26" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com2bis" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-com2-t3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -270,9 +288,13 @@
 								<corpo>predisporre la relazione annuale sull'uso del suolo.</corpo>
 							</el>
 						</comma>
-						<comma id="art4-com2">
+						<comma finevigore="t3" id="art4-com2-t3" iniziovigore="t1" status="abrogato">
 							<num>2.</num>
 							<corpo>Il Comitato Tecnico è nominato dalla Giunta regionale ed è composto da un numero di membri designati dalle Province, uno per ciascuna, e da un ugual numero designato dalla Giunta regionale fra i dipendenti pubblici con profilo professionale tecnico adeguato. Del Comitato Tecnico fanno inoltre parte tre funzionari tecnici dello Stato, designati uno ciascuno dal Ministero dei Lavori Pubblici, dal Ministero dell'Ambiente e da quello per le Politiche Agricole.</corpo>
+						</comma>
+						<comma id="art4-com2bis" iniziovigore="t3">
+							<num />
+							<corpo>Il Comitato tecnico è nominato dalla Giunta Regionale ed è composto da un numero di membri designati dalle Province, uno per ciascuna, e da un ugual numero designato dalla Giunta Regionale fra i dipendenti pubblici con profilo professionale adeguato.</corpo>
 						</comma>
 						<comma id="art4-com3">
 							<num>3.</num>
@@ -304,7 +326,7 @@
 							<num>1.</num>
 							<corpo>
 								Il Segretario Generale è nominato dalla Giunta regionale, sentita la Conferenza di bacino, tra i membri del Comitato Tecnico di cui al
-								<rif xlink:href="#art4-com2" xlink:type="simple">comma 2 dell'art. 4</rif>
+								<rif xlink:href="#art4-com2-t3" xlink:type="simple">comma 2 dell'art. 4</rif>
 								.
 							</corpo>
 						</comma>
