@@ -22,6 +22,7 @@
 						<evento data="19980822" fonte="ra4" id="t5" tipo="modifica" />
 						<evento data="19980822" fonte="ra5" id="t6" tipo="modifica" />
 						<evento data="19980822" fonte="ra6" id="t7" tipo="modifica" />
+						<evento data="19981105" fonte="ra7" id="t8" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-07-31;42" xlink:type="simple" />
@@ -31,22 +32,20 @@
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1984-02-28;14" xlink:type="simple" />
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1990-03-08;11" xlink:type="simple" />
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1993-08-11;53" xlink:type="simple" />
+						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:1972-06-05;12" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Riferimento corretto con avviso di rettifica pubblicato nel B.U.R.T. del 5 novembre 1998, n. 36, con il seguente:
+							<rif xlink:href="urn:nir:regione.toscana:legge:1972-06-05;12" xlink:type="simple">LR 5 giugno 1972, n. 12</rif>
+							.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
-						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#mod2" xlink:type="simple" />
-							<dsp:termine da="#t2" />
-							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1975-06-05;12" xlink:type="simple">
-								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1975-06-05;12" xlink:type="simple" />
-							</dsp:norma>
-							<dsp:novellando>
-								<dsp:subarg>
-									<ittig:tipo valore="atto" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
-								</dsp:subarg>
-							</dsp:novellando>
-						</dsp:abrogazione>
 						<dsp:abrogazione completa="si" implicita="no">
 							<dsp:pos xlink:href="#mod3" xlink:type="simple" />
 							<dsp:termine da="#t3" />
@@ -100,6 +99,18 @@
 							<dsp:termine da="#t7" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1993-08-11;53" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1993-08-11;53" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:subarg>
+									<ittig:tipo valore="atto" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#mod2" xlink:type="simple" />
+							<dsp:termine da="#t8" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1972-06-05;12" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1972-06-05;12" xlink:type="simple" />
 							</dsp:norma>
 							<dsp:novellando>
 								<dsp:subarg>
@@ -1313,10 +1324,12 @@
 								<num>-</num>
 								<corpo>
 									<mod id="mod2">
-										<rif xlink:href="urn:nir:regione.toscana:legge:1975-06-05;12" xlink:type="simple">LR 5 giugno 1975, n. 12</rif>
+										<rif xlink:href="urn:nir:regione.toscana:legge:1972-06-05;12" xlink:type="simple">LR 5 giugno 1975, n. 12</rif>
 										(Norme per l'esercizio delle funzioni trasferite o delegate alla Regione con
 										<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-14;5" xlink:type="simple">DPR 14 gennaio 1972, n. 5</rif>
-										in materia di tramvie e linee automobilistiche di interesse regionale, navigazione e porti lacuali);
+										in materia di tramvie e linee automobilistiche di interesse regionale, navigazione e porti lacuali)
+										<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+										;
 									</mod>
 								</corpo>
 							</ep>
@@ -1395,7 +1408,7 @@
 							<descrittori>
 								<pubblicazione norm="19980807" num="28" tipo="BURT" />
 								<entratainvigore norm="19980822" />
-								<redazione id="red1" nome="" norm="" />
+								<redazione id="red2" nome="" norm="" />
 								<urn valore="urn:nir:regione.toscana:legge:1998-07-31;42:allegato" />
 								<materie vocabolario="Regione Toscana">
 									<materia valore="Trasporti" />
