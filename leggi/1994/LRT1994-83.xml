@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19941116" num="73" tipo="BURT" />
 					<entratainvigore norm="19941201" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1994-11-07;83" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1994-11-07;83" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1994-11-07;83@1999-04-14" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Giustizia" />
 					</materie>
@@ -15,11 +16,32 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19941201" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19990508" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-11-07;83" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1999-04-14;20" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-04-14;20" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-04-14;20#art19-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 19, comma 1 della legge Regione Toscana 14 aprile 1999, n. 20" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -48,56 +70,68 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art2">
+				<articolo finevigore="t2" id="art2-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 2</num>
 					<rubrica>(Competenze della Giunta regionale)</rubrica>
-					<comma id="art2-com1">
+					<comma id="art2-t2-com1">
 						<num>1.</num>
 						<alinea>La Giunta regionale, in conformità ai criteri che regolano l'esercizio delle funzioni di direzione stabiliti dalla legge sull'ordinamento degli uffici, delibera:</alinea>
-						<el id="art2-com1-leta">
+						<el id="art2-t2-com1-leta">
 							<num>a)</num>
 							<corpo>la proposizione alla Corte Costituzionale dei giudizi di legittimità costituzionale e dei conflitti di attribuzione;</corpo>
 						</el>
-						<el id="art2-com1-letb">
+						<el id="art2-t2-com1-letb">
 							<num>b)</num>
 							<corpo>la proposizione di ricorsi amministrativi, di ricorsi giurisdizionali, di interventi principali ed adesivi, dinanzi agli organi di giustizia amministrativa, da promuovere dalla Regione per la difesa dei propri interessi;</corpo>
 						</el>
-						<el id="art2-com1-letc">
+						<el id="art2-t2-com1-letc">
 							<num>c)</num>
 							<corpo>la proposizione di azioni giudiziarie, di interventi principali ed adesivi, dinanzi al giudice ordinario, da promuovere dalla Regione per la difesa dei propri interessi, nonché alla costituzione dell'Amministrazione come parte civile nei procedimenti penali;</corpo>
 						</el>
-						<el id="art2-com1-letd">
+						<el id="art2-t2-com1-letd">
 							<num>d)</num>
 							<corpo>la costituzione dell'Amministrazione dinanzi alla Corte Costituzionale in caso di giudizi di legittimità costituzionale e di conflitti di attribuzione promossi da terzi avverso leggi ed atti della Regione;</corpo>
 						</el>
-						<el id="art2-com1-lete">
+						<el id="art2-t2-com1-lete">
 							<num>e)</num>
 							<corpo>la costituzione dell'Amministrazione nei giudizi promossi da terzi dinanzi agli organi di giustizia amministrativa, diretti ad impugnare atti o comportamenti imputabili alla Regione;</corpo>
 						</el>
-						<el id="art2-com1-letf">
+						<el id="art2-t2-com1-letf">
 							<num>f)</num>
 							<corpo>la costituzione dell'Amministrazione nei giudizi promossi da terzi avverso la Regione dinanzi al giudice ordinario, in connessione a provvedimenti o attività imputabili alla Regione stessa;</corpo>
 						</el>
-						<el id="art2-com1-letg">
+						<el id="art2-t2-com1-letg">
 							<num>g)</num>
 							<corpo>la promozione di ogni altra lite attiva o passiva;</corpo>
 						</el>
-						<el id="art2-com1-leth">
+						<el id="art2-t2-com1-leth">
 							<num>h)</num>
 							<corpo>le rinunce e le transazioni.</corpo>
 						</el>
 					</comma>
-					<comma id="art2-com2">
+					<comma id="art2-t2-com2">
 						<num>2.</num>
 						<corpo>I provvedimenti adottati, ove non sia diversamente stabilito, hanno efficacia per l'intero giudizio e non devono essere rinnovati per gli ulteriori gradi del procedimento.</corpo>
 					</comma>
-					<comma id="art2-com3">
+					<comma id="art2-t2-com3">
 						<num>3.</num>
 						<corpo>La Giunta può deliberare la promozione di azioni o la resistenza in giudizio, per controversie analoghe che riguardano una pluralità di soggetti, anche con provvedimenti a carattere generale.</corpo>
 					</comma>
-					<comma id="art2-com4">
+					<comma id="art2-t2-com4">
 						<num>4.</num>
 						<corpo>Anteriormente alla promozione dei giudizi di legittimità costituzionale e dei conflitti di attribuzione è data notizia al Presidente del Consiglio regionale che informa il Consiglio medesimo nella prima seduta successiva.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art2" iniziovigore="t2">
+					<num>Art. 2</num>
+					<rubrica>(Competenze della Giunta regionale e dei dirigenti)</rubrica>
+					<comma id="art2-com1">
+						<num>1.</num>
+						<corpo>La Giunta regionale delibera la proposizione alla Corte Costituzionale dei giudizi di legittimità costituzionale e dei conflitti di attribuzione. Negli altri casi il coordinatore dell'Avvocatura regionale, con proprio decreto, promuove e resiste alle liti ed esercita il potere di conciliare e di transigere la controversia.</corpo>
+					</comma>
+					<comma id="art2-com2">
+						<num>2.</num>
+						<corpo>I provvedimenti adottati ai sensi del precedente comma, ove non sia diversamente stabilito, hanno efficacia per l'intero giudizio e non devono essere rinnovati per gli ulteriori gradi del procedimento.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art3">
