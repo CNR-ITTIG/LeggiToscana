@@ -13,7 +13,8 @@
 					<urn finevigore="t8" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1984-04-24;25@1992-08-10" />
 					<urn finevigore="t7" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1984-04-24;25@1996-11-14" />
 					<urn finevigore="t9" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1984-04-24;25@1996-03-28" />
-					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1984-04-24;25@1997-08-11" />
+					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1984-04-24;25@1997-08-11" />
+					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1984-04-24;25@1999-05-19" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Pesca" />
 					</materie>
@@ -29,6 +30,7 @@
 						<evento data="19970101" fonte="rp4" id="t7" tipo="modifica" />
 						<evento data="19961210" fonte="rp5" id="t8" tipo="modifica" />
 						<evento data="19970821" fonte="rp6" id="t9" tipo="modifica" />
+						<evento data="19990610" fonte="rp7" id="t10" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1984-04-24;25" xlink:type="simple" />
@@ -40,6 +42,7 @@
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1996-03-28;26" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1996-11-14;82" xlink:type="simple" />
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:1997-08-11;63" xlink:type="simple" />
+						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:1999-05-19;29" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -767,6 +770,21 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#h28" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art19" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-05-19;29" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-05-19;29#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 19 maggio 1999, n. 29" id="itt50" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art19-com3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art19-com2-t10" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -1549,11 +1567,15 @@
 							</coda>
 						</ep>
 					</comma>
-					<comma id="art19-com2">
+					<comma finevigore="t10" id="art19-com2-t10" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>L'esercizio della pesca nelle zone di foce e ad acque salmastre ovvero di specchi lacustri naturali o artificiali di rilevante superficie e non è più soggetto a limitazioni di orario; nelle altre acque, fatta eccezione per la pesca dell'anguilla e del pesce gatto che, nel periodo intercorrente dal 1o giugno al 31 ottobre, può svolgersi fino alle ore 24 con canna mazzacchera, l'esercizio delle pesca è consentito da un'ora prima della levata del sole a un'ora dopo il tramonto.</corpo>
 					</comma>
-					<comma id="art19-com3">
+					<comma id="art19-com3" iniziovigore="t10">
+						<num />
+						<corpo>L'esercizio della pesca nelle zone di foce e ad acque salmastre ovvero di specchi lacustri naturali o artificiali di rilevante superficie non è più soggetto a limitazioni di orario; nelle altre acque, fatta eccezione per la pesca dell'anguilla, che può svolgersi con mazzacchera fino alle ore 24, e per la pesca del pesce gatto, che, nel periodo intercorrente dal 1 giugno al 31 ottobre, può svolgersi con canna fino alle ore 24, l'esercizio della pesca è consentito da un'ora prima della levata del sole a un'ora dopo il tramonto.</corpo>
+					</comma>
+					<comma id="art19-com4">
 						<num />
 						<corpo>Durante le pesca notturna dell'anguilla e del pesce gatto è vietata la detenzione di altre specie ittiche ad eccezione di quelle usate come esca durante l'attività di pesca. L'uso del guadino o presacchio è consentito esclusivamente quale ausiliario per l'esercizio della pesca con la canna, con la tirlandana, con la bilancia. E' altresì consentito l'uso del raffio</corpo>
 					</comma>
