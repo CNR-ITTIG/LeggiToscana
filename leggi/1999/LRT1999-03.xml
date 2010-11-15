@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19990205" num="3" tipo="BURT" />
 					<entratainvigore norm="19990205" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1999-01-26;3" />
+					<urn finevigore="t8" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1999-01-26;3" />
+					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1999-01-26;3@1999-06-11" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Bilancio" />
@@ -22,6 +23,7 @@
 						<evento data="19990205" fonte="ra4" id="t5" tipo="modifica" />
 						<evento data="19990205" fonte="ra5" id="t6" tipo="modifica" />
 						<evento data="19990205" fonte="ra6" id="t7" tipo="modifica" />
+						<evento data="19990701" fonte="rp1" id="t8" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1999-01-26;3" xlink:type="simple" />
@@ -31,8 +33,18 @@
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1995-04-18;66" xlink:type="simple" />
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1995-04-18;66" xlink:type="simple" />
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1996-02-07;11" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1999-06-11;33" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Agli oneri derivanti dalla variazione del presente comma si veda l'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1999-06-11;33#art2" xlink:type="simple">art. 2 della legge regionale 11 giugno 1999, n. 33</rif>
+							.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:abrogazione completa="si" implicita="no">
@@ -119,6 +131,23 @@
 							</dsp:norma>
 						</dsp:proroga>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art10-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-06-11;33" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-06-11;33#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 11 giugno 1999, n. 33" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art10-com4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art10-com4-t8" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -427,11 +456,20 @@
 							.
 						</corpo>
 					</comma>
-					<comma id="art10-com4">
+					<comma finevigore="t8" id="art10-com4-t8" iniziovigore="t1" status="abrogato">
 						<num>4.</num>
 						<corpo>
 							È autorizzata per l'anno 1999 la spesa di L. 1.000.000.000 per la partecipazione finanziaria alle azioni per il rilancio della moda toscana, di cui all'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1995-01-27;12#art11" xlink:type="simple">art. 11 lettera c) della LR 27.01.95 n. 12</rif>
+							.
+						</corpo>
+					</comma>
+					<comma id="art10-com4" iniziovigore="t8">
+						<num>4.</num>
+						<corpo>
+							È autorizzata per l'anno 1999 la spesa di L.1.700.000.000 per la partecipazione finanziaria alle azioni per il rilancio della moda toscana di cui all'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1995-01-27;12#art11" xlink:type="simple">art. 11, lettera c) della LR 27.1.95 n. 12</rif>
+							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
 							.
 						</corpo>
 					</comma>
