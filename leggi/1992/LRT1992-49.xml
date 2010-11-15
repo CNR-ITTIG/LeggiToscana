@@ -12,7 +12,8 @@
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1992-10-08;49@1993-10-06" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1992-10-08;49@1995-01-16" />
 					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1992-10-08;49@1996-12-19" />
-					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1992-10-08;49@1998-06-05" />
+					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1992-10-08;49@1998-06-05" />
+					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1992-10-08;49@1999-06-11" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sport" />
 					</materie>
@@ -26,6 +27,7 @@
 						<evento data="19950204" fonte="rp3" id="t5" tipo="modifica" />
 						<evento data="19970114" fonte="rp4" id="t6" tipo="modifica" />
 						<evento data="19980630" fonte="rp5" id="t7" tipo="modifica" />
+						<evento data="19990701" fonte="rp6" id="t8" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1992-10-08;49" xlink:type="simple" />
@@ -35,6 +37,7 @@
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1996-12-19;94" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1998-06-05;29" xlink:type="simple" />
+						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:1999-06-11;34" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -161,7 +164,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art15-com1" xlink:type="simple" />
+							<dsp:pos xlink:href="#art15-com1-t8" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-06-05;29" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-06-05;29#art1-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -169,10 +172,25 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art15-com1" xlink:type="simple" />
+								<dsp:pos xlink:href="#art15-com1-t8" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art15-com1-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art15-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-06-11;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-06-11;34#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 11 giugno 1999, n. 34" id="itt9" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art15-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art15-com1-t8" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -839,12 +857,24 @@
 								entro il 31 dicembre 1997.
 							</corpo>
 						</comma>
-						<comma id="art15-com1" iniziovigore="t7">
+						<comma finevigore="t8" id="art15-com1-t8" iniziovigore="t7" status="abrogato">
 							<num>1.</num>
 							<corpo>
 								Gli impianti di cui all'
 								<rif xlink:href="#art12" xlink:type="simple">art. 12</rif>
-								già in esercizio alla data di entrata in vigore della presente legge devono adeguarsi alle prescrizioni del regolamento di cui all'art. 13 entro il 30 giugno 1999.
+								già in esercizio alla data di entrata in vigore della presente legge devono adeguarsi alle prescrizioni del regolamento di cui all'
+								<rif xlink:href="#art13" xlink:type="simple">art. 13</rif>
+								entro il 30 giugno 1999.
+							</corpo>
+						</comma>
+						<comma id="art15-com1" iniziovigore="t8">
+							<num>1.</num>
+							<corpo>
+								Gli impianti di cui all'
+								<rif xlink:href="#art12" xlink:type="simple">art. 12</rif>
+								già in esercizio alla data di entrata in vigore della presente legge devono adeguarsi alle prescrizioni del regolamento di cui all'
+								<rif xlink:href="#art13" xlink:type="simple">articolo 13</rif>
+								entro il 31 dicembre 1999.
 							</corpo>
 						</comma>
 						<comma id="art15-com2">
