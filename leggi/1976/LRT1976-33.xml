@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t5" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19760709" num="34" tipo="BURT" />
@@ -10,7 +10,8 @@
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1976-07-03;33" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1976-07-03;33@1983-08-23" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1976-07-03;33@1985-01-10" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1976-07-03;33@1991-09-09" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1976-07-03;33@1991-09-09" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1976-07-03;33@1999-07-01" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -18,16 +19,18 @@
 						<evento data="19830831" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19850131" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19911004" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="19990709" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1976-07-03;33" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1983-08-23;65" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1991-09-09;46" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1999-07-01;35" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							A modificazione dei termini per i finanziamenti della Regione di cui alla presente legge si vedano le LLRR
 							<rif xlink:href="urn:nir:regione.toscana:legge:1983-10-31;71" xlink:type="simple">31 ottobre 1983, n. 71</rif>
@@ -36,14 +39,14 @@
 							.
 						</h:p>
 					</nota>
-					<nota id="n2">
+					<nota id="LeggeRegionale1-n2">
 						<h:p>
 							Per i contributi relativi all'anno 1983 si veda l'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1982-11-30;87#art1" xlink:type="simple">articolo unico della legge regionale 30 novembre 1982, n. 87</rif>
 							.
 						</h:p>
 					</nota>
-					<nota id="n3">
+					<nota id="LeggeRegionale1-n3">
 						<h:p>
 							Per i contributi relativi all'anno 1983 si veda l'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1982-11-30;87#art1" xlink:type="simple">articolo unico della legge regionale 30 novembre 1982, n. 87</rif>
@@ -218,6 +221,18 @@
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1991-09-09;46#mod2" xlink:type="simple" />
 							</dsp:norma>
 						</dsp:proroga>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1976-07-03;33" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-07-01;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-07-01;35#art11-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 11, comma 1 della legge Regione Toscana 1 luglio 1999, n. 35" id="itt13" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -229,7 +244,7 @@
 				<numDoc>33</numDoc>
 				<titoloDoc>
 					Norme in materia di biblioteche di enti locali e di interesse locale e di archivi storici affidati ad enti locali
-					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 					.
 				</titoloDoc>
 			</intestazione>
@@ -240,7 +255,7 @@
 				<h:p>la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>PRINCIPI GENERALI</rubrica>
 					<articolo id="art1">
@@ -290,7 +305,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>DISCIPLINA DELLE BIBLIOTECHE DEGLI ENTI LOCALI</rubrica>
 					<articolo id="art4">
@@ -483,7 +498,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>TITOLO III</num>
 					<rubrica>FUNZIONI DELLA REGIONE</rubrica>
 					<articolo id="art11">
@@ -656,7 +671,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit4">
+				<titolo id="LeggeRegionale1-tit4">
 					<num>TITOLO IV</num>
 					<rubrica>DELEGA DELLE FUNZIONI</rubrica>
 					<articolo id="art15">
@@ -728,7 +743,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit5">
+				<titolo id="LeggeRegionale1-tit5">
 					<num>TITOLO V</num>
 					<rubrica>FINANZIAMENTI</rubrica>
 					<articolo id="art18">
@@ -764,7 +779,7 @@
 								<num>d)</num>
 								<corpo>
 									nella misura del 50% in relazione ai programmi d'intervento, presentati alla Regione entro il 31 marzo di ogni anno
-									<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+									<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(b)</ndr>
 									, per le proprie biblioteche e per quelle su cui esercitano le funzioni delegate ai sensi dell'
 									<rif xlink:href="#art15" xlink:type="simple">art. 15</rif>
 									della presente legge; per il potenziamento e la conservazione delle strutture e del patrimonio librario e archivistico; per le attività da svolgere nell'ambito del servizio bibliotecario e archivistico e dell'adesione a un sistema; per l'istituzione e il potenziamento di una rete urbana efficiente.
@@ -844,7 +859,7 @@
 								<num>c)</num>
 								<corpo>
 									nella misura del 60% in relazione ai programmi di sviluppo dei sistemi, da presentare alla Regione entro il 31 marzo di ogni anno
-									<ndr num="#n3" valore="" xlink:type="simple">(c)</ndr>
+									<ndr num="#LeggeRegionale1-n3" valore="" xlink:type="simple">(c)</ndr>
 									.
 								</corpo>
 							</el>
@@ -972,7 +987,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit6">
+				<titolo id="LeggeRegionale1-tit6">
 					<num>TITOLO VI</num>
 					<rubrica>NORME TRANSITORIE E FINALI</rubrica>
 					<articolo id="art28">
@@ -1195,9 +1210,89 @@
 				<annesso id="ann1">
 					<testata>
 						<denAnnesso>Allegato</denAnnesso>
-						<titAnnesso>Tabella di cui all'art. 14.</titAnnesso>
 					</testata>
-					<rifesterno xlink:href="urn:nir:regione.toscana:legge:1976-07-03;33:allegato" xlink:type="simple" />
+					<DocumentoNIR nome="xxxxx">
+						<meta>
+							<descrittori>
+								<pubblicazione norm="" num="" tipo="GU" />
+								<entratainvigore norm="" />
+								<redazione id="red2" nome="" norm="" />
+								<urn valore="urn:nir:regione.toscana:legge:1976-07-03;33:allegato" />
+							</descrittori>
+						</meta>
+						<intestazione>
+							<titoloDoc>Tabella di cui all'art. 14.</titoloDoc>
+						</intestazione>
+						<contenitore id="con1" nome="">
+							<h:p>Tabella A-3. Dipartimento finanze e bilancio. Dotazioni per mansioni obiettive.</h:p>
+							<h:p>La dotazione totale della fascia funzionale VII di 6 unità è così ripartita:</h:p>
+							<h:ul>
+								<h:li>esperto in materie amministrative 2;</h:li>
+								<h:li>esperto in finanza e contabilità pubblica 4.</h:li>
+							</h:ul>
+							<h:p>La dotazione totale della fascia funzionale VI di 8 unità è così ripartita:</h:p>
+							<h:ul>
+								<h:li>assistente amministrativo 3;</h:li>
+								<h:li>assistente in finanza e contabilità pubblica 5.</h:li>
+							</h:ul>
+							<h:p>La dotazione totale della fascia funzionale V di 20 unità è così ripartita:</h:p>
+							<h:ul>
+								<h:li>collaboratore amministrativo 6;</h:li>
+								<h:li>collaboratore contabile 12;</h:li>
+								<h:li>collaboratore tecnico 2.</h:li>
+							</h:ul>
+							<h:p>La dotazione totale della fascia funzionale IV di 11 unità è così ripartita:</h:p>
+							<h:ul>
+								<h:li>applicato 9;</h:li>
+								<h:li>applicato meccanografo 2.</h:li>
+							</h:ul>
+							<h:p>La dotazione totale della fascia funzionale III di 21 unità è così ripartita:</h:p>
+							<h:ul>
+								<h:li>centralinista 5;</h:li>
+								<h:li>autista 14;</h:li>
+								<h:li>dattilografo 2.</h:li>
+							</h:ul>
+							<h:p>La dotazione totale della fascia funzionale II di 36 unità è così ripartita:</h:p>
+							<h:ul>
+								<h:li>commesso 36.</h:li>
+							</h:ul>
+							<h:p>La dotazione totale della fascia funzionale I di 6 unità è così ripartita:</h:p>
+							<h:ul>
+								<h:li>inserviente 6.</h:li>
+							</h:ul>
+							<h:p>La dotazione totale del dipartimento finanze e bilancio è di 108 unità.</h:p>
+							<h:p>Tabella A-12. Dipartimento istruzione e cultura. Dotazioni per mansioni obiettive.</h:p>
+							<h:p>La dotazione totale della fascia funzionale VII di 9 unità è così ripartita:</h:p>
+							<h:ul>
+								<h:li>esperto in materie amministrative 1;</h:li>
+								<h:li>esperto in materia di istruzione 5;</h:li>
+								<h:li>esperto per il patrimonio museale e ambientale 1;</h:li>
+								<h:li>esperto al patrimonio librario e archivistico 1;</h:li>
+								<h:li>esperto in materia di spettacolo, sport e tempo libero 1.</h:li>
+							</h:ul>
+							<h:p>La dotazione totale della fascia funzionale VI di 16 unità è così ripartita:</h:p>
+							<h:ul>
+								<h:li>assistente amministrativo 5;</h:li>
+								<h:li>assistente per l'istruzione 5;</h:li>
+								<h:li>assistente per il patrimonio culturale e servizi sociali 6.</h:li>
+							</h:ul>
+							<h:p>La dotazione totale della fascia funzionale V di 14 unità è così ripartita:</h:p>
+							<h:ul>
+								<h:li>collaboratore amministrativo 3;</h:li>
+								<h:li>collaboratore per l'istruzione e cultura 11.</h:li>
+							</h:ul>
+							<h:p>La dotazione totale della fascia funzionale IV di 8 unità è così ripartita:</h:p>
+							<h:ul>
+								<h:li>stenodattilografo 3;</h:li>
+								<h:li>applicato 5.</h:li>
+							</h:ul>
+							<h:p>La dotazione totale della fascia funzionale III di 3 unità è così ripartita:</h:p>
+							<h:ul>
+								<h:li>dattilografo 3.</h:li>
+							</h:ul>
+							<h:p>La dotazione totale del dipartimento istruzione e cultura è di 50 unità.</h:p>
+						</contenitore>
+					</DocumentoNIR>
 				</annesso>
 			</annessi>
 		</LeggeRegionale>
