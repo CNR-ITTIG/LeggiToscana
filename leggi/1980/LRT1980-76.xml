@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t2" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19800606" num="33" tipo="BURT" />
 					<entratainvigore norm="19800621" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1980-05-29;76" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1980-05-29;76" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1980-05-29;76@1999-03-10" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Ente Regione" />
@@ -16,11 +17,29 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19800621" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19990403" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-05-29;76" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1980-05-29;76" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12#ann1-art1-com1-pun200" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 1, comma 1, 200 della legge Regione Toscana 10 marzo 1999, n. 12" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -44,7 +63,7 @@
 						<alinea>In attesa dell'applicazione dell'accordo contrattuale nazionale per il triennio 1 gennaio 1979 - 31 dicembre 1981, al personale regionale sono attribuiti i seguenti miglioramenti economici:</alinea>
 						<el id="art1-com1-leta">
 							<num>a)</num>
-							<corpo>per l'anno 1979, la somma "una tantum "pari a Lire 120.000 lorde pro - capite, proporzionalmente ridotte per i mesi di servizio eventualmente non prestato nell'anno medesimo;</corpo>
+							<corpo>per l'anno 1979, la somma "una tantum" pari a Lire 120.000 lorde pro-capite, proporzionalmente ridotte per i mesi di servizio eventualmente non prestato nell'anno medesimo;</corpo>
 						</el>
 						<el id="art1-com1-letb">
 							<num>b)</num>
@@ -94,7 +113,7 @@
 					<num>ARTICOLO 2</num>
 					<comma id="art2-com1">
 						<num />
-						<corpo>Agli oneri derivanti dall'applicazione della presente legge per l'anno 1980, previsti in L. 3.500.000.000, compresi gli oneri riflessi a carico dell'ente, è fatto fronte con i fondi di cui al cap. 04000 "Spese per il personale addetto ai servizi della Regione. Stipendi, altri assegni fissi e contributi diversi a carico dell'ente ", del bilancio di previsione 1980, che presenta la necessaria disponibilità.</corpo>
+						<corpo>Agli oneri derivanti dall'applicazione della presente legge per l'anno 1980, previsti in L. 3.500.000.000, compresi gli oneri riflessi a carico dell'ente, è fatto fronte con i fondi di cui al cap. 04000 "Spese per il personale addetto ai servizi della Regione. Stipendi, altri assegni fissi e contributi diversi a carico dell'ente", del bilancio di previsione 1980, che presenta la necessaria disponibilità.</corpo>
 					</comma>
 					<comma id="art2-com2">
 						<num />

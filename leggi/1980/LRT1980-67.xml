@@ -1,18 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t2" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19800530" num="32" tipo="BURT" />
-					<entratainvigore norm="" />
+					<entratainvigore norm="19800614" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1980-05-24;67" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1980-05-24;67" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1980-05-24;67@1999-03-10" />
 					<materie vocabolario="Regione Toscana">
-						<materia valore="EDILIZIA" />
-						<materia valore="ORGANIZZAZIONI" />
+						<materia valore="Organizzazioni" />
+						<materia valore="Edilizia" />
 					</materie>
 				</descrittori>
+				<ciclodivita>
+					<eventi>
+						<evento data="19800614" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19990403" fonte="rp1" id="t2" tipo="modifica" />
+					</eventi>
+					<relazioni>
+						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-05-24;67" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple" />
+					</relazioni>
+				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1980-05-24;67" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12#ann1-art1-com1-pun197" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="ALLEGATO, articolo 1, comma 1, 197 della legge Regione Toscana 10 marzo 1999, n. 12" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -137,8 +164,8 @@
 						<num />
 						<alinea>
 							Il bilancio è redatto in termini di competenza e deve comprendere tutti gli elementi di cui all'
-							<rif xlink:href="#art10" xlink:type="simple">articolo 10</rif>
-							lett. c), e cioè indicare:
+							<rif xlink:href="#art10-com1-letc" xlink:type="simple">articolo 10 lett. c)</rif>
+							, e cioè indicare:
 						</alinea>
 						<el id="art7-com3-leta">
 							<num>a)</num>
@@ -175,9 +202,9 @@
 						<el id="art8-com3-leta">
 							<num>a)</num>
 							<corpo>
-								l'esposizione dei costi dell'attività, conformemente a quanto disposto
-								<rif xlink:href="#art10" xlink:type="simple">dall'art. 10</rif>
-								, lett. c) (Allegato A);
+								l'esposizione dei costi dell'attività, conformemente a quanto disposto dall'
+								<rif xlink:href="#art10-com1-letc" xlink:type="simple">art. 10 , lett. c)</rif>
+								(Allegato A);
 							</corpo>
 						</el>
 						<el id="art8-com3-letb">
@@ -344,10 +371,10 @@
 							<rif xlink:href="#art3" xlink:type="simple">articolo 3</rif>
 							si applica con effetto dall'esercizio finanziario 1981. A tal fine, le relazioni previste dagli
 							<mrif>
-								articoli 4
-								<rif xlink:href="#art4-com1" xlink:type="simple">primo comma</rif>
-								, e 15,
-								<rif xlink:href="#art15-com3" xlink:type="simple">terzo comma</rif>
+								articoli
+								<rif xlink:href="#art4-com1" xlink:type="simple">4 primo comma</rif>
+								, e
+								<rif xlink:href="#art15-com3" xlink:type="simple">15, terzo comma</rif>
 							</mrif>
 							, sono inviate per la prima volta alla Giunta regionale entro il 30 giugno 1980.
 						</corpo>
@@ -357,7 +384,7 @@
 			<formulafinale>La presente legge è pubblicata sul Bollettino Ufficiale della Regione Toscana. E' fatto obbligo a chiunque spetti di osservarla e farla osservare come legge della Regione Toscana.</formulafinale>
 			<conclusione>
 				<dataeluogo codice="" norm="">Firenze, 24 maggio 1980.</dataeluogo>
-				<soggetto codice="">La presente legge è stata approvata dal Consiglio Regionale il 17-4-1980 ed è stata vistata dal Commissario di Governo il 21-5- 1980.</soggetto>
+				<soggetto codice="">La presente legge è stata approvata dal Consiglio Regionale il 17-4-1980 ed è stata vistata dal Commissario di Governo il 21-5-1980.</soggetto>
 			</conclusione>
 			<annessi>
 				<annesso id="ann1">

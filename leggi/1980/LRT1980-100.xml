@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t3" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19800102" num="1" tipo="BURT" />
 					<entratainvigore norm="19800117" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1980-12-27;100" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1980-12-27;100@1982-11-03" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1980-12-27;100@1982-11-03" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1980-12-27;100@1999-03-10" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Commercio" />
 					</materie>
@@ -17,25 +18,27 @@
 					<eventi>
 						<evento data="19800117" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19821124" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19990403" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-12-27;100" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1982-11-03;79" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Il termine qui indicato è stabilito ai sensi dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1982-11-03;79#art1" xlink:type="simple">articolo 1 della legge regionale 3 novembre 1982, n. 79</rif>
-							ad unmese dall'antrata in vigore della stessa.
+							ad un mese dall'entrata in vigore della stessa.
 						</h:p>
 					</nota>
 				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art6" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1982-11-03;79" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1982-11-03;79#art3-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -44,6 +47,18 @@
 							</dsp:norma>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art6-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1980-12-27;100" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12#ann1-art1-com1-pun205" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 1, comma 1, 205 della legge Regione Toscana 10 marzo 1999, n. 12" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>
@@ -124,28 +139,48 @@
 					<comma id="art3-com1">
 						<num />
 						<alinea>
-							I contributi per ciascuna delle finalità previste ai punti a), b) e c) dell'
-							<rif xlink:href="#art1" xlink:type="simple">art. 1</rif>
+							I contributi per ciascuna delle finalità previste ai
+							<mrif>
+								punti
+								<rif xlink:href="#art1-com1-leta" xlink:type="simple">a)</rif>
+								,
+								<rif xlink:href="#art1-com1-letb" xlink:type="simple">b)</rif>
+								e
+								<rif xlink:href="#art1-com1-letc" xlink:type="simple">c)</rif>
+								dell'art. 1
+							</mrif>
 							sono concessi nelle seguenti misure:
 						</alinea>
 						<ep id="art3-com1-pun1">
 							<num>-</num>
-							<corpo>per le finalità di cui al punto a) L. 1.800.000</corpo>
+							<corpo>
+								per le finalità di cui al
+								<rif xlink:href="#art1-com1-leta" xlink:type="simple">punto a)</rif>
+								L. 1.800.000
+							</corpo>
 						</ep>
 						<ep id="art3-com1-pun2">
 							<num>-</num>
-							<corpo>per le finalità di cui al punto b) L. 1.150.000</corpo>
+							<corpo>
+								per le finalità di cui al
+								<rif xlink:href="#art1-com1-letb" xlink:type="simple">punto b)</rif>
+								L. 1.150.000
+							</corpo>
 						</ep>
 						<ep id="art3-com1-pun3">
 							<num>-</num>
-							<corpo>per le finalità di cui al punto c) L. 1.800.000</corpo>
+							<corpo>
+								per le finalità di cui al
+								<rif xlink:href="#art1-com1-letc" xlink:type="simple">punto c)</rif>
+								L. 1.800.000
+							</corpo>
 						</ep>
 					</comma>
 					<comma id="art3-com2">
 						<num />
 						<corpo>
-							I contributi per le finalità di cui al punto a) dell'
-							<rif xlink:href="#art1" xlink:type="simple">articolo 1</rif>
+							I contributi per le finalità di cui al
+							<rif xlink:href="#art1-com1-leta" xlink:type="simple">punto a) dell'articolo 1</rif>
 							sono concessi ai Comuni che, alla data di entrata in vigore della presente legge, non abbiano ancora provveduto all'approvazione del piano di cui all'
 							<rif xlink:href="urn:nir:stato:legge:1971-06-11;426#art11" xlink:type="simple">art. 11 della Legge 11-6-1971, n. 426</rif>
 							.
@@ -154,12 +189,21 @@
 					<comma id="art3-com3">
 						<num />
 						<corpo>
-							I Contributi per le finalità di cui ai punti b) e c) dell'
-							<rif xlink:href="#art1" xlink:type="simple">art. 1</rif>
+							I Contributi per le finalità di cui ai
+							<mrif>
+								punti
+								<rif xlink:href="#art1-com1-letb" xlink:type="simple">b)</rif>
+								e
+								<rif xlink:href="#art1-com1-letc" xlink:type="simple">c)</rif>
+								dell'art. 1
+							</mrif>
 							sono concessi ai sensi dell'
 							<rif xlink:href="#art2" xlink:type="simple">art. 2</rif>
-							ai Comuni che, entro sei mesi dalla data di entrata in vigore della presente legge, abbiano approvato i piani o deliberato di procedere alla integrazione e/o revisione dei piani di cui alla lett. b), nonchè alla formazione o redazione dei piani di cui alla lett. c)
-							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							ai Comuni che, entro sei mesi dalla data di entrata in vigore della presente legge, abbiano approvato i piani o deliberato di procedere alla integrazione e/o revisione dei piani di cui alla
+							<rif xlink:href="#art1-com1-letb" xlink:type="simple">lett. b)</rif>
+							, nonchè alla formazione o redazione dei piani di cui alla
+							<rif xlink:href="#art1-com1-letc" xlink:type="simple">lett. c)</rif>
+							<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 							.
 						</corpo>
 					</comma>

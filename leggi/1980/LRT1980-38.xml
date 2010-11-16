@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t3" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19800516" num="28" tipo="BURT" />
 					<entratainvigore norm="19800516" />
 					<redazione id="red1" nome="" norm="" />
-					<urn iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1980-05-07;38" />
+					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1980-05-07;38" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1980-05-07;38@1999-03-10" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Edilizia" />
 					</materie>
@@ -16,10 +17,12 @@
 					<eventi>
 						<evento data="19800516" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19800102" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19990403" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-05-07;38" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1980-12-27;101" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -168,10 +171,10 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#h17" xlink:type="simple" />
+								<dsp:pos xlink:href="#h16" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#h16" xlink:type="simple" />
+								<dsp:pos xlink:href="#h15" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -183,12 +186,24 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#h19" xlink:type="simple" />
+								<dsp:pos xlink:href="#h18" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#h18" xlink:type="simple" />
+								<dsp:pos xlink:href="#h17" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1980-05-07;38" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12#ann1-art1-com1-pun190" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="Allegato A, articolo 1, comma 1, 190 della legge Regione Toscana 10 marzo 1999, n. 12" id="itt12" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -219,7 +234,7 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>LA PROGRAMMAZIONE DEGLI INTERVENTI</rubrica>
 					<articolo id="art2">
@@ -482,7 +497,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>INDIVIDUAZIONE DEI SOGGETTI INCARICATI DELLA REALIZZAZIONE DEGLI INTERVENTI DI EDILIZIA AGEVOLATA - CONVENZIONATA</rubrica>
 					<articolo id="art8">
@@ -1016,7 +1031,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>TITOLO III</num>
 					<rubrica>NORME TRANSITORIE</rubrica>
 					<articolo finevigore="t2" id="art22-t2" iniziovigore="t1" status="abrogato">
@@ -1049,7 +1064,7 @@
 									<rif xlink:href="#art24" xlink:type="simple">24</rif>
 								</mrif>
 								, ai sensi delle disposizioni contenute nel
-								<rif xlink:href="#tit2" xlink:type="simple">Titolo II</rif>
+								<rif xlink:href="#LeggeRegionale1-tit2" xlink:type="simple">Titolo II</rif>
 								della presente legge.
 							</corpo>
 						</comma>
@@ -1084,7 +1099,7 @@
 									<rif xlink:href="#art24" xlink:type="simple">24</rif>
 								</mrif>
 								, ai sensi delle disposizioni contenute nel
-								<rif xlink:href="#tit2" xlink:type="simple">titolo II della presente legge</rif>
+								<rif xlink:href="#LeggeRegionale1-tit2" xlink:type="simple">titolo II della presente legge</rif>
 								.
 							</corpo>
 						</comma>
@@ -1176,10 +1191,12 @@
 						<contenitore id="con1" nome="corpo">
 							<contenitore id="con2" nome="">
 								<h:p>
-									<h:b>CRITERI COOPERATIVE (
-									<h:span finevigore="t2" id="h13" iniziovigore="t1" status="abrogato">biennio 1980-1981</h:span>
-									<h:span id="h14" iniziovigore="t2">biennio 1980-81 e biennio 1982-83</h:span>
-									)</h:b>
+									<h:b>
+										CRITERI COOPERATIVE (
+										<h:span finevigore="t2" id="h13" iniziovigore="t1" status="abrogato">biennio 1980-1981</h:span>
+										<h:span id="h14" iniziovigore="t2">biennio 1980-81 e biennio 1982-83</h:span>
+										)
+									</h:b>
 								</h:p>
 								<contenitore id="con3" nome="">
 									<h:p>
@@ -1334,10 +1351,12 @@
 							</contenitore>
 							<contenitore id="con12" nome="">
 								<h:p>
-									<h:b>CRITERI IMPRESE (
-									<h:span finevigore="t2" id="h16" iniziovigore="t1" status="abrogato">biennio 1980-1981</h:span>
-									<h:span id="h17" iniziovigore="t2">biennio 1980-81 e biennio 1982-83</h:span>
-									)</h:b>
+									<h:b>
+										CRITERI IMPRESE (
+										<h:span finevigore="t2" id="h15" iniziovigore="t1" status="abrogato">biennio 1980-1981</h:span>
+										<h:span id="h16" iniziovigore="t2">biennio 1980-81 e biennio 1982-83</h:span>
+										)
+									</h:b>
 								</h:p>
 								<contenitore id="con13" nome="">
 									<h:p>a) sistemi costruttivi e tipologie proposte, rapportate alle dimensioni dell'intervento, e prezzi di vendita degli alloggi da realizzare</h:p>
@@ -1509,8 +1528,8 @@
 						<denAnnesso>Allegato B</denAnnesso>
 						<titAnnesso>
 							CRITERI E PUNTEGGI PER IL RECUPERO (
-							<h:span finevigore="t2" id="h18" iniziovigore="t1" status="abrogato">biennio 1980-1981</h:span>
-							<h:span id="h19" iniziovigore="t2">biennio 1980-81 e biennio 1982-83</h:span>
+							<h:span finevigore="t2" id="h17" iniziovigore="t1" status="abrogato">biennio 1980-1981</h:span>
+							<h:span id="h18" iniziovigore="t2">biennio 1980-81 e biennio 1982-83</h:span>
 							)
 						</titAnnesso>
 					</testata>
