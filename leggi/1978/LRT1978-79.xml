@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<Legge>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<Legge finevigore="t2" id="Legge1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19781222" num="64" tipo="BURT" />
 					<entratainvigore norm="19790106" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1978-12-15;79" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1978-12-15;79" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1978-12-15;79@1999-03-10" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ordinamento" />
 						<materia valore="Ente Regione" />
@@ -16,13 +17,15 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19790106" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19990403" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1978-12-15;79" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="Legge1-n1">
 						<h:p>
 							Ufficio soppresso a decorrere dal 1 gennaio 1982 ai sensi dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1981-02-19;15#art7" xlink:type="simple">art. 7 della legge regionale 19 febbraio 1981, n.15</rif>
@@ -30,6 +33,22 @@
 						</h:p>
 					</nota>
 				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1978-12-15;79" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12#ann2-art1-com1-pun30" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 1, comma 1, 30 della legge Regione Toscana 10 marzo 1999, n. 12" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#Legge1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -77,7 +96,7 @@
 						<num />
 						<corpo>
 							È istituito in ogni capoluogo di provincia l'"ufficio provinciale dell'agricoltura, foreste e alimentazione"
-							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							<ndr num="#Legge1-n1" valore="" xlink:type="simple">(a)</ndr>
 							per lo svolgimento, in conformità alle norme che disciplinano le funzioni trasferite o delegate alla Regione e alle disposizioni conseguenti, salve le attribuzioni espressamente conferite da leggi regionali agli uffici e dipartimenti del centro direzionale e salvo che l'amministrazione regionale non si avvalga degli uffici degli enti locali, delle attività istruttorie, esecutive ed operative in ordine alle materie sin qui svolte, a norma dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1973-09-06;55#art19" xlink:type="simple">art. 19 della legge regionale 6 settembre 1973, n. 55</rif>
 							, dall'Ispettorato Provinciale dell'Agricoltura e relativi uffici agricoli di zona, dall'Ispettorato Ripartimentale delle Foreste e, per le province di Siena e Grosseto, dall'Ispettorato Distrettuale delle Foreste di Piancastagnaio, nonchè alle materie attribuite, nell'organizzazione statale, agli uffici indicati ai punti 4 e 13 - con esclusione dell'Ispettorato Compartimentale dell'alimentazione, della tabella "A" allegata al

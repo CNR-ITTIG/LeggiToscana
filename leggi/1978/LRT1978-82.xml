@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t2" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19781230" num="66" tipo="BURT" />
 					<entratainvigore norm="19790114" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1978-12-29;82" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1978-12-29;82" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1978-12-29;82@1999-03-10" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="CELEBRAZIONI" />
 						<materia valore="CULTURA" />
@@ -16,18 +17,36 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19790114" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19990403" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1978-12-29;82" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1978-12-29;82" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12#ann1-art1-com1-pun169" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 1, comma 1, 169 della legge Regione Toscana 10 marzo 1999, n. 12" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<tipoDoc>Legge regionale</tipoDoc>
 				<dataDoc norm="19781229">29 dicembre 1978</dataDoc>
 				, n.
 				<numDoc>82</numDoc>
-				<titoloDoc>Celebrazione del 6o centenario della nascita di Lorenzo Ghiberti.</titoloDoc>
+				<titoloDoc>Celebrazione del 6° centenario della nascita di Lorenzo Ghiberti.</titoloDoc>
 				<emanante>Regione Toscana</emanante>
 			</intestazione>
 			<formulainiziale>
@@ -41,7 +60,7 @@
 					<num>ARTICOLO 1</num>
 					<comma id="art1-com1">
 						<num />
-						<corpo>La Regione Toscana, nel quadro delle attività statutarie di tutela delle attività culturali e di valorizzazione del patrimonio storico e artistico, collabora alla realizzazione della Celebrazione del 6o centenario della nascita di Lorenzo Ghiberti, anche mediante apposito finanziamento.</corpo>
+						<corpo>La Regione Toscana, nel quadro delle attività statutarie di tutela delle attività culturali e di valorizzazione del patrimonio storico e artistico, collabora alla realizzazione della Celebrazione del 6° centenario della nascita di Lorenzo Ghiberti, anche mediante apposito finanziamento.</corpo>
 					</comma>
 					<comma id="art1-com2">
 						<num />
@@ -70,7 +89,7 @@
 					<num>ARTICOLO 4</num>
 					<comma id="art4-com1">
 						<num />
-						<corpo>L'onere derivante dall'attuazione della presente legge, previsto in L. 80.000.000 farà carico al bilancio del corrente esercizio, Capitolo 11.860 "Spese per la celebrazione del 6o centenario della Nascita di Lorenzo Ghiberti", che viene istituito con la variazione di cui all'articolo seguente.</corpo>
+						<corpo>L'onere derivante dall'attuazione della presente legge, previsto in L. 80.000.000 farà carico al bilancio del corrente esercizio, Capitolo 11.860 "Spese per la celebrazione del 6° centenario della Nascita di Lorenzo Ghiberti", che viene istituito con la variazione di cui all'articolo seguente.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art5">
