@@ -10,7 +10,8 @@
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1996-02-07;11" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1996-02-07;11@1997-03-05" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1996-02-07;11@1998-08-13" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1996-02-07;11@1999-01-26" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1996-02-07;11@1999-01-26" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1996-02-07;11@1999-07-22" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organizzazioni Pubbliche" />
 						<materia valore="Imprese" />
@@ -23,12 +24,14 @@
 						<evento data="19970329" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19980908" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19990205" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="19990817" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1996-02-07;11" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1997-03-05;17" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1998-08-13;67" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1999-01-26;3" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1999-07-22;41" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -241,6 +244,36 @@
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-01-26;3#mod6" xlink:type="simple" />
 							</dsp:norma>
 						</dsp:proroga>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-07-22;41" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-07-22;41#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 22 luglio 1999, n. 41" id="itt14" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-07-22;41" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-07-22;41#art3-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 2 della legge Regione Toscana 22 luglio 1999, n. 41" id="itt15" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -284,11 +317,22 @@
 					<capo id="tit2-cap1">
 						<num>Capo I</num>
 						<rubrica>CONTRIBUTI IN CONTO INTERESSI SU PRESTITI PARTECIPATIVI</rubrica>
-						<articolo id="art2">
+						<articolo finevigore="t5" id="art2-t5" iniziovigore="t1" status="abrogato">
 							<num>ARTICOLO 2</num>
-							<comma id="art2-com1">
+							<comma id="art2-t5-com1">
 								<num>1.</num>
 								<corpo>La Regione Toscana, nell'ambito delle politiche finalizzate a favorire l'innovazione finanziaria delle imprese, concede tramite la FIDI Toscana SpA alle piccole e medie imprese manifatturiere, edili estrattive e di servizi alla produzione, contributi in conto interessi su prestiti partecipativi concessi dalla FIDI Toscana SpA medesima.</corpo>
+							</comma>
+						</articolo>
+						<articolo id="art2" iniziovigore="t5">
+							<num>ARTICOLO 2</num>
+							<comma id="art2-com1">
+								<num />
+								<corpo>
+									La Regione Toscana, nell'ambito delle politiche finalizzate a favorire l'innovazione finanziaria, concede tramite la Fidi Toscana SpA alle piccole e medie imprese, con l'esclusione delle imprese agricole di cui all'
+									<rif xlink:href="urn:nir:stato:codice.civile:1942-03-16;262#art2135" xlink:type="simple">articolo 2135 del codice civile</rif>
+									, contributi in conto interessi su prestiti partecipativi concessi dalla Fidi Toscana SpA medesima.
+								</corpo>
 							</comma>
 						</articolo>
 						<articolo id="art3">
@@ -297,22 +341,29 @@
 								<num>1.</num>
 								<corpo>
 									Per la concessione dei contributi in conto interessi previsti dal
-									<rif xlink:href="#art2" xlink:type="simple">precedente articolo 2</rif>
+									<rif xlink:href="#art2-t5" xlink:type="simple">precedente articolo 2</rif>
 									è costituito un apposito fondo presso la FIDI Toscana SpA, che lo gestisce nelle forme indicate dal
 									<rif xlink:href="#tit2-cap1" xlink:type="simple">Capo I</rif>
 									della presente legge.
 								</corpo>
 							</comma>
 						</articolo>
-						<articolo id="art4">
+						<articolo finevigore="t5" id="art4-t5" iniziovigore="t1" status="abrogato">
 							<num>ARTICOLO 4</num>
-							<comma id="art4-com1">
+							<comma id="art4-t5-com1">
 								<num>1.</num>
 								<corpo>
 									Sono beneficiarie dei contributi in conto interessi le piccole e medie imprese manifatturiere, edili estrattive e di servizi alla produzione, costituite in forma di società di capitali, che abbiano i requisiti previsti dal
 									<rif xlink:href="urn:nir:ministero.industria:decreto:1993-06-01;nir-1" xlink:type="simple">Decreto del Ministero dell'Industria, del Commercio e dell'Artigianato del 1/6/93</rif>
 									e successive modificazioni ed integrazioni.
 								</corpo>
+							</comma>
+						</articolo>
+						<articolo id="art4" iniziovigore="t5">
+							<num>ARTICOLO 4</num>
+							<comma id="art4-com1">
+								<num />
+								<corpo>Sono beneficiarie dei contributi in conto interesse le piccole e medie imprese extragricole, costituite in forma di società di capitali, che abbiano i requisiti previsti dal decreto del Ministero dell'industria, commercio e dell'artigianato del 18 settembre 1997 e successive modificazioni e integrazioni.</corpo>
 							</comma>
 						</articolo>
 						<articolo id="art5">

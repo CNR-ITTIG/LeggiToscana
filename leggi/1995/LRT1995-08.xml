@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19950120" num="6 Suppl. Ord. 1" tipo="BURT" />
 					<entratainvigore norm="19950120" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1995-01-19;8" />
+					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1995-01-19;8" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1995-01-19;8@1995-08-16" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Bilancio" />
@@ -17,10 +18,12 @@
 					<eventi>
 						<evento data="19950120" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19950421" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19950825" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-01-19;8" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-04-14;61" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1995-08-16;88" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -32,6 +35,25 @@
 						</h:p>
 					</nota>
 				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-08-16;88" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-08-16;88#art5-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 1 della legge Regione Toscana 16 agosto 1995, n. 88" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art9-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -195,32 +217,60 @@
 						</en>
 					</comma>
 				</articolo>
-				<articolo id="art9">
+				<articolo finevigore="t3" id="art9-t3" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 9</num>
 					<rubrica>(Disavanzo dell'esercizio 1995)</rubrica>
-					<comma id="art9-com1">
+					<comma id="art9-t3-com1">
 						<num>1.</num>
 						<corpo>Agli effetti di cui ai commi successivi il disavanzo per l'esercizio 1995 è approvato in L. 143.813.000.000.</corpo>
 					</comma>
-					<comma id="art9-com2">
+					<comma id="art9-t3-com2">
 						<num>2.</num>
 						<corpo>
 							La Giunta Regionale è autorizzata a contrarre, nell'esercizio 1995 mutui e prestiti per l'importo di L. 143.813.000.000 per la copertura del disavanzo di cui al
-							<rif xlink:href="#art9-com1" xlink:type="simple">primo comma</rif>
+							<rif xlink:href="#art9-t3-com1" xlink:type="simple">primo comma</rif>
 							per le finalità indicate nell'allegato II) 1).
 						</corpo>
 					</comma>
-					<comma id="art9-com3">
+					<comma id="art9-t3-com3">
 						<num>3.</num>
 						<corpo>
 							I mutui di cui al
-							<rif xlink:href="#art9-com2" xlink:type="simple">secondo comma</rif>
+							<rif xlink:href="#art9-t3-com2" xlink:type="simple">secondo comma</rif>
 							, da estinguersi in un periodo non superiore a 15 anni, saranno contratti ad un tasso iniziale massimo del 13,50% effettivo annuo e con rata di ammortamento decorrente dall'1-1-1996.
 						</corpo>
 					</comma>
-					<comma id="art9-com4">
+					<comma id="art9-t3-com4">
 						<num>4.</num>
 						<corpo>In caso di eventuale maggiorazione della rata massima di ammortamento determinata in L. 23.000.000.000. derivante, nel corso dell'ammortamento, dalla variabilità del tasso o dagli eventuali oneri conseguenti al rischio di cambio, saranno apportate le occorrenti variazioni ai bilanci annuale e pluriennale con le singole leggi di bilancio.</corpo>
+					</comma>
+					<comma id="art9-t3-com5">
+						<num>5.</num>
+						<corpo>Gli oneri derivanti negli anni 1996 e 1997 delle singole rate di ammortamento trovano copertura finanziaria mediante gli appositi stanziamenti del bilancio pluriennale approvato dalla presente legge.</corpo>
+					</comma>
+					<comma id="art9-t3-com6">
+						<num>6.</num>
+						<corpo>È disposto che le rate di ammortamento relative agli anni seguenti al 1997 trovino copertura con le successive leggi di bilancio.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art9" iniziovigore="t3">
+					<num>Art. 9</num>
+					<rubrica>(Disavanzo dell'esercizio 1995)</rubrica>
+					<comma id="art9-com1">
+						<num>1.</num>
+						<corpo>Agli effetti di cui ai commi successivi il disavanzo per l'esercizio 1995 è approvato in Lire 301.623.000.000.</corpo>
+					</comma>
+					<comma id="art9-com2">
+						<num>2.</num>
+						<corpo>La Giunta Regionale è autorizzata a contrarre, nell'esercizio 1995 mutui e prestiti per l'importo di L. 301.623.000.000 per la copertura del disavanzo di cui al primo comma per le finalità indicate nell'allegato II) 1).</corpo>
+					</comma>
+					<comma id="art9-com3">
+						<num>3.</num>
+						<corpo>I mutui di cui al secondo comma, da estinguersi in un periodo non superiore a 15 anni, saranno contratti ad un tasso iniziale massimo del 13.50% effettivo annuo e con rata di ammortamento decorrente dall'1.1.1996.</corpo>
+					</comma>
+					<comma id="art9-com4">
+						<num>4.</num>
+						<corpo>In caso di eventuale maggiorazione della rata massima di ammortamento determinata in Lire 48.000.000.000 derivante, nel corso dell' ammortamento, dalla variabilità del tasso o dagli eventuali oneri conseguenti al rischio di cambio, saranno apportate le occorrenti variazioni ai bilanci annuale e pluriennale con le singole leggi di bilancio.</corpo>
 					</comma>
 					<comma id="art9-com5">
 						<num>5.</num>
@@ -228,7 +278,7 @@
 					</comma>
 					<comma id="art9-com6">
 						<num>6.</num>
-						<corpo>È disposto che le rate di ammortamento relative agli anni seguenti al 1997 trovino copertura con le successive leggi di bilancio.</corpo>
+						<corpo>E' disposto che le rate di ammortamento relative agli anni seguenti al 1997 trovino copertura con le successive leggi di bilancio.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art10">

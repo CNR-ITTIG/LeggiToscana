@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19990205" num="3 Suppl. Straord. 13" tipo="BURT" />
 					<entratainvigore norm="19990205" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1999-01-26;4" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1999-01-26;4" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1999-01-26;4@1999-07-15" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Bilancio" />
@@ -16,11 +17,32 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19990205" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19990810" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1999-01-26;4" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1999-07-15;40" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-07-15;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-07-15;40#art5-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 1 della legge Regione Toscana 15 luglio 1999, n. 40" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art9-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -173,40 +195,84 @@
 						</el>
 					</comma>
 				</articolo>
-				<articolo id="art9">
+				<articolo finevigore="t2" id="art9-t2" iniziovigore="t1" status="abrogato">
+					<num>ARTICOLO 9</num>
+					<rubrica>(Disavanzo dell'esercizio 1999)</rubrica>
+					<comma id="art9-t2-com1">
+						<num>1.</num>
+						<corpo>Agli effetti di cui ai commi successivi il disavanzo per l'esercizio 1999 èapprovato in L. 384.334.853.000 (di cui L. 147.000.000.000 per il disavanzo della spesa sanitaria anno 1997);</corpo>
+					</comma>
+					<comma id="art9-t2-com2">
+						<num>2.</num>
+						<corpo>
+							La Giunta regionale è autorizzata a contrarre nell'esercizio 1999 mutui e prestiti per l'importo di L. 237.334.853.000 per la copertura del disavanzo di cui al
+							<rif xlink:href="#art9-t2-com1" xlink:type="simple">primo comma</rif>
+							per le finalità indicate nell'allegato II) 1.
+						</corpo>
+					</comma>
+					<comma id="art9-t2-com3">
+						<num>3.</num>
+						<corpo>
+							1 mutui di cui al
+							<rif xlink:href="#art9-t2-com2" xlink:type="simple">secondo comma</rif>
+							, da estinguersi in un periodo non superiore a 15 anni, saranno contratti ad un tasso iniziale massimo del 4,5% effettivo annuo e con un ammortamento decorrente dall'1.1.2000.
+						</corpo>
+					</comma>
+					<comma id="art9-t2-com4">
+						<num>4.</num>
+						<corpo>Gli oneri annui di ammortamento, determinati in L. 22.200.000.000, trovano copertura finanziaria negli appositi stanziamenti del bilancio pluriennale approvato dalla presente legge.</corpo>
+					</comma>
+					<comma id="art9-t2-com5">
+						<num>5.</num>
+						<corpo>
+							L'eventuale maggiorazione della rata di ammortamento dei mutui di cui al
+							<rif xlink:href="#art9-t2-com4" xlink:type="simple">quarto comma</rif>
+							dovuta alla variabilità del tasso o dagli eventuali oneri conseguenti al rischio di cambio, troverà copertura finanziaria con variazione ai bilanci annuali e pluriennali attraverso le singole leggi di bilancio.
+						</corpo>
+					</comma>
+					<comma id="art9-t2-com6">
+						<num>6.</num>
+						<corpo>È disposto che le rate di ammortamento relative agli anni seguenti al 2001 trovino copertura con le successive leggi di bilancio.</corpo>
+					</comma>
+					<comma id="art9-t2-com7">
+						<num>7.</num>
+						<corpo>
+							La Giunta regionale è altresì autorizzata ad emettere, in sostituzione parziale o totale dei mutui, di cui al
+							<rif xlink:href="#art9-t2-com2" xlink:type="simple">secondo comma</rif>
+							, prestiti obbligazionari, con le modalità previste dalla
+							<rif xlink:href="urn:nir:stato:legge:1994-12-23;724" xlink:type="simple">legge 23 dicembre 1994 n. 724</rif>
+							e successive modificazioni con oneri a carico del bilancio regionale non superiori a quelli indicati al
+							<rif xlink:href="#art9-t2-com4" xlink:type="simple">quarto comma</rif>
+							.
+						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art9" iniziovigore="t2">
 					<num>ARTICOLO 9</num>
 					<rubrica>(Disavanzo dell'esercizio 1999)</rubrica>
 					<comma id="art9-com1">
 						<num>1.</num>
-						<corpo>Agli effetti di cui ai commi successivi il disavanzo per l'esercizio 1999 èapprovato in L. 384.334.853.000 (di cui L. 147.000.000.000 per il disavanzo della spesa sanitaria anno 1997);</corpo>
+						<corpo>Agli effetti di cui ai commi successivi il disavanzo per l'esercizio 1999 è approvato in L. 555.931.060.084 (di cui L. 147.000.000.000 per il disavanzo della spesa sanitaria 1997).</corpo>
 					</comma>
 					<comma id="art9-com2">
 						<num>2.</num>
-						<corpo>
-							La Giunta regionale è autorizzata a contrarre nell'esercizio 1999 mutui e prestiti per l'importo di L. 237.334.853.000 per la copertura del disavanzo di cui al
-							<rif xlink:href="#art9-com1" xlink:type="simple">primo comma</rif>
-							per le finalità indicate nell'allegato II) 1.
-						</corpo>
+						<corpo>La Giunta regionale è autorizzata a contrarre nell'esercizio 1999 mutui e prestiti per l'importo di L. 408.931.060.084 per la copertura del disavanzo di cui al primo comma per le finalità indicate nell'allegato II) 1).</corpo>
 					</comma>
 					<comma id="art9-com3">
 						<num>3.</num>
-						<corpo>
-							1 mutui di cui al
-							<rif xlink:href="#art9-com2" xlink:type="simple">secondo comma</rif>
-							, da estinguersi in un periodo non superiore a 15 anni, saranno contratti ad un tasso iniziale massimo del 4,5% effettivo annuo e con un ammortamento decorrente dall'1.1.2000.
-						</corpo>
+						<corpo>I mutui di cui al secondo comma, da estinguersi in un periodo non superiore a 15 anni, saranno contratti ad un tasso iniziale massimo del 5,5 % effettivo annuo e con ammortamento decorrente dall'1.1.2000</corpo>
 					</comma>
 					<comma id="art9-com4">
 						<num>4.</num>
-						<corpo>Gli oneri annui di ammortamento, determinati in L. 22.200.000.000, trovano copertura finanziaria negli appositi stanziamenti del bilancio pluriennale approvato dalla presente legge.</corpo>
+						<corpo>
+							Gli oneri annui di ammortamento, determinati in L. 39.300.000.000 trovano copertura finanziaria per gli anni 2000 e 2001 negli appositi stanziamenti del bilancio pluriennale approvato con
+							<rif xlink:href="urn:nir:regione.toscana:legge:1999-01-26;4" xlink:type="simple">LR 26.1.1999 n. 4</rif>
+							.
+						</corpo>
 					</comma>
 					<comma id="art9-com5">
 						<num>5.</num>
-						<corpo>
-							L'eventuale maggiorazione della rata di ammortamento dei mutui di cui al
-							<rif xlink:href="#art9-com4" xlink:type="simple">quarto comma</rif>
-							dovuta alla variabilità del tasso o dagli eventuali oneri conseguenti al rischio di cambio, troverà copertura finanziaria con variazione ai bilanci annuali e pluriennali attraverso le singole leggi di bilancio.
-						</corpo>
+						<corpo>In caso di eventuale maggiorazione della rata massima di ammortamento derivante, nel corso dell'ammortamento, dalla variabilità del tasso o dagli eventuali oneri conseguenti al rischio di cambio, saranno apportate le occorrenti variazioni ai bilanci annuale e pluriennale con le singole leggi di bilancio.</corpo>
 					</comma>
 					<comma id="art9-com6">
 						<num>6.</num>
@@ -215,13 +281,9 @@
 					<comma id="art9-com7">
 						<num>7.</num>
 						<corpo>
-							La Giunta regionale è altresì autorizzata ad emettere, in sostituzione parziale o totale dei mutui, di cui al
-							<rif xlink:href="#art9-com2" xlink:type="simple">secondo comma</rif>
-							, prestiti obbligazionari, con le modalità previste dalla
-							<rif xlink:href="urn:nir:stato:legge:1994-12-23;724" xlink:type="simple">legge 23 dicembre 1994 n. 724</rif>
-							e successive modificazioni con oneri a carico del bilancio regionale non superiori a quelli indicati al
-							<rif xlink:href="#art9-com4" xlink:type="simple">quarto comma</rif>
-							.
+							La Giunta regionale è altresì autorizzata ad emettere, in sostituzione parziale o totale dei mutui, di cui al secondo comma, prestiti obbligazionari, con le modalità previste dalla
+							<rif xlink:href="urn:nir:stato:legge:1994-12-23;724" xlink:type="simple">legge 23.12.1994 n. 724</rif>
+							e successive modificazioni con oneri a carico del bilancio regionale non superiori a quelli indicati al quarto comma.
 						</corpo>
 					</comma>
 				</articolo>
