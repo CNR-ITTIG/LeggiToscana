@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t2" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19810403" num="23" tipo="BURT" />
 					<entratainvigore norm="19810418" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1981-03-28;37" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1981-03-28;37" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1981-03-28;37@1999-03-10" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="ASSISTENZA SOCIALE" />
 						<materia valore="ATTRIBUZIONI DELEGHE" />
@@ -16,11 +17,29 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19810418" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19990403" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1981-03-28;37" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1981-03-28;37" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12#ann1-art1-com1-pun213" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 1, comma 1, 213 della legge Regione Toscana 10 marzo 1999, n. 12" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -217,7 +236,14 @@
 					<comma id="art5-com1">
 						<num />
 						<corpo>
-							Gli assegni di assistenza economica di cui ai precedenti artt. 2 e 4 sono erogati detratto l'importo dell'assegno sostitutivo della pensione ai superstiti, corrisposto dall'INPS ai sensi del
+							Gli assegni di assistenza economica di cui ai precedenti
+							<mrif>
+								artt.
+								<rif xlink:href="#art2" xlink:type="simple">2</rif>
+								e
+								<rif xlink:href="#art4" xlink:type="simple">4</rif>
+							</mrif>
+							sono erogati detratto l'importo dell'assegno sostitutivo della pensione ai superstiti, corrisposto dall'INPS ai sensi del
 							<rif xlink:href="urn:nir:stato:legge:1978-10-24;641#art1sexies-com4" xlink:type="simple">comma 4 dell'art. 1 - sexies della legge 24-10-1978, n. 641</rif>
 							.
 						</corpo>
@@ -299,7 +325,7 @@
 			<formulafinale>La presente legge è pubblicata sul Bollettino Ufficiale della Regione. E' fatto obbligo a chiunque spetti di osservarla e farla osservare come legge della Regione Toscana.</formulafinale>
 			<conclusione>
 				<dataeluogo codice="" norm="">Firenze, 28 marzo 1981.</dataeluogo>
-				<soggetto codice="">La presente legge è stata approvata dal Consiglio Regionale il 24-2-1981 ed è stata vistata dal Commissario del Governo il 23- 3-1981.</soggetto>
+				<soggetto codice="">La presente legge è stata approvata dal Consiglio Regionale il 24-2-1981 ed è stata vistata dal Commissario del Governo il 23-3-1981.</soggetto>
 			</conclusione>
 		</LeggeRegionale>
 	</NIR>
