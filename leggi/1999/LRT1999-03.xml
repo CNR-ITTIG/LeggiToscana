@@ -8,7 +8,8 @@
 					<entratainvigore norm="19990205" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t8" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1999-01-26;3" />
-					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1999-01-26;3@1999-06-11" />
+					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1999-01-26;3@1999-06-11" />
+					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1999-01-26;3@1999-07-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Bilancio" />
@@ -24,6 +25,7 @@
 						<evento data="19990205" fonte="ra5" id="t6" tipo="modifica" />
 						<evento data="19990205" fonte="ra6" id="t7" tipo="modifica" />
 						<evento data="19990701" fonte="rp1" id="t8" tipo="modifica" />
+						<evento data="19990806" fonte="rp2" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1999-01-26;3" xlink:type="simple" />
@@ -34,6 +36,7 @@
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1995-04-18;66" xlink:type="simple" />
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1996-02-07;11" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1999-06-11;33" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1999-07-29;42" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -147,6 +150,18 @@
 								<dsp:pos xlink:href="#art10-com4-t8" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art14-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-07-29;42" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-07-29;42#art15-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 15, comma 2 della legge Regione Toscana 29 luglio 1999, n. 42" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art14-com3-t9" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -535,7 +550,7 @@
 							è autorizzata la spesa per l'anno 1999 di L. 2.300.000.000.
 						</corpo>
 					</comma>
-					<comma id="art14-com3">
+					<comma finevigore="t9" id="art14-com3-t9" iniziovigore="t1" status="abrogato">
 						<num>3.</num>
 						<corpo>
 							Per gli interventi previsti dall'
