@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t2" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19820408" num="21" tipo="BURT" />
 					<entratainvigore norm="19820423" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1982-03-31;28" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1982-03-31;28" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1982-03-31;28@1999-03-10" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Assistenza sociale" />
 						<materia valore="Attribuzioni deleghe" />
@@ -16,11 +17,29 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19820423" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19990403" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1982-03-31;28" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1982-03-31;28" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12#ann1-art1-com1-pun224" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 1, comma 1, 224 della legge Regione Toscana 10 marzo 1999, n. 12" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -195,7 +214,7 @@
 					<rubrica>(Contributi e rette di affidamento)</rubrica>
 					<comma id="art8-com1">
 						<num />
-						<corpo>Nel determinare l'entità del contributo spettante alle famiglie affidatarie di orfani che fruiscono di servizi integrativi e sostitutivi, i comuni singoli o associati avranno riguardo alle prestazioni che la famiglia affidataria deve fornire in relazione all'età e alle esigenze psico - fisiche e sociali dei minori. Comunque l'importo del contributo non può essere superiore a L. 250.000 mensili aumentabile fino ad un massimo del 30% per quei soggetti che necessitano di particolari prestazioni e cure per rimuovere gravi stati di svantaggio psico - fisico e sociale.</corpo>
+						<corpo>Nel determinare l'entità del contributo spettante alle famiglie affidatarie di orfani che fruiscono di servizi integrativi e sostitutivi, i comuni singoli o associati avranno riguardo alle prestazioni che la famiglia affidataria deve fornire in relazione all'età e alle esigenze psico-fisiche e sociali dei minori. Comunque l'importo del contributo non può essere superiore a L. 250.000 mensili aumentabile fino ad un massimo del 30% per quei soggetti che necessitano di particolari prestazioni e cure per rimuovere gravi stati di svantaggio psico-fisico e sociale.</corpo>
 					</comma>
 					<comma id="art8-com2">
 						<num />
