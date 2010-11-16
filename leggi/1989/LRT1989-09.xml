@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="ISO-8859-15"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t23" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19890202" num="8" tipo="BURT" />
 					<entratainvigore norm="19890217" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1989-01-23;9" />
+					<urn finevigore="t23" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1989-01-23;9" />
+					<urn iniziovigore="t23" valore="urn:nir:regione.toscana:legge:1989-01-23;9@1999-03-10" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Formazione" />
 						<materia valore="Attribuzioni Deleghe" />
@@ -37,6 +38,7 @@
 						<evento data="19890217" fonte="ra19" id="t20" tipo="modifica" />
 						<evento data="19890217" fonte="ra20" id="t21" tipo="modifica" />
 						<evento data="19890217" fonte="ra21" id="t22" tipo="modifica" />
+						<evento data="19990403" fonte="rp1" id="t23" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1989-01-23;9" xlink:type="simple" />
@@ -61,6 +63,7 @@
 						<attiva id="ra19" xlink:href="urn:nir:regione.toscana:legge:1985-02-21;16" xlink:type="simple" />
 						<attiva id="ra20" xlink:href="urn:nir:regione.toscana:legge:1985-02-21;16" xlink:type="simple" />
 						<attiva id="ra21" xlink:href="urn:nir:regione.toscana:legge:1985-02-21;16" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -486,6 +489,20 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1989-01-23;9" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12#ann1-art1-com1-pun255" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 1, comma 1, 255 della legge Regione Toscana 10 marzo 1999, n. 12" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -507,7 +524,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>DELEGA DELLE FUNZIONI</rubrica>
 					<articolo id="art1">
@@ -894,7 +911,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>DISPOSIZIONI TRANSITORIE</rubrica>
 					<articolo id="art11">
