@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t2" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19930428" num="25" tipo="BURT" />
 					<entratainvigore norm="19930513" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1993-04-19;26" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1993-04-19;26" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1993-04-19;26@1999-03-10" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sistema Educativo" />
 						<materia valore="Finanziamenti" />
@@ -17,11 +18,29 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19930513" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19990403" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1993-04-19;26" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1993-04-19;26" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12#ann1-art1-com1-pun274" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 1, comma 1, 274 della legge Regione Toscana 10 marzo 1999, n. 12" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -34,8 +53,8 @@
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 9-3-1993</h:p>
 				<h:p>Il Commissario del Governo ha apposto il visto il 9-4-1993</h:p>
-				<h:p>Il Presidente della Giunta Regionale</h:p>
-				<h:p>promulga la seguente legge regionale:</h:p>
+				<h:p>Il Presidente della Giunta Regionale promulga</h:p>
+				<h:p>la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
 				<articolo id="art1">
