@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t26" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19980128" num="3" tipo="BURT" />
 					<entratainvigore norm="19980212" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1998-01-19;3" />
+					<urn finevigore="t26" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1998-01-19;3" />
+					<urn iniziovigore="t26" valore="urn:nir:regione.toscana:legge:1998-01-19;3@1999-10-14" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Ente Regione" />
@@ -40,6 +41,7 @@
 						<evento data="19980212" fonte="ra22" id="t23" tipo="modifica" />
 						<evento data="19980212" fonte="ra23" id="t24" tipo="modifica" />
 						<evento data="19980212" fonte="ra24" id="t25" tipo="modifica" />
+						<evento data="19991231" fonte="rp1" id="t26" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-01-19;3" xlink:type="simple" />
@@ -67,6 +69,7 @@
 						<attiva id="ra22" xlink:href="urn:nir:regione.toscana:legge:1996-03-19;23" xlink:type="simple" />
 						<attiva id="ra23" xlink:href="urn:nir:regione.toscana:legge:1996-03-19;23" xlink:type="simple" />
 						<attiva id="ra24" xlink:href="urn:nir:regione.toscana:legge:1996-03-19;23" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1999-10-14;53" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -455,6 +458,20 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1998-01-19;3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-10-14;53" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-10-14;53#art11-com1-pun4" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 11, comma 1, 4 della legge Regione Toscana 14 ottobre 1999, n. 53" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>

@@ -8,7 +8,8 @@
 					<entratainvigore norm="19951128" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1995-11-03;97" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1995-11-03;97@1999-04-14" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1995-11-03;97@1999-04-14" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1995-11-03;97@1999-10-14" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organi" />
 						<materia valore="Ordinamento" />
@@ -22,6 +23,7 @@
 						<evento data="19951128" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="19951128" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="19990508" fonte="rp1" id="t5" tipo="modifica" />
+						<evento data="19991231" fonte="rp2" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-11-03;97" xlink:type="simple" />
@@ -29,6 +31,7 @@
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1994-11-07;81" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1994-11-07;82" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1999-04-14;20" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1999-10-14;53" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -98,6 +101,21 @@
 								<dsp:pos xlink:href="#h1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-10-14;53" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-10-14;53#art10-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 10, comma 1 della legge Regione Toscana 14 ottobre 1999, n. 53" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com5" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com5-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -168,13 +186,17 @@
 							</h:span>
 						</corpo>
 					</comma>
-					<comma id="art2-com5">
+					<comma finevigore="t6" id="art2-com5-t6" iniziovigore="t1" status="abrogato">
 						<num>5.</num>
 						<corpo>
 							Gli incarichi attribuiti ai sensi della presente legge non costituiscono titolo valutabile ai sensi dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51#art28" xlink:type="simple">art. 28 della legge regionale 21 agosto 1989, n. 51</rif>
 							, nei concorsi banditi dalla Regione Toscana.
 						</corpo>
+					</comma>
+					<comma id="art2-com5" iniziovigore="t6">
+						<num>5.</num>
+						<corpo>Gli incarichi attribuiti ai sensi della presente legge non costituiscono titoli valutabili nelle selezioni bandite dalla Regione Toscana.</corpo>
 					</comma>
 					<comma id="art2-com6">
 						<num>6.</num>

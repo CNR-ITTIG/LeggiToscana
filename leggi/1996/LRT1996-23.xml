@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t19" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19960329" num="19 bis" tipo="BURT" />
@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t17" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1996-03-19;23" />
 					<urn finevigore="t18" iniziovigore="t17" valore="urn:nir:regione.toscana:legge:1996-03-19;23@1996-06-19" />
-					<urn iniziovigore="t18" valore="urn:nir:regione.toscana:legge:1996-03-19;23@1998-01-19" />
+					<urn finevigore="t19" iniziovigore="t18" valore="urn:nir:regione.toscana:legge:1996-03-19;23@1998-01-19" />
+					<urn iniziovigore="t19" valore="urn:nir:regione.toscana:legge:1996-03-19;23@1999-10-14" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Ente Regione" />
@@ -35,6 +36,7 @@
 						<evento data="19960413" fonte="ra15" id="t16" tipo="modifica" />
 						<evento data="19960711" fonte="rp1" id="t17" tipo="modifica" />
 						<evento data="19980212" fonte="rp2" id="t18" tipo="modifica" />
+						<evento data="19991231" fonte="rp3" id="t19" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1996-03-19;23" xlink:type="simple" />
@@ -55,6 +57,7 @@
 						<attiva id="ra15" xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1996-06-19;43" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1998-01-19;3" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1999-10-14;53" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -580,6 +583,18 @@
 								<dsp:pos xlink:href="#h24" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1996-03-19;23" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-10-14;53" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-10-14;53#art11-com1-pun2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 11, comma 1, 2 della legge Regione Toscana 14 ottobre 1999, n. 53" id="itt25" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -598,7 +613,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>Titolo I</num>
 					<rubrica>ACCESSO AGLI IMPIEGHI E COMMISSIONI DI ESAME</rubrica>
 					<articolo id="art1">
@@ -1678,7 +1693,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>Titolo II</num>
 					<rubrica>NORME TRANSITORIE E FINALI</rubrica>
 					<articolo id="art24">
