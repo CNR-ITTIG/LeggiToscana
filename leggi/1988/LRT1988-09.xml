@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t8" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19880304" num="13" tipo="BURT" />
@@ -13,7 +13,8 @@
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1988-02-23;9@1990-01-18" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1988-02-23;9@1995-07-19" />
 					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1988-02-23;9@1997-04-14" />
-					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1988-02-23;9@1998-11-18" />
+					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1988-02-23;9@1998-11-18" />
+					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1988-02-23;9@1999-10-14" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Turismo" />
 					</materie>
@@ -27,6 +28,7 @@
 						<evento data="19950817" fonte="rp4" id="t5" tipo="modifica" />
 						<evento data="19970506" fonte="rp5" id="t6" tipo="modifica" />
 						<evento data="19981127" fonte="rp6" id="t7" tipo="modifica" />
+						<evento data="20000106" fonte="rp7" id="t8" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1988-02-23;9" xlink:type="simple" />
@@ -36,17 +38,18 @@
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1995-07-19;80" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1997-04-14;28" xlink:type="simple" />
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:1998-11-18;84" xlink:type="simple" />
+						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:1999-10-14;54" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Per l'interpretazione autentica della presente lettera si veda la
 							<rif xlink:href="urn:nir:regione.toscana:legge:1988-11-07;81" xlink:type="simple">legge regionale 7 novembre 1988, n. 81</rif>
 							.
 						</h:p>
 					</nota>
-					<nota id="n2">
+					<nota id="LeggeRegionale1-n2">
 						<h:p>
 							Si veda in seguito la
 							<rif xlink:href="urn:nir:regione.toscana:legge:1998-11-18;84" xlink:type="simple">Legge Regionale 18 novembre 1998, n. 84</rif>
@@ -198,7 +201,7 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art6" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-04-14;28" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-04-14;28#art12-com1-letc" xlink:type="simple" />
 								<dsp:subarg>
@@ -218,6 +221,18 @@
 								<dsp:testo valore="" />
 							</dsp:dominio>
 						</dsp:variazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1988-02-23;9" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-10-14;54" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-10-14;54#art19-com1-pun1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 19, comma 1, 1 della legge Regione Toscana 14 ottobre 1999, n. 54" id="itt13" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -272,7 +287,7 @@
 								, ivi comprese la nomina ed il funzionamento delle commissioni giudicatrici per prove d'esame, da effettuarsi a livello provinciale, per l'abilitazione all'esercizio delle stesse attività professionali, secondo la disciplina che sarà stabilita con successive leggi regionali e salvo quanto già previsto dalla
 								<rif xlink:href="urn:nir:regione.toscana:legge:1981-10-27;77" xlink:type="simple">LR 27.10.1981, n. 77</rif>
 								, per le funzioni relative all'attività di maestro di sci
-								<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+								<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 								;
 							</corpo>
 						</el>
@@ -801,7 +816,7 @@
 				<articolo id="art15">
 					<num>
 						ARTICOLO 15
-						<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+						<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(b)</ndr>
 					</num>
 					<rubrica>(Il Consiglio di Amministrazione)</rubrica>
 					<comma finevigore="t2" id="art15-com1-t2" iniziovigore="t1" status="abrogato">
