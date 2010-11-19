@@ -8,7 +8,8 @@
 					<entratainvigore norm="19920702" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1992-06-09;26" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1992-06-09;26@1995-01-16" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1992-06-09;26@1995-01-16" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1992-06-09;26@1999-08-11" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Programmazione" />
 						<materia valore="Ordinamento" />
@@ -19,16 +20,29 @@
 					<eventi>
 						<evento data="19920702" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19950204" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="19990904" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="19991231" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1992-06-09;26" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Intero testo di legge abrogatodall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49#art19" xlink:type="simple">art. 19 della legge regionale 11 agosto 1999, n. 49</rif>
+							, a decorrere dall'entrata in vigore della stessa, ad eccezione dell'art. 4, comma 6 che rimane in vigore fino al 31 dicembre 1999.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art6-com2" xlink:type="simple" />
+							<dsp:pos xlink:href="#art6-t3-com2" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art7-com11" xlink:type="simple" />
 								<dsp:subarg>
@@ -36,7 +50,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#art6-com2-t2" xlink:type="simple" />
+								<dsp:pos xlink:href="#art6-t3-com2-t2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -48,12 +62,204 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art6-com2" xlink:type="simple" />
+								<dsp:pos xlink:href="#art6-t3-com2" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#art6-com3-t2" xlink:type="simple" />
+								<dsp:pos xlink:href="#art6-t3-com3-t2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#tit1-t3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49#art19-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 19, comma 2 della legge Regione Toscana 11 agosto 1999, n. 49" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#tit1-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49#art19-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 19, comma 2 della legge Regione Toscana 11 agosto 1999, n. 49" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-com6-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com1-t3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49#art19-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo19, comma2, legge Regione Toscana 11 agosto 1999, n. 49" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-com1-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com2-t3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49#art19-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo19, comma2, legge Regione Toscana 11 agosto 1999, n. 49" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-com2-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com3-t3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49#art19-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo19, comma2, legge Regione Toscana 11 agosto 1999, n. 49" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-com3-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com4-t3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49#art19-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo19, comma2, legge Regione Toscana 11 agosto 1999, n. 49" id="itt8" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-com4-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com5-t3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49#art19-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo19, comma2, legge Regione Toscana 11 agosto 1999, n. 49" id="itt9" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-com5-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com7-t3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49#art19-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo19, comma2, legge Regione Toscana 11 agosto 1999, n. 49" id="itt10" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-com7-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com8-t3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49#art19-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo19, comma2, legge Regione Toscana 11 agosto 1999, n. 49" id="itt11" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-com8-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com9-t3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49#art19-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo19, comma2, legge Regione Toscana 11 agosto 1999, n. 49" id="itt12" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-com9-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-t3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49#art19-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo19, comma2, legge Regione Toscana 11 agosto 1999, n. 49" id="itt13" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-t3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49#art19-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo19, comma2, legge Regione Toscana 11 agosto 1999, n. 49" id="itt14" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art6-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7-t3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49#art19-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo19, comma2, legge Regione Toscana 11 agosto 1999, n. 49" id="itt15" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art7-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#tit3-t3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49#art19-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo19, comma2, legge Regione Toscana 11 agosto 1999, n. 49" id="itt16" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#tit3-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#tit4-t3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49#art19-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo19, comma2, legge Regione Toscana 11 agosto 1999, n. 49" id="itt17" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#tit4-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#tit5-t3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49#art19-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo19, comma2, legge Regione Toscana 11 agosto 1999, n. 49" id="itt18" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#tit5-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -66,6 +272,7 @@
 				<titoloDoc>
 					Prima attuazione dell'
 					<rif xlink:href="urn:nir:regione.toscana:statuto:#art48" xlink:type="simple">art. 48 dello Statuto</rif>
+					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
 					.
 				</titoloDoc>
 			</intestazione>
@@ -75,7 +282,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo finevigore="t3" id="tit1-t3" iniziovigore="t1" status="abrogato">
 					<num>TITOLO I</num>
 					<rubrica>NORME GENERALI</rubrica>
 					<articolo id="art1">
@@ -217,57 +424,61 @@
 							</corpo>
 						</comma>
 					</articolo>
+				</titolo>
+				<titolo id="tit2">
+					<num>TITOLO II</num>
+					<rubrica>La definizione degli obiettivi di programma</rubrica>
 					<articolo id="art4">
 						<num>ARTICOLO 4</num>
 						<rubrica>(Il programma regionale di sviluppo)</rubrica>
-						<comma id="art4-com1">
+						<comma finevigore="t3" id="art4-com1-t3" iniziovigore="t1" status="abrogato">
 							<num>1.</num>
 							<corpo>Il programma regionale di sviluppo, di seguito chiamato Prs, definisce gli indirizzi politici e gli obiettivi di programma e costituisce l'atto ordinatorio dell'attività di governo della regione.</corpo>
 						</comma>
-						<comma id="art4-com2">
+						<comma finevigore="t3" id="art4-com2-t3" iniziovigore="t1" status="abrogato">
 							<num>2.</num>
 							<corpo>Il prs si articola in due parti: il quadro di riferimento e le determinazioni programmatiche.</corpo>
 						</comma>
-						<comma id="art4-com3">
+						<comma finevigore="t3" id="art4-com3-t3" iniziovigore="t1" status="abrogato">
 							<num>3.</num>
 							<alinea>Il quadro di riferimento comprende:</alinea>
-							<el id="art4-com3-leta">
+							<el id="art4-com3-t3-leta">
 								<num>a)</num>
 								<corpo>
 									il contesto strutturale, che contiene l'analisi degli elementi fondamentali dello sviluppo regionale, in funzione dell'individuazione dei criteri direttori e della definizione delle strategie operative, di cui alla
-									<rif xlink:href="#art4-com3-letc" xlink:type="simple">lettera c)</rif>
+									<rif xlink:href="#art4-com3-t3-letc" xlink:type="simple">lettera c)</rif>
 									;
 								</corpo>
 							</el>
-							<el id="art4-com3-letb">
+							<el id="art4-com3-t3-letb">
 								<num>b)</num>
 								<corpo>
 									il rapporto di attività, relativo alla valutazione degli interventi attuati negli anni precedenti, sia sotto il profilo finanziario, sia rispetto allo stato di avanzamento dei programmi - obiettivo e delle loro articolazioni, di cui al
-									<rif xlink:href="#art4-com4-leta" xlink:type="simple">comma quattro, lettera a)</rif>
+									<rif xlink:href="#art4-com4-t3-leta" xlink:type="simple">comma quattro, lettera a)</rif>
 									, sia in relazione al loro impatto istituzionale, economico, sociale, territoriale e ambientale;
 								</corpo>
 							</el>
-							<el id="art4-com3-letc">
+							<el id="art4-com3-t3-letc">
 								<num>c)</num>
 								<corpo>le operazioni politiche, che rappresentano le scelte fondamentali della regione in termini di criteri direttori e di strategie operative: i criteri direttori determinano le priorità del Prs, le strategie operative ne specificano le scelte in capo istituzionale, economico, sociale, territoriale e ambientale.</corpo>
 							</el>
 						</comma>
-						<comma id="art4-com4">
+						<comma finevigore="t3" id="art4-com4-t3" iniziovigore="t1" status="abrogato">
 							<num>4.</num>
 							<alinea>Le determinazioni programmatiche:</alinea>
-							<el id="art4-com4-leta">
+							<el id="art4-com4-t3-leta">
 								<num>a)</num>
 								<corpo>individuano i programmi - obiettivo, selezionati in base ai criteri direttori e richiesti dalle strategie operative, e ne definiscono gli indirizzi generali e i tempi di elaborazione e di approvazione. I programmi - obiettivo possono articolarsi in piani - obiettivo, progetti e azioni;</corpo>
 							</el>
-							<el id="art4-com4-letb">
+							<el id="art4-com4-t3-letb">
 								<num>b)</num>
 								<corpo>stabiliscono gli indirizzi per il bilancio regionale definendo le scelte complessive in materia di entrate e di uscite, le strategie finanziarie che la regione intende perseguire, e le scelte di politica patrimoniale. Il raccordo con il bilancio si attua mediante la riconduzione dei capitoli di spesa ai programmi - obiettivo e alle loro articolazioni;</corpo>
 							</el>
-							<el id="art4-com4-letc">
+							<el id="art4-com4-t3-letc">
 								<num>c)</num>
 								<corpo>individuano gli strumenti normativi, amministrativi, procedurali e organizzativi, rivolti alle fasi di elaborazione, attuazione, controllo e revisione del Prs;</corpo>
 							</el>
-							<el id="art4-com4-letd">
+							<el id="art4-com4-t3-letd">
 								<num>d)</num>
 								<corpo>
 									comprendono il programma annuale, che raccorda il Prs al bilancio annuale in termini di azioni, e che individua per ciascuna di esse, in quanto la legge lo consenta, le procedure di attuazione da applicare tra quelle previste all'
@@ -276,142 +487,142 @@
 								</corpo>
 							</el>
 						</comma>
-						<comma id="art4-com5">
+						<comma finevigore="t3" id="art4-com5-t3" iniziovigore="t1" status="abrogato">
 							<num>5.</num>
 							<corpo>Lo schema di Prs è predisposto dal comitato tecnico della programmazione, in base alle direttive della giunta, ed è redatto dal dipartimento programmazione. La giunta adotta lo schema e lo presenta al consiglio insieme agli atti di bilancio.</corpo>
 						</comma>
-						<comma id="art4-com6">
+						<comma finevigore="t4" id="art4-com6-t4" iniziovigore="t1" status="abrogato">
 							<num>6.</num>
 							<corpo>
 								Il prs ha validità triennale ed è aggiornato annualmente in funzione della scorrevolezza degli atti di bilancio, relativamente ai contenuti di cui al
-								<rif xlink:href="#art4-com3-letb" xlink:type="simple">comma tre, lettera b)</rif>
+								<rif xlink:href="#art4-com3-t3-letb" xlink:type="simple">comma tre, lettera b)</rif>
 								, e al
 								<mrif>
 									comma quattro, lettere
-									<rif xlink:href="#art4-com4-letb" xlink:type="simple">b)</rif>
+									<rif xlink:href="#art4-com4-t3-letb" xlink:type="simple">b)</rif>
 									,
-									<rif xlink:href="#art4-com4-letc" xlink:type="simple">c)</rif>
+									<rif xlink:href="#art4-com4-t3-letc" xlink:type="simple">c)</rif>
 									e
-									<rif xlink:href="#art4-com4-letd" xlink:type="simple">d)</rif>
+									<rif xlink:href="#art4-com4-t3-letd" xlink:type="simple">d)</rif>
 								</mrif>
 								. Esso è approvato e modificato mediante risoluzione, secondo le procedure previste dall'art. 106 del regolamento interno del consiglio, precedentemente all'approvazione degli atti di bilancio.
 							</corpo>
 						</comma>
-						<comma id="art4-com7">
+						<comma finevigore="t3" id="art4-com7-t3" iniziovigore="t1" status="abrogato">
 							<num>7.</num>
 							<corpo>I programmi - obiettivo sono approvati dal consiglio regionale con le stesse modalità previste per il Prs, in quanto ne rappresentano la specificazione operativa. La loro approvazione avviene di norma nel corso della stessa sessione in cui è approvato il Prs successivo a quello che li ha individuati e ne ha disposto l'elaborazione. Essi sono muniti di schede relative, rispettivamente, alle modifiche normative, al riordino degli interventi in atto, al riordino delle articolazioni organizzative, alle previsioni finanziarie, occorrenti per la loro attuazione; sono corredati altresì di una scheda di valutazione che ne dimostra la congruità rispetto al Prs in termini di impatto istituzionale, economico, sociale, territoriale e ambientale, e identifica gli indicatori fisici per il controllo del loro avanzamento e degli effetti indotti. All'elaborazione dei programmi - obiettivo concorrono i comuni e le province con atti o documenti di analisi e di proposta; la giunta regionale può concordare con tali enti forme di collaborazione operativa.</corpo>
 						</comma>
-						<comma id="art4-com8">
+						<comma finevigore="t3" id="art4-com8-t3" iniziovigore="t1" status="abrogato">
 							<num>8.</num>
 							<alinea>Immediatamente dopo l'approvazione dei bilanci, pluriennale ed annuale, il consiglio regionale adotta apposito provvedimento deliberativo con cui:</alinea>
-							<el id="art4-com8-leta">
+							<el id="art4-com8-t3-leta">
 								<num>a)</num>
 								<corpo>stabilisce le risorse finanziarie a disposizione della giunta per l'elaborazione dei programmi - obiettivo individuati dal Prs;</corpo>
 							</el>
-							<el id="art4-com8-letb">
+							<el id="art4-com8-t3-letb">
 								<num>b)</num>
 								<corpo>
 									determina l'ammontare degli impegni finanziari regionali, per l'anno di riferimento, relativi a ciascuna delle azioni programmate dal Prs e dai programmi - obiettivo; approvati ai sensi dei
 									<mrif>
 										commi
-										<rif xlink:href="#art4-com6" xlink:type="simple">sei</rif>
+										<rif xlink:href="#art4-com6-t4" xlink:type="simple">sei</rif>
 										e
-										<rif xlink:href="#art4-com7" xlink:type="simple">sette</rif>
+										<rif xlink:href="#art4-com7-t3" xlink:type="simple">sette</rif>
 									</mrif>
 									;
 								</corpo>
 							</el>
-							<el id="art4-com8-letc">
+							<el id="art4-com8-t3-letc">
 								<num>c)</num>
 								<corpo>aggiorna, per ogni azione, il quadro degli impegni di spesa e delle liquidazioni effettuati negli esercizi precedenti.</corpo>
 							</el>
 						</comma>
-						<comma id="art4-com9">
+						<comma finevigore="t3" id="art4-com9-t3" iniziovigore="t1" status="abrogato">
 							<num>9.</num>
 							<alinea>
 								La giunta, a seguito del deliberato di cui al
-								<rif xlink:href="#art4-com8" xlink:type="simple">comma otto</rif>
+								<rif xlink:href="#art4-com8-t3" xlink:type="simple">comma otto</rif>
 								, indica con proprio atto:
 							</alinea>
-							<el id="art4-com9-leta">
+							<el id="art4-com9-t3-leta">
 								<num>a)</num>
 								<corpo>gli assessori referenti per l'elaborazione dei programmi - obiettivo, e nel caso di un coinvolgimento di più dipartimenti, le modalità del loro coordinamento;</corpo>
 							</el>
-							<el id="art4-com9-letb">
+							<el id="art4-com9-t3-letb">
 								<num>b)</num>
 								<corpo>per ciascuna azione programmata, il servizio del centro direzionale cui compete la responsabilità operativa, nonché i rapporti tra le strutture organizzative della giunta regionale e gli apparati delle amministrazioni provinciali.</corpo>
 							</el>
 						</comma>
 					</articolo>
-					<articolo id="art5">
+					<articolo finevigore="t3" id="art5-t3" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 5</num>
 						<rubrica>(Il concorso della provincia alla definizione del Prs)</rubrica>
-						<comma id="art5-com1">
+						<comma id="art5-t3-com1">
 							<num>1.</num>
 							<corpo>Il concorso delle province alla determinazione degli obiettivi di programma è volto a promuovere il raccordo programmatorio regionale.</corpo>
 						</comma>
-						<comma id="art5-com2">
+						<comma id="art5-t3-com2">
 							<num>2.</num>
 							<corpo>La provincia interviene nel procedimento assumendo la politica di programmazione come metodo ordinatore della propria attività e assicurando ai comuni e agli altri enti locali la partecipazione all'elaborazione delle sue determinazioni programmatiche. In ogni caso la provincia garantisce ai comuni e alle comunità montane il contraddittorio per la definizione delle proposte da avanzare alla giunta regionale ai fini della redazione del Prs e dà atto, nelle proprie determinazioni, dei pareri espressi dai singoli enti.</corpo>
 						</comma>
-						<comma id="art5-com3">
+						<comma id="art5-t3-com3">
 							<num>3.</num>
 							<alinea>
 								Per gli scopi di cui ai
 								<mrif>
 									commi
-									<rif xlink:href="#art5-com1" xlink:type="simple">uno</rif>
+									<rif xlink:href="#art5-t3-com1" xlink:type="simple">uno</rif>
 									e
-									<rif xlink:href="#art5-com2" xlink:type="simple">due</rif>
+									<rif xlink:href="#art5-t3-com2" xlink:type="simple">due</rif>
 								</mrif>
 								, la provincia:
 							</alinea>
-							<el id="art5-com3-leta">
+							<el id="art5-t3-com3-leta">
 								<num>a)</num>
 								<corpo>raccoglie ogni anno le richieste e le proposte dei comuni, delle comunità montane e degli altri enti locali, le confronta e le coordina con gli obiettivi desumibili dalla propria relazione previsionale e programmatica e dagli altri suoi atti di programmazione, e definisce una scala di priorità, ai fini dell'aggiornamento annuale del Prs;</corpo>
 							</el>
-							<el id="art5-com3-letb">
+							<el id="art5-t3-com3-letb">
 								<num>b)</num>
 								<corpo>elabora proposte di adeguamento o di revisione relative al quadro strutturale e alle determinazioni programmatiche, in occasione della loro ridefinizione.</corpo>
 							</el>
 						</comma>
-						<comma id="art5-com4">
+						<comma id="art5-t3-com4">
 							<num>4.</num>
 							<corpo>Le province inviano alla giunta regionale le proprie determinazioni entro il 31 luglio di ogni anno. Nel quadro delle competenze loro attribuite, le province possono definire, tra l'altro, le fasi e i termini del procedimento programmatorio, tenuto conto delle funzioni spettanti ai comuni in materia.</corpo>
 						</comma>
-						<comma id="art5-com5">
+						<comma id="art5-t3-com5">
 							<num>5.</num>
 							<corpo>La definizione da parte della giunta regionale dello schema di Prs e dei programmi - obiettivo è comunque preceduta da un contraddittorio di verifica con le province e con i comuni capoluogo.</corpo>
 						</comma>
-						<comma id="art5-com6">
+						<comma id="art5-t3-com6">
 							<num>6.</num>
 							<corpo>La mancata partecipazione dei singoli enti locali alle varie fasi di provvedimento programmatorio non impedisce la definizione, a livello regionale, del Prs e dei programmi - obiettivo.</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art6">
+					<articolo finevigore="t3" id="art6-t3" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 6</num>
 						<rubrica>(La pianificazione territoriale)</rubrica>
-						<comma id="art6-com1">
+						<comma id="art6-t3-com1">
 							<num>1.</num>
 							<corpo>La regione elabora gli atti di pianificazione territoriale di propria competenza in attuazione del Prs e in conformità alle disposizioni legislative nazionali e regionali.</corpo>
 						</comma>
-						<comma finevigore="t2" id="art6-com2-t2" iniziovigore="t1" status="abrogato">
+						<comma finevigore="t2" id="art6-t3-com2-t2" iniziovigore="t1" status="abrogato">
 							<num>2.</num>
 							<corpo>Quando un atto di programmazione regionale, attuativo del Prs, comporti la modifica o l'integrazione di disposizioni contenute in atti regionali di pianificazione territoriale, esso deve essere presentato, per l'approvazione da parte dell'organo competente, contestualmente alla proposta di modifica o di integrazione dell'atto di pianificazione, e può essere approvato solo dopo che tale proposta sia stata adottata. L'efficacia degli atti di programmazione è subordinata al perfezionamento della corrispondente modifica e integrazione dell'atto di pianificazione territoriale.</corpo>
 						</comma>
-						<comma finevigore="t2" id="art6-com3-t2" iniziovigore="t1" status="abrogato">
+						<comma finevigore="t2" id="art6-t3-com3-t2" iniziovigore="t1" status="abrogato">
 							<num>3.</num>
 							<corpo>Le disposizioni di cui al comma due si applicano anche quando un atto di programmazione regionale, attuativo del Prs, comporti la modifica o l'integrazione di atti con i quali la regione disciplina i criteri e le metodologie di valutazione di impatto ambientale degli strumenti urbanistici, dei piani territoriali e degli altipiani e progetti che modificano l'uso del territorio.</corpo>
 						</comma>
-						<comma id="art6-com2" iniziovigore="t2">
+						<comma id="art6-t3-com2" iniziovigore="t2">
 							<num>2.</num>
 							<corpo>Le prescrizioni di carattere territoriale contenute in atti di programmazione regionale, attuativi del PRS, ove già non previste nel piano di indirizzo territoriale PIT di cui alla presente legge regionale, recante "Norme per il governo del territorio" , o difformi da esso, sono adottate contestualmente alla variante al medesimo e acquistano efficacia subordinatamente all'approvazione della variante stessa.</corpo>
 						</comma>
-						<comma id="art6-com4">
+						<comma id="art6-t3-com4">
 							<num>4.</num>
 							<corpo>Gli atti regionali di pianificazione territoriale prevalgono comunque, relativamente alla disciplina sull'uso del territorio, sugli altri atti del procedimento di programmazione.</corpo>
 						</comma>
-						<comma id="art6-com5">
+						<comma id="art6-t3-com5">
 							<num>5.</num>
 							<corpo>
 								Il consiglio regionale, entro dodici mesi dall'entrata in vigore della presente legge, procede alla revisione della propria legislazione di pianificazione territoriale secondo i principi della
@@ -419,59 +630,63 @@
 								, e quelli di cui al presente articolo.
 							</corpo>
 						</comma>
-						<comma id="art6-com6">
+						<comma id="art6-t3-com6">
 							<num>6.</num>
 							<alinea>La legge regionale individua espressamente gli atti regionali che hanno efficacia ai fini della pianificazione territoriale. Essa, inoltre:</alinea>
-							<el id="art6-com6-leta">
+							<el id="art6-t3-com6-leta">
 								<num>a)</num>
 								<corpo>definisce i criteri e le procedure per la formazione e l'attuazione degli atti e degli strumenti della pianificazione territoriale degli enti locali;</corpo>
 							</el>
-							<el id="art6-com6-letb">
+							<el id="art6-t3-com6-letb">
 								<num>b)</num>
 								<corpo>regola, con norme di carattere generale, modi e procedimenti per la verifica di compatibilità degli atti di pianificazione territoriale degli enti locali con gli atti di programmazione regionale previsti dalla presente legge;</corpo>
 							</el>
-							<el id="art6-com6-letc">
+							<el id="art6-t3-com6-letc">
 								<num>c)</num>
 								<alinea>detta criteri e procedure:</alinea>
-								<en id="art6-com6-letc-num1">
+								<en id="art6-t3-com6-letc-num1">
 									<num>1)</num>
 									<corpo>sul concorso degli enti locali alla formazione dei piani territoriali di coordinamento delle province;</corpo>
 								</en>
-								<en id="art6-com6-letc-num2">
+								<en id="art6-t3-com6-letc-num2">
 									<num>2)</num>
 									<corpo>sull'approvazione dei suddetti piani territoriali di coordinamento adottati dalle province;</corpo>
 								</en>
-								<en id="art6-com6-letc-num3">
+								<en id="art6-t3-com6-letc-num3">
 									<num>3)</num>
 									<corpo>sull'accertamento della conformità di detti piani agli indirizzi regionali della programmazione socio-economica e territoriale;</corpo>
 								</en>
-								<en id="art6-com6-letc-num4">
+								<en id="art6-t3-com6-letc-num4">
 									<num>4)</num>
 									<corpo>sui compiti delle province nel procedimento di perfezionamento degli strumenti di pianificazione urbanistica e territoriale degli enti locali.</corpo>
 								</en>
 							</el>
 						</comma>
 					</articolo>
-					<articolo id="art7">
+					<articolo finevigore="t3" id="art7-t3" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 7</num>
 						<rubrica>(I piani di indirizzo)</rubrica>
-						<comma id="art7-com1">
+						<comma id="art7-t3-com1">
 							<num>1.</num>
 							<corpo>Il consiglio regionale, anche a seguito dei programmi - obiettivo in cui si articola il Prs, definisce piani di indirizzo, di seguito chiamati Pdi, aventi natura regolamentare, con i quali, in riferimento ai fenomeni considerati, vengono definiti gli indicatori e i parametri di misurazione che la regione assume nella propria attività, per garantire omogeneità di flussi informativi nei rapporti con gli enti locali e per promuovere il coordinamento dei procedimenti di programmazione entro il sistema delle autonomie locali e regionali.</corpo>
 						</comma>
-						<comma id="art7-com2">
+						<comma id="art7-t3-com2">
 							<num>2.</num>
 							<corpo>Quando la legge regionale faccia espresso rinvio al Pdi, esso definisce, con norme di natura regolamentare, le modalità tecniche, procedurali e operative per l'attuazione degli interventi previsti dal Prs e dai programmi - obiettivo.</corpo>
 						</comma>
-						<comma id="art7-com3">
+						<comma id="art7-t3-com3">
 							<num>3.</num>
 							<corpo>
 								Il Pdi può inoltre definire, a integrazione dei criteri e delle strategie del Prs, di cui all'
-								<rif xlink:href="#art4-com3-letc" xlink:type="simple">art. 4, comma tre, lettera c)</rif>
+								<rif xlink:href="#art4-com3-t3-letc" xlink:type="simple">art. 4, comma tre, lettera c)</rif>
 								, gli specifici obiettivi operativi al cui perseguimento sono rivolti gli interventi disciplinati dalle singole leggi di settore.
 							</corpo>
 						</comma>
 					</articolo>
+				</titolo>
+				<titolo finevigore="t3" id="tit3-t3" iniziovigore="t1" status="abrogato">
+					<num>TITOLO III</num>
+					<rubrica>Le procedure e gli strumenti di attuazione</rubrica>
 					<articolo id="art8">
 						<num>ARTICOLO 8</num>
 						<rubrica>(La tipizzazione delle procedure)</rubrica>
@@ -846,6 +1061,10 @@
 							<corpo>La provincia assume gli obiettivi e gli interventi indicati dai piani pluriennali delle comunità montane, approvati ai sensi del comma sei, nella definizione dei propri strumenti programmatici, ivi compresi quelli di intervento finanziario, e nelle proposte relative agli atti di programmazione regionale.</corpo>
 						</comma>
 					</articolo>
+				</titolo>
+				<titolo finevigore="t3" id="tit4-t3" iniziovigore="t1" status="abrogato">
+					<num>TITOLO IV</num>
+					<rubrica>Gli strumenti di partecipazione</rubrica>
 					<articolo id="art16">
 						<num>ARTICOLO 16</num>
 						<rubrica>(Le competenze di programmazione)</rubrica>
@@ -898,6 +1117,10 @@
 							</corpo>
 						</comma>
 					</articolo>
+				</titolo>
+				<titolo finevigore="t3" id="tit5-t3" iniziovigore="t1" status="abrogato">
+					<num>TITOLO V</num>
+					<rubrica>Gli strumenti di conoscenza e di coordinamento</rubrica>
 					<articolo id="art18">
 						<num>ARTICOLO 18</num>
 						<rubrica>(Gli archivi dei progetti e dei programmi)</rubrica>
