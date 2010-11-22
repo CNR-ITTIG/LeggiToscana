@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t8" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1999-01-26;3" />
 					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1999-01-26;3@1999-06-11" />
-					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1999-01-26;3@1999-07-29" />
+					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1999-01-26;3@1999-07-29" />
+					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1999-01-26;3@1999-10-27" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Bilancio" />
@@ -26,6 +27,7 @@
 						<evento data="19990205" fonte="ra6" id="t7" tipo="modifica" />
 						<evento data="19990701" fonte="rp1" id="t8" tipo="modifica" />
 						<evento data="19990806" fonte="rp2" id="t9" tipo="modifica" />
+						<evento data="19991104" fonte="rp3" id="t10" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1999-01-26;3" xlink:type="simple" />
@@ -37,6 +39,7 @@
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1996-02-07;11" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1999-06-11;33" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1999-07-29;42" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1999-10-27;55" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -160,6 +163,18 @@
 							</dsp:norma>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art14-com3-t9" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art10-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-10-27;55" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-10-27;55#art6-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 6, comma 2 della legge Regione Toscana 27 ottobre 1999, n. 55" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art10-com3-t10" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>
@@ -463,7 +478,7 @@
 							.
 						</corpo>
 					</comma>
-					<comma id="art10-com3">
+					<comma finevigore="t10" id="art10-com3-t10" iniziovigore="t1" status="abrogato">
 						<num>3.</num>
 						<corpo>
 							È autorizzata per l'anno 1999 la spesa di L. 300.000.000 per le iniziative di sostegno dell'artigianato di qualità di cui all'
