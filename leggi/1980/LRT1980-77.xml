@@ -11,7 +11,8 @@
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1980-05-29;77@1982-01-05" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1980-05-29;77@1983-12-14" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1980-05-29;77@1987-01-26" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1980-05-29;77@1993-12-20" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1980-05-29;77@1993-12-20" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1980-05-29;77@1999-11-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Agricoltura" />
 					</materie>
@@ -23,6 +24,7 @@
 						<evento data="19840106" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19870219" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="19940114" fonte="rp4" id="t5" tipo="modifica" />
+						<evento data="19991125" fonte="rp5" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-05-29;77" xlink:type="simple" />
@@ -30,6 +32,7 @@
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1983-12-14;79" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1987-01-26;7" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1993-12-20;100" xlink:type="simple" />
+						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1999-11-02;57" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -119,6 +122,18 @@
 								<dsp:pos xlink:href="#art7-t5" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-11-02;57" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-11-02;57#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 2 novembre 1999, n. 57" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art8-com4" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -593,6 +608,22 @@
 						<comma id="art8-com3">
 							<num />
 							<corpo>Entro il 31 marzo di ogni anno i beneficiari dei contributi di cui alla presente legge devono presentare alla Giunta regionale il conto consuntivo dell'esercizio trascorso, con una dettagliata relazione sull'attività svolta.</corpo>
+						</comma>
+						<comma id="art8-com4" iniziovigore="t6">
+							<num />
+							<alinea>
+								L'aiuto riconosciuto ammissibile a consuntivo per il funzionamento amministrativo delle associazioni ai sensi dell'
+								<rif xlink:href="urn:nir:comunita.europee:regolamento:1978;1360#art10" xlink:type="simple">art. 10 del Reg. (CEE) n. 1360/78</rif>
+								del Consiglio del 19.6.1978, relativamente al quinto anno successivo al loro riconoscimento può essere versato anche dopo il settimo anno successivo al loro riconoscimento purché:
+							</alinea>
+							<el id="art8-com4-leta">
+								<num>a)</num>
+								<corpo>risulti che non è stato possibile versare l'aiuto suddetto entro il settimo anno successivo al loro riconoscimento;</corpo>
+							</el>
+							<el id="art8-com4-letb">
+								<num>b)</num>
+								<corpo>risulti che la necessità di effettuare tale versamento dopo il settimo anno successivo al loro riconoscimento non è originata da carenze imputabili alla responsabilità delle Associazioni interessate.</corpo>
+							</el>
 						</comma>
 					</articolo>
 				</titolo>
