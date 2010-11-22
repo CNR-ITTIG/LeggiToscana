@@ -8,7 +8,8 @@
 					<entratainvigore norm="19981127" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1998-11-03;77" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1998-11-03;77@2010-11-08" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1998-11-03;77@2010-11-08" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1998-11-03;77@1999-12-22" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Edilizia" />
 					</materie>
@@ -20,6 +21,7 @@
 						<evento data="19981127" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="19981127" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="19981231" fonte="rp1" id="t5" tipo="modifica" />
+						<evento data="19991231" fonte="rp2" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-11-03;77" xlink:type="simple" />
@@ -27,6 +29,7 @@
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1994-01-28;11" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1995-11-22;100" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir: :legge:2010-11-08;da assegnare" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1999-12-22;67" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -96,6 +99,21 @@
 								<dsp:pos xlink:href="#art9-com1bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-12-22;67" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-12-22;67#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 22 dicembre 1999, n. 67" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art5-com4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-com4-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -303,9 +321,17 @@
 						<num>3.</num>
 						<corpo>Il procedimento di concertazione, che acquisisce anche i pareri dei singoli Comuni si svolge in novanta giorni, trascorsi i quali la Giunta regionale, anche in assenza dell'intesa con la delegazione rappresentativa dell'associazione regionale dei Comuni, propone al Consiglio regionale, che delibera entro sessanta giorni dal ricevimento della proposta della Giunta regionale, la individuazione dei livelli ottimali di esercizio.</corpo>
 					</comma>
-					<comma id="art5-com4">
+					<comma finevigore="t6" id="art5-com4-t6" iniziovigore="t1" status="abrogato">
 						<num>4.</num>
 						<corpo>Il livello ottimale di esercizio, individuato secondo le disposizioni dei commi 2 e 3, deve garantire il principio di economicità nella gestione, il rispetto dei criteri di efficienza ed efficacia e non può essere inferiore al livello provinciale.</corpo>
+					</comma>
+					<comma id="art5-com4" iniziovigore="t6">
+						<num>4.</num>
+						<corpo>
+							Il livello ottimale di esercizio, individuato secondo le disposizioni dei commi 2 e 3, deve garantire il principio di economicità nella gestione, il rispetto dei criteri di efficienza ed efficacia e non può essere inferiore al livello provinciale, con la sola eccezione della provincia di Firenze, all'interno della quale possono essere individuati due livelli, di cui uno corrispondente al territorio del Circondario dell'Empolese Valdelsa, istituito con la
+							<rif xlink:href="urn:nir:regione.toscana:legge:1997-05-29;38" xlink:type="simple">Legge regionale 29 maggio 1997, n. 38</rif>
+							"Istituzione del Circondario dell'Empolese Valdelsa quale circoscrizione di decentramento amministrativo"e l'altro corrispondente al restante territorio provinciale.
+						</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art6">
@@ -399,7 +425,7 @@
 							Il Consiglio regionale, per iniziativa dei Comuni interessati, decorsi almeno tre anni dalla definizione dei livelli ottimali di cui all'
 							<rif xlink:href="#art5" xlink:type="simple">art. 5</rif>
 							, può variarne la delimitazione, fermo restando quanto disposto all'
-							<rif xlink:href="#art5-com4" xlink:type="simple">art. 5 comma 4</rif>
+							<rif xlink:href="#art5-com4-t6" xlink:type="simple">art. 5 comma 4</rif>
 							.
 						</corpo>
 					</comma>
