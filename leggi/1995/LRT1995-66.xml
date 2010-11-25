@@ -10,7 +10,8 @@
 					<urn finevigore="t16" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1995-04-18;66" />
 					<urn finevigore="t17" iniziovigore="t16" valore="urn:nir:regione.toscana:legge:1995-04-18;66@1996-03-28" />
 					<urn finevigore="t18" iniziovigore="t17" valore="urn:nir:regione.toscana:legge:1995-04-18;66@1999-01-26" />
-					<urn iniziovigore="t18" valore="urn:nir:regione.toscana:legge:1995-04-18;66@1999-12-31" />
+					<urn finevigore="t19" iniziovigore="t18" valore="urn:nir:regione.toscana:legge:1995-04-18;66@1999-12-31" />
+					<urn iniziovigore="t19" valore="urn:nir:regione.toscana:legge:1995-04-18;66@2000-01-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tutela Ambientale" />
 						<materia valore="Organizzazioni Pubbliche" />
@@ -37,6 +38,7 @@
 						<evento data="19960424" fonte="rp1" id="t16" tipo="modifica" />
 						<evento data="19990205" fonte="rp2" id="t17" tipo="modifica" />
 						<evento data="20000125" fonte="rp3" id="t18" tipo="modifica" />
+						<evento data="20000126" fonte="rp4" id="t19" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-04-18;66" xlink:type="simple" />
@@ -57,6 +59,7 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1996-03-28;26" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1999-01-26;3" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1999-12-31;73" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2000-01-21;3" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -379,7 +382,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art25-com2" xlink:type="simple" />
+							<dsp:pos xlink:href="#art25-com2-t19" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-01-26;3" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-01-26;3#art9-com2" xlink:type="simple" />
 								<dsp:subarg>
@@ -387,7 +390,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art25-com2" xlink:type="simple" />
+								<dsp:pos xlink:href="#art25-com2-t19" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art25-com2-t17" xlink:type="simple" />
@@ -406,6 +409,21 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art12-com5bis-t18" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art25-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-01-21;3" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-01-21;3#art9-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 9, comma 1 della legge Regione Toscana 21 gennaio 2000, n. 3" id="itt10" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art25-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art25-com2-t19" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -1618,10 +1636,18 @@
 								.
 							</corpo>
 						</comma>
-						<comma id="art25-com2" iniziovigore="t17">
+						<comma finevigore="t19" id="art25-com2-t19" iniziovigore="t17" status="abrogato">
 							<num>2.</num>
 							<corpo>
 								Ai fini della determinazione della quota del Fondo Sanitario Regionale, di cui alla lettera a) del comma 1, da assegnare all'ARPAT per tutte le funzioni trasferite dalla Regione e dalle Aziende USL, comprese le spese di personale beni e servizi, è determinata, a partire dall'esercizio 1999, nella misura dello 0,75% del Fondo Sanitario Nazionale assegnato alla Regione Toscana al netto delle compensazioni interregionali. Le entrate di cui alle lettere b) e d) del comma 1 sono determinate sulla base degli accordi di programma e delle convenzioni di cui all'
+								<rif xlink:href="#art5" xlink:type="simple">art. 5</rif>
+								.
+							</corpo>
+						</comma>
+						<comma id="art25-com2" iniziovigore="t19">
+							<num>2.</num>
+							<corpo>
+								Ai fini della determinazione della quota del Fondo Sanitario Regionale, di cui alla lettera a) del comma 1, da assegnare all'ARPAT per tutte le funzioni trasferite dalla Regione e dalle Aziende USL, comprese le spese di personale beni e servizi, sono fissate le seguenti aliquote del Fondo Sanitario Nazionale assegnato alla Regione Toscana al netto delle compensazioni interregionali: per l'anno 1999 - 0,75%, per l'anno 2000 - 0,84%, per l'anno 2001 - 0,92% a decorrere dall'anno 2002 - 1%. Le entrate di cui alle lettere b) e d) del comma 1 sono determinate sulla base degli accordi di programma e delle convenzioni di cui all'
 								<rif xlink:href="#art5" xlink:type="simple">art. 5</rif>
 								.
 							</corpo>
