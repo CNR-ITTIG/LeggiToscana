@@ -11,7 +11,8 @@
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1996-02-07;11@1997-03-05" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1996-02-07;11@1998-08-13" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1996-02-07;11@1999-01-26" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1996-02-07;11@1999-07-22" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1996-02-07;11@1999-07-22" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1996-02-07;11@2000-01-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organizzazioni Pubbliche" />
 						<materia valore="Imprese" />
@@ -25,6 +26,7 @@
 						<evento data="19980908" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19990205" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="19990817" fonte="rp4" id="t5" tipo="modifica" />
+						<evento data="20000126" fonte="rp5" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1996-02-07;11" xlink:type="simple" />
@@ -32,6 +34,7 @@
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1998-08-13;67" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1999-01-26;3" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1999-07-22;41" xlink:type="simple" />
+						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2000-01-21;3" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -41,6 +44,8 @@
 							<rif xlink:href="urn:nir:regione.toscana:legge:1998-08-13;67#art6" xlink:type="simple">art. 6 della legge regionale 13 agosto 1998, n. 67</rif>
 							.La presente legge inoltre è stata ulteriormente prorogata per l'anno 1999 dall'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1999-01-26;3#art14-com1" xlink:type="simple">art. 14, comma 1 della legge regionale 26 gennaio 1999, n. 3</rif>
+							e per l'anno 2000 dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2000-01-21;3#art16-com1" xlink:type="simple">art. 16, comma 1 della legge regionale 21 gennaio 2000, n. 3</rif>
 							.
 						</h:p>
 					</nota>
@@ -274,6 +279,12 @@
 								<dsp:pos xlink:href="#art4-t5" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:proroga completa="si" implicita="no" su="efficacia">
+							<dsp:termine da="#t6" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-01-21;3" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-01-21;3#mod3" xlink:type="simple" />
+							</dsp:norma>
+						</dsp:proroga>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
