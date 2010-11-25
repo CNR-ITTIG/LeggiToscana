@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t16" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1995-04-18;66" />
 					<urn finevigore="t17" iniziovigore="t16" valore="urn:nir:regione.toscana:legge:1995-04-18;66@1996-03-28" />
-					<urn iniziovigore="t17" valore="urn:nir:regione.toscana:legge:1995-04-18;66@1999-01-26" />
+					<urn finevigore="t18" iniziovigore="t17" valore="urn:nir:regione.toscana:legge:1995-04-18;66@1999-01-26" />
+					<urn iniziovigore="t18" valore="urn:nir:regione.toscana:legge:1995-04-18;66@1999-12-31" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tutela Ambientale" />
 						<materia valore="Organizzazioni Pubbliche" />
@@ -35,6 +36,7 @@
 						<evento data="19950513" fonte="ra14" id="t15" tipo="modifica" />
 						<evento data="19960424" fonte="rp1" id="t16" tipo="modifica" />
 						<evento data="19990205" fonte="rp2" id="t17" tipo="modifica" />
+						<evento data="20000125" fonte="rp3" id="t18" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-04-18;66" xlink:type="simple" />
@@ -54,8 +56,22 @@
 						<attiva id="ra14" xlink:href="urn:nir:regione.toscana:legge:1983;69" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1996-03-28;26" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1999-01-26;3" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1999-12-31;73" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							La presente modifica, operata dalla
+							<rif xlink:href="urn:nir:regione.toscana:legge:1999-12-31;73" xlink:type="simple">Legge Regionale 31 dicembre 1999 n. 73</rif>
+							, ha efficacia dal 31 luglio 1999, data di entrata in vigore del
+							<rif xlink:href="urn:nir:stato:decreto.legislativo:1999-06-19;229" xlink:type="simple">DLgs 19 giugno 1999, n. 229</rif>
+							come riportato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1999-12-31;73#art3" xlink:type="simple">art. 3</rif>
+							della legge modificante.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:integrazione completa="si" implicita="no">
@@ -317,7 +333,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art12-com5bis" xlink:type="simple" />
+								<dsp:pos xlink:href="#art12-com5bis-t18" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -375,6 +391,21 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art25-com2-t17" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art12-com5bis" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-12-31;73" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-12-31;73#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 31 dicembre 1999, n. 73" id="itt9" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art12-com5bis" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art12-com5bis-t18" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -1089,12 +1120,23 @@
 							<num>5.</num>
 							<corpo>L'incarico di direttore generale comporta un rapporto di lavoro a tempo pieno e non è compatibile con altre attività professionali ed incarichi elettivi, ed è subordinato al collocamento in aspettativa o fuori ruolo da parte dell'ente di provenienza per i pubblici dipendenti.</corpo>
 						</comma>
-						<comma id="art12-com5bis" iniziovigore="t16">
+						<comma finevigore="t18" id="art12-com5bis-t18" iniziovigore="t16" status="abrogato">
 							<num>5 bis.</num>
 							<corpo>
 								Il Direttore Generale dell'ARPAT, qualora proveniente da Ente Pubblico è collocato in aspettativa senza assegni. La contribuzione per detto periodo, considerato utile ai fini del trattamento di quiescenza e previdenza con mantenimento della iscrizione all'Inpdap, è versata nella misura dovuta dall'Ente Pubblico di provenienza, ai sensi del
 								<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502#art3-com8" xlink:type="simple">comma 8 dell'art. 3 del Decreto Legislativo 30/12/1992, n. 502</rif>
 								, con diritto di rivalsa nei confronti dell'ARPAT.
+							</corpo>
+						</comma>
+						<comma id="art12-com5bis" iniziovigore="t18">
+							<num>5 bis.</num>
+							<corpo>
+								Il Direttore Generale dell'ARPAT, qualora proveniente da Ente Pubblico è collocato in aspettativa senza assegni. La contribuzione per detto periodo, considerato utile ai fini del trattamento di quiescenza e previdenza con mantenimento dell'iscrizione all'INPDAP, è versata nella misura dovuta dall'Ente Pubblico di provenienza, ai sensi del
+								<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502#art3bis-com11" xlink:type="simple">comma 11 dell'art. 3 bis del DLgs 30 dicembre 1992, n. 502</rif>
+								, inserito dall'
+								<rif xlink:href="urn:nir:stato:decreto.legislativo:1999-06-19;229#art3-com3" xlink:type="simple">art. 3, comma 3 del DLgs 19 giugno 1999, n. 229</rif>
+								, con diritto di rivalsa nei confronti dell'ARPAT.
+								<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
 							</corpo>
 						</comma>
 						<comma id="art12-com6">

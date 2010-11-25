@@ -10,7 +10,8 @@
 					<urn finevigore="t14" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1992-09-02;42" />
 					<urn finevigore="t15" iniziovigore="t14" valore="urn:nir:regione.toscana:legge:1992-09-02;42@1993-11-04" />
 					<urn finevigore="t16" iniziovigore="t15" valore="urn:nir:regione.toscana:legge:1992-09-02;42@1996-03-28" />
-					<urn iniziovigore="t16" valore="urn:nir:regione.toscana:legge:1992-09-02;42@1997-10-03" />
+					<urn finevigore="t17" iniziovigore="t16" valore="urn:nir:regione.toscana:legge:1992-09-02;42@1997-10-03" />
+					<urn iniziovigore="t17" valore="urn:nir:regione.toscana:legge:1992-09-02;42@1999-12-31" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Assistenza Sociale" />
 					</materie>
@@ -33,6 +34,7 @@
 						<evento data="19931127" fonte="rp1" id="t14" tipo="modifica" />
 						<evento data="19960424" fonte="rp2" id="t15" tipo="modifica" />
 						<evento data="19971028" fonte="rp3" id="t16" tipo="modifica" />
+						<evento data="20000125" fonte="rp4" id="t17" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1992-09-02;42" xlink:type="simple" />
@@ -51,6 +53,7 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1993-11-04;80" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1996-03-28;25" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1997-10-03;72" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1999-12-31;73" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -59,6 +62,17 @@
 							La presente legge è stata interamente abrogata dall'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1997-10-03;72#art67-com1-letm" xlink:type="simple">art. 67, comma 1, lett. m), della legge regionale 3 ottobre 1997, n. 72</rif>
 							, ad eccezione degli articoli 13 e 14.
+						</h:p>
+					</nota>
+					<nota id="n2">
+						<h:p>
+							La presente modifica, operata dalla
+							<rif xlink:href="urn:nir:regione.toscana:legge:1999-12-31;73" xlink:type="simple">Legge Regionale 31 dicembre 1999 n. 73</rif>
+							, ha efficacia dal 31 luglio 1999, data di entrata in vigore del
+							<rif xlink:href="urn:nir:stato:decreto.legislativo:1999-06-19;229" xlink:type="simple">DLgs 19 giugno 1999, n. 229</rif>
+							come riportato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1999-12-31;73#art3" xlink:type="simple">art. 3</rif>
+							della legge modificante.
 						</h:p>
 					</nota>
 				</redazionale>
@@ -395,6 +409,21 @@
 								<dsp:pos xlink:href="#tit4-t16" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art14-com5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-12-31;73" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-12-31;73#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 31 dicembre 1999, n. 73" id="itt15" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art14-com5" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art14-com5-t17" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -988,14 +1017,33 @@
 									. Ai fini della nomina, i soggetti non devono avere compiuto il sessantacinquesimo anno di età e devono avere svolto per almeno cinque anni qualificata attività di direzione tecnico- professionale in enti o strutture di assistenza sociale pubblici o privati di media o grande dimensione. In sede di prima applicazione della deliberazione del Consiglio regionale n. 527 del 21 dicembre 1995 "Piano sanitario regionale 1996- 98", possono essere altresì nominati coloro i quali abbiano svolto per almeno cinque anni le funzioni di coordinatore dei servizi sociali delle unità sanitarie locali confluite nelle Aziende sanitarie e non abbiano compiuto il sessantacinquesimo anno di età.
 								</corpo>
 							</comma>
-							<comma id="art14-com5">
+							<comma finevigore="t17" id="art14-com5-t17" iniziovigore="t1" status="abrogato">
 								<num>5.</num>
 								<corpo>
-									Al coordinatore dei servizi sociali si applicano, in quanto compatibili, le disposizioni previste per il direttore sanitario e per il direttore amministrativo dall'art. 3, commi 6, 7, 8, 9 e 11 del
-									<rif xlink:href="urn:nir:stato:decreto.legislativo:1992;502" xlink:type="simple">decreto legislativo 502/92</rif>
+									Al coordinatore dei servizi sociali si applicano, in quanto compatibili, le disposizioni previste per il direttore sanitario e per il direttore amministrativo dall'
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:1992;502#art3" xlink:type="simple">art. 3, commi 6, 7, 8, 9 e 11 del decreto legislativo 502/92</rif>
 									e successive modifiche ed integrazioni. Il trattamento economico del coordinatore dei servizi sociali è determinato con deliberazione della Giunta regionale in misura non superiore al settanta per cento del trattamento base attribuito al direttore generale, tenendo conto della complessità delle funzioni ed, in particolare, dell'esercizio della delega dei singoli Enti locali all'Azienda USL ai sensi dell'
 									<rif xlink:href="urn:nir:stato:decreto.legislativo:1992;502#art3-com3" xlink:type="simple">art. 3, comma 3, del D.Lgs. n. 502/92</rif>
 									.
+								</corpo>
+							</comma>
+							<comma id="art14-com5" iniziovigore="t17">
+								<num>5.</num>
+								<corpo>
+									Al coordinatore dei servizi sociali si applicano, in quanto compatibili, le disposizioni previste per il direttore sanitario e per il direttore amministrativo dall'
+									<mrif>
+										art. 3 bis, commi
+										<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502#art3bis-com8" xlink:type="simple">8</rif>
+										e
+										<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502#art3bis-com11" xlink:type="simple">11</rif>
+										del DLgs 30 dicembre 1992, n. 502
+									</mrif>
+									, inserito dall'
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:1999-06-19;229#art3-com3" xlink:type="simple">art. 3, comma 3 del DLgs 19 giugno 1999, n. 229</rif>
+									. Il trattamento economico del coordinatore dei servizi sociali è determinato con deliberazione della giunta regionale in misura non superiore al settanta per cento del trattamento base attribuito al direttore generale, tenendo conto della complessità delle funzioni ed, in particolare dell'esercizio della delega dei singoli Enti locali all'Azienda USL ai sensi dell'
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:1992;502#art3-com3" xlink:type="simple">art. 3, comma 3, del DLgs n.502/92</rif>
+									.
+									<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
 								</corpo>
 							</comma>
 							<comma id="art14-com6">
