@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t2" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19850510" num="22" tipo="BURT" />
 					<entratainvigore norm="19850525" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1985-05-02;48" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1985-05-02;48" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1985-05-02;48@2000-01-12" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Diritti" />
 					</materie>
@@ -15,11 +16,29 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19850525" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20000205" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1985-05-02;48" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-01-12;1" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1985-05-02;48" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-01-12;1" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-01-12;1#art8-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 8, comma 1 della legge Regione Toscana 12 gennaio 2000, n. 1" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -302,7 +321,7 @@
 			<formulafinale>La presente legge è pubblicata sul Bollettino Ufficiale della Regione. E' fatto obbligo a chiunque spetti di osservarla e farla osservare come legge della Regione Toscana.</formulafinale>
 			<conclusione>
 				<dataeluogo codice="" norm="">Firenze, 2 maggio 1985</dataeluogo>
-				<soggetto codice="">La presente legge è stata approvata dal Consiglio Regionale il 20-3-1985 ed è stata vistata dal Commissario del Governo il 24- 4-1985.</soggetto>
+				<soggetto codice="">La presente legge è stata approvata dal Consiglio Regionale il 20-3-1985 ed è stata vistata dal Commissario del Governo il 24-4-1985.</soggetto>
 			</conclusione>
 		</LeggeRegionale>
 	</NIR>
