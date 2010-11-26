@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19960329" num="19" tipo="BURT" />
 					<entratainvigore norm="19960413" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1996-03-19;22" />
+					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1996-03-19;22" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1996-03-19;22@2000-02-25" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Contabilità Contratti" />
@@ -19,12 +20,14 @@
 						<evento data="19960413" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="19960413" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="19960413" fonte="ra3" id="t4" tipo="modifica" />
+						<evento data="20000321" fonte="rp1" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1996-03-19;22" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="" xlink:type="simple" />
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1981-06-25;54" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1981-06-25;54" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-02-25;13" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -52,6 +55,50 @@
 							</dsp:dominio>
 						</dsp:deroga>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9-com13" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-02-25;13" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-02-25;13#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 25 febbraio 2000, n. 13" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art9-com13" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art9-com13-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-02-25;13" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-02-25;13#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 25 febbraio 2000, n. 13" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art13-com4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art13-com4-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13-com6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-02-25;13" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-02-25;13#art2-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 2 della legge Regione Toscana 25 febbraio 2000, n. 13" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art13-com6bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -455,9 +502,37 @@
 							<num>12.</num>
 							<corpo>Nel giorno e nell'ora stabiliti nella lettera di invito, il Presidente di gara dichiara aperta la medesima. Ove non siano state presentate almeno due offerte la gara è dichiarata deserta, salvo che nel bando di gara o nella lettera di invito sia prevista l'aggiudicazione anche in caso di presentazione di una sola offerta.</corpo>
 						</comma>
-						<comma id="art9-com13">
+						<comma finevigore="t5" id="art9-com13-t5" iniziovigore="t1" status="abrogato">
 							<num>13.</num>
 							<corpo>Fuori dei casi in cui la gara sia dichiarata deserta, il Presidente provvede all'apertura dei plichi regolarmente pervenuti, verifica la corrispondenza dei documenti a corredo dell'offerta, apre le buste contenenti l'offerta e legge quest'ultima ad alta voce, contrassegnandola su ogni foglio.</corpo>
+						</comma>
+						<comma id="art9-com13" iniziovigore="t5">
+							<num>13.</num>
+							<alinea>Fuori dei casi in cui la gara sia dichiarata deserta, il Presidente in seduta pubblica provvede:</alinea>
+							<el id="art9-com13-leta">
+								<num>a)</num>
+								<corpo>nella licitazione privata, all'apertura dei plichi regolarmente pervenuti, alla verifica dei documenti richiesti ai fini dell'ammissibilità, all'apertura delle buste contenenti le offerte economiche ed alla loro lettura ad alta voce, contrassegnando ogni foglio;</corpo>
+							</el>
+							<el id="art9-com13-letb">
+								<num>b)</num>
+								<alinea>nell'appalto concorso:</alinea>
+								<en id="art9-com13-letb-num1">
+									<num>1.</num>
+									<corpo>
+										all'apertura dei plichi regolarmente pervenuti, alla verifica della documentazione amministrativa richiesta ai fini dell'ammissibilità, contrassegnando ogni foglio, all'attestazione dell'esistenza dei due plichi interni contenenti rispettivamente la documentazione tecnica e l'offerta economica, al loro contrassegno e alla trasmissione del plico contenente la documentazione tecnica alla Commissione di cui al successivo
+										<rif xlink:href="#art13" xlink:type="simple">articolo 13</rif>
+										per la valutazione;
+									</corpo>
+								</en>
+								<en id="art9-com13-letb-num2">
+									<num>2.</num>
+									<corpo>
+										dopo la conclusione della valutazione tecnica, all'apertura, dei plichi contenenti le offerte economiche per la verifica della regolarità formale, al contrassegno ed alla trasmissione delle offerte stesse alla Commissione di cui al successivo
+										<rif xlink:href="#art13" xlink:type="simple">art. 13</rif>
+										.
+									</corpo>
+								</en>
+							</el>
 						</comma>
 						<comma id="art9-com14">
 							<num>14.</num>
@@ -603,9 +678,29 @@
 								.
 							</corpo>
 						</comma>
-						<comma id="art13-com4">
+						<comma finevigore="t5" id="art13-com4-t5" iniziovigore="t1" status="abrogato">
 							<num>4.</num>
 							<corpo>La Commissione, dopo l'apertura della gara da parte del Presidente e l'ammissione dei partecipanti, procede all'esame dei progetti e propone quello che ritiene migliore, in base agli elementi di giudizio di cui al successivo comma, variabili a seconda della natura della prestazione.</corpo>
+						</comma>
+						<comma id="art13-com4" iniziovigore="t5">
+							<num>4.</num>
+							<alinea>La Commissione, in una o più sedute riservate, procede:</alinea>
+							<el id="art13-com4-leta">
+								<num>a)</num>
+								<corpo>prima della seduta pubblica di gara a determinare, ove necessario, i sub-elementi e, se del caso, i sub-pesi nell'ambito degli elementi di valutazione stabiliti nel capitolato speciale d'appalto o nel bando, in ordine ai quali è da effettuarsi la valutazione delle offerte;</corpo>
+							</el>
+							<el id="art13-com4-letb">
+								<num>b)</num>
+								<corpo>
+									dopo la seduta pubblica di verifica da parte del Presidente di gara della documentazione amministrativa, all'apertura del plico contenente la documentazione tecnica, contrassegnando la stessa su ogni foglio, all'esame del progetto ed all'attribuzione dei relativi punteggi e alla comunicazione, tramite il segretario della commissione, al Presidente di gara di aver concluso la valutazione tecnica, ai fini di quanto previsto dall'
+									<rif xlink:href="#art9-com13-letb-num2" xlink:type="simple">art. 9 comma 13 lettera b), numero 2</rif>
+									;
+								</corpo>
+							</el>
+							<el id="art13-com4-letc">
+								<num>c)</num>
+								<corpo>dopo la seduta pubblica di verifica da parte del Presidente di gara della regolarità delle offerte economiche, all'esame delle stesse, all'assegnazione del relativo punteggio e alla proposta di aggiudicazione all'offerta risultata complessivamente migliore.</corpo>
+							</el>
 						</comma>
 						<comma id="art13-com5">
 							<num>5.</num>
@@ -614,6 +709,10 @@
 						<comma id="art13-com6">
 							<num>6.</num>
 							<corpo>I risultati dei lavori della Commissione sono trasmessi al Dirigente responsabile del contratto che aggiudica la gara ovvero, nel caso in cui nessuno dei progetti presentati corrisponda alle esigenze per le quali è stato bandito l'appalto concorso, può dar luogo ad altra gara.</corpo>
+						</comma>
+						<comma id="art13-com6bis" iniziovigore="t5">
+							<num>6 bis.</num>
+							<corpo>L'accesso ai verbali della Commissione è consentito dopo la proposta di aggiudicazione.</corpo>
 						</comma>
 						<comma id="art13-com7">
 							<num>7.</num>
