@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19980814" num="30" tipo="BURT" />
 					<entratainvigore norm="19980829" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1998-08-06;52" />
+					<urn finevigore="t7" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1998-08-06;52" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1998-08-06;52@2000-02-03" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sistema Educativo" />
 						<materia valore="Lavoro" />
@@ -21,6 +22,7 @@
 						<evento data="19980829" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="19980829" fonte="ra4" id="t5" tipo="modifica" />
 						<evento data="19980829" fonte="ra5" id="t6" tipo="modifica" />
+						<evento data="20000226" fonte="rp1" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-08-06;52" xlink:type="simple" />
@@ -29,6 +31,7 @@
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1989-07-17;45" xlink:type="simple" />
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1989-07-17;45" xlink:type="simple" />
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1989-07-17;45" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-02-03;12" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -74,6 +77,44 @@
 							</dsp:dominio>
 						</dsp:variazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art15" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-02-03;12" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-02-03;12#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 3 febbraio 2000, n. 12" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art15bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art15" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-02-03;12" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-02-03;12#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 3 febbraio 2000, n. 12" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art15ter" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art16-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-02-03;12" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-02-03;12#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 3 febbraio 2000, n. 12" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art16-com1bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -917,6 +958,90 @@
 							</corpo>
 						</comma>
 					</articolo>
+					<articolo id="art15bis" iniziovigore="t7">
+						<num>Art. 15 bis</num>
+						<rubrica>(Istituzione del Fondo regionale per l'occupazione dei disabili)</rubrica>
+						<comma id="art15bis-com1">
+							<num>1.</num>
+							<corpo>
+								Ai sensi dell'
+								<rif xlink:href="urn:nir:stato:legge:1999-03-12;68#art14" xlink:type="simple">art. 14 della L. 12 marzo 1999, n. 68</rif>
+								(Norme per il diritto al lavoro dei disabili), è istituito il Fondo regionale per l'occupazione dei disabili, di seguito denominato "Fondo".
+							</corpo>
+						</comma>
+						<comma id="art15bis-com2">
+							<num>2.</num>
+							<corpo>
+								Il Fondo è finalizzato al sostegno delle iniziative di inserimento dei disabili nel mondo del lavoro, con particolare riferimento alle convenzioni ed alle iniziative intraprese dalle cooperative sociali di cui agli
+								<mrif>
+									artt.
+									<rif xlink:href="urn:nir:stato:legge:1999;68#art11" xlink:type="simple">11</rif>
+									e
+									<rif xlink:href="urn:nir:stato:legge:1999;68#art12" xlink:type="simple">12</rif>
+									della L. n. 68/99
+								</mrif>
+								.
+							</corpo>
+						</comma>
+						<comma id="art15bis-com3">
+							<num>3.</num>
+							<corpo>
+								La Giunta Regionale sulla base dei criteri contenuti nel Piano regionale per le politiche attive del lavoro di cui all'
+								<rif xlink:href="urn:nir:regione.toscana:legge:1998;52#art10" xlink:type="simple">art. 10 della LR n. 52/98</rif>
+								stabilisce le modalità di gestione del Fondo e, valutate le proposte del Comitato previsto al successivo
+								<rif xlink:href="#art15ter" xlink:type="simple">art. 15 ter</rif>
+								, approva il programma di ripartizione delle risorse e verifica i risultati dell'attività.
+							</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art15ter" iniziovigore="t7">
+						<num>Art. 15 ter</num>
+						<rubrica>(Comitato regionale per il fondo)</rubrica>
+						<comma id="art15ter-com1">
+							<num>1.</num>
+							<corpo>
+								È istituito il Comitato regionale per il Fondo che, nel rispetto degli indirizzi di cui al precedente
+								<rif xlink:href="#art15bis-com3" xlink:type="simple">art. 15 bis, comma 3</rif>
+								, propone alla Giunta regionale la destinazione delle risorse che costituiscono il Fondo e le modalità di verifica dei risultati.
+							</corpo>
+						</comma>
+						<comma id="art15ter-com2">
+							<num>2.</num>
+							<alinea>Il Comitato regionale per il Fondo è costituito da:</alinea>
+							<el id="art15ter-com2-leta">
+								<num>a)</num>
+								<corpo>assessore regionale competente in materia di lavoro, o suo delegato, con funzioni di Presidente;</corpo>
+							</el>
+							<el id="art15ter-com2-letb">
+								<num>b)</num>
+								<corpo>un componente designato dalle organizzazioni sindacali dei lavoratori comparativamente più rappresentative a livello regionale;</corpo>
+							</el>
+							<el id="art15ter-com2-letc">
+								<num>c)</num>
+								<corpo>un componente designato dalle organizzazioni sindacali dei datori di lavoro comparativamente più rappresentative a livello regionale;</corpo>
+							</el>
+							<el id="art15ter-com2-letd">
+								<num>d)</num>
+								<corpo>un componente designato dalle associazioni dei disabili comparativamente più rappresentative a livello regionale.</corpo>
+							</el>
+						</comma>
+						<comma id="art15ter-com3">
+							<num>3.</num>
+							<corpo>Alle sedute del Comitato partecipa altresì, a titolo consultivo, il Direttore dell'Ente Toscana Lavoro o suo delegato. In caso di parità di voto prevale il voto del presidente. I criteri per la determinazione della rappresentatività di cui alle lettere b), c), d) del comma 2 del presente articolo sono stabiliti con deliberazione della Giunta regionale.</corpo>
+						</comma>
+						<comma id="art15ter-com4">
+							<num>4.</num>
+							<corpo>Il Comitato regionale per il Fondo è nominato con decreto del Presidente della Giunta regionale e dura in carica per l'intera legislatura.</corpo>
+						</comma>
+						<comma id="art15ter-com5">
+							<num>5.</num>
+							<corpo>Le funzioni di assistenza amministrativa al Comitato sono esercitate dal Dipartimento regionale competente.</corpo>
+						</comma>
+						<comma id="art15ter-com6">
+							<num>6.</num>
+							<corpo>Il Comitato regionale per il Fondo disciplina, con apposito regolamento, le modalità del proprio funzionamento.</corpo>
+						</comma>
+					</articolo>
 				</titolo>
 				<titolo id="tit5">
 					<num>TITOLO V</num>
@@ -927,6 +1052,16 @@
 						<comma id="art16-com1">
 							<num>1.</num>
 							<corpo>Agli oneri derivanti dall'applicazione della presente legge, a partire dall'anno 1999, si fa fronte con legge di bilancio, a fronte delle disponibilità appositamente assegnate dallo Stato.</corpo>
+						</comma>
+						<comma id="art16-com1bis" iniziovigore="t7">
+							<num>1 bis.</num>
+							<corpo>
+								Nella legge di bilancio regionale sono definiti i pertinenti capitoli in corrispondenza delle entrate assegnate alla Regione, ai sensi dell'
+								<rif xlink:href="urn:nir:stato:legge:1999;68#art13" xlink:type="simple">art. 13 della L. n. 68/99</rif>
+								e delle entrate derivanti dall'irrogazione di sanzioni e dalla riscossione dei contributi, come previsto dall'
+								<rif xlink:href="urn:nir:stato:legge:1999;68#art14-com3" xlink:type="simple">art. 14, comma 3 della L. n. 68/99</rif>
+								.
+							</corpo>
 						</comma>
 						<comma id="art16-com2">
 							<num>2.</num>
