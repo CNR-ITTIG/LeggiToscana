@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t6" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19930820" num="52" tipo="BURT" />
@@ -10,7 +10,8 @@
 					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1993-08-01;55" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1993-08-01;55@1993-12-30" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1993-08-01;55@1994-08-05" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1993-08-01;55@1995-01-03" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1993-08-01;55@1995-01-03" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1993-08-01;55@2000-01-28" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sistema Educativo" />
 						<materia valore="Organizzazioni Pubbliche" />
@@ -24,6 +25,7 @@
 						<evento data="19940122" fonte="rp1" id="t3" tipo="modifica" />
 						<evento data="19940827" fonte="rp2" id="t4" tipo="modifica" />
 						<evento data="19950111" fonte="rp3" id="t5" tipo="modifica" />
+						<evento data="20000222" fonte="rp4" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1993-08-01;55" xlink:type="simple" />
@@ -31,17 +33,18 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1993-12-30;104" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1994-08-05;62" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1995-01-03;2" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2000-01-28;7" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Ad integrazione del presente articolo si veda l'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1993-12-30;104#art3" xlink:type="simple">art. 3 della legge regionale 30 dicembre 1993, n. 104</rif>
 							.
 						</h:p>
 					</nota>
-					<nota id="n2">
+					<nota id="LeggeRegionale1-n2">
 						<h:p>
 							Per l'interpretazione autentica del presente periodo si veda l'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1994-12-30;104#art3-com1" xlink:type="simple">art. 3, comma 1 della legge regionale 30 dicembre 1994, n. 104</rif>
@@ -188,6 +191,18 @@
 								<dsp:pos xlink:href="#h2" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1993-08-11;55" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-01-28;7" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-01-28;7#art37-com1-leta" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 37, comma 1, lettera a) della legge Regione Toscana 28 gennaio 2000, n. 7" id="itt10" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -206,7 +221,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>PRINCIPI GENERALI</rubrica>
 					<articolo id="art1">
@@ -336,9 +351,9 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
-					<capo id="tit2-cap1">
+					<capo id="LeggeRegionale1-tit2-cap1">
 						<num>Capo I</num>
 						<rubrica>INTERVENTI</rubrica>
 						<articolo id="art5">
@@ -604,7 +619,7 @@
 							</comma>
 						</articolo>
 					</capo>
-					<capo id="tit2-cap2">
+					<capo id="LeggeRegionale1-tit2-cap2">
 						<num>Capo II</num>
 						<rubrica>ACCESSO AGLI INTERVENTI</rubrica>
 						<articolo id="art14">
@@ -672,7 +687,7 @@
 							</comma>
 						</articolo>
 					</capo>
-					<capo id="tit2-cap3">
+					<capo id="LeggeRegionale1-tit2-cap3">
 						<num>Capo III</num>
 						<rubrica>FUNZIONAMENTO E GESTIONE</rubrica>
 						<articolo id="art18">
@@ -737,10 +752,10 @@
 						</articolo>
 					</capo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>TITOLO III</num>
 					<rubrica>LE AZIENDE REGIONALI</rubrica>
-					<capo id="tit3-cap1">
+					<capo id="LeggeRegionale1-tit3-cap1">
 						<num>Capo I</num>
 						<rubrica>ORGANIZZAZIONE DELLE AZIENDE</rubrica>
 						<articolo id="art20">
@@ -1211,7 +1226,7 @@
 						</articolo>
 					</capo>
 				</titolo>
-				<titolo id="tit4">
+				<titolo id="LeggeRegionale1-tit4">
 					<num>TITOLO IV</num>
 					<rubrica>BILANCI, CONTABILITÀ, CONTRATTI</rubrica>
 					<articolo id="art32">
@@ -1375,13 +1390,13 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit5">
+				<titolo id="LeggeRegionale1-tit5">
 					<num>TITOLO V</num>
 					<rubrica>DISPOSIZIONI FINALI</rubrica>
 					<articolo id="art37">
 						<num>
 							ARTICOLO 37
-							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 						</num>
 						<rubrica>(Revoca della delega delle funzioni, scioglimento e liquidazione delle Aziende comunali per il DSU)</rubrica>
 						<comma id="art37-com1">
@@ -1398,7 +1413,7 @@
 								Le Aziende, istituite dai Comuni destinatari di delega a norma dell'
 								<rif xlink:href="urn:nir:regione.toscana:legge:1989-06-14;37#art14" xlink:type="simple">art. 14 della LR n. 37 del 14-6-1989</rif>
 								, sono sciolte
-								<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+								<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(b)</ndr>
 								e la Giunta regionale nomina per ciascuna azienda il Commissario straordinario e liquidatore con i poteri di ordinaria amministrazione al fine di predisporre le condizioni e gli atti necessari alla liquidazione e di assicurare l'ordinaria gestione amministrativa dell'Azienda stessa.
 							</corpo>
 						</comma>
