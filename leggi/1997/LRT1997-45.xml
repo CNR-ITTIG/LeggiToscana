@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
+	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
@@ -8,7 +8,8 @@
 					<entratainvigore norm="19970722" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1997-06-27;45" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1997-06-27;45@1998-06-09" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1997-06-27;45@1998-06-09" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1997-06-27;45@2000-02-25" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Fonti Energetiche" />
 					</materie>
@@ -20,6 +21,7 @@
 						<evento data="19970722" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="19970722" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="19980704" fonte="rp1" id="t5" tipo="modifica" />
+						<evento data="20000321" fonte="rp2" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1997-06-27;45" xlink:type="simple" />
@@ -27,6 +29,7 @@
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1989-07-25;46" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1990-12-03;72" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1998-06-09;31" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2000-02-25;14" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -87,6 +90,63 @@
 								<dsp:pos xlink:href="#art9-t5" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art10" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-02-25;14" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-02-25;14#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 25 febbraio 2000, n. 14" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art10" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art10-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-02-25;14" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-02-25;14#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 25 febbraio 2000, n. 14" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com4-lete" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-02-25;14" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-02-25;14#art2-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 2 della legge Regione Toscana 25 febbraio 2000, n. 14" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-02-25;14" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-02-25;14#art2-com3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 3 della legge Regione Toscana 25 febbraio 2000, n. 14" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h5" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -186,7 +246,9 @@
 							<corpo>
 								Il P.E.R. è approvato dal Consiglio regionale con le procedure di cui all'
 								<rif xlink:href="#art4" xlink:type="simple">art. 4</rif>
-								ed ha durata triennale.
+								<h:span finevigore="t6" id="h1" iniziovigore="t1" status="abrogato">ed ha durata triennale</h:span>
+								<h:span id="h2" iniziovigore="t6">ed ha un aggiornamento almeno triennale</h:span>
+								.
 							</corpo>
 						</comma>
 						<comma id="art2-com3">
@@ -261,8 +323,12 @@
 									<rif xlink:href="#art5" xlink:type="simple">art. 5</rif>
 									ed all'
 									<rif xlink:href="#art7-com3-t5" xlink:type="simple">art. 7, comma 3</rif>
-									, nonché lo schema di bando di cui all'
-									<rif xlink:href="#art6" xlink:type="simple">art. 6</rif>
+									, nonché lo schema di bando
+									<h:span finevigore="t6" id="h3" iniziovigore="t1" status="abrogato">
+										di cui all'
+										<rif xlink:href="#art6" xlink:type="simple">art. 6</rif>
+									</h:span>
+									<h:span id="h4" iniziovigore="t6">per le erogazioni dei contributi</h:span>
 									;
 								</corpo>
 							</el>
@@ -408,6 +474,7 @@
 								<rif xlink:href="urn:nir:stato:legge:1990-06-08;142#art27" xlink:type="simple">art. 27 della legge 8 giugno 1990, n.142</rif>
 								e della
 								<rif xlink:href="urn:nir:regione.toscana:legge:1996-09-03;76" xlink:type="simple">legge regionale 3 settembre 1996, n. 76</rif>
+								<h:span id="h5" iniziovigore="t6">o altri accordi volontari</h:span>
 								.
 							</corpo>
 						</comma>
@@ -599,12 +666,32 @@
 							</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art10">
+					<articolo finevigore="t6" id="art10-t6" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 10</num>
 						<rubrica>(Agenzia Regionale per l'Energia)</rubrica>
-						<comma id="art10-com1">
+						<comma id="art10-t6-com1">
 							<num>1.</num>
 							<corpo>La Regione può avvalersi del progetto R.E.A. (Regional Energy Agency) dell'Unione Europea quale supporto tecnico-conoscitivo per la pianificazione energetica ai fini del perseguimento degli obiettivi della presente legge.</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art10" iniziovigore="t6">
+						<num>Art. 10</num>
+						<rubrica>Istituzione della R.E.A SpA</rubrica>
+						<comma id="art10-com1">
+							<num>1.</num>
+							<corpo>La Regione promuove la costituzione di una società per azioni, denominata R.E.A. (Regional Energy Agency), a prevalente partecipazione della Regione e degli Enti locali, ai sensi degli artt. 57 e 59 dello statuto. La R.E.A. SpA è aperta alla partecipazione degli altri soggetti pubblici e privati che operano nel settore dell'energia, ed in particolare delle agenzie per l'energia costituite ed operanti a livello locale.</corpo>
+						</comma>
+						<comma id="art10-com2">
+							<num>2.</num>
+							<corpo>La R.E.A. SpA opera in materia di risparmio e razionalizzazione delle risorse energetiche, dello sviluppo delle fonti rinnovabili di energia e costituisce supporto tecnico-conoscitivo per la pianificazione e per l'esercizio delle funzioni della Regione e degli Enti locali nonché per gli interventi degli altri soggetti pubblici e privati nel settore.</corpo>
+						</comma>
+						<comma id="art10-com3">
+							<num>3.</num>
+							<corpo>Entro sei mesi dall'entrata in vigore della presente legge, la Giunta regionale propone all'approvazione del Consiglio regionale lo schema dello statuto della R.E.A. SpA, previa verifica con gli organismi rappresentativi degli Enti locali, perseguendo la massima partecipazione ed il coinvolgimento degli Enti locali stessi. Contestualmente la Giunta regionale riferisce al Consiglio regionale in ordine alla disponibilità dei soggetti partecipanti alla R.E.A. SpA e sullo stato di attuazione della presente legge e del P.E.R. a livello locale. A seguito dell'approvazione dello schema di statuto la Giunta regionale è autorizzata a compiere gli atti necessari per la costituzione della R.E.A. SpA</corpo>
+						</comma>
+						<comma id="art10-com4">
+							<num>4.</num>
+							<corpo>I rapporti tra la Regione e la R.E.A. SpA in ordine alle attività di cui al comma 2, svolte dalla R.E.A. SpA e riferite all'esercizio delle funzioni regionali, sono regolati da apposita convenzione.</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art11">
