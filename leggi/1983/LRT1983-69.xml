@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t16" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19831026" num="49" tipo="BURT" />
@@ -14,7 +14,8 @@
 					<urn finevigore="t13" iniziovigore="t12" valore="urn:nir:regione.toscana:legge:1983-10-17;69@1995-03-10" />
 					<urn finevigore="t14" iniziovigore="t13" valore="urn:nir:regione.toscana:legge:1983-10-17;69@1995-04-18" />
 					<urn finevigore="t15" iniziovigore="t14" valore="urn:nir:regione.toscana:legge:1983-10-17;69@1996-09-03" />
-					<urn iniziovigore="t15" valore="urn:nir:regione.toscana:legge:1983-10-17;69@1999-10-14" />
+					<urn finevigore="t16" iniziovigore="t15" valore="urn:nir:regione.toscana:legge:1983-10-17;69@1999-10-14" />
+					<urn iniziovigore="t16" valore="urn:nir:regione.toscana:legge:1983-10-17;69@2000-02-25" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Farmaci" />
 						<materia valore="Assistenza Sanitaria" />
@@ -37,6 +38,7 @@
 						<evento data="19950513" fonte="rp5" id="t13" tipo="modifica" />
 						<evento data="19960927" fonte="rp6" id="t14" tipo="modifica" />
 						<evento data="20000205" fonte="rp7" id="t15" tipo="modifica" />
+						<evento data="20000321" fonte="rp8" id="t16" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1983-10-17;69" xlink:type="simple" />
@@ -54,6 +56,7 @@
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1995-04-18;66" xlink:type="simple" />
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:1996-09-03;74" xlink:type="simple" />
 						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:1999-10-14;52" xlink:type="simple" />
+						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:2000-02-25;16" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -367,7 +370,7 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:integrazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#tit5" xlink:type="simple" />
+							<dsp:pos xlink:href="#LeggeRegionale1-tit5" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1990-04-14;48" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1990-04-14;48#art7-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -993,6 +996,18 @@
 								<dsp:pos xlink:href="#art7-com3-num4-t15" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1983-10-17;69" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-02-25;16" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-02-25;16#art56-com1-letb" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 56, comma 1, lettera b) della legge Regione Toscana 25 febbraio 2000, n. 16" id="itt65" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -1015,7 +1030,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>COMPETENZE E STRUTTURE</rubrica>
 					<articolo id="art1">
@@ -1157,7 +1172,7 @@
 							<num>1.</num>
 							<corpo>
 								Le funzioni già di competenza dell'ufficiale sanitario, del medico provinciale, del veterinario provinciale, quali autorità sanitarie locali, vengono esercitate da ciascun Sindaco per il rispettivo territorio comunale il quale adotta i provvedimenti conseguenti, acquisito il parere dei competenti servizi dell'unità sanitaria locale o su proposta dei medesimi, salvo quanto previsto nel successivo
-								<rif xlink:href="#tit4" xlink:type="simple">titolo IV</rif>
+								<rif xlink:href="#LeggeRegionale1-tit4" xlink:type="simple">titolo IV</rif>
 								in relazione al servizio farmaceutico.
 							</corpo>
 						</comma>
@@ -1414,7 +1429,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>IGIENE E SANITA' PUBBLICA</rubrica>
 					<articolo finevigore="t11" id="art7-t11" iniziovigore="t1" status="abrogato">
@@ -1956,7 +1971,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>TITOLO III</num>
 					<rubrica>VIGILANZA, IGIENE E PROFILASSI VETERINARIA</rubrica>
 					<articolo finevigore="t11" id="art14-t11" iniziovigore="t1" status="abrogato">
@@ -2289,7 +2304,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit4">
+				<titolo id="LeggeRegionale1-tit4">
 					<num>TITOLO IV</num>
 					<rubrica>ESERCIZIO DELLE FUNZIONI IN MATERIA FARMACEUTICA E VIGILANZA SULLE FARMACIE</rubrica>
 					<articolo id="art18">
@@ -3038,7 +3053,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit5">
+				<titolo id="LeggeRegionale1-tit5">
 					<num>TITOLO V</num>
 					<rubrica>NORME FINALI</rubrica>
 					<articolo id="art25bis" iniziovigore="t11">

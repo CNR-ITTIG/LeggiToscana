@@ -1,30 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t2" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
-					<pubblicazione norm="" num="" tipo="GU" />
-					<entratainvigore norm="" />
+					<pubblicazione norm="19761126" num="59" tipo="BURT" />
+					<entratainvigore norm="19761211" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1976-11-19;73" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1976-11-19;73" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1976-11-19;73@2000-02-25" />
 				</descrittori>
+				<ciclodivita>
+					<eventi>
+						<evento data="19761211" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20000321" fonte="rp1" id="t2" tipo="modifica" />
+					</eventi>
+					<relazioni>
+						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1976-11-19;73" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-02-25;16" xlink:type="simple" />
+					</relazioni>
+				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Il contributo aggiuntivo previsto dal presente articolo è stato incrementrato, a decorrere dal 1 gennaio 1980, dall'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1979-11-14;57#art1" xlink:type="simple">art. 1 della legge regionale 14 novembre 1979, n. 57</rif>
 							.
 						</h:p>
 					</nota>
-					<nota id="n2">
+					<nota id="LeggeRegionale1-n2">
 						<h:p>
 							Si veda l'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1979-11-14;57#art2" xlink:type="simple">art. 2 della legge regionale 14 novembre 1979, n. 57</rif>
 							.
 						</h:p>
 					</nota>
-					<nota id="n3">
+					<nota id="LeggeRegionale1-n3">
 						<h:p>
 							L'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1979-11-14;57#art3" xlink:type="simple">art. 3 della legge regionale 14 novembre 1979, n. 57</rif>
@@ -32,6 +43,22 @@
 						</h:p>
 					</nota>
 				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1976-11-19;73" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-02-25;16" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-02-25;16#art56-com1-leta" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 56, comma 1, lettera a) della legge Regione Toscana 25 febbraio 2000, n. 16" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -60,7 +87,7 @@
 							, e
 							<rif xlink:href="urn:nir:stato:legge:1973-03-05;40" xlink:type="simple">legge 5-3-1973 n. 40</rif>
 							, è concesso un contributo aggiuntivo nella misura che segue
-							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 							:
 						</alinea>
 						<ep id="art1-com1-pun1">
@@ -131,7 +158,7 @@
 				<articolo id="art4">
 					<num>
 						ARTICOLO 4
-						<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+						<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(b)</ndr>
 					</num>
 					<comma id="art4-com1">
 						<num />
@@ -195,7 +222,7 @@
 						<num />
 						<corpo>
 							In caso di trasferimento della titolarità successivamente al 31 marzo degli anni pari
-							<ndr num="#n3" valore="" xlink:type="simple">(c)</ndr>
+							<ndr num="#LeggeRegionale1-n3" valore="" xlink:type="simple">(c)</ndr>
 							l'acquirente, indipendentemente dall'avvenuto riconoscimento della titolarità, dovrà chiedere, entro il 90mo giorno dall'atto di acquisto, l'erogazione a proprio favore dell'indennità già determinata per il precedente titolare o per la quale quest'ultimo abbia presentato l'istanza nei termini.
 						</corpo>
 					</comma>
