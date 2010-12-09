@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19990305" num="6" tipo="BURT" />
 					<entratainvigore norm="19990320" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1999-02-23;8" />
+					<urn finevigore="t7" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1999-02-23;8" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1999-02-23;8@2000-03-08" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Enti Sanitari" />
 					</materie>
@@ -20,6 +21,9 @@
 						<evento data="19990320" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="19990320" fonte="ra4" id="t5" tipo="modifica" />
 						<evento data="19990320" fonte="ra5" id="t6" tipo="modifica" />
+						<evento data="20000401" fonte="rp1" id="t7" tipo="modifica" />
+						<evento data="20000401" fonte="ra6" id="t8" tipo="modifica" />
+						<evento data="20000401" fonte="ra7" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1999-02-23;8" xlink:type="simple" />
@@ -28,6 +32,9 @@
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1989-12-01;78" xlink:type="simple" />
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1992-03-26;11" xlink:type="simple" />
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1992-03-26;12" xlink:type="simple" />
+						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1977-03-12;18" xlink:type="simple" />
+						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:1977-03-12;18" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-03-08;20" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -92,7 +99,106 @@
 								</dsp:subarg>
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#mod8" xlink:type="simple" />
+							<dsp:termine da="#t8" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1977-03-12;18" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1977-03-12;18#art12-com1" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#mod8-vir1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:tipo valore="parole" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#mod9" xlink:type="simple" />
+							<dsp:termine da="#t9" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1977-03-12;18" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1977-03-12;18#art12-com2" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:subarg>
+									<ittig:tipo valore="comma" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-03-08;20" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-03-08;20#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 8 marzo 2000, n. 20" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art7-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art7-com2-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art17-com9" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-03-08;20" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-03-08;20#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 8 marzo 2000, n. 20" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art17-com9" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art17-com9-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art19-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-03-08;20" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-03-08;20#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 8 marzo 2000, n. 20" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art20" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-03-08;20" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-03-08;20#art4-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1 della legge Regione Toscana 8 marzo 2000, n. 20" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art20bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art21" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-03-08;20" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-03-08;20#art5-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 1 della legge Regione Toscana 8 marzo 2000, n. 20" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art21" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art21-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -323,9 +429,13 @@
 							<num>1.</num>
 							<corpo>La domanda di autorizzazione deve essere indirizzata al Sindaco territorialmente competente.</corpo>
 						</comma>
-						<comma id="art7-com2">
+						<comma finevigore="t7" id="art7-com2-t7" iniziovigore="t1" status="abrogato">
 							<num>2.</num>
 							<corpo>Entro 180 giorni dall'entrata in vigore della presente legge la Giunta regionale determina con propria deliberazione le modalità di presentazione della domanda e la relativa documentazione.</corpo>
+						</comma>
+						<comma id="art7-com2" iniziovigore="t7">
+							<num>2.</num>
+							<corpo>La Giunta regionale determina con propria deliberazione le modalità e i termini per la richiesta e per il rilascio dell'autorizzazione, prevedendo la possibilità del riesame dell'istanza, in caso di esito negativo o di prescrizioni contestate dal soggetto richiedente.</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art8">
@@ -406,7 +516,7 @@
 								<num>a)</num>
 								<corpo>
 									le successive variazioni del direttore sanitario accompagnate dalla documentazione di cui all'
-									<rif xlink:href="#art7-com2" xlink:type="simple">art. 7, comma 2</rif>
+									<rif xlink:href="#art7-com2-t7" xlink:type="simple">art. 7, comma 2</rif>
 									;
 								</corpo>
 							</el>
@@ -726,7 +836,7 @@
 							<num>5.</num>
 							<corpo>
 								In attesa dell'attuazione, da parte della Giunta regionale, degli adempimenti di cui all'
-								<rif xlink:href="#art7-com2" xlink:type="simple">art. 7, comma 2</rif>
+								<rif xlink:href="#art7-com2-t7" xlink:type="simple">art. 7, comma 2</rif>
 								, nei successivi 180 giorni dall'entrata in vigore della presente legge continuano ad essere rilasciate dalla Giunta stessa le autorizzazioni di cui all'
 								<rif xlink:href="#art6" xlink:type="simple">art. 6</rif>
 								.
@@ -785,13 +895,17 @@
 							<num>8.</num>
 							<corpo>
 								Le strutture private già autorizzate ai sensi della normativa vigente, per continuare a svolgere le attività, devono presentare, entro 12 mesi dall'entrata in vigore della presente legge, domanda di rinnovo dell'autorizzazione nei modi di cui all'
-								<rif xlink:href="#art7-com2" xlink:type="simple">art. 7, comma 2</rif>
+								<rif xlink:href="#art7-com2-t7" xlink:type="simple">art. 7, comma 2</rif>
 								.
 							</corpo>
 						</comma>
-						<comma id="art17-com9">
+						<comma finevigore="t7" id="art17-com9-t7" iniziovigore="t1" status="abrogato">
 							<num>9.</num>
 							<corpo>Il Sindaco territorialmente competente, alla scadenza del termine per la presentazione della domanda di rinnovo dell'autorizzazione, accertata tramite il Dipartimento di prevenzione della Azienda USL la sussistenza dei requisiti richiesti, rinnova l'autorizzazione stessa.</corpo>
+						</comma>
+						<comma id="art17-com9" iniziovigore="t7">
+							<num>9.</num>
+							<corpo>Il Sindaco territorialmente competente rinnova l'autorizzazione dopo aver accertato, tramite il dipartimento di prevenzione dell'Azienda USL, la sussistenza dei requisiti richiesti.</corpo>
 						</comma>
 						<comma id="art17-com10">
 							<num>10.</num>
@@ -880,7 +994,13 @@
 							<num>3.</num>
 							<corpo>
 								Ai fini dell'individuazione dei requisiti di accreditamento e della predisposizione dei manuali, la Giunta regionale si avvale dell'Osservatorio della Qualità dell'Agenzia Regionale di Sanità, nel quadro delle competenze ad esso attribuite dalla
-								<rif xlink:href="urn:nir:regione.toscana:legge:1998-09-30;71" xlink:type="simple">legge regionale 30 settembre 1998, n. 71</rif>
+								<h:span finevigore="t7" id="h1" iniziovigore="t1" status="abrogato">
+									<rif xlink:href="urn:nir:regione.toscana:legge:1998-09-30;71" xlink:type="simple">legge regionale 30 settembre 1998, n. 71</rif>
+								</h:span>
+								<h:span id="h2" iniziovigore="t7">
+									dalla
+									<rif xlink:href="urn:nir:regione.toscana:legge:2000-03-08;22" xlink:type="simple">legge regionale n. 22 dell'8 Marzo 2000</rif>
+								</h:span>
 								.
 							</corpo>
 						</comma>
@@ -933,17 +1053,25 @@
 							<corpo>Nei tre anni successivi all'entrata in vigore della presente legge, chiunque intenda costruire nuove strutture di ricovero e cura, ovvero procedere ad ampliamenti di quelli esistenti che comportino un aumento di posti letto rispetto alle dotazioni previste dalla programmazione regionale, deve preventivamente ottenere apposito nulla-osta da parte della Giunta regionale. I criteri e le modalità per il rilascio di tale nulla-osta sono stabiliti dal Consiglio regionale, su proposta della Giunta, entro 180 giorni dall'entrata in vigore della presente legge.</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art21">
+					<articolo id="art20bis" iniziovigore="t7">
+						<num>Art. 20-bis</num>
+						<rubrica>Finanziamento</rubrica>
+						<comma id="art20bis-com1">
+							<num>1.</num>
+							<corpo>Agli oneri derivanti dall'attuazione della presente legge, in relazione al Titolo III, si provvede con una quota del fondo sanitario regionale, così come determinato annualmente con legge regionale di bilancio, da iscriversi in apposito capitolo di spesa.</corpo>
+						</comma>
+					</articolo>
+					<articolo finevigore="t7" id="art21-t7" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 21</num>
 						<rubrica>(Abrogazioni)</rubrica>
-						<comma id="art21-com1">
+						<comma id="art21-t7-com1">
 							<num>1.</num>
 							<alinea>
 								Dall'esecutività della deliberazione del Consiglio regionale di cui all'
 								<rif xlink:href="#art2-com1" xlink:type="simple">art. 2, comma 1</rif>
 								, sono abrogate:
 							</alinea>
-							<ep id="art21-com1-pun1">
+							<ep id="art21-t7-com1-pun1">
 								<num>-</num>
 								<corpo>
 									<mod id="mod1">
@@ -952,7 +1080,7 @@
 									</mod>
 								</corpo>
 							</ep>
-							<ep id="art21-com1-pun2">
+							<ep id="art21-t7-com1-pun2">
 								<num>-</num>
 								<corpo>
 									<mod id="mod2">
@@ -961,7 +1089,7 @@
 									</mod>
 								</corpo>
 							</ep>
-							<ep id="art21-com1-pun3">
+							<ep id="art21-t7-com1-pun3">
 								<num>-</num>
 								<corpo>
 									<mod id="mod3">
@@ -970,7 +1098,7 @@
 									</mod>
 								</corpo>
 							</ep>
-							<ep id="art21-com1-pun4">
+							<ep id="art21-t7-com1-pun4">
 								<num>-</num>
 								<corpo>
 									<mod id="mod4">
@@ -979,7 +1107,7 @@
 									</mod>
 								</corpo>
 							</ep>
-							<ep id="art21-com1-pun5">
+							<ep id="art21-t7-com1-pun5">
 								<num>-</num>
 								<corpo>
 									<mod id="mod5">
@@ -989,6 +1117,84 @@
 									</mod>
 								</corpo>
 							</ep>
+						</comma>
+					</articolo>
+					<articolo id="art21" iniziovigore="t7">
+						<num>Art. 21</num>
+						<rubrica>Abrogazioni</rubrica>
+						<comma id="art21-com1">
+							<num>1.</num>
+							<alinea>
+								<mod id="mod6">Sono abrogate le seguenti disposizioni e leggi regionali:</mod>
+							</alinea>
+							<el id="art21-com1-leta">
+								<num>a)</num>
+								<corpo>
+									<mod id="mod7">
+										la
+										<rif xlink:href="urn:nir:regione.toscana:legge:1976-06-16;26" xlink:type="simple">LR 16 giugno 1976, n.26</rif>
+										"Norme di salvaguardia per il rilascio di autorizzazioni ad aprire, porre in esercizio, ampliare servizi diagnostici e ambulatoriali extraospedalieri" e successive modificazioni e integrazioni;
+									</mod>
+								</corpo>
+							</el>
+							<el id="art21-com1-letb">
+								<num>b)</num>
+								<corpo>
+									<mmod id="mmo1">
+										<mod id="mod8">
+											il
+											<rif xlink:href="urn:nir:regione.toscana:legge:1977-03-12;18#art12-com1" xlink:type="simple">comma 1</rif>
+											, secondo periodo
+											<virgolette id="mod8-vir1" tipo="parola" />
+										</mod>
+										<mod id="mod9">
+											e il
+											<rif xlink:href="urn:nir:regione.toscana:legge:1977-03-12;18#art12-com2" xlink:type="simple">comma 2</rif>
+											, dell'art. 12 della LR 12 marzo 1977, n. 18 "Istituzione del servizio di assistenza alla famiglia, alla maternità, all'infanzia e ai giovani in età evolutiva";
+										</mod>
+									</mmod>
+								</corpo>
+							</el>
+							<el id="art21-com1-letc">
+								<num>c)</num>
+								<corpo>
+									<mod id="mod10">
+										la
+										<rif xlink:href="urn:nir:regione.toscana:legge:1988-06-06;44" xlink:type="simple">LR 6 giugno 1988, n.44</rif>
+										"Disciplina per l'autorizzazione e la vigilanza delle istituzioni sanitarie di carattere privato che erogano prestazioni di diagnostica di laboratorio";
+									</mod>
+								</corpo>
+							</el>
+							<el id="art21-com1-letd">
+								<num>d)</num>
+								<corpo>
+									<mod id="mod11">
+										la
+										<rif xlink:href="urn:nir:regione.toscana:legge:1989-12-01;78" xlink:type="simple">LR 1 dicembre 1989, n.78</rif>
+										"Disciplina autorizzazioni e vigilanza sulle case di cura private";
+									</mod>
+								</corpo>
+							</el>
+							<el id="art21-com1-lete">
+								<num>e)</num>
+								<corpo>
+									<mod id="mod12">
+										la
+										<rif xlink:href="urn:nir:regione.toscana:legge:1992-03-26;11" xlink:type="simple">LR 26 marzo 1992, n. 11</rif>
+										"Disciplina delle autorizzazioni e della vigilanza sugli istituti privati di riabilitazione";
+									</mod>
+								</corpo>
+							</el>
+							<el id="art21-com1-letf">
+								<num>f)</num>
+								<corpo>
+									<mod id="mod13">
+										la
+										<rif xlink:href="urn:nir:regione.toscana:legge:1992-03-26;12" xlink:type="simple">LR 26 marzo 1992, n.12</rif>
+										"Disciplina per l'autorizzazione e la vigilanza delle istituzioni sanitarie private che erogano prestazioni di medicina e/o chirurgia ad indirizzo estetico
+									</mod>
+								</corpo>
+							</el>
 						</comma>
 					</articolo>
 				</titolo>

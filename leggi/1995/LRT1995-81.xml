@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19950802" num="49" tipo="BURT" />
 					<entratainvigore norm="19950817" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1995-07-21;81" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1995-07-21;81" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1995-07-21;81@2000-03-08" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Risorse Idriche" />
 					</materie>
@@ -15,11 +16,62 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19950817" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20000401" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-07-21;81" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-03-08;21" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-03-08;21" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-03-08;21#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 8 marzo 2000, n. 21" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art8-com3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art8-com3-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8-com5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-03-08;21" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-03-08;21#artunico-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 2 della legge Regione Toscana 8 marzo 2000, n. 21" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art8-com5" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art8-com5-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8-com6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-03-08;21" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-03-08;21#artunico-com3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 3 della legge Regione Toscana 8 marzo 2000, n. 21" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art8-com6" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art8-com6-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -381,38 +433,54 @@
 						<num>2.</num>
 						<corpo>Le funzioni di programmazione vengono esercitate, sulla base degli indirizzi stabiliti dal piano regionale di sviluppo, in sede di adozione ed aggiornamento del piano regionale di risanamento delle acque, di aggiornamento del piano regolatore generale degli acquedotti e, sul piano finanziario, in sede di determinazione, da parte della Giunta regionale, delle priorità di intervento in relazione alla disponibilità di contributi o investimenti regionali, statali e comunitari.</corpo>
 					</comma>
-					<comma id="art8-com3">
+					<comma finevigore="t2" id="art8-com3-t2" iniziovigore="t1" status="abrogato">
+						<num>3.</num>
+						<alinea>Le funzioni di controllo attengono:</alinea>
+						<el id="art8-com3-t2-leta">
+							<num>a)</num>
+							<corpo>alla verifica della compatibilità dei programmi di intervento predisposti dalle Autorità di ambito con gli obbiettivi e le priorità stabilite dalla Regione;</corpo>
+						</el>
+						<el id="art8-com3-t2-letb">
+							<num>b)</num>
+							<corpo>alla verifica dello stato di attuazione degli strumenti programmatori sopra indicati;</corpo>
+						</el>
+						<el id="art8-com3-t2-letc">
+							<num>c)</num>
+							<corpo>al controllo delle prestazioni dei gestori nei vari ambiti territoriali ottimali per quanto concerne i livelli qualitativi e quantitativi dei servizi, il costo dei servizi e la spesa per investimenti.</corpo>
+						</el>
+					</comma>
+					<comma id="art8-com3" iniziovigore="t2">
 						<num>3.</num>
 						<alinea>Le funzioni di controllo attengono:</alinea>
 						<el id="art8-com3-leta">
 							<num>a)</num>
-							<corpo>alla verifica della compatibilità dei programmi di intervento predisposti dalle Autorità di ambito con gli obbiettivi e le priorità stabilite dalla Regione;</corpo>
+							<corpo>alla verifica della conformità del programma degli interventi e del piano economico finanziario e delle loro varianti con gli obiettivi e le priorità stabilite dalla Regione e con la normativa vigente in materia di risorse idriche e tutela ambientale; a tale scopo l'Autorità di Ambito trasmette alla Giunta Regionale gli schemi del programma degli interventi e del piano economico finanziario, quali risultano approvati dopo le consultazioni; entro i successivi 90 giorni la Giunta regionale, esercita il controllo di cui alla presente lettera; decorso tale termine il controllo viene dato per effettuato senza rilievi; in caso di non conformità la Giunta regionale, prescrivendo le modifiche necessarie da apportare, può disporne il rinvio all'Autorità di Ambito, che entro 10 giorni dal ricevimento deve comunicare l'accoglimento delle suddette modifiche e provvedere, nei successivi 30 giorni, al recepimento delle stesse oppure deve fornire le eventuali controdeduzioni. In caso di mancato accoglimento delle modifiche prescritte, la Giunta regionale può accogliere le controdeduzioni fornite dall'Autorità di Ambito, oppure provvedere direttamente, in sostituzione di essa, ad apportare le modifiche prescritte;</corpo>
 						</el>
 						<el id="art8-com3-letb">
 							<num>b)</num>
-							<corpo>alla verifica dello stato di attuazione degli strumenti programmatori sopra indicati;</corpo>
+							<corpo>alla ricognizione, da effettuarsi con cadenza annuale, dello stato d'attuazione del programma degli interventi con particolare riferimento al rispetto dei termini d'esecuzione degli interventi programmati e al raggiungimento degli obiettivi attesi;</corpo>
 						</el>
 						<el id="art8-com3-letc">
 							<num>c)</num>
-							<corpo>al controllo delle prestazioni dei gestori nei vari ambiti territoriali ottimali per quanto concerne i livelli qualitativi e quantitativi dei servizi, il costo dei servizi e la spesa per investimenti.</corpo>
+							<corpo>al controllo comparativo delle prestazioni dei Gestori nei vari Ambiti Territoriali Ottimali per quanto concerne i livelli qualitativi e quantitativi dei servizi, il costo dei servizi e la spesa per investimenti.</corpo>
 						</el>
 					</comma>
 					<comma id="art8-com4">
 						<num>4.</num>
 						<corpo>Per permettere lo svolgimento di tali attività di programmazione e controllo, le Autorità di ambito forniscono alla Regione tutti i dati necessari, o comunque da quest'ultima richiesti, in raccordo con il sistema informativo ambientale della Regione.</corpo>
 					</comma>
-					<comma id="art8-com5">
+					<comma finevigore="t2" id="art8-com5-t2" iniziovigore="t1" status="abrogato">
 						<num>5.</num>
 						<alinea>Nell'ambito dell'espletamento delle predette funzioni la Regione provvede:</alinea>
-						<el id="art8-com5-leta">
+						<el id="art8-com5-t2-leta">
 							<num>a)</num>
 							<corpo>a fissare gli standards comuni a tutte le Autorità di ambito per l'esercizio del controllo istituzionale sull'attività del soggetto gestore dei servizi idrici integrati;</corpo>
 						</el>
-						<el id="art8-com5-letb">
+						<el id="art8-com5-t2-letb">
 							<num>b)</num>
 							<corpo>a concorrere all'attività di controllo sui soggetti gestori sulla scorta dei dati trasmessi dall'Autorità di ambito e dai soggetti gestori medesimi;</corpo>
 						</el>
-						<el id="art8-com5-letc">
+						<el id="art8-com5-t2-letc">
 							<num>c)</num>
 							<corpo>
 								a svolgere le attività ispettive e di verifica eventualmente richieste dal comitato per la vigilanza sull'uso delle risorse idriche di cui all'
@@ -421,9 +489,33 @@
 							</corpo>
 						</el>
 					</comma>
-					<comma id="art8-com6">
+					<comma id="art8-com5" iniziovigore="t2">
+						<num>5.</num>
+						<alinea>Ai fini dell'espletamento delle predette funzioni, gli organi della Regione, nell'ambito delle proprie competenze, provvedono:</alinea>
+						<el id="art8-com5-leta">
+							<num>a)</num>
+							<corpo>a fissare, con atto amministrativo, gli standard comuni a tutte le Autorità di ambito per l'esercizio del controllo istituzionale sull'attività del soggetto gestore dei servizi idrici integrati;</corpo>
+						</el>
+						<el id="art8-com5-letb">
+							<num>b)</num>
+							<corpo>a concorrere all'attività di controllo sui soggetti gestori sulla scorta dei dati trasmessi dall'Autorità di Ambito e dai soggetti gestori medesimi;</corpo>
+						</el>
+						<el id="art8-com5-letc">
+							<num>c)</num>
+							<corpo>
+								a svolgere le attività ispettive e di verifica, anche su richiesta del comitato per la vigilanza sull'uso delle risorse di cui all'
+								<rif xlink:href="urn:nir:stato:legge:1994;36#art21" xlink:type="simple">art. 21 della L.36/94</rif>
+								.
+							</corpo>
+						</el>
+					</comma>
+					<comma finevigore="t2" id="art8-com6-t2" iniziovigore="t1" status="abrogato">
 						<num>6.</num>
 						<corpo>La Regione promuove periodicamente apposite conferenze diservizi tra i presidenti delle autorità di ambito e, in relazione alle loro competenze, le Province e le autorità di bacino, al fine di conseguire l'obiettivo di rendere omogenee le scelte programmatorie e l'azione amministrativa nei vari ambiti territoriali ottimali.</corpo>
+					</comma>
+					<comma id="art8-com6" iniziovigore="t2">
+						<num>6.</num>
+						<corpo>La Regione promuove periodicamente, con cadenza almeno annuale, apposite conferenze di servizi tra i presidenti delle Autorità di Ambito e, in relazione alle loro competenze, delle Province e delle Autorità di Bacino, al fine di conseguire l'obiettivo di rendere omogenee le scelte programmatorie e l'azione amministrativa nei vari Ambiti Territoriali Ottimali.</corpo>
 					</comma>
 					<comma id="art8-com7">
 						<num>7.</num>
