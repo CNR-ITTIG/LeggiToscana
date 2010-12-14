@@ -1,27 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t3" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19750314" num="13" tipo="BURT" />
 					<entratainvigore norm="19750314" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1975-03-11;19" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1975-03-11;19@1995-01-16" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1975-03-11;19@1995-01-16" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1975-03-11;19@2000-02-29" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19750314" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19950204" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="20000325" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1975-03-11;19" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							La presente legge è stata rifinanziata dall'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1975-12-30;81#art8" xlink:type="simple">art. 8 della legge regionale 30 dicembre 1975, n. 81</rif>
@@ -30,7 +33,7 @@
 							.
 						</h:p>
 					</nota>
-					<nota id="n2">
+					<nota id="LeggeRegionale1-n2">
 						<h:p>
 							Abrogazione ai sensi dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41" xlink:type="simple">articolo 41 della legge regionale 16 gennaio 1995, n. 5</rif>
@@ -90,6 +93,18 @@
 								<dsp:pos xlink:href="#art4-com4-t2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1975-03-11;19" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19#ann1-art4-com15" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 4, comma 15 della legge Regione Toscana 29 febbraio 2000, n. 19" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -101,7 +116,7 @@
 				<numDoc>19</numDoc>
 				<titoloDoc>
 					Interventi per l'allestimento di nuovi parchi di campeggio
-					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 					.
 				</titoloDoc>
 			</intestazione>
@@ -157,7 +172,7 @@
 							I parchi di campeggio devono essere realizzati, agli effetti della presente legge, in Comuni muniti di piano regolatore generale o programma di fabbricazione approvato ai sensi di legge
 							<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">
 								, ovvero adottato e trasmesso all'autorità competente per l'approvazione
-								<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+								<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(b)</ndr>
 							</h:span>
 							.
 						</corpo>
@@ -168,7 +183,7 @@
 							Nel caso di non conformità con la destinazione delle aree ai sensi dei suddetti strumenti urbanistici approvati o adottati, l'ubicazione dei nuovi parchi di campeggio di cui alla presente legge è disposta con deliberazione del Consiglio Comunale. Tale deliberazione costituisce, in deroga alle norme vigenti, variante o modifica al piano regolatore generale o al programma di fabbricazione, a norma della
 							<rif xlink:href="urn:nir:stato:legge:1942-08-17;1150" xlink:type="simple">legge 17-8-1942, numero 1150</rif>
 							e successive modificazioni e integrazioni.
-							<ndr num="#n2" valore="" xlink:type="simple">(c)</ndr>
+							<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(c)</ndr>
 						</corpo>
 					</comma>
 					<comma finevigore="t2" id="art4-com3-t2" iniziovigore="t1" status="abrogato">
@@ -177,14 +192,14 @@
 							La deliberazione, pubblicata nel primo giorno festivo immediatamente successivo a quello dell'adozione, è trasmessa alla Giunta Regionale entro il quindicesimo giorno dalla data di adozione. La variante o modifica è approvata in deroga all'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1972-07-03;17#art8" xlink:type="simple">art. 8 della legge regionale 3-7-1972, n. 17</rif>
 							con decreto del Presidente dalla Giunta regionale, previo parere della Commissione regionale tecnico - amministrativa.
-							<ndr num="#n2" valore="" xlink:type="simple">(d)</ndr>
+							<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(d)</ndr>
 						</corpo>
 					</comma>
 					<comma finevigore="t2" id="art4-com4-t2" iniziovigore="t1" status="abrogato">
 						<num />
 						<corpo>
 							La variante o modifica secondo le procedure di cui ai commi 2 e 3 del presente articolo è approvata contestualmente alla concessione del contributo regionale previsto dalla presente legge.
-							<ndr num="#n2" valore="" xlink:type="simple">(e)</ndr>
+							<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(e)</ndr>
 						</corpo>
 					</comma>
 				</articolo>

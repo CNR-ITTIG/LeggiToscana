@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<Legge>
+		<Legge finevigore="t5" id="Legge1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19740809" num="35" tipo="BURT" />
@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1974-08-05;46" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1974-08-05;46@1975-01-11" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1974-08-05;46@1976-05-18" />
+					<urn finevigore="t5" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1974-08-05;46@1976-05-18" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1974-08-05;46@2000-02-29" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -17,23 +18,25 @@
 						<evento data="19750117" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19760528" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19800419" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="20000325" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1974-08-05;46" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1975-01-11;2" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1976-05-18;20" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1980-03-27;24" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="Legge1-n1">
 						<h:p>
 							L'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1980-03-27;24#art11" xlink:type="simple">art. 11 della legge regionale 27 marzo 1980, n. 24</rif>
 							dispone l'inapplicabilità della presente legge a partire dal 1° gennaio 1981. Oltre tale data, e limitatamente all'erogazione, mantengono comunque efficacia gli atti di concessione di agevolazioni finanziarie già approvati.
 						</h:p>
 					</nota>
-					<nota id="n2">
+					<nota id="Legge1-n2">
 						<h:p>
 							Ai sensi dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1976-05-18;20#art2" xlink:type="simple">art. 2 della legge regionale 18 maggio 1976, n. 20</rif>
@@ -42,7 +45,7 @@
 							) sono presentate, per l’anno 1976, nel termine di 30 giorni dalla pubblicazione della suddetta legge sul Bollettino Ufficiale della Regione Toscana.
 						</h:p>
 					</nota>
-					<nota id="n3">
+					<nota id="Legge1-n3">
 						<h:p>
 							Si veda anche l'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1980-01-25;9#art8" xlink:type="simple">art. 8 della legge regionale 25 gennaio 1980, n. 9</rif>
@@ -97,6 +100,18 @@
 								<dsp:pos xlink:href="#art1-t3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1974-08-05;46" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19#ann1-art3-com9" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 3, comma 9 della legge Regione Toscana 29 febbraio 2000, n. 19" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#Legge1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -108,7 +123,7 @@
 				<numDoc>46</numDoc>
 				<titoloDoc>
 					Provvedimenti per lo sviluppo delle cave di marmo, di travertino, di onice e di alabastro della Toscana.
-					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					<ndr num="#Legge1-n1" valore="" xlink:type="simple">(a)</ndr>
 				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
@@ -222,7 +237,7 @@
 						<num />
 						<corpo>
 							Le domande per la concessione dei contributi di cui alla presente legge, sono indirizzate al presidente della Giunta Regionale e presentate al Sindaco del Comune ove è situata la cava entro il 31 marzo di ogni anno
-							<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+							<ndr num="#Legge1-n2" valore="" xlink:type="simple">(b)</ndr>
 							.
 						</corpo>
 					</comma>
@@ -357,7 +372,7 @@
 						<num />
 						<corpo>
 							La spesa relativa agli anni successivi nell'importo previsto al comma precedente, sarà prevista negli appositi capitoli dei bilanci dei relativi esercizi
-							<ndr num="#n3" valore="" xlink:type="simple">(c)</ndr>
+							<ndr num="#Legge1-n3" valore="" xlink:type="simple">(c)</ndr>
 							.
 						</corpo>
 					</comma>
