@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t3" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19921118" num="65" tipo="BURT" />
 					<entratainvigore norm="19921203" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1992-11-12;52" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1992-11-12;52@1994-02-08" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1992-11-12;52@1994-02-08" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1992-11-12;52@2000-02-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Pubbliche Calamità" />
 						<materia valore="Imprese" />
@@ -19,21 +20,23 @@
 					<eventi>
 						<evento data="19921203" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19940304" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="20000325" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1992-11-12;52" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1994-02-08;19" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
-							Ai sensidell'
+							In base all'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1994-02-08;19#art1-com1" xlink:type="simple">art. 1 comma 1 della legge regionale 8 febbraio 1994, n. 19</rif>
 							, le provvidenze di cui alla presente legge sono estese, con le procedure qui previste, a favore delle imprese artigiane e delle imprese di minori dimensioni, agricole, commerciali, alberghiere, turistiche, cooperative di produzione e lavoro o cooperative agricole di trasformazione, cooperative di consumo, nonche’ a favore delle piccole e medie imprese operanti nell’ambito delle proprie competenze e di quelle affidate alle Regioni dalle leggi statali, danneggiate dai nubifragi nei mesi di settembre e ottobre 93.
 						</h:p>
 					</nota>
-					<nota id="n2">
+					<nota id="LeggeRegionale1-n2">
 						<h:p>
 							Per un'estensione dei benefici concessi dalla presente, si veda la
 							<rif xlink:href="urn:nir:regione.toscana:legge:1992-09-06;72" xlink:type="simple">legge regionale 6 settembre 1992, n. 72</rif>
@@ -85,6 +88,18 @@
 								<dsp:pos xlink:href="#h4" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1992-11-12;52" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19#ann1-art21-com184" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="ALLEGATO, articolo 21, comma 184 della legge Regione Toscana 29 febbraio 2000, n. 19" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -96,7 +111,7 @@
 				<numDoc>52</numDoc>
 				<titoloDoc>
 					Provvidenze in favore di imprese di minori dimensioni colpite da eccezionali avversità atmosferiche
-					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 					.
 				</titoloDoc>
 			</intestazione>
@@ -113,7 +128,7 @@
 						<num />
 						<corpo>
 							La Regione interviene con concorsi finanziari per favorire la ricostruzione dei beni di imprese artigiane e di imprese di minori dimensioni commerciali, alberghiere, turistiche, cooperative di produzione e lavoro e cooperative di consumo, danneggiate dalle eccezionali avversità atmosferiche che hanno colpito la Toscana nei mesi di ottobre e novembre 1991 e nel mese di giugno 1992.
-							<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+							<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(b)</ndr>
 						</corpo>
 					</comma>
 				</articolo>

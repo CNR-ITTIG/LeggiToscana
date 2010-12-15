@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t6" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19940217" num="12" tipo="BURT" />
 					<entratainvigore norm="19940304" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1994-02-08;19" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1994-02-08;19@1994-08-17" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1994-02-08;19@1994-08-17" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1994-02-08;19@2000-02-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Pubbliche Calamità" />
 						<materia valore="Imprese" />
@@ -22,6 +23,7 @@
 						<evento data="19940304" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="19940304" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="19940824" fonte="rp1" id="t5" tipo="modifica" />
+						<evento data="20000325" fonte="rp2" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-02-08;19" xlink:type="simple" />
@@ -29,10 +31,11 @@
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1992;52" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1992;52" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1994-08-17;66" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Termine prorogato di sei mesiex
 							<rif xlink:href="urn:nir:regione.toscana:legge:1994-08-17;66#art8" xlink:type="simple">art. 8 legge regionale 17 agosto 1994, n. 66</rif>
@@ -104,6 +107,18 @@
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-08-17;66#mod3" xlink:type="simple" />
 							</dsp:norma>
 						</dsp:proroga>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1994-02-08;19" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19#ann1-art23-com199" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 23, comma 199 della legge Regione Toscana 29 febbraio 2000, n. 19" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -146,7 +161,7 @@
 						<num>3.</num>
 						<corpo>
 							Il termine per la presentazione delle domande di contributo è fissato al 30-4-94
-							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 							.
 						</corpo>
 					</comma>
