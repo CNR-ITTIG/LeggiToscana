@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t2" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19891218" num="70" tipo="BURT" />
 					<entratainvigore norm="19900102" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1989-12-07;82" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1989-12-07;82" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1989-12-07;82@2000-02-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Risorse Idriche" />
 						<materia valore="Finanziamenti" />
@@ -17,11 +18,29 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19900102" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20000325" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1989-12-07;82" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1989-12-07;82" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19#ann1-art18-com157" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 18, comma 157 della legge Regione Toscana 29 febbraio 2000, n. 19" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -40,10 +59,6 @@
 					).
 				</titoloDoc>
 			</intestazione>
-			<?error Programma di  interventi nel  settore  degli  acquedotti  non  di
-competenza statale (L. 11-3-1988, n. 67 art. 17, commi 38 e 41).
-
-?>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 31-10-1989</h:p>
 				<h:p>Il Commissario del Governo ha apposto il visto il 2-12-1989</h:p>
@@ -71,55 +86,63 @@ competenza statale (L. 11-3-1988, n. 67 art. 17, commi 38 e 41).
 					</comma>
 					<comma id="art1-com4">
 						<num>4.</num>
-						<alinea>
-							Agli oneri derivanti dalla presente legge si provvede con la seguente variazione da apportare agli stati di previsione della competenza e della cassa della parte entrata e della parte spesa del Bilancio di previsione 1989:
-							<h:table>
-								<h:tbody>
-									<h:tr>
-										<h:td>Entrata di nuova istituzione</h:td>
-										<h:td />
-										<h:td />
-									</h:tr>
-									<h:tr>
-										<h:td>Cap. 24280</h:td>
-										<h:td>
-											Rimborso da parte degli enti della anticipazione regionale disposta per la realizzazione delle opere di cui al
-											<rif xlink:href="urn:nir:stato:legge:1988-03-11;67#art17-com38" xlink:type="simple">comma 38 dell'Art. 17 della L. 11-3-1988 n. 67</rif>
-											(
-											<rif xlink:href="urn:nir:regione.toscana:legge:1989-12-07;82" xlink:type="simple">LR 7-12-1989, n. 82</rif>
-											).
-										</h:td>
-										<h:td />
-									</h:tr>
-									<h:tr>
-										<h:td />
-										<h:td>Competenza</h:td>
-										<h:td>L. 2.444.463.400</h:td>
-									</h:tr>
-									<h:tr>
-										<h:td>Minore uscita</h:td>
-										<h:td />
-										<h:td />
-									</h:tr>
-									<h:tr>
-										<h:td>Cap. 50280</h:td>
-										<h:td>Fondo di riserva di cassa</h:td>
-										<h:td />
-									</h:tr>
-									<h:tr>
-										<h:td />
-										<h:td>Cassa</h:td>
-										<h:td>2.444.463.400</h:td>
-									</h:tr>
-								</h:tbody>
-							</h:table>
-						</alinea>
+						<alinea>Agli oneri derivanti dalla presente legge si provvede con la seguente variazione da apportare agli stati di previsione della competenza e della cassa della parte entrata e della parte spesa del Bilancio di previsione 1989:</alinea>
 						<ep id="art1-com4-pun1">
 							<num />
 							<corpo>
+								<h:table>
+									<h:tbody>
+										<h:tr>
+											<h:td>Entrata di nuova istituzione</h:td>
+											<h:td />
+											<h:td />
+										</h:tr>
+										<h:tr>
+											<h:td>Cap. 24280</h:td>
+											<h:td>
+												Rimborso da parte degli enti della anticipazione regionale disposta per la realizzazione delle opere di cui al
+												<rif xlink:href="urn:nir:stato:legge:1988-03-11;67#art17-com38" xlink:type="simple">comma 38 dell'Art. 17 della L. 11-3-1988 n. 67</rif>
+												(
+												<rif xlink:href="urn:nir:regione.toscana:legge:1989-12-07;82" xlink:type="simple">LR 7-12-1989, n. 82</rif>
+												).
+											</h:td>
+											<h:td />
+										</h:tr>
+										<h:tr>
+											<h:td />
+											<h:td>Competenza</h:td>
+											<h:td>L. 2.444.463.400</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td />
+											<h:td />
+											<h:td />
+										</h:tr>
+										<h:tr>
+											<h:td>Minore uscita</h:td>
+											<h:td />
+											<h:td />
+										</h:tr>
+										<h:tr>
+											<h:td>Cap. 50280</h:td>
+											<h:td>Fondo di riserva di cassa</h:td>
+											<h:td />
+										</h:tr>
+										<h:tr>
+											<h:td />
+											<h:td>Cassa</h:td>
+											<h:td>2.444.463.400</h:td>
+										</h:tr>
+									</h:tbody>
+								</h:table>
 								Gli interessi derivanti dalla disposizione di cui all'
 								<rif xlink:href="#art1-com3" xlink:type="simple">art. 1, comma 3</rif>
 								, saranno acquisiti, nei relativi esercizi, sul capitolo corrispondente al capitolo 22100 del bilancio di previsione 1989.
+							</corpo>
+						</ep>
+						<ep id="art1-com4-pun2">
+							<num />
+							<corpo>
 								<h:table>
 									<h:tbody>
 										<h:tr>
@@ -158,18 +181,7 @@ competenza statale (L. 11-3-1988, n. 67 art. 17, commi 38 e 41).
 			<formulafinale>La presente legge è pubblicata sul Bollettino Ufficiale della Regione. E' fatto obbligo a chiunque spetta di osservarla e farla osservare come legge della Regione Toscana.</formulafinale>
 			<conclusione>
 				<dataeluogo codice="00100" norm="">Firenze, 7 dicembre 1989</dataeluogo>
+				<soggetto codice="">La presente legge è stata approvata dal Consiglio Regionale il 31-10-1989 ed è stata vistata dal Commissario del Governo il 2-12-1989.</soggetto>
 			</conclusione>
-			<?error La presente  legge &#xE8;  stata approvata dal Consiglio Regionale il
-31-10-1989 ed  &#xE8; stata vistata dal Commissario del Governo il 2-
-12-1989.
-
-
-
-RISORSE IDRICHE
-ENTI TERRITORIALI
-FINANZIAMENTI
-
-
-?>
 		</LeggeRegionale>
 	</NIR>
