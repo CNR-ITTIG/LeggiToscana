@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t9" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19880609" num="34" tipo="BURT" />
@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t7" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1988-05-30;41" />
 					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1988-05-30;41@1988-09-01" />
-					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1988-05-30;41@1989-05-22" />
+					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1988-05-30;41@1989-05-22" />
+					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1988-05-30;41@2000-02-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Contabilità Contratti" />
@@ -25,6 +26,7 @@
 						<evento data="19880624" fonte="rp1" id="t6" tipo="modifica" />
 						<evento data="19880927" fonte="rp2" id="t7" tipo="modifica" />
 						<evento data="19890531" fonte="rp3" id="t8" tipo="modifica" />
+						<evento data="20000325" fonte="rp4" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1988-05-30;41" xlink:type="simple" />
@@ -35,10 +37,11 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1988-05-30;42" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1988-09-01;69" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1989-05-22;27" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Termine prorogato al 31 ottobre 1989 ai sensi dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1989-05-22;27#art1" xlink:type="simple">art. 1 della legge regionale 22 maggio 1989, n. 27</rif>
@@ -135,6 +138,18 @@
 								<dsp:pos xlink:href="#art8-com1-t8" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1988-05-30;41" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19#ann1-art17-com131" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="ALLEGATO, articolo 17, comma 131 della legge Regione Toscana 29 febbraio 2000, n. 19" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -153,7 +168,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<capo id="cap1">
+				<capo id="LeggeRegionale1-cap1">
 					<num>CAPO I</num>
 					<rubrica>DISPOSIZIONI DI CARATTERE FINANZIARIO</rubrica>
 					<articolo id="art1">
@@ -208,7 +223,7 @@
 								<num>a)</num>
 								<corpo>
 									ad accertare entro il 31 ottobre 1988
-									<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+									<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 									le somme che, assegnate dalla Regione entro il 31-12-85 ai soggetti destinatari ai sensi di legge, non sono state utilizzate dagli stessi soggetti entro 60 giorni dalla entrata in vigore della presente legge;
 								</corpo>
 							</el>
@@ -235,7 +250,7 @@
 						</comma>
 					</articolo>
 				</capo>
-				<capo id="cap2">
+				<capo id="LeggeRegionale1-cap2">
 					<num>CAPO II</num>
 					<rubrica>INTERVENTI IN CAMPO CULTURALE E PER IL DIRITTO ALLO STUDIO</rubrica>
 					<articolo id="art4">
@@ -363,7 +378,7 @@
 						</comma>
 					</articolo>
 				</capo>
-				<capo id="cap3">
+				<capo id="LeggeRegionale1-cap3">
 					<num>CAPO III</num>
 					<rubrica>INTERVENTI NEL CAMPO SOCIALE E SANITARIO</rubrica>
 					<articolo id="art7">
@@ -408,7 +423,7 @@
 						</comma>
 					</articolo>
 				</capo>
-				<capo id="cap4">
+				<capo id="LeggeRegionale1-cap4">
 					<num>CAPO IV</num>
 					<rubrica>INTERVENTO IN CAMPO ECONOMICO</rubrica>
 					<articolo id="art8">
@@ -716,7 +731,7 @@
 						</comma>
 					</articolo>
 				</capo>
-				<capo id="cap5">
+				<capo id="LeggeRegionale1-cap5">
 					<num>CAPO V</num>
 					<rubrica>INTERVENTI IN FAVORE DELL'AMBIENTE, DEL TERRITORIO E DELL'EDILIZIA</rubrica>
 					<articolo id="art13">
@@ -836,7 +851,7 @@
 						</comma>
 					</articolo>
 				</capo>
-				<capo id="cap6">
+				<capo id="LeggeRegionale1-cap6">
 					<num>CAPO VI</num>
 					<rubrica>INTERVENTI IN MATERIA DI OPERE PUBBLICHE E PER CALAMITA' NATURALI</rubrica>
 					<articolo id="art17">
@@ -945,7 +960,7 @@
 						</comma>
 					</articolo>
 				</capo>
-				<capo id="cap7">
+				<capo id="LeggeRegionale1-cap7">
 					<num>CAPO VII</num>
 					<rubrica>DISPOSIZIONI PER IL POTENZIAMENTO E LA FUNZIONALITA' DEGLI UFFICI REGIONALI</rubrica>
 					<articolo id="art20">
@@ -964,7 +979,7 @@
 						</comma>
 					</articolo>
 				</capo>
-				<capo id="cap8">
+				<capo id="LeggeRegionale1-cap8">
 					<num>CAPO VIII</num>
 					<rubrica>DISPOSIZIONI PER LE ATTIVITA' DI INFORMAZIONE E DI RICERCA</rubrica>
 					<articolo id="art21">
@@ -976,7 +991,7 @@
 						</comma>
 					</articolo>
 				</capo>
-				<capo id="cap9">
+				<capo id="LeggeRegionale1-cap9">
 					<num>CAPO IX</num>
 					<rubrica>DISPOSIZIONI FINALI</rubrica>
 					<articolo id="art22">
