@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t3" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19840224" num="10" tipo="BURT" />
 					<entratainvigore norm="19840310" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1984-02-17;13" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1984-02-17;13@1987-06-15" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1984-02-17;13@1987-06-15" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1984-02-17;13@2000-02-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sviluppo Economico" />
 					</materie>
@@ -17,14 +18,16 @@
 					<eventi>
 						<evento data="19840310" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19870710" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="20000325" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1984-02-17;13" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1987-06-15;40" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Per la proroga dei termini di cui alla presente legge si veda la
 							<rif xlink:href="urn:nir:regione.toscana:legge:1987-06-15;40" xlink:type="simple">legge regionale 15 giugno 1987 , n. 40</rif>
@@ -46,6 +49,18 @@
 								<dsp:pos xlink:href="" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1984-02-17;13" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19#ann1-art13-com102" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 13, comma 102 della legge Regione Toscana 29 febbraio 2000, n. 19" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -57,7 +72,7 @@
 				<numDoc>13</numDoc>
 				<titoloDoc>
 					Disciplina dei finanziamenti regionali a sostegno delle attività produttive non agricole.
-					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
@@ -67,7 +82,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>AMBITO DI OPERATIVITA' DELLA LEGGE</rubrica>
 					<articolo id="art1">
@@ -259,7 +274,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>IL PROGRAMMA REGIONALE DEI FINANZIAMENTI PER LE ATTIVITA' PRODUTTIVE</rubrica>
 					<articolo id="art7">
@@ -423,9 +438,9 @@
 								Il Programma, in relazione a obiettivi definiti nei piani di intervento settoriali di cui all'
 								<rif xlink:href="urn:nir:regione.toscana:statuto:#art5" xlink:type="simple">art. 5 dello Statuto</rif>
 								o comunque negli strumenti di programmazione disciplinati da leggi regionali, può, per gli stessi obiettivi ed anche per aree territoriali definite, ripartire tra i comuni singoli le relative disponibilità, adeguando, in quanto necessario, le modalità di attuazione del programma di cui al
-								<rif xlink:href="#tit3" xlink:type="simple">titolo terzo</rif>
+								<rif xlink:href="#LeggeRegionale1-tit3" xlink:type="simple">titolo terzo</rif>
 								e
-								<rif xlink:href="#tit4" xlink:type="simple">quarto</rif>
+								<rif xlink:href="#LeggeRegionale1-tit4" xlink:type="simple">quarto</rif>
 								della presente legge.
 							</corpo>
 						</comma>
@@ -513,7 +528,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>TITOLO III</num>
 					<rubrica>ATTUAZIONE DEL PROGRAMMA REGIONALE</rubrica>
 					<articolo id="art11">
@@ -783,7 +798,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit4">
+				<titolo id="LeggeRegionale1-tit4">
 					<num>TITOLO IV</num>
 					<rubrica>DISPOSIZIONI FINANZIARIE</rubrica>
 					<articolo id="art20">
@@ -901,7 +916,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit5">
+				<titolo id="LeggeRegionale1-tit5">
 					<num>TITOLO V</num>
 					<rubrica>DISPOSIZIONI FINALI</rubrica>
 					<articolo id="art25">

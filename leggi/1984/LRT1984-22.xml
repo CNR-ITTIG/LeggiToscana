@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t39" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19840502" num="23" tipo="BURT" />
@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t36" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1984-04-24;22" />
 					<urn finevigore="t37" iniziovigore="t36" valore="urn:nir:regione.toscana:legge:1984-04-24;22@1985-05-02" />
-					<urn iniziovigore="t37" valore="urn:nir:regione.toscana:legge:1984-04-24;22@1987-12-29" />
+					<urn finevigore="t39" iniziovigore="t37" valore="urn:nir:regione.toscana:legge:1984-04-24;22@1987-12-29" />
+					<urn iniziovigore="t39" valore="urn:nir:regione.toscana:legge:1984-04-24;22@2000-02-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Ente Regione" />
@@ -55,6 +56,7 @@
 						<evento data="19850525" fonte="rp1" id="t36" tipo="modifica" />
 						<evento data="19880101" fonte="rp2" id="t37" tipo="modifica" />
 						<evento data="19840517" fonte="ra35" id="t38" tipo="modifica" />
+						<evento data="20000325" fonte="rp3" id="t39" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1984-04-24;22" xlink:type="simple" />
@@ -95,17 +97,18 @@
 						<attiva id="ra35" xlink:href="urn:nir:regione.toscana:legge:1973-09-06;54" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1985-05-02;49" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1987-12-29;62" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Per l'interpretazione autentica del presente comma si veda la
 							<rif xlink:href="urn:nir:regione.toscana:legge:1990-11-26;67" xlink:type="simple">legge regionale 26 novembre 1990, n. 67</rif>
 							.
 						</h:p>
 					</nota>
-					<nota id="n2">
+					<nota id="LeggeRegionale1-n2">
 						<h:p>
 							Per l'interpretazione autentica del presente comma si vedano le leggi regionali
 							<rif xlink:href="urn:nir:regione.toscana:legge:1989-08-30;57" xlink:type="simple">30 agosto 1989, n. 57</rif>
@@ -114,7 +117,7 @@
 							.
 						</h:p>
 					</nota>
-					<nota id="n3">
+					<nota id="LeggeRegionale1-n3">
 						<h:p>
 							Termine prorogato al 25/11/1985 ai sensi dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1985-05-02;49#art12" xlink:type="simple">art. 12 della legge regionale 2 maggio 1985, n.49</rif>
@@ -923,6 +926,18 @@
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1987-12-29;62#mod43" xlink:type="simple" />
 							</dsp:norma>
 						</dsp:proroga>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1984-04-24;22" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19#ann1-art13-com103" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="Allegato A, articolo 13, comma 103 della legge Regione Toscana 29 febbraio 2000, n. 19" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -3189,7 +3204,7 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num />
 					<rubrica>NORME TRANSITORIE</rubrica>
 					<articolo id="art27">
@@ -3447,7 +3462,7 @@
 							<num />
 							<corpo>
 								A questi fini il Presidente della Giunta trasmette all'Ufficio di Presidenza copia delle domande presentate per le selezioni relative a tali servizi e/o posizioni di ricerca, con i dati necessari per la valutazione di cui ai punti A1 - A2 - B1 e B2 risultanti dai fascicoli personali
-								<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+								<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 								.
 							</corpo>
 						</comma>
@@ -3455,7 +3470,7 @@
 							<num />
 							<corpo>
 								Ai fini dell'accertamento e valutazione di cui al punto B3 dell'articolo precedente, la Giunta Regionale o, per i servizi e posizioni di ricerca del Consiglio regionale, l'Ufficio di Presidenza dello stesso, esaminano il curriculum presentato dal candidato, effettuando le opportune verifiche d'Ufficio
-								<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+								<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(b)</ndr>
 								.
 							</corpo>
 						</comma>
@@ -3629,7 +3644,7 @@
 								relativa a "modifiche e integrazioni alla
 								<rif xlink:href="urn:nir:regione.toscana:legge:1973-09-06;55" xlink:type="simple">legge regionale 6 settembre 1973 n. 55</rif>
 								concernente l'ordinamento degli uffici della Regione toscana", possono essere indetti, entro il 31/12/1984
-								<ndr num="#n3" valore="" xlink:type="simple">(c)</ndr>
+								<ndr num="#LeggeRegionale1-n3" valore="" xlink:type="simple">(c)</ndr>
 								e previa contrattazione decentrata, concorsi interni per titoli ed esami per la copertura di almeno il 50% dei posti vacanti nelle qualifiche dalla II alla VIII.
 							</corpo>
 						</comma>
