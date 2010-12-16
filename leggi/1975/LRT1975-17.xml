@@ -1,26 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t4" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19750228" num="10" tipo="BURT" />
 					<entratainvigore norm="19750315" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1975-02-24;17" />
+					<urn finevigore="t4" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1975-02-24;17" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1975-02-24;17@2000-02-29" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19750315" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19750315" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="19750315" fonte="ra2" id="t3" tipo="modifica" />
+						<evento data="20000325" fonte="rp1" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1975-02-24;17" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1975;16" xlink:type="simple" />
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1975-02-24;16" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="LeggeRegionale1-n1">
+						<h:p>
+							Testo implicitamente abrogato dalla
+							<rif xlink:href="urn:nir:regione.toscana:legge:1979-02-19;10" xlink:type="simple">LR 19-2-1979, n. 10</rif>
+							. Successivamente, la
+							<rif xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19" xlink:type="simple">legge regionale 29 febbraio 2000 n. 19</rif>
+							ne ha disposto esplicitamente l'abrogazione.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -60,6 +74,20 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1975-02-24;17" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19#ann2-art2-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 2, comma 2 della legge Regione Toscana 29 febbraio 2000, n. 19" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -72,6 +100,7 @@
 					Modifiche alla
 					<rif xlink:href="urn:nir:regione.toscana:legge:1975;16" xlink:type="simple">legge regionale n. 16/1975</rif>
 					recante "Norme relative ai programmi di fabbricazione e alle zone agricole".
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
