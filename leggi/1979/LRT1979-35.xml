@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t11" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19790803" num="40" tipo="BURT" />
 					<entratainvigore norm="19790818" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t10" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1979-07-30;35" />
-					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1979-07-30;35@1984-06-30" />
+					<urn finevigore="t11" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1979-07-30;35@1984-06-30" />
+					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1979-07-30;35@2000-02-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="AGRICOLTURA" />
 						<materia valore="URBANISTICA" />
@@ -26,6 +27,7 @@
 						<evento data="19790818" fonte="ra7" id="t8" tipo="modifica" />
 						<evento data="19790818" fonte="ra8" id="t9" tipo="modifica" />
 						<evento data="19850504" fonte="rp1" id="t10" tipo="modifica" />
+						<evento data="20000325" fonte="rp2" id="t11" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1979-07-30;35" xlink:type="simple" />
@@ -38,12 +40,22 @@
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:1979-02-19;10" xlink:type="simple" />
 						<attiva id="ra8" xlink:href="urn:nir:regione.toscana:legge:1979-02-19;10" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1984-06-30;41" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
-							Nota: Nei casi di cui all’
+							Testo implicitamente abrogato dalla
+							<rif xlink:href="urn:nir:regione.toscana:legge:1995-04-14;64" xlink:type="simple">LR 14-4-1995, n. 64</rif>
+							. Successivamente, la
+							<rif xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19" xlink:type="simple">legge regionale 29 febbraio 2000 n. 19</rif>
+							ne ha disposto esplicitamente l'abrogazione.
+						</h:p>
+					</nota>
+					<nota id="LeggeRegionale1-n2">
+						<h:p>
+							Nota: Nei casi di cui all'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1979-02-19;10#art11" xlink:type="simple">art. 11 della LR 19-2-79, n. 10</rif>
 							si applicano i coefficienti previsti nella tabella "C" per gli interventi necessari per la conduzione del fondo.
 						</h:p>
@@ -189,6 +201,18 @@
 								<dsp:pos xlink:href="#artunico-com1-t10" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1979-07-30;35" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19#ann2-art6-com21" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 6, comma 21 della legge Regione Toscana 29 febbraio 2000, n. 19" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -206,6 +230,7 @@
 					) e
 					<rif xlink:href="urn:nir:regione.toscana:legge:1979;10" xlink:type="simple">19-2-79 n. 10</rif>
 					(norme urbanistiche transitorie relative alle zone agricole.
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
@@ -223,7 +248,7 @@
 							Le tabelle "C" e "C/1" allegate alla
 							<rif xlink:href="urn:nir:regione.toscana:legge:1977-08-24;60" xlink:type="simple">legge regionale 24 agosto 1977 n. 60</rif>
 							sono così integrate per quanto riguarda le zone territoriali omogenee E/F:
-							<ndr num="#n1" valore="" xlink:type="simple">(A)</ndr>
+							<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(b)</ndr>
 						</alinea>
 						<ep id="artunico-com1-t10-pun1">
 							<num />
