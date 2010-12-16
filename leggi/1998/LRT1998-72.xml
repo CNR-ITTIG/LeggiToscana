@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t20" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19981008" num="34" tipo="BURT" />
 					<entratainvigore norm="19981023" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1998-09-30;72" />
+					<urn finevigore="t20" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1998-09-30;72" />
+					<urn iniziovigore="t20" valore="urn:nir:regione.toscana:legge:1998-09-30;72@2000-03-08" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Usl" />
 						<materia valore="Assistenza Sanitaria" />
@@ -34,6 +35,7 @@
 						<evento data="19981023" fonte="ra16" id="t17" tipo="modifica" />
 						<evento data="19981023" fonte="ra17" id="t18" tipo="modifica" />
 						<evento data="19981023" fonte="ra18" id="t19" tipo="modifica" />
+						<evento data="20000401" fonte="rp1" id="t20" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-09-30;72" xlink:type="simple" />
@@ -55,6 +57,7 @@
 						<attiva id="ra16" xlink:href="urn:nir:regione.toscana:legge:1996-04-09;27" xlink:type="simple" />
 						<attiva id="ra17" xlink:href="urn:nir:regione.toscana:legge:1994-06-29;49" xlink:type="simple" />
 						<attiva id="ra18" xlink:href="urn:nir:regione.toscana:legge:1995-01-02;1" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-03-08;22" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -283,6 +286,20 @@
 							</dsp:dominio>
 						</dsp:variazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1998-09-30;72" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-03-08;22" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-03-08;22#art139-com1-letf" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 139, comma 1, lettera f) della legge Regione Toscana 8 marzo 2000, n. 22" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -300,7 +317,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>OGGETTO E DEFINIZIONI</rubrica>
 					<articolo id="art1">
@@ -474,10 +491,10 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>LA PROGRAMMAZIONE SANITARIA</rubrica>
-					<capo id="tit2-cap1">
+					<capo id="LeggeRegionale1-tit2-cap1">
 						<num>Capo I</num>
 						<rubrica>PRINCIPI</rubrica>
 						<articolo id="art3">
@@ -569,7 +586,7 @@
 							</comma>
 						</articolo>
 					</capo>
-					<capo id="tit2-cap2">
+					<capo id="LeggeRegionale1-tit2-cap2">
 						<num>Capo II</num>
 						<rubrica>LE AZIENDE SANITARIE</rubrica>
 						<articolo id="art5">
@@ -721,7 +738,7 @@
 							</comma>
 						</articolo>
 					</capo>
-					<capo id="tit2-cap3">
+					<capo id="LeggeRegionale1-tit2-cap3">
 						<num>Capo III</num>
 						<rubrica>IL PROCEDIMENTO DI PROGRAMMAZIONE. GLI STRUMENTI</rubrica>
 						<articolo id="art8">
@@ -1277,7 +1294,7 @@
 						</articolo>
 					</capo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>TITOLO III</num>
 					<rubrica>L'ORDINAMENTO</rubrica>
 					<articolo id="art21">
@@ -1365,10 +1382,10 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit4">
+				<titolo id="LeggeRegionale1-tit4">
 					<num>TITOLO IV</num>
 					<rubrica>L'ORGANIZZAZIONE</rubrica>
-					<capo id="tit4-cap1">
+					<capo id="LeggeRegionale1-tit4-cap1">
 						<num>Capo I</num>
 						<rubrica>PRINCIPI ORGANIZZATIVI</rubrica>
 						<articolo id="art22">
@@ -1540,7 +1557,7 @@
 							</comma>
 						</articolo>
 					</capo>
-					<capo id="tit4-cap2">
+					<capo id="LeggeRegionale1-tit4-cap2">
 						<num>Capo II</num>
 						<rubrica>L'ARTICOLAZIONE ORGANIZZATIVA PROFESSIONALE</rubrica>
 						<articolo id="art26">
@@ -1714,7 +1731,7 @@
 							</comma>
 						</articolo>
 					</capo>
-					<capo id="tit4-cap3">
+					<capo id="LeggeRegionale1-tit4-cap3">
 						<num>Capo III</num>
 						<rubrica>L'ARTICOLAZIONE ORGANIZZATIVA FUNZIONALE</rubrica>
 						<articolo id="art29">
@@ -2568,7 +2585,7 @@
 						</articolo>
 					</capo>
 				</titolo>
-				<titolo id="tit5">
+				<titolo id="LeggeRegionale1-tit5">
 					<num>TITOLO V</num>
 					<rubrica>NORME FINALI</rubrica>
 					<articolo id="art38">

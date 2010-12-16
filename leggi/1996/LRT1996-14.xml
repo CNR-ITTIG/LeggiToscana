@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t11" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19960304" num="14" tipo="BURT" />
 					<entratainvigore norm="19960319" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t10" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1996-02-22;14" />
-					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1996-02-22;14@1998-09-30" />
+					<urn finevigore="t11" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1996-02-22;14@1998-09-30" />
+					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1996-02-22;14@2000-03-08" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Usl" />
 						<materia valore="Demanio Patrimonio" />
@@ -27,6 +28,7 @@
 						<evento data="19960319" fonte="ra7" id="t8" tipo="modifica" />
 						<evento data="19960319" fonte="ra8" id="t9" tipo="modifica" />
 						<evento data="19981023" fonte="rp1" id="t10" tipo="modifica" />
+						<evento data="20000401" fonte="rp2" id="t11" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1996-02-22;14" xlink:type="simple" />
@@ -39,6 +41,7 @@
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:1980-05-24;68" xlink:type="simple" />
 						<attiva id="ra8" xlink:href="urn:nir:regione.toscana:legge:1980-05-24;68" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1998-09-30;72" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2000-03-08;22" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -230,6 +233,18 @@
 								<dsp:pos xlink:href="#art43-t10" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1996-02-22;14" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-03-08;22" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-03-08;22#art139-com1-letc" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 139, comma 1, lettera c) della legge Regione Toscana 8 marzo 2000, n. 22" id="itt10" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -247,7 +262,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>Titolo I</num>
 					<rubrica>PATRIMONIO DELLE AZIENDE SANITARIE</rubrica>
 					<articolo id="art1">
@@ -682,7 +697,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>Titolo II</num>
 					<rubrica>CONTABILITÀ DELLE AZIENDE SANITARIE</rubrica>
 					<articolo id="art9">
@@ -1070,10 +1085,10 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>Titolo III</num>
 					<rubrica>ATTIVITÀ CONTRATTUALE</rubrica>
-					<capo id="tit3-cap1">
+					<capo id="LeggeRegionale1-tit3-cap1">
 						<num>Capo I</num>
 						<rubrica>DISPOSIZIONI GENERALI</rubrica>
 						<articolo id="art21">
@@ -1258,7 +1273,7 @@
 								<num>1.</num>
 								<corpo>
 									I contratti delle Aziende sanitarie sono conclusi mediante le procedure di cui al successivo
-									<rif xlink:href="#tit3-cap2" xlink:type="simple">Capo II</rif>
+									<rif xlink:href="#LeggeRegionale1-tit3-cap2" xlink:type="simple">Capo II</rif>
 									e con il contenuto ed il contraente risultante dal verbale delle relative operazioni o dal provvedimento di aggiudicazione.
 								</corpo>
 							</comma>
@@ -1418,7 +1433,7 @@
 							</comma>
 						</articolo>
 					</capo>
-					<capo id="tit3-cap2">
+					<capo id="LeggeRegionale1-tit3-cap2">
 						<num>Capo II</num>
 						<rubrica>PROCEDURE DI SCELTA DEL CONTRAENTE</rubrica>
 						<articolo id="art30">
@@ -1933,7 +1948,7 @@
 						</articolo>
 					</capo>
 				</titolo>
-				<titolo id="tit4">
+				<titolo id="LeggeRegionale1-tit4">
 					<num>Titolo IV</num>
 					<rubrica>COLLEGIO DEI REVISORI</rubrica>
 					<articolo finevigore="t10" id="art42-t10" iniziovigore="t1" status="abrogato">
@@ -2114,7 +2129,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit5">
+				<titolo id="LeggeRegionale1-tit5">
 					<num>Titolo V</num>
 					<rubrica>DISPOSIZIONI TRANSITORIE E FINALI</rubrica>
 					<articolo id="art44">
@@ -2253,7 +2268,7 @@
 							<num>2.</num>
 							<corpo>
 								Fino all'adozione completa degli atti di contabilità disciplinati dal
-								<rif xlink:href="#tit2" xlink:type="simple">Titolo II</rif>
+								<rif xlink:href="#LeggeRegionale1-tit2" xlink:type="simple">Titolo II</rif>
 								della presente legge, conservano efficacia le disposizioni di cui al
 								<rif xlink:href="urn:nir:regione.toscana:legge:1980;68#tit2" xlink:type="simple">Titolo II della LR 68/1980</rif>
 								.
