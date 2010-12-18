@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1994-01-12;6" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1994-01-12;6@1994-05-16" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1994-01-12;6@1995-03-23" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1994-01-12;6@1995-03-23" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1994-01-12;6@2000-03-08" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Albi" />
 						<materia valore="Agricoltura" />
@@ -21,12 +22,14 @@
 						<evento data="19940128" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="19940609" fonte="rp1" id="t3" tipo="modifica" />
 						<evento data="19950415" fonte="rp2" id="t4" tipo="modifica" />
+						<evento data="20000401" fonte="rp3" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-01-12;6" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1975-06-05;67" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1994-05-16;38" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1995-03-23;30" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2000-03-08;23" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -85,6 +88,21 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-03-08;23" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-03-08;23#art22-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 22, comma 1 della legge Regione Toscana 8 marzo 2000, n. 23" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com2-pun2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com2-pun1-t5" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -147,11 +165,15 @@
 					<comma id="art2-com2">
 						<num>2.</num>
 						<alinea>Agli Albi provinciali possono essere iscritte anche:</alinea>
-						<ep id="art2-com2-pun1">
+						<ep finevigore="t5" id="art2-com2-pun1-t5" iniziovigore="t1" status="abrogato">
 							<num>-</num>
 							<corpo>le società di persone, purché tutti i soci siano in possesso dei requisiti di tempo, di reddito per l'iscrizione nella prima o nella seconda sezione degli stessi Albi provinciali;</corpo>
 						</ep>
-						<ep id="art2-com2-pun2">
+						<ep id="art2-com2-pun2" iniziovigore="t5">
+							<num>-</num>
+							<corpo>le società semplici, in nome collettivo ed in accomandita semplice costituite per la conduzione di aziende agricole, purché i soci cui è attribuita l'amministrazione siano in possesso dei requisiti di tempo e di reddito per l'iscrizione nella prima o nella seconda sezione degli stessi Albi provinciali;</corpo>
+						</ep>
+						<ep id="art2-com2-pun3">
 							<num>-</num>
 							<corpo>le società di capitali, purché lo Statuto societario preveda come oggetto sociale anche la conduzione di aziende agricole e ricavino dall'attività agricola, agli effetti dell'iscrizione rispettivamente nella prima o nella seconda sezione degli albi provinciali, almeno il 30% o il 50% del reddito globale desumibile dal bilancio.</corpo>
 						</ep>

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19950111" num="4" tipo="BURT" />
 					<entratainvigore norm="19950126" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1995-01-03;3" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1995-01-03;3" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1995-01-03;3@2000-03-08" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Fauna" />
 						<materia valore="Caccia" />
@@ -16,11 +17,74 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19950126" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20000401" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-01-03;3" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-03-08;23" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-03-08;23" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-03-08;23#art23-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 23, comma 1 della legge Regione Toscana 8 marzo 2000, n. 23" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-03-08;23" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-03-08;23#art24-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 24, comma 1 della legge Regione Toscana 8 marzo 2000, n. 23" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-03-08;23" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-03-08;23#art24-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 24, comma 1 della legge Regione Toscana 8 marzo 2000, n. 23" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-03-08;23" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-03-08;23#art25-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 25, comma 1 della legge Regione Toscana 8 marzo 2000, n. 23" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art8-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -49,23 +113,45 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art2">
+				<articolo finevigore="t2" id="art2-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 2</num>
 					<rubrica>(Autorizzazione all'esercizio dell'attività)</rubrica>
-					<comma id="art2-com1">
+					<comma id="art2-t2-com1">
 						<num>1.</num>
 						<corpo>L'attività di tassidermia ed imbalsamazione è subordinata, oltre che al possesso di regolare iscrizione presso la Camera di Commercio, Industria e Artigianato competente per territorio, al rilascio di apposita autorizzazione.</corpo>
 					</comma>
-					<comma id="art2-com2">
+					<comma id="art2-t2-com2">
 						<num>2.</num>
 						<corpo>È attribuito alla Provincia, competente per territorio, l'esercizio delle funzioni amministrative concernenti il rilascio di detta autorizzazione.</corpo>
 					</comma>
-					<comma id="art2-com4">
+					<comma id="art2-t2-com4">
 						<num>4.</num>
 						<corpo>
 							L'autorizzazione è rilasciata all'interessato dietro conseguimento dell'abilitazione di cui all'articolo
 							<rif xlink:href="#art3" xlink:type="simple">art. 3</rif>
 							ed entro trenta giorni dalla data di presentazione della domanda.
+						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art2" iniziovigore="t2">
+					<num>Art. 2</num>
+					<rubrica>Esercizio dell'attività di tassidermia ed imbalsamazione</rubrica>
+					<comma id="art2-com1">
+						<num>1.</num>
+						<corpo>
+							L'attività di tassidermia ed imbalsamazione è subordinata al conseguimento dell'abilitazione di cui all'
+							<rif xlink:href="#art3" xlink:type="simple">art. 3</rif>
+							.
+						</corpo>
+					</comma>
+					<comma id="art2-com2">
+						<num>2.</num>
+						<corpo>
+							Coloro che intendono esercitare l'attività di tassidermia ed imbalsamazione presentano alla Provincia denuncia di inizio dell'attività, ai sensi dell'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1995-01-20;9#art58" xlink:type="simple">art. 58 della legge regionale 20 gennaio 1995, n.9</rif>
+							, dichiarando di aver conseguito l'abilitazione di cui all'
+							<rif xlink:href="#art3" xlink:type="simple">art. 3</rif>
+							.
 						</corpo>
 					</comma>
 				</articolo>
@@ -225,7 +311,13 @@
 							<rif xlink:href="urn:nir:stato:legge:1992-02-11;157#art30" xlink:type="simple">art. 30 della legge 11 febbraio 1992, n. 157</rif>
 							e dalla
 							<rif xlink:href="urn:nir:regione.toscana:legge:1994-01-12;3" xlink:type="simple">legge regionale 12 gennaio 1994, n. 3</rif>
-							comporta la sospensione per giorni sessanta dell'autorizzazione a svolgere l'attività di tassidermia ed imbalsamazione. In caso di recidiva l'autorizzazione è revocata.
+							comporta la
+							<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">sospensione per giorni sessanta dell'autorizzazione</h:span>
+							<h:span id="h2" iniziovigore="t2">interdizione per sessanta giorni</h:span>
+							a svolgere l'attività di tassidermia ed imbalsamazione. In caso di recidiva
+							<h:span finevigore="t2" id="h3" iniziovigore="t1" status="abrogato">l'autorizzazione è revocata</h:span>
+							<h:span id="h4" iniziovigore="t2">è disposta la chiusura dell'attività</h:span>
+							.
 						</corpo>
 					</comma>
 					<comma id="art7-com2">
@@ -244,10 +336,10 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art8">
+				<articolo finevigore="t2" id="art8-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 8</num>
 					<rubrica>(Norme transitorie)</rubrica>
-					<comma id="art8-com1">
+					<comma id="art8-t2-com1">
 						<num>1.</num>
 						<corpo>
 							Ai fini del rilascio dell'autorizzazione di cui ai commi 1 e 2 dell'
@@ -259,15 +351,15 @@
 							, svolgevano l'attività di tassidermia ed imbalsamazione previa specifica regolare iscrizione presso la Camera di Commercio, Industria ed Artigianato.
 						</corpo>
 					</comma>
-					<comma id="art8-com2">
+					<comma id="art8-t2-com2">
 						<num>2.</num>
 						<corpo>
 							La Provincia rilascia l'autorizzazione ai tassidermisti di cui al
-							<rif xlink:href="#art8-com1" xlink:type="simple">comma 1</rif>
+							<rif xlink:href="#art8-t2-com1" xlink:type="simple">comma 1</rif>
 							entro sessanta giorni dalla data di arrivo della domanda.
 						</corpo>
 					</comma>
-					<comma id="art8-com3">
+					<comma id="art8-t2-com3">
 						<num>3.</num>
 						<corpo>Entro sei mesi dall'entrata in vigore della presente legge, i detentori di esemplari imbalsamati, preparazioni tassidermiche e trofei, devono farne denuncia alla Provincia competente che, ai fini dell'ulteriore detenzione dell'esemplare, provvede al rilascio di apposito contrassegno, da apporre, a cura del detentore, su ogni esemplare denunciato.</corpo>
 					</comma>
@@ -281,7 +373,7 @@
 							Agli oneri derivanti dall'attuazione degli
 							<mrif>
 								artt.
-								<rif xlink:href="#art2" xlink:type="simple">2</rif>
+								<rif xlink:href="#art2-t2" xlink:type="simple">2</rif>
 								e
 								<rif xlink:href="#art4" xlink:type="simple">4</rif>
 							</mrif>
