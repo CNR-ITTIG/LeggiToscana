@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t38" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19870506" num="n. 23 supplemento straordinario n. 7" tipo="BURT" />
 					<entratainvigore norm="19870521" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1987-04-27;25" />
+					<urn finevigore="t38" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1987-04-27;25" />
+					<urn iniziovigore="t38" valore="urn:nir:regione.toscana:legge:1987-04-27;25@2000-02-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Parchi" />
 					</materie>
@@ -51,6 +52,7 @@
 						<evento data="19870521" fonte="ra34" id="t35" tipo="modifica" />
 						<evento data="19870521" fonte="ra35" id="t36" tipo="modifica" />
 						<evento data="19870521" fonte="ra36" id="t37" tipo="modifica" />
+						<evento data="20000325" fonte="rp1" id="t38" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1987-04-27;25" xlink:type="simple" />
@@ -90,6 +92,7 @@
 						<attiva id="ra34" xlink:href="urn:nir:regione.toscana:legge:1982-06-29;52" xlink:type="simple" />
 						<attiva id="ra35" xlink:href="urn:nir:regione.toscana:legge:1982-06-29;52" xlink:type="simple" />
 						<attiva id="ra36" xlink:href="urn:nir:regione.toscana:legge:1982-06-29;52" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -690,6 +693,20 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1987-04-27;25" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19#ann2-art14-com73" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 14, comma 73 della legge Regione Toscana 29 febbraio 2000, n. 19" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t2" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19800523" num="29" tipo="BURT" />
 					<entratainvigore norm="19800607" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1980-05-15; 53" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1980-05-15;53" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1980-05-15;53@2000-02-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Enti sanitari" />
@@ -16,11 +17,29 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19800607" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20000325" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
-						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-05-15; 53" xlink:type="simple" />
+						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-05-15;53" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1980-05-15;53" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19#ann2-art7-com27" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 7, comma 27 della legge Regione Toscana 29 febbraio 2000, n. 19" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -34,12 +53,6 @@
 					. Istituzione dei ruoli nominativi regionali del personale del servizio sanitario e disciplina per la iscrizione nei ruoli medesimi del personale da destinare alle USL
 				</titoloDoc>
 			</intestazione>
-			<?error Proroga del  termine indicato all'art. 8, comma 2 della LR 59/79.
-Istituzione dei  ruoli nominativi  regionali  del  personale  del
-servizio sanitario  e disciplina  per  la  iscrizione  nei  ruoli
-medesimi del personale da destinare alle USL
-
-?>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 9-4-1980</h:p>
 				<h:p>Il Commissario del Governo ha apposto il visto il 9-5-1980</h:p>

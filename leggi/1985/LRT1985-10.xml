@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t6" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19850206" num="6" tipo="BURT" />
 					<entratainvigore norm="19850221" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1985-01-28;10" />
+					<urn finevigore="t6" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1985-01-28;10" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1985-01-28;10@2000-02-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Formazione" />
@@ -21,6 +22,7 @@
 						<evento data="19850221" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="19850221" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="19850221" fonte="ra4" id="t5" tipo="modifica" />
+						<evento data="20000325" fonte="rp1" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1985-01-28;10" xlink:type="simple" />
@@ -28,6 +30,7 @@
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1973-09-06;54" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1973-09-06;54" xlink:type="simple" />
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1973-09-06;54" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -100,6 +103,20 @@
 							</dsp:novella>
 						</dsp:integrazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1985-01-28;10" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19#ann2-art12-com56" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 12, comma 56 della legge Regione Toscana 29 febbraio 2000, n. 19" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -135,8 +152,7 @@
 										<rif xlink:href="urn:nir:regione.toscana:legge:1973-09-06;54#art16bis-com6" xlink:type="simple">sesto</rif>
 										e
 										<rif xlink:href="urn:nir:regione.toscana:legge:1973-09-06;54#art16bis-com7" xlink:type="simple">settimo</rif>
-										comma dell'art. 16/bis della legge regionale 6 settembre 1973, n. 54
-										quinto, sesto e settimo comma dell'art. 16/bis dellalegge regionale 6 settembre 1973, n. 54
+										comma dell'art. 16/bis della legge regionale 6 settembre 1973, n. 54 quinto, sesto e settimo comma dell'art. 16/bis dellalegge regionale 6 settembre 1973, n. 54
 									</mrif>
 									concernente lo stato giuridico della Regione Toscana introdotto con
 									<rif xlink:href="urn:nir:regione.toscana:legge:1980-04-30;35" xlink:type="simple">legge regionale 30 aprile 1980, n. 35</rif>

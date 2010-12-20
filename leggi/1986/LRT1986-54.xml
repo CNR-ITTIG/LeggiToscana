@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t6" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19861229" num="62" tipo="BURT" />
 					<entratainvigore norm="19870113" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1986-12-22;54" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1986-12-22;54@1987-03-26" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1986-12-22;54@1987-03-26" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1986-12-22;54@2000-02-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Fonti Energetiche" />
 					</materie>
@@ -20,6 +21,7 @@
 						<evento data="19870113" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="19870113" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="19870401" fonte="rp1" id="t5" tipo="modifica" />
+						<evento data="20000325" fonte="rp2" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1986-12-22;54" xlink:type="simple" />
@@ -27,10 +29,11 @@
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1984-03-26;19" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1984;19" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1987-03-26;20" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							La
 							<rif xlink:href="urn:nir:regione.toscana:legge:1987-03-26;20" xlink:type="simple">LEGGE REGIONALE 26 marzo 1987, n. 20</rif>
@@ -74,6 +77,18 @@
 								<dsp:testo valore="" />
 							</dsp:dominio>
 						</dsp:modtermini>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1986-12-22;54" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19#ann2-art13-com71" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 13, comma 71 della legge Regione Toscana 29 febbraio 2000, n. 19" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -150,7 +165,7 @@
 								della stessa LR 19/1984
 							</mrif>
 							dovranno far pervenire le domande di contributo agli uffici della Giunta regionale entro 15 giorni dalla data di entrata in vigore della presente legge.
-							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 						</corpo>
 					</comma>
 					<comma id="art2-com4">
