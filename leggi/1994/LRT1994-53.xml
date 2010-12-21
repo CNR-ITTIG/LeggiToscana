@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t3" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19940729" num="50" tipo="BURT" />
 					<entratainvigore norm="19940813" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1994-07-21;53" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1994-07-21;53@1995-01-16" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1994-07-21;53@1995-01-16" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1994-07-21;53@2000-02-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Urbanistica" />
 						<materia valore="Commercio" />
@@ -18,14 +19,16 @@
 					<eventi>
 						<evento data="19940813" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19950204" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="20000325" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-07-21;53" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Abrogazione ai sensi dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41" xlink:type="simple">articolo 41 della legge regionale 16 gennaio 1995, n. 5</rif>
@@ -61,6 +64,18 @@
 								<dsp:pos xlink:href="#art2-t2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1994-07-21;53" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19#ann2-art21-com109" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 21, comma 109 della legge Regione Toscana 29 febbraio 2000, n. 19" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -82,7 +97,7 @@
 				<articolo finevigore="t2" id="art1-t2" iniziovigore="t1" status="abrogato">
 					<num>
 						ARTICOLO 1
-						<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+						<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 					</num>
 					<rubrica>(Varianti urbanistiche)</rubrica>
 					<comma id="art1-t2-com1">
@@ -119,7 +134,7 @@
 				<articolo finevigore="t2" id="art2-t2" iniziovigore="t1" status="abrogato">
 					<num>
 						ARTICOLO 2
-						<ndr num="#n1" valore="" xlink:type="simple">(b)</ndr>
+						<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(b)</ndr>
 					</num>
 					<rubrica>(Strumenti urbanistici attuativi)</rubrica>
 					<comma id="art2-t2-com1">
