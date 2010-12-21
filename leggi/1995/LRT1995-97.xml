@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t7" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19951113" num="69" tipo="BURT" />
@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1995-11-03;97" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1995-11-03;97@1999-04-14" />
-					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1995-11-03;97@1999-10-14" />
+					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1995-11-03;97@1999-10-14" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1995-11-03;97@2000-03-17" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organi" />
 						<materia valore="Ordinamento" />
@@ -24,6 +25,7 @@
 						<evento data="19951128" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="19990508" fonte="rp1" id="t5" tipo="modifica" />
 						<evento data="19991231" fonte="rp2" id="t6" tipo="modifica" />
+						<evento data="20000411" fonte="rp3" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-11-03;97" xlink:type="simple" />
@@ -32,6 +34,7 @@
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1994-11-07;82" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1999-04-14;20" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1999-10-14;53" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2000-03-17;26" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -116,6 +119,18 @@
 								<dsp:pos xlink:href="#art2-com5-t6" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1995-11-03;97" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-03-17;26" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-03-17;26#art70-com1-letd" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 70, comma 1, lettera d) della legge Regione Toscana 17 marzo 2000, n. 26" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>

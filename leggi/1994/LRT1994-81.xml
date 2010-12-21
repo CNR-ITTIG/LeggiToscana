@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t18" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19941107" num="73" tipo="BURT" />
@@ -15,7 +15,8 @@
 					<urn finevigore="t14" iniziovigore="t13" valore="urn:nir:regione.toscana:legge:1994-10-04;81@1996-09-03" />
 					<urn finevigore="t15" iniziovigore="t14" valore="urn:nir:regione.toscana:legge:1994-10-04;81@1998-06-09" />
 					<urn finevigore="t16" iniziovigore="t15" valore="urn:nir:regione.toscana:legge:1994-10-04;81@1998-08-13" />
-					<urn iniziovigore="t16" valore="urn:nir:regione.toscana:legge:1994-10-04;81@1999-04-14" />
+					<urn finevigore="t18" iniziovigore="t16" valore="urn:nir:regione.toscana:legge:1994-10-04;81@1999-04-14" />
+					<urn iniziovigore="t18" valore="urn:nir:regione.toscana:legge:1994-10-04;81@2000-03-17" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Ente Regione" />
@@ -40,6 +41,7 @@
 						<evento data="19980908" fonte="rp6" id="t15" tipo="modifica" />
 						<evento data="19990508" fonte="rp7" id="t16" tipo="modifica" />
 						<evento data="19951128" fonte="rp8" id="t17" tipo="modifica" />
+						<evento data="20000411" fonte="rp9" id="t18" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-10-04;81" xlink:type="simple" />
@@ -59,17 +61,18 @@
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:1998-08-13;66" xlink:type="simple" />
 						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:1999-04-14;20" xlink:type="simple" />
 						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:1995-11-03;97" xlink:type="simple" />
+						<passiva id="rp9" xlink:href="urn:nir:regione.toscana:legge:2000-03-17;26" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Ad integrazione della presente si veda la
 							<rif xlink:href="urn:nir:regione.toscana:legge:1995-04-12;56" xlink:type="simple">legge regionale 12 aprile 1995, n. 56</rif>
 							.
 						</h:p>
 					</nota>
-					<nota id="n2">
+					<nota id="LeggeRegionale1-n2">
 						<h:p>
 							Si veda anchel'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1999-04-14;20#art17" xlink:type="simple">art. 17 della legge regionale 14 aprile 1999, n. 20</rif>
@@ -1632,6 +1635,18 @@
 								<dsp:pos xlink:href="#art10-com7-t17" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1994-11-07;81" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-03-17;26" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-03-17;26#art70-com1-letb" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 70, comma 1, lettera b) della legge Regione Toscana 17 marzo 2000, n. 26" id="itt113" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -1645,7 +1660,7 @@
 					Recepimento del
 					<rif xlink:href="urn:nir:stato:decreto.legislativo:1993-02-03;29" xlink:type="simple">decreto legislativo 3 febbraio 1993, n. 29</rif>
 					. Modifiche all'ordinamento della dirigenza e della struttura operativa regionale
-					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 					.
 				</titoloDoc>
 			</intestazione>
@@ -1656,7 +1671,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>PRINCIPI GENERALI</rubrica>
 					<articolo id="art1">
@@ -1740,7 +1755,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>LA STRUTTURA OPERATIVA</rubrica>
 					<articolo id="art3">
@@ -2048,7 +2063,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>TITOLO III</num>
 					<rubrica>SEPARAZIONE TRA POLITICA ED AMMINISTRAZIONE</rubrica>
 					<articolo finevigore="t16" id="art9-t16" iniziovigore="t1" status="abrogato">
@@ -2255,7 +2270,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit4">
+				<titolo id="LeggeRegionale1-tit4">
 					<num>TITOLO IV</num>
 					<rubrica>I DIRIGENTI REGIONALI</rubrica>
 					<articolo id="art11">
@@ -3592,7 +3607,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit5">
+				<titolo id="LeggeRegionale1-tit5">
 					<num>TITOLO V</num>
 					<rubrica>I CONTROLLI</rubrica>
 					<articolo id="art25">
@@ -3731,7 +3746,7 @@
 							<num>1.</num>
 							<corpo>
 								Gli atti amministrativi e di diritto privato assunti dai dirigenti regionali ai sensi della presente legge, nell'ambito del centro direzionale, sono sottoposti alle procedure di controllo determinate con deliberazione della Giunta regionale. Gli atti assunti nell'ambito del Consiglio regionale sono sottoposti alle procedure di controllo determinate con deliberazione dell'Ufficio di Presidenza
-								<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+								<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(b)</ndr>
 								.
 							</corpo>
 						</comma>
@@ -3789,7 +3804,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit6">
+				<titolo id="LeggeRegionale1-tit6">
 					<num>TITOLO VI</num>
 					<rubrica>IL RAPPORTO DI LAVORO DEI DIRIGENTI E DEI DIPENDENTI REGIONALI</rubrica>
 					<articolo id="art29">
@@ -3824,7 +3839,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit7">
+				<titolo id="LeggeRegionale1-tit7">
 					<num>TITOLO VII</num>
 					<rubrica>NORME FINALI E TRANSITORlE</rubrica>
 					<articolo id="art30">
