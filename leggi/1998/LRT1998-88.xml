@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19981210" num="42" tipo="BURT" />
 					<entratainvigore norm="19981225" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1998-12-01;88" />
+					<urn finevigore="t14" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1998-12-01;88" />
+					<urn iniziovigore="t14" valore="urn:nir:regione.toscana:legge:1998-12-01;88@2000-03-20" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Urbanistica" />
 						<materia valore="Tutela Ambientale" />
@@ -29,6 +30,7 @@
 						<evento data="19981225" fonte="ra10" id="t11" tipo="modifica" />
 						<evento data="19981225" fonte="ra11" id="t12" tipo="modifica" />
 						<evento data="19981225" fonte="ra12" id="t13" tipo="modifica" />
+						<evento data="20000414" fonte="rp1" id="t14" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-12-01;88" xlink:type="simple" />
@@ -44,8 +46,18 @@
 						<attiva id="ra10" xlink:href="urn:nir:regione.toscana:legge:1995;5" xlink:type="simple" />
 						<attiva id="ra11" xlink:href="urn:nir:regione.toscana:legge:1995;5" xlink:type="simple" />
 						<attiva id="ra12" xlink:href="urn:nir:regione.toscana:legge:1995;5" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-03-20;30" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Sulla effettiva decorrenza di questa abrogazione si veda l'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2000-03-20;30#art16-com1" xlink:type="simple">art. 16, comma 1, della legge regionale 20 marzo 2000 n. 30</rif>
+							.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:integrazione completa="si" implicita="no">
@@ -250,6 +262,20 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art18" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-03-20;30" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-03-20;30#art19-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 19, comma 1 della legge Regione Toscana 20 marzo 2000, n. 30" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art18-t14" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -835,34 +861,37 @@
 							</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art18">
-						<num>Art. 18</num>
+					<articolo finevigore="t14" id="art18-t14" iniziovigore="t1" status="abrogato">
+						<num>
+							Art. 18
+							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+						</num>
 						<rubrica>(Attività a rischio di incidente rilevante. Riparto di competenze)</rubrica>
-						<comma id="art18-com1">
+						<comma id="art18-t14-com1">
 							<num>1.</num>
 							<alinea>
 								In ordine alle "attività a rischio di incidente rilevante" di cui all'
 								<rif xlink:href="urn:nir:stato:decreto.legislativo:1998;112#art72" xlink:type="simple">art. 72 del decreto</rif>
 								, sono riservate alla Regione:
 							</alinea>
-							<el id="art18-com1-leta">
+							<el id="art18-t14-com1-leta">
 								<num>a)</num>
 								<corpo>l'individuazione delle aree ad elevata concentrazione di attività industriali che possono comportare maggiori rischi di incidenti rilevanti;</corpo>
 							</el>
-							<el id="art18-com1-letb">
+							<el id="art18-t14-com1-letb">
 								<num>b)</num>
 								<corpo>l'approvazione dei piani di risanamento relativi alle aree ad elevata concentrazione di attività industriali che possono comportare maggiori rischi di incidenti rilevanti.</corpo>
 							</el>
 						</comma>
-						<comma id="art18-com2">
+						<comma id="art18-t14-com2">
 							<num>2.</num>
 							<corpo>
 								Sono attribuite alle Province tutte le funzioni non riservate alla Regione con il
-								<rif xlink:href="#art18-com1" xlink:type="simple">comma 1</rif>
+								<rif xlink:href="#art18-t14-com1" xlink:type="simple">comma 1</rif>
 								.
 							</corpo>
 						</comma>
-						<comma id="art18-com3">
+						<comma id="art18-t14-com3">
 							<num>3.</num>
 							<corpo>Entro sei mesi dall'entrata in vigore della presente legge la Regione disciplina l'esercizio delle funzioni di cui al presente articolo.</corpo>
 						</comma>
