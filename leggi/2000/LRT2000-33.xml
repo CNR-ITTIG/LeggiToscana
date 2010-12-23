@@ -15,11 +15,52 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="20000414" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20000414" fonte="ra1" id="t2" tipo="modifica" />
+						<evento data="20000414" fonte="ra2" id="t3" tipo="modifica" />
+						<evento data="20000414" fonte="ra3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2000-03-20;33" xlink:type="simple" />
+						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1995;5" xlink:type="simple" />
+						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1993;34" xlink:type="simple" />
+						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1995;5" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modificheattive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#mod1" xlink:type="simple" />
+							<dsp:termine da="#t3" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1993;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1993;34" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:subarg>
+									<ittig:tipo valore="atto" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#mod2" xlink:type="simple" />
+							<dsp:termine da="#t4" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995;5" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995;5#art40-com2" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#mod2-vir2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:tipo valore="parole" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#mod2-vir1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:tipo valore="parole" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modificheattive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -363,8 +404,8 @@
 						<num>2.</num>
 						<corpo>
 							<mod id="mod2">
-								All'articolo 40, comma 2, lettera della
-								<rif xlink:href="urn:nir:regione.toscana:legge:1995;5" xlink:type="simple">LR 5/1995</rif>
+								All'
+								<rif xlink:href="urn:nir:regione.toscana:legge:1995;5#art40-com2" xlink:type="simple">articolo 40, comma 2, lettera della LR 5/1995</rif>
 								, le parole: "
 								<virgolette id="mod2-vir1" tipo="parola">
 									varianti di cui all'
@@ -373,8 +414,14 @@
 								</virgolette>
 								", sono sostituite dalle seguenti: "
 								<virgolette id="mod2-vir2" tipo="parola">
-									varianti di cui agli articoli 6 e 9, della
-									<rif xlink:href="urn:nir:regione.toscana:legge:2000-03-20;33" xlink:type="simple">legge regionale n. 33 del 20.03.2000</rif>
+									varianti di cui agli
+									<mrif>
+										articoli
+										<rif xlink:href="urn:nir:regione.toscana:legge:2000-03-20;33#art6" xlink:type="simple">6</rif>
+										e
+										<rif xlink:href="urn:nir:regione.toscana:legge:2000-03-20;33#art9" xlink:type="simple">9</rif>
+										, della legge regionale n. 33 del 20.03.2000
+									</mrif>
 									recante: Norme per lo sviluppo dell'acquacoltura e della produzione ittica
 								</virgolette>
 								".
