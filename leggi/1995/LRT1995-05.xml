@@ -102,6 +102,7 @@
 						<evento data="19981225" fonte="rp8" id="t76" tipo="modifica" />
 						<evento data="20000411" fonte="rp9" id="t77" tipo="modifica" />
 						<evento data="20000414" fonte="rp10" id="t78" tipo="modifica" />
+						<evento data="20000414" fonte="rp11" id="t79" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple" />
@@ -182,6 +183,7 @@
 						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:1998-12-01;89" xlink:type="simple" />
 						<passiva id="rp9" xlink:href="urn:nir:regione.toscana:legge:2000-03-17;25" xlink:type="simple" />
 						<passiva id="rp10" xlink:href="urn:nir:regione.toscana:legge:2000-03-20;30" xlink:type="simple" />
+						<passiva id="rp11" xlink:href="urn:nir:regione.toscana:legge:2000-03-20;33" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -1660,6 +1662,21 @@
 								<dsp:pos xlink:href="#art40-com2-letf-pun13" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art40-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-03-20;33" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-03-20;33#art10-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 10, comma 2 della legge Regione Toscana 20 marzo 2000, n. 33" id="itt52" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h13" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h12" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -4129,9 +4146,23 @@
 								<ep id="art40-com2-letf-pun7">
 									<num>-</num>
 									<corpo>
-										varianti di cui all'
-										<rif xlink:href="urn:nir:regione.toscana:legge:1993-05-26;34#art5-com2" xlink:type="simple">articolo 5, secondo comma, della LR 26 maggio 1993, n. 34</rif>
-										recante "Norme per lo sviluppo dell'acquacoltura e della produzione ittica";
+										<h:span finevigore="t79" id="h12" iniziovigore="t1" status="abrogato">
+											varianti di cui all'
+											<rif xlink:href="urn:nir:regione.toscana:legge:1993-05-26;34#art5-com2" xlink:type="simple">articolo 5, secondo comma, della LR 26 maggio 1993, n. 34</rif>
+											recante "Norme per lo sviluppo dell'acquacoltura e della produzione ittica"
+										</h:span>
+										<h:span id="h13" iniziovigore="t79">
+											varianti di cui agli
+											<mrif>
+												articoli
+												<rif xlink:href="urn:nir:regione.toscana:legge:2000-03-20;33#art6" xlink:type="simple">6</rif>
+												e
+												<rif xlink:href="urn:nir:regione.toscana:legge:2000-03-20;33#art9" xlink:type="simple">9</rif>
+												, della legge regionale n. 33 del 20.03.2000
+											</mrif>
+											recante: "Norme per lo sviluppo dell'acquacoltura e della produzione ittica"
+										</h:span>
+										;
 									</corpo>
 								</ep>
 								<ep id="art40-com2-letf-pun8">

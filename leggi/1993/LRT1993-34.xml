@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t5" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19930604" num="33" tipo="BURT" />
@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1993-05-26;34" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1993-05-26;34@1995-01-16" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1993-05-26;34@1995-04-14" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1993-05-26;34@1995-04-14" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1993-05-26;34@2000-03-20" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Pesca" />
 					</materie>
@@ -20,16 +21,18 @@
 						<evento data="19930619" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="19950204" fonte="rp1" id="t3" tipo="modifica" />
 						<evento data="19950506" fonte="rp2" id="t4" tipo="modifica" />
+						<evento data="20000414" fonte="rp3" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1993-05-26;34" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1982-10-30;77" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1995-04-14;64" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2000-03-20;33" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Abrogazione ai sensi dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41" xlink:type="simple">articolo 41 della legge regionale 16 gennaio 1995, n. 5</rif>
@@ -190,6 +193,18 @@
 								<dsp:pos xlink:href="#art9-com3" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1993;34" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-03-20;33" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-03-20;33#art10-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 10, comma 1 della legge Regione Toscana 20 marzo 2000, n. 33" id="itt11" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -232,7 +247,7 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>INTERVENTI REGIONALI</rubrica>
 					<articolo id="art2">
@@ -276,7 +291,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>NORME URBANISTICHE</rubrica>
 					<articolo finevigore="t4" id="art4-t4" iniziovigore="t1" status="abrogato">
@@ -392,7 +407,7 @@
 								in presenza di iniziative con carattere prevalentemente industriale.
 								<h:span finevigore="t3" id="h1" iniziovigore="t1" status="abrogato">
 									Tali varianti sono approvate ai sensi dell'art. 98, secondo comma, lett. d) e dell'art. 10, terzo comma , della legge regionale 31 dicembre 1984, n. 74.
-									<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+									<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 								</h:span>
 							</corpo>
 						</comma>
@@ -555,7 +570,7 @@
 					<articolo finevigore="t3" id="art8-t3" iniziovigore="t1" status="abrogato">
 						<num>
 							ARTICOLO 8
-							<ndr num="#n1" valore="" xlink:type="simple">(b)</ndr>
+							<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(b)</ndr>
 						</num>
 						<rubrica>(Competenze regionali)</rubrica>
 						<comma id="art8-t3-com1">
@@ -614,7 +629,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>TITOLO III</num>
 					<rubrica>NORME TRANSITORIE FINALI</rubrica>
 					<articolo id="art10">
@@ -638,7 +653,7 @@
 								e succ. mod.
 								<h:span finevigore="t3" id="h8" iniziovigore="t1" status="abrogato">
 									Tali varianti sono approvate ai sensi dell'art. 9, secondo comma lett. d) e dall'art. 10 terzo comma , della LR 31 dicembre 1984 n. 74 .
-									<ndr num="#n1" valore="" xlink:type="simple">(c)</ndr>
+									<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(c)</ndr>
 								</h:span>
 							</corpo>
 						</comma>
