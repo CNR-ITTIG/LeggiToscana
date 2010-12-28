@@ -8,7 +8,8 @@
 					<entratainvigore norm="19950422" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1995-04-04;36" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1995-04-04;36@1998-12-29" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1995-04-04;36@1998-12-29" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1995-04-04;36@2000-03-20" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Credito" />
 						<materia valore="Artigianato" />
@@ -19,13 +20,24 @@
 						<evento data="19950422" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19950422" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="19990123" fonte="rp1" id="t3" tipo="modifica" />
+						<evento data="20000414" fonte="rp2" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-04-04;36" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1987-02-16;12" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1998-12-29;101" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2000-03-20;35" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							La presente lettera è stata abrogata dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2000-03-20;35#art11-com1-letp" xlink:type="simple">art. 11, comma 1, let. p) della legge regionale 20 marzo 2000, n. 35</rif>
+							,a decorrere da quanto disposto dall'art. 12, comma 1 della stessa.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:abrogazione completa="si" implicita="no">
@@ -153,6 +165,15 @@
 								<dsp:pos xlink:href="#art8bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:termine da="#t4" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-03-20;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-03-20;35#mod15" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:variazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -447,7 +468,9 @@
 								<corpo>
 									l'importo dei contributi di cui al
 									<rif xlink:href="#art3-com2" xlink:type="simple">comma 2 dell'art. 3</rif>
-									, adottando contestualmente appositi specifici atti per programmi, anche su proposta di Artigiancredito Toscano, nonché per programmi definiti in collaborazione con gli Enti locali nell'ambito dei Sistemi Economici Locali, dei patti territoriali, dei contratti di area e degli accordi di programma.
+									, adottando contestualmente appositi specifici atti per programmi, anche su proposta di Artigiancredito Toscano, nonché per programmi definiti in collaborazione con gli Enti locali nell'ambito dei Sistemi Economici Locali, dei patti territoriali, dei contratti di area e degli accordi di programma
+									<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+									.
 								</corpo>
 							</el>
 						</comma>

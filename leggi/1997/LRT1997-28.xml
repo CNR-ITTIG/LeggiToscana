@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19970421" num="18 Parte Prima" tipo="BURT" />
 					<entratainvigore norm="19970506" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1997-04-14;28" />
+					<urn finevigore="t9" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1997-04-14;28" />
+					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1997-04-14;28@2000-03-20" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Programmazione" />
 						<materia valore="Finanziamenti" />
@@ -23,6 +24,7 @@
 						<evento data="19970506" fonte="ra5" id="t6" tipo="modifica" />
 						<evento data="19970506" fonte="ra6" id="t7" tipo="modifica" />
 						<evento data="19970506" fonte="ra7" id="t8" tipo="modifica" />
+						<evento data="20000414" fonte="rp1" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1997-04-14;28" xlink:type="simple" />
@@ -33,8 +35,18 @@
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1988-02-23;9" xlink:type="simple" />
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1988-02-23;9" xlink:type="simple" />
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:1988-02-23;9" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-03-20;35" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Articolo abrogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2000-03-20;35#art11-com1-lets" xlink:type="simple">art. 11, comma 1, let. s) della legge regionale 20 marzo 2000, n. 35</rif>
+							, a decorrere da quanto disposto dall'art. 12, comma 1 della stessa.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:abrogazione completa="si" implicita="no">
@@ -122,6 +134,17 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:termine da="#t9" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-03-20;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-03-20;35#mod18" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:variazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -247,7 +270,10 @@
 					<num>TITOLO II</num>
 					<rubrica>IL PROCEDIMENTO DI PROGRAMMAZIONE</rubrica>
 					<articolo id="art4">
-						<num>ARTICOLO 4</num>
+						<num>
+							ARTICOLO 4
+							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+						</num>
 						<rubrica>(Il Piano triennale della promozione economica)</rubrica>
 						<comma id="art4-com1">
 							<num>1.</num>
