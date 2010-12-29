@@ -8,7 +8,8 @@
 					<entratainvigore norm="19981225" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t14" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1998-12-01;88" />
-					<urn iniziovigore="t14" valore="urn:nir:regione.toscana:legge:1998-12-01;88@2000-03-20" />
+					<urn finevigore="t15" iniziovigore="t14" valore="urn:nir:regione.toscana:legge:1998-12-01;88@2000-03-20" />
+					<urn iniziovigore="t15" valore="urn:nir:regione.toscana:legge:1998-12-01;88@2000-03-22" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Urbanistica" />
 						<materia valore="Tutela Ambientale" />
@@ -31,6 +32,7 @@
 						<evento data="19981225" fonte="ra11" id="t12" tipo="modifica" />
 						<evento data="19981225" fonte="ra12" id="t13" tipo="modifica" />
 						<evento data="20000414" fonte="rp1" id="t14" tipo="modifica" />
+						<evento data="20000415" fonte="rp2" id="t15" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-12-01;88" xlink:type="simple" />
@@ -47,6 +49,7 @@
 						<attiva id="ra11" xlink:href="urn:nir:regione.toscana:legge:1995;5" xlink:type="simple" />
 						<attiva id="ra12" xlink:href="urn:nir:regione.toscana:legge:1995;5" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-03-20;30" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2000-03-22;40" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -275,6 +278,33 @@
 								<dsp:pos xlink:href="#art18-t14" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art23-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-03-22;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-03-22;40#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 22 marzo 2000, n. 40" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art23-com1-letb" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-03-22;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-03-22;40#art1-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2 della legge Regione Toscana 22 marzo 2000, n. 40" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art23-com1-letb" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art23-com1-letb-t15" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -1052,7 +1082,9 @@
 							<alinea>
 								Nella materia "viabilità" di cui agli
 								<rif xlink:href="urn:nir:stato:decreto.legislativo:1998;112#art97" xlink:type="simple">artt. 97 e seguenti del decreto</rif>
-								, sono attribuite alle Province tutte le funzioni non riservate alla Regione o non delegate alle Province medesime ai sensi del
+								,
+								<h:span id="h1" iniziovigore="t15">ferme restando le competenze comunali per le strade vicinali,</h:span>
+								sono attribuite alle Province tutte le funzioni non riservate alla Regione o non delegate alle Province medesime ai sensi del
 								<rif xlink:href="#art23-com3" xlink:type="simple">comma 3</rif>
 								, in particolare:
 							</alinea>
@@ -1064,9 +1096,13 @@
 									;
 								</corpo>
 							</el>
-							<el id="art23-com1-letb">
+							<el finevigore="t15" id="art23-com1-letb-t15" iniziovigore="t1" status="abrogato">
 								<num>b)</num>
 								<corpo>la classificazione e declassificazione delle strade, comunali e vicinali. Alla classificazione delle strade comunali e vicinali si provvede d'intesa con i Comuni interessati. Qualora l'intesa non venga raggiunta entro 6 mesi dall'inizio del procedimento, alla classificazione o declassificazione provvede la Regione.</corpo>
+							</el>
+							<el id="art23-com1-letb" iniziovigore="t15">
+								<num>b)</num>
+								<corpo>la classificazione, declassificazione e dismissione delle strade comunali. Alla classificazione, declassificazione e dismissione delle strade comunali si provvede d'intesa con i comuni interessati. Qualora l'intesa non venga raggiunta entro 6 mesi dall'inizio del procedimento, alla classificazione, declassificazione e dismissione delle strade comunali provvede la Regione.</corpo>
 							</el>
 						</comma>
 						<comma id="art23-com2">
