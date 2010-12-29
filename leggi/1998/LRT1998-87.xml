@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19981210" num="42" tipo="BURT" />
 					<entratainvigore norm="19981225" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1998-12-01;87" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1998-12-01;87" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1998-12-01;87@2000-03-23" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sviluppo Economico" />
 						<materia valore="Attribuzioni Deleghe" />
@@ -16,11 +17,29 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19981225" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20000418" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-12-01;87" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-03-23;42" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art21" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-03-23;42" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-03-23;42#art156-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 156, comma 2 della legge Regione Toscana 23 marzo 2000, n. 42" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art21-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -804,10 +823,10 @@
 				<capo id="cap5">
 					<num>Capo V</num>
 					<rubrica>TURISMO E SPORT</rubrica>
-					<articolo id="art21">
+					<articolo finevigore="t2" id="art21-t2" iniziovigore="t1" status="abrogato">
 						<num>Art. 21</num>
 						<rubrica>(Riparto delle competenze in materia di turismo)</rubrica>
-						<comma id="art21-com1">
+						<comma id="art21-t2-com1">
 							<num>1.</num>
 							<alinea>
 								Nella materia "turismo", come definita all'
@@ -816,7 +835,7 @@
 								<rif xlink:href="#art3" xlink:type="simple">art. 3</rif>
 								della presente legge:
 							</alinea>
-							<el id="art21-com1-leta">
+							<el id="art21-t2-com1-leta">
 								<num>a)</num>
 								<corpo>
 									la definizione in accordo con lo Stato, ai sensi dell'
@@ -824,7 +843,7 @@
 									, dei principi e degli obiettivi per la valorizzazione e lo sviluppo del sistema turistico nazionale;
 								</corpo>
 							</el>
-							<el id="art21-com1-letb">
+							<el id="art21-t2-com1-letb">
 								<num>b)</num>
 								<corpo>
 									la definizione di interventi cofinanziati con lo Stato ai sensi dell'
@@ -833,66 +852,66 @@
 								</corpo>
 							</el>
 						</comma>
-						<comma id="art21-com2">
+						<comma id="art21-t2-com2">
 							<num>2.</num>
 							<alinea>La Regione, in particolare esercita le funzioni amministrative inerenti:</alinea>
-							<el id="art21-com2-leta">
+							<el id="art21-t2-com2-leta">
 								<num>a)</num>
 								<corpo>alla programmazione, allo sviluppo delle attività turistiche, all'informazione, all'accoglienza turistica sul territorio regionale che attengono ad esigenze di carattere unitario, nonché alla definizione degli ambiti turistici per l'informazione, l'accoglienza e la promozione turistica locale;</corpo>
 							</el>
-							<el id="art21-com2-letb">
+							<el id="art21-t2-com2-letb">
 								<num>b)</num>
 								<corpo>alla programmazione della spesa per l'innovazione, allo sviluppo e alla qualificazione dell'offerta turistica, nell'ambito degli strumenti programmatori;</corpo>
 							</el>
-							<el id="art21-com2-letc">
+							<el id="art21-t2-com2-letc">
 								<num>c)</num>
 								<corpo>alla omogeneità dei servizi e delle attività;</corpo>
 							</el>
-							<el id="art21-com2-letd">
+							<el id="art21-t2-com2-letd">
 								<num>d)</num>
 								<corpo>alle attività di promozione economica nel settore del turismo, con particolare riguardo alle iniziative di promozione della domanda turistica estera;</corpo>
 							</el>
-							<el id="art21-com2-lete">
+							<el id="art21-t2-com2-lete">
 								<num>e)</num>
 								<corpo>al coordinamento dell'attività di raccolta dei dati statistici svolta dai soggetti pubblici ed alla organizzazione dei dati su scala regionale garantendo la massima diffusione degli stessi.</corpo>
 							</el>
 						</comma>
-						<comma id="art21-com3">
+						<comma id="art21-t2-com3">
 							<num>3.</num>
 							<alinea>Sono attribuite alle Province le funzioni amministrative in materia di:</alinea>
-							<el id="art21-com3-leta">
+							<el id="art21-t2-com3-leta">
 								<num>a)</num>
 								<corpo>agenzie di viaggio e turismo;</corpo>
 							</el>
-							<el id="art21-com3-letb">
+							<el id="art21-t2-com3-letb">
 								<num>b)</num>
 								<corpo>formazione e qualificazione professionale;</corpo>
 							</el>
-							<el id="art21-com3-letc">
+							<el id="art21-t2-com3-letc">
 								<num>c)</num>
 								<corpo>pubblicità dei prezzi delle attrezzature e dei servizi ricettivi e degli stabilimenti balneari;</corpo>
 							</el>
-							<el id="art21-com3-letd">
+							<el id="art21-t2-com3-letd">
 								<num>d)</num>
 								<corpo>classificazione delle strutture ricettive;</corpo>
 							</el>
-							<el id="art21-com3-lete">
+							<el id="art21-t2-com3-lete">
 								<num>e)</num>
 								<corpo>raccolta dei dati statistici riguardanti il turismo;</corpo>
 							</el>
-							<el id="art21-com3-letf">
+							<el id="art21-t2-com3-letf">
 								<num>f)</num>
 								<corpo>informazione, accoglienza e promozione turistica locale;</corpo>
 							</el>
-							<el id="art21-com3-letg">
+							<el id="art21-t2-com3-letg">
 								<num>g)</num>
 								<corpo>istituzione e tenuta dell'Albo delle Associazioni proloco.</corpo>
 							</el>
 						</comma>
-						<comma id="art21-com4">
+						<comma id="art21-t2-com4">
 							<num>4.</num>
 							<alinea>Sono attribuite ai Comuni le funzioni amministrative in materia di:</alinea>
-							<el id="art21-com4-leta">
+							<el id="art21-t2-com4-leta">
 								<num>a)</num>
 								<corpo>
 									vincolo di destinazione delle strutture ricettive, al sensi dell'
@@ -900,7 +919,7 @@
 									recante "Legge quadro per il turismo e interventi per il potenziamento e la qualificazione dell'offerta turistica";
 								</corpo>
 							</el>
-							<el id="art21-com4-letb">
+							<el id="art21-t2-com4-letb">
 								<num>b)</num>
 								<corpo>
 									nulla osta di cui all'
@@ -910,7 +929,7 @@
 									, in materia di proroga delle locazioni di immobili adibiti ad uso di albergo e residenza turistico- alberghiera;
 								</corpo>
 							</el>
-							<el id="art21-com4-letc">
+							<el id="art21-t2-com4-letc">
 								<num>c)</num>
 								<corpo>
 									dichiarazione di pubblica utilità ai sensi del
@@ -920,7 +939,7 @@
 									, per espropriazione ai fini della costruzione di nuovi alberghi e ai fini dell'ampliamento e trasformazione di quelli esistenti;
 								</corpo>
 							</el>
-							<el id="art21-com4-letd">
+							<el id="art21-t2-com4-letd">
 								<num>d)</num>
 								<corpo>
 									autorizzazione di cui al
@@ -928,24 +947,24 @@
 									concernente la facoltà di deroghe ai regolamenti edilizi comunali per l'altezza di edifici destinati ad uso di alberghi;
 								</corpo>
 							</el>
-							<el id="art21-com4-lete">
+							<el id="art21-t2-com4-lete">
 								<num>e)</num>
 								<corpo>autorizzazione per l'esercizio delle strutture ricettive;</corpo>
 							</el>
-							<el id="art21-com4-letf">
+							<el id="art21-t2-com4-letf">
 								<num>f)</num>
 								<corpo>autorizzazione dell'esercizio delle attività professionali;</corpo>
 							</el>
-							<el id="art21-com4-letg">
+							<el id="art21-t2-com4-letg">
 								<num>g)</num>
 								<corpo>vigilanza, ispezione ed altre funzioni amministrative ai sensi delle vigenti disposizioni igienico sanitarie sugli alberghi e gli esercizi ricettivi a tali effetti assimilati;</corpo>
 							</el>
-							<el id="art21-com4-leth">
+							<el id="art21-t2-com4-leth">
 								<num>h)</num>
 								<corpo>accoglienza, informazione turistica e promozione della conoscenza sulle caratteristiche dell'offerta turistica del territorio comunale.</corpo>
 							</el>
 						</comma>
-						<comma id="art21-com5">
+						<comma id="art21-t2-com5">
 							<num>5.</num>
 							<corpo>
 								Le funzioni amministrative conferite alla Regione dall'
