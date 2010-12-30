@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t10" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1997-08-11;65" />
 					<urn finevigore="t11" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1997-08-11;65@1997-10-17" />
-					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1997-08-11;65@1998-11-18" />
+					<urn finevigore="t12" iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1997-08-11;65@1998-11-18" />
+					<urn iniziovigore="t12" valore="urn:nir:regione.toscana:legge:1997-08-11;65@2000-03-28" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Parchi" />
 					</materie>
@@ -27,6 +28,7 @@
 						<evento data="19970905" fonte="ra8" id="t9" tipo="modifica" />
 						<evento data="19971022" fonte="rp1" id="t10" tipo="modifica" />
 						<evento data="19981212" fonte="rp2" id="t11" tipo="modifica" />
+						<evento data="20000422" fonte="rp3" id="t12" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1997-08-11;65" xlink:type="simple" />
@@ -40,6 +42,7 @@
 						<attiva id="ra8" xlink:href="urn:nir:regione.toscana:legge:1994;52" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1997-10-17;73" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1998-11-18;81" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2000-03-28;43" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -47,6 +50,13 @@
 						<h:p>
 							Per una successiva variazione del territorio del parco, si veda poi la
 							<rif xlink:href="urn:nir:regione.toscana:legge:1998-11-18;81" xlink:type="simple">Legge Regionale 18 novembre 1998, n. 81</rif>
+							.
+						</h:p>
+					</nota>
+					<nota id="n2">
+						<h:p>
+							Per l'interpretazione autentica del presente comma si veda l'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2000-03-28;43#art1" xlink:type="simple">art. 1 della legge regionale 28 marzo 2000, n. 43</rif>
 							.
 						</h:p>
 					</nota>
@@ -157,6 +167,18 @@
 								<dsp:testo valore="" />
 							</dsp:dominio>
 						</dsp:variazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art23" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-03-28;43" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-03-28;43#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 28 marzo 2000, n. 43" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art23bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -700,7 +722,9 @@
 								<rif xlink:href="urn:nir:presidente.repubblica:decreto:1977-07-24;616#art82-com9" xlink:type="simple">nono comma dell'art. 82 del DPR 24.7.1977, n. 616</rif>
 								, come modificato dall'
 								<rif xlink:href="urn:nir:stato:legge:1985-08-08;431#art1" xlink:type="simple">art. 1 della L. 8.8.1985, n. 431</rif>
-								, il suddetto nulla osta è trasmesso ai competenti uffici statali.
+								, il suddetto nulla osta è trasmesso ai competenti uffici statali
+								<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+								.
 							</corpo>
 						</comma>
 					</articolo>
@@ -828,6 +852,26 @@
 						<comma id="art23-com5">
 							<num>5.</num>
 							<corpo>L'ente gestisce la propria attività secondo le norme degli enti locali in materia di contratti, demanio, patrimonio, economato e contabilità, in quanto applicabili.</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art23bis" iniziovigore="t12">
+						<num>Art. 23 bis</num>
+						<rubrica>Ufficiale rogante</rubrica>
+						<comma id="art23bis-com1">
+							<num>1.</num>
+							<corpo>I contratti, i verbali di aggiudicazione e tutti gli atti dell'Ente-parco per i quali la legge prescrive pubblicità della forma sono ricevuti, in forma pubblico amministrativa, con le modalità prescritte dalla legge notarile in quanto applicabili, nell'esclusivo interesse dello stesso ente-parco, da dipendente di esso, secondo quanto previsto dai commi 2 e 3.</corpo>
+						</comma>
+						<comma id="art23bis-com2">
+							<num>2.</num>
+							<corpo>Ai fini di cui al comma 1, l'Ente-parco nomina l'Ufficiale rogante, tra i dipendenti di ruolo in possesso di idonea preparazione professionale; nomina altresì, con i medesimi criteri e procedure, un sostituto che eserciti la funzione in caso di assenza o di impedimento del titolare.</corpo>
+						</comma>
+						<comma id="art23bis-com3">
+							<num>3.</num>
+							<corpo>L'ufficiale rogante provvede alla registrazione e custodia degli atti di cui al comma 1 in base alle vigenti leggi di registro; cura la tenuta della raccolta nella quale sono annotati i verbali e i contratti stipulati; autentica le copie degli atti originali da lui ricevuti; cura gli adempimenti tributari connessi ai contratti dell'Ente-parco - in forma pubblico amministrativa, e ne è responsabile.</corpo>
+						</comma>
+						<comma id="art23bis-com4">
+							<num>4.</num>
+							<corpo>Ai funzionari di cui al comma 2 non sono dovuti diritti o indennità in ragione della funzione svolta. È fatta salva la facoltà dell'Ente-parco di ricorrere al rogito notarile, ove se ne ravvisi l'opportunità.</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art24">
