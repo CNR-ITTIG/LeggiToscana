@@ -1,22 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t2" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19761126" num="59" tipo="BURT" />
 					<entratainvigore norm="19761211" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1976-11-19;72" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1976-11-19;72" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1976-11-19;72@2000-03-21" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19761211" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20000415" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1976-11-19;72" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-03-21;39" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1976-11-19;72" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-03-21;39" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-03-21;39#art97-com1-lete" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 97, comma 1, lettera e) della legge Regione Toscana 21 marzo 2000, n. 39" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -42,21 +61,29 @@
 							<rif xlink:href="urn:nir:regione.toscana:legge:1976-07-28;48" xlink:type="simple">LR 48 del 28-7-1976</rif>
 							(Atti del Consiglio) recante Rendiconto Generale Consuntivo per l'esercizio finanziario 1975 la decorrenza degli stanziamenti per gli esercizi finanziari 1974 e 1975, concernenti contributi pluriennali costanti in applicazione delle leggi regionali:
 							<h:br />
-							07 aprile 1973, n. 22,
+							<rif xlink:href="urn:nir:regione.toscana:legge:1973;22" xlink:type="simple">07 aprile 1973, n. 22</rif>
+							,
 							<h:br />
-							30 novembre 1973, n. 60,
+							<rif xlink:href="urn:nir:regione.toscana:legge:1973;60" xlink:type="simple">30 novembre 1973, n. 60</rif>
+							,
 							<h:br />
-							30 novembre 1973, n. 61,
+							<rif xlink:href="urn:nir:regione.toscana:legge:1973;61" xlink:type="simple">30 novembre 1973, n. 61</rif>
+							,
 							<h:br />
-							02 settembre 1974, n. 54,
+							<rif xlink:href="urn:nir:regione.toscana:legge:1974;54" xlink:type="simple">02 settembre 1974, n. 54</rif>
+							,
 							<h:br />
-							30 ottobre 1974, n. 61,
+							<rif xlink:href="urn:nir:regione.toscana:legge:1974;61" xlink:type="simple">30 ottobre 1974, n. 61</rif>
+							,
 							<h:br />
-							09 novembre 1974, n. 66,
+							<rif xlink:href="urn:nir:regione.toscana:legge:1974;66" xlink:type="simple">09 novembre 1974, n. 66</rif>
+							,
 							<h:br />
-							16 dicembre 1974, n. 75,
+							<rif xlink:href="urn:nir:regione.toscana:legge:1974;75" xlink:type="simple">16 dicembre 1974, n. 75</rif>
+							,
 							<h:br />
-							26 maggio 1975, n. 54,
+							<rif xlink:href="urn:nir:regione.toscana:legge:1975;54" xlink:type="simple">26 maggio 1975, n. 54</rif>
+							,
 							<h:br />
 							e già previsti nei seguenti capitoli di spesa del bilancio 1975 per gli importi a fianco di ciascuno indicati:
 							<h:br />

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19970207" num="6" tipo="BURT" />
 					<entratainvigore norm="19970222" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1997-01-29;9" />
+					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1997-01-29;9" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1997-01-29;9@2000-03-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Foreste" />
 						<materia valore="Agricoltura" />
@@ -19,12 +20,14 @@
 						<evento data="19970222" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="19970222" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="19970222" fonte="ra3" id="t4" tipo="modifica" />
+						<evento data="20000415" fonte="rp1" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1997-01-29;9" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1991;20" xlink:type="simple" />
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1976-09-04;64" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1976-09-04;64" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-03-21;39" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -66,6 +69,20 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com8" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-03-21;39" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-03-21;39#art97-com5" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 97, comma 5 della legge Regione Toscana 21 marzo 2000, n. 39" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com8-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -164,7 +181,7 @@
 						<num>7.</num>
 						<corpo>La Giunta Regionale può riservare alla competenza degli uffici regionali l'alienazione di beni nei casi in cui ciò sia ritenuto opportuno, con le stesse procedure dei successivi articoli.</corpo>
 					</comma>
-					<comma id="art2-com8">
+					<comma finevigore="t5" id="art2-com8-t5" iniziovigore="t1" status="abrogato">
 						<num>8.</num>
 						<corpo>La Giunta Regionale può proporre al Consiglio, altresì, forme di gestione dei beni non oggetto di interventi di alienazione, da affidarsi a soggetti pubblici diversi dall'Ente Delegato quando vi siano esigenze di carattere funzionale o economico.</corpo>
 					</comma>

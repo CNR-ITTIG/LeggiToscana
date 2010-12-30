@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t7" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19760910" num="44" tipo="BURT" />
@@ -12,7 +12,8 @@
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1976-09-04;64@1978-02-02" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1976-09-04;64@1985-01-10" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1976-09-04;64@1991-05-16" />
-					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1976-09-04;64@1997-01-29" />
+					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1976-09-04;64@1997-01-29" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1976-09-04;64@2000-03-21" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -22,6 +23,7 @@
 						<evento data="19850131" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="19910608" fonte="rp4" id="t5" tipo="modifica" />
 						<evento data="19970222" fonte="rp5" id="t6" tipo="modifica" />
+						<evento data="20000415" fonte="rp6" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1976-09-04;64" xlink:type="simple" />
@@ -30,10 +32,11 @@
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1985-01-10;1" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1991-05-16;20" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1997-01-29;9" xlink:type="simple" />
+						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2000-03-21;39" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Ai sensi dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1991-05-16;20#art15-com3" xlink:type="simple">art. 15, comma 3, della legge regionale 16 maggio 1991 n. 20</rif>
@@ -127,6 +130,18 @@
 								<dsp:pos xlink:href="#art2-com3-t6" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1976-09-04;64" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-03-21;39" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-03-21;39#art97-com1-letd" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 97, comma 1, lettera d) della legge Regione Toscana 21 marzo 2000, n. 39" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -190,7 +205,7 @@
 						<num />
 						<corpo>
 							Tuttavia la Regione, con delibera motivata del Consiglio regionale, sentito il parere dell'ente delegato
-							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 							, può alienare beni immobili appartenenti al patrimonio agricolo - forestale i quali, per la loro natura o condizione, non siano utilizzabili per i fini stabiliti nell'
 							<rif xlink:href="#art8" xlink:type="simple">art. 8</rif>
 							o la cui cessione risulti necessaria per soddisfare esigenze d'interesse esclusivamente locale di uso del territorio, compatibili con le previsioni degli strumenti urbanistici, sempre che tali alienazioni non riescano di pregiudizio alla gestione del complesso agricolo - forestale cui appartengono.
@@ -789,7 +804,7 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<parte id="prt1">
+				<parte id="LeggeRegionale1-prt1">
 					<num />
 					<rubrica>Disposizioni transitorie e finali</rubrica>
 					<articolo id="art19">
