@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19941222" num="85 bis" tipo="BURT" />
 					<entratainvigore norm="19941222" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1994-12-15;102" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1994-12-15;102" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1994-12-15;102@2000-04-06" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Turismo" />
 					</materie>
@@ -15,11 +16,44 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19941222" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20000502" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-12-15;102" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-04-06;51" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-04-06;51" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-04-06;51#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 6 aprile 2000, n. 51" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com2bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-04-06;51" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-04-06;51#art1-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2 della legge Regione Toscana 6 aprile 2000, n. 51" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -71,10 +105,28 @@
 						<num>2.</num>
 						<corpo>Negli alberghi e nelle residenze turistico-alberghiere già autorizzati alla data di entrata in vigore della presente legge la superficie minima di cui al comma precedente è fissata in mq. 4 per ciascun posto letto aggiuntivo.</corpo>
 					</comma>
+					<comma id="art2-com2bis" iniziovigore="t2">
+						<num>2 bis.</num>
+						<corpo>
+							Negli alberghi e nelle residenze turistico-alberghiere di cui all'
+							<mrif>
+								articolo 1, commi
+								<rif xlink:href="#art1-com1" xlink:type="simple">1</rif>
+								e
+								<rif xlink:href="#art1-com2" xlink:type="simple">2</rif>
+							</mrif>
+							è, comunque, consentita, nelle sole camere adibite abitualmente al pernottamento di due persone, ed esclusivamente a richiesta del cliente, la sistemazione temporanea di un letto supplementare per l'alloggio di bambini di età non superiore ai dodici anni. Al momento della partenza del cliente tale utilizzazione cessa e si ristabiliscono i posti letto previsti.
+						</corpo>
+					</comma>
 					<comma id="art2-com3">
 						<num>3.</num>
 						<corpo>
-							Le disposizioni di cui al comma precedente si applicano anche alle camere con più di due posti letto ubicate negli esercizi di affittacamere di cui agli
+							<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">Le disposizioni di cui al comma precedente</h:span>
+							<h:span id="h2" iniziovigore="t2">
+								Le disposizioni di cui al
+								<rif xlink:href="#art2-com2" xlink:type="simple">comma 2</rif>
+							</h:span>
+							si applicano anche alle camere con più di due posti letto ubicate negli esercizi di affittacamere di cui agli
 							<mrif>
 								articoli
 								<rif xlink:href="urn:nir:regione.toscana:legge:1987-01-10;1#art10" xlink:type="simple">10</rif>
