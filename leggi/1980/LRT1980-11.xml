@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t18" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19800207" num="12" tipo="BURT" />
@@ -17,7 +17,8 @@
 					<urn finevigore="t15" iniziovigore="t14" valore="urn:nir:regione.toscana:legge:1980-01-28;11@1984-03-26" />
 					<urn finevigore="t16" iniziovigore="t15" valore="urn:nir:regione.toscana:legge:1980-01-28;11@1988-09-01" />
 					<urn finevigore="t17" iniziovigore="t16" valore="urn:nir:regione.toscana:legge:1980-01-28;11@1991-09-09" />
-					<urn iniziovigore="t17" valore="urn:nir:regione.toscana:legge:1980-01-28;11@1994-11-18" />
+					<urn finevigore="t18" iniziovigore="t17" valore="urn:nir:regione.toscana:legge:1980-01-28;11@1994-11-18" />
+					<urn iniziovigore="t18" valore="urn:nir:regione.toscana:legge:1980-01-28;11@2000-03-28" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="ATTIVITA' ARTISTICHE" />
 					</materie>
@@ -41,6 +42,7 @@
 						<evento data="19880927" fonte="rp8" id="t15" tipo="modifica" />
 						<evento data="19911004" fonte="rp9" id="t16" tipo="modifica" />
 						<evento data="19950101" fonte="rp10" id="t17" tipo="modifica" />
+						<evento data="20000422" fonte="rp11" id="t18" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-01-28;11" xlink:type="simple" />
@@ -60,16 +62,19 @@
 						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:1988-09-01;68" xlink:type="simple" />
 						<passiva id="rp9" xlink:href="urn:nir:regione.toscana:legge:1991-09-09;46" xlink:type="simple" />
 						<passiva id="rp10" xlink:href="urn:nir:regione.toscana:legge:1994-11-18;88" xlink:type="simple" />
+						<passiva id="rp11" xlink:href="urn:nir:regione.toscana:legge:2000-03-28;45" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							A modificazione dei termini per i finanziamenti della Regione di cui alla presente legge si vedano le LLRR
 							<rif xlink:href="urn:nir:regione.toscana:legge:1983-10-31;71" xlink:type="simple">31 ottobre 1983, n. 71</rif>
 							e
 							<rif xlink:href="urn:nir:regione.toscana:legge:1991-09-09;46" xlink:type="simple">9 settembre 1991, n. 46</rif>
-							.
+							. Si vedano inoltre le disposizioni transitorie e la norma transitoria della
+							<rif xlink:href="urn:nir:regione.toscana:legge:2000-03-28;45" xlink:type="simple">legge regionale 28 marzo 2000, n. 45</rif>
+							abrogativa della presente legge, rispettivamente gli artt. 10, comma 2 e 8 comma 2.
 						</h:p>
 					</nota>
 				</redazionale>
@@ -330,7 +335,7 @@
 							</dsp:norma>
 						</dsp:proroga>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1994-11-18;88" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-11-18;88#art10-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -339,6 +344,18 @@
 							</dsp:norma>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art9-t17" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1980-01-28;11" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-03-28;45" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-03-28;45#art10-com1-leta" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 10, comma 1, lettera a) della legge Regione Toscana 28 marzo 2000, n. 45" id="itt15" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>
@@ -352,7 +369,7 @@
 				<numDoc>11</numDoc>
 				<titoloDoc>
 					Norme per la promozione delle attività teatrali, musicali, cinematografiche ed audiovisive
-					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
@@ -362,7 +379,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>OGGETTO E FINALITA' DELLA LEGGE. ATTIVITA' AMMESSE A CONTRIBUTO</rubrica>
 					<articolo id="art1">
@@ -434,7 +451,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>INIZIATIVE DI PARTICOLARE RILEVANZA REGIONALE</rubrica>
 					<articolo id="art3">
@@ -697,7 +714,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>TITOLO III</num>
 					<rubrica>INIZIATIVE CULTURALI DI CUI ALL'ART. 2 LETTERA B)</rubrica>
 					<articolo id="art11">
@@ -786,7 +803,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit4">
+				<titolo id="LeggeRegionale1-tit4">
 					<num>TITOLO IV</num>
 					<rubrica>PROGRAMMAZIONE REGIONALE</rubrica>
 					<articolo id="art13">
@@ -921,7 +938,11 @@
 							</en>
 							<en id="art14-com2-num6">
 								<num>6)</num>
-								<corpo>l'indicazione delle caratteristiche del soggetto proponente, quali: la natura giuridica, lo statuto , il rapporto annuale delle attività svolte, la composizione degli organi, il bilancio annuale delle attività per le quali si richiede il contributo;</corpo>
+								<corpo>
+									l'indicazione delle caratteristiche del soggetto proponente, quali: la natura giuridica, lo
+									<rif xlink:href="urn:nir:regione.toscana:statuto:" xlink:type="simple">statuto</rif>
+									, il rapporto annuale delle attività svolte, la composizione degli organi, il bilancio annuale delle attività per le quali si richiede il contributo;
+								</corpo>
 							</en>
 							<en id="art14-com2-num7">
 								<num>7)</num>
@@ -932,7 +953,7 @@
 							<num />
 							<corpo>
 								Le domande di contributo per le iniziative di particolare rilevanza regionale, di cui al
-								<rif xlink:href="#tit2" xlink:type="simple">titolo II</rif>
+								<rif xlink:href="#LeggeRegionale1-tit2" xlink:type="simple">titolo II</rif>
 								devono essere presentate alla Giunta regionale entro il 15 settembre di ogni anno.
 							</corpo>
 						</comma>
@@ -940,7 +961,7 @@
 							<num />
 							<corpo>
 								Le domande di contributo relative alle iniziative di particolare rilevanza regionale, di cui al
-								<rif xlink:href="#tit2" xlink:type="simple">Titolo II</rif>
+								<rif xlink:href="#LeggeRegionale1-tit2" xlink:type="simple">Titolo II</rif>
 								, il cui svolgimento è previsto nell'anno successivo, devono essere presentate alla Giunta regionale entro il 15 settembre di ogni anno.
 							</corpo>
 						</comma>
@@ -948,7 +969,7 @@
 							<num />
 							<corpo>
 								Le domande di contributo relative alle iniziative di cui al
-								<rif xlink:href="#tit3" xlink:type="simple">titolo III</rif>
+								<rif xlink:href="#LeggeRegionale1-tit3" xlink:type="simple">titolo III</rif>
 								devono essere presentate entro il 15 giugno di ogni anno al Comune nel cui territorio si intende realizzare l'iniziativa.
 							</corpo>
 						</comma>
@@ -1013,7 +1034,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit5">
+				<titolo id="LeggeRegionale1-tit5">
 					<num>TITOLO V</num>
 					<rubrica>CONSULTA REGIONALE TOSCANA DEI BENI E DELLE ATTIVITA' CULTURALI</rubrica>
 					<articolo id="art15">
@@ -1171,7 +1192,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit6">
+				<titolo id="LeggeRegionale1-tit6">
 					<num>TITOLO VI</num>
 					<rubrica>NORMATIVA TRANSITORIA, FINALE E FINANZIARIA</rubrica>
 					<articolo id="art16">
@@ -1234,7 +1255,9 @@
 									e
 									<rif xlink:href="#art14" xlink:type="simple">14</rif>
 								</mrif>
-								tranne che per il primo e il secondo comma di quest'ultimo.
+								tranne che per il primo e il
+								<rif xlink:href="#art16bis-com2" xlink:type="simple">secondo comma</rif>
+								di quest'ultimo.
 							</corpo>
 						</comma>
 						<comma id="art16bis-com3">
@@ -1262,13 +1285,17 @@
 							<corpo>
 								Entro un mese da tale pubblicazione devono essere presentate al Comune nel cui territorio si intende svolgere l'iniziativa le domande di contributo per le iniziative di cui al titolo III. Entro i successivi 15 giorni il Comune trasmette le domande all'Associazione intercomunale di cui fa parte, ai sensi della
 								<rif xlink:href="urn:nir:regione.toscana:legge:1979-04-17;37" xlink:type="simple">LR 17 aprile 1979, n. 37</rif>
-								, con proprio parere di conformità al programma regionale di promozione di cui al primo comma.
+								, con proprio parere di conformità al programma regionale di promozione di cui al
+								<rif xlink:href="#art16ter-com1" xlink:type="simple">primo comma</rif>
+								.
 							</corpo>
 						</comma>
 						<comma id="art16ter-com3">
 							<num />
 							<corpo>
-								Nel caso di Associazioni intercomunali che non abbiano iniziato l'esercizio delle proprie funzioni, spetta ai Comuni delle aree corrispondenti trasmettere alla Giunta regionale entro la scadenza indicata nel primo comma le domande di contributo secondo le modalità di cui al
+								Nel caso di Associazioni intercomunali che non abbiano iniziato l'esercizio delle proprie funzioni, spetta ai Comuni delle aree corrispondenti trasmettere alla Giunta regionale entro la scadenza indicata nel
+								<rif xlink:href="#art16ter-com1" xlink:type="simple">primo comma</rif>
+								le domande di contributo secondo le modalità di cui al
 								<rif xlink:href="#art14-com8-t15" xlink:type="simple">sesto comma dell'art. 14</rif>
 								.
 							</corpo>
@@ -1283,7 +1310,11 @@
 						</comma>
 						<comma id="art16ter-com5">
 							<num />
-							<corpo>Entro un mese dalla scadenza indicata nel primo comma la Giunta regionale predispone il piano annuale di ripartizione dei contributi che propone al Consiglio per l'approvazione.</corpo>
+							<corpo>
+								Entro un mese dalla scadenza indicata nel
+								<rif xlink:href="#art16ter-com1" xlink:type="simple">primo comma</rif>
+								la Giunta regionale predispone il piano annuale di ripartizione dei contributi che propone al Consiglio per l'approvazione.
+							</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art16quater" iniziovigore="t11">
@@ -1297,7 +1328,7 @@
 							<num />
 							<corpo>
 								Le domande di contributo relative alle iniziative di cui al
-								<rif xlink:href="#tit3" xlink:type="simple">Titolo III</rif>
+								<rif xlink:href="#LeggeRegionale1-tit3" xlink:type="simple">Titolo III</rif>
 								devono essere presentate entro il 31 luglio 1982 al Comune nel cui territorio si intende realizzare l'iniziativa.
 							</corpo>
 						</comma>
