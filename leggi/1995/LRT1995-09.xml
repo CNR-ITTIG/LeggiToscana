@@ -8,7 +8,8 @@
 					<entratainvigore norm="19950211" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1995-01-20;9" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1995-01-20;9@1996-03-15" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1995-01-20;9@1996-03-15" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1995-01-20;9@2000-08-03" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Diritti" />
 					</materie>
@@ -17,10 +18,12 @@
 					<eventi>
 						<evento data="19950211" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19960511" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="20000829" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-01-20;9" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1996-03-15;18" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2000-08-03;63" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -35,6 +38,18 @@
 							</dsp:norma>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art41-com1-letc-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-08-03;63" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-08-03;63#art15-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 15, comma 2 della legge Regione Toscana 3 agosto 2000, n. 63" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art13-t3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>
@@ -282,7 +297,7 @@
 								<num>3.</num>
 								<corpo>
 									Nei casi di cui al comma precedente, il procedimento inizia con il ricevimento dell'istanza da parte dell'amministrazione, nella data che risulta ai sensi del
-									<rif xlink:href="#art13" xlink:type="simple">successivo art. 13</rif>
+									<rif xlink:href="#art13-t3" xlink:type="simple">successivo art. 13</rif>
 									.
 								</corpo>
 							</comma>
@@ -351,30 +366,30 @@
 								</corpo>
 							</comma>
 						</articolo>
-						<articolo id="art13">
+						<articolo finevigore="t3" id="art13-t3" iniziovigore="t1" status="abrogato">
 							<num>ARTICOLO 13</num>
 							<rubrica>(Protocollo regionale degli atti)</rubrica>
-							<comma id="art13-com1">
+							<comma id="art13-t3-com1">
 								<num>1.</num>
 								<corpo>Ciascuno dei dipartimenti della giunta regionale, degli uffici del genio civile e l'ufficio del comitato regionale di controllo hanno un proprio protocollo.</corpo>
 							</comma>
-							<comma id="art13-com2">
+							<comma id="art13-t3-com2">
 								<num>2.</num>
 								<corpo>
 									Gli atti si intendono ricevuti dalla data che risulta dal protocollo di cui al
-									<rif xlink:href="#art13-com1" xlink:type="simple">primo comma</rif>
+									<rif xlink:href="#art13-t3-com1" xlink:type="simple">primo comma</rif>
 									.
 								</corpo>
 							</comma>
-							<comma id="art13-com3">
+							<comma id="art13-t3-com3">
 								<num>3.</num>
 								<corpo>
 									Il ricevimento della posta indirizzata alla Regione Toscana è organizzato in modo da assicurarne la tempestiva trasmissione al dipartimento e ufficio, fra quelli di cui al
-									<rif xlink:href="#art13-com1" xlink:type="simple">primo comma</rif>
+									<rif xlink:href="#art13-t3-com1" xlink:type="simple">primo comma</rif>
 									, competente a riceverla.
 								</corpo>
 							</comma>
-							<comma id="art13-com4">
+							<comma id="art13-t3-com4">
 								<num>4.</num>
 								<corpo>La giunta regionale organizza il protocollo regionale in conformità con le disposizioni di cui al presente articolo.</corpo>
 							</comma>
