@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t7" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19721223" num="49" tipo="BURT" />
@@ -12,7 +12,8 @@
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1972-12-21;32@1981-07-09" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1972-12-21;32@1988-02-08" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1972-12-21;32@1995-08-11" />
-					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1972-12-21;32@1997-06-05" />
+					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1972-12-21;32@1997-06-05" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1972-12-21;32@2000-07-11" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -22,6 +23,7 @@
 						<evento data="19880303" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="19950821" fonte="rp4" id="t5" tipo="modifica" />
 						<evento data="19970701" fonte="rp5" id="t6" tipo="modifica" />
+						<evento data="20000801" fonte="rp6" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1972-12-21;32" xlink:type="simple" />
@@ -30,17 +32,18 @@
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1988-02-08;6" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1995-08-11;86" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1997-06-05;39" xlink:type="simple" />
+						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2000-07-11;60" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Ad integrazione della presente si veda la
 							<rif xlink:href="urn:nir:regione.toscana:legge:1976-12-23;78" xlink:type="simple">legge regionale 23 dicembre 1976, n. 78</rif>
 							.
 						</h:p>
 					</nota>
-					<nota id="n2">
+					<nota id="LeggeRegionale1-n2">
 						<h:p>
 							Ai sensi dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1981-07-09;57#art2-com1" xlink:type="simple">art. 2, comma 1 della legge regionale 9 luglio 1981, n. 57</rif>
@@ -49,14 +52,14 @@
 							, all'Ufficio di Presidenza del Consiglio provvedere al conguaglio fra il contributo precedentemente dovuto e quello attuale risultante dalla modifica apportata.
 						</h:p>
 					</nota>
-					<nota id="n3">
+					<nota id="LeggeRegionale1-n3">
 						<h:p>
 							Ai sensi dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1988-02-08;6#art1-com2" xlink:type="simple">articolo unico, comma 2, della legge regionale 8 febbraio 1988, n. 6</rif>
 							i contributi del presente articolo vengono corrisposti a decorrere dal primo gennaio 1988.
 						</h:p>
 					</nota>
-					<nota id="n4">
+					<nota id="LeggeRegionale1-n4">
 						<h:p>
 							Le disposizioni di cui al presente articolo si applicano, ai sensi dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1997-06-05;39#art3" xlink:type="simple">art. 3 della legge regionale 5 giugno 1997, n. 39</rif>
@@ -162,6 +165,18 @@
 								<dsp:pos xlink:href="#art2bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1972-12-21;32" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-07-11;60" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-07-11;60#art8-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 8, comma 2 della legge Regione Toscana 11 luglio 2000, n. 60" id="itt8" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -173,7 +188,7 @@
 				<numDoc>32</numDoc>
 				<titoloDoc>
 					Finanziamento delle attività dei gruppi consiliari
-					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 					.
 				</titoloDoc>
 			</intestazione>
@@ -197,7 +212,7 @@
 				<articolo finevigore="t4" id="art1-t4" iniziovigore="t3" status="abrogato">
 					<num>
 						ARTICOLO 1
-						<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+						<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(b)</ndr>
 					</num>
 					<comma id="art1-t4-com1">
 						<num />
@@ -211,7 +226,7 @@
 				<articolo finevigore="t5" id="art1-t5" iniziovigore="t4" status="abrogato">
 					<num>
 						ARTICOLO 1
-						<ndr num="#n3" valore="" xlink:type="simple">(c)</ndr>
+						<ndr num="#LeggeRegionale1-n3" valore="" xlink:type="simple">(c)</ndr>
 					</num>
 					<comma id="art1-t5-com1">
 						<num />
@@ -324,7 +339,7 @@
 				<articolo id="art1" iniziovigore="t6">
 					<num>
 						Art. 1
-						<ndr num="#n4" valore="" xlink:type="simple">(d)</ndr>
+						<ndr num="#LeggeRegionale1-n4" valore="" xlink:type="simple">(d)</ndr>
 					</num>
 					<rubrica />
 					<comma id="art1-com1">
