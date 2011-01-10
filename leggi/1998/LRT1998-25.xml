@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t15" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1998-05-18;25" />
 					<urn finevigore="t16" iniziovigore="t15" valore="urn:nir:regione.toscana:legge:1998-05-18;25@1998-06-18" />
-					<urn iniziovigore="t16" valore="urn:nir:regione.toscana:legge:1998-05-18;25@1999-12-22" />
+					<urn finevigore="t17" iniziovigore="t16" valore="urn:nir:regione.toscana:legge:1998-05-18;25@1999-12-22" />
+					<urn iniziovigore="t17" valore="urn:nir:regione.toscana:legge:1998-05-18;25@2000-08-31" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tutela Ambientale" />
 						<materia valore="Rifiuti" />
@@ -33,6 +34,7 @@
 						<evento data="19980612" fonte="ra13" id="t14" tipo="modifica" />
 						<evento data="19980629" fonte="rp1" id="t15" tipo="modifica" />
 						<evento data="20000115" fonte="rp2" id="t16" tipo="modifica" />
+						<evento data="20000926" fonte="rp3" id="t17" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25" xlink:type="simple" />
@@ -51,6 +53,7 @@
 						<attiva id="ra13" xlink:href="urn:nir:regione.toscana:legge:1992-12-17;55" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1998-06-18;34" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1999-12-22;70" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2000-08-31;71" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -279,7 +282,34 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
+								<dsp:pos xlink:href="#art30-com6-t17" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art30-com6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-08-31;71" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-08-31;71#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 31 agosto 2000, n. 71" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
 								<dsp:pos xlink:href="#art30-com6" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art30-com6-t17" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art30-com6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-08-31;71" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-08-31;71#art1-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2 della legge Regione Toscana 31 agosto 2000, n. 71" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art30-com7" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 					</modifichepassive>
@@ -2279,7 +2309,7 @@
 								ed avendo riferimento agli obiettivi il cui termine di conseguimento è già scaduto alla data di accertamento. L'ammontare dell'imposta è in ogni caso ricalcolato annualmente, tanto in aumento che in diminuzione, a decorrere dalla data di riferimento dell'accertamento ed in relazione alle risultanze dello stesso.
 							</corpo>
 						</comma>
-						<comma id="art30-com6" iniziovigore="t16">
+						<comma finevigore="t17" id="art30-com6-t17" iniziovigore="t16" status="abrogato">
 							<num>6.</num>
 							<corpo>
 								Negli ambiti territoriali in cui la Comunità d'ambito non è costituita, nell'ipotesi in cui l'obiettivo di raccolta differenziata di cui all'
@@ -2288,6 +2318,24 @@
 								<rif xlink:href="urn:nir:stato:decreto.legislativo:1997-02-05;22#art24-com1" xlink:type="simple">art. 24, comma 1, del decreto legislativo 5 febbraio 1997, n. 22</rif>
 								, è riferito ai singoli comuni compresi nell'ambito fino al primo accertamento successivo all'adozione della tariffa, di cui all'
 								<rif xlink:href="#art26-com2-lete" xlink:type="simple">articolo 26, comma 2, lettera e)</rif>
+								.
+							</corpo>
+						</comma>
+						<comma id="art30-com6" iniziovigore="t17">
+							<num>6 -</num>
+							<corpo>
+								Negli ambiti territoriali in cui la Comunità di ambito non è costituita, nell'ipotesi in cui gli accertamenti effettuati con decorrenza dall'anno 1999 evidenzino che l'obiettivo di raccolta differenziata di cui all'
+								<rif xlink:href="urn:nir:stato:decreto.legislativo:1997-02-05;22#art24-com1" xlink:type="simple">articolo 24 comma 1 del Decreto Legislativo 5 febbraio 1997, n. 22</rif>
+								non è stato raggiunto, il raggiungimento dell'obiettivo è considerato con riferimento ai singoli comuni compresi nell'ambito.
+							</corpo>
+						</comma>
+						<comma id="art30-com7" iniziovigore="t17">
+							<num>7 -</num>
+							<corpo>
+								Negli ambiti ottimali dove la Comunità d'ambito è costituita, il raggiungimento dell'obiettivo di raccolta differenziata, di cui all'
+								<rif xlink:href="urn:nir:stato:decreto.legislativo:1997-02-05;22#art24-com1" xlink:type="simple">articolo 24 comma 1 del Decreto Legislativo 5 febbraio 1997, n. 22</rif>
+								è considerato con riferimento ai singoli comuni compresi nell'ambito fino al primo accertamento successivo all'adozione della tariffa di cui all'
+								<rif xlink:href="#art26-com2-lete" xlink:type="simple">articolo 26 comma 2 lett. e)</rif>
 								.
 							</corpo>
 						</comma>
