@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20000126" num="3 Supplemento Straordinario n. 13" tipo="BURT" />
 					<entratainvigore norm="20000126" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2000-01-21;4" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2000-01-21;4" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2000-01-21;4@2000-08-31" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Bilancio" />
@@ -16,11 +17,32 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="20000126" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20000911" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2000-01-21;4" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-08-31;67" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-08-31;67" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-08-31;67#art4-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1 della legge Regione Toscana 31 agosto 2000, n. 67" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art9-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -173,39 +195,83 @@
 						</el>
 					</comma>
 				</articolo>
-				<articolo id="art9">
+				<articolo finevigore="t2" id="art9-t2" iniziovigore="t1" status="abrogato">
+					<num>ARTICOLO 9</num>
+					<rubrica>(Disavanzo dell'esercizio 2000)</rubrica>
+					<comma id="art9-t2-com1">
+						<num>1.</num>
+						<corpo>Agli effetti di cui ai commi successivi il disavanzo per l'esercizio 2000 S approvato in Lire 200.320.000.000;</corpo>
+					</comma>
+					<comma id="art9-t2-com2">
+						<num>2.</num>
+						<corpo>
+							La Giunta regionale S autorizzata nell'esercizio 2000 a contrarre mutui e ad emettere prestiti obbligazionari o titoli similari per un importo complessivo di Lire 200.320.000.000 per la copertura del disavanzo di cui al
+							<rif xlink:href="#art9-t2-com1" xlink:type="simple">comma 1</rif>
+							e per le finalità indicate nell'allegato II) 1).
+						</corpo>
+					</comma>
+					<comma id="art9-t2-com3">
+						<num>3.</num>
+						<corpo>
+							I mutui o prestiti di cui al
+							<rif xlink:href="#art9-t2-com2" xlink:type="simple">comma 2</rif>
+							, da estinguersi in un periodo non superiore ad anni venti, saranno assunti od emessi ad un tasso iniziale massimo del 7,50 per cento effettivo annuo e con ammortamento decorrente dal 1 gennaio 2001.
+						</corpo>
+					</comma>
+					<comma id="art9-t2-com4">
+						<num>4.</num>
+						<corpo>Gli oneri annui di ammortamento, determinati in Lire 19.000.000.000, trovano copertura finanziaria negli appositi stanziamenti del bilancio pluriennale approvato con la presente legge.</corpo>
+					</comma>
+					<comma id="art9-t2-com5">
+						<num>5.</num>
+						<corpo>
+							L'eventuale maggiorazione dell'onere annuo di ammortamento dei mutui e prestiti di cui al
+							<rif xlink:href="#art9-t2-com4" xlink:type="simple">comma 4</rif>
+							, dovuta alla variabilità del tasso od agli eventuali oneri conseguenti al rischio di cambio, trover_ copertura finanziaria con variazione ai bilanci annuali e pluriennali mediante le singole leggi di bilancio.
+						</corpo>
+					</comma>
+					<comma id="art9-t2-com6">
+						<num>6.</num>
+						<corpo>Le rate di ammortamento relative agli anni seguenti al 2002 troveranno copertura con le successive leggi di bilancio.</corpo>
+					</comma>
+					<comma id="art9-t2-com7">
+						<num>7.</num>
+						<corpo>
+							In relazione ai mutui e prestiti di cui al
+							<rif xlink:href="#art9-t2-com2" xlink:type="simple">comma 2</rif>
+							ed in considerazione delle condizioni di mercato, la Giunta regionale è autorizzata ad effettuare operazioni di trasformazione di scadenze e di modifica del profilo dei tassi di interesse mediante l'utilizzo degli strumenti derivati "swap" e "collar".
+						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art9" iniziovigore="t2">
 					<num>ARTICOLO 9</num>
 					<rubrica>(Disavanzo dell'esercizio 2000)</rubrica>
 					<comma id="art9-com1">
 						<num>1.</num>
-						<corpo>Agli effetti di cui ai commi successivi il disavanzo per l'esercizio 2000 S approvato in Lire 200.320.000.000;</corpo>
+						<corpo>Agli effetti di cui ai commi successivi il disavanzo per l'esercizio 2000 è approvato in Lire 311.588.576.166.</corpo>
 					</comma>
 					<comma id="art9-com2">
 						<num>2.</num>
-						<corpo>
-							La Giunta regionale S autorizzata nell'esercizio 2000 a contrarre mutui e ad emettere prestiti obbligazionari o titoli similari per un importo complessivo di Lire 200.320.000.000 per la copertura del disavanzo di cui al
-							<rif xlink:href="#art9-com1" xlink:type="simple">comma 1</rif>
-							e per le finalità indicate nell'allegato II) 1).
-						</corpo>
+						<corpo>La Giunta regionale è autorizzata a contrarre nell'esercizio 2000 mutui e prestiti per l'importo di L. 311.588.576.166 per la copertura del disavanzo di cui al primo comma per le finalità indicate nell'allegato II) 1).</corpo>
 					</comma>
 					<comma id="art9-com3">
 						<num>3.</num>
 						<corpo>
-							I mutui o prestiti di cui al
+							I mutui di cui al
 							<rif xlink:href="#art9-com2" xlink:type="simple">comma 2</rif>
-							, da estinguersi in un periodo non superiore ad anni venti, saranno assunti od emessi ad un tasso iniziale massimo del 7,50 per cento effettivo annuo e con ammortamento decorrente dal 1 gennaio 2001.
+							, da estinguersi in un periodo non superiore ad anni venti, saranno assunti od emessi ad un tasso iniziale massimo del 7,50 per cento effettivo annuo e con ammortamento decorrente dall'1.1.2001.
 						</corpo>
 					</comma>
 					<comma id="art9-com4">
 						<num>4.</num>
-						<corpo>Gli oneri annui di ammortamento, determinati in Lire 19.000.000.000, trovano copertura finanziaria negli appositi stanziamenti del bilancio pluriennale approvato con la presente legge.</corpo>
+						<corpo>Gli oneri annui di ammortamento, determinati in L. 28.000.000.000, trovano copertura finanziaria negli appositi stanziamenti del bilancio pluriennale approvato dalla presente legge.</corpo>
 					</comma>
 					<comma id="art9-com5">
 						<num>5.</num>
 						<corpo>
 							L'eventuale maggiorazione dell'onere annuo di ammortamento dei mutui e prestiti di cui al
 							<rif xlink:href="#art9-com4" xlink:type="simple">comma 4</rif>
-							, dovuta alla variabilità del tasso od agli eventuali oneri conseguenti al rischio di cambio, trover_ copertura finanziaria con variazione ai bilanci annuali e pluriennali mediante le singole leggi di bilancio.
+							, dovuta alla variabilità del tasso od agli eventuali oneri conseguenti al rischio di cambio, troverà copertura finanziaria con variazione ai bilanci annuali e pluriennali attraverso le singole leggi di bilancio.
 						</corpo>
 					</comma>
 					<comma id="art9-com6">
