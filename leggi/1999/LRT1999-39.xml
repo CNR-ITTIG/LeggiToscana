@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19990716" num="21" tipo="BURT" />
 					<entratainvigore norm="19990731" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1999-07-08;39" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1999-07-08;39" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1999-07-08;39@2000-08-31" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sviluppo Economico" />
 						<materia valore="Unione Europea" />
@@ -16,11 +17,41 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19990731" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20000911" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1999-07-08;39" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-08-31;68" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-08-31;68" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-08-31;68#art8-com9" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 8, comma 9 della legge Regione Toscana 31 agosto 2000, n. 68" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art1-com1-letc" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-08-31;68" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-08-31;68#art8-com9" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 8, comma 9 della legge Regione Toscana 31 agosto 2000, n. 68" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art1-com1-letd" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -50,6 +81,14 @@
 						<el id="art1-com1-letb">
 							<num>b)</num>
 							<corpo>a favore di Soggetti pubblici e privati attuatori di progetti approvati per la realizzazione dei Patti Territoriali stipulati alla data del 30/11/98 con gli strumenti e le procedure del Docup stesso.</corpo>
+						</el>
+						<el id="art1-com1-letc" iniziovigore="t2">
+							<num>c)</num>
+							<corpo>a favore di soggetti pubblici attuatori di progetti infrastrutturali, con gli strumenti e le procedure individuate nel Docup stesso, nonché soggetti privati attuatori d'interventi a sostegno dell'innovazione tecnologica delle imprese;</corpo>
+						</el>
+						<el id="art1-com1-letd" iniziovigore="t2">
+							<num>d)</num>
+							<corpo>a favore di soggetti pubblici attuatori d'interventi a completamento di progetti già finanziati parzialmente, che, utilizzando risorse residue dal PAR. al 31.12.1999, riguardano: l'innovazione delle imprese, le infrastrutture di sostegno all'economia, le attrezzature e gli arredi tecnici per le strutture formative.</corpo>
 						</el>
 					</comma>
 				</articolo>
