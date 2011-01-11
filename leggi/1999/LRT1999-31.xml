@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t7" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19990611" num="17" tipo="BURT" />
 					<entratainvigore norm="19990611" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1999-06-02;31" />
+					<urn finevigore="t6" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1999-06-02;31" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1999-06-02;31@2000-12-28" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ordinamento" />
 						<materia valore="Enti Territoriali" />
@@ -20,6 +21,7 @@
 						<evento data="19990611" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="19990611" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="19990611" fonte="ra4" id="t5" tipo="modifica" />
+						<evento data="20010120" fonte="rp1" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1999-06-02;31" xlink:type="simple" />
@@ -27,6 +29,7 @@
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1992-08-18;39" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1992-08-18;39" xlink:type="simple" />
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1992-08-18;39" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-12-28;82" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -53,7 +56,7 @@
 						</dsp:variazione>
 						<dsp:sostituzione completa="si" implicita="no">
 							<dsp:pos xlink:href="#mod2" xlink:type="simple" />
-							<dsp:termine da="#t4" />
+							<dsp:termine da="#t7" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1992-08-18;39" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1992-08-18;39#allegato.a" xlink:type="simple" />
 							</dsp:norma>
@@ -88,6 +91,20 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1999-06-02;31" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-12-28;82" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-12-28;82#art15-com1-leti" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 15, comma 1, lettera i) della legge Regione Toscana 28 dicembre 2000, n. 82" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -138,7 +155,7 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>DISPOSIZIONI CONCERNENTI COMUNITÀ MONTANE</rubrica>
 					<articolo id="art2">
@@ -288,7 +305,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>DISPOSIZIONI CONCERNENTI COMUNI MONTANI</rubrica>
 					<articolo id="art5">
@@ -380,7 +397,7 @@
 							</descrittori>
 							<ciclodivita>
 								<eventi>
-									<evento data="19990611" fonte="ro2" id="t4" tipo="entrata in vigore" />
+									<evento data="19990611" fonte="ro2" id="t7" tipo="entrata in vigore" />
 								</eventi>
 								<relazioni>
 									<originale id="ro2" xlink:href="urn:nir:regione.toscana:legge:1999-06-02;31" xlink:type="simple" />

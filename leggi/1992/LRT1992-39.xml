@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t16" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19920827" num="48" tipo="BURT" />
@@ -13,7 +13,8 @@
 					<urn finevigore="t13" iniziovigore="t12" valore="urn:nir:regione.toscana:legge:1992-08-18;39@1994-03-07" />
 					<urn finevigore="t14" iniziovigore="t13" valore="urn:nir:regione.toscana:legge:1992-08-18;39@1996-08-02" />
 					<urn finevigore="t15" iniziovigore="t14" valore="urn:nir:regione.toscana:legge:1992-08-18;39@1996-12-11" />
-					<urn iniziovigore="t15" valore="urn:nir:regione.toscana:legge:1992-08-18;39@1999-06-02" />
+					<urn finevigore="t16" iniziovigore="t15" valore="urn:nir:regione.toscana:legge:1992-08-18;39@1999-06-02" />
+					<urn iniziovigore="t16" valore="urn:nir:regione.toscana:legge:1992-08-18;39@2000-12-28" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ordinamento" />
 						<materia valore="Montagna" />
@@ -37,6 +38,7 @@
 						<evento data="19960827" fonte="rp4" id="t13" tipo="modifica" />
 						<evento data="19970104" fonte="rp5" id="t14" tipo="modifica" />
 						<evento data="19990611" fonte="rp6" id="t15" tipo="modifica" />
+						<evento data="20010120" fonte="rp7" id="t16" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1992-08-18;39" xlink:type="simple" />
@@ -54,10 +56,11 @@
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1996-08-02;63" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1996-12-11;92" xlink:type="simple" />
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:1999-06-02;31" xlink:type="simple" />
+						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:2000-12-28;82" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Il presente testo verrà modificato in maniera sostanziosa dalla
 							<rif xlink:href="urn:nir:regione.toscana:legge:1993-12-30;103" xlink:type="simple">legge regionale 30 dicembre 1993, n. 103</rif>
@@ -68,7 +71,7 @@
 							la quale parzialmente riordina gli enti montani.
 						</h:p>
 					</nota>
-					<nota id="n2">
+					<nota id="LeggeRegionale1-n2">
 						<h:p>
 							Tale termine è prorogato di 6 mesi ai sensi della
 							<rif xlink:href="urn:nir:regione.toscana:legge:1993-09-01;61" xlink:type="simple">legge regionale 1 settembre 1993, n. 61</rif>
@@ -746,6 +749,18 @@
 								<dsp:pos xlink:href="#con32-t15" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1992-08-18;39" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-12-28;82" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-12-28;82#art15-com1-leta" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 15, comma 1, lettera a) della legge Regione Toscana 28 dicembre 2000, n. 82" id="itt41" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -757,7 +772,7 @@
 				<numDoc>39</numDoc>
 				<titoloDoc>
 					Riforma e riordino delle Comunità Montane.
-					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
@@ -767,7 +782,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>ORDINAMENTO ED AMBITI TERRITORIALI</rubrica>
 					<articolo id="art1">
@@ -816,7 +831,7 @@
 									<rif xlink:href="#art31" xlink:type="simple">31</rif>
 								</mrif>
 								, con le modalità ed i tempi previsti nel
-								<rif xlink:href="#tit4" xlink:type="simple">titolo IV</rif>
+								<rif xlink:href="#LeggeRegionale1-tit4" xlink:type="simple">titolo IV</rif>
 								della presente legge.
 							</corpo>
 						</comma>
@@ -1014,7 +1029,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>ORGANI DELLE COMUNITÀ MONTANE</rubrica>
 					<articolo id="art6">
@@ -1789,7 +1804,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>Titolo III</num>
 					<rubrica>FUNZIONAMENTO DELLE COMUNITÀ MONTANE</rubrica>
 					<articolo finevigore="t10" id="art18-t10" iniziovigore="t1" status="abrogato">
@@ -2140,7 +2155,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit4">
+				<titolo id="LeggeRegionale1-tit4">
 					<num>TITOLO IV</num>
 					<rubrica>RIORDINO TERRITORIALE DELLE COMUNITÀ MONTANE</rubrica>
 					<articolo id="art28">
@@ -2152,7 +2167,7 @@
 								La comunità montana corrispondente alla zona B del
 								<rif xlink:href="urn:nir:regione.toscana:legge:1981-06-12;52#art1-com1" xlink:type="simple">primo comma dell'art. 1 della legge regionale 12 giugno 1981 n. 52</rif>
 								, e comprendente il Comune di Fosdinovo e, parzialmente, i Comuni di Carrara, Massa e Montignoso, è soppressa decorsi dodici mesi dalla data di entrata in vigore della presente legge
-								<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+								<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(b)</ndr>
 								. Fino a tale termine la Comunità Montana continua ad esercitare le funzioni alla stessa delegate e attribuite, ivi compresi i servizi di cui alla
 								<rif xlink:href="urn:nir:stato:legge:1978-12-23;833" xlink:type="simple">legge 23 dicembre 1978, n. 833</rif>
 								e alle relative leggi statali e regionali di attuazione. Resta salva, per l'esercizio di tali servizi, l'applicazione delle diverse disposizioni che nel frattempo fossero stabilite dalla legge statale e dalle leggi regionali di attuazione; entro il suddetto termine la Regione provvede comunque a disciplinare le nuove forme istituzionali per l'esercizio dei servizi suddetti nella zona interessata.
@@ -2473,7 +2488,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit5">
+				<titolo id="LeggeRegionale1-tit5">
 					<num>Titolo V</num>
 					<rubrica>NORME FINALI</rubrica>
 					<articolo id="art34">
