@@ -8,7 +8,8 @@
 					<entratainvigore norm="19990320" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t7" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1999-02-23;8" />
-					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1999-02-23;8@2000-03-08" />
+					<urn finevigore="t10" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1999-02-23;8@2000-03-08" />
+					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1999-02-23;8@2000-10-25" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Enti Sanitari" />
 					</materie>
@@ -24,6 +25,7 @@
 						<evento data="20000401" fonte="rp1" id="t7" tipo="modifica" />
 						<evento data="20000401" fonte="ra6" id="t8" tipo="modifica" />
 						<evento data="20000401" fonte="ra7" id="t9" tipo="modifica" />
+						<evento data="20001031" fonte="rp2" id="t10" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1999-02-23;8" xlink:type="simple" />
@@ -35,6 +37,7 @@
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1977-03-12;18" xlink:type="simple" />
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:1977-03-12;18" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-03-08;20" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2000-10-25;75" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -142,7 +145,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art17-com9" xlink:type="simple" />
+							<dsp:pos xlink:href="#art17-com9-t10" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-03-08;20" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-03-08;20#art2-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -150,7 +153,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art17-com9" xlink:type="simple" />
+								<dsp:pos xlink:href="#art17-com9-t10" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art17-com9-t7" xlink:type="simple" />
@@ -196,6 +199,21 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art21-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art17-com9" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-10-25;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-10-25;75#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 25 ottobre 2000, n. 75" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art17-com9" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art17-com9-t10" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -903,9 +921,13 @@
 							<num>9.</num>
 							<corpo>Il Sindaco territorialmente competente, alla scadenza del termine per la presentazione della domanda di rinnovo dell'autorizzazione, accertata tramite il Dipartimento di prevenzione della Azienda USL la sussistenza dei requisiti richiesti, rinnova l'autorizzazione stessa.</corpo>
 						</comma>
-						<comma id="art17-com9" iniziovigore="t7">
+						<comma finevigore="t10" id="art17-com9-t10" iniziovigore="t7" status="abrogato">
 							<num>9.</num>
 							<corpo>Il Sindaco territorialmente competente rinnova l'autorizzazione dopo aver accertato, tramite il dipartimento di prevenzione dell'Azienda USL, la sussistenza dei requisiti richiesti.</corpo>
+						</comma>
+						<comma id="art17-com9" iniziovigore="t10">
+							<num>9.</num>
+							<corpo>Il Sindaco territorialmente competente rinnova l'autorizzazione entro 12 mesi dalla richiesta, dopo aver accertato, tramite il dipartimento di prevenzione dell'Azienda USL, la sussistenza dei requisiti richiesti.</corpo>
 						</comma>
 						<comma id="art17-com10">
 							<num>10.</num>
