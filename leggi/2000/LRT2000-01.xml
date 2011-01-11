@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20000121" num="2" tipo="BURT" />
 					<entratainvigore norm="20000205" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2000-01-12;1" />
+					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2000-01-12;1" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:2000-01-12;1@2000-10-25" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sicurezza" />
 						<materia valore="Diritti" />
@@ -17,10 +18,12 @@
 					<eventi>
 						<evento data="20000205" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20000205" fonte="ra1" id="t2" tipo="modifica" />
+						<evento data="20001031" fonte="rp1" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2000-01-12;1" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1985-05-02;48" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-10-25;74" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -38,6 +41,20 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-10-25;74" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-10-25;74#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 25 ottobre 2000, n. 74" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art7-com1bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -302,6 +319,14 @@
 							In fase di prima applicazione il piano di cui all'
 							<rif xlink:href="#art4" xlink:type="simple">articolo 4</rif>
 							ha efficacia a decorrere dal 1 gennaio 2001.
+						</corpo>
+					</comma>
+					<comma id="art7-com1bis" iniziovigore="t3">
+						<num>1 bis</num>
+						<corpo>
+							Le associazioni iscritte nell'elenco di cui all'
+							<rif xlink:href="#art3" xlink:type="simple">articolo 3</rif>
+							, presentano alla Giunta Regionale entro il 31 dicembre 2000, le iniziative che intendono realizzare nel corso dell'anno successivo.
 						</corpo>
 					</comma>
 					<comma id="art7-com2">
