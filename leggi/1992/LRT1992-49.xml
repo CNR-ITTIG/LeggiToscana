@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t9" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19921019" num="58" tipo="BURT" />
@@ -13,7 +13,8 @@
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1992-10-08;49@1995-01-16" />
 					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1992-10-08;49@1996-12-19" />
 					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1992-10-08;49@1998-06-05" />
-					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1992-10-08;49@1999-06-11" />
+					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1992-10-08;49@1999-06-11" />
+					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1992-10-08;49@2000-08-31" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sport" />
 					</materie>
@@ -28,6 +29,7 @@
 						<evento data="19970114" fonte="rp4" id="t6" tipo="modifica" />
 						<evento data="19980630" fonte="rp5" id="t7" tipo="modifica" />
 						<evento data="19990701" fonte="rp6" id="t8" tipo="modifica" />
+						<evento data="20000911" fonte="rp7" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1992-10-08;49" xlink:type="simple" />
@@ -38,10 +40,11 @@
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1996-12-19;94" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1998-06-05;29" xlink:type="simple" />
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:1999-06-11;34" xlink:type="simple" />
+						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:2000-08-31;72" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Abrogazione ai sensi dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41" xlink:type="simple">articolo 41 della legge regionale 16 gennaio 1995, n. 5</rif>
@@ -125,7 +128,7 @@
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41-com1-pun24" xlink:type="simple" />
 								<dsp:subarg>
@@ -193,6 +196,18 @@
 								<dsp:pos xlink:href="#art15-com1-t8" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1992-10-08;49" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-08-31;72" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-08-31;72#art15-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 15, comma 1 della legge Regione Toscana 31 agosto 2000, n. 72" id="itt10" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -210,7 +225,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>FINALITÀ E PROGRAMMAZIONE DEGLI INTERVENTI</rubrica>
 					<articolo id="art1">
@@ -462,7 +477,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>TIPOLOGIA DEGLI INTERVENTI</rubrica>
 					<articolo id="art6">
@@ -588,7 +603,7 @@
 					<articolo finevigore="t5" id="art9-t5" iniziovigore="t1" status="abrogato">
 						<num>
 							ARTICOLO 9
-							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 						</num>
 						<rubrica>(Procedure in materia urbanistica)</rubrica>
 						<comma id="art9-t5-com1">
@@ -807,7 +822,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>TITOLO III</num>
 					<rubrica>DISPOSIZIONI FINALI E TRANSITORIE</rubrica>
 					<articolo id="art14">
@@ -1063,7 +1078,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>TITOLO III</num>
 					<rubrica>DISPOSIZIONI FINALI E TRANSITORIE</rubrica>
 					<articolo id="art19">
