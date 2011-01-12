@@ -8,7 +8,8 @@
 					<entratainvigore norm="20000126" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2000-01-21;3" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2000-01-21;3@2000-08-31" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2000-01-21;3@2000-08-31" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2000-01-21;3@2001-01-26" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Bilancio" />
@@ -21,6 +22,7 @@
 						<evento data="20000126" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="20000126" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="20000911" fonte="rp1" id="t5" tipo="modifica" />
+						<evento data="20010202" fonte="rp2" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2000-01-21;3" xlink:type="simple" />
@@ -28,6 +30,7 @@
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1995-04-18;66" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1996-02-07;11" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-08-31;68" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2001-01-26;3" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -76,7 +79,7 @@
 					</modificheattive>
 					<modifichepassive>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art1-com2" xlink:type="simple" />
+							<dsp:pos xlink:href="#art1-t6-com2" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-08-31;68" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-08-31;68#art8-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -84,12 +87,36 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art1-com2" xlink:type="simple" />
+								<dsp:pos xlink:href="#art1-t6-com2" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#art1-com2-t5" xlink:type="simple" />
+								<dsp:pos xlink:href="#art1-t6-com2-t5" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-01-26;3" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-01-26;3#art1-com4" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 4 della legge Regione Toscana 26 gennaio 2001, n. 3" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art1-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art11" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-01-26;3" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-01-26;3#art4-com3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 3 della legge Regione Toscana 26 gennaio 2001, n. 3" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art11-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -108,21 +135,21 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<articolo id="art1">
+				<articolo finevigore="t6" id="art1-t6" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 1</num>
-					<comma id="art1-com1">
+					<comma id="art1-t6-com1">
 						<num>1.</num>
 						<corpo>Per interventi di adeguamento tecnologico ed immobiliare delle strutture sanitarie è autorizzato nel triennio 2000 - 2002 la spesa di Lire 80.000.000.000.</corpo>
 					</comma>
-					<comma finevigore="t5" id="art1-com2-t5" iniziovigore="t1" status="abrogato">
+					<comma finevigore="t5" id="art1-t6-com2-t5" iniziovigore="t1" status="abrogato">
 						<num>2.</num>
 						<corpo>Al bilancio pluriennale 2000 - 2002 fa carico la spesa di L.80.000.000.000 ripartita quanto a L.30.000.000.000 per l'anno 2000 e L.50.000.000.000 per l'anno 2001.</corpo>
 					</comma>
-					<comma id="art1-com2" iniziovigore="t5">
+					<comma id="art1-t6-com2" iniziovigore="t5">
 						<num>2.</num>
 						<corpo>Al bilancio pluriennale 2000-2002 fa carico la spesa di L. 40 milioni per l'anno 2000 e L. 40 milioni per l'anno 2001.</corpo>
 					</comma>
-					<comma id="art1-com3">
+					<comma id="art1-t6-com3">
 						<num>3.</num>
 						<corpo>Agli oneri di spesa per l'anno 2000 si fa fronte con lo stanziamento iscritto al cap. 18380 del bilancio di previsione.</corpo>
 					</comma>
@@ -369,9 +396,9 @@
 						<corpo>Agli oneri di spesa conseguenti all'applicazione dei precedenti commi si fa fronte con gli stanziamenti iscritti rispettivamente ai capitoli 36936, 36800 e 40000 del bilancio di previsione per l'anno 2000.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art11">
+				<articolo finevigore="t6" id="art11-t6" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 11</num>
-					<comma id="art11-com1">
+					<comma id="art11-t6-com1">
 						<num>1.</num>
 						<corpo>
 							Per il finanziamento dei piani di intervento infrastrutturali relativi alle aree di cui alla Deliberazione della Giunta Regionale n. 672 del 15/6/99 ai sensi dell'
@@ -381,7 +408,7 @@
 							, la Giunta Regionale è autorizzata a contrarre nell'anno 2001 un mutuo di L.16.040.000.000.
 						</corpo>
 					</comma>
-					<comma id="art11-com2">
+					<comma id="art11-t6-com2">
 						<num>2.</num>
 						<corpo>Gli interventi richiamati nel precedente comma trovano copertura finanziaria nel bilancio pluriennale 2000/2002 interamente a carico dell'anno 2001 con riferimento al corrispondente capitolo 28373 del bilancio dell'anno 2000 per la parte spesa (Programmi ed interventi settoriali - settore 15 - cod. 2.2) ed al corrispondente capitolo 41110 del bilancio dell'anno 2000 per la parte entrata (Titolo V - voce 41).</corpo>
 					</comma>
@@ -535,7 +562,7 @@
 										<h:td>- Articoli riferimento presente legge</h:td>
 										<h:td />
 										<h:td>
-											<rif xlink:href="#art1" xlink:type="simple">art. 1</rif>
+											<rif xlink:href="#art1-t6" xlink:type="simple">art. 1</rif>
 										</h:td>
 									</h:tr>
 									<h:tr>
@@ -828,7 +855,7 @@
 										<h:td>- Articoli riferimento presente legge</h:td>
 										<h:td />
 										<h:td>
-											<rif xlink:href="#art11" xlink:type="simple">art. 11</rif>
+											<rif xlink:href="#art11-t6" xlink:type="simple">art. 11</rif>
 										</h:td>
 									</h:tr>
 									<h:tr>

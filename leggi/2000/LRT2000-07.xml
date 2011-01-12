@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20000207" num="5" tipo="BURT" />
 					<entratainvigore norm="20000222" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2000-01-28;7" />
+					<urn finevigore="t6" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2000-01-28;7" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2000-01-28;7@2001-01-26" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sistema Educativo" />
 					</materie>
@@ -19,6 +20,7 @@
 						<evento data="20000222" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="20000222" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="20000222" fonte="ra4" id="t5" tipo="modifica" />
+						<evento data="20010202" fonte="rp1" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2000-01-28;7" xlink:type="simple" />
@@ -26,6 +28,7 @@
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1993-12-30;104" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1994-08-05;62" xlink:type="simple" />
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1995-01-03;2" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2001-01-26;3" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -79,6 +82,23 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art30-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-01-26;3" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-01-26;3#art11-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 11, comma 1 della legge Regione Toscana 26 gennaio 2001, n. 3" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art30-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art30-com2-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -963,7 +983,7 @@
 							<num>1.</num>
 							<corpo>Il personale delle Aziende è iscritto nell'apposito ruolo del personale di ciascuna Azienda e ad esso si applica il Contratto Collettivo Nazionale di Lavoro del comparto Regioni - Autonomie locali.</corpo>
 						</comma>
-						<comma id="art30-com2">
+						<comma finevigore="t6" id="art30-com2-t6" iniziovigore="t1" status="abrogato">
 							<num>2.</num>
 							<corpo>
 								Al personale iscritto nei ruoli delle Aziende, già trasferito dalla Regione Toscana ai sensi della
@@ -971,6 +991,16 @@
 								, continuano ad applicarsi i benefici derivanti dalle disposizioni di cui alla
 								<rif xlink:href="urn:nir:regione.toscana:legge:1982-05-10;35" xlink:type="simple">LR 10 maggio 1982, n. 35</rif>
 								. I relativi oneri sono a carico della Regione Toscana che provvede direttamente all'erogazione dei benefici stessi.
+							</corpo>
+						</comma>
+						<comma id="art30-com2" iniziovigore="t6">
+							<num>2.</num>
+							<corpo>
+								Al personale iscritto nei ruoli delle Aziende, già trasferito dalla Regione Toscana ai sensi della
+								<rif xlink:href="urn:nir:regione.toscana:legge:1993-08-11;55" xlink:type="simple">legge regionale 11 agosto 1993, n. 55</rif>
+								, continuano ad applicarsi i benefici derivanti dalle disposizioni di cui alla
+								<rif xlink:href="urn:nir:regione.toscana:legge:1982-05-10;35" xlink:type="simple">legge regionale 10 maggio 1982, n. 35</rif>
+								. I relativi oneri sono a carico delle Aziende.
 							</corpo>
 						</comma>
 						<comma id="art30-com3">
