@@ -21,6 +21,7 @@
 						<evento data="19970222" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="19970222" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="20000415" fonte="rp1" id="t5" tipo="modifica" />
+						<evento data="20010217" fonte="rp2" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1997-01-29;9" xlink:type="simple" />
@@ -28,6 +29,7 @@
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1976-09-04;64" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1976-09-04;64" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-03-21;39" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2000-03-21;39" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -82,6 +84,21 @@
 								<dsp:pos xlink:href="#art2-com8-t5" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com1-letc-t6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-03-21;39" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-03-21;39#art96bis" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo96bis, legge Regione Toscana 21 marzo 2000, n. 39" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6-com1-letd" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art6-com1-letc-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -330,7 +347,7 @@
 							<num>b)</num>
 							<corpo>nella misura fino al 15% all'Ente Delegato per effettuare interventi di miglioramento ambientale nelle aree oggetto di interventi di alienazione;</corpo>
 						</el>
-						<el id="art6-com1-letc">
+						<el finevigore="t6" id="art6-com1-letc-t6" iniziovigore="t1" status="abrogato">
 							<num>c)</num>
 							<corpo>
 								la restante percentuale alla Regione per effettuare interventi di ampliamento, miglioramento e valorizzazione del restante patrimonio agricolo-forestale, ai sensi dell'
@@ -338,6 +355,16 @@
 								nonché per sostenere le iniziative nelle zone montane ai sensi della
 								<rif xlink:href="urn:nir:regione.toscana:legge:1996-12-19;95" xlink:type="simple">LR n. 95 del 19/12/1996</rif>
 								. La Giunta Regionale determina annualmente, sulla base dello stato di avanzamento della procedura di alienazione, la quota da destinare al fondo per la montagna.
+							</corpo>
+						</el>
+						<el id="art6-com1-letd" iniziovigore="t6">
+							<num>c)</num>
+							<corpo>
+								la restante percentuale alla Regione per effettuare interventi di ampliamento, miglioramento e valorizzazione del restante patrimonio agricolo-forestale, nel rispetto delle finalità di cui all'
+								<rif xlink:href="urn:nir:regione.toscana:legge:2000-03-21;39#art27" xlink:type="simple">articolo 27 della legge regionale 21 marzo 2000, n. 39</rif>
+								"Legge forestale della Toscana"nonché per sostenere le iniziative nelle zone montane ai sensi della
+								<rif xlink:href="urn:nir:regione.toscana:legge:1996-12-19;95" xlink:type="simple">legge regionale 19 dicembre 1996, n. 95</rif>
+								"Disciplina degli interventi per lo sviluppo della montagna". La Giunta regionale determina annualmente, sulla base dello stato di avanzamento della procedura di alienazione, la quota da destinare al fondo per la montagna.
 							</corpo>
 						</el>
 					</comma>
@@ -375,7 +402,7 @@
 							In caso di applicazione della riduzione del 50% del prezzo di stima, ove l'Ente acquirente il bene sia lo stesso Ente Delegato, non è dovuta a quest'ultimo la quota dei proventi di cui all'
 							<rif xlink:href="#art6-com1" xlink:type="simple">art. 6 comma 1</rif>
 							lettere a) e b). In tal caso i proventi derivanti dall'alienazione sono destinati alla Regione per le iniziative di cui alla
-							<rif xlink:href="#art6-com1-letc" xlink:type="simple">lettera c) del primo comma del precedente articolo 6</rif>
+							<rif xlink:href="#art6-com1-letc-t6" xlink:type="simple">lettera c) del primo comma del precedente articolo 6</rif>
 							.
 						</corpo>
 					</comma>
