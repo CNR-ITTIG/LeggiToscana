@@ -8,7 +8,8 @@
 					<entratainvigore norm="19990415" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t11" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1999-03-22;16" />
-					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1999-03-22;16@1999-12-22" />
+					<urn finevigore="t12" iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1999-03-22;16@1999-12-22" />
+					<urn iniziovigore="t12" valore="urn:nir:regione.toscana:legge:1999-03-22;16@2000-12-28" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Prodotti Agricoli" />
 						<materia valore="Parchi" />
@@ -28,6 +29,7 @@
 						<evento data="19990415" fonte="ra8" id="t9" tipo="modifica" />
 						<evento data="19990415" fonte="ra9" id="t10" tipo="modifica" />
 						<evento data="20000115" fonte="rp1" id="t11" tipo="modifica" />
+						<evento data="20010120" fonte="rp2" id="t12" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1999-03-22;16" xlink:type="simple" />
@@ -41,6 +43,7 @@
 						<attiva id="ra8" xlink:href="urn:nir:regione.toscana:legge:1982;82" xlink:type="simple" />
 						<attiva id="ra9" xlink:href="urn:nir:regione.toscana:legge:1982;82" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1999-12-22;68" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2000-12-28;81" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -475,6 +478,21 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art25-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art24-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-12-28;81" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-12-28;81#art17-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 17, comma 2 della legge Regione Toscana 28 dicembre 2000, n. 81" id="itt26" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art24-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art24-com1-t12" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -1418,7 +1436,7 @@
 					<articolo id="art24">
 						<num>Art. 24</num>
 						<rubrica>(Procedimento sanzionatorio)</rubrica>
-						<comma id="art24-com1">
+						<comma finevigore="t12" id="art24-com1-t12" iniziovigore="t1" status="abrogato">
 							<num>1.</num>
 							<corpo>
 								Il Comune nel cui territorio è stata commessa l'infrazione è competente alla irrogazione delle sanzioni amministrative previste dalla presente legge ed all'introitamento delle somme riscosse per le violazioni alle disposizioni di cui al
@@ -1427,6 +1445,10 @@
 								<rif xlink:href="#tit3" xlink:type="simple">titolo III</rif>
 								.
 							</corpo>
+						</comma>
+						<comma id="art24-com1" iniziovigore="t12">
+							<num>1.</num>
+							<corpo>Il comune nel cui territorio è stata commessa l'infrazione è competente all'applicazione delle sanzioni previste dalla presente legge.</corpo>
 						</comma>
 						<comma id="art24-com2">
 							<num>2.</num>
