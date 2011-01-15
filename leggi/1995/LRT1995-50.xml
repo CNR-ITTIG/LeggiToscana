@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1995-04-11;50" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1995-04-11;50@1996-08-07" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1995-04-11;50@1997-07-17" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1995-04-11;50@1997-07-17" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1995-04-11;50@2001-02-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Prodotti Agricoli" />
 						<materia valore="Foreste" />
@@ -21,16 +22,25 @@
 						<evento data="19950503" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="19960828" fonte="rp1" id="t3" tipo="modifica" />
 						<evento data="19970810" fonte="rp2" id="t4" tipo="modifica" />
+						<evento data="20010317" fonte="rp3" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-04-11;50" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1988;58" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1996-08-07;64" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1997-07-17;52" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2001-02-21;10" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
 					<nota id="n1">
+						<h:p>
+							Il pagamento dell'importo di cui al presente comma decorre dal trentesimo giorno successivo la pubblicazione della
+							<rif xlink:href="urn:nir:regione.toscana:legge:2001-02-21;10" xlink:type="simple">legge regionale 21 febbraio 2001, n. 10</rif>
+							, modificativa della presente legge.
+						</h:p>
+					</nota>
+					<nota id="n2">
 						<h:p>
 							Riferimento errato, il legislatore intendeva riferirsi alla
 							<rif xlink:href="urn:nir:regione.toscana:legge:1988-08-03;58" xlink:type="simple">legge regionale 3 agosto 1988, n. 58</rif>
@@ -55,7 +65,7 @@
 					</modificheattive>
 					<modifichepassive>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							<dsp:pos xlink:href="#art9-t5" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-08-07;64" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-08-07;64#art1-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -63,7 +73,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art9" xlink:type="simple" />
+								<dsp:pos xlink:href="#art9-t5" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art9-t3" xlink:type="simple" />
@@ -222,6 +232,93 @@
 								<dsp:pos xlink:href="#ann2-t4" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-02-21;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-02-21;10#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 21 febbraio 2001, n. 10" id="itt13" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art9-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art11-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-02-21;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-02-21;10#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 21 febbraio 2001, n. 10" id="itt14" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art11-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art11-com2-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art19" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-02-21;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-02-21;10#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 21 febbraio 2001, n. 10" id="itt15" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art19" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art19-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art21" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-02-21;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-02-21;10#art4-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1 della legge Regione Toscana 21 febbraio 2001, n. 10" id="itt16" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art21" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art21-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art23" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-02-21;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-02-21;10#art5-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 1 della legge Regione Toscana 21 febbraio 2001, n. 10" id="itt17" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art23" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art23-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art25" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-02-21;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-02-21;10#art6-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 6, comma 1 della legge Regione Toscana 21 febbraio 2001, n. 10" id="itt18" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art25" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art25-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -528,7 +625,7 @@
 						<num>4.</num>
 						<corpo>
 							Il proprietario o conduttore del fondo tabellato il quale non osservi le norme del provvedimento di revoca di cui al comma precedente e quelle relative agli altri vincoli esistenti sul territorio, incorrerà nelle sanzioni di cui all'
-							<rif xlink:href="#art21" xlink:type="simple">art. 21</rif>
+							<rif xlink:href="#art21-t5" xlink:type="simple">art. 21</rif>
 							della presente legge, comma 1 lettera o) ed avrà l'obbligo di compiere i lavori impostigli dal Comune entro il termine da questi stabilito.
 						</corpo>
 					</comma>
@@ -601,10 +698,10 @@
 						<corpo>Le proposte dei suddetti soggetti devono pervenire alla Giunta regionale entro il mese di febbraio dell'anno a cui si riferisce il programma.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art9" iniziovigore="t3">
+				<articolo finevigore="t5" id="art9-t5" iniziovigore="t3" status="abrogato">
 					<num>ARTICOLO 9</num>
 					<rubrica>(Iniziative promozionali)</rubrica>
-					<comma id="art9-com1">
+					<comma id="art9-t5-com1">
 						<num>1.</num>
 						<corpo>
 							La Regione, nei limiti degli stanziamenti previsti dalle leggi di bilancio, tenendo conto delle proposte degli Enti locali, dell'ARSIA, delle Associazioni dei tartufai, riconosciute ai sensi del
@@ -680,11 +777,19 @@
 						<num>1.</num>
 						<corpo>L'aspirante raccoglitore di tartufi, conseguita l'idoneità, richiede al Comune di residenza il tesserino che abilita alla ricerca ed alla raccolta del tartufo. Sul tesserino sono riportate le generalità e la fotografia. L'età minima dei raccoglitori non può essere inferiore a 14 anni.</corpo>
 					</comma>
-					<comma id="art11-com2">
+					<comma finevigore="t5" id="art11-com2-t5" iniziovigore="t1" status="abrogato">
 						<num>2.</num>
 						<corpo>
 							Il tesserino viene rilasciato previa attestazione del pagamento della relativa tassa di concessione regionale di cui al
-							<rif xlink:href="#art23" xlink:type="simple">successivo art. 23</rif>
+							<rif xlink:href="#art23-t5" xlink:type="simple">successivo art. 23</rif>
+							.
+						</corpo>
+					</comma>
+					<comma id="art11-com2" iniziovigore="t5">
+						<num>2.</num>
+						<corpo>
+							Il tesserino viene rilasciato previa attestazione del pagamento dell'importo relativo all'abilitazione alla ricerca e alla raccolta del tartufo di cui all'
+							<rif xlink:href="#art23" xlink:type="simple">articolo 23</rif>
 							.
 						</corpo>
 					</comma>
@@ -1160,24 +1265,44 @@
 						<corpo>Il peso netto indicato nella confezione deve corrispondere a quello dei tartufi sgocciolati con una tolleranza massima del 5%.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art19">
+				<articolo finevigore="t5" id="art19-t5" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 19</num>
 					<rubrica>(Accertamento delle infrazioni)</rubrica>
-					<comma id="art19-com1">
+					<comma id="art19-t5-com1">
 						<num>1.</num>
 						<corpo>Sono incaricati dell'accertamento e della contestazione delle infrazioni alla presente legge gli agenti dipendenti dagli Enti Locali, le guardie addette ai parchi nazionali e regionali, gli agenti del Corpo Forestale dello Stato, gli agenti e gli ufficiali di polizia giudiziaria.</corpo>
 					</comma>
-					<comma id="art19-com2">
+					<comma id="art19-t5-com2">
 						<num>2.</num>
 						<corpo>Possono inoltre essere impiegati quali guardie volontarie, in conformità con la legislazione vigente in materia di sanzioni amministrative, previa stipulazione con le Provincie di convenzione con le associazioni operanti nella materia di cui alla presente legge, gli associati delle medesime.</corpo>
 					</comma>
-					<comma id="art19-com3">
+					<comma id="art19-t5-com3">
 						<num>3.</num>
 						<corpo>
 							Fermi restando i poteri di accertamento previsti dal
 							<rif xlink:href="urn:nir:stato:legge:1981-11-24;689#art13-com1" xlink:type="simple">primo comma dell'art. 13 della Legge 24.11.1981, n. 689</rif>
 							, i soggetti incaricati dell'accertamento delle infrazioni alla presente legge possono chiedere l'esibizione del tesserino di idoneità di cui all'
 							<rif xlink:href="#art11" xlink:type="simple">art. 11</rif>
+							.
+						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art19" iniziovigore="t5">
+					<num>Art. 19</num>
+					<rubrica>Accertamento delle infrazioni</rubrica>
+					<comma id="art19-com1">
+						<num>1.</num>
+						<corpo>Sono incaricati dell'accertamento e della contestazione delle infrazioni alla presente legge gli agenti dipendenti dagli Enti locali, le guardie addette ai parchi nazionali e regionali, gli agenti del Corpo Forestale dello Stato, gli agenti e gli ufficiali di polizia giudiziaria, le guardie ambientali volontarie (GAV), gli organi di vigilanza e ispezione delle Aziende Sanitarie Locali (ASL) nonché, limitatamente alle aree oggetto di raccolta riservata, le guardie private riconosciute ai sensi del testo unico delle leggi di pubblica sicurezza.</corpo>
+					</comma>
+					<comma id="art19-com2">
+						<num>2.</num>
+						<corpo>
+							Fermi restando i poteri di accertamento previsti dall'
+							<rif xlink:href="urn:nir:stato:legge:1981-11-24;689#art13" xlink:type="simple">articolo 13 della legge 24 novembre 1981 n. 689</rif>
+							"Modifiche al sistema penale", i soggetti incaricati dell'accertamento delle infrazioni alla presente legge possono chiedere l'esibizione del tesserino di idoneità di cui all'
+							<rif xlink:href="#art11" xlink:type="simple">articolo 11</rif>
+							nonché della ricevuta relativa al pagamento dell'importo relativo all'abilitazione di cui all'
+							<rif xlink:href="#art23" xlink:type="simple">articolo 23</rif>
 							.
 						</corpo>
 					</comma>
@@ -1218,13 +1343,13 @@
 						<corpo>In caso di pagamento in misura ridotta, la confisca è disposta con apposita ordinanza.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art21">
+				<articolo finevigore="t5" id="art21-t5" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 21</num>
 					<rubrica>(Sanzioni)</rubrica>
-					<comma id="art21-com1">
+					<comma id="art21-t5-com1">
 						<num>1.</num>
 						<alinea>Per la violazione delle disposizioni della presente legge, si applicano le seguenti sanzioni:</alinea>
-						<el id="art21-com1-leta">
+						<el id="art21-t5-com1-leta">
 							<num>a)</num>
 							<corpo>
 								la sanzione da lit. 150.000 a lit. 1.500.000 per chi effettua la ricerca e la raccolta del tartufo senza aver conseguito il tesserino di cui all'
@@ -1232,23 +1357,23 @@
 								;
 							</corpo>
 						</el>
-						<el id="art21-com1-letb">
+						<el id="art21-t5-com1-letb">
 							<num>b)</num>
 							<corpo>la sanzione da lit. 150.000 a lit. 1.500.000 per chi, pur essendo munito del tesserino, non ha provveduto al pagamento della tassa annuale;</corpo>
 						</el>
-						<el id="art21-com1-letc">
+						<el id="art21-t5-com1-letc">
 							<num>c)</num>
 							<corpo>la sanzione da L. 150.000 a L. 1.500.000 per chi esercita la ricerca e la raccolta in periodo di divieto o in ore non consentite;</corpo>
 						</el>
-						<el id="art21-com1-letd">
+						<el id="art21-t5-com1-letd">
 							<num>d)</num>
 							<corpo>la sanzione da L. 150.000 a L. 1.500.000 per chi esercita la ricerca o la raccolta senza l'ausilio del cane appositamente addestrato o senza idoneo attrezzo;</corpo>
 						</el>
-						<el id="art21-com1-lete">
+						<el id="art21-t5-com1-lete">
 							<num>e)</num>
 							<corpo>la sanzione da L. 150.000 a L. 1.500.000 per chi esercita la raccolta o la ricerca mediante la lavorazione anche del terreno o effettua buche in soprannumero o non riempite subito con il medesimo terreno di scavo per deciara di terreno lavorato e per ogni cinque buche o frazione di cinque buche aperte e non riempite a regola d'arte;</corpo>
 						</el>
-						<el id="art21-com1-letf">
+						<el id="art21-t5-com1-letf">
 							<num>f)</num>
 							<corpo>
 								la sanzione da L. 150.000 a L. 1.500.000 per chi esercita la raccolta nelle aree rimboschite prima che siano trascorsi quindici anni dal rimboschimento; tali aree devono essere delimitate da tabelle recanti la scritta: "area di rimboschimento fino al ..." disposte con la tipologia e le modalità di cui al
@@ -1256,15 +1381,15 @@
 								;
 							</corpo>
 						</el>
-						<el id="art21-com1-letg">
+						<el id="art21-t5-com1-letg">
 							<num>g)</num>
 							<corpo>la sanzione da L. 100.000 a L. 1.000.000 per chi raccoglie tartufi immaturi: in detto caso oltre alla sanzione precedente si applica una sanzione di L. 150.000 per ogni tartufo colto immaturo;</corpo>
 						</el>
-						<el id="art21-com1-leth">
+						<el id="art21-t5-com1-leth">
 							<num>h)</num>
 							<corpo>la sanzione di L. 250.000 a L. 2.500.000 per la vendita al mercato pubblico di tartufi senza l'osservanza delle norme prescritte dalla presente legge;</corpo>
 						</el>
-						<el id="art21-com1-leti">
+						<el id="art21-t5-com1-leti">
 							<num>i)</num>
 							<corpo>
 								la sanzione da L. 600.000 a L. 6.000.000 per chi esercita il commercio di tartufi freschi fuori dal periodo di raccolta previsto dal calendario ovvero per chi esercita il commercio di tipi di tartufo non previsti dall'
@@ -1272,23 +1397,23 @@
 								;
 							</corpo>
 						</el>
-						<el id="art21-com1-letl">
+						<el id="art21-t5-com1-letl">
 							<num>l)</num>
 							<corpo>la sanzione da lit. 300.000 a lit. 3.000.000 per chi mette in commercio tartufi conservati senza l'osservanza delle norme prescritte dalla presente legge;</corpo>
 						</el>
-						<el id="art21-com1-letm">
+						<el id="art21-t5-com1-letm">
 							<num>m)</num>
 							<corpo>la sanzione da L. 150.000 a L. 1.500.000 salvo e impregiudicato ogni altra sanzione per chi esercita la raccolta dei tartufi nei terreni di "Raccolta di tartufo riservata" senza la necessaria autorizzazione da parte del proprietario o conducente il fondo o per chi esercita senza averne titolo la raccolta nei terreni d'uso civico tabellati con la scritta "raccolta di tartufo riservata - terre d'uso civico";</corpo>
 						</el>
-						<el id="art21-com1-letn">
+						<el id="art21-t5-com1-letn">
 							<num>n)</num>
 							<corpo>la tabellazione illegittima delle aree rimboschite, è punita con una sanzione di L. 25.000 per ogni tabella apposta illegittimamente;</corpo>
 						</el>
-						<el id="art21-com1-leto">
+						<el id="art21-t5-com1-leto">
 							<num>o)</num>
 							<corpo>l'apposizione o il mantenimento di tabelle di riserva nelle tartufaie non riconosciute come coltivate o controllate è punita con una sanzione da L. 1.500.000 a L. 15.000.000;</corpo>
 						</el>
-						<el id="art21-com1-letp">
+						<el id="art21-t5-com1-letp">
 							<num>p)</num>
 							<corpo>
 								la sanzione di lit. 75.000 a lit. 750.000 per chi non esibisce il tesserino di cui all'
@@ -1296,7 +1421,7 @@
 								a richiesta degli agenti accertatori;
 							</corpo>
 						</el>
-						<el id="art21-com1-letq">
+						<el id="art21-t5-com1-letq">
 							<num>q)</num>
 							<corpo>
 								la sanzione da L. 150.000 a 1.500.000 a chi non appone la tabellazione in conformità alle disposizioni di cui all'
@@ -1304,7 +1429,7 @@
 								;
 							</corpo>
 						</el>
-						<el id="art21-com1-letr">
+						<el id="art21-t5-com1-letr">
 							<num>r)</num>
 							<corpo>
 								la sanzione da Lit. 150.000 a Lit. 1.500.000 per la violazione di cui all'
@@ -1312,26 +1437,142 @@
 								commi 6 e 7 della presente legge;
 							</corpo>
 						</el>
-						<el id="art21-com1-lets">
+						<el id="art21-t5-com1-lets">
 							<num>s)</num>
 							<corpo>la sanzione da Lit. 150.000 a Lit. 1.500.000 per chi viola le disposizioni della presente legge o del calendario di raccolta non espressamente richiamate dal presente articolo.</corpo>
 						</el>
 					</comma>
-					<comma id="art21-com2">
+					<comma id="art21-t5-com2">
 						<num>2.</num>
 						<corpo>In caso di recidiva le sanzioni di cui al comma precedente sono raddoppiate.</corpo>
 					</comma>
-					<comma id="art21-com3">
+					<comma id="art21-t5-com3">
 						<num>3.</num>
 						<corpo>
 							Qualora sia accertata la violazione di cui alla
-							<rif xlink:href="#art21-com1-letg" xlink:type="simple">lett. g) del primo comma</rif>
+							<rif xlink:href="#art21-t5-com1-letg" xlink:type="simple">lett. g) del primo comma</rif>
 							, l'ammontare del pagamento in misura ridotta è determinato, da un minimo ad un massimo, con i criteri di cui all'
 							<rif xlink:href="urn:nir:stato:legge:1981-11-24;689#art16" xlink:type="simple">art. 16 della legge 24.11.81 n. 689</rif>
 							e, per la parte proporzionale, moltiplicando l'importo base indicato nella stessa
-							<rif xlink:href="#art21-com1-letg" xlink:type="simple">lett. g)</rif>
+							<rif xlink:href="#art21-t5-com1-letg" xlink:type="simple">lett. g)</rif>
 							per il numero dei tartufi immaturi risultante dal verbale di accertamento.
 						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art21" iniziovigore="t5">
+					<num>Art. 21</num>
+					<rubrica>Sanzioni</rubrica>
+					<comma id="art21-com1">
+						<num>1.</num>
+						<alinea>Per la violazione delle disposizioni della presente legge, si applicano le seguenti sanzioni:</alinea>
+						<el id="art21-com1-leta">
+							<num>a)</num>
+							<corpo>
+								la sanzione da Lit. 150.000, pari a Euro 77,47, a Lit. 1.500.000, pari a Euro 774,68, per chi effettua la ricerca e la raccolta del tartufo senza aver conseguito il tesserino di cui all'
+								<rif xlink:href="#art11" xlink:type="simple">articolo 11</rif>
+								;
+							</corpo>
+						</el>
+						<el id="art21-com1-letb">
+							<num>b)</num>
+							<corpo>
+								la sanzione da Lit. 150.000 pari a Euro 77,47 a Lit. 1.500.000 pari a Euro 774,68 per chi, pur essendo munito del tesserino, non ha provveduto al pagamento dell'importo relativo all'abilitazione di cui all'
+								<rif xlink:href="#art23" xlink:type="simple">articolo 23</rif>
+								;
+							</corpo>
+						</el>
+						<el id="art21-com1-letc">
+							<num>c)</num>
+							<corpo>la sanzione da Lit. 150.000, pari a Euro 77,47, a Lit. 1.500.000, pari a Euro 774,68, per chi esercita la ricerca e la raccolta in periodo di divieto o in ore non consentite;</corpo>
+						</el>
+						<el id="art21-com1-letd">
+							<num>d)</num>
+							<corpo>la sanzione da Lit. 150.000, pari a Euro 77,47 a Lit. 1.500.000, pari a Euro 774,68, per chi esercita la ricerca o la raccolta senza l'ausilio del cane appositamente addestrato o senza idoneo attrezzo;</corpo>
+						</el>
+						<el id="art21-com1-lete">
+							<num>e)</num>
+							<corpo>la sanzione da Lit. 150.000, pari a Euro 77,47, a Lit. 1.500.000, pari a Euro 774,68, per chi esercita la raccolta o la ricerca mediante la lavorazione anche del terreno o effettua buche in soprannumero o non riempite subito con il medesimo terreno di scavo per deciara di terreno lavorato e per ogni cinque buche o frazione di cinque buche aperte e non riempite a regola d'arte;</corpo>
+						</el>
+						<el id="art21-com1-letf">
+							<num>f)</num>
+							<corpo>
+								la sanzione da Lit. 150.000, pari a Euro 77,47, a Lit. 1.500.000, pari a Euro 774,68, per chi esercita la raccolta nelle aree rimboschite prima che siano trascorsi quindici anni dal rimboschimento; tali aree devono essere delimitate da tabelle recanti la scritta: "area di rimboschimento fino al ..." disposte con la tipologia e le modalità di cui al quarto comma del precedente
+								<rif xlink:href="#art3" xlink:type="simple">articolo 3</rif>
+								;
+							</corpo>
+						</el>
+						<el id="art21-com1-letg">
+							<num>g)</num>
+							<corpo>la sanzione da Lit. 100.000, pari a Euro 51,64, a Lit. 1.000.000, pari a Euro 516,46, per chi raccoglie tartufi immaturi: in detto caso oltre alla sanzione precedente si applica una sanzione di Lit. 150.000, pari a Euro 77,47, per ogni tartufo colto immaturo;</corpo>
+						</el>
+						<el id="art21-com1-leth">
+							<num>h)</num>
+							<corpo>la sanzione di Lit. 250.000, pari a Euro 129,11, a Lit. 2.500.000, pari a Euro 1.291,14 per la vendita al mercato pubblico di tartufi senza l'osservanza delle norme prescritte dalla presente legge;</corpo>
+						</el>
+						<el id="art21-com1-leti">
+							<num>i)</num>
+							<corpo>
+								la sanzione da Lit. 600.000, pari a Euro 309,87, a Lit. 6.000.000, pari a Euro 3.098,74 per chi esercita il commercio di tartufi freschi fuori dal periodo di raccolta previsto dal calendario ovvero per chi esercita il commercio di tipi di tartufo non previsti dall'
+								<rif xlink:href="#art2" xlink:type="simple">articolo 2</rif>
+								;
+							</corpo>
+						</el>
+						<el id="art21-com1-letl">
+							<num>l)</num>
+							<corpo>la sanzione da Lit. 300.000, pari a Euro 154,94, a Lit. 3.000.000, pari a Euro 1.549,37, per chi mette in commercio tartufi conservati senza l'osservanza delle norme prescritte dalla presente legge;</corpo>
+						</el>
+						<el id="art21-com1-letm">
+							<num>m)</num>
+							<corpo>la sanzione da Lit. 150.000, pari a Euro 77,47, a Lit. 1.500.000, pari a Euro 774,68, salvo e impregiudicato ogni altra sanzione per chi esercita la raccolta dei tartufi nei terreni di "Raccolta di tartufo riservata"senza la necessaria autorizzazione da parte del proprietario o conducente il fondo o per chi esercita senza averne titolo la raccolta nei terreni d'uso civico tabellati con la scritta "raccolta di tartufo riservata - terre d'uso civico";</corpo>
+						</el>
+						<el id="art21-com1-letn">
+							<num>n)</num>
+							<corpo>la tabellazione illegittima delle aree rimboschite, è punita con una sanzione di Lit. 25.000, pari a Euro 12,91, per ogni tabella apposta illegittimamente;</corpo>
+						</el>
+						<el id="art21-com1-leto">
+							<num>o)</num>
+							<corpo>l'apposizione o il mantenimento di tabelle di riserva nelle tartufaie non riconosciute come coltivate o controllate è punita con una sanzione da Lit. 1.500.000, pari a Euro 774,68, a Lit. 15.000.000, pari a Euro 7.746,85;</corpo>
+						</el>
+						<el id="art21-com1-letp">
+							<num>p)</num>
+							<corpo>
+								la sanzione da Lit. 75.000 pari a Euro 38,73 a Lit. 750.000 pari a Euro 387,34 per chi non esibisce, all'atto dell'accertamento o entro tre giorni dalla data dell'accertamento stesso, il tesserino di cui all'articolo 11 e la ricevuta di pagamento dell'importo relativo all'abilitazione di cui all'
+								<rif xlink:href="#art23" xlink:type="simple">articolo 23</rif>
+								a richiesta degli agenti accertatori;
+							</corpo>
+						</el>
+						<el id="art21-com1-letq">
+							<num>q)</num>
+							<corpo>
+								la sanzione da Lit. 150.000, pari a Euro 77,47, a Lit. 1.500.000, pari a Euro 774,68, a chi non appone la tabellazione in conformità alle disposizioni di cui all'
+								<rif xlink:href="#art3-com4" xlink:type="simple">articolo 3 comma 4</rif>
+								;
+							</corpo>
+						</el>
+						<el id="art21-com1-letr">
+							<num>r)</num>
+							<corpo>
+								la sanzione da Lit. 150.000, pari a Euro 77,47, a Lit. 1.500.000, pari a Euro 774,68, per la violazione di cui all'
+								<rif xlink:href="#art3-com6" xlink:type="simple">articolo 3</rif>
+								commi 6 e 7 della presente legge;
+							</corpo>
+						</el>
+						<el id="art21-com1-lets">
+							<num>s)</num>
+							<corpo>la sanzione da Lit. 150.000, pari a Euro 77,47, a Lit. 1.500.000, pari a Euro 774,68, per chi viola le disposizioni della presente legge o del calendario di raccolta non espressamente richiamate dal presente articolo.</corpo>
+						</el>
+						<el id="art21-com1-let2">
+							<num>2.</num>
+							<corpo>In caso di recidiva le sanzioni di cui al comma precedente sono raddopiate.</corpo>
+						</el>
+						<el id="art21-com1-let3">
+							<num>3.</num>
+							<corpo>
+								Qualora sia accertata la violazione di cui alla lettera g) del primo comma, l'ammontare del pagamento in misura ridotta è determinato, da un minimo ad un massimo, con i criteri di cui all'
+								<rif xlink:href="urn:nir:stato:legge:1981-11-24;689#art16" xlink:type="simple">articolo 16 della legge 24/11/1981 n. 689</rif>
+								e, per la parte proporzionale, moltiplicando l'importo base indicato nella stessa lettera g) per il numero dei tartufi immaturi risultante dal verbale di accertamento.
+							</corpo>
+						</el>
 					</comma>
 				</articolo>
 				<articolo id="art22">
@@ -1341,7 +1582,7 @@
 						<num>1.</num>
 						<corpo>
 							Ai fini della presente legge è considerato recidivo colui che dopo aver commesso una delle infrazioni di cui al
-							<rif xlink:href="#art21-com1" xlink:type="simple">primo comma dell'art. 21</rif>
+							<rif xlink:href="#art21-t5-com1" xlink:type="simple">primo comma dell'art. 21</rif>
 							, ne commette, nei cinque anni successivi, un'altra, ancorchè diversa dalla precedente.
 						</corpo>
 					</comma>
@@ -1358,10 +1599,10 @@
 						<corpo>Alla terza violazione contestata è previsto il ritiro del tesserino per 1 anno.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art23">
+				<articolo finevigore="t5" id="art23-t5" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 23</num>
 					<rubrica>(Tasse di concessione regionale)</rubrica>
-					<comma id="art23-com1">
+					<comma id="art23-t5-com1">
 						<num>1.</num>
 						<corpo>
 							I provvedimenti amministrativi per l'esercizio dell'attività regolata dalla presente legge sono soggetti alla tassa sulle concessioni regionali di cui alla tariffa annessaal
@@ -1371,13 +1612,32 @@
 							e successive modifiche ed integrazioni.
 						</corpo>
 					</comma>
-					<comma id="art23-com2">
+					<comma id="art23-t5-com2">
 						<num>2.</num>
 						<corpo>Il raccoglitore di tartufi, al momento della richiesta del tesserino di abilitazione, è tenuto al pagamento della tassa di rilascio. Successivamente, per ogni solare di validità del tesserino, il raccoglitore è tenuto al versamento della tassa di concessione entro il 31 gennaio dell'anno di riferimento.</corpo>
 					</comma>
-					<comma id="art23-com3">
+					<comma id="art23-t5-com3">
 						<num>3.</num>
 						<corpo>Il pagamento della tassa di concessione non è dovuto in caso di non esercizio dell'attività di ricerca e di raccolta.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art23" iniziovigore="t5">
+					<num>
+						Art. 23
+						<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					</num>
+					<rubrica>Importo relativo all'abilitazione</rubrica>
+					<comma id="art23-com1">
+						<num>1.</num>
+						<corpo>Il raccoglitore di tartufi, al momento della richiesta del tesserino di idoneità, è tenuto al pagamento dell'importo relativo all'abilitazione alla ricerca e alla raccolta del tartufo di cui al comma 3. Nei successivi anni di validità del tesserino il raccoglitore è tenuto al versamento annuale di pari importo prima dell'inizio dell'attività di ricerca e raccolta; tale versamento ha validità sino al 31 dicembre dell'anno di riferimento.</corpo>
+					</comma>
+					<comma id="art23-com2">
+						<num>2.</num>
+						<corpo>Il pagamento dell'importo di cui al comma 1 non è dovuto in caso di non esercizio, per l'anno solare, dell'attività di ricerca e di raccolta.</corpo>
+					</comma>
+					<comma id="art23-com3">
+						<num>3.</num>
+						<corpo>L'importo relativo all'abilitazione per la ricerca e raccolta del tartufo è stabilito in Lit. 180.000, pari a Euro 92,96, e viene introitato direttamente dalla Regione Toscana. Il Consiglio Regionale, su proposta della Giunta, con atto deliberativo da assumersi entro il 30 novembre di ogni anno, può modificare detto importo.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art24">
@@ -1418,7 +1678,7 @@
 							<h:span finevigore="t3" id="h5" iniziovigore="t1" status="abrogato">tassa annuale di rilascio e di rinnovo</h:span>
 							<h:span id="h6" iniziovigore="t3">tassa di rilascio e della tassa annuale</h:span>
 							, con le modalità e nei tempi di cui all'
-							<rif xlink:href="#art23" xlink:type="simple">articolo 23</rif>
+							<rif xlink:href="#art23-t5" xlink:type="simple">articolo 23</rif>
 							, ha inizio a partire dall'anno 1996.
 						</corpo>
 					</comma>
@@ -1433,19 +1693,55 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art25">
+				<articolo finevigore="t5" id="art25-t5" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 25</num>
 					<rubrica>(Disposizioni finanziarie)</rubrica>
-					<comma id="art25-com1">
+					<comma id="art25-t5-com1">
 						<num>1.</num>
 						<corpo>Agli oneri finanziari derivanti dall'attuazione della presente legge, si fronte con gli stanziamenti disposti dalle leggi annuali di bilancio sui competenti capitoli di spesa.</corpo>
 					</comma>
-					<comma id="art25-com2">
+					<comma id="art25-t5-com2">
 						<num>2.</num>
 						<corpo>
 							I capitoli 25110 e 25112 del bilancio 1995 cambiano la loro denominazione in "Interventi per la tutela, la valorizzazione in materia di tartuficoltura -
 							<rif xlink:href="urn:nir:regione.toscana:legge:1995-04-11;50" xlink:type="simple">LR n. 50 del 11-4-1995</rif>
 							.
+						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art25" iniziovigore="t5">
+					<num>Art. 25</num>
+					<rubrica>Disposizioni finanziarie</rubrica>
+					<comma id="art25-com1">
+						<num>1.</num>
+						<corpo>
+							I proventi derivanti dal pagamento degli importi relativi all'abilitazione di cui all'
+							<rif xlink:href="#art23" xlink:type="simple">articolo 23</rif>
+							sono impiegati, a decorrere dal 1 gennaio 2002, per il raggiungimento delle finalità della presente legge ed in particolare per incentivare interventi di tutela e di ripristino ambientale.
+						</corpo>
+					</comma>
+					<comma id="art25-com2">
+						<num>2.</num>
+						<corpo>La Giunta regionale assegna annualmente le somme riscosse ai sensi del comma 1 nella misura del venti per cento a favore dell'ARSIA e nella misura del sessanta per cento a favore delle Province.</corpo>
+					</comma>
+					<comma id="art25-com3">
+						<num>3.</num>
+						<corpo>
+							La ripartizione dei fondi tra le Province è effettuata in rapporto al numero dei titolari di tesserini di idoneità inseriti negli elenchi provinciali di cui all'
+							<rif xlink:href="#art11-com5" xlink:type="simple">articolo 11 comma 5</rif>
+							.
+						</corpo>
+					</comma>
+					<comma id="art25-com4">
+						<num>4.</num>
+						<corpo>La Giunta regionale definisce le finalità degli interventi finanziati dell'ARSIA e dalle Province nonché i destinatari degli stessi.</corpo>
+					</comma>
+					<comma id="art25-com5">
+						<num>5.</num>
+						<corpo>
+							Gli oneri derivanti dall'attuazione della presente legge, per gli anni successivi al 2001, sono determinati sulla base delle somme introitate dalla Regione nell'anno precedente a seguito del versamento dell'importo delle abilitazioni di cui all'
+							<rif xlink:href="#art23" xlink:type="simple">articolo 23</rif>
+							e trovano copertura con la legge di bilancio.
 						</corpo>
 					</comma>
 				</articolo>
@@ -1459,7 +1755,7 @@
 								La
 								<rif xlink:href="urn:nir:regione.toscana:legge:1988;58" xlink:type="simple">
 									legge regionale 3-8-1995, n. 58
-									<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+									<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
 								</rif>
 								modificata dalla
 								<rif xlink:href="urn:nir:regione.toscana:legge:1989-07-04;42" xlink:type="simple">LR 4-7-1989 n. 42</rif>
