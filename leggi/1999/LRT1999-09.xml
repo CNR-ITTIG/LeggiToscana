@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19990312" num="7" tipo="BURT" />
 					<entratainvigore norm="19990312" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1999-03-03;9" />
+					<urn finevigore="t6" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1999-03-03;9" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1999-03-03;9@2001-04-24" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Commercio" />
 					</materie>
@@ -19,6 +20,7 @@
 						<evento data="19990312" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="19990312" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="19990312" fonte="ra4" id="t5" tipo="modifica" />
+						<evento data="20010519" fonte="rp1" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1999-03-03;9" xlink:type="simple" />
@@ -26,6 +28,7 @@
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1995-02-03;16" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1998-08-04;49" xlink:type="simple" />
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1996-01-02;3" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2001-04-24;21" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -77,6 +80,23 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art12-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-04-24;21" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-04-24;21#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 24 aprile 2001, n. 21" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art12-com4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art12-com4-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -722,9 +742,13 @@
 						<num>3.</num>
 						<corpo>Il Comune, previo bando pubblico, può approvare apposite convenzioni con consorzi o cooperative di operatori su aree pubbliche per la gestione dei servizi relativi al funzionamento dei mercati e delle fiere. Per l'attribuzione del servizio il Comune può prevedere specifiche priorità per i consorzi di commercianti che operano nel mercato.</corpo>
 					</comma>
-					<comma id="art12-com4">
+					<comma finevigore="t6" id="art12-com4-t6" iniziovigore="t1" status="abrogato">
 						<num>4.</num>
 						<corpo>Il Comune può affidare l'intera gestione delle fiere promozionali a consorzi, cooperative di operatori o associazioni di categoria.</corpo>
+					</comma>
+					<comma id="art12-com4" iniziovigore="t6">
+						<num>4.</num>
+						<corpo>Il Comune può affidare l'intera gestione delle fiere promozionali a consorzi, cooperative di operatori, associazioni di categoria od a singoli operatori in possesso di adeguati requisiti tecnico professionali.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art13">
