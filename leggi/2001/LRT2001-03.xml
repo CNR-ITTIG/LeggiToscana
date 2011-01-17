@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20010202" num="4" tipo="BURT" />
 					<entratainvigore norm="20010202" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2001-01-26;3" />
+					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2001-01-26;3" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2001-01-26;3@2001-04-18" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Bilancio" />
@@ -19,12 +20,14 @@
 						<evento data="20010202" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="20010202" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="20010202" fonte="ra3" id="t4" tipo="modifica" />
+						<evento data="20010427" fonte="rp1" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2001-01-26;3" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:2000-01-21;3" xlink:type="simple" />
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:2000;3" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:2000-01-28;7" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2001-04-18;17" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -72,6 +75,20 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-04-18;17" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-04-18;17#art3-com3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 3 della legge Regione Toscana 18 aprile 2001, n. 17" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art8-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -281,10 +298,10 @@
 						<corpo>L'ARPAT è tenuta a dare atto dell'utilizzazione del contributo previsto dal presente articolo in sede di presentazione dei conti consuntivi.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art8">
+				<articolo finevigore="t5" id="art8-t5" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 8</num>
 					<rubrica>(Interventi di bonifica della Piana di Guasticce e per l'Interporto Leonardo da Vinci)</rubrica>
-					<comma id="art8-com1">
+					<comma id="art8-t5-com1">
 						<num>1.</num>
 						<corpo>Per gli interventi di bonifica della Piana di Guasticce nel Comune di Collesalvetti e per gli interventi per l'attivazione dell'Interporto Leonardo da Vinci è autorizzata l'iscrizione nel bilancio pluriennale 2001-2003 di uno specifico fondo globale (capitolo 50060) di lire 5 miliardi (2.582.284,49 euro), in ragione di lire 2 miliardi (1.032.913,79 euro) per l'anno 2001 e di lire 3 miliardi (1.549.370,69 euro) per l'anno 2002.</corpo>
 					</comma>
