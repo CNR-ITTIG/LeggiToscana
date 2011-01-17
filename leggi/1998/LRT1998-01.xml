@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1998-01-14;1" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1998-01-14;1@1998-04-15" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1998-01-14;1@2000-08-03" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1998-01-14;1@2000-08-03" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1998-01-14;1@2001-04-24" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Zootecnia" />
 					</materie>
@@ -19,11 +20,13 @@
 						<evento data="19980205" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19980509" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="20000829" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="20010519" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-01-14;1" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1998-04-15;21" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2000-08-03;64" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2001-04-24;20" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -136,6 +139,45 @@
 								<dsp:pos xlink:href="#h3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-04-24;20" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-04-24;20#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 24 aprile 2001, n. 20" id="itt9" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art5" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-04-24;20" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-04-24;20#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 24 aprile 2001, n. 20" id="itt10" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art7-com2bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9-com1-letc" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-04-24;20" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-04-24;20#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 24 aprile 2001, n. 20" id="itt11" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art9-com1-letcbis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -258,10 +300,10 @@
 						<corpo>I risultati riscontrati con le iniziative di sperimentazione sono divulgati a cura della Regione ed i dati relativi sono resi disponibili a tutti gli interessati.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art5">
+				<articolo finevigore="t4" id="art5-t4" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 5</num>
 					<rubrica>(Diffusione della inseminazione strumentale nelle specie ovina ed equina)</rubrica>
-					<comma id="art5-com1">
+					<comma id="art5-t4-com1">
 						<num>1.</num>
 						<corpo>
 							Allo scopo di diffondere l'inseminazione strumentale negli allevamenti agricoli delle specie ovina ed equina può essere concesso un contributo, fino al 100% della spesa ammissibile, per la realizzazione di organici progetti annuali, a favore dei soggetti di cui all'
@@ -269,11 +311,31 @@
 							ed ai sensi dello stesso, che provvedono ad attuarli, per un periodo della durata non superiore a sei anni.
 						</corpo>
 					</comma>
-					<comma id="art5-com2">
+					<comma id="art5-t4-com2">
 						<num>2.</num>
 						<corpo>
 							I criteri per la determinazione delle spese ammissibili e le modalità per la presentazione delle richieste di contributo sono stabiliti ai sensi dell'
 							<rif xlink:href="#art9-t3" xlink:type="simple">art. 9</rif>
+							.
+						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art5" iniziovigore="t4">
+					<num>Art. 5</num>
+					<rubrica>(Diffusione di tecniche e metodi innovativi in materia di riproduzione animale)</rubrica>
+					<comma id="art5-com1">
+						<num>1.</num>
+						<corpo>
+							Allo scopo di diffondere tecniche e metodi innovativi in materia di riproduzione animale negli allevamenti agricoli delle specie di interesse zootecnico può essere concesso un contributo fino al quaranta per cento della spesa ammissibile, per la realizzazione di organici progetti volti a tale finalità, a favore dei soggetti di cui all'
+							<rif xlink:href="#art12" xlink:type="simple">articolo 12</rif>
+							.
+						</corpo>
+					</comma>
+					<comma id="art5-com2">
+						<num>2.</num>
+						<corpo>
+							I criteri per l'individuazione delle tecniche e dei metodi innovativi di cui al comma 1 e per la determinazione delle spese ammissibili nonché delle modalità per la presentazione delle richieste di contributo sono stabilite ai sensi dell'
+							<rif xlink:href="#art9" xlink:type="simple">articolo 9</rif>
 							.
 						</corpo>
 					</comma>
@@ -355,6 +417,10 @@
 							<rif xlink:href="#art7-com1-letb" xlink:type="simple">lettera b) del comma 1</rif>
 							può essere concesso anche per la partecipazione di specie animali di interesse zootecnico di razze autoctone della regione a manifestazioni a carattere nazionale che si svolgono fuori dell'ambito regionale.
 						</corpo>
+					</comma>
+					<comma id="art7-com2bis" iniziovigore="t4">
+						<num>2 bis.</num>
+						<corpo>L'importo globale degli aiuti concessi ai sensi del comma 1 non può superare i 100.000 euro per beneficiario per un periodo di tre anni.</corpo>
 					</comma>
 					<comma id="art7-com3">
 						<num>3.</num>
@@ -444,7 +510,7 @@
 								, al
 								<rif xlink:href="#art3-com1" xlink:type="simple">comma 1 dell'art. 3</rif>
 								, al
-								<rif xlink:href="#art5-com1" xlink:type="simple">comma 1 dell'art. 5</rif>
+								<rif xlink:href="#art5-t4-com1" xlink:type="simple">comma 1 dell'art. 5</rif>
 								, al
 								<rif xlink:href="#art6-com1" xlink:type="simple">comma 1 dell'art. 6</rif>
 								, alla
@@ -471,7 +537,7 @@
 									,
 									<rif xlink:href="#art4" xlink:type="simple">4</rif>
 									,
-									<rif xlink:href="#art5" xlink:type="simple">5</rif>
+									<rif xlink:href="#art5-t4" xlink:type="simple">5</rif>
 									,
 									<rif xlink:href="#art6" xlink:type="simple">6</rif>
 									e
@@ -507,7 +573,7 @@
 									,
 									<rif xlink:href="#art3" xlink:type="simple">3</rif>
 									,
-									<rif xlink:href="#art5" xlink:type="simple">5</rif>
+									<rif xlink:href="#art5-t4" xlink:type="simple">5</rif>
 									e
 									<rif xlink:href="#art7" xlink:type="simple">7</rif>
 								</mrif>
@@ -532,7 +598,7 @@
 									,
 									<rif xlink:href="#art3" xlink:type="simple">3</rif>
 									,
-									<rif xlink:href="#art5" xlink:type="simple">5</rif>
+									<rif xlink:href="#art5-t4" xlink:type="simple">5</rif>
 									,
 									<rif xlink:href="#art6" xlink:type="simple">6</rif>
 									,
@@ -559,12 +625,20 @@
 									,
 									<rif xlink:href="#art3" xlink:type="simple">3</rif>
 									,
-									<rif xlink:href="#art5" xlink:type="simple">5</rif>
+									<rif xlink:href="#art5-t4" xlink:type="simple">5</rif>
 									,
 									<rif xlink:href="#art7" xlink:type="simple">7</rif>
 									e
 									<rif xlink:href="#art7bis" xlink:type="simple">7bis</rif>
 								</mrif>
+								.
+							</corpo>
+						</el>
+						<el id="art9-com1-letcbis" iniziovigore="t4">
+							<num>c bis)</num>
+							<corpo>
+								a stabilire i criteri per l'individuazione delle tecniche e dei metodi innovativi di cui all'
+								<rif xlink:href="#art5-com1" xlink:type="simple">articolo 5 comma 1</rif>
 								.
 							</corpo>
 						</el>
@@ -597,7 +671,7 @@
 									,
 									<rif xlink:href="#art3" xlink:type="simple">3</rif>
 									,
-									<rif xlink:href="#art5" xlink:type="simple">5</rif>
+									<rif xlink:href="#art5-t4" xlink:type="simple">5</rif>
 									e
 									<rif xlink:href="#art7" xlink:type="simple">7</rif>
 								</mrif>
@@ -610,7 +684,7 @@
 									,
 									<rif xlink:href="#art3" xlink:type="simple">3</rif>
 									,
-									<rif xlink:href="#art5" xlink:type="simple">5</rif>
+									<rif xlink:href="#art5-t4" xlink:type="simple">5</rif>
 									,
 									<rif xlink:href="#art7" xlink:type="simple">7</rif>
 									e
@@ -733,7 +807,7 @@
 														-
 														<rif xlink:href="#art4" xlink:type="simple">4</rif>
 														-
-														<rif xlink:href="#art5" xlink:type="simple">5</rif>
+														<rif xlink:href="#art5-t4" xlink:type="simple">5</rif>
 														-
 														<rif xlink:href="#art6" xlink:type="simple">6</rif>
 														-
