@@ -8,7 +8,8 @@
 					<entratainvigore norm="20000411" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t19" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2000-03-17;26" />
-					<urn iniziovigore="t19" valore="urn:nir:regione.toscana:legge:2000-03-17;26@2000-07-11" />
+					<urn finevigore="t20" iniziovigore="t19" valore="urn:nir:regione.toscana:legge:2000-03-17;26@2000-07-11" />
+					<urn iniziovigore="t20" valore="urn:nir:regione.toscana:legge:2000-03-17;26@2001-04-18" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Ente Regione" />
@@ -35,6 +36,7 @@
 						<evento data="20000411" fonte="ra16" id="t17" tipo="modifica" />
 						<evento data="20000411" fonte="ra17" id="t18" tipo="modifica" />
 						<evento data="20000717" fonte="rp1" id="t19" tipo="modifica" />
+						<evento data="20010512" fonte="rp2" id="t20" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2000-03-17;26" xlink:type="simple" />
@@ -56,6 +58,7 @@
 						<attiva id="ra16" xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51" xlink:type="simple" />
 						<attiva id="ra17" xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-07-11;61" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2001-04-18;16" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -582,7 +585,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:integrazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art42" xlink:type="simple" />
+							<dsp:pos xlink:href="#art42-t20" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-07-11;61" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-07-11;61#art9-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -590,7 +593,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art42-com4" xlink:type="simple" />
+								<dsp:pos xlink:href="#art42-t20-com4" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:integrazione completa="si" implicita="no">
@@ -618,6 +621,36 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art9-t19" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art42" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-04-18;16" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-04-18;16#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 18 aprile 2001, n. 16" id="itt26" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art42" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art42-t20" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art44" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-04-18;16" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-04-18;16#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 18 aprile 2001, n. 16" id="itt27" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art44" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art44-t20" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -2486,7 +2519,7 @@
 								<num>1.</num>
 								<alinea>
 									Le seguenti funzioni di responsabilità dirigenziali sono attribuite con decreto del coordinatore del dipartimento interessato, previo parere vincolante del coordinatore del dipartimento competente in materia di personale in ordine alla verifica del rispetto del limite previsto dall'
-									<rif xlink:href="#art44" xlink:type="simple">articolo 44</rif>
+									<rif xlink:href="#art44-t20" xlink:type="simple">articolo 44</rif>
 									:
 								</alinea>
 								<el id="art30-com1-leta">
@@ -2528,7 +2561,7 @@
 									Per i dirigenti assegnati al Consiglio regionale le funzioni di responsabilità dirigenziali di cui al
 									<rif xlink:href="#art30-com1" xlink:type="simple">comma 1</rif>
 									sono attribuite con decreto del coordinatore del dipartimento del Consiglio, fermo restando il rispetto del limite previsto dall'
-									<rif xlink:href="#art44" xlink:type="simple">articolo 44</rif>
+									<rif xlink:href="#art44-t20" xlink:type="simple">articolo 44</rif>
 									. Tale atto è trasmesso tempestivamente al coordinatore del dipartimento competente in materia di personale.
 								</corpo>
 							</comma>
@@ -2590,7 +2623,7 @@
 									Le funzioni di responsabilità dirigenziali relative agli uffici del Genio civile, di cui all'
 									<rif xlink:href="#art20" xlink:type="simple">articolo 20</rif>
 									, sono attribuite con decreto del coordinatore del dipartimento di riferimento, previo parere vincolante del coordinatore competente in materia di personale in ordine alla verifica del rispetto del limite previsto dall'
-									<rif xlink:href="#art44" xlink:type="simple">articolo 44</rif>
+									<rif xlink:href="#art44-t20" xlink:type="simple">articolo 44</rif>
 									.
 								</corpo>
 							</comma>
@@ -2626,7 +2659,7 @@
 								<num>6.</num>
 								<corpo>
 									Le funzioni di responsabilità dirigenziali relative a servizi, aree e strutture equiparate, istituiti all'interno dell'ARSIA, sono attribuite con decreto dell'Amministratore, previo parere vincolante del coordinatore del dipartimento competente in materia di personale in ordine alla verifica del rispetto del limite previsto dall'
-									<rif xlink:href="#art44" xlink:type="simple">articolo 44</rif>
+									<rif xlink:href="#art44-t20" xlink:type="simple">articolo 44</rif>
 									. Per le funzioni di cui al
 									<rif xlink:href="#art30-com5" xlink:type="simple">comma 5</rif>
 									dispone l'amministratore, sentito il dirigente responsabile dell'eventuale struttura immediatamente sovraordinata a quella a cui si riferisce l'incarico.
@@ -3018,28 +3051,58 @@
 					<capo id="tit3-cap4">
 						<num>CAPO IV</num>
 						<rubrica>DOTAZIONE ORGANICA</rubrica>
-						<articolo id="art42">
+						<articolo finevigore="t20" id="art42-t20" iniziovigore="t1" status="abrogato">
 							<num>ARTICOLO 42</num>
 							<rubrica>(Dotazione organica complessiva)</rubrica>
-							<comma id="art42-com1">
+							<comma id="art42-t20-com1">
 								<num>1.</num>
 								<corpo>La dotazione organica complessiva delle strutture regionali è determinata in n. 3184 unità, di cui n. 327 dirigenti.</corpo>
+							</comma>
+							<comma id="art42-t20-com2">
+								<num>2.</num>
+								<corpo>
+									Le variazioni alla dotazione organica di cui al
+									<rif xlink:href="#art42-t20-com1" xlink:type="simple">comma 1</rif>
+									sono approvate con legge regionale, se a tali variazioni corrisponde un aumento di spesa; sono approvate con deliberazioni del Consiglio regionale negli altri casi, tenuto conto di quanto disposto dall'
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:1993-02-03;29#art6-com3" xlink:type="simple">articolo 6, comma 3 del decreto legislativo</rif>
+									.
+								</corpo>
+							</comma>
+							<comma id="art42-t20-com3">
+								<num>3.</num>
+								<corpo>Con deliberazione del Consiglio regionale è determinata la ripartizione dei posti per qualifica dirigenziale e singole categorie di cui alla contrattazione nazionale vigente. Entro centottanta giorni dall'entrata in vigore della presente legge, il Consiglio regionale adotta la deliberazione di ripartizione. Fino a tale data resta valida la dotazione organica vigente alla data di approvazione della presente legge.</corpo>
+							</comma>
+							<comma id="art42-t20-com4" iniziovigore="t19">
+								<num>4.</num>
+								<corpo>Il personale assegnato alle strutture speciali di supporto del Presidente e dei componenti la Giunta regionale, del Presidente e dei componenti l'Ufficio di Presidenza del Consiglio regionale, nonché il personale assegnato alle strutture speciali di supporto dei gruppi consiliari, confluisce in uno specifico contingente preposto all'assistenza degli organi politici, non ricompreso nella dotazione organica complessiva.</corpo>
+							</comma>
+						</articolo>
+						<articolo id="art42" iniziovigore="t20">
+							<num>Art. 42</num>
+							<rubrica>Dotazione organica complessiva</rubrica>
+							<comma id="art42-com1">
+								<num>1.</num>
+								<corpo>La dotazione organica complessiva delle strutture regionali è determinata in n. 3117 unità, di cui n. 260 dirigenti.</corpo>
 							</comma>
 							<comma id="art42-com2">
 								<num>2.</num>
 								<corpo>
 									Le variazioni alla dotazione organica di cui al
 									<rif xlink:href="#art42-com1" xlink:type="simple">comma 1</rif>
-									sono approvate con legge regionale, se a tali variazioni corrisponde un aumento di spesa; sono approvate con deliberazioni del Consiglio regionale negli altri casi, tenuto conto di quanto disposto dall'
-									<rif xlink:href="urn:nir:stato:decreto.legislativo:1993-02-03;29#art6-com3" xlink:type="simple">articolo 6, comma 3 del decreto legislativo</rif>
+									sono approvate con legge regionale, se a tali variazioni corrisponde un aumento di spesa; sono approvate con deliberazioni della Giunta regionale negli altri casi, tenuto conto di quanto disposto dall'
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:1993-02-03;29#art6-com3" xlink:type="simple">articolo 6, comma 3, del decreto legislativo</rif>
 									.
 								</corpo>
 							</comma>
 							<comma id="art42-com3">
 								<num>3.</num>
-								<corpo>Con deliberazione del Consiglio regionale è determinata la ripartizione dei posti per qualifica dirigenziale e singole categorie di cui alla contrattazione nazionale vigente. Entro centottanta giorni dall'entrata in vigore della presente legge, il Consiglio regionale adotta la deliberazione di ripartizione. Fino a tale data resta valida la dotazione organica vigente alla data di approvazione della presente legge.</corpo>
+								<corpo>
+									Con deliberazione della Giunta regionale è determinata la ripartizione dei posti relativa alle singole categorie di cui alla contrattazione nazionale vigente, fermo restando, per quanto attiene il Consiglio regionale, quanto previsto dall'
+									<rif xlink:href="#art43-com1" xlink:type="simple">articolo 43, comma 1</rif>
+									. Fino alla data di adozione di tale atto resta valida la dotazione organica vigente alla data di approvazione della presente legge.
+								</corpo>
 							</comma>
-							<comma id="art42-com4" iniziovigore="t19">
+							<comma id="art42-com4">
 								<num>4.</num>
 								<corpo>Il personale assegnato alle strutture speciali di supporto del Presidente e dei componenti la Giunta regionale, del Presidente e dei componenti l'Ufficio di Presidenza del Consiglio regionale, nonché il personale assegnato alle strutture speciali di supporto dei gruppi consiliari, confluisce in uno specifico contingente preposto all'assistenza degli organi politici, non ricompreso nella dotazione organica complessiva.</corpo>
 							</comma>
@@ -3056,12 +3119,42 @@
 								<corpo>La Giunta regionale determina, con propria deliberazione, nell'ambito della dotazione organica complessiva, i contingenti di personale dei propri uffici e dell'ARSIA, ripartiti per qualifica dirigenziale e per singole categorie.</corpo>
 							</comma>
 						</articolo>
-						<articolo id="art44">
+						<articolo finevigore="t20" id="art44-t20" iniziovigore="t1" status="abrogato">
 							<num>ARTICOLO 44</num>
 							<rubrica>(Determinazione dell'organico dei dirigenti)</rubrica>
-							<comma id="art44-com1">
+							<comma id="art44-t20-com1">
 								<num>1.</num>
 								<corpo>Il numero massimo dei dirigenti che possono essere incaricati di funzioni di direzione di area o di servizio, o di struttura equiparata, o di posizione individuale equiparata, è pari a 119 unità, delle quali 19 assegnate al Consiglio regionale.</corpo>
+							</comma>
+						</articolo>
+						<articolo id="art44" iniziovigore="t20">
+							<num>Art. 44</num>
+							<rubrica>Determinazioni concernenti l'organico dei dirigenti</rubrica>
+							<comma id="art44-com1">
+								<num>1.</num>
+								<corpo>
+									Nell'ambito della dotazione organica di cui all'
+									<rif xlink:href="#art42" xlink:type="simple">articolo 42</rif>
+									, il numero massimo dei dirigenti che possono essere incaricati di funzioni di direzione di area, servizio, struttura equiparata o posizione individuale equiparata è determinato con atto della Giunta regionale, d'intesa con l'Ufficio di Presidenza per i dirigenti assegnati al Consiglio regionale.
+								</corpo>
+							</comma>
+							<comma id="art44-com2">
+								<num>2.</num>
+								<corpo>
+									In sede di prima applicazione, il numero determinato dalla Giunta ai sensi del
+									<rif xlink:href="#art44-com1" xlink:type="simple">comma 1</rif>
+									non deve risultare superiore al sessanta per cento della dotazione organica dirigenziale di cui all'
+									<rif xlink:href="#art42-com1" xlink:type="simple">articolo 42, comma 1</rif>
+									.
+								</corpo>
+							</comma>
+							<comma id="art44-com3">
+								<num>3.</num>
+								<corpo>
+									Ogni variazione in aumento del numero determinato ai sensi del
+									<rif xlink:href="#art44-com2" xlink:type="simple">comma 2</rif>
+									è disposta previa riduzione dei posti di qualifica dirigenziale della dotazione organica complessiva, in misura tale da compensare l'incremento di spesa.
+								</corpo>
 							</comma>
 						</articolo>
 						<articolo id="art45">
