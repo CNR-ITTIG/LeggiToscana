@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20010813" num="25" tipo="BURT" />
 					<entratainvigore norm="20010828" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2001-08-03;34" />
+					<urn iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2001-08-03;34" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Agricoltura" />
 					</materie>
@@ -16,17 +16,21 @@
 					<eventi>
 						<evento data="20010828" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20010828" fonte="ra1" id="t2" tipo="modifica" />
+						<evento data="20010828" fonte="rp1" id="t3" tipo="modifica" />
+						<evento data="20010731" fonte="ra2" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2001-08-03;34" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1990-03-31;32" xlink:type="simple" />
+						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1990-03-31;32" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2001-08-03;35" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:abrogazione completa="si" implicita="no">
 							<dsp:pos xlink:href="#mod1" xlink:type="simple" />
-							<dsp:termine da="#t2" />
+							<dsp:termine da="#t4" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1990-03-31;32" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1990-03-31;32" xlink:type="simple" />
 							</dsp:norma>
@@ -37,6 +41,149 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-08-03;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-08-03;35#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 3 agosto 2001, n. 35" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com2bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-08-03;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-08-03;35#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 3 agosto 2001, n. 35" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-08-03;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-08-03;35#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 3 agosto 2001, n. 35" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art5" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8-com1-letb" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-08-03;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-08-03;35#art4-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1 della legge Regione Toscana 3 agosto 2001, n. 35" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art8-com1-letb" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art8-com1-letb-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8-com1-letc" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-08-03;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-08-03;35#art4-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 2 della legge Regione Toscana 3 agosto 2001, n. 35" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8-com1-letd" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-08-03;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-08-03;35#art4-com3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 3 della legge Regione Toscana 3 agosto 2001, n. 35" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-08-03;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-08-03;35#art5-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 1 della legge Regione Toscana 3 agosto 2001, n. 35" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art9-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art10" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-08-03;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-08-03;35#art6-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 6, comma 1 della legge Regione Toscana 3 agosto 2001, n. 35" id="itt8" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art10" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art10-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art11-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-08-03;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-08-03;35#art7-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 7, comma 1 della legge Regione Toscana 3 agosto 2001, n. 35" id="itt9" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art12-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-08-03;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-08-03;35#art8" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo8, legge Regione Toscana 3 agosto 2001, n. 35" id="itt10" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h6" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -141,6 +288,10 @@
 							"Istituzione dell'Agenzia regionale per lo sviluppo e l'innovazione nel settore agricolo-forestale (ARSIA)".
 						</corpo>
 					</comma>
+					<comma id="art2-com2bis" iniziovigore="t3">
+						<num>2 bis.</num>
+						<corpo>Le attività di coordinamento e promozione della ricerca applicata, le azioni di sperimentazione e collaudo dell'innovazione, di cui al comma 1, lettera c), sono di esclusiva competenza dell'Agenzia regionale per lo sviluppo e l'innovazione nel settore agricolo-forestale (ARSIA).</corpo>
+					</comma>
 					<comma id="art2-com3">
 						<num>3.</num>
 						<corpo>La Regione, nella programmazione della formazione professionale, garantisce che le esigenze formative, funzionali alla promozione dello sviluppo agricolo e rurale, trovino adeguata risposta nei relativi piani.</corpo>
@@ -165,15 +316,15 @@
 						<num>2.</num>
 						<corpo>
 							I soggetti beneficiari dei servizi partecipano con risorse proprie al finanziamento dei programmi di sviluppo nella misura predeterminata dal piano regionale di cui all'
-							<rif xlink:href="#art9" xlink:type="simple">articolo 9</rif>
+							<rif xlink:href="#art9-t3" xlink:type="simple">articolo 9</rif>
 							, in relazione alle diverse tipologie dei servizi.
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art4">
+				<articolo finevigore="t3" id="art4-t3" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 4</num>
 					<rubrica>(Accesso ai servizi di assistenza tecnica diretta)</rubrica>
-					<comma id="art4-com1">
+					<comma id="art4-t3-com1">
 						<num>1.</num>
 						<corpo>
 							Le attività di cui all'
@@ -181,57 +332,127 @@
 							, lettere e) ed f) possono essere realizzate mediante forme di assistenza tecnica diretta in azienda.
 						</corpo>
 					</comma>
-					<comma id="art4-com2">
+					<comma id="art4-t3-com2">
 						<num>2.</num>
 						<corpo>Costituisce titolo di priorità, per i soggetti che intendono accedere ai servizi di assistenza tecnica diretta, l'iscrizione all'albo degli imprenditori agricoli disciplinato dalla normativa regionale.</corpo>
 					</comma>
-					<comma id="art4-com3">
+					<comma id="art4-t3-com3">
 						<num>3.</num>
 						<corpo>Per i servizi di assistenza tecnica diretta in azienda il finanziamento pubblico non può essere superiore all'ottanta per cento del loro costo.</corpo>
 					</comma>
-					<comma id="art4-com4">
+					<comma id="art4-t3-com4">
 						<num>4.</num>
 						<corpo>I soggetti beneficiari dei servizi di assistenza tecnica diretta possono aderire allo stesso progetto per un periodo non superiore a tre anni.</corpo>
 					</comma>
-					<comma id="art4-com5">
+					<comma id="art4-t3-com5">
 						<num>5.</num>
 						<corpo>Qualora i soggetti beneficiari richiedano di aderire ad un medesimo progetto di assistenza tecnica diretta per un periodo superiore a tre anni, a partire dal quarto anno il finanziamento pubblico viene ridotto almeno del cinquanta per cento ed a partire dal settimo anno i costi di adesione al medesimo progetto sono a totale carico del soggetto beneficiario.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art5">
+				<articolo id="art4" iniziovigore="t3">
+					<num>Art. 4</num>
+					<rubrica>(Regime di aiuti per l'accesso ai servizi di assistenza tecnica diretta)</rubrica>
+					<comma id="art4-com1">
+						<num>1.</num>
+						<corpo>
+							Le attività di cui all'
+							<rif xlink:href="#art2-com1" xlink:type="simple">articolo 2, comma 1</rif>
+							, lettere e) ed f) sono realizzate mediante servizi di assistenza tecnica diretta in azienda.
+						</corpo>
+					</comma>
+					<comma id="art4-com2">
+						<num>2.</num>
+						<corpo>
+							Possono accedere al regime di aiuti per i servizi di assistenza tecnica diretta le aziende selezionate ai sensi dell'
+							<rif xlink:href="#art10-com1" xlink:type="simple">articolo 10, comma 1</rif>
+							, lettera b) e inserite nell'elenco di cui all'
+							<rif xlink:href="#art10-com2" xlink:type="simple">articolo 10, comma 2</rif>
+							, lettera b), n. 2).
+						</corpo>
+					</comma>
+					<comma id="art4-com3">
+						<num>3.</num>
+						<corpo>Costituisce titolo di priorità, per la formazione dell'elenco di cui al comma 2, l'iscrizione all'albo degli imprenditori agricoli, disciplinato dalla normativa regionale.</corpo>
+					</comma>
+					<comma id="art4-com4">
+						<num>4.</num>
+						<corpo>Per i servizi di assistenza tecnica diretta in azienda il regime di aiuto non può essere superiore all'ottanta per cento del loro costo.</corpo>
+					</comma>
+					<comma id="art4-com5">
+						<num>5.</num>
+						<corpo>I soggetti beneficiari dei servizi di assistenza tecnica diretta possono aderire allo stesso progetto per un periodo non superiore a tre anni.</corpo>
+					</comma>
+					<comma id="art4-com6">
+						<num>6.</num>
+						<corpo>Qualora i soggetti beneficiari richiedano di aderire ad un medesimo progetto di assistenza tecnica diretta per un periodo superiore a tre anni, a partire dal quarto anno il regime di aiuto viene ridotto almeno del cinquanta per cento ed a partire dal settimo anno il regime di aiuto cessa.</corpo>
+					</comma>
+					<comma id="art4-com7">
+						<num>7.</num>
+						<corpo>I soggetti beneficiari del regime di aiuto per i servizi di assistenza tecnica diretta possono acquisire la prestazione dei servizi direttamente dagli enti di assistenza delle organizzazioni professionali agricole, da associazioni di cooperative agricole, da associazioni di prodotto giuridicamente riconosciute, da associazioni di allevatori e loro unioni o da qualsiasi altro soggetto privato in possesso dei titoli professionali e di studio abilitanti all'attività di consulenza in campo agricolo, forestale e rurale, rilasciati da stati membri dell'Unione Europea (UE).</corpo>
+					</comma>
+				</articolo>
+				<articolo finevigore="t3" id="art5-t3" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 5</num>
 					<rubrica>(Soggetti attuatori dei servizi di sviluppo)</rubrica>
-					<comma id="art5-com1">
+					<comma id="art5-t3-com1">
 						<num>1.</num>
 						<corpo>Possono accedere ai finanziamenti, di cui alla presente legge soggetti di natura pubblica e di natura privata quali le organizzazioni professionali degli agricoltori o gli enti di loro emanazione, le associazioni delle cooperative agricole, le associazioni di prodotto giuridicamente riconosciute, le associazioni di allevatori e le loro unioni ed altri soggetti giuridicamente riconosciuti che prestano attività di consulenza specialistica in campo agricolo e rurale.</corpo>
 					</comma>
-					<comma id="art5-com2">
+					<comma id="art5-t3-com2">
 						<num>2.</num>
 						<alinea>
 							I criteri di valutazione delle proposte presentate da parte dei soggetti di cui al
-							<rif xlink:href="#art5-com1" xlink:type="simple">comma 1</rif>
+							<rif xlink:href="#art5-t3-com1" xlink:type="simple">comma 1</rif>
 							sono determinati in base a:
 						</alinea>
-						<el id="art5-com2-leta">
+						<el id="art5-t3-com2-leta">
 							<num>a)</num>
 							<corpo>coerenza dell'offerta con gli indirizzi regionali impartiti;</corpo>
 						</el>
-						<el id="art5-com2-letb">
+						<el id="art5-t3-com2-letb">
 							<num>b)</num>
 							<corpo>qualità dell'offerta;</corpo>
 						</el>
-						<el id="art5-com2-letc">
+						<el id="art5-t3-com2-letc">
 							<num>c)</num>
 							<corpo>economicità dell'offerta;</corpo>
 						</el>
-						<el id="art5-com2-letd">
+						<el id="art5-t3-com2-letd">
 							<num>d)</num>
 							<corpo>capacità tecnica e titoli professionali e di studio abilitanti alla attività, rilasciati dallo Stato (UE) di appartenenza.</corpo>
 						</el>
 					</comma>
-					<comma id="art5-com3">
+					<comma id="art5-t3-com3">
 						<num>3.</num>
 						<corpo>Le attività di coordinamento e promozione della ricerca applicata, le azioni di sperimentazione e collaudo dell'innovazione sono effettuate dall'ARSIA</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art5" iniziovigore="t3">
+					<num>Art. 5</num>
+					<rubrica>(Soggetti attuatori)</rubrica>
+					<comma id="art5-com1">
+						<num>1.</num>
+						<corpo>
+							Le azioni di animazione dello sviluppo agricolo rurale, di monitoraggio, di identificazione dei fabbisogni di innovazione e di formazione, di comunicazione integrata tra soggetti operanti nel sistema dei servizi di sviluppo agricolo, di trasferimento di innovazione tecnologica ed organizzativa a mezzo di divulgazione e dimostrazione, di informazione sulle iniziative dello sviluppo rurale, di cui all'
+							<rif xlink:href="#art2-com1" xlink:type="simple">articolo 2, comma 1</rif>
+							, lettere a) b) e d), possono essere attuate da enti di assistenza tecnica delle organizzazioni professionali agricole, associazioni di cooperative agricole, associazioni di prodotto giuridicamente riconosciute, associazioni di allevatori e loro unioni e da altri soggetti privati abilitati a prestare le attività oggetto delle azioni.
+						</corpo>
+					</comma>
+					<comma id="art5-com2">
+						<num>2.</num>
+						<corpo>La selezione dei soggetti attuatori delle azioni di cui al comma 1 è determinata dalle Province, nel piano annuale di cui all'articolo 10, in base a coerenza dell'offerta con gli indirizzi regionali impartiti, qualità dell'offerta, economicità dell'offerta, capacità tecnica e titoli professionali e di studio abilitanti all'attività rilasciati da stati membri dell'UE. In ogni caso la selezione è determinata dalle Province nel rispetto dei principi di trasparenza e non discriminazione e delle vigenti normative nazionali e comunitarie in materia di appalti pubblici dei servizi.</corpo>
+					</comma>
+					<comma id="art5-com3">
+						<num>3.</num>
+						<corpo>
+							I prestatori dei servizi compresi nel regime di aiuti di cui all'
+							<rif xlink:href="#art4" xlink:type="simple">articolo 4</rif>
+							sono individuati autonomamente dai beneficiari, che sono liberi di scegliere il prestatore di servizi tra gli enti di assistenza tecnica delle organizzazioni professionali agricole, le associazioni di cooperative agricole, le associazioni di prodotto giuridicamente riconosciute, le associazioni di allevatori e loro unioni o qualsiasi altro soggetto privato in possesso dei titoli professionali e di studio abilitanti all'attività di consulenza in campo agricolo, forestale e rurale, rilasciati da stati membri dell'UE.
+						</corpo>
+					</comma>
+					<comma id="art5-com4">
+						<num>4.</num>
+						<corpo>I prestatori delle azioni e dei servizi di cui ai commi 1 e 3 non possono esercitare attività di produzione e commercializzazione di mezzi tecnici per l'agricoltura, o svolgere azioni di promozione o pubblicitarie relative a prodotti od attività riferibili a produttori di mezzi tecnici singoli od associati, ai loro marchi commerciali o ad altri segni distintivi.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art6">
@@ -248,7 +469,7 @@
 							<num>b)</num>
 							<corpo>
 								l'approvazione del piano regionale di cui all'
-								<rif xlink:href="#art9" xlink:type="simple">articolo 9</rif>
+								<rif xlink:href="#art9-t3" xlink:type="simple">articolo 9</rif>
 								;
 							</corpo>
 						</el>
@@ -280,27 +501,42 @@
 							<num>a)</num>
 							<corpo>
 								partecipano alla definizione, da parte della Regione, del piano di cui all'
-								<rif xlink:href="#art9" xlink:type="simple">articolo 9</rif>
+								<rif xlink:href="#art9-t3" xlink:type="simple">articolo 9</rif>
 								;
 							</corpo>
 						</el>
-						<el id="art8-com1-letb">
+						<el finevigore="t3" id="art8-com1-letb-t3" iniziovigore="t1" status="abrogato">
 							<num>b)</num>
 							<corpo>
 								determinano i piani provinciali ed approvano i programmi annuali di cui all'
-								<rif xlink:href="#art10" xlink:type="simple">articolo 10</rif>
+								<rif xlink:href="#art10-t3" xlink:type="simple">articolo 10</rif>
 								, secondo le disponibilità dei finanziamenti indicati annualmente in via presuntiva per ciascuna Provincia;
+							</corpo>
+						</el>
+						<el id="art8-com1-letb" iniziovigore="t3">
+							<num>b)</num>
+							<corpo>
+								approvano i piani provinciali ed i relativi programmi attuativi di cui all'
+								<rif xlink:href="#art10" xlink:type="simple">articolo 10</rif>
+								secondo le disponibilità dei finanziamenti indicati annualmente in via presuntiva per ciascuna Provincia;
 							</corpo>
 						</el>
 						<el id="art8-com1-letc">
 							<num>c)</num>
-							<corpo>possono integrare le suddette disponibilità di finanziamenti regionali con risorse proprie;</corpo>
+							<corpo>
+								possono integrare le suddette disponibilità di finanziamenti regionali con risorse proprie
+								<h:span id="h1" iniziovigore="t3">nel limite massimo del venti per cento di detti finanziamenti</h:span>
+								;
+							</corpo>
 						</el>
 						<el id="art8-com1-letd">
 							<num>d)</num>
 							<corpo>
-								esercitano il controllo tecnico ed amministrativo delle attività di sviluppo agricolo e rurale, secondo le modalità previste dal disciplinare di attuazione di cui all'
-								<rif xlink:href="#art9" xlink:type="simple">articolo 9</rif>
+								esercitano il controllo tecnico ed amministrativo delle attività di sviluppo agricolo e rurale, secondo le modalità previste dal
+								<h:span finevigore="t3" id="h2" iniziovigore="t1" status="abrogato">disciplinare di attuazione</h:span>
+								<h:span id="h3" iniziovigore="t3">piano regionale dei servizi di sviluppo agricolo e rurale</h:span>
+								di cui all'
+								<rif xlink:href="#art9-t3" xlink:type="simple">articolo 9</rif>
 								;
 							</corpo>
 						</el>
@@ -314,29 +550,29 @@
 						<corpo>Le Province svolgono ogni funzione di cui alla presente legge non espressamente riservata alla Regione.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art9">
+				<articolo finevigore="t3" id="art9-t3" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 9</num>
 					<rubrica>(Piano regionale dei servizi di sviluppo agricolo e rurale)</rubrica>
-					<comma id="art9-com1">
+					<comma id="art9-t3-com1">
 						<num>1.</num>
 						<corpo>La Giunta Regionale, sentite le Province e le Organizzazioni professionali agricole, propone al Consiglio Regionale l'approvazione del piano dei servizi di sviluppo agricolo e rurale.</corpo>
 					</comma>
-					<comma id="art9-com2">
+					<comma id="art9-t3-com2">
 						<num>2.</num>
 						<corpo>Il piano, nel quadro di riferimento della programmazione del comparto agro-forestale dispone, di norma, per un periodo coincidente con quello del piano regionale di sviluppo e si articola in un dispositivo, in un programma finanziario ed in un disciplinare di attuazione.</corpo>
 					</comma>
-					<comma id="art9-com3">
+					<comma id="art9-t3-com3">
 						<num>3.</num>
 						<alinea>Il dispositivo di piano:</alinea>
-						<el id="art9-com3-leta">
+						<el id="art9-t3-com3-leta">
 							<num>a)</num>
 							<corpo>fissa gli obiettivi che si intendono conseguire nel periodo di validità del piano;</corpo>
 						</el>
-						<el id="art9-com3-letb">
+						<el id="art9-t3-com3-letb">
 							<num>b)</num>
 							<corpo>delinea le tipologie di intervento finanziabili, le priorità cui destinare i finanziamenti e, relativamente ai progetti presentati dai soggetti attuatori, i criteri di ammissibilità, ivi inclusa la garanzia del rispetto delle specifiche normative contrattuali di lavoro del personale dipendente dagli stessi soggetti attuatori;</corpo>
 						</el>
-						<el id="art9-com3-letc">
+						<el id="art9-t3-com3-letc">
 							<num>c)</num>
 							<corpo>
 								determina i costi ammissibili e riconosciuti dei servizi di assistenza tecnica di cui all'
@@ -345,107 +581,195 @@
 							</corpo>
 						</el>
 					</comma>
-					<comma id="art9-com4">
+					<comma id="art9-t3-com4">
 						<num>4.</num>
 						<alinea>Il programma finanziario, aggiornato ogni anno in relazione alle previsioni di bilancio:</alinea>
-						<el id="art9-com4-leta">
+						<el id="art9-t3-com4-leta">
 							<num>a)</num>
 							<corpo>determina le risorse complessive da destinare all'attuazione del piano, specificando in particolare quelle relative alla prima annualità;</corpo>
 						</el>
-						<el id="art9-com4-letb">
+						<el id="art9-t3-com4-letb">
 							<num>b)</num>
 							<corpo>determina la ripartizione delle risorse tra Regione, ARSIA e Province, fatto salvo che le risorse destinabili alla Regione ed all'ARSIA non possono superare il trentacinque per cento del totale e definisce i criteri di ripartizione fra le Province delle risorse ad esse destinate;</corpo>
 						</el>
-						<el id="art9-com4-letc">
+						<el id="art9-t3-com4-letc">
 							<num>c)</num>
 							<corpo>determina il livello percentuale di cofinanziamento da parte dei beneficiari dei servizi;</corpo>
 						</el>
-						<el id="art9-com4-letd">
+						<el id="art9-t3-com4-letd">
 							<num>d)</num>
 							<corpo>
 								determina, in caso di mancata presentazione del programma annuale da parte di una o più Province ovvero di presentazione di programmi che non raggiungono la quota destinata alle stesse, i criteri di rimodulazione dei finanziamenti a favore delle province, consentendo il finanziamento dei programmi supplementari di cui all'
-								<rif xlink:href="#art10-com9" xlink:type="simple">articolo 10 comma 9</rif>
+								<rif xlink:href="#art10-t3-com9" xlink:type="simple">articolo 10 comma 9</rif>
 								.
 							</corpo>
 						</el>
 					</comma>
-					<comma id="art9-com5">
+					<comma id="art9-t3-com5">
 						<num>5.</num>
 						<alinea>Il disciplinare di attuazione:</alinea>
-						<el id="art9-com5-leta">
+						<el id="art9-t3-com5-leta">
 							<num>a)</num>
 							<corpo>indica le fasi della procedura per l'attivazione degli interventi, le modalità di monitoraggio e di valutazione degli stessi;</corpo>
 						</el>
-						<el id="art9-com5-letb">
+						<el id="art9-t3-com5-letb">
 							<num>b)</num>
 							<corpo>fissa i termini, le modalità di rendicontazione ed i termini di erogazione dei finanziamenti;</corpo>
 						</el>
-						<el id="art9-com5-letc">
+						<el id="art9-t3-com5-letc">
 							<num>c)</num>
 							<corpo>definisce gli eventuali interventi sanzionatori o surrogatori e le modalità di revoca e ridestinazione dei finanziamenti;</corpo>
 						</el>
-						<el id="art9-com5-letd">
+						<el id="art9-t3-com5-letd">
 							<num>d)</num>
 							<corpo>definisce, in particolare, la tipologia e le modalità del controllo che le Province devono esercitare circa il corretto impiego delle risorse da parte dei soggetti attuatori.</corpo>
 						</el>
 					</comma>
-					<comma id="art9-com6">
+					<comma id="art9-t3-com6">
 						<num>6.</num>
 						<corpo>Il piano determina i programmi di interesse regionale per i quali la Regione intende riservarsi una diretta competenza.</corpo>
 					</comma>
-					<comma id="art9-com7">
+					<comma id="art9-t3-com7">
 						<num>7.</num>
 						<corpo>
 							In via transitoria e sino all'approvazione del piano regionale di cui al
-							<rif xlink:href="#art9-com1" xlink:type="simple">comma 1</rif>
+							<rif xlink:href="#art9-t3-com1" xlink:type="simple">comma 1</rif>
 							del presente articolo, gli interventi dei servizi di sviluppo agricolo e rurale sono attuati attraverso piani annuali regionali e conseguenti piani e programmi provinciali.
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art10">
+				<articolo id="art9" iniziovigore="t3">
+					<num>Art. 9</num>
+					<rubrica>(Piano regionale dei servizi di sviluppo agricolo e rurale)</rubrica>
+					<comma id="art9-com1">
+						<num>1.</num>
+						<corpo>La Giunta regionale, sentite le Province e le organizzazioni professionali agricole, propone al Consiglio regionale l'approvazione del piano dei servizi di sviluppo agricolo e rurale.</corpo>
+					</comma>
+					<comma id="art9-com2">
+						<num>2.</num>
+						<corpo>Il piano, in attuazione della vigente normativa regionale in materia di programmazione, nel quadro di riferimento delle politiche per il comparto agro-forestale dispone, di norma, per un periodo corrispondente con quello del programma regionale di sviluppo.</corpo>
+					</comma>
+					<comma id="art9-com3">
+						<num>3.</num>
+						<alinea>Il Piano, in coerenza con il modello analitico previsto dalla vigente normativa in materia di programmazione regionale:</alinea>
+						<el id="art9-com3-leta">
+							<num>a)</num>
+							<corpo>analizza la situazione del settore nei cui confronti il piano si propone di intervenire;</corpo>
+						</el>
+						<el id="art9-com3-letb">
+							<num>b)</num>
+							<corpo>fissa gli obiettivi che si intendono conseguire nel periodo di validità del piano;</corpo>
+						</el>
+						<el id="art9-com3-letc">
+							<num>c)</num>
+							<corpo>delinea le tipologie di intervento finanziabili e le priorità cui destinare i finanziamenti;</corpo>
+						</el>
+						<el id="art9-com3-letd">
+							<num>d)</num>
+							<corpo>
+								determina i costi ammissibili e riconosciuti dei servizi di assistenza tecnica di cui all'
+								<rif xlink:href="#art2-com1" xlink:type="simple">articolo 2 comma 1</rif>
+								lettere e) ed f), individuati per tipologia di servizio;
+							</corpo>
+						</el>
+						<el id="art9-com3-lete">
+							<num>e)</num>
+							<corpo>determina le risorse complessive da destinare all'attuazione del piano, specificando in particolare quelle relative alla prima annualità;</corpo>
+						</el>
+						<el id="art9-com3-letf">
+							<num>f)</num>
+							<corpo>determina la ripartizione delle risorse tra Regione, ARSIA e Province. Le risorse destinabili alla Regione ed all'ARSIA non possono superare il trentacinque per cento del totale;</corpo>
+						</el>
+						<el id="art9-com3-letg">
+							<num>g)</num>
+							<corpo>definisce i criteri di ripartizione fra le Province delle risorse ad esse destinate;</corpo>
+						</el>
+						<el id="art9-com3-leth">
+							<num>h)</num>
+							<corpo>determina il livello percentuale di cofinanziamento da parte dei beneficiari dei servizi;</corpo>
+						</el>
+						<el id="art9-com3-leti">
+							<num>i)</num>
+							<corpo>
+								determina, in caso di mancata presentazione del piano annuale da parte di una o più Province ovvero di presentazione di programmi che non raggiungono la quota destinata alle stesse, i criteri di rimodulazione dei finanziamenti a favore delle eventuali richieste supplementari di servizi di assistenza tecnica diretta di cui all'
+								<rif xlink:href="#art10-com7" xlink:type="simple">articolo 10 comma 7</rif>
+								;
+							</corpo>
+						</el>
+						<el id="art9-com3-letj">
+							<num>j)</num>
+							<corpo>indica le fasi della procedura per l'attivazione degli interventi, le modalità di monitoraggio e di valutazione degli stessi;</corpo>
+						</el>
+						<el id="art9-com3-letk">
+							<num>k)</num>
+							<corpo>fissa i termini, le modalità di rendicontazione ed i termini di erogazione dei finanziamenti;</corpo>
+						</el>
+						<el id="art9-com3-letl">
+							<num>l)</num>
+							<corpo>definisce gli eventuali interventi sanzionatori o surrogatori e le modalità di revoca e ridestinazione dei finanziamenti;</corpo>
+						</el>
+						<el id="art9-com3-letm">
+							<num>m)</num>
+							<corpo>definisce in particolare la tipologia e le modalità di controllo che le Province devono esercitare circa il corretto impiego delle risorse da parte dei soggetti attuatori e dei beneficiari.</corpo>
+						</el>
+					</comma>
+					<comma id="art9-com4">
+						<num>4.</num>
+						<corpo>Il piano determina i programmi di interesse regionale per i quali la Regione intende riservarsi una diretta competenza.</corpo>
+					</comma>
+					<comma id="art9-com5">
+						<num>5.</num>
+						<corpo>Il piano indica il quadro finanziario, annualmente aggiornato in relazione alle previsioni di bilancio.</corpo>
+					</comma>
+					<comma id="art9-com6">
+						<num>6.</num>
+						<corpo>In via transitoria e sino all'approvazione del piano regionale di cui al comma 1, gli interventi dei servizi di sviluppo agricolo e rurale sono attuati attraverso piani annuali regionali e conseguenti piani e programmi provinciali.</corpo>
+					</comma>
+				</articolo>
+				<articolo finevigore="t3" id="art10-t3" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 10</num>
 					<rubrica>(Programmi annuali delle Province)</rubrica>
-					<comma id="art10-com1">
+					<comma id="art10-t3-com1">
 						<num>1.</num>
 						<corpo>
 							Le Province, in coerenza con il piano regionale di cui all'
-							<rif xlink:href="#art9" xlink:type="simple">articolo 9</rif>
+							<rif xlink:href="#art9-t3" xlink:type="simple">articolo 9</rif>
 							, determinano il proprio piano provinciale contenente le tipologie di intervento, le modalità di presentazione dei progetti ed i relativi criteri di selezione e valutazione per la successiva definizione del programma provinciale.
 						</corpo>
 					</comma>
-					<comma id="art10-com2">
+					<comma id="art10-t3-com2">
 						<num>2.</num>
 						<alinea>Le Province, nel rispetto degli obiettivi indicati nel piano regionale, formulano i propri programmi contenenti:</alinea>
-						<el id="art10-com2-leta">
+						<el id="art10-t3-com2-leta">
 							<num>a)</num>
 							<corpo>le azioni previste;</corpo>
 						</el>
-						<el id="art10-com2-letb">
+						<el id="art10-t3-com2-letb">
 							<num>b)</num>
 							<corpo>i soggetti attuatori finanziati;</corpo>
 						</el>
-						<el id="art10-com2-letc">
+						<el id="art10-t3-com2-letc">
 							<num>c)</num>
 							<corpo>i soggetti beneficiari dei servizi;</corpo>
 						</el>
-						<el id="art10-com2-letd">
+						<el id="art10-t3-com2-letd">
 							<num>d)</num>
 							<corpo>le eventuali specificità locali che giustificano l'intervento;</corpo>
 						</el>
-						<el id="art10-com2-lete">
+						<el id="art10-t3-com2-lete">
 							<num>e)</num>
 							<corpo>i costi dei singoli progetti;</corpo>
 						</el>
-						<el id="art10-com2-letf">
+						<el id="art10-t3-com2-letf">
 							<num>f)</num>
 							<corpo>le quote di partecipazione al costo dei progetti da parte dei singoli beneficiari;</corpo>
 						</el>
-						<el id="art10-com2-letg">
+						<el id="art10-t3-com2-letg">
 							<num>g)</num>
 							<corpo>l'indicazione della qualificazione professionale dei tecnici necessari alla realizzazione dei progetti e dei relativi tempi lavoro correlati alle prestazioni di detti tecnici.</corpo>
 						</el>
 					</comma>
-					<comma id="art10-com3">
+					<comma id="art10-t3-com3">
 						<num>3.</num>
 						<corpo>
 							Le Province destinano una quota dei finanziamenti loro assegnati dalla Regione, non superiore al trenta per cento degli stanziamenti approvati dal programma dei servizi di sviluppo agricolo per l'anno 1998 per gli attuatori dell'assistenza tecnica, ai progetti selezionati che impiegano i divulgatori formati nell'ambito dell'azione comune di cui ai Regolamenti (CEE) n.
@@ -455,45 +779,157 @@
 							e le cui capacità professionali sono state utilizzate nel sistema dei servizi di sviluppo agricolo della Toscana.
 						</corpo>
 					</comma>
-					<comma id="art10-com4">
+					<comma id="art10-t3-com4">
 						<num>4.</num>
 						<corpo>Le Province possono destinare risorse proprie ad integrazione di quanto loro annualmente destinato dalla Regione Toscana, indicandone le precise entità nel programma.</corpo>
 					</comma>
-					<comma id="art10-com5">
+					<comma id="art10-t3-com5">
 						<num>5.</num>
 						<corpo>Successivamente all'approvazione del programma annuale provinciale, i progetti non possono subire modifiche che comportino aumenti della spesa a carico del bilancio regionale.</corpo>
 					</comma>
-					<comma id="art10-com6">
+					<comma id="art10-t3-com6">
 						<num>6.</num>
 						<corpo>
 							In caso di intervenuta cessazione del servizio, per qualsiasi causa, nel corso del programma annuale, la Provincia provvede a ridurre proporzionalmente il finanziamento al soggetto attuatore interessato dall'avvenuta cessazione, o a recuperare le somme anticipate avvalendosi della garanzia fidejussoria di cui al
-							<rif xlink:href="#art10-com7" xlink:type="simple">comma 7</rif>
+							<rif xlink:href="#art10-t3-com7" xlink:type="simple">comma 7</rif>
 							.
 						</corpo>
 					</comma>
-					<comma id="art10-com7">
+					<comma id="art10-t3-com7">
 						<num>7.</num>
 						<corpo>Le Province vincolano l'erogazione di eventuali anticipi a soggetti attuatori privati, al rilascio, da parte degli stessi, di specifica garanzia fidejussoria.</corpo>
 					</comma>
-					<comma id="art10-com8">
+					<comma id="art10-t3-com8">
 						<num>8.</num>
 						<corpo>Le Province possono formulare progetti supplementari finanziabili con risorse proprie o con risorse regionali che si rendono disponibili nei casi in cui i progetti presentati non esauriscono i finanziamenti previsti complessivamente.</corpo>
 					</comma>
-					<comma id="art10-com9">
+					<comma id="art10-t3-com9">
 						<num>9.</num>
 						<corpo>
 							Nei casi previsti al
-							<rif xlink:href="#art10-com8" xlink:type="simple">comma 8</rif>
+							<rif xlink:href="#art10-t3-com8" xlink:type="simple">comma 8</rif>
 							, la Giunta regionale procede a rimodulare i finanziamenti ammessi per ciascuna Provincia, consentendo il finanziamento con fondi regionali dei progetti supplementari di cui al
-							<rif xlink:href="#art10-com8" xlink:type="simple">comma 8</rif>
+							<rif xlink:href="#art10-t3-com8" xlink:type="simple">comma 8</rif>
 							sino alla concorrenza dei finanziamenti stessi secondo i criteri indicati all'
-							<rif xlink:href="#art9-com4-letd" xlink:type="simple">articolo 9, comma 4, lettera d)</rif>
+							<rif xlink:href="#art9-t3-com4-letd" xlink:type="simple">articolo 9, comma 4, lettera d)</rif>
 							.
 						</corpo>
 					</comma>
-					<comma id="art10-com10">
+					<comma id="art10-t3-com10">
 						<num>10.</num>
 						<corpo>Per gli interventi di formazione professionale i programmi annuali delle Province rinviano a quanto definito a tale riguardo nei propri atti approvati in attuazione della normativa regionale vigente in materia.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art10" iniziovigore="t3">
+					<num>Art. 10</num>
+					<rubrica>(Piani e Programmi annuali delle Province)</rubrica>
+					<comma id="art10-com1">
+						<num>1.</num>
+						<alinea>Le Province, in coerenza con il piano regionale dei servizi di sviluppo agricolo e rurale di cui all'articolo 9, approvano i piani annuali contenenti una sintetica analisi del settore riferita al proprio territorio, l'individuazione degli obiettivi del piano, gli interventi attivabili e le risorse finanziarie ad esse destinate. Essi recano inoltre:</alinea>
+						<el id="art10-com1-leta">
+							<num>a)</num>
+							<corpo>
+								i bandi per l'attuazione delle azioni di cui all'
+								<rif xlink:href="#art2-com1" xlink:type="simple">articolo 2, comma 1</rif>
+								, lettere a) b) e d) contenenti le tipologie delle azioni attivabili, le eventuali specificità locali che giustificano l'intervento, le modalità di presentazione delle richieste e la relativa modulistica nonché i criteri di valutazione e selezione delle proposte nel rispetto dei principi di trasparenza e non discriminazione e delle vigenti normative nazionali e comunitarie in materia di appalti pubblici di servizi.
+							</corpo>
+						</el>
+						<el id="art10-com1-letb">
+							<num>b)</num>
+							<corpo>
+								i bandi rivolti alle aziende per l'accesso al regime di aiuto finalizzato alle azioni di assistenza tecnica diretta di cui all'
+								<rif xlink:href="#art2-com1" xlink:type="simple">articolo 2, comma 1</rif>
+								, lettere e) ed f), contenenti le tipologie dei servizi finanziabili, le eventuali specificità locali che le giustificano, le modalità di presentazione delle richieste, la relativa modulistica ed i criteri di valutazione delle richieste.
+							</corpo>
+						</el>
+					</comma>
+					<comma id="art10-com2">
+						<num>2.</num>
+						<alinea>Le Province, successivamente alla conclusione delle procedure concorsuali di cui al comma 1 approvano programmi attuativi annuali recanti:</alinea>
+						<el id="art10-com2-leta">
+							<num>a)</num>
+							<alinea>
+								per le azioni di animazione dello sviluppo agricolo rurale, di monitoraggio, di identificazione dei fabbisogni di innovazione e di formazione, di comunicazione integrata tra soggetti operanti nel sistema dei servizi di sviluppo agricolo, di trasferimento di innovazione tecnologica ed organizzativa a mezzo di divulgazione e dimostrazione, di informazione sulle iniziative dello sviluppo rurale di cui all'
+								<rif xlink:href="#art2-com1" xlink:type="simple">articolo 2, comma 1</rif>
+								, lettere a) b) e d):
+							</alinea>
+							<en id="art10-com2-leta-num1">
+								<num>1)</num>
+								<corpo>le azioni attivate;</corpo>
+							</en>
+							<en id="art10-com2-leta-num2">
+								<num>2)</num>
+								<corpo>
+									i soggetti attuatori delle azioni attivate, selezionati ai sensi dell'
+									<rif xlink:href="#art5-com2" xlink:type="simple">articolo 5 comma 2</rif>
+									;
+								</corpo>
+							</en>
+							<en id="art10-com2-leta-num3">
+								<num>3)</num>
+								<corpo>i costi delle azioni attivate ed i rispettivi finanziamenti assegnati.</corpo>
+							</en>
+						</el>
+						<el id="art10-com2-letb">
+							<num>b)</num>
+							<alinea>
+								per i servizi di assistenza tecnica diretta di cui all'
+								<rif xlink:href="#art2-com1" xlink:type="simple">articolo 2, comma 1</rif>
+								, lettere e) ed f):
+							</alinea>
+							<en id="art10-com2-letb-num1">
+								<num>1)</num>
+								<corpo>le tipologie di intervento finanziate;</corpo>
+							</en>
+							<en id="art10-com2-letb-num2">
+								<num>2)</num>
+								<corpo>
+									l'elenco dei soggetti ammessi a beneficiare dei servizi di assistenza tecnica diretta, con l'indicazione per ciascun beneficiario del soggetto attuatore prescelto, a norma dell'
+									<rif xlink:href="#art5-com3" xlink:type="simple">articolo 5, comma 3</rif>
+									;
+								</corpo>
+							</en>
+							<en id="art10-com2-letb-num3">
+								<num>3)</num>
+								<corpo>i costi dei servizi attivati e le relative quote di partecipazione da parte dei singoli beneficiari.</corpo>
+							</en>
+						</el>
+						<el id="art10-com2-letc">
+							<num>c)</num>
+							<corpo>per le azioni ed i servizi di cui alle lettere a) e b) sono indicate le specifiche modalità di controllo circa il corretto impiego dei finanziamenti concessi.</corpo>
+						</el>
+					</comma>
+					<comma id="art10-com3">
+						<num>3.</num>
+						<corpo>Le Province possono destinare risorse proprie, nel limite massimo del venti per cento ad integrazione di quanto loro annualmente destinato dalla Regione Toscana, indicandone le precise entità nei rispettivi piani.</corpo>
+					</comma>
+					<comma id="art10-com4">
+						<num>4.</num>
+						<corpo>Successivamente alla loro approvazione, i programmi attuativi non possono subire modifiche che comportino aumenti di spesa a carico del bilancio regionale.</corpo>
+					</comma>
+					<comma id="art10-com5">
+						<num>5.</num>
+						<corpo>In caso di cessazione dei servizi di assistenza tecnica diretta, intervenuta per qualsiasi causa nel corso del programma, la Provincia provvede a ridurre proporzionalmente il finanziamento ai beneficiari interessati dall'avvenuta cessazione ed a recuperare le somme eventualmente anticipate avvalendosi della garanzia fidejussoria di cui al comma 6.</corpo>
+					</comma>
+					<comma id="art10-com6">
+						<num>6.</num>
+						<corpo>Le Province vincolano l'erogazione di eventuali anticipi dei finanziamenti di cui alla presente legge, al rilascio, da parte degli interessati, di specifica garanzia fidejussoria.</corpo>
+					</comma>
+					<comma id="art10-com7">
+						<num>7.</num>
+						<corpo>Le Province, nell'ambito dei programmi attuativi annuali, possono dichiarare ammissibili anche richieste supplementari di servizi di assistenza tecnica diretta per le quali non siano sufficienti i finanziamenti regionali loro assegnati; tali richieste potranno essere soddisfatte dalle Province con risorse regionali che si rendessero eventualmente disponibili.</corpo>
+					</comma>
+					<comma id="art10-com8">
+						<num>8.</num>
+						<corpo>
+							La Giunta regionale, nei casi previsti all'
+							<rif xlink:href="#art9-com3-leti" xlink:type="simple">articolo 9, comma 3, lettera i)</rif>
+							procede a rimodulare i finanziamenti per ciascuna Provincia, consentendo l'accoglimento delle richieste supplementari di assistenza tecnica diretta con fondi regionali, sino alla concorrenza dei finanziamenti stessi secondo i criteri indicati dal piano regionale dei servizi di sviluppo agricolo e rurale.
+						</corpo>
+					</comma>
+					<comma id="art10-com9">
+						<num>9.</num>
+						<corpo>Per gli interventi di formazione professionale i programmi attuativi rinviano a quanto definito a tale riguardo nei propri atti approvati in attuazione della normativa regionale vigente in materia.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art11">
@@ -505,7 +941,9 @@
 							<mod id="mod1">
 								La
 								<rif xlink:href="urn:nir:regione.toscana:legge:1990-03-31;32" xlink:type="simple">legge regionale 31 marzo 1990, n. 32</rif>
-								"Disciplina dei servizi di sviluppo agricolo" è abrogata.
+								"Disciplina dei servizi di sviluppo agricolo" è abrogata
+								<h:span id="h4" iniziovigore="t3">a far data dal 31 luglio 2001</h:span>
+								.
 							</mod>
 						</corpo>
 					</comma>
@@ -519,7 +957,12 @@
 					<rubrica>(Norma finanziaria)</rubrica>
 					<comma id="art12-com1">
 						<num>1.</num>
-						<corpo>Agli oneri relativi all'applicazione della presente legge per l'anno 2001 si fa fronte con legge di bilancio.</corpo>
+						<corpo>
+							Agli oneri relativi all'applicazione della presente legge per l'anno
+							<h:span finevigore="t3" id="h5" iniziovigore="t1" status="abrogato">2001</h:span>
+							<h:span id="h6" iniziovigore="t3">2002</h:span>
+							si fa fronte con legge di bilancio.
+						</corpo>
 					</comma>
 				</articolo>
 			</articolato>
