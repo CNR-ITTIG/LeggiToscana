@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19991207" num="34" tipo="BURT" />
 					<entratainvigore norm="19991222" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1999-10-14;52" />
+					<urn finevigore="t15" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1999-10-14;52" />
+					<urn iniziovigore="t15" valore="urn:nir:regione.toscana:legge:1999-10-14;52@2001-07-27" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Urbanistica" />
 					</materie>
@@ -28,6 +29,7 @@
 						<evento data="20000205" fonte="ra11" id="t12" tipo="modifica" />
 						<evento data="20000205" fonte="ra12" id="t13" tipo="modifica" />
 						<evento data="20000205" fonte="ra13" id="t14" tipo="modifica" />
+						<evento data="20010823" fonte="rp1" id="t15" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1999-10-14;52" xlink:type="simple" />
@@ -44,6 +46,7 @@
 						<attiva id="ra11" xlink:href="urn:nir:regione.toscana:legge:1980;59" xlink:type="simple" />
 						<attiva id="ra12" xlink:href="urn:nir:regione.toscana:legge:1980;59" xlink:type="simple" />
 						<attiva id="ra13" xlink:href="urn:nir:regione.toscana:legge:1982-12-06;88" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2001-07-27;33" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -236,6 +239,17 @@
 							</dsp:dominio>
 						</dsp:variazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:termine da="#t15" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-07-27;33" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-07-27;33#mod1" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:variazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -2492,6 +2506,15 @@
 								<redazione id="red2" nome="" norm="" />
 								<urn valore="urn:nir:regione.toscana:legge:1999-10-14;52:allegato" />
 							</descrittori>
+							<redazionale xlink:type="simple">
+								<nota id="ann1-n1">
+									<h:p>
+										La
+										<rif xlink:href="urn:nir:regione.toscana:legge:2001-07-27;33" xlink:type="simple">legge regionale 27 luglio 2001, n. 33</rif>
+										apporta modifiche alle presenti tabelle.
+									</h:p>
+								</nota>
+							</redazionale>
 						</meta>
 						<intestazione>
 							<emanante />
@@ -2499,7 +2522,11 @@
 						</intestazione>
 						<contenitore id="con1" nome="corpo">
 							<h:p />
-							<h:p>Le tabelle allegate alla presente legge, pp. 21-37, sono state corrette con Legge Regionale 71/1999, approvata il 23.11.1999 e pubblicata sul Bollettino Ufficiale n. 36 del 31.12.1999. Si rimanda quindi a quella legge per la consultazione delle tabelle e se ne omette la pubblicazione in questa sede.</h:p>
+							<h:p>
+								Le tabelle allegate alla presente legge, pp. 21-37, sono state corrette con Legge Regionale 71/1999, approvata il 23.11.1999 e pubblicata sul Bollettino Ufficiale n. 36 del 31.12.1999. Si rimanda quindi a quella legge per la consultazione delle tabelle e se ne omette la pubblicazione in questa sede
+								<ndr num="#ann1-n1" valore="" xlink:type="simple">(a)</ndr>
+								.
+							</h:p>
 							<h:p />
 						</contenitore>
 					</DocumentoNIR>
