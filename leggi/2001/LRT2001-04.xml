@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20010202" num="Supplemento Straordinario n. 17BIS al Bollettino n. 4 Parte Prima" tipo="BURT" />
 					<entratainvigore norm="20010202" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2001-01-26;4" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2001-01-26;4" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2001-01-26;4@2001-08-16" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Bilancio" />
@@ -16,11 +17,32 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="20010202" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20010827" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2001-01-26;4" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2001-08-16;42" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-08-16;42" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-08-16;42#art5-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 1 della legge Regione Toscana 16 agosto 2001, n. 42" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art9-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -173,51 +195,116 @@
 						</el>
 					</comma>
 				</articolo>
-				<articolo id="art9">
+				<articolo finevigore="t2" id="art9-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 9</num>
 					<rubrica>(Disavanzo dell'esercizio 2001)</rubrica>
-					<comma id="art9-com1">
+					<comma id="art9-t2-com1">
 						<num>1.</num>
 						<corpo>Agli effetti di cui ai commi successivi il disavanzo per l'esercizio 2001 è approvato in lire 178.845.000.000 (euro 92.365.734,12).</corpo>
+					</comma>
+					<comma id="art9-t2-com2">
+						<num>2.</num>
+						<corpo>
+							La Giunta regionale è autorizzata a contrarre nell'esercizio 2001 mutui e ad emettere prestiti obbligazionari o titoli similari per un importo complessivo di lire 178.845.000.000 (euro 92.365.734,12) per la copertura del disavanzo di cui al
+							<rif xlink:href="#art9-t2-com1" xlink:type="simple">primo comma</rif>
+							per le finalità indicate nell'allegato II) 1.
+						</corpo>
+					</comma>
+					<comma id="art9-t2-com3">
+						<num>3.</num>
+						<corpo>
+							I mutui o prestiti di cui al
+							<rif xlink:href="#art9-t2-com2" xlink:type="simple">comma 2</rif>
+							, da estinguersi in un periodo non superiore ad anni trenta, saranno assunti od emessi ad un tasso iniziale massimo del 7,50 per cento effettivo annuo e con ammortamento decorrente dal 1 gennaio 2002.
+						</corpo>
+					</comma>
+					<comma id="art9-t2-com4">
+						<num>4.</num>
+						<corpo>Gli oneri annui di ammortamento, determinati in lire 14.800.000.000 (euro 7.621.009,27), trovano copertura finanziaria negli appositi stanziamenti del bilancio pluriennale approvato dalla presente legge.</corpo>
+					</comma>
+					<comma id="art9-t2-com5">
+						<num>5.</num>
+						<corpo>
+							L'eventuale maggiorazione dell'onere annuo di ammortamento dei mutui e prestiti di cui al
+							<rif xlink:href="#art9-t2-com4" xlink:type="simple">comma 4</rif>
+							, dovuta alla variabilità del tasso o dagli eventuali oneri conseguenti al rischio di cambio, troverà copertura finanziaria con variazione ai bilanci annuali e pluriennali mediante le singole leggi di bilancio.
+						</corpo>
+					</comma>
+					<comma id="art9-t2-com6">
+						<num>6.</num>
+						<corpo>Le rate di ammortamento relative agli anni seguenti al 2003 troveranno copertura con le successive leggi di bilancio.</corpo>
+					</comma>
+					<comma id="art9-t2-com7">
+						<num>7.</num>
+						<corpo>
+							In relazione ai mutui e prestiti di cui al
+							<rif xlink:href="#art9-t2-com2" xlink:type="simple">comma 2</rif>
+							ed in considerazione delle condizioni di mercato, la Giunta regionale è autorizzata ad effettuare operazioni di trasformazione, di scadenze e di modifica del profilo dei tassi di interesse mediante l'utilizzo degli strumenti derivati "swap" e "collar".
+						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art9" iniziovigore="t2">
+					<num>Art. 9</num>
+					<rubrica>Disavanzo dell'esercizio 2001</rubrica>
+					<comma id="art9-com1">
+						<num>1.</num>
+						<corpo>
+							Agli effetti di cui ai
+							<mrif>
+								commi
+								<rif xlink:href="#art9-com2" xlink:type="simple">2</rif>
+								,
+								<rif xlink:href="#art9-com3" xlink:type="simple">3</rif>
+								,
+								<rif xlink:href="#art9-com4" xlink:type="simple">4</rif>
+								,
+								<rif xlink:href="#art9-com5" xlink:type="simple">5</rif>
+								,
+								<rif xlink:href="#art9-com6" xlink:type="simple">6</rif>
+								e
+								<rif xlink:href="#art9-com7" xlink:type="simple">7</rif>
+							</mrif>
+							, il disavanzo per l'esercizio 2001 è approvato in lire 376.072.554.252 (euro 194.225.265,21).
+						</corpo>
 					</comma>
 					<comma id="art9-com2">
 						<num>2.</num>
 						<corpo>
-							La Giunta regionale è autorizzata a contrarre nell'esercizio 2001 mutui e ad emettere prestiti obbligazionari o titoli similari per un importo complessivo di lire 178.845.000.000 (euro 92.365.734,12) per la copertura del disavanzo di cui al
-							<rif xlink:href="#art9-com1" xlink:type="simple">primo comma</rif>
-							per le finalità indicate nell'allegato II) 1.
+							Per la copertura del disavanzo di cui al
+							<rif xlink:href="#art9-com1" xlink:type="simple">comma 1</rif>
+							e per le finalità indicate nell'allegato II.1, la Giunta regionale è autorizzata, nell'esercizio 2001, a contrarre mutui e ad emettere prestiti obbligazionari o titoli similari per un importo complessivo di lire 376.072.554.252 (euro 194.225.265,21), di cui lire 126.129.910.517 (euro 65.140.662,46) relativo al disavanzo dell'anno 2000.
 						</corpo>
 					</comma>
 					<comma id="art9-com3">
 						<num>3.</num>
 						<corpo>
-							I mutui o prestiti di cui al
+							I mutui di cui al
 							<rif xlink:href="#art9-com2" xlink:type="simple">comma 2</rif>
-							, da estinguersi in un periodo non superiore ad anni trenta, saranno assunti od emessi ad un tasso iniziale massimo del 7,50 per cento effettivo annuo e con ammortamento decorrente dal 1 gennaio 2002.
+							, da estinguersi in un periodo non superiore ad anni trenta, sono assunti od emessi ad un tasso iniziale massimo del 7,50 per cento effettivo annuo e con ammortamento decorrente dal 1 gennaio 2002.
 						</corpo>
 					</comma>
 					<comma id="art9-com4">
 						<num>4.</num>
-						<corpo>Gli oneri annui di ammortamento, determinati in lire 14.800.000.000 (euro 7.621.009,27), trovano copertura finanziaria negli appositi stanziamenti del bilancio pluriennale approvato dalla presente legge.</corpo>
+						<corpo>Gli oneri annui di ammortamento, determinati in lire 36.000.000.000 (euro 18.592.448,36), trovano copertura finanziaria negli appositi stanziamenti del bilancio pluriennale approvato dalla presente legge.</corpo>
 					</comma>
 					<comma id="art9-com5">
 						<num>5.</num>
 						<corpo>
 							L'eventuale maggiorazione dell'onere annuo di ammortamento dei mutui e prestiti di cui al
 							<rif xlink:href="#art9-com4" xlink:type="simple">comma 4</rif>
-							, dovuta alla variabilità del tasso o dagli eventuali oneri conseguenti al rischio di cambio, troverà copertura finanziaria con variazione ai bilanci annuali e pluriennali mediante le singole leggi di bilancio.
+							, dovuta alla variabilità del tasso od agli eventuali oneri conseguenti al rischio di cambio, trova copertura finanziaria con variazione ai bilanci annuali e pluriennali mediante le singole leggi di bilancio.
 						</corpo>
 					</comma>
 					<comma id="art9-com6">
 						<num>6.</num>
-						<corpo>Le rate di ammortamento relative agli anni seguenti al 2003 troveranno copertura con le successive leggi di bilancio.</corpo>
+						<corpo>Le rate di ammortamento relative agli anni seguenti al 2003 trovano copertura nelle successive leggi di bilancio.</corpo>
 					</comma>
 					<comma id="art9-com7">
 						<num>7.</num>
 						<corpo>
 							In relazione ai mutui e prestiti di cui al
 							<rif xlink:href="#art9-com2" xlink:type="simple">comma 2</rif>
-							ed in considerazione delle condizioni di mercato, la Giunta regionale è autorizzata ad effettuare operazioni di trasformazione, di scadenze e di modifica del profilo dei tassi di interesse mediante l'utilizzo degli strumenti derivati "swap" e "collar".
+							ed in considerazione delle condizioni di mercato, la Giunta regionale è autorizzata ad effettuare operazioni di trasformazione di scadenze e di modifica del profilo dei tassi di interesse mediante l'utilizzo degli strumenti derivati "swap" e "collar".
 						</corpo>
 					</comma>
 				</articolo>

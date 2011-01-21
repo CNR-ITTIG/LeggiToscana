@@ -8,7 +8,8 @@
 					<entratainvigore norm="20010202" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2001-01-26;3" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2001-01-26;3@2001-04-18" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2001-01-26;3@2001-04-18" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2001-01-26;3@2001-08-16" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Bilancio" />
@@ -21,6 +22,7 @@
 						<evento data="20010202" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="20010202" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="20010427" fonte="rp1" id="t5" tipo="modifica" />
+						<evento data="20010827" fonte="rp2" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2001-01-26;3" xlink:type="simple" />
@@ -28,6 +30,7 @@
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:2000;3" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:2000-01-28;7" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2001-04-18;17" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2001-08-16;42" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -77,7 +80,7 @@
 					</modificheattive>
 					<modifichepassive>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art8" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-04-18;17" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-04-18;17#art3-com3" xlink:type="simple" />
 								<dsp:subarg>
@@ -88,6 +91,21 @@
 								<dsp:pos xlink:href="#art8-t5" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art12-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-08-16;42" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-08-16;42#art8-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 8, comma 1 della legge Regione Toscana 16 agosto 2001, n. 42" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -384,7 +402,12 @@
 					<rubrica>(Ristrutturazione del debito)</rubrica>
 					<comma id="art12-com1">
 						<num>1.</num>
-						<corpo>La Giunta regionale è autorizzata negli esercizi 2001 e 2002 ad estinguere anticipatamente i mutui in ammortamento e a contrarre, nei medesimi esercizi 2001 e 2002, mutui, prestiti obbligazionari o titolari similari, anche a tasso variabile, fino ad un importo massimo di lire 1.000 miliardi (516.456.899,09 euro), comprensivo del debito residuo dei mutui da estinguere e degli oneri contrattualmente previsti per la loro risoluzione anticipata.</corpo>
+						<corpo>
+							La Giunta regionale è autorizzata negli esercizi 2001 e 2002 ad estinguere anticipatamente i mutui in ammortamento e a contrarre, nei medesimi esercizi 2001 e 2002, mutui, prestiti obbligazionari o titolari similari, anche a tasso variabile, fino ad un importo massimo di
+							<h:span finevigore="t6" id="h1" iniziovigore="t1" status="abrogato">lire 1.000 miliardi (516.456.899,09 euro)</h:span>
+							<h:span id="h2" iniziovigore="t6">lire 1.600 miliardi (826.331.038,55 euro)</h:span>
+							, comprensivo del debito residuo dei mutui da estinguere e degli oneri contrattualmente previsti per la loro risoluzione anticipata.
+						</corpo>
 					</comma>
 					<comma id="art12-com2">
 						<num>2.</num>
