@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19991231" num="36" tipo="BURT" />
 					<entratainvigore norm="19991231" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1999-12-22;71" />
+					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1999-12-22;71" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1999-12-22;71@2001-07-27" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Urbanistica" />
 						<materia valore="Controlli" />
@@ -17,10 +18,12 @@
 					<eventi>
 						<evento data="19991231" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19991231" fonte="ra1" id="t2" tipo="modifica" />
+						<evento data="20010823" fonte="rp1" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1999-12-22;71" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1999-10-14;52" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2001-07-27;33" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -36,6 +39,23 @@
 							</dsp:dominio>
 						</dsp:variazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#??" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-07-27;33" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-07-27;33#art1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo1, legge Regione Toscana 27 luglio 2001, n. 33" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -905,7 +925,12 @@
 										</h:tr>
 									</h:tbody>
 								</h:table>
-								<h:p>Nota: per i campeggi ed i villaggi turistici, il costo medio per opere di urbanizzazione secondaria si applica al volume delle attrezzature fisse, nonché alle unità abitative, mentre per quanto riguarda le piazzole si asserisce una edificabilità teorica di 200 mc. a piazzola.</h:p>
+								<h:p>
+									Nota: per i campeggi ed i villaggi turistici, il costo medio per opere di urbanizzazione secondaria si applica al volume delle attrezzature fisse, nonché alle unità abitative, mentre per quanto riguarda le piazzole si asserisce una edificabilità teorica di
+									<h:span finevigore="t3" id="h1" iniziovigore="t1" status="abrogato">200 mc</h:span>
+									<h:span id="h2" iniziovigore="t3">40 mc</h:span>
+									. a piazzola.
+								</h:p>
 							</contenitore>
 							<contenitore id="con6" nome="corpo">
 								<h:p>TABELLA A/4</h:p>

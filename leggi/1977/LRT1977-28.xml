@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t12" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19770514" num="27" tipo="BURT" />
@@ -15,7 +15,8 @@
 					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1977-05-06;28@1995-04-06" />
 					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1977-05-06;28@1996-05-02" />
 					<urn finevigore="t11" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1977-05-06;28@1996-10-29" />
-					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1977-05-06;28@1998-08-13" />
+					<urn finevigore="t12" iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1977-05-06;28@1998-08-13" />
+					<urn iniziovigore="t12" valore="urn:nir:regione.toscana:legge:1977-05-06;28@2001-08-06" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Contabilità Contratti" />
@@ -34,6 +35,7 @@
 						<evento data="19960513" fonte="rp7" id="t9" tipo="modifica" />
 						<evento data="19961108" fonte="rp8" id="t10" tipo="modifica" />
 						<evento data="19980908" fonte="rp9" id="t11" tipo="modifica" />
+						<evento data="20010814" fonte="rp10" id="t12" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1977-05-06;28" xlink:type="simple" />
@@ -47,6 +49,7 @@
 						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:1996-05-02;32" xlink:type="simple" />
 						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:1996-10-29;78" xlink:type="simple" />
 						<passiva id="rp9" xlink:href="urn:nir:regione.toscana:legge:1998-08-13;59" xlink:type="simple" />
+						<passiva id="rp10" xlink:href="urn:nir:regione.toscana:legge:2001-08-06;36" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -654,7 +657,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#tit2" xlink:type="simple" />
+							<dsp:pos xlink:href="#LeggeRegionale1-tit2" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-04-06;37" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-04-06;37#art2-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -666,7 +669,7 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#tit2" xlink:type="simple" />
+							<dsp:pos xlink:href="#LeggeRegionale1-tit2" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-04-06;37" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-04-06;37#art2-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -713,6 +716,18 @@
 								<dsp:pos xlink:href="#art145-com2" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1977-05-06;28" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-08-06;36" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-08-06;36#art46-com1-letb" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 46, comma 1, lettera b) della legge Regione Toscana 6 agosto 2001, n. 36" id="itt48" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -731,7 +746,7 @@
 				<h:p>la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>DISPOSIZIONI GENERALI</rubrica>
 					<articolo id="art1">
@@ -789,7 +804,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>
 						<h:span finevigore="t8" id="h1" iniziovigore="t1" status="abrogato">TITOLO II</h:span>
 					</num>
@@ -897,7 +912,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>TITOLO III</num>
 					<rubrica>ANNO FINANZIARIO ED ESERCIZIO FINANZIARIO. COMPETENZA E CASSA DI ESERCIZIO. ATTI RELATIVI</rubrica>
 					<articolo id="art10">
@@ -963,7 +978,7 @@
 							<num />
 							<corpo>
 								Nel caso di obbligazioni a carattere pluriennale, assunte dalla Regione secondo la disciplina del Paragrafo I del
-								<rif xlink:href="#tit10" xlink:type="simple">Titolo X</rif>
+								<rif xlink:href="#LeggeRegionale1-tit10" xlink:type="simple">Titolo X</rif>
 								, formano oggetto degli atti di impegno della spesa le sole quote di tali obbligazioni che vengono a scadenza nel corso dell'esercizio medesimo.
 							</corpo>
 						</comma>
@@ -990,11 +1005,11 @@
 									<rif xlink:href="#art14" xlink:type="simple">14</rif>
 								</mrif>
 								e dei comma precedenti, rilevano ad effetti specifici diversi, sia della disciplina della legge di bilancio di cui al
-								<rif xlink:href="#tit6" xlink:type="simple">Titolo VI</rif>
+								<rif xlink:href="#LeggeRegionale1-tit6" xlink:type="simple">Titolo VI</rif>
 								, che di quella della gestione di esso di cui al
-								<rif xlink:href="#tit7" xlink:type="simple">Titolo VII</rif>
+								<rif xlink:href="#LeggeRegionale1-tit7" xlink:type="simple">Titolo VII</rif>
 								, nonchè della legge di rendiconto di cui al
-								<rif xlink:href="#tit8" xlink:type="simple">Titolo VIII</rif>
+								<rif xlink:href="#LeggeRegionale1-tit8" xlink:type="simple">Titolo VIII</rif>
 								.
 							</corpo>
 						</comma>
@@ -1012,7 +1027,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit4">
+				<titolo id="LeggeRegionale1-tit4">
 					<num>TITOLO IV</num>
 					<rubrica>LEGGI REGIONALI DI SPESA</rubrica>
 					<articolo id="art17">
@@ -1026,7 +1041,7 @@
 							<num />
 							<corpo>
 								Le conseguenze di tale disciplina in ordine all'azione amministrativa e di diritto privato della Regione sono regolare al
-								<rif xlink:href="#tit10" xlink:type="simple">Titolo X</rif>
+								<rif xlink:href="#LeggeRegionale1-tit10" xlink:type="simple">Titolo X</rif>
 								.
 							</corpo>
 						</comma>
@@ -1187,7 +1202,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit5">
+				<titolo id="LeggeRegionale1-tit5">
 					<num>TITOLO V</num>
 					<rubrica>AUTONOMIA DI SPESA DELLA REGIONE</rubrica>
 					<articolo id="art26">
@@ -1437,7 +1452,7 @@
 								La Regione ha facoltà di stanziare ed erogare somme eccedenti quelle assegnate dallo Stato in base all'
 								<rif xlink:href="urn:nir:stato:legge:1970;281#art9" xlink:type="simple">art. 9 della legge n. 281/1970</rif>
 								, o con leggi di contenuto particolare, o in corrispondenza di deleghe di funzioni, ferme, in quest'ultimo caso, le disposizioni delle leggi statali che disciplinano le relative funzioni, secondo quanto previsto alla
-								<rif xlink:href="#tit7-cap3-sez2" xlink:type="simple">Sezione II del Titolo VII, Capo III</rif>
+								<rif xlink:href="#LeggeRegionale1-tit7-cap3-sez2" xlink:type="simple">Sezione II del Titolo VII, Capo III</rif>
 								.
 							</corpo>
 						</comma>
@@ -1511,7 +1526,7 @@
 							<num />
 							<corpo>
 								La Regione può contrarre anticipazioni, unicamente allo scopo di fronteggiare temporanee deficienze di cassa, per un importo non eccedente l'ammontare bimestrale delle entrate tributarie spettanti alla Regione, iscritte in bilancio, nel
-								<rif xlink:href="#tit1" xlink:type="simple">Titolo I</rif>
+								<rif xlink:href="#LeggeRegionale1-tit1" xlink:type="simple">Titolo I</rif>
 								, a norma dell'
 								<rif xlink:href="#art59" xlink:type="simple">art. 59</rif>
 								.
@@ -1538,7 +1553,7 @@
 									Autorizzazione I mutui e i prestiti possono essere autorizzati esclusivamente per provvedere a spese di investimento, salvo quanto ulteriormente previsto dall'
 									<rif xlink:href="urn:nir:stato:legge:1970;281#art10-com1" xlink:type="simple">art. 10, I comma della legge n. 281/1970</rif>
 									. L'ammontare complessivo delle annualità di ammortamento, per capitali ed interessi, dei mutui e prestiti in estinzione, non può superare il 20 per cento dell'ammontare complessivo delle entrate tributarie della Regione, iscritte in bilancio nel
-									<rif xlink:href="#tit1" xlink:type="simple">Titolo I</rif>
+									<rif xlink:href="#LeggeRegionale1-tit1" xlink:type="simple">Titolo I</rif>
 									a norma dell'
 									<rif xlink:href="#art59" xlink:type="simple">art. 59</rif>
 									.
@@ -1591,10 +1606,10 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit6">
+				<titolo id="LeggeRegionale1-tit6">
 					<num>TITOLO VI</num>
 					<rubrica>LEGGE DI BILANCIO</rubrica>
-					<capo id="tit6-cap1">
+					<capo id="LeggeRegionale1-tit6-cap1">
 						<num>Capo I</num>
 						<rubrica>BILANCIO REGIONALE</rubrica>
 						<articolo id="art38">
@@ -1604,7 +1619,7 @@
 								<num />
 								<corpo>
 									La legge di bilancio, salvo l'ulteriore contenuto normativo secondo la disciplina del
-									<rif xlink:href="#tit6-cap4" xlink:type="simple">Capo IV</rif>
+									<rif xlink:href="#LeggeRegionale1-tit6-cap4" xlink:type="simple">Capo IV</rif>
 									, interviene sugli atti finanziari di cui all'
 									<rif xlink:href="#art10" xlink:type="simple">art. 10</rif>
 									, con un sistema previsionale di entrate e di spese regionali, che si articola in un bilancio pluriennale e in un bilancio annuale, e si completa con le relazioni previste dall'
@@ -1618,7 +1633,7 @@
 									Il numero di anni finanziari che il bilancio pluriennale prende in considerazione, ai sensi dell'
 									<rif xlink:href="#art10" xlink:type="simple">art. 10</rif>
 									, è determinato dalla legge di bilancio medesima, secondo la disciplina del
-									<rif xlink:href="#tit6-cap2-sez1" xlink:type="simple">Capo II, Sezione I</rif>
+									<rif xlink:href="#LeggeRegionale1-tit6-cap2-sez1" xlink:type="simple">Capo II, Sezione I</rif>
 									del presente Titolo.
 								</corpo>
 							</comma>
@@ -1630,14 +1645,14 @@
 								<num />
 								<alinea>
 									Il bilancio pluriennale rappresenta il quadro delle risorse che la Regione prevede di acquisire e di impiegare nel periodo considerato, secondo la disciplina del
-									<rif xlink:href="#tit6-cap2" xlink:type="simple">Capo II</rif>
+									<rif xlink:href="#LeggeRegionale1-tit6-cap2" xlink:type="simple">Capo II</rif>
 									, al fine di:
 								</alinea>
 								<el id="art39-com1-leta">
 									<num>a)</num>
 									<corpo>
 										tradurre in termini contabili le proiezioni finanziarie delle scelte del programma regionale di sviluppo e degli altri atti di programmazione, di cui al
-										<rif xlink:href="#tit2" xlink:type="simple">Titolo II</rif>
+										<rif xlink:href="#LeggeRegionale1-tit2" xlink:type="simple">Titolo II</rif>
 										;
 									</corpo>
 								</el>
@@ -1645,7 +1660,7 @@
 									<num>b)</num>
 									<corpo>
 										costituire in ogni caso sede per il riscontro della copertura finanziaria delle spese che le leggi regionali comportano a carico di esercizi futuri, agli effetti del
-										<rif xlink:href="#tit4" xlink:type="simple">Titolo IV</rif>
+										<rif xlink:href="#LeggeRegionale1-tit4" xlink:type="simple">Titolo IV</rif>
 										;
 									</corpo>
 								</el>
@@ -1666,14 +1681,14 @@
 								<num />
 								<alinea>
 									Il bilancio annuale rappresenta nel proprio periodo di durata il quadro indicato all'articolo precedente, secondo la disciplina del
-									<rif xlink:href="#tit6-cap3" xlink:type="simple">Capo III</rif>
+									<rif xlink:href="#LeggeRegionale1-tit6-cap3" xlink:type="simple">Capo III</rif>
 									, al fine di:
 								</alinea>
 								<el id="art40-com1-leta">
 									<num>a)</num>
 									<corpo>
 										autorizzare la gestione degli atti di spesa relativi all'esercizio finanziario di riferimento, di cui al
-										<rif xlink:href="#tit7" xlink:type="simple">Titolo VII</rif>
+										<rif xlink:href="#LeggeRegionale1-tit7" xlink:type="simple">Titolo VII</rif>
 										;
 									</corpo>
 								</el>
@@ -1681,7 +1696,7 @@
 									<num>b)</num>
 									<corpo>
 										determinare, a tali effetti, ed in riferimento al
-										<rif xlink:href="#tit4" xlink:type="simple">Titolo IV</rif>
+										<rif xlink:href="#LeggeRegionale1-tit4" xlink:type="simple">Titolo IV</rif>
 										, la competenza e la cassa d' esercizio, disciplinando anche i fenomeni residuali delle gestioni precedenti;
 									</corpo>
 								</el>
@@ -1702,7 +1717,7 @@
 								<num />
 								<corpo>
 									La legge di bilancio interviene con il sistema previsionale di entrate e di spese di cui agli articoli precedenti e alla normativa dei Capi seguenti, ogni anno, ai sensi del
-									<rif xlink:href="#tit6-cap5" xlink:type="simple">Capo V</rif>
+									<rif xlink:href="#LeggeRegionale1-tit6-cap5" xlink:type="simple">Capo V</rif>
 									. Il principio di annualità del bilancio comporta quello della scorrevolezza del bilancio pluriennale di cui all'
 									<rif xlink:href="#art49" xlink:type="simple">art. 49</rif>
 									.
@@ -1716,11 +1731,11 @@
 								<num />
 								<corpo>
 									La legge di bilancio assume le spese in quanto autorizzate ai sensi della disciplina del
-									<rif xlink:href="#tit4" xlink:type="simple">Titolo IV</rif>
+									<rif xlink:href="#LeggeRegionale1-tit4" xlink:type="simple">Titolo IV</rif>
 									, ferme rimanendo le disposizioni della
-									<rif xlink:href="#tit6-cap2-sez2" xlink:type="simple">Sezione II del Capo II</rif>
+									<rif xlink:href="#LeggeRegionale1-tit6-cap2-sez2" xlink:type="simple">Sezione II del Capo II</rif>
 									, per il bilancio pluriennale, e della
-									<rif xlink:href="#tit6-cap3-sez4" xlink:type="simple">Sezione IV del Capo III</rif>
+									<rif xlink:href="#LeggeRegionale1-tit6-cap3-sez4" xlink:type="simple">Sezione IV del Capo III</rif>
 									, per il bilancio annuale, e salvo quanto discende, ai detti effetti autorizzativi, dalle altre fonti dell'ordinamento giuridico.
 								</corpo>
 							</comma>
@@ -1728,7 +1743,7 @@
 								<num />
 								<corpo>
 									Parimenti assume le entrate in quanto autorizzate con legge, ferma la citata disciplina del
-									<rif xlink:href="#tit6-cap2-sez2" xlink:type="simple">Capo II, Sezione II</rif>
+									<rif xlink:href="#LeggeRegionale1-tit6-cap2-sez2" xlink:type="simple">Capo II, Sezione II</rif>
 									del presente Titolo.
 								</corpo>
 							</comma>
@@ -1736,7 +1751,7 @@
 								<num />
 								<corpo>
 									Le entrate regionali confluiscono nel bilancio regionale senza vincolo a specifiche destinazioni, nei limiti e secondo la disciplina del
-									<rif xlink:href="#tit5" xlink:type="simple">Titolo V</rif>
+									<rif xlink:href="#LeggeRegionale1-tit5" xlink:type="simple">Titolo V</rif>
 									.
 								</corpo>
 							</comma>
@@ -1796,7 +1811,7 @@
 								<num />
 								<alinea>
 									La legge di bilancio, salvo quanto previsto al
-									<rif xlink:href="#tit6-cap4" xlink:type="simple">Capo IV</rif>
+									<rif xlink:href="#LeggeRegionale1-tit6-cap4" xlink:type="simple">Capo IV</rif>
 									in ordine al suo contenuto normativo, consta:
 								</alinea>
 								<el id="art46-com1-leta">
@@ -1820,16 +1835,16 @@
 								<num />
 								<corpo>
 									La Giunta regionale presenta al Consiglio, unitamente alla legge di bilancio, una relazione generale che ha in appendice le relazioni di cui all'articolo precedente, ai sensi e per gli effetti di cui al
-									<rif xlink:href="#tit6-cap5" xlink:type="simple">Capo V</rif>
+									<rif xlink:href="#LeggeRegionale1-tit6-cap5" xlink:type="simple">Capo V</rif>
 									.
 								</corpo>
 							</comma>
 						</articolo>
 					</capo>
-					<capo id="tit6-cap2">
+					<capo id="LeggeRegionale1-tit6-cap2">
 						<num>Capo II</num>
 						<rubrica>BILANCIO PLURIENNALE</rubrica>
-						<sezione id="tit6-cap2-sez1">
+						<sezione id="LeggeRegionale1-tit6-cap2-sez1">
 							<num>Sezione I</num>
 							<rubrica>DURATA</rubrica>
 							<articolo id="art47">
@@ -1877,7 +1892,7 @@
 								</comma>
 							</articolo>
 						</sezione>
-						<sezione id="tit6-cap2-sez2">
+						<sezione id="LeggeRegionale1-tit6-cap2-sez2">
 							<num>Sezione II</num>
 							<rubrica>DETERMINAZIONE DELLE PREVISIONI</rubrica>
 							<articolo id="art50">
@@ -1888,7 +1903,7 @@
 									<corpo>Le previsioni di entrata e di spesa del bilancio pluriennale, per la durata prevista dalla Sezione precedente, si determinano, onde consentire la loro iscrizione nel bilancio medesimo, sulla base, con i criteri ed agli effetti di cui alla disciplina degli articoli seguenti.</corpo>
 								</comma>
 							</articolo>
-							<parte id="tit6-cap2-sez2-prtpaafo1">
+							<parte id="LeggeRegionale1-tit6-cap2-sez2-prtpaafo1">
 								<num>Paragrafo 1</num>
 								<rubrica>FONDAMENTO</rubrica>
 								<articolo id="art51">
@@ -1929,7 +1944,7 @@
 									</comma>
 								</articolo>
 							</parte>
-							<parte id="tit6-cap2-sez2-prtpaafo2">
+							<parte id="LeggeRegionale1-tit6-cap2-sez2-prtpaafo2">
 								<num>Paragrafo 2</num>
 								<rubrica>CRITERI ED EFFETTI</rubrica>
 								<articolo id="art54">
@@ -1970,7 +1985,7 @@
 											<num>a)</num>
 											<corpo>
 												delle indicazioni del programma regionale di sviluppo, e degli atti di programmazione attuativi di esso, secondo la disciplina del
-												<rif xlink:href="#tit2" xlink:type="simple">Titolo II</rif>
+												<rif xlink:href="#LeggeRegionale1-tit2" xlink:type="simple">Titolo II</rif>
 												;
 											</corpo>
 										</el>
@@ -2017,7 +2032,7 @@
 											<num>c)</num>
 											<corpo>
 												nel quadro della legislazione vigente e con riferimento agli atti di programmazione di cui al
-												<rif xlink:href="#tit2" xlink:type="simple">Titolo II</rif>
+												<rif xlink:href="#LeggeRegionale1-tit2" xlink:type="simple">Titolo II</rif>
 												.
 											</corpo>
 										</el>
@@ -2069,7 +2084,7 @@
 								</articolo>
 							</parte>
 						</sezione>
-						<sezione id="tit6-cap2-sez3">
+						<sezione id="LeggeRegionale1-tit6-cap2-sez3">
 							<num>Sezione III</num>
 							<rubrica>STRUTTURA</rubrica>
 							<articolo id="art59">
@@ -2235,7 +2250,7 @@
 								</comma>
 							</articolo>
 						</sezione>
-						<sezione id="tit6-cap2-sez4">
+						<sezione id="LeggeRegionale1-tit6-cap2-sez4">
 							<num>Sezione IV</num>
 							<rubrica>ISCRIZIONE</rubrica>
 							<articolo id="art62">
@@ -2249,7 +2264,7 @@
 									<num />
 									<corpo>
 										Per ciascuna delle quote dell'entrata e della spesa, è fatta menzione, distintamente, delle somme che trovano fondamento nella legislazione statale e regionale già in vigore, e di quelle che trovano fondamento nei previsti nuovi interventi legislativi, secondo la disciplina della
-										<rif xlink:href="#tit6-cap2-sez2" xlink:type="simple">Sezione II</rif>
+										<rif xlink:href="#LeggeRegionale1-tit6-cap2-sez2" xlink:type="simple">Sezione II</rif>
 										del presente Capo.
 									</corpo>
 								</comma>
@@ -2290,10 +2305,10 @@
 							</articolo>
 						</sezione>
 					</capo>
-					<capo id="tit6-cap3">
+					<capo id="LeggeRegionale1-tit6-cap3">
 						<num>Capo III</num>
 						<rubrica>BILANCIO ANNUALE</rubrica>
-						<sezione id="tit6-cap3-sez1">
+						<sezione id="LeggeRegionale1-tit6-cap3-sez1">
 							<num>Sezione I</num>
 							<rubrica>NATURA</rubrica>
 							<articolo id="art65">
@@ -2384,10 +2399,10 @@
 								</comma>
 							</articolo>
 						</sezione>
-						<sezione id="tit6-cap3-sez2">
+						<sezione id="LeggeRegionale1-tit6-cap3-sez2">
 							<num>Sezione II</num>
 							<rubrica>STRUTTURA</rubrica>
-							<parte id="tit6-cap3-sez2-prtpaafo1">
+							<parte id="LeggeRegionale1-tit6-cap3-sez2-prtpaafo1">
 								<num>Paragrafo 1</num>
 								<rubrica>STRUTTURA DEL BILANCIO ANNUALE</rubrica>
 								<articolo id="art68">
@@ -2399,7 +2414,7 @@
 											Gli stanziamenti, oggetto delle previsioni di entrata determinate a norma della Sezione seguente, sono iscritti nel bilancio annuale, secondo il sistema di ripartizione in titoli ed in categorie, ai sensi dell'
 											<rif xlink:href="#art59" xlink:type="simple">art. 59</rif>
 											, aggiungendo il "
-											<rif xlink:href="#tit6" xlink:type="simple">Titolo Vi</rif>
+											<rif xlink:href="#LeggeRegionale1-tit6" xlink:type="simple">Titolo Vi</rif>
 											- Contabilità speciali ". Nell'ambito di ciascun Titolo essi sono altresì ripartiti in categorie, secondo la loro natura, ed in capitoli, secondo il loro oggetto.
 										</corpo>
 									</comma>
@@ -2473,7 +2488,7 @@
 									</comma>
 								</articolo>
 							</parte>
-							<parte id="tit6-cap3-sez2-prtpaafo2">
+							<parte id="LeggeRegionale1-tit6-cap3-sez2-prtpaafo2">
 								<num>Paragrafo 2</num>
 								<rubrica>CORRELAZIONE CON IL BILANCIO DELLO STATO E CON QUELLI DELLE ALTRE REGIONI</rubrica>
 								<articolo id="art72">
@@ -2620,7 +2635,7 @@
 									</comma>
 								</articolo>
 							</parte>
-							<parte id="tit6-cap3-sez2-prtpaafo3">
+							<parte id="LeggeRegionale1-tit6-cap3-sez2-prtpaafo3">
 								<num>Paragrafo 3</num>
 								<rubrica>COMPOSIZIONE DEL BILANCIO ANNUALE</rubrica>
 								<articolo id="art76">
@@ -2643,7 +2658,7 @@
 											<num>2)</num>
 											<corpo>
 												dello stato di previsione dell'entrata, con riferimento al conto dei residui, alla competenza ed alla cassa, secondo la disciplina della
-												<rif xlink:href="#tit6-cap3-sez1" xlink:type="simple">Sezione precedente</rif>
+												<rif xlink:href="#LeggeRegionale1-tit6-cap3-sez1" xlink:type="simple">Sezione precedente</rif>
 												;
 											</corpo>
 										</en>
@@ -2651,7 +2666,7 @@
 											<num>3)</num>
 											<corpo>
 												dello stato di previsione della spesa, con riferimento al conto dei residui, alla competenza ed alla cassa, secondo la disciplina della
-												<rif xlink:href="#tit6-cap3-sez1" xlink:type="simple">Sezione precedente</rif>
+												<rif xlink:href="#LeggeRegionale1-tit6-cap3-sez1" xlink:type="simple">Sezione precedente</rif>
 												.
 											</corpo>
 										</en>
@@ -2727,7 +2742,7 @@
 								</articolo>
 							</parte>
 						</sezione>
-						<sezione id="tit6-cap3-sez3">
+						<sezione id="LeggeRegionale1-tit6-cap3-sez3">
 							<num>Sezione III</num>
 							<rubrica>DETERMINAZIONE ED ISCRIZIONE DELLE PREVISIONI</rubrica>
 							<articolo id="art77">
@@ -2773,7 +2788,7 @@
 									<num />
 									<corpo>
 										Il ricorrere delle attività o interventi indicati, agli effetti di cui al comma precedente, è valutato sulla base delle leggi che prevedono le attività e gli interventi medesimi, ed in conformità ai relativi programmi e progetti della Regione di cui al
-										<rif xlink:href="#tit2" xlink:type="simple">Titolo II</rif>
+										<rif xlink:href="#LeggeRegionale1-tit2" xlink:type="simple">Titolo II</rif>
 										.
 									</corpo>
 								</comma>
@@ -2885,7 +2900,7 @@
 								</comma>
 							</articolo>
 						</sezione>
-						<sezione id="tit6-cap3-sez4">
+						<sezione id="LeggeRegionale1-tit6-cap3-sez4">
 							<num>Sezione IV</num>
 							<rubrica>FONDI SPECIALI</rubrica>
 							<articolo id="art83">
@@ -2931,7 +2946,7 @@
 									<num />
 									<corpo>
 										I fondi previsti dal presente articolo sono gestiti secondo la disciplina del
-										<rif xlink:href="#tit6-cap3" xlink:type="simple">Capo III</rif>
+										<rif xlink:href="#LeggeRegionale1-tit6-cap3" xlink:type="simple">Capo III</rif>
 										del Titolo seguente.
 									</corpo>
 								</comma>
@@ -2987,7 +3002,7 @@
 									<num />
 									<corpo>
 										Possono essere previsti più fondi globali, distinti in riferimento all'oggetto dei provvedimenti legislativi regionali di cui al comma precedente, in correlazione agli atti di programmazione di cui al
-										<rif xlink:href="#tit2" xlink:type="simple">Titolo II</rif>
+										<rif xlink:href="#LeggeRegionale1-tit2" xlink:type="simple">Titolo II</rif>
 										.
 									</corpo>
 								</comma>
@@ -3014,7 +3029,7 @@
 							</articolo>
 						</sezione>
 					</capo>
-					<capo id="tit6-cap4">
+					<capo id="LeggeRegionale1-tit6-cap4">
 						<num>Capo IV</num>
 						<rubrica>CONTENUTO NORMATIVO DELLA LEGGE DI BILANCIO</rubrica>
 						<articolo id="art89">
@@ -3179,7 +3194,7 @@
 							</comma>
 						</articolo>
 					</capo>
-					<capo id="tit6-cap5">
+					<capo id="LeggeRegionale1-tit6-cap5">
 						<num>Capo V</num>
 						<rubrica>PROCEDIMENTO E VICENDE DELLA LEGGE DI BILANCIO. LEGGE DI AUTORIZZAZIONE ALL'ESERCIZIO PROVVISORIO</rubrica>
 						<articolo id="art95">
@@ -3220,7 +3235,7 @@
 									<num>a)</num>
 									<corpo>
 										all'aggiornamento dei residui attivi e passivi, dell'eventuale saldo finanziario attivo o passivo, e della giacenza di cassa, di cui alla disciplina della
-										<rif xlink:href="#tit6-cap3-sez1" xlink:type="simple">Sezione I del Capo III</rif>
+										<rif xlink:href="#LeggeRegionale1-tit6-cap3-sez1" xlink:type="simple">Sezione I del Capo III</rif>
 										;
 									</corpo>
 								</el>
@@ -3310,7 +3325,7 @@
 										,
 									</h:span>
 									, e alle variazioni e al trasporto di somme nella gestione dei fondi speciali e dei finanziamenti aggiuntivi, secondo la disciplina di cui al
-									<rif xlink:href="#tit7-cap3" xlink:type="simple">Titolo VII, Capo III</rif>
+									<rif xlink:href="#LeggeRegionale1-tit7-cap3" xlink:type="simple">Titolo VII, Capo III</rif>
 									.
 								</corpo>
 							</comma>
@@ -3336,10 +3351,10 @@
 						</articolo>
 					</capo>
 				</titolo>
-				<titolo id="tit7">
+				<titolo id="LeggeRegionale1-tit7">
 					<num>TITOLO VII</num>
 					<rubrica>GESTIONE DEL BILANCIO</rubrica>
-					<capo id="tit7-cap1">
+					<capo id="LeggeRegionale1-tit7-cap1">
 						<num>Capo I</num>
 						<rubrica>DISCIPLINA GENERALE</rubrica>
 						<articolo finevigore="t6" id="art101-t6" iniziovigore="t1" status="abrogato">
@@ -3506,13 +3521,13 @@
 							</comma>
 						</articolo>
 					</capo>
-					<capo id="tit7-cap2">
+					<capo id="LeggeRegionale1-tit7-cap2">
 						<num>Capo II</num>
 						<rubrica>GESTIONE ORDINARIA</rubrica>
-						<sezione id="tit7-cap2-sez1">
+						<sezione id="LeggeRegionale1-tit7-cap2-sez1">
 							<num>Sezione I</num>
 							<rubrica>GESTIONE DELLE ENTRATE E DELLE SPESE D'ESERCIZIO</rubrica>
-							<parte id="tit7-cap2-sez1-prtpaafo1">
+							<parte id="LeggeRegionale1-tit7-cap2-sez1-prtpaafo1">
 								<num>Paragrafo 1</num>
 								<rubrica>GESTIONE DELLE ENTRATE</rubrica>
 								<articolo id="art104">
@@ -3704,7 +3719,7 @@
 									</comma>
 								</articolo>
 							</parte>
-							<parte id="tit7-cap2-sez1-prtpaafo2">
+							<parte id="LeggeRegionale1-tit7-cap2-sez1-prtpaafo2">
 								<num>Paragrafo 2</num>
 								<rubrica>GESTIONE DELLE SPESE</rubrica>
 								<articolo finevigore="t8" id="art110-t8" iniziovigore="t1" status="abrogato">
@@ -4289,7 +4304,7 @@
 									</comma>
 								</articolo>
 							</parte>
-							<parte id="tit7-cap2-sez1-prtpaafo3">
+							<parte id="LeggeRegionale1-tit7-cap2-sez1-prtpaafo3">
 								<num>Paragrafo 3</num>
 								<rubrica>APERTURA DI CREDITO</rubrica>
 								<articolo id="art119">
@@ -4354,7 +4369,7 @@
 								</articolo>
 							</parte>
 						</sezione>
-						<sezione id="tit7-cap2-sez2">
+						<sezione id="LeggeRegionale1-tit7-cap2-sez2">
 							<num>Sezione II</num>
 							<rubrica>GESTIONE DEI RESIDUI</rubrica>
 							<articolo id="art122">
@@ -4396,7 +4411,7 @@
 									<num />
 									<corpo>
 										Esse, a tale titolo, concorrono a determinare i risultati finali della gestione, secondo la disciplina del
-										<rif xlink:href="#tit8" xlink:type="simple">Titolo VIII</rif>
+										<rif xlink:href="#LeggeRegionale1-tit8" xlink:type="simple">Titolo VIII</rif>
 										.
 									</corpo>
 								</comma>
@@ -4430,7 +4445,7 @@
 									<num />
 									<corpo>
 										Esse, a tale titolo, sono conservate nel conto dei residui, ai sensi e per gli effetti di cui alla
-										<rif xlink:href="#tit6-cap3-sez1" xlink:type="simple">Sezione I del Titolo VI, Capo III</rif>
+										<rif xlink:href="#LeggeRegionale1-tit6-cap3-sez1" xlink:type="simple">Sezione I del Titolo VI, Capo III</rif>
 										, fino a quando i crediti relativi non si sono estinti per prescrizione od altra causa.
 									</corpo>
 								</comma>
@@ -4457,7 +4472,7 @@
 									<num />
 									<corpo>
 										Le somme, di cui al III comma dell'articolo precedente, possono essere mantenute nel conto dei residui, ai sensi e per gli effetti di cui alla
-										<rif xlink:href="#tit6-cap3-sez1" xlink:type="simple">Sezione I del Titolo VI, Capo III</rif>
+										<rif xlink:href="#LeggeRegionale1-tit6-cap3-sez1" xlink:type="simple">Sezione I del Titolo VI, Capo III</rif>
 										, per non più di due anni successivi a quello in cui l'impegno si è perfezionato.
 									</corpo>
 								</comma>
@@ -4493,7 +4508,7 @@
 									<num />
 									<corpo>
 										La Giunta regionale, accertato che il debito non si è estinto per prescrizione od altra causa, preleva la somma dal fondo di riserva per spese obbligatorie e dispone il pagamento, secondo la disciplina della
-										<rif xlink:href="#tit7-cap2-sez1" xlink:type="simple">Sezione I</rif>
+										<rif xlink:href="#LeggeRegionale1-tit7-cap2-sez1" xlink:type="simple">Sezione I</rif>
 										del Capo seguente.
 									</corpo>
 								</comma>
@@ -4541,13 +4556,13 @@
 							</articolo>
 						</sezione>
 					</capo>
-					<capo id="tit7-cap3">
+					<capo id="LeggeRegionale1-tit7-cap3">
 						<num>Capo III</num>
 						<rubrica>GESTIONI SPECIALI</rubrica>
-						<sezione id="tit7-cap3-sez1">
+						<sezione id="LeggeRegionale1-tit7-cap3-sez1">
 							<num>Sezione I</num>
 							<rubrica>GESTIONE DEI FONDI SPECIALI</rubrica>
-							<parte id="tit7-cap3-sez1-prtpaafo1">
+							<parte id="LeggeRegionale1-tit7-cap3-sez1-prtpaafo1">
 								<num>Paragrafo 1</num>
 								<rubrica>DISCIPLINA COMUNE</rubrica>
 								<articolo id="art128">
@@ -4557,7 +4572,7 @@
 										<num />
 										<corpo>
 											I fondi speciali previsti in bilancio non sono utilizzabili per l'imputazione di atti di spesa a norma del
-											<rif xlink:href="#tit7-cap2-sez1-prtpaafo2" xlink:type="simple">Paragrafo 2 del Capo precedente</rif>
+											<rif xlink:href="#LeggeRegionale1-tit7-cap2-sez1-prtpaafo2" xlink:type="simple">Paragrafo 2 del Capo precedente</rif>
 											. Essi costituiscono fonte per il prelievo delle somme che si rende necessario erogare, agli effetti della loro iscrizione nei rispondenti capitoli di spesa del bilancio stesso.
 										</corpo>
 									</comma>
@@ -4601,7 +4616,7 @@
 										<num />
 										<corpo>
 											Salvo quanto discende dalla disciplina del
-											<rif xlink:href="#tit7-cap2-sez1-prtpaafo2" xlink:type="simple">Paragrafo 2 del Capo precedente</rif>
+											<rif xlink:href="#LeggeRegionale1-tit7-cap2-sez1-prtpaafo2" xlink:type="simple">Paragrafo 2 del Capo precedente</rif>
 											, all'imputazione degli atti di spesa ai capitoli esistenti o di nuova istituzione può provvedersi con lo stesso atto amministrativo con il quale è disposto il prelievo dal fondo, la relativa destinazione e l'integrazione dei capitoli esistenti, o la costituzione di nuovi, ove occorra.
 										</corpo>
 									</comma>
@@ -4617,13 +4632,13 @@
 										<num />
 										<corpo>
 											Procedimento di utilizzo dei fondi Salvo quanto discende dalla disciplina del
-											<rif xlink:href="#tit7-cap2-sez1-prtpaafo2" xlink:type="simple">Paragrafo 2 del Capo precedente</rif>
+											<rif xlink:href="#LeggeRegionale1-tit7-cap2-sez1-prtpaafo2" xlink:type="simple">Paragrafo 2 del Capo precedente</rif>
 											relativamente all'imputazione degli atti di spesa, il prelievo dal fondo e la relativa destinazione, nonchè il trasporto delle somme nei capitoli esistenti o nei capitoli di nuova istituzione è fatto con atto amministrativo secondo la disciplina di cui ai paragrafi seguenti.
 										</corpo>
 									</comma>
 								</articolo>
 							</parte>
-							<parte id="tit7-cap3-sez1-prtpaafo2">
+							<parte id="LeggeRegionale1-tit7-cap3-sez1-prtpaafo2">
 								<num>Paragrafo 2</num>
 								<rubrica>GESTIONE DEI FONDI DI RISERVA</rubrica>
 								<articolo id="art131">
@@ -4653,7 +4668,7 @@
 									</comma>
 								</articolo>
 							</parte>
-							<parte id="tit7-cap3-sez1-prtpaafo3">
+							<parte id="LeggeRegionale1-tit7-cap3-sez1-prtpaafo3">
 								<num>Paragrafo 3</num>
 								<rubrica>GESTIONE DEI FONDI GLOBALI</rubrica>
 								<articolo id="art132">
@@ -4683,7 +4698,7 @@
 										<num />
 										<corpo>
 											Agli effetti della utilizzazione dei fondi globali, la determinazione delle previsioni di spesa, a norma della
-											<rif xlink:href="#tit6-cap3-sez3" xlink:type="simple">Sezione III del Titolo VI, Capo III</rif>
+											<rif xlink:href="#LeggeRegionale1-tit6-cap3-sez3" xlink:type="simple">Sezione III del Titolo VI, Capo III</rif>
 											, può essere contenuta nello stesso provvedimento legislativo di autorizzazione della iscrizione di spesa in bilancio; in mancanza, si provvede con legge.
 										</corpo>
 									</comma>
@@ -4736,7 +4751,7 @@
 								</articolo>
 							</parte>
 						</sezione>
-						<sezione id="tit7-cap3-sez2">
+						<sezione id="LeggeRegionale1-tit7-cap3-sez2">
 							<num>Sezione II</num>
 							<rubrica>GESTIONE DEI FINANZIAMENTI REGIONALI AGGIUNTIVI</rubrica>
 							<articolo id="art137">
@@ -4801,7 +4816,7 @@
 							</articolo>
 						</sezione>
 					</capo>
-					<capo id="tit7-cap4">
+					<capo id="LeggeRegionale1-tit7-cap4">
 						<num>Capo IV</num>
 						<rubrica>GESTIONI PROVVISORIE</rubrica>
 						<articolo id="art140">
@@ -4891,7 +4906,7 @@
 									L'esercizio provvisorio del bilancio, autorizzato con legge regionale ai sensi dell'
 									<rif xlink:href="#art100" xlink:type="simple">art. 100</rif>
 									, comporta la gestione ordinaria del bilancio medesimo secondo la disciplina del
-									<rif xlink:href="#tit7-cap2" xlink:type="simple">Capo II</rif>
+									<rif xlink:href="#LeggeRegionale1-tit7-cap2" xlink:type="simple">Capo II</rif>
 									del presente Titolo, salvi gli effetti conseguenti l'entrata in vigore della legge di bilancio cui l'esercizio provvisorio si riferisce.
 								</corpo>
 							</comma>
@@ -4912,7 +4927,7 @@
 						</articolo>
 					</capo>
 				</titolo>
-				<titolo id="tit8">
+				<titolo id="LeggeRegionale1-tit8">
 					<num>TITOLO VIII</num>
 					<rubrica>LEGGE DI RENDICONTO</rubrica>
 					<articolo id="art143">
@@ -4954,7 +4969,7 @@
 							<num />
 							<corpo>
 								Al rendiconto generale della Regione è premessa una illustrazione dei dati consuntivi, relativi sia al conto finanziario che al conto del patrimonio, dalla quale risulti il significato amministrativo ed economico delle risultanze contabilizzate. In essa vengono posti in particolare evidenza i costi sostenuti ed i risultati conseguiti, in ordine agli interventi di funzionamento istituzionale della Regione, a quelli relativi agli atti di programmazione ai sensi del
-								<rif xlink:href="#tit2" xlink:type="simple">Titolo II</rif>
+								<rif xlink:href="#LeggeRegionale1-tit2" xlink:type="simple">Titolo II</rif>
 								, e agli eventuali interventi non programmati, sulla base del bilancio pluriennale ed in relazione alle scelte del programma regionale di sviluppo.
 							</corpo>
 						</comma>
@@ -5196,7 +5211,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit9">
+				<titolo id="LeggeRegionale1-tit9">
 					<num>TITOLO IX</num>
 					<rubrica>ENTI LOCALI. ENTI DIPENDENTI SOCIETA' A PARTECIPAZIONE REGIONALE. AUTONOMIA CONTABILE DEL CONSIGLIO REGIONALE</rubrica>
 					<articolo id="art152">
@@ -5309,7 +5324,7 @@
 							<num />
 							<corpo>
 								I rendiconti degli enti ed aziende indicate sono redatti in conformità alle disposizioni del
-								<rif xlink:href="#tit8" xlink:type="simple">Titolo VIII</rif>
+								<rif xlink:href="#LeggeRegionale1-tit8" xlink:type="simple">Titolo VIII</rif>
 								, relative al conto finanziario ed al conto del patrimonio della Regione.
 							</corpo>
 						</comma>
@@ -5400,10 +5415,10 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit10">
+				<titolo id="LeggeRegionale1-tit10">
 					<num>TITOLO X</num>
 					<rubrica>AZIONE AMMINISTRATIVA E DI DIRITTO PRIVATO DELLA REGIONE. STRUTTURA OPERATIVA REGIONALE. RESPONSABILITA' DEGLI AMMINISTRATORI E DEI DIPENDENTI</rubrica>
-					<parte id="tit10-prtpaafo1">
+					<parte id="LeggeRegionale1-tit10-prtpaafo1">
 						<num>Paragrafo 1</num>
 						<rubrica>AZIONE AMMINISTRATIVA E DI DIRITTO PRIVATO DELLA REGIONE</rubrica>
 						<articolo id="art161">
@@ -5512,7 +5527,7 @@
 							</comma>
 						</articolo>
 					</parte>
-					<parte id="tit10-prtpaafo2">
+					<parte id="LeggeRegionale1-tit10-prtpaafo2">
 						<num>Paragrafo 2</num>
 						<rubrica>STRUTTURA OPERATIVA REGIONALE. RESPONSABILITA'</rubrica>
 						<articolo id="art167">
@@ -5548,7 +5563,7 @@
 									sullo stato giuridico ed economico del personale, nonchè delle norme della presente legge di cui all'
 									<rif xlink:href="#art2-com2" xlink:type="simple">art. 2, II comma</rif>
 									e del
-									<rif xlink:href="#tit8" xlink:type="simple">Titolo VIII</rif>
+									<rif xlink:href="#LeggeRegionale1-tit8" xlink:type="simple">Titolo VIII</rif>
 									.
 								</corpo>
 							</comma>
@@ -5676,7 +5691,7 @@
 								<alinea>Ove in sede di giudizio si accerti che la denuncia fu omessa per dolo o colpa grave, la Corte dei conti può condannare al risarcimento dei danni anche il responsabile dell'omissione.</alinea>
 							</comma>
 						</articolo>
-						<titolo id="tit10-prtpaafo2-tit1">
+						<titolo id="LeggeRegionale1-tit10-prtpaafo2-tit1">
 							<num />
 							<rubrica>NORMA TRANSITORIA E FINALE</rubrica>
 						</titolo>
@@ -5687,7 +5702,7 @@
 								<num />
 								<corpo>
 									La legge di bilancio 1977, ai sensi del
-									<rif xlink:href="#tit6" xlink:type="simple">Titolo VI</rif>
+									<rif xlink:href="#LeggeRegionale1-tit6" xlink:type="simple">Titolo VI</rif>
 									della presente legge, è approvata in deroga all'
 									<rif xlink:href="#art4-t8" xlink:type="simple">art. 4</rif>
 									.
@@ -5697,7 +5712,7 @@
 								<num />
 								<corpo>
 									Le leggi regionali di spesa, in vigore alla data di approvazione della presente legge, possono essere adeguate ai principi del
-									<rif xlink:href="#tit4" xlink:type="simple">Titolo IV</rif>
+									<rif xlink:href="#LeggeRegionale1-tit4" xlink:type="simple">Titolo IV</rif>
 									con la legge regionale di bilancio 1977, semprechè non siano necessarie modificazioni sostanziali alle leggi di spesa medesime.
 								</corpo>
 							</comma>
