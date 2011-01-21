@@ -10,7 +10,8 @@
 					<urn finevigore="t8" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1999-01-26;3" />
 					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1999-01-26;3@1999-06-11" />
 					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1999-01-26;3@1999-07-29" />
-					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1999-01-26;3@1999-10-27" />
+					<urn finevigore="t11" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1999-01-26;3@1999-10-27" />
+					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1999-01-26;3@2001-10-17" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Bilancio" />
@@ -28,6 +29,7 @@
 						<evento data="19990701" fonte="rp1" id="t8" tipo="modifica" />
 						<evento data="19990806" fonte="rp2" id="t9" tipo="modifica" />
 						<evento data="19991104" fonte="rp3" id="t10" tipo="modifica" />
+						<evento data="20011024" fonte="rp4" id="t11" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1999-01-26;3" xlink:type="simple" />
@@ -40,6 +42,7 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1999-06-11;33" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1999-07-29;42" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1999-10-27;55" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2001-10-17;50" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -154,7 +157,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art14-com3" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-07-29;42" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-07-29;42#art15-com2" xlink:type="simple" />
 								<dsp:subarg>
@@ -166,7 +169,7 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art10-com3" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-10-27;55" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-10-27;55#art6-com2" xlink:type="simple" />
 								<dsp:subarg>
@@ -175,6 +178,18 @@
 							</dsp:norma>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art10-com3-t10" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-10-17;50" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-10-17;50#art3-com5" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 5 della legge Regione Toscana 17 ottobre 2001, n. 50" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art9-t11" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>
@@ -425,9 +440,9 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art9">
+				<articolo finevigore="t11" id="art9-t11" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 9</num>
-					<comma id="art9-com1">
+					<comma id="art9-t11-com1">
 						<num>1.</num>
 						<alinea>
 							<mod id="mod4">
@@ -443,7 +458,7 @@
 							</mod>
 						</alinea>
 					</comma>
-					<comma id="art9-com2">
+					<comma id="art9-t11-com2">
 						<num>2.</num>
 						<corpo>
 							<mod id="mod5">
