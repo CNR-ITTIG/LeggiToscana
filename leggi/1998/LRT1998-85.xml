@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t23" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1998-11-26;85" />
 					<urn finevigore="t24" iniziovigore="t23" valore="urn:nir:regione.toscana:legge:1998-11-26;85@2001-01-16" />
-					<urn iniziovigore="t24" valore="urn:nir:regione.toscana:legge:1998-11-26;85@2001-08-16" />
+					<urn finevigore="t25" iniziovigore="t24" valore="urn:nir:regione.toscana:legge:1998-11-26;85@2001-08-16" />
+					<urn iniziovigore="t25" valore="urn:nir:regione.toscana:legge:1998-11-26;85@2001-10-31" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Attribuzioni Deleghe" />
 					</materie>
@@ -40,6 +41,7 @@
 						<evento data="19981219" fonte="ra21" id="t22" tipo="modifica" />
 						<evento data="20010124" fonte="rp1" id="t23" tipo="modifica" />
 						<evento data="20010911" fonte="rp2" id="t24" tipo="modifica" />
+						<evento data="20011122" fonte="rp3" id="t25" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-11-26;85" xlink:type="simple" />
@@ -66,6 +68,7 @@
 						<attiva id="ra21" xlink:href="urn:nir:regione.toscana:legge:1989-07-17;45" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2001-01-16;1" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2001-08-16;40" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -534,6 +537,18 @@
 								<dsp:pos xlink:href="#art5-com3-t24" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53#art17-com3-letf" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 17, comma 3, lettera f) della legge Regione Toscana 31 ottobre 2001, n. 53" id="itt11" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -810,7 +825,9 @@
 						<comma id="art6-com2">
 							<num>2.</num>
 							<corpo>
-								Ai fini dell'esercizio dei poteri sostitutivi, il Presidente della Giunta Regionale, previa deliberazione della Giunta medesima, preso atto dell'inadempienza, diffida l'ente a provvedere entro un congruo periodo di tempo. Trascorso inutilmente il termine assegnato, nei casi di cui al
+								Ai fini dell'esercizio dei poteri sostitutivi, il Presidente della Giunta Regionale,
+								<h:span finevigore="t25" id="h4" iniziovigore="t1" status="abrogato">previa deliberazione della Giunta medesima,</h:span>
+								preso atto dell'inadempienza, diffida l'ente a provvedere entro un congruo periodo di tempo. Trascorso inutilmente il termine assegnato, nei casi di cui al
 								<rif xlink:href="#art6-com1-leta" xlink:type="simple">comma 1, lettera a)</rif>
 								, la Giunta Regionale si sostituisce all'ente inadempiente, negli altri casi, il Presidente nomina un commissario con le procedure di cui alla normativa regionale in materia di commissari nominati dalla Regione.
 							</corpo>

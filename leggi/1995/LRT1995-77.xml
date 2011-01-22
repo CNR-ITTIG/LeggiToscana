@@ -20,11 +20,13 @@
 						<evento data="19950817" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19950817" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="19960620" fonte="rp1" id="t3" tipo="modifica" />
+						<evento data="20011122" fonte="rp2" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-07-19;77" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1973-04-30;30" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1996-06-10;40" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -55,6 +57,21 @@
 								<dsp:pos xlink:href="#h1" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13-com8" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53#art17-com3-letj" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 13, comma 1, lettera j della legge Regione Toscana 10 giugno 1996, n. 40" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art13-com8" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art13-com8-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -522,9 +539,13 @@
 							<num>7.</num>
 							<corpo>La Giunta regionale, nella predisposizione e attuazione dei progetti regionali per la realizzazione dei quali concorrono finanziamenti regionali e finanziamenti disposti dall'Unione Europea, si ispira al principio di sussidiarietà per la individuazione degli enti che concorrono ad essi con funzioni di elaborazione, realizzazione e controllo.</corpo>
 						</comma>
-						<comma id="art13-com8">
+						<comma finevigore="t4" id="art13-com8-t4" iniziovigore="t1" status="abrogato">
 							<num>8.</num>
 							<corpo>In rapporto all'esigenza di rispettare le scadenze previste dalle disposizioni europee per i progetti di cui al comma precedente, la Giunta regionale può sostituirsi agli enti locali nei casi di inerzia o di omissione da parte di questi di atti obbligatori. A tal fine, la Giunta regionale diffida ad adempiere entro un congruo termine. Decorso il termine stabilito senza che l'ente abbia provveduto, la Giunta regionale opera in via sostitutiva, mediante un commissario ad acta da essa appositamente nominato.</corpo>
+						</comma>
+						<comma id="art13-com8" iniziovigore="t4">
+							<num>8</num>
+							<corpo>In rapporto all'esigenza di rispettare le scadenze previste dalle disposizioni europee per i progetti di cui al comma 7, la Regione può sostituirsi agli enti locali nei casi di inerzia o di omissione da parte di questi di atti obbligatori. A tal fine, il Presidente della Giunta regionale diffida ad adempiere entro un congruo termine. Decorso il termine stabilito senza che l'ente abbia provveduto, il Presidente della Giunta regionale nomina un commissario ad acta.</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art14">

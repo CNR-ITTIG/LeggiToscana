@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19941118" num="75" tipo="BURT" />
 					<entratainvigore norm="19941203" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1994-11-09;86" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1994-11-09;86" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1994-11-09;86@2001-10-31" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Termalismo" />
 						<materia valore="Risorse Idriche" />
@@ -16,11 +17,32 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19941203" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20011122" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-11-09;86" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art39-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53#art17-com3-letk" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 17, comma 3, lettera k) della legge Regione Toscana 31 ottobre 2001, n. 53" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -1089,7 +1111,12 @@
 						</comma>
 						<comma id="art39-com2">
 							<num>2.</num>
-							<corpo>In caso di inottemperanza la Giunta regionale nomina un apposito commissario ad acta con il compito di istituire od attivare, per le finalità di cui al precedente comma, la gestione unitaria, e di stabilire, in contraddittorio con i concessionari, la valutazione dei singoli interessi nonché il riparto delle spese.</corpo>
+							<corpo>
+								In caso di inottemperanza
+								<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">la Giunta regionale</h:span>
+								<h:span id="h2" iniziovigore="t2">il Presidente della Giunta regionale</h:span>
+								nomina un apposito commissario ad acta con il compito di istituire od attivare, per le finalità di cui al precedente comma, la gestione unitaria, e di stabilire, in contraddittorio con i concessionari, la valutazione dei singoli interessi nonché il riparto delle spese.
+							</corpo>
 						</comma>
 						<comma id="art39-com3">
 							<num>3.</num>

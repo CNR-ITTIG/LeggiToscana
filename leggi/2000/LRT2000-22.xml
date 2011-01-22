@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20000317" num="10bis" tipo="BURT" />
 					<entratainvigore norm="20000401" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2000-03-08;22" />
+					<urn finevigore="t8" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2000-03-08;22" />
+					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:2000-03-08;22@2001-10-31" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Assistenza Sanitaria" />
 					</materie>
@@ -21,6 +22,7 @@
 						<evento data="20000401" fonte="ra4" id="t5" tipo="modifica" />
 						<evento data="20000401" fonte="ra5" id="t6" tipo="modifica" />
 						<evento data="20000401" fonte="ra6" id="t7" tipo="modifica" />
+						<evento data="20011122" fonte="rp1" id="t8" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2000-03-08;22" xlink:type="simple" />
@@ -30,6 +32,7 @@
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1998-03-20;16" xlink:type="simple" />
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1998-09-30;71" xlink:type="simple" />
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1998-09-30;72" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -107,6 +110,20 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art38-com14" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53#art17-com3-leta" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 17, comma 3, lettera a) della legge Regione Toscana 31 ottobre 2001, n. 53" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -2148,7 +2165,9 @@
 								<corpo>
 									Il Presidente della Giunta regionale, nella ipotesi di cui al
 									<rif xlink:href="#art38-com13" xlink:type="simple">comma 13</rif>
-									, nomina su deliberazione della Giunta medesima, un commissario che adotta gli atti urgenti ed indifferibili, previa sospensione dalle funzioni del direttore amministrativo e del direttore sanitario. Il commissario resta in carica fino alla nomina del nuovo direttore generale.
+									, nomina
+									<h:span finevigore="t8" id="h1" iniziovigore="t1" status="abrogato">su deliberazione della Giunta medesima</h:span>
+									, un commissario che adotta gli atti urgenti ed indifferibili, previa sospensione dalle funzioni del direttore amministrativo e del direttore sanitario. Il commissario resta in carica fino alla nomina del nuovo direttore generale.
 								</corpo>
 							</comma>
 							<comma id="art38-com15">

@@ -8,7 +8,8 @@
 					<entratainvigore norm="20000222" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t6" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2000-01-28;7" />
-					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2000-01-28;7@2001-01-26" />
+					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2000-01-28;7@2001-01-26" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:2000-01-28;7@2001-10-31" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sistema Educativo" />
 					</materie>
@@ -21,6 +22,7 @@
 						<evento data="20000222" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="20000222" fonte="ra4" id="t5" tipo="modifica" />
 						<evento data="20010202" fonte="rp1" id="t6" tipo="modifica" />
+						<evento data="20011122" fonte="rp2" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2000-01-28;7" xlink:type="simple" />
@@ -29,6 +31,7 @@
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1994-08-05;62" xlink:type="simple" />
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1995-01-03;2" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2001-01-26;3" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -98,6 +101,18 @@
 								<dsp:pos xlink:href="#art30-com2-t6" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art28-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53#art17-com3-letb" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 17, comma 3, lettera b) della legge Regione Toscana 31 ottobre 2001, n. 53" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -948,7 +963,11 @@
 							</comma>
 							<comma id="art28-com3">
 								<num>3.</num>
-								<corpo>In caso di persistente carenza di funzionamento o di gravi e ripetute violazioni di leggi o di prescrizioni programmatiche, con decreto del Presidente della Giunta regionale su conforme deliberazione della stessa, il Consiglio di amministrazione dell'Azienda è sciolto ed è nominato un commissario straordinario per gestione dell'ente per un periodo non superiore a sei mesi.</corpo>
+								<corpo>
+									In caso di persistente carenza di funzionamento o di gravi e ripetute violazioni di leggi o di prescrizioni programmatiche, con decreto del Presidente della Giunta regionale
+									<h:span finevigore="t7" id="h1" iniziovigore="t1" status="abrogato">su conforme deliberazione della stessa</h:span>
+									, il Consiglio di amministrazione dell'Azienda è sciolto ed è nominato un commissario straordinario per gestione dell'ente per un periodo non superiore a sei mesi.
+								</corpo>
 							</comma>
 							<comma id="art28-com4">
 								<num>4.</num>

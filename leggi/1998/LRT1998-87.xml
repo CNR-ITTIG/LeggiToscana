@@ -10,7 +10,8 @@
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1998-12-01;87" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1998-12-01;87@2000-03-23" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1998-12-01;87@2001-01-16" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1998-12-01;87@2001-08-16" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1998-12-01;87@2001-08-16" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1998-12-01;87@2001-10-31" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sviluppo Economico" />
 						<materia valore="Attribuzioni Deleghe" />
@@ -22,12 +23,14 @@
 						<evento data="20000418" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="20010124" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="20010911" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="20011122" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-12-01;87" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-03-23;42" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2001-01-16;1" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2001-08-16;40" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -141,7 +144,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art5-com2" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-08-16;40" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-08-16;40#art14-com8" xlink:type="simple" />
 								<dsp:subarg>
@@ -153,7 +156,7 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art5-com3" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-08-16;40" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-08-16;40#art14-com8" xlink:type="simple" />
 								<dsp:subarg>
@@ -162,6 +165,18 @@
 							</dsp:norma>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art5-com3-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53#art17-com3-lete" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 17, comma 3, lettera e) della legge Regione Toscana 31 ottobre 2001, n. 53" id="itt11" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>
@@ -504,7 +519,9 @@
 						<comma id="art6-com2">
 							<num>2.</num>
 							<corpo>
-								Ai fini dell'esercizio dei poteri sostitutivi, il Presidente della Giunta regionale, previa deliberazione della Giunta medesima, preso atto dell'inadempienza, diffida l'ente a provvedere entro un congruo periodo di tempo. Trascorso inutilmente il termine assegnato, nei casi di cui al
+								Ai fini dell'esercizio dei poteri sostitutivi, il Presidente della Giunta regionale,
+								<h:span finevigore="t5" id="h4" iniziovigore="t1" status="abrogato">previa deliberazione della Giunta medesima,</h:span>
+								preso atto dell'inadempienza, diffida l'ente a provvedere entro un congruo periodo di tempo. Trascorso inutilmente il termine assegnato, nei casi di cui al
 								<rif xlink:href="#art6-com1-leta" xlink:type="simple">comma 1, lett. a)</rif>
 								, la Giunta regionale si sostituisce all'ente inadempiente; negli altri casi, il Presidente nomina un commissario con le procedure di cui alla normativa regionale in materia di commissari nominati dalla Regione.
 							</corpo>

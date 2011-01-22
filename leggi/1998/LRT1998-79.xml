@@ -8,7 +8,8 @@
 					<entratainvigore norm="19981127" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1998-11-03;79" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1998-11-03;79@2000-12-20" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1998-11-03;79@2000-12-20" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1998-11-03;79@2001-10-31" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tutela Ambientale" />
 					</materie>
@@ -18,11 +19,13 @@
 						<evento data="19981127" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19981127" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="20010113" fonte="rp1" id="t3" tipo="modifica" />
+						<evento data="20011122" fonte="rp2" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-11-03;79" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1995;68" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-12-20;79" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -42,7 +45,7 @@
 					</modificheattive>
 					<modifichepassive>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art27-com1" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-12-20;79" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-12-20;79#art1-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -51,6 +54,18 @@
 							</dsp:norma>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art27-com1-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art19-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53#art17-com3-letg" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 17, comma 3, lettera g) della legge Regione Toscana 31 ottobre 2001, n. 53" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>
@@ -1094,7 +1109,9 @@
 								<rif xlink:href="#art7" xlink:type="simple">art. 7</rif>
 								non provvedano, entro i termini previsti dai commi 1 e 2 dell'
 								<rif xlink:href="#art18" xlink:type="simple">art. 18</rif>
-								, all'emanazione della pronuncia di compatibilità ambientale, il Presidente della Giunta regionale, su istanza del proponente, provvede, previa deliberazione della Giunta, ad assegnare un termine per l'adempimento, decorso inutilmente il quale procede alla nomina di un commissario ad acta, nel rispetto delle procedure disciplinate a tal fine dalle vigenti norme regionali.
+								, all'emanazione della pronuncia di compatibilità ambientale, il Presidente della Giunta regionale, su istanza del proponente, provvede,
+								<h:span finevigore="t4" id="h1" iniziovigore="t1" status="abrogato">previa deliberazione della Giunta,</h:span>
+								ad assegnare un termine per l'adempimento, decorso inutilmente il quale procede alla nomina di un commissario ad acta, nel rispetto delle procedure disciplinate a tal fine dalle vigenti norme regionali.
 							</corpo>
 						</comma>
 					</articolo>

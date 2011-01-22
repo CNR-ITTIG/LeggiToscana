@@ -10,7 +10,8 @@
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1993-06-10;37" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1993-06-10;37@1994-08-31" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1993-06-10;37@1996-02-29" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1993-06-10;37@1998-08-06" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1993-06-10;37@1998-08-06" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1993-06-10;37@2001-10-31" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organizzazioni Pubbliche" />
 						<materia valore="Ordinamento" />
@@ -23,12 +24,14 @@
 						<evento data="19940922" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19960326" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19980829" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="20011122" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1993-06-10;37" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1994-08-31;73" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1996-02-29;16" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1998-08-06;55" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -196,7 +199,7 @@
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art19-com1" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-08-06;55" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-08-06;55#art2-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -222,6 +225,30 @@
 								<dsp:pos xlink:href="#art19-com2-t4" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art15-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53#art17-com3-letn" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 17, comma 3, lettera n) della legge Regione Toscana 31 ottobre 2001, n. 53" id="itt15" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art16-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53#art17-com3-leto" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 17, comma 3, lettera o) della legge Regione Toscana 31 ottobre 2001, n. 53" id="itt16" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -724,7 +751,11 @@
 						<rubrica>(Controllo sostitutivo)</rubrica>
 						<comma id="art15-com1">
 							<num>1.</num>
-							<corpo>In caso di omissione o ritardo nell'adozione di un atto obbligatorio da parte dell'Agenzia, il Presidente della Giunta regionale, su conforme deliberazione della stessa e previa diffida a provvedere entro un termine prefissato, decreta la nomina di un Commissario che cura, con i poteri dell'organo competente, l'adozione dei provvedimenti necessari.</corpo>
+							<corpo>
+								In caso di omissione o ritardo nell'adozione di un atto obbligatorio da parte dell'Agenzia, il Presidente della Giunta regionale,
+								<h:span finevigore="t5" id="h3" iniziovigore="t1" status="abrogato">su conforme deliberazione della stessa e</h:span>
+								previa diffida a provvedere entro un termine prefissato, decreta la nomina di un Commissario che cura, con i poteri dell'organo competente, l'adozione dei provvedimenti necessari.
+							</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art16">
@@ -732,7 +763,11 @@
 						<rubrica>(Controllo sugli organi)</rubrica>
 						<comma id="art16-com1">
 							<num>1.</num>
-							<corpo>Gli organi dell'Agenzia possono essere sciolti con decreto del Presidente della Giunta regionale, su deliberazione del Consiglio regionale e previa motivata diffida, in caso di rilevata inefficienza amministrativa o per gravi ripetute violazioni di disposizioni normative e regolamentari, di prescrizioni programmatiche, ovvero di direttive del Consiglio regionale e di atti di indirizzo della Giunta regionale.</corpo>
+							<corpo>
+								Gli organi dell'Agenzia possono essere sciolti con decreto del Presidente della Giunta regionale,
+								<h:span finevigore="t5" id="h4" iniziovigore="t1" status="abrogato">su deliberazione del Consiglio regionale e</h:span>
+								previa motivata diffida, in caso di rilevata inefficienza amministrativa o per gravi ripetute violazioni di disposizioni normative e regolamentari, di prescrizioni programmatiche, ovvero di direttive del Consiglio regionale e di atti di indirizzo della Giunta regionale.
+							</corpo>
 						</comma>
 						<comma id="art16-com2">
 							<num>2.</num>

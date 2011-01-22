@@ -10,7 +10,8 @@
 					<urn finevigore="t10" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1997-08-11;65" />
 					<urn finevigore="t11" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1997-08-11;65@1997-10-17" />
 					<urn finevigore="t12" iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1997-08-11;65@1998-11-18" />
-					<urn iniziovigore="t12" valore="urn:nir:regione.toscana:legge:1997-08-11;65@2000-03-28" />
+					<urn finevigore="t13" iniziovigore="t12" valore="urn:nir:regione.toscana:legge:1997-08-11;65@2000-03-28" />
+					<urn iniziovigore="t13" valore="urn:nir:regione.toscana:legge:1997-08-11;65@2001-10-31" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Parchi" />
 					</materie>
@@ -29,6 +30,7 @@
 						<evento data="19971022" fonte="rp1" id="t10" tipo="modifica" />
 						<evento data="19981212" fonte="rp2" id="t11" tipo="modifica" />
 						<evento data="20000422" fonte="rp3" id="t12" tipo="modifica" />
+						<evento data="20011122" fonte="rp4" id="t13" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1997-08-11;65" xlink:type="simple" />
@@ -43,6 +45,7 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1997-10-17;73" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1998-11-18;81" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2000-03-28;43" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -179,6 +182,36 @@
 								<dsp:pos xlink:href="#art23bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53#art17-com3-leth" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 17, comma 3, lettera h) della legge Regione Toscana 31 ottobre 2001, n. 53" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art13-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art13-com2-t13" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53#art17-com3-leti" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 17, comma 3, lettera i) della legge Regione Toscana 31 ottobre 2001, n. 53" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art13-com3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art13-com3-t13" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -497,21 +530,29 @@
 							<num>1.</num>
 							<corpo>La Giunta regionale esercita la vigilanza sull'ente.</corpo>
 						</comma>
-						<comma id="art13-com2">
+						<comma finevigore="t13" id="art13-com2-t13" iniziovigore="t1" status="abrogato">
 							<num>2.</num>
 							<alinea>Nell'esercizio di tale potere la Giunta:</alinea>
-							<el id="art13-com2-leta">
+							<el id="art13-com2-t13-leta">
 								<num>a)</num>
 								<corpo>dispone ispezioni mediante propri funzionari</corpo>
 							</el>
-							<el id="art13-com2-letb">
+							<el id="art13-com2-t13-letb">
 								<num>b)</num>
 								<corpo>provvede, previa diffida agli organi dell'Ente, al compimento di atti obbligatori per legge o derivanti da direttive regionali, quando l'Ente ne rifiuti o ritardi l'adempimento.</corpo>
 							</el>
 						</comma>
-						<comma id="art13-com3">
+						<comma id="art13-com2" iniziovigore="t13">
+							<num>2.</num>
+							<corpo>Nell'esercizio di tale potere la Giunta dispone ispezioni mediante propri funzionari. Il Presidente della Giunta regionale provvede altresì, previa diffida agli organi dell'Ente, alla nomina di commissari per il compimento di atti obbligatori per legge o derivanti da direttive regionali, quando l'Ente ne rifiuti o ritardi l'adempimento.</corpo>
+						</comma>
+						<comma finevigore="t13" id="art13-com3-t13" iniziovigore="t1" status="abrogato">
 							<num>3.</num>
 							<corpo>In caso di persistente carenza di funzionamento o di gravi o ripetute violazioni di legge il Consiglio regionale, su proposta dalla Giunta, delibera lo scioglimento degli organi dell'Ente e nomina un commissario straordinario che gestisce l'Ente stesso fino alla ricostituzione dei nuovi organi cui si provvede entro sei mesi dallo scioglimento.</corpo>
+						</comma>
+						<comma id="art13-com3" iniziovigore="t13">
+							<num>3.</num>
+							<corpo>In caso di persistente carenza di funzionamento o di gravi o ripetute violazioni di legge, il Presidente della Giunta regionale provvede con proprio decreto allo scioglimento degli organi dell'Ente e alla nomina di un commissario che gestisce l'Ente stesso fino alla ricostituzione dei nuovi organi cui si provvede, ai sensi della presente legge, entro sei mesi dallo scioglimento.</corpo>
 						</comma>
 					</articolo>
 				</titolo>
