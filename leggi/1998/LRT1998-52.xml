@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t7" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1998-08-06;52" />
 					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1998-08-06;52@2000-02-03" />
-					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1998-08-06;52@2001-07-04" />
+					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1998-08-06;52@2001-07-04" />
+					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1998-08-06;52@2001-11-14" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sistema Educativo" />
 						<materia valore="Lavoro" />
@@ -25,6 +26,7 @@
 						<evento data="19980829" fonte="ra5" id="t6" tipo="modifica" />
 						<evento data="20000226" fonte="rp1" id="t7" tipo="modifica" />
 						<evento data="20010728" fonte="rp2" id="t8" tipo="modifica" />
+						<evento data="20011206" fonte="rp3" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-08-06;52" xlink:type="simple" />
@@ -35,6 +37,7 @@
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1989-07-17;45" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-02-03;12" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2001-07-04;29" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2001-11-14;56" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -336,6 +339,18 @@
 								<dsp:pos xlink:href="#art17-com2-t8" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-11-14;56" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-11-14;56#artunico-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo unico, comma 1 della legge Regione Toscana 14 novembre 2001, n. 56" id="itt21" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art7-com4bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -711,6 +726,10 @@
 								<num>e)</num>
 								<corpo>da n. 2 consiglieri regionali, senza diritto di voto, designati dal Consiglio, di cui uno in rappresentanza delle minoranze, con voto limitato;</corpo>
 							</el>
+						</comma>
+						<comma id="art7-com4bis" iniziovigore="t9">
+							<num>4 bis.</num>
+							<corpo>Con regolamento regionale sono stabiliti i criteri per l'individuazione delle organizzazioni sindacali dei lavoratori e dei datori di lavoro più rappresentative a livello regionale, di cui alle lettere b) e c) del comma 4</corpo>
 						</comma>
 						<comma id="art7-com5">
 							<num>5.</num>
