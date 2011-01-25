@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19960626" num="35" tipo="BURT" />
 					<entratainvigore norm="19960711" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1996-06-19;44" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1996-06-19;44" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1996-06-19;44@2001-12-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tributi" />
 						<materia valore="Sistema Educativo" />
@@ -17,11 +18,47 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19960711" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20020115" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1996-06-19;44" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2001-12-21;65" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art10" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-12-21;65" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-12-21;65#art6-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 6, comma 1 della legge Regione Toscana 21 dicembre 2001, n. 65" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art10" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art10-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art11-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-12-21;65" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-12-21;65#art6-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 6, comma 2 della legge Regione Toscana 21 dicembre 2001, n. 65" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art11-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art11-com1-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -295,23 +332,39 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art10">
+				<articolo finevigore="t2" id="art10-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 10</num>
 					<rubrica>(Ammontare della tassa per l'anno accademico 1996-97)</rubrica>
-					<comma id="art10-com1">
+					<comma id="art10-t2-com1">
 						<num>1.</num>
 						<corpo>Per l'anno accademico 1996-97 la tassa regionale per il diritto allo studio universitario è dovuta nell'importo di lire 190.000 (centonovantamila).</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art10" iniziovigore="t2">
+					<num>Art. 10</num>
+					<rubrica>(Ammontare della tassa a decorrere dall'anno accademico 2002-2003)</rubrica>
+					<comma id="art10-com1">
+						<num>1.</num>
+						<corpo>A decorrere dall'anno accademico 2002-2003 la tassa regionale per il diritto allo studio universitario è determinata in euro 98,00.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art11">
 					<num>ARTICOLO 11</num>
 					<rubrica>(Tassa di abilitazione all'esercizio professionale)</rubrica>
-					<comma id="art11-com1">
+					<comma finevigore="t2" id="art11-com1-t2" iniziovigore="t1" status="abrogato">
 						<num>1.</num>
 						<corpo>
 							A decorrere dal 1 gennaio 1997 la tassa prevista dal primo comma dell'art. 190 del testo unico approvato con
 							<rif xlink:href="urn:nir:stato:regio.decreto:1933-08-31;1592" xlink:type="simple">RD 31 agosto 1933, n. 1592</rif>
 							, a carico di coloro che conseguono l'abilitazione all'esercizio professionale essendo provvisti di titolo accademico in una università avente sede in Toscana, è fissata in lire 200.000 (duecentomila).
+						</corpo>
+					</comma>
+					<comma id="art11-com1" iniziovigore="t2">
+						<num>1.</num>
+						<corpo>
+							A decorrere dal 1 gennaio 2002 la tassa prevista dal
+							<rif xlink:href="urn:nir:stato:regio.decreto:1933-08-31;1592#art190-com1" xlink:type="simple">comma 1 dell'articolo 190 del regio decreto 31 agosto 1933, n. 1592</rif>
+							(Approvazione del testo unico delle leggi sull'istruzione superiore) e successive modificazioni, a carico di coloro che conseguono l'abilitazione all'esercizio professionale essendo provvisti di titolo accademico in una università avente sede in Toscana, è determinata in euro 103,00.
 						</corpo>
 					</comma>
 					<comma id="art11-com2">
