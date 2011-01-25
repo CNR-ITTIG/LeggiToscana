@@ -10,7 +10,8 @@
 					<urn finevigore="t7" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1998-08-06;52" />
 					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1998-08-06;52@2000-02-03" />
 					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1998-08-06;52@2001-07-04" />
-					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1998-08-06;52@2001-11-14" />
+					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1998-08-06;52@2001-11-14" />
+					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1998-08-06;52@2001-12-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sistema Educativo" />
 						<materia valore="Lavoro" />
@@ -27,6 +28,7 @@
 						<evento data="20000226" fonte="rp1" id="t7" tipo="modifica" />
 						<evento data="20010728" fonte="rp2" id="t8" tipo="modifica" />
 						<evento data="20011206" fonte="rp3" id="t9" tipo="modifica" />
+						<evento data="20020115" fonte="rp4" id="t10" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-08-06;52" xlink:type="simple" />
@@ -38,6 +40,7 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-02-03;12" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2001-07-04;29" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2001-11-14;56" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2001-12-21;62" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -349,6 +352,18 @@
 							</dsp:norma>
 							<dsp:novella>
 								<dsp:pos xlink:href="#art7-com4bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7-com4bis" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-12-21;62" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-12-21;62#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 21 dicembre 2001, n. 62" id="itt22" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art7-com4ter" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 					</modifichepassive>
@@ -730,6 +745,14 @@
 						<comma id="art7-com4bis" iniziovigore="t9">
 							<num>4 bis.</num>
 							<corpo>Con regolamento regionale sono stabiliti i criteri per l'individuazione delle organizzazioni sindacali dei lavoratori e dei datori di lavoro più rappresentative a livello regionale, di cui alle lettere b) e c) del comma 4</corpo>
+						</comma>
+						<comma id="art7-com4ter" iniziovigore="t10">
+							<num>4 ter.</num>
+							<corpo>
+								Per la trattazione di argomenti relativi all'attuazione della
+								<rif xlink:href="urn:nir:stato:legge:1999-03-12;68" xlink:type="simple">legge 12 marzo 1999, n. 68</rif>
+								(Norme per il diritto al lavoro dei disabili), nonché per la trattazione di argomenti comunque afferenti al collocamento dei disabili, la Commissione è integrata da tre componenti, e relativi supplenti, designati dalle associazioni dei disabili più rappresentative a livello regionale. Con regolamento regionale sono stabiliti i criteri per l'individuazione delle associazioni dei disabili più rappresentative a livello regionale.
+							</corpo>
 						</comma>
 						<comma id="art7-com5">
 							<num>5.</num>
