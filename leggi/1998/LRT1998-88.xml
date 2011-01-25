@@ -12,7 +12,8 @@
 					<urn finevigore="t16" iniziovigore="t15" valore="urn:nir:regione.toscana:legge:1998-12-01;88@2000-03-22" />
 					<urn finevigore="t17" iniziovigore="t16" valore="urn:nir:regione.toscana:legge:1998-12-01;88@2001-01-16" />
 					<urn finevigore="t18" iniziovigore="t17" valore="urn:nir:regione.toscana:legge:1998-12-01;88@2001-08-16" />
-					<urn iniziovigore="t18" valore="urn:nir:regione.toscana:legge:1998-12-01;88@2001-10-31" />
+					<urn finevigore="t19" iniziovigore="t18" valore="urn:nir:regione.toscana:legge:1998-12-01;88@2001-10-31" />
+					<urn iniziovigore="t19" valore="urn:nir:regione.toscana:legge:1998-12-01;88@2001-12-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Urbanistica" />
 						<materia valore="Tutela Ambientale" />
@@ -39,6 +40,7 @@
 						<evento data="20010124" fonte="rp3" id="t16" tipo="modifica" />
 						<evento data="20010911" fonte="rp4" id="t17" tipo="modifica" />
 						<evento data="20011122" fonte="rp5" id="t18" tipo="modifica" />
+						<evento data="20020115" fonte="rp6" id="t19" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-12-01;88" xlink:type="simple" />
@@ -59,6 +61,7 @@
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2001-01-16;1" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2001-08-16;40" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53" xlink:type="simple" />
+						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2001-12-21;64" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -621,6 +624,33 @@
 							</dsp:norma>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art20-com1-letb" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-12-21;64" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-12-21;64#art8-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 8, comma 1 della legge Regione Toscana 21 dicembre 2001, n. 64" id="itt26" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art20-com1-letb" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art20-com1-letb-t19" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art20-com2-letb" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-12-21;64" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-12-21;64#art8-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 8, comma 2 della legge Regione Toscana 21 dicembre 2001, n. 64" id="itt27" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art20-com2-letb-t19" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>
@@ -1375,12 +1405,27 @@
 									e successive modificazioni e integrazioni;
 								</corpo>
 							</el>
-							<el id="art20-com1-letb">
+							<el finevigore="t19" id="art20-com1-letb-t19" iniziovigore="t1" status="abrogato">
 								<num>b)</num>
 								<corpo>
 									i programmi di monitoraggio sullo stato della qualità, inclusa l'eutrofizzazione delle acque artificiali e sotterranee e delle caratteristiche dei bacini idrografici come definiti ai sensi degli
 									<mrif>
-										<rif xlink:href="urn:nir:stato:decreto.legislativo:1999;152#art42" xlink:type="simple">artt. 42</rif>
+										artt.
+										<rif xlink:href="urn:nir:stato:decreto.legislativo:1999;152#art42" xlink:type="simple">42</rif>
+										e
+										<rif xlink:href="urn:nir:stato:decreto.legislativo:1999;152#art43" xlink:type="simple">43</rif>
+										del DLgs 152/1999
+									</mrif>
+									;
+								</corpo>
+							</el>
+							<el id="art20-com1-letb" iniziovigore="t19">
+								<num>b)</num>
+								<corpo>
+									i programmi di monitoraggio sullo stato della qualita delle acque superficiali e sotterranee, anche a specifica destinazione e di rilevamento delle caratteristiche dei bacini idrografici, come definiti ai sensi degli
+									<mrif>
+										articoli
+										<rif xlink:href="urn:nir:stato:decreto.legislativo:1999;152#art42" xlink:type="simple">42</rif>
 										e
 										<rif xlink:href="urn:nir:stato:decreto.legislativo:1999;152#art43" xlink:type="simple">43</rif>
 										del DLgs 152/1999
@@ -1399,7 +1444,9 @@
 							<el id="art20-com1-letd">
 								<num>d)</num>
 								<corpo>
-									l'esercizio del potere di deroga di cui all'art. 9, comma 1, lett. c) e dei poteri sostitutivi di cui all'
+									l'esercizio del potere di deroga di cui all'
+									<rif xlink:href="urn:nir:presidente.repubblica:decreto:1988-05-24;236#art9-com1-letc" xlink:type="simple">art. 9, comma 1, lett. c)</rif>
+									e dei poteri sostitutivi di cui all'
 									<rif xlink:href="urn:nir:presidente.repubblica:decreto:1988-05-24;236#art9-com1-letb" xlink:type="simple">art. 9, comma 1, lett. b) del DPR 24 maggio 1988, n. 236</rif>
 									in materia di acque destinate al consumo umano.
 								</corpo>
@@ -1420,12 +1467,14 @@
 									relative alla posa in mare di cavi e condotte, fatta eccezione dei casi in cui la posa in mare richieda la movimentazione di carattere internazionale dei fondali marini;
 								</corpo>
 							</el>
-							<el id="art20-com2-letb">
+							<el finevigore="t19" id="art20-com2-letb-t19" iniziovigore="t1" status="abrogato">
 								<num>b)</num>
 								<corpo>
 									le autorizzazioni allo scarico di acque reflue di cui all'
 									<rif xlink:href="urn:nir:stato:decreto.legislativo:1999;152#art45-com6" xlink:type="simple">art. 45, comma 6 del suddetto decreto</rif>
-									, fatta eccezione per lo scarico in pubblica fognatura, ivi incluse le procedure per le fasi di autorizzazione provvisoria di cui al comma 5;
+									, fatta eccezione per lo scarico in pubblica fognatura, ivi incluse le procedure per le fasi di autorizzazione provvisoria di cui al
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:1999-05-11;152#art45-com5" xlink:type="simple">comma 5</rif>
+									;
 								</corpo>
 							</el>
 						</comma>
@@ -1498,7 +1547,11 @@
 							</el>
 							<el id="art22-com1-letc" iniziovigore="t16">
 								<num>c)</num>
-								<corpo>la verifica dei progetti delle strade regionali secondo le modalità indicate al comma 4;</corpo>
+								<corpo>
+									la verifica dei progetti delle strade regionali secondo le modalità indicate al
+									<rif xlink:href="#art22-com4" xlink:type="simple">comma 4</rif>
+									;
+								</corpo>
 							</el>
 							<el id="art22-com1-letd">
 								<num>d)</num>
@@ -1670,7 +1723,11 @@
 						</comma>
 						<comma id="art25-com3">
 							<num>3.</num>
-							<corpo>Sono attribuite ai Comuni tutte le funzioni non riservate alla Regione, ad eccezione di quelle subdelegate alle Province ai sensi del comma 2, le funzioni concernenti le opere di manutenzione ordinaria e straordinaria delle aree a terra, degli specchi acquei, dei fondali e delle infrastrutture nei porti e il ripristino di edifici privati danneggiati da eventi bellici, nonché l'edilizia di culto.</corpo>
+							<corpo>
+								Sono attribuite ai Comuni tutte le funzioni non riservate alla Regione, ad eccezione di quelle subdelegate alle Province ai sensi del
+								<rif xlink:href="#art25-com2" xlink:type="simple">comma 2</rif>
+								, le funzioni concernenti le opere di manutenzione ordinaria e straordinaria delle aree a terra, degli specchi acquei, dei fondali e delle infrastrutture nei porti e il ripristino di edifici privati danneggiati da eventi bellici, nonché l'edilizia di culto.
+							</corpo>
 						</comma>
 						<comma id="art25-com4">
 							<num>4.</num>
@@ -1942,7 +1999,18 @@
 						</comma>
 						<comma id="art30-com2">
 							<num>2.</num>
-							<corpo>Degli atti di cui al comma 1, lettera c), d) ed e) la Giunta regionale informa il Consiglio Regionale.</corpo>
+							<corpo>
+								Degli atti di cui al
+								<mrif>
+									comma 1, lettera
+									<rif xlink:href="#art30-com1-letc" xlink:type="simple">c)</rif>
+									,
+									<rif xlink:href="#art30-com1-letd" xlink:type="simple">d)</rif>
+									ed
+									<rif xlink:href="#art30-com1-lete" xlink:type="simple">e)</rif>
+								</mrif>
+								la Giunta regionale informa il Consiglio Regionale.
+							</corpo>
 						</comma>
 					</articolo>
 					<articolo finevigore="t16" id="art31-t16" iniziovigore="t1" status="abrogato">
