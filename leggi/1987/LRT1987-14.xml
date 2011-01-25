@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1987-02-23;14" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1987-02-23;14@1990-03-08" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1987-02-23;14@1997-05-15" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1987-02-23;14@1997-05-15" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1987-02-23;14@2002-01-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organi" />
 						<materia valore="Ente Regione" />
@@ -21,11 +22,13 @@
 						<evento data="19870319" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19900331" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19970610" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="20020124" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1987-02-23;14" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1990-03-08;12" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1997-05-15;35" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2002-01-02;1" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -66,7 +69,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art7-com2ter" xlink:type="simple" />
+								<dsp:pos xlink:href="#art7-com2ter-t4" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -120,11 +123,11 @@
 								<dsp:pos xlink:href="#art7-com1" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#art7-com1-t3" xlink:type="simple" />
+								<dsp:pos xlink:href="#art7-com1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art7-com2" xlink:type="simple" />
+							<dsp:pos xlink:href="#art7-com2-t4" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-05-15;35" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-05-15;35#art2-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -132,7 +135,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art7-com2" xlink:type="simple" />
+								<dsp:pos xlink:href="#art7-com2-t4" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art7-com2-t3" xlink:type="simple" />
@@ -150,6 +153,36 @@
 								<dsp:pos xlink:href="#h1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-01-02;1" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-01-02;1#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 2 gennaio 2002, n. 1" id="itt10" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art7-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art7-com2-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7-com2ter" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-01-02;1" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-01-02;1#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 2 gennaio 2002, n. 1" id="itt11" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art7-com2ter" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art7-com2ter-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -349,7 +382,7 @@
 				<articolo id="art7">
 					<num>ARTICOLO 7</num>
 					<rubrica>(Oneri finanziari - Compensi - Personale)</rubrica>
-					<comma finevigore="t3" id="art7-com1-t3" iniziovigore="t1" status="abrogato">
+					<comma id="art7-com1">
 						<num>1.</num>
 						<corpo>Gli oneri finanziari per l'attività della Commissione gravano su apposito capitolo del bilancio regionale. I relativi impegni di spesa sono assunti, su proposta della Commissione, dall'Ufficio di Presidenza del Consiglio regionale.</corpo>
 					</comma>
@@ -369,13 +402,17 @@
 							della presente legge, e dell'Ufficio di Presidenza, un gettone di presenza di lire cinquantamila. In caso di più sedute dei suddetti organismi nella stessa giornata, tale gettone viene corrisposto una sola volta.
 						</corpo>
 					</comma>
-					<comma id="art7-com2" iniziovigore="t3">
+					<comma finevigore="t4" id="art7-com2-t4" iniziovigore="t3" status="abrogato">
 						<num>2.</num>
 						<corpo>
 							Dal 1 gennaio 1997 per ogni giornata di seduta della Commissione in seduta plenaria, dei gruppi di lavoro, costituiti ai sensi dell'
 							<rif xlink:href="#art4-com7" xlink:type="simple">art. 4, 7 comma</rif>
 							della presente legge, e dell'Ufficio di Presidenza della Commissione, è corrisposto un gettone di presenza di lire duecentomila alla Presidente, di lire centocinquantamila alle Vice Presidenti, di lire centomila alle altre componenti la Commissione; in caso di più sedute dei suddetti organismi nella stessa giornata, il gettone viene corrisposto una sola volta. L'erogazione annua dei gettoni non può superare lo stanziamento previsto dalla relativa voce di bilancio del Consiglio regionale. La misura del gettone di presenza è rideterminata dall'Ufficio di Presidenza del Consiglio regionale, all'inizio di ogni legislatura, sulla base dell'indice ISTAT dei prezzi al consumo. Alle componenti della Commissione residenti in Comune diverso da quello ove ha sede la Commissione stessa, compete il rimborso delle spese di viaggio, nella misura prevista per i dirigenti regionali.
 						</corpo>
+					</comma>
+					<comma id="art7-com2" iniziovigore="t4">
+						<num>2.</num>
+						<corpo>A decorrere dal 1.1.2002, ai membri della Commissione è riconosciuta un'indennità mensile di funzione, nella seguente misura: euro 1.290 per la Presidente, euro 620 per le due Vice presidenti, euro 232 per le altre componenti della Commissione. L'indennità è ridotta, secondo i criteri definiti con deliberazione dell'Ufficio di Presidenza del Consiglio regionale, in proporzione alle assenze registrate nelle sedute della Commissione, dell'Ufficio di Presidenza della stessa, dei gruppo di lavoro costituiti ai sensi della presente legge. Alle componenti della Commissione residenti in Comune diverso da quello ove ha sede la Commissione compete il rimborso delle spese di viaggio, nella misura prevista per i dirigenti regionali.</corpo>
 					</comma>
 					<comma id="art7-com2bis" iniziovigore="t2">
 						<num>2 bis.</num>
@@ -385,9 +422,13 @@
 							, quando, previa autorizzazione del Presidente della Commissione stessa, si rechino per lo svolgimento delle loro funzioni fuori del Comune ove ha sede la Commissione o fuori del Comune di loro residenza.
 						</corpo>
 					</comma>
-					<comma id="art7-com2ter" iniziovigore="t2">
+					<comma finevigore="t4" id="art7-com2ter-t4" iniziovigore="t2" status="abrogato">
 						<num>2 ter.</num>
 						<corpo>Le componenti della Commissione, qualora la Commissione stessa lo decida e previa autorizzazione del Presidente del Consiglio regionale, possono recarsi in missione all'estero per lo svolgimento delle loro funzioni.</corpo>
+					</comma>
+					<comma id="art7-com2ter" iniziovigore="t4">
+						<num>2 ter.</num>
+						<corpo>Le componenti della Commissione, qualora la Commissione stessa lo decida, possono recarsi in missione all'estero per lo svolgimento delle loro funzioni.</corpo>
 					</comma>
 					<comma id="art7-com3">
 						<num>3.</num>
