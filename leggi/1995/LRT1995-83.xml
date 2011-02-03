@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1995-07-27;83" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1995-07-27;83@1996-12-27" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1995-07-27;83@2001-12-10" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1995-07-27;83@2001-12-10" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1995-07-27;83@2002-05-10" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organizzazioni Pubbliche" />
 						<materia valore="Ordinamento" />
@@ -21,11 +22,13 @@
 						<evento data="19950822" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19960107" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="20011220" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="20020517" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-07-27;83" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1996-12-27;98" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2001-12-10;60" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2002-05-10;16" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -228,6 +231,21 @@
 								<dsp:pos xlink:href="#art12bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-05-10;16" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-05-10;16#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 10 maggio 2002, n. 16" id="itt15" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art6-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -472,10 +490,10 @@
 						<corpo>Il direttore tecnico è assunto con contratto a tempo determinato di diritto privato.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art6">
+				<articolo finevigore="t4" id="art6-t4" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 6</num>
 					<rubrica>(Collegio dei Revisori)</rubrica>
-					<comma id="art6-com1">
+					<comma id="art6-t4-com1">
 						<num>1.</num>
 						<corpo>
 							Il Collegio dei Revisori è composto da tre membri effettivi iscritti nel registro dei revisori contabili di cui al
@@ -483,7 +501,7 @@
 							. Il Collegio è nominato, con voto limitato, dal Consiglio regionale che ne individua anche il Presidente, e resta in carica quanto il Consiglio stesso.
 						</corpo>
 					</comma>
-					<comma id="art6-com2">
+					<comma id="art6-t4-com2">
 						<num>2.</num>
 						<corpo>
 							Il Collegio, in conformità con le disposizioni della presente legge, delle direttive del Consiglio regionale e degli indirizzi della Giunta, esercita la vigilanza sulla regolarità contabile e finanziaria della gestione, redige la relazione di cui all'
@@ -491,7 +509,7 @@
 							della presente legge, nonché una relazione sul bilancio preventivo. Nella relazione il Collegio può formulare rilievi e proposte tendenti a conseguire la migliore efficienza, produttività ed economicità della gestione.
 						</corpo>
 					</comma>
-					<comma id="art6-com3">
+					<comma id="art6-t4-com3">
 						<num>3.</num>
 						<corpo>
 							Al Collegio dei Revisori si applicano le disposizioni del
@@ -500,6 +518,44 @@
 							<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-01-27;88" xlink:type="simple">Decreto legislativo 27.1.1992, n. 88</rif>
 							per essere nominati nel Collegio è richiesto il possesso dei requisiti per la iscrizione nell'elenco predetto.
 						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art6" iniziovigore="t4">
+					<num>ARTICOLO 6</num>
+					<rubrica>(Collegio dei Revisori)</rubrica>
+					<comma id="art6-com1">
+						<num>1.</num>
+						<corpo>
+							Il Collegio dei Revisori è composto da tre membri effettivi iscritti nel registro dei revisori contabili di cui al
+							<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-01-27;88" xlink:type="simple">decreto legislativo 27 gennaio 1992 n. 88</rif>
+							. Il Collegio è nominato, con voto limitato, dal Consiglio regionale, che ne individua anche il Presidente, e resta in carica quanto il Consiglio stesso.
+						</corpo>
+					</comma>
+					<comma id="art6-com2">
+						<num>2.</num>
+						<corpo>Il Collegio, in conformità con le disposizioni della presente legge, delle direttive del Consiglio regionale e degli indirizzi della Giunta, esercita la vigilanza sulla regolarità contabile e finanziaria della gestione, redige la relazione di cui all'articolo 5, comma 2 della presente legge, nonché una relazione sul bilancio preventivo. Nella relazione il Collegio può formulare rilievi e proposte tendenti a conseguire la migliore efficienza, produttività ed economicità della gestione.</corpo>
+					</comma>
+					<comma id="art6-com3">
+						<num>3.</num>
+						<corpo>
+							Al Collegio dei Revisori si applicano le disposizioni del
+							<rif xlink:href="urn:nir:stato:codice.civile:1942-03-16;262" xlink:type="simple">Codice civile</rif>
+							relative ai Collegi sindacali delle società per azioni in quanto compatibili con la presente legge.
+						</corpo>
+					</comma>
+					<comma id="art6-com4">
+						<num>4.</num>
+						<corpo>
+							Nel caso in cui l'Azienda, a norma dell'
+							<rif xlink:href="#art2-com1" xlink:type="simple">articolo 2, comma 1</rif>
+							, costituita o assuma partecipazioni in altre aziende, il collegio dei revisori dell'Azienda dovrà acquisire le relazioni dei rispettivi Collegi sindacali e allegarle alla relazione di cui all'
+							<rif xlink:href="#art5-com3" xlink:type="simple">articolo 5, comma 3</rif>
+							.
+						</corpo>
+					</comma>
+					<comma id="art6-com5">
+						<num>5.</num>
+						<corpo>I collegi sindacali delle società costituite o partecipate dall'Azienda sono nominati dal Consiglio regionale con le modalità di cui al comma 1 del presente articolo.</corpo>
 					</comma>
 				</articolo>
 				<articolo finevigore="t3" id="art7-t3" iniziovigore="t1" status="abrogato">
