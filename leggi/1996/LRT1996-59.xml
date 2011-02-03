@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1996-07-29;59" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1996-07-29;59@1998-02-06" />
-					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1996-07-29;59@1999-01-26" />
+					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1996-07-29;59@1999-01-26" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1996-07-29;59@2002-05-10" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Programmazione" />
 						<materia valore="Organizzazioni Pubbliche" />
@@ -24,6 +25,8 @@
 						<evento data="19961022" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="19980303" fonte="rp1" id="t5" tipo="modifica" />
 						<evento data="19990205" fonte="rp2" id="t6" tipo="modifica" />
+						<evento data="20020531" fonte="rp3" id="t7" tipo="modifica" />
+						<evento data="19961022" fonte="rp4" id="t8" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1996-07-29;59" xlink:type="simple" />
@@ -32,8 +35,19 @@
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1985-05-02;49" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1998-02-06;10" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1999-01-26;3" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2002-05-10;15" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2002-05-10;15" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Modificaretroattiva ai sensi dell'art. 7, com,a 2 della
+							<rif xlink:href="urn:nir:regione.toscana:legge:2002-05-10;15" xlink:type="simple">legge regionale 10 maggio 2002, n. 15</rif>
+							.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:abrogazione completa="si" implicita="no">
@@ -176,6 +190,30 @@
 								<dsp:pos xlink:href="#art11-com2bis-letc" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:termine da="#t7" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-05-10;15" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-05-10;15#mod3" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:variazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art18-com2-t8" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-05-10;15" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-05-10;15#art3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo3, legge Regione Toscana 10 maggio 2002, n. 15" id="itt9" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art18-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art18-com2-t8" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -680,9 +718,33 @@
 							.
 						</corpo>
 					</comma>
-					<comma id="art18-com2">
+					<comma finevigore="t8" id="art18-com2-t8" iniziovigore="t1" status="abrogato">
 						<num>2.</num>
 						<corpo>Al personale dipendente dall'Istituto si applica il contratto collettivo nazionale di lavoro del comparto Regioni/Enti locali.</corpo>
+					</comma>
+					<comma id="art18-com2" iniziovigore="t8">
+						<num>2.</num>
+						<corpo>
+							Al personale dipendente dell'Istituto si applica il contratto collettivo nazionale di lavoro del comparto Regioni-Enti locali. Si applicano altresì gli
+							<mrif>
+								articoli
+								<rif xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51#art149" xlink:type="simple">149</rif>
+								,
+								<rif xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51#art150" xlink:type="simple">150</rif>
+								,
+								<rif xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51#art151" xlink:type="simple">151</rif>
+								,
+								<rif xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51#art152" xlink:type="simple">152</rif>
+								,
+								<rif xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51#art153" xlink:type="simple">153</rif>
+								e
+								<rif xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51#art154" xlink:type="simple">154</rif>
+								della legge regionale 21 agosto 1989, n. 51
+							</mrif>
+							(Testo unico delle leggi sul personale)
+							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							.
+						</corpo>
 					</comma>
 					<comma id="art18-com3">
 						<num>3.</num>

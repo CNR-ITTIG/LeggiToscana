@@ -22,7 +22,8 @@
 					<urn finevigore="t25" iniziovigore="t23" valore="urn:nir:regione.toscana:legge:1989-08-21;51@1994-10-04" />
 					<urn finevigore="t26" iniziovigore="t25" valore="urn:nir:regione.toscana:legge:1989-08-21;51@1996-03-19" />
 					<urn finevigore="t27" iniziovigore="t26" valore="urn:nir:regione.toscana:legge:1989-08-21;51@1999-04-14" />
-					<urn iniziovigore="t27" valore="urn:nir:regione.toscana:legge:1989-08-21;51@2000-03-17" />
+					<urn finevigore="t28" iniziovigore="t27" valore="urn:nir:regione.toscana:legge:1989-08-21;51@2000-03-17" />
+					<urn iniziovigore="t28" valore="urn:nir:regione.toscana:legge:1989-08-21;51@2002-05-10" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Ente Regione" />
@@ -57,6 +58,7 @@
 						<evento data="19960413" fonte="rp14" id="t25" tipo="modifica" />
 						<evento data="19990508" fonte="rp15" id="t26" tipo="modifica" />
 						<evento data="20000411" fonte="rp16" id="t27" tipo="modifica" />
+						<evento data="20020531" fonte="rp17" id="t28" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1989-08-21;51" xlink:type="simple" />
@@ -86,6 +88,7 @@
 						<passiva id="rp14" xlink:href="urn:nir:regione.toscana:legge:1996-03-19;23" xlink:type="simple" />
 						<passiva id="rp15" xlink:href="urn:nir:regione.toscana:legge:1999-04-14;20" xlink:type="simple" />
 						<passiva id="rp16" xlink:href="urn:nir:regione.toscana:legge:2000-03-17;26" xlink:type="simple" />
+						<passiva id="rp17" xlink:href="urn:nir:regione.toscana:legge:2002-05-10;15" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -1336,7 +1339,7 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-03-17;26" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-03-17;26#art70-com2-leta" xlink:type="simple" />
 								<dsp:subarg>
@@ -1455,6 +1458,30 @@
 								<dsp:pos xlink:href="#art158-t27" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art150-com7" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-05-10;15" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-05-10;15#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 10 maggio 2002, n. 15" id="itt99" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art151-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-05-10;15" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-05-10;15#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 10 maggio 2002, n. 15" id="itt100" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art151-com4bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -7199,7 +7226,14 @@
 							</comma>
 							<comma id="art150-com7">
 								<num>7.</num>
-								<corpo>Nessuna liquidazione a carico della Regione compete ai dipendenti che cessano dal servizio per passaggio alle dipendenze di Enti il cui personale è iscritto all'INADEL e all'ENPAS, fatti salvi i diritti acquisiti dal personale trasferito a seguito dei processi di mobilità coattiva da disciplinare con apposita legge.</corpo>
+								<corpo>
+									<h:span id="h3" iniziovigore="t28">
+										Fermo restando quanto previsto dall'
+										<rif xlink:href="#art151-com4bis" xlink:type="simple">articolo 151, comma 4 bis</rif>
+										,
+									</h:span>
+									Nessuna liquidazione a carico della Regione compete ai dipendenti che cessano dal servizio per passaggio alle dipendenze di Enti il cui personale è iscritto all'INADEL e all'ENPAS, fatti salvi i diritti acquisiti dal personale trasferito a seguito dei processi di mobilità coattiva da disciplinare con apposita legge.
+								</corpo>
 							</comma>
 						</articolo>
 						<articolo id="art151">
@@ -7259,6 +7293,16 @@
 									Per il personale assunto o trasferito con decorrenza successiva alla data di entrata in vigore della presente legge, l'eventuale differenza di cui al
 									<rif xlink:href="#art150-com5" xlink:type="simple">comma 5 dell'articolo 150</rif>
 									è determinata soltanto con riferimento ai periodi di servizio resi alle dipendenze della Regione.
+								</corpo>
+							</comma>
+							<comma id="art151-com4bis" iniziovigore="t28">
+								<num>4 bis.</num>
+								<corpo>
+									La disposizione di cui al comma 4 non si applica al personale trasferito da Enti il cui ordinamento prevede un trattamento integrativo di quiescenza identico a quello garantito dalla Regione ai propri dipendenti, qualora tali Enti versino alla Regione una somma pari alla differenza di cui all'
+									<rif xlink:href="#art150-com5" xlink:type="simple">articolo 150, comma 5</rif>
+									, virtualmente calcolata, secondo i criteri ivi indicati, sullo stipendio del dipendente in godimento al momento del trasferimento. Alla cessazione dal servizio, la Regione assicura ai dipendenti suddetti l'integrale trattamento integrativo di cui all'
+									<rif xlink:href="#art150" xlink:type="simple">articolo 150</rif>
+									.
 								</corpo>
 							</comma>
 						</articolo>
