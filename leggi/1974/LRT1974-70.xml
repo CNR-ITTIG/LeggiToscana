@@ -11,7 +11,8 @@
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1974-11-21;70@1984-02-17" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1974-11-21;70@1985-01-10" />
 					<urn finevigore="t6" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1974-11-21;70@1987-03-10" />
-					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1974-11-21;70@1997-03-05" />
+					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1974-11-21;70@1997-03-05" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1974-11-21;70@2002-04-02" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -21,6 +22,7 @@
 						<evento data="19870311" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="19870311" fonte="rp4" id="t5" tipo="modifica" />
 						<evento data="19970329" fonte="rp5" id="t6" tipo="modifica" />
+						<evento data="20020427" fonte="rp6" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1974-11-21;70" xlink:type="simple" />
@@ -29,6 +31,7 @@
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1987-03-10;18" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1974-11-21;70" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1997-03-05;16" xlink:type="simple" />
+						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -167,7 +170,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art19" xlink:type="simple" />
+								<dsp:pos xlink:href="#art19-t7" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:integrazione completa="si" implicita="no">
@@ -357,7 +360,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-03-05;16" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-03-05;16#art4-com1-leta" xlink:type="simple" />
 								<dsp:subarg>
@@ -369,7 +372,7 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-03-05;16" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-03-05;16#art4-com1-letb" xlink:type="simple" />
 								<dsp:subarg>
@@ -381,7 +384,7 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art5" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-03-05;16" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-03-05;16#art4-com1-letc" xlink:type="simple" />
 								<dsp:subarg>
@@ -450,6 +453,18 @@
 							</dsp:norma>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art11quater-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art19" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11#ann1-art6-com52" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 6, comma 52 della legge Regione Toscana 2 aprile 2002, n. 11" id="itt28" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art19-t7" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>
@@ -1327,10 +1342,10 @@
 							</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art19" iniziovigore="t4">
+					<articolo finevigore="t7" id="art19-t7" iniziovigore="t4" status="abrogato">
 						<num>Art. 19</num>
 						<rubrica>(Norma transitoria)</rubrica>
-						<comma id="art19-com1">
+						<comma id="art19-t7-com1">
 							<num />
 							<corpo>
 								I Comuni provvedono a trasmettere alla Giunta regionale le domande presentate prima dell'entrata in vigore della presente legge, relative a manifestazioni internazionali, nazionali e regionali da tenersi nell'anno 1988, per il nulla - osta relativo, con le modalità ed entro i termini stabiliti dalla deliberazione di cui all'

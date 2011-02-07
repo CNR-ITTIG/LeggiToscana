@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t8" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19860814" num="39" tipo="BURT" />
 					<entratainvigore norm="19860829" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t7" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1986-08-04;36" />
-					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1986-08-04;36@1988-05-16" />
+					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1986-08-04;36@1988-05-16" />
+					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1986-08-04;36@2002-04-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Organi" />
@@ -24,6 +25,7 @@
 						<evento data="19860125" fonte="ra4" id="t5" tipo="modifica" />
 						<evento data="19860125" fonte="ra5" id="t6" tipo="modifica" />
 						<evento data="19880609" fonte="rp1" id="t7" tipo="modifica" />
+						<evento data="20020427" fonte="rp2" id="t8" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1986-08-04;36" xlink:type="simple" />
@@ -33,14 +35,15 @@
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1982-11-08;81" xlink:type="simple" />
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1982-11-08;81" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1988-05-16;33" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Le disposizioni di cui al presente articolo in contrasto con la
 							<rif xlink:href="urn:nir:regione.toscana:legge:1988-05-16;33" xlink:type="simple">legge regionale 16 maggio 1988, n. 33</rif>
-							, sonoabrogate ai sensi del comma 6 dell'articolo unico della stessa, a decorrere, ai sensi dell'ultimo comma dello stesso, dal 1 giugno 1987.
+							, sono abrogate ai sensi del comma 6 dell'articolo unico della stessa, a decorrere, ai sensi dell'ultimo comma dello stesso, dal 1 giugno 1987.
 						</h:p>
 					</nota>
 				</redazionale>
@@ -147,6 +150,18 @@
 								<dsp:testo valore="" />
 							</dsp:dominio>
 						</dsp:variazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1986-08-04;36" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11#ann1-art7-com60" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 7, comma 60 della legge Regione Toscana 2 aprile 2002, n. 11" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -215,7 +230,7 @@
 				<articolo id="art2">
 					<num>
 						ARTICOLO 2
-						<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+						<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 					</num>
 					<comma id="art2-com1">
 						<num />

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t11" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19901019" num="58" tipo="BURT" />
 					<entratainvigore norm="19901103" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1990-10-10;65" />
+					<urn finevigore="t11" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1990-10-10;65" />
+					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1990-10-10;65@2002-04-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Attività Estrattive" />
 					</materie>
@@ -24,6 +25,7 @@
 						<evento data="19901103" fonte="ra7" id="t8" tipo="modifica" />
 						<evento data="19901103" fonte="ra8" id="t9" tipo="modifica" />
 						<evento data="19901103" fonte="ra9" id="t10" tipo="modifica" />
+						<evento data="20020427" fonte="rp1" id="t11" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1990-10-10;65" xlink:type="simple" />
@@ -36,6 +38,7 @@
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:1980-04-30;36" xlink:type="simple" />
 						<attiva id="ra8" xlink:href="urn:nir:regione.toscana:legge:1980-04-30;36" xlink:type="simple" />
 						<attiva id="ra9" xlink:href="urn:nir:regione.toscana:legge:1980-04-30;36" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -143,6 +146,20 @@
 							</dsp:novella>
 						</dsp:integrazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1990-10-10;65" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11#ann1-art5-com50" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 5, comma 50 della legge Regione Toscana 2 aprile 2002, n. 11" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -290,28 +307,27 @@
 									<comma id="mod7-vir1-com1">
 										<num />
 										<alinea>Per i Comuni facenti parte di Comunità Montane, la Commissione tecnica è istituita dalla Comunità Montana ed è composta come segue:</alinea>
-									
-									<ep id="mod7-vir1-pun1">
-										<num>-</num>
-										<corpo>Il Presidente della Comunità Montana o suo delegato che la presiede;</corpo>
-									</ep>
-									<ep id="mod7-vir1-pun2">
-										<num>-</num>
-										<corpo>il Sindacato competente per territorio o suo delegato;</corpo>
-									</ep>
-									<ep id="mod7-vir1-pun3">
-										<num>-</num>
-										<corpo>un funzionario tecnico del Servizio di Prevenzione, Igiene e Sicurezza nei luoghi di lavoro della Unità Sanitaria Locale;</corpo>
-									</ep>
-									<ep id="mod7-vir1-pun4">
-										<num>-</num>
-										<corpo>un funzionario del Genio Civile della Regione Toscana;</corpo>
-									</ep>
-									<ep id="mod7-vir1-pun5">
-										<num>-</num>
-										<corpo>un funzionario dell'Ufficio Tecnico della Comunità Montana o del singolo Comune</corpo>
-									</ep>
-</comma>
+										<ep id="mod7-vir1-com1-pun1">
+											<num>-</num>
+											<corpo>Il Presidente della Comunità Montana o suo delegato che la presiede;</corpo>
+										</ep>
+										<ep id="mod7-vir1-com1-pun2">
+											<num>-</num>
+											<corpo>il Sindacato competente per territorio o suo delegato;</corpo>
+										</ep>
+										<ep id="mod7-vir1-com1-pun3">
+											<num>-</num>
+											<corpo>un funzionario tecnico del Servizio di Prevenzione, Igiene e Sicurezza nei luoghi di lavoro della Unità Sanitaria Locale;</corpo>
+										</ep>
+										<ep id="mod7-vir1-com1-pun4">
+											<num>-</num>
+											<corpo>un funzionario del Genio Civile della Regione Toscana;</corpo>
+										</ep>
+										<ep id="mod7-vir1-com1-pun5">
+											<num>-</num>
+											<corpo>un funzionario dell'Ufficio Tecnico della Comunità Montana o del singolo Comune</corpo>
+										</ep>
+									</comma>
 								</virgolette>
 								"
 							</mod>

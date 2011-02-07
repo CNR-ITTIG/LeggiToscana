@@ -8,7 +8,8 @@
 					<entratainvigore norm="19970506" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t9" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1997-04-14;28" />
-					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1997-04-14;28@2000-03-20" />
+					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1997-04-14;28@2000-03-20" />
+					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1997-04-14;28@2002-04-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Programmazione" />
 						<materia valore="Finanziamenti" />
@@ -25,6 +26,7 @@
 						<evento data="19970506" fonte="ra6" id="t7" tipo="modifica" />
 						<evento data="19970506" fonte="ra7" id="t8" tipo="modifica" />
 						<evento data="20000414" fonte="rp1" id="t9" tipo="modifica" />
+						<evento data="20020427" fonte="rp2" id="t10" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1997-04-14;28" xlink:type="simple" />
@@ -36,6 +38,7 @@
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1988-02-23;9" xlink:type="simple" />
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:1988-02-23;9" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-03-20;35" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -43,7 +46,11 @@
 						<h:p>
 							Articolo abrogato dall'
 							<rif xlink:href="urn:nir:regione.toscana:legge:2000-03-20;35#art11-com1-lets" xlink:type="simple">art. 11, comma 1, let. s) della legge regionale 20 marzo 2000, n. 35</rif>
-							, a decorrere da quanto disposto dall'art. 12, comma 1 della stessa.
+							, a decorrere da quanto disposto dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2000-03-20;35#art12-com1" xlink:type="simple">art. 12, comma 1</rif>
+							della stessa. Tale abrogazione è stata in seguito ribadita dalla
+							<rif xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">legge regionale 2 aprile 2002, n. 11</rif>
+							.
 						</h:p>
 					</nota>
 				</redazionale>
@@ -144,6 +151,18 @@
 								<dsp:testo valore="" />
 							</dsp:dominio>
 						</dsp:variazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11#ann1-art6-com57" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 6, comma 57 della legge Regione Toscana 2 aprile 2002, n. 11" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-t10" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -269,21 +288,21 @@
 				<titolo id="tit2">
 					<num>TITOLO II</num>
 					<rubrica>IL PROCEDIMENTO DI PROGRAMMAZIONE</rubrica>
-					<articolo id="art4">
+					<articolo finevigore="t10" id="art4-t10" iniziovigore="t1" status="abrogato">
 						<num>
 							ARTICOLO 4
 							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
 						</num>
 						<rubrica>(Il Piano triennale della promozione economica)</rubrica>
-						<comma id="art4-com1">
+						<comma id="art4-t10-com1">
 							<num>1.</num>
 							<corpo>Le attività di promozione economica realizzate dalla Regione sono disciplinate da un Piano triennale approvato dal Consiglio regionale sulla base degli obiettivi del Programma regionale di sviluppo.</corpo>
 						</comma>
-						<comma id="art4-com2">
+						<comma id="art4-t10-com2">
 							<num>2.</num>
 							<corpo>Il Piano triennale della promozione economica è approvato entro il mese di maggio dell'anno precedente al triennio di riferimento, ha scorrevolezza annuale e può essere aggiornato nel corso del periodo di validità.</corpo>
 						</comma>
-						<comma id="art4-com3">
+						<comma id="art4-t10-com3">
 							<num>3.</num>
 							<corpo>
 								Il Piano triennale contiene le determinazioni progettuali relative alle attività di promozione economica. Il Piano costituisce altresì la sintesi del coordinamento delle attività di promozione economica di cui agli
@@ -296,47 +315,47 @@
 								.
 							</corpo>
 						</comma>
-						<comma id="art4-com4">
+						<comma id="art4-t10-com4">
 							<num>4.</num>
 							<alinea>Il Piano triennale individua:</alinea>
-							<el id="art4-com4-leta">
+							<el id="art4-t10-com4-leta">
 								<num>a)</num>
 								<corpo>gli scenari macroeconomici di riferimento, gli obiettivi generali dell'attività di promozione economica da perseguire anche attraverso l'integrazione fra i diversi settori produttivi e di terziario e la valorizzazione delle potenzialità del sistema ambientale, culturale e produttivo della Toscana, secondo metodologie di rete;</corpo>
 							</el>
-							<el id="art4-com4-letb">
+							<el id="art4-t10-com4-letb">
 								<num>b)</num>
 								<corpo>gli obiettivi specifici dell'attività di promozione economica riferiti ai settori produttivi dell'artigianato, della piccola e media impresa industriale, dell'agricoltura e del turismo;</corpo>
 							</el>
-							<el id="art4-com4-letc">
+							<el id="art4-t10-com4-letc">
 								<num>c)</num>
 								<corpo>le tipologie di azioni gestite direttamente dalla Regione;</corpo>
 							</el>
-							<el id="art4-com4-letd">
+							<el id="art4-t10-com4-letd">
 								<num>d)</num>
 								<corpo>le tipologie di azioni da ammettere a cofinaziamento;</corpo>
 							</el>
-							<el id="art4-com4-lete">
+							<el id="art4-t10-com4-lete">
 								<num>e)</num>
 								<corpo>le indicazioni di finanziamento relative ad ogni singola tipologia;</corpo>
 							</el>
-							<el id="art4-com4-letf">
+							<el id="art4-t10-com4-letf">
 								<num>f)</num>
 								<corpo>i criteri per la selezione dei progetti da ammettere a cofinanziamento ivi comprese le modalità di composizione, di costituzione e di funzionamento di un Comitato tecnico per la valutazione dei progetti stessi;</corpo>
 							</el>
-							<el id="art4-com4-letg">
+							<el id="art4-t10-com4-letg">
 								<num>g)</num>
 								<corpo>gli strumenti ed i tempi di realizzazione degli interventi;</corpo>
 							</el>
-							<el id="art4-com4-leth">
+							<el id="art4-t10-com4-leth">
 								<num>h)</num>
 								<corpo>le strategie di finanziamento delle attività ed i criteri di compartecipazione finanziaria dei soggetti privati alle attività di promozione economica gestite direttamente dalla Regione;</corpo>
 							</el>
-							<el id="art4-com4-leti">
+							<el id="art4-t10-com4-leti">
 								<num>i)</num>
 								<corpo>le modalità e gli strumenti per la valutazione dell'efficacia dei risultati conseguiti.</corpo>
 							</el>
 						</comma>
-						<comma id="art4-com5">
+						<comma id="art4-t10-com5">
 							<num>5.</num>
 							<corpo>
 								Il Piano triennale individua, altresì, i criteri, le modalità e gli strumenti per garantire al Consiglio regionale un'informazione completa sui risultati conseguiti attraverso la realizzazione degli interventi previsti nel Programma annuale di cui all'
@@ -344,7 +363,7 @@
 								, così da consentire una valutazione dell'efficacia dei risultati stessi.
 							</corpo>
 						</comma>
-						<comma id="art4-com6">
+						<comma id="art4-t10-com6">
 							<num>6.</num>
 							<corpo>
 								Le determinazioni del Piano triennale costituiscono direttiva consiliare alla Giunta regionale per la redazione del Programma annuale di cui all'
@@ -360,7 +379,7 @@
 							<num>1.</num>
 							<corpo>
 								La Giunta regionale approva, entro il 31 ottobre di ogni anno e, comunque, entro i termini stabiliti dalla legislazione in materia di coordinamento e di intesa con le competenti autorità nazionali, il Programma annuale delle attività di promozione economica dell'anno successivo in attuazione ed in conformità con il Piano triennale di cui all'
-								<rif xlink:href="#art4" xlink:type="simple">articolo 4</rif>
+								<rif xlink:href="#art4-t10" xlink:type="simple">articolo 4</rif>
 								. La Giunta regionale invia copia del Programma annuale al Consiglio regionale.
 							</corpo>
 						</comma>
@@ -420,7 +439,7 @@
 							<num>1.</num>
 							<corpo>
 								L'attività di promozione economica della Regione è coordinata con quella degli altri soggetti pubblici operanti a livello locale. Il Piano triennale della promozione economica di cui all'
-								<rif xlink:href="#art4" xlink:type="simple">articolo 4</rif>
+								<rif xlink:href="#art4-t10" xlink:type="simple">articolo 4</rif>
 								costituisce la sintesi del coordinamento e l'attuazione dell'
 								<rif xlink:href="urn:nir:presidente.repubblica:decreto:1977-07-24;616#art64" xlink:type="simple">articolo 64 del DPR 24 luglio 1977, n. 616</rif>
 								.
@@ -508,7 +527,7 @@
 							<num>6.</num>
 							<corpo>
 								Il Piano triennale di cui all'
-								<rif xlink:href="#art4" xlink:type="simple">articolo 4</rif>
+								<rif xlink:href="#art4-t10" xlink:type="simple">articolo 4</rif>
 								definisce i criteri generali di selezione dei progetti da attuarsi attraverso appositi bandi pubblici che devono, in particolare, prevedere la definizione e la regolamentazione dei rapporti fra la Giunta regionale ed i soggetti ammessi a cofinanziamento.
 							</corpo>
 						</comma>
@@ -518,9 +537,9 @@
 								I bandi di cui al
 								<rif xlink:href="#art10-com6" xlink:type="simple">comma 6</rif>
 								sono approvati dalla Giunta regionale entro trenta giorni dalla data di esecutività del Piano triennale di cui all'
-								<rif xlink:href="#art4" xlink:type="simple">articolo 4</rif>
+								<rif xlink:href="#art4-t10" xlink:type="simple">articolo 4</rif>
 								. La selezione dei progetti da ammettere a cofinanziamento è effettuata dal Comitato tecnico di valutazione di cui all'
-								<rif xlink:href="#art4-com4-letf" xlink:type="simple">articolo 4, comma 4, lettera f</rif>
+								<rif xlink:href="#art4-t10-com4-letf" xlink:type="simple">articolo 4, comma 4, lettera f</rif>
 								.
 							</corpo>
 						</comma>

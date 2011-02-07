@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19881222" num="72" tipo="BURT" />
 					<entratainvigore norm="19890106" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1988-12-17;90" />
+					<urn finevigore="t16" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1988-12-17;90" />
+					<urn iniziovigore="t16" valore="urn:nir:regione.toscana:legge:1988-12-17;90@2002-04-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Pesca" />
 						<materia valore="Caccia" />
@@ -31,6 +32,7 @@
 						<evento data="19890106" fonte="ra12" id="t13" tipo="modifica" />
 						<evento data="19890106" fonte="ra13" id="t14" tipo="modifica" />
 						<evento data="19890106" fonte="ra14" id="t15" tipo="modifica" />
+						<evento data="20020427" fonte="rp1" id="t16" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1988-12-17;90" xlink:type="simple" />
@@ -48,6 +50,7 @@
 						<attiva id="ra12" xlink:href="urn:nir:regione.toscana:legge:1984-04-24;25" xlink:type="simple" />
 						<attiva id="ra13" xlink:href="urn:nir:regione.toscana:legge:1984-04-24;25" xlink:type="simple" />
 						<attiva id="ra14" xlink:href="urn:nir:regione.toscana:legge:1982-10-30;77" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -336,6 +339,32 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11#ann1-art4-com42" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 4, comma 42 della legge Regione Toscana 2 aprile 2002, n. 11" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art1-t16" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11#ann1-art4-com42" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 4, comma 42 della legge Regione Toscana 2 aprile 2002, n. 11" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-t16" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -363,14 +392,14 @@
 			<articolato>
 				<titolo id="tit1">
 					<num>Titolo I</num>
-					<articolo id="art1">
+					<articolo finevigore="t16" id="art1-t16" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 1</num>
 						<rubrica>
 							(Modifica dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1980-03-15;17#art42" xlink:type="simple">art. 42 della LR 15 marzo 1980, n. 17</rif>
 							)
 						</rubrica>
-						<comma id="art1-com1">
+						<comma id="art1-t16-com1">
 							<num>1.</num>
 							<corpo>
 								<mod id="mod1">
@@ -389,7 +418,7 @@
 								</mod>
 							</corpo>
 						</comma>
-						<comma id="art1-com2">
+						<comma id="art1-t16-com2">
 							<num>2.</num>
 							<corpo>
 								<mod id="mod2">
@@ -399,7 +428,7 @@
 								</mod>
 							</corpo>
 						</comma>
-						<comma id="art1-com3">
+						<comma id="art1-t16-com3">
 							<num>3.</num>
 							<corpo>
 								<mod id="mod3">
@@ -413,7 +442,7 @@
 								</mod>
 							</corpo>
 						</comma>
-						<comma id="art1-com4">
+						<comma id="art1-t16-com4">
 							<num>4.</num>
 							<corpo>
 								<mod id="mod4">
@@ -427,7 +456,7 @@
 								</mod>
 							</corpo>
 						</comma>
-						<comma id="art1-com5">
+						<comma id="art1-t16-com5">
 							<num>5.</num>
 							<corpo>
 								<mod id="mod5">
@@ -441,7 +470,7 @@
 								</mod>
 							</corpo>
 						</comma>
-						<comma id="art1-com6">
+						<comma id="art1-t16-com6">
 							<num>6.</num>
 							<corpo>
 								<mod id="mod6">
@@ -455,7 +484,7 @@
 								</mod>
 							</corpo>
 						</comma>
-						<comma id="art1-com7">
+						<comma id="art1-t16-com7">
 							<num>7.</num>
 							<corpo>
 								<mod id="mod7">
@@ -574,14 +603,14 @@
 						<rif xlink:href="urn:nir:regione.toscana:legge:1982-10-30;77" xlink:type="simple">LR 30 ottobre 1982, n. 77</rif>
 						"Norme per lo sviluppo della acquacoltura e per la produzione ittica nelle acque interne".
 					</rubrica>
-					<articolo id="art3">
+					<articolo finevigore="t16" id="art3-t16" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 3</num>
 						<rubrica>
 							(Modifica dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1982-10-30;77#art7" xlink:type="simple">art. 7 della LR 30 ottobre 1982, n. 77</rif>
 							)
 						</rubrica>
-						<comma id="art3-com1">
+						<comma id="art3-t16-com1">
 							<num>1.</num>
 							<corpo>
 								<mod id="mod14">
