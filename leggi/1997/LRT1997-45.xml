@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1997-06-27;45" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1997-06-27;45@1998-06-09" />
-					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1997-06-27;45@2000-02-25" />
+					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1997-06-27;45@2000-02-25" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1997-06-27;45@2002-04-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Fonti Energetiche" />
 					</materie>
@@ -22,6 +23,7 @@
 						<evento data="19970722" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="19980704" fonte="rp1" id="t5" tipo="modifica" />
 						<evento data="20000321" fonte="rp2" id="t6" tipo="modifica" />
+						<evento data="20020427" fonte="rp3" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1997-06-27;45" xlink:type="simple" />
@@ -30,6 +32,7 @@
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1990-12-03;72" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1998-06-09;31" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2000-02-25;14" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -147,6 +150,18 @@
 								<dsp:pos xlink:href="#h5" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11#ann1-art2-com28" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 2, comma 28 della legge Regione Toscana 2 aprile 2002, n. 11" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art8-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -580,10 +595,10 @@
 				<capo id="cap3">
 					<num>Capo III</num>
 					<rubrica>DISPOSIZIONI FINANZIARIE, TRANSITORIE E FINALI</rubrica>
-					<articolo id="art8">
+					<articolo finevigore="t7" id="art8-t7" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 8</num>
 						<rubrica>(Norme transitorie)</rubrica>
-						<comma id="art8-com1">
+						<comma id="art8-t7-com1">
 							<num>1.</num>
 							<corpo>
 								In attesa dell'approvazione del Piano Energetico Regionale i contributi di cui all'
