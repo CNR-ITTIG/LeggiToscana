@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1996-07-25;58" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1996-07-25;58@1997-06-20" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1996-07-25;58@1998-08-06" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1996-07-25;58@1998-08-06" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1996-07-25;58@2002-04-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Viabilità" />
 					</materie>
@@ -19,11 +20,13 @@
 						<evento data="19960805" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19970715" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19980829" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="20020427" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1996-07-25;58" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1997-06-20;43" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1998-08-06;51" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -86,7 +89,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:integrazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art6-com3" xlink:type="simple" />
+							<dsp:pos xlink:href="#art6-t4-com3" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1997-06-20;43" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1997-06-20;43#art4-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -94,7 +97,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art6-com4-t3" xlink:type="simple" />
+								<dsp:pos xlink:href="#art6-t4-com4-t3" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -113,7 +116,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art6-com4" xlink:type="simple" />
+							<dsp:pos xlink:href="#art6-t4-com4" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-08-06;51" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-08-06;51#art2-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -121,12 +124,24 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art6-com4" xlink:type="simple" />
+								<dsp:pos xlink:href="#art6-t4-com4" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#art6-com4-t3" xlink:type="simple" />
+								<dsp:pos xlink:href="#art6-t4-com4-t3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11#ann1-art9-com111" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 9, comma 111 della legge Regione Toscana 2 aprile 2002, n. 11" id="itt8" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art6-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -249,94 +264,94 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art6">
+				<articolo finevigore="t4" id="art6-t4" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 6</num>
 					<rubrica>(Norme di prima applicazione)</rubrica>
-					<comma id="art6-com1">
+					<comma id="art6-t4-com1">
 						<num>1.</num>
 						<alinea>In prima applicazione, le domande sono presentate entro 60 giorni dall'entrata in vigore della presente legge e le priorità di finanziamento sono individuate dagli interventi di cui alla lettera a) e alla lettera b):</alinea>
-						<el id="art6-com1-leta">
+						<el id="art6-t4-com1-leta">
 							<num>a)</num>
 							<alinea>
 								direttrici nazionali di grande comunicazione, con caratteristiche costruttive, tecniche e funzionali di cui al
 								<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-04-30;285#art2-com2-letb" xlink:type="simple">secondo comma, lettera B dell'art. 2 del DLgs n. 285 del 30.4.1992</rif>
 								e successive modifiche e integrazioni,
 							</alinea>
-							<ep id="art6-com1-leta-pun1">
+							<ep id="art6-t4-com1-leta-pun1">
 								<num>-</num>
 								<corpo>SS. 1 adeguamento a 4 corsie a sud di Grosseto (provincia di Grosseto)</corpo>
 							</ep>
-							<ep id="art6-com1-leta-pun2">
+							<ep id="art6-t4-com1-leta-pun2">
 								<num>-</num>
 								<corpo>SGC E 78 dei "Due Mari" (provincia di Grosseto, Siena, Arezzo)</corpo>
 							</ep>
-							<ep id="art6-com1-leta-pun3">
+							<ep id="art6-t4-com1-leta-pun3">
 								<num>-</num>
 								<corpo>SGC FI-PI-LI, penetrazione al porto di Livorno (provincia di Livorno)</corpo>
 							</ep>
 						</el>
-						<el id="art6-com1-letb">
+						<el id="art6-t4-com1-letb">
 							<num>b)</num>
 							<alinea>
 								altre direttrici statali con caratteristiche costruttive, tecniche e funzionali di cui al
 								<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-04-30;285#art2-com2-letc" xlink:type="simple">secondo comma, lettera C dell'art. 2 del DLgs n. 285 del 30.4.1992</rif>
 								e successive modifiche e integrazioni,
 							</alinea>
-							<ep id="art6-com1-letb-pun1">
+							<ep id="art6-t4-com1-letb-pun1">
 								<num>-</num>
 								<corpo>SS 71 Umbro-Casentinese (provincia di Arezzo)</corpo>
 							</ep>
-							<ep id="art6-com1-letb-pun2">
+							<ep id="art6-t4-com1-letb-pun2">
 								<num>-</num>
 								<corpo>SS 429 di Val d'Elsa (provincia di Firenze)</corpo>
 							</ep>
-							<ep id="art6-com1-letb-pun3">
+							<ep id="art6-t4-com1-letb-pun3">
 								<num>-</num>
 								<corpo>SS 67 Tosco-Romagnola (provincia di Firenze)</corpo>
 							</ep>
-							<ep id="art6-com1-letb-pun4">
+							<ep id="art6-t4-com1-letb-pun4">
 								<num>-</num>
 								<corpo>SS 62 della Cisa - nodo di Aulla (provincia di Massa Carrara)</corpo>
 							</ep>
-							<ep id="art6-com1-letb-pun5">
+							<ep id="art6-t4-com1-letb-pun5">
 								<num>-</num>
 								<corpo>SS 325 di Val di Bisenzio (provincia di Prato)</corpo>
 							</ep>
-							<ep id="art6-com1-letb-pun6">
+							<ep id="art6-t4-com1-letb-pun6">
 								<num>-</num>
 								<corpo>SGC FI-PI-LI raccordo con l'area del cuoio (provincia di Pisa)</corpo>
 							</ep>
-							<ep id="art6-com1-letb-pun7">
+							<ep id="art6-t4-com1-letb-pun7">
 								<num>-</num>
 								<corpo>SS 445 della Garfagnana (provincia di Lucca)</corpo>
 							</ep>
-							<ep id="art6-com1-letb-pun8">
+							<ep id="art6-t4-com1-letb-pun8">
 								<num>-</num>
 								<corpo>SS 64 Porrettana (provincia di Pistoia)</corpo>
 							</ep>
-							<ep id="art6-com1-letb-pun9">
+							<ep id="art6-t4-com1-letb-pun9">
 								<num>-</num>
 								<corpo>SS 2 Cassia (provincia di Siena)</corpo>
 							</ep>
 						</el>
 					</comma>
-					<comma id="art6-com2">
+					<comma id="art6-t4-com2">
 						<num>2.</num>
 						<corpo>
 							Nell'ambito delle due categorie di priorità elencate le ulteriori priorità verranno determinate in relazione alla quota di concorso alle spese di progettazione da parte degli enti locali; a tal fine possono venire considerati anche gli oneri sostenuti per attività di progettazione svolte all'interno degli enti stessi. Il contributo complessivo massimo assegnabile a ciascun ente per l'anno 1996 non può essere superiore a 1,5 miliardi di lire. La priorità di finanziamento, nel caso di istanze che presentino uguale incidenza percentuale dell'autofinanziamento, è determinata, distintamente per le due categorie a) e b) di cui al
-							<rif xlink:href="#art6-com1" xlink:type="simple">precedente primo comma</rif>
+							<rif xlink:href="#art6-t4-com1" xlink:type="simple">precedente primo comma</rif>
 							, secondo l'ordine in cui le opere sono elencate nel comma stesso.
 						</corpo>
 					</comma>
-					<comma id="art6-com3">
+					<comma id="art6-t4-com3">
 						<num>3.</num>
 						<corpo>
 							Le modalità di erogazione del contributo regionale e i criteri ai quali le Province e i Comuni devono attenersi per la definizione dei rapporti con i progettisti sono stabiliti, per il 1996, dalla Giunta regionale con l'atto di assegnazione del contributo da adottarsi entro 30 giorni dalla scadenza del termine di cui al
-							<rif xlink:href="#art6-com1" xlink:type="simple">primo comma</rif>
+							<rif xlink:href="#art6-t4-com1" xlink:type="simple">primo comma</rif>
 							.
 						</corpo>
 					</comma>
-					<comma finevigore="t3" id="art6-com4-t3" iniziovigore="t2" status="abrogato">
+					<comma finevigore="t3" id="art6-t4-com4-t3" iniziovigore="t2" status="abrogato">
 						<num>4.</num>
 						<corpo>
 							Il termine di cui all'
@@ -344,7 +359,7 @@
 							per l'affidamento degli incarichi relativi alle istanze di contributo finanziate per l'anno 1996 è fissato al 30 Novembre 1997.
 						</corpo>
 					</comma>
-					<comma id="art6-com4" iniziovigore="t3">
+					<comma id="art6-t4-com4" iniziovigore="t3">
 						<num>4.</num>
 						<corpo>
 							Il termine di cui all'

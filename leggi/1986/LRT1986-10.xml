@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19860319" num="13" tipo="BURT" />
 					<entratainvigore norm="19860319" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1986-03-10;10" />
+					<urn finevigore="t8" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1986-03-10;10" />
+					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1986-03-10;10@2002-04-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Edilizia" />
 					</materie>
@@ -21,6 +22,7 @@
 						<evento data="19860319" fonte="ra4" id="t5" tipo="modifica" />
 						<evento data="19860319" fonte="ra5" id="t6" tipo="modifica" />
 						<evento data="19860319" fonte="ra6" id="t7" tipo="modifica" />
+						<evento data="20020427" fonte="rp1" id="t8" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1986-03-10;10" xlink:type="simple" />
@@ -30,6 +32,7 @@
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1983-05-10;26" xlink:type="simple" />
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1983-05-10;26" xlink:type="simple" />
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1983-05-10;26" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -135,6 +138,44 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11#ann1-art9-com105" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 9, comma 105 della legge Regione Toscana 2 aprile 2002, n. 11" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art1-t8" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11#ann1-art9-com105" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 9, comma 105 della legge Regione Toscana 2 aprile 2002, n. 11" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-t8" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11#ann1-art9-com105" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 9, comma 105 della legge Regione Toscana 2 aprile 2002, n. 11" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-t8" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -174,10 +215,10 @@
 						<rif xlink:href="urn:nir:regione.toscana:legge:1983;26" xlink:type="simple">LR 26/1983</rif>
 						PER IL BIENNIO 1986-87
 					</rubrica>
-					<articolo id="art1">
+					<articolo finevigore="t8" id="art1-t8" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 1</num>
 						<rubrica>(Finalità)</rubrica>
-						<comma id="art1-com1">
+						<comma id="art1-t8-com1">
 							<num>1.</num>
 							<corpo>
 								<mod id="mod1">
@@ -186,9 +227,9 @@
 									- Finanziamento biennio 1986-87 interventi di Edilizia Residenziale Pubblica", le modalità di programmazione e l'individuazione dei soggetti incaricati della realizzazione degli interventi di edilizia agevolata - convenzionata, sono modificate, limitatamente al biennio 1986-87, secondo le disposizioni di cui ai successivi
 									<mrif>
 										articoli
-										<rif xlink:href="#art2" xlink:type="simple">2</rif>
+										<rif xlink:href="#art2-t8" xlink:type="simple">2</rif>
 										e
-										<rif xlink:href="#art3" xlink:type="simple">3</rif>
+										<rif xlink:href="#art3-t8" xlink:type="simple">3</rif>
 									</mrif>
 									, in deroga a quanto previsto dalla
 									<rif xlink:href="urn:nir:regione.toscana:legge:1983-05-10;26" xlink:type="simple">LR 10/5/1983, n. 26</rif>
@@ -197,30 +238,30 @@
 							</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art2">
+					<articolo finevigore="t8" id="art2-t8" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 2</num>
 						<rubrica>(Programmazione degli interventi del biennio 1986-87)</rubrica>
-						<comma id="art2-com1">
+						<comma id="art2-t8-com1">
 							<num>1.</num>
 							<alinea>Il programma di localizzazione degli interventi di edilizia residenziale pubblica relativo al biennio 1986-87 è predisposto dalla Giunta regionale, sentiti i Comuni, le Province e le Associazioni intercomunali, tenendo conto dei seguenti criteri:</alinea>
-							<ep id="art2-com1-pun1">
+							<ep id="art2-t8-com1-pun1">
 								<num>-</num>
 								<corpo>concentrare i finanziamenti nei Comuni dove sussiste una particolare tensione abitativa, sulla base dell'elenco di cui all'allegato "A" della deliberazione del CIPE in data 30 maggio 1985, integrato in sede di localizzazione degli interventi;</corpo>
 							</ep>
-							<ep id="art2-com1-pun2">
+							<ep id="art2-t8-com1-pun2">
 								<num>-</num>
 								<corpo>localizzare gli interventi su aree idonee sotto il profilo geo - morfologico, ambientale e libere da vincoli in modo da risultare immediatamente disponibili per l'intervento.</corpo>
 							</ep>
 						</comma>
-						<comma id="art2-com2">
+						<comma id="art2-t8-com2">
 							<num>2.</num>
 							<corpo>Il Consiglio regionale delibera il programma nei trenta giorni successivi all'invio da parte della Giunta.</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art3">
+					<articolo finevigore="t8" id="art3-t8" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 3</num>
 						<rubrica>(Contributi individuali in c/capitale)</rubrica>
-						<comma id="art3-com1">
+						<comma id="art3-t8-com1">
 							<num>1.</num>
 							<corpo>
 								I contributi individuali in conto capitale agli interventi del biennio 1986-87 si continuano ad applicare le norme definite dagli
