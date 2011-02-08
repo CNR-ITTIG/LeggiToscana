@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t4" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19740125" num="04" tipo="BURT" />
@@ -9,22 +9,25 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1974-01-19;4" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1974-01-19;4@1974-05-22" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1974-01-19;4@1978-09-05" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1974-01-19;4@1978-09-05" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1974-01-19;4@2002-04-02" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19740209" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19740531" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19780911" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="20020427" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1974-01-19;4" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1974-05-22;19" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1978-09-05;67" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Si veda anche la
 							<rif xlink:href="urn:nir:regione.toscana:legge:1975-10-16;72" xlink:type="simple">legge regionale 16 ottobre 1975, n. 72</rif>
@@ -52,7 +55,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art2-com1" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1978-09-05;67" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1978-09-05;67#art2-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -96,6 +99,18 @@
 								<dsp:pos xlink:href="#h1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1974-01-19;4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11#ann1-art9-com90" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 9, comma 90 della legge Regione Toscana 2 aprile 2002, n. 11" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -107,7 +122,7 @@
 				<numDoc>4</numDoc>
 				<titoloDoc>
 					Interventi straordinari sui porti di competenza della Regione.
-					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
@@ -116,7 +131,7 @@
 				<h:p>la seguente legge:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>DISCIPLINA DEGLI INTERVENTI</rubrica>
 					<articolo id="art1">
@@ -238,7 +253,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>DISCIPLINA DEL FINANZIAMENTO</rubrica>
 					<articolo id="art6">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t5" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19750307" num="12" tipo="BURT" />
@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1975-02-27;18" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1975-02-27;18@1976-05-21" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1975-02-27;18@1980-04-04" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1975-02-27;18@1980-04-04" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1975-02-27;18@2002-04-02" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -17,22 +18,26 @@
 						<evento data="19750322" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="19760529" fonte="rp1" id="t3" tipo="modifica" />
 						<evento data="19810101" fonte="rp2" id="t4" tipo="modifica" />
+						<evento data="20020427" fonte="rp3" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1975-02-27;18" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1973-01-17;8" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1976-05-21;22" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1980-04-04;25" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Ai sensi dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1976-05-21;22#art1" xlink:type="simple">art. 1 della legge regionale 21 maggio 1976, n. 22</rif>
 							, le disposizioni della presente legge si applicano anche per procedimenti amministrativi di cui all'
 							<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-15;8#art10" xlink:type="simple">articolo 10 del DPR 15 gennaio 1972, n. 8</rif>
-							. Ad integrazione della presente si veda inoltre anche l'art. 2 della succitata legge.
+							. Ad integrazione della presente si veda inoltre anche l'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1976-05-21;22#art2" xlink:type="simple">art. 2</rif>
+							della succitata legge.
 						</h:p>
 					</nota>
 				</redazionale>
@@ -76,6 +81,18 @@
 								<dsp:pos xlink:href="#art9-t4" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1975-02-27;18" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11#ann1-art9-com96" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 9, comma 96 della legge Regione Toscana 2 aprile 2002, n. 11" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -87,7 +104,7 @@
 				<numDoc>18</numDoc>
 				<titoloDoc>
 					Norme per l'accelerazione e lo snellimento delle procedure in materia di lavori pubblici
-					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 					.
 				</titoloDoc>
 			</intestazione>

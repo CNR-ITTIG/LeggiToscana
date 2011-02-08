@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t6" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19750228" num="10" tipo="BURT" />
@@ -10,7 +10,8 @@
 					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1975-02-24;16" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1975-02-24;16@1975-05-23" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1975-02-24;16@1979-02-19" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1975-02-24;16@1989-08-30" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1975-02-24;16@1989-08-30" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1975-02-24;16@2002-04-02" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -19,6 +20,7 @@
 						<evento data="19750614" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19790223" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="19890926" fonte="rp4" id="t5" tipo="modifica" />
+						<evento data="20020427" fonte="rp5" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1975-02-24;16" xlink:type="simple" />
@@ -26,17 +28,18 @@
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1975-05-23;49" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1979-02-19; 10" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1989-08-30;54" xlink:type="simple" />
+						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Si veda anche l'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1975-05-23;49#art1" xlink:type="simple">art. unico della legge regionale 23 maggio 1975, n. 49</rif>
 							.
 						</h:p>
 					</nota>
-					<nota id="n2">
+					<nota id="LeggeRegionale1-n2">
 						<h:p>
 							Termine prorogato al 30 giugno 1978 dalla
 							<rif xlink:href="urn:nir:regione.toscana:legge:1978-03-29;20" xlink:type="simple">Legge Regionale 29 marzo 1978, n. 20</rif>
@@ -96,7 +99,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1979-02-19; 10" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1979-02-19; 10#art15-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -108,7 +111,7 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art5" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1979-02-19; 10" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1979-02-19; 10#art15-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -132,7 +135,7 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1989-08-30;54" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1989-08-30;54#artunico-com5" xlink:type="simple" />
 								<dsp:subarg>
@@ -141,6 +144,18 @@
 							</dsp:norma>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art3-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1975-02-24;16" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11#ann1-art9-com95" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 9, comma 95 della legge Regione Toscana 2 aprile 2002, n. 11" id="itt8" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>
@@ -213,7 +228,7 @@
 				<articolo finevigore="t4" id="art4-t4" iniziovigore="t1" status="abrogato">
 					<num>
 						ARTICOLO 4
-						<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+						<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 					</num>
 					<rubrica>(Limiti di densità edilizia nelle zone agricole)</rubrica>
 					<comma finevigore="t2" id="art4-t4-com1-t2" iniziovigore="t1" status="abrogato">
@@ -230,7 +245,7 @@
 							Nelle zone previste dagli strumenti urbanistici con destinazione agricola - zone omogenee E secondo il
 							<rif xlink:href="urn:nir:ministero.lavori.pubblici:decreto:1968-04-02;1444" xlink:type="simple">DM (LLPP) 2-4-1968, n. 1444</rif>
 							- fino all'approvazione dei piani di zona che definiscano, per lo sviluppo delle aree extraurbane, l'utilizzazione agricolo - forestale, le opere e le infrastrutture necessarie per le attività produttive, le eventuali residenze e i relativi servizi, e comunque non oltre tre anni dalla data di entrata in vigore della presente legge
-							<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+							<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(b)</ndr>
 							, non sono consentite nuove costruzioni con destinazione di uso residenziale.
 						</corpo>
 					</comma>
