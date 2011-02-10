@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19991231" num="36" tipo="BURT" />
 					<entratainvigore norm="20000115" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1999-12-22;70" />
+					<urn finevigore="t7" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1999-12-22;70" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1999-12-22;70@1998-05-18" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Rifiuti" />
 					</materie>
@@ -20,6 +21,7 @@
 						<evento data="20000115" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="20000115" fonte="ra4" id="t5" tipo="modifica" />
 						<evento data="20000115" fonte="ra5" id="t6" tipo="modifica" />
+						<evento data="20020730" fonte="rp1" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1999-12-22;70" xlink:type="simple" />
@@ -28,6 +30,7 @@
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25" xlink:type="simple" />
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25" xlink:type="simple" />
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -104,6 +107,20 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25#art32-com2bis" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 32, comma 2-bis della legge Regione Toscana 18 maggio 1998, n. 25" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -172,14 +189,14 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art3">
+				<articolo finevigore="t7" id="art3-t7" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 3</num>
 					<rubrica>
 						(Interpretazione autentica dell'
 						<rif xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25#art30" xlink:type="simple">articolo 30 della Legge regionale 18 maggio 1998, n. 25</rif>
 						)
 					</rubrica>
-					<comma id="art3-com1">
+					<comma id="art3-t7-com1">
 						<num>1.</num>
 						<corpo>
 							La norma del
