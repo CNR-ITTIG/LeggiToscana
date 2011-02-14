@@ -1,22 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t2" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19730508" num="21" tipo="BURT" />
 					<entratainvigore norm="19730508" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1973-05-08;31" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1973-05-08;31" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1973-05-08;31@2002-04-02" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
-						<evento data="19730508" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19730508" fonte="" id="t1" tipo="entrata in vigore" />
+						<evento data="20020427" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1973-05-08;31" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1973-05-08;31" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11#ann1-art10-com126" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="Allegato, articolo 10, comma 126 della legge Regione Toscana 2 aprile 2002, n. 11" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -142,9 +161,307 @@
 				<annesso id="ann1">
 					<testata>
 						<denAnnesso>Allegato</denAnnesso>
-						<titAnnesso>QUADRO GENERALE RIASSUNTIVO DEL BILANCIO DELLA REGIONE TOSCANA PER L’ESERCIZIO FINANZIARIO 1973.</titAnnesso>
 					</testata>
-					<rifesterno xlink:href="urn:nir:regione.toscana:legge:1973-05-08;31:allegato;quadro.generale.riassuntivo.del.bilancio.della.regione.toscana.per.l’esercizio.finanziario.1973." xlink:type="simple" />
+					<DocumentoNIR nome="">
+						<meta>
+							<descrittori>
+								<pubblicazione norm="" num="" tipo="" />
+								<entratainvigore norm="" />
+								<redazione id="red2" nome="" norm="" />
+								<urn valore="urn:nir:regione.toscana:legge:1973-05-08;31:allegato" />
+							</descrittori>
+						</meta>
+						<intestazione>
+							<emanante>Regione Toscana</emanante>
+							<tipoDoc>Allegato</tipoDoc>
+							<dataDoc norm="19730508">8 maggio 1973</dataDoc>
+							<titoloDoc>Quadro generale riassuntivo del bilancio della Regione Toscana per l'esercizio finanziario 1973.</titoloDoc>
+						</intestazione>
+						<formulainiziale>
+							Allegato alla
+							<rif xlink:href="urn:nir:regione.toscana:legge:1973-05-08;31" xlink:type="simple">legge regionale 8 maggio 1973, n. 31</rif>
+							recante "Bilancio di previsione per l' anno finanziario 1973".
+						</formulainiziale>
+						<contenitore id="con1" nome="">
+							<h:p>ENTRATA</h:p>
+							<contenitore id="con2" nome="">
+								<h:p />
+								<h:table>
+									<h:tbody>
+										<h:tr>
+											<h:td>TITOLO I - ENTRATE TRIBUTARIE:</h:td>
+											<h:td />
+										</h:tr>
+										<h:tr>
+											<h:td>- imposte</h:td>
+											<h:td>L. 27.050.000</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>- tasse</h:td>
+											<h:td>L. 8.301.100.000</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>Totale entrate tributarie</h:td>
+											<h:td>L. 8.328.150.000</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td />
+											<h:td />
+										</h:tr>
+										<h:tr>
+											<h:td>TITOLO II - ENTRATE PER QUOTE TRIBUTI DELLO STATO DEVOLUTE ALLA REGIONE:</h:td>
+											<h:td />
+										</h:tr>
+										<h:tr>
+											<h:td>- gettito delle imposte erariali di competenza della Regione</h:td>
+											<h:td>L. 2.000.000.000</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>- partecipazione al gettito di imposte erariali</h:td>
+											<h:td>L. 39.443.980.083</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>Totale entrate per quote tributi dello Stato devolute alla Regione</h:td>
+											<h:td>L. 41.443.980.083</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td />
+											<h:td />
+										</h:tr>
+										<h:tr>
+											<h:td>TITOLO III - ENTRATE EXTRATRIBUTARIE:</h:td>
+											<h:td />
+										</h:tr>
+										<h:tr>
+											<h:td>- contributi</h:td>
+											<h:td>L. 10.300.000.000</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>- proventi, concorsi e rimborsi vari</h:td>
+											<h:td>L. 1.325.000.000</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>- proventi per trasgressioni</h:td>
+											<h:td>L. 150.000</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>- proventi dei beni della Regione</h:td>
+											<h:td>L. 2.010.000</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>- partite che si compensano nella spesa</h:td>
+											<h:td>L. 933.300.000</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>Totale entrate extratributarie</h:td>
+											<h:td>L. 12.560.460.000</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>Totale dei titoli I, II e III (entrata)</h:td>
+											<h:td>L. 62.332.590.083</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>La differenza tra la somma delle entrate tributarie, per quote di tributi dello Stato devolute alla Regione ed extratributarie e le spese correnti è di</h:td>
+											<h:td>L. 16.907.705.000.</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td />
+											<h:td />
+										</h:tr>
+										<h:tr>
+											<h:td>TITOLO IV - ALIENAZIONE ED AMMORTAMENTO DI BENI PATRIMONIALI, TRASFERIMENTO DI CAPITALI E RIMBORSO DI CREDITI:</h:td>
+											<h:td />
+										</h:tr>
+										<h:tr>
+											<h:td>- alienazione di beni patrimoniali</h:td>
+											<h:td>L. 3.100.000</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>- ammortamento di beni patrimoniali</h:td>
+											<h:td>L. 2.500.000</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>- trasferimento di capitali</h:td>
+											<h:td>L. 3.993.605.124</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>- rimborso di crediti</h:td>
+											<h:td>L. 100.000</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>Totale delle entrate per alienazione ed ammortamento di beni patrimoniali, trasferimento di capitali e rimborso di crediti</h:td>
+											<h:td>L. 3.999.305.124</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td />
+											<h:td />
+										</h:tr>
+										<h:tr>
+											<h:td>TITOLO V - ENTRATE PROVENIENTI DALL’ASSUNZIONE DI PRESTITI, DI ANTICIPAZIONI ED OGNI ALTRA OPERAZIONE DI CREDITO:</h:td>
+											<h:td />
+										</h:tr>
+										<h:tr>
+											<h:td>- accensione di prestiti</h:td>
+											<h:td>L. 40.000.000.000</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>- anticipazioni ed altre operazioni di credito a breve scadenza</h:td>
+											<h:td>L. 500.000.000</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>Totale entrate provenienti dall’assunzione di prestiti, di anticipazioni ed ogni altra operazione di credito</h:td>
+											<h:td>L. 40.500.000.000</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td />
+											<h:td />
+										</h:tr>
+										<h:tr>
+											<h:td>TITOLO VI - CONTABILITA' SPECIALI (ENTRATA):</h:td>
+											<h:td />
+										</h:tr>
+										<h:tr>
+											<h:td>- parte I - partite di giro</h:td>
+											<h:td>L. 1.410.564.000</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>- parte II - entrate degli stabilimenti speciali</h:td>
+											<h:td>L. 0</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>- parte III - entrate per l’esercizio delle funzioni delegate dallo Stato</h:td>
+											<h:td>L. 0</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>Totale delle contabilità speciali (entrata)</h:td>
+											<h:td>L. 1.410.564.000</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>Totale complessivo dell’entrata</h:td>
+											<h:td>L.108.242.459.207</h:td>
+										</h:tr>
+									</h:tbody>
+								</h:table>
+							</contenitore>
+							<h:p>SPESA</h:p>
+							<contenitore id="con3" nome="">
+								<h:p />
+								<h:table>
+									<h:tbody>
+										<h:tr>
+											<h:td>TITOLO I - SPESE CORRENTI PER LE SEZIONI:</h:td>
+											<h:td />
+										</h:tr>
+										<h:tr>
+											<h:td>I - amministrazione generale</h:td>
+											<h:td>L. 6.482.390.000</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>II - azione ed interventi nel campo dell’istruzione e cultura</h:td>
+											<h:td>L. 10.336.120.000</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>III - azione ed interventi nel campo sociale</h:td>
+											<h:td>L. 9.444.970.000</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>IV - azione ed interventi nel campo economico</h:td>
+											<h:td>L. 18.290.595.000</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>V - oneri non ripartibili</h:td>
+											<h:td>L. 870.810.083</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>Totale spese correnti</h:td>
+											<h:td>L. 45.424.885.083</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td />
+											<h:td />
+										</h:tr>
+										<h:tr>
+											<h:td>TITOLO II - SPESE IN CONTO CAPITALE PER LE SEZIONI:</h:td>
+											<h:td />
+										</h:tr>
+										<h:tr>
+											<h:td>I - amministrazione generale</h:td>
+											<h:td>L. 3.100.000</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>II - azione ed interventi nel campo dell’istruzione e cultura</h:td>
+											<h:td>L. 3.635.000.000</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>III - azione ed interventi in campo sociale</h:td>
+											<h:td>L. 3.500.000.000</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>IV - azione ed interventi in campo economico</h:td>
+											<h:td>L. 53.768.810.124</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>Totale spese in conto capitale</h:td>
+											<h:td>L. 60.906.910.124</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td />
+											<h:td />
+										</h:tr>
+										<h:tr>
+											<h:td>TITOLO III - SPESE PER RIMBORSO DI PRESTITI:</h:td>
+											<h:td />
+										</h:tr>
+										<h:tr>
+											<h:td>- estinzione di prestiti</h:td>
+											<h:td>L. 0</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>- estinzione di anticipazioni</h:td>
+											<h:td>L. 500.100.000</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>Totale spese per rimborso di prestiti</h:td>
+											<h:td>L. 500.100.000</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td />
+											<h:td />
+										</h:tr>
+										<h:tr>
+											<h:td>TITOLO IV - CONTABILITA' SPECIALI, (SPESE):</h:td>
+											<h:td />
+										</h:tr>
+										<h:tr>
+											<h:td>parte I - partite di giro</h:td>
+											<h:td>L. 1.410.564.000</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>parte II - stabilimenti speciali</h:td>
+											<h:td>L. 0</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>parte III - spese per l’esercizio delle funzioni delegate dallo Stato</h:td>
+											<h:td>L. 0</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>Totale delle contabilità speciali (spesa)</h:td>
+											<h:td>L. 1.410.564.000</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>Totale complessivo della spesa</h:td>
+											<h:td>L.108.242.459.207</h:td>
+										</h:tr>
+									</h:tbody>
+								</h:table>
+							</contenitore>
+							<contenitore id="con4" nome="">
+								<h:p>CAPITOLI DELLE ENTRATE E DELLA SPESA DEL BILANCIO DELLA REGIONE TOSCANA PER L’ESERCIZIO FINANZIARIO 1973.</h:p>
+							</contenitore>
+						</contenitore>
+						<formulafinale />
+						<conclusione />
+					</DocumentoNIR>
 				</annesso>
 			</annessi>
 		</LeggeRegionale>
