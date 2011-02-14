@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
+	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t3" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19720417" num="16" tipo="BURT" />
 					<entratainvigore norm="19720417" />
 					<redazione id="red1" nome="" norm="" />
-					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1972-04-13;5" />
+					<urn finevigore="t2" iniziovigore="" valore="urn:nir:regione.toscana:legge:1972-04-13;5" />
 					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1972-04-13;5@1973-04-07" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
-						<evento data="19720417" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="19720417" fonte="" id="t1" tipo="entrata in vigore" />
 						<evento data="19730428" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="20020427" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1972-04-13;5" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1973-04-07;22" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -29,6 +31,22 @@
 						</h:p>
 					</nota>
 				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1972-04-13;5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11#ann1-art10-com115" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="Allegato 1, articolo 10, comma 115 della legge Regione Toscana 2 aprile 2002, n. 11" id="" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -102,9 +120,57 @@
 				<annesso id="ann1">
 					<testata>
 						<denAnnesso>Allegato 1</denAnnesso>
-						<titAnnesso>Quadro generale riassuntivo del bilancio della Regione Toscana per l'esercizio finanziario 1972.</titAnnesso>
 					</testata>
-					<rifesterno xlink:href="urn:nir:regione.toscana:legge:1972-04-13; 5:allegato.1;quadro.generale.riassuntivo.del.bilancio.della.regione.toscana.per.l'esercizio.finanziario.1972." xlink:type="simple" />
+					<DocumentoNIR nome="">
+						<meta>
+							<descrittori>
+								<pubblicazione norm="" num="" tipo="" />
+								<entratainvigore norm="" />
+								<redazione id="red2" nome="" norm="" />
+								<urn valore="urn:nir:regione.toscana:legge:1972-04-13;5:allegato" />
+							</descrittori>
+						</meta>
+						<intestazione>
+							<emanante>Regione Toscana</emanante>
+							<tipoDoc>Allegato 1</tipoDoc>
+							<dataDoc norm="">13 aprile 1972</dataDoc>
+							<titoloDoc>Quadro generale riassuntivo del bilancio della Regione Toscana per l'esercizio finanziario 1972.</titoloDoc>
+						</intestazione>
+						<formulainiziale>
+							Allegato alla
+							<rif xlink:href="urn:nir:regione.toscana:legge:1972-04-13;5" xlink:type="simple">legge regionale 13 aprile 1972, n. 5</rif>
+							recante "Bilancio di previsione della Regione Toscana per l'esercizio finanziario 1972".
+						</formulainiziale>
+						<contenitore id="con1" nome="">
+							<h:p>
+								<h:b>Entrata.</h:b>
+							</h:p>
+							<h:p>Avanzo di amministrazione, totale L. 836.363.376.</h:p>
+							<h:p>Titolo I Entrate tributarie, totale L. 4.310.000.000.</h:p>
+							<h:p>Titolo II Entrate per compartecipazione a tributi erariali, totale L. 1.000.000.000.</h:p>
+							<h:p>Titolo III Entrate extratributarie, totale L. 4.082.559.000.</h:p>
+							<h:p>Totale dei titoli I, II e III, (entrata) L. 9.392.559.000.</h:p>
+							<h:p>La differenza tra la somma delle entrate tributarie, per compartecipazione a tributi erariali ed extratributarie e le spese correnti è di L. 3.023.595.624.</h:p>
+							<h:p>Titolo IV Entrate provenienti dall' alienazione e dall' ammortamento di beni patrimoniali, da trasferimento di capitali e dal rimborso di crediti, totale L. 5.600.000.</h:p>
+							<h:p>Titolo V Entrate provenienti dall' assunzione di prestiti, totale L. 500.000.000.</h:p>
+							<h:p>Totale dei titoli I, II, III, IV, V e dell' avanzo di amministrazione (entrata), L. 10.754.522.376.</h:p>
+							<h:p>Titolo VI Contabilità speciali (entrata), totale L. 446.000.000.</h:p>
+							<h:p>Totale generale dell' entrata, L. 11.180.522.376.</h:p>
+							<h:p />
+							<h:p>
+								<h:b>Spesa.</h:b>
+							</h:p>
+							<h:p>Disavanzo di amministrazione, totale L. 0.</h:p>
+							<h:p>Titolo I Spese correnti, totale L. 6.368.963.376.</h:p>
+							<h:p>Titolo II Spese in conto capitale, totale L. 3.865.559.000.</h:p>
+							<h:p>Titolo III Spese per il rimborso di prestiti, totale L. 500.000.000.</h:p>
+							<h:p>Totale dei titoli I, II e III (spesa) L. 10.734.522.376.</h:p>
+							<h:p>Titolo IV Contabilità speciali (spesa), totale L. 446.000.000.</h:p>
+							<h:p>Totale generale della spesa, L. 11.180.522.376.</h:p>
+						</contenitore>
+						<formulafinale />
+						<conclusione />
+					</DocumentoNIR>
 				</annesso>
 			</annessi>
 		</LeggeRegionale>
