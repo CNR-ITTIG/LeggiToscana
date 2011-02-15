@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t2" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19860514" num="23 supplemento ordinario N. 10" tipo="BURT" />
 					<entratainvigore norm="19860514" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1986-05-06;22" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1986-05-06;22" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1986-05-06;22@2002-04-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Bilancio" />
@@ -16,11 +17,29 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19860514" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20020427" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1986-05-06;22" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1986-05-06;22" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11#ann1-art10-com220" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="ALLEGATO, articolo 10, comma 220 della legge Regione Toscana 2 aprile 2002, n. 11" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -42,15 +61,15 @@
 					<rubrica>(Bilancio pluriennale)</rubrica>
 					<comma id="art1-com1">
 						<num />
-						<corpo>E' approvato il quadro generale riassuntivo dell'entrata e della spesa del bilancio pluriennale della Regione, per il periodo 1986/1988, annesso alla presente legge Sub A) 1).</corpo>
+						<corpo>È approvato il quadro generale riassuntivo dell'entrata e della spesa del bilancio pluriennale della Regione, per il periodo 1986/1988, annesso alla presente legge Sub A) 1).</corpo>
 					</comma>
 					<comma id="art1-com2">
 						<num />
-						<corpo>E' approvato in L. 11.983.138.990.087 lo stato di previsione dell'entrata della Regione per il periodo 1986/1988, annesso alla presente legge Sub A) 2).</corpo>
+						<corpo>È approvato in L. 11.983.138.990.087 lo stato di previsione dell'entrata della Regione per il periodo 1986/1988, annesso alla presente legge Sub A) 2).</corpo>
 					</comma>
 					<comma id="art1-com3">
 						<num />
-						<corpo>E' approvato in L. 11.983.138.990.087 lo stato di previsione della spesa della Regione, per il periodo 1986/1988, annesso alla presente legge Sub A) 3).</corpo>
+						<corpo>È approvato in L. 11.983.138.990.087 lo stato di previsione della spesa della Regione, per il periodo 1986/1988, annesso alla presente legge Sub A) 3).</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art2">
@@ -58,7 +77,7 @@
 					<rubrica>(Bilancio annuale. Quadro riassuntivo)</rubrica>
 					<comma id="art2-com1">
 						<num />
-						<corpo>E' approvato il quadro generale riassuntivo dell'entrata e della spesa del Bilancio di competenza e di cassa della Regione per l'anno finanziario 1986, annesso alla presente legge sub B) 1).</corpo>
+						<corpo>È approvato il quadro generale riassuntivo dell'entrata e della spesa del Bilancio di competenza e di cassa della Regione per l'anno finanziario 1986, annesso alla presente legge sub B) 1).</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art3">
@@ -66,11 +85,11 @@
 					<rubrica />
 					<comma id="art3-com1">
 						<num />
-						<corpo>E' approvato in L. 635.223.224.801 il conto dei residui attivi per l'anno finanziario 1986, annesso alla presente legge Sub B) 2), 1. a finca.</corpo>
+						<corpo>È approvato in L. 635.223.224.801 il conto dei residui attivi per l'anno finanziario 1986, annesso alla presente legge Sub B) 2), 1. a finca.</corpo>
 					</comma>
 					<comma id="art3-com2">
 						<num />
-						<corpo>E' approvato in L. 477.340.998.228 il conto dei residui passivi per l'anno finanziario 1986 annesso alla presente legge Sub B) 3), 1. a finca.</corpo>
+						<corpo>È approvato in L. 477.340.998.228 il conto dei residui passivi per l'anno finanziario 1986 annesso alla presente legge Sub B) 3), 1. a finca.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art4">
@@ -78,11 +97,11 @@
 					<rubrica>(Bilancio di competenza. Stati di Previsione della entrata e della spesa)</rubrica>
 					<comma id="art4-com1">
 						<num />
-						<corpo>E' approvato in L. 8.455.392.316.087 lo stato di previsione di competenza dell'entrata della Regione per l'anno finanziario 1986, annesso alla presente legge Sub B) 2), 2. a finca.</corpo>
+						<corpo>È approvato in L. 8.455.392.316.087 lo stato di previsione di competenza dell'entrata della Regione per l'anno finanziario 1986, annesso alla presente legge Sub B) 2), 2. a finca.</corpo>
 					</comma>
 					<comma id="art4-com2">
 						<num />
-						<corpo>E' autorizzata l'assunzione di impegni di spesa entro i limiti degli stanziamenti dello stato di previsione di cui al comma precedente.</corpo>
+						<corpo>È autorizzata l'assunzione di impegni di spesa entro i limiti degli stanziamenti dello stato di previsione di cui al comma precedente.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art5">
@@ -90,7 +109,7 @@
 					<rubrica>(Bilancio di cassa. Stati di previsione della entrata e della spesa)</rubrica>
 					<comma id="art5-com1">
 						<num />
-						<corpo>E' approvato in L. 8.641.469.087.596 lo stato di previsione di cassa dell'entrata della regione, per l'anno finanziario 1986, annesso alla presente legge Sub B) 2) E. a finca.</corpo>
+						<corpo>È approvato in L. 8.641.469.087.596 lo stato di previsione di cassa dell'entrata della regione, per l'anno finanziario 1986, annesso alla presente legge Sub B) 2) E. a finca.</corpo>
 					</comma>
 					<comma id="art5-com2">
 						<num />
@@ -98,11 +117,11 @@
 					</comma>
 					<comma id="art5-com3">
 						<num />
-						<corpo>E' approvato in L. 8.641.469.087.596 lo stato di previsione di cassa della spesa della Regione, per l'anno finanziario 1986, annesso alla presente legge Sub B) 3), 3. a finca.</corpo>
+						<corpo>È approvato in L. 8.641.469.087.596 lo stato di previsione di cassa della spesa della Regione, per l'anno finanziario 1986, annesso alla presente legge Sub B) 3), 3. a finca.</corpo>
 					</comma>
 					<comma id="art5-com4">
 						<num />
-						<corpo>E' autorizzato il pagamento della spesa entro i limiti degli stanziamenti dello stato di previsione di cui al comma precedente.</corpo>
+						<corpo>È autorizzato il pagamento della spesa entro i limiti degli stanziamenti dello stato di previsione di cui al comma precedente.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art6">
@@ -217,7 +236,7 @@
 					</comma>
 					<comma id="art9-com5">
 						<num />
-						<corpo>E' disposto che le rate di ammortamento relative agli anni seguenti al 1988 trovino copertura con le successive leggi di bilancio.</corpo>
+						<corpo>È disposto che le rate di ammortamento relative agli anni seguenti al 1988 trovino copertura con le successive leggi di bilancio.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art10">
@@ -246,7 +265,7 @@
 				</articolo>
 			</articolato>
 			<formulafinale>
-				La presente legge è pubblicata sul Bollettino ufficiale della Regione. E' fatto obbligo a chiunque spetti di osservarla e farla osservare come legge della Regione Toscana. La presente legge dichiarata urgente per gli effetti e con le modalità di cui al
+				La presente legge è pubblicata sul Bollettino ufficiale della Regione. È fatto obbligo a chiunque spetti di osservarla e farla osservare come legge della Regione Toscana. La presente legge dichiarata urgente per gli effetti e con le modalità di cui al
 				<rif xlink:href="urn:nir:stato:costituzione:1947-12-27#art127-com2" xlink:type="simple">secondo comma dell'art. 127 della Costituzione</rif>
 				e dell'
 				<rif xlink:href="urn:nir:regione.toscana:statuto:#art28" xlink:type="simple">art. 28 dello statuto</rif>
