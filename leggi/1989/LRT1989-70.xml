@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t3" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19891110" num="62" tipo="BURT" />
 					<entratainvigore norm="19891110" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1989-11-02;70" />
+					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1989-11-02;70" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1989-11-02;70@2002-04-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Bilancio" />
@@ -17,10 +18,12 @@
 					<eventi>
 						<evento data="19891110" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19891110" fonte="ra1" id="t2" tipo="modifica" />
+						<evento data="20020427" fonte="rp1" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1989-11-02;70" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1989-05-22;28" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -44,6 +47,20 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1989-11-02;70" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11#ann1-art10-com251" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="ALLEGATO, articolo 10, comma 251 della legge Regione Toscana 2 aprile 2002, n. 11" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -208,7 +225,7 @@
 											<num>1.</num>
 											<corpo>Agli effetti di cui ai commi successivi il disavanzo per l'esercizio 1989 è approvato in L. 192.436.843.544</corpo>
 										</comma>
-										<comma id="art4-com2">
+										<comma id="mod1-vir1-art1-com2">
 											<num>2.</num>
 											<corpo>
 												La Giunta Regionale è autorizzata ad estinguere anticipatamente mutui contratti con Istituti di credito a norma dell'
@@ -216,10 +233,10 @@
 												e successive modificazioni negli esercizi precedenti che, per le mutate condizioni del mercato finanziario, comportano oneri eccessivi a carico del bilancio regionale.
 											</corpo>
 										</comma>
-										<comma id="art4-com3">
+										<comma id="mod1-vir1-art1-com3">
 											<num>3.</num>
 											<alinea>La Giunta Regionale è autorizzata altresì a contrarre, nell'esercizio 1989 mutui e prestiti per i seguenti importi e per le finalità di seguito indicate:</alinea>
-											<ep id="art4-com3-pun1">
+											<ep id="mod1-vir1-art1-com3-pun1">
 												<num>-</num>
 												<corpo>
 													L. 192.436.843.544 per la copertura del disavanzo di cui al
@@ -227,44 +244,44 @@
 													per le finalità indicate nell'allegato II) 1);
 												</corpo>
 											</ep>
-											<ep id="art4-com3-pun2">
+											<ep id="mod1-vir1-art1-com3-pun2">
 												<num>-</num>
 												<corpo>
 													L. 45.000.000.000 quale importo massimo per la estinzione anticipata dei mutui di cui al
-													<rif xlink:href="#art4-com2" xlink:type="simple">secondo comma</rif>
+													<rif xlink:href="#mod1-vir1-art1-com2" xlink:type="simple">secondo comma</rif>
 													, comprensivo del debito residuo dei predetti mutui e degli oneri contrattualmente previsti per la risoluzione anticipata dei finanziamenti stessi.
 												</corpo>
 											</ep>
 										</comma>
-										<comma id="art4-com4">
+										<comma id="mod1-vir1-art1-com4">
 											<num>4.</num>
 											<corpo>
 												I mutui di cui al
-												<rif xlink:href="#art4-com3" xlink:type="simple">terzo comma</rif>
+												<rif xlink:href="#mod1-vir1-art1-com3" xlink:type="simple">terzo comma</rif>
 												, da estinguersi in un periodo non superiore a 15 anni, saranno contratti ad un tasso iniziale non superiore al 14,00% effettivo annuo e con rata di ammortamento decorrente dall'1/1/1990.
 											</corpo>
 										</comma>
-										<comma id="art4-com5">
+										<comma id="mod1-vir1-art1-com5">
 											<num>5.</num>
 											<corpo>In caso di eventuale maggiorazione della rata massima di ammortamento, determinata in L. 31.330.000.000, derivante, nel corso dell'ammortamento, della variabilità del tasso o dagli eventuali oneri conseguenti al rischio di cambio, saranno apportate le occorrenti variazioni ai bilanci annuale e pluriennale con le singole leggi di bilancio.</corpo>
 										</comma>
-										<comma id="art4-com6">
+										<comma id="mod1-vir1-art1-com6">
 											<num>6.</num>
 											<alinea>Le singole rate di ammortamento trovano copertura finanziaria nel modo seguente:</alinea>
-											<el id="art4-com6-leta">
+											<el id="mod1-vir1-art1-com6-leta">
 												<num>a)</num>
 												<corpo>
 													per quanto concerne gli oneri derivanti da nuovi mutui contratti per l'estinzione anticipata autorizzata ai sensi del
-													<rif xlink:href="#art4-com2" xlink:type="simple">secondo comma</rif>
+													<rif xlink:href="#mod1-vir1-art1-com2" xlink:type="simple">secondo comma</rif>
 													, mediante l'utilizzo degli stanziamenti iscritti per far fronte agli oneri conseguenti ai mutui di cui con il presente articolo viene autorizzata l'estinzione anticipata;
 												</corpo>
 											</el>
-											<el id="art4-com6-letb">
+											<el id="mod1-vir1-art1-com6-letb">
 												<num>b)</num>
 												<corpo>per quanto riguarda gli oneri derivanti per gli anni 1990 e 1991 dai mutui per la copertura del disavanzo per l'esercizio 1989, mediante gli appositi stanziamenti del bilancio pluriennale approvato dalla presente legge.</corpo>
 											</el>
 										</comma>
-										<comma id="art4-com7">
+										<comma id="mod1-vir1-art1-com7">
 											<num>7.</num>
 											<corpo>E' disposto che le rate di ammortamento relative agli anni seguenti al 1991 trovino copertura con le successive leggi di bilancio.</corpo>
 										</comma>

@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t3" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19900409" num="22 Suppl. Ord. 13" tipo="BURT" />
 					<entratainvigore norm="19900424" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1990-03-29;27" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1990-03-29;27@1990-08-07" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1990-03-29;27@1990-08-16" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1990-03-29;27@2002-04-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Bilancio" />
@@ -18,20 +19,22 @@
 					<eventi>
 						<evento data="19900424" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19900827" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="20020427" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1990-03-29;27" xlink:type="simple" />
-						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1990-08-07;62" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1990-08-16;64" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:sostituzione completa="si" implicita="no">
 							<dsp:pos xlink:href="#art9" xlink:type="simple" />
-							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1990-08-07;62" xlink:type="simple">
-								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1990-08-07;62#art6-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1990-08-16;64" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1990-08-16;64#art6-com1" xlink:type="simple" />
 								<dsp:subarg>
-									<ittig:notavigenza auto="articolo 6, comma 1 della legge Regione Toscana 7 agosto 1990, n. 62" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+									<ittig:notavigenza auto="articolo 6, comma 1 della legge Regione Toscana 16 agosto 1990, n. 64" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
@@ -41,6 +44,18 @@
 								<dsp:pos xlink:href="#art9-t2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1990-03-29;27" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11#ann1-art10-com258" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="ALLEGATO, articolo 10, comma 258 della legge Regione Toscana 2 aprile 2002, n. 11" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -270,10 +285,10 @@
 				</articolo>
 				<articolo id="art10" status="omissis">
 					<num>ARTICOLO 10</num>
-					<rubrica>omissis (Si veda nota finale)</rubrica>
+					<rubrica>[Si veda nota finale]</rubrica>
 					<comma id="art10-com1">
 						<num />
-						<corpo />
+						<corpo>omissis</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art11">
