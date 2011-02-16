@@ -8,7 +8,8 @@
 					<entratainvigore norm="19870219" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1987-01-26;5" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1987-01-26;5@1988-08-03" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1987-01-26;5@1988-08-03" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1987-01-26;5@2002-04-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organizzazioni" />
 						<materia valore="Organi" />
@@ -19,10 +20,12 @@
 					<eventi>
 						<evento data="19870219" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19880827" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="20020427" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1987-01-26;5" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1988-08-03;57" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -58,7 +61,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art7" xlink:type="simple" />
+							<dsp:pos xlink:href="#art7-t3" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-08-03;57" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-08-03;57#art2-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -66,7 +69,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art7" xlink:type="simple" />
+								<dsp:pos xlink:href="#art7-t3" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art7-t2" xlink:type="simple" />
@@ -102,6 +105,18 @@
 								<dsp:pos xlink:href="#h3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11#ann1-art13-com520" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 13, comma 520 della legge Regione Toscana 2 aprile 2002, n. 11" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art7-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -285,10 +300,10 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art7" iniziovigore="t2">
+				<articolo finevigore="t3" id="art7-t3" iniziovigore="t2" status="abrogato">
 					<num>ARTICOLO 7</num>
 					<rubrica>(Estensione della disciplina)</rubrica>
-					<comma id="art7-com1">
+					<comma id="art7-t3-com1">
 						<num />
 						<corpo>
 							Ai membri del Comitato Tecnico Scientifico di cui all'
