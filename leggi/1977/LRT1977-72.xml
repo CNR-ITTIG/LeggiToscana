@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t7" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19771028" num="58" tipo="BURT" />
@@ -11,7 +11,8 @@
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1977-10-18;72@1978-07-04" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1977-10-18;72@1981-08-01" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1977-10-18;72@1982-03-22" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1977-10-18;72@1984-10-29" />
+					<urn finevigore="t7" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1977-10-18;72@1984-10-29" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1977-10-18;72@2002-04-02" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -21,6 +22,7 @@
 						<evento data="19820414" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="19841122" fonte="rp4" id="t5" tipo="modifica" />
 						<evento data="19850404" fonte="rp5" id="t6" tipo="modifica" />
+						<evento data="20020427" fonte="rp6" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1977-10-18;72" xlink:type="simple" />
@@ -29,10 +31,11 @@
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1982-03-22;25" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1984-10-29;60" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1978-07-04;42" xlink:type="simple" />
+						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Si vedano inoltre i commi 4 e 5 dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1984-10-29;60#art8" xlink:type="simple">art. 8 della legge regionale 29 ottobre 1984, n. 60</rif>
@@ -468,6 +471,18 @@
 								<dsp:pos xlink:href="#art13-t6" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1977-10-18;72" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11#ann1-art13-com497" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 13, comma 497 della legge Regione Toscana 2 aprile 2002, n. 11" id="itt31" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -477,7 +492,7 @@
 				<dataDoc norm="19771018">18 ottobre 1977</dataDoc>
 				, n.
 				<numDoc>72</numDoc>
-				<titoloDoc>Istituzione dell’Ente Toscano di sviluppo agricolo forestale (ETSAF)</titoloDoc>
+				<titoloDoc>Istituzione dell'Ente Toscano di sviluppo agricolo forestale (ETSAF)</titoloDoc>
 			</intestazione>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 13-9-1977</h:p>
@@ -486,7 +501,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<articolo id="art1">
 						<num>ARTICOLO 1</num>
@@ -570,7 +585,7 @@
 									. Nell'esercizio delle funzioni in ordine al controllo fitosanitario all'importazione, all'esportazione ed al transito dei prodotti agricoli, l'ente deve altresì osservare le eventuali direttive impartite dal Governo ai sensi dell'
 									<rif xlink:href="urn:nir:presidente.repubblica:decreto:1977-07-24;616#art4" xlink:type="simple">art. 4 del DPR 24 luglio 1977, n. 616</rif>
 									e trasmesse dal Presidente della Giunta regionale
-									<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+									<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 									.
 								</corpo>
 							</el>
@@ -633,7 +648,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<articolo id="art3">
 						<num>ARTICOLO 3</num>
@@ -1273,7 +1288,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>TITOLO III</num>
 					<articolo id="art16">
 						<num>ARTICOLO 16</num>
@@ -1372,7 +1387,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit4">
+				<titolo id="LeggeRegionale1-tit4">
 					<num>TITOLO IV</num>
 					<articolo id="art19">
 						<num>ARTICOLO 19</num>
@@ -1479,7 +1494,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit5">
+				<titolo id="LeggeRegionale1-tit5">
 					<num>TITOLO V</num>
 					<rubrica>NORME FINALI E TRANSITORIE</rubrica>
 					<articolo id="art23">

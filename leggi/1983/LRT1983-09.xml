@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19830216" num="9" tipo="BURT" />
 					<entratainvigore norm="19830303" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1983-02-07;9" />
+					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1983-02-07;9" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1983-02-07;9@2002-04-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ordinamento" />
 						<materia valore="Credito" />
@@ -18,10 +19,12 @@
 					<eventi>
 						<evento data="19830303" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19830303" fonte="ra1" id="t2" tipo="modifica" />
+						<evento data="20020427" fonte="rp1" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1983-02-07;9" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1974-06-05;32" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -162,6 +165,44 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11#ann1-art13-com514" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 13, comma 514 della legge Regione Toscana 2 aprile 2002, n. 11" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art1-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11#ann1-art13-com514" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 13, comma 514 della legge Regione Toscana 2 aprile 2002, n. 11" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11#ann1-art13-com514" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 13, comma 514 della legge Regione Toscana 2 aprile 2002, n. 11" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -183,9 +224,9 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<articolo id="art1">
+				<articolo finevigore="t3" id="art1-t3" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 1</num>
-					<comma id="art1-com1">
+					<comma id="art1-t3-com1">
 						<num />
 						<corpo>
 							<mod id="mod1">
@@ -204,7 +245,7 @@
 							</mod>
 						</corpo>
 					</comma>
-					<comma id="art1-com2">
+					<comma id="art1-t3-com2">
 						<num />
 						<corpo>
 							<mod id="mod2">
@@ -247,9 +288,9 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art3">
+				<articolo finevigore="t3" id="art3-t3" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 3</num>
-					<comma id="art3-com1">
+					<comma id="art3-t3-com1">
 						<num />
 						<corpo>
 							<mod id="mod5">
@@ -388,17 +429,17 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art5">
+				<articolo finevigore="t3" id="art5-t3" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 5</num>
-					<comma id="art5-com1">
+					<comma id="art5-t3-com1">
 						<num />
 						<corpo>
 							Fino alla nomina da parte del Consiglio di Amministrazione della FIDI - TOSCANA SpA del Comitato Tecnico previsto dal
-							<rif xlink:href="#art3" xlink:type="simple">precedente articolo 3</rif>
+							<rif xlink:href="#art3-t3" xlink:type="simple">precedente articolo 3</rif>
 							, gli attuali Comitati Tecnici mantengono le loro funzioni.
 						</corpo>
 					</comma>
-					<comma id="art5-com2">
+					<comma id="art5-t3-com2">
 						<num />
 						<corpo>Tale nomina comunque dovrà essere effettuata non oltre 6 mesi dall'entrata in vigore della presente legge.</corpo>
 					</comma>

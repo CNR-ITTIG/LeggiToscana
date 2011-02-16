@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19791123" num="65" tipo="BURT" />
 					<entratainvigore norm="19791208" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1979-11-16;58" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1979-11-16;58" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1979-11-16;58@2002-04-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Ente Regione" />
@@ -16,11 +17,29 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19791208" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20020427" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1979-11-16;58" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11#ann1-art13-com505" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 13, comma 505 della legge Regione Toscana 2 aprile 2002, n. 11" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -60,7 +79,7 @@
 						<num />
 						<corpo>
 							Ai fini dell'attuazione della presente legge è autorizzata, per l'anno 1979, la spesa di Lire 30.000.000, cui è fatto fronte con lo stanziamento iscritto nel bilancio del corrente esercizio in apposito capitolo che viene istituito con la variazione di cui al
-							<rif xlink:href="#art3" xlink:type="simple">successivo articolo 3</rif>
+							<rif xlink:href="#art3-t2" xlink:type="simple">successivo articolo 3</rif>
 							.
 						</corpo>
 					</comma>
@@ -69,12 +88,12 @@
 						<corpo>La spesa per gli anni successivi è determinata con le singole leggi di bilancio.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art3">
+				<articolo finevigore="t2" id="art3-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 3</num>
-					<comma id="art3-com1">
+					<comma id="art3-t2-com1">
 						<num />
 						<alinea>Agli stati di previsione di Competenza e di Cassa della parte "Spesa" del bilancio del corrente esercizio sono apportate per analoghi importi, le seguenti modificazioni:</alinea>
-						<ep id="art3-com1-pun1">
+						<ep id="art3-t2-com1-pun1">
 							<num />
 							<corpo>
 								In diminuzione
@@ -89,7 +108,7 @@
 								</h:table>
 							</corpo>
 						</ep>
-						<ep id="art3-com1-pun2">
+						<ep id="art3-t2-com1-pun2">
 							<num />
 							<corpo>
 								Di nuova istituzione
