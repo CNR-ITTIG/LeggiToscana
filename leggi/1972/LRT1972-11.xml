@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t6" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19720616" num="22" tipo="BURT" />
@@ -11,7 +11,8 @@
 					<urn finevigore="t4" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1972-06-05;11@1973-10-30" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1972-06-05;11@1975-06-05" />
 					<urn finevigore="t3" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1972-06-05;11@1976-04-07" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1972-06-05;11@1976-06-16" />
+					<urn finevigore="t6" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1972-06-05;11@1976-06-16" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1972-06-05;11@2002-04-02" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -20,6 +21,7 @@
 						<evento data="19760710" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19750531" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="19760501" fonte="rp4" id="t5" tipo="modifica" />
+						<evento data="20020427" fonte="rp5" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1972-06-05;11" xlink:type="simple" />
@@ -27,10 +29,11 @@
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1976-06-16;29" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1975-06-05;39" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1976-04-07;15" xlink:type="simple" />
+						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Si veda anche la
 							<rif xlink:href="urn:nir:regione.toscana:legge:1975-06-05;39" xlink:type="simple">legge regionale 5 giugno 1975, n. 39</rif>
@@ -55,7 +58,7 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art4-com4" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1976-06-16;29" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1976-06-16;29#artunico-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -70,7 +73,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:integrazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art4-com4" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1976-06-16;29" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1976-06-16;29#artunico-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -81,6 +84,18 @@
 								<dsp:pos xlink:href="#art4-com6" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1972-06-05;11" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11#ann1-art14-com566" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 14, comma 566 della legge Regione Toscana 2 aprile 2002, n. 11" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -96,7 +111,7 @@
 					in materia di assistenza sanitaria e ospedaliera e con
 					<rif xlink:href="urn:nir:presidente.repubblica:decreto:1972-01-15;9" xlink:type="simple">DPR 15-1-1972, n. 9</rif>
 					in materia di beneficenza pubblica
-					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 					.
 				</titoloDoc>
 			</intestazione>
@@ -175,7 +190,7 @@
 							<corpo>nomina i presidenti e i membri di competenza della Regione negli organi amministrativi delle istituzioni pubbliche di assistenza e beneficenza e degli enti comunali di assistenza, nonchè delle istituzioni sanitarie.</corpo>
 						</el>
 					</comma>
-					<comma id="art2-com3">
+					<comma id="art2-com2">
 						<num />
 						<corpo>Spetta altresì al Consiglio l'emanazione di atti di carattere normativo.</corpo>
 					</comma>

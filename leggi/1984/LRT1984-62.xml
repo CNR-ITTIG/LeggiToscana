@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="iso-8859-15"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<Legge>
+		<Legge finevigore="t4" id="Legge1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19841121" num="57" tipo="BURT" />
 					<entratainvigore norm="19841206" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1984-11-12;62" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1984-11-12;62@1988-02-08" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1984-11-12;62@1988-02-08" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1984-11-12;62@2002-04-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Enti Sanitari" />
 						<materia valore="Organi" />
@@ -20,11 +21,13 @@
 						<evento data="19841206" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19841206" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="19880303" fonte="rp1" id="t3" tipo="modifica" />
+						<evento data="20020427" fonte="rp2" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1984-11-12;62" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1983-06-06;40" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1988-02-08;8" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -74,7 +77,7 @@
 					</modificheattive>
 					<modifichepassive>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-02-08;8" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-02-08;8#art1-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -83,6 +86,18 @@
 							</dsp:norma>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art2-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1984-11-12;62" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11#ann1-art14-com585" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 14, comma 585 della legge Regione Toscana 2 aprile 2002, n. 11" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#Legge1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>

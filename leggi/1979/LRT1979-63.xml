@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t8" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19791222" num="72" tipo="BURT" />
@@ -13,7 +13,8 @@
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1979-12-19;63@1983-06-06" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1979-12-19;63@1986-05-26" />
 					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1979-12-19;63@1990-03-31" />
-					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1979-12-19;63@1992-09-02" />
+					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1979-12-19;63@1992-09-02" />
+					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1979-12-19;63@2002-04-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="ORDINAMENTO" />
 						<materia valore="ENTI SANITARI" />
@@ -28,6 +29,7 @@
 						<evento data="19860619" fonte="rp4" id="t5" tipo="modifica" />
 						<evento data="19900424" fonte="rp5" id="t6" tipo="modifica" />
 						<evento data="19920926" fonte="rp6" id="t7" tipo="modifica" />
+						<evento data="20020427" fonte="rp7" id="t8" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1979-12-19;63" xlink:type="simple" />
@@ -37,24 +39,25 @@
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1986-05-26;26" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1990-03-31;29" xlink:type="simple" />
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:1992-09-02;42" xlink:type="simple" />
+						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Si veda poi la
 							<rif xlink:href="urn:nir:regione.toscana:legge:1983-05-10;25" xlink:type="simple">legge regionale 10 maggio 1983, n. 25</rif>
 							.
 						</h:p>
 					</nota>
-					<nota id="n2">
+					<nota id="LeggeRegionale1-n2">
 						<h:p>
 							Relativamente a tale organo si vedala
 							<rif xlink:href="urn:nir:regione.toscana:legge:1983-06-06;40" xlink:type="simple">legge regionale 6 giugno 1983, n. 40</rif>
 							.
 						</h:p>
 					</nota>
-					<nota id="n3">
+					<nota id="LeggeRegionale1-n3">
 						<h:p>
 							Si veda poi la
 							<rif xlink:href="urn:nir:regione.toscana:legge:1983-05-10;25" xlink:type="simple">legge regionale 10 maggio 1983, n. 25</rif>
@@ -268,7 +271,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#tit6-t6" xlink:type="simple" />
+								<dsp:pos xlink:href="#LeggeRegionale1-tit6-t6" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:abrogazione completa="si" implicita="no">
@@ -496,7 +499,19 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#tit7-t7" xlink:type="simple" />
+								<dsp:pos xlink:href="#LeggeRegionale1-tit7-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1979-12-19;63" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11#ann1-art14-com576" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 14, comma 576 della legge Regione Toscana 2 aprile 2002, n. 11" id="itt35" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>
@@ -521,7 +536,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>NORME GENERALI</rubrica>
 					<articolo id="art1">
@@ -563,7 +578,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>PIANO SANITARIO REGIONALE</rubrica>
 					<articolo id="art3">
@@ -635,7 +650,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>TITOLO III</num>
 					<rubrica>UNITA' SANITARIA LOCALE</rubrica>
 					<articolo id="art6">
@@ -905,7 +920,7 @@
 									organismi di partecipazione con funzioni propositive e consultive composti dai rappresentanti delle forze sindacali, professionali, culturali e sociali operanti nell'unità sanitaria locale, nonchè dai rappresentanti degli interessi originari definiti ai sensi della
 									<rif xlink:href="urn:nir:stato:legge:1968-02-12;132" xlink:type="simple">legge 12 febbraio 1968, n. 132</rif>
 									;
-									<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+									<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 								</corpo>
 							</el>
 							<el id="art11-com1-letb">
@@ -940,7 +955,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit4">
+				<titolo id="LeggeRegionale1-tit4">
 					<num>TITOLO IV</num>
 					<rubrica>ORGANI DI GESTIONE</rubrica>
 					<articolo finevigore="t5" id="art12-t5" iniziovigore="t1" status="abrogato">
@@ -965,7 +980,7 @@
 								<num>3)</num>
 								<corpo>
 									il Collegio dei Revisori
-									<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+									<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(b)</ndr>
 									.
 								</corpo>
 							</en>
@@ -1092,7 +1107,7 @@
 					<articolo finevigore="t5" id="art15-t5" iniziovigore="t1" status="abrogato">
 						<num>
 							ARTICOLO 15
-							<ndr num="#n3" valore="" xlink:type="simple">(c)</ndr>
+							<ndr num="#LeggeRegionale1-n3" valore="" xlink:type="simple">(c)</ndr>
 						</num>
 						<rubrica>(Comitato di gestione)</rubrica>
 						<comma id="art15-t5-com1">
@@ -1241,7 +1256,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit5">
+				<titolo id="LeggeRegionale1-tit5">
 					<num>TITOLO V</num>
 					<rubrica>DEI CONTROLLI</rubrica>
 					<articolo id="art23">
@@ -1370,7 +1385,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo finevigore="t6" id="tit6-t6" iniziovigore="t1" status="abrogato">
+				<titolo finevigore="t6" id="LeggeRegionale1-tit6-t6" iniziovigore="t1" status="abrogato">
 					<num>TITOLO VI</num>
 					<rubrica>NORME TRANSITORIE</rubrica>
 					<articolo id="art27">
@@ -1430,7 +1445,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo finevigore="t7" id="tit7-t7" iniziovigore="t1" status="abrogato">
+				<titolo finevigore="t7" id="LeggeRegionale1-tit7-t7" iniziovigore="t1" status="abrogato">
 					<num>TITOLO VII</num>
 					<rubrica>Norme finali di coordinamento per l'esercizio di funzioni in materia di assistenza sociale</rubrica>
 					<articolo id="art29">
@@ -1460,7 +1475,7 @@
 							<num />
 							<corpo>
 								Ai fini dell'integrazione con i servizi sanitari, la gestione dei servizi sociali è effettuata dagli organi di cui al
-								<rif xlink:href="#tit4" xlink:type="simple">Titolo IV</rif>
+								<rif xlink:href="#LeggeRegionale1-tit4" xlink:type="simple">Titolo IV</rif>
 								della presente legge.
 							</corpo>
 						</comma>
