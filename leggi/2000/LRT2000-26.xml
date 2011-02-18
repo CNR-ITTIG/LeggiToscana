@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t19" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2000-03-17;26" />
 					<urn finevigore="t20" iniziovigore="t19" valore="urn:nir:regione.toscana:legge:2000-03-17;26@2000-07-11" />
-					<urn finevigore="t21" iniziovigore="t20" valore="urn:nir:regione.toscana:legge:2000-03-17;26@2001-04-18" />
+					<urn finevigore="t22" iniziovigore="t20" valore="urn:nir:regione.toscana:legge:2000-03-17;26@2001-04-18" />
+					<urn finevigore="t21" iniziovigore="t22" valore="urn:nir:regione.toscana:legge:2000-03-17;26@2002-04-02" />
 					<urn iniziovigore="t21" valore="urn:nir:regione.toscana:legge:2000-03-17;26@2002-05-10" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
@@ -39,6 +40,7 @@
 						<evento data="20000717" fonte="rp1" id="t19" tipo="modifica" />
 						<evento data="20010512" fonte="rp2" id="t20" tipo="modifica" />
 						<evento data="20020531" fonte="rp3" id="t21" tipo="modifica" />
+						<evento data="20020427" fonte="rp4" id="t22" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2000-03-17;26" xlink:type="simple" />
@@ -62,6 +64,7 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-07-11;61" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2001-04-18;16" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2002-05-10;15" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -743,6 +746,18 @@
 								<dsp:pos xlink:href="#art13-com4-t21" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art69" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11#ann1-art13-com565" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="TABELLA A, articolo 13, comma 565 della legge Regione Toscana 2 aprile 2002, n. 11" id="itt34" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art69-t22" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -4135,10 +4150,10 @@
 							</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art69">
+					<articolo finevigore="t22" id="art69-t22" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 69</num>
 						<rubrica>(Disposizioni transitorie)</rubrica>
-						<comma id="art69-com1">
+						<comma id="art69-t22-com1">
 							<num>1.</num>
 							<corpo>
 								Le disposizioni contenute nel
@@ -4146,7 +4161,7 @@
 								si applicano anche alle selezioni non concluse alla data dell'entrata in vigore della presente legge compatibilmente con il contenuto dei bandi e con lo stato di svolgimento delle procedure concorsuali.
 							</corpo>
 						</comma>
-						<comma id="art69-com2">
+						<comma id="art69-t22-com2">
 							<num>2.</num>
 							<corpo>La validità delle graduatorie scadute nel corso del 1999 è prorogata di un anno.</corpo>
 						</comma>
