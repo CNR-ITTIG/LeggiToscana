@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19950821" num="53" tipo="BURT" />
 					<entratainvigore norm="19950905" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1995-08-11;87" />
+					<urn finevigore="t6" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1995-08-11;87" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1995-08-11;87@2002-04-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Credito" />
 					</materie>
@@ -19,6 +20,7 @@
 						<evento data="19950905" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="19950905" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="19950905" fonte="ra4" id="t5" tipo="modifica" />
+						<evento data="20020427" fonte="rp1" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-08-11;87" xlink:type="simple" />
@@ -26,6 +28,7 @@
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1993-04-26;27" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1993-04-26;27" xlink:type="simple" />
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1993-04-26;27" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -85,6 +88,20 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11#ann1-art13-com542" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 13, comma 542 della legge Regione Toscana 2 aprile 2002, n. 11" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art1-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -114,9 +131,9 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<articolo id="art1">
+				<articolo finevigore="t6" id="art1-t6" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 1</num>
-					<comma id="art1-com1">
+					<comma id="art1-t6-com1">
 						<num>1.</num>
 						<corpo>
 							Il fondo speciale rischi costituito dalla Fidi Toscana SpA per effetto delle disposizioni di cui all'
@@ -132,7 +149,7 @@
 							, istitutiva della Fidi Toscana SpA.
 						</corpo>
 					</comma>
-					<comma id="art1-com2">
+					<comma id="art1-t6-com2">
 						<num>2.</num>
 						<corpo>
 							<mod id="mod1">

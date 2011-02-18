@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t4" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19930331" num="18" tipo="BURT" />
@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1993-03-22;15" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1993-03-22;15@1994-01-19" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1993-03-22;15@1995-04-18" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1993-03-22;15@1995-04-18" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1993-03-22;15@2002-04-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organizzazioni Pubbliche" />
 						<materia valore="Ordinamento" />
@@ -21,15 +22,17 @@
 						<evento data="19930415" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19940126" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19950513" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="20020427" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1993-03-22;15" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1994-01-19;8" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1995-04-18;72" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Termine prorogato per un periodo non superiore ai 3 mesi dalla data di entrata in vigore della
 							<rif xlink:href="urn:nir:regione.toscana:legge:1994-01-19;8" xlink:type="simple">legge regionale 19 gennaio 1994, n. 8</rif>
@@ -78,6 +81,18 @@
 								<dsp:pos xlink:href="#art10-com2bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1993-03-22;15" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11#ann1-art13-com534" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 13, comma 534 della legge Regione Toscana 2 aprile 2002, n. 11" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -185,7 +200,7 @@
 						<num>2.</num>
 						<corpo>
 							L'amministratore straordinario ha il compito di predisporre, entro 6 mesi dalla nomina
-							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 							, il piano di liquidazione dell'Ente, da approvare con deliberazione del Consiglio regionale.
 						</corpo>
 					</comma>
