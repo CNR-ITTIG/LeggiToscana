@@ -10,7 +10,8 @@
 					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2001-01-26;3" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2001-01-26;3@2001-04-18" />
 					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2001-01-26;3@2001-08-16" />
-					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:2001-01-26;3@2002-07-05" />
+					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:2001-01-26;3@2002-07-05" />
+					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:2001-01-26;3@2002-07-26" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Bilancio" />
@@ -25,6 +26,7 @@
 						<evento data="20010427" fonte="rp1" id="t5" tipo="modifica" />
 						<evento data="20010827" fonte="rp2" id="t6" tipo="modifica" />
 						<evento data="20020730" fonte="rp3" id="t7" tipo="modifica" />
+						<evento data="20030902" fonte="rp4" id="t8" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2001-01-26;3" xlink:type="simple" />
@@ -34,8 +36,18 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2001-04-18;17" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2001-08-16;42" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2002-07-05;25" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Articolo abrogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32#art33-com1-letn" xlink:type="simple">art. 33, comma 1 lettera n), della legge regionale 26 luglio 2002, n. 32</rif>
+							, con decorrenza fissata alla data di entrata in vigore del regolamento previsto dall'art. 32 della stessa legge abrogante. Detto regolamento, approvato con D.P.G.R. 8 agosto 2003, n. 47/R, è stato pubblicato su BURT n. 37 del 18 agosto 2003.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:abrogazione completa="si" implicita="no">
@@ -121,6 +133,18 @@
 								<dsp:pos xlink:href="#art13bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art11" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32#art33-com1-letn" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 33, comma 1, lettera n) della legge Regione Toscana 26 luglio 2002, n. 32" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art11-t8" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -385,10 +409,13 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art11">
-					<num>ARTICOLO 11</num>
+				<articolo finevigore="t8" id="art11-t8" iniziovigore="t1" status="abrogato">
+					<num>
+						ARTICOLO 11
+						<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					</num>
 					<rubrica>(Benefici per il personale delle Aziende Regionali per il diritto allo studio universitario)</rubrica>
-					<comma id="art11-com1">
+					<comma id="art11-t8-com1">
 						<num>1.</num>
 						<corpo>
 							<mod id="mod3">

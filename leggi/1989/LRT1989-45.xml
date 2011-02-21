@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t12" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19890726" num="42" tipo="BURT" />
@@ -10,7 +10,8 @@
 					<urn finevigore="t8" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1989-07-17;45" />
 					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1989-07-17;45@1997-10-29" />
 					<urn finevigore="t11" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1989-07-17;45@1998-08-06" />
-					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1989-07-17;45@1998-11-26" />
+					<urn finevigore="t12" iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1989-07-17;45@1998-11-26" />
+					<urn iniziovigore="t12" valore="urn:nir:regione.toscana:legge:1989-07-17;45@2002-07-26" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Lavoro" />
 						<materia valore="Formazione" />
@@ -29,6 +30,7 @@
 						<evento data="19980829" fonte="rp2" id="t9" tipo="modifica" />
 						<evento data="19980829" fonte="rp3" id="t10" tipo="modifica" />
 						<evento data="19981219" fonte="rp4" id="t11" tipo="modifica" />
+						<evento data="20030902" fonte="rp5" id="t12" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1989-07-17;45" xlink:type="simple" />
@@ -42,17 +44,25 @@
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1998-08-06;52" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1998-08-06;52" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1998-11-26;85" xlink:type="simple" />
+						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
+						<h:p>
+							Testo di legge abrogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32#art33-com1-letb" xlink:type="simple">art. 33, comma 1 lettera b), della legge regionale 26 luglio 2002, n. 32</rif>
+							, con decorrenza fissata alla data di entrata in vigore del regolamento previsto dall'art. 32 della stessa legge abrogante. Detto regolamento, approvato con D.P.G.R. 8 agosto 2003, n. 47/R, è stato pubblicato su BURT n. 37 del 18 agosto 2003.
+						</h:p>
+					</nota>
+					<nota id="LeggeRegionale1-n2">
 						<h:p>
 							Articolo abrogato dall'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1998-08-06;52#art18" xlink:type="simple">art. 18 della legge regionale 6 agosto 1998, n. 52</rif>
 							, a decorrere dalla data di efficacia del primo piano regionale di cui all'articolo 10 della suddetta legge.
 						</h:p>
 					</nota>
-					<nota id="n2">
+					<nota id="LeggeRegionale1-n3">
 						<h:p>
 							Articolo abrogato dall'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1998-08-06;52#art18" xlink:type="simple">art. 18 della legge regionale 6 agosto 1998, n. 52</rif>
@@ -202,6 +212,18 @@
 								<dsp:pos xlink:href="#art8-com3-t11" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1989-07-17;45" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32#art33-com1-letb" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 33, comma 1, lettera b) della legge Regione Toscana 26 luglio 2002, n. 32" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -211,7 +233,10 @@
 				<dataDoc norm="19890717">17 luglio 1989</dataDoc>
 				, n.
 				<numDoc>45</numDoc>
-				<titoloDoc>Norme per l'esercizio di funzioni in materia di orientamento professionale.</titoloDoc>
+				<titoloDoc>
+					Norme per l'esercizio di funzioni in materia di orientamento professionale.
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
+				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 6-6-1989</h:p>
@@ -220,7 +245,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>ATTIVITÀ DI ORIENTAMENTO</rubrica>
 					<articolo id="art1">
@@ -268,7 +293,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>PROGRAMMAZIONE DELLE ATTIVITA' DI ORIENTAMENTO</rubrica>
 					<articolo finevigore="t8" id="art3-t8" iniziovigore="t1" status="abrogato">
@@ -424,7 +449,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>TITOLO III</num>
 					<rubrica>ESERCIZIO DELLE FUNZIONI IN MATERIA DI ORIENTAMENTO PROFESSIONALE</rubrica>
 					<articolo id="art5">
@@ -480,7 +505,7 @@
 					<articolo id="art6">
 						<num>
 							ARTICOLO 6
-							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(b)</ndr>
 						</num>
 						<rubrica>(Strutture territoriali per l'orientamento. Attività)</rubrica>
 						<comma id="art6-com1">
@@ -533,7 +558,7 @@
 					<articolo id="art7">
 						<num>
 							ARTICOLO 7
-							<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+							<ndr num="#LeggeRegionale1-n3" valore="" xlink:type="simple">(c)</ndr>
 						</num>
 						<rubrica>(Strutture territoriali per l'orientamento aperte al pubblico. Organizzazione)</rubrica>
 						<comma id="art7-com1">

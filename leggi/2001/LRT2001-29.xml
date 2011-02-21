@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t16" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20010713" num="22" tipo="BURT" />
 					<entratainvigore norm="20010728" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2001-07-04;29" />
+					<urn finevigore="t16" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2001-07-04;29" />
+					<urn iniziovigore="t16" valore="urn:nir:regione.toscana:legge:2001-07-04;29@2002-07-26" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -26,6 +27,7 @@
 						<evento data="20010728" fonte="ra12" id="t13" tipo="modifica" />
 						<evento data="20010728" fonte="ra13" id="t14" tipo="modifica" />
 						<evento data="20010728" fonte="ra14" id="t15" tipo="modifica" />
+						<evento data="20030902" fonte="rp1" id="t16" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2001-07-04;29" xlink:type="simple" />
@@ -43,8 +45,18 @@
 						<attiva id="ra12" xlink:href="urn:nir:regione.toscana:legge:1998-08-06;52" xlink:type="simple" />
 						<attiva id="ra13" xlink:href="urn:nir:regione.toscana:legge:1998-08-06;52" xlink:type="simple" />
 						<attiva id="ra14" xlink:href="urn:nir:regione.toscana:legge:1998-08-06;52" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="LeggeRegionale1-n1">
+						<h:p>
+							Testo di legge abrogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32#art33-com1-leto" xlink:type="simple">art. 33, comma 1 lettera o), della legge regionale 26 luglio 2002, n. 32</rif>
+							, con decorrenza fissata alla data di entrata in vigore del regolamento previsto dall'art. 32 della stessa legge abrogante. Detto regolamento, approvato con D.P.G.R. 8 agosto 2003, n. 47/R, è stato pubblicato su BURT n. 37 del 18 agosto 2003.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -298,6 +310,20 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:2001-07-04;29" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32#art33-com1-leto" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 33, comma 1, lettera o) della legge Regione Toscana 26 luglio 2002, n. 32" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -310,6 +336,7 @@
 					Modifiche alla
 					<rif xlink:href="urn:nir:regione.toscana:legge:1998-08-06;52" xlink:type="simple">legge regionale 6 agosto 1998, n. 52</rif>
 					(Norme in materia di politiche del lavoro e di servizi per l'impiego). Soppressione dell'Ente Toscana Lavoro.
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 				</titoloDoc>
 			</intestazione>
 			<formulainiziale>

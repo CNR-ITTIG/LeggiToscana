@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t8" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19940907" num="60" tipo="BURT" />
@@ -11,7 +11,8 @@
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1994-08-31;70@1996-07-31" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1994-08-31;70@1997-10-29" />
 					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1994-08-31;70@1998-10-26" />
-					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1994-08-31;70@1998-11-26" />
+					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1994-08-31;70@1998-11-26" />
+					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1994-08-31;70@2002-07-26" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Formazione" />
 					</materie>
@@ -25,6 +26,7 @@
 						<evento data="19971120" fonte="rp2" id="t5" tipo="modifica" />
 						<evento data="19981120" fonte="rp3" id="t6" tipo="modifica" />
 						<evento data="19981219" fonte="rp4" id="t7" tipo="modifica" />
+						<evento data="20030902" fonte="rp5" id="t8" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-08-31;70" xlink:type="simple" />
@@ -34,8 +36,18 @@
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1997-10-29;78" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1998-10-26;74" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1998-11-26;85" xlink:type="simple" />
+						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="LeggeRegionale1-n1">
+						<h:p>
+							Testo di legge abrogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32#art33-com1-letd" xlink:type="simple">art. 33, comma 1 lettera d), della legge regionale 26 luglio 2002, n. 32</rif>
+							, con decorrenza fissata alla data di entrata in vigore del regolamento previsto dall'art. 32 della stessa legge abrogante. Detto regolamento, approvato con D.P.G.R. 8 agosto 2003, n. 47/R, è stato pubblicato su BURT n. 37 del 18 agosto 2003.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:abrogazione completa="si" implicita="no">
@@ -427,6 +439,18 @@
 								<dsp:pos xlink:href="#art19-com1-t7" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1994-08-31;70" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32#art33-com1-letd" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 33, comma 1, lettera d) della legge Regione Toscana 26 luglio 2002, n. 32" id="itt27" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -436,7 +460,10 @@
 				<dataDoc norm="19940831">31 agosto 1994</dataDoc>
 				, n.
 				<numDoc>70</numDoc>
-				<titoloDoc>Nuova disciplina in materia di formazione professionale.</titoloDoc>
+				<titoloDoc>
+					Nuova disciplina in materia di formazione professionale.
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
+				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 25-7-1994</h:p>
@@ -445,7 +472,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>NORME GENERALI</rubrica>
 					<articolo id="art1">
@@ -652,7 +679,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>NORME PER LA QUALIFICAZIONE E LO SVOLGIMENTO DELLE ATTIVITÀ FORMATIVE</rubrica>
 					<articolo id="art8">
@@ -1208,7 +1235,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>TITOLO III</num>
 					<rubrica>PROGRAMMAZIONE DEGLI INTERVENTI DI FORMAZIONE PROFESSIONALE</rubrica>
 					<articolo id="art14">
@@ -1585,7 +1612,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit4">
+				<titolo id="LeggeRegionale1-tit4">
 					<num>TITOLO IV</num>
 					<rubrica>ATTUAZIONE DEL PROGRAMMA ANNUALE, COMPETENZE DELLA REGIONE E DELLE PROVINCE, CONTROLLI</rubrica>
 					<articolo id="art18">
@@ -1830,7 +1857,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit5">
+				<titolo id="LeggeRegionale1-tit5">
 					<num>TITOLO V</num>
 					<rubrica>DISPOSIZIONI FINALI E TRANSITORIE</rubrica>
 					<articolo id="art21">

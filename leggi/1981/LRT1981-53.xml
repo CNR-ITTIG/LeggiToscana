@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t6" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19810626" num="37" tipo="BURT" />
@@ -11,7 +11,8 @@
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1981-06-19;53@1989-06-14" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1981-06-19;53@1993-06-23" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1981-06-19;53@1996-01-25" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1981-06-19;53@1998-11-26" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1981-06-19;53@1998-11-26" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1981-06-19;53@2002-07-26" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sistema educativo" />
 					</materie>
@@ -23,6 +24,7 @@
 						<evento data="19930716" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19960220" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="19981219" fonte="rp4" id="t5" tipo="modifica" />
+						<evento data="20030902" fonte="rp5" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1981-06-19;53" xlink:type="simple" />
@@ -30,20 +32,27 @@
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1993-06-23;41" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1996-01-25;6" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1998-11-26;85" xlink:type="simple" />
+						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
-						<h:p>La presente legge entra in vigore con l'inizio dell'anno scolastico 1981/82.</h:p>
+					<nota id="LeggeRegionale1-n1">
+						<h:p>
+							La presente legge, entrata in vigore con l'inizio dell'anno scolastico 1981/82, è stata abrogata dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32#art33-com1-leta" xlink:type="simple">art. 33, comma 1 lettera a), della legge regionale 26 luglio 2002, n. 32</rif>
+							, con decorrenza fissata alla data di entrata in vigore del regolamento previsto dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32#art32" xlink:type="simple">art. 32</rif>
+							della stessa legge abrogante. Detto regolamento, approvato con D.P.G.R. 8 agosto 2003, n. 47/R, è stato pubblicato su BURT n. 37 del 18 agosto 2003.
+						</h:p>
 					</nota>
-					<nota id="n2">
+					<nota id="LeggeRegionale1-n2">
 						<h:p>
 							Termine prorogato limitatamente all'anno 1982 al 30 aprile ai sensi della
 							<rif xlink:href="urn:nir:regione.toscana:legge:1982-02-01;10" xlink:type="simple">legge regionale 1 febbraio 1982, n. 10</rif>
 							.
 						</h:p>
 					</nota>
-					<nota id="n3">
+					<nota id="LeggeRegionale1-n3">
 						<h:p>
 							Termine ulteriormente prorogato limitatamente all'anno 1982 al 30 giugno ai sensi della
 							<rif xlink:href="urn:nir:regione.toscana:legge:1982-06-21;49" xlink:type="simple">legge regionale 21 giugno 1982 , n. 49</rif>
@@ -380,6 +389,18 @@
 								<dsp:pos xlink:href="#art15-t5" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1981-06-19;53" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32#art33-com1-leta" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 33, comma 1, lettera a) della legge Regione Toscana 26 luglio 2002, n. 32" id="itt25" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -391,7 +412,7 @@
 				<numDoc>53</numDoc>
 				<titoloDoc>
 					Interventi per il diritto allo studio.
-					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
@@ -694,8 +715,8 @@
 						<num />
 						<corpo>
 							I Consigli scolastici distrettuali, con riferimento ai rispettivi territori, elaborano ogni anno entro il mese di marzo
-							<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
-							<ndr num="#n3" valore="" xlink:type="simple">(c)</ndr>
+							<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(b)</ndr>
+							<ndr num="#LeggeRegionale1-n3" valore="" xlink:type="simple">(c)</ndr>
 							ed ai sensi dell'
 							<rif xlink:href="urn:nir:presidente.repubblica:decreto:1974-05-31;416#art12" xlink:type="simple">art. 12 del DPR 31 maggio 1974, n. 416</rif>
 							, il programma generale di intervento per l'anno scolastico successivo.

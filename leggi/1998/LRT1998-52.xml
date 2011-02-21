@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t11" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19980814" num="30" tipo="BURT" />
@@ -11,7 +11,8 @@
 					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1998-08-06;52@2000-02-03" />
 					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1998-08-06;52@2001-07-04" />
 					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1998-08-06;52@2001-11-14" />
-					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1998-08-06;52@2001-12-21" />
+					<urn finevigore="t11" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1998-08-06;52@2001-12-21" />
+					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1998-08-06;52@2002-07-26" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sistema Educativo" />
 						<materia valore="Lavoro" />
@@ -29,6 +30,7 @@
 						<evento data="20010728" fonte="rp2" id="t8" tipo="modifica" />
 						<evento data="20011206" fonte="rp3" id="t9" tipo="modifica" />
 						<evento data="20020115" fonte="rp4" id="t10" tipo="modifica" />
+						<evento data="20030902" fonte="rp5" id="t11" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-08-06;52" xlink:type="simple" />
@@ -41,8 +43,18 @@
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2001-07-04;29" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2001-11-14;56" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2001-12-21;62" xlink:type="simple" />
+						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="LeggeRegionale1-n1">
+						<h:p>
+							Testo di legge abrogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32#art33-com1-leth" xlink:type="simple">art. 33, comma 1 lettera h), della legge regionale 26 luglio 2002, n. 32</rif>
+							, con decorrenza fissata alla data di entrata in vigore del regolamento previsto dall'art. 32 della stessa legge abrogante. Detto regolamento, approvato con D.P.G.R. 8 agosto 2003, n. 47/R, è stato pubblicato su BURT n. 37 del 18 agosto 2003.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:variazione completa="si" implicita="no">
@@ -366,6 +378,18 @@
 								<dsp:pos xlink:href="#art7-com4ter" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1998-08-06;52" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32#art33-com1-leth" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 33, comma 1, lettera h) della legge Regione Toscana 26 luglio 2002, n. 32" id="itt23" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -375,7 +399,10 @@
 				<dataDoc norm="19980806">6 agosto 1998</dataDoc>
 				, n.
 				<numDoc>52</numDoc>
-				<titoloDoc>Norme in materia di politiche del lavoro e di servizi per l'impiego.</titoloDoc>
+				<titoloDoc>
+					Norme in materia di politiche del lavoro e di servizi per l'impiego.
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
+				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 1-7-1998</h:p>
@@ -384,7 +411,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>PRINCIPI GENERALI</rubrica>
 					<articolo id="art1">
@@ -444,7 +471,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>RIPARTIZIONE DELLE FUNZIONI</rubrica>
 					<articolo id="art3">
@@ -692,7 +719,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>TITOLO III</num>
 					<rubrica>ORGANISMI, STRUMENTI E PROCEDURE DI PROGRAMMAZIONE</rubrica>
 					<articolo id="art7">
@@ -948,7 +975,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit4">
+				<titolo id="LeggeRegionale1-tit4">
 					<num>TITOLO IV</num>
 					<rubrica>SISTEMA REGIONALE PER L'IMPIEGO</rubrica>
 					<articolo id="art11">
@@ -1366,7 +1393,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit5">
+				<titolo id="LeggeRegionale1-tit5">
 					<num>TITOLO V</num>
 					<rubrica>DISPOSIZIONI FINALI</rubrica>
 					<articolo id="art16">

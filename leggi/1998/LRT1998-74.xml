@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19981105" num="36" tipo="BURT" />
 					<entratainvigore norm="19981120" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1998-10-26;74" />
+					<urn finevigore="t10" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1998-10-26;74" />
+					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1998-10-26;74@2002-07-26" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Formazione" />
@@ -25,6 +26,7 @@
 						<evento data="19981120" fonte="ra6" id="t7" tipo="modifica" />
 						<evento data="19981120" fonte="ra7" id="t8" tipo="modifica" />
 						<evento data="19981120" fonte="ra8" id="t9" tipo="modifica" />
+						<evento data="20030902" fonte="rp1" id="t10" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-10-26;74" xlink:type="simple" />
@@ -36,8 +38,18 @@
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1989-10-16;64" xlink:type="simple" />
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:1991-08-26;43" xlink:type="simple" />
 						<attiva id="ra8" xlink:href="urn:nir:regione.toscana:legge:1986-03-24;13" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Articolo abrogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32#art33-com1-leti" xlink:type="simple">art. 33, comma 1 lettera i), della legge regionale 26 luglio 2002, n. 32</rif>
+							, con decorrenza fissata alla data di entrata in vigore del regolamento previsto dall'art. 32 della stessa legge abrogante. Detto regolamento, approvato con D.P.G.R. 8 agosto 2003, n. 47/R, è stato pubblicato su BURT n. 37 del 18 agosto 2003.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:integrazione completa="si" implicita="no">
@@ -147,6 +159,20 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art14" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32#art33-com1-leti" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 33, comma 1, lettera i) della legge Regione Toscana 26 luglio 2002, n. 32" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art14-t10" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -679,10 +705,13 @@
 				<titolo id="tit4">
 					<num>TITOLO IV</num>
 					<rubrica>DISPOSIZIONI FINALI E TRANSITORIE</rubrica>
-					<articolo id="art14">
-						<num>ARTICOLO 14</num>
+					<articolo finevigore="t10" id="art14-t10" iniziovigore="t1" status="abrogato">
+						<num>
+							ARTICOLO 14
+							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+						</num>
 						<rubrica>(Modifiche)</rubrica>
-						<comma id="art14-com1">
+						<comma id="art14-t10-com1">
 							<num>1.</num>
 							<corpo>
 								<mod id="mod1">
@@ -699,7 +728,7 @@
 								</mod>
 							</corpo>
 						</comma>
-						<comma id="art14-com2">
+						<comma id="art14-t10-com2">
 							<num>2.</num>
 							<corpo>
 								<mod id="mod2">
@@ -716,7 +745,7 @@
 								</mod>
 							</corpo>
 						</comma>
-						<comma id="art14-com3">
+						<comma id="art14-t10-com3">
 							<num>3.</num>
 							<corpo>
 								<mod id="mod3">
@@ -733,7 +762,7 @@
 								</mod>
 							</corpo>
 						</comma>
-						<comma id="art14-com4">
+						<comma id="art14-t10-com4">
 							<num>4.</num>
 							<corpo>
 								<mod id="mod4">
