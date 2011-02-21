@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20020109" num="1" tipo="BURT" />
 					<entratainvigore norm="20020110" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2002-01-02;2" />
+					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2002-01-02;2" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2002-01-02;2@2002-09-27" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Enti Territoriali" />
 						<materia valore="Controlli" />
@@ -19,12 +20,14 @@
 						<evento data="20020110" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="20020110" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="20020110" fonte="ra3" id="t4" tipo="modifica" />
+						<evento data="20021008" fonte="rp1" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2002-01-02;2" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1992-07-07;31" xlink:type="simple" />
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1993-08-11;56" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1998-08-13;66" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2002-09-27;35" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -66,6 +69,50 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-09-27;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-09-27;35#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 27 settembre 2002, n. 35" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-09-27;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-09-27;35#art1-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2 della legge Regione Toscana 27 settembre 2002, n. 35" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-09-27;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-09-27;35#art1-com3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 3 della legge Regione Toscana 27 settembre 2002, n. 35" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -118,30 +165,30 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art3">
+				<articolo finevigore="t5" id="art3-t5" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 3</num>
 					<rubrica>(Poteri sostitutivi del Difensore civico regionale)</rubrica>
-					<comma id="art3-com1">
+					<comma id="art3-t5-com1">
 						<num>1.</num>
 						<corpo>Il Difensore civico regionale esercita i poteri sostitutivi attribuiti dalla legge statale o regionale; a tal fine provvede, previa diffida ad adempiere entro un congruo termine, tramite nomina di commissario ad acta.</corpo>
 					</comma>
-					<comma id="art3-com2">
+					<comma id="art3-t5-com2">
 						<num>2.</num>
 						<corpo>La competenza del Difensore civico regionale è esclusa quando la legge statale o regionale prevede l'intervento sostitutivo di altri organi, o della Regione o di alcuno dei suoi organi istituzionali, ovvero quando la legge statale prevede l'attivazione di procedure esecutive giurisdizionali.</corpo>
 					</comma>
-					<comma id="art3-com3">
+					<comma id="art3-t5-com3">
 						<num>3.</num>
 						<corpo>
 							Salvo che sia diversamente stabilito dalla legge, il Difensore civico regionale provvede ad avviare la procedura di nomina del commissario su segnalazione dei soggetti interessati; provvede d'ufficio nei casi previsti dall'
-							<rif xlink:href="#art4" xlink:type="simple">articolo 4</rif>
+							<rif xlink:href="#art4-t5" xlink:type="simple">articolo 4</rif>
 							.
 						</corpo>
 					</comma>
-					<comma id="art3-com4">
+					<comma id="art3-t5-com4">
 						<num>4.</num>
 						<corpo>Nel provvedimento di nomina è stabilito il termine, non superiore a sessanta giorni, entro il quale il commissario deve provvedere; alla scadenza è ammesso il rinnovo dell'incarico per una sola volta.</corpo>
 					</comma>
-					<comma id="art3-com5">
+					<comma id="art3-t5-com5">
 						<num>5.</num>
 						<corpo>
 							Per quanto non previsto dalla presente legge, si applicano le disposizioni della
@@ -150,10 +197,36 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art4">
+				<articolo id="art3" iniziovigore="t5">
+					<num>Art. 3</num>
+					<rubrica>Poteri sostitutivi del Difensore civico regionale</rubrica>
+					<comma id="art3-com1">
+						<num>1.</num>
+						<corpo>
+							Il Difensore civico regionale esercita i poteri sostitutivi ad esso espressamente attribuiti dalla legge regionale. Esercita altresì i poteri sostitutivi espressamente ad esso attribuiti dalla legge statale anteriore all'entrata in vigore della
+							<rif xlink:href="urn:nir:stato:legge.costituzionale:2001-10-18;3" xlink:type="simple">legge costituzionale 18 ottobre 2001 n. 3</rif>
+							(Modifiche al
+							<rif xlink:href="urn:nir:stato:costituzione:1947-12-27#prt2-tit5" xlink:type="simple">Titolo V della parte seconda della Costituzione</rif>
+							) fino a quando l'esercizio di detti poteri non sia altrimenti disciplinato. Il Difensore civico regionale provvede, previa diffida ad adempiere entro un congruo termine, tramite nomina di commissario ad acta.
+						</corpo>
+					</comma>
+					<comma id="art3-com2">
+						<num>2.</num>
+						<corpo>La competenza del Difensore civico regionale è comunque esclusa relativamente ad obblighi, accertati in sede giurisdizionale, per l'adempimento dei quali è possibile l'attivazione di procedure esecutive giurisdizionali.</corpo>
+					</comma>
+					<comma id="art3-com3">
+						<num>3.</num>
+						<corpo>
+							Per quanto non previsto dal presente articolo, si applicano le disposizioni della
+							<rif xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53" xlink:type="simple">legge regionale 31 ottobre 2001, n. 53</rif>
+							(Disciplina dei commissari nominati dalla Regione).
+						</corpo>
+					</comma>
+				</articolo>
+				<articolo finevigore="t5" id="art4-t5" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 4</num>
 					<rubrica>(Disposizioni per l'esercizio dei poteri sostitutivi in materia di finanza locale)</rubrica>
-					<comma id="art4-com1">
+					<comma id="art4-t5-com1">
 						<num>1.</num>
 						<corpo>
 							Il Difensore civico regionale provvede, previa diffida ad adempiere entro un termine non inferiore a trenta giorni, alla nomina del commissario nei casi di mancata adozione, nei termini prescritti dalla legge, del bilancio preventivo, del rendiconto, dei provvedimenti di accertamento dello stato di dissesto, dei provvedimenti di riequilibrio, previsti dal
@@ -161,31 +234,31 @@
 							(Testo unico delle leggi sull'ordinamento degli enti locali), nonché degli altri atti obbligatori la cui mancata adozione è equiparata dalla legge statale alla mancata adozione del bilancio preventivo.
 						</corpo>
 					</comma>
-					<comma id="art4-com2">
+					<comma id="art4-t5-com2">
 						<num>2.</num>
 						<corpo>
 							Per gli atti di cui al
-							<rif xlink:href="#art4-com1" xlink:type="simple">comma 1</rif>
+							<rif xlink:href="#art4-t5-com1" xlink:type="simple">comma 1</rif>
 							, gli enti interessati sono tenuti a trasmettere al Difensore civico, entro dieci giorni dal termine prescritto dalla legge, notizia dell'adozione e degli estremi degli atti medesimi.
 						</corpo>
 					</comma>
-					<comma id="art4-com3">
+					<comma id="art4-t5-com3">
 						<num>3.</num>
 						<corpo>
 							Quando il Difensore civico regionale accerta la mancata adozione del bilancio preventivo, verifica se il relativo schema è già stato predisposto dall'organo esecutivo dell'ente e in caso negativo, previa diffida ad adempiere ai sensi del
-							<rif xlink:href="#art4-com1" xlink:type="simple">comma 1</rif>
+							<rif xlink:href="#art4-t5-com1" xlink:type="simple">comma 1</rif>
 							, nomina un commissario per tale adempimento. Il commissario trasmette lo schema di bilancio all'organo cui compete l'approvazione del bilancio medesimo, dandone comunicazione al Difensore civico. Il Difensore civico invita l'organo competente ad approvare lo schema predisposto, assegnando a tal fine un termine non superiore a venti giorni; allo stesso modo provvede quando lo schema di bilancio è stato già predisposto dall'organo esecutivo dell'ente. Gli atti del Difensore civico sono trasmessi all'ente interessato tramite telegramma, telefax o comunque per scritto con qualunque mezzo idoneo ad attestare la data di ricevimento; quando trattasi di invito all'organo competente ad approvare lo schema di bilancio, copia dell'invito medesimo è notificata ai singoli componenti dell'organo. Se il bilancio non è approvato nel termine assegnato, il Difensore civico nomina, nei quindici giorni successivi alla scadenza, un commissario per tale adempimento; la nomina del commissario è comunicata all'ente interessato tramite telegramma, telefax o comunque per scritto con qualunque mezzo idoneo ad attestare la data di ricevimento; in tal caso, dalla data di nomina del commissario cessa il potere dell'organo dell'ente, competente in via ordinaria, di adottare l'atto e il provvedimento è comunicato anche al Prefetto ai sensi della normativa vigente.
 						</corpo>
 					</comma>
-					<comma id="art4-com4">
+					<comma id="art4-t5-com4">
 						<num>4.</num>
 						<corpo>
 							Le procedure di cui al
-							<rif xlink:href="#art4-com3" xlink:type="simple">comma 3</rif>
+							<rif xlink:href="#art4-t5-com3" xlink:type="simple">comma 3</rif>
 							si applicano anche nei casi in cui la legge equipara la mancata adozione di altri atti alla mancata adozione del bilancio preventivo. Si applicano, altresì, in caso di mancata adozione del rendiconto, ad eccezione della notificazione ai singoli componenti e della comunicazione al Prefetto.
 						</corpo>
 					</comma>
-					<comma id="art4-com5">
+					<comma id="art4-t5-com5">
 						<num>5.</num>
 						<corpo>
 							Nel caso previsto dall'
@@ -245,14 +318,23 @@
 					<comma id="art5-com5">
 						<num>5.</num>
 						<corpo>
-							Qualora l'ufficio del Difensore civico regionale sia vacante, i poteri di cui agli
-							<mrif>
-								articoli
-								<rif xlink:href="#art3" xlink:type="simple">3</rif>
-								e
-								<rif xlink:href="#art4" xlink:type="simple">4</rif>
-							</mrif>
-							sono esercitate in via transitoria dal Presidente della Giunta regionale.
+							Qualora l'ufficio del Difensore civico regionale sia vacante,
+							<h:span finevigore="t5" id="h1" iniziovigore="t1" status="abrogato">
+								i poteri di cui agli
+								<mrif>
+									articoli
+									<rif xlink:href="#art3-t5" xlink:type="simple">3</rif>
+									e
+									<rif xlink:href="#art4-t5" xlink:type="simple">4</rif>
+								</mrif>
+								sono esercitati
+							</h:span>
+							<h:span id="h2" iniziovigore="t5">
+								i poteri di cui all'
+								<rif xlink:href="#art3" xlink:type="simple">articolo 3</rif>
+								sono esercitati
+							</h:span>
+							in via transitoria dal Presidente della Giunta regionale.
 						</corpo>
 					</comma>
 				</articolo>
