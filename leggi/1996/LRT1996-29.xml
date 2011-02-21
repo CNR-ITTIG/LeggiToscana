@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19960424" num="23" tipo="BURT" />
 					<entratainvigore norm="19960509" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1996-04-15;29" />
+					<urn finevigore="t9" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1996-04-15;29" />
+					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1996-04-15;29@2002-04-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Volontariato" />
 						<materia valore="Albi" />
@@ -23,6 +24,7 @@
 						<evento data="19960509" fonte="ra5" id="t6" tipo="modifica" />
 						<evento data="19960509" fonte="ra6" id="t7" tipo="modifica" />
 						<evento data="19960509" fonte="ra7" id="t8" tipo="modifica" />
+						<evento data="20020427" fonte="rp1" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1996-04-15;29" xlink:type="simple" />
@@ -33,6 +35,7 @@
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1993-04-26;28" xlink:type="simple" />
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1993;28" xlink:type="simple" />
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:1993-04-26;28" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -252,6 +255,20 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art11" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11#ann1-art14-com600" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 14, comma 600 della legge Regione Toscana 2 aprile 2002, n. 11" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art11-t9" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -759,10 +776,10 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art11">
+				<articolo finevigore="t9" id="art11-t9" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 11</num>
 					<rubrica>(Nuove norme transitorie per le domande di iscrizione pendenti e per la revisione periodica del registro)</rubrica>
-					<comma id="art11-com1">
+					<comma id="art11-t9-com1">
 						<num>1.</num>
 						<corpo>
 							Le domande di iscrizione al registro di cui all'
@@ -770,7 +787,7 @@
 							, presentate alla data di entrata in vigore della presente legge e la cui istruttoria non sia stata definita, sono trasmesse alla Provincia ove ha sede legale l'organizzazione richiedente, unitamente ai fascicoli afferenti le organizzazioni iscritte, entro trenta giorni dalla data suddetta. La Provincia provvede alla conclusione dell'istruttoria ed all'emanazione dei relativi provvedimenti nel rispetto del termine di novanta giorni dall'acquisizione da parte dell'amministrazione provinciale delle domande.
 						</corpo>
 					</comma>
-					<comma id="art11-com2">
+					<comma id="art11-t9-com2">
 						<num>2.</num>
 						<corpo>
 							Per l'anno 1996, le procedure di revisione periodica del registro previste dall'
