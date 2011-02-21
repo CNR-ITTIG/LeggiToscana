@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t2" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19991117" num="31" tipo="BURT" />
 					<entratainvigore norm="19991202" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1999-11-10;59" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1999-11-10;59" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1999-11-10;59@2002-10-14" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Storia" />
 						<materia valore="Celebrazioni" />
@@ -16,11 +17,38 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19991202" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20030101" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1999-11-10;59" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2002-10-14;38" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="LeggeRegionale1-n1">
+						<h:p>
+							Testo abrogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2002-10-14;38#art11-com2" xlink:type="simple">art. 11, comma 2, della legge regionale 14 ottobre 2002 n. 38</rif>
+							. L'art. 11, comma 3, della stessa legge abrogante precisa tuttavia il permanere degli impegni assunti in osservanza del presente testo.
+						</h:p>
+					</nota>
+				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1999-11-10;59" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-10-14;38" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-10-14;38#art11-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 11, comma 2 della legge Regione Toscana 14 ottobre 2002, n. 38" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -28,7 +56,10 @@
 				<dataDoc norm="19991110">10 novembre 1999</dataDoc>
 				, n.
 				<numDoc>59</numDoc>
-				<titoloDoc>Interventi finalizzati a salvare la memoria delle stragi nazifasciste in Toscana.</titoloDoc>
+				<titoloDoc>
+					Interventi finalizzati a salvare la memoria delle stragi nazifasciste in Toscana.
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
+				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 12-10-1999</h:p>
