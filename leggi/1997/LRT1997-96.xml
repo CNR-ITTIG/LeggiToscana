@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19980102" num="1" tipo="BURT" />
 					<entratainvigore norm="19980102" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1997-12-24;96" />
+					<urn finevigore="t9" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1997-12-24;96" />
+					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1997-12-24;96@2002-04-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Trasporti" />
 					</materie>
@@ -22,6 +23,7 @@
 						<evento data="19980102" fonte="ra5" id="t6" tipo="modifica" />
 						<evento data="19980102" fonte="ra6" id="t7" tipo="modifica" />
 						<evento data="19980102" fonte="ra7" id="t8" tipo="modifica" />
+						<evento data="20020427" fonte="rp1" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1997-12-24;96" xlink:type="simple" />
@@ -32,6 +34,7 @@
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1983-05-18;33" xlink:type="simple" />
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1983-05-18;33" xlink:type="simple" />
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:1983-05-18;33" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -163,6 +166,32 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11#ann1-art15-com621" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 15, comma 621 della legge Regione Toscana 2 aprile 2002, n. 11" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art1-t9" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11#ann1-art15-com621" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 15, comma 621 della legge Regione Toscana 2 aprile 2002, n. 11" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-t9" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -180,10 +209,10 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<articolo id="art1">
+				<articolo finevigore="t9" id="art1-t9" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 1</num>
 					<rubrica>(Affidamento dei servizi)</rubrica>
-					<comma id="art1-com1">
+					<comma id="art1-t9-com1">
 						<num>1.</num>
 						<corpo>
 							Gli enti concedenti i servizi di trasporto pubblico locale possono prorogare le concessioni in atto al 31.12.1997 fino all'entrata in vigore della legge regionale di riordino delle funzioni in materia a seguito dell'emanazione del decreto legislativo attuativo dell'
@@ -191,29 +220,29 @@
 							e, comunque, non oltre il 31.12.1998. Gli enti medesimi possono disporre, anche nel corso del periodo di proroga, variazioni in ordine alla percorrenza delle concessioni sulla base dei provvedimenti di cui al presente articolo.
 						</corpo>
 					</comma>
-					<comma id="art1-com2">
+					<comma id="art1-t9-com2">
 						<num>2.</num>
 						<corpo>Regione, province e comuni, ciascuno per i servizi di propria competenza, provvedono, sulla base dei costi e dei ricavi effettivi, ad integrare con un piano economico - finanziario annuale di gestione gli atti di concessione e gli altri provvedimenti in base ai quali sono affidati i servizi di trasporto pubblico locale.</corpo>
 					</comma>
-					<comma id="art1-com3">
+					<comma id="art1-t9-com3">
 						<num>3.</num>
 						<corpo>Ai fini dell'ammissione ai contributi regionali, la Regione, per i servizi di propria competenza, la Provincia ed i Comuni, per tutti i servizi ricadenti nel proprio bacino di traffico, stipulano un accordo di servizio di durata annuale, comunque non eccedente il 31.12.1998.</corpo>
 					</comma>
-					<comma id="art1-com4">
+					<comma id="art1-t9-com4">
 						<num>4.</num>
 						<corpo>Per quanto riguarda i bacini di traffico l'accordo è stipulato fra Provincia, Comuni e tutte le aziende di trasporto che eserciscono i servizi di competenza provinciale e comunale; per quanto riguarda i servizi di competenza regionale l'accordo è stipulato fra Regione e tutte le aziende che eserciscono tali servizi.</corpo>
 					</comma>
-					<comma id="art1-com5">
+					<comma id="art1-t9-com5">
 						<num>5.</num>
 						<corpo>
 							L'accordo di servizio, in conformità con quanto stabilito ai commi 2 e 3 della
 							<rif xlink:href="urn:nir:stato:legge:1981-04-10;151" xlink:type="simple">legge 10 aprile 1981, n. 151</rif>
 							, deve garantire la corrispondenza tra i costi dei servizi e le risorse disponibili, risultanti dall'insieme dei piani economico-finanziari annuali di gestione, di cui al
-							<rif xlink:href="#art1-com2" xlink:type="simple">comma 2</rif>
+							<rif xlink:href="#art1-t9-com2" xlink:type="simple">comma 2</rif>
 							, sulla base della stima dei costi e dei ricavi effettivi e sulla base della disponibilità dei contributi regionali e delle eventuali risorse aggiuntive stanziate dagli enti locali, sia in veste di enti proprietari che di enti concedenti.
 						</corpo>
 					</comma>
-					<comma id="art1-com6">
+					<comma id="art1-t9-com6">
 						<num>6.</num>
 						<corpo>
 							La Regione e le Province competenti, anche in assenza del Programma regionale dei servizi, di cui all'
@@ -232,30 +261,30 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art2">
+				<articolo finevigore="t9" id="art2-t9" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 2</num>
 					<rubrica>(Ammissione ai contributi regionali)</rubrica>
-					<comma id="art2-com1">
+					<comma id="art2-t9-com1">
 						<num>1.</num>
 						<corpo>Il Consiglio regionale stabilisce con deliberazione le condizioni ed i criteri a cui la Giunta regionale e le Province devono attenersi nella individuazione dei servizi da ammettere al contributo regionale per il 1998, nonché gli schema tipo del piano economico-finanziario, dell'accordo di servizio e del contratto di servizio.</corpo>
 					</comma>
-					<comma id="art2-com2">
+					<comma id="art2-t9-com2">
 						<num>2.</num>
 						<corpo>
 							Sulla base dell'assegnazione delle risorse per l'anno 1998, nonché della deliberazione del Consiglio regionale di cui al
-							<rif xlink:href="#art2-com1" xlink:type="simple">comma 1</rif>
+							<rif xlink:href="#art2-t9-com1" xlink:type="simple">comma 1</rif>
 							, la Giunta regionale e le Province, rispettivamente per i servizi di competenza regionale e per quelli di ciascun bacino di traffico, in sede di stipula dell'accordo di servizio od, eventualmente, del contratto di servizio, individuano i servizi da ammettere al contributo regionale nell'anno medesimo.
 						</corpo>
 					</comma>
-					<comma id="art2-com3">
+					<comma id="art2-t9-com3">
 						<num>3.</num>
 						<corpo>
 							La Giunta regionale e le Province determinano il contributo regionale sulla base dei costi e dei ricavi effettivi risultanti dai consuntivi di gestione, dei costi economici standardizzati e dei ricavi presunti, stabiliti dalla Regione negli anni pregressi, nonché delle specifiche condizioni ambientali e delle caratteristiche di produzione dei servizi, secondo quanto stabilito dalla deliberazione del Consiglio regionale di cui al
-							<rif xlink:href="#art2-com1" xlink:type="simple">comma 1</rif>
+							<rif xlink:href="#art2-t9-com1" xlink:type="simple">comma 1</rif>
 							.
 						</corpo>
 					</comma>
-					<comma id="art2-com4">
+					<comma id="art2-t9-com4">
 						<num>4.</num>
 						<corpo>
 							L'assegnazione delle risorse da attribuire ai servizi di competenza regionale ed a ciascuno dei bacini di traffico di cui agli

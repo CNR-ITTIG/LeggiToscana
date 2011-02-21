@@ -8,7 +8,8 @@
 					<entratainvigore norm="19930828" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t4" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1993-08-05;47" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1993-08-05;47@1994-07-29" />
+					<urn finevigore="t6" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1993-08-05;47@1994-07-29" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1993-08-05;47@2002-04-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Trasporti" />
 						<materia valore="Finanziamenti" />
@@ -22,6 +23,7 @@
 						<evento data="19930828" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="19940818" fonte="rp1" id="t4" tipo="modifica" />
 						<evento data="19940818" fonte="ra3" id="t5" tipo="modifica" />
+						<evento data="20020427" fonte="rp2" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1993-08-05;47" xlink:type="simple" />
@@ -29,6 +31,7 @@
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1983-05-18;33" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1983-05-18;33" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1994-07-29;58" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -160,7 +163,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art7-com2" xlink:type="simple" />
+							<dsp:pos xlink:href="#art7-t6-com2" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1994-07-29;58" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1994-07-29;58#art2-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -168,12 +171,36 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art7-com2" xlink:type="simple" />
+								<dsp:pos xlink:href="#art7-t6-com2" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#art7-com2-t5" xlink:type="simple" />
+								<dsp:pos xlink:href="#art7-t6-com2-t5" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11#ann1-art15-com615" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 15, comma 615 della legge Regione Toscana 2 aprile 2002, n. 11" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11#ann1-art15-com615" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 15, comma 615 della legge Regione Toscana 2 aprile 2002, n. 11" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art7-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -231,14 +258,14 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art2">
+				<articolo finevigore="t6" id="art2-t6" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 2</num>
 					<rubrica>
 						(Sostituzione dell'
 						<rif xlink:href="urn:nir:regione.toscana:legge:1983-05-18;33#art16" xlink:type="simple">art. 16 della LR 18-5-1983 n. 33</rif>
 						)
 					</rubrica>
-					<comma id="art2-com1">
+					<comma id="art2-t6-com1">
 						<num />
 						<corpo>
 							<mod id="mod2">
@@ -534,72 +561,72 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art7">
+				<articolo finevigore="t6" id="art7-t6" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 7</num>
 					<rubrica>(Norme transitorie)</rubrica>
-					<comma id="art7-com1">
+					<comma id="art7-t6-com1">
 						<num>1.</num>
 						<corpo>
 							Le disposizioni di cui agli artt. 2 e 6 si applicano a decorrere dal sessantesimo giorno successivo a quello della pubblicazione sul BURT della deliberazione consiliare indicata al
 							<rif xlink:href="urn:nir:regione.toscana:legge:1983-05-18;33#art16-com6" xlink:type="simple">sesto comma dell'art. 16 della LR 18 maggio 1983 n. 33</rif>
 							come sostituito dall'
-							<rif xlink:href="#art2" xlink:type="simple">art. 2</rif>
+							<rif xlink:href="#art2-t6" xlink:type="simple">art. 2</rif>
 							della presente legge.
 						</corpo>
 					</comma>
-					<comma finevigore="t5" id="art7-com2-t5" iniziovigore="t1" status="abrogato">
+					<comma finevigore="t5" id="art7-t6-com2-t5" iniziovigore="t1" status="abrogato">
 						<num>2.</num>
 						<alinea>
 							Le tessere di libera circolazione, rilasciate entro il termine indicato al
-							<rif xlink:href="#art7-com1" xlink:type="simple">primo comma</rif>
+							<rif xlink:href="#art7-t6-com1" xlink:type="simple">primo comma</rif>
 							, conservano validità:
 						</alinea>
-						<ep id="art7-com2-t5-pun1">
+						<ep id="art7-t6-com2-t5-pun1">
 							<num>-</num>
 							<corpo>
 								fino al momento dell'entrata in vigore degli
 								<mrif>
 									artt.
-									<rif xlink:href="#art2" xlink:type="simple">2</rif>
+									<rif xlink:href="#art2-t6" xlink:type="simple">2</rif>
 									e
 									<rif xlink:href="#art6" xlink:type="simple">6</rif>
 								</mrif>
 								, le tessere emesse entro il 31 dicembre 1991;
 							</corpo>
 						</ep>
-						<ep id="art7-com2-t5-pun2">
+						<ep id="art7-t6-com2-t5-pun2">
 							<num>-</num>
 							<corpo>
 								fino al sessantesimo giorno successivo a quello di entrata in vigore degli
 								<mrif>
 									artt.
-									<rif xlink:href="#art2" xlink:type="simple">2</rif>
+									<rif xlink:href="#art2-t6" xlink:type="simple">2</rif>
 									e
 									<rif xlink:href="#art6" xlink:type="simple">6</rif>
 								</mrif>
 								, le tessere emesse dopo il 31 dicembre 1991 ed entro il 30 giugno 1992;
 							</corpo>
 						</ep>
-						<ep id="art7-com2-t5-pun3">
+						<ep id="art7-t6-com2-t5-pun3">
 							<num>-</num>
 							<corpo>
 								fino al centoventesino giorno successivo a quello di entrata in vigore degli
 								<mrif>
 									artt.
-									<rif xlink:href="#art2" xlink:type="simple">2</rif>
+									<rif xlink:href="#art2-t6" xlink:type="simple">2</rif>
 									e
 									<rif xlink:href="#art6" xlink:type="simple">6</rif>
 								</mrif>
 								le tessere emesse dopo il 30 giugno 1992 ed entro il 31 dicembre 1992;
 							</corpo>
 						</ep>
-						<ep id="art7-com2-t5-pun4">
+						<ep id="art7-t6-com2-t5-pun4">
 							<num>-</num>
 							<corpo>
 								fino al centoottantesimo giorno successivo a quello di entrata in vigore degli
 								<mrif>
 									artt.
-									<rif xlink:href="#art2" xlink:type="simple">2</rif>
+									<rif xlink:href="#art2-t6" xlink:type="simple">2</rif>
 									e
 									<rif xlink:href="#art6" xlink:type="simple">6</rif>
 								</mrif>
@@ -607,55 +634,55 @@
 							</corpo>
 						</ep>
 					</comma>
-					<comma id="art7-com2" iniziovigore="t5">
+					<comma id="art7-t6-com2" iniziovigore="t5">
 						<num>2.</num>
 						<alinea>Le tessere di libera circolazione, rilasciate entro il termine indicato al primo comma, perdono validità:</alinea>
-						<ep id="art7-com2-pun1">
+						<ep id="art7-t6-com2-pun1">
 							<num>-</num>
 							<corpo>
 								al momento dell'entrata in vigore degli
 								<mrif>
 									artt.
-									<rif xlink:href="#art2" xlink:type="simple">2</rif>
+									<rif xlink:href="#art2-t6" xlink:type="simple">2</rif>
 									e
 									<rif xlink:href="#art6" xlink:type="simple">6</rif>
 								</mrif>
 								, le tessere rilasciate entro il 30-6-1993;
 							</corpo>
 						</ep>
-						<ep id="art7-com2-pun2">
+						<ep id="art7-t6-com2-pun2">
 							<num>-</num>
 							<corpo>
 								il quindicesimo giorno successivo a quello di entrata in vigore degli
 								<mrif>
 									artt.
-									<rif xlink:href="#art2" xlink:type="simple">2</rif>
+									<rif xlink:href="#art2-t6" xlink:type="simple">2</rif>
 									e
 									<rif xlink:href="#art6" xlink:type="simple">6</rif>
 								</mrif>
 								, le tessere rilasciate dopo il 30- 6-93 ed entro il 31-12-93;
 							</corpo>
 						</ep>
-						<ep id="art7-com2-pun3">
+						<ep id="art7-t6-com2-pun3">
 							<num>-</num>
 							<corpo>
 								il trentesimo giorno successivo a quello di entrata in vigore degli
 								<mrif>
 									artt.
-									<rif xlink:href="#art2" xlink:type="simple">2</rif>
+									<rif xlink:href="#art2-t6" xlink:type="simple">2</rif>
 									e
 									<rif xlink:href="#art6" xlink:type="simple">6</rif>
 								</mrif>
 								, le tessere rilasciate dopo il 31-12-93 ed entro il 30-6-94;
 							</corpo>
 						</ep>
-						<ep id="art7-com2-pun4">
+						<ep id="art7-t6-com2-pun4">
 							<num>-</num>
 							<corpo>
 								il quarantacinquesimo giorno successivo a quello di entrata in vigore degli
 								<mrif>
 									artt.
-									<rif xlink:href="#art2" xlink:type="simple">2</rif>
+									<rif xlink:href="#art2-t6" xlink:type="simple">2</rif>
 									e
 									<rif xlink:href="#art6" xlink:type="simple">6</rif>
 								</mrif>
