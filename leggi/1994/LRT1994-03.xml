@@ -10,7 +10,8 @@
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1994-01-12;3" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1994-01-12;3@1997-08-04" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1994-01-12;3@1999-02-12" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1994-01-12;3@2002-06-10" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1994-01-12;3@2002-06-10" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1994-01-12;3@2002-10-11" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Fauna" />
 						<materia valore="Caccia" />
@@ -22,12 +23,14 @@
 						<evento data="19970824" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19990309" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="20020704" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="20021019" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-01-12;3" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1997-08-04;58" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1999-02-12;7" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2002-06-10;20" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2002-10-11;36" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -148,6 +151,18 @@
 								<dsp:pos xlink:href="#art41-t4" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art37" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-10-11;36" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-10-11;36#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 11 ottobre 2002, n. 36" id="itt9" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art37bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -2245,6 +2260,67 @@
 						<comma id="art37-com6">
 							<num>6.</num>
 							<corpo>La Provincia, anche su richiesta dei Comuni, o dei comitati degli ATC, corredata di parere favorevole dell'INFS può autorizzare, in qualsiasi tempo, la cattura di fauna selvatica in tutti quei territori vietati alla caccia per i quali non siano previste dalla presente legge specifiche disposizioni relative alla cattura, definendo le condizioni e le modalità di utilizzazione dei soggetti catturati.</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art37bis" iniziovigore="t5">
+						<num>Art. 37 bis</num>
+						<rubrica>
+							Esercizio delle deroghe ai sensi dell'
+							<rif xlink:href="urn:nir:comunita.europee:direttiva:1979-04-02;79-409-cee#art9" xlink:type="simple">articolo 9 della direttiva 79/409/CEE del Consiglio del 2 aprile 1979</rif>
+						</rubrica>
+						<comma id="art37bis-com1">
+							<num>1.</num>
+							<corpo>
+								I provvedimenti di deroga di cui all'
+								<rif xlink:href="urn:nir:comunita.europee:direttiva:1979;79-409-cee#art9" xlink:type="simple">articolo 9 della dir. 79/409/CEE</rif>
+								, in assenza di altre soddisfacenti soluzioni, sono adottati dalla Giunta regionale, nel rispetto dei principi e delle finalità di cui agli
+								<mrif>
+									articoli
+									<rif xlink:href="urn:nir:comunita.europee:direttiva:1979;79-409-cee#art1" xlink:type="simple">1</rif>
+									e
+									<rif xlink:href="urn:nir:comunita.europee:direttiva:1979;79-409-cee#art2" xlink:type="simple">2</rif>
+									della dir. 79/409/CEE
+								</mrif>
+								, esclusivamente per le ragioni indicate all'
+								<rif xlink:href="urn:nir:comunita.europee:direttiva:1979;79-409-cee#art9-com1" xlink:type="simple">articolo 9, comma 1, della dir. 79/409/CEE</rif>
+								.
+							</corpo>
+						</comma>
+						<comma id="art37bis-com2">
+							<num>2.</num>
+							<corpo>I provvedimenti di deroga sono articolati per ogni ambito territoriale di caccia (A.T.C.).</corpo>
+						</comma>
+						<comma id="art37bis-com3">
+							<num>3.</num>
+							<corpo>
+								I provvedimenti di deroga devono indicare le specie oggetto della deroga, i mezzi, gli impianti e metodi di prelievo autorizzati, le condizioni di rischio, le circostanze di tempo e di luogo del prelievo, il numero dei capi giornalmente e complessivamente prelevabili nel periodo, i controlli, le forme e gli organi incaricati della vigilanza, fermo restando quanto disposto dall'
+								<rif xlink:href="#art51" xlink:type="simple">articolo 51</rif>
+								. I soggetti abilitati al prelievo in deroga sono individuati dalla Giunta regionale d'intesa con gli ATC.
+							</corpo>
+						</comma>
+						<comma id="art37bis-com4">
+							<num>4.</num>
+							<corpo>I provvedimenti di deroga sono applicati per periodi determinati, previo parere dell'Istituto nazionale della fauna selvatica (INFS).</corpo>
+						</comma>
+						<comma id="art37bis-com5">
+							<num>5.</num>
+							<corpo>I provvedimento di deroga non possono avere comunque ad oggetto specie la cui consistenza numerica sia in grave diminuzione.</corpo>
+						</comma>
+						<comma id="art37bis-com6">
+							<num>6.</num>
+							<corpo>I prelievi effettuati ai sensi dei provvedimenti di deroga sono indicati giornalmente sul tesserino venatorio regionale.</corpo>
+						</comma>
+						<comma id="art37bis-com7">
+							<num>7.</num>
+							<corpo>Entro il 30 giugno di ogni anno la Giunta regionale trasmette al Presidente del Consiglio dei ministri, ovvero al Ministro per gli affari regionali ove nominato, al Ministro dell'ambiente, al Ministro delle politiche agricole e forestali, al Ministro per le politiche comunitarie, all'INFS una relazione sull'attuazione delle deroghe di cui al presente articolo.</corpo>
+						</comma>
+						<comma id="art37bis-com8">
+							<num>8.</num>
+							<corpo>
+								La relazione di cui al
+								<rif xlink:href="#art37bis-com7" xlink:type="simple">comma 7</rif>
+								è altresì trasmessa alle competenti commissioni parlamentari e al Consiglio regionale.
+							</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art38">
