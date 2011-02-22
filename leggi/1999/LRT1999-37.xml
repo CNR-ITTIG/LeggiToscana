@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t12" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1999-07-01;37" />
 					<urn finevigore="t13" iniziovigore="t12" valore="urn:nir:regione.toscana:legge:1999-07-01;37@2002-03-07" />
-					<urn iniziovigore="t13" valore="urn:nir:regione.toscana:legge:1999-07-01;37@2002-07-26" />
+					<urn finevigore="t14" iniziovigore="t13" valore="urn:nir:regione.toscana:legge:1999-07-01;37@2002-07-26" />
+					<urn iniziovigore="t14" valore="urn:nir:regione.toscana:legge:1999-07-01;37@2002-12-20" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tributi" />
 					</materie>
@@ -29,6 +30,7 @@
 						<evento data="19990724" fonte="ra10" id="t11" tipo="modifica" />
 						<evento data="20020402" fonte="rp1" id="t12" tipo="modifica" />
 						<evento data="20020820" fonte="rp2" id="t13" tipo="modifica" />
+						<evento data="20021231" fonte="rp3" id="t14" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1999-07-01;37" xlink:type="simple" />
@@ -44,6 +46,7 @@
 						<attiva id="ra10" xlink:href="urn:nir:regione.toscana:legge:1996-07-29;60" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2002-03-07;9" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2002-07-26;30" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2002-12-20;43" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -318,6 +321,18 @@
 								<dsp:pos xlink:href="#art9-t13" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-12-20;43" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-12-20;43#art6-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 6, comma 1 della legge Regione Toscana 20 dicembre 2002, n. 43" id="itt8" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3-com2bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -420,6 +435,10 @@
 									, del decreto legislativo 18 dicembre 1997, n.472
 								</mrif>
 							</corpo>
+						</comma>
+						<comma id="art3-com2bis" iniziovigore="t14">
+							<num>2 bis.</num>
+							<corpo>Qualora, a seguito di attività amministrativa di accertamento, risulti che i ritardati versamenti inerenti a tributi regionali sono stati comunque effettuati dal soggetto passivo entro il quinto giorno lavorativo successivo alla scadenza prevista dalla legge, la sanzione irrogata è pari al dieci per cento del tributo tardivamente versato.</corpo>
 						</comma>
 						<comma finevigore="t12" id="art3-com3-t12" iniziovigore="t1" status="abrogato">
 							<num>3.</num>

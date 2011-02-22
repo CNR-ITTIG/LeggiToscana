@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20010202" num="4" tipo="BURT" />
 					<entratainvigore norm="20010202" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2001-01-26;2" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2001-01-26;2" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2001-01-26;2@2002-12-20" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sviluppo Economico" />
 						<materia valore="Tributi" />
@@ -16,11 +17,29 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="20010202" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20021231" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2001-01-26;2" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2002-12-20;43" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-12-20;43" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-12-20;43#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 20 dicembre 2002, n. 43" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com3bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -123,6 +142,14 @@
 							L'aliquota ridotta di cui al
 							<rif xlink:href="#art4-com1" xlink:type="simple">comma 1</rif>
 							non si applica qualora il valore della produzione netta sia superiore a lire 150 milioni, corrispondente a 77.468,53 euro.
+						</corpo>
+					</comma>
+					<comma id="art4-com3bis" iniziovigore="t2">
+						<num>3 bis.</num>
+						<corpo>
+							Con decorrenza dall'anno d'imposta in corso alla data del 1 gennaio 2003, l'agevolazione prevista al presente articolo è estesa alle attività esercitate nel territorio montano dei comuni parzialmente montani inseriti in comunità montane, di cui alla
+							<rif xlink:href="urn:nir:regione.toscana:legge:2000-12-28;82" xlink:type="simple">legge regionale 28 dicembre 2000, n. 82</rif>
+							(Norme in materia di Comunità montane). Il contribuente attesta il possesso dei requisiti che danno diritto all'agevolazione tramite dichiarazione sostitutiva, in conformità delle disposizioni vigenti in materia di semplificazione della documentazione amministrativa.
 						</corpo>
 					</comma>
 				</articolo>
