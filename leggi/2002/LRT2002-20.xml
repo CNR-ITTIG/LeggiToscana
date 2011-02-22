@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20020619" num="13" tipo="BURT" />
 					<entratainvigore norm="20020704" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2002-06-10;20" />
+					<urn finevigore="t4" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2002-06-10;20" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:2002-06-10;20@2002-12-20" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Caccia" />
 					</materie>
@@ -17,11 +18,13 @@
 						<evento data="20020704" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20020704" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="20020704" fonte="ra2" id="t3" tipo="modifica" />
+						<evento data="20021231" fonte="rp1" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2002-06-10;20" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1994;3" xlink:type="simple" />
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:2001-06-26;27" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2002-12-20;45" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -112,6 +115,38 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com1-leti" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-12-20;45" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-12-20;45#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 20 dicembre 2002, n. 45" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com1-leti" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com1-leti-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com1-letl" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-12-20;45" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-12-20;45#art1-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2 della legge Regione Toscana 20 dicembre 2002, n. 45" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com1-letl" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com1-letl-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -191,13 +226,33 @@
 								<num>h)</num>
 								<corpo>dal 16 dicembre al 31 dicembre: dalle ore 6,45 alle ore 16,45;</corpo>
 							</el>
-							<el id="art2-com1-leti">
+							<el finevigore="t4" id="art2-com1-leti-t4" iniziovigore="t1" status="abrogato">
 								<num>i)</num>
 								<corpo>dal 1 gennaio al 15 gennaio: dalle ore 7,00 alle ore 17,00;</corpo>
 							</el>
-							<el id="art2-com1-letl">
+							<el id="art2-com1-leti" iniziovigore="t4">
+								<num>i)</num>
+								<corpo>dal 1 gennaio al 15 gennaio: dalle ore 7,00 alle ore 17,15</corpo>
+							</el>
+							<el finevigore="t4" id="art2-com1-letl-t4" iniziovigore="t1" status="abrogato">
 								<num>l)</num>
-								<corpo>dal 16 gennaio al 31 gennaio: dalle ore 6,45 alle ore 17,15. Fanno eccezione: a) la caccia di selezione agli ungulati che termina un'ora dopo il tramonto; b) la caccia alla beccaccia che inizia un'ora dopo gli orari di cui sopra.</corpo>
+								<corpo>dal 16 gennaio al 31 gennaio: dalle ore 6,45 alle ore 17,15.</corpo>
+							</el>
+							<el id="art2-com1-letl" iniziovigore="t4">
+								<num>l)</num>
+								<corpo>dal 16 gennaio al 31 gennaio: dalle ore 06,45 alle ore 17,30</corpo>
+							</el>
+						</comma>
+						<comma id="art2-com2">
+							<num />
+							<alinea>Fanno eccezione:</alinea>
+							<el id="art2-com2-leta">
+								<num>a)</num>
+								<corpo>la caccia di selezione agli ungulati che termina un'ora dopo il tramonto;</corpo>
+							</el>
+							<el id="art2-com2-letb">
+								<num>b)</num>
+								<corpo>la caccia alla beccaccia che inizia un'ora dopo gli orari di cui sopra.</corpo>
 							</el>
 						</comma>
 					</articolo>
@@ -274,7 +329,16 @@
 						</comma>
 						<comma id="art4-com3">
 							<num>3.</num>
-							<corpo>I limiti giornalieri di carniere relativi alla selvaggina stanziale di cui ai commi 1 e 2 non si applicano nelle aziende faunistico-venatorie e agrituristico-venatorie nelle quali valgono i piani di abbattimento annuali approvati dalla Provincia.</corpo>
+							<corpo>
+								I limiti giornalieri di carniere relativi alla selvaggina stanziale di cui ai
+								<mrif>
+									commi
+									<rif xlink:href="#art4-com1" xlink:type="simple">1</rif>
+									e
+									<rif xlink:href="#art4-com2" xlink:type="simple">2</rif>
+								</mrif>
+								non si applicano nelle aziende faunistico-venatorie e agrituristico-venatorie nelle quali valgono i piani di abbattimento annuali approvati dalla Provincia.
+							</corpo>
 						</comma>
 						<comma id="art4-com4">
 							<num>4.</num>
