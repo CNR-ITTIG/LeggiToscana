@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20011107" num="37" tipo="BURT" />
 					<entratainvigore norm="20011107" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2001-10-31;51" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2001-10-31;51" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2001-10-31;51@2002-12-24" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Risorse Idriche" />
 					</materie>
@@ -15,11 +16,56 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="20011107" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20030101" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2001-10-31;51" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2002-12-24;47" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-12-24;47" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-12-24;47#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 24 dicembre 2002, n. 47" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art1-com2bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-12-24;47" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-12-24;47#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 24 dicembre 2002, n. 47" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com1-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-12-24;47" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-12-24;47#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 24 dicembre 2002, n. 47" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -51,13 +97,37 @@
 							e successive modificazioni e integrazioni, per le nuove opere e per i lavori di manutenzione relativi ad opere idrauliche classificate o classificabili in seconda categoria.
 						</corpo>
 					</comma>
+					<comma id="art1-com2bis" iniziovigore="t2">
+						<num>2 bis.</num>
+						<corpo>Non si procede alla riscossione dei contributi dovuti dai privati relativamente agli anni di imposta 2001 e precedenti.</corpo>
+					</comma>
 				</articolo>
 				<articolo id="art2">
 					<num>ARTICOLO 2</num>
 					<rubrica>(Nomina commissari liquidatori)</rubrica>
-					<comma id="art2-com1">
+					<comma finevigore="t2" id="art2-com1-t2" iniziovigore="t1" status="abrogato">
 						<num>1.</num>
 						<corpo>Per ogni Consorzio è nominato un Commissario liquidatore. La nomina ed i poteri del Commissario sono disciplinati dalla vigente normativa regionale in materia.</corpo>
+					</comma>
+					<comma id="art2-com1" iniziovigore="t2">
+						<num>1.</num>
+						<corpo>
+							Per ogni consorzio è nominato un commissario liquidatore. La nomina ed i poteri del commissario sono disciplinati dalla
+							<rif xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53" xlink:type="simple">legge regionale 31 ottobre 2001, n.53</rif>
+							(Disciplina dei commissari nominati dalla Regione). Gli effetti della nomina sono stabiliti nel relativo atto di nomina, o negli appositi atti aggiuntivi ad esso.
+						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art2bis" iniziovigore="t2">
+					<num>Art. 2 bis</num>
+					<rubrica>(Disposizioni finanziarie)</rubrica>
+					<comma id="art2bis-com1">
+						<num>1.</num>
+						<corpo>Le entrate conseguenti alla conclusione delle procedure di liquidazione, valutabili in 150.000,00 euro, sono introitate alla UPB 322 (Proventi diversi) del bilancio 2003.</corpo>
+					</comma>
+					<comma id="art2bis-com2">
+						<num>2.</num>
+						<corpo>Agli oneri finanziari che restano a carico della Regione a seguito della chiusura delle attività commissariali, valutabili in 150.000,00 euro, si fa fronte con le risorse iscritte nella UPB 422 (Difesa del suolo, riduzione del rischio idrogeologico e prevenzione del rischio sismico - spese correnti) del bilancio 2003.</corpo>
 					</comma>
 				</articolo>
 			</articolato>
