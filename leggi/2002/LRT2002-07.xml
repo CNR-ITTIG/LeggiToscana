@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20020304" num="4" tipo="BURT" />
 					<entratainvigore norm="20020319" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2002-02-22;7" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2002-02-22;7" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2002-02-22;7@2003-02-03" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Zootecnia" />
 					</materie>
@@ -15,11 +16,59 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="20020319" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20030227" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2002-02-22;7" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2003-02-03;8" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-02-03;8" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-02-03;8#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 3 febbraio 2003, n. 8" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-02-03;8" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-02-03;8#art1-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2 della legge Regione Toscana 3 febbraio 2003, n. 8" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-02-03;8" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-02-03;8#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 3 febbraio 2003, n. 8" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com1bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -59,11 +108,21 @@
 					</comma>
 					<comma id="art2-com2">
 						<num>2.</num>
-						<corpo>Per i bovini morti in azienda dall'11 novembre 2000 sino all'11 gennaio 2001 e dal 1 giugno 2001 sino al 31 dicembre 2001 è stabilito un indennizzo regionale nella misura massima di L. 500.000 (euro 258,23) a capo.</corpo>
+						<corpo>
+							Per i bovini morti in azienda dall'11 novembre 2000 sino all'11 gennaio 2001 e dal 1 giugno 2001 sino al
+							<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">31 dicembre 2001</h:span>
+							<h:span id="h2" iniziovigore="t2">31 ottobre 2002</h:span>
+							è stabilito un indennizzo regionale nella misura massima di L. 500.000 (euro 258,23) a capo.
+						</corpo>
 					</comma>
 					<comma id="art2-com3">
 						<num>3.</num>
-						<corpo>Per gli ovicaprini morti in azienda dall'11 novembre 2000 sino al 31 dicembre 2001 è stabilito un indennizzo regionale nella misura massima di L. 120.000 (euro 61,97) a capo, al netto di eventuali indennizzi o contributi concessi all'allevatore allo stesso titolo.</corpo>
+						<corpo>
+							Per gli ovicaprini morti in azienda dall'11 novembre 2000 sino al
+							<h:span finevigore="t2" id="h3" iniziovigore="t1" status="abrogato">31 dicembre 2001</h:span>
+							<h:span id="h4" iniziovigore="t2">31 ottobre 2002</h:span>
+							è stabilito un indennizzo regionale nella misura massima di L. 120.000 (euro 61,97) a capo, al netto di eventuali indennizzi o contributi concessi all'allevatore allo stesso titolo.
+						</corpo>
 					</comma>
 					<comma id="art2-com4">
 						<num>4.</num>
@@ -117,6 +176,40 @@
 											<h:td>Cap. 20480</h:td>
 											<h:td>"Interventi a favore degli allevatori di bovini per fronteggiare la BSE"</h:td>
 											<h:td>L. 600.000.000</h:td>
+										</h:tr>
+									</h:tbody>
+								</h:table>
+							</corpo>
+						</ep>
+					</comma>
+					<comma id="art4-com1bis" iniziovigore="t2">
+						<num>1. bis</num>
+						<alinea>Agli oneri finanziari derivanti dalla presente legge relativi all'anno 2002 si fa fronte con la seguente variazione del bilancio di previsione dell'esercizio 2002:</alinea>
+						<ep id="art4-com1bis-pun1">
+							<num />
+							<corpo>
+								in diminuzione:
+								<h:table>
+									<h:tbody>
+										<h:tr>
+											<h:td>UPB n. 741</h:td>
+											<h:td>"Fondi speciali - Spese correnti"</h:td>
+											<h:td>euro 206.000,00</h:td>
+										</h:tr>
+									</h:tbody>
+								</h:table>
+							</corpo>
+						</ep>
+						<ep id="art4-com1bis-pun2">
+							<num />
+							<corpo>
+								in aumento:
+								<h:table>
+									<h:tbody>
+										<h:tr>
+											<h:td>UPB n. 521</h:td>
+											<h:td>"Interventi per lo sviluppo rurale, aiuti al reddito, agli investimenti e allo sviluppo delle imprese agricole, zootecniche e forestali - Spese correnti"</h:td>
+											<h:td>euro 206.000,00</h:td>
 										</h:tr>
 									</h:tbody>
 								</h:table>
