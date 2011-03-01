@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t7" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19990312" num="7" tipo="BURT" />
 					<entratainvigore norm="19990312" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t6" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1999-03-03;9" />
-					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1999-03-03;9@2001-04-24" />
+					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1999-03-03;9@2001-04-24" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1999-03-03;9@2003-02-04" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Commercio" />
 					</materie>
@@ -21,6 +22,7 @@
 						<evento data="19990312" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="19990312" fonte="ra4" id="t5" tipo="modifica" />
 						<evento data="20010519" fonte="rp1" id="t6" tipo="modifica" />
+						<evento data="20030626" fonte="rp2" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1999-03-03;9" xlink:type="simple" />
@@ -29,8 +31,20 @@
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1998-08-04;49" xlink:type="simple" />
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1996-01-02;3" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2001-04-24;21" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2003-02-04;10" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="LeggeRegionale1-n1">
+						<h:p>
+							Testo di legge abrogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2003-02-04;10#art16-com2-leta" xlink:type="simple">art. 16, comma 2 lettera a), della legge regionale 4 febbraio 2003, n. 10</rif>
+							, con decorrenza fissata alla data di entrata in vigore del regolamento previsto dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2003-02-04;10#art3-com1" xlink:type="simple">art. 3, comma 1, della stessa legge abrogante</rif>
+							. Detto regolamento, approvato con D.P.G.R. 4 giugno 2003, n. 29/R, è stato pubblicato su BURT n. 24 dell'11 giugno 2003.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:variazione completa="si" implicita="no">
@@ -96,6 +110,18 @@
 								<dsp:pos xlink:href="#art12-com4-t6" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1999-03-03;9" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-02-04;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-02-04;10#art16-com2-leta" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 16, comma 2, lettera a) della legge Regione Toscana 4 febbraio 2003, n. 10" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -105,7 +131,10 @@
 				<dataDoc norm="19990303">3 marzo 1999</dataDoc>
 				, n.
 				<numDoc>9</numDoc>
-				<titoloDoc>Norme in materia di commercio su aree pubbliche.</titoloDoc>
+				<titoloDoc>
+					Norme in materia di commercio su aree pubbliche.
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
+				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 26-01-1999</h:p>
