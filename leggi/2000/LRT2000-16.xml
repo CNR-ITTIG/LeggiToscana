@@ -8,7 +8,8 @@
 					<entratainvigore norm="20000321" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t11" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2000-02-25;16" />
-					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:2000-02-25;16@2001-11-19" />
+					<urn finevigore="t12" iniziovigore="t11" valore="urn:nir:regione.toscana:legge:2000-02-25;16@2001-11-19" />
+					<urn iniziovigore="t12" valore="urn:nir:regione.toscana:legge:2000-02-25;16@2003-03-03" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Assistenza Sanitaria" />
 					</materie>
@@ -26,6 +27,7 @@
 						<evento data="20000321" fonte="ra8" id="t9" tipo="modifica" />
 						<evento data="20000321" fonte="ra9" id="t10" tipo="modifica" />
 						<evento data="20011213" fonte="rp1" id="t11" tipo="modifica" />
+						<evento data="20030327" fonte="rp2" id="t12" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2000-02-25;16" xlink:type="simple" />
@@ -39,11 +41,19 @@
 						<attiva id="ra8" xlink:href="urn:nir:regione.toscana:legge:1995-04-18;67" xlink:type="simple" />
 						<attiva id="ra9" xlink:href="urn:nir:regione.toscana:legge:1996-03-15;19" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2001-11-19;58" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2003-03-03;15" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
 					<nota id="n1">
-						<h:p>Il numero dell'articolo è stato corretto con avviso di errata corrige pubblicato nel B.U.R.T. del 17 aprile 2000, n. 17, parte prima, pertanto adesso risulta essere 'articolo 55'.</h:p>
+						<h:p>
+							Come specificato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2003-03-03;15#art2" xlink:type="simple">art. 2 della legge regionale 3 marzo 2003 n. 15</rif>
+							, le disposizioni del presente comma hanno la validità di un anno a partire dalla data di entrata in vigore della medesima legge regionale.
+						</h:p>
+					</nota>
+					<nota id="n2">
+						<h:p>Il numero dell'articolo, inizialmente indicato come "56", è stato corretto con avviso di errata corrige pubblicato nel B.U.R.T. del 17 aprile 2000, n. 17.</h:p>
 					</nota>
 				</redazionale>
 				<disposizioni xlink:type="simple">
@@ -417,7 +427,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art18-com3" xlink:type="simple" />
+							<dsp:pos xlink:href="#art18-com3-t12" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-11-19;58" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-11-19;58#art8-com3" xlink:type="simple" />
 								<dsp:subarg>
@@ -425,7 +435,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art18-com3" xlink:type="simple" />
+								<dsp:pos xlink:href="#art18-com3-t12" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art18-com3-t11" xlink:type="simple" />
@@ -756,6 +766,21 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#h29" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art18-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-03-03;15" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-03-03;15#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 3 marzo 2003, n. 15" id="itt43" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art18-com3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art18-com3-t12" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -1677,7 +1702,7 @@
 								<num>3.</num>
 								<corpo>La Giunta regionale approva la graduatoria degli idonei, provvede all'interpello e all'assegnazione delle sedi messe a concorso. In pari tempo comunica i risultati della procedura concorsuale ai Sindaci ed alle Aziende UUSSLL interessati.</corpo>
 							</comma>
-							<comma id="art18-com3" iniziovigore="t11">
+							<comma finevigore="t12" id="art18-com3-t12" iniziovigore="t11" status="abrogato">
 								<num>3.</num>
 								<corpo>
 									Il dirigente del competente ufficio della Giunta regionale approva la graduatoria degli idonei, provvede all'interpello e, successivamente alla accettazione di cui all'
@@ -1685,6 +1710,17 @@
 									(Regolamento per l'esecuzione della
 									<rif xlink:href="urn:nir:stato:legge:1968-04-02;475" xlink:type="simple">legge 2 aprile 1968, n. 475</rif>
 									, recante norme concernenti il servizio farmaceutico), provvede all'assegnazione delle sedi messe a concorso. Le sedi bandite nel concorso stesso eventualmente resesi disponibili fino alla pubblicazione sul BURT della revisione della pianta organica, sono assegnate secondo l'ordine di graduatoria agli altri candidati che non siano già assegnatari ai sensi del periodo precedente. Il dirigente dei competente ufficio della Giunta regionale comunica i risultati della procedura concorsuale ai Sindaci ed alle Aziende USL interessati.
+								</corpo>
+							</comma>
+							<comma id="art18-com3" iniziovigore="t12">
+								<num>3.</num>
+								<corpo>
+									Il dirigente del competente ufficio della Giunta regionale approva la graduatoria degli idonei, provvede all'interpello e, successivamente alla accettazione di cui all'
+									<rif xlink:href="urn:nir:presidente.repubblica:decreto:1971-08-21;1275#art9" xlink:type="simple">articolo 9 del decreto del Presidente della Repubblica 21 agosto 1971, n. 1275</rif>
+									(Regolamento per l'esecuzione della
+									<rif xlink:href="urn:nir:stato:legge:1968-04-02;475" xlink:type="simple">legge 2 aprile 1968, n. 475</rif>
+									, recante norme concernenti il servizio farmaceutico), provvede all'assegnazione delle sedi messe a concorso. Le sedi bandite nel concorso stesso eventualmente resesi disponibili sono assegnate secondo l'ordine di graduatoria agli altri candidati che non siano già assegnatari. Le graduatorie dei concorsi per sedi farmaceutiche e farmacie succursali hanno una validità di tre anni dalla pubblicazione sul bollettino ufficiale della Regione delle graduatorie medesime. Il dirigente del competente ufficio della Giunta regionale comunica i risultati della procedura concorsuale ai Sindaci ed alle Aziende USL interessati.
+									<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
 								</corpo>
 							</comma>
 						</articolo>
@@ -2944,18 +2980,18 @@
 					<num>TITOLO III</num>
 					<rubrica>DISPOSIZIONI FINALI</rubrica>
 				</titolo>
-				<articolo id="art56">
+				<articolo id="art55">
 					<num>
-						ARTICOLO 56
-						<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+						ARTICOLO 55
+						<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
 					</num>
 					<rubrica>(Abrogazioni)</rubrica>
-					<comma id="art56-com1">
+					<comma id="art55-com1">
 						<num>1.</num>
 						<alinea>
 							<mod id="mod1">Sono abrogate le seguenti leggi regionali:</mod>
 						</alinea>
-						<el id="art56-com1-leta">
+						<el id="art55-com1-leta">
 							<num>a)</num>
 							<corpo>
 								<mod id="mod2">
@@ -2964,7 +3000,7 @@
 								</mod>
 							</corpo>
 						</el>
-						<el id="art56-com1-letb">
+						<el id="art55-com1-letb">
 							<num>b)</num>
 							<corpo>
 								<mod id="mod3">
@@ -2982,7 +3018,7 @@
 								</mod>
 							</corpo>
 						</el>
-						<el id="art56-com1-letc">
+						<el id="art55-com1-letc">
 							<num>c)</num>
 							<corpo>
 								<mod id="mod4">
@@ -2991,7 +3027,7 @@
 								</mod>
 							</corpo>
 						</el>
-						<el id="art56-com1-letd">
+						<el id="art55-com1-letd">
 							<num>d)</num>
 							<corpo>
 								<mod id="mod5">
@@ -3000,7 +3036,7 @@
 								</mod>
 							</corpo>
 						</el>
-						<el id="art56-com1-lete">
+						<el id="art55-com1-lete">
 							<num>e)</num>
 							<corpo>
 								<mod id="mod6">
@@ -3009,7 +3045,7 @@
 								</mod>
 							</corpo>
 						</el>
-						<el id="art56-com1-letf">
+						<el id="art55-com1-letf">
 							<num>f)</num>
 							<corpo>
 								<mod id="mod7">
@@ -3020,7 +3056,7 @@
 								</mod>
 							</corpo>
 						</el>
-						<el id="art56-com1-letg">
+						<el id="art55-com1-letg">
 							<num>g)</num>
 							<corpo>
 								<mod id="mod8">
@@ -3031,7 +3067,7 @@
 								</mod>
 							</corpo>
 						</el>
-						<el id="art56-com1-leth">
+						<el id="art55-com1-leth">
 							<num>h)</num>
 							<corpo>
 								<mod id="mod9">
@@ -3040,7 +3076,7 @@
 								</mod>
 							</corpo>
 						</el>
-						<el id="art56-com1-leti">
+						<el id="art55-com1-leti">
 							<num>i)</num>
 							<corpo>
 								<mod id="mod10">
