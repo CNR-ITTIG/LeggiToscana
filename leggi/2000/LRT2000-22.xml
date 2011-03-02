@@ -8,7 +8,8 @@
 					<entratainvigore norm="20000401" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t8" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2000-03-08;22" />
-					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:2000-03-08;22@2001-10-31" />
+					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:2000-03-08;22@2001-10-31" />
+					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:2000-03-08;22@2003-02-26" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Assistenza Sanitaria" />
 					</materie>
@@ -23,6 +24,7 @@
 						<evento data="20000401" fonte="ra5" id="t6" tipo="modifica" />
 						<evento data="20000401" fonte="ra6" id="t7" tipo="modifica" />
 						<evento data="20011122" fonte="rp1" id="t8" tipo="modifica" />
+						<evento data="20030301" fonte="rp2" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2000-03-08;22" xlink:type="simple" />
@@ -33,6 +35,7 @@
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1998-09-30;71" xlink:type="simple" />
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1998-09-30;72" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2003-02-26;14" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -123,6 +126,18 @@
 								<dsp:pos xlink:href="#h1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art11-com5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-02-26;14" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-02-26;14#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 26 febbraio 2003, n. 14" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art11-com5bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -496,15 +511,23 @@
 						<comma id="art4-com9">
 							<num>9.</num>
 							<corpo>
-								In relazione alle finalità di cui alle lettere a) e b), del
-								<rif xlink:href="#art4-com8" xlink:type="simple">comma 8</rif>
+								In relazione alle finalità di cui alle
+								<mrif>
+									lettere
+									<rif xlink:href="#art4-com8-leta" xlink:type="simple">a)</rif>
+									e
+									<rif xlink:href="#art4-com8-letb" xlink:type="simple">b),</rif>
+									del comma 8
+								</mrif>
 								, le Aziende sanitarie pubbliche prevedono forme e modalità per l'integrazione tra presidi che consentano la fruizione appropriata e condivisa dei servizi sanitari territoriali di zona e dei servizi ospedalieri in rete e sviluppano relazioni organiche a livello nazionale ed internazionale con altre strutture sanitarie.
 							</corpo>
 						</comma>
 						<comma id="art4-com10">
 							<num>10.</num>
 							<corpo>
-								I principi sopra indicati vengono resi operativi attraverso gli specifici rapporti di cui all'art. 8 e seguenti del decreto delegato e la garanzia della loro attuazione rappresenta uno dei requisiti essenziali ai fini dell'accreditamento di cui alla
+								I principi sopra indicati vengono resi operativi attraverso gli specifici rapporti di cui all'
+								<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502#art8" xlink:type="simple">art. 8 e seguenti del decreto delegato</rif>
+								e la garanzia della loro attuazione rappresenta uno dei requisiti essenziali ai fini dell'accreditamento di cui alla
 								<rif xlink:href="urn:nir:regione.toscana:legge:1999-02-23;8" xlink:type="simple">LR 23 febbraio 1999, n. 8</rif>
 								e successive modificazioni.
 							</corpo>
@@ -675,7 +698,9 @@
 								<corpo>
 									Le Aziende unità sanitarie locali di cui all'
 									<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502#art3" xlink:type="simple">art. 3 del decreto delegato</rif>
-									e i relativi ambiti territoriali sono individuati nell'allegato 1 alla presente legge della quale costituisce parte integrante.
+									e i relativi ambiti territoriali sono individuati nell'
+									<rif xlink:href="#ann1" xlink:type="simple">allegato 1</rif>
+									alla presente legge della quale costituisce parte integrante.
 								</corpo>
 							</comma>
 							<comma id="art9-com2">
@@ -713,7 +738,9 @@
 							<comma id="art9-com4">
 								<num>4.</num>
 								<corpo>
-									Ciascuna Azienda unità sanitaria locale si articola nelle zone individuate dall'allegato 1, di cui al
+									Ciascuna Azienda unità sanitaria locale si articola nelle zone individuate dall'
+									<rif xlink:href="#ann1" xlink:type="simple">allegato 1</rif>
+									, di cui al
 									<rif xlink:href="#art9-com1" xlink:type="simple">comma 1</rif>
 									. L'ambito di ogni zona ricomprende per intero uno o più distretti.
 								</corpo>
@@ -725,7 +752,9 @@
 							<comma id="art10-com1">
 								<num>1.</num>
 								<corpo>
-									Le Aziende ospedaliere di cui all'allegato 2 alla presente legge, già costituite con
+									Le Aziende ospedaliere di cui all'
+									<rif xlink:href="#ann2" xlink:type="simple">allegato 2</rif>
+									alla presente legge, già costituite con
 									<rif xlink:href="urn:nir:regione.toscana:legge:1994-06-29;49" xlink:type="simple">legge regionale 29 giugno 1994, n. 49</rif>
 									, secondo il procedimento disciplinato dall'
 									<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502#art4" xlink:type="simple">art. 4, comma 1 e 2, del decreto delegato</rif>
@@ -794,6 +823,18 @@
 									.
 								</corpo>
 							</comma>
+							<comma id="art11-com5bis" iniziovigore="t9">
+								<num>5 bis.</num>
+								<corpo>
+									Agli amministratori delle società costituite ai sensi del
+									<rif xlink:href="#art11-com5" xlink:type="simple">comma 5</rif>
+									, che siano dipendenti della Regione, di enti e aziende regionali, nonché di enti e aziende del servizio sanitario regionale, si applicano le disposizioni dell'
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:2001-03-30;165#art23bis" xlink:type="simple">articolo 23 bis del decreto legislativo 30 marzo 2001, n. 165</rif>
+									(Norme generali sull'ordinamento del lavoro alle dipendenze delle amministrazioni pubbliche), come modificato dalla
+									<rif xlink:href="urn:nir:stato:legge:2002-07-15;145" xlink:type="simple">legge 15 luglio 2002, n. 145</rif>
+									.
+								</corpo>
+							</comma>
 							<comma id="art11-com6">
 								<num>6.</num>
 								<corpo>È fatto obbligo alle Aziende di sottoporre preventivamente alla Giunta regionale lo schema dello statuto della società che si intende costituire, unicamente ad una relazione illustrativa circa le finalità, il funzionamento ed i risultati economici e gestionali attesi. La Giunta regionale propone l'atto conseguente al Consiglio regionale che l'approva entro i successivi 30 giorni.</corpo>
@@ -816,11 +857,7 @@
 							</comma>
 							<comma id="art12-com3">
 								<num>3.</num>
-								<corpo>
-									La Giunta regionale esercita le attività di controllo e vigilanza, promozione e supporto nei confronti delle Aziende unità sanitarie locali e delle Aziende ospedaliere. La Giunta regionale approva gli atti di bilancio delle Aziende sanitarie, nonché il piano attuativo delle Aziende ospedaliere. La Giunta regionale esprime inoltre il proprio parere sullo schema di
-									<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502" xlink:type="simple">statuto aziendale</rif>
-									.
-								</corpo>
+								<corpo>La Giunta regionale esercita le attività di controllo e vigilanza, promozione e supporto nei confronti delle Aziende unità sanitarie locali e delle Aziende ospedaliere. La Giunta regionale approva gli atti di bilancio delle Aziende sanitarie, nonché il piano attuativo delle Aziende ospedaliere. La Giunta regionale esprime inoltre il proprio parere sullo schema di statuto aziendale.</corpo>
 							</comma>
 						</articolo>
 						<articolo id="art13">
@@ -932,7 +969,17 @@
 							</comma>
 							<comma id="art15-com6">
 								<num>6.</num>
-								<corpo>I membri della Conferenza permanente per la programmazione socio sanitaria di cui al comma 4, lett. c) d) ed e) sono nominati con decreto del Presidente della Giunta regionale su designazione delle rispettive associazioni.</corpo>
+								<corpo>
+									I membri della Conferenza permanente per la programmazione socio sanitaria di cui al
+									<mrif>
+										comma 4, lett.
+										<rif xlink:href="#art15-com4-letc" xlink:type="simple">c)</rif>
+										<rif xlink:href="#art15-com4-letd" xlink:type="simple">d)</rif>
+										ed
+										<rif xlink:href="#art15-com4-lete" xlink:type="simple">e)</rif>
+									</mrif>
+									sono nominati con decreto del Presidente della Giunta regionale su designazione delle rispettive associazioni.
+								</corpo>
 							</comma>
 							<comma id="art15-com7">
 								<num>7.</num>
@@ -1041,9 +1088,7 @@
 								<corpo>
 									Nell'individuazione della dislocazione delle strutture del Servizio sanitario regionale, gli atti della programmazione regionale tengono conto delle strutture universitarie, secondo quanto previsto dal
 									<rif xlink:href="urn:nir:stato:decreto.legislativo:1999;517" xlink:type="simple">DLgs 517/1999</rif>
-									. L'attuazione dei protocolli d'intesa per le attività assistenziali è disciplinata dallo
-									<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502" xlink:type="simple">statuto aziendale</rif>
-									, nonché da eventuali accordi previsti dallo statuto medesimo; per le attività formative gli accordi attuativi sono stipulati tra l'Università e le Aziende sanitarie interessate.
+									. L'attuazione dei protocolli d'intesa per le attività assistenziali è disciplinata dallo statuto aziendale, nonché da eventuali accordi previsti dallo statuto medesimo; per le attività formative gli accordi attuativi sono stipulati tra l'Università e le Aziende sanitarie interessate.
 								</corpo>
 							</comma>
 							<comma id="art17-com4">
@@ -1075,8 +1120,13 @@
 									<num>a)</num>
 									<corpo>
 										relativamente alle attività assistenziali, degli elementi costitutivi delle Aziende ospedaliere, dei criteri di costituzione delle strutture organizzativi di cui all'
-										<rif xlink:href="#art52-com5" xlink:type="simple">art. 52</rif>
-										, comma 5 e 6, nonché degli ulteriori contenuti che caratterizzano i rapporti tra Università e Servizio sanitario regionale, individuati dal
+										<mrif>
+											art. 52, comma
+											<rif xlink:href="#art52-com5" xlink:type="simple">5</rif>
+											e
+											<rif xlink:href="#art52-com6" xlink:type="simple">6</rif>
+										</mrif>
+										, nonché degli ulteriori contenuti che caratterizzano i rapporti tra Università e Servizio sanitario regionale, individuati dal
 										<rif xlink:href="urn:nir:stato:decreto.legislativo:1999;517" xlink:type="simple">D.lgs 517/1999</rif>
 										e dagli atti della programmazione sanitaria regionale;
 									</corpo>
@@ -1127,7 +1177,11 @@
 								<alinea>È competenza della Regione, nell'ambito del piano sanitario regionale:</alinea>
 								<el id="art19-com2-leta">
 									<num>a)</num>
-									<corpo>assicurare il coordinamento ed il monitoraggio delle attività relative alla definizione degli indicatori ed alla verifica degli standard di qualità di cui all'art. 14, comma 1, del decreto delegato;</corpo>
+									<corpo>
+										assicurare il coordinamento ed il monitoraggio delle attività relative alla definizione degli indicatori ed alla verifica degli standard di qualità di cui all'
+										<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502#art14-com1" xlink:type="simple">art. 14, comma 1, del decreto delegato</rif>
+										;
+									</corpo>
 								</el>
 								<el id="art19-com2-letb">
 									<num>b)</num>
@@ -1371,7 +1425,11 @@
 								</el>
 								<el id="art22-com1-lett">
 									<num>t)</num>
-									<corpo>i criteri per l'individuazione delle prestazioni di ricovero e di specialistica ambulatoriale erogabili in forma indiretta e della misura del rimborso a carico del Servizio sanitario regionale, secondo il disposto dell'art. 8-septies del decreto delegato.</corpo>
+									<corpo>
+										i criteri per l'individuazione delle prestazioni di ricovero e di specialistica ambulatoriale erogabili in forma indiretta e della misura del rimborso a carico del Servizio sanitario regionale, secondo il disposto dell'
+										<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502#art8septies" xlink:type="simple">art. 8-septies del decreto delegato</rif>
+										.
+									</corpo>
 								</el>
 							</comma>
 							<comma id="art22-com2">
@@ -1807,7 +1865,9 @@
 							<comma id="art31-com2">
 								<num>2.</num>
 								<corpo>
-									La Giunta regionale provvede annualmente ad anticipare alle Aziende ospedaliere, nella misura determinata dal piano sanitario regionale, ai sensi dell'art. 4 del decreto delegato, una quota del fondo assegnato alle Aziende unità sanitarie locali ai sensi dell'
+									La Giunta regionale provvede annualmente ad anticipare alle Aziende ospedaliere, nella misura determinata dal piano sanitario regionale, ai sensi dell'
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502#art4" xlink:type="simple">art. 4 del decreto delegato</rif>
+									, una quota del fondo assegnato alle Aziende unità sanitarie locali ai sensi dell'
 									<rif xlink:href="#art28" xlink:type="simple">art. 28</rif>
 									in proporzione alla mobilità sanitaria registrata nell'esercizio precedente valorizzata ai sensi del
 									<rif xlink:href="#art31-com1" xlink:type="simple">comma 1</rif>
@@ -1941,18 +2001,12 @@
 										<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502#art3bis" xlink:type="simple">3-bis</rif>
 										del decreto delegato
 									</mrif>
-									. Il direttore generale è tenuto ad assicurare il regolare funzionamento dell'Azienda; a tal fine adotta lo
-									<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502" xlink:type="simple">statuto aziendale</rif>
-									.
+									. Il direttore generale è tenuto ad assicurare il regolare funzionamento dell'Azienda; a tal fine adotta lo statuto aziendale.
 								</corpo>
 							</comma>
 							<comma id="art36-com2">
 								<num>2.</num>
-								<corpo>
-									Il direttore generale esercita le proprie funzioni direttamente ovvero delegandole nelle forme e secondo le modalità previste dallo
-									<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502" xlink:type="simple">statuto aziendale</rif>
-									.
-								</corpo>
+								<corpo>Il direttore generale esercita le proprie funzioni direttamente ovvero delegandole nelle forme e secondo le modalità previste dallo statuto aziendale.</corpo>
 							</comma>
 							<comma id="art36-com3">
 								<num>3.</num>
@@ -1979,11 +2033,7 @@
 								</el>
 								<el id="art36-com3-letd">
 									<num>d)</num>
-									<corpo>
-										lo
-										<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502" xlink:type="simple">statuto aziendale</rif>
-										;
-									</corpo>
+									<corpo>lo statuto aziendale;</corpo>
 								</el>
 								<el id="art36-com3-lete">
 									<num>e)</num>
@@ -2129,7 +2179,9 @@
 								<corpo>
 									Per le Aziende ospedaliere i protocolli d'intesa di cui all'
 									<rif xlink:href="urn:nir:stato:decreto.legislativo:1999;517#art4-com2" xlink:type="simple">art. 4, comma 2, del DLgs 517/1999</rif>
-									tra Regione e Università disciplinano i procedimenti di verifica dei risultati dell'attività dei direttori generali e le relative procedure di conferma e revoca, sulla base dei principi di cui all'art. 3-bis del decreto delegato.
+									tra Regione e Università disciplinano i procedimenti di verifica dei risultati dell'attività dei direttori generali e le relative procedure di conferma e revoca, sulla base dei principi di cui all'
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502#art3bis" xlink:type="simple">art. 3-bis del decreto delegato</rif>
+									.
 								</corpo>
 							</comma>
 							<comma id="art38-com9">
@@ -2583,9 +2635,7 @@
 										e
 										<rif xlink:href="#art26" xlink:type="simple">26</rif>
 									</mrif>
-									, nonché sulle materie individuate dallo
-									<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502" xlink:type="simple">statuto aziendale</rif>
-									nel rispetto delle disposizioni di cui all'
+									, nonché sulle materie individuate dallo statuto aziendale nel rispetto delle disposizioni di cui all'
 									<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502#art3-com12" xlink:type="simple">art. 3, comma 12, del decreto delegato</rif>
 									. Il consiglio dei sanitari si esprime entro il termine di 10 giorni dal ricevimento dei provvedimenti o delle richieste di parere. Il direttore generale è tenuto a motivare i provvedimenti assunti in difformità dal parere reso dal consiglio dei sanitari.
 								</corpo>
@@ -2628,11 +2678,7 @@
 							<rubrica>(Statuto aziendale)</rubrica>
 							<comma id="art46-com1">
 								<num>1.</num>
-								<alinea>
-									Sono contenuti nello
-									<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502" xlink:type="simple">statuto aziendale</rif>
-									:
-								</alinea>
+								<alinea>Sono contenuti nello statuto aziendale:</alinea>
 								<el id="art46-com1-leta">
 									<num>a)</num>
 									<corpo>la sede legale dell'Azienda;</corpo>
@@ -2688,27 +2734,15 @@
 							</comma>
 							<comma id="art46-com4">
 								<num>4.</num>
-								<corpo>
-									Lo
-									<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502" xlink:type="simple">statuto aziendale</rif>
-									, ai fini della delega, disciplina forme di pubblicità dei provvedimenti con cui la stessa è conferita e revocata, nonché l'esercizio dei poteri sostitutivi da parte del direttore generale, in caso di inerzia o di adozione di atti ritenuti illegittimi o inopportuni. Per la delega di atti al responsabile di zona il regolamento dell'Azienda unità sanitaria locale prevede altresì le modalità dì vigilanza e controllo del direttore generale sugli atti delegati.
-								</corpo>
+								<corpo>Lo statuto aziendale, ai fini della delega, disciplina forme di pubblicità dei provvedimenti con cui la stessa è conferita e revocata, nonché l'esercizio dei poteri sostitutivi da parte del direttore generale, in caso di inerzia o di adozione di atti ritenuti illegittimi o inopportuni. Per la delega di atti al responsabile di zona il regolamento dell'Azienda unità sanitaria locale prevede altresì le modalità dì vigilanza e controllo del direttore generale sugli atti delegati.</corpo>
 							</comma>
 							<comma id="art46-com5">
 								<num>5.</num>
-								<corpo>
-									Lo
-									<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502" xlink:type="simple">statuto aziendale</rif>
-									delle Aziende ospedaliere, tiene conto della presenza delle attività assistenziali disciplinate dai protocolli d'intesa fra Regione e Università.
-								</corpo>
+								<corpo>Lo statuto aziendale delle Aziende ospedaliere, tiene conto della presenza delle attività assistenziali disciplinate dai protocolli d'intesa fra Regione e Università.</corpo>
 							</comma>
 							<comma id="art46-com6">
 								<num>6.</num>
-								<corpo>
-									Lo schema di
-									<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502" xlink:type="simple">statuto aziendale</rif>
-									è trasmesso dal direttore generale alla Giunta regionale allo scopo di acquisire il parere sulla coerenza dell'atto stesso con la programmazione regionale, nonché con i principi ed i criteri stabiliti dalla presente legge. La Giunta esprime il parere entro 30 giorni dalla data dì ricevimento; decorso tale termine il direttore generale procede.
-								</corpo>
+								<corpo>Lo schema di statuto aziendale è trasmesso dal direttore generale alla Giunta regionale allo scopo di acquisire il parere sulla coerenza dell'atto stesso con la programmazione regionale, nonché con i principi ed i criteri stabiliti dalla presente legge. La Giunta esprime il parere entro 30 giorni dalla data dì ricevimento; decorso tale termine il direttore generale procede.</corpo>
 							</comma>
 						</articolo>
 					</capo>
@@ -2724,11 +2758,7 @@
 							<rubrica>(Principi e finalità dell'organizzazione)</rubrica>
 							<comma id="art47-com1">
 								<num>1.</num>
-								<corpo>
-									Le Aziende sanitarie, nel rispetto delle norme contenute nella presente legge, provvedono in merito alla specifica determinazione dell'organizzazione mediante lo
-									<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502" xlink:type="simple">statuto aziendale</rif>
-									.
-								</corpo>
+								<corpo>Le Aziende sanitarie, nel rispetto delle norme contenute nella presente legge, provvedono in merito alla specifica determinazione dell'organizzazione mediante lo statuto aziendale.</corpo>
 							</comma>
 							<comma id="art47-com2">
 								<num>2.</num>
@@ -2824,11 +2854,7 @@
 							</comma>
 							<comma id="art48-com3">
 								<num>3.</num>
-								<corpo>
-									La pianificazione strategica è la funzione con la quale la direzione aziendale, avvalendosi dei responsabili delle strutture organizzativi competenti, anche attivando appositi gruppi di lavoro, definisce gli obiettivi generali dell'Azienda, le strategie per il loro raggiungimento, lo sviluppo dei servizi ospedalieri in rete e l'assetto organizzativo dell'Azienda. Sono atti di pianificazione strategica i piani attuativi, gli atti di bilancio, lo
-									<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502" xlink:type="simple">statuto aziendale</rif>
-									.
-								</corpo>
+								<corpo>La pianificazione strategica è la funzione con la quale la direzione aziendale, avvalendosi dei responsabili delle strutture organizzativi competenti, anche attivando appositi gruppi di lavoro, definisce gli obiettivi generali dell'Azienda, le strategie per il loro raggiungimento, lo sviluppo dei servizi ospedalieri in rete e l'assetto organizzativo dell'Azienda. Sono atti di pianificazione strategica i piani attuativi, gli atti di bilancio, lo statuto aziendale.</corpo>
 							</comma>
 							<comma id="art48-com4">
 								<num>4.</num>
@@ -3021,7 +3047,11 @@
 								<alinea>La responsabilità dell'unità operativa è attribuita dal direttore generale:</alinea>
 								<el id="art53-com1-leta">
 									<num>a)</num>
-									<corpo>ad un dirigente del ruolo sanitario per le unità operative titolari di funzioni operative sanitarie, ai sensi dell'articolo 15-quater del decreto delegato;</corpo>
+									<corpo>
+										ad un dirigente del ruolo sanitario per le unità operative titolari di funzioni operative sanitarie, ai sensi dell'
+										<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502#art15quater" xlink:type="simple">articolo 15-quater del decreto delegato</rif>
+										;
+									</corpo>
 								</el>
 								<el id="art53-com1-letb">
 									<num>b)</num>
@@ -3171,7 +3201,15 @@
 									<num>b)</num>
 									<corpo>
 										un laureato con esperienza acquisita per almeno un quinquennio in funzioni dirigenziali apicali presso organismi ed Enti pubblici o privati o Aziende e strutture pubbliche o private. Il rapporto di lavoro dell'incaricato è regolato con contratto stipulato ai sensi dell'
-										<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502#art15septies" xlink:type="simple">art. 15-septies, comma 1, 3 e 4, del decreto delegato</rif>
+										<mrif>
+											articolo 15-septies, comma
+											<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502#art15septies-com1" xlink:type="simple">1</rif>
+											,
+											<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502#art15septies-com3" xlink:type="simple">3</rif>
+											e
+											<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502#art15septies-com4" xlink:type="simple">4</rif>
+											del decreto delegato
+										</mrif>
 										. Con riferimento a tali incarichi, da parte dell'Azienda unità sanitaria locale interessata è data applicazione al disposto dell'
 										<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502#art15septies-com5" xlink:type="simple">art. 15-septies, comma 5 del decreto delegato</rif>
 										.
@@ -3400,7 +3438,9 @@
 								<el id="art56-com7-letd">
 									<num>d)</num>
 									<alinea>
-										ai sensi dell'ultimo periodo del comma 1 dell'art. 3-quater del decreto delegato, le deroghe alla soglia minima di cui alla
+										ai sensi dell'ultimo periodo del
+										<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502#art3quater-com1" xlink:type="simple">comma 1 dell'art. 3-quater del decreto delegato</rif>
+										, le deroghe alla soglia minima di cui alla
 										<rif xlink:href="#art56-com7-letc" xlink:type="simple">lett. c)</rif>
 										sono determinate in riferimento alle zone di cui all'
 										<rif xlink:href="#art2-com1-letv" xlink:type="simple">art. 2, comma 1, lett. v)</rif>
@@ -3787,9 +3827,7 @@
 							<comma id="art60-com1">
 								<num>1.</num>
 								<corpo>
-									Ogni Azienda ospedaliera definisce con lo
-									<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502" xlink:type="simple">statuto aziendale</rif>
-									l'organizzazione delle proprie strutture professionali nei dipartimenti, di cui all'
+									Ogni Azienda ospedaliera definisce con lo statuto aziendale l'organizzazione delle proprie strutture professionali nei dipartimenti, di cui all'
 									<rif xlink:href="#art2-com1-letg" xlink:type="simple">art. 2, comma 1, lett. g)</rif>
 									, ai sensi dell'
 									<rif xlink:href="urn:nir:stato:decreto.legislativo:1999;517#art3" xlink:type="simple">art. 3 del DLgs 517/1999</rif>
@@ -3799,7 +3837,9 @@
 							<comma id="art60-com2">
 								<num>2.</num>
 								<corpo>
-									Per ciascuna struttura semplice o complessa il direttore generale nomina un responsabile, e per ciascun dipartimento nomina un direttore. Alle nomine dei responsabili di struttura e dei direttori di dipartimento il direttore generale procede secondo le disposizioni del decreto delegato e di quanto previsto dall'
+									Per ciascuna struttura semplice o complessa il direttore generale nomina un responsabile, e per ciascun dipartimento nomina un direttore. Alle nomine dei responsabili di struttura e dei direttori di dipartimento il direttore generale procede secondo le disposizioni del
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502" xlink:type="simple">decreto delegato</rif>
+									e di quanto previsto dall'
 									<rif xlink:href="urn:nir:stato:decreto.legislativo:1999;517#art5" xlink:type="simple">art. 5 del DLgs 517/1999</rif>
 									.
 								</corpo>
@@ -3949,7 +3989,9 @@
 								<corpo>
 									I presidi del Servizio sanitario regionale sono costituiti da quelli delle istituzioni sanitarie pubbliche e delle istituzioni di cui all'
 									<rif xlink:href="#art18" xlink:type="simple">art. 18</rif>
-									presenti sul territorio regionale, nonché delle istituzioni sanitarie private accreditate, con le quali le Aziende sanitarie intrattengono gli specifici rapporti di cui all'art. 8 del decreto delegato.
+									presenti sul territorio regionale, nonché delle istituzioni sanitarie private accreditate, con le quali le Aziende sanitarie intrattengono gli specifici rapporti di cui all'
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502#art8" xlink:type="simple">art. 8 del decreto delegato</rif>
+									.
 								</corpo>
 							</comma>
 							<comma id="art63-com2">
@@ -4015,7 +4057,9 @@
 								<corpo>
 									Per le prestazioni di cui al
 									<rif xlink:href="#art65-com1" xlink:type="simple">comma 1</rif>
-									, l'Azienda unità sanitaria locale si avvale dei presidi di cui all'art. 8 bis del decreto delegato per favorire l'esercizio del diritto di libera scelta dell'utente. Gli oneri relativi, al netto delle quote di partecipazione previste, fanno carico, per i cittadini residenti nelle altre Aziende unità sanitarie locali della regione, a queste ultime, e per gli altri utenti, agli appositi fondi di compensazione per la mobilità interregionale o internazionale, secondo le procedure e le modalità previste dalla legislazione vigente.
+									, l'Azienda unità sanitaria locale si avvale dei presidi di cui all'
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502#art8bis" xlink:type="simple">art. 8 bis del decreto delegato</rif>
+									per favorire l'esercizio del diritto di libera scelta dell'utente. Gli oneri relativi, al netto delle quote di partecipazione previste, fanno carico, per i cittadini residenti nelle altre Aziende unità sanitarie locali della regione, a queste ultime, e per gli altri utenti, agli appositi fondi di compensazione per la mobilità interregionale o internazionale, secondo le procedure e le modalità previste dalla legislazione vigente.
 								</corpo>
 							</comma>
 							<comma id="art65-com3">
@@ -4065,7 +4109,9 @@
 								<corpo>
 									L'accesso all'assistenza farmaceutica è disciplinato dalle convenzioni di cui all'
 									<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502#art8-com2" xlink:type="simple">art. 8, comma 2, del decreto delegato</rif>
-									. Le modalità di fruizione delle prestazioni dei medici di medicina generale e dei pediatri di libera scelta sono disciplinate dalle convenzioni di cui all'art. 8, comma 1, del decreto delegato. L'accesso alle prestazioni erogate dai professionisti di cui all'art. 8, comma 8, disciplinato sulla base degli appositi rapporti previsti, è subordinato all'apposita prescrizione, proposta o richiesta compilata sul modulario del Servizio sanitario nazionale.
+									. Le modalità di fruizione delle prestazioni dei medici di medicina generale e dei pediatri di libera scelta sono disciplinate dalle convenzioni di cui all'
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502#art8-com1" xlink:type="simple">art. 8, comma 1, del decreto delegato</rif>
+									. L'accesso alle prestazioni erogate dai professionisti di cui all'art. 8, comma 8, disciplinato sulla base degli appositi rapporti previsti, è subordinato all'apposita prescrizione, proposta o richiesta compilata sul modulario del Servizio sanitario nazionale.
 								</corpo>
 							</comma>
 							<comma id="art66-com4">
@@ -4202,7 +4248,16 @@
 							</comma>
 							<comma id="art69-com3">
 								<num>3.</num>
-								<alinea>Al fine di espletare le funzioni di cui ai comma 1 e 2, l'A.R.S. può:</alinea>
+								<alinea>
+									Al fine di espletare le funzioni di cui ai
+									<mrif>
+										comma
+										<rif xlink:href="#art69-com1" xlink:type="simple">1</rif>
+										e
+										<rif xlink:href="#art69-com2" xlink:type="simple">2</rif>
+									</mrif>
+									, l'A.R.S. può:
+								</alinea>
 								<el id="art69-com3-leta">
 									<num>a)</num>
 									<corpo>effettuare sopralluoghi, acquisire notizie e documentazioni;</corpo>
@@ -4328,8 +4383,13 @@
 								<num>5.</num>
 								<corpo>
 									Le sedute sono valide con la presenza della maggioranza dei consiglieri e ad esse partecipano, senza diritto di voto, i coordinatori degli osservatori e il segretario dell'A.R.S. Le deliberazioni sono adottate a maggioranza dei consiglieri presenti salvo quanto previsto dall'
-									<rif xlink:href="#art74-com1" xlink:type="simple">art. 74, comma 1</rif>
-									, lettere b) e g).
+									<mrif>
+										articolo 74, comma 1, lettere
+										<rif xlink:href="#art74-com1-letb" xlink:type="simple">b)</rif>
+										e
+										<rif xlink:href="#art74-com1-letg" xlink:type="simple">g)</rif>
+									</mrif>
+									.
 								</corpo>
 							</comma>
 						</articolo>
@@ -5076,8 +5136,21 @@
 								<num>3.</num>
 								<corpo>
 									I membri di cui al
-									<rif xlink:href="#art94-com1-letb" xlink:type="simple">comma 1</rif>
-									, lett. b) , c), d), e), f) e g) durano in carica dalla data di nomina o di elezione fino a quella di insediamento del Consiglio regionale.
+									<mrif>
+										comma 1, lett.
+										<rif xlink:href="#art94-com1-letb" xlink:type="simple">b)</rif>
+										,
+										<rif xlink:href="#art94-com1-letc" xlink:type="simple">c)</rif>
+										,
+										<rif xlink:href="#art94-com1-letd" xlink:type="simple">d)</rif>
+										,
+										<rif xlink:href="#art94-com1-lete" xlink:type="simple">e)</rif>
+										,
+										<rif xlink:href="#art94-com1-letf" xlink:type="simple">f)</rif>
+										e
+										<rif xlink:href="#art94-com1-letg" xlink:type="simple">g)</rif>
+									</mrif>
+									durano in carica dalla data di nomina o di elezione fino a quella di insediamento del Consiglio regionale.
 								</corpo>
 							</comma>
 							<comma id="art94-com4">
@@ -5098,8 +5171,17 @@
 									I membri del C.S.R. sono nominati dal Consiglio regionale, su proposta della Giunta regionale fatta eccezione degli esperti di cui al
 									<rif xlink:href="#art94-com1-letg" xlink:type="simple">comma 1, lett. g)</rif>
 									. A tal fine le designazioni dei componenti di cui al
-									<rif xlink:href="#art94-com1-letc" xlink:type="simple">comma 1</rif>
-									, lett. c) , d), e), f), sono trasmesse alla Giunta medesima entro 60 giorni dalla data di scadenza del Consiglio regionale o dalla data indicata al
+									<mrif>
+										comma 1, lett.
+										<rif xlink:href="#art94-com1-letc" xlink:type="simple">c)</rif>
+										,
+										<rif xlink:href="#art94-com1-letd" xlink:type="simple">d)</rif>
+										,
+										<rif xlink:href="#art94-com1-lete" xlink:type="simple">e)</rif>
+										,
+										<rif xlink:href="#art94-com1-letf" xlink:type="simple">f)</rif>
+									</mrif>
+									, sono trasmesse alla Giunta medesima entro 60 giorni dalla data di scadenza del Consiglio regionale o dalla data indicata al
 									<rif xlink:href="#art94-com4" xlink:type="simple">comma 4</rif>
 									.
 								</corpo>
@@ -5110,8 +5192,17 @@
 									La Giunta trasmette le proposte di nomina al Consiglio regionale non appena il numero delle designazioni pervenute ai sensi del
 									<rif xlink:href="#art94-com6" xlink:type="simple">comma 6</rif>
 									, unitamente a quello dei componenti di cui al
-									<rif xlink:href="#art94-com1-letb" xlink:type="simple">comma 1</rif>
-									, lett. b) , c), e), f), rappresenti la maggioranza dei componenti del C.S.R.
+									<mrif>
+										comma 1, lett.
+										<rif xlink:href="#art94-com1-letb" xlink:type="simple">b)</rif>
+										,
+										<rif xlink:href="#art94-com1-letc" xlink:type="simple">c)</rif>
+										,
+										<rif xlink:href="#art94-com1-lete" xlink:type="simple">e)</rif>
+										,
+										<rif xlink:href="#art94-com1-letf" xlink:type="simple">f)</rif>
+									</mrif>
+									, rappresenti la maggioranza dei componenti del C.S.R.
 								</corpo>
 							</comma>
 							<comma id="art94-com8">
@@ -5314,9 +5405,12 @@
 								<num>3.</num>
 								<corpo>
 									Ai soggetti di cui al
-									<rif xlink:href="#art99-com1" xlink:type="simple">comma 1</rif>
-									e
-									<rif xlink:href="#art99-com2" xlink:type="simple">2</rif>
+									<mrif>
+										comma
+										<rif xlink:href="#art99-com1" xlink:type="simple">1</rif>
+										e
+										<rif xlink:href="#art99-com2" xlink:type="simple">2</rif>
+									</mrif>
 									, spetta il rimborso spese nella misura stabilita per i dirigenti regionali.
 								</corpo>
 							</comma>
@@ -5345,7 +5439,16 @@
 							<comma id="art100-com1">
 								<num>1.</num>
 								<corpo>
-									Con decreti del Presidente della Giunta regionale, previa deliberazione del Consiglio regionale proposta dalla Giunta, sono trasferiti, con i criteri e le modalità di cui ai commi 3, 4 e 5, alle Aziende sanitarie i beni facenti parte del patrimonio dei Comuni che alla data del 31 marzo 1996 presentino i requisiti di cui al
+									Con decreti del Presidente della Giunta regionale, previa deliberazione del Consiglio regionale proposta dalla Giunta, sono trasferiti, con i criteri e le modalità di cui ai
+									<mrif>
+										commi
+										<rif xlink:href="#art100-com3" xlink:type="simple">3</rif>
+										,
+										<rif xlink:href="#art100-com4" xlink:type="simple">4</rif>
+										e
+										<rif xlink:href="#art100-com5" xlink:type="simple">5</rif>
+									</mrif>
+									, alle Aziende sanitarie i beni facenti parte del patrimonio dei Comuni che alla data del 31 marzo 1996 presentino i requisiti di cui al
 									<rif xlink:href="#art100-com2" xlink:type="simple">comma 2</rif>
 									e per i quali non sono state attivate le procedure di trasferimento ai sensi della normativa regionale in vigore alla medesima data.
 								</corpo>
@@ -5419,7 +5522,14 @@
 								<corpo>
 									Nel caso in cui il parere del Sindaco di cui al
 									<rif xlink:href="#art100-com5" xlink:type="simple">comma 5</rif>
-									, non sia in tutto o in parte, favorevole o non sia reso nei termini prescritti, la Giunta regionale convoca il Sindaco o i Sindaci dei Comuni ove sono posti i beni da individuare ai fini del trasferimento e il direttore generale della Azienda sanitaria interessata, al fine di acquisire il parere non espresso ovvero al fine di comporre le divergenti posizioni. La Giunta regionale, esperite le procedure dei commi 5 e 6, propone al Consiglio regionale apposito atto deliberativo motivato per la definitiva destinazione dei beni da trasferire.
+									, non sia in tutto o in parte, favorevole o non sia reso nei termini prescritti, la Giunta regionale convoca il Sindaco o i Sindaci dei Comuni ove sono posti i beni da individuare ai fini del trasferimento e il direttore generale della Azienda sanitaria interessata, al fine di acquisire il parere non espresso ovvero al fine di comporre le divergenti posizioni. La Giunta regionale, esperite le procedure dei
+									<mrif>
+										commi
+										<rif xlink:href="#art100-com5" xlink:type="simple">5</rif>
+										e
+										<rif xlink:href="#art100-com6" xlink:type="simple">6</rif>
+									</mrif>
+									, propone al Consiglio regionale apposito atto deliberativo motivato per la definitiva destinazione dei beni da trasferire.
 								</corpo>
 							</comma>
 							<comma id="art100-com7">
@@ -5427,7 +5537,16 @@
 								<corpo>
 									Il Presidente della Giunta regionale adotta previa deliberazione del Consiglio regionale di cui al
 									<rif xlink:href="#art100-com6" xlink:type="simple">comma 6</rif>
-									i decreti per il conseguente trasferimento alle Aziende sanitarie dei beni individuati ai sensi dei commi 4, 5 e 6.
+									i decreti per il conseguente trasferimento alle Aziende sanitarie dei beni individuati ai sensi dei
+									<mrif>
+										commi
+										<rif xlink:href="#art100-com4" xlink:type="simple">4</rif>
+										,
+										<rif xlink:href="#art100-com5" xlink:type="simple">5</rif>
+										e
+										<rif xlink:href="#art100-com6" xlink:type="simple">6</rif>
+									</mrif>
+									.
 								</corpo>
 							</comma>
 							<comma id="art100-com8">
@@ -5436,7 +5555,11 @@
 							</comma>
 							<comma id="art100-com9">
 								<num>9.</num>
-								<corpo>I decreti di trasferimento costituiscono titolo, ai sensi dell'art. 5, comma 3, del decreto delegato, per le conseguenti trascrizioni, registrazioni e volture e per tutti gli altri atti connessi al trasferimento ai quali provvede l'Azienda sanitaria nei termini di legge.</corpo>
+								<corpo>
+									I decreti di trasferimento costituiscono titolo, ai sensi dell'
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502#art5-com3" xlink:type="simple">art. 5, comma 3, del decreto delegato</rif>
+									, per le conseguenti trascrizioni, registrazioni e volture e per tutti gli altri atti connessi al trasferimento ai quali provvede l'Azienda sanitaria nei termini di legge.
+								</corpo>
 							</comma>
 							<comma id="art100-com10">
 								<num>10.</num>
@@ -5537,14 +5660,30 @@
 							<comma id="art104-com6">
 								<num>6.</num>
 								<corpo>
-									Ove siano presentate offerte da parte di Enti locali nel cui territorio insiste il bene, ovvero di altre Amministrazioni pubbliche, queste, purché ammissibili ai sensi dei commi 4 e 5, prevalgono in caso di parità, fermo restando il diritto di prelazione di cui al
+									Ove siano presentate offerte da parte di Enti locali nel cui territorio insiste il bene, ovvero di altre Amministrazioni pubbliche, queste, purché ammissibili ai sensi dei
+									<mrif>
+										commi
+										<rif xlink:href="#art104-com4" xlink:type="simple">4</rif>
+										e
+										<rif xlink:href="#art104-com5" xlink:type="simple">5</rif>
+									</mrif>
+									, prevalgono in caso di parità, fermo restando il diritto di prelazione di cui al
 									<rif xlink:href="#art104-com5" xlink:type="simple">comma 5</rif>
 									sulle offerte presentate da privati.
 								</corpo>
 							</comma>
 							<comma id="art104-com7">
 								<num>7.</num>
-								<corpo>In caso di concorrenza di offerte di pari valore da parte di più soggetti di cui ai commi 5 e 6, l'Azienda sanitaria procede mediante trattativa privata tra i medesimi e aggiudica il bene alla migliore offerta.</corpo>
+								<corpo>
+									In caso di concorrenza di offerte di pari valore da parte di più soggetti di cui ai
+									<mrif>
+										commi
+										<rif xlink:href="#art104-com5" xlink:type="simple">5</rif>
+										e
+										<rif xlink:href="#art104-com6" xlink:type="simple">6</rif>
+									</mrif>
+									, l'Azienda sanitaria procede mediante trattativa privata tra i medesimi e aggiudica il bene alla migliore offerta.
+								</corpo>
 							</comma>
 							<comma id="art104-com8">
 								<num>8.</num>
@@ -5793,7 +5932,11 @@
 							</comma>
 							<comma id="art111-com3">
 								<num>3.</num>
-								<corpo>La struttura del bilancio di esercizio deve conformarsi allo schema deliberato dalla Giunta regionale; qualora tale schema differisca da quello prescritto dal decreto interministeriale di cui all'art. 5 comma 6 del decreto delegato, le Aziende sanitarie devono provvedere ad una ulteriore classificazione dello stato patrimoniale e del conto economico secondo la disciplina statale.</corpo>
+								<corpo>
+									La struttura del bilancio di esercizio deve conformarsi allo schema deliberato dalla Giunta regionale; qualora tale schema differisca da quello prescritto dal decreto interministeriale di cui all'
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502#art5-com6" xlink:type="simple">art. 5 comma 6 del decreto delegato</rif>
+									, le Aziende sanitarie devono provvedere ad una ulteriore classificazione dello stato patrimoniale e del conto economico secondo la disciplina statale.
+								</corpo>
 							</comma>
 							<comma id="art111-com4">
 								<num>4.</num>
@@ -5907,8 +6050,12 @@
 							</comma>
 							<comma id="art113-com4">
 								<num>4.</num>
+								<corpo>Il libro dei provvedimenti del direttore generale è costituito dalla raccolta degli atti adottati dal direttore nell'esercizio delle sue funzioni di direzione ed organizzazione: di tali atti è data diffusione all'interno dell'Azienda mediante idonee forme di pubblicità.</corpo>
+							</comma>
+							<comma id="art113-com5">
+								<num>5.</num>
 								<corpo>
-									Il libro dei provvedimenti del direttore generale è costituito dalla raccolta degli atti adottati dal direttore nell'esercizio delle sue funzioni di direzione ed organizzazione: di tali atti è data diffusione all'interno dell'Azienda mediante idonee forme di pubblicità. 5. Fatti salvi gli adempimenti eventualmente prescritti dalla normativa vigente in materia tributaria, i libri obbligatori di cui al
+									Fatti salvi gli adempimenti eventualmente prescritti dalla normativa vigente in materia tributaria, i libri obbligatori di cui al
 									<rif xlink:href="#art113-com1" xlink:type="simple">comma 1</rif>
 									, prima di essere messi in uso, devono essere numerati progressivamente in ogni pagina, timbrati e sottoscritti dal direttore generale e dal presidente del collegio sindacale in ogni foglio. Il direttore generale e il presidente del collegio sindacale devono dichiarare nell'ultima pagina di ciascun libro il numero dei fogli che lo compongono.
 								</corpo>
@@ -6104,7 +6251,11 @@
 							<rubrica>(Regolamento aziendale dell'attività contrattuale)</rubrica>
 							<comma id="art121-com1">
 								<num>1.</num>
-								<corpo>Nei limiti di quanto disposto dalla normativa comunitaria e nazionale vigente, l'attività contrattuale dell'Azienda è disciplinata con apposito regolamento adottato dal direttore generale in esecuzione dell'atto aziendale di cui all'art. 3, comma 1-bis del decreto delegato.</corpo>
+								<corpo>
+									Nei limiti di quanto disposto dalla normativa comunitaria e nazionale vigente, l'attività contrattuale dell'Azienda è disciplinata con apposito regolamento adottato dal direttore generale in esecuzione dell'atto aziendale di cui all'
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502#art3-com1bis" xlink:type="simple">art. 3, comma 1-bis del decreto delegato</rif>
+									.
+								</corpo>
 							</comma>
 							<comma id="art121-com2">
 								<num>2.</num>
@@ -6228,7 +6379,16 @@
 							</comma>
 							<comma id="art124-com9">
 								<num>9.</num>
-								<corpo>Lo statuto o il regolamento aziendale dell'attività contrattuale possono motivatamente derogare alle disposizioni di cui ai commi 6 e 7, con riferimento alla dimensione economica dei contratti ed a determinate tipologie di beni e servizi.</corpo>
+								<corpo>
+									Lo statuto o il regolamento aziendale dell'attività contrattuale possono motivatamente derogare alle disposizioni di cui ai
+									<mrif>
+										commi
+										<rif xlink:href="#art124-com6" xlink:type="simple">6</rif>
+										e
+										<rif xlink:href="#art124-com7" xlink:type="simple">7</rif>
+									</mrif>
+									, con riferimento alla dimensione economica dei contratti ed a determinate tipologie di beni e servizi.
+								</corpo>
 							</comma>
 						</articolo>
 						<articolo id="art125">
@@ -6350,7 +6510,18 @@
 							</comma>
 							<comma id="art128-com4">
 								<num>4.</num>
-								<corpo>Per le forniture ed i servizi che non superino l'importo di lire 50 milioni, pari a euro 25.549,31, in luogo dei controlli previsti dai commi 1, 2 e 3, è sufficiente un'attestazione di regolarità rilasciata dal responsabile della struttura organizzativa interessata, salva una specifica dichiarazione di non possedere la necessaria competenza.</corpo>
+								<corpo>
+									Per le forniture ed i servizi che non superino l'importo di lire 50 milioni, pari a euro 25.549,31, in luogo dei controlli previsti dai
+									<mrif>
+										commi
+										<rif xlink:href="#art128-com1" xlink:type="simple">1</rif>
+										,
+										<rif xlink:href="#art128-com2" xlink:type="simple">2</rif>
+										e
+										<rif xlink:href="#art128-com3" xlink:type="simple">3</rif>
+									</mrif>
+									, è sufficiente un'attestazione di regolarità rilasciata dal responsabile della struttura organizzativa interessata, salva una specifica dichiarazione di non possedere la necessaria competenza.
+								</corpo>
 							</comma>
 							<comma id="art128-com5">
 								<num>5.</num>
@@ -6449,7 +6620,11 @@
 						<rubrica>(Disposizioni per l'area fiorentina)</rubrica>
 						<comma id="art133-com1">
 							<num>1.</num>
-							<corpo>Entro il 31 dicembre 2000 il Consiglio regionale, su proposta della Giunta regionale, sentita la Conferenza dei Sindaci dell'Azienda unità sanitaria locale 10 di Firenze, può provvedere con atto amministrativo a rettificare gli ambiti zonali dell'Azienda medesima di cui all'allegato 1.</corpo>
+							<corpo>
+								Entro il 31 dicembre 2000 il Consiglio regionale, su proposta della Giunta regionale, sentita la Conferenza dei Sindaci dell'Azienda unità sanitaria locale 10 di Firenze, può provvedere con atto amministrativo a rettificare gli ambiti zonali dell'Azienda medesima di cui all'
+								<rif xlink:href="#ann1" xlink:type="simple">allegato 1</rif>
+								.
+							</corpo>
 						</comma>
 						<comma id="art133-com2">
 							<num>2.</num>
@@ -6683,7 +6858,11 @@
 			<formulafinale>La presente legge è pubblicata sul Bollettino Ufficiale della Regione. È fatto obbligo a chiunque spetti di osservarla e farla osservare come legge della Regione Toscana.</formulafinale>
 			<conclusione>
 				<dataeluogo codice="00100" norm="">Firenze, 8 marzo 2000</dataeluogo>
-				<firma tipo="sottoscrizione">Giannarelli (incaricato con DPGR n. 37/1.3.2000)</firma>
+				<firma tipo="sottoscrizione">
+					Giannarelli
+					<h:br />
+					(incaricato con DPGR n. 37/1.3.2000)
+				</firma>
 				<soggetto codice="">La presente legge è stata approvata dal Consiglio Regionale il 1-2-2000 ed è stata vistata dal Commissario del Governo il 3-3-2000.</soggetto>
 			</conclusione>
 			<annessi>
