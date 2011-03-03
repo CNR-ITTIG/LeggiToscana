@@ -12,7 +12,8 @@
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1989-01-23;10@1995-04-14" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1989-01-23;10@2000-03-08" />
 					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1989-01-23;10@2000-03-21" />
-					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1989-01-23;10@2000-12-28" />
+					<urn finevigore="t9" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1989-01-23;10@2000-12-28" />
+					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1989-01-23;10@2003-04-14" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Attribuzioni Deleghe" />
 						<materia valore="Agricoltura" />
@@ -28,6 +29,7 @@
 						<evento data="20000415" fonte="rp4" id="t6" tipo="modifica" />
 						<evento data="20010120" fonte="rp5" id="t7" tipo="modifica" />
 						<evento data="20010217" fonte="rp6" id="t8" tipo="modifica" />
+						<evento data="20030502" fonte="rp7" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1989-01-23;10" xlink:type="simple" />
@@ -38,6 +40,7 @@
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2000-03-21;39" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2000-12-28;82" xlink:type="simple" />
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2000-03-21;39" xlink:type="simple" />
+						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:2003-04-14;22" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -134,7 +137,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#h6" xlink:type="simple" />
+								<dsp:pos xlink:href="#h7" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -242,12 +245,36 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art4-com1-letebis" xlink:type="simple" />
+								<dsp:pos xlink:href="#art4-com1-lete" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art4-com1-lete-t8" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com1-letf" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-04-14;22" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-04-14;22#art6-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 6, comma 1 della legge Regione Toscana 14 aprile 2003, n. 22" id="itt15" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com1-letf-t9" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com1-lete" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-04-14;22" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-04-14;22#art7-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 7, comma 1 della legge Regione Toscana 14 aprile 2003, n. 22" id="itt16" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -310,7 +337,7 @@
 							<num>e)</num>
 							<corpo>miglioramento genetico degli animali, manifestazioni zootecniche, interventi diretti alla salvaguardia di razze autoctone minacciate di estinzione;</corpo>
 						</el>
-						<el id="art2-com1-letf">
+						<el finevigore="t9" id="art2-com1-letf-t9" iniziovigore="t1" status="abrogato">
 							<num>f)</num>
 							<corpo>istruttoria sulle domande relative alla disciplina dei vini da tavola ad indicazione geografica, e dei vini DOC o DOCG nonchè sulle richieste di impianto, reimpianto ed estirpazione dei vigneti;</corpo>
 						</el>
@@ -474,9 +501,13 @@
 							<num>e)</num>
 							<corpo>coltivazioni arboree ed erbacee, autorizzazione all'abbattimento di piante di olivo, attestazione per i terreni vitati ai fini dell'iscrizione dell'albo dei vigneti;</corpo>
 						</el>
-						<el id="art4-com1-letebis" iniziovigore="t8">
+						<el id="art4-com1-lete" iniziovigore="t8">
 							<num>e)</num>
-							<corpo>coltivazioni arboree ed erbacee, attestazione per i terreni vitati ai fini dell'iscrizione dell'albo dei vigneti.</corpo>
+							<corpo>
+								coltivazioni arboree ed erbacee
+								<h:span finevigore="t9" id="h6" iniziovigore="t1" status="abrogato">, attestazione per i terreni vitati ai fini dell'iscrizione dell'albo dei vigneti</h:span>
+								;
+							</corpo>
 						</el>
 						<el id="art4-com1-letf">
 							<num>f)</num>
@@ -580,7 +611,7 @@
 							<num>d)</num>
 							<corpo>
 								controlli, certificazioni ed altre funzioni già attribuite agli osservatori delle malattie delle piante;
-								<h:span finevigore="t5" id="h6" iniziovigore="t1" status="abrogato">rilascio dei diplomi di erborista;</h:span>
+								<h:span finevigore="t5" id="h7" iniziovigore="t1" status="abrogato">rilascio dei diplomi di erborista;</h:span>
 							</corpo>
 						</el>
 						<el id="art6-com1-lete">
