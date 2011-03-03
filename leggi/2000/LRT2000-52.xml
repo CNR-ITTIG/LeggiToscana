@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20000417" num="17" tipo="BURT" />
 					<entratainvigore norm="20000502" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2000-04-06;52" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2000-04-06;52" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2000-04-06;52@2003-05-12" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tumori" />
 						<materia valore="Organizzazioni" />
@@ -17,11 +18,32 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="20000502" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20030517" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2000-04-06;52" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2003-05-12;23" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-05-12;23" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-05-12;23#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 12 maggio 2003, n. 23" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art8" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art8-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -206,16 +228,32 @@
 						<corpo>Il finanziamento per le attività di interesse regionale svolte dal C.S.P.O. è assicurato, per il medesimo periodo, dalla Giunta regionale a carico del bilancio regionale - fondo sanitario di parte corrente - cap. 18090 del bilancio di previsione 2000, con le modalità in essere alla data di entrata in vigore della presente legge.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art8">
+				<articolo finevigore="t2" id="art8-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 8</num>
 					<rubrica>(Disposizioni transitorie e finali)</rubrica>
-					<comma id="art8-com1">
+					<comma id="art8-t2-com1">
 						<num>1.</num>
 						<corpo>
 							Qualora il procedimento di riconoscimento dei C.S.P.O. quale istituto di ricovero e cura a carattere scientifico si concluda con esito negativo e, comunque, nel termine di tre anni dall'entrata in vigore della presente legge, con decreto del Presidente della Giunta regionale è disposta la revoca della personalità giuridica di diritto pubblico attribuita ai sensi dell'
 							<rif xlink:href="#art1" xlink:type="simple">art. 1</rif>
 							e sono adottati i provvedimenti conseguenti.
 						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art8" iniziovigore="t2">
+					<num>ARTICOLO 8</num>
+					<rubrica>(Disposizioni transitorie e finali)</rubrica>
+					<comma id="art8-com1">
+						<num>1.</num>
+						<corpo>
+							Qualora il procedimento di riconoscimento del C.S.P.O. quale istituto di ricovero e cura a carattere scientifico si concluda con esito negativo, il Presidente della Giunta regionale, con decreto, dispone la revoca della personalità giuridica di diritto pubblico attribuita ai sensi dell'
+							<rif xlink:href="#art1" xlink:type="simple">articolo 1</rif>
+							ed adotta i provvedimenti conseguenti.
+						</corpo>
+					</comma>
+					<comma id="art8-com2">
+						<num>2.</num>
+						<corpo>La revoca della personalità giuridica è comunque disposta qualora il procedimento di riconoscimento del C.S.P.O. quale istituto di ricovero e cura a carattere scientifico non si concluda entro il 30 aprile 2006.</corpo>
 					</comma>
 				</articolo>
 			</articolato>
