@@ -13,7 +13,8 @@
 					<urn finevigore="t17" iniziovigore="t16" valore="urn:nir:regione.toscana:legge:1998-12-01;88@2001-01-16" />
 					<urn finevigore="t18" iniziovigore="t17" valore="urn:nir:regione.toscana:legge:1998-12-01;88@2001-08-16" />
 					<urn finevigore="t19" iniziovigore="t18" valore="urn:nir:regione.toscana:legge:1998-12-01;88@2001-10-31" />
-					<urn iniziovigore="t19" valore="urn:nir:regione.toscana:legge:1998-12-01;88@2001-12-21" />
+					<urn finevigore="t20" iniziovigore="t19" valore="urn:nir:regione.toscana:legge:1998-12-01;88@2001-12-21" />
+					<urn iniziovigore="t20" valore="urn:nir:regione.toscana:legge:1998-12-01;88@2003-04-04" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Urbanistica" />
 						<materia valore="Tutela Ambientale" />
@@ -41,6 +42,7 @@
 						<evento data="20010911" fonte="rp4" id="t17" tipo="modifica" />
 						<evento data="20011122" fonte="rp5" id="t18" tipo="modifica" />
 						<evento data="20020115" fonte="rp6" id="t19" tipo="modifica" />
+						<evento data="20030410" fonte="rp7" id="t20" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-12-01;88" xlink:type="simple" />
@@ -62,6 +64,7 @@
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2001-08-16;40" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53" xlink:type="simple" />
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2001-12-21;64" xlink:type="simple" />
+						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:2003-04-04;19" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -650,9 +653,48 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#art20-com2-letb-t19" xlink:type="simple" />
+								<dsp:pos xlink:href="#art20-com2-t20-letb-t19" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art20-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-04-04;19" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-04-04;19#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 4 aprile 2003, n. 19" id="itt28" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art20-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art20-com2-t20" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art20-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-04-04;19" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-04-04;19#art1-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2 della legge Regione Toscana 4 aprile 2003, n. 19" id="itt29" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art20-com2bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art20-com2bis" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-04-04;19" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-04-04;19#art1-com3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 3 della legge Regione Toscana 4 aprile 2003, n. 19" id="itt30" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art20-com2ter" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -1452,14 +1494,14 @@
 								</corpo>
 							</el>
 						</comma>
-						<comma id="art20-com2">
+						<comma finevigore="t20" id="art20-com2-t20" iniziovigore="t1" status="abrogato">
 							<num>2.</num>
 							<alinea>
 								Sono attribuite alle Province le seguenti competenze regionali previste dal
 								<rif xlink:href="urn:nir:stato:decreto.legislativo:1999;152" xlink:type="simple">DLgs 152/1999</rif>
 								e successive modificazioni e integrazioni:
 							</alinea>
-							<el id="art20-com2-leta">
+							<el id="art20-com2-t20-leta">
 								<num>a)</num>
 								<corpo>
 									le autorizzazioni di cui all'
@@ -1467,7 +1509,7 @@
 									relative alla posa in mare di cavi e condotte, fatta eccezione dei casi in cui la posa in mare richieda la movimentazione di carattere internazionale dei fondali marini;
 								</corpo>
 							</el>
-							<el finevigore="t19" id="art20-com2-letb-t19" iniziovigore="t1" status="abrogato">
+							<el finevigore="t19" id="art20-com2-t20-letb-t19" iniziovigore="t1" status="abrogato">
 								<num>b)</num>
 								<corpo>
 									le autorizzazioni allo scarico di acque reflue di cui all'
@@ -1477,6 +1519,65 @@
 									;
 								</corpo>
 							</el>
+						</comma>
+						<comma id="art20-com2" iniziovigore="t20">
+							<num>2.</num>
+							<alinea>
+								Sono attribuite alle province le autorizzazioni di cui all'
+								<rif xlink:href="urn:nir:stato:decreto.legislativo:1999;152#art35" xlink:type="simple">articolo 35 del DLgs 152/99</rif>
+								e successive modifiche relative alle seguenti attività:
+							</alinea>
+							<el id="art20-com2-leta">
+								<num>a)</num>
+								<alinea>immersione in mare da strutture ubicate nelle acque del mare o in ambiti ad esso contigui, dei seguenti materiali:</alinea>
+								<en id="art20-com2-leta-num1">
+									<num>1.</num>
+									<corpo>materiali di escavo di fondali marini, o salmastri, o di terreni litoranei emersi;</corpo>
+								</en>
+								<en id="art20-com2-leta-num2">
+									<num>2.</num>
+									<corpo>inerti, materiali geologici inorganici e manufatti al solo fine di utilizzo, ove ne sia dimostrata la compatibilità ambientale e l'innocuità;</corpo>
+								</en>
+							</el>
+							<el id="art20-com2-letb">
+								<num>b)</num>
+								<corpo>
+									immersione in casse di colmata, vasche di raccolta o comunque di strutture di contenimento poste in ambito costiero dei materiali di cui alla
+									<rif xlink:href="#art20-com2-leta" xlink:type="simple">lettera a)</rif>
+									;
+								</corpo>
+							</el>
+							<el id="art20-com2-letc">
+								<num>c)</num>
+								<corpo>interventi di ripascimento della fascia costiera;</corpo>
+							</el>
+							<el id="art20-com2-letd">
+								<num>d)</num>
+								<corpo>movimentazione di fondali marini connessa alla posa in mare di cavi e condotte non avente carattere internazionale.</corpo>
+							</el>
+						</comma>
+						<comma id="art20-com2bis" iniziovigore="t20">
+							<num>2 bis.</num>
+							<corpo>
+								Le autorizzazioni di cui al
+								<mrif>
+									comma 2, lettere
+									<rif xlink:href="#art20-com2-letb" xlink:type="simple">b)</rif>
+									e
+									<rif xlink:href="#art20-com2-letc" xlink:type="simple">c)</rif>
+								</mrif>
+								, sono rilasciate nel rispetto dei criteri e della procedura di cui all'
+								<rif xlink:href="urn:nir:stato:legge:2002-07-31;179#art21" xlink:type="simple">articolo 21 della legge 31 luglio 2002, n. 179</rif>
+								(Disposizioni in campo ambientale).
+							</corpo>
+						</comma>
+						<comma id="art20-com2ter" iniziovigore="t20">
+							<num>2 ter.</num>
+							<corpo>
+								Qualora l'attività di posa in mare di cavi e condotte e l'eventuale relativa movimentazione dei fondali marini abbia carattere interprovinciale, le autorizzazioni relative al
+								<rif xlink:href="#art20-com2-letd" xlink:type="simple">comma 2, lettera d)</rif>
+								, sono rilasciate dalla provincia ove l'attività di posa in opera e relativa movimentazione dei fondali marini abbia il percorso prevalente.
+							</corpo>
 						</comma>
 						<comma id="art20-com3">
 							<num>3.</num>
