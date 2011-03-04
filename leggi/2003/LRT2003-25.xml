@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20030516" num="20" tipo="BURT" />
 					<entratainvigore norm="20030531" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2003-05-13;25" />
+					<urn iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2003-05-13;25" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Zootecnia" />
 					</materie>
@@ -15,11 +15,32 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="20030531" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20030531" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2003-05-13;25" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2003-05-13;26" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-05-13;26" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-05-13;26#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 13 maggio 2003, n. 26" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -74,12 +95,20 @@
 							, è concesso alle aziende agricole con allevamento zootecnico ovino, bovino e bufalino, comprese in una o più delle celle di campionamento in cui è suddiviso il territorio toscano, che mettono a disposizione dell'autorità sanitaria un numero di capi adeguato alle esigenze del piano di sorveglianza sierologica. Il contributo è concesso proporzionalmente al numero dei capi che vengono resi disponibili per i prelievi a partire dal 1 gennaio 2002 fino al 31 dicembre 2003. Ogni singola azienda può rendere disponibili non più di dodici capi l'anno o il numero di capi ritenuti indispensabili dall'autorità sanitaria competente per territorio. Per ogni capo messo a disposizione dell'autorità sanitaria viene erogata una somma pari a 60 euro, rapportata all'intero anno solare, proporzionalmente ridotta in relazione al periodo di effettiva messa a disposizione.
 						</corpo>
 					</comma>
-					<comma id="art2-com2">
+					<comma finevigore="t2" id="art2-com2-t2" iniziovigore="t1" status="abrogato">
 						<num>2.</num>
 						<corpo>
 							L'indennizzo di cui all'
 							<rif xlink:href="#art1-com2-letb" xlink:type="simple">articolo 1, comma 2, lettera b)</rif>
 							, è concesso alle aziende agricole con allevamento zootecnico ovino, bovino e bufalino ove si verifichino aborti di fattrici vaccinate entro venti giorni dall'avvenuta vaccinazione, accertati tramite conforme diagnosi differenziale dell'Istituto zooprofilattico sperimentale. L'indennizzo è concesso nella misura di 300 euro nel caso di bovina o bufala e di 40 euro nel caso di pecora o capra.
+						</corpo>
+					</comma>
+					<comma id="art2-com2" iniziovigore="t2">
+						<num>2.</num>
+						<corpo>
+							L'indennizzo di cui all'
+							<rif xlink:href="#art1-com2-letb" xlink:type="simple">articolo 1, comma 2, lettera b)</rif>
+							, è concesso alle aziende agricole con allevamento zootecnico ovino, bovino e bufalino ove si verifichino aborti di fattrici vaccinate entro venti giorni dall'avvenuta vaccinazione, accertati tramite conforme diagnosi differenziale dell'Istituto zooprofilattico sperimentale. L'indennizzo è concesso nella misura massima del 90 per cento del valore di mercato per categoria e tipologia di animale rilevato dai bollettini pubblicati dall'Istituto di servizi per il mercato agricolo alimentare (ISMEA).
 						</corpo>
 					</comma>
 					<comma id="art2-com3">
