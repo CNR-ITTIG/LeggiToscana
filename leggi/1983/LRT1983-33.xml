@@ -15,7 +15,8 @@
 					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1983-05-18;33@1997-12-24" />
 					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1983-05-18;33@1998-01-23" />
 					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1983-05-18;33@1998-07-31" />
-					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1983-05-18;33@1998-12-23" />
+					<urn finevigore="t11" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1983-05-18;33@1998-12-23" />
+					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1983-05-18;33@2003-07-08" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Trasporti" />
 					</materie>
@@ -32,6 +33,7 @@
 						<evento data="19980202" fonte="rp7" id="t8" tipo="modifica" />
 						<evento data="19980822" fonte="rp8" id="t9" tipo="modifica" />
 						<evento data="19981231" fonte="rp9" id="t10" tipo="modifica" />
+						<evento data="20030711" fonte="rp10" id="t11" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1983-05-18;33" xlink:type="simple" />
@@ -44,6 +46,7 @@
 						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:1998-01-23;4" xlink:type="simple" />
 						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:1998-07-31;42" xlink:type="simple" />
 						<passiva id="rp9" xlink:href="urn:nir:regione.toscana:legge:1998-12-23;100" xlink:type="simple" />
+						<passiva id="rp10" xlink:href="urn:nir:regione.toscana:legge:2003-07-08;33" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -613,6 +616,18 @@
 							</dsp:norma>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art17bis-t9" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art17ter-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-08;33" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-08;33#art31-com1-letb" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 31, comma 1, lettera b) della legge Regione Toscana 8 luglio 2003, n. 33" id="itt42" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art17ter-com1-t11" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>
@@ -1352,7 +1367,7 @@
 							<ndr num="#n3" valore="" xlink:type="simple">(c)</ndr>
 						</num>
 						<rubrica />
-						<comma id="art17ter-com1">
+						<comma finevigore="t11" id="art17ter-com1-t11" iniziovigore="t1" status="abrogato">
 							<num>1.</num>
 							<corpo>A bordo dei mezzi in servizio di trasporto pubblico locale è obbligatoria la vendita dei biglietti per corsa semplice; ove, sui servizi urbani, i biglietti per corsa semplice siano sostituiti con biglietti a tempo, è obbligatoria la vendita di questi ultimi.</corpo>
 						</comma>
