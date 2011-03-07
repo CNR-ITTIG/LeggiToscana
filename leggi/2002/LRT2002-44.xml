@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20021230" num="33" tipo="BURT" />
 					<entratainvigore norm="20021231" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2002-12-20;44" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2002-12-20;44" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2002-12-20;44@2003-06-23" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Bilancio" />
@@ -16,11 +17,32 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="20021231" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20030717" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2002-12-20;44" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2003-06-23;31" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-06-23;31" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-06-23;31#art5-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 1 della legge Regione Toscana 23 giugno 2003, n. 31" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -168,8 +190,63 @@
 						</el>
 					</comma>
 				</articolo>
-				<articolo id="art4">
+				<articolo finevigore="t2" id="art4-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 4</num>
+					<rubrica>(Disavanzo dell'esercizio 2003)</rubrica>
+					<comma id="art4-t2-com1">
+						<num>1.</num>
+						<corpo>
+							Agli effetti di cui ai
+							<mrif>
+								commi
+								<rif xlink:href="#art4-t2-com2" xlink:type="simple">2</rif>
+								,
+								<rif xlink:href="#art4-t2-com3" xlink:type="simple">3</rif>
+								,
+								<rif xlink:href="#art4-t2-com4" xlink:type="simple">4</rif>
+								,
+								<rif xlink:href="#art4-t2-com5" xlink:type="simple">5</rif>
+								e
+								<rif xlink:href="#art4-t2-com6" xlink:type="simple">6</rif>
+							</mrif>
+							il disavanzo per l'esercizio 2003 è approvato in euro 85.486.886,55.=
+						</corpo>
+					</comma>
+					<comma id="art4-t2-com2">
+						<num>2.</num>
+						<corpo>
+							La Giunta regionale è autorizzata a contrarre nell'esercizio 2003 mutui e ad emettere prestiti obbligazionari o titoli similari, per l'importo complessivo di euro 85.486.886,55, per la copertura del disavanzo di cui al
+							<rif xlink:href="#art4-t2-com1" xlink:type="simple">comma 1</rif>
+							per il finanziamento di spese di investimento di cui alle UPB indicate nell'allegato A.4.
+						</corpo>
+					</comma>
+					<comma id="art4-t2-com3">
+						<num>3.</num>
+						<corpo>
+							I mutui o prestiti di cui al
+							<rif xlink:href="#art4-t2-com2" xlink:type="simple">comma 2</rif>
+							, da estinguersi in un periodo non superiore ad anni trenta, sono assunti od emessi ad un tasso iniziale massimo del 6,5 per cento effettivo annuo e con ammortamento decorrente dal 1 gennaio 2004.
+						</corpo>
+					</comma>
+					<comma id="art4-t2-com4">
+						<num>4.</num>
+						<corpo>Gli oneri annui di ammortamento, relativi agli esercizi 2004 e 2005, determinati in euro 7.350.000,00, trovano copertura finanziaria negli appositi stanziamenti del bilancio pluriennale approvato dalla presente legge.</corpo>
+					</comma>
+					<comma id="art4-t2-com5">
+						<num>5.</num>
+						<corpo>
+							L'eventuale maggiorazione della rata di ammortamento dei mutui e prestiti di cui al
+							<rif xlink:href="#art4-t2-com4" xlink:type="simple">comma 4</rif>
+							, dovuta alla variabilità del tasso o dagli eventuali oneri conseguenti al rischio di cambio, trova copertura finanziaria con variazione ai bilanci annuali e pluriennali attraverso le singole leggi di bilancio.
+						</corpo>
+					</comma>
+					<comma id="art4-t2-com6">
+						<num>6.</num>
+						<corpo>Le rate di ammortamento relative agli anni successivi al 2005, determinati in misura non superiore a quella posta a carico dell'esercizio 2005, trovano copertura con le successive leggi di bilancio.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art4" iniziovigore="t2">
+					<num>Art. 4</num>
 					<rubrica>(Disavanzo dell'esercizio 2003)</rubrica>
 					<comma id="art4-com1">
 						<num>1.</num>
@@ -187,40 +264,32 @@
 								e
 								<rif xlink:href="#art4-com6" xlink:type="simple">6</rif>
 							</mrif>
-							il disavanzo per l'esercizio 2003 è approvato in euro 85.486.886,55.=
+							il disavanzo per l'esercizio 2003 è approvato in euro 190.872.668,67.
 						</corpo>
 					</comma>
 					<comma id="art4-com2">
 						<num>2.</num>
-						<corpo>
-							La Giunta regionale è autorizzata a contrarre nell'esercizio 2003 mutui e ad emettere prestiti obbligazionari o titoli similari, per l'importo complessivo di euro 85.486.886,55, per la copertura del disavanzo di cui al
-							<rif xlink:href="#art4-com1" xlink:type="simple">comma 1</rif>
-							per il finanziamento di spese di investimento di cui alle UPB indicate nell'allegato A.4.
-						</corpo>
+						<corpo>La Giunta regionale è autorizzata a contrarre nell'esercizio 2003 mutui e ad emettere prestiti obbligazionari o titoli similari, per l'importo complessivo di euro 190.872.668,67 (di cui euro 80.827.105,57 relativamente al disavanzo dell'anno 2002) per la copertura del disavanzo di cui al comma 1, per il finanziamento di spese di investimento di cui alle UPB indicate nell'allegato A.4.</corpo>
 					</comma>
 					<comma id="art4-com3">
 						<num>3.</num>
 						<corpo>
-							I mutui o prestiti di cui al
+							I mutui e le altre forme di indebitamento di cui al
 							<rif xlink:href="#art4-com2" xlink:type="simple">comma 2</rif>
-							, da estinguersi in un periodo non superiore ad anni trenta, sono assunti od emessi ad un tasso iniziale massimo del 6,5 per cento effettivo annuo e con ammortamento decorrente dal 1 gennaio 2004.
+							, da estinguersi in un periodo non superiore ad anni trenta, sono assunti od emessi ad un tasso iniziale massimo del 6,50 per cento effettivo annuo e con ammortamento decorrente dal 1 gennaio 2004.
 						</corpo>
 					</comma>
 					<comma id="art4-com4">
 						<num>4.</num>
-						<corpo>Gli oneri annui di ammortamento, relativi agli esercizi 2004 e 2005, determinati in euro 7.350.000,00, trovano copertura finanziaria negli appositi stanziamenti del bilancio pluriennale approvato dalla presente legge.</corpo>
+						<corpo>Gli oneri annui di ammortamento relativi agli esercizi 2004 e 2005, determinati in euro 17.060.000,00, trovano copertura finanziaria negli appositi stanziamenti del bilancio pluriennale approvato dalla presente legge.</corpo>
 					</comma>
 					<comma id="art4-com5">
 						<num>5.</num>
-						<corpo>
-							L'eventuale maggiorazione della rata di ammortamento dei mutui e prestiti di cui al
-							<rif xlink:href="#art4-com4" xlink:type="simple">comma 4</rif>
-							, dovuta alla variabilità del tasso o dagli eventuali oneri conseguenti al rischio di cambio, trova copertura finanziaria con variazione ai bilanci annuali e pluriennali attraverso le singole leggi di bilancio.
-						</corpo>
+						<corpo>L'eventuale maggiorazione dell'onere annuo di ammortamento dei mutui e prestiti di cui al comma 4, dovuta alla variabilità del tasso od agli eventuali oneri conseguenti al rischio di cambio, trova copertura finanziaria con variazione ai bilanci annuali e pluriennali mediante le singole leggi di bilancio.</corpo>
 					</comma>
 					<comma id="art4-com6">
 						<num>6.</num>
-						<corpo>Le rate di ammortamento relative agli anni successivi al 2005, determinati in misura non superiore a quella posta a carico dell'esercizio 2005, trovano copertura con le successive leggi di bilancio.</corpo>
+						<corpo>Le rate di ammortamento relative agli anni seguenti al 2005, determinati in misura non superiore a quella posta a carico dell'esercizio 2005, trovano copertura con le successive leggi di bilancio.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art5">
