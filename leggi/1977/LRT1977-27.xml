@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t3" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19770506" num="24" tipo="BURT" />
 					<entratainvigore norm="19770521" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1977-04-28;27" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1977-04-28;27@1977-10-28" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1977-04-28;27@1977-10-28" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1977-04-28;27@2003-07-07" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19770521" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19771119" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="20060622" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1977-04-28;27" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1977-10-28;74" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2003-07-07;32" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="LeggeRegionale1-n1">
+						<h:p>
+							Testo di legge abrogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2003-07-07;32#art19" xlink:type="simple">art. 19 della legge regionale 7 luglio 2003, n. 32</rif>
+							, con decorrenza fissata alla data di entrata in vigore del regolamento previsto dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2003-07-07;32#art16" xlink:type="simple">art. 16 della stessa legge abrogante</rif>
+							. Detto regolamento, approvato con D.P.G.R. 1 giugno 2006, n. 21/R, è stato pubblicato su BURT n. 17 del 7 giugno 2006.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:integrazione completa="si" implicita="no">
@@ -46,6 +60,18 @@
 								<dsp:pos xlink:href="#art3-com4" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1977-04-28;27" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-07;32" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-07;32#art19-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 19, comma 1 della legge Regione Toscana 7 luglio 2003, n. 32" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -55,7 +81,10 @@
 				<dataDoc norm="19770428">28 aprile 1977</dataDoc>
 				, n.
 				<numDoc>27</numDoc>
-				<titoloDoc>Istituzione della Commissione regionale per la prevenzione contro i rischi da radiazioni ionizzanti.</titoloDoc>
+				<titoloDoc>
+					Istituzione della Commissione regionale per la prevenzione contro i rischi da radiazioni ionizzanti.
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
+				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 22-3-1977</h:p>
