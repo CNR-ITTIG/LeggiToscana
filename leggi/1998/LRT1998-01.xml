@@ -10,7 +10,8 @@
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1998-01-14;1" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1998-01-14;1@1998-04-15" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1998-01-14;1@2000-08-03" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1998-01-14;1@2001-04-24" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1998-01-14;1@2001-04-24" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1998-01-14;1@2003-07-10" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Zootecnia" />
 					</materie>
@@ -21,12 +22,14 @@
 						<evento data="19980509" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="20000829" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="20010519" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="20030802" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-01-14;1" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1998-04-15;21" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2000-08-03;64" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2001-04-24;20" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2003-07-10;36" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -110,7 +113,7 @@
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							<dsp:pos xlink:href="#art9-t5" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-08-03;64" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-08-03;64#art3-com3" xlink:type="simple" />
 								<dsp:subarg>
@@ -118,7 +121,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art9" xlink:type="simple" />
+								<dsp:pos xlink:href="#art9-t5" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art9-t3" xlink:type="simple" />
@@ -167,7 +170,7 @@
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:integrazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art9-com1-letc" xlink:type="simple" />
+							<dsp:pos xlink:href="#art9-t5-com1-letc" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-04-24;20" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-04-24;20#art3-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -175,7 +178,139 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art9-com1-letcbis" xlink:type="simple" />
+								<dsp:pos xlink:href="#art9-t5-com1-letcbis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com2-letebis" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-10;36" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-10;36#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 10 luglio 2003, n. 36" id="itt12" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art1-com2-leteter" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6bis" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-10;36" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-10;36#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 10 luglio 2003, n. 36" id="itt13" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6ter" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7bis-com1-leta" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-10;36" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-10;36#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 10 luglio 2003, n. 36" id="itt14" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art7bis-com1-leta" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art7bis-com1-leta-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7bis-com1-letb" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-10;36" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-10;36#art3-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 2 della legge Regione Toscana 10 luglio 2003, n. 36" id="itt15" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art7bis-com1-letb" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art7bis-com1-letb-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-10;36" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-10;36#art4-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1 della legge Regione Toscana 10 luglio 2003, n. 36" id="itt16" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art9-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art12-com1-lete" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-10;36" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-10;36#art5-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 1 della legge Regione Toscana 10 luglio 2003, n. 36" id="itt17" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art12-com1-lete" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art12-com1-lete-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art12-com1-lete" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-10;36" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-10;36#art5-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 2 della legge Regione Toscana 10 luglio 2003, n. 36" id="itt18" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art12-com1-letebis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art12-com1-lete" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-10;36" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-10;36#art5-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 2 della legge Regione Toscana 10 luglio 2003, n. 36" id="itt19" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art12-com1-leteter" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art12-com1-lete" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-10;36" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-10;36#art5-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 2 della legge Regione Toscana 10 luglio 2003, n. 36" id="itt20" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art12-com1-letequater" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art12-com1-lete" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-10;36" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-10;36#art5-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 2 della legge Regione Toscana 10 luglio 2003, n. 36" id="itt21" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art12-com1-letequinquies" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 					</modifichepassive>
@@ -229,6 +364,10 @@
 						<el id="art1-com2-letebis" iniziovigore="t3">
 							<num>e bis)</num>
 							<corpo>può incentivare la valutazione genetica dei riproduttori equini di razze di interesse agricolo e agrituristico.</corpo>
+						</el>
+						<el id="art1-com2-leteter" iniziovigore="t5">
+							<num>e ter)</num>
+							<corpo>può finanziare le strutture che effettuano la valutazione genetica di capi animali destinati alla riproduzione e le operazioni relative alla produzione e raccolta di materiale seminale e di embrioni;</corpo>
 						</el>
 						<el id="art1-com2-letf">
 							<num>f)</num>
@@ -335,7 +474,7 @@
 						<num>2.</num>
 						<corpo>
 							I criteri per l'individuazione delle tecniche e dei metodi innovativi di cui al comma 1 e per la determinazione delle spese ammissibili nonché delle modalità per la presentazione delle richieste di contributo sono stabilite ai sensi dell'
-							<rif xlink:href="#art9" xlink:type="simple">articolo 9</rif>
+							<rif xlink:href="#art9-t5" xlink:type="simple">articolo 9</rif>
 							.
 						</corpo>
 					</comma>
@@ -383,9 +522,33 @@
 						<num>3.</num>
 						<corpo>
 							I criteri per la determinazione delle spese ammissibili e le modalità per la presentazione delle richieste di contributo sono stabiliti ai sensi dell'
-							<rif xlink:href="#art9" xlink:type="simple">art. 9</rif>
+							<rif xlink:href="#art9-t5" xlink:type="simple">art. 9</rif>
 							.
 						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art6ter" iniziovigore="t5">
+					<num>Art. 6 ter</num>
+					<rubrica>Selezione dei riproduttori, produzione e raccolta di materiale seminale e di embrioni</rubrica>
+					<comma id="art6ter-com1">
+						<num>1.</num>
+						<alinea>Al fine di promuovere lo sviluppo dell'attività di valutazione genetica e la disponibilità di materiale di elevato valore genetico atto alla riproduzione animale, possono essere concessi contributi, nelle misure indicate, per i seguenti interventi:</alinea>
+						<el id="art6ter-com1-leta">
+							<num>a)</num>
+							<corpo>fino al 40 per cento della spesa riconosciuta ammissibile per la realizzazione, la trasformazione, la ristrutturazione, l'adeguamento a norme igienico-sanitarie o l'ampliamento di locali o di altre opere fisse o mobili direttamente collegate all'attività di valutazione degli animali, di prelievo di materiale seminale e di produzione o raccolta di embrioni, o a queste connesse e di supporto;</corpo>
+						</el>
+						<el id="art6ter-com1-letb">
+							<num>b)</num>
+							<corpo>fino al 40 per cento della spesa riconosciuta ammissibile per l'adeguamento strumentale e l'acquisto di attrezzature tecnologiche e informatiche impiegate per la valutazione genetica degli animali e per la raccolta ed il trattamento del materiale genetico e riproduttivo;</corpo>
+						</el>
+						<el id="art6ter-com1-letc">
+							<num>c)</num>
+							<corpo>
+								fino al 30 per cento della spesa riconosciuta ammissibile per il mantenimento dei riproduttori maschi, per il periodo di permanenza presso le strutture di cui all'
+								<rif xlink:href="#art12-com1" xlink:type="simple">articolo 12, comma 1</rif>
+								, lettere e), e bis), e quater) ed e quinquies).
+							</corpo>
+						</el>
 					</comma>
 				</articolo>
 				<articolo id="art7">
@@ -454,13 +617,29 @@
 					<comma id="art7bis-com1">
 						<num>1.</num>
 						<alinea>Allo scopo di incrementare il miglioramento genetico del patrimonio zootecnico possono essere concessi contributi sugli investimenti finalizzati all'acquisto di riproduttori (maschi e femmine), iscritti nei libri genealogici o nei registri anagrafici, nelle seguenti misure:</alinea>
-						<el id="art7bis-com1-leta">
+						<el finevigore="t5" id="art7bis-com1-leta-t5" iniziovigore="t1" status="abrogato">
 							<num>a)</num>
-							<corpo>fino al 40 0ella spesa riconosciuta ammissibile per l'acquisto di maschi, da destinare alla riproduzione mediante la fecondazione naturale, a favore di produttori agricoli che conducono allevamenti di animali della stessa razza dei riproduttori acquistati;</corpo>
+							<corpo>fino al 40 della spesa riconosciuta ammissibile per l'acquisto di maschi, da destinare alla riproduzione mediante la fecondazione naturale, a favore di produttori agricoli che conducono allevamenti di animali della stessa razza dei riproduttori acquistati;</corpo>
 						</el>
-						<el id="art7bis-com1-letb">
+						<el id="art7bis-com1-leta" iniziovigore="t5">
+							<num>a)</num>
+							<corpo>
+								fino al 40 per cento della spesa riconosciuta ammissibile per l'acquisto di maschi, da destinare alla riproduzione mediante la fecondazione naturale, a favore dei produttori agricoli che conducono allevamenti di animali della stessa razza dei riproduttori acquistati, nonché per l'acquisto di maschi, a favore dei soggetti di cui all'
+								<rif xlink:href="#art12" xlink:type="simple">articolo 12</rif>
+								;
+							</corpo>
+						</el>
+						<el finevigore="t5" id="art7bis-com1-letb-t5" iniziovigore="t1" status="abrogato">
 							<num>b)</num>
-							<corpo>fino al 25 0ella spesa riconosciuta ammissibile per l'acquisto di femmine a favore di produttori agricoli.</corpo>
+							<corpo>fino al 25 della spesa riconosciuta ammissibile per l'acquisto di femmine a favore di produttori agricoli.</corpo>
+						</el>
+						<el id="art7bis-com1-letb" iniziovigore="t5">
+							<num>b)</num>
+							<corpo>
+								fino al 25 per cento della spesa riconosciuta ammissibile per l'acquisto di femmine a favore dei produttori agricoli, nonché dei soggetti di cui all'
+								<rif xlink:href="#art12" xlink:type="simple">articolo 12</rif>
+								;
+							</corpo>
 						</el>
 					</comma>
 					<comma id="art7bis-com2">
@@ -479,7 +658,7 @@
 						<num>4.</num>
 						<corpo>
 							I criteri per la determinazione delle spese ammissibili e le modalità per la presentazione delle richieste di contributo sono stabiliti ai sensi dell'
-							<rif xlink:href="#art9" xlink:type="simple">art. 9</rif>
+							<rif xlink:href="#art9-t5" xlink:type="simple">art. 9</rif>
 							.
 						</corpo>
 					</comma>
@@ -582,13 +761,13 @@
 						</ep>
 					</comma>
 				</articolo>
-				<articolo id="art9" iniziovigore="t3">
+				<articolo finevigore="t5" id="art9-t5" iniziovigore="t3" status="abrogato">
 					<num>ARTICOLO 9</num>
 					<rubrica>(Competenze del Consiglio regionale)</rubrica>
-					<comma id="art9-com1">
+					<comma id="art9-t5-com1">
 						<num>1.</num>
 						<alinea>Il Consiglio regionale, su proposta della Giunta regionale, provvede:</alinea>
-						<el id="art9-com1-leta">
+						<el id="art9-t5-com1-leta">
 							<num>a)</num>
 							<corpo>
 								a stabilire i criteri per la determinazione delle spese ammissibili e l'importo dei compensi nonché ad indicare le modalità per la presentazione delle richieste di concessione dei benefici di cui agli
@@ -611,11 +790,11 @@
 								;
 							</corpo>
 						</el>
-						<el id="art9-com1-letb">
+						<el id="art9-t5-com1-letb">
 							<num>b)</num>
 							<corpo>a stabilire la possibilità della liquidazione di anticipazioni sui contributi ammissibili nonché la misura percentuale delle anticipazioni concedibili;</corpo>
 						</el>
-						<el id="art9-com1-letc">
+						<el id="art9-t5-com1-letc">
 							<num>c)</num>
 							<corpo>
 								ad individuare le modalità di erogazione dei fondi alle Province per gli interventi di cui agli
@@ -634,11 +813,39 @@
 								.
 							</corpo>
 						</el>
-						<el id="art9-com1-letcbis" iniziovigore="t4">
+						<el id="art9-t5-com1-letcbis" iniziovigore="t4">
 							<num>c bis)</num>
 							<corpo>
 								a stabilire i criteri per l'individuazione delle tecniche e dei metodi innovativi di cui all'
 								<rif xlink:href="#art5-com1" xlink:type="simple">articolo 5 comma 1</rif>
+								.
+							</corpo>
+						</el>
+					</comma>
+				</articolo>
+				<articolo id="art9" iniziovigore="t5">
+					<num>Art. 9</num>
+					<rubrica>Competenze del Consiglio regionale</rubrica>
+					<comma id="art9-com1">
+						<num>1.</num>
+						<alinea>Il Consiglio regionale, su proposta della Giunta, provvede:</alinea>
+						<el id="art9-com1-leta">
+							<num>a)</num>
+							<corpo>a stabilire i criteri per la determinazione delle spese ammissibili per gli interventi finanziati dalla presente legge;</corpo>
+						</el>
+						<el id="art9-com1-letb">
+							<num>b)</num>
+							<corpo>a definire la possibilità di liquidazione di anticipazioni sui contributi ammissibili, nonché la misura percentuale delle anticipazioni concedibili;</corpo>
+						</el>
+						<el id="art9-com1-letc">
+							<num>c)</num>
+							<corpo>a individuare le modalità di erogazione dei fondi alle Province per le funzioni da esse esercitate;</corpo>
+						</el>
+						<el id="art9-com1-letd">
+							<num>d)</num>
+							<corpo>
+								a stabilire i criteri per l'individuazione delle tecniche e dei metodi innovativi di cui all'
+								<rif xlink:href="#art5-com1" xlink:type="simple">articolo 5, comma 1</rif>
 								.
 							</corpo>
 						</el>
@@ -733,9 +940,29 @@
 							<num>d)</num>
 							<corpo>Istituto Zooprofilattico Sperimentale del Lazio e della Toscana;</corpo>
 						</el>
-						<el id="art12-com1-lete">
+						<el finevigore="t5" id="art12-com1-lete-t5" iniziovigore="t1" status="abrogato">
 							<num>e)</num>
 							<corpo>Centri di produzione di materiale seminale;</corpo>
+						</el>
+						<el id="art12-com1-lete" iniziovigore="t5">
+							<num>e)</num>
+							<corpo>centri di produzione di materiale seminale ed embrionale;</corpo>
+						</el>
+						<el id="art12-com1-letebis" iniziovigore="t5">
+							<num>e bis)</num>
+							<corpo>centri per l'esecuzione di test di valutazione genetica degli animali;</corpo>
+						</el>
+						<el id="art12-com1-leteter" iniziovigore="t5">
+							<num>e ter)</num>
+							<corpo>gruppi di raccolta degli embrioni;</corpo>
+						</el>
+						<el id="art12-com1-letequater" iniziovigore="t5">
+							<num>e quater)</num>
+							<corpo>centri di supporto all'attività selettiva;</corpo>
+						</el>
+						<el id="art12-com1-letequinquies" iniziovigore="t5">
+							<num>e quinquies)</num>
+							<corpo>centri per la conservazione e la valorizzazione delle popolazioni autoctone;</corpo>
 						</el>
 						<el id="art12-com1-letf">
 							<num>f)</num>
