@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t3" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19760625" num="32" tipo="BURT" />
@@ -18,28 +18,48 @@
 					<eventi>
 						<evento data="19760710" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19990320" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="20000401" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1976-06-16;26" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1999-02-23;8" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1999-02-23;8" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
+						<h:p>
+							Il testo storico dell'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1999-02-23;8#art21" xlink:type="simple">art. 21 della legge regionale 23 febbraio 1999 n. 8</rif>
+							dispone l'abrogazione dell'intero testo della presente legge subordinando questa azione alla definizione di requisiti strutturali, tecnologici ed organizzativi delle strutture pubbliche e private per l'esercizio delle diverse tipologie di attività sanitarie. In seguito, lo stesso articolo 21, come modificato dalla
+							<rif xlink:href="urn:nir:regione.toscana:legge:2000-03-08;20" xlink:type="simple">legge regionale 8 marzo 2000 n. 20</rif>
+							, ne dispone esplicitamente l'abrogazione a partire dalla data 1 aprile 2000.
+						</h:p>
+					</nota>
+					<nota id="LeggeRegionale1-n2">
 						<h:p>
 							La
 							<rif xlink:href="urn:nir:regione.toscana:legge:1978-10-24;71" xlink:type="simple">Legge Regionale 24 ottobre 1978, n. 71</rif>
 							limita l'applicazione della presente normativa a gabinetti di analisi chimiche a scopo diagnostico, gabinetti ove s'impiegano a scopo diagnostico sostanze radioattive e, infine, gabinetti di analisi radiologiche a scopo diagnostico.
 						</h:p>
 					</nota>
-					<nota id="n2">
-						<h:p>
-							Il testo storico dell'
-							<rif xlink:href="urn:nir:regione.toscana:legge:1999-02-23;8#art21" xlink:type="simple">art. 21 della Legge Regionale 23 febbraio 1999 n. 8</rif>
-							dispone l'abrogazione dell'intero testo della presente legge dall'esecutività della deliberazione con cui il Consiglio Regionale definisce, al fine di dettare una disciplina uniforme su tutto il territorio regionale, i requisiti strutturali, tecnologici ed organizzativi generali e specifici delle strutture pubbliche e private per l'esercizio delle diverse tipologie di attività sanitarie.
-						</h:p>
-					</nota>
 				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#??" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-02-23;8" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-02-23;8#art21" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo21, legge Regione Toscana 23 febbraio 1999, n. 8" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -47,7 +67,10 @@
 				<dataDoc norm="19760616">16 giugno 1976</dataDoc>
 				, n.
 				<numDoc>26</numDoc>
-				<titoloDoc>Norme di salvaguardia per il rilascio di autorizzazioni ad aprire, porre in esercizio, ampliare servizi diagnostici e ambulatoriali extraospedalieri.</titoloDoc>
+				<titoloDoc>
+					Norme di salvaguardia per il rilascio di autorizzazioni ad aprire, porre in esercizio, ampliare servizi diagnostici e ambulatoriali extraospedalieri.
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
+				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 11-5-1976</h:p>
@@ -59,8 +82,7 @@
 				<articolo id="artunico">
 					<num>
 						ARTICOLO UNICO
-						<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
-						<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+						<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(b)</ndr>
 					</num>
 					<comma id="artunico-com1">
 						<num />

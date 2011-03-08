@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t7" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1999-02-23;8" />
 					<urn finevigore="t10" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1999-02-23;8@2000-03-08" />
-					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1999-02-23;8@2000-10-25" />
+					<urn finevigore="t11" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1999-02-23;8@2000-10-25" />
+					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1999-02-23;8@2003-07-08" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Enti Sanitari" />
 					</materie>
@@ -26,6 +27,13 @@
 						<evento data="20000401" fonte="ra6" id="t8" tipo="modifica" />
 						<evento data="20000401" fonte="ra7" id="t9" tipo="modifica" />
 						<evento data="20001031" fonte="rp2" id="t10" tipo="modifica" />
+						<evento data="20030725" fonte="rp3" id="t11" tipo="modifica" />
+						<evento data="20000401" fonte="ra8" id="t12" tipo="modifica" />
+						<evento data="20000401" fonte="ra9" id="t13" tipo="modifica" />
+						<evento data="20000401" fonte="ra10" id="t14" tipo="modifica" />
+						<evento data="20000401" fonte="ra11" id="t15" tipo="modifica" />
+						<evento data="20000401" fonte="ra12" id="t16" tipo="modifica" />
+						<evento data="20000401" fonte="ra13" id="t17" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1999-02-23;8" xlink:type="simple" />
@@ -36,8 +44,15 @@
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1992-03-26;12" xlink:type="simple" />
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1977-03-12;18" xlink:type="simple" />
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:1977-03-12;18" xlink:type="simple" />
+						<attiva id="ra8" xlink:href="urn:nir:regione.toscana:legge:1977-03-12;18" xlink:type="simple" />
+						<attiva id="ra9" xlink:href="urn:nir:regione.toscana:legge:1976-06-16;26" xlink:type="simple" />
+						<attiva id="ra10" xlink:href="urn:nir:regione.toscana:legge:1988-06-06;44" xlink:type="simple" />
+						<attiva id="ra11" xlink:href="urn:nir:regione.toscana:legge:1989-12-01;78" xlink:type="simple" />
+						<attiva id="ra12" xlink:href="urn:nir:regione.toscana:legge:1992-03-26;11" xlink:type="simple" />
+						<attiva id="ra13" xlink:href="urn:nir:regione.toscana:legge:1992-03-26;12" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-03-08;20" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2000-10-25;75" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -104,19 +119,6 @@
 						</dsp:abrogazione>
 						<dsp:abrogazione completa="si" implicita="no">
 							<dsp:pos xlink:href="#mod8" xlink:type="simple" />
-							<dsp:termine da="#t8" />
-							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1977-03-12;18" xlink:type="simple">
-								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1977-03-12;18#art12-com1" xlink:type="simple" />
-							</dsp:norma>
-							<dsp:novellando>
-								<dsp:pos xlink:href="#mod8-vir1" xlink:type="simple" />
-								<dsp:subarg>
-									<ittig:tipo valore="parole" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
-								</dsp:subarg>
-							</dsp:novellando>
-						</dsp:abrogazione>
-						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#mod9" xlink:type="simple" />
 							<dsp:termine da="#t9" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1977-03-12;18" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1977-03-12;18#art12-com2" xlink:type="simple" />
@@ -127,10 +129,85 @@
 								</dsp:subarg>
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#mod7" xlink:type="simple" />
+							<dsp:termine da="#t12" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1977-03-12;18" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1977-03-12;18#art12-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:bordo ord="2" tipo="periodo" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:subarg>
+									<ittig:tipo valore="periodo" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#mod6" xlink:type="simple" />
+							<dsp:termine da="#t13" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1976-06-16;26" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1976-06-16;26" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:subarg>
+									<ittig:tipo valore="atto" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#mod9" xlink:type="simple" />
+							<dsp:termine da="#t14" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1988-06-06;44" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1988-06-06;44" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:subarg>
+									<ittig:tipo valore="atto" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#mod10" xlink:type="simple" />
+							<dsp:termine da="#t15" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1989-12-01;78" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1989-12-01;78" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:subarg>
+									<ittig:tipo valore="atto" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#mod11" xlink:type="simple" />
+							<dsp:termine da="#t16" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1992-03-26;11" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1992-03-26;11" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:subarg>
+									<ittig:tipo valore="atto" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#mod12" xlink:type="simple" />
+							<dsp:termine da="#t17" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1992-03-26;12" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1992-03-26;12" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:subarg>
+									<ittig:tipo valore="atto" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modificheattive>
 					<modifichepassive>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art7-com2" xlink:type="simple" />
+							<dsp:pos xlink:href="#art7-com2-t11" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-03-08;20" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-03-08;20#art1-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -138,7 +215,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art7-com2" xlink:type="simple" />
+								<dsp:pos xlink:href="#art7-com2-t11" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art7-com2-t7" xlink:type="simple" />
@@ -160,7 +237,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art19-com2" xlink:type="simple" />
+							<dsp:pos xlink:href="#art19-t11-com2" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-03-08;20" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-03-08;20#art3-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -168,14 +245,14 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+								<dsp:pos xlink:href="#h6" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+								<dsp:pos xlink:href="#h5" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:integrazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art20" xlink:type="simple" />
+							<dsp:pos xlink:href="#art20-t11" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-03-08;20" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-03-08;20#art4-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -214,6 +291,516 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art17-com9-t10" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com1-letc" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 8 luglio 2003, n. 34" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art1-com1-letc" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art1-com1-letc-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com1-letc" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34#art1-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2 della legge Regione Toscana 8 luglio 2003, n. 34" id="itt8" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art1-com1-letcbis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 8 luglio 2003, n. 34" id="itt9" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com1-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34#art2-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 2 della legge Regione Toscana 8 luglio 2003, n. 34" id="itt10" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com2-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com1-letb" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 8 luglio 2003, n. 34" id="itt11" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3-com1-letb" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-com1-letb-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34#art4-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1 della legge Regione Toscana 8 luglio 2003, n. 34" id="itt12" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34#art5-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 1 della legge Regione Toscana 8 luglio 2003, n. 34" id="itt13" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34#art5-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 2 della legge Regione Toscana 8 luglio 2003, n. 34" id="itt14" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art5-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-com2-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34#art5-com3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 3 della legge Regione Toscana 8 luglio 2003, n. 34" id="itt15" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34#art6-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 6, comma 1 della legge Regione Toscana 8 luglio 2003, n. 34" id="itt16" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art6-com1-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34#art7-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 7, comma 1 della legge Regione Toscana 8 luglio 2003, n. 34" id="itt17" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art7-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art7-com2-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34#art8-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 8, comma 1 della legge Regione Toscana 8 luglio 2003, n. 34" id="itt18" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art8-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art8-com2-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34#art9-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 9, comma 1 della legge Regione Toscana 8 luglio 2003, n. 34" id="itt19" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art9-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art9-com2-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9-com6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34#art9-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 9, comma 2 della legge Regione Toscana 8 luglio 2003, n. 34" id="itt20" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art9-com6" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art9-com6-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art10-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34#art10-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 10, comma 1 della legge Regione Toscana 8 luglio 2003, n. 34" id="itt21" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art10-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art10-com1-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art10-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34#art10-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 10, comma 2 della legge Regione Toscana 8 luglio 2003, n. 34" id="itt22" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art10-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art10-com2-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art12-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34#art11-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 11, comma 1 della legge Regione Toscana 8 luglio 2003, n. 34" id="itt23" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art12-com4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art12-com4-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art14" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34#art12-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 12, comma 1 della legge Regione Toscana 8 luglio 2003, n. 34" id="itt24" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art14" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art14-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art15-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34#art13-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 13, comma 1 della legge Regione Toscana 8 luglio 2003, n. 34" id="itt25" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art15-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art15-com1-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art15-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34#art13-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 13, comma 2 della legge Regione Toscana 8 luglio 2003, n. 34" id="itt26" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art15-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art15-com2-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art15-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34#art13-com3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 13, comma 3 della legge Regione Toscana 8 luglio 2003, n. 34" id="itt27" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art15-com3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art15-com3-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art15-com9" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34#art13-com4" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 13, comma 4 della legge Regione Toscana 8 luglio 2003, n. 34" id="itt28" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art15-com9" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art15-com9-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art15-com10" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34#art13-com5" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 13, comma 5 della legge Regione Toscana 8 luglio 2003, n. 34" id="itt29" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art15-com10" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art15-com10-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art15-com11" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34#art13-com6" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 13, comma 6 della legge Regione Toscana 8 luglio 2003, n. 34" id="itt30" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art15-com11" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art15-com11-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art16-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34#art14-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 14, comma 1 della legge Regione Toscana 8 luglio 2003, n. 34" id="itt31" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art16-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art16-com2-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art16-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34#art14-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 14, comma 2 della legge Regione Toscana 8 luglio 2003, n. 34" id="itt32" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art16-com3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art16-com3-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art17-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34#art15-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 15, comma 1 della legge Regione Toscana 8 luglio 2003, n. 34" id="itt33" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art17-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art17-com1-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art17-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34#art15-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 15, comma 2 della legge Regione Toscana 8 luglio 2003, n. 34" id="itt34" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art17-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art17-com2-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art17-com6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34#art15-com3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 15, comma 3 della legge Regione Toscana 8 luglio 2003, n. 34" id="itt35" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art17-com6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34#art15-com4" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 15, comma 4 della legge Regione Toscana 8 luglio 2003, n. 34" id="itt36" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art17-com6bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art18-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34#art16-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 16, comma 1 della legge Regione Toscana 8 luglio 2003, n. 34" id="itt37" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art18-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art18-com2-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art18-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34#art16-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 16, comma 2 della legge Regione Toscana 8 luglio 2003, n. 34" id="itt38" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art18-com2bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art18-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34#art16-com3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 16, comma 3 della legge Regione Toscana 8 luglio 2003, n. 34" id="itt39" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art18-com3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art18-com3-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art19" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34#art17-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 17, comma 1 della legge Regione Toscana 8 luglio 2003, n. 34" id="itt40" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art19" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art19-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art20" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-08;34#art18-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 18, comma 1 della legge Regione Toscana 8 luglio 2003, n. 34" id="itt41" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art20" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art20-t11" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -277,9 +864,17 @@
 								;
 							</corpo>
 						</el>
-						<el id="art1-com1-letc">
+						<el finevigore="t11" id="art1-com1-letc-t11" iniziovigore="t1" status="abrogato">
 							<num>c)</num>
 							<corpo>i principi e le modalità per la determinazione dei requisiti delle strutture pubbliche e private ai fini dell'accreditamento.</corpo>
+						</el>
+						<el id="art1-com1-letc" iniziovigore="t11">
+							<num>c)</num>
+							<corpo>i principi e le modalità per la determinazione dei requisiti delle strutture pubbliche e private, nonché dei professionisti ai fini dell'accreditamento.</corpo>
+						</el>
+						<el id="art1-com1-letcbis" iniziovigore="t11">
+							<num>c bis)</num>
+							<corpo>i requisiti strutturali, tecnologici ed organizzativi generali e specifici, nonché le disposizioni sul rilascio delle autorizzazioni per l'apertura e l'esercizio degli studi odontoiatrici, medici e di altre professioni sanitarie, ove attrezzati per erogare prestazioni di chirurgia ambulatoriale, ovvero procedure diagnostiche e terapeutiche di particolare complessità o che comportino un rischio per il paziente.</corpo>
 						</el>
 					</comma>
 				</articolo>
@@ -289,7 +884,7 @@
 					<articolo id="art2">
 						<num>ARTICOLO 2</num>
 						<rubrica>(Obbligatorietà del possesso dei requisiti)</rubrica>
-						<comma id="art2-com1">
+						<comma finevigore="t11" id="art2-com1-t11" iniziovigore="t1" status="abrogato">
 							<num>1.</num>
 							<corpo>
 								Fatti salvi i requisiti previsti dal
@@ -299,10 +894,28 @@
 								.
 							</corpo>
 						</comma>
-						<comma id="art2-com2">
+						<comma id="art2-com1" iniziovigore="t11">
+							<num>1.</num>
+							<corpo>
+								Fatti salvi i requisiti previsti dal
+								<rif xlink:href="urn:nir:presidente.repubblica:decreto:1997-01-14" xlink:type="simple">decreto del Presidente della Repubblica 14 gennaio 1997</rif>
+								(Approvazione dell'atto di indirizzo e coordinamento alle regioni e alle province autonome di Trento e di Bolzano, in materia di requisiti strutturali, tecnologici ed organizzativi minimi per l'esercizio delle attività sanitarie da parte delle strutture pubbliche e private), il Consiglio regionale, su proposta della Giunta regionale, al fine di dettare una disciplina uniforme su tutto il territorio regionale, definisce, con propria deliberazione, i requisiti generali e specifici di cui all'
+								<rif xlink:href="#art1" xlink:type="simple">articolo 1</rif>
+								.
+							</corpo>
+						</comma>
+						<comma finevigore="t11" id="art2-com2-t11" iniziovigore="t1" status="abrogato">
 							<num>2.</num>
 							<corpo>
 								Le strutture che erogano prestazioni di assistenza specialistica in regime ambulatoriale e le strutture che erogano prestazioni in regime di ricovero a ciclo continuativo e/o diurno per acuti e non acuti sono tenute ad adeguarsi e a mantenere i requisiti di cui al
+								<rif xlink:href="#art2-com1-t11" xlink:type="simple">comma 1</rif>
+								.
+							</corpo>
+						</comma>
+						<comma id="art2-com2" iniziovigore="t11">
+							<num>2.</num>
+							<corpo>
+								Le strutture che erogano prestazioni di assistenza specialistica in regime ambulatoriale, gli studi professionali soggetti ad autorizzazione e le strutture che erogano prestazioni in regime di ricovero a ciclo continuativo e/o diurno per acuti e non acuti sono tenute ad adeguarsi e a mantenere i requisiti di cui al
 								<rif xlink:href="#art2-com1" xlink:type="simple">comma 1</rif>
 								.
 							</corpo>
@@ -326,11 +939,19 @@
 								<num>a)</num>
 								<corpo>per le strutture pubbliche nell'ambito delle procedure di accreditamento;</corpo>
 							</el>
-							<el id="art3-com1-letb">
+							<el finevigore="t11" id="art3-com1-letb-t11" iniziovigore="t1" status="abrogato">
 								<num>b)</num>
 								<corpo>
 									per le strutture private ai sensi dell'
 									<rif xlink:href="#art9" xlink:type="simple">art. 9</rif>
+									.
+								</corpo>
+							</el>
+							<el id="art3-com1-letb" iniziovigore="t11">
+								<num>b)</num>
+								<corpo>
+									per le strutture private e gli studi professionali soggetti ad autorizzazione ai sensi dall'
+									<rif xlink:href="#art9" xlink:type="simple">articolo 9</rif>
 									.
 								</corpo>
 							</el>
@@ -340,10 +961,10 @@
 				<titolo id="tit2">
 					<num>Titolo II</num>
 					<rubrica>AUTORIZZAZIONE</rubrica>
-					<articolo id="art4">
+					<articolo finevigore="t11" id="art4-t11" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 4</num>
 						<rubrica>(Competenza)</rubrica>
-						<comma id="art4-com1">
+						<comma id="art4-t11-com1">
 							<num>1.</num>
 							<corpo>
 								Il rilascio dell'autorizzazione all'apertura e all'esercizio delle strutture sanitarie di cui all'
@@ -352,9 +973,24 @@
 							</corpo>
 						</comma>
 					</articolo>
+					<articolo id="art4" iniziovigore="t11">
+						<num>Art. 4</num>
+						<rubrica>Competenza</rubrica>
+						<comma id="art4-com1">
+							<num>1.</num>
+							<corpo>
+								Il rilascio dell'autorizzazione all'apertura e all'esercizio delle strutture sanitarie e degli studi professionali di cui all'
+								<rif xlink:href="#art5" xlink:type="simple">articolo 5</rif>
+								è attribuita al Sindaco, nella sua qualità di autorità sanitaria locale, del comune ove la struttura ha sede.
+							</corpo>
+						</comma>
+					</articolo>
 					<articolo id="art5">
 						<num>ARTICOLO 5</num>
-						<rubrica>(Strutture soggette ad autorizzazione)</rubrica>
+						<rubrica>
+							<h:span finevigore="t11" id="h1" iniziovigore="t1" status="abrogato">(Strutture soggette ad autorizzazione)</h:span>
+							<h:span id="h2" iniziovigore="t11">(Strutture e studi professionali soggetti ad autorizzazione)</h:span>
+						</rubrica>
 						<comma id="art5-com1">
 							<num>1.</num>
 							<alinea>Sono soggette ad autorizzazione del Sindaco, entro sei mesi dalla richiesta, tutte le strutture sanitarie private che gestiscono:</alinea>
@@ -383,31 +1019,56 @@
 								<corpo>centri di riabilitazione sia ambulatoriali che di ricovero a ciclo continuativo e diurno, centri diurni o di day-hospital psichiatrico, strutture residenziali di psichiatria, strutture di riabilitazione per tossicodipendenti.</corpo>
 							</el>
 						</comma>
-						<comma id="art5-com2">
+						<comma finevigore="t11" id="art5-com2-t11" iniziovigore="t1" status="abrogato">
 							<num>2.</num>
 							<corpo>Non sono soggetti ad autorizzazione gli studi medici, singoli o associati, per l'esercizio dell'attività libero-professionale, in cui il medico esercita la propria attività, comprensiva anche di quella diagnostica strumentale svolta esclusivamente nei confronti dei propri pazienti, a scopo di accertamento diagnostico complementare all'attività clinica.</corpo>
+						</comma>
+						<comma id="art5-com2" iniziovigore="t11">
+							<num>2.</num>
+							<corpo>
+								Sono altresì soggetti ad autorizzazione gli studi singoli o associati, per l'esercizio dell'attività libero-professionale, relativamente agli studi odontoiatrici, medici e di altre professioni sanitarie, ove attrezzati per erogare prestazioni di chirurgia ambulatoriale ovvero procedure diagnostiche e terapeutiche di particolare complessità o che comportino un rischio per il paziente, individuati con deliberazione del Consiglio regionale ai sensi dell'
+								<rif xlink:href="#art2" xlink:type="simple">articolo 2</rif>
+								.
+							</corpo>
 						</comma>
 						<comma id="art5-com3">
 							<num>3.</num>
 							<corpo>
 								Non sono altresì soggette ad autorizzazione le attività libero-professionali svolte dalle figure professionali sanitarie, individuate dai regolamenti del Ministro della Sanità, in attuazione dell'
 								<rif xlink:href="urn:nir:stato:decreto.legislativo:1992;502#art6-com3" xlink:type="simple">art. 6, comma 3, del DLgs 502/92</rif>
-								e successive modificazioni e integrazioni.
+								e successive modificazioni e integrazioni
+								<h:span id="h3" iniziovigore="t11">
+									, salvo non rientrino tra le professioni sanitarie di cui al
+									<rif xlink:href="#art5-com2" xlink:type="simple">comma 2</rif>
+								</h:span>
+								.
 							</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art6">
 						<num>ARTICOLO 6</num>
 						<rubrica>(Oggetto dell'autorizzazione)</rubrica>
-						<comma id="art6-com1">
+						<comma finevigore="t11" id="art6-com1-t11" iniziovigore="t1" status="abrogato">
 							<num>1.</num>
 							<corpo>
 								L'autorizzazione all'apertura e all'esercizio delle strutture sanitarie di cui all'
 								<rif xlink:href="#art5" xlink:type="simple">art. 5</rif>
 								è subordinata alla esistenza dei requisiti previsti dall'
-								<rif xlink:href="#art2-com1" xlink:type="simple">art. 2, comma 1</rif>
+								<rif xlink:href="#art2-com1-t11" xlink:type="simple">art. 2, comma 1</rif>
 								, in relazione alle specifiche tipologie di prestazioni di cui all'
 								<rif xlink:href="#art1" xlink:type="simple">art. 1</rif>
+								.
+							</corpo>
+						</comma>
+						<comma id="art6-com1" iniziovigore="t11">
+							<num>1.</num>
+							<corpo>
+								L'autorizzazione all'apertura e all'esercizio delle strutture sanitarie e degli studi professionali di cui all'
+								<rif xlink:href="#art5" xlink:type="simple">articolo 5</rif>
+								è subordinata all'esistenza dei requisiti previsti dall'
+								<rif xlink:href="#art2-com1" xlink:type="simple">articolo 2, comma 1</rif>
+								, in relazione alle specifiche tipologie di prestazioni di cui all'
+								<rif xlink:href="#art1" xlink:type="simple">articolo 1</rif>
 								.
 							</corpo>
 						</comma>
@@ -451,9 +1112,13 @@
 							<num>2.</num>
 							<corpo>Entro 180 giorni dall'entrata in vigore della presente legge la Giunta regionale determina con propria deliberazione le modalità di presentazione della domanda e la relativa documentazione.</corpo>
 						</comma>
-						<comma id="art7-com2" iniziovigore="t7">
+						<comma finevigore="t11" id="art7-com2-t11" iniziovigore="t7" status="abrogato">
 							<num>2.</num>
 							<corpo>La Giunta regionale determina con propria deliberazione le modalità e i termini per la richiesta e per il rilascio dell'autorizzazione, prevedendo la possibilità del riesame dell'istanza, in caso di esito negativo o di prescrizioni contestate dal soggetto richiedente.</corpo>
+						</comma>
+						<comma id="art7-com2" iniziovigore="t11">
+							<num>2.</num>
+							<corpo>La Giunta regionale, al fine di dettare modalità di comportamento omogenee su tutto il territorio regionale, determina con propria deliberazione le modalità e i termini per la richiesta e per il rilascio dell'autorizzazione. I comuni, nell'ambito della propria autonomia, definiscono gli aspetti organizzativi e procedurali connessi al rilascio delle autorizzazioni, nel rispetto delle disposizioni generali approvate dalla Giunta regionale, prevedendo la possibilità del riesame dell'istanza, in caso di esito negativo o di prescrizioni contestate dal soggetto richiedente.</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art8">
@@ -467,9 +1132,13 @@
 								, nonché le pronunce di decadenza di autorizzazioni precedentemente rilasciate, provvedendo in via prioritaria al trasferimento all'Azienda USL competente e alla Giunta regionale, delle informazioni per via telematica nell'ambito del sistema informativo sanitario regionale
 							</corpo>
 						</comma>
-						<comma id="art8-com2">
+						<comma finevigore="t11" id="art8-com2-t11" iniziovigore="t1" status="abrogato">
 							<num>2.</num>
 							<corpo>La Giunta regionale provvede, con decadenza semestrale, a pubblicare sul Bollettino Ufficiale della Regione Toscana l'elenco aggiornato delle strutture autorizzate.</corpo>
+						</comma>
+						<comma id="art8-com2" iniziovigore="t11">
+							<num>2.</num>
+							<corpo>La Giunta regionale cura la tenuta dell'elenco aggiornato dei soggetti autorizzati e con cadenza annuale ne provvede alla pubblicazione sul Bollettino ufficiale della Regione Toscana; la Giunta regionale garantisce a tutti i soggetti interessati l'accesso ai relativi dati.</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art9">
@@ -483,9 +1152,13 @@
 								, avvalendosi della struttura organizzativa del Dipartimento di prevenzione dell'Azienda USL nel territorio della quale è ricompreso il Comune medesimo.
 							</corpo>
 						</comma>
-						<comma id="art9-com2">
+						<comma finevigore="t11" id="art9-com2-t11" iniziovigore="t1" status="abrogato">
 							<num>2.</num>
 							<corpo>In rapporto alla tipologia di prestazioni erogate nei presidi, possono essere interessate all'accertamento e alla verifica dei requisiti anche altre strutture organizzative.</corpo>
+						</comma>
+						<comma id="art9-com2" iniziovigore="t11">
+							<num>2.</num>
+							<corpo>In rapporto alla tipologia di prestazioni erogate nei presidi e negli studi professionali, possono essere interessate all'accertamento e alla verifica dei requisiti anche altre strutture organizzative.</corpo>
 						</comma>
 						<comma id="art9-com3">
 							<num>3.</num>
@@ -499,15 +1172,19 @@
 							<num>5.</num>
 							<corpo>Il Sindaco e/o la Giunta regionale possono disporre controlli e verifiche ogni qualvolta ne ravvisino la necessità, ai fini del buon andamento delle attività sanitarie.</corpo>
 						</comma>
-						<comma id="art9-com6">
+						<comma finevigore="t11" id="art9-com6-t11" iniziovigore="t1" status="abrogato">
 							<num>6.</num>
 							<corpo>Di ogni verifica è redatto apposito verbale, da consegnare in copia al legale rappresentante e al direttore sanitario, al Sindaco e al Presidente della Giunta regionale.</corpo>
+						</comma>
+						<comma id="art9-com6" iniziovigore="t11">
+							<num>6.</num>
+							<corpo>Di ogni verifica è redatto apposito verbale da consegnare in copia al legale rappresentante o al titolare e al direttore sanitario, al Sindaco e al Presidente della Giunta regionale.</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art10">
 						<num>ARTICOLO 10</num>
 						<rubrica>(Pubblicità sanitaria)</rubrica>
-						<comma id="art10-com1">
+						<comma finevigore="t11" id="art10-com1-t11" iniziovigore="t1" status="abrogato">
 							<num>1.</num>
 							<corpo>
 								La pubblicità sanitaria delle strutture di cui alla presente legge è consentita nei limiti e nelle forme di cui alla
@@ -515,12 +1192,30 @@
 								.
 							</corpo>
 						</comma>
-						<comma id="art10-com2">
+						<comma id="art10-com1" iniziovigore="t11">
+							<num>1.</num>
+							<corpo>
+								La pubblicità sanitaria è consentita nei limiti e nelle forme di cui alla
+								<rif xlink:href="urn:nir:stato:legge:1992-02-05;175" xlink:type="simple">legge 5 febbraio 1992, n. 175</rif>
+								(Norme in materia di pubblicità sanitaria e di repressione dell'esercizio abusivo delle professioni sanitarie).
+							</corpo>
+						</comma>
+						<comma finevigore="t11" id="art10-com2-t11" iniziovigore="t1" status="abrogato">
 							<num>2.</num>
 							<corpo>
 								L'autorizzazione è rilasciata dal Sindaco ai sensi della
 								<rif xlink:href="urn:nir:regione.toscana:legge:1998-11-26;85" xlink:type="simple">legge regionale 26 novembre 1998, n. 85</rif>
 								, sentito l'Ordine Provinciale dei Medici e degli Odontoiatri.
+							</corpo>
+						</comma>
+						<comma id="art10-com2" iniziovigore="t11">
+							<num>2.</num>
+							<corpo>
+								L'autorizzazione è rilasciata dal Sindaco ai sensi della
+								<rif xlink:href="urn:nir:regione.toscana:legge:1998-11-26;85" xlink:type="simple">legge regionale 26 novembre 1998, n. 85</rif>
+								(Attribuzione agli enti locali e disciplina generale delle funzioni e dei compiti amministrativi in materia di tutela della salute, servizi sociali, istruzione scolastica, formazione professionale, beni e attività culturali e spettacolo, conferiti alla Regione dal
+								<rif xlink:href="urn:nir:stato:decreto.legislativo:1998-03-31;112" xlink:type="simple">decreto legislativo 31 marzo 1998, n.112</rif>
+								), e successive modificazioni, secondo le modalità ivi previste, sentiti gli ordini e i collegi professionali competenti.
 							</corpo>
 						</comma>
 					</articolo>
@@ -595,9 +1290,13 @@
 							<num>3.</num>
 							<corpo>Nelle strutture monospecialistiche, sia ambulatoriali che di ricovero in fase post-acuta, le funzioni del direttore sanitario possono essere svolte anche da un medico in possesso della specializzazione nella disciplina cui afferiscono le prestazioni svolte.</corpo>
 						</comma>
-						<comma id="art12-com4">
+						<comma finevigore="t11" id="art12-com4-t11" iniziovigore="t1" status="abrogato">
 							<num>4.</num>
 							<corpo>Negli ambulatori che svolgono esclusivamente attività di medicina di laboratorio, le funzioni del direttore sanitario possono essere svolte, per quanto di competenza, anche da un direttore tecnico laureato in biologia o chimica.</corpo>
+						</comma>
+						<comma id="art12-com4" iniziovigore="t11">
+							<num>4.</num>
+							<corpo>Negli ambulatori che svolgono esclusivamente attività di medicina di laboratorio, le funzioni del direttore sanitario possono essere svolte, per quanto di competenza, anche da un direttore tecnico in possesso di laurea specialistica in biologia o chimica, purché specializzato o in possesso di almeno cinque anni di anzianità nell'attività di direzione tecnico-sanitaria in enti o strutture sanitarie pubbliche o private.</corpo>
 						</comma>
 						<comma id="art12-com5">
 							<num>5.</num>
@@ -692,26 +1391,71 @@
 							</el>
 						</comma>
 					</articolo>
-					<articolo id="art14">
+					<articolo finevigore="t11" id="art14-t11" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 14</num>
 						<rubrica>(Responsabile di branca e di struttura organizzativa)</rubrica>
-						<comma id="art14-com1">
+						<comma id="art14-t11-com1">
 							<num>1.</num>
 							<corpo>Il responsabile di branca delle strutture ambulatoriali o di struttura organizzativa di ricovero deve essere in possesso della specializzazione nella relativa disciplina o disciplina equipollente.</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art14" iniziovigore="t11">
+						<num>Art. 14</num>
+						<rubrica>Titolare dello studio professionale</rubrica>
+						<comma id="art14-com1">
+							<num>1.</num>
+							<alinea>Il titolare dello studio professionale è tenuto a comunicare tempestivamente al Sindaco:</alinea>
+							<el id="art14-com1-leta">
+								<num>a)</num>
+								<corpo>le sostituzioni e/o le integrazioni del personale sanitario operante nello studio;</corpo>
+							</el>
+							<el id="art14-com1-letb">
+								<num>b)</num>
+								<corpo>le sostituzioni e/o integrazioni delle attrezzature sanitarie;</corpo>
+							</el>
+							<el id="art14-com1-letc">
+								<num>c)</num>
+								<corpo>la temporanea chiusura o inattività dello studio.</corpo>
+							</el>
+						</comma>
+						<comma id="art14-com2">
+							<num>2.</num>
+							<corpo>Il titolare dello studio professionale è inoltre tenuto a curare l'organizzazione tecnico-sanitaria dello studio sotto il profilo igienico ed organizzativo.</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art15">
 						<num>ARTICOLO 15</num>
 						<rubrica>(Sanzioni)</rubrica>
-						<comma id="art15-com1">
+						<comma finevigore="t11" id="art15-com1-t11" iniziovigore="t1" status="abrogato">
 							<num>1.</num>
 							<corpo>Il Sindaco dispone la chiusura della struttura aperta o trasferita in altra sede senza autorizzazione, nonché la chiusura dell'attività ambulatoriale e di degenza a ciclo diurno aperta senza autorizzazione all'interno di strutture di ricovero.</corpo>
 						</comma>
-						<comma id="art15-com2">
+						<comma id="art15-com1" iniziovigore="t11">
+							<num>1.</num>
+							<corpo>Il Sindaco dispone la chiusura della struttura o dello studio aperto o trasferito in altra sede senza autorizzazione, nonché la chiusura dell'attività ambulatoriale e di degenza a ciclo diurno aperta senza autorizzazione all'interno delle strutture di ricovero.</corpo>
+						</comma>
+						<comma finevigore="t11" id="art15-com2-t11" iniziovigore="t1" status="abrogato">
 							<num>2.</num>
 							<corpo>Il Sindaco dichiara altresì la decadenza dell'autorizzazione e dispone la conseguente chiusura della struttura nella quale sia stato accertato l'esercizio abusivo della professione sanitaria o in cui siano state commesse gravi o reiterate inadempienze comportanti situazioni di pericolo per la salute dei cittadini.</corpo>
 						</comma>
-						<comma id="art15-com3">
+						<comma id="art15-com2" iniziovigore="t11">
+							<num>2.</num>
+							<corpo>Il Sindaco dichiara altresì la decadenza dell'autorizzazione e dispone la conseguente chiusura della struttura e dello studio nei quali sia stato accertato l'esercizio abusivo della professione sanitaria o in cui siano state commesse gravi o reiterate inadempienze comportanti situazioni di pericolo per la salute dei cittadini.</corpo>
+						</comma>
+						<comma finevigore="t11" id="art15-com3-t11" iniziovigore="t1" status="abrogato">
+							<num>3.</num>
+							<corpo>
+								Nei casi previsti ai
+								<mrif>
+									commi
+									<rif xlink:href="#art15-com1-t11" xlink:type="simple">1</rif>
+									e
+									<rif xlink:href="#art15-com2-t11" xlink:type="simple">2</rif>
+								</mrif>
+								è comminata la sanzione amministrativa pecuniaria compresa fra un minimo di lire 6 milioni e un massimo di lire 20 milioni.
+							</corpo>
+						</comma>
+						<comma id="art15-com3" iniziovigore="t11">
 							<num>3.</num>
 							<corpo>
 								Nei casi previsti ai
@@ -721,7 +1465,7 @@
 									e
 									<rif xlink:href="#art15-com2" xlink:type="simple">2</rif>
 								</mrif>
-								è comminata la sanzione amministrativa pecuniaria compresa fra un minimo di lire 6 milioni e un massimo di lire 20 milioni.
+								è comminata la sanzione amministrativa pecuniaria compresa fra un minimo di euro 3.100,00 e un massimo di euro 10.350,00, nel caso di strutture, e la sanzione amministrativa pecuniaria compresa tra un minimo di euro 1.550,00 e un massimo di euro 9.300,00, nel caso di studi professionali.
 							</corpo>
 						</comma>
 						<comma id="art15-com4">
@@ -732,7 +1476,7 @@
 							<num>5.</num>
 							<corpo>
 								In caso di violazione delle norme di cui alla presente legge, di carenza dei requisiti di cui all'
-								<rif xlink:href="#art2-com1" xlink:type="simple">art. 2 comma 1</rif>
+								<rif xlink:href="#art2-com1-t11" xlink:type="simple">art. 2 comma 1</rif>
 								o di violazione di prescrizioni inserite nell'atto di autorizzazione, il Sindaco ordina la rimozione delle inadempienze e delle irregolarità riscontrate, assegnando a tal fine un termine compreso fra 30 e 180 giorni.
 							</corpo>
 						</comma>
@@ -748,7 +1492,7 @@
 							<num>8.</num>
 							<corpo>L'autorizzazione all'esercizio può essere nuovamente rilasciata solo dopo un anno dalla dichiarazione di decadenza della stessa.</corpo>
 						</comma>
-						<comma id="art15-com9">
+						<comma finevigore="t11" id="art15-com9-t11" iniziovigore="t1" status="abrogato">
 							<num>9.</num>
 							<corpo>
 								Nel caso previsto al
@@ -756,7 +1500,15 @@
 								è applicata la sanzione amministrativa pecuniaria compresa fra un minimo di lire 4 milioni e un massimo di lire 12 milioni.
 							</corpo>
 						</comma>
-						<comma id="art15-com10">
+						<comma id="art15-com9" iniziovigore="t11">
+							<num>9.</num>
+							<corpo>
+								Nel caso previsto al
+								<rif xlink:href="#art15-com5" xlink:type="simple">comma 5</rif>
+								è applicata la sanzione amministrativa pecuniaria compresa fra un minimo di euro 2.100,00 e un massimo di euro 6.200,00 nel caso di strutture, e la sanzione amministrativa pecuniaria compresa tra un minimo di euro 1.050,00 e un massimo di euro 3.100,00 in caso di studi.
+							</corpo>
+						</comma>
+						<comma finevigore="t11" id="art15-com10-t11" iniziovigore="t1" status="abrogato">
 							<num>10.</num>
 							<corpo>
 								Il legale rappresentante e il direttore sanitario della struttura che non adempiono agli obblighi ad essi rispettivamente imposti dagli
@@ -769,12 +1521,40 @@
 								, sono soggetti alla sanzione amministrativa pecuniaria da lire 1 milione a lire 6 milioni.
 							</corpo>
 						</comma>
-						<comma id="art15-com11">
+						<comma id="art15-com10" iniziovigore="t11">
+							<num>10.</num>
+							<corpo>
+								Il legale rappresentante e il direttore sanitario della struttura che non adempiono agli obblighi a loro rispettivamente imposti dagli
+								<mrif>
+									articoli
+									<rif xlink:href="#art11" xlink:type="simple">11</rif>
+									e
+									<rif xlink:href="#art13" xlink:type="simple">13</rif>
+								</mrif>
+								sono soggetti alla sanzione amministrativa pecuniaria da euro 500,00 a euro 3.100,00. Il titolare dello studio che non adempie agli obblighi a lui imposti dall'
+								<rif xlink:href="#art14" xlink:type="simple">articolo 14</rif>
+								è soggetto ad una sanzione amministrativa pecuniaria compresa tra un minimo di euro 250,00 e un massimo di euro 1.550,00.
+							</corpo>
+						</comma>
+						<comma finevigore="t11" id="art15-com11-t11" iniziovigore="t1" status="abrogato">
 							<num>11.</num>
 							<corpo>
 								Salvo quanto previsto dall'
 								<rif xlink:href="#art11-com1-letf" xlink:type="simple">art. 11, comma 1, lett. f)</rif>
 								, l'autorizzazione decade automaticamente in caso di dichiarata o accertata chiusura o inattività per un periodo superiore a 6 mesi.
+							</corpo>
+						</comma>
+						<comma id="art15-com11" iniziovigore="t11">
+							<num>11.</num>
+							<corpo>
+								Salvo quanto previsto dagli
+								<mrif>
+									articoli
+									<rif xlink:href="#art11-com1-letf" xlink:type="simple">11, comma 1, lett. f)</rif>
+									e
+									<rif xlink:href="#art14-com1-letc" xlink:type="simple">14, comma 1, lettera c)</rif>
+								</mrif>
+								, l'autorizzazione decade automaticamente in caso di dichiarata o accertata chiusura o inattività per un periodo superiore a sei mesi.
 							</corpo>
 						</comma>
 					</articolo>
@@ -789,7 +1569,7 @@
 							<num>1.</num>
 							<corpo>Fatti salvi i poteri degli ufficiali ed agenti di Polizia giudiziaria, l'accertamento delle violazioni di cui alla presente legge è effettuato dalla competente struttura organizzativa delle Aziende UUSSLL</corpo>
 						</comma>
-						<comma id="art16-com2">
+						<comma finevigore="t11" id="art16-com2-t11" iniziovigore="t1" status="abrogato">
 							<num>2.</num>
 							<corpo>
 								Per l'accertamento e l'applicazione delle sanzioni pecuniarie si osservano le disposizioni della
@@ -801,11 +1581,31 @@
 								, l'obbligo di rapporto all'Autorità giudiziaria nel caso di violazioni di norme penali.
 							</corpo>
 						</comma>
-						<comma id="art16-com3">
+						<comma id="art16-com2" iniziovigore="t11">
+							<num>2.</num>
+							<corpo>
+								Per l'accertamento e l'applicazione delle sanzioni pecuniarie si osservano le disposizioni della
+								<rif xlink:href="urn:nir:stato:legge:1981-11-24;689" xlink:type="simple">legge 24 novembre 1981, n. 689</rif>
+								(Modifiche al sistema penale), e della
+								<rif xlink:href="urn:nir:regione.toscana:legge:2000-12-28;81" xlink:type="simple">legge regionale 28 dicembre 2000, n.81</rif>
+								(Disposizioni in materia di sanzioni amministrative). Resta fermo, ai sensi di quanto disposto dal
+								<rif xlink:href="urn:nir:stato:codice.procedura.penale:1988-09-22;447" xlink:type="simple">codice di procedura penale</rif>
+								, l'obbligo di rapporto all'Autorità giudiziaria nel caso di violazioni di norme penali.
+							</corpo>
+						</comma>
+						<comma finevigore="t11" id="art16-com3-t11" iniziovigore="t1" status="abrogato">
 							<num>3.</num>
 							<corpo>
 								La chiusura della struttura ai sensi dell'
-								<rif xlink:href="#art15-com1" xlink:type="simple">art. 15, comma 1</rif>
+								<rif xlink:href="#art15-com1-t11" xlink:type="simple">art. 15, comma 1</rif>
+								, è disposta dal Sindaco non appena ricevuto il rapporto degli agenti accertatori.
+							</corpo>
+						</comma>
+						<comma id="art16-com3" iniziovigore="t11">
+							<num>3.</num>
+							<corpo>
+								La chiusura della struttura e dello studio ai sensi dell'
+								<rif xlink:href="#art15-com1" xlink:type="simple">articolo 15, comma 1</rif>
 								, è disposta dal Sindaco non appena ricevuto il rapporto degli agenti accertatori.
 							</corpo>
 						</comma>
@@ -813,13 +1613,13 @@
 							<num>4.</num>
 							<corpo>
 								Nel caso previsto dall'
-								<rif xlink:href="#art15-com2" xlink:type="simple">art. 15, comma 2</rif>
+								<rif xlink:href="#art15-com2-t11" xlink:type="simple">art. 15, comma 2</rif>
 								, l'interessato può far pervenire al Sindaco, entro il termine di 30 giorni dalla data di contestazione, scritti difensivi e documenti nonché chiedere di essere sentito. Il Sindaco, dopo aver acquisito il rapporto dell'Azienda USL, esaminati eventuali scritti difensivi e sentito l'interessato ove questi ne abbia fatto richiesta, se ritiene fondato l'accertamento, con ordinanza motivata, dispone i relativi provvedimenti sanzionatori previsti dall'
 								<mrif>
 									art. 15, commi
-									<rif xlink:href="#art15-com2" xlink:type="simple">2</rif>
+									<rif xlink:href="#art15-com2-t11" xlink:type="simple">2</rif>
 									e
-									<rif xlink:href="#art15-com3" xlink:type="simple">3</rif>
+									<rif xlink:href="#art15-com3-t11" xlink:type="simple">3</rif>
 								</mrif>
 								. La sanzione pecuniaria è comminata purché non sia intervenuto il pagamento in misura ridotta ai sensi dell'
 								<rif xlink:href="urn:nir:stato:legge:1981-11-24;689#art16" xlink:type="simple">art. 16 della legge 24 novembre 1981 n. 689</rif>
@@ -834,13 +1634,25 @@
 					<articolo id="art17">
 						<num>ARTICOLO 17</num>
 						<rubrica>(Norme transitorie)</rubrica>
-						<comma id="art17-com1">
+						<comma finevigore="t11" id="art17-com1-t11" iniziovigore="t1" status="abrogato">
 							<num>1.</num>
 							<corpo>Le disposizioni sui requisiti obbligatori di cui alla presente legge trovano immediata applicazione nel caso di attivazione di nuove strutture e di ampliamento o trasformazione di strutture già autorizzate.</corpo>
 						</comma>
-						<comma id="art17-com2">
+						<comma id="art17-com1" iniziovigore="t11">
+							<num>1.</num>
+							<corpo>Le disposizioni sui requisiti obbligatori di cui alla presente legge trovano immediata applicazione nel caso di attivazione di nuove strutture e studi e di ampliamento o trasformazione o trasferimento di sede di strutture e studi già autorizzati.</corpo>
+						</comma>
+						<comma finevigore="t11" id="art17-com2-t11" iniziovigore="t1" status="abrogato">
 							<num>2.</num>
 							<corpo>Nel caso di ampliamento o trasformazione di strutture già autorizzate, le disposizioni di cui al comma precedente sono applicate limitatamente all'oggetto dell'ampliamento o della trasformazione.</corpo>
+						</comma>
+						<comma id="art17-com2" iniziovigore="t11">
+							<num>2.</num>
+							<corpo>
+								Nel caso di ampliamento o trasformazione di strutture o studi già autorizzati, le disposizioni di cui al
+								<rif xlink:href="#art17-com1" xlink:type="simple">comma 1</rif>
+								sono applicate limitatamente all'oggetto dell'ampliamento o della trasformazione.
+							</corpo>
 						</comma>
 						<comma id="art17-com3">
 							<num>3.</num>
@@ -863,8 +1675,10 @@
 						<comma id="art17-com6">
 							<num>6.</num>
 							<alinea>
-								Le strutture private già autorizzate dovranno adeguarsi ai requisiti generali e specifici di cui all'
-								<rif xlink:href="#art2-com1" xlink:type="simple">art. 2, comma 1</rif>
+								Le strutture private già autorizzate
+								<h:span id="h4" iniziovigore="t11">e gli studi professionali già in esercizio</h:span>
+								dovranno adeguarsi ai requisiti generali e specifici di cui all'
+								<rif xlink:href="#art2-com1-t11" xlink:type="simple">art. 2, comma 1</rif>
 								, a far data dalla loro approvazione, nei termini sottoindicati:
 							</alinea>
 							<el id="art17-com6-leta">
@@ -883,6 +1697,10 @@
 								<num>d)</num>
 								<corpo>entro un anno, per quanto riguarda i requisiti organizzativi.</corpo>
 							</el>
+						</comma>
+						<comma id="art17-com6bis" iniziovigore="t11">
+							<num>6 bis.</num>
+							<corpo>Ai fini della presente legge, si considerano in esercizio gli studi professionali, singoli o associati, i cui titolari, alla data di pubblicazione della presente legge, risultino già svolgere attività libero professionale.</corpo>
 						</comma>
 						<comma id="art17-com7">
 							<num>7.</num>
@@ -904,7 +1722,7 @@
 								<num>b)</num>
 								<corpo>
 									entro un anno per quanto riguarda il requisito di cui all'
-									<rif xlink:href="#art14" xlink:type="simple">art. 14</rif>
+									<rif xlink:href="#art14-t11" xlink:type="simple">art. 14</rif>
 									.
 								</corpo>
 							</el>
@@ -954,23 +1772,35 @@
 							<num>1.</num>
 							<corpo>Le strutture sanitarie pubbliche in esercizio, le strutture sanitarie private autorizzate e i professionisti che intendano erogare prestazioni per conto del Servizio Sanitario Nazionale all'interno degli atti della programmazione sanitaria regionale, debbono ottenere preventivamente l'accreditamento.</corpo>
 						</comma>
-						<comma id="art18-com2">
+						<comma finevigore="t11" id="art18-com2-t11" iniziovigore="t1" status="abrogato">
 							<num>2.</num>
 							<alinea>Condizioni essenziali per l'accreditamento sono:</alinea>
-							<el id="art18-com2-leta">
+							<el id="art18-com2-t11-leta">
 								<num>a)</num>
 								<corpo>il possesso dei requisiti generali e specifici concernenti la struttura, le tecnologie e l'organizzazione del servizio;</corpo>
 							</el>
-							<el id="art18-com2-letb">
+							<el id="art18-com2-t11-letb">
 								<num>b)</num>
 								<corpo>l'accettazione del sistema di pagamento a prestazione;</corpo>
 							</el>
-							<el id="art18-com2-letc">
+							<el id="art18-com2-t11-letc">
 								<num>c)</num>
 								<corpo>l'adozione di un programma interno di verifica e di promozione della qualità dell'assistenza.</corpo>
 							</el>
 						</comma>
-						<comma id="art18-com3">
+						<comma id="art18-com2" iniziovigore="t11">
+							<num>2.</num>
+							<corpo>L'accreditamento è rilasciato dalla Regione alle strutture pubbliche e private ed ai professionisti che ne facciano richiesta subordinatamente alla loro rispondenza ai requisiti ulteriori di qualificazione, alla loro funzionalità rispetto agli indirizzi di programmazione regionale ed alla verifica positiva dell'attività svolta e dei risultati raggiunti.</corpo>
+						</comma>
+						<comma id="art18-com2bis" iniziovigore="t11">
+							<num>2 bis.</num>
+							<corpo>
+								La qualità di soggetto accreditato non costituisce vincolo per le aziende e gli enti del Servizio sanitario nazionale a corrispondere la remunerazione delle prestazioni erogate al di fuori degli accordi contrattuali di cui all'
+								<rif xlink:href="urn:nir:stato:decreto.legislativo:1992;502#art8quinquies" xlink:type="simple">articolo 8 quinquies del DLgs 502/1992</rif>
+								e successive modificazioni ed integrazioni.
+							</corpo>
+						</comma>
+						<comma finevigore="t11" id="art18-com3-t11" iniziovigore="t1" status="abrogato">
 							<num>3.</num>
 							<corpo>
 								L'accreditamento, nell'ambito della programmazione regionale e locale, è titolo necessario per l'instaurazione dei rapporti di cui all'
@@ -984,17 +1814,99 @@
 								e successive modificazioni ed integrazioni, da stipularsi nell'ambito della disciplina vigente secondo i principi di imparzialità e trasparenza.
 							</corpo>
 						</comma>
+						<comma id="art18-com3" iniziovigore="t11">
+							<num>3.</num>
+							<corpo>
+								L'accreditamento, nell'ambito della programmazione regionale e locale, è titolo necessario per l'instaurazione dei rapporti di cui all'
+								<rif xlink:href="urn:nir:stato:decreto.legislativo:1992;502#art8quinquies" xlink:type="simple">articolo 8 quinquies del DLgs 502/1992</rif>
+								e successive modificazioni ed integrazioni, da stipularsi nell'ambito della disciplina vigente secondo i principi di imparzialità e trasparenza.
+							</corpo>
+						</comma>
 						<comma id="art18-com4">
 							<num>4.</num>
 							<corpo>Il Piano Sanitario Regionale definisce il programma regionale di accreditamento, indicando gli obiettivi generali da raggiungere nel triennio e le iniziative necessarie per valorizzare l'accreditamento come strumento di garanzia per i cittadini, per la qualificazione dell'offerta e per la crescita del servizio sanitario verso l'eccellenza.</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art19">
+					<articolo finevigore="t11" id="art19-t11" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 19</num>
 						<rubrica>(Le procedure per l'accreditamento)</rubrica>
-						<comma id="art19-com1">
+						<comma id="art19-t11-com1">
 							<num>1.</num>
 							<corpo>Il Consiglio regionale adotta, su proposta della Giunta regionale, in attuazione della presente legge e sentito il Consiglio Sanitario Regionale, i provvedimenti con i quali vengono definiti i requisiti generali e specifici per l'accreditamento, i manuali, le procedure, i tempi e le modalità per l'adeguamento ai requisiti delle strutture in esercizio.</corpo>
+						</comma>
+						<comma id="art19-t11-com2">
+							<num>2.</num>
+							<alinea>I requisiti generali e specifici sono definiti avendo a riferimento nell'erogazione dei servizi e delle prestazioni:</alinea>
+							<el id="art19-t11-com2-leta">
+								<num>a)</num>
+								<corpo>la qualità dei sistemi organizzativi;</corpo>
+							</el>
+							<el id="art19-t11-com2-letb">
+								<num>b)</num>
+								<corpo>la qualità tecnico-professionale;</corpo>
+							</el>
+							<el id="art19-t11-com2-letc">
+								<num>c)</num>
+								<corpo>la qualità come percepita dall'utente.</corpo>
+							</el>
+						</comma>
+						<comma id="art19-t11-com3">
+							<num>3.</num>
+							<corpo>
+								Ai fini dell'individuazione dei requisiti di accreditamento e della predisposizione dei manuali, la Giunta regionale si avvale dell'Osservatorio della Qualità dell'Agenzia Regionale di Sanità, nel quadro delle competenze ad esso attribuite dalla
+								<h:span finevigore="t7" id="h5" iniziovigore="t1" status="abrogato">
+									<rif xlink:href="urn:nir:regione.toscana:legge:1998-09-30;71" xlink:type="simple">legge regionale 30 settembre 1998, n. 71</rif>
+								</h:span>
+								<h:span id="h6" iniziovigore="t7">
+									dalla
+									<rif xlink:href="urn:nir:regione.toscana:legge:2000-03-08;22" xlink:type="simple">legge regionale n. 22 dell'8 Marzo 2000</rif>
+								</h:span>
+								.
+							</corpo>
+						</comma>
+						<comma id="art19-t11-com4">
+							<num>4.</num>
+							<corpo>Per consentire l'attività di verifica esterna il Consiglio regionale, sulla base delle indicazioni contenute nel Piano Sanitario Regionale, istituisce una o più commissioni per l'accreditamento.</corpo>
+						</comma>
+						<comma id="art19-t11-com5">
+							<num>5.</num>
+							<alinea>La composizione della/e Commissione/i è costituita come segue:</alinea>
+							<el id="art19-t11-com5-leta">
+								<num>a)</num>
+								<corpo>uno o più rappresentanti dei produttori pubblici;</corpo>
+							</el>
+							<el id="art19-t11-com5-letb">
+								<num>b)</num>
+								<corpo>uno o più rappresentanti dei produttori privati;</corpo>
+							</el>
+							<el id="art19-t11-com5-letc">
+								<num>c)</num>
+								<corpo>uno o più rappresentanti dell'utenza;</corpo>
+							</el>
+							<el id="art19-t11-com5-letd">
+								<num>d)</num>
+								<corpo>uno o più rappresentanti delle professioni mediche e infermieristiche;</corpo>
+							</el>
+							<el id="art19-t11-com5-lete">
+								<num>e)</num>
+								<corpo>uno o più esperti di settore, in relazione alle specificità delle verifiche. Detti esperti sono desunti da un elenco predisposto dalla Giunta regionale, su indicazione del Consiglio Sanitario Regionale.</corpo>
+							</el>
+						</comma>
+						<comma id="art19-t11-com6">
+							<num>6.</num>
+							<corpo>La/e Commissione/i esamina la documentazione allegata alla richiesta di accreditamento, effettua le visite di verifica e stila relazione motivata in ordine alla accreditabilità della struttura.</corpo>
+						</comma>
+						<comma id="art19-t11-com7">
+							<num>7.</num>
+							<corpo>La Giunta regionale, valutate le relazioni della/e Commissione/i, concede o nega l'accreditamento delle singole strutture, nel quadro delle esigenze della programmazione sanitaria regionale e procede alla iscrizione degli accreditati in apposito Albo.</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art19" iniziovigore="t11">
+						<num>Art. 19</num>
+						<rubrica>Procedure per l'accreditamento</rubrica>
+						<comma id="art19-com1">
+							<num>1.</num>
+							<corpo>Il Consiglio regionale, su proposta della Giunta regionale, approva, in attuazione della presente legge e sentito il Consiglio sanitario regionale, i provvedimenti con i quali sono definiti i requisiti generali e specifici, i manuali e le procedure per l'accreditamento, nonché i tempi e le modalità per l'adeguamento ai requisiti delle strutture in esercizio.</corpo>
 						</comma>
 						<comma id="art19-com2">
 							<num>2.</num>
@@ -1015,64 +1927,90 @@
 						<comma id="art19-com3">
 							<num>3.</num>
 							<corpo>
-								Ai fini dell'individuazione dei requisiti di accreditamento e della predisposizione dei manuali, la Giunta regionale si avvale dell'Osservatorio della Qualità dell'Agenzia Regionale di Sanità, nel quadro delle competenze ad esso attribuite dalla
-								<h:span finevigore="t7" id="h1" iniziovigore="t1" status="abrogato">
-									<rif xlink:href="urn:nir:regione.toscana:legge:1998-09-30;71" xlink:type="simple">legge regionale 30 settembre 1998, n. 71</rif>
-								</h:span>
-								<h:span id="h2" iniziovigore="t7">
-									dalla
-									<rif xlink:href="urn:nir:regione.toscana:legge:2000-03-08;22" xlink:type="simple">legge regionale n. 22 dell'8 Marzo 2000</rif>
-								</h:span>
-								.
+								Ai fini dell'individuazione dei requisiti di accreditamento e della predisposizione dei manuali, la Giunta regionale si avvale dell'Osservatorio della qualità dell'Agenzia regionale di sanità, nel quadro delle competenze ad esso attribuite dalla
+								<rif xlink:href="urn:nir:regione.toscana:legge:2000-03-08;22" xlink:type="simple">legge regionale 8 marzo 2000, n.22</rif>
+								(Riordino delle norme per l'organizzazione del servizio sanitario regionale).
 							</corpo>
 						</comma>
 						<comma id="art19-com4">
 							<num>4.</num>
-							<corpo>Per consentire l'attività di verifica esterna il Consiglio regionale, sulla base delle indicazioni contenute nel Piano Sanitario Regionale, istituisce una o più commissioni per l'accreditamento.</corpo>
+							<corpo>Per consentire l'attività di verifica esterna, il Consiglio regionale, sulla base delle indicazioni contenute nel piano sanitario regionale, istituisce le commissioni per l'accreditamento, nel numero stabilito dal piano stesso.</corpo>
 						</comma>
 						<comma id="art19-com5">
 							<num>5.</num>
-							<alinea>La composizione della/e Commissione/i è costituita come segue:</alinea>
+							<alinea>La composizione delle commissioni è costituita come segue:</alinea>
 							<el id="art19-com5-leta">
 								<num>a)</num>
-								<corpo>uno o più rappresentanti dei produttori pubblici;</corpo>
+								<corpo>rappresentanti dei produttori pubblici;</corpo>
 							</el>
 							<el id="art19-com5-letb">
 								<num>b)</num>
-								<corpo>uno o più rappresentanti dei produttori privati;</corpo>
+								<corpo>rappresentanti dei produttori privati;</corpo>
 							</el>
 							<el id="art19-com5-letc">
 								<num>c)</num>
-								<corpo>uno o più rappresentanti dell'utenza;</corpo>
+								<corpo>rappresentanti dell'utenza;</corpo>
 							</el>
 							<el id="art19-com5-letd">
 								<num>d)</num>
-								<corpo>uno o più rappresentanti delle professioni mediche e infermieristiche;</corpo>
-							</el>
-							<el id="art19-com5-lete">
-								<num>e)</num>
-								<corpo>uno o più esperti di settore, in relazione alle specificità delle verifiche. Detti esperti sono desunti da un elenco predisposto dalla Giunta regionale, su indicazione del Consiglio Sanitario Regionale.</corpo>
+								<corpo>rappresentanti delle professioni mediche e infermieristiche.</corpo>
 							</el>
 						</comma>
 						<comma id="art19-com6">
 							<num>6.</num>
-							<corpo>La/e Commissione/i esamina la documentazione allegata alla richiesta di accreditamento, effettua le visite di verifica e stila relazione motivata in ordine alla accreditabilità della struttura.</corpo>
+							<corpo>Le commissioni esaminano la documentazione allegata alla richiesta di accreditamento, effettuano le visite di verifica e stilano relazione motivata in ordine alla accreditabilità della struttura.</corpo>
 						</comma>
 						<comma id="art19-com7">
 							<num>7.</num>
-							<corpo>La Giunta regionale, valutate le relazioni della/e Commissione/i, concede o nega l'accreditamento delle singole strutture, nel quadro delle esigenze della programmazione sanitaria regionale e procede alla iscrizione degli accreditati in apposito Albo.</corpo>
+							<corpo>La Giunta regionale concede o nega l'accreditamento delle singole strutture e procede alla iscrizione degli accreditati in apposito elenco.</corpo>
+						</comma>
+						<comma id="art19-com8">
+							<num>8.</num>
+							<corpo>
+								La Giunta regionale provvede ad attuare forme congrue di pubblicità dell'elenco di cui al
+								<rif xlink:href="#art19-com7" xlink:type="simple">comma 7</rif>
+								e garantisce l'accesso ai relativi dati a tutti i soggetti interessati.
+							</corpo>
 						</comma>
 					</articolo>
 				</titolo>
 				<titolo id="tit4">
 					<num>Titolo IV</num>
 					<rubrica>NORME FINALI</rubrica>
-					<articolo id="art20">
+					<articolo finevigore="t11" id="art20-t11" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 20</num>
 						<rubrica>(Nuove costruzioni)</rubrica>
-						<comma id="art20-com1">
+						<comma id="art20-t11-com1">
 							<num>1.</num>
 							<corpo>Nei tre anni successivi all'entrata in vigore della presente legge, chiunque intenda costruire nuove strutture di ricovero e cura, ovvero procedere ad ampliamenti di quelli esistenti che comportino un aumento di posti letto rispetto alle dotazioni previste dalla programmazione regionale, deve preventivamente ottenere apposito nulla-osta da parte della Giunta regionale. I criteri e le modalità per il rilascio di tale nulla-osta sono stabiliti dal Consiglio regionale, su proposta della Giunta, entro 180 giorni dall'entrata in vigore della presente legge.</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art20" iniziovigore="t11">
+						<num>Art. 20</num>
+						<rubrica>Nuove costruzioni</rubrica>
+						<comma id="art20-com1">
+							<num>1.</num>
+							<corpo>Per la realizzazione di strutture sanitarie, o per l'ampliamento di quelle esistenti che erogano prestazioni in regime di ricovero a ciclo continuativo e/o diurno che comporti un aumento di posti letto rispetto alle dotazioni previste dalla programmazione regionale, i soggetti interessati acquisiscono preventivamente dalla Giunta regionale la verifica di compatibilità del progetto.</corpo>
+						</comma>
+						<comma id="art20-com2">
+							<num>2.</num>
+							<corpo>I criteri, le modalità e gli ambiti di applicazione della verifica, con eventuale individuazione delle tipologie di strutture o dei settori di attività per i quali la verifica possa essere esclusa, sono stabiliti dal Consiglio regionale, su proposta della Giunta regionale in coerenza con le previsioni contenute nel piano sanitario regionale.</corpo>
+						</comma>
+						<comma id="art20-com3">
+							<num>3.</num>
+							<corpo>
+								La documentazione che il soggetto interessato presenta al comune ai fini del rilascio della concessione edilizia o dell'attestazione di conformità per gli interventi di cui al
+								<rif xlink:href="#art20-com1" xlink:type="simple">comma 1</rif>
+								, deve comprendere l'acquisizione della verifica di compatibilità, con le modalità definite dalla Regione.
+							</corpo>
+						</comma>
+						<comma id="art20-com4">
+							<num>4.</num>
+							<corpo>
+								Fino all'adozione dei provvedimenti di cui al
+								<rif xlink:href="#art20-com2" xlink:type="simple">comma 2</rif>
+								, l'obbligo di acquisire la verifica di compatibilità è sospeso per i presidi ambulatoriali di specialistica e diagnostica, nonché per i centri e presidi ambulatoriali di recupero e riabilitazione funzionale di cui all'Allegato 1 alla deliberazione del Consiglio regionale 26 luglio 1999, n.221 (Requisiti organizzativi, strutturali e tecnologici delle strutture pubbliche e private per l'esercizio delle attività sanitarie).
+							</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art20bis" iniziovigore="t7">
@@ -1090,7 +2028,7 @@
 							<num>1.</num>
 							<alinea>
 								Dall'esecutività della deliberazione del Consiglio regionale di cui all'
-								<rif xlink:href="#art2-com1" xlink:type="simple">art. 2, comma 1</rif>
+								<rif xlink:href="#art2-com1-t11" xlink:type="simple">art. 2, comma 1</rif>
 								, sono abrogate:
 							</alinea>
 							<ep id="art21-t7-com1-pun1">
@@ -1146,13 +2084,11 @@
 						<rubrica>Abrogazioni</rubrica>
 						<comma id="art21-com1">
 							<num>1.</num>
-							<alinea>
-								<mod id="mod6">Sono abrogate le seguenti disposizioni e leggi regionali:</mod>
-							</alinea>
+							<alinea>Sono abrogate le seguenti disposizioni e leggi regionali:</alinea>
 							<el id="art21-com1-leta">
 								<num>a)</num>
 								<corpo>
-									<mod id="mod7">
+									<mod id="mod6">
 										la
 										<rif xlink:href="urn:nir:regione.toscana:legge:1976-06-16;26" xlink:type="simple">LR 16 giugno 1976, n.26</rif>
 										"Norme di salvaguardia per il rilascio di autorizzazioni ad aprire, porre in esercizio, ampliare servizi diagnostici e ambulatoriali extraospedalieri" e successive modificazioni e integrazioni;
@@ -1163,24 +2099,25 @@
 								<num>b)</num>
 								<corpo>
 									<mmod id="mmo1">
-										<mod id="mod8">
+										<mod id="mod7">
 											il
 											<rif xlink:href="urn:nir:regione.toscana:legge:1977-03-12;18#art12-com1" xlink:type="simple">comma 1</rif>
 											, secondo periodo
-											<virgolette id="mod8-vir1" tipo="parola" />
 										</mod>
-										<mod id="mod9">
+										<mod id="mod8">
 											e il
 											<rif xlink:href="urn:nir:regione.toscana:legge:1977-03-12;18#art12-com2" xlink:type="simple">comma 2</rif>
-											, dell'art. 12 della LR 12 marzo 1977, n. 18 "Istituzione del servizio di assistenza alla famiglia, alla maternità, all'infanzia e ai giovani in età evolutiva";
 										</mod>
+										, dell'
+										<rif xlink:href="urn:nir:regione.toscana:legge:1977-03-12;12" xlink:type="simple">art. 12 della LR 12 marzo 1977, n. 18</rif>
+										"Istituzione del servizio di assistenza alla famiglia, alla maternità, all'infanzia e ai giovani in età evolutiva";
 									</mmod>
 								</corpo>
 							</el>
 							<el id="art21-com1-letc">
 								<num>c)</num>
 								<corpo>
-									<mod id="mod10">
+									<mod id="mod9">
 										la
 										<rif xlink:href="urn:nir:regione.toscana:legge:1988-06-06;44" xlink:type="simple">LR 6 giugno 1988, n.44</rif>
 										"Disciplina per l'autorizzazione e la vigilanza delle istituzioni sanitarie di carattere privato che erogano prestazioni di diagnostica di laboratorio";
@@ -1190,7 +2127,7 @@
 							<el id="art21-com1-letd">
 								<num>d)</num>
 								<corpo>
-									<mod id="mod11">
+									<mod id="mod10">
 										la
 										<rif xlink:href="urn:nir:regione.toscana:legge:1989-12-01;78" xlink:type="simple">LR 1 dicembre 1989, n.78</rif>
 										"Disciplina autorizzazioni e vigilanza sulle case di cura private";
@@ -1200,7 +2137,7 @@
 							<el id="art21-com1-lete">
 								<num>e)</num>
 								<corpo>
-									<mod id="mod12">
+									<mod id="mod11">
 										la
 										<rif xlink:href="urn:nir:regione.toscana:legge:1992-03-26;11" xlink:type="simple">LR 26 marzo 1992, n. 11</rif>
 										"Disciplina delle autorizzazioni e della vigilanza sugli istituti privati di riabilitazione";
@@ -1210,7 +2147,7 @@
 							<el id="art21-com1-letf">
 								<num>f)</num>
 								<corpo>
-									<mod id="mod13">
+									<mod id="mod12">
 										la
 										<rif xlink:href="urn:nir:regione.toscana:legge:1992-03-26;12" xlink:type="simple">LR 26 marzo 1992, n.12</rif>
 										"Disciplina per l'autorizzazione e la vigilanza delle istituzioni sanitarie private che erogano prestazioni di medicina e/o chirurgia ad indirizzo estetico
