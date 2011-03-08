@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t3" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19990212" num="4" tipo="BURT" />
 					<entratainvigore norm="19990227" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1999-02-03;6" />
+					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1999-02-03;6" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1999-02-03;6@2003-08-05" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Turismo" />
 						<materia valore="Prodotti Agricoli" />
@@ -17,12 +18,25 @@
 					<eventi>
 						<evento data="19990227" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19990227" fonte="ra1" id="t2" tipo="modifica" />
+						<evento data="20040408" fonte="rp1" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1999-02-03;6" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1996;69" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2003-08-05;45" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="LeggeRegionale1-n1">
+						<h:p>
+							Testo di legge abrogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2003-08-05;45#art12-com2-leta" xlink:type="simple">art. 12, comma 2 lettera a), della legge regionale 5 agosto 2003, n. 45</rif>
+							, con decorrenza fissata alla data di entrata in vigore del regolamento previsto dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2003-08-05;45#art10" xlink:type="simple">art. 10 della stessa legge abrogante</rif>
+							. Detto regolamento, approvato con D.P.G.R. 16 marzo 2004, n. 16/R, è stato pubblicato su BURT n. 11 del 24 marzo 2004.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:integrazione completa="si" implicita="no">
@@ -42,6 +56,20 @@
 							</dsp:novella>
 						</dsp:integrazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1999-02-03;6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-08-05;45" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-08-05;45#art12-com2-letb" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 12, comma 2, lettera b) della legge Regione Toscana 5 agosto 2003, n. 45" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -53,6 +81,7 @@
 				<titoloDoc>
 					<rif xlink:href="urn:nir:regione.toscana:legge:1996-08-13;69" xlink:type="simple">LR 13 agosto 1996, n. 69</rif>
 					"Disciplina delle strade del vino in Toscana. Modifiche ed integrazioni".
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
