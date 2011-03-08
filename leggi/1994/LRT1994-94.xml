@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t3" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19941221" num="84 bis" tipo="BURT" />
 					<entratainvigore norm="19950105" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1994-12-15;94" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1994-12-15;94@1997-10-29" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1994-12-15;94@1997-10-29" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1994-12-15;94@2003-07-09" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sport" />
 						<materia valore="Controlli" />
@@ -18,10 +19,12 @@
 					<eventi>
 						<evento data="19950105" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19971120" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="20030802" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-12-15;94" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1997-10-29;77" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2003-07-09;35" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -38,6 +41,18 @@
 								<dsp:pos xlink:href="#art4bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1994-12-15;94" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-07-09;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-07-09;35#art18-com1-pun1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 18, comma 1, 1 della legge Regione Toscana 9 luglio 2003, n. 35" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -56,7 +71,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>NORME GENERALI</rubrica>
 					<articolo id="art1">
@@ -207,7 +222,7 @@
 								<num>c)</num>
 								<corpo>
 									vigilanza nei riguardi degli ambulatori privati che operano nel campo della medicina sportiva, secondo quanto previsto dal
-									<rif xlink:href="#tit2" xlink:type="simple">Titolo II</rif>
+									<rif xlink:href="#LeggeRegionale1-tit2" xlink:type="simple">Titolo II</rif>
 									.
 								</corpo>
 							</el>
@@ -866,7 +881,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>AUTORIZZAZIONE AMBULATORI PRIVATI DI MEDICINA DELLO SPORT. CONTROLLO E VIGILANZA</rubrica>
 					<articolo id="art17">
@@ -1191,7 +1206,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tittitoioiii">
+				<titolo id="LeggeRegionale1-tittitoioiii">
 					<num>TITOIO III</num>
 					<rubrica>PROVVEDIMENTI SANZIONATORI. NORME FINALI E TRANSITORIE</rubrica>
 					<articolo id="art24">
