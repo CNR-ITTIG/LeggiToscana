@@ -8,7 +8,8 @@
 					<entratainvigore norm="20020820" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t19" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2002-07-26;32" />
-					<urn iniziovigore="t19" valore="urn:nir:regione.toscana:legge:2002-07-26;32@2003-08-04" />
+					<urn finevigore="t20" iniziovigore="t19" valore="urn:nir:regione.toscana:legge:2002-07-26;32@2003-08-04" />
+					<urn iniziovigore="t20" valore="urn:nir:regione.toscana:legge:2002-07-26;32@2003-09-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sistema Educativo" />
 						<materia valore="Lavoro" />
@@ -36,6 +37,7 @@
 						<evento data="20030902" fonte="ra16" id="t17" tipo="modifica" />
 						<evento data="20030902" fonte="ra17" id="t18" tipo="modifica" />
 						<evento data="20030314" fonte="rp1" id="t19" tipo="modifica" />
+						<evento data="20031009" fonte="rp2" id="t20" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32" xlink:type="simple" />
@@ -57,6 +59,7 @@
 						<attiva id="ra16" xlink:href="urn:nir:regione.toscana:legge:2001-11-14;56" xlink:type="simple" />
 						<attiva id="ra17" xlink:href="urn:nir:regione.toscana:legge:2001-12-21;62" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2003-08-04;42" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2003-09-29;53" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -291,6 +294,21 @@
 								<dsp:pos xlink:href="#art22ter" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art10-com5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-09-29;53" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-09-29;53#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 29 settembre 2003, n. 53" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art10-com5" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art10-com5-t20" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -746,12 +764,22 @@
 								<num>4.</num>
 								<corpo>Sono organi dell'Azienda il Consiglio di amministrazione, il Presidente e il Collegio dei revisori.</corpo>
 							</comma>
-							<comma id="art10-com5">
+							<comma finevigore="t20" id="art10-com5-t20" iniziovigore="t1" status="abrogato">
 								<num>5.</num>
 								<corpo>
 									Le modalità di nomina e la composizione del Consiglio di amministrazione, che assicura la rappresentanza delle Università e degli studenti, sono stabilite con deliberazione del Consiglio regionale. Le modalità di funzionamento e le competenze degli organi di cui al
 									<rif xlink:href="#art10-com4" xlink:type="simple">comma 4</rif>
 									sono stabilite dal regolamento di cui all'
+									<rif xlink:href="#art32-com3-letb" xlink:type="simple">articolo 32, comma 3, lettera b)</rif>
+									.
+								</corpo>
+							</comma>
+							<comma id="art10-com5" iniziovigore="t20">
+								<num>5.</num>
+								<corpo>
+									Le modalità di nomina degli organi di cui al
+									<rif xlink:href="#art10-com4" xlink:type="simple">comma 4</rif>
+									, nonché la composizione del Consiglio di amministrazione, che assicura la rappresentanza delle Università e degli studenti, e del Collegio dei revisori delle Aziende sono stabilite con deliberazione del Consiglio regionale. Le modalità di funzionamento e le competenze degli organi di cui al comma 4 sono stabilite dal regolamento di cui all'
 									<rif xlink:href="#art32-com3-letb" xlink:type="simple">articolo 32, comma 3, lettera b)</rif>
 									.
 								</corpo>
