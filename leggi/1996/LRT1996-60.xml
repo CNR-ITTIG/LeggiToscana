@@ -10,7 +10,8 @@
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1996-07-29;60" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1996-07-29;60@1999-07-01" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1996-07-29;60@2002-03-07" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1996-07-29;60@2002-07-26" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1996-07-29;60@2002-07-26" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1996-07-29;60@2003-12-19" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tributi" />
 						<materia valore="Rifiuti" />
@@ -22,12 +23,14 @@
 						<evento data="19990724" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="20020402" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="20020730" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="20031230" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1996-07-29;60" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1999-07-01;37" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2002-03-07;9" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2002-07-26;29" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2003-12-19;58" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -341,6 +344,48 @@
 								<dsp:pos xlink:href="#art23bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-12-19;58" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-12-19;58#art6-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 6, comma 1 della legge Regione Toscana 19 dicembre 2003, n. 58" id="itt23" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-com1-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art11-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-12-19;58" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-12-19;58#art7-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 7, comma 1 della legge Regione Toscana 19 dicembre 2003, n. 58" id="itt24" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art11-com4bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art23bis-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-12-19;58" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-12-19;58#art8-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 8, comma 1 della legge Regione Toscana 19 dicembre 2003, n. 58" id="itt25" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art23bis-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art23bis-com1-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -465,7 +510,7 @@
 					<articolo id="art4">
 						<num>ARTICOLO 4</num>
 						<rubrica>(Quota riservata alle Provincie)</rubrica>
-						<comma id="art4-com1">
+						<comma finevigore="t5" id="art4-com1-t5" iniziovigore="t1" status="abrogato">
 							<num>1.</num>
 							<corpo>
 								Ai sensi dell'
@@ -473,6 +518,16 @@
 								una quota pari al dieci per cento del tributo è dovuto alle Provincie ed è ripartita tra le stesse con deliberazione della Giunta regionale entro novanta giorni dalla scadenza del termine previsto al
 								<rif xlink:href="#art6" xlink:type="simple">successivo articolo 6</rif>
 								in proporzione all'ammontare del gettito tributario derivante dalle discariche e dagli impianti di incenerimento situati nel territorio di ciascuna Provincia.
+							</corpo>
+						</comma>
+						<comma id="art4-com1" iniziovigore="t5">
+							<num>1.</num>
+							<corpo>
+								Ai sensi dell'
+								<rif xlink:href="urn:nir:stato:legge:1995-12-28;549#art3-com27" xlink:type="simple">articolo 3, comma 27 della legge statale</rif>
+								, una quota pari al dieci per cento del tributo è dovuta alle province ed è ripartita tra le stesse con atto del dirigente competente in materia di rifiuti entro novanta giorni dalla scadenza dei termini di versamento trimestrale previsti all'articolo 3 comma 30 della legge statale in proporzione all'ammontare del gettito tributario derivante dalle discariche e dagli impianti di incenerimento situati nel territorio di ciascuna provincia. Il riparto delle somme relative al primo versamento trimestrale di ciascun esercizio finanziario è effettuato entro novanta giorni dalla presentazione della relazione di cui all'
+								<rif xlink:href="#art11-com4bis" xlink:type="simple">articolo 11, comma 4 bis</rif>
+								.
 							</corpo>
 						</comma>
 						<comma id="art4-com2">
@@ -746,6 +801,14 @@
 								", che deve essere esibita al momento dell'ispezione o della verifica.
 							</corpo>
 						</comma>
+						<comma id="art11-com4bis" iniziovigore="t5">
+							<num>4 bis.</num>
+							<corpo>
+								Entro il 31 gennaio di ogni anno le province presentano alla Regione una relazione sui controlli effettuati ai sensi dell'
+								<rif xlink:href="urn:nir:stato:legge:1995-12-28;549#art3-com33" xlink:type="simple">articolo 3, comma 33 della legge statale</rif>
+								. La relazione contiene una descrizione generale dell'attività di accertamento delle violazioni tributarie svolta nell'anno precedente e una scheda descrittiva di ciascun controllo effettuato.
+							</corpo>
+						</comma>
 						<comma id="art11-com5">
 							<num>5.</num>
 							<corpo>
@@ -832,7 +895,15 @@
 								<h:span id="h4" iniziovigore="t3">atto</h:span>
 								emesso dal dirigente della competente struttura regionale di cui all'
 								<rif xlink:href="#art7-com1" xlink:type="simple">art. 7 comma 1</rif>
-								, con l'invito a provvedere al pagamento di quanto dovuto ai sensi delle lettere a e b del successivo comma 2, entro 60 giorni dalla data di ricevimento.
+								, con l'invito a provvedere al pagamento di quanto dovuto ai sensi delle
+								<mrif>
+									lettere
+									<rif xlink:href="#art12-com2-leta" xlink:type="simple">a</rif>
+									e
+									<rif xlink:href="#art12-com2-letb" xlink:type="simple">b</rif>
+									del successivo comma 2
+								</mrif>
+								, entro 60 giorni dalla data di ricevimento.
 							</corpo>
 						</comma>
 						<comma finevigore="t4" id="art12-com2-t4" iniziovigore="t1" status="abrogato">
@@ -897,7 +968,11 @@
 							</el>
 							<el id="art12-com2-letb">
 								<num>b)</num>
-								<corpo>l'ammontare della sanzione amministrativa dovuta ai sensi dell'articolo 16;</corpo>
+								<corpo>
+									l'ammontare della sanzione amministrativa dovuta ai sensi dell'
+									<rif xlink:href="#art16" xlink:type="simple">articolo 16</rif>
+									;
+								</corpo>
 							</el>
 							<el id="art12-com2-letc">
 								<num>c)</num>
@@ -1042,7 +1117,16 @@
 						</comma>
 						<comma id="art16-com3">
 							<num>3.</num>
-							<corpo>Nei casi di cui ai commi 1 e 2 le sanzioni vengono ridotte ad un quarto se, entro il termine per ricorrere alle commissioni tributarie, interviene adesione del contribuente e contestuale pagamento del tributo, se dovuto, e della sanzione.</corpo>
+							<corpo>
+								Nei casi di cui ai
+								<mrif>
+									commi
+									<rif xlink:href="#art16-com1" xlink:type="simple">1</rif>
+									e
+									<rif xlink:href="#art16-com2" xlink:type="simple">2</rif>
+								</mrif>
+								le sanzioni vengono ridotte ad un quarto se, entro il termine per ricorrere alle commissioni tributarie, interviene adesione del contribuente e contestuale pagamento del tributo, se dovuto, e della sanzione.
+							</corpo>
 						</comma>
 						<comma id="art16-com4">
 							<num>4.</num>
@@ -1059,7 +1143,9 @@
 						<comma finevigore="t3" id="art16-com5-t3" iniziovigore="t1" status="abrogato">
 							<num>5.</num>
 							<corpo>
-								Nel caso in cui il comma 4, finché non sono iniziati i controlli, accessi, ispezioni, verifiche o altre attività di accertamento, il soggetto passivo può esercitare la facoltà prevista dall'
+								Nel caso in cui il
+								<rif xlink:href="#art16-com4" xlink:type="simple">comma 4</rif>
+								, finché non sono iniziati i controlli, accessi, ispezioni, verifiche o altre attività di accertamento, il soggetto passivo può esercitare la facoltà prevista dall'
 								<mrif>
 									articolo 13, commi
 									<rif xlink:href="urn:nir:stato:decreto.legislativo:1997-12-18;472#art13-com1" xlink:type="simple">1</rif>
@@ -1075,7 +1161,14 @@
 							<corpo>
 								Nei casi di cui all'
 								<rif xlink:href="#art9" xlink:type="simple">articolo 9</rif>
-								è applicata la sanzione amministrativa prevista dai commi 1 e 2 del presente articolo, nonché la sanzione pari a tre volte l'ammontare del tributo prevista dal
+								è applicata la sanzione amministrativa prevista dai
+								<mrif>
+									commi
+									<rif xlink:href="#art16-com1" xlink:type="simple">1</rif>
+									e
+									<rif xlink:href="#art16-com2" xlink:type="simple">2</rif>
+								</mrif>
+								del presente articolo, nonché la sanzione pari a tre volte l'ammontare del tributo prevista dal
 								<rif xlink:href="urn:nir:stato:legge:1995-12-28;549#art3-com32" xlink:type="simple">comma 32 dell'articolo 3 della Legge 28 dicembre 1995 n. 549</rif>
 								.
 							</corpo>
@@ -1086,8 +1179,28 @@
 								Nei casi di cui all'
 								<rif xlink:href="#art9" xlink:type="simple">articolo 9</rif>
 								è applicata la sanzione amministrativa
-								<h:span finevigore="t4" id="h11" iniziovigore="t1" status="abrogato">prevista dai commi 1 e 2 del presente articolo</h:span>
-								<h:span id="h12" iniziovigore="t4">prevista dai commi 1, 2 e 4 del presente articolo</h:span>
+								<h:span finevigore="t4" id="h11" iniziovigore="t1" status="abrogato">
+									prevista dai
+									<mrif>
+										commi
+										<rif xlink:href="#art16-com1" xlink:type="simple">1</rif>
+										e
+										<rif xlink:href="#art16-com2" xlink:type="simple">2</rif>
+									</mrif>
+									del presente articolo
+								</h:span>
+								<h:span id="h12" iniziovigore="t4">
+									prevista dai
+									<mrif>
+										commi
+										<rif xlink:href="#art16-com1" xlink:type="simple">1</rif>
+										,
+										<rif xlink:href="#art16-com2" xlink:type="simple">2</rif>
+										e
+										<rif xlink:href="#art16-com4" xlink:type="simple">4</rif>
+									</mrif>
+									del presente articolo
+								</h:span>
 								, nonché la sanzione pari a tre volte l'ammontare del tributo prevista dal
 								<rif xlink:href="urn:nir:stato:legge:1995-12-28;549#art3-com32" xlink:type="simple">comma 32 dell'articolo 3 della Legge 28 dicembre 1995 n. 549</rif>
 								. Per l'esercizio di attività di discarica abusiva, per l'abbandono, per lo scarico e per il deposito incontrollato di rifiuti, ove non sia possibile procedere alla esatta quantificazione dei materiali, il tributo è calcolato sulla base imponibile fissata forfettariamente nelle quantità così determinate:
@@ -1139,7 +1252,11 @@
 						</comma>
 						<comma id="art16-com6bis" iniziovigore="t3">
 							<num>6.bis</num>
-							<corpo>In tutte le ipotesi contemplate dal comma 6, il trasgressore potrà fare eseguire, a proprie spese, ad enti o professionisti dotati di adeguata qualificazione e capacità tecnica, una perizia di parte che l'Amministrazione valuterà nel corso del procedimento.</corpo>
+							<corpo>
+								In tutte le ipotesi contemplate dal
+								<rif xlink:href="#art16-com6" xlink:type="simple">comma 6</rif>
+								, il trasgressore potrà fare eseguire, a proprie spese, ad enti o professionisti dotati di adeguata qualificazione e capacità tecnica, una perizia di parte che l'Amministrazione valuterà nel corso del procedimento.
+							</corpo>
 						</comma>
 						<comma id="art16-com7">
 							<num>7.</num>
@@ -1369,22 +1486,22 @@
 					<articolo id="art23bis" iniziovigore="t4">
 						<num>Art. 23 bis</num>
 						<rubrica>(Ammontare dell'imposta e determinazione del tributo dovuto)</rubrica>
-						<comma id="art23bis-com1">
+						<comma finevigore="t5" id="art23bis-com1-t5" iniziovigore="t1" status="abrogato">
 							<num>1.</num>
 							<alinea>
 								Ferma restando la determinazione dell'imposta per gli anni dal 1997 al 2002, nella misura di cui all'
 								<rif xlink:href="#art23" xlink:type="simple">articolo 23</rif>
 								, a decorrere dal 1 gennaio 2003 l'ammontare dell'imposta è determinato in:
 							</alinea>
-							<el id="art23bis-com1-leta">
+							<el id="art23bis-com1-t5-leta">
 								<num>a)</num>
 								<corpo>euro 1,33 a tonnellata per i rifiuti generati dalle attività minerarie, estrattive, edilizie, lapidee e metallurgiche;</corpo>
 							</el>
-							<el id="art23bis-com1-letb">
+							<el id="art23bis-com1-t5-letb">
 								<num>b)</num>
 								<corpo>euro 5,16 a tonnellata per i rifiuti speciali diversi da quelli indicati alla lettera a);</corpo>
 							</el>
-							<el id="art23bis-com1-letc">
+							<el id="art23bis-com1-t5-letc">
 								<num>c)</num>
 								<corpo>
 									euro 10,33 a tonnellata, per i restanti tipi di rifiuti, salva l'applicazione, per i rifiuti urbani e assimilati, del relativo tributo, determinato nella misura di cui all'
@@ -1393,21 +1510,57 @@
 								</corpo>
 							</el>
 						</comma>
+						<comma id="art23bis-com1" iniziovigore="t5">
+							<num>1.</num>
+							<alinea>A decorrere dal 1 gennaio 2004 l'ammontare dell'imposta è determinato in:</alinea>
+							<el id="art23bis-com1-leta">
+								<num>a)</num>
+								<corpo>euro 4,33 a tonnellata per i rifiuti generati dalle attività minerarie, estrattive, edilizie, lapidee e metallurgiche;</corpo>
+							</el>
+							<el id="art23bis-com1-letb">
+								<num>b)</num>
+								<corpo>
+									euro 10,33 a tonnellata per i rifiuti speciali diversi da quelli indicati alla
+									<rif xlink:href="#art23bis-com1-leta" xlink:type="simple">lettera a)</rif>
+									;
+								</corpo>
+							</el>
+							<el id="art23bis-com1-letc">
+								<num>c)</num>
+								<corpo>
+									euro 10,33 a tonnellata per i restanti tipi di rifiuti, salva l'applicazione, per i rifiuti urbani e assimilati, del relativo tributo, determinato nella misura di cui all'
+									<rif xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25#art30bis" xlink:type="simple">articolo 30 bis della legge regionale 18 maggio 1998, n.25</rif>
+									(Norme per la gestione dei rifiuti e la bonifica dei siti inquinati) e successive modifiche.
+								</corpo>
+							</el>
+						</comma>
 						<comma id="art23bis-com2">
 							<num>2.</num>
 							<corpo>
-								Il tributo è determinato moltiplicando l'ammontare dell'imposta di cui al comma 1 per il quantitativo, espresso in tonnellate, dei rifiuti conferiti nonché per il coefficiente di correzione di cui all'
+								Il tributo è determinato moltiplicando l'ammontare dell'imposta di cui al
+								<rif xlink:href="#art23bis-com1" xlink:type="simple">comma 1</rif>
+								per il quantitativo, espresso in tonnellate, dei rifiuti conferiti nonché per il coefficiente di correzione di cui all'
 								<rif xlink:href="urn:nir:stato:legge:1995-12-28;549#art3-com29" xlink:type="simple">articolo 3, comma 29, della legge statale</rif>
 								. Ai fini del calcolo del tributo dovuto si tiene conto anche delle frazioni di tonnellata fino a tre decimali.
 							</corpo>
 						</comma>
 						<comma id="art23bis-com3">
 							<num>3.</num>
-							<corpo>I rifiuti smaltiti tal quali in impianti di incenerimento, senza recupero di energia, e i fanghi anche palabili sono soggetti al pagamento del tributo nella misura del 20 per cento di quella determinata, ai sensi del comma 2, in relazione alla diversa tipologia del rifiuto conferito.</corpo>
+							<corpo>
+								I rifiuti smaltiti tal quali in impianti di incenerimento, senza recupero di energia, e i fanghi anche palabili sono soggetti al pagamento del tributo nella misura del 20 per cento di quella determinata, ai sensi del
+								<rif xlink:href="#art23bis-com2" xlink:type="simple">comma 2</rif>
+								, in relazione alla diversa tipologia del rifiuto conferito.
+							</corpo>
 						</comma>
 						<comma id="art23bis-com4">
 							<num>4.</num>
-							<corpo>Gli scarti e i sovvalli di impianti di selezione automatica riciclaggio e compostaggio, conferiti ai fini dello smaltimento in discarica, sono soggetti al pagamento del tributo nella misura del 20 per cento di quella determinata, ai sensi del comma 2, per i rifiuti speciali di cui comma 1, lettera b).</corpo>
+							<corpo>
+								Gli scarti e i sovvalli di impianti di selezione automatica riciclaggio e compostaggio, conferiti ai fini dello smaltimento in discarica, sono soggetti al pagamento del tributo nella misura del 20 per cento di quella determinata, ai sensi del
+								<rif xlink:href="#art23bis-com2" xlink:type="simple">comma 2</rif>
+								, per i rifiuti speciali di cui
+								<rif xlink:href="#art23bis-com1-letb" xlink:type="simple">comma 1, lettera b)</rif>
+								.
+							</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art24">

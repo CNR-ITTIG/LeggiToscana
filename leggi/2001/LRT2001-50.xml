@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20011024" num="34" tipo="BURT" />
 					<entratainvigore norm="20011024" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2001-10-17;50" />
+					<urn finevigore="t6" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2001-10-17;50" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2001-10-17;50@2003-12-19" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Bilancio" />
@@ -18,19 +19,17 @@
 						<evento data="20011024" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20011024" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="20011024" fonte="ra2" id="t3" tipo="modifica" />
-						
+						<evento data="20011024" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="20011024" fonte="ra4" id="t5" tipo="modifica" />
-						
-						<evento data="20011024" fonte="ra6" id="t7" tipo="modifica" />
+						<evento data="20031230" fonte="rp1" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2001-10-17;50" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1995-04-18;66" xlink:type="simple" />
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1999-01-26;3" xlink:type="simple" />
-						
-						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1995-04-18;66" xlink:type="simple" />
-						
-						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1998-09-03;71" xlink:type="simple" />
+						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1995-04-18;66" xlink:type="simple" />
+						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1998-09-03;71" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2003-12-19;58" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -49,7 +48,7 @@
 						</dsp:abrogazione>
 						<dsp:sostituzione completa="si" implicita="no">
 							<dsp:pos xlink:href="#mod1" xlink:type="simple" />
-							<dsp:termine da="#t5" />
+							<dsp:termine da="#t4" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-04-18;66" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-04-18;66#art25-com1-leta" xlink:type="simple" />
 							</dsp:norma>
@@ -67,7 +66,7 @@
 						</dsp:sostituzione>
 						<dsp:sostituzione completa="si" implicita="no">
 							<dsp:pos xlink:href="#mod3" xlink:type="simple" />
-							<dsp:termine da="#t7" />
+							<dsp:termine da="#t5" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-09-03;71" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-09-03;71#art34-com2" xlink:type="simple" />
 							</dsp:norma>
@@ -84,6 +83,20 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-12-19;58" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-12-19;58#art21-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 21, comma 2 della legge Regione Toscana 19 dicembre 2003, n. 58" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-com4-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -251,7 +264,7 @@
 							è determinato in lire 73.000 milioni (euro 37.701.353,63).
 						</corpo>
 					</comma>
-					<comma id="art3-com4">
+					<comma finevigore="t6" id="art3-com4-t6" iniziovigore="t1" status="abrogato">
 						<num>4.</num>
 						<corpo>
 							A decorrere dall'anno 2003 il contributo ordinario annuale, a valere sulle risorse destinate al finanziamento della spesa sanitaria di parte corrente, è stabilito con legge di bilancio in misura non superiore a quella determinata per l'anno precedente, incrementata del tasso programmato di inflazione indicato nel documento di programmazione economico-finanziario di cui all'

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20031001" num="39" tipo="BURT" />
 					<entratainvigore norm="20031016" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2003-09-22;49" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2003-09-22;49" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2003-09-22;49@2003-12-19" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tributi" />
 						<materia valore="Ente Regione" />
@@ -16,11 +17,41 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="20031016" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20031230" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2003-09-22;49" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2003-12-19;58" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-12-19;58" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-12-19;58#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 19 dicembre 2003, n. 58" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art8bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8bis" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-12-19;58" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-12-19;58#art4-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1 della legge Regione Toscana 19 dicembre 2003, n. 58" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art8ter" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -153,8 +184,8 @@
 									<rif xlink:href="urn:nir:presidente.repubblica:decreto:1953-02-05;39" xlink:type="simple">decreto del Presidente della Repubblica 5 febbraio 1953, n. 39</rif>
 									(Testo unico delle leggi sulle tasse automobilistiche),
 									<mrif>
-										<rif xlink:href="urn:nir:presidente.repubblica:decreto:1953-02-05;39#art17" xlink:type="simple">articolo 17, lettere a), b), c), g), h)</rif>
-										,
+										<rif xlink:href="urn:nir:presidente.repubblica:decreto:1953-02-05;39#art17" xlink:type="simple">articolo 17</rif>
+										, lettere a), b), c), g), h) ,
 										<rif xlink:href="urn:nir:presidente.repubblica:decreto:1953-02-05;39#art18" xlink:type="simple">articolo 18</rif>
 										e
 										<rif xlink:href="urn:nir:presidente.repubblica:decreto:1953-02-05;39#art20" xlink:type="simple">articolo 20</rif>
@@ -343,6 +374,48 @@
 								<rif xlink:href="urn:nir:regione.toscana:legge:2003-01-02;1#art50" xlink:type="simple">articolo 50</rif>
 								.
 							</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art8bis" iniziovigore="t2">
+						<num>Art. 8 bis</num>
+						<rubrica>Perdita di possesso del veicolo</rubrica>
+						<comma id="art8bis-com1">
+							<num>1.</num>
+							<alinea>
+								L'intestatario del veicolo che perde il possesso dello stesso per furto regolarmente denunciato, ovvero per demolizione certificata ai sensi dell'
+								<rif xlink:href="urn:nir:stato:decreto.legislativo:1997-02-05;22#art46" xlink:type="simple">articolo 46 del decreto legislativo 5 febbraio 1997, n. 22</rif>
+								(Attuazione delle direttive
+								<rif xlink:href="urn:nir:comunita.europee:direttiva:1991;156" xlink:type="simple">91/156/CEE</rif>
+								sui rifiuti,
+								<rif xlink:href="urn:nir:comunita.europee:direttiva:1991;689" xlink:type="simple">91/689/CEE</rif>
+								sui rifiuti pericolosi e
+								<rif xlink:href="urn:nir:comunita.europee:direttiva:1994;62" xlink:type="simple">94/62/CE</rif>
+								sugli imballaggi e sui rifiuti di imballaggio) non è tenuto al pagamento della tassa automobilistica nel caso in cui ricorrono entrambe le seguenti condizioni:
+							</alinea>
+							<el id="art8bis-com1-leta">
+								<num>a)</num>
+								<corpo>il furto o la demolizione sono avvenuti entro il termine utile per il pagamento di ciascun periodo tributario;</corpo>
+							</el>
+							<el id="art8bis-com1-letb">
+								<num>b)</num>
+								<corpo>entro sessanta giorni dal furto o dalla consegna per la demolizione è stata presentata domanda di annotazione al pubblico registro automobilistico.</corpo>
+							</el>
+						</comma>
+						<comma id="art8bis-com2">
+							<num>2.</num>
+							<corpo>
+								Nell'ipotesi di cui al
+								<rif xlink:href="#art8bis-com1" xlink:type="simple">comma 1</rif>
+								, se la tassa è già stata corrisposta è ammesso rimborso.
+							</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art8ter" iniziovigore="t2">
+						<num>Art. 8 ter</num>
+						<rubrica>Massa rimorchiabile</rubrica>
+						<comma id="art8ter-com1">
+							<num>1.</num>
+							<corpo>A far data dal 1 gennaio 2004 le tasse automobilistiche regionali dovute in relazione alla massa rimorchiabile non si applicano agli autoveicoli adibiti al trasporto di cose con massa complessiva fino a sei tonnellate.</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art9">
