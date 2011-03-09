@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1994-05-23;39" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1994-05-23;39@1995-01-16" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1994-05-23;39@1999-10-14" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1994-05-23;39@1999-10-14" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1994-05-23;39@2003-08-05" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Urbanistica" />
 					</materie>
@@ -19,11 +20,13 @@
 						<evento data="19940616" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19950204" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="20000205" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="20031012" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-05-23;39" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1999-10-14;52" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2003-08-05;43" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -82,7 +85,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-10-14;52" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-10-14;52#art42-com4" xlink:type="simple" />
 								<dsp:subarg>
@@ -124,7 +127,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:integrazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art9-com1" xlink:type="simple" />
+							<dsp:pos xlink:href="#art9-t4-com1" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-10-14;52" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-10-14;52#art42-com7" xlink:type="simple" />
 								<dsp:subarg>
@@ -135,6 +138,30 @@
 								<dsp:pos xlink:href="#h4" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-08-05;43" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-08-05;43#art38-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 38, comma 1 della legge Regione Toscana 5 agosto 2003, n. 43" id="itt8" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art9-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art10" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-08-05;43" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-08-05;43#art38-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 38, comma 1 della legge Regione Toscana 5 agosto 2003, n. 43" id="itt9" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art10-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -638,7 +665,7 @@
 						<num>10.</num>
 						<corpo>
 							Ai proventi delle autorizzazioni di cui al presente articolo ed a quelli di cui all'
-							<rif xlink:href="#art9" xlink:type="simple">art. 9</rif>
+							<rif xlink:href="#art9-t4" xlink:type="simple">art. 9</rif>
 							si applicano le disposizioni di cui all'
 							<rif xlink:href="urn:nir:stato:legge:1971-01-28;10#art12" xlink:type="simple">art. 12 della L. 28 gennaio 1971 n. 10</rif>
 							.
@@ -681,10 +708,10 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art9">
+				<articolo finevigore="t4" id="art9-t4" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 9</num>
 					<rubrica>(Sanzioni amministrative)</rubrica>
-					<comma id="art9-com1">
+					<comma id="art9-t4-com1">
 						<num>1.</num>
 						<alinea>
 							I proprietari degli immobili che provvedano, anche senza opere edilizie, al mutamento di destinazione d'uso senza
@@ -693,7 +720,7 @@
 							<rif xlink:href="#art3" xlink:type="simple">art. 3</rif>
 							, sono puniti con le seguenti sanzioni amministrative pecuniarie:
 						</alinea>
-						<el id="art9-com1-leta">
+						<el id="art9-t4-com1-leta">
 							<num>a)</num>
 							<corpo>
 								nel caso in cui il mutamento della destinazione d'uso risulti compatibile con il piano della distribuzione e localizzazione delle funzioni, da L. 500.000 a L. 2.000.000 oltre al doppio del contributo dovuto ex
@@ -701,10 +728,10 @@
 								;
 							</corpo>
 						</el>
-						<el id="art9-com1-letb">
+						<el id="art9-t4-com1-letb">
 							<num>b)</num>
 							<alinea>nel caso che il mutamento di destinazione d'uso non sia compatibile con il piano della localizzazione delle funzioni:</alinea>
-							<el id="art9-com1-letb-letba">
+							<el id="art9-t4-com1-letb-letba">
 								<num>b.a)</num>
 								<corpo>
 									L. 200.000 per ogni mq. di superficie utile di calpestio per gli immobili con utilizzazione finale residenziale, e L. 20.000 a mq. per gli immobili adibiti ad abitazione principale del proprietario; oltre, in entrambi i casi, il pagamento del doppio del contributo massimo previsto dalle tabelle di cui all'
@@ -712,41 +739,41 @@
 									per mutamenti di destinazione d'uso a finalità residenziale;
 								</corpo>
 							</el>
-							<el id="art9-com1-letb-letbb">
+							<el id="art9-t4-com1-letb-letbb">
 								<num>b.b)</num>
 								<corpo>L. 200.000 per ogni mq. di superficie utile di calpestio per gli immobili con utilizzazione finale commerciale, direzionale o turistico-ricettiva;</corpo>
 							</el>
-							<el id="art9-com1-letb-letbc">
+							<el id="art9-t4-com1-letb-letbc">
 								<num>b.c)</num>
 								<corpo>L. 50.000 per ogni mq. di superficie utile di calpestio per gli immobili con utilizzazione finale industriale o artigianale;</corpo>
 							</el>
-							<el id="art9-com1-letb-letbd">
+							<el id="art9-t4-com1-letb-letbd">
 								<num>b.d)</num>
 								<corpo>L. 10.000 per ogni mq. di superficie utile di calpestio per gli immobili con utilizzazione finale agricola;</corpo>
 							</el>
 						</el>
-						<el id="art9-com1-letc">
+						<el id="art9-t4-com1-letc">
 							<num>c)</num>
 							<corpo>nel caso di utilizzazione di terreni inedificati difforme dalle disposizioni contenute nel piano della distribuzione e localizzazione delle funzioni da L. 1.000.0000 a L. 6.000.000.</corpo>
 						</el>
 					</comma>
-					<comma id="art9-com2">
+					<comma id="art9-t4-com2">
 						<num>2.</num>
 						<corpo>
 							Contestualmente all'applicazione della sanzione, il Sindaco, nei casi di cui alle
 							<mrif>
 								lettere
-								<rif xlink:href="#art9-com1-letb-letbb" xlink:type="simple">b.b)</rif>
+								<rif xlink:href="#art9-t4-com1-letb-letbb" xlink:type="simple">b.b)</rif>
 								,
-								<rif xlink:href="#art9-com1-letb-letbc" xlink:type="simple">b.c)</rif>
+								<rif xlink:href="#art9-t4-com1-letb-letbc" xlink:type="simple">b.c)</rif>
 								e
-								<rif xlink:href="#art9-com1-letb-letbd" xlink:type="simple">b.d)</rif>
+								<rif xlink:href="#art9-t4-com1-letb-letbd" xlink:type="simple">b.d)</rif>
 								del primo comma
 							</mrif>
 							, ordina sempre la cessazione dell'utilizzazione abusiva dell'immobile, disponendo che questa avvenga entro il termine massimo di un anno. Il Sindaco ordina la cessazione dell'utilizzazione abusiva anche quando sia stato effettuato il pagamento in misura ridotta della sanzione amministrativa.
 						</corpo>
 					</comma>
-					<comma id="art9-com3">
+					<comma id="art9-t4-com3">
 						<num>3.</num>
 						<corpo>
 							L'accertamento e l'applicazione delle sanzioni previste dai commi precedenti è disciplinato dalla
@@ -754,26 +781,26 @@
 							. È sempre ammesso il pagamento in misura ridotta ai sensi dell'art. della citata legge anche per le sanzioni proporzionali in misura pari ad un terzo della sanzione proporzionale applicabile, fermo restando l'obbligo del pagamento dei contributi di cui alle
 							<mrif>
 								lettere
-								<rif xlink:href="#art9-com1-leta" xlink:type="simple">a)</rif>
+								<rif xlink:href="#art9-t4-com1-leta" xlink:type="simple">a)</rif>
 								e
-								<rif xlink:href="#art9-com1-letb" xlink:type="simple">b)</rif>
+								<rif xlink:href="#art9-t4-com1-letb" xlink:type="simple">b)</rif>
 								del comma 1
 							</mrif>
 							.
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art10">
+				<articolo finevigore="t4" id="art10-t4" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 10</num>
 					<rubrica>(Certificazione di abitabilità o di agibilità)</rubrica>
-					<comma id="art10-com1">
+					<comma id="art10-t4-com1">
 						<num>1.</num>
 						<alinea>La certificazione di abitabilità o di agibilità delle unità immobiliari è necessaria, oltre che per le nuove costruzioni, anche:</alinea>
-						<el id="art10-com1-leta">
+						<el id="art10-t4-com1-leta">
 							<num>a)</num>
 							<corpo>in conseguenza dell'esecuzione di lavori di restauro, di ristrutturazione edilizia o di ampliamento che comportino il rilascio anche temporaneo dell'immobile da parte dei conduttori;</corpo>
 						</el>
-						<el id="art10-com1-letb">
+						<el id="art10-t4-com1-letb">
 							<num>b)</num>
 							<corpo>in conseguenza dell'esecuzione di lavori di restauro o ristrutturazione edilizia o di ampliamento contestuali a mutamento di destinazione d'uso.</corpo>
 						</el>
