@@ -12,7 +12,8 @@
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1998-12-01;87@2001-01-16" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1998-12-01;87@2001-08-16" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1998-12-01;87@2001-10-31" />
-					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1998-12-01;87@2003-03-03" />
+					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1998-12-01;87@2003-03-03" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1998-12-01;87@2003-12-22" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sviluppo Economico" />
 						<materia valore="Attribuzioni Deleghe" />
@@ -26,6 +27,7 @@
 						<evento data="20010911" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="20011122" fonte="rp4" id="t5" tipo="modifica" />
 						<evento data="20030327" fonte="rp5" id="t6" tipo="modifica" />
+						<evento data="20040115" fonte="rp6" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-12-01;87" xlink:type="simple" />
@@ -34,6 +36,7 @@
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2001-08-16;40" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2003-03-03;16" xlink:type="simple" />
+						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2003-12-22;61" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -241,6 +244,21 @@
 								<dsp:pos xlink:href="#art22-com2quater" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art18" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-12-22;61" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-12-22;61#art10-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 10, comma 1 della legge Regione Toscana 22 dicembre 2003, n. 61" id="itt15" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art18" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art18-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -984,10 +1002,10 @@
 							</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art18">
+					<articolo finevigore="t7" id="art18-t7" iniziovigore="t1" status="abrogato">
 						<num>Art. 18</num>
 						<rubrica>(Aree industriali ed aree ecologicamente attrezzate)</rubrica>
-						<comma id="art18-com1">
+						<comma id="art18-t7-com1">
 							<num>1.</num>
 							<corpo>
 								La disciplina delle aree industriali e delle aree ecologicamente attrezzate di cui all'
@@ -997,17 +1015,133 @@
 								recante "Norme per il governo del territorio".
 							</corpo>
 						</comma>
-						<comma id="art18-com2">
+						<comma id="art18-t7-com2">
 							<num>2.</num>
 							<alinea>La Regione, con regolamento di attuazione della presente legge, definisce:</alinea>
-							<el id="art18-com2-leta">
+							<el id="art18-t7-com2-leta">
 								<num>a)</num>
 								<corpo>i criteri e le modalità organizzative per la gestione unitaria delle infrastrutture e dei servizi delle aree ecologicamente attrezzate;</corpo>
 							</el>
-							<el id="art18-com2-letb">
+							<el id="art18-t7-com2-letb">
 								<num>b)</num>
 								<corpo>le modalità di acquisizione dei terreni compresi nelle aree industriali.</corpo>
 							</el>
+						</comma>
+					</articolo>
+					<articolo id="art18" iniziovigore="t7">
+						<num>Art. 18</num>
+						<rubrica>(Aree produttive ecologicamente attrezzate)</rubrica>
+						<comma id="art18-com1">
+							<num>1.</num>
+							<corpo>
+								La Regione favorisce la realizzazione delle aree produttive ecologicamente attrezzate anche in attuazione dell'
+								<rif xlink:href="urn:nir:stato:decreto.legislativo:1998;112#art26" xlink:type="simple">articolo 26 del DLgs 112/1998</rif>
+								.
+							</corpo>
+						</comma>
+						<comma id="art18-com2">
+							<num>2.</num>
+							<corpo>
+								Le aree di cui al
+								<rif xlink:href="#art18-com1" xlink:type="simple">comma 1</rif>
+								sono finalizzate alla promozione ed allo sviluppo di attività artigianali e industriali i cui processi siano gestiti come sistema territoriale d'insieme, in modo da garantire una qualità ambientale complessivamente elevata, unitamente al sostegno, consolidamento e miglioramento della competitività del sistema produttivo regionale, in una prospettiva di sviluppo sostenibile.
+							</corpo>
+						</comma>
+						<comma id="art18-com3">
+							<num>3.</num>
+							<alinea>
+								Le aree di cui al
+								<rif xlink:href="#art18-com1" xlink:type="simple">comma 1</rif>
+								sono attrezzate con un adeguato sistema di controllo delle emissioni di inquinanti, e sono caratterizzate altresì dalla presenza e dalla gestione unitaria ed integrata di infrastrutture e servizi idonei a garantire:
+							</alinea>
+							<el id="art18-com3-leta">
+								<num>a)</num>
+								<corpo>la prevenzione dell'inquinamento dell'aria, dell'acqua e del suolo;</corpo>
+							</el>
+							<el id="art18-com3-letb">
+								<num>b)</num>
+								<corpo>la tutela della salute e della sicurezza;</corpo>
+							</el>
+							<el id="art18-com3-letc">
+								<num>c)</num>
+								<corpo>la riduzione delle pressioni ambientali, ivi comprese la corretta gestione dell'intero ciclo dei rifiuti, l'uso sostenibile delle risorse, nonché il risparmio e l'efficienza energetica;</corpo>
+							</el>
+							<el id="art18-com3-letd">
+								<num>d)</num>
+								<corpo>modalità sostenibili per la logistica, l'accessibilità e la mobilità interna ed esterna.</corpo>
+							</el>
+						</comma>
+						<comma id="art18-com4">
+							<num>4.</num>
+							<corpo>
+								Le province definiscono, nell'ambito del piano territoriale di coordinamento di cui alla
+								<rif xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple">legge regionale 16 gennaio 1995, n. 5</rif>
+								(Norme per il governo del territorio), da ultimo modificata dalla
+								<rif xlink:href="urn:nir:regione.toscana:legge:2001-05-15;23" xlink:type="simple">legge regionale 15 maggio 2001, n. 23</rif>
+								, i criteri e le priorità strategiche per l'individuazione delle aree di cui al presente articolo, sulla base degli indirizzi dettati dalla Regione con il piano di indirizzo territoriale, di cui all'
+								<rif xlink:href="urn:nir:regione.toscana:legge:1995;5#art6" xlink:type="simple">articolo 6 della stessa l. r. 5/1995</rif>
+								. È in ogni caso privilegiato l'insediamento prioritario di tali aree nell'ambito delle zone o dei comparti produttivi già esistenti, anche se totalmente o parzialmente dismessi. Le province possono stabilire momenti di partecipazione ulteriori dei comuni interessati, in aggiunta a quanto previsto dall'
+								<rif xlink:href="urn:nir:regione.toscana:legge:1995;5#art17" xlink:type="simple">articolo 17 della LR 5/1995</rif>
+								.
+							</corpo>
+						</comma>
+						<comma id="art18-com5">
+							<num>5.</num>
+							<corpo>
+								I comuni provvedono, sulla base degli atti di pianificazione territoriale di cui al
+								<rif xlink:href="#art18-com4" xlink:type="simple">comma 4</rif>
+								, alla delimitazione ed attuazione delle aree di cui al presente articolo, nel rispetto delle disposizioni di cui alla
+								<rif xlink:href="urn:nir:regione.toscana:legge:1995;5" xlink:type="simple">l. r. 5/1995</rif>
+								.
+							</corpo>
+						</comma>
+						<comma id="art18-com6">
+							<num>6.</num>
+							<alinea>La Regione, con apposito regolamento, definisce i criteri generali ed i parametri tecnici di riferimento per la disciplina delle aree di cui al presente articolo, con particolare riguardo:</alinea>
+							<el id="art18-com6-leta">
+								<num>a)</num>
+								<corpo>alle forme di gestione unitaria, da parte di soggetti pubblici o privati, delle infrastrutture e dei servizi;</corpo>
+							</el>
+							<el id="art18-com6-letb">
+								<num>b)</num>
+								<corpo>alle modalità di acquisizione, eventualmente anche mediante espropriazione dei terreni ricompresi nelle aree;</corpo>
+							</el>
+							<el id="art18-com6-letc">
+								<num>c)</num>
+								<corpo>alla qualificazione delle aree, in relazione alla dotazione di infrastrutture e di sistemi necessari al fine di garantire la tutela della salute, della sicurezza e dell'ambiente;</corpo>
+							</el>
+							<el id="art18-com6-letd">
+								<num>d)</num>
+								<corpo>alla qualità progettuale degli interventi, con particolare attenzione all'inserimento paesaggistico, al raccordo geomorfologico, alle sistemazioni esterne ed alla omogeneità degli interventi edilizi;</corpo>
+							</el>
+							<el id="art18-com6-lete">
+								<num>e)</num>
+								<corpo>alla individuazione ed alla valutazione dei requisiti ambientali atti a privilegiare l'insediamento di particolari attività produttive e di impresa, anche ai fini del controllo delle dinamiche di ricambio dell'area;</corpo>
+							</el>
+							<el id="art18-com6-letf">
+								<num>f)</num>
+								<corpo>all'insediamento prioritario, in presenza di domanda di nuove aree artigianali e industriali, di aree produttive ecologicamente attrezzate, al fine di privilegiarne e potenziarne lo sviluppo, promuovendo altresì adeguati processi di rilocalizzazione, recupero e riqualificazione del sistema produttivo esistente;</corpo>
+							</el>
+							<el id="art18-com6-letg">
+								<num>g)</num>
+								<corpo>alle modalità per favorire l'implementazione di sistemi di gestione ambientale, anche di area, e la loro successiva certificazione.</corpo>
+							</el>
+						</comma>
+						<comma id="art18-com7">
+							<num>7.</num>
+							<corpo>
+								Gli impianti produttivi localizzati nelle aree produttive ecologicamente attrezzate sono esonerati dall'acquisizione delle autorizzazioni concernenti la utilizzazione dei servizi ivi presenti, secondo quanto disposto dall'
+								<rif xlink:href="urn:nir:stato:decreto.legislativo:1998;112#art26-com1" xlink:type="simple">articolo 26, comma 1 del DLgs 112/1998</rif>
+								. La responsabilità dell'acquisizione di tali atti resta a carico dei soggetti gestori delle infrastrutture e dei servizi comuni.
+							</corpo>
+						</comma>
+						<comma id="art18-com8">
+							<num>8.</num>
+							<corpo>
+								La Regione promuove la ricerca e l'innovazione nella materia oggetto del presente articolo, provvedendo al relativo finanziamento nell'ambito delle disposizioni dettate dalla
+								<rif xlink:href="urn:nir:regione.toscana:legge:2000-03-20;35" xlink:type="simple">legge regionale 20 marzo 2000, n. 35</rif>
+								(Disciplina degli interventi regionali in materia di attività produttive).
+							</corpo>
 						</comma>
 					</articolo>
 				</capo>
