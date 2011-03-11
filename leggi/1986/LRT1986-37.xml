@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1986-08-04;37" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1986-08-04;37@2001-08-16" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1986-08-04;37@2002-02-18" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1986-08-04;37@2002-02-18" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1986-08-04;37@2004-03-08" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Organi" />
@@ -22,12 +23,14 @@
 						<evento data="19860829" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="20010827" fonte="rp1" id="t3" tipo="modifica" />
 						<evento data="20020314" fonte="rp2" id="t4" tipo="modifica" />
+						<evento data="20040401" fonte="rp3" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1986-08-04;37" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1979-01-19;3" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2001-08-16;37" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2002-02-18;6" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2004-03-08;15" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -124,7 +127,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art1-com1bis" xlink:type="simple" />
+								<dsp:pos xlink:href="#art1-com1bis-t5" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:integrazione completa="si" implicita="no">
@@ -139,6 +142,21 @@
 								<dsp:pos xlink:href="#art1-com1ter" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com1bis" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-03-08;15" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-03-08;15#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 8 marzo 2004, n. 15" id="itt8" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art1-com1bis" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art1-com1bis-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -192,9 +210,13 @@
 							<corpo>Consiglieri regionali: 10%.</corpo>
 						</el>
 					</comma>
-					<comma id="art1-com1bis" iniziovigore="t4">
+					<comma finevigore="t5" id="art1-com1bis-t5" iniziovigore="t4" status="abrogato">
 						<num>1 bis</num>
 						<corpo>I membri delle Commissioni, possono usufruire dell'automezzo, a titolo gratuito, per le attività istituzionali delle Commissioni previa decisione delle medesime.</corpo>
+					</comma>
+					<comma id="art1-com1bis" iniziovigore="t5">
+						<num>1 bis</num>
+						<corpo>I membri delle commissioni possono usufruire dell'automezzo, a titolo gratuito, per le attività istituzionali delle commissioni, previa decisione delle medesime; hanno inoltre diritto al rimborso delle spese di vitto e di alloggio nel caso di missioni necessarie allo svolgimento di inchieste o indagini conoscitive disposte dal Consiglio regionale o dall'Ufficio di Presidenza.</corpo>
 					</comma>
 					<comma id="art1-com1ter" iniziovigore="t4">
 						<num>1 ter</num>
