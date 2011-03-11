@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19981112" num="37" tipo="BURT" />
 					<entratainvigore norm="19981127" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1998-11-03;78" />
+					<urn finevigore="t8" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1998-11-03;78" />
+					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1998-11-03;78@2004-01-27" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Attività Estrattive" />
 					</materie>
@@ -21,6 +22,7 @@
 						<evento data="19981127" fonte="ra4" id="t5" tipo="modifica" />
 						<evento data="19981127" fonte="ra5" id="t6" tipo="modifica" />
 						<evento data="19981127" fonte="ra6" id="t7" tipo="modifica" />
+						<evento data="20040219" fonte="rp1" id="t8" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-11-03;78" xlink:type="simple" />
@@ -30,6 +32,7 @@
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1994-10-17;75" xlink:type="simple" />
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1995-04-11;48" xlink:type="simple" />
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1995;5" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2004-01-27;4" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -116,6 +119,20 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art15-com5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-01-27;4" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-01-27;4#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 27 gennaio 2004, n. 4" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art15-com5bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -690,10 +707,37 @@
 								si applicano, per ciascun gruppo di materiali, i contributi rispettivamente definiti ai commi 3 e 4.
 							</corpo>
 						</comma>
+						<comma id="art15-com5bis" iniziovigore="t8">
+							<num>5bis.</num>
+							<alinea>I contributi di cui ai commi 3 e 4 non si applicano nel caso in cui il comune applichi tributi locali connessi con l'escavazione di materiali di cava. Ove il comune intenda applicare i contributi di cui ai commi 3 e 4 e, dall'applicazione degli stessi, per l'anno precedente, risultino proventi inferiori rispetto a quelli derivanti dai predetti tributi locali relativamente allo stesso periodo, la Giunta regionale, con propria deliberazione, stabilisce specifici importi unitari del contributo di cui al comma 3. Tali importi unitari sono determinati, per gli ambiti territoriali interessati ed in relazione ai materiali già soggetti all'applicazione dei tributi, anche oltre il limite del dieci per cento del valore di mercato e comunque nel limite massimo di euro 4,00 a tonnellata. Gli importi unitari sono determinati sulla base di una proposta formulata dal comune contenente:</alinea>
+							<el id="art15-com5bis-leta">
+								<num>a)</num>
+								<corpo>la quantificazione delle spese, comunque connesse alle attività estrattive, che il comune intende sostenere annualmente con i contributi di cui al comma 3;</corpo>
+							</el>
+							<el id="art15-com5bis-letb">
+								<num>b)</num>
+								<corpo>l'individuazione delle categorie dei materiali da estrarre;</corpo>
+							</el>
+							<el id="art15-com5bis-letc">
+								<num>c)</num>
+								<corpo>l'indicazione dell'importo unitario del contributo per ciascuna categoria di materiali;</corpo>
+							</el>
+							<el id="art15-com5bis-letd">
+								<num>d)</num>
+								<corpo>la previsione delle quantità complessive annuali di commercializzazione ripartite per ciascuna categoria di materiali.</corpo>
+							</el>
+						</comma>
 						<comma id="art15-com6">
 							<num>6.</num>
 							<corpo>
-								Eventuali varianti al progetto autorizzato sono sottoposti preventivamente all'autorizzazione comunale ai sensi degli artt. 12 e 13; ove il responsabile del procedimento riscontri che non è necessario acquisire nulla osta, autorizzazioni, pareri o altri assensi comunque denominati da parte di Amministrazioni diverse dal Comune non procede alla convocazione della Conferenza di Servizi di cui al
+								Eventuali varianti al progetto autorizzato sono sottoposti preventivamente all'autorizzazione comunale ai sensi degli
+								<mrif>
+									artt.
+									<rif xlink:href="#art12" xlink:type="simple">12</rif>
+									e
+									<rif xlink:href="#art13" xlink:type="simple">13</rif>
+								</mrif>
+								; ove il responsabile del procedimento riscontri che non è necessario acquisire nulla osta, autorizzazioni, pareri o altri assensi comunque denominati da parte di Amministrazioni diverse dal Comune non procede alla convocazione della Conferenza di Servizi di cui al
 								<rif xlink:href="#art13-com3" xlink:type="simple">comma 3 dell'art. 13</rif>
 								, con conseguente riduzione dei tempi del procedimento.
 							</corpo>
