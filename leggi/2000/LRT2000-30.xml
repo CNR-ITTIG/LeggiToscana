@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20000330" num="13" tipo="BURT" />
 					<entratainvigore norm="20000414" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2000-03-20;30" />
+					<urn finevigore="t6" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2000-03-20;30" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2000-03-20;30@2003-12-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sicurezza" />
 					</materie>
@@ -19,6 +20,7 @@
 						<evento data="20000414" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="20000414" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="20000414" fonte="ra4" id="t5" tipo="modifica" />
+						<evento data="20040122" fonte="rp1" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2000-03-20;30" xlink:type="simple" />
@@ -26,6 +28,7 @@
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1995;5" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1998-12-01;88" xlink:type="simple" />
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1991-08-12;41" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2003-12-29;67" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -75,6 +78,35 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-12-29;67" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-12-29;67#art32-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 32, comma 1 della legge Regione Toscana 29 dicembre 2003, n. 67" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com1-leth" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-12-29;67" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-12-29;67#art32-com2-lete" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 32, comma 2, lettera e) della legge Regione Toscana 29 dicembre 2003, n. 67" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com1-leth-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -260,7 +292,7 @@
 									, la localizzazione più adeguata dei nuovi stabilimenti;
 								</corpo>
 							</el>
-							<el id="art2-com1-leth">
+							<el finevigore="t6" id="art2-com1-leth-t6" iniziovigore="t1" status="abrogato">
 								<num>h)</num>
 								<corpo>
 									all'adozione del piano regionale previsionale previsto, in attuazione della
@@ -378,10 +410,14 @@
 							<corpo>
 								Il piano di emergenza esterno è adottato previa consultazione della popolazione interessata, nelle forme e con le modalità previste dal regolamento di cui all'
 								<rif xlink:href="urn:nir:stato:decreto.legislativo:1999-08-17;334#art20-com6" xlink:type="simple">articolo 20, comma 6, del Decreto</rif>
-								, nell'ambito delle disponibilità finanziarie previste dalla legislazione vigente, in conformità altresì con gli indirizzi di cui al piano regionale di emergenza, previsto dall'
-								<rif xlink:href="urn:nir:regione.toscana:legge:1996;42#art4" xlink:type="simple">articolo 4 della LR 42/1996</rif>
-								, e nel rispetto delle altre disposizioni dettate dalla stessa legge regionale, in attuazione della
-								<rif xlink:href="urn:nir:stato:legge:1992;225" xlink:type="simple">legge 225/1992</rif>
+								, nell'ambito delle disponibilità finanziarie previste dalla legislazione vigente, in conformità altresì con gli indirizzi di cui
+								<h:span finevigore="t6" id="h1" iniziovigore="t1" status="abrogato">
+									al piano regionale di emergenza, previsto dall'
+									<rif xlink:href="urn:nir:regione.toscana:legge:1996;42#art4" xlink:type="simple">articolo 4 della LR 42/1996</rif>
+									, e nel rispetto delle altre disposizioni dettate dalla stessa legge regionale, in attuazione della
+									<rif xlink:href="urn:nir:stato:legge:1992;225" xlink:type="simple">legge 225/1992</rif>
+								</h:span>
+								<h:span id="h2" iniziovigore="t6">ai piani operativi regionali ed in conformità con le disposizione della legge regionale in materia di protezione civile</h:span>
 								.
 							</corpo>
 						</comma>

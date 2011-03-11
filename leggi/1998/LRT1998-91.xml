@@ -10,7 +10,8 @@
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1998-12-11;91" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1998-12-11;91@1999-01-19" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1998-12-11;91@1999-04-15" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1998-12-11;91@2001-01-16" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1998-12-11;91@2001-01-16" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1998-12-11;91@2003-12-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tutela Ambientale" />
 						<materia valore="Protezione Civile" />
@@ -22,12 +23,14 @@
 						<evento data="19990213" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19990508" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="20010124" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="20040122" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-12-11;91" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1999-01-19;1" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1999-04-15;26" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2001-01-16;1" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2003-12-29;67" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -152,6 +155,18 @@
 								<dsp:pos xlink:href="#art14-com2bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-12-29;67" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-12-29;67#art32-com2-letd" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 32, comma 2, lettera d) della legge Regione Toscana 29 dicembre 2003, n. 67" id="itt10" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art7-com4-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -442,7 +457,7 @@
 								.
 							</corpo>
 						</comma>
-						<comma id="art7-com4">
+						<comma finevigore="t5" id="art7-com4-t5" iniziovigore="t1" status="abrogato">
 							<num>4.</num>
 							<corpo>
 								Il Piano di Bacino provvede inoltre a quanto disposto nell'

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t2" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19960620" num="34" tipo="BURT" />
 					<entratainvigore norm="19960705" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1996-06-10;42" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1996-06-10;42" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1996-06-10;42@2003-12-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Protezione Civile" />
 					</materie>
@@ -15,11 +16,29 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19960705" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20040122" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1996-06-10;42" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2003-12-29;67" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1996-06-10;42" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-12-29;67" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-12-29;67#art32-com2-letb" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 32, comma 2, lettera b) della legge Regione Toscana 29 dicembre 2003, n. 67" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -36,7 +55,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>DISPOSIZIONI GENERALI</rubrica>
 					<articolo id="art1">
@@ -90,7 +109,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>PROGRAMMAZIONE REGIONALE</rubrica>
 					<articolo id="art3">
@@ -270,7 +289,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>TITOLO III</num>
 					<rubrica>ORGANIZZAZIONE REGIONALE DELLA PROTEZIONE CIVILE</rubrica>
 					<articolo id="art6">
@@ -542,7 +561,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit4">
+				<titolo id="LeggeRegionale1-tit4">
 					<num>TITOLO IV</num>
 					<rubrica>CONCORSO DEGLI ENTI LOCALI, DELLE AZIENDE SANITARIE E DEL VOLONTARIATO</rubrica>
 					<articolo id="art10">
@@ -722,7 +741,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit5">
+				<titolo id="LeggeRegionale1-tit5">
 					<num>TITOLO V</num>
 					<rubrica>FINANZIAMENTO DEGLI INTERVENTI</rubrica>
 					<articolo id="art16">
@@ -784,7 +803,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit6">
+				<titolo id="LeggeRegionale1-tit6">
 					<num>TITOLO VI</num>
 					<rubrica>DISPOSIZIONI FINALI</rubrica>
 					<articolo id="art18">
