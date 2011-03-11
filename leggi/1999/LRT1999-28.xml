@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1999-05-17;28" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1999-05-17;28@2003-02-04" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1999-05-17;28@2003-09-29" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1999-05-17;28@2003-09-29" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1999-05-17;28@2004-03-24" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Commercio" />
 					</materie>
@@ -19,11 +20,13 @@
 						<evento data="19990519" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20030227" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="20031023" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="20040826" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1999-05-17;28" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2003-02-04;10" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2003-09-29;52" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2004-03-24;19" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -37,7 +40,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art8-com1bis" xlink:type="simple" />
+								<dsp:pos xlink:href="#art8-com1bis-t4" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:integrazione completa="si" implicita="no">
@@ -52,6 +55,21 @@
 								<dsp:pos xlink:href="#art10bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8-com1bis" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-03-24;19" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-03-24;19#art4-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1 della legge Regione Toscana 24 marzo 2004, n. 19" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art8-com1bis" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art8-com1bis-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -366,9 +384,13 @@
 						<num>1.</num>
 						<corpo>Il Consiglio regionale, sentiti gli enti locali, istituisce l'osservatorio regionale sul commercio all'interno del sistema informativo regionale dell'economia e del lavoro, per il monitoraggio dell'entità e dell'efficienza della rete distributiva, con l'apporto dei dati forniti dagli enti locali, dalle camere di commercio, dalle organizzazioni dei consumatori, dalle imprese del commercio e dalle rappresentanze delle organizzazioni sindacali dei lavoratori.</corpo>
 					</comma>
-					<comma id="art8-com1bis" iniziovigore="t2">
+					<comma finevigore="t4" id="art8-com1bis-t4" iniziovigore="t2" status="abrogato">
 						<num>1 bis.</num>
 						<corpo>Nell'ambito dell'Osservatorio regionale è istituito uno specifico sistema di monitoraggio delle attività commerciali su aree pubbliche.</corpo>
+					</comma>
+					<comma id="art8-com1bis" iniziovigore="t4">
+						<num>1 bis.</num>
+						<corpo>Nell'ambito dell'Osservatorio regionale sono istituiti specifici sistemi di monitoraggio della rete distributiva per le attività commerciali disciplinate da leggi speciali.</corpo>
 					</comma>
 					<comma id="art8-com2">
 						<num>2.</num>

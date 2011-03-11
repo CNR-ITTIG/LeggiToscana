@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t21" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19920630" num="36" tipo="BURT" />
 					<entratainvigore norm="19920715" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1992-06-20;27" />
+					<urn finevigore="t21" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1992-06-20;27" />
+					<urn iniziovigore="t21" valore="urn:nir:regione.toscana:legge:1992-06-20;27@2004-03-24" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Fonti Energetiche" />
 					</materie>
@@ -34,6 +35,7 @@
 						<evento data="19920715" fonte="ra17" id="t18" tipo="modifica" />
 						<evento data="19920715" fonte="ra18" id="t19" tipo="modifica" />
 						<evento data="19920715" fonte="ra19" id="t20" tipo="modifica" />
+						<evento data="20040826" fonte="rp1" id="t21" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1992-06-20;27" xlink:type="simple" />
@@ -56,6 +58,7 @@
 						<attiva id="ra17" xlink:href="urn:nir:regione.toscana:legge:1985-10-31;61" xlink:type="simple" />
 						<attiva id="ra18" xlink:href="urn:nir:regione.toscana:legge:1985-10-31;61" xlink:type="simple" />
 						<attiva id="ra19" xlink:href="urn:nir:regione.toscana:legge:1985-10-31;61" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2004-03-24;19" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -366,6 +369,20 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1992-06-20;27" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-03-24;19" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-03-24;19#art24-com2-letb" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 24, comma 2, lettera b) della legge Regione Toscana 24 marzo 2004, n. 19" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t5" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19851111" num="50" tipo="BURT" />
@@ -10,7 +10,8 @@
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1985-10-31;61" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1985-10-31;61@1992-06-20" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1985-10-31;61@1995-01-16" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1985-10-31;61@1996-12-27" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1985-10-31;61@1996-12-27" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1985-10-31;61@2004-03-24" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Fonti Energetiche" />
 						<materia valore="Attribuzioni Deleghe" />
@@ -22,16 +23,18 @@
 						<evento data="19920715" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19950204" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19970107" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="20040826" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1985-10-31;61" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1992-06-20;27" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1996-12-27;97" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2004-03-24;19" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Abrogazione ai sensi dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41" xlink:type="simple">articolo 41 della legge regionale 16 gennaio 1995, n. 5</rif>
@@ -350,7 +353,7 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art5-com3" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-12-27;97" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-12-27;97#art3-com2" xlink:type="simple" />
 								<dsp:subarg>
@@ -377,7 +380,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art6-com4" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1996-12-27;97" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1996-12-27;97#art4-com2" xlink:type="simple" />
 								<dsp:subarg>
@@ -544,6 +547,18 @@
 								<dsp:pos xlink:href="#art13-com4-t4" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1985-10-31;61" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-03-24;19" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-03-24;19#art24-com2-leta" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 24, comma 2, lettera a) della legge Regione Toscana 24 marzo 2004, n. 19" id="itt37" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -588,7 +603,7 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>DISPOSIZIONI SULLE CONCESSIONI</rubrica>
 					<articolo id="art2">
@@ -736,7 +751,7 @@
 							<num>2.</num>
 							<corpo>
 								Tanto il Comune di destinazione che il Comune di provenienza adottano i provvedimenti di competenza nel rispetto delle prescrizioni del Piano regionale di razionalizzazione della rete di distribuzione dei carburanti, di cui al
-								<rif xlink:href="#tit3" xlink:type="simple">titolo terzo della presente legge</rif>
+								<rif xlink:href="#LeggeRegionale1-tit3" xlink:type="simple">titolo terzo della presente legge</rif>
 								. Il rilascio della concessione è subordinato altresì alla previa acquisizione dei pareri di cui all'
 								<rif xlink:href="urn:nir:presidente.repubblica:decreto:1971-10-27;1269#art8" xlink:type="simple">art. 8 del DPR 27 ottobre 1971, n. 1269</rif>
 								.
@@ -870,7 +885,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>DISPOSIZIONI SULLE AUTORIZZAZIONI</rubrica>
 					<articolo id="art7">
@@ -1278,7 +1293,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>TITOLO III</num>
 					<rubrica>PIANO REGIONALE PER GLI IMPIANTI DI DISTRIBUZIONE DEI CARBURANTI</rubrica>
 					<articolo id="art13">
@@ -1442,7 +1457,7 @@
 								Ai fini della localizzazione degli impianti di distribuzione dei carburanti il Comune adotta, ove necessario, apposita variante dello strumento urbanistico; a tale effetto non è richiesta la preventiva autorizzazione regionale. La variante, pubblicata ai sensi dell'
 								<rif xlink:href="urn:nir:stato:legge:1962-04-18;167#art6" xlink:type="simple">art. 6 della L. 18/4/1962, n. 167</rif>
 								, è trasmessa alla Giunta regionale e si intende approvata qualora, nel termine di 90 giorni dal ricevimento, la Giunta regionale non abbia comunicato le proprie determinazioni.
-								<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+								<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 							</corpo>
 						</comma>
 					</articolo>
