@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20030228" num="11" tipo="BURT" />
 					<entratainvigore norm="20030301" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2003-02-26;13" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2003-02-26;13" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2003-02-26;13@2004-02-20" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 					</materie>
@@ -15,11 +16,62 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="20030301" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20040311" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2003-02-26;13" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2004-02-20;12" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-02-20;12" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-02-20;12#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 20 febbraio 2004, n. 12" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art1-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art1-com1-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-02-20;12" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-02-20;12#art1-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2 della legge Regione Toscana 20 febbraio 2004, n. 12" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-02-20;12" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-02-20;12#art1-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2 della legge Regione Toscana 20 febbraio 2004, n. 12" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -38,7 +90,7 @@
 				<articolo id="art1">
 					<num>ARTICOLO 1</num>
 					<rubrica>(Disposizioni in materia di reclutamento del personale della Regione, degli enti e aziende regionali)</rubrica>
-					<comma id="art1-com1">
+					<comma finevigore="t2" id="art1-com1-t2" iniziovigore="t1" status="abrogato">
 						<num>1.</num>
 						<corpo>
 							Per l'anno 2003 le procedure di reclutamento del personale regionale sono attivate sulla base della determinazione del fabbisogno di personale effettuata in conformità a quanto disposto dall'
@@ -50,9 +102,24 @@
 							.
 						</corpo>
 					</comma>
+					<comma id="art1-com1" iniziovigore="t2">
+						<num>1.</num>
+						<corpo>
+							Per l'anno 2004 le procedure di reclutamento del personale regionale sono attivate sulla base della determinazione del fabbisogno di personale effettuata in conformità a quanto disposto dalla
+							<rif xlink:href="urn:nir:regione.toscana:legge:2003-08-05;44" xlink:type="simple">legge regionale 5 agosto 2003, n. 44</rif>
+							(Ordinamento della dirigenza e della struttura operativa della Regione. Modifiche alla
+							<rif xlink:href="urn:nir:regione.toscana:legge:2000-03-17;26" xlink:type="simple">legge regionale 17 marzo 2000, n. 26</rif>
+							).
+						</corpo>
+					</comma>
 					<comma id="art1-com2">
 						<num>2.</num>
-						<corpo>Per l'anno 2003 le procedure di reclutamento del personale degli enti e delle aziende regionali sono attivate sulla base della determinazione del fabbisogno annuale di personale effettuata in conformità a quanto previsto dalle leggi regionali che ne disciplinano l'ordinamento e l'organizzazione, anche, ove necessario, procedendo alla rideterminazione delle dotazioni organiche tenendo conto del processo di riforma delle amministrazioni in atto e dei processi di trasferimento di funzioni alle regioni ed agli enti locali.</corpo>
+						<corpo>
+							Per l'anno
+							<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">2003</h:span>
+							<h:span id="h2" iniziovigore="t2">2004</h:span>
+							le procedure di reclutamento del personale degli enti e delle aziende regionali sono attivate sulla base della determinazione del fabbisogno annuale di personale effettuata in conformità a quanto previsto dalle leggi regionali che ne disciplinano l'ordinamento e l'organizzazione, anche, ove necessario, procedendo alla rideterminazione delle dotazioni organiche tenendo conto del processo di riforma delle amministrazioni in atto e dei processi di trasferimento di funzioni alle regioni ed agli enti locali.
+						</corpo>
 					</comma>
 					<comma id="art1-com3">
 						<num>3.</num>
@@ -64,7 +131,12 @@
 					</comma>
 					<comma id="art1-com4">
 						<num>4.</num>
-						<corpo>Per l'anno 2003 l'amministrazione regionale, gli enti e le aziende regionali possono procedere all'avvio delle procedure di reclutamento per i posti vacanti in organico mediante il ricorso a procedure concorsuali, anche senza la preventiva attivazione delle procedure di mobilità prevista dalle norme vigenti.</corpo>
+						<corpo>
+							Per l'anno
+							<h:span finevigore="t2" id="h3" iniziovigore="t1" status="abrogato">2003</h:span>
+							<h:span id="h4" iniziovigore="t2">2004</h:span>
+							l'amministrazione regionale, gli enti e le aziende regionali possono procedere all'avvio delle procedure di reclutamento per i posti vacanti in organico mediante il ricorso a procedure concorsuali, anche senza la preventiva attivazione delle procedure di mobilità prevista dalle norme vigenti.
+						</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art2">
