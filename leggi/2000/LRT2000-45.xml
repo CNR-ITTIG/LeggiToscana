@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20000407" num="16" tipo="BURT" />
 					<entratainvigore norm="20000422" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2000-03-28;45" />
+					<urn finevigore="t11" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2000-03-28;45" />
+					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:2000-03-28;45@2004-01-27" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Attività Artistiche" />
 					</materie>
@@ -24,6 +25,7 @@
 						<evento data="20000422" fonte="ra7" id="t8" tipo="modifica" />
 						<evento data="20010101" fonte="ra8" id="t9" tipo="modifica" />
 						<evento data="20000422" fonte="ra9" id="t10" tipo="modifica" />
+						<evento data="20040219" fonte="rp1" id="t11" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2000-03-28;45" xlink:type="simple" />
@@ -36,6 +38,7 @@
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:1983-06-13;41" xlink:type="simple" />
 						<attiva id="ra8" xlink:href="urn:nir:regione.toscana:legge:1995;14" xlink:type="simple" />
 						<attiva id="ra9" xlink:href="urn:nir:regione.toscana:legge:1995;14" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2004-01-27;6" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -148,6 +151,38 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com1-letd" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-01-27;6" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-01-27;6#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 27 gennaio 2004, n. 6" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6-com1-letd" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art6-com1-letd-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com1-lete" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-01-27;6" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-01-27;6#art1-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2 della legge Regione Toscana 27 gennaio 2004, n. 6" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6-com1-lete" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art6-com1-lete-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -404,13 +439,21 @@
 								<num>c)</num>
 								<corpo>eroga contributi annuali o pluriennali ai teatri di tradizione (Comitato Estate Livornese CEL, Azienda Teatro del Giglio di Lucca, Associazione Teatro di Pisa) ed alla Fondazione "Festival Pucciniano" di Viareggio, nell'ambito del programma specifico di sostegno alla produzione nel settore della lirica;</corpo>
 							</el>
-							<el id="art6-com1-letd">
+							<el finevigore="t11" id="art6-com1-letd-t11" iniziovigore="t1" status="abrogato">
 								<num>d)</num>
 								<corpo>eroga contributi annuali o pluriennali al Centro regionale per la danza, gestito dall'Associazione Teatrale Pistoiese, nell'ambito del programma specifico di sostegno alla produzione nel settore della danza;</corpo>
 							</el>
-							<el id="art6-com1-lete">
+							<el id="art6-com1-letd" iniziovigore="t11">
+								<num>d)</num>
+								<corpo>eroga contributi annuali e pluriennali al Centro regionale per la danza, gestito dall'Associazione teatrale pistoiese, nell'ambito del programma specifico di sostegno alla produzione nel settore della danza e nel settore della drammaturgia contemporanea italiana.</corpo>
+							</el>
+							<el finevigore="t11" id="art6-com1-lete-t11" iniziovigore="t1" status="abrogato">
 								<num>e)</num>
 								<corpo>sostiene, nell'ambito di un'azione concordata con lo Stato e gli Enti locali per valorizzare l'attività di spettacolo, i soggetti individuati dallo Stato come teatri stabili ad iniziativa privata e teatri stabili di innovazione, mediante contributi annuali o piuriennali.</corpo>
+							</el>
+							<el id="art6-com1-lete" iniziovigore="t11">
+								<num>e)</num>
+								<corpo>eroga contributi annuali e pluriennali per l'attività di spettacolo al Teatro nazionale d'Arte della Toscana per la ricerca e le nuove generazioni di Cascina - Pontedera, alla Associazione Pupi e Fresedde - Teatro di Rifredi di Firenze e al Teatro Stabile di Grosseto, riconosciuti dallo Stato come teatri stabili di innovazione, nell'ambito del programma specifico di sostegno alla produzione nel settore della prosa.</corpo>
 							</el>
 						</comma>
 					</articolo>
