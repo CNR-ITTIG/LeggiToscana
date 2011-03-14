@@ -8,7 +8,8 @@
 					<entratainvigore norm="19850601" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1985-05-07;57" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1985-05-07;57@1995-01-16" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1985-05-07;57@1995-01-16" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1985-05-07;57@2004-07-27" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Edilizia" />
 					</materie>
@@ -17,10 +18,12 @@
 					<eventi>
 						<evento data="19850601" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19950204" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="20040819" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1985-05-07;57" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2004-07-27;39" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -37,7 +40,7 @@
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art5-com1" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41-com1-pun17" xlink:type="simple" />
 								<dsp:subarg>
@@ -48,6 +51,18 @@
 								<dsp:pos xlink:href="#art5-com1-t2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-07-27;39" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-07-27;39#art11-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 11, comma 1 della legge Regione Toscana 27 luglio 2004, n. 39" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3-com2bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -162,6 +177,14 @@
 					<comma id="art3-com2">
 						<num>2.</num>
 						<corpo>Su proposta della Giunta, il Consiglio Regionale individua i Comuni ai quali assegnare un contributo di entità fino a 30 milioni di lire.</corpo>
+					</comma>
+					<comma id="art3-com2bis" iniziovigore="t3">
+						<num>2 bis.</num>
+						<corpo>
+							L'entità massima del contributo previsto dal comma 2 del presente articolo è elevata fino a euro 25.000,00, nel caso di comuni in situazione di maggior disagio, come risultanti dall'elenco di cui all'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2004-07-27;39#art2-com3" xlink:type="simple">articolo 2, comma 3, della legge regionale 27 luglio 2004, n. 39</rif>
+							; la soglia del disagio rilevante per l'attuazione del presente comma è individuata dalla Giunta regionale.
+						</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art4">
