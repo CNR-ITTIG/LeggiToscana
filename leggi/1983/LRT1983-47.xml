@@ -13,7 +13,8 @@
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1983-06-13;47@1995-02-27" />
 					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1983-06-13;47@2000-07-11" />
 					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1983-06-13;47@2001-08-16" />
-					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1983-06-13;47@2001-10-31" />
+					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1983-06-13;47@2001-10-31" />
+					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1983-06-13;47@2004-08-03" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organi" />
 					</materie>
@@ -28,6 +29,7 @@
 						<evento data="20000717" fonte="rp4" id="t6" tipo="modifica" />
 						<evento data="20010827" fonte="rp5" id="t7" tipo="modifica" />
 						<evento data="20011122" fonte="rp6" id="t8" tipo="modifica" />
+						<evento data="20040828" fonte="rp7" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1983-06-13;47" xlink:type="simple" />
@@ -38,8 +40,18 @@
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2000-07-11;59" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2001-08-16;37" xlink:type="simple" />
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2001-10-31;52" xlink:type="simple" />
+						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:2004-08-03;44" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Il presente articolo viene sostituito dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2004-08-03;44#art1" xlink:type="simple">art. 1 della legge regionale 3 agosto 2004, n. 44</rif>
+							, a decorrere, ai sensi dell'art. 2 della stessa legge, dall'ottava legislatura dal seguente: "Sull'indennità di carica di cui all'articolo 2 è disposta una trattenuta complessiva obbligatoria nella misura del 22 per cento, a titolo di contributo per la corresponsione dell'indennità di fine mandato (pari al 5 per cento) e dell'assegno vitalizio (pari al 17 per cento)."
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:abrogazione completa="si" implicita="no">
@@ -362,7 +374,7 @@
 								<dsp:pos xlink:href="#art5ter" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
-						<dsp:abrogazione completa="si" implicita="no">
+						<dsp:sostituzione completa="si" implicita="no">
 							<dsp:pos xlink:href="#art2bis" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-10-31;52" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-10-31;52#art1-com1" xlink:type="simple" />
@@ -370,10 +382,22 @@
 									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 31 ottobre 2001, n. 52" id="itt24" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
 								</dsp:subarg>
 							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2bis" xlink:type="simple" />
+							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art2bis-t8" xlink:type="simple" />
 							</dsp:novellando>
-						</dsp:abrogazione>
+						</dsp:sostituzione>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:termine da="#t9" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-08-03;44" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-08-03;44#mod1" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:variazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -485,6 +509,20 @@
 							Sulla indennità di carica di cui all'
 							<rif xlink:href="#art2" xlink:type="simple">art. 2</rif>
 							è disposta una trattenuta complessiva obbligatoria nella misura del 22%, a titolo di contributo per la corresponsione dell'indennità di fine mandato (pari al 5%) e dell'assegno vitalizio (pari al 17%).
+						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art2bis" iniziovigore="t8">
+					<num>
+						Art. 2bis
+						<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					</num>
+					<comma id="art2bis-com1">
+						<num>1.</num>
+						<corpo>
+							Sull'indennità di carica di cui all'
+							<rif xlink:href="#art2" xlink:type="simple">articolo 2</rif>
+							è disposta una trattenuta obbligatoria nella misura del cinque per cento, a titolo di contributo per la corresponsione dell'indennità di fine mandato, e una trattenuta facoltativa del diciassette per cento, a titolo di contributo per la corresponsione dell'assegno vitalizio.
 						</corpo>
 					</comma>
 				</articolo>

@@ -20,6 +20,7 @@
 						<evento data="20011122" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="20011122" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="20011122" fonte="ra4" id="t5" tipo="modifica" />
+						<evento data="20011122" fonte="ra5" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2001-10-31;52" xlink:type="simple" />
@@ -27,22 +28,11 @@
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1983-06-13;48" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1983-06-13;48" xlink:type="simple" />
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1983-06-13;48" xlink:type="simple" />
+						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1983-06-13;47" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
-						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#mod1" xlink:type="simple" />
-							<dsp:termine da="#t2" />
-							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1983-06-13;47" xlink:type="simple">
-								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1983-06-13;47#art2bis" xlink:type="simple" />
-							</dsp:norma>
-							<dsp:novellando>
-								<dsp:subarg>
-									<ittig:tipo valore="articolo" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
-								</dsp:subarg>
-							</dsp:novellando>
-						</dsp:abrogazione>
 						<dsp:sostituzione completa="si" implicita="no">
 							<dsp:pos xlink:href="#mod2" xlink:type="simple" />
 							<dsp:termine da="#t3" />
@@ -91,6 +81,24 @@
 								</dsp:subarg>
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#mod1" xlink:type="simple" />
+							<dsp:termine da="#t6" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1983-06-13;47" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1983-06-13;47#art2bis" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#mod1-vir1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:tipo valore="articolo" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:subarg>
+									<ittig:tipo valore="articolo" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modificheattive>
 				</disposizioni>
 			</meta>
