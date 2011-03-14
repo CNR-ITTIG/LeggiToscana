@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t3" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19941118" num="75" tipo="BURT" />
 					<entratainvigore norm="19941203" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1994-11-09;86" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1994-11-09;86@2001-10-31" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1994-11-09;86@2001-10-31" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1994-11-09;86@2004-07-27" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Termalismo" />
 						<materia valore="Risorse Idriche" />
@@ -18,12 +19,25 @@
 					<eventi>
 						<evento data="19941203" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20011122" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="20090331" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-11-09;86" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2004-07-27;38" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="LeggeRegionale1-n1">
+						<h:p>
+							Testo di legge abrogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2004-07-27;38#art50-com2-leta" xlink:type="simple">art. 50, comma 2 lettera a), della legge regionale 27 luglio 2004, n. 38</rif>
+							, con decorrenza fissata alla data di entrata in vigore del regolamento previsto dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2004-07-27;38#art49" xlink:type="simple">art. 49 della stessa legge abrogante</rif>
+							. Detto regolamento, approvato con D.P.G.R. 24 marzo 2009, n. 11/R, è stato pubblicato su BURT n. 9 del 30 marzo 2009.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -41,6 +55,18 @@
 								<dsp:pos xlink:href="#h1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1994-11-09;86" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-07-27;38" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-07-27;38#art50-com2-leta" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 50, comma 2, lettera a) della legge Regione Toscana 27 luglio 2004, n. 38" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -50,7 +76,10 @@
 				<dataDoc norm="19941109">9 novembre 1994</dataDoc>
 				, n.
 				<numDoc>86</numDoc>
-				<titoloDoc>Norme per la disciplina della ricerca e coltivazioni delle acque minerali e termali.</titoloDoc>
+				<titoloDoc>
+					Norme per la disciplina della ricerca e coltivazioni delle acque minerali e termali.
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
+				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 18-10-1994</h:p>
@@ -59,7 +88,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>DISPOSIZIONI GENERALI</rubrica>
 					<articolo id="art1">
@@ -95,7 +124,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>DISPOSIZIONI RELATIVE ALLA RICERCA</rubrica>
 					<articolo id="art4">
@@ -487,7 +516,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>TITOLO III</num>
 					<rubrica>DISPOSIZIONI RELATIVE ALLA CONCESSIONE</rubrica>
 					<articolo id="art20">
@@ -1471,7 +1500,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit4">
+				<titolo id="LeggeRegionale1-tit4">
 					<num>TITOLO IV</num>
 					<rubrica>VIGILANZA, CONTROLLI</rubrica>
 					<articolo id="art53">
@@ -1541,7 +1570,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit5">
+				<titolo id="LeggeRegionale1-tit5">
 					<num>TITOLO V</num>
 					<rubrica>SANZIONI E NORME TRANSITORIE E FINALI</rubrica>
 					<articolo id="art57">

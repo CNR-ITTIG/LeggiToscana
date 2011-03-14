@@ -10,7 +10,8 @@
 					<urn finevigore="t11" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2000-02-25;16" />
 					<urn finevigore="t12" iniziovigore="t11" valore="urn:nir:regione.toscana:legge:2000-02-25;16@2001-11-19" />
 					<urn finevigore="t13" iniziovigore="t12" valore="urn:nir:regione.toscana:legge:2000-02-25;16@2003-03-03" />
-					<urn iniziovigore="t13" valore="urn:nir:regione.toscana:legge:2000-02-25;16@2004-04-21" />
+					<urn finevigore="t14" iniziovigore="t13" valore="urn:nir:regione.toscana:legge:2000-02-25;16@2004-04-21" />
+					<urn iniziovigore="t14" valore="urn:nir:regione.toscana:legge:2000-02-25;16@2004-07-27" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Assistenza Sanitaria" />
 					</materie>
@@ -30,6 +31,7 @@
 						<evento data="20011213" fonte="rp1" id="t11" tipo="modifica" />
 						<evento data="20030327" fonte="rp2" id="t12" tipo="modifica" />
 						<evento data="20040515" fonte="rp3" id="t13" tipo="modifica" />
+						<evento data="20090331" fonte="rp4" id="t14" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2000-02-25;16" xlink:type="simple" />
@@ -45,17 +47,27 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2001-11-19;58" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2003-03-03;15" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2004-04-21;24" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2004-07-27;38" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
 					<nota id="n1">
+						<h:p>
+							Testo di legge abrogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2004-07-27;38#art50-com2-letb" xlink:type="simple">art. 50, comma 2 lettera b), della legge regionale 27 luglio 2004, n. 38</rif>
+							, con decorrenza fissata alla data di entrata in vigore del regolamento previsto dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2004-07-27;38#art49" xlink:type="simple">art. 49 della stessa legge abrogante</rif>
+							. Detto regolamento, approvato con D.P.G.R. 24 marzo 2009, n. 11/R, è stato pubblicato su BURT n. 9 del 30 marzo 2009.
+						</h:p>
+					</nota>
+					<nota id="n2">
 						<h:p>
 							Come specificato dall'
 							<rif xlink:href="urn:nir:regione.toscana:legge:2003-03-03;15#art2" xlink:type="simple">art. 2 della legge regionale 3 marzo 2003 n. 15</rif>
 							, le disposizioni del presente comma hanno la validità di un anno a partire dalla data di entrata in vigore della medesima legge regionale.
 						</h:p>
 					</nota>
-					<nota id="n2">
+					<nota id="n3">
 						<h:p>Il numero dell'articolo, inizialmente indicato come "56", è stato corretto con avviso di errata corrige pubblicato nel B.U.R.T. del 17 aprile 2000, n. 17.</h:p>
 					</nota>
 				</redazionale>
@@ -801,6 +813,18 @@
 								<dsp:pos xlink:href="#art18-t13" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-07-27;38" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-07-27;38#art50-com2-letb" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 50, comma 2, lettera b) della legge Regione Toscana 27 luglio 2004, n. 38" id="itt45" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com3-t14" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -851,12 +875,13 @@
 								.
 							</corpo>
 						</comma>
-						<comma id="art2-com3">
+						<comma finevigore="t14" id="art2-com3-t14" iniziovigore="t1" status="abrogato">
 							<num>3.</num>
 							<corpo>
 								Le competenti strutture del Dipartimento del Diritto alla salute e politiche di solidarietà della Regione provvedono altresì al rilascio delle autorizzazioni sanitarie per l'apertura e l'esercizio degli stabilimenti di imbottigliamento delle acque minerali previste dal
 								<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-01-25;105" xlink:type="simple">decreto legislativo 25 gennaio 1992, n. 105</rif>
 								.
+								<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
 							</corpo>
 						</comma>
 						<comma id="art2-com4">
@@ -1738,7 +1763,7 @@
 									(Regolamento per l'esecuzione della
 									<rif xlink:href="urn:nir:stato:legge:1968-04-02;475" xlink:type="simple">legge 2 aprile 1968, n. 475</rif>
 									, recante norme concernenti il servizio farmaceutico), provvede all'assegnazione delle sedi messe a concorso. Le sedi bandite nel concorso stesso eventualmente resesi disponibili sono assegnate secondo l'ordine di graduatoria agli altri candidati che non siano già assegnatari. Le graduatorie dei concorsi per sedi farmaceutiche e farmacie succursali hanno una validità di tre anni dalla pubblicazione sul bollettino ufficiale della Regione delle graduatorie medesime. Il dirigente del competente ufficio della Giunta regionale comunica i risultati della procedura concorsuale ai Sindaci ed alle Aziende USL interessati.
-									<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+									<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
 								</corpo>
 							</comma>
 						</articolo>
@@ -3035,7 +3060,7 @@
 				<articolo id="art55">
 					<num>
 						ARTICOLO 55
-						<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+						<ndr num="#n3" valore="" xlink:type="simple">(c)</ndr>
 					</num>
 					<rubrica>(Abrogazioni)</rubrica>
 					<comma id="art55-com1">
