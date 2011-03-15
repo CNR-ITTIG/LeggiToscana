@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t2" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19970726" num="30" tipo="BURT" />
 					<entratainvigore norm="19970810" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1997-07-16;50" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1997-07-16;50" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1997-07-16;50@2004-11-16" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Fauna" />
 					</materie>
@@ -15,11 +16,40 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19970810" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20070322" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1997-07-16;50" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2004-11-16;64" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="LeggeRegionale1-n1">
+						<h:p>
+							Testo di legge abrogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2004-11-16;64#art15" xlink:type="simple">art. 15 della legge regionale 16 novembre 2004, n. 64</rif>
+							, con decorrenza fissata alla data di entrata in vigore del regolamento attuativo previsto dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2004-11-16;64#art12" xlink:type="simple">art. 12 della stessa legge abrogante</rif>
+							. Detto regolamento, approvato con D.P.G.R. 1 marzo 2007, n. 12/R, è stato pubblicato su BURT n. 5 del 7 marzo 2007.
+						</h:p>
+					</nota>
+				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1997-07-16;50" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-11-16;64" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-11-16;64#art15-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 15, comma 1 della legge Regione Toscana 16 novembre 2004, n. 64" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -27,7 +57,10 @@
 				<dataDoc norm="19970716">16 luglio 1997</dataDoc>
 				, n.
 				<numDoc>50</numDoc>
-				<titoloDoc>Tutela delle risorse genetiche autoctone.</titoloDoc>
+				<titoloDoc>
+					Tutela delle risorse genetiche autoctone.
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
+				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 6-5-1997</h:p>
