@@ -8,7 +8,8 @@
 					<entratainvigore norm="20021231" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2002-12-20;43" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2002-12-20;43@2003-12-19" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2002-12-20;43@2003-12-19" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2002-12-20;43@2002-12-20" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Bilancio" />
@@ -21,6 +22,7 @@
 						<evento data="20021231" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="20021231" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="20031230" fonte="rp1" id="t5" tipo="modifica" />
+						<evento data="20041113" fonte="rp2" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2002-12-20;43" xlink:type="simple" />
@@ -28,6 +30,7 @@
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:2001-01-26;2" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1999-07-01;37" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2003-12-19;58" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir: :legge:2002-12-20;43" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -82,6 +85,18 @@
 							</dsp:norma>
 							<dsp:novella>
 								<dsp:pos xlink:href="#art5-com1-letebis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art22" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir: :legge:2002-12-20;43" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir: :legge:2002-12-20;43#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge 20 dicembre 2002, n. 43" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art22bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 					</modifichepassive>
@@ -646,6 +661,26 @@
 								<rif xlink:href="#art22-com1" xlink:type="simple">comma 1</rif>
 								si provvede mediante lo stanziamento iscritto nella UPB 112 "Interventi regionali per la sicurezza della comunità toscana - spese di investimento".
 							</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art22bis" iniziovigore="t6">
+						<num>Art. 22 bis</num>
+						<rubrica>(Contributi straordinari alla provincia di Livorno e ad Aerelba SpA per la realizzazione di interventi a favore dell'aeroporto di Marina di Campo nell'Isola d'Elba)</rubrica>
+						<comma id="art22bis-com1">
+							<num>1.</num>
+							<corpo>Al fine di garantire la messa in sicurezza dal rischio idraulico dell'aeroporto di Marina di Campo, è autorizzato un contributo straordinario di euro 365.000,00 in favore della provincia di Livorno per l'esecuzione di opere idrauliche ed infrastrutturali.</corpo>
+						</comma>
+						<comma id="art22bis-com2">
+							<num>2.</num>
+							<corpo>Al fine di realizzare il miglioramento dell'assetto infrastrutturale dell'aeroporto di Marina di Campo, è autorizzato un contributo straordinario di euro 1.235.000,00 in favore di Aerelba SpA, società di gestione dell'aeroporto, per l'esecuzione di opere di miglioramento della qualità del servizio e di adeguamento agli standards di sicurezza antiterrorismo delle strutture dell'aeroporto.</corpo>
+						</comma>
+						<comma id="art22bis-com3">
+							<num>3.</num>
+							<corpo>La Giunta regionale definisce con propria deliberazione le modalità di concessione e di erogazione dei contributi, nonché i criteri di rendicontazione dell'utilizzo dei medesimi.</corpo>
+						</comma>
+						<comma id="art22bis-com4">
+							<num>4.</num>
+							<corpo>All'onere di spesa di cui ai commi 1 e 2, pari ad euro 1.600.000,00, si provvede mediante lo stanziamento iscritto nella UPB 311 "Innovazione e sviluppo della rete delle infrastrutture di trasporto - Spese di investimento" del bilancio di previsione 2003.</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art23">
