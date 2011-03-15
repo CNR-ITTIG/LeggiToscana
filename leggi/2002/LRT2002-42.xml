@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20021218" num="32" tipo="BURT" />
 					<entratainvigore norm="20030102" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2002-12-09;42" />
+					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2002-12-09;42" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2002-12-09;42@2004-10-22" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Assistenza Sociale" />
 					</materie>
@@ -18,12 +19,14 @@
 						<evento data="20030102" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="20030102" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="20030102" fonte="ra3" id="t4" tipo="modifica" />
+						<evento data="20041103" fonte="rp1" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2002-12-09;42" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1997;72" xlink:type="simple" />
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1990;36" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1997;72" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2004-10-22;57" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -56,6 +59,50 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-10-22;57" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-10-22;57#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 22 ottobre 2004, n. 57" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art15-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-10-22;57" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-10-22;57#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 22 ottobre 2004, n. 57" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art17-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-10-22;57" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-10-22;57#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 22 ottobre 2004, n. 57" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h5" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -500,7 +547,9 @@
 							<corpo>
 								La Regione, gli Enti locali e gli altri Enti pubblici possono stipulare convenzioni con le associazioni di promozione sociale, iscritte nel registro regionale di cui all'
 								<rif xlink:href="#art3" xlink:type="simple">articolo 3</rif>
-								, per lo svolgimento di attività previste dallo statuto verso terzi, anche di carattere integrativo a servizi complessi, per le quali le associazioni stesse dimostrano attitudine e capacità operativa.
+								, per lo svolgimento di attività previste dallo statuto verso terzi, anche di carattere integrativo a servizi complessi, per le quali le associazioni stesse dimostrano attitudine e capacità operativa
+								<h:span id="h1" iniziovigore="t5">anche indipendentemente dall'attività prevalente indicata ai sensi dell'articolo 9, comma 2</h:span>
+								.
 							</corpo>
 						</comma>
 						<comma id="art13-com2">
@@ -614,9 +663,17 @@
 						<comma id="art15-com2">
 							<num>2.</num>
 							<alinea>
-								Con il regolamento di esecuzione previsto dall'
-								<rif xlink:href="#art17-com1" xlink:type="simple">articolo 17, comma 1</rif>
-								, la Giunta regionale disciplina le modalità di designazione dei membri della Consulta, garantendo, nell'ambito della stessa:
+								<h:span finevigore="t5" id="h2" iniziovigore="t1" status="abrogato">
+									Con il regolamento di esecuzione previsto dall'
+									<rif xlink:href="#art17-com1" xlink:type="simple">articolo 17, comma 1</rif>
+									, la Giunta regionale disciplina le modalità di designazione dei membri della Consulta
+								</h:span>
+								<h:span id="h3" iniziovigore="t5">
+									Con il regolamento di esecuzione previsto dall'
+									<rif xlink:href="#art17-com1" xlink:type="simple">articolo 17, comma 1</rif>
+									, si disciplinano le modalità di designazione dei membri della Consulta
+								</h:span>
+								, garantendo, nell'ambito della stessa:
 							</alinea>
 							<el id="art15-com2-leta">
 								<num>a)</num>
@@ -802,7 +859,10 @@
 						<comma id="art17-com1">
 							<num>1.</num>
 							<corpo>
-								Entro novanta giorni dall'entrata in vigore della legge, la Giunta regionale approva un regolamento, previo parere della Commissione consiliare competente, con il quale definisce le modalità di designazione dei membri della Consulta, sulla base di quanto previsto dall'
+								Entro novanta giorni dall'entrata in vigore della legge,
+								<h:span finevigore="t5" id="h4" iniziovigore="t1" status="abrogato">la Giunta regionale approva un regolamento, previo parere della Commissione consiliare competente, con il quale definisce le modalità di designazione dei membri della Consulta</h:span>
+								<h:span id="h5" iniziovigore="t5">È approvato un regolamento, con il quale si definiscono le modalità di designazione dei membri della Consulta</h:span>
+								, sulla base di quanto previsto dall'
 								<rif xlink:href="#art15-com2" xlink:type="simple">articolo 15, comma 2</rif>
 								.
 							</corpo>
