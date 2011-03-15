@@ -8,7 +8,8 @@
 					<entratainvigore norm="20010120" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t17" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2000-12-28;82" />
-					<urn iniziovigore="t17" valore="urn:nir:regione.toscana:legge:2000-12-28;82@2002-10-14" />
+					<urn finevigore="t19" iniziovigore="t17" valore="urn:nir:regione.toscana:legge:2000-12-28;82@2002-10-14" />
+					<urn iniziovigore="t19" valore="urn:nir:regione.toscana:legge:2000-12-28;82@2004-11-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Enti Territoriali" />
 					</materie>
@@ -33,6 +34,7 @@
 						<evento data="20010120" fonte="ra15" id="t16" tipo="modifica" />
 						<evento data="20021019" fonte="rp1" id="t17" tipo="modifica" />
 						<evento data="20010120" fonte="ra16" id="t18" tipo="modifica" />
+						<evento data="20041204" fonte="rp2" id="t19" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2000-12-28;82" xlink:type="simple" />
@@ -53,6 +55,7 @@
 						<attiva id="ra15" xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49" xlink:type="simple" />
 						<attiva id="ra16" xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2002-10-14;37" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2004-11-29;68" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -293,6 +296,42 @@
 								<dsp:pos xlink:href="#art11-com4bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art11-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-11-29;68" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-11-29;68#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 29 novembre 2004, n. 68" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art11-com3bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art11" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-11-29;68" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-11-29;68#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 29 novembre 2004, n. 68" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art11bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art14-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-11-29;68" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-11-29;68#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 29 novembre 2004, n. 68" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -615,6 +654,10 @@
 								.
 							</corpo>
 						</comma>
+						<comma id="art11-com3bis" iniziovigore="t19">
+							<num>3 bis.</num>
+							<corpo>In caso di rinnovo, l'organo rappresentativo può essere insediato quando i rappresentanti dei comuni raggiungono i quattro quinti dei componenti, o il valore inferiore stabilito espressamente dallo statuto comunque tale da rappresentare la maggioranza dei comuni; in tali casi l'organo rappresentativo è di volta in volta integrato, sulla base delle nomine intervenute, nella prima seduta utile.</corpo>
+						</comma>
 						<comma finevigore="t17" id="art11-com4-t17" iniziovigore="t1" status="abrogato">
 							<num>4.</num>
 							<alinea>
@@ -672,6 +715,35 @@
 								Fino all'approvazione dei Piani di cui all'
 								<rif xlink:href="#art7" xlink:type="simple">articolo 7</rif>
 								restano validi i Piani di sviluppo già approvati, con riferimento ai progetti afferenti l'ambito territoriale di competenza.
+							</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art11bis" iniziovigore="t19">
+						<num>Art. 11 bis</num>
+						<rubrica>Differimento del trasferimento delle funzioni e disposizioni per il periodo transitorio e per la ripartizione delle risorse</rubrica>
+						<comma id="art11bis-com1">
+							<num>1.</num>
+							<corpo>
+								Quando appaia necessario in conseguenza dei provvedimenti di individuazione o di modifica degli ambiti territoriali delle comunità montane, il Consiglio regionale, con propria deliberazione su proposta della Giunta, può differire il termine dal quale decorre il trasferimento delle funzioni tra gli enti locali interessati e dettare disposizioni per il periodo transitorio e per la ripartizione delle risorse. Il Consiglio può provvedere anche nell'ambito della deliberazione di cui all'
+								<rif xlink:href="#art2-com1" xlink:type="simple">articolo 2, comma 1</rif>
+								. La proposta della Giunta regionale dà conto delle valutazioni espresse dagli enti locali interessati.
+							</corpo>
+						</comma>
+						<comma id="art11bis-com2">
+							<num>2.</num>
+							<corpo>
+								Per quanto non espressamente previsto dalla deliberazione di cui al comma 1, può provvedersi con decreto del Presidente della Giunta regionale, anche nell'ambito dei decreti adottati per le finalità di cui agli
+								<mrif>
+									articoli
+									<rif xlink:href="#art5" xlink:type="simple">5</rif>
+									,
+									<rif xlink:href="#art10" xlink:type="simple">10</rif>
+									e
+									<rif xlink:href="#art11" xlink:type="simple">11</rif>
+								</mrif>
+								. Il decreto può disporre solo per un periodo non superiore a due anni dalla data di pubblicazione sul Bollettino ufficiale della Regione Toscana della deliberazione del Consiglio regionale di cui all'
+								<rif xlink:href="#art2-com1" xlink:type="simple">articolo 2, comma 1</rif>
+								.
 							</corpo>
 						</comma>
 					</articolo>
@@ -733,7 +805,11 @@
 						</comma>
 						<comma id="art14-com2">
 							<num>2.</num>
-							<corpo>Il conseguente trasferimento delle funzioni e delle relative risorse dalla Provincia alle Comunità montane è disposto con deliberazione del Consiglio regionale, su proposta della Giunta, sentiti gli enti interessati, entro e non oltre il 31 dicembre 2001.</corpo>
+							<corpo>
+								Il conseguente trasferimento delle funzioni e delle relative risorse dalla Provincia alle Comunità montane è disposto con deliberazione del Consiglio regionale, su proposta della Giunta, sentiti gli enti interessati,
+								<h:span finevigore="t19" id="h1" iniziovigore="t1" status="abrogato">entro e non oltre il 31 dicembre 2001</h:span>
+								.
+							</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art15">
