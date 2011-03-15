@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t8" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2000-03-08;22" />
 					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:2000-03-08;22@2001-10-31" />
-					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:2000-03-08;22@2003-02-26" />
+					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:2000-03-08;22@2003-02-26" />
+					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:2000-03-08;22@2004-10-22" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Assistenza Sanitaria" />
 					</materie>
@@ -25,6 +26,7 @@
 						<evento data="20000401" fonte="ra6" id="t7" tipo="modifica" />
 						<evento data="20011122" fonte="rp1" id="t8" tipo="modifica" />
 						<evento data="20030301" fonte="rp2" id="t9" tipo="modifica" />
+						<evento data="20041117" fonte="rp3" id="t10" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2000-03-08;22" xlink:type="simple" />
@@ -36,6 +38,7 @@
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1998-09-30;72" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2003-02-26;14" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2004-10-22;56" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -136,6 +139,18 @@
 							</dsp:norma>
 							<dsp:novella>
 								<dsp:pos xlink:href="#art11-com5bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art50" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-10-22;56" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-10-22;56#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 22 ottobre 2004, n. 56" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art50bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 					</modifichepassive>
@@ -2913,6 +2928,40 @@
 							<comma id="art50-com2">
 								<num>2.</num>
 								<corpo>Le funzioni operative sono attribuite alla competenza delle strutture organizzativi professionali e sono esercitate all'interno di strutture organizzativi funzionali. A questo fine il personale delle strutture organizzativi professionali dipende, sotto il profilo tecnico professionale, dal responsabile della unità operativa di appartenenza, sotto il profilo organizzativo dal responsabile della struttura organizzativa funzionale in cui è collocato.</corpo>
+							</comma>
+						</articolo>
+						<articolo id="art50bis" iniziovigore="t10">
+							<num>Art. 50 bis</num>
+							<rubrica>Incarichi di direzione di struttura</rubrica>
+							<comma id="art50bis-com1">
+								<num>1.</num>
+								<corpo>
+									Gli incarichi di direzione di struttura, semplice o complessa, del servizio sanitario regionale sono conferiti ai dirigenti sanitari, di cui all'
+									<mrif>
+										articolo 15 quater, commi
+										<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502#art15quater-com1" xlink:type="simple">1</rif>
+										,
+										<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502#art15quater-com2" xlink:type="simple">2</rif>
+										e
+										<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;502#art15quater-com3" xlink:type="simple">3</rif>
+										del decreto legislativo 30 dicembre 1992, n. 502
+									</mrif>
+									(Riordino della disciplina in materia sanitaria, a norma dell'
+									<rif xlink:href="urn:nir:stato:legge:1992-10-23;421#art1" xlink:type="simple">articolo 1 della L. 23 ottobre 1992, n. 421</rif>
+									), in regime di rapporto di lavoro esclusivo da mantenere per tutta la durata dell'incarico.
+								</corpo>
+							</comma>
+							<comma id="art50bis-com2">
+								<num>2.</num>
+								<corpo>
+									Gli incarichi di direzione di struttura, semplice o complessa, del servizio sanitario regionale, nonché dei programmi di cui all'
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:1999-12-21;517#art5-com4" xlink:type="simple">articolo 5, comma 4 del decreto legislativo 21 dicembre 1999, n. 517</rif>
+									(Disciplina dei rapporti fra Servizio sanitario nazionale ed università, a norma dell'
+									<rif xlink:href="urn:nir:stato:legge:1998-11-30;419#art6" xlink:type="simple">articolo 6 della L. 30 novembre 1998, n. 419</rif>
+									) sono conferiti ai professori e ai ricercatori universitari, di cui allo stesso
+									<rif xlink:href="#art5" xlink:type="simple">articolo 5</rif>
+									, che svolgano un'attività assistenziale esclusiva per tutta la durata dell'incarico.
+								</corpo>
 							</comma>
 						</articolo>
 					</capo>
