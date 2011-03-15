@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20031229" num="46" tipo="BURT" />
 					<entratainvigore norm="20031230" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2003-12-19;58" />
+					<urn finevigore="t16" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2003-12-19;58" />
+					<urn iniziovigore="t16" valore="urn:nir:regione.toscana:legge:2003-12-19;58@2004-12-20" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Bilancio" />
@@ -30,6 +31,7 @@
 						<evento data="20031230" fonte="ra12" id="t13" tipo="modifica" />
 						<evento data="20031230" fonte="ra13" id="t14" tipo="modifica" />
 						<evento data="20031230" fonte="ra14" id="t15" tipo="modifica" />
+						<evento data="20041230" fonte="rp1" id="t16" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2003-12-19;58" xlink:type="simple" />
@@ -47,6 +49,7 @@
 						<attiva id="ra12" xlink:href="urn:nir:regione.toscana:legge:1996;60" xlink:type="simple" />
 						<attiva id="ra13" xlink:href="urn:nir:regione.toscana:legge:2002-12-20;43" xlink:type="simple" />
 						<attiva id="ra14" xlink:href="urn:nir:regione.toscana:legge:1995-04-18;66" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2004-12-20;71" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -216,6 +219,38 @@
 							</dsp:dominio>
 						</dsp:variazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-12-20;71" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-12-20;71#art1-com6" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 6 della legge Regione Toscana 20 dicembre 2004, n. 71" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art10" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-12-20;71" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-12-20;71#art9-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 9, comma 1 della legge Regione Toscana 20 dicembre 2004, n. 71" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -241,7 +276,9 @@
 						<comma id="art1-com1">
 							<num>1.</num>
 							<corpo>
-								Per gli anni d'imposta 2004, 2005 e 2006 l'aliquota dell'IRAP è determinata nella misura del 3,50 per cento per i soggetti di cui all'
+								<h:span finevigore="t16" id="h1" iniziovigore="t1" status="abrogato">Per gli anni d'imposta 2004, 2005 e 2006</h:span>
+								<h:span id="h2" iniziovigore="t16">Per l'anno d'imposta 2004</h:span>
+								l'aliquota dell'IRAP è determinata nella misura del 3,50 per cento per i soggetti di cui all'
 								<mrif>
 									articolo 3, comma 1, lettere
 									<rif xlink:href="urn:nir:stato:decreto.legislativo:1997-12-15;446#art3-com1-leta" xlink:type="simple">a)</rif>
@@ -558,7 +595,12 @@
 						<rubrica>(Imposta regionale sulle concessioni demaniali marittime. Adempimento per gli anni d'imposta 2002 e 2003.)</rubrica>
 						<comma id="art10-com1">
 							<num>1.</num>
-							<corpo>L'imposta regionale sulle concessioni demaniali marittime, dovuta per gli anni d'imposta 2002 e 2003, si considera regolarmente corrisposta se il pagamento è stato effettuato entro il 31 dicembre 2003, anche se non contestualmente al pagamento del canone di concessione statale.</corpo>
+							<corpo>
+								L'imposta regionale sulle concessioni demaniali marittime, dovuta per gli anni d'imposta 2002 e 2003, si considera regolarmente corrisposta se il pagamento è stato effettuato entro il
+								<h:span finevigore="t16" id="h3" iniziovigore="t1" status="abrogato">31 dicembre 2003</h:span>
+								<h:span id="h4" iniziovigore="t16">31 dicembre 2004</h:span>
+								, anche se non contestualmente al pagamento del canone di concessione statale.
+							</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art11">

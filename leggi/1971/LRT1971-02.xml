@@ -10,7 +10,8 @@
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1971-12-30;2" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1971-12-30;2@1979-04-30" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1971-12-30;2@1984-02-06" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1971-12-30;2@1994-12-02" />
+					<urn finevigore="t8" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1971-12-30;2@1994-12-02" />
+					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1971-12-30;2@2004-12-20" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -21,6 +22,7 @@
 						<evento data="19800126" fonte="rp4" id="t5" tipo="modifica" />
 						<evento data="19810101" fonte="rp5" id="t6" tipo="modifica" />
 						<evento data="19950429" fonte="rp6" id="t7" tipo="modifica" />
+						<evento data="20041230" fonte="rp7" id="t8" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1971-12-30;2" xlink:type="simple" />
@@ -30,6 +32,7 @@
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1980-01-18;5" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1980-05-15;54" xlink:type="simple" />
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:1995-04-06;40" xlink:type="simple" />
+						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:2004-12-20;71" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -89,6 +92,36 @@
 								<dsp:pos xlink:href="#art1-com2-t4" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-12-20;71" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-12-20;71#art7-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 7, comma 1 della legge Regione Toscana 20 dicembre 2004, n. 71" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-t8" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-12-20;71" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-12-20;71#art8-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 8, comma 1 della legge Regione Toscana 20 dicembre 2004, n. 71" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-t8" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -143,18 +176,38 @@
 							<corpo>L'imposta è commisurata al 100 per cento del canone di concessione statale.</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art2">
+					<articolo finevigore="t8" id="art2-t8" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 2</num>
-						<comma id="art2-com1">
+						<comma id="art2-t8-com1">
 							<num />
 							<corpo>Il concessionario verserà l'imposta regionale contestualmente e con le medesime modalità del canone di concessione, presso l'ufficio territorialmente competente alla riscossione del canone.</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art3">
+					<articolo id="art2" iniziovigore="t8">
+						<num>Art. 2</num>
+						<rubrica />
+						<comma id="art2-com1">
+							<num>1.</num>
+							<corpo>L'imposta è corrisposta dal concessionario entro il 31 dicembre dell'anno di pagamento del canone di concessione mediante versamento diretto su apposito conto corrente postale intestato alla Regione Toscana.</corpo>
+						</comma>
+						<comma id="art2-com2">
+							<num>2.</num>
+							<corpo>La disposizione di cui al comma 1 si applica a decorrere dall'anno d'imposta 2004.</corpo>
+						</comma>
+					</articolo>
+					<articolo finevigore="t8" id="art3-t8" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 3</num>
-						<comma id="art3-com1">
+						<comma id="art3-t8-com1">
 							<num />
 							<corpo>L'ufficio competente alla riscossione del canone comunica al concessionario la liquidazione dell'imposta con le istruzioni relative alle modalità del versamento.</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art3" iniziovigore="t8">
+						<num>Art. 3</num>
+						<rubrica />
+						<comma id="art3-com1">
+							<num>1.</num>
+							<corpo>Ai fini dell'esercizio delle attività di controllo ed accertamento, gli enti competenti al rilascio delle concessioni trasmettono alla Regione i dati relativi alle concessioni esistenti nei rispettivi ambiti territoriali secondo i termini e le modalità stabiliti con atto del dirigente regionale competente in materia di tributi.</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art4">
