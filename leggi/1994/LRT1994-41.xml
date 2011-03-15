@@ -10,7 +10,8 @@
 					<urn finevigore="t11" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1994-05-30;41" />
 					<urn finevigore="t10" iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1994-05-30;41@1995-08-16" />
 					<urn finevigore="t13" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1994-05-30;41@1996-03-28" />
-					<urn iniziovigore="t13" valore="urn:nir:regione.toscana:legge:1994-05-30;41@2002-04-24" />
+					<urn finevigore="t14" iniziovigore="t13" valore="urn:nir:regione.toscana:legge:1994-05-30;41@2002-04-24" />
+					<urn iniziovigore="t14" valore="urn:nir:regione.toscana:legge:1994-05-30;41@2004-10-08" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Partecipazioni Regionali" />
 						<materia valore="Credito" />
@@ -32,6 +33,7 @@
 						<evento data="19950825" fonte="rp2" id="t11" tipo="modifica" />
 						<evento data="19990810" fonte="rp3" id="t12" tipo="modifica" />
 						<evento data="20020518" fonte="rp4" id="t13" tipo="modifica" />
+						<evento data="20041030" fonte="rp5" id="t14" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-05-30;41" xlink:type="simple" />
@@ -47,6 +49,7 @@
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1995-08-16;88" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1995-08-16;88" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2002-04-24;14" xlink:type="simple" />
+						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2004-10-08;52" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -352,6 +355,18 @@
 								<dsp:pos xlink:href="#art12-t13" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art17" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-10-08;52" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-10-08;52#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 8 ottobre 2004, n. 52" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art17bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -971,6 +986,36 @@
 						<comma id="art17-com4">
 							<num>4.</num>
 							<corpo>Gli interessi maturati sulle disponibilità dei predetti Fondi sono portati ad integrazione dei fondi medesimi al netto degli oneri fiscali.</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art17bis" iniziovigore="t14">
+						<num>Art. 17 bis</num>
+						<rubrica>Fondo speciale rischi</rubrica>
+						<comma id="art17bis-com1">
+							<num>1.</num>
+							<corpo>Al fine di agevolare l'accesso al credito alle imprese dei settori dell'agricoltura, delle foreste, della pesca e dell'acquacoltura, è istituito presso Fidi Toscana SpA un apposito fondo speciale rischi per la prestazione di garanzie sussidiarie su operazioni di finanziamento a medio-lungo termine e su operazioni di leasing concesse dalle banche e dalle società di leasing.</corpo>
+						</comma>
+						<comma id="art17bis-com2">
+							<num>2.</num>
+							<corpo>Le modalità di gestione del fondo e i requisiti di accesso alla garanzia sussidiaria da parte delle imprese sono stabilite dalla Giunta regionale.</corpo>
+						</comma>
+						<comma id="art17bis-com3">
+							<num>3.</num>
+							<corpo>
+								Al finanziamento del fondo si provvede con le somme e secondo le modalità di cui all'
+								<mrif>
+									articolo 5, commi
+									<rif xlink:href="urn:nir:regione.toscana:legge:1996-03-28;24#art5-com2" xlink:type="simple">2</rif>
+									e
+									<rif xlink:href="urn:nir:regione.toscana:legge:1996-03-28;24#art5-com2bis" xlink:type="simple">2 bis</rif>
+									della legge regionale 28 marzo 1996, n. 24
+								</mrif>
+								(Criteri per il recupero dei crediti acquisiti a seguito dell'estinzione delle obbligazioni fidejussorie del fondo regionale di garanzia. Modifiche ed integrazioni alla
+								<rif xlink:href="urn:nir:regione.toscana:legge:1994-05-30;41" xlink:type="simple">LR 30 maggio 1994, n. 41</rif>
+								istitutiva della Fidi Toscana S.p.A), da ultimo modificata dalla
+								<rif xlink:href="urn:nir:regione.toscana:legge:2002-12-24;46" xlink:type="simple">legge regionale 24 dicembre 2002, n. 46</rif>
+								.
+							</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art18">
