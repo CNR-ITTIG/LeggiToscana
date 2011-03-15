@@ -8,7 +8,8 @@
 					<entratainvigore norm="20031016" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2003-09-22;49" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2003-09-22;49@2003-12-19" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2003-09-22;49@2003-12-19" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:2003-09-22;49@2004-11-15" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tributi" />
 						<materia valore="Ente Regione" />
@@ -18,10 +19,12 @@
 					<eventi>
 						<evento data="20031016" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20031230" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="20041209" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2003-09-22;49" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2003-12-19;58" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2004-11-15;62" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -50,6 +53,21 @@
 								<dsp:pos xlink:href="#art8ter" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-11-15;62" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-11-15;62#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 15 novembre 2004, n. 62" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art1-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -70,33 +88,33 @@
 				<capo id="cap1">
 					<num>CAPO I</num>
 					<rubrica>Funzioni amministrative e procedure gestionali</rubrica>
-					<articolo id="art1">
+					<articolo finevigore="t3" id="art1-t3" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 1</num>
 						<rubrica>(Regolamento di disciplina dei procedimenti di gestione delle tasse automobilistiche)</rubrica>
-						<comma id="art1-com1">
+						<comma id="art1-t3-com1">
 							<num>1.</num>
 							<alinea>Al fine di semplificare e razionalizzare le attività di gestione delle tasse automobilistiche, la Giunta regionale disciplina, con apposito regolamento da emanarsi entro centoventi giorni dall'entrata in vigore della presente legge, i procedimenti riguardanti:</alinea>
-							<el id="art1-com1-leta">
+							<el id="art1-t3-com1-leta">
 								<num>a)</num>
 								<corpo>la riscossione da parte di intermediari abilitati;</corpo>
 							</el>
-							<el id="art1-com1-letb">
+							<el id="art1-t3-com1-letb">
 								<num>b)</num>
 								<corpo>la concessione delle esenzioni e delle sospensioni dal pagamento;</corpo>
 							</el>
-							<el id="art1-com1-letc">
+							<el id="art1-t3-com1-letc">
 								<num>c)</num>
 								<corpo>i rimborsi;</corpo>
 							</el>
-							<el id="art1-com1-letd">
+							<el id="art1-t3-com1-letd">
 								<num>d)</num>
 								<corpo>il controllo del corretto assolvimento dell'obbligo tributario;</corpo>
 							</el>
-							<el id="art1-com1-lete">
+							<el id="art1-t3-com1-lete">
 								<num>e)</num>
 								<corpo>l'emissione di questionari informativi e avvisi bonari finalizzati alla regolarizzazione dei pagamenti in fase precontenziosa;</corpo>
 							</el>
-							<el id="art1-com1-letf">
+							<el id="art1-t3-com1-letf">
 								<num>f)</num>
 								<corpo>
 									la produzione di deduzioni difensive nell'ambito del procedimento di ricorso al dirigente avverso l'atto di accertamento e irrogazione delle sanzioni, di cui alla
@@ -116,6 +134,42 @@
 							</el>
 						</comma>
 					</articolo>
+					<articolo id="art1" iniziovigore="t3">
+						<num>Art. 1</num>
+						<rubrica>Regolamento di disciplina dei procedimenti di gestione delle tasse automobilistiche</rubrica>
+						<comma id="art1-com1">
+							<num>1.</num>
+							<alinea>Al fine di semplificare e razionalizzare le attività di gestione delle tasse automobilistiche, con regolamento regionale sono disciplinati i seguenti procedimenti:</alinea>
+							<el id="art1-com1-leta">
+								<num>a)</num>
+								<corpo>la riscossione da parte di intermediari abilitati;</corpo>
+							</el>
+							<el id="art1-com1-letb">
+								<num>b)</num>
+								<corpo>la concessione delle esenzioni e delle sospensioni dal pagamento;</corpo>
+							</el>
+							<el id="art1-com1-letc">
+								<num>c)</num>
+								<corpo>i rimborsi;</corpo>
+							</el>
+							<el id="art1-com1-letd">
+								<num>d)</num>
+								<corpo>il controllo del corretto assolvimento dell'obbligazione tributaria;</corpo>
+							</el>
+							<el id="art1-com1-lete">
+								<num>e)</num>
+								<corpo>l'invio ai contribuenti di comunicazioni informative e avvisi bonari finalizzati alla regolarizzazione in fase precontenziosa;</corpo>
+							</el>
+							<el id="art1-com1-letf">
+								<num>f)</num>
+								<corpo>l'esercizio del potere di autotutela da parte del dirigente competente in materia di tributi e la produzione di memorie difensive avverso l'atto di accertamento ed irrogazione delle sanzioni e avverso la cartella esattoriale;</corpo>
+							</el>
+							<el id="art1-com1-letg">
+								<num>g)</num>
+								<corpo>le rateizzazioni dei pagamenti.</corpo>
+							</el>
+						</comma>
+					</articolo>
 					<articolo id="art2">
 						<num>ARTICOLO 2</num>
 						<rubrica>(Gestione delle tasse automobilistiche)</rubrica>
@@ -132,11 +186,11 @@
 									la gestione dei procedimenti di cui all'
 									<mrif>
 										articolo 1 lettere
-										<rif xlink:href="#art1-com1-letb" xlink:type="simple">b)</rif>
+										<rif xlink:href="#art1-t3-com1-letb" xlink:type="simple">b)</rif>
 										,
-										<rif xlink:href="#art1-com1-letd" xlink:type="simple">d)</rif>
+										<rif xlink:href="#art1-t3-com1-letd" xlink:type="simple">d)</rif>
 										ed
-										<rif xlink:href="#art1-com1-lete" xlink:type="simple">e)</rif>
+										<rif xlink:href="#art1-t3-com1-lete" xlink:type="simple">e)</rif>
 									</mrif>
 									, ivi compresa la emanazione dei provvedimenti connessi;
 								</corpo>
