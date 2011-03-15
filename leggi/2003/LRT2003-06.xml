@@ -7,7 +7,8 @@
 					<pubblicazione norm="20030120" num="5" tipo="BURT" />
 					<entratainvigore norm="20030121" />
 					<redazione id="red1" nome="" norm="" />
-					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2003-01-17;6" />
+					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2003-01-17;6" />
+					<urn finevigore="t2" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:2003-01-17;6@2004-11-24" />
 					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2003-01-17;6@2004-11-15" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
@@ -18,16 +19,18 @@
 					<eventi>
 						<evento data="20030121" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20041209" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="20041126" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2003-01-17;6" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2004-11-15;60" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2004-11-24;66" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art4-com2" xlink:type="simple" />
+							<dsp:pos xlink:href="#art4-t3-com2" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-11-15;60" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-11-15;60#art1-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -35,10 +38,25 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art4-com2" xlink:type="simple" />
+								<dsp:pos xlink:href="#art4-t3-com2" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#art4-com2-t2" xlink:type="simple" />
+								<dsp:pos xlink:href="#art4-t3-com2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-11-24;66" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-11-24;66#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 24 novembre 2004, n. 66" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-t3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -143,34 +161,34 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art4">
+				<articolo finevigore="t3" id="art4-t3" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 4</num>
 					<rubrica>(Disposizioni in caso di impugnativa da parte del Governo della Repubblica avanti la Corte costituzionale)</rubrica>
-					<comma id="art4-com1">
+					<comma id="art4-t3-com1">
 						<num>1.</num>
 						<corpo>Nel caso in cui il Governo della Repubblica promuova la questione di legittimità costituzionale della deliberazione statutaria, il Presidente della Giunta regionale dà notizia dell'avvenuta proposizione del ricorso del Governo mediante avviso pubblicato sul BURT, entro dieci giorni dalla notificazione del ricorso stesso.</corpo>
 					</comma>
-					<comma finevigore="t2" id="art4-com2-t2" iniziovigore="t1" status="abrogato">
+					<comma finevigore="t2" id="art4-t3-com2-t2" iniziovigore="t1" status="abrogato">
 						<num>2.</num>
 						<corpo>
 							Dalla data di pubblicazione dell'avviso di cui al
-							<rif xlink:href="#art4-com1" xlink:type="simple">comma 1</rif>
+							<rif xlink:href="#art4-t3-com1" xlink:type="simple">comma 1</rif>
 							, il termine di tre mesi di cui all'
 							<rif xlink:href="#art2-com3" xlink:type="simple">articolo 2, comma 3</rif>
 							è sospeso e, sino alla data di pubblicazione sulla Gazzetta Ufficiale della decisione della Corte costituzionale, è preclusa ogni attività ed operazione referendaria, ivi compresa la presentazione di nuove richieste.
 						</corpo>
 					</comma>
-					<comma id="art4-com2" iniziovigore="t2">
+					<comma id="art4-t3-com2" iniziovigore="t2">
 						<num>2.</num>
 						<corpo>
 							Dalla data di pubblicazione dell'avviso di cui al
-							<rif xlink:href="#art4-com1" xlink:type="simple">comma 1</rif>
+							<rif xlink:href="#art4-t3-com1" xlink:type="simple">comma 1</rif>
 							, il termine di tre mesi di cui all'
 							<rif xlink:href="#art2-com3" xlink:type="simple">articolo 2, comma 3</rif>
 							, è sospeso ed è preclusa ogni attività ed operazione referendaria, ivi compresa la presentazione di nuove richieste, fino alla data di pubblicazione sul Bollettino Ufficiale della Regione Toscana della decisione della Corte costituzionale.
 						</corpo>
 					</comma>
-					<comma id="art4-com3">
+					<comma id="art4-t3-com3">
 						<num>3.</num>
 						<corpo>
 							Nel caso in cui la Corte costituzionale rigetti il ricorso del Governo, il termine di tre mesi di cui all'
@@ -178,9 +196,29 @@
 							comincia nuovamente a decorrere dalla data di pubblicazione sulla Gazzetta Ufficiale della decisione della Corte stessa. In tale caso tutte le operazioni compiute prima dell'interruzione conservano validità ed il procedimento referendario riprende dall'ultima operazione compiuta.
 						</corpo>
 					</comma>
-					<comma id="art4-com4">
+					<comma id="art4-t3-com4">
 						<num>4.</num>
 						<corpo>Nel caso in cui la deliberazione statutaria venga dichiarata parzialmente o totalmente illegittima dalla Corte costituzionale, le attività e le operazioni referendarie eventualmente compiute sulla deliberazione oggetto della sentenza perdono efficacia.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art4" iniziovigore="t3">
+					<num>Art. 4</num>
+					<rubrica>Disposizioni in caso di impugnativa del Governo della Repubblica avanti la Corte Costituzionale</rubrica>
+					<comma id="art4-com1">
+						<num>1.</num>
+						<corpo>Nel caso in cui il Governo della Repubblica promuova la questione di legittimità costituzionale della deliberazione statutaria, il Presidente della Giunta regionale dà notizia dell'avvenuta proposizione del ricorso del Governo mediante avviso pubblicato sul BURT, entro dieci giorni dalla notificazione del ricorso stesso.</corpo>
+					</comma>
+					<comma id="art4-com2">
+						<num>2.</num>
+						<corpo>Dalla data di pubblicazione dell'avviso di cui al comma 1, il termine di tre mesi di cui all'articolo 2, comma 3 è sospeso e, sino alla data di pubblicazione sul BURT della decisione della Corte Costituzionale, è preclusa ogni attività ed operazione referendaria, ivi compresa la presentazione di nuove richieste.</corpo>
+					</comma>
+					<comma id="art4-com3">
+						<num>3.</num>
+						<corpo>Nel caso in cui la Corte Costituzionale rigetti il ricorso del Governo, il termine di tre mesi di cui all'articolo 2 comma 3 comincia nuovamente a decorrere dalla data di pubblicazione sul BURT della decisione della Corte stessa. In tale caso tutte le operazioni compiute prima dell'interruzione conservano validità ed il procedimento referendario riprende dall'ultima operazione compiuta.</corpo>
+					</comma>
+					<comma id="art4-com4">
+						<num>4.</num>
+						<corpo>Nel caso in cui la deliberazione statutaria venga dichiarata parzialmente o totalmente illegittima dalla Corte Costituzionale, le attività e le operazioni referendarie eventualmente compiute sulla deliberazione oggetto della sentenza perdono efficacia.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art5">
