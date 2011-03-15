@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1991-09-09;47" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1991-09-09;47@2000-03-20" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1991-09-09;47@2003-12-29" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1991-09-09;47@2003-12-29" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1991-09-09;47@2004-11-16" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Edilizia" />
 						<materia valore="Disabili" />
@@ -20,11 +21,13 @@
 						<evento data="19911004" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20000414" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="20040122" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="20041125" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1991-09-09;47" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-03-20;34" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2003-12-29;66" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2004-11-16;65" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -438,6 +441,21 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art11-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5ter-com1-leta" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-11-16;65" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-11-16;65#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 16 novembre 2004, n. 65" id="itt31" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art5ter-com1-leta" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5ter-com1-leta-t4" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -925,9 +943,13 @@
 						<comma id="art5ter-com1">
 							<num>1.</num>
 							<alinea>Sono ammessi ai contributi previsti nel presente titolo gli interventi concernenti:</alinea>
-							<el id="art5ter-com1-leta">
+							<el finevigore="t4" id="art5ter-com1-leta-t4" iniziovigore="t1" status="abrogato">
 								<num>a)</num>
 								<corpo>civili abitazioni dove abbiano la residenza anagrafica persone disabili con menomazioni o limitazioni funzionali permanenti di carattere motorio, ovvero civili abitazioni dove abbiano la residenza anagrafica persone disabili con menomazioni o limitazioni sensoriali permanenti;</corpo>
+							</el>
+							<el id="art5ter-com1-leta" iniziovigore="t4">
+								<num>a)</num>
+								<corpo>civili abitazioni dove abbiano la residenza anagrafica persone disabili con menomazioni o limitazioni funzionali permanenti di carattere fisico o sensoriale o cognitivo;</corpo>
 							</el>
 							<el id="art5ter-com1-letb">
 								<num>b)</num>
