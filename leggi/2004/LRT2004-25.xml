@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20040520" num="19" tipo="BURT" />
 					<entratainvigore norm="20040604" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2004-05-13;25" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2004-05-13;25" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2004-05-13;25@2004-12-23" />
 					<materie vocabolario="CNIPA">
 						<materia valore="Gestione dei flussi documentali" />
 					</materie>
@@ -19,11 +20,32 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="20040604" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20041230" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2004-05-13;25" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2004-12-23;74" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-12-23;74" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-12-23;74#art16-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 16, comma 1 della legge Regione Toscana 23 dicembre 2004, n. 74" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art13-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art13-com2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -308,9 +330,13 @@
 						<num>1.</num>
 						<corpo>La votazione per l'elezione del Consiglio regionale e del Presidente della Giunta avviene su un'unica scheda.</corpo>
 					</comma>
-					<comma id="art13-com2">
+					<comma finevigore="t2" id="art13-com2-t2" iniziovigore="t1" status="abrogato">
 						<num>2.</num>
 						<corpo>La scheda reca, entro un apposito rettangolo, il simbolo di ciascuna lista provinciale, affiancato dal nome e dal cognome dei candidati regionali e circoscrizionali, distintamente indicati.</corpo>
+					</comma>
+					<comma id="art13-com2" iniziovigore="t2">
+						<num>2.</num>
+						<corpo>La scheda reca, entro un rettangolo, il simbolo di ciascuna lista provinciale, affiancato dalla lettera iniziale puntata del nome e dal cognome dei candidati regionali e circoscrizionali, distintamente indicati.</corpo>
 					</comma>
 					<comma id="art13-com3">
 						<num>3.</num>
@@ -324,7 +350,7 @@
 						<num>5.</num>
 						<corpo>
 							La sequenza sulla scheda dei rettangoli di cui al
-							<rif xlink:href="#art13-com2" xlink:type="simple">comma 2</rif>
+							<rif xlink:href="#art13-com2-t2" xlink:type="simple">comma 2</rif>
 							, e, ove presenti, di quelli più ampi di cui al
 							<rif xlink:href="#art13-com4" xlink:type="simple">comma 4</rif>
 							, è definita mediante sorteggio.
