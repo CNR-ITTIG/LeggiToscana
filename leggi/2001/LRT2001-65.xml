@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20011231" num="44" tipo="BURT" />
 					<entratainvigore norm="20020115" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2001-12-21;65" />
+					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2001-12-21;65" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2001-12-21;65@2005-01-03" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Bilancio" />
@@ -19,12 +20,14 @@
 						<evento data="20020115" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="20020115" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="20020115" fonte="ra3" id="t4" tipo="modifica" />
+						<evento data="20050127" fonte="rp1" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2001-12-21;65" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1980-05-15;54" xlink:type="simple" />
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1996-06-19;44" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1996;44" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2005-01-03;4" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -76,6 +79,20 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-01-03;4" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-01-03;4#art14-com1-letb" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 14, comma 1, lettera b) della legge Regione Toscana 3 gennaio 2005, n. 4" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art6-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -232,10 +249,10 @@
 						</el>
 					</comma>
 				</articolo>
-				<articolo id="art6">
+				<articolo finevigore="t5" id="art6-t5" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 6</num>
 					<rubrica>Determinazione della tassa per il diritto allo studio universitario e della tassa di abilitazione all'esercizio professionale</rubrica>
-					<comma id="art6-com1">
+					<comma id="art6-t5-com1">
 						<num>1.</num>
 						<corpo>
 							<mod id="mod2">
@@ -256,7 +273,7 @@
 							</mod>
 						</corpo>
 					</comma>
-					<comma id="art6-com2">
+					<comma id="art6-t5-com2">
 						<num>2.</num>
 						<corpo>
 							<mod id="mod3">
