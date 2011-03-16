@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1976-03-02;12" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1976-03-02;12@1989-06-19" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1976-03-02;12@2004-02-06" />
+					<urn finevigore="t7" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1976-03-02;12@2004-02-06" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1976-03-02;12@2004-12-23" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -19,6 +20,7 @@
 						<evento data="20040212" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="20040212" fonte="rp4" id="t5" tipo="modifica" />
 						<evento data="20040212" fonte="rp5" id="t6" tipo="modifica" />
+						<evento data="20041230" fonte="rp6" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1976-03-02;12" xlink:type="simple" />
@@ -27,6 +29,7 @@
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2004-02-06;9" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2004-02-06;9" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2004-02-06;9" xlink:type="simple" />
+						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2004-12-23;73" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -200,7 +203,7 @@
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:integrazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art40" xlink:type="simple" />
+							<dsp:pos xlink:href="#art40-t7" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-02-06;9" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-02-06;9#art12-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -208,9 +211,36 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art38" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-12-23;73" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-12-23;73#art8-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 8, comma 1 della legge Regione Toscana 23 dicembre 2004, n. 73" id="itt9" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
 								<dsp:pos xlink:href="#h2" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art40" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-12-23;73" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-12-23;73#art9-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 9, comma 1 della legge Regione Toscana 23 dicembre 2004, n. 73" id="itt10" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art40" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art40-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -1158,7 +1188,11 @@
 							<num />
 							<corpo>
 								Sulla base dei verbali di scrutinio trasmessi dagli uffici di sezione, l'ufficio centrale circoscrizionale procede in pubblica adunanza, all'accertamento del numero degli elettori che hanno votato e del risultato del referendum, dopo aver provveduto al riesame dei voti contestai e provvisoriamente assegnati, ed avere deciso sull'assegnazione o meno dei voti relativi.
-								<h:span id="h1" iniziovigore="t6">L'atto di accertamento del risultato del referendum evidenzia in modo distinto l'esito della consultazione negli uffici di sezione elettorali ricompresi nel territorio individuato dalla proposta di legge regionale istitutiva del nuovo comune.</h:span>
+								<h:span id="h1" iniziovigore="t6">
+									L'atto di accertamento del risultato del referendum evidenzia in modo distinto l'esito della consultazione negli uffici di sezione elettorali ricompresi nel territorio individuato dalla proposta di legge regionale istitutiva del nuovo comune
+									<h:span id="h2" iniziovigore="t7">ovvero ricompresi nel territorio oggetto di distacco di una parte del territorio comunale da un comune con aggregazione ad un altro comune, come individuato dalla relativa proposta di legge regionale.</h:span>
+									.
+								</h:span>
 							</corpo>
 						</comma>
 						<comma id="art38-com3">
@@ -1194,20 +1228,20 @@
 				<titolo id="tit3">
 					<num>TITOLO III</num>
 					<rubrica>DISPOSIZIONI FINALI</rubrica>
-					<articolo id="art40">
+					<articolo finevigore="t7" id="art40-t7" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 40</num>
 						<rubrica />
-						<comma id="art40-com1">
+						<comma id="art40-t7-com1">
 							<num />
 							<corpo>La propaganda relativa allo svolgimento dei referendum previsti dalla presente legge è consentita dal trentesimo giorno antecedente a quello della votazione.</corpo>
 						</comma>
-						<comma id="art40-com2">
+						<comma id="art40-t7-com2">
 							<num />
 							<corpo>
 								Ad essa si applicano le disposizioni contenute nella
 								<rif xlink:href="urn:nir:stato:legge:1956-04-04;212" xlink:type="simple">legge 4 aprile 1956, n. 212</rif>
 								e successive modificazioni
-								<h:span id="h2" iniziovigore="t6">
+								<h:span id="h3" iniziovigore="t6">
 									e dalla
 									<rif xlink:href="urn:nir:stato:legge:2000-02-22;28" xlink:type="simple">legge 22 febbraio 2000, n. 28</rif>
 									(Disposizioni per la parità di accesso ai mezzi di informazione durante le campagne elettorali e referendarie e per la comunicazione politica) come modificata dalla
@@ -1216,15 +1250,15 @@
 								</h:span>
 							</corpo>
 						</comma>
-						<comma id="art40-com3">
+						<comma id="art40-t7-com3">
 							<num />
 							<corpo>Le facoltà riconosciute dalle disposizioni della suddetta legge ai partiti o gruppi politici che partecipino direttamente alla competizione elettorale, si intendono attribuite ai partiti o gruppi politici che siano rappresentati in Consiglio regionale e ai promotori del referendum, quest'ultimi considerati in unico complesso.</corpo>
 						</comma>
-						<comma id="art40-com4">
+						<comma id="art40-t7-com4">
 							<num />
 							<corpo>In ogni caso deve essere rivolta istanza alla Giunta municipale entro il trentaquattresimo giorno antecedente alla data di votazione per l'assegnazione dei prescritti spazi.</corpo>
 						</comma>
-						<comma id="art40-com5">
+						<comma id="art40-t7-com5">
 							<num />
 							<corpo>
 								Si osservano, le disposizioni degli
@@ -1236,6 +1270,64 @@
 									della L. 25-5-1970 n. 352
 								</mrif>
 								.
+							</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art40" iniziovigore="t7">
+						<num>Art. 40</num>
+						<rubrica />
+						<comma id="art40-com1">
+							<num>1.</num>
+							<corpo>
+								La propaganda relativa allo svolgimento dei referendum previsti dalla presente legge è consentita dal trentesimo giorno antecedente a quello della votazione; ad essa si applicano le disposizioni contenute nella
+								<rif xlink:href="urn:nir:stato:legge:1956-04-04;212" xlink:type="simple">legge 4 aprile 1956, n. 212</rif>
+								(Norme per la disciplina della propaganda elettorale), da ultimo modificata dal
+								<rif xlink:href="urn:nir:stato:decreto.legge:1999-05-13;131" xlink:type="simple">decreto legge 13 maggio 1999, n. 131</rif>
+								, (Disposizioni urgenti in materia elettorale) convertito dalla
+								<rif xlink:href="urn:nir:stato:legge:1999-07-13;225" xlink:type="simple">legge 13 luglio 1999, n. 225</rif>
+								(Conversione in legge, con modificazioni, del
+								<rif xlink:href="urn:nir:stato:decreto.legge:1999-05-13;131" xlink:type="simple">D.L. 13 maggio 1999, n. 131</rif>
+								, recante disposizioni urgenti in materia elettorale).
+							</corpo>
+						</comma>
+						<comma id="art40-com2">
+							<num>2.</num>
+							<corpo>
+								Le facoltà riconosciute dalle disposizioni della
+								<rif xlink:href="urn:nir:stato:legge:1956;212" xlink:type="simple">l. 212/1956</rif>
+								ai partiti o gruppi politici che partecipino direttamente alla competizione elettorale, si intendono attribuite ai partiti o gruppi politici che siano rappresentati in Consiglio regionale e ai promotori del referendum, quest'ultimi considerati in unico complesso.
+							</corpo>
+						</comma>
+						<comma id="art40-com3">
+							<num>3.</num>
+							<corpo>
+								Ai fini dell'applicazione della
+								<rif xlink:href="urn:nir:stato:legge:1956;212" xlink:type="simple">l. 212/1956</rif>
+								, in ogni caso è rivolta istanza al comune entro il trentaquattresimo giorno antecedente alla data della votazione per l'assegnazione dei prescritti spazi.
+							</corpo>
+						</comma>
+						<comma id="art40-com4">
+							<num>4.</num>
+							<corpo>
+								Alla propaganda elettorale per i referendum si applica altresì la
+								<rif xlink:href="urn:nir:stato:legge:2000-02-22;28" xlink:type="simple">legge 22 febbraio 2000, n. 28</rif>
+								(Disposizioni per la parità di accesso ai mezzi di informazione durante le campagne elettorali e referendarie e per la comunicazione politica) come modificata dalla
+								<rif xlink:href="urn:nir:stato:legge:2003-11-06;313" xlink:type="simple">legge 6 novembre 2003, n. 313</rif>
+								(Disposizioni per l'attuazione del principio del pluralismo nella programmazione delle emittenti radiofoniche e televisive locali).
+							</corpo>
+						</comma>
+						<comma id="art40-com5">
+							<num>5.</num>
+							<corpo>
+								Si osservano le disposizioni degli
+								<mrif>
+									articoli
+									<rif xlink:href="urn:nir:stato:legge:1970-05-25;352#art50" xlink:type="simple">50</rif>
+									e
+									<rif xlink:href="urn:nir:stato:legge:1970-05-25;352#art51" xlink:type="simple">51</rif>
+									della legge 25 maggio 1970, n. 352
+								</mrif>
+								(Norme sui referendum previsti dalla Costituzione e sulla iniziativa legislativa del popolo).
 							</corpo>
 						</comma>
 					</articolo>
