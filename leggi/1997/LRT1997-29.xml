@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t7" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19970505" num="19" tipo="BURT" />
 					<entratainvigore norm="19970520" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1997-04-24;29" />
+					<urn finevigore="t7" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1997-04-24;29" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1997-04-24;29@2004-12-27" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Demanio Patrimonio" />
@@ -21,6 +22,7 @@
 						<evento data="19970520" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="19970520" fonte="ra4" id="t5" tipo="modifica" />
 						<evento data="19970520" fonte="ra5" id="t6" tipo="modifica" />
+						<evento data="20051215" fonte="rp1" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1997-04-24;29" xlink:type="simple" />
@@ -29,8 +31,18 @@
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1991-05-16;20" xlink:type="simple" />
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1991-05-16;20" xlink:type="simple" />
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1991-05-16;20" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2004-12-27;77" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="LeggeRegionale1-n1">
+						<h:p>
+							Testo di legge abrogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2004-12-27;77#art34" xlink:type="simple">art. 34 della legge regionale 27 dicembre 2004, n. 77</rif>
+							, con decorrenza fissata alla data di entrata in vigore del regolamento previsto dall'art. 32 della stessa legge abrogante. Detto regolamento, approvato con D.P.G.R. 23 novembre 2005, n. 61/R, è stato pubblicato su BURT n. 43 parte prima, del 30 novembre 2005.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:abrogazione completa="si" implicita="no">
@@ -93,6 +105,20 @@
 							</dsp:novella>
 						</dsp:integrazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1997-04-24;29" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-12-27;77" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-12-27;77#art34-com1-letd" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 34, comma 1, lettera d) della legge Regione Toscana 27 dicembre 2004, n. 77" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -104,7 +130,9 @@
 				<titoloDoc>
 					Disposizioni per l'accelerazione delle procedure di alienazione di alcuni beni immobili di proprietà regionale e modificazioni alla
 					<rif xlink:href="urn:nir:regione.toscana:legge:1991-05-16;20" xlink:type="simple">LR 16 Maggio 1991, n. 20</rif>
-					"Demanio e Patrimonio della Regione Toscana".
+					"Demanio e Patrimonio della Regione Toscana"
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
+					.
 				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
@@ -114,10 +142,10 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>INDIVIDUAZIONE DEI BENI E PROCEDURE DI ALIENAZIONE</rubrica>
-					<capo id="tit1-cap1">
+					<capo id="LeggeRegionale1-tit1-cap1">
 						<num>Capo I</num>
 						<rubrica>DISPOSIZIONI GENERALI</rubrica>
 						<articolo id="art1">
@@ -175,7 +203,7 @@
 							</comma>
 						</articolo>
 					</capo>
-					<capo id="tit1-cap2">
+					<capo id="LeggeRegionale1-tit1-cap2">
 						<num>Capo II</num>
 						<rubrica>PROCEDURE DI ALIENAZIONE</rubrica>
 						<articolo id="art3">
@@ -447,7 +475,7 @@
 							</comma>
 						</articolo>
 					</capo>
-					<capo id="tit1-cap3">
+					<capo id="LeggeRegionale1-tit1-cap3">
 						<num>Capo III</num>
 						<rubrica>DISPOSIZIONI FINALI</rubrica>
 						<articolo id="art13">
@@ -516,7 +544,7 @@
 						</articolo>
 					</capo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>
 						MODIFICA DELLA
@@ -580,7 +608,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>TITOLO III</num>
 					<rubrica>ALIENAZIONE DEI BENI ASSEGNATI ALL'AZIENDA AGRICOLA DI ALBERESE</rubrica>
 					<articolo id="art17">
@@ -596,7 +624,7 @@
 								In sede di prima applicazione dell'
 								<rif xlink:href="urn:nir:regione.toscana:legge:1995-07-27;83#art5" xlink:type="simple">art. 5 della LR 27.7.1995 n. 83</rif>
 								, i beni immobili del patrimonio aziendale sono alienati in deroga al comma 5 dello stesso articolo con le procedure di cui al
-								<rif xlink:href="#tit1-cap1" xlink:type="simple">Titolo I, Capo I</rif>
+								<rif xlink:href="#LeggeRegionale1-tit1-cap1" xlink:type="simple">Titolo I, Capo I</rif>
 								e II della presente legge.
 							</corpo>
 						</comma>

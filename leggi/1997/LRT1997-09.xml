@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t7" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19970207" num="6" tipo="BURT" />
 					<entratainvigore norm="19970222" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1997-01-29;9" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1997-01-29;9@2000-03-21" />
+					<urn finevigore="t7" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1997-01-29;9@2000-03-21" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1997-01-29;9@2004-12-27" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Foreste" />
 						<materia valore="Agricoltura" />
@@ -22,6 +23,7 @@
 						<evento data="19970222" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="20000415" fonte="rp1" id="t5" tipo="modifica" />
 						<evento data="20010217" fonte="rp2" id="t6" tipo="modifica" />
+						<evento data="20051215" fonte="rp3" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1997-01-29;9" xlink:type="simple" />
@@ -30,8 +32,18 @@
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1976-09-04;64" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-03-21;39" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2000-03-21;39" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2004-12-27;77" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="LeggeRegionale1-n1">
+						<h:p>
+							Testo di legge abrogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2004-12-27;77#art34" xlink:type="simple">art. 34 della legge regionale 27 dicembre 2004, n. 77</rif>
+							, con decorrenza fissata alla data di entrata in vigore del regolamento previsto dall'art. 32 della stessa legge abrogante. Detto regolamento, approvato con D.P.G.R. 23 novembre 2005, n. 61/R, è stato pubblicato su BURT n. 43 parte prima, del 30 novembre 2005.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:abrogazione completa="si" implicita="no">
@@ -93,12 +105,24 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art6-com1-letd" xlink:type="simple" />
+								<dsp:pos xlink:href="#art6-com1-letc" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art6-com1-letc-t6" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1997-01-29;9" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-12-27;77" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-12-27;77#art34-com1-lete" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 34, comma 1, lettera e) della legge Regione Toscana 27 dicembre 2004, n. 77" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -108,7 +132,11 @@
 				<dataDoc norm="19970129">29 gennaio 1997</dataDoc>
 				, n.
 				<numDoc>9</numDoc>
-				<titoloDoc>Valorizzazione ed alienazione dei beni del patrimonio agricolo- forestale.</titoloDoc>
+				<titoloDoc>
+					Valorizzazione ed alienazione dei beni del patrimonio agricolo- forestale
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
+					.
+				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 28-12-1996</h:p>
@@ -357,7 +385,7 @@
 								. La Giunta Regionale determina annualmente, sulla base dello stato di avanzamento della procedura di alienazione, la quota da destinare al fondo per la montagna.
 							</corpo>
 						</el>
-						<el id="art6-com1-letd" iniziovigore="t6">
+						<el id="art6-com1-letc" iniziovigore="t6">
 							<num>c)</num>
 							<corpo>
 								la restante percentuale alla Regione per effettuare interventi di ampliamento, miglioramento e valorizzazione del restante patrimonio agricolo-forestale, nel rispetto delle finalità di cui all'

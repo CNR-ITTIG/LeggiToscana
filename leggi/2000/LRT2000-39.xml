@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t33" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2000-03-21;39" />
 					<urn finevigore="t34" iniziovigore="t33" valore="urn:nir:regione.toscana:legge:2000-03-21;39@2001-01-31" />
-					<urn finevigore="t35" iniziovigore="t34" valore="urn:nir:regione.toscana:legge:2000-03-21;39@2003-01-02" />
+					<urn finevigore="t36" iniziovigore="t34" valore="urn:nir:regione.toscana:legge:2000-03-21;39@2003-01-02" />
+					<urn finevigore="t35" iniziovigore="t36" valore="urn:nir:regione.toscana:legge:2000-03-21;39@2004-12-27" />
 					<urn iniziovigore="t35" valore="urn:nir:regione.toscana:legge:2000-03-21;39@2004-08-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Foreste" />
@@ -52,6 +53,7 @@
 						<evento data="20010217" fonte="rp1" id="t33" tipo="modifica" />
 						<evento data="20030125" fonte="rp2" id="t34" tipo="modifica" />
 						<evento data="20040812" fonte="rp3" id="t35" tipo="modifica" />
+						<evento data="20040120" fonte="rp4" id="t36" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2000-03-21;39" xlink:type="simple" />
@@ -89,6 +91,7 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2001-01-31;6" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2003-01-02;1" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2004-08-02;40" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2004-12-27;77" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -2325,6 +2328,21 @@
 								<dsp:pos xlink:href="#art95-t35" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art23" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-12-27;77" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-12-27;77#art37-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 37, comma 1 della legge Regione Toscana 27 dicembre 2004, n. 77" id="itt128" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art23" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art23-t36" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -3365,10 +3383,10 @@
 								</corpo>
 							</comma>
 						</articolo>
-						<articolo id="art23">
+						<articolo finevigore="t36" id="art23-t36" iniziovigore="t1" status="abrogato">
 							<num>ARTICOLO 23</num>
 							<rubrica>(Inalienabilità)</rubrica>
-							<comma id="art23-com1">
+							<comma id="art23-t36-com1">
 								<num>1.</num>
 								<corpo>
 									I beni immobili che fanno parte del patrimonio agricolo- forestale della Regione sono inalienabili e sono coltivati e utilizzati secondo i piani di gestione di cui all'
@@ -3376,7 +3394,7 @@
 									.
 								</corpo>
 							</comma>
-							<comma id="art23-com2">
+							<comma id="art23-t36-com2">
 								<num>2.</num>
 								<corpo>
 									I beni immobili del patrimonio agricolo-forestale possono, tuttavia, essere alienati nei casi e con le procedure di cui alla
@@ -3386,7 +3404,7 @@
 									.
 								</corpo>
 							</comma>
-							<comma id="art23-com3">
+							<comma id="art23-t36-com3">
 								<num>3.</num>
 								<corpo>
 									Possono, altresì, essere alienati beni mobili connessi al patrimonio agricolo-forestale non più utilizzabili ai fini di cui all'
@@ -3394,6 +3412,48 @@
 									, con le procedure di cui alla
 									<rif xlink:href="urn:nir:regione.toscana:legge:1991;20#art24-com1" xlink:type="simple">LR 20/1991, articolo 24, comma 1</rif>
 									.
+								</corpo>
+							</comma>
+						</articolo>
+						<articolo id="art23" iniziovigore="t36">
+							<num>Art. 23</num>
+							<rubrica>Inalienabilità</rubrica>
+							<comma id="art23-com1">
+								<num>1.</num>
+								<corpo>
+									I beni immobili che fanno parte del patrimonio agricolo-forestale sono inalienabili e sono coltivati e utilizzati secondo i piani di gestione di cui all'
+									<rif xlink:href="#art30" xlink:type="simple">articolo 30</rif>
+									.
+								</corpo>
+							</comma>
+							<comma id="art23-com2">
+								<num>2.</num>
+								<corpo>
+									I beni immobili del patrimonio agricolo-forestale possono tuttavia essere alienati quando gli immobili non siano più utilizzabili, ovvero non più necessari, per loro natura o condizione, ai fini di cui all'
+									<rif xlink:href="#art27" xlink:type="simple">articolo 27</rif>
+									, nonché nei casi in cui la cessione risulti finalizzata al soddisfacimento delle esigenze di interesse locale.
+								</corpo>
+							</comma>
+							<comma id="art23-com3">
+								<num>3.</num>
+								<corpo>
+									I proventi delle alienazioni sono interamente investiti sul patrimonio agricolo forestale regionale e sono in parte destinati all'ente competente nel cui territorio si trovano i beni alienati per effettuare interventi di miglioramento ambientale e strutturale e in parte alla Regione per effettuare interventi di ampliamento, miglioramento e valorizzazione del restante patrimonio agricolo-forestale, nel rispetto delle finalità di cui all'
+									<rif xlink:href="#art27" xlink:type="simple">articolo 27</rif>
+									. Gli atti di programmazione di cui all'
+									<rif xlink:href="#art4" xlink:type="simple">articolo 4</rif>
+									stabiliscono le percentuali di ripartizione dei proventi.
+								</corpo>
+							</comma>
+							<comma id="art23-com4">
+								<num>4.</num>
+								<corpo>I contratti di permuta sono disciplinati dalla legge regionale in materia di demanio e patrimonio.</corpo>
+							</comma>
+							<comma id="art23-com5">
+								<num>5.</num>
+								<corpo>
+									La dismissione dei beni immobili di cui al comma 2 e dei beni mobili connessi al patrimonio agricolo-forestale non più utilizzabili ai fini di cui all'
+									<rif xlink:href="#art27" xlink:type="simple">articolo 27</rif>
+									avviene secondo le disposizioni della legge regionale in materia di demanio e patrimonio e del relativo regolamento di attuazione.
 								</corpo>
 							</comma>
 						</articolo>
