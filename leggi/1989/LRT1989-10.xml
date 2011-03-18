@@ -13,7 +13,8 @@
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1989-01-23;10@2000-03-08" />
 					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1989-01-23;10@2000-03-21" />
 					<urn finevigore="t9" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1989-01-23;10@2000-12-28" />
-					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1989-01-23;10@2003-04-14" />
+					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1989-01-23;10@2003-04-14" />
+					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1989-01-23;10@2005-01-03" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Attribuzioni Deleghe" />
 						<materia valore="Agricoltura" />
@@ -30,6 +31,7 @@
 						<evento data="20010120" fonte="rp5" id="t7" tipo="modifica" />
 						<evento data="20010217" fonte="rp6" id="t8" tipo="modifica" />
 						<evento data="20030502" fonte="rp7" id="t9" tipo="modifica" />
+						<evento data="20050908" fonte="rp8" id="t10" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1989-01-23;10" xlink:type="simple" />
@@ -41,6 +43,7 @@
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2000-12-28;82" xlink:type="simple" />
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2000-03-21;39" xlink:type="simple" />
 						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:2003-04-14;22" xlink:type="simple" />
+						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:2005-01-03;7" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -273,6 +276,18 @@
 							</dsp:norma>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#h6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com1-letc" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-01-03;7" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-01-03;7#art24-com1-letb" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 24, comma 1, lettera b) della legge Regione Toscana 3 gennaio 2005, n. 7" id="itt17" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-com1-letc-t10" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>
@@ -555,7 +570,7 @@
 								;
 							</corpo>
 						</el>
-						<el id="art5-com1-letc">
+						<el finevigore="t10" id="art5-com1-letc-t10" iniziovigore="t1" status="abrogato">
 							<num>c)</num>
 							<corpo>rilascio delle licenze di pesca;</corpo>
 						</el>

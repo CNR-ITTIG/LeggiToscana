@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t11" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19840502" num="23" tipo="BURT" />
@@ -14,7 +14,8 @@
 					<urn finevigore="t7" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1984-04-24;25@1996-11-14" />
 					<urn finevigore="t9" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1984-04-24;25@1996-03-28" />
 					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1984-04-24;25@1997-08-11" />
-					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1984-04-24;25@1999-05-19" />
+					<urn finevigore="t11" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1984-04-24;25@1999-05-19" />
+					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1984-04-24;25@2005-01-03" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Pesca" />
 					</materie>
@@ -31,6 +32,7 @@
 						<evento data="19961210" fonte="rp5" id="t8" tipo="modifica" />
 						<evento data="19970821" fonte="rp6" id="t9" tipo="modifica" />
 						<evento data="19990610" fonte="rp7" id="t10" tipo="modifica" />
+						<evento data="20050908" fonte="rp8" id="t11" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1984-04-24;25" xlink:type="simple" />
@@ -43,6 +45,7 @@
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1996-11-14;82" xlink:type="simple" />
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:1997-08-11;63" xlink:type="simple" />
 						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:1999-05-19;29" xlink:type="simple" />
+						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:2005-01-03;7" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -158,7 +161,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art1-com3" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1989-10-16;63" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1989-10-16;63#art1-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -787,6 +790,18 @@
 								<dsp:pos xlink:href="#art19-com2-t10" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1984-04-24;25" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-01-03;7" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-01-03;7#art24-com1-leta" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 24, comma 1, lettera a) della legge Regione Toscana 3 gennaio 2005, n. 7" id="itt51" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
