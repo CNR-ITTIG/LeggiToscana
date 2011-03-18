@@ -11,7 +11,8 @@
 					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1998-07-31;42@1999-12-31" />
 					<urn finevigore="t11" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1998-07-31;42@2003-07-08" />
 					<urn finevigore="t12" iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1998-07-31;42@2003-12-29" />
-					<urn iniziovigore="t12" valore="urn:nir:regione.toscana:legge:1998-07-31;42@2004-10-22" />
+					<urn finevigore="t13" iniziovigore="t12" valore="urn:nir:regione.toscana:legge:1998-07-31;42@2004-10-22" />
+					<urn iniziovigore="t13" valore="urn:nir:regione.toscana:legge:1998-07-31;42@2005-01-03" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Trasporti" />
 						<materia valore="Attribuzioni Deleghe" />
@@ -31,6 +32,7 @@
 						<evento data="20030711" fonte="rp2" id="t10" tipo="modifica" />
 						<evento data="20040108" fonte="rp3" id="t11" tipo="modifica" />
 						<evento data="20041030" fonte="rp4" id="t12" tipo="modifica" />
+						<evento data="20050120" fonte="rp5" id="t13" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-07-31;42" xlink:type="simple" />
@@ -45,6 +47,7 @@
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2003-07-08;33" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2003-12-29;68" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2004-10-22;55" xlink:type="simple" />
+						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -570,7 +573,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+								<dsp:pos xlink:href="#h5" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -966,10 +969,10 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#h5" xlink:type="simple" />
+								<dsp:pos xlink:href="#h7" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+								<dsp:pos xlink:href="#h6" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -1129,6 +1132,21 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art29-com5-t12" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1#art181-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 181, comma 1 della legge Regione Toscana 3 gennaio 2005, n. 1" id="itt72" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -1360,9 +1378,18 @@
 						<comma id="art4-com1">
 							<num>1.</num>
 							<alinea>
-								Il Piano di indirizzo territoriale (P.I.T.) di cui all'
-								<rif xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art6" xlink:type="simple">art. 6 della LR 16.01.1995, n. 5</rif>
-								(Norme per il governo del territorio) definisce la politica regionale in materia di trasporti secondo quanto previsto dall'
+								Il Piano di indirizzo territoriale (P.I.T.)
+								<h:span finevigore="t13" id="h3" iniziovigore="t1" status="abrogato">
+									di cuiall'
+									<rif xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art6" xlink:type="simple">art. 6 della LR 16.01.1995, n. 5</rif>
+									(Norme per il governo del territorio)
+								</h:span>
+								<h:span id="h4" iniziovigore="t13">
+									di cui all'
+									<rif xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1#art48" xlink:type="simple">articolo 48 della legge regionale 3 gennaio 2005, n. 1</rif>
+									(Norme per il governo del territorio);
+								</h:span>
+								definisce la politica regionale in materia di trasporti secondo quanto previsto dall'
 								<rif xlink:href="urn:nir:stato:decreto.legislativo:1997;422#art14-com2" xlink:type="simple">art. 14, comma 2 del DLgs n. 422/97</rif>
 								, anche in riferimento a:
 							</alinea>
@@ -2064,7 +2091,7 @@
 								Sono altresì di competenza della Regione le funzioni di cui alla
 								<rif xlink:href="urn:nir:stato:decreto.legislativo:1998-03-31;112#art105" xlink:type="simple">
 									lettera h)
-									<h:span id="h3" iniziovigore="t10">comma 2</h:span>
+									<h:span id="h5" iniziovigore="t10">comma 2</h:span>
 									dell'art. 105 del DLgs 31.03.98 n. 112
 								</rif>
 								, concernenti il rilascio di concessioni per la gestione delle infrastrutture ferroviarie di interesse regionale.
@@ -3280,8 +3307,8 @@
 						<comma id="art23-com1">
 							<num>1.</num>
 							<alinea>
-								<h:span finevigore="t11" id="h4" iniziovigore="t1" status="abrogato">La Giunta regionale, distintamente per ciascuna modalità di trasporto, stabilisce con regolamento da approvare entro il 30 settembre 2003 gli obblighi a cui devono attenersi a tutela dell'utenza i soggetti gestori dei servizi, relativamente a:</h:span>
-								<h:span id="h5" iniziovigore="t11">Con regolamento regionale, distintamente per ciascuna modalità di trasporto, sono stabiliti gli obblighi a cui devono attenersi a tutela dell'utenza i soggetti gestori dei servizi, relativamente a:</h:span>
+								<h:span finevigore="t11" id="h6" iniziovigore="t1" status="abrogato">La Giunta regionale, distintamente per ciascuna modalità di trasporto, stabilisce con regolamento da approvare entro il 30 settembre 2003 gli obblighi a cui devono attenersi a tutela dell'utenza i soggetti gestori dei servizi, relativamente a:</h:span>
+								<h:span id="h7" iniziovigore="t11">Con regolamento regionale, distintamente per ciascuna modalità di trasporto, sono stabiliti gli obblighi a cui devono attenersi a tutela dell'utenza i soggetti gestori dei servizi, relativamente a:</h:span>
 							</alinea>
 							<el id="art23-com1-leta">
 								<num>a)</num>

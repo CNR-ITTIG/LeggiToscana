@@ -8,7 +8,8 @@
 					<entratainvigore norm="20000414" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t6" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2000-03-20;30" />
-					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2000-03-20;30@2003-12-29" />
+					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2000-03-20;30@2003-12-29" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:2000-03-20;30@2005-01-03" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sicurezza" />
 					</materie>
@@ -21,6 +22,7 @@
 						<evento data="20000414" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="20000414" fonte="ra4" id="t5" tipo="modifica" />
 						<evento data="20040122" fonte="rp1" id="t6" tipo="modifica" />
+						<evento data="20050120" fonte="rp2" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2000-03-20;30" xlink:type="simple" />
@@ -29,6 +31,7 @@
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1998-12-01;88" xlink:type="simple" />
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1991-08-12;41" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2003-12-29;67" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -104,6 +107,48 @@
 							</dsp:norma>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art2-com1-leth-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com1-letg" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1#art186-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 186, comma 1 della legge Regione Toscana 3 gennaio 2005, n. 1" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com1-letg" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com1-letg-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com1-letb" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1#art187-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 187, comma 1 della legge Regione Toscana 3 gennaio 2005, n. 1" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art5-com1-letb" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-com1-letb-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1#art188-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 188, comma 1 della legge Regione Toscana 3 gennaio 2005, n. 1" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>
@@ -282,13 +327,23 @@
 									;
 								</corpo>
 							</el>
-							<el id="art2-com1-letg">
+							<el finevigore="t7" id="art2-com1-letg-t7" iniziovigore="t1" status="abrogato">
 								<num>g)</num>
 								<corpo>
 									all'adozione, nell'ambito del Piano di indirizzo regionale (PIT), in conformità con l'
 									<rif xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art6" xlink:type="simple">articolo 6 della legge regionale 16 gennaio 1995, n. 5</rif>
 									, (Norme per il governo del territorio), e successive modifiche ed integrazioni, delle ulteriori prescrizioni atte a consentire, fatto salvo quanto previsto dall'
 									<rif xlink:href="urn:nir:stato:decreto.legislativo:1999-08-17;334#art14" xlink:type="simple">articolo. 14 del Decreto</rif>
+									, la localizzazione più adeguata dei nuovi stabilimenti;
+								</corpo>
+							</el>
+							<el id="art2-com1-letg" iniziovigore="t7">
+								<num>g)</num>
+								<corpo>
+									all'adozione, nell'ambito del regolamento di attuazione del
+									<rif xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1#tit5" xlink:type="simple">titolo V della legge regionale 3 gennaio 2005, n. 1</rif>
+									(Norme per il governo del territorio), delle ulteriori prescrizioni atte a consentire, fatto salvo quanto previsto dall'
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:1999-08-17;334#art14" xlink:type="simple">articolo 14 del decreto</rif>
 									, la localizzazione più adeguata dei nuovi stabilimenti;
 								</corpo>
 							</el>
@@ -472,13 +527,25 @@
 									;
 								</corpo>
 							</el>
-							<el id="art5-com1-letb">
+							<el finevigore="t7" id="art5-com1-letb-t7" iniziovigore="t1" status="abrogato">
 								<num>b)</num>
 								<corpo>
 									alla definizione, nell'ambito del Piano territoriale di coordinamento (P.T.C.), ai sensi dell'
 									<rif xlink:href="urn:nir:regione.toscana:legge:1995;5#art16" xlink:type="simple">articolo 16 della LR 5/1995</rif>
 									, fatto salvo quanto disposto dall'
 									<rif xlink:href="urn:nir:stato:decreto.legislativo:1999-08-17;334#art14" xlink:type="simple">articolo 14 del Decreto</rif>
+									, delle eventuali ulteriori prescrizioni inerenti la localizzazione degli stabilimenti, in attuazione di quelle regionali di cui all'
+									<rif xlink:href="#art2-com1-lete" xlink:type="simple">articolo 2, comma 1, lettera e)</rif>
+									;
+								</corpo>
+							</el>
+							<el id="art5-com1-letb" iniziovigore="t7">
+								<num>b)</num>
+								<corpo>
+									alla definizione, nell'ambito del piano territoriale di coordinamento e ai sensi dell'
+									<rif xlink:href="urn:nir:regione.toscana:legge:2005;1#art51" xlink:type="simple">articolo 51 della LR 1/2005</rif>
+									, fatto salvo quanto disposto dall'
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:1999-08-17;334#art14" xlink:type="simple">articolo 14 del decreto</rif>
 									, delle eventuali ulteriori prescrizioni inerenti la localizzazione degli stabilimenti, in attuazione di quelle regionali di cui all'
 									<rif xlink:href="#art2-com1-lete" xlink:type="simple">articolo 2, comma 1, lettera e)</rif>
 									;
@@ -500,9 +567,12 @@
 						<comma id="art6-com1">
 							<num>1.</num>
 							<corpo>
-								Ferme restando le funzioni comunali disciplinate dalla
-								<rif xlink:href="urn:nir:regione.toscana:legge:1995;5" xlink:type="simple">LR 5/1995</rif>
-								, fatto salvo quanto previsto dall'
+								<h:span finevigore="t7" id="h3" iniziovigore="t1" status="abrogato">
+									Ferme restando le funzioni comunali disciplinate dalla
+									<rif xlink:href="urn:nir:regione.toscana:legge:1995;5" xlink:type="simple">LR 5/1995</rif>
+									,
+								</h:span>
+								fatto salvo quanto previsto dall'
 								<rif xlink:href="urn:nir:stato:decreto.legislativo:1999-08-17;334#art14" xlink:type="simple">articolo 14 del Decreto</rif>
 								, e dagli
 								<mrif>

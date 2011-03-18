@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19960912" num="48" tipo="BURT" />
 					<entratainvigore norm="19960927" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1996-09-03;76" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1996-09-03;76" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1996-09-03;76@2005-01-03" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ordinamento" />
 						<materia valore="Enti Territoriali" />
@@ -17,11 +18,29 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19960927" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20050120" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1996-09-03;76" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art11" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1#art164-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 164, comma 1 della legge Regione Toscana 3 gennaio 2005, n. 1" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art11-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -147,7 +166,7 @@
 								<num>e)</num>
 								<corpo>
 									le eventuali variazioni di atti di programmazione o pianificazione territoriale determinate dall'accordo di programma, nel rispetto delle procedure previste dall'
-									<rif xlink:href="#art11" xlink:type="simple">art.11</rif>
+									<rif xlink:href="#art11-t2" xlink:type="simple">art.11</rif>
 									;
 								</corpo>
 							</el>
@@ -172,7 +191,7 @@
 							<num>1.</num>
 							<alinea>
 								Il procedimento per la conclusione dell'accordo di programma, salvo i casi disciplinati dall'
-								<rif xlink:href="#art11" xlink:type="simple">art. 11</rif>
+								<rif xlink:href="#art11-t2" xlink:type="simple">art. 11</rif>
 								, si articola nelle seguenti fasi:
 							</alinea>
 							<el id="art5-com1-leta">
@@ -370,10 +389,10 @@
 							<corpo>L'accordo di programma può essere modificato con le stesse procedure previste per la sua definizione e da parte degli stessi soggetti che lo hanno sottoscritto.</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art11">
+					<articolo finevigore="t2" id="art11-t2" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 11</num>
 						<rubrica>(Variazione di atti di programmazione e pianificazione territoriale)</rubrica>
-						<comma id="art11-com1">
+						<comma id="art11-t2-com1">
 							<num>1.</num>
 							<corpo>
 								Ferme restando le competenze attribuite dalla
@@ -390,11 +409,11 @@
 								.
 							</corpo>
 						</comma>
-						<comma id="art11-com2">
+						<comma id="art11-t2-com2">
 							<num>2.</num>
 							<corpo>
 								Al di fuori dei casi di cui al
-								<rif xlink:href="#art11-com1" xlink:type="simple">primo comma</rif>
+								<rif xlink:href="#art11-t2-com1" xlink:type="simple">primo comma</rif>
 								, qualora l'accordo di programma comporti la contestuale variazione di uno o più atti di programmazione o pianificazione territoriale di competenza delle amministrazioni partecipanti all'accordo stesso, esso è concluso insieme all'accordo di pianificazione di cui all'
 								<rif xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art36" xlink:type="simple">art. 36, della LR 16.1.1995, n. 5</rif>
 								, con le speciali procedure di cui al presente articolo. L'accordo di programma, concluso insieme all'accordo di pianificazione, deve comunque garantire il rispetto delle finalità della
@@ -402,7 +421,7 @@
 								, l'adeguatezza del quadro conoscitivo di riferimento e la coerenza complessiva del sistema di programmazione e pianificazione territoriale, dandone espressamente atto nel testo sottoscritto dai soggetti partecipanti.
 							</corpo>
 						</comma>
-						<comma id="art11-com3">
+						<comma id="art11-t2-com3">
 							<num>3.</num>
 							<corpo>
 								L'obbligo, previsto dall'
@@ -414,15 +433,15 @@
 								.
 							</corpo>
 						</comma>
-						<comma id="art11-com4">
+						<comma id="art11-t2-com4">
 							<num>4.</num>
 							<corpo>Nel caso in cui il procedimento di formazione dell'atto o degli atti di programmazione o pianificazione territoriale che si intendono variare, preveda, in corrispondenza di una sua qualsiasi fase, la possibilità della presentazione di osservazioni da parte di altri soggetti interessati, il verbale della conferenza di cui al comma precedente, il testo dell'accordo di programma da sottoscrivere e tutti gli allegati, anche cartografici, sono depositati presso la sede delle amministrazioni che hanno approvato gli atti di programmazione o pianificazione territoriale che si intendono variare.</corpo>
 						</comma>
-						<comma id="art11-com5">
+						<comma id="art11-t2-com5">
 							<num>5.</num>
 							<corpo>Il deposito dura 20 giorni a decorrere dalla data di pubblicazione sul Bollettino Ufficiale della Regione della relativa comunicazione. Durante il deposito tutti gli interessati possono prendere visione degli atti e, entro i 20 giorni successivi alla scadenza dei termini di deposito, presentare osservazioni.</corpo>
 						</comma>
-						<comma id="art11-com6">
+						<comma id="art11-t2-com6">
 							<num>6.</num>
 							<corpo>
 								Decorso il termine per la presentazione di osservazioni, nel caso in cui ne siano state presentate, i soggetti che hanno partecipato alla conferenza dei servizi sono nuovamente convocati a cura del Presidente della Giunta regionale al fine di esaminare le osservazioni pervenute. Qualora unanimemente i soggetti convocati confermino 1'accordo o in accoglimento delle osservazioni decidano di modificarlo, si procede alla firma dell'accordo di programma da parte dei soggetti che assumono gli impegni di cui all'
@@ -437,19 +456,19 @@
 								. Si procede ugualmente alla firma, senza necessità di ulteriore esame, nel caso in cui non siano state presentate osservazioni.
 							</corpo>
 						</comma>
-						<comma id="art11-com7">
+						<comma id="art11-t2-com7">
 							<num>7.</num>
 							<corpo>
 								L'accordo di programma di cui al
-								<rif xlink:href="#art11-com2" xlink:type="simple">comma 2</rif>
+								<rif xlink:href="#art11-t2-com2" xlink:type="simple">comma 2</rif>
 								e l'accordo di pianificazione, devono essere ratificati a pena di decadenza entro 30 giorni dalla firma, da parte degli organi consiliari delle amministrazioni dei cui atti di programmazione e di pianificazione territoriale si determina la variazione.
 							</corpo>
 						</comma>
-						<comma id="art11-com8">
+						<comma id="art11-t2-com8">
 							<num>8.</num>
 							<corpo>
 								L'accordo di programma di cui al
-								<rif xlink:href="#art11-com2" xlink:type="simple">comma 2</rif>
+								<rif xlink:href="#art11-t2-com2" xlink:type="simple">comma 2</rif>
 								e l'accordo di pianificazione, una volta intervenuta la ratifica, sono approvati con decreto del Presidente della Giunta regionale e sono pubblicati sul Bollettino Ufficiale della Regione con le modalità e gli effetti previsti dall'
 								<rif xlink:href="#art10" xlink:type="simple">art. 10</rif>
 								.

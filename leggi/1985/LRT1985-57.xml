@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1985-05-07;57" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1985-05-07;57@1995-01-16" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1985-05-07;57@2004-07-27" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1985-05-07;57@2004-07-27" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1985-05-07;57@2005-01-03" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Edilizia" />
 					</materie>
@@ -19,11 +20,13 @@
 						<evento data="19850601" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19950204" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="20040819" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="20050120" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1985-05-07;57" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2004-07-27;39" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -63,6 +66,18 @@
 								<dsp:pos xlink:href="#art3-com2bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1#art150-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 150, comma 1 della legge Regione Toscana 3 gennaio 2005, n. 1" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-com2-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -245,7 +260,7 @@
 							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
 						</corpo>
 					</comma>
-					<comma id="art5-com2">
+					<comma finevigore="t4" id="art5-com2-t4" iniziovigore="t1" status="abrogato">
 						<num>2.</num>
 						<corpo>
 							Gli interventi edilizi compresi nei piani di recupero di cui alla presente legge, anche se non ammessi a contributi, sono soggetti al pagamento degli oneri previsti dall'

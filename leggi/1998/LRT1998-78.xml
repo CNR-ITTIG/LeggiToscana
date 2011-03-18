@@ -8,7 +8,8 @@
 					<entratainvigore norm="19981127" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t8" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1998-11-03;78" />
-					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1998-11-03;78@2004-01-27" />
+					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1998-11-03;78@2004-01-27" />
+					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1998-11-03;78@2005-01-03" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Attività Estrattive" />
 					</materie>
@@ -23,6 +24,7 @@
 						<evento data="19981127" fonte="ra5" id="t6" tipo="modifica" />
 						<evento data="19981127" fonte="ra6" id="t7" tipo="modifica" />
 						<evento data="20040219" fonte="rp1" id="t8" tipo="modifica" />
+						<evento data="20050120" fonte="rp2" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-11-03;78" xlink:type="simple" />
@@ -33,6 +35,7 @@
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1995-04-11;48" xlink:type="simple" />
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1995;5" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2004-01-27;4" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -132,6 +135,36 @@
 								<dsp:pos xlink:href="#art15-com5bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1#art182-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 182, comma 1 della legge Regione Toscana 3 gennaio 2005, n. 1" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art5-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-com1-t9" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1#art183-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 183, comma 1 della legge Regione Toscana 3 gennaio 2005, n. 1" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art7-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art7-com1-t9" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -307,7 +340,7 @@
 						<articolo id="art5">
 							<num>ARTICOLO 5</num>
 							<rubrica>(Formazione e approvazione)</rubrica>
-							<comma id="art5-com1">
+							<comma finevigore="t9" id="art5-com1-t9" iniziovigore="t1" status="abrogato">
 								<num>1.</num>
 								<corpo>
 									Il PRAER in quanto atto che disciplina risorse essenziali del territorio è elemento del Piano di Indirizzo Territoriale di cui all'
@@ -317,11 +350,19 @@
 									, sia nell'ipotesi di redazione contestuale sia nell'ipotesi di variante al P.I.T. Alle Conferenze Provinciali partecipano anche gli Enti Parco, le Autorità di Bacino e le forze economiche e sociali interessate.
 								</corpo>
 							</comma>
+							<comma id="art5-com1" iniziovigore="t9">
+								<num>1.</num>
+								<corpo>
+									Il PRAER in quanto atto che disciplina risorse essenziali del territorio è assoggettato alle procedure di approvazione disciplinate dal
+									<rif xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1#tit2" xlink:type="simple">titolo II della legge regionale 3 gennaio 2005, n. 1</rif>
+									(Norme per il governo del territorio).
+								</corpo>
+							</comma>
 							<comma id="art5-com2">
 								<num>2.</num>
 								<corpo>
 									Non costituiscono varianti al PRAER gli aggiornamenti che comportano modifiche delle risorse e dei relativi giacimenti nonché delle normative di dettaglio che non influiscono sulla struttura complessiva del PRAER La Giunta Regionale formula il documento di aggiornamento del PRAER e lo approva, previa conferenza cui sono invitati le Province e gli altri soggetti che partecipano alle conferenze provinciali di cui al
-									<rif xlink:href="#art5-com1" xlink:type="simple">comma 1</rif>
+									<rif xlink:href="#art5-com1-t9" xlink:type="simple">comma 1</rif>
 									.
 								</corpo>
 							</comma>
@@ -341,9 +382,13 @@
 						<articolo id="art7">
 							<num>ARTICOLO 7</num>
 							<rubrica>(Definizione)</rubrica>
-							<comma id="art7-com1">
+							<comma finevigore="t9" id="art7-com1-t9" iniziovigore="t1" status="abrogato">
 								<num>1.</num>
 								<corpo>Il Piano delle Attività Estrattive di Recupero delle aree escavate e riutilizzo dei residui recuperabili della Provincia, in seguito denominato PAERP, è l'atto di pianificazione settoriale attraverso il quale la Provincia attua gli indirizzi e le prescrizioni dei due settori del PRAER e coordina la pianificazione urbanistica comunale relativamente alle previsioni di coltivazione, riqualificazione, recupero delle aree di escavazione dismesse e di riciclaggio dei materiali recuperabili assimilabili.</corpo>
+							</comma>
+							<comma id="art7-com1" iniziovigore="t9">
+								<num>1.</num>
+								<corpo>Il piano delle attività estrattive di recupero delle aree escavate e riutilizzo dei residui recuperabili della provincia, in seguito denominato PAERP, è l'atto della pianificazione settoriale attraverso il quale la provincia attua gli indirizzi e le prescrizioni dei due settori del PRAER.</corpo>
 							</comma>
 						</articolo>
 						<articolo id="art8">

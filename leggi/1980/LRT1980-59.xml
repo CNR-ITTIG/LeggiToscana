@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t15" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19800530" num="32" tipo="BURT" />
@@ -12,7 +12,8 @@
 					<urn finevigore="t11" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1980-05-21;59@1982-11-29" />
 					<urn finevigore="t12" iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1980-05-21;59@1995-01-16" />
 					<urn finevigore="t13" iniziovigore="t12" valore="urn:nir:regione.toscana:legge:1980-05-21;59@1995-04-14" />
-					<urn iniziovigore="t13" valore="urn:nir:regione.toscana:legge:1980-05-21;59@1999-10-14" />
+					<urn finevigore="t15" iniziovigore="t13" valore="urn:nir:regione.toscana:legge:1980-05-21;59@1999-10-14" />
+					<urn iniziovigore="t15" valore="urn:nir:regione.toscana:legge:1980-05-21;59@2005-01-03" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="EDILIZIA" />
 					</materie>
@@ -33,6 +34,7 @@
 						<evento data="19950506" fonte="rp4" id="t12" tipo="modifica" />
 						<evento data="19991222" fonte="rp5" id="t13" tipo="modifica" />
 						<evento data="20000205" fonte="rp6" id="t14" tipo="modifica" />
+						<evento data="20070301" fonte="rp7" id="t15" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-05-21;59" xlink:type="simple" />
@@ -48,10 +50,18 @@
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1995-04-14;64" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1999-10-14;52" xlink:type="simple" />
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:1999-10-14;52" xlink:type="simple" />
+						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
+						<h:p>
+							Testo di legge abrogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1#art203" xlink:type="simple">art. 203, della legge regionale 3 gennaio 2005, n. 1</rif>
+							, con decorrenza fissata alla data di entrata in vigore del regolamento previsto dall'art. 75, della stessa legge abrogante. Detto regolamento, approvato con D.P.G.R. 9 febbraio 2007, n. 3/R, è stato pubblicato su BURT 14 febbraio 2007, n. 2 parte prima.
+						</h:p>
+					</nota>
+					<nota id="LeggeRegionale1-n2">
 						<h:p>
 							Abrogazione ai sensi dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41" xlink:type="simple">articolo 41 della legge regionale 16 gennaio 1995, n. 5</rif>
@@ -60,7 +70,7 @@
 							della medesima legge.
 						</h:p>
 					</nota>
-					<nota id="n2">
+					<nota id="LeggeRegionale1-n3">
 						<h:p>
 							Termine prorogato al 31 ottobre 1982 ex
 							<rif xlink:href="urn:nir:regione.toscana:legge:1982-01-25;7#art1" xlink:type="simple">art. 1 legge regionale 25 gennaio 1982, n. 7</rif>
@@ -400,7 +410,7 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-10-14;52" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-10-14;52#art45-com3" xlink:type="simple" />
 								<dsp:subarg>
@@ -411,22 +421,18 @@
 								<dsp:pos xlink:href="#art2-t13" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
-
-
-<dsp:abrogazione completa="si" implicita="no">
+						<dsp:abrogazione completa="si" implicita="no">
 							<dsp:pos xlink:href="#con1-t13" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-10-14;52" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1999-10-14;52#art45-com3" xlink:type="simple" />
 								<dsp:subarg>
-									<ittig:notavigenza auto="articolo 45, comma 3 della legge Regione Toscana 14 ottobre 1999, n. 52" id="itt20" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+									<ittig:notavigenza auto="articolo 45, comma 3 della legge Regione Toscana 14 ottobre 1999, n. 52" id="itt21" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#con1-t13" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
-
-
 						<dsp:variazione completa="si" implicita="no">
 							<dsp:termine da="#t14" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1999-10-14;52" xlink:type="simple">
@@ -436,6 +442,18 @@
 								<dsp:testo valore="" />
 							</dsp:dominio>
 						</dsp:variazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1980-05-21;59" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1#art203-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 203, comma 1 della legge Regione Toscana 3 gennaio 2005, n. 1" id="itt22" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -445,7 +463,11 @@
 				<dataDoc norm="19800521">21 maggio 1980</dataDoc>
 				, n.
 				<numDoc>59</numDoc>
-				<titoloDoc>Norme per gli interventi per il recupero del patrimonio edilizio esistente.</titoloDoc>
+				<titoloDoc>
+					Norme per gli interventi per il recupero del patrimonio edilizio esistente
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
+					.
+				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 9-4-1980</h:p>
@@ -490,7 +512,7 @@
 						</el>
 					</comma>
 				</articolo>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>INTERVENTI SUL PATRIMONIO EDILIZIO ESISTENTE</rubrica>
 					<articolo finevigore="t13" id="art2-t13" iniziovigore="t1" status="abrogato">
@@ -738,7 +760,7 @@
 							<num />
 							<corpo>
 								In presenza di particolari caratteristiche tipologiche ed espressive degli edifici, al solo scopo di agevolare il mantenimento delle funzioni residenziali in atto, o l'eventuale recupero delle stesse nel rispetto delle caratteristiche, la variante di cui al comma precedente può prevedere deroghe alle vigenti disposizioni in materia di altezze minime interpiano e di standards tecnologici e igienico - sanitari.
-								<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+								<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(b)</ndr>
 							</corpo>
 						</comma>
 						<comma id="art5-com5">
@@ -761,7 +783,7 @@
 								Potranno essere prescritti, per i vari tipi di interventi sul patrimonio edilizio esistente, particolari materiali, tipologie o modalità costruttive in relazione alle peculiarità dei relativi centri abitati e alle opere di cui alle categorie di intervento di cui all'
 								<rif xlink:href="#art2-t13" xlink:type="simple">art. 2</rif>
 								.
-								<ndr num="#n1" valore="" xlink:type="simple">(b)</ndr>
+								<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(c)</ndr>
 							</corpo>
 						</comma>
 						<comma id="art5-com8">
@@ -881,7 +903,7 @@
 								Gli elenchi
 								<h:span finevigore="t11" id="h2" iniziovigore="t1" status="abrogato">
 									sono adottati senza la prescritta autorizzazione regionale e
-									<ndr num="#n1" valore="" xlink:type="simple">(c)</ndr>
+									<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(d)</ndr>
 								</h:span>
 								sono approvati con la procedura prevista per le varianti agli strumenti urbanistici.
 							</corpo>
@@ -890,7 +912,7 @@
 							<num />
 							<corpo>
 								Con i provvedimenti di approvazione la Regione può apportare agli elenchi le modifiche e le integrazioni ritenute necessarie, secondo le procedure di cui alla vigente legislazione in materia urbanistica.
-								<ndr num="#n1" valore="" xlink:type="simple">(d)</ndr>
+								<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(e)</ndr>
 							</corpo>
 						</comma>
 						<comma id="art7-com7">
@@ -898,13 +920,13 @@
 							<corpo>
 								Gli interventi di cui alla lettera D2 dell'allegato alla presente legge sono consentiti negli immobili o complessi edilizi ricadenti nelle zone omogenee classificate "A "o in quelle ad esse assimilate dai vigenti strumenti urbanistici, che non siano compresi nei suddetti elenchi, solo dopo l'approvazione definitiva degli elenchi stessi
 								<h:span finevigore="t11" id="h3" iniziovigore="t1" status="abrogato">da parte della Regione</h:span>
-								<ndr num="#n1" valore="" xlink:type="simple">(e)</ndr>
+								<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(f)</ndr>
 								.
 							</corpo>
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>ZONE DI RECUPERO E DISCIPLINA DEI PIANI DI RECUPERO</rubrica>
 					<articolo id="art8">
@@ -1212,7 +1234,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>TITOLO III</num>
 					<rubrica>NORME FINALI</rubrica>
 					<articolo id="art14">
@@ -1312,7 +1334,7 @@
 							<num />
 							<corpo>
 								I comuni che provvedono entro il 31 dicembre 1981
-								<ndr num="#n2" valore="" xlink:type="simple">(f)</ndr>
+								<ndr num="#LeggeRegionale1-n3" valore="" xlink:type="simple">(g)</ndr>
 								alla redazione e alla adozione degli elenchi di 1981 alla redazione e alla adozione degli elenchi di cui al
 								<rif xlink:href="#art7" xlink:type="simple">precedente art. 7</rif>
 								o di quelli di cui all'
@@ -1493,12 +1515,12 @@
 						</meta>
 						<intestazione>
 							<titoloDoc>
-								(Definizione degli interventi sul patrimonio edilizio esistente)<ndr num="#ann1-n1" valore="" xlink:type="simple">(g)</ndr>
-								
+								(Definizione degli interventi sul patrimonio edilizio esistente)
+								<ndr num="#ann1-n1" valore="" xlink:type="simple">(h)</ndr>
 							</titoloDoc>
 						</intestazione>
 						<formulainiziale />
-						<contenitore finevigore="t13" id="con1-t13" nome="" iniziovigore="t1" status="abrogato">
+						<contenitore finevigore="t13" id="con1-t13" iniziovigore="t1" nome="" status="abrogato">
 							<h:p>A) Manutenzione ordinaria Gli interventi di manutenzione ordinaria sono quelli che riguardano le opere di riparazione, rinnovamento e sostituzione delle finiture degli edifici e quelle necessarie a integrare o mantenere in efficienza gli impianti tecnologici esistenti.</h:p>
 							<h:p>Tali interventi non possono comunque comportare modifiche o alterazioni agli elementi architettonici o decorativi degli edifici.</h:p>
 							<h:p>B) Manutenzione straordinaria Gli interventi di manutenzione straordinaria sono costituiti dalle opere e dalle modifiche necessarie per rinnovare e sostituire le parti anche strutturali degli edifici, nonchè per realizzare ed integrare i servizi igienico - sanitari e tecnologici, sempre che non alterino i volumi e le superfici delle singole unità immobiliari e non comportino modifiche delle destinazioni d'uso.</h:p>

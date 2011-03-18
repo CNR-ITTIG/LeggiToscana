@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t30" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19950421" num="31" tipo="BURT" />
 					<entratainvigore norm="19950506" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t28" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1995-04-14;64" />
-					<urn iniziovigore="t28" valore="urn:nir:regione.toscana:legge:1995-04-14;64@1997-04-04" />
+					<urn finevigore="t30" iniziovigore="t28" valore="urn:nir:regione.toscana:legge:1995-04-14;64@1997-04-04" />
+					<urn iniziovigore="t30" valore="urn:nir:regione.toscana:legge:1995-04-14;64@2005-01-03" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Urbanistica" />
 						<materia valore="Agricoltura" />
@@ -45,6 +46,7 @@
 						<evento data="19950506" fonte="ra26" id="t27" tipo="modifica" />
 						<evento data="19970429" fonte="rp1" id="t28" tipo="modifica" />
 						<evento data="19971205" fonte="rp2" id="t29" tipo="modifica" />
+						<evento data="20070415" fonte="rp3" id="t30" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-04-14;64" xlink:type="simple" />
@@ -76,8 +78,18 @@
 						<attiva id="ra26" xlink:href="urn:nir:regione.toscana:legge:1994-10-17;76" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1997-04-04;25" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1997-04-04;25" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="LeggeRegionale1-n1">
+						<h:p>
+							Testo di legge abrogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1#art204" xlink:type="simple">art. 204, della legge regionale 3 gennaio 2005, n. 1</rif>
+							, condecorrenza fissata alla data di entrata in vigore del regolamento previsto dal titolo IV capo III, della stessa legge abrogante. Detto regolamento, approvato con D.P.G.R. 9 febbraio 2007, n. 5/R, è stato pubblicato su BURT 14 febbraio 2007, n. 2 parte prima.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:abrogazione completa="si" implicita="no">
@@ -587,6 +599,18 @@
 								<dsp:pos xlink:href="#h1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1995-04-14;64" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1#art204-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 204, comma 1 della legge Regione Toscana 3 gennaio 2005, n. 1" id="itt12" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -596,7 +620,11 @@
 				<dataDoc norm="19950414">14 aprile 1995</dataDoc>
 				, n.
 				<numDoc>64</numDoc>
-				<titoloDoc>Disciplina degli interventi di trasformazione urbanistica ed edilizia nelle zone con prevalente funzione agricola.</titoloDoc>
+				<titoloDoc>
+					Disciplina degli interventi di trasformazione urbanistica ed edilizia nelle zone con prevalente funzione agricola
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
+					.
+				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 7-3-1995</h:p>

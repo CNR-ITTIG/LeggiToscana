@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19840411" num="18" tipo="BURT" />
 					<entratainvigore norm="19840426" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1984-04-02;20" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1984-04-02;20" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1984-04-02;20@2005-01-03" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tutela Ambientale" />
 					</materie>
@@ -15,11 +16,29 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19840426" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20050120" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1984-04-02;20" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1#art148-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 148, comma 1 della legge Regione Toscana 3 gennaio 2005, n. 1" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art6-com3-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -200,7 +219,7 @@
 							<num />
 							<corpo>Detti contributi sono ripartiti fra i soggetti richiedenti con deliberazione del Consiglio regionale proposta dalla Giunta.</corpo>
 						</comma>
-						<comma id="art6-com3">
+						<comma finevigore="t2" id="art6-com3-t2" iniziovigore="t1" status="abrogato">
 							<num />
 							<corpo>
 								L'approvazione da parte del Comune del progetto delle opere di propria competenza ammesse al contributo regionale di cui al presente articolo costituisce variante allo strumento urbanistico ai sensi dell'

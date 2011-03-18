@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t5" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19940601" num="37" tipo="BURT" />
@@ -10,7 +10,8 @@
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1994-05-23;39" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1994-05-23;39@1995-01-16" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1994-05-23;39@1999-10-14" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1994-05-23;39@2003-08-05" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1994-05-23;39@2003-08-05" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1994-05-23;39@2005-01-03" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Urbanistica" />
 					</materie>
@@ -21,16 +22,18 @@
 						<evento data="19950204" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="20000205" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="20031012" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="20050120" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-05-23;39" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1999-10-14;52" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2003-08-05;43" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Abrogazione ai sensi dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1995-01-16;5#art41" xlink:type="simple">articolo 41 della legge regionale 16 gennaio 1995, n. 5</rif>
@@ -160,6 +163,18 @@
 							</dsp:norma>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art10-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1994-05-23;39" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1#art200-com1-letd" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 200, comma 1, lettera d) della legge Regione Toscana 3 gennaio 2005, n. 1" id="itt10" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>
@@ -488,7 +503,7 @@
 									della LR 31 dicembre 1984, n. 74
 								</mrif>
 								e successive modificazioni.
-								<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+								<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 							</h:span>
 						</corpo>
 					</comma>
