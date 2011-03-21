@@ -11,7 +11,8 @@
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1998-12-11;91@1999-01-19" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1998-12-11;91@1999-04-15" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1998-12-11;91@2001-01-16" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1998-12-11;91@2003-12-29" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1998-12-11;91@2003-12-29" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1998-12-11;91@2005-02-01" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tutela Ambientale" />
 						<materia valore="Protezione Civile" />
@@ -24,6 +25,7 @@
 						<evento data="19990508" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="20010124" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="20040122" fonte="rp4" id="t5" tipo="modifica" />
+						<evento data="20050225" fonte="rp5" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-12-11;91" xlink:type="simple" />
@@ -31,6 +33,7 @@
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1999-04-15;26" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2001-01-16;1" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2003-12-29;67" xlink:type="simple" />
+						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2005-02-01;27" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -167,6 +170,18 @@
 								<dsp:pos xlink:href="#art7-com4-t5" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art12-com1bis" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-02-01;27" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-02-01;27#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 1 febbraio 2005, n. 27" id="itt11" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art12-com1ter" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -684,6 +699,14 @@
 								Alle funzioni e ai compiti previste dalle lettere del comma 1 provvedono i dirigenti delle competenti strutture regionali ai sensi della
 								<rif xlink:href="urn:nir:regione.toscana:legge:2000-03-17;26" xlink:type="simple">legge regionale 17 marzo 2000 n. 26</rif>
 								(Riordino della legislazione regionale in materia di organizzazione e personale), ad eccezione di quelli di cui alle lettere e) e g), cui provvede la Giunta regionale con propri atti.
+							</corpo>
+						</comma>
+						<comma id="art12-com1ter" iniziovigore="t6">
+							<num>1 ter.</num>
+							<corpo>
+								La Giunta regionale provvede con propri atti, sentite le province interessate, alla classificazione delle opere idrauliche in seconda categoria ai sensi dell'
+								<rif xlink:href="urn:nir:stato:regio.decreto:1904-07-25;523#art5" xlink:type="simple">articolo 5 del regio decreto 25 luglio 1904, n. 523</rif>
+								(Testo unico delle disposizioni di legge intorno alle opere idrauliche delle diverse categorie).
 							</corpo>
 						</comma>
 					</articolo>
