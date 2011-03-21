@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19970609" num="24" tipo="BURT" />
 					<entratainvigore norm="19970624" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1997-05-29;38" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1997-05-29;38" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1997-05-29;38@2005-02-04" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Enti Territoriali" />
 						<materia valore="Attribuzioni Deleghe" />
@@ -16,11 +17,32 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19970624" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20050225" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1997-05-29;38" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2005-02-04;23" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-02-04;23" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-02-04;23#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 4 febbraio 2005, n. 23" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-com2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -98,9 +120,13 @@
 						<num>1.</num>
 						<corpo>Sono organi del Circondario il Presidente, la Giunta esecutiva e l'Assemblea.</corpo>
 					</comma>
-					<comma id="art4-com2">
+					<comma finevigore="t2" id="art4-com2-t2" iniziovigore="t1" status="abrogato">
 						<num>2.</num>
 						<corpo>Sono membri di diritto della Giunta esecutiva i Sindaci dei Comuni che fanno parte del Circondario, i quali durano in carica per il periodo coincidente a quello del loro mandato.</corpo>
+					</comma>
+					<comma id="art4-com2" iniziovigore="t2">
+						<num>2.</num>
+						<corpo>Sono membri di diritto della Giunta esecutiva i sindaci dei comuni che fanno parte del Circondario. I sindaci possono espressamente delegare un assessore della propria amministrazione comunale. I membri e i loro delegati durano in carica per il periodo coincidente con quello del loro mandato politico.</corpo>
 					</comma>
 					<comma id="art4-com3">
 						<num>3.</num>
