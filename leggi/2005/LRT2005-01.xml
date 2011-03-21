@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20050105" num="1 parte prima" tipo="BURT" />
 					<entratainvigore norm="20050120" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2005-01-03;1" />
+					<urn finevigore="t82" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2005-01-03;1" />
+					<urn iniziovigore="t82" valore="urn:nir:regione.toscana:legge:2005-01-03;1@2005-01-26" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Urbanistica" />
 						<materia valore="Tutela Ambientale" />
@@ -96,6 +97,7 @@
 						<evento data="20050120" fonte="ra78" id="t79" tipo="modifica" />
 						<evento data="20050120" fonte="ra79" id="t80" tipo="modifica" />
 						<evento data="20050120" fonte="ra80" id="t81" tipo="modifica" />
+						<evento data="20050128" fonte="rp1" id="t82" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1" xlink:type="simple" />
@@ -179,6 +181,7 @@
 						<attiva id="ra78" xlink:href="urn:nir:regione.toscana:legge:1979-11-02;52" xlink:type="simple" />
 						<attiva id="ra79" xlink:href="urn:nir:regione.toscana:legge:1982-12-06;88" xlink:type="simple" />
 						<attiva id="ra80" xlink:href="urn:nir:regione.toscana:legge:1982-12-06;88" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2005-01-26;15" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -1466,6 +1469,32 @@
 							</dsp:dominio>
 						</dsp:variazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art200-com1-letb" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-01-26;15" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-01-26;15#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 26 gennaio 2005, n. 15" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art200-com1-letb-t82" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art210-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-01-26;15" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-01-26;15#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 26 gennaio 2005, n. 15" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art210-com4bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -10073,7 +10102,7 @@
 										</mod>
 									</corpo>
 								</el>
-								<el id="art200-com1-letb">
+								<el finevigore="t82" id="art200-com1-letb-t82" iniziovigore="t1" status="abrogato">
 									<num>b)</num>
 									<corpo>
 										<mod id="mod74">
@@ -10375,6 +10404,16 @@
 									.
 								</corpo>
 							</comma>
+							<comma id="art210-com4bis" iniziovigore="t82">
+								<num>4 bis.</num>
+								<corpo>
+									Le disposizioni di cui al
+									<rif xlink:href="#tit6-cap5" xlink:type="simple">titolo VI, capo V</rif>
+									, si applicano dalla data di entrata in vigore del regolamento di cui all'
+									<rif xlink:href="#art117" xlink:type="simple">articolo 117</rif>
+									.
+								</corpo>
+							</comma>
 						</articolo>
 					</capo>
 				</titolo>
@@ -10382,7 +10421,11 @@
 			<formulafinale>La presente legge è pubblicata sul Bollettino Ufficiale della Regione. È fatto obbligo a chiunque spetti di osservarla e farla osservare come legge della Regione Toscana.</formulafinale>
 			<conclusione>
 				<dataeluogo codice="00100" norm="">Firenze, 3 gennaio 2005</dataeluogo>
-				<firma tipo="sottoscrizione">PASSALEVA (designato con DPGR n. 132 del 22.5.2000)</firma>
+				<firma tipo="sottoscrizione">
+					PASSALEVA
+					<h:br />
+					(designato con DPGR n. 132 del 22.5.2000)
+				</firma>
 				<soggetto codice="">La presente legge è stata approvata dal Consiglio Regionale nella seduta del 21.12.2004.</soggetto>
 			</conclusione>
 			<annessi>
