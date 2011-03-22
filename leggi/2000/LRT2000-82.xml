@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t17" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2000-12-28;82" />
 					<urn finevigore="t19" iniziovigore="t17" valore="urn:nir:regione.toscana:legge:2000-12-28;82@2002-10-14" />
-					<urn iniziovigore="t19" valore="urn:nir:regione.toscana:legge:2000-12-28;82@2004-11-29" />
+					<urn finevigore="t20" iniziovigore="t19" valore="urn:nir:regione.toscana:legge:2000-12-28;82@2004-11-29" />
+					<urn iniziovigore="t20" valore="urn:nir:regione.toscana:legge:2000-12-28;82@2005-02-18" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Enti Territoriali" />
 					</materie>
@@ -35,6 +36,7 @@
 						<evento data="20021019" fonte="rp1" id="t17" tipo="modifica" />
 						<evento data="20010120" fonte="ra16" id="t18" tipo="modifica" />
 						<evento data="20041204" fonte="rp2" id="t19" tipo="modifica" />
+						<evento data="20050301" fonte="rp3" id="t20" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2000-12-28;82" xlink:type="simple" />
@@ -56,6 +58,7 @@
 						<attiva id="ra16" xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2002-10-14;37" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2004-11-29;68" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2005-02-18;32" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -332,6 +335,45 @@
 								<dsp:pos xlink:href="#h1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-02-18;32" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-02-18;32#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 18 febbraio 2005, n. 32" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-t20" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-02-18;32" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-02-18;32#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 18 febbraio 2005, n. 32" id="itt8" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art10" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-02-18;32" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-02-18;32#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 18 febbraio 2005, n. 32" id="itt9" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art10bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -421,16 +463,60 @@
 							<corpo>Dagli ambiti territoriali possono essere esclusi i Comuni con popolazione residente in territorio montano inferiore al 15 per cento della popolazione complessiva; nei medesimi ambiti possono essere inclusi i Comuni confinanti con popolazione non superiore a 20 mila abitanti, che formino parte integrante dello stesso sistema geografico e socioeconomico.</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art3">
+					<articolo finevigore="t20" id="art3-t20" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 3</num>
 						<rubrica>(Territori classificati montani)</rubrica>
-						<comma id="art3-com1">
+						<comma id="art3-t20-com1">
 							<num>1.</num>
 							<corpo>Sono Comuni montani o parzialmente montani quelli il cui territorio risulta classificato montano ai sensi delle vigenti norme della legge statale, elencati nella tabella allegato 1.</corpo>
 						</comma>
-						<comma id="art3-com2">
+						<comma id="art3-t20-com2">
 							<num>2.</num>
 							<corpo>Le variazioni della classificazione dei territori montani sono disposte con deliberazione del Consiglio regionale su proposta della Giunta nel rispetto delle norme della legge statale.</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art3" iniziovigore="t20">
+						<num>Art. 3</num>
+						<rubrica>Territori montani</rubrica>
+						<comma id="art3-com1">
+							<num>1.</num>
+							<corpo>
+								Sono comuni montani o parzialmente montani quelli elencati nella tabella di cui all'
+								<rif xlink:href="#ann1" xlink:type="simple">allegato 1</rif>
+								della presente legge, il cui territorio risulta essere stato classificato montano ai sensi della normativa statale.
+							</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art3bis" iniziovigore="t20">
+						<num>Art. 3 bis</num>
+						<rubrica>Ulteriore classificazione dei territori montani ai fini regionali</rubrica>
+						<comma id="art3bis-com1">
+							<num>1.</num>
+							<alinea>
+								Il territorio dei comuni parzialmente montani, che non risulta classificato ai sensi dell'
+								<rif xlink:href="#art3" xlink:type="simple">articolo 3</rif>
+								, può altresì essere classificato montano ai fini regionali, sulla base dei seguenti criteri generali:
+							</alinea>
+							<el id="art3bis-com1-leta">
+								<num>a)</num>
+								<corpo>presenza di territorio avente pendenza uguale o superiore al 20 per cento;</corpo>
+							</el>
+							<el id="art3bis-com1-letb">
+								<num>b)</num>
+								<corpo>delimitazione del territorio interessato alla classificazione in modo tale da assicurare, per quanto possibile, la contiguità del territorio medesimo a quello già classificato montano e la coincidenza con riferimenti topografici certi; la delimitazione può comportare l'inclusione di porzioni di territorio con pendenza inferiore al 20 per cento, per quanto necessario ad assicurare la contiguità di zone che presentano le caratteristiche di cui alla lettera a) e la certezza della delimitazione stessa e, corrispondentemente, l'esclusione di taluni territori aventi le caratteristiche di cui alla lettera a);</corpo>
+							</el>
+							<el id="art3bis-com1-letc">
+								<num>c)</num>
+								<corpo>estensione della superficie risultante dalla delimitazione di cui alla lettera b) comunque non superiore a quella del territorio di cui alla lettera a).</corpo>
+							</el>
+						</comma>
+						<comma id="art3bis-com2">
+							<num>2.</num>
+							<corpo>La classificazione è effettuata con deliberazione della Giunta regionale, su richiesta del comune interessato, ed ha efficacia dal 1 gennaio dell'anno successivo a quello di adozione del provvedimento; alla deliberazione sono allegate le planimetrie del territorio interessato.</corpo>
+						</comma>
+						<comma id="art3bis-com3">
+							<num>3.</num>
+							<corpo>Con regolamento regionale sono stabilite le disposizioni di attuazione del presente articolo; il regolamento, in particolare, stabilisce il procedimento per l'adozione dell'atto di classificazione, e può prevedere ulteriori condizioni e requisiti per la classificazione e procedure di accordo tra la Regione e il comune interessato.</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art4">
@@ -603,6 +689,42 @@
 						<comma id="art10-com4">
 							<num>4.</num>
 							<corpo>L'eventuale adeguamento dello Statuto è deliberato entro i successivi sessanta giorni.</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art10bis" iniziovigore="t20">
+						<num>Art. 10 bis</num>
+						<rubrica>Efficacia e ambito di applicazione della classificazione dei territori montani ai fini regionali e disposizioni interpretative e transitorie</rubrica>
+						<comma id="art10bis-com1">
+							<num>1.</num>
+							<corpo>
+								La classificazione effettuata ai sensi dell'
+								<rif xlink:href="#art3bis" xlink:type="simple">articolo 3 bis</rif>
+								ha rilevanza esclusivamente regionale e, salvo quanto previsto dal comma 2 del presente articolo, si applica unicamente nei casi e nei limiti stabiliti dalle leggi regionali successive all'entrata in vigore del medesimo
+								<rif xlink:href="#art3bis" xlink:type="simple">articolo 3 bis</rif>
+								. Fino all'entrata in vigore delle suddette leggi regionali, le norme che, a qualsiasi titolo e per qualsiasi effetto, richiamano territori classificati montani si intendono riferite unicamente ai territori di cui all'
+								<rif xlink:href="#art3bis" xlink:type="simple">articolo 3</rif>
+								.
+							</corpo>
+						</comma>
+						<comma id="art10bis-com2">
+							<num>2.</num>
+							<corpo>
+								Della classificazione, effettuata ai sensi dell'
+								<rif xlink:href="#art3bis" xlink:type="simple">articolo 3 bis</rif>
+								, può essere tenuto conto, ferme restando le risorse previste, nell'ambito degli atti della programmazione regionale e degli altri atti generali di settore, adottati dalla Regione dopo l'entrata in vigore del medesimo
+								<rif xlink:href="#art3bis" xlink:type="simple">articolo 3 bis</rif>
+								.
+							</corpo>
+						</comma>
+						<comma id="art10bis-com3">
+							<num>3.</num>
+							<corpo>
+								In via di prima applicazione, alla classificazione di cui all'
+								<rif xlink:href="#art3bis" xlink:type="simple">articolo 3 bis</rif>
+								si provvede anche in assenza del regolamento di attuazione, sulla base delle richieste di classificazione pervenute alla data di entrata in vigore dell'articolo medesimo, nel rispetto dei criteri generali previsti al
+								<rif xlink:href="#art3bis-com1" xlink:type="simple">comma 1 dell'articolo 3 bis</rif>
+								.
+							</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art11">
