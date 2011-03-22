@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19990820" num="26" tipo="BURT" />
 					<entratainvigore norm="19990904" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1999-08-11;51" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1999-08-11;51" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1999-08-11;51@2005-02-24" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Fonti Energetiche" />
 					</materie>
@@ -15,11 +16,41 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19990904" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20050322" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1999-08-11;51" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2005-02-24;39" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#tit1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-02-24;39" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-02-24;39#art42-com2-letb" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 42, comma 2, lettera b) della legge Regione Toscana 24 febbraio 2005, n. 39" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#tit1-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#tit3-t2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-02-24;39" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-02-24;39#art42-com2-letb" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo42, comma2, letterab, legge Regione Toscana 24 febbraio 2005, n. 39" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#tit3-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -36,7 +67,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo finevigore="t2" id="tit1-t2" iniziovigore="t1" status="abrogato">
 					<num>TITOLO I</num>
 					<rubrica>DISPOSIZIONI GENERALI E PROCEDURALI</rubrica>
 					<articolo id="art1">
@@ -844,7 +875,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo finevigore="t2" id="tit3-t2" iniziovigore="t1" status="abrogato">
 					<num>TITOLO III</num>
 					<rubrica>DISPOSIZIONI SANZIONATORIE, TRANSITORIE E FINALI</rubrica>
 					<articolo id="art17">
@@ -1067,7 +1098,11 @@
 			<conclusione>
 				<dataeluogo codice="00100" norm="">Firenze, 11 agosto 1999</dataeluogo>
 				<firma tipo="sottoscrizione">Chiti</firma>
-				<soggetto codice="">La presente legge è stata riapprovata dal Consiglio regionale, ai sensi dell'art. 127-4 Cost., il 26-7-1999 ed è stata vistata dal Commissario del Governo il 5-8-1999.</soggetto>
+				<soggetto codice="">
+					La presente legge è stata riapprovata dal Consiglio regionale, ai sensi dell'
+					<rif xlink:href="urn:nir:stato:costituzione:1947-12-27;nir-1#art127-com4" xlink:type="simple">art. 127-4 Cost.</rif>
+					, il 26-7-1999 ed è stata vistata dal Commissario del Governo il 5-8-1999.
+				</soggetto>
 			</conclusione>
 		</LeggeRegionale>
 	</NIR>

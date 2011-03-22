@@ -15,7 +15,8 @@
 					<urn finevigore="t19" iniziovigore="t18" valore="urn:nir:regione.toscana:legge:1998-12-01;88@2001-10-31" />
 					<urn finevigore="t20" iniziovigore="t19" valore="urn:nir:regione.toscana:legge:1998-12-01;88@2001-12-21" />
 					<urn finevigore="t21" iniziovigore="t20" valore="urn:nir:regione.toscana:legge:1998-12-01;88@2003-04-04" />
-					<urn iniziovigore="t21" valore="urn:nir:regione.toscana:legge:1998-12-01;88@2003-12-29" />
+					<urn finevigore="t22" iniziovigore="t21" valore="urn:nir:regione.toscana:legge:1998-12-01;88@2003-12-29" />
+					<urn iniziovigore="t22" valore="urn:nir:regione.toscana:legge:1998-12-01;88@2005-02-24" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Urbanistica" />
 						<materia valore="Tutela Ambientale" />
@@ -45,6 +46,7 @@
 						<evento data="20020115" fonte="rp6" id="t19" tipo="modifica" />
 						<evento data="20030410" fonte="rp7" id="t20" tipo="modifica" />
 						<evento data="20040122" fonte="rp8" id="t21" tipo="modifica" />
+						<evento data="20050322" fonte="rp9" id="t22" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-12-01;88" xlink:type="simple" />
@@ -68,6 +70,7 @@
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2001-12-21;64" xlink:type="simple" />
 						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:2003-04-04;19" xlink:type="simple" />
 						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:2003-12-29;67" xlink:type="simple" />
+						<passiva id="rp9" xlink:href="urn:nir:regione.toscana:legge:2005-02-24;39" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -732,6 +735,18 @@
 							</dsp:norma>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art32-t21" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art28-com1-letb" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-02-24;39" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-02-24;39#art42-com2-letd" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 42, comma 2, lettera d) della legge Regione Toscana 24 febbraio 2005, n. 39" id="itt34" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art28-com1-letb-t22" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>
@@ -1958,7 +1973,7 @@
 								<num>a)</num>
 								<corpo>le concessioni per l'esercizio delle attività elettriche;</corpo>
 							</el>
-							<el id="art28-com1-letb">
+							<el finevigore="t22" id="art28-com1-letb-t22" iniziovigore="t1" status="abrogato">
 								<num>b)</num>
 								<corpo>le autorizzazioni alla costruzione e all'esercizio di linee e di impianti per il trasporto, la trasformazione e la distribuzione di energia elettrica con tensione nominale di esercizio fra 100.000 e 150.000 volt con sviluppo superiore a 3 Km. e le relative varianti;</corpo>
 							</el>
