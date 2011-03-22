@@ -8,7 +8,8 @@
 					<entratainvigore norm="20031230" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t16" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2003-12-19;58" />
-					<urn iniziovigore="t16" valore="urn:nir:regione.toscana:legge:2003-12-19;58@2004-12-20" />
+					<urn finevigore="t17" iniziovigore="t16" valore="urn:nir:regione.toscana:legge:2003-12-19;58@2004-12-20" />
+					<urn iniziovigore="t17" valore="urn:nir:regione.toscana:legge:2003-12-19;58@2005-02-18" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Bilancio" />
@@ -32,6 +33,7 @@
 						<evento data="20031230" fonte="ra13" id="t14" tipo="modifica" />
 						<evento data="20031230" fonte="ra14" id="t15" tipo="modifica" />
 						<evento data="20041230" fonte="rp1" id="t16" tipo="modifica" />
+						<evento data="20050315" fonte="rp2" id="t17" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2003-12-19;58" xlink:type="simple" />
@@ -50,6 +52,7 @@
 						<attiva id="ra13" xlink:href="urn:nir:regione.toscana:legge:2002-12-20;43" xlink:type="simple" />
 						<attiva id="ra14" xlink:href="urn:nir:regione.toscana:legge:1995-04-18;66" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2004-12-20;71" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2005-02-18;31" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -250,6 +253,18 @@
 								<dsp:pos xlink:href="#h3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art12" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-02-18;31" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-02-18;31#art28-com1-leth" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 28, comma 1, lettera h) della legge Regione Toscana 18 febbraio 2005, n. 31" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art12-t17" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -639,10 +654,10 @@
 							</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art12">
+					<articolo finevigore="t17" id="art12-t17" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 12</num>
 						<rubrica>(Termine di esecutività dei ruoli per i tributi regionali)</rubrica>
-						<comma id="art12-com1">
+						<comma id="art12-t17-com1">
 							<num>1.</num>
 							<corpo>I ruoli coattivi relativi a tributi regionali ed a somme dovute a titolo di sanzioni tributarie devono essere resi esecutivi, a pena di decadenza, entro il 31 dicembre del terzo anno successivo a quello in cui l'atto di accertamento e/o di irrogazione è divenuto definitivo.</corpo>
 						</comma>

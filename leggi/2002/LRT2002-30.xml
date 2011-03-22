@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20020805" num="23" tipo="BURT" />
 					<entratainvigore norm="20020820" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2002-07-26;30" />
+					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2002-07-26;30" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:2002-07-26;30@2005-02-18" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tributi" />
 						<materia valore="Ente Regione" />
@@ -17,10 +18,12 @@
 					<eventi>
 						<evento data="20020820" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20020820" fonte="ra1" id="t2" tipo="modifica" />
+						<evento data="20050315" fonte="rp1" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2002-07-26;30" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1999-07-01;37" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2005-02-18;31" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -44,6 +47,20 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-02-18;31" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-02-18;31#art28-com1-letf" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 28, comma 1, lettera f) della legge Regione Toscana 18 febbraio 2005, n. 31" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art1-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -55,7 +72,11 @@
 				<titoloDoc>
 					Modifiche alla
 					<rif xlink:href="urn:nir:regione.toscana:legge:1999-07-01;37" xlink:type="simple">legge regionale 1 luglio 1999, n. 37</rif>
-					(Disposizioni in materia di sanzioni amministrative per violazioni di norme tributarie e modificazioni alle LL.RR. n.54/1980 e n. 60/1996).
+					(Disposizioni in materia di sanzioni amministrative per violazioni di norme tributarie e modificazioni alle LL.RR.
+					<rif xlink:href="urn:nir:regione.toscana:legge:1980;54" xlink:type="simple">n.54/1980</rif>
+					e n.
+					<rif xlink:href="urn:nir:regione.toscana:legge:1996;60" xlink:type="simple">60/1996</rif>
+					).
 				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
@@ -64,14 +85,14 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<articolo id="art1">
+				<articolo finevigore="t3" id="art1-t3" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 1</num>
 					<rubrica>
 						(Modifica dell'
 						<rif xlink:href="urn:nir:regione.toscana:legge:1999;37#art9" xlink:type="simple">articolo 9 della legge regionale n.37 del 1999</rif>
 						)
 					</rubrica>
-					<comma id="art1-com1">
+					<comma id="art1-t3-com1">
 						<num>1.</num>
 						<corpo>
 							<mod id="mod1">
@@ -114,7 +135,7 @@
 			<conclusione>
 				<dataeluogo codice="00100" norm="20020726">Firenze, 26 luglio 2002</dataeluogo>
 				<firma tipo="sottoscrizione">Martini</firma>
-				<soggetto codice="">La presente legge è stata approvata dal Consi-glio regionale nella seduta del 23-7-2002.</soggetto>
+				<soggetto codice="">La presente legge è stata approvata dal Consiglio regionale nella seduta del 23-7-2002.</soggetto>
 			</conclusione>
 		</LeggeRegionale>
 	</NIR>

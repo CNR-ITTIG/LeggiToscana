@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2002-12-20;43" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2002-12-20;43@2003-12-19" />
-					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2002-12-20;43@2002-12-20" />
+					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2002-12-20;43@2002-12-20" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:2002-12-20;43@2005-02-18" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Bilancio" />
@@ -23,6 +24,7 @@
 						<evento data="20021231" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="20031230" fonte="rp1" id="t5" tipo="modifica" />
 						<evento data="20041113" fonte="rp2" id="t6" tipo="modifica" />
+						<evento data="20050315" fonte="rp3" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2002-12-20;43" xlink:type="simple" />
@@ -31,6 +33,7 @@
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1999-07-01;37" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2003-12-19;58" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir: :legge:2002-12-20;43" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2005-02-18;31" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -99,6 +102,18 @@
 								<dsp:pos xlink:href="#art22bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-02-18;31" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-02-18;31#art28-com1-letg" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 28, comma 1, lettera g) della legge Regione Toscana 18 febbraio 2005, n. 31" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art6-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -301,14 +316,14 @@
 							</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art6">
+					<articolo finevigore="t7" id="art6-t7" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 6</num>
 						<rubrica>
 							(Modifiche all'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1999-07-01;37#art3" xlink:type="simple">articolo 3 della legge regionale 1 luglio 1999, n. 37</rif>
 							)
 						</rubrica>
-						<comma id="art6-com1">
+						<comma id="art6-t7-com1">
 							<num>1.</num>
 							<corpo>
 								<mod id="mod3">
