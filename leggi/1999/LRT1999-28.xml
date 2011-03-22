@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t5" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19990519" num="15" tipo="BURT" />
@@ -10,7 +10,8 @@
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1999-05-17;28" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1999-05-17;28@2003-02-04" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1999-05-17;28@2003-09-29" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1999-05-17;28@2004-03-24" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1999-05-17;28@2004-03-24" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1999-05-17;28@2005-02-07" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Commercio" />
 					</materie>
@@ -21,14 +22,25 @@
 						<evento data="20030227" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="20031023" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="20040826" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="20090421" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1999-05-17;28" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2003-02-04;10" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2003-09-29;52" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2004-03-24;19" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2005-02-07;28" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="LeggeRegionale1-n1">
+						<h:p>
+							Testo di legge abrogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2005-02-07;28#art110" xlink:type="simple">art. 110, della legge regionale 7 febbraio 2005, n. 28</rif>
+							, con decorrenza fissata alla data di entrata in vigore del regolamento previsto dall'art. 3, della stessa legge abrogante. Detto regolamento, approvato con D.P.G.R. 1 aprile 2009, n. 15/R, è stato pubblicato su BURT 6 aprile 2009, n. 11 parte prima.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:integrazione completa="si" implicita="no">
@@ -70,6 +82,18 @@
 								<dsp:pos xlink:href="#art8-com1bis-t4" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1999-05-17;28" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-02-07;28" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-02-07;28#art110-com1-leta" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 110, comma 1, lettera a) della legge Regione Toscana 7 febbraio 2005, n. 28" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -82,6 +106,7 @@
 				<titoloDoc>
 					Norme per la disciplina del commercio in sede fissa in attuazione del
 					<rif xlink:href="urn:nir:stato:decreto.legislativo:1998-03-31;114" xlink:type="simple">decreto legislativo 31 marzo 1998, n. 114</rif>
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 					.
 				</titoloDoc>
 			</intestazione>

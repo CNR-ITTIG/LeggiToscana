@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t5" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20030212" num="7" tipo="BURT" />
 					<entratainvigore norm="20030227" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2003-02-04;10" />
+					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2003-02-04;10" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2003-02-04;10@2005-02-07" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Commercio" />
 					</materie>
@@ -18,14 +19,25 @@
 						<evento data="20030227" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="20030626" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="20030626" fonte="ra3" id="t4" tipo="modifica" />
+						<evento data="20090421" fonte="rp1" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2003-02-04;10" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1999-05-17;28" xlink:type="simple" />
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1999-03-03;9" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:2001-04-24;21" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2005-02-07;28" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="LeggeRegionale1-n1">
+						<h:p>
+							Testo di legge abrogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2005-02-07;28#art110" xlink:type="simple">art. 110, della legge regionale 7 febbraio 2005, n. 28</rif>
+							, con decorrenza fissata alla data di entrata in vigore del regolamento previsto dall'art. 3, della stessa legge abrogante. Detto regolamento, approvato con D.P.G.R. 1 aprile 2009, n. 15/R, è stato pubblicato su BURT 6 aprile 2009, n. 11 parte prima.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:integrazione completa="si" implicita="no">
@@ -69,6 +81,20 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:2003-02-04;10" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-02-07;28" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-02-07;28#art110-com1-letc" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 110, comma 1, lettera c) della legge Regione Toscana 7 febbraio 2005, n. 28" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -77,7 +103,11 @@
 				<dataDoc norm="20030204">4 febbraio 2003</dataDoc>
 				, n.
 				<numDoc>10</numDoc>
-				<titoloDoc>Norme per la disciplina del commercio su aree pubbliche.</titoloDoc>
+				<titoloDoc>
+					Norme per la disciplina del commercio su aree pubbliche
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
+					.
+				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 28-1-2003</h:p>
