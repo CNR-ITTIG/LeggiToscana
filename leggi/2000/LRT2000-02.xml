@@ -8,7 +8,8 @@
 					<entratainvigore norm="20000205" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2000-01-12;2" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:2000-01-12;2@2005-01-03" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:2000-01-12;2@2005-01-03" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:2000-01-12;2@2005-02-24" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Nomadi" />
 					</materie>
@@ -18,11 +19,13 @@
 						<evento data="20000205" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20000205" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="20050120" fonte="rp1" id="t3" tipo="modifica" />
+						<evento data="20050322" fonte="rp2" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2000-01-12;2" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1995-04-18;73" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2005-02-24;41" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -94,6 +97,18 @@
 								<dsp:pos xlink:href="#art12-com2-t3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-02-24;41" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-02-24;41#art65-com1-letd" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 65, comma 1, lettera d) della legge Regione Toscana 24 febbraio 2005, n. 41" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art13-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -529,38 +544,38 @@
 							</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art13">
+					<articolo finevigore="t4" id="art13-t4" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 13</num>
 						<rubrica>(Indirizzi della programmazione)</rubrica>
-						<comma id="art13-com1">
+						<comma id="art13-t4-com1">
 							<num>1.</num>
 							<alinea>
 								Al fine di utilizzare in maniera efficace le risorse disponibili, per gli interventi di cui al
 								<rif xlink:href="#tit1" xlink:type="simple">Titolo I</rif>
 								sono privilegiati i progetti che prevedono:
 							</alinea>
-							<el id="art13-com1-leta">
+							<el id="art13-t4-com1-leta">
 								<num>a)</num>
 								<corpo>l'integrazione del contributo regionale con altre risorse pubbliche o private;</corpo>
 							</el>
-							<el id="art13-com1-letb">
+							<el id="art13-t4-com1-letb">
 								<num>b)</num>
 								<corpo>la promozione di opportunità di formazione professionale e di occupazione nella realizzazione degli interventi;</corpo>
 							</el>
-							<el id="art13-com1-letc">
+							<el id="art13-t4-com1-letc">
 								<num>c)</num>
 								<corpo>la ricerca di forme di partecipazione diretta dei destinatari degli interventi, come l'autocostruzione guidata e l'autorecupero;</corpo>
 							</el>
-							<el id="art13-com1-letd">
+							<el id="art13-t4-com1-letd">
 								<num>d)</num>
 								<corpo>l'adozione di tipologie, procedure e modalità realizzative che consentono economie di scala.</corpo>
 							</el>
 						</comma>
-						<comma id="art13-com2">
+						<comma id="art13-t4-com2">
 							<num>2.</num>
 							<corpo>Il contributo della Regione all'attuazione dei programmi locali determinato in relazione alla disponibilità di bilancio dagli atti della programmazione regionale non può in alcun caso eccedere l'80% della spesa ammissibile ed è liquidato con le modalità fissate nei medesimi atti di programmazione.</corpo>
 						</comma>
-						<comma id="art13-com3">
+						<comma id="art13-t4-com3">
 							<num>3.</num>
 							<corpo>
 								I Comuni individuati dagli atti di programmazione regionale predispongono in forma singola o associata e approvano i progetti per gli interventi di cui agli
@@ -575,7 +590,7 @@
 								e successive modificazioni e integrazioni.
 							</corpo>
 						</comma>
-						<comma id="art13-com4">
+						<comma id="art13-t4-com4">
 							<num>4.</num>
 							<corpo>
 								I progetti, redatti secondo i criteri della presente legge, esecutivi ai sensi dell'
@@ -583,7 +598,7 @@
 								"Legge quadro in materia di lavori pubblici" e successive modificazioni ed integrazioni sono trasmessi al presidente dell'articolazione zonale della conferenza dei sindaci e inseriti nel piano zonale di assistenza sociale.
 							</corpo>
 						</comma>
-						<comma id="art13-com5">
+						<comma id="art13-t4-com5">
 							<num>5.</num>
 							<corpo>
 								I progetti possono essere elaborati dai Comuni singoli o associati. I Comuni provvedono direttamente alla realizzazione degli interventi o, in relazione alla tipologia degli interventi stessi possono avvalersi dei soggetti indicati all'
