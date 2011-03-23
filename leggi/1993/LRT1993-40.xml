@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19930701" num="41" tipo="BURT" />
 					<entratainvigore norm="19930716" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1993-06-23;40" />
+					<urn finevigore="t7" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1993-06-23;40" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1993-06-23;40@2005-02-24" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organi" />
 						<materia valore="Disabili" />
@@ -21,6 +22,7 @@
 						<evento data="19930716" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="19930716" fonte="ra4" id="t5" tipo="modifica" />
 						<evento data="19930716" fonte="ra5" id="t6" tipo="modifica" />
+						<evento data="20050322" fonte="rp1" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1993-06-23;40" xlink:type="simple" />
@@ -29,6 +31,7 @@
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1982-04-19;33" xlink:type="simple" />
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1982-07-07;55" xlink:type="simple" />
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1983-05-10;24" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2005-02-24;40" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -70,6 +73,20 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com1-letb" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-02-24;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-02-24;40#art144-com1-letb" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 144, comma 1, lettera b) della legge Regione Toscana 24 febbraio 2005, n. 40" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-com1-letb-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -226,7 +243,7 @@
 							<num>a)</num>
 							<corpo>ai componenti e al segretario che siano dipendenti della unità sanitaria locale si applica il trattamento economico previsto dai vigenti accordi nazionali di lavoro in relazione all'attività espletata in orario di servizio o fuori dello stesso;</corpo>
 						</el>
-						<el id="art4-com1-letb">
+						<el finevigore="t7" id="art4-com1-letb-t7" iniziovigore="t1" status="abrogato">
 							<num>b)</num>
 							<corpo>ai medici che integrano le commissioni in rappresentanza delle associazioni di categoria, l'unità sanitaria locale corrisponde per ogni giornata di seduta un gettone di presenza di L. 20.000 e una indennità per ogni visita espletata e definita di L. 6.000, al lordo delle ritenute di legge. Detti compensi sono aggiornati annualmente dalla Giunta regionale sulla base dei numeri indici ISTAT dei prezzi al consumo per famiglie di operai e impiegati;</corpo>
 						</el>
