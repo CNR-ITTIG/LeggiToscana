@@ -12,7 +12,8 @@
 					<urn finevigore="t22" iniziovigore="t20" valore="urn:nir:regione.toscana:legge:2000-03-17;26@2001-04-18" />
 					<urn finevigore="t21" iniziovigore="t22" valore="urn:nir:regione.toscana:legge:2000-03-17;26@2002-04-02" />
 					<urn finevigore="t23" iniziovigore="t21" valore="urn:nir:regione.toscana:legge:2000-03-17;26@2002-05-10" />
-					<urn iniziovigore="t23" valore="urn:nir:regione.toscana:legge:2000-03-17;26@2003-08-05" />
+					<urn finevigore="t24" iniziovigore="t23" valore="urn:nir:regione.toscana:legge:2000-03-17;26@2003-08-05" />
+					<urn iniziovigore="t24" valore="urn:nir:regione.toscana:legge:2000-03-17;26@2005-06-09" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Ente Regione" />
@@ -43,6 +44,7 @@
 						<evento data="20020531" fonte="rp3" id="t21" tipo="modifica" />
 						<evento data="20020427" fonte="rp4" id="t22" tipo="modifica" />
 						<evento data="20030828" fonte="rp5" id="t23" tipo="modifica" />
+						<evento data="20050621" fonte="rp6" id="t24" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2000-03-17;26" xlink:type="simple" />
@@ -68,6 +70,7 @@
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2002-05-10;15" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2003-08-05;44" xlink:type="simple" />
+						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2005-06-09;44" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -1223,6 +1226,30 @@
 								<dsp:pos xlink:href="#art44-t23" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-06-09;44" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-06-09;44#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 9 giugno 2005, n. 44" id="itt73" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-06-09;44" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-06-09;44#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 9 giugno 2005, n. 44" id="itt74" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art7bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -1483,7 +1510,13 @@
 							<comma id="art4-com5" iniziovigore="t19">
 								<num>5.</num>
 								<corpo>
-									Il Presidente e ciascun componente l'Ufficio di Presidenza del Consiglio regionale, nonché ciascun gruppo consiliare, dispongono di propri uffici per l'esercizio delle funzioni di cui al
+									Il Presidente e ciascun componente l'Ufficio di Presidenza del Consiglio regionale,
+									<h:span id="h1" iniziovigore="t24">
+										il portavoce dell'opposizione di cui all'
+										<rif xlink:href="urn:nir:regione.toscana:statuto:1971-05-22;343#art10-com2" xlink:type="simple">articolo 10, comma 2, dello Statuto</rif>
+										,
+									</h:span>
+									nonché ciascun gruppo consiliare, dispongono di propri uffici per l'esercizio delle funzioni di cui al
 									<rif xlink:href="#art4-com3" xlink:type="simple">comma 3</rif>
 									.
 								</corpo>
@@ -1790,6 +1823,27 @@
 									Al personale dipendente assegnato alle strutture speciali di supporto del Presidente e di ciascun componente l'Ufficio di Presidenza del Consiglio regionale non appartenente alla qualifica dirigenziale, ad esclusione del responsabile, si applicano le disposizioni di cui al
 									<rif xlink:href="#art7-com9" xlink:type="simple">comma 9</rif>
 									. Il provvedimento della Giunta regionale è adottato su richiesta dell'Ufficio di Presidenza del Consiglio e d'intesa col medesimo.
+								</corpo>
+							</comma>
+						</articolo>
+						<articolo id="art7bis" iniziovigore="t24">
+							<num>Art. 7 bis</num>
+							<rubrica>(Strutture speciali di supporto del Portavoce dell'opposizione)</rubrica>
+							<comma id="art7bis-com1">
+								<num>1.</num>
+								<corpo>
+									Le disposizioni inerenti ai componenti dell'Ufficio di presidenza del Consiglio di cui agli
+									<mrif>
+										articoli
+										<rif xlink:href="#art5" xlink:type="simple">5</rif>
+										,
+										<rif xlink:href="#art6" xlink:type="simple">6</rif>
+										e
+										<rif xlink:href="#art7" xlink:type="simple">7</rif>
+									</mrif>
+									si applicano anche al Portavoce dell'opposizione di cui all'
+									<rif xlink:href="urn:nir:regione.toscana:statuto:#art10-com2" xlink:type="simple">articolo 10, comma 2, dello Statuto</rif>
+									.
 								</corpo>
 							</comma>
 						</articolo>
