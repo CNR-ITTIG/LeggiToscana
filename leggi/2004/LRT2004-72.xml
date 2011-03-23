@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20041229" num="52" tipo="BURT" />
 					<entratainvigore norm="20041230" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2004-12-20;72" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2004-12-20;72" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2004-12-20;72@2005-08-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Bilancio" />
@@ -16,11 +17,62 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="20041230" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20050827" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2004-12-20;72" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2005-08-02;50" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-08-02;50" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-08-02;50#art4-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1 della legge Regione Toscana 2 agosto 2005, n. 50" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-08-02;50" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-08-02;50#art5-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 1 della legge Regione Toscana 2 agosto 2005, n. 50" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art5" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-08-02;50" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-08-02;50#art6-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 6, comma 1 della legge Regione Toscana 2 agosto 2005, n. 50" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art6-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -176,50 +228,78 @@
 						</el>
 					</comma>
 				</articolo>
-				<articolo id="art4">
+				<articolo finevigore="t2" id="art4-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 4</num>
 					<rubrica>(Disavanzo dell'esercizio 2005)</rubrica>
-					<comma id="art4-com1">
+					<comma id="art4-t2-com1">
 						<num>1.</num>
 						<corpo>Agli effetti di cui ai commi successivi il disavanzo per l'esercizio 2005 è approvato in euro 129.736.772,36.</corpo>
 					</comma>
-					<comma id="art4-com2">
+					<comma id="art4-t2-com2">
 						<num>2.</num>
 						<corpo>
 							La Giunta regionale è autorizzata a contrarre nell'esercizio 2005 mutui e ad emettere prestiti obbligazionari o titoli similari, per l'importo complessivo di euro 129.736.772,36 per la copertura del disavanzo di cui al
-							<rif xlink:href="#art4-com1" xlink:type="simple">comma 1</rif>
+							<rif xlink:href="#art4-t2-com1" xlink:type="simple">comma 1</rif>
 							per il finanziamento di spese di investimento di cui alle unità previsionali di base (UPB) indicate nell'allegato A.4.
 						</corpo>
 					</comma>
-					<comma id="art4-com3">
+					<comma id="art4-t2-com3">
 						<num>3.</num>
 						<corpo>
 							I mutui o prestiti di cui al
-							<rif xlink:href="#art4-com2" xlink:type="simple">comma 2</rif>
+							<rif xlink:href="#art4-t2-com2" xlink:type="simple">comma 2</rif>
 							, da estinguersi in un periodo non superiore ad anni trentacinque, sono assunti od emessi ad un tasso iniziale massimo del 6 per cento effettivo annuo e con ammortamento decorrente dal 1 gennaio 2006.
 						</corpo>
 					</comma>
-					<comma id="art4-com4">
+					<comma id="art4-t2-com4">
 						<num>4.</num>
 						<corpo>Gli oneri annui di ammortamento, relativi agli esercizi 2005, 2006 e 2007, determinati in euro 3.680.000,00 quale quota di preammortamento relativa al 2005 ed euro 14.700.000,00 per gli anni 2006 e 2007, trovano copertura finanziaria negli appositi stanziamenti del bilancio pluriennale approvato dalla presente legge.</corpo>
 					</comma>
-					<comma id="art4-com5">
+					<comma id="art4-t2-com5">
 						<num>5.</num>
 						<corpo>
 							L'eventuale maggiorazione della rata di ammortamento dei mutui e prestiti di cui al
-							<rif xlink:href="#art4-com4" xlink:type="simple">comma 4</rif>
+							<rif xlink:href="#art4-t2-com4" xlink:type="simple">comma 4</rif>
 							, dovuta alla variabilità del tasso o dagli eventuali oneri conseguenti al rischio di cambio, trova copertura finanziaria con variazione ai bilanci annuali e pluriennali attraverso le singole leggi di bilancio.
 						</corpo>
 					</comma>
-					<comma id="art4-com6">
+					<comma id="art4-t2-com6">
 						<num>6.</num>
 						<corpo>Le rate di ammortamento relative agli anni successivi al 2007, determinati in misura non superiore a quella posta a carico dell'esercizio 2007, trovano copertura con le successive leggi di bilancio.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art5">
+				<articolo id="art4" iniziovigore="t2">
+					<num>Art. 4</num>
+					<rubrica>Disavanzo dell'esercizio 2005</rubrica>
+					<comma id="art4-com1">
+						<num>1.</num>
+						<corpo>Agli effetti di cui ai commi successivi il disavanzo per l'esercizio 2005 è approvato in euro 669.455.231,62, comprensivo della somma di euro 528.735.845,76 relativa al disavanzo del rendiconto 2004.</corpo>
+					</comma>
+					<comma id="art4-com2">
+						<num>2.</num>
+						<corpo>La Giunta regionale è autorizzata a contrarre nell'esercizio 2005 mutui e ad emettere prestiti obbligazionari o titoli similari, per l'importo complessivo di euro 669.455.231,62 per la copertura del disavanzo di cui al comma 1, per il finanziamento di spese di investimento di cui alle unità previsionali di base (UPB) indicate nell'allegato A.4.</corpo>
+					</comma>
+					<comma id="art4-com3">
+						<num>3.</num>
+						<corpo>I mutui e le altre forme di indebitamento di cui al comma 2, da estinguersi in un periodo non superiore ad anni trentacinque, sono assunti od emessi ad un tasso iniziale massimo del 4,5 per cento effettivo annuo e con ammortamento decorrente dal 1 gennaio 2006.</corpo>
+					</comma>
+					<comma id="art4-com4">
+						<num>4.</num>
+						<corpo>Gli oneri di preammortamento relativi all'esercizio 2005, determinati in euro 2.510.150,70, trovano copertura finanziaria nell'apposito stanziamento del bilancio annuale dell'esercizio 2005 alla UPB 732 "Oneri del ricorso al credito - spese correnti". Gli oneri annui di ammortamento relativi agli esercizi 2006 e 2007, determinati in euro 37.913.487,89 per ciascuno dei due esercizi, trovano copertura finanziaria negli appositi stanziamenti del bilancio pluriennale approvato dalla presente legge.</corpo>
+					</comma>
+					<comma id="art4-com5">
+						<num>5.</num>
+						<corpo>L'eventuale maggiorazione dell'onere annuo di ammortamento dei mutui e prestiti di cui al comma 4, dovuta alla variabilità del tasso od agli eventuali oneri conseguenti al rischio di cambio, trova copertura finanziaria con variazione ai bilanci annuali e pluriennali mediante le singole leggi di bilancio.</corpo>
+					</comma>
+					<comma id="art4-com6">
+						<num>6.</num>
+						<corpo>Le rate di ammortamento relative agli anni seguenti al 2007, determinati in misura non superiore a quella posta a carico dell'esercizio 2007, trovano copertura con le successive leggi di bilancio.</corpo>
+					</comma>
+				</articolo>
+				<articolo finevigore="t2" id="art5-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 5</num>
 					<rubrica>(Intervento per il Programma pluriennale degli investimenti)</rubrica>
-					<comma id="art5-com1">
+					<comma id="art5-t2-com1">
 						<num>1.</num>
 						<corpo>
 							La Giunta regionale è autorizzata a contrarre nel triennio 2005-2007 mutui, prestiti o titoli similari per l'importo complessivo di euro 1.058.415.145,16, di cui euro 385.924.057,25 nel 2005, euro 417.061.354,91 nel 2006 ed euro 255.429.733,00 nel 2007, per l'attuazione del Programma pluriennale degli investimenti approvato con il documento di programmazione economica e finanziaria 2003 (DPEF) ai sensi dell'
@@ -227,65 +307,127 @@
 							(Norme in materia di programmazione regionale) e successive modifiche.
 						</corpo>
 					</comma>
-					<comma id="art5-com2">
+					<comma id="art5-t2-com2">
 						<num>2.</num>
 						<corpo>
 							I mutui e le altre forme di indebitamento di cui al
-							<rif xlink:href="#art5-com1" xlink:type="simple">comma 1</rif>
+							<rif xlink:href="#art5-t2-com1" xlink:type="simple">comma 1</rif>
 							, in relazione alla tipologia di spesa di investimento, possono essere estinti in un periodo non superiore ad anni cinquanta, nel limite massimo del 50 per cento dell'importo autorizzato.
 						</corpo>
 					</comma>
-					<comma id="art5-com3">
+					<comma id="art5-t2-com3">
 						<num>3.</num>
 						<corpo>
 							I mutui e le altre forme di indebitamento di cui al
-							<rif xlink:href="#art5-com1" xlink:type="simple">comma 1</rif>
+							<rif xlink:href="#art5-t2-com1" xlink:type="simple">comma 1</rif>
 							sono assunti od emessi ad un tasso iniziale massimo del 6 per cento effettivo annuo e con ammortamento decorrente dal 1 gennaio dell'anno successivo a quello di contrazione.
 						</corpo>
 					</comma>
-					<comma id="art5-com4">
+					<comma id="art5-t2-com4">
 						<num>4.</num>
 						<corpo>Gli oneri annui di ammortamento, relativi agli esercizi 2005, 2006 e 2007, determinati rispettivamente in euro 10.540.000,00 per la quota di preammortamento relativa al 2005, euro 22.620.000,00 per il 2006 ed euro 45.450.000,00 per il 2007, trovano copertura finanziaria negli appositi stanziamenti del bilancio pluriennale approvato dalla presente legge.</corpo>
 					</comma>
-					<comma id="art5-com5">
+					<comma id="art5-t2-com5">
 						<num>5.</num>
 						<corpo>
 							L'eventuale maggiorazione dell'onere annuo di ammortamento dei mutui e delle altre forme di indebitamento di cui al
-							<rif xlink:href="#art5-com2" xlink:type="simple">comma 2</rif>
+							<rif xlink:href="#art5-t2-com2" xlink:type="simple">comma 2</rif>
 							del presente articolo, dovuta alla variabilità del tasso o dagli eventuali oneri conseguenti al rischio di cambio, trova copertura finanziaria con variazione ai bilanci annuali e pluriennali mediante le singole leggi di bilancio.
 						</corpo>
 					</comma>
-					<comma id="art5-com6">
+					<comma id="art5-t2-com6">
 						<num>6.</num>
 						<corpo>Le rate di ammortamento relative agli anni successivi al 2007 trovano copertura con le successive leggi di bilancio.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art6">
+				<articolo id="art5" iniziovigore="t2">
+					<num>Art. 5</num>
+					<rubrica>Intervento per il programma pluriennale degli investimenti</rubrica>
+					<comma id="art5-com1">
+						<num>1.</num>
+						<corpo>
+							La Giunta regionale è autorizzata a contrarre nel triennio 2005-2007 mutui, prestiti o titoli similari per l'importo complessivo di euro 1.122.857.023,57, di cui euro 437.821.935,66 nel 2005, euro 423.604.354,91 nel 2006 ed euro 261.430.733,00 nel 2007, per l'attuazione del programma pluriennale degli investimenti approvato con il documento di programmazione economica e finanziaria 2003 ai sensi dell'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49#art9" xlink:type="simple">articolo 9 della legge regionale 11 agosto 1999, n. 49</rif>
+							(Norme in materia di programmazione regionale) e successive modifiche.
+						</corpo>
+					</comma>
+					<comma id="art5-com2">
+						<num>2.</num>
+						<corpo>I mutui e le altre forme di indebitamento di cui al comma 1, in relazione alla tipologia di spesa di investimento, possono essere estinti in un periodo non superiore ad anni cinquanta, nel limite massimo del 50 per cento dell'importo autorizzato.</corpo>
+					</comma>
+					<comma id="art5-com3">
+						<num>3.</num>
+						<corpo>I mutui e le altre forme di indebitamento di cui al comma 1 sono assunti od emessi ad un tasso iniziale massimo del 4,5 per cento effettivo annuo e con ammortamento decorrente dal 1 gennaio dell'anno successivo a quello di contrazione.</corpo>
+					</comma>
+					<comma id="art5-com4">
+						<num>4.</num>
+						<corpo>Gli oneri di preammortamento relativi all'esercizio 2005, determinati in euro 1.641.832,26, trovano copertura finanziaria nell'apposito stanziamento del bilancio annuale dell'esercizio 2005 alla UPB 732 "Oneri del ricorso al credito - spese correnti". Gli oneri annui di ammortamento, relativi agli esercizi 2006 e 2007, determinati rispettivamente in euro 24.798.346,78 per ciascuno dei due esercizi, trovano copertura finanziaria negli appositi stanziamenti del bilancio pluriennale approvato dalla presente legge.</corpo>
+					</comma>
+					<comma id="art5-com5">
+						<num>5.</num>
+						<corpo>L'eventuale maggiorazione dell'onere annuo di ammortamento dei mutui e delle altre forme di indebitamento di cui al comma 2, dovuta alla variabilità del tasso o dagli eventuali oneri conseguenti al rischio di cambio, trova copertura finanziaria con variazione ai bilanci annuali e pluriennali mediante le singole leggi di bilancio.</corpo>
+					</comma>
+					<comma id="art5-com6">
+						<num>6.</num>
+						<corpo>Le rate di ammortamento relative agli anni successivi al 2007, determinati in misura non superiore a quella posta a carico dell'esercizio 2007, trovano copertura con le successive leggi di bilancio.</corpo>
+					</comma>
+				</articolo>
+				<articolo finevigore="t2" id="art6-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 6</num>
 					<rubrica>(Intervento per acquisto sedi da destinare ad uffici regionali)</rubrica>
-					<comma id="art6-com1">
+					<comma id="art6-t2-com1">
 						<num>1.</num>
 						<corpo>Per l'acquisto di sedi da destinare ad uffici regionali la Giunta regionale è autorizzata a contrarre, nel triennio 2005- 2007, ulteriore indebitamento nel limite annuo di euro 25.000.000,00.</corpo>
 					</comma>
-					<comma id="art6-com2">
+					<comma id="art6-t2-com2">
 						<num>2.</num>
 						<corpo>
 							L'ulteriore indebitamento di cui al
-							<rif xlink:href="#art6-com1" xlink:type="simple">comma 1</rif>
+							<rif xlink:href="#art6-t2-com1" xlink:type="simple">comma 1</rif>
 							, da estinguersi in un periodo non superiore ad anni trentacinque, è assunto o emesso ad un tasso iniziale massimo del 6 per cento effettivo annuo e con ammortamento decorrente dal 1 gennaio dell'anno successivo a quello di contrazione.
 						</corpo>
 					</comma>
-					<comma id="art6-com3">
+					<comma id="art6-t2-com3">
 						<num>3.</num>
 						<corpo>Gli oneri annui di ammortamento, relativi agli esercizi 2005, 2006 e 2007, determinati rispettivamente in euro 720.000,00 per la quota di preammortamento relativa al 2005, euro 1.560.000,00 per il 2006 ed euro 2.710.000,00 per il 2007, trovano copertura finanziaria negli appositi stanziamenti del bilancio pluriennale approvato dalla presente legge.</corpo>
 					</comma>
-					<comma id="art6-com4">
+					<comma id="art6-t2-com4">
 						<num>4.</num>
 						<corpo>
 							L'eventuale maggiorazione dell'onere annuo di ammortamento dei mutui e delle altre forme di indebitamento di cui al
-							<rif xlink:href="#art6-com2" xlink:type="simple">comma 2</rif>
+							<rif xlink:href="#art6-t2-com2" xlink:type="simple">comma 2</rif>
 							del presente articolo, dovuta alla variabilità del tasso o dagli eventuali oneri conseguenti al rischio di cambio, trova copertura finanziaria con variazione ai bilanci annuali e pluriennali mediante le singole leggi di bilancio.
 						</corpo>
+					</comma>
+					<comma id="art6-t2-com5">
+						<num>5.</num>
+						<corpo>Le rate di ammortamento relative agli anni successivi al 2007 trovano copertura con le successive leggi di bilancio.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art6" iniziovigore="t2">
+					<num>Art. 6</num>
+					<rubrica>Intervento per acquisto sedi da destinare ad uffici regionali</rubrica>
+					<comma id="art6-com1">
+						<num>1.</num>
+						<corpo>
+							Per l'acquisto di sedi da destinare ad uffici regionali la Giunta regionale è autorizzata a contrarre, nel triennio 2005-2007, ulteriore indebitamento nel limite complessivo di euro 81.631.885,26 di cui euro 31.631.885,26 nell'anno 2005 ed euro 25.000.000,00 per ciascuno degli anni 2006 e 2007. Il limite di indebitamento dell'anno 2005 è comprensivo dell'importo di euro 6.631.885,26 già autorizzato con
+							<rif xlink:href="urn:nir:regione.toscana:legge:2004-03-22;18" xlink:type="simple">legge regionale 22 marzo 2004, n. 18</rif>
+							(Autorizzazione all'indebitamento finalizzato all'acquisto di immobili sede di uffici regionali. Variazione al bilancio di previsione per l'esercizio 2004 e bilancio pluriennale 2004-2006) e con
+							<rif xlink:href="urn:nir:regione.toscana:legge:2004-06-10;30" xlink:type="simple">legge regionale 10 giugno 2004, n. 30</rif>
+							(Autorizzazione all'indebitamento finalizzato all'acquisto di immobili sede di uffici regionali. Variazione al bilancio di previsione per l'esercizio 2004 e bilancio pluriennale 2004-2006), entrambe relative all'acquisto di immobili sede di uffici regionali.
+						</corpo>
+					</comma>
+					<comma id="art6-com2">
+						<num>2.</num>
+						<corpo>L'ulteriore indebitamento di cui al comma 1, da estinguersi in un periodo non superiore ad anni trentacinque, è assunto o emesso ad un tasso iniziale massimo del 4,5 per cento effettivo annuo e con ammortamento decorrente dal 1 gennaio dell'anno successivo a quello di contrazione.</corpo>
+					</comma>
+					<comma id="art6-com3">
+						<num>3.</num>
+						<corpo>Gli oneri annui di ammortamento, relativi agli esercizi 2005, 2006 e 2007, determinati rispettivamente in euro 118.619,57 per la quota di preammortamento relativa al 2005, ed euro 1.791.637,10 per ciascuno degli esercizi 2006 e 2007, trovano copertura finanziaria negli appositi stanziamenti del bilancio pluriennale approvato dalla presente legge.</corpo>
+					</comma>
+					<comma id="art6-com4">
+						<num>4.</num>
+						<corpo>L'eventuale maggiorazione dell'onere annuo di ammortamento dei mutui e delle altre forme di indebitamento di cui al comma 2 del presente articolo, dovuta alla variabilità del tasso o dagli eventuali oneri conseguenti al rischio di cambio, trova copertura finanziaria con variazione ai bilanci annuali e pluriennali mediante le singole leggi di bilancio.</corpo>
 					</comma>
 					<comma id="art6-com5">
 						<num>5.</num>
