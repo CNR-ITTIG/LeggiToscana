@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20050228" num="17" tipo="BURT" />
 					<entratainvigore norm="20050315" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2005-02-18;33" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2005-02-18;33" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2005-02-18;33@2005-12-27" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Cultura" />
 					</materie>
@@ -15,11 +16,32 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="20050315" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20051231" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2005-02-18;33" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2005-12-27;70" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-12-27;70" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-12-27;70#art26-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 26, comma 1 della legge Regione Toscana 27 dicembre 2005, n. 70" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -218,7 +240,12 @@
 					<rubrica>(Norma finanziaria)</rubrica>
 					<comma id="art7-com1">
 						<num>1.</num>
-						<corpo>Per il finanziamento della presente legge è autorizzata per l'anno 2006 la spesa di euro 1.580.000.</corpo>
+						<corpo>
+							Per il finanziamento della presente legge è autorizzata per l'anno 2006 la spesa
+							<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">di euro 1.580.000</h:span>
+							<h:span id="h2" iniziovigore="t2">di euro 1.355.000,00</h:span>
+							.
+						</corpo>
 					</comma>
 					<comma id="art7-com2">
 						<num>2.</num>

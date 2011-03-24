@@ -8,7 +8,8 @@
 					<entratainvigore norm="19801227" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1980-12-04;89" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1980-12-04;89@1997-05-21" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1980-12-04;89@1997-05-21" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1980-12-04;89@2005-12-27" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Beni culturali" />
 						<materia valore="Deleghe" />
@@ -20,11 +21,13 @@
 						<evento data="19801227" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19911004" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19970614" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="20051231" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1980-12-04;89" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1991-09-09;46" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1997-05-21;37" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2005-12-27;70" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -59,6 +62,21 @@
 								<dsp:pos xlink:href="#art13bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art16-com1-leta" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-12-27;70" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-12-27;70#art19-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 19, comma 1 della legge Regione Toscana 27 dicembre 2005, n. 70" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art16-com1-leta" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art16-com1-leta-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -718,9 +736,13 @@
 								<rif xlink:href="#tit2" xlink:type="simple">Titolo II</rif>
 								, quelle concernenti:
 							</alinea>
-							<el id="art16-com1-leta">
+							<el finevigore="t4" id="art16-com1-leta-t4" iniziovigore="t1" status="abrogato">
 								<num>a)</num>
 								<corpo>la promozione dei sistemi museali;</corpo>
+							</el>
+							<el id="art16-com1-leta" iniziovigore="t4">
+								<num>a)</num>
+								<corpo>la promozione dei sistemi museali e la gestione del museo di proprietà regionale denominato "Casa Siviero";</corpo>
 							</el>
 							<el id="art16-com1-letb">
 								<num>b)</num>

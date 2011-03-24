@@ -8,7 +8,8 @@
 					<entratainvigore norm="20010911" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t14" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2001-08-16;40" />
-					<urn iniziovigore="t14" valore="urn:nir:regione.toscana:legge:2001-08-16;40@2003-12-22" />
+					<urn finevigore="t15" iniziovigore="t14" valore="urn:nir:regione.toscana:legge:2001-08-16;40@2003-12-22" />
+					<urn iniziovigore="t15" valore="urn:nir:regione.toscana:legge:2001-08-16;40@2005-12-27" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ordinamento" />
 						<materia valore="Enti Territoriali" />
@@ -30,6 +31,7 @@
 						<evento data="20010911" fonte="ra11" id="t12" tipo="modifica" />
 						<evento data="20010911" fonte="ra12" id="t13" tipo="modifica" />
 						<evento data="20040101" fonte="rp1" id="t14" tipo="modifica" />
+						<evento data="20051231" fonte="rp2" id="t15" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2001-08-16;40" xlink:type="simple" />
@@ -46,6 +48,7 @@
 						<attiva id="ra11" xlink:href="urn:nir:regione.toscana:legge:1998;88" xlink:type="simple" />
 						<attiva id="ra12" xlink:href="urn:nir:regione.toscana:legge:1998-12-01;88" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2003-12-22;60" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2005-12-27;70" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -373,7 +376,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:integrazione completa="si" implicita="no">
@@ -400,6 +403,33 @@
 								<dsp:pos xlink:href="#art11bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-12-27;70" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-12-27;70#art22-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 22, comma 1 della legge Regione Toscana 27 dicembre 2005, n. 70" id="itt10" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-12-27;70" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-12-27;70#art22-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 22, comma 2 della legge Regione Toscana 27 dicembre 2005, n. 70" id="itt11" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -682,7 +712,10 @@
 				</articolo>
 				<articolo id="art9">
 					<num>ARTICOLO 9</num>
-					<rubrica>(Tipologia, misura e durata dei contributi)</rubrica>
+					<rubrica>
+						<h:span finevigore="t15" id="h1" iniziovigore="t1" status="abrogato">(Tipologia, misura e durata dei contributi)</h:span>
+						<h:span id="h2" iniziovigore="t15">(Tipologia e misura dei contributi)</h:span>
+					</rubrica>
 					<comma id="art9-com1">
 						<num>1.</num>
 						<corpo>La tipologia e la misura dei contributi per l'incentivazione dell'esercizio associato sovracomunale di funzioni e servizi sono definite dal programma di riordino territoriale secondo i criteri del presente articolo.</corpo>
@@ -697,7 +730,11 @@
 					</comma>
 					<comma id="art9-com3">
 						<num>3.</num>
-						<alinea>Sono concessi contributi annuali, fino ad un massimo di cinque anni, sulla base dell'applicazione dei seguenti criteri:</alinea>
+						<alinea>
+							Sono concessi contributi annuali,
+							<h:span finevigore="t15" id="h3" iniziovigore="t1" status="abrogato">fino ad un massimo di cinque anni,</h:span>
+							sulla base dell'applicazione dei seguenti criteri:
+						</alinea>
 						<el id="art9-com3-leta">
 							<num>a)</num>
 							<corpo>rilevanza e tipologia delle funzioni e dei servizi esercitati in forma associata;</corpo>
@@ -771,7 +808,7 @@
 						<num>2.</num>
 						<corpo>
 							I contributi sono concessi a domanda, nei limiti dello stanziamento annuale; ferma restando la misura dei contributi prevista per le fusioni e le incorporazioni, se il totale dei contributi erogabili sulla base delle domande presentate eccede le risorse finanziarie impegnabili, il contributo spettante a ciascuno dei soggetti richiedenti è ridotto in proporzione
-							<h:span id="h1" iniziovigore="t14">per i contributi forfettari, la differenza può essere attribuita nell'anno successivo.</h:span>
+							<h:span id="h4" iniziovigore="t14">per i contributi forfettari, la differenza può essere attribuita nell'anno successivo.</h:span>
 							. La riduzione proporzionale del contributo può essere effettuata anche con criteri differenziati, in particolare al fine di operare una minore riduzione nei casi di esercizio associato di cui all'
 							<rif xlink:href="#art8-com3" xlink:type="simple">articolo 8, comma 3</rif>
 							, o di esercizio associato cui partecipano uno o più comuni di minore dimensione demografica.
