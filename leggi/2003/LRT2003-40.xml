@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t2" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20030813" num="33" tipo="BURT" />
 					<entratainvigore norm="20030828" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2003-08-04;40" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2003-08-04;40" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2003-08-04;40@2006-01-26" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Zootecnia" />
 					</materie>
@@ -15,11 +16,38 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="20030828" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20081223" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2003-08-04;40" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2006-01-26;1" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="LeggeRegionale1-n1">
+						<h:p>
+							Testo di legge abrogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2006-01-24;1#art12-com2" xlink:type="simple">art. 12, comma 2, della legge regionale 24 gennaio 2006, n. 1</rif>
+							, con decorrenza fissata alla data di approvazione della deliberazione della Giunta regionale di attuazione del PAR che individua gli interventi nel settore delle strade del vino, dell'olio extravergine di oliva e dei prodotti agricoli e agroalimentari di qualità. Detta deliberazione, approvata con Delib.G.R. 23 dicembre 2008, n. 98, è stata pubblicata su BURT 28 gennaio 2009, n. 2 parte prima.
+						</h:p>
+					</nota>
+				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:2003-08-04;40" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2006-01-26;1" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2006-01-26;1#art12-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 12, comma 2 della legge Regione Toscana 26 gennaio 2006, n. 1" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -27,7 +55,11 @@
 				<dataDoc norm="20030804">4 agosto 2003</dataDoc>
 				, n.
 				<numDoc>40</numDoc>
-				<titoloDoc>Interventi regionali a favore del settore zootecnico.</titoloDoc>
+				<titoloDoc>
+					Interventi regionali a favore del settore zootecnico
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
+					.
+				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 29-07-2003</h:p>

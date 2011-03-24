@@ -8,7 +8,8 @@
 					<entratainvigore norm="20030829" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t4" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2003-08-05;45" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:2003-08-05;45@2004-01-27" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:2003-08-05;45@2004-01-27" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2003-08-05;45@2006-01-26" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Prodotti Agricoli" />
 					</materie>
@@ -19,14 +20,25 @@
 						<evento data="20040408" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="20040408" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="20040219" fonte="rp1" id="t4" tipo="modifica" />
+						<evento data="20081223" fonte="rp2" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2003-08-05;45" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1996-08-13;69" xlink:type="simple" />
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1999-02-03;6" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2004-01-27;2" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2006-01-26;1" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Articolo così sostituito dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2006-01-24;1#art12-com1" xlink:type="simple">art. 12, comma 1, della legge regionale 24 gennaio 2006, n. 1</rif>
+							, con decorrenza fissata alla data di approvazione della deliberazione della Giunta regionale di attuazione del PAR che individua gli interventi nel settore delle strade del vino, dell'olio extravergine di oliva e dei prodotti agricoli e agroalimentari di qualità. Detta deliberazione, approvata con Delib.G.R. 23 dicembre 2008, n. 98, è stata pubblicata su BURT 28 gennaio 2009, n. 2 parte prima.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:abrogazione completa="si" implicita="no">
@@ -68,6 +80,21 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art10-com1-t4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2006-01-26;1" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2006-01-26;1#art12-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 12, comma 1 della legge Regione Toscana 26 gennaio 2006, n. 1" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art7" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art7-t5" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -291,13 +318,13 @@
 								presenta le domande di contributo di cui all'
 								<mrif>
 									articolo 7, comma 1, lettere
-									<rif xlink:href="#art7-com1-leta" xlink:type="simple">a)</rif>
+									<rif xlink:href="#art7-t5-com1-leta" xlink:type="simple">a)</rif>
 									,
-									<rif xlink:href="#art7-com1-letb" xlink:type="simple">b)</rif>
+									<rif xlink:href="#art7-t5-com1-letb" xlink:type="simple">b)</rif>
 									,
-									<rif xlink:href="#art7-com1-lete" xlink:type="simple">e)</rif>
+									<rif xlink:href="#art7-t5-com1-lete" xlink:type="simple">e)</rif>
 									,
-									<rif xlink:href="#art7-com1-letf" xlink:type="simple">f)</rif>
+									<rif xlink:href="#art7-t5-com1-letf" xlink:type="simple">f)</rif>
 								</mrif>
 								;
 							</corpo>
@@ -332,9 +359,109 @@
 						</el>
 					</comma>
 				</articolo>
-				<articolo id="art7">
+				<articolo finevigore="t5" id="art7-t5" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 7</num>
 					<rubrica>(Contributi finanziari)</rubrica>
+					<comma id="art7-t5-com1">
+						<num>1.</num>
+						<alinea>Per la realizzazione delle finalità della presente legge, la Regione eroga contributi per i seguenti interventi:</alinea>
+						<el id="art7-t5-com1-leta">
+							<num>a)</num>
+							<corpo>realizzazione della segnaletica relativa alle strade;</corpo>
+						</el>
+						<el id="art7-t5-com1-letb">
+							<num>b)</num>
+							<corpo>
+								allestimento o adeguamento del centro di informazione, del centro espositivo e di documentazione e degli spazi di cui all'
+								<rif xlink:href="#art2-com3" xlink:type="simple">articolo 2, comma 3</rif>
+								in conformità agli standards minimi di qualità definiti dal regolamento di attuazione;
+							</corpo>
+						</el>
+						<el id="art7-t5-com1-letc">
+							<num>c)</num>
+							<corpo>adeguamento agli standards di qualità in conformità con quanto disposto dal regolamento di attuazione;</corpo>
+						</el>
+						<el id="art7-t5-com1-letd">
+							<num>d)</num>
+							<corpo>realizzazione e adeguamento di percorsi e camminamenti sicuri all'interno degli stabilimenti di lavorazione e di trasformazione dei prodotti agricoli e alimentari, al fine di consentire le visite durante la lavorazione;</corpo>
+						</el>
+						<el id="art7-t5-com1-lete">
+							<num>e)</num>
+							<corpo>realizzazione di attività di comunicazione per la valorizzazione delle strade singole o associate, secondo quanto precisato nel regolamento di attuazione;</corpo>
+						</el>
+						<el id="art7-t5-com1-letf">
+							<num>f)</num>
+							<corpo>interventi di animazione per la realizzazione di una sagra annuale della strada secondo le modalità previste dal regolamento di attuazione, finalizzata a far conoscere le risorse agricole e agroalimentari della strada.</corpo>
+						</el>
+					</comma>
+					<comma id="art7-t5-com2">
+						<num>2.</num>
+						<corpo>
+							I contributi di cui al
+							<mrif>
+								comma 1, lettere
+								<rif xlink:href="#art7-t5-com1-leta" xlink:type="simple">a)</rif>
+								e
+								<rif xlink:href="#art7-t5-com1-letb" xlink:type="simple">b)</rif>
+							</mrif>
+							sono concessi a favore dei comitati di gestione, fino al 50 per cento dell'investimento totale e fino ad un massimo di euro 70.000,00 per tipologia di investimento.
+						</corpo>
+					</comma>
+					<comma id="art7-t5-com3">
+						<num>3.</num>
+						<corpo>
+							I contributi di cui al
+							<mrif>
+								comma 1, lettere
+								<rif xlink:href="#art7-t5-com1-letc" xlink:type="simple">c)</rif>
+								e
+								<rif xlink:href="#art7-t5-com1-letd" xlink:type="simple">d)</rif>
+							</mrif>
+							, sono concessi a favore di aziende produttrici e/o di trasformazione dei prodotti agricoli e alimentari di qualità come definiti all'
+							<rif xlink:href="#art1" xlink:type="simple">articolo 1</rif>
+							, che aderiscono ad una strada, fino al 40 per cento dell'investimento e fino ad un massimo di euro 35.000,00 per tipologia di investimento.
+						</corpo>
+					</comma>
+					<comma id="art7-t5-com4">
+						<num>4.</num>
+						<corpo>
+							I contributi di cui al
+							<mrif>
+								comma 1, lettere
+								<rif xlink:href="#art7-t5-com1-lete" xlink:type="simple">e)</rif>
+								e
+								<rif xlink:href="#art7-t5-com1-letf" xlink:type="simple">f)</rif>
+							</mrif>
+							, sono concessi a favore dei comitati di gestione delle singole strade nonché a favore di organismi legalmente rappresentanti di associazioni di strade, fino al 40 per cento dell'investimento e fino ad un massimo di euro 30.000,00 per gli interventi di cui alla
+							<rif xlink:href="#art7-t5-com1-lete" xlink:type="simple">lettera e)</rif>
+							, e massimo euro 10.000,00 per gli interventi di cui alla
+							<rif xlink:href="#art7-t5-com1-letf" xlink:type="simple">lettera f)</rif>
+							.
+						</corpo>
+					</comma>
+					<comma id="art7-t5-com5">
+						<num>5.</num>
+						<corpo>Nel caso di contributi a valere sulla presente legge, non possono essere cumulate agevolazioni o contributi per lo stesso progetto o intervento a valere su altre norme comunitarie, statali o regionali.</corpo>
+					</comma>
+					<comma id="art7-t5-com6">
+						<num>6.</num>
+						<corpo>La Giunta regionale verifica annualmente, tramite apposita relazione prodotta dai soggetti beneficiari, la corrispondenza dei contributi erogati alle finalità proposte, il mantenimento degli impegni assunti nonché le azioni svolte, e in caso di totale o parziale mancanza di rispondenza, revoca il finanziamento e dispone il recupero del contributo.</corpo>
+					</comma>
+					<comma id="art7-t5-com7">
+						<num>7.</num>
+						<corpo>
+							Il Consiglio regionale, entro il 31 marzo di ogni anno, su proposta della Giunta regionale, da presentarsi entro il 28 febbraio, stabilisce le linee di indirizzo e le priorità per la ripartizione delle risorse finanziarie di cui all'
+							<rif xlink:href="#art11" xlink:type="simple">articolo 11</rif>
+							tra le varie tipologie di intervento e per l'assegnazione dei contributi ai soggetti richiedenti.
+						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art7" iniziovigore="t5">
+					<num>
+						Art. 7
+						<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					</num>
+					<rubrica>Contributi finanziari</rubrica>
 					<comma id="art7-com1">
 						<num>1.</num>
 						<alinea>Per la realizzazione delle finalità della presente legge, la Regione eroga contributi per i seguenti interventi:</alinea>
@@ -344,15 +471,11 @@
 						</el>
 						<el id="art7-com1-letb">
 							<num>b)</num>
-							<corpo>
-								allestimento o adeguamento del centro di informazione, del centro espositivo e di documentazione e degli spazi di cui all'
-								<rif xlink:href="#art2-com3" xlink:type="simple">articolo 2, comma 3</rif>
-								in conformità agli standards minimi di qualità definiti dal regolamento di attuazione;
-							</corpo>
+							<corpo>allestimento o adeguamento del centro di informazione, del centro espositivo e di documentazione e degli spazi di cui all'articolo 2, comma 3 in conformità agli standard minimi di qualità definiti dal regolamento di attuazione;</corpo>
 						</el>
 						<el id="art7-com1-letc">
 							<num>c)</num>
-							<corpo>adeguamento agli standards di qualità in conformità con quanto disposto dal regolamento di attuazione;</corpo>
+							<corpo>adeguamento agli standard di qualità in conformità con quanto disposto dal regolamento di attuazione;</corpo>
 						</el>
 						<el id="art7-com1-letd">
 							<num>d)</num>
@@ -370,62 +493,9 @@
 					<comma id="art7-com2">
 						<num>2.</num>
 						<corpo>
-							I contributi di cui al
-							<mrif>
-								comma 1, lettere
-								<rif xlink:href="#art7-com1-leta" xlink:type="simple">a)</rif>
-								e
-								<rif xlink:href="#art7-com1-letb" xlink:type="simple">b)</rif>
-							</mrif>
-							sono concessi a favore dei comitati di gestione, fino al 50 per cento dell'investimento totale e fino ad un massimo di euro 70.000,00 per tipologia di investimento.
-						</corpo>
-					</comma>
-					<comma id="art7-com3">
-						<num>3.</num>
-						<corpo>
-							I contributi di cui al
-							<mrif>
-								comma 1, lettere
-								<rif xlink:href="#art7-com1-letc" xlink:type="simple">c)</rif>
-								e
-								<rif xlink:href="#art7-com1-letd" xlink:type="simple">d)</rif>
-							</mrif>
-							, sono concessi a favore di aziende produttrici e/o di trasformazione dei prodotti agricoli e alimentari di qualità come definiti all'
-							<rif xlink:href="#art1" xlink:type="simple">articolo 1</rif>
-							, che aderiscono ad una strada, fino al 40 per cento dell'investimento e fino ad un massimo di euro 35.000,00 per tipologia di investimento.
-						</corpo>
-					</comma>
-					<comma id="art7-com4">
-						<num>4.</num>
-						<corpo>
-							I contributi di cui al
-							<mrif>
-								comma 1, lettere
-								<rif xlink:href="#art7-com1-lete" xlink:type="simple">e)</rif>
-								e
-								<rif xlink:href="#art7-com1-letf" xlink:type="simple">f)</rif>
-							</mrif>
-							, sono concessi a favore dei comitati di gestione delle singole strade nonché a favore di organismi legalmente rappresentanti di associazioni di strade, fino al 40 per cento dell'investimento e fino ad un massimo di euro 30.000,00 per gli interventi di cui alla
-							<rif xlink:href="#art7-com1-lete" xlink:type="simple">lettera e)</rif>
-							, e massimo euro 10.000,00 per gli interventi di cui alla
-							<rif xlink:href="#art7-com1-letf" xlink:type="simple">lettera f)</rif>
-							.
-						</corpo>
-					</comma>
-					<comma id="art7-com5">
-						<num>5.</num>
-						<corpo>Nel caso di contributi a valere sulla presente legge, non possono essere cumulate agevolazioni o contributi per lo stesso progetto o intervento a valere su altre norme comunitarie, statali o regionali.</corpo>
-					</comma>
-					<comma id="art7-com6">
-						<num>6.</num>
-						<corpo>La Giunta regionale verifica annualmente, tramite apposita relazione prodotta dai soggetti beneficiari, la corrispondenza dei contributi erogati alle finalità proposte, il mantenimento degli impegni assunti nonché le azioni svolte, e in caso di totale o parziale mancanza di rispondenza, revoca il finanziamento e dispone il recupero del contributo.</corpo>
-					</comma>
-					<comma id="art7-com7">
-						<num>7.</num>
-						<corpo>
-							Il Consiglio regionale, entro il 31 marzo di ogni anno, su proposta della Giunta regionale, da presentarsi entro il 28 febbraio, stabilisce le linee di indirizzo e le priorità per la ripartizione delle risorse finanziarie di cui all'
-							<rif xlink:href="#art11" xlink:type="simple">articolo 11</rif>
-							tra le varie tipologie di intervento e per l'assegnazione dei contributi ai soggetti richiedenti.
+							I contributi di cui al comma 1 sono erogati con gli strumenti e con le modalità previste dalla
+							<rif xlink:href="urn:nir:regione.toscana:legge:2006-01-24;1" xlink:type="simple">legge regionale 24 gennaio 2006, n. 1</rif>
+							(Disciplina degli interventi regionali in materia di agricoltura e di sviluppo rurale).
 						</corpo>
 					</comma>
 				</articolo>
@@ -511,7 +581,7 @@
 							<num>f)</num>
 							<corpo>
 								la tipologia e le caratteristiche generali delle iniziative relative alle attività di cui all'
-								<rif xlink:href="#art7-com1-lete" xlink:type="simple">articolo 7, comma 1, lettera e)</rif>
+								<rif xlink:href="#art7-t5-com1-lete" xlink:type="simple">articolo 7, comma 1, lettera e)</rif>
 								;
 							</corpo>
 						</el>
@@ -519,7 +589,7 @@
 							<num>g)</num>
 							<corpo>
 								le caratteristiche generali relative all'intervento di animazione di cui all'
-								<rif xlink:href="#art7-com1-letf" xlink:type="simple">articolo 7, comma 1, lettera f)</rif>
+								<rif xlink:href="#art7-t5-com1-letf" xlink:type="simple">articolo 7, comma 1, lettera f)</rif>
 								;
 							</corpo>
 						</el>
