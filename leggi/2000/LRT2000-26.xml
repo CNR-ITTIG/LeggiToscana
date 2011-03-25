@@ -12,7 +12,8 @@
 					<urn finevigore="t22" iniziovigore="t20" valore="urn:nir:regione.toscana:legge:2000-03-17;26@2001-04-18" />
 					<urn finevigore="t21" iniziovigore="t22" valore="urn:nir:regione.toscana:legge:2000-03-17;26@2002-04-02" />
 					<urn finevigore="t23" iniziovigore="t21" valore="urn:nir:regione.toscana:legge:2000-03-17;26@2002-05-10" />
-					<urn finevigore="t24" iniziovigore="t23" valore="urn:nir:regione.toscana:legge:2000-03-17;26@2003-08-05" />
+					<urn finevigore="t26" iniziovigore="t23" valore="urn:nir:regione.toscana:legge:2000-03-17;26@2003-08-05" />
+					<urn finevigore="t24" iniziovigore="t26" valore="urn:nir:regione.toscana:legge:2000-03-17;26@2006-02-17" />
 					<urn finevigore="t25" iniziovigore="t24" valore="urn:nir:regione.toscana:legge:2000-03-17;26@2005-06-09" />
 					<urn iniziovigore="t25" valore="urn:nir:regione.toscana:legge:2000-03-17;26@2005-10-14" />
 					<materie vocabolario="Regione Toscana">
@@ -47,6 +48,7 @@
 						<evento data="20030828" fonte="rp5" id="t23" tipo="modifica" />
 						<evento data="20050621" fonte="rp6" id="t24" tipo="modifica" />
 						<evento data="20051022" fonte="rp7" id="t25" tipo="modifica" />
+						<evento data="20050228" fonte="rp8" id="t26" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2000-03-17;26" xlink:type="simple" />
@@ -74,8 +76,18 @@
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2003-08-05;44" xlink:type="simple" />
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2005-06-09;44" xlink:type="simple" />
 						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:2005-10-14;58" xlink:type="simple" />
+						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:2006-02-17;5" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Articolo modificato nuovamente con identica formulazione dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2006-02-17;5#art4" xlink:type="simple">art. 4 della legge regionale 17 febbraio 2006, n. 5</rif>
+							.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:abrogazione completa="si" implicita="no">
@@ -1265,6 +1277,18 @@
 								<dsp:pos xlink:href="#h2" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art14" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2006-02-17;5" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2006-02-17;5#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 17 febbraio 2006, n. 5" id="itt76" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art14bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -1279,8 +1303,8 @@
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 8-2-2000</h:p>
 				<h:p>Il Commissario del Governo ha apposto il visto il 15-3-2000</h:p>
-				<h:p>Il Presidente della Giunta Regionale</h:p>
-				<h:p>promulga la seguente legge regionale:</h:p>
+				<h:p>Il Presidente della Giunta Regionale promulga</h:p>
+				<h:p>la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
 				<titolo id="tit1">
@@ -2036,6 +2060,7 @@
 										oppure il gruppo misto di cui all'
 										<rif xlink:href="urn:nir:regione.toscana:statuto:#art16-com3" xlink:type="simple">articolo 16, comma 3, dello Statuto</rif>
 									</h:span>
+									<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
 									.
 								</corpo>
 							</comma>
@@ -2241,6 +2266,49 @@
 									, relativamente ai requisiti di accesso, e all'
 									<rif xlink:href="#art7" xlink:type="simple">articolo 7</rif>
 									, relativamente al trattamento economico ivi disposto per i responsabili degli uffici di segreteria dei componenti l'Ufficio di Presidenza del Consiglio regionale.
+								</corpo>
+							</comma>
+						</articolo>
+						<articolo id="art14bis" iniziovigore="t26">
+							<num>Art. 14 bis</num>
+							<rubrica>Struttura speciale di segreteria del gruppo misto</rubrica>
+							<comma id="art14bis-com1">
+								<num>1.</num>
+								<corpo>
+									Al gruppo misto di cui all'
+									<rif xlink:href="urn:nir:regione.toscana:statuto:#art16-com3" xlink:type="simple">articolo 16, comma 3, dello Statuto</rif>
+									non si applicano le disposizioni di cui all'
+									<rif xlink:href="#art10" xlink:type="simple">articolo 10</rif>
+									, commi 1 e 2.
+								</corpo>
+							</comma>
+							<comma id="art14bis-com2">
+								<num>2.</num>
+								<corpo>La dotazione organica della struttura speciale di segreteria del gruppo misto è costituita da una unità di personale per ogni componente del gruppo, individuata su richiesta nominativa del componente stesso.</corpo>
+							</comma>
+							<comma id="art14bis-com3">
+								<num>3.</num>
+								<corpo>Al personale di cui al comma 2 spetta il trattamento economico della categoria C, posizione economica C1.</corpo>
+							</comma>
+							<comma id="art14bis-com4">
+								<num>4.</num>
+								<corpo>
+									Il rapporto di lavoro o di incarico a tempo determinato del personale di cui al comma 2 è disciplinato ai sensi degli
+									<mrif>
+										articoli
+										<rif xlink:href="#art12" xlink:type="simple">12</rif>
+										e
+										<rif xlink:href="#art13" xlink:type="simple">13</rif>
+									</mrif>
+									salvo che, per quanto disposto da quest'ultimo articolo, le funzioni previste per il presidente del gruppo siano attribuite a ciascun componente del gruppo misto.
+								</corpo>
+							</comma>
+							<comma id="art14bis-com5">
+								<num>5.</num>
+								<corpo>
+									Nella struttura speciale di segreteria del gruppo misto non si costituisce la figura del responsabile di segreteria del gruppo di cui all'
+									<rif xlink:href="#art14" xlink:type="simple">articolo 14</rif>
+									.
 								</corpo>
 							</comma>
 						</articolo>
