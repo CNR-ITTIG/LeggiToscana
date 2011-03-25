@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t3" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19860130" num="6" tipo="BURT" />
 					<entratainvigore norm="19860214" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1986-01-23;5" />
+					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1986-01-23;5" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1986-01-23;5@2006-05-31" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tutela Ambientale" />
 					</materie>
@@ -16,23 +17,27 @@
 					<eventi>
 						<evento data="19860214" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19890810" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="20060622" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1986-01-23;5" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1989-07-17;44" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2006-05-31;20" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Per una proroga dei termini di attuazione dei parametri previti dalla presente legge, si veda prima la
 							<rif xlink:href="urn:nir:regione.toscana:legge:1989-10-23;67" xlink:type="simple">legge regionale 23 ottobre 1989, n. 67</rif>
 							e, in seguito, la
 							<rif xlink:href="urn:nir:regione.toscana:legge:1991-09-19;50" xlink:type="simple">legge regionale 19 settembre 1991, n. 50</rif>
-							.
+							. La presente legge è stata abrogata dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2006-05-31;20#art29-com1" xlink:type="simple">art. 29, comma 1, della legge regionale 31 maggio 2006, n. 20</rif>
+							, fatto salvo quanto previsto dal comma 2 dello stesso articolo, il quale dispone che fino alla data di entrata in vigore del regolamento di cui all'art. 13 della suddetta legge, continuano ad applicarsi le disposizioni tecniche relative alla fertigazione di cui agli artt. 34, 35, 36, 37 e 40 della presente legge. Detto regolamento è stato approvato con D.P.G.R. 8 settembre 2008, n. 46/R, pubblicato su BURT 17 settembre 2008, n. 29 parte prima.
 						</h:p>
 					</nota>
-					<nota id="n2">
+					<nota id="LeggeRegionale1-n2">
 						<h:p>
 							Ii limiti temporali di cui al presente comma sono prorogati di due anni ai sensi della
 							<rif xlink:href="urn:nir:regione.toscana:legge:1989-07-17;44" xlink:type="simple">legge regionale 17 luglio 1989, n. 44</rif>
@@ -40,6 +45,22 @@
 						</h:p>
 					</nota>
 				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1986-01-23;5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2006-05-31;20" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2006-05-31;20#art29-com1-leta" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 29, comma 1, lettera a) della legge Regione Toscana 31 maggio 2006, n. 20" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -51,7 +72,7 @@
 					Disciplina regionale degli scarichi delle pubbliche fognature e degli insediamenti civili (
 					<rif xlink:href="urn:nir:stato:legge:1976;319#art14" xlink:type="simple">Art. 14 L. 319/1976</rif>
 					)
-					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 					.
 				</titoloDoc>
 			</intestazione>
@@ -62,7 +83,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>GENERALITA'</rubrica>
 					<articolo id="art1">
@@ -140,7 +161,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>DISCIPLINA DEGLI SCARICHI DELLE PUBBLICHE FOGNATURE</rubrica>
 					<articolo id="art4">
@@ -387,7 +408,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>TITOLO III</num>
 					<rubrica>CRITERI DI GESTIONE DELLE PUBBLICHE FOGNATURE</rubrica>
 					<articolo id="art14">
@@ -419,7 +440,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit4">
+				<titolo id="LeggeRegionale1-tit4">
 					<num>TITOLO IV</num>
 					<rubrica>SCARICATORI DI PIENA DELLE PUBBLICHE FOGNATURE</rubrica>
 					<articolo id="art17">
@@ -489,7 +510,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit5">
+				<titolo id="LeggeRegionale1-tit5">
 					<num>TITOLO V</num>
 					<rubrica>DISCIPLINA DEGLI SCARICHI DI INSEDIAMENTI CIVILI CHE NON RECAPITANO IN PUBBLICA FOGNATURA</rubrica>
 					<articolo id="art22">
@@ -1044,7 +1065,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit6">
+				<titolo id="LeggeRegionale1-tit6">
 					<num>TITOLO VI</num>
 					<rubrica>NORME TRANSITORIE E FINALI</rubrica>
 					<articolo id="art45">
@@ -1072,7 +1093,7 @@
 								ed al
 								<rif xlink:href="#art8-com1" xlink:type="simple">comma 1 dell'articolo 8</rif>
 								della presente legge
-								<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+								<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(b)</ndr>
 								.
 							</corpo>
 						</comma>
