@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t2" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19890322" num="18" tipo="BURT" />
 					<entratainvigore norm="19890406" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1989-03-09;17" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1989-03-09;17" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1989-03-09;17@2006-04-03" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Enti Territoriali" />
@@ -16,11 +17,29 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19890406" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20060427" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1989-03-09;17" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2006-04-03;12" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1989-03-09;17" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2006-04-03;12" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2006-04-03;12#art25-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 25, comma 1 della legge Regione Toscana 3 aprile 2006, n. 12" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -36,10 +55,10 @@
 				<h:p>la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>IL SERVIZIO DI POLIZIA MUNICIPALE</rubrica>
-					<sezione id="tit1-sez1">
+					<sezione id="LeggeRegionale1-tit1-sez1">
 						<num>SEZIONE I</num>
 						<rubrica>Norme generali</rubrica>
 						<articolo id="art1">
@@ -175,7 +194,7 @@
 							</comma>
 						</articolo>
 					</sezione>
-					<sezione id="tit1-sez2">
+					<sezione id="LeggeRegionale1-tit1-sez2">
 						<num>SEZIONE II</num>
 						<rubrica>Gestione associata del servizio di polizia municipale</rubrica>
 						<articolo id="art7">
@@ -252,7 +271,7 @@
 						</articolo>
 					</sezione>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>IL CORPO DI POLIZIA MUNICIPALE</rubrica>
 					<articolo id="art11">
@@ -338,10 +357,10 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>TITOLO III</num>
 					<rubrica>FORMAZIONE E AGGIORNAMENTO DEL PERSONALE</rubrica>
-					<sezione id="tit3-sez1">
+					<sezione id="LeggeRegionale1-tit3-sez1">
 						<num>SEZIONE I</num>
 						<rubrica>Norme generali</rubrica>
 						<articolo id="art15">
@@ -469,7 +488,7 @@
 							</comma>
 						</articolo>
 					</sezione>
-					<sezione id="tit3-sez2">
+					<sezione id="LeggeRegionale1-tit3-sez2">
 						<num>SEZIONE II</num>
 						<rubrica>Scuola regionale di formazione professionale</rubrica>
 						<articolo id="art20">
@@ -541,7 +560,7 @@
 						</articolo>
 					</sezione>
 				</titolo>
-				<titolo id="tit4">
+				<titolo id="LeggeRegionale1-tit4">
 					<num>TITOLO IV</num>
 					<rubrica>UNIFORMI, MEZZI E STRUMENTI OPERATIVI</rubrica>
 					<articolo id="art23">
@@ -601,7 +620,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit5">
+				<titolo id="LeggeRegionale1-tit5">
 					<num>TITOLO V</num>
 					<rubrica>COMMISSIONE TECNICA E NORMA FINANZIARIA</rubrica>
 					<articolo id="art27">
