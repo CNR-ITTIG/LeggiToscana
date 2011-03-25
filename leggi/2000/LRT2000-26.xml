@@ -15,7 +15,8 @@
 					<urn finevigore="t26" iniziovigore="t23" valore="urn:nir:regione.toscana:legge:2000-03-17;26@2003-08-05" />
 					<urn finevigore="t24" iniziovigore="t26" valore="urn:nir:regione.toscana:legge:2000-03-17;26@2006-02-17" />
 					<urn finevigore="t25" iniziovigore="t24" valore="urn:nir:regione.toscana:legge:2000-03-17;26@2005-06-09" />
-					<urn iniziovigore="t25" valore="urn:nir:regione.toscana:legge:2000-03-17;26@2005-10-14" />
+					<urn finevigore="t27" iniziovigore="t25" valore="urn:nir:regione.toscana:legge:2000-03-17;26@2005-10-14" />
+					<urn iniziovigore="t27" valore="urn:nir:regione.toscana:legge:2000-03-17;26@2006-03-01" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Ente Regione" />
@@ -49,6 +50,7 @@
 						<evento data="20050621" fonte="rp6" id="t24" tipo="modifica" />
 						<evento data="20051022" fonte="rp7" id="t25" tipo="modifica" />
 						<evento data="20050228" fonte="rp8" id="t26" tipo="modifica" />
+						<evento data="20060307" fonte="rp9" id="t27" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2000-03-17;26" xlink:type="simple" />
@@ -77,6 +79,7 @@
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2005-06-09;44" xlink:type="simple" />
 						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:2005-10-14;58" xlink:type="simple" />
 						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:2006-02-17;5" xlink:type="simple" />
+						<passiva id="rp9" xlink:href="urn:nir:regione.toscana:legge:2006-03-01;6" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -1289,6 +1292,18 @@
 								<dsp:pos xlink:href="#art14bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art14bis-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2006-03-01;6" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2006-03-01;6#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 1 marzo 2006, n. 6" id="itt77" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -2284,7 +2299,10 @@
 							</comma>
 							<comma id="art14bis-com2">
 								<num>2.</num>
-								<corpo>La dotazione organica della struttura speciale di segreteria del gruppo misto è costituita da una unità di personale per ogni componente del gruppo, individuata su richiesta nominativa del componente stesso.</corpo>
+								<corpo>
+									La dotazione organica della struttura speciale di segreteria del gruppo misto è costituita da una unità di personale per ogni componente del gruppo, individuata su richiesta nominativa del componente stesso.
+									<h:span id="h3" iniziovigore="t27">Il componente del gruppo può richiedere, in luogo di una unità di personale, due unità a tempo parziale in uguale misura senza aggravio di costi per l'amministrazione.</h:span>
+								</corpo>
 							</comma>
 							<comma id="art14bis-com3">
 								<num>3.</num>
