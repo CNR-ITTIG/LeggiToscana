@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20040804" num="29" tipo="BURT" />
 					<entratainvigore norm="20040819" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2004-07-27;39" />
+					<urn finevigore="t4" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2004-07-27;39" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:2004-07-27;39@2006-07-11" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Programmazione" />
 						<materia valore="Enti Territoriali" />
@@ -18,13 +19,24 @@
 						<evento data="20040819" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20040819" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="20040819" fonte="ra2" id="t3" tipo="modifica" />
+						<evento data="20060802" fonte="rp1" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2004-07-27;39" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1985-05-07;57" xlink:type="simple" />
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1999-11-02;58" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2006-07-11;31" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							In merito alla revoca dei contributi straordinari concessi dal presente testo, si veda in seguito l'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2006-07-11;31#art2-com1" xlink:type="simple">art. 2, comma 1, della legge regionale 11 luglio 2006, n. 31</rif>
+							.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:integrazione completa="si" implicita="no">
@@ -54,6 +66,17 @@
 							</dsp:novella>
 						</dsp:integrazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:termine da="#t4" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2006-07-11;31" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2006-07-11;31#mod2" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:variazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -70,6 +93,7 @@
 					(Riordino in materia di igiene e sanità pubblica, veterinaria, igiene degli alimenti, medicina legale e farmaceutica). Modifiche alla
 					<rif xlink:href="urn:nir:regione.toscana:legge:1999-11-02;58" xlink:type="simple">legge regionale 2 novembre 1999, n. 58</rif>
 					(Norme sulla tutela dell'artigianato artistico e tradizionale toscano e disposizioni in materia di oneri contributivi per gli apprendisti artigiani).
+					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
 				</titoloDoc>
 			</intestazione>
 			<formulainiziale>

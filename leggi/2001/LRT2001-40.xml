@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t14" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2001-08-16;40" />
 					<urn finevigore="t15" iniziovigore="t14" valore="urn:nir:regione.toscana:legge:2001-08-16;40@2003-12-22" />
-					<urn iniziovigore="t15" valore="urn:nir:regione.toscana:legge:2001-08-16;40@2005-12-27" />
+					<urn finevigore="t16" iniziovigore="t15" valore="urn:nir:regione.toscana:legge:2001-08-16;40@2005-12-27" />
+					<urn iniziovigore="t16" valore="urn:nir:regione.toscana:legge:2001-08-16;40@2006-07-11" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ordinamento" />
 						<materia valore="Enti Territoriali" />
@@ -32,6 +33,7 @@
 						<evento data="20010911" fonte="ra12" id="t13" tipo="modifica" />
 						<evento data="20040101" fonte="rp1" id="t14" tipo="modifica" />
 						<evento data="20051231" fonte="rp2" id="t15" tipo="modifica" />
+						<evento data="20060802" fonte="rp3" id="t16" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2001-08-16;40" xlink:type="simple" />
@@ -49,8 +51,18 @@
 						<attiva id="ra12" xlink:href="urn:nir:regione.toscana:legge:1998-12-01;88" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2003-12-22;60" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2005-12-27;70" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2006-07-11;31" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							In merito alla revoca dei contributi straordinari concessi dal presente testo, si veda in seguito l'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2006-07-11;31#art2-com1" xlink:type="simple">art. 2, comma 1, della legge regionale 11 luglio 2006, n. 31</rif>
+							.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -287,7 +299,7 @@
 					</modificheattive>
 					<modifichepassive>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art2-com4" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-12-22;60" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-12-22;60#art1-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -430,6 +442,15 @@
 								<dsp:pos xlink:href="#h3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:termine da="#t16" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2006-07-11;31" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2006-07-11;31#mod1" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:variazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -439,7 +460,10 @@
 				<dataDoc norm="20010816">16 agosto 2001</dataDoc>
 				, n.
 				<numDoc>40</numDoc>
-				<titoloDoc>Disposizioni in materia di riordino territoriale e di incentivazione delle forme associative di comuni.</titoloDoc>
+				<titoloDoc>
+					Disposizioni in materia di riordino territoriale e di incentivazione delle forme associative di comuni.
+					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 26-07-2001</h:p>
