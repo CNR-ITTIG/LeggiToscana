@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20060512" num="13" tipo="BURT" />
 					<entratainvigore norm="20060527" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2006-05-08;17" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2006-05-08;17" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2006-05-08;17@2006-11-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sviluppo Economico" />
 					</materie>
@@ -15,11 +16,65 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="20060527" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20061214" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2006-05-08;17" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2006-11-21;56" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2006-11-21;56" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2006-11-21;56#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 21 novembre 2006, n. 56" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6-com4bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2006-11-21;56" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2006-11-21;56#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 21 novembre 2006, n. 56" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6-com4ter" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com4-leth" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2006-11-21;56" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2006-11-21;56#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 21 novembre 2006, n. 56" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art6-com4-leth-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com4-letk" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2006-11-21;56" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2006-11-21;56#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 21 novembre 2006, n. 56" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art6-com4-letk-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -229,7 +284,7 @@
 								<corpo>tre rappresentanti delle cooperative;</corpo>
 							</en>
 						</el>
-						<el id="art6-com4-leth">
+						<el finevigore="t2" id="art6-com4-leth-t2" iniziovigore="t1" status="abrogato">
 							<num>h)</num>
 							<corpo>tre rappresentanti designati, uno per ciascuna, dalle Università degli studi di Firenze, Pisa e Siena;</corpo>
 						</el>
@@ -241,7 +296,7 @@
 							<num>j)</num>
 							<corpo>tre rappresentanti della Regione Toscana, fra cui il dirigente responsabile per materia e due esperti individuati dalla Direzione generale competente;</corpo>
 						</el>
-						<el id="art6-com4-letk">
+						<el finevigore="t2" id="art6-com4-letk-t2" iniziovigore="t1" status="abrogato">
 							<num>k)</num>
 							<corpo>un rappresentante designato dall'Istituto nazionale della previdenza sociale (INPS), uno dall'Istituto nazionale per l'assicurazione contro gli infortuni sul lavoro (INAIL) ed uno dalla Direzione regionale del Ministero del Lavoro;</corpo>
 						</el>
@@ -271,6 +326,14 @@
 								(Istituzione del Ministero dell'ambiente e norme in materia di danno ambientale).
 							</corpo>
 						</el>
+					</comma>
+					<comma id="art6-com4bis" iniziovigore="t2">
+						<num>4 bis.</num>
+						<corpo>Possono partecipare alla CER, previo accordo con i ministeri competenti, un rappresentante designato dall'Istituto nazionale di previdenza sociale (INPS), un rappresentante designato dall'Istituto nazionale per l'assicurazione contro gli infortuni sul lavoro (INAIL) ed un rappresentante designato dalla Direzione regionale del Ministero del lavoro.</corpo>
+					</comma>
+					<comma id="art6-com4ter" iniziovigore="t2">
+						<num>4 ter.</num>
+						<corpo>Possono partecipare alla CER, previo accordo con le università competenti, un rappresentante designato dall'Università degli studi di Firenze, un rappresentante designato dall'Università degli studi di Pisa ed un rappresentante designato dall'Università degli studi di Siena.</corpo>
 					</comma>
 					<comma id="art6-com5">
 						<num>5.</num>
