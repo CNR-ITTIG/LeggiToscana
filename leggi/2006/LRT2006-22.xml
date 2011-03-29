@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20060616" num="18" tipo="BURT" />
 					<entratainvigore norm="20060701" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2006-06-09;22" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2006-06-09;22" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2006-06-09;22@2006-11-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organi" />
 						<materia valore="Ente Regione" />
@@ -16,11 +17,32 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="20060701" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20061108" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2006-06-09;22" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2006-11-02;53" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2006-11-02;53" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2006-11-02;53#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 2 novembre 2006, n. 53" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -85,7 +107,12 @@
 					<rubrica>(Fondo patrimoniale)</rubrica>
 					<comma id="art4-com1">
 						<num>1.</num>
-						<corpo>La Regione concorre alla costituzione del fondo patrimoniale della Fondazione con la somma di euro 10.000,00 e conferisce inoltre alla Fondazione la somma di euro 5.000,00 per le spese di funzionamento per l'anno 2006. Tali oneri gravano sul bilancio interno del Consiglio regionale per l'esercizio 2006.</corpo>
+						<corpo>
+							La Regione concorre alla costituzione del fondo patrimoniale della Fondazione con la somma di euro 10.000,00 e conferisce inoltre alla Fondazione
+							<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">la somma di euro 5.000,00</h:span>
+							<h:span id="h2" iniziovigore="t2">la somma di euro 20.000,00</h:span>
+							per le spese di funzionamento per l'anno 2006. Tali oneri gravano sul bilancio interno del Consiglio regionale per l'esercizio 2006.
+						</corpo>
 					</comma>
 					<comma id="art4-com2">
 						<num>2.</num>
