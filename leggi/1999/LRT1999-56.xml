@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t16" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19991104" num="29" tipo="BURT" />
 					<entratainvigore norm="19991119" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1999-10-27;56" />
+					<urn finevigore="t16" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1999-10-27;56" />
+					<urn iniziovigore="t16" valore="urn:nir:regione.toscana:legge:1999-10-27;56@2006-07-25" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Disarmo" />
 					</materie>
@@ -29,6 +30,7 @@
 						<evento data="19991119" fonte="ra12" id="t13" tipo="modifica" />
 						<evento data="19991119" fonte="ra13" id="t14" tipo="modifica" />
 						<evento data="19991119" fonte="ra14" id="t15" tipo="modifica" />
+						<evento data="20090414" fonte="rp1" id="t16" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1999-10-27;56" xlink:type="simple" />
@@ -46,8 +48,20 @@
 						<attiva id="ra12" xlink:href="urn:nir:regione.toscana:legge:1996-05-02;35" xlink:type="simple" />
 						<attiva id="ra13" xlink:href="urn:nir:regione.toscana:legge:1996-05-02;35" xlink:type="simple" />
 						<attiva id="ra14" xlink:href="urn:nir:regione.toscana:legge:1996-05-02;35" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2006-07-25;35" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="LeggeRegionale1-n1">
+						<h:p>
+							Testo di legge abrogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2006-07-25;35#art21-com2-letb" xlink:type="simple">art. 21, comma 2 lettera b), della legge regionale 25 luglio 2006 n. 35</rif>
+							, con decorrenza fissata alla data di entrata in vigore del regolamento previsto dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2006-07-25;35#art19" xlink:type="simple">art. 19 della stessa legge abrogante</rif>
+							. Detto regolamento, approvato con D.P.G.R. 20 marzo 2009, n. 10/R, è stato pubblicato su BURT n. 9 del 30 marzo 2009.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -290,6 +304,20 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1999-10-27;56" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2006-07-25;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2006-07-25;35#art21-com2-letb" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 21, comma 2, lettera b) della legge Regione Toscana 25 luglio 2006, n. 35" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -302,6 +330,7 @@
 					Modifiche ed integrazioni alla
 					<rif xlink:href="urn:nir:regione.toscana:legge:1996-05-02;35" xlink:type="simple">LR 2 maggio 1996 n. 35</rif>
 					"Interventi in materia di servizio civile".
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
