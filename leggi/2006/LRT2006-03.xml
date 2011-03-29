@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20060206" num="3" tipo="BURT" />
 					<entratainvigore norm="20060207" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2006-02-01;3" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2006-02-01;3" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2006-02-01;3@2006-10-05" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Bilancio" />
@@ -16,11 +17,29 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="20060207" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20061014" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2006-02-01;3" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2006-10-05;46" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2006-10-05;46" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2006-10-05;46#art4-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1 della legge Regione Toscana 5 ottobre 2006, n. 46" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art1-com1bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -62,6 +81,16 @@
 								(Disciplina dell'attività contrattuale regionale), sia ridotta a decorrere dall'anno 2006 nella misura del 50 per cento rispetto a quella impegnata nell'anno 2004.
 							</corpo>
 						</el>
+					</comma>
+					<comma id="art1-com1bis" iniziovigore="t2">
+						<num>1bis.</num>
+						<corpo>
+							Rientrano nei limiti di spesa previsti dal comma 1, lettere a) e c), anche gli incarichi e le collaborazioni coordinate e continuative conferite ai sensi dell'
+							<rif xlink:href="urn:nir:stato:decreto.legge:2006;223#art32" xlink:type="simple">articolo 32 del d.l. 223/2006</rif>
+							convertito dalla
+							<rif xlink:href="urn:nir:stato:legge:2006;248" xlink:type="simple">l. 248/2006</rif>
+							.
+						</corpo>
 					</comma>
 					<comma id="art1-com2">
 						<num>2.</num>
