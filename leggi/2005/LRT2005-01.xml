@@ -10,7 +10,8 @@
 					<urn finevigore="t82" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2005-01-03;1" />
 					<urn finevigore="t83" iniziovigore="t82" valore="urn:nir:regione.toscana:legge:2005-01-03;1@2005-01-26" />
 					<urn finevigore="t84" iniziovigore="t83" valore="urn:nir:regione.toscana:legge:2005-01-03;1@2005-12-27" />
-					<urn iniziovigore="t84" valore="urn:nir:regione.toscana:legge:2005-01-03;1@2006-06-21" />
+					<urn finevigore="t85" iniziovigore="t84" valore="urn:nir:regione.toscana:legge:2005-01-03;1@2006-06-21" />
+					<urn iniziovigore="t85" valore="urn:nir:regione.toscana:legge:2005-01-03;1@2006-07-28" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Urbanistica" />
 						<materia valore="Tutela Ambientale" />
@@ -102,6 +103,7 @@
 						<evento data="20050128" fonte="rp1" id="t82" tipo="modifica" />
 						<evento data="20051231" fonte="rp2" id="t83" tipo="modifica" />
 						<evento data="20060624" fonte="rp3" id="t84" tipo="modifica" />
+						<evento data="20060824" fonte="rp4" id="t85" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1" xlink:type="simple" />
@@ -188,6 +190,7 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2005-01-26;15" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2005-12-27;70" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2006-06-21;24" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2006-07-28;37" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -1800,6 +1803,18 @@
 								<dsp:pos xlink:href="#art210-com4bis-t84" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art105quinquies-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2006-07-28;37" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2006-07-28;37#art9-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 9, comma 2 della legge Regione Toscana 28 luglio 2006, n. 37" id="itt26" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art105quinquies-com3bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -7219,6 +7234,14 @@
 								<num>3.</num>
 								<corpo>Le modalità secondo cui effettuare il versamento dei contributi di cui ai commi 1 e 2 sono stabilite con decreto del dirigente della struttura regionale competente.</corpo>
 							</comma>
+							<comma id="art105quinquies-com3bis" iniziovigore="t85">
+								<num>3 bis.</num>
+								<corpo>
+									I contributi per le spese di istruttoria non sono corrisposti nel caso di progetti riferiti a interventi di riparazione dei danni da eventi calamitosi o di miglioramento sismico preventivo ai sensi della
+									<rif xlink:href="urn:nir:regione.toscana:legge:1997-07-30;56" xlink:type="simple">legge regionale 30 luglio 1997, n. 56</rif>
+									(Interventi sperimentali di prevenzione per la riduzione del rischio sismico).
+								</corpo>
+							</comma>
 						</articolo>
 						<articolo id="art106">
 							<num>ARTICOLO 106</num>
@@ -11266,7 +11289,7 @@
 				<annesso id="ann1">
 					<testata>
 						<denAnnesso>
-							<h:p>ALLEGATO</h:p>
+							<h:p>ALLEGATO A</h:p>
 						</denAnnesso>
 						<titAnnesso>
 							<h:p />
@@ -11281,17 +11304,28 @@
 								<pubblicazione norm="" num="" tipo="GU" />
 								<entratainvigore norm="" />
 								<redazione id="red2" nome="" norm="" />
-								<urn valore="" />
+								<urn valore="urn:nir:regione.toscana:legge:2005-01-03;1:allegato" />
 							</descrittori>
+							<redazionale xlink:type="simple">
+								<nota id="ann1-n1">
+									<h:p>
+										Il contenuto del presente allegato è stato poi modificato dall'
+										<rif xlink:href="urn:nir:regione.toscana:legge:2006;37#art9" xlink:type="simple">art. 9 della legge regionale 28 luglio 2006, n. 37</rif>
+										.
+									</h:p>
+								</nota>
+							</redazionale>
 						</meta>
-						<intestazione />
+						<intestazione>
+							<titoloDoc>
+								Tabelle parametriche per classi di comuni, per la determinazione dell'incidenza degli oneri di urbanizzazione primaria e secondaria e della percentuale del costo di costruzione
+								<ndr num="#ann1-n1" valore="" xlink:type="simple">(a)</ndr>
+								.
+							</titoloDoc>
+						</intestazione>
 						<formulainiziale />
 						<contenitore id="con1" nome="">
-							<h:p>Allegato A - Tabelle parametriche per classi di comuni, per la determinazione dell'incidenza degli oneri di urbanizzazione primaria e secondaria e della percentuale del costo di costruzione.</h:p>
-							<h:p>&lt;Si omette la pubblicazione delle tabelle&gt;</h:p>
-							<h:p />
-							<h:p>TUTELA AMBIENTALE URBANISTICA</h:p>
-							<h:p />
+							<h:p>Omissis</h:p>
 						</contenitore>
 						<formulafinale />
 						<conclusione />
