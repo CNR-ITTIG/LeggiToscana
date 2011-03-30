@@ -17,7 +17,8 @@
 					<urn finevigore="t21" iniziovigore="t20" valore="urn:nir:regione.toscana:legge:1998-12-01;88@2003-04-04" />
 					<urn finevigore="t22" iniziovigore="t21" valore="urn:nir:regione.toscana:legge:1998-12-01;88@2003-12-29" />
 					<urn finevigore="t23" iniziovigore="t22" valore="urn:nir:regione.toscana:legge:1998-12-01;88@2005-02-24" />
-					<urn iniziovigore="t23" valore="urn:nir:regione.toscana:legge:1998-12-01;88@2006-05-31" />
+					<urn finevigore="t24" iniziovigore="t23" valore="urn:nir:regione.toscana:legge:1998-12-01;88@2006-05-31" />
+					<urn iniziovigore="t24" valore="urn:nir:regione.toscana:legge:1998-12-01;88@2006-11-28" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Urbanistica" />
 						<materia valore="Tutela Ambientale" />
@@ -49,6 +50,7 @@
 						<evento data="20040122" fonte="rp8" id="t21" tipo="modifica" />
 						<evento data="20050322" fonte="rp9" id="t22" tipo="modifica" />
 						<evento data="20060622" fonte="rp10" id="t23" tipo="modifica" />
+						<evento data="20061207" fonte="rp11" id="t24" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-12-01;88" xlink:type="simple" />
@@ -74,6 +76,7 @@
 						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:2003-12-29;67" xlink:type="simple" />
 						<passiva id="rp9" xlink:href="urn:nir:regione.toscana:legge:2005-02-24;39" xlink:type="simple" />
 						<passiva id="rp10" xlink:href="urn:nir:regione.toscana:legge:2006-05-31;20" xlink:type="simple" />
+						<passiva id="rp11" xlink:href="urn:nir:regione.toscana:legge:2006-11-28;60" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -82,6 +85,15 @@
 							Sulla effettiva decorrenza di questa abrogazione si veda l'
 							<rif xlink:href="urn:nir:regione.toscana:legge:2000-03-20;30#art16-com1" xlink:type="simple">art. 16, comma 1, della legge regionale 20 marzo 2000 n. 30</rif>
 							.
+						</h:p>
+					</nota>
+					<nota id="n2">
+						<h:p>
+							La
+							<rif xlink:href="urn:nir:regione.toscana:legge:2006-11-28;60" xlink:type="simple">legge regionale 28 novembre 2006, n. 60</rif>
+							, ha disposto tramite l'art. 2 la reviviscenza della presente lettera, precedentemente abrogata dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2006-05-31;20#art28-com2" xlink:type="simple">art. 28, comma 2, della legge regionale 31 maggio 2006, n. 20</rif>
+							e, tramite l'art. 1 l'abrogazione quest'ultima disposizione.
 						</h:p>
 					</nota>
 				</redazionale>
@@ -779,6 +791,27 @@
 								<dsp:pos xlink:href="#art20-com2-letb-t23" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:termine da="#t24" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2006-11-28;60" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2006-11-28;60#" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:variazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art20-com2-letb" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2006-11-28;60" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2006-11-28;60#art2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo2, legge Regione Toscana 28 novembre 2006, n. 60" id="itt37" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art20-com2-letb" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -1642,6 +1675,15 @@
 								<corpo>
 									immersione in casse di colmata, vasche di raccolta o comunque di strutture di contenimento poste in ambito costiero dei materiali di cui alla
 									<rif xlink:href="#art20-com2-leta" xlink:type="simple">lettera a)</rif>
+									;
+								</corpo>
+							</el>
+							<el id="art20-com2-letb" iniziovigore="t24">
+								<num>b)</num>
+								<corpo>
+									immersione in casse di colmata, vasche di raccolta o comunque di strutture di contenimento poste in ambito costiero dei materiali di cui alla
+									<rif xlink:href="#art20-com2-leta" xlink:type="simple">lettera a)</rif>
+									<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
 									;
 								</corpo>
 							</el>
