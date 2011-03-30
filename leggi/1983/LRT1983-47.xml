@@ -14,7 +14,8 @@
 					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1983-06-13;47@2000-07-11" />
 					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1983-06-13;47@2001-08-16" />
 					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1983-06-13;47@2001-10-31" />
-					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1983-06-13;47@2004-08-03" />
+					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1983-06-13;47@2004-08-03" />
+					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1983-06-13;47@2007-02-19" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organi" />
 					</materie>
@@ -30,6 +31,7 @@
 						<evento data="20010827" fonte="rp5" id="t7" tipo="modifica" />
 						<evento data="20011122" fonte="rp6" id="t8" tipo="modifica" />
 						<evento data="20040828" fonte="rp7" id="t9" tipo="modifica" />
+						<evento data="20070309" fonte="rp8" id="t10" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1983-06-13;47" xlink:type="simple" />
@@ -41,6 +43,7 @@
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2001-08-16;37" xlink:type="simple" />
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2001-10-31;52" xlink:type="simple" />
 						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:2004-08-03;44" xlink:type="simple" />
+						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:2007-02-19;8" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -146,7 +149,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+								<dsp:pos xlink:href="#h5" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:integrazione completa="si" implicita="no">
@@ -248,10 +251,10 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:integrazione completa="si" implicita="no">
@@ -263,7 +266,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:integrazione completa="si" implicita="no">
@@ -398,6 +401,18 @@
 								<dsp:testo valore="" />
 							</dsp:dominio>
 						</dsp:variazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2ter-com1-letc" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-02-19;8" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-02-19;8#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 19 febbraio 2007, n. 8" id="itt25" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -549,7 +564,11 @@
 						</el>
 						<el id="art2ter-com1-letc" iniziovigore="t6">
 							<num>c)</num>
-							<corpo>Consigliere segretario del Consiglio, Presidente di Commissione, Presidente di gruppo consiliare: 10%</corpo>
+							<corpo>
+								Consigliere segretario del Consiglio, Presidente di Commissione,
+								<h:span id="h1" iniziovigore="t10">Portavoce dell'opposizione,</h:span>
+								Presidente di gruppo consiliare: 10%
+							</corpo>
 						</el>
 						<el id="art2ter-com1-letd">
 							<num>d)</num>
@@ -579,10 +598,10 @@
 						<num />
 						<corpo>
 							Ogni consigliere è tenuto a dichiarare
-							<h:span finevigore="t5" id="h1" iniziovigore="t1" status="abrogato">ogni sei mesi</h:span>
-							<h:span id="h2" iniziovigore="t5">entro il 30 settembre di ogni anno</h:span>
+							<h:span finevigore="t5" id="h2" iniziovigore="t1" status="abrogato">ogni sei mesi</h:span>
+							<h:span id="h3" iniziovigore="t5">entro il 30 settembre di ogni anno</h:span>
 							le somme eventualmente percepite per i titoli di cui al comma precedente
-							<h:span id="h3" iniziovigore="t5">ovvero una dichiarazione negativa</h:span>
+							<h:span id="h4" iniziovigore="t5">ovvero una dichiarazione negativa</h:span>
 							. L'Ufficio di Presidenza provvede alle conseguenti ritenute sulle indennità.
 						</corpo>
 					</comma>
@@ -662,7 +681,7 @@
 						<num />
 						<corpo>
 							Le distanze di cui al comma precedente sono determinate dall'Ufficio di Presidenza sulla base del percorso ferroviario ovvero, in mancanza o se più breve del percorso di mezzi pubblici di linea. Le distanze chilometriche sono arrotondate per eccesso (da cinque)
-							<h:span finevigore="t3" id="h4" iniziovigore="t1" status="abrogato">o per difetto</h:span>
+							<h:span finevigore="t3" id="h5" iniziovigore="t1" status="abrogato">o per difetto</h:span>
 							.
 						</corpo>
 					</comma>
