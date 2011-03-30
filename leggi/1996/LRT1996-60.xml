@@ -14,7 +14,8 @@
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1996-07-29;60@2003-12-19" />
 					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1996-07-29;60@2004-12-20" />
 					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1996-07-29;60@2005-02-18" />
-					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1996-07-29;60@2005-12-27" />
+					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1996-07-29;60@2005-12-27" />
+					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1996-07-29;60@2006-12-22" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tributi" />
 						<materia valore="Rifiuti" />
@@ -30,6 +31,7 @@
 						<evento data="20041230" fonte="rp5" id="t6" tipo="modifica" />
 						<evento data="20050315" fonte="rp6" id="t7" tipo="modifica" />
 						<evento data="20051231" fonte="rp7" id="t8" tipo="modifica" />
+						<evento data="20091230" fonte="rp8" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1996-07-29;60" xlink:type="simple" />
@@ -40,6 +42,7 @@
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2004-12-20;71" xlink:type="simple" />
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2005-02-18;31" xlink:type="simple" />
 						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:2005-12-27;70" xlink:type="simple" />
+						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:2006-12-22;64" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -554,6 +557,21 @@
 								<dsp:pos xlink:href="#ann1" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art23bis-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2006-12-22;64" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2006-12-22;64#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 22 dicembre 2006, n. 64" id="itt38" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h20" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h19" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -1848,7 +1866,12 @@
 								Gli scarti e i sovvalli di impianti di selezione automatica riciclaggio e compostaggio, conferiti ai fini dello smaltimento in discarica, sono soggetti al pagamento del tributo nella misura del 20 per cento di quella determinata, ai sensi del
 								<rif xlink:href="#art23bis-com2" xlink:type="simple">comma 2</rif>
 								, per i rifiuti speciali di cui
-								<rif xlink:href="#art23bis-com1-t8-letb" xlink:type="simple">comma 1, lettera b)</rif>
+								<h:span finevigore="t9" id="h19" iniziovigore="t1" status="abrogato">
+									<rif xlink:href="#art23bis-com1-letb" xlink:type="simple">comma 1, lettera b)</rif>
+								</h:span>
+								<h:span id="h20" iniziovigore="t9">
+									<rif xlink:href="#art23bis-com1-letc" xlink:type="simple">comma 1, lettera c)</rif>
+								</h:span>
 								.
 							</corpo>
 						</comma>

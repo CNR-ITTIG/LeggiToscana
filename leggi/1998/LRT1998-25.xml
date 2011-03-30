@@ -16,7 +16,8 @@
 					<urn finevigore="t23" iniziovigore="t22" valore="urn:nir:regione.toscana:legge:1998-05-18;25@2004-12-20" />
 					<urn finevigore="t24" iniziovigore="t23" valore="urn:nir:regione.toscana:legge:1998-05-18;25@2005-01-03" />
 					<urn finevigore="t25" iniziovigore="t24" valore="urn:nir:regione.toscana:legge:1998-05-18;25@2005-12-27" />
-					<urn iniziovigore="t25" valore="urn:nir:regione.toscana:legge:1998-05-18;25@2006-05-08" />
+					<urn finevigore="t26" iniziovigore="t25" valore="urn:nir:regione.toscana:legge:1998-05-18;25@2006-05-08" />
+					<urn iniziovigore="t26" valore="urn:nir:regione.toscana:legge:1998-05-18;25@2006-12-22" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tutela Ambientale" />
 						<materia valore="Rifiuti" />
@@ -49,6 +50,7 @@
 						<evento data="20050120" fonte="rp7" id="t23" tipo="modifica" />
 						<evento data="20051231" fonte="rp8" id="t24" tipo="modifica" />
 						<evento data="20060527" fonte="rp9" id="t25" tipo="modifica" />
+						<evento data="20091230" fonte="rp10" id="t26" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25" xlink:type="simple" />
@@ -76,6 +78,7 @@
 						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1" xlink:type="simple" />
 						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:2005-12-27;70" xlink:type="simple" />
 						<passiva id="rp9" xlink:href="urn:nir:regione.toscana:legge:2006-05-08;16" xlink:type="simple" />
+						<passiva id="rp10" xlink:href="urn:nir:regione.toscana:legge:2006-12-22;64" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -1060,6 +1063,18 @@
 								<dsp:pos xlink:href="#art6quater" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art30ter-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2006-12-22;64" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2006-12-22;64#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 22 dicembre 2006, n. 64" id="itt59" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art30ter-com2-t26" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -4128,7 +4143,7 @@
 								</corpo>
 							</el>
 						</comma>
-						<comma id="art30ter-com2">
+						<comma finevigore="t26" id="art30ter-com2-t26" iniziovigore="t1" status="abrogato">
 							<num>2.</num>
 							<corpo>
 								Le frazioni di materiale in uscita dagli impianti di trattamento di cui al comma 1, quali la frazione organica stabilizzata (FOS) e la frazione secca non classificabile come combustibile derivante dai rifiuti (CDR), qualora non vengano effettivamente riutilizzati, ai sensi degli

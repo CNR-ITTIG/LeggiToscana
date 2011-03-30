@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2003-09-22;49" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2003-09-22;49@2003-12-19" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:2003-09-22;49@2004-11-15" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:2003-09-22;49@2004-11-15" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:2003-09-22;49@2006-12-22" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tributi" />
 						<materia valore="Ente Regione" />
@@ -20,11 +21,13 @@
 						<evento data="20031016" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20031230" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="20041209" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="20091230" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2003-09-22;49" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2003-12-19;58" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2004-11-15;62" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2006-12-22;64" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -68,6 +71,18 @@
 								<dsp:pos xlink:href="#art1-t3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2006-12-22;64" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2006-12-22;64#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 22 dicembre 2006, n. 64" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -379,7 +394,11 @@
 						</comma>
 						<comma id="art5-com4">
 							<num>4.</num>
-							<corpo>L'esenzione può essere trasferita, su istanza e senza l'obbligo di presentare nuovamente la documentazione sanitaria, su altro veicolo di proprietà della persona disabile o del soggetto di cui il disabile risulti fiscalmente a carico.</corpo>
+							<corpo>
+								L'esenzione può essere trasferita
+								<h:span finevigore="t4" id="h1" iniziovigore="t1" status="abrogato">, su istanza e senza l'obbligo di presentare nuovamente la documentazione sanitaria,</h:span>
+								su altro veicolo di proprietà della persona disabile o del soggetto di cui il disabile risulti fiscalmente a carico.
+							</corpo>
 						</comma>
 						<comma id="art5-com5">
 							<num>5.</num>

@@ -12,7 +12,8 @@
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1995-02-01;14@1998-08-13" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1995-02-01;14@1999-08-11" />
 					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1995-02-01;14@2000-03-28" />
-					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1995-02-01;14@2006-06-29" />
+					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1995-02-01;14@2006-06-29" />
+					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1995-02-01;14@2006-12-22" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Finanziamenti" />
 						<materia valore="Beni Culturali" />
@@ -27,6 +28,7 @@
 						<evento data="19990904" fonte="rp3" id="t5" tipo="modifica" />
 						<evento data="20000422" fonte="rp4" id="t6" tipo="modifica" />
 						<evento data="20060720" fonte="rp5" id="t7" tipo="modifica" />
+						<evento data="20091230" fonte="rp6" id="t8" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-02-01;14" xlink:type="simple" />
@@ -36,6 +38,7 @@
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1999-08-11;50" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2000-03-28;45" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2006-06-29;27" xlink:type="simple" />
+						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2006-12-22;64" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -79,10 +82,8 @@
 					</nota>
 					<nota id="LeggeRegionale1-n5">
 						<h:p>
-							Intero testo di legge abrogato ai sensi dell'
-							<rif xlink:href="urn:nir:regione.toscana:legge:2006-06-29;27#art13-com1-letf" xlink:type="simple">art. 13, comma 1 lettera f), della legge regionale 29 giugno 2006, n. 27</rif>
-							, con decorrenza fissata alla data di acquisto efficacia del Piano integrato della cultura previsto dall'
-							<rif xlink:href="urn:nir:regione.toscana:legge:2006-06-29;27#art5" xlink:type="simple">art. 5 della stessa legge abrogante</rif>
+							Per una proroga a questo termine, si veda l'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2006-12-22;64#art21-com1-leta" xlink:type="simple">art. 21, comma 1 lett. a), della legge regionale 22 dicembre 2006, n. 64</rif>
 							.
 						</h:p>
 					</nota>
@@ -123,6 +124,15 @@
 						</h:p>
 					</nota>
 					<nota id="LeggeRegionale1-n10">
+						<h:p>
+							Intero testo di legge abrogato ai sensi dell'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2006-06-29;27#art13-com1-letf" xlink:type="simple">art. 13, comma 1 lettera f), della legge regionale 29 giugno 2006, n. 27</rif>
+							, con decorrenza fissata alla data di acquisto efficacia del Piano integrato della cultura previsto dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2006-06-29;27#art5" xlink:type="simple">art. 5 della stessa legge abrogante</rif>
+							.
+						</h:p>
+					</nota>
+					<nota id="LeggeRegionale1-n11">
 						<h:p>
 							Intero testo di legge abrogato ai sensi dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:2006-06-29;27#art13-com1-letf" xlink:type="simple">art. 13, comma 1 lettera f), della legge regionale 29 giugno 2006, n. 27</rif>
@@ -292,6 +302,12 @@
 								<dsp:testo valore="" />
 							</dsp:dominio>
 						</dsp:variazione>
+						<dsp:proroga completa="si" implicita="no" su="efficacia">
+							<dsp:termine da="#t8" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2006-12-22;64" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2006-12-22;64#mod16" xlink:type="simple" />
+							</dsp:norma>
+						</dsp:proroga>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -302,9 +318,8 @@
 				, n.
 				<numDoc>14</numDoc>
 				<titoloDoc>
-					Disciplina degli atti e delle procedure della programmazione e degli interventi finanziari regionali nei settori delle attività e dei beni culturali
+					Disciplina degli atti e delle procedure della programmazione e degli interventi finanziari regionali nei settori delle attività e dei beni culturali.
 					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
-					.
 				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
@@ -614,11 +629,18 @@
 					</comma>
 					<comma id="art3-com3">
 						<num>3.</num>
-						<corpo>La Giunta regionale, tenuto conto dei pareri e delle proposte di cui al comma 2, predispone il Piano di indirizzo e lo trasmette al Consiglio regionale per l'approvazione, entro il 31 ottobre.</corpo>
+						<corpo>
+							La Giunta regionale, tenuto conto dei pareri e delle proposte di cui al
+							<rif xlink:href="#art3-com2" xlink:type="simple">comma 2</rif>
+							, predispone il Piano di indirizzo e lo trasmette al Consiglio regionale per l'approvazione, entro il 31 ottobre.
+						</corpo>
 					</comma>
 					<comma id="art3-com4">
 						<num>4.</num>
-						<corpo>Il Consiglio regionale approva il Piano di indirizzo entro il 30 novembre dell'anno di scadenza del precedente Piano.</corpo>
+						<corpo>
+							Il Consiglio regionale approva il Piano di indirizzo entro il 30 novembre dell'anno di scadenza del precedente Piano.
+							<ndr num="#LeggeRegionale1-n5" valore="" xlink:type="simple">(e)</ndr>
+						</corpo>
 					</comma>
 					<comma id="art3-com5">
 						<num>5.</num>
@@ -701,7 +723,7 @@
 				<articolo id="art4" iniziovigore="t5">
 					<num>
 						Art. 4
-						<ndr num="#LeggeRegionale1-n5" valore="" xlink:type="simple">(e)</ndr>
+						<ndr num="#LeggeRegionale1-n6" valore="" xlink:type="simple">(f)</ndr>
 					</num>
 					<rubrica>(Procedure di attuazione)</rubrica>
 					<comma id="art4-com1">
@@ -779,7 +801,7 @@
 				<articolo id="art5">
 					<num>
 						ARTICOLO 5
-						<ndr num="#LeggeRegionale1-n6" valore="" xlink:type="simple">(f)</ndr>
+						<ndr num="#LeggeRegionale1-n7" valore="" xlink:type="simple">(g)</ndr>
 					</num>
 					<rubrica>(Progetti di interesse regionale)</rubrica>
 					<comma id="art5-com1">
@@ -806,7 +828,7 @@
 				<articolo id="art6">
 					<num>
 						ARTICOLO 6
-						<ndr num="#LeggeRegionale1-n7" valore="" xlink:type="simple">(g)</ndr>
+						<ndr num="#LeggeRegionale1-n8" valore="" xlink:type="simple">(h)</ndr>
 					</num>
 					<rubrica>(Concorso finanziario)</rubrica>
 					<comma id="art6-com1">
@@ -837,7 +859,7 @@
 				<articolo id="art7" iniziovigore="t5">
 					<num>
 						Art. 7
-						<ndr num="#LeggeRegionale1-n8" valore="" xlink:type="simple">(h)</ndr>
+						<ndr num="#LeggeRegionale1-n9" valore="" xlink:type="simple">(i)</ndr>
 					</num>
 					<rubrica>(Norme finanziarie)</rubrica>
 					<comma id="art7-com1">
@@ -860,7 +882,7 @@
 				<articolo id="art8">
 					<num>
 						ARTICOLO 8
-						<ndr num="#LeggeRegionale1-n9" valore="" xlink:type="simple">(i)</ndr>
+						<ndr num="#LeggeRegionale1-n10" valore="" xlink:type="simple">(l)</ndr>
 					</num>
 					<rubrica>(Abrogazione)</rubrica>
 					<comma id="art8-com1">
@@ -879,7 +901,7 @@
 				<articolo id="art9">
 					<num>
 						ARTICOLO 9
-						<ndr num="#LeggeRegionale1-n10" valore="" xlink:type="simple">(l)</ndr>
+						<ndr num="#LeggeRegionale1-n11" valore="" xlink:type="simple">(m)</ndr>
 					</num>
 					<rubrica>(Norme transitorie e finali)</rubrica>
 					<comma id="art9-com1">

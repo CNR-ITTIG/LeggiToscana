@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20060810" num="27" tipo="BURT" />
 					<entratainvigore norm="20060825" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2006-08-02;43" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2006-08-02;43" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2006-08-02;43@2006-12-22" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Informazione" />
 					</materie>
@@ -15,11 +16,32 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="20060825" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20091230" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2006-08-02;43" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2006-12-22;64" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2006-12-22;64" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2006-12-22;64#art24-com01" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 24, comma 01 della legge Regione Toscana 22 dicembre 2006, n. 64" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -268,7 +290,12 @@
 					</comma>
 					<comma id="art6-com3">
 						<num>3.</num>
-						<corpo>In prima applicazione, la dotazione organica giornalistica di ciascuna Agenzia è determinata in dieci unità a tempo indeterminato.</corpo>
+						<corpo>
+							In prima applicazione, la dotazione organica giornalistica di ciascuna Agenzia è determinata
+							<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">in dieci unità a tempo indeterminato</h:span>
+							<h:span id="h2" iniziovigore="t2">in diciassette unità a tempo indeterminato per l'Agenzia della Giunta regionale ed in tredici unità a tempo indeterminato per l'Agenzia del Consiglio regionale</h:span>
+							.
+						</corpo>
 					</comma>
 					<comma id="art6-com4">
 						<num>4.</num>
