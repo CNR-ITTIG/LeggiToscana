@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20040607" num="21" tipo="BURT" />
 					<entratainvigore norm="20040622" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2004-05-31;28" />
+					<urn finevigore="t4" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2004-05-31;28" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:2004-05-31;28@2006-12-18" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sicurezza" />
 					</materie>
@@ -17,11 +18,13 @@
 						<evento data="20040622" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20071025" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="20071025" fonte="ra2" id="t3" tipo="modifica" />
+						<evento data="20071025" fonte="rp1" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2004-05-31;28" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1994-10-17;74" xlink:type="simple" />
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:2001-03-23;14" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2006-12-18;62" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -51,6 +54,74 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art10-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2006-12-18;62" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2006-12-18;62#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 18 dicembre 2006, n. 62" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art10-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2006-12-18;62" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2006-12-18;62#art1-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2 della legge Regione Toscana 18 dicembre 2006, n. 62" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art10-com1bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art10-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2006-12-18;62" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2006-12-18;62#art1-com3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 3 della legge Regione Toscana 18 dicembre 2006, n. 62" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art10-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2006-12-18;62" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2006-12-18;62#art1-com3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 3 della legge Regione Toscana 18 dicembre 2006, n. 62" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h5" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art10-com5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2006-12-18;62" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2006-12-18;62#art1-com4" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 4 della legge Regione Toscana 18 dicembre 2006, n. 62" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art10-com5bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -401,11 +472,21 @@
 					<comma id="art10-com1">
 						<num>1.</num>
 						<corpo>
-							I percorsi formativi per coloro che esercitano le attività di estetica e di tatuaggio e piercing, anche in qualità di lavoratori dipendenti, sono predisposti nell'ambito della
+							I percorsi formativi per coloro che esercitano le attività di estetica e di tatuaggio e piercing,
+							<h:span finevigore="t4" id="h1" iniziovigore="t1" status="abrogato">anche in qualità di lavoratori dipendenti</h:span>
+							, sono predisposti nell'ambito della
 							<rif xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32" xlink:type="simple">legge regionale 26 luglio 2002, n. 32</rif>
 							(Testo unico della normativa della Regione Toscana in materia di educazione, istruzione, orientamento, formazione professionale e lavoro) come da ultimo modificata dalla
 							<rif xlink:href="urn:nir:regione.toscana:legge:2003-12-24;65" xlink:type="simple">legge regionale 24 dicembre 2003, n. 65</rif>
 							, e degli atti attuativi della stessa.
+						</corpo>
+					</comma>
+					<comma id="art10-com1bis" iniziovigore="t4">
+						<num>1 bis.</num>
+						<corpo>
+							Per coloro che esercitano attività di estetica come lavoratori autonomi ovvero in forma imprenditoriale, il regolamento regionale di cui all'
+							<rif xlink:href="#art5" xlink:type="simple">articolo 5</rif>
+							disciplina un percorso ulteriore rispetto a chi esercita l'attività come lavoratore dipendente.
 						</corpo>
 					</comma>
 					<comma id="art10-com2">
@@ -417,7 +498,10 @@
 						<corpo>
 							Il regolamento regionale, di cui all'
 							<rif xlink:href="#art5" xlink:type="simple">articolo 5</rif>
-							, disciplina, ai fini del conseguimento della qualifica di estetista e del conseguimento della qualifica di operatore di tatuaggio e piercing, la durata, le materie di insegnamento e le modalità dei rispettivi percorsi formativi, l'attività lavorativa svolta ai fini del conseguimento della qualifica di estetista, la composizione delle commissioni per il superamento dell'esame di cui al
+							, disciplina, ai fini del conseguimento della qualifica di estetista e del conseguimento della qualifica di
+							<h:span finevigore="t4" id="h2" iniziovigore="t1" status="abrogato">operatore di tatuaggio e piercing</h:span>
+							<h:span id="h3" iniziovigore="t4">tecnico qualificato in piercing o tatuaggio</h:span>
+							, la durata, le materie di insegnamento e le modalità dei rispettivi percorsi formativi, l'attività lavorativa svolta ai fini del conseguimento della qualifica di estetista, la composizione delle commissioni per il superamento dell'esame di cui al
 							<rif xlink:href="#art10-com5" xlink:type="simple">comma 5</rif>
 							, secondo quanto previsto dagli articoli 80, 81 ed 82 del regolamento emanato con decreto del Presidente della Giunta regionale 8 agosto 2003, n. 47/R (Regolamento di esecuzione della
 							<rif xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32" xlink:type="simple">LR 26.7.2002, n.32</rif>
@@ -431,12 +515,19 @@
 							<rif xlink:href="#art10-com3" xlink:type="simple">comma 3</rif>
 							, il regolamento regionale, di cui all'
 							<rif xlink:href="#art5" xlink:type="simple">articolo 5</rif>
-							, prevede percorsi formativi abbreviati per coloro che, pur in possesso della qualifica di estetista, intendono conseguire la qualifica di operatore di tatuaggio e di piercing.
+							, prevede percorsi formativi abbreviati per coloro che, pur in possesso della qualifica di estetista, intendono conseguire la qualifica di
+							<h:span finevigore="t4" id="h4" iniziovigore="t1" status="abrogato">operatore di tatuaggio e di piercing</h:span>
+							<h:span id="h5" iniziovigore="t4">tecnico qualificato in piercing o tatuaggio</h:span>
+							.
 						</corpo>
 					</comma>
 					<comma id="art10-com5">
 						<num>5.</num>
 						<corpo>Al termine dei percorsi formativi, di cui ai commi 3 e 4, è previsto il superamento di un esame per il conseguimento della relativa qualifica professionale.</corpo>
+					</comma>
+					<comma id="art10-com5bis" iniziovigore="t4">
+						<num>5 bis.</num>
+						<corpo>La qualifica di estetista rilasciata ai sensi della presente legge assicura i livelli minimi uniformi di preparazione stabiliti dalle leggi statali.</corpo>
 					</comma>
 					<comma id="art10-com6">
 						<num>6.</num>
