@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20061013" num="30" tipo="BURT" />
 					<entratainvigore norm="20061014" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2006-10-05;46" />
+					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2006-10-05;46" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:2006-10-05;46@2007-04-23" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tributi" />
 						<materia valore="Bilancio" />
@@ -17,10 +18,12 @@
 					<eventi>
 						<evento data="20061014" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20061014" fonte="ra1" id="t2" tipo="modifica" />
+						<evento data="20070503" fonte="rp1" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2006-10-05;46" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:2006;3" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2007-04-23;24" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -39,6 +42,32 @@
 							</dsp:novella>
 						</dsp:integrazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-04-23;24" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-04-23;24#art6-com1-letb" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 6, comma 1, lettera b) della legge Regione Toscana 23 aprile 2007, n. 24" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-04-23;24" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-04-23;24#art6-com1-letb" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 6, comma 1, lettera b) della legge Regione Toscana 23 aprile 2007, n. 24" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -77,10 +106,10 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art2">
+				<articolo finevigore="t3" id="art2-t3" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 2</num>
 					<rubrica>(Organismi ed enti dipendenti)</rubrica>
-					<comma id="art2-com1">
+					<comma id="art2-t3-com1">
 						<num>1.</num>
 						<corpo>
 							In relazione a quanto previsto dagli
@@ -106,7 +135,7 @@
 							(Misure di razionalizzazione della finanza regionale al fine di concorrere alla realizzazione degli obiettivi di finanza pubblica) e le disposizioni della presente legge.
 						</corpo>
 					</comma>
-					<comma id="art2-com2">
+					<comma id="art2-t3-com2">
 						<num>2.</num>
 						<corpo>Le economie di spesa e gli utili di esercizio realizzati dagli organismi ed enti dipendenti nell'anno 2006 restano acquisiti ai loro bilanci per il miglioramento dei relativi saldi.</corpo>
 					</comma>
@@ -147,14 +176,14 @@
 						<corpo>Il presente articolo non si applica agli organi di direzione, amministrazione e controllo, nonché agli organi dai quali non derivano effetti di spesa a carico del bilancio della Regione e degli enti ed organismi dipendenti.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art4">
+				<articolo finevigore="t3" id="art4-t3" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 4</num>
 					<rubrica>
 						(Modifiche all'
 						<rif xlink:href="urn:nir:regione.toscana:legge:2006;3#art1" xlink:type="simple">articolo 1 della l.r. 3/2006</rif>
 						)
 					</rubrica>
-					<comma id="art4-com1">
+					<comma id="art4-t3-com1">
 						<num>1.</num>
 						<corpo>
 							<mod id="mod1">
