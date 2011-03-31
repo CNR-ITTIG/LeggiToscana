@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20061229" num="39" tipo="BURT" />
 					<entratainvigore norm="20091230" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2006-12-22;64" />
+					<urn iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2006-12-22;64" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -31,6 +31,7 @@
 						<evento data="20091230" fonte="ra17" id="t18" tipo="modifica" />
 						<evento data="20091230" fonte="ra18" id="t19" tipo="modifica" />
 						<evento data="20091230" fonte="ra19" id="t20" tipo="modifica" />
+						<evento data="20070428" fonte="rp1" id="t21" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2006-12-22;64" xlink:type="simple" />
@@ -53,6 +54,7 @@
 						<attiva id="ra17" xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49" xlink:type="simple" />
 						<attiva id="ra18" xlink:href="urn:nir:regione.toscana:legge:2002-07-01;24" xlink:type="simple" />
 						<attiva id="ra19" xlink:href="urn:nir:regione.toscana:legge:1996-07-29;60" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2007-04-20;21" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -346,6 +348,32 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art36" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-04-20;21" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-04-20;21#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 20 aprile 2007, n. 21" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art36bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art36bis" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-04-20;21" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-04-20;21#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 20 aprile 2007, n. 21" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art36ter" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -1415,6 +1443,73 @@
 								All'onere di spesa di cui al
 								<rif xlink:href="#art36-com1" xlink:type="simple">comma 1</rif>
 								si provvede mediante lo stanziamento iscritto al pertinente capitolo della UPB 112 "Interventi regionali per la sicurezza della comunità toscana - spese correnti" del bilancio di previsione 2007.
+							</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art36bis" iniziovigore="t21">
+						<num>Art. 36 bis</num>
+						<rubrica>Interventi per il superamento della crisi idrica dell'Isola di Giannutri</rubrica>
+						<comma id="art36bis-com1">
+							<num>1.</num>
+							<corpo>Per l'anno 2007 e fino al completamento dell'impianto di produzione di acqua potabile in corso di realizzazione sull'isola di Giannutri, la Giunta regionale è autorizzata ad erogare in favore dell'Autorità di ambito territoriale (AATO) n. 6 "Ombrone" i fondi necessari al trasporto di acqua potabile tramite navi cisterna.</corpo>
+						</comma>
+						<comma id="art36bis-com2">
+							<num>2.</num>
+							<corpo>
+								All'onere di spesa di cui al
+								<rif xlink:href="#art36bis-com1" xlink:type="simple">comma 1</rif>
+								, stimato in euro 490.00,00, si provvede con le risorse stanziate sulla unità previsionale di base (UPB) 426 "Azioni di sistema per la tutela delle risorse idriche - Spese correnti" del bilancio annuale 2007.
+							</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art36ter" iniziovigore="t21">
+						<num>Art. 36 ter</num>
+						<rubrica>Riduzione dello stanziamento previsto per l'anno 2007 in favore del Consorzio LaMMa e rifinanziamento delle attività svolte dall'Istituto di Biometereologia IBIMET del CNR</rubrica>
+						<comma id="art36ter-com1">
+							<num>1.</num>
+							<corpo>
+								Per l'anno 2007, sino alla data di effettiva operatività del Consorzio denominato "Laboratorio di monitoraggio e modellistica ambientale per lo sviluppo sostenibile - LaMMa", promosso con
+								<rif xlink:href="urn:nir:regione.toscana:legge:2005-02-23;35" xlink:type="simple">legge regionale 23 febbraio 2005, n. 35</rif>
+								(Costituzione del Consorzio "Laboratorio di Monitoraggio e Modellistica ambientale per lo sviluppo sostenibile - LaMMa"), la Giunta regionale è autorizzata ad erogare un trasferimento finanziario, nella misura massima di euro 125.000,00 mensili, in favore dell'Istituto di Biometereologia del Consiglio nazionale delle ricerche (IBIMET - CNR), al fine di garantire la prosecuzione delle attività già svolte dall'Istituto medesimo in esecuzione della convenzione quadro pluriennale stipulata tra le parti in data 30 dicembre 2004.
+							</corpo>
+						</comma>
+						<comma id="art36ter-com2">
+							<num>2.</num>
+							<corpo>
+								La concreta determinazione della quota da corrispondere ai sensi del
+								<rif xlink:href="#art36ter-com1" xlink:type="simple">comma 1</rif>
+								avviene secondo i criteri definiti in apposita convenzione da stipulare tra la Regione Toscana e IBIMET- CNR.
+							</corpo>
+						</comma>
+						<comma id="art36ter-com3">
+							<num>3.</num>
+							<corpo>
+								All'onere di spesa di cui al
+								<rif xlink:href="#art36ter-com1" xlink:type="simple">comma 1</rif>
+								si provvede con le risorse stanziate sulla UPB 434 "Sistemi informativi, attività conoscitive e di informazione in campo ambientale - Spese correnti" del bilancio annuale 2007.
+							</corpo>
+						</comma>
+						<comma id="art36ter-com4">
+							<num>4.</num>
+							<corpo>
+								Lo stanziamento di cui all'
+								<rif xlink:href="urn:nir:regione.toscana:legge:2005;35#art14-com4" xlink:type="simple">articolo 14, comma 4, della l.r. 35/2005</rif>
+								, previsto sulla UPB 721 "Gestione corrente - Spese correnti" del bilancio annuale 2007 per la copertura del contributo alle spese di funzionamento del Consorzio LaMMa, è ridotto ad euro 750.000,00 per effetto della ritardata operatività del consorzio stesso.
+							</corpo>
+						</comma>
+						<comma id="art36ter-com5">
+							<num>5.</num>
+							<corpo>
+								Qualora necessario, la Giunta regionale è autorizzata ad apportare nel corso del presente esercizio ulteriori variazioni al bilancio annuale 2007 tra le UPB indicate ai
+								<mrif>
+									commi
+									<rif xlink:href="#art36ter-com3" xlink:type="simple">3</rif>
+									e
+									<rif xlink:href="#art36ter-com4" xlink:type="simple">4</rif>
+								</mrif>
+								, ai sensi dell'
+								<rif xlink:href="urn:nir:regione.toscana:legge:2001-08-06;36#art23-com3" xlink:type="simple">articolo 23, comma 3, della legge regionale 6 agosto 2001, n. 36</rif>
+								(Ordinamento contabile della Regione Toscana).
 							</corpo>
 						</comma>
 					</articolo>
