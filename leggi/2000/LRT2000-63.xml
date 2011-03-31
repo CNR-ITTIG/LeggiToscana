@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t16" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20000814" num="25" tipo="BURT" />
 					<entratainvigore norm="20000829" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2000-08-03;63" />
+					<urn finevigore="t16" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2000-08-03;63" />
+					<urn iniziovigore="t16" valore="urn:nir:regione.toscana:legge:2000-08-03;63@2007-04-23" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Attività Istituzionali" />
 					</materie>
@@ -29,6 +30,7 @@
 						<evento data="20000829" fonte="ra12" id="t13" tipo="modifica" />
 						<evento data="20000829" fonte="ra13" id="t14" tipo="modifica" />
 						<evento data="20000829" fonte="ra14" id="t15" tipo="modifica" />
+						<evento data="20080101" fonte="rp1" id="t16" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2000-08-03;63" xlink:type="simple" />
@@ -46,6 +48,7 @@
 						<attiva id="ra12" xlink:href="urn:nir:regione.toscana:legge:1996;18" xlink:type="simple" />
 						<attiva id="ra13" xlink:href="urn:nir:regione.toscana:legge:1996;18" xlink:type="simple" />
 						<attiva id="ra14" xlink:href="urn:nir:regione.toscana:legge:1996;18" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2007-04-23;23" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -495,6 +498,20 @@
 							</dsp:novella>
 						</dsp:integrazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:2000-08-03;63" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-04-23;23" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-04-23;23#art25-com1-letb" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 25, comma 1, lettera b) della legge Regione Toscana 23 aprile 2007, n. 23" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -674,7 +691,7 @@
 								<virgolette id="mod8-vir1" tipo="struttura">
 									<articolo id="mod8-vir1-art5">
 										<num>Art. 5</num>
-										<rubrica>- Termini per la pubblicazione</rubrica>
+										<rubrica>Termini per la pubblicazione</rubrica>
 										<comma id="mod8-vir1-art5-com1">
 											<num>1.</num>
 											<corpo>Le leggi e i regolamenti della Regione sono pubblicati entro 10 giorni decorrenti rispettivamente dalla data di promulgazione e di emanazione.</corpo>
@@ -815,7 +832,7 @@
 								<virgolette id="mod14-vir1" tipo="struttura">
 									<articolo id="mod14-vir1-art8">
 										<num>Art. 8</num>
-										<rubrica>- Correzione degli errori</rubrica>
+										<rubrica>Correzione degli errori</rubrica>
 										<comma id="mod14-vir1-art8-com1">
 											<num>1.</num>
 											<corpo>Qualora il testo di un atto pubblicato presenti difformità rispetto al testo trasmesso all'ufficio del Bollettino per la stampa, il responsabile dell'ufficio del Bollettino provvede alla correzione mediante pubblicazione di comunicato che indica la parte erronea e la sua esatta formulazione.</corpo>
@@ -900,7 +917,7 @@
 								<virgolette id="mod17-vir1" tipo="struttura">
 									<articolo id="mod17-vir1-art11bis">
 										<num>Art. 11 bis.</num>
-										<rubrica>- Diffusione telematica degli atti regionali.</rubrica>
+										<rubrica>Diffusione telematica degli atti regionali.</rubrica>
 										<comma id="mod17-vir1-art11bis-com1">
 											<num>1.</num>
 											<corpo>Per favorire la trasparenza e agevolare la massima diffusione degli atti normativi e amministrativi della Regione, la versione integrale degli atti pubblicati sul Bollettino Ufficiale ai sensi dell'art. 2 commi 1, 2 e 3 è resa disponibile nella rete telematica regionale. È esclusa la diffusione telematica degli atti che contengono dati personali.</corpo>
@@ -933,7 +950,7 @@
 								<virgolette id="mod18-vir1" tipo="struttura">
 									<articolo id="mod18-vir1-art12">
 										<num>Art. 12</num>
-										<rubrica>- Direzione, redazione e amministrazione</rubrica>
+										<rubrica>Direzione, redazione e amministrazione</rubrica>
 										<comma id="mod18-vir1-art12-com1">
 											<num>1.</num>
 											<corpo>La pubblicazione del Bollettino Ufficiale è curata dalla struttura regionale cui competono l'amministrazione e la redazione del periodico.</corpo>
