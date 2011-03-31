@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20030813" num="35" tipo="BURT" />
 					<entratainvigore norm="20030828" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2003-08-05;44" />
+					<urn finevigore="t8" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2003-08-05;44" />
+					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:2003-08-05;44@2007-05-03" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Ente Regione" />
@@ -22,6 +23,7 @@
 						<evento data="20030828" fonte="ra4" id="t5" tipo="modifica" />
 						<evento data="20030828" fonte="ra5" id="t6" tipo="modifica" />
 						<evento data="20030828" fonte="ra6" id="t7" tipo="modifica" />
+						<evento data="20070510" fonte="rp1" id="t8" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2003-08-05;44" xlink:type="simple" />
@@ -31,6 +33,7 @@
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:2000-03-17;26" xlink:type="simple" />
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:2000-03-17;26" xlink:type="simple" />
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:2000-03-17;26" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2007-05-03;27" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -124,6 +127,23 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art14" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-05-03;27" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-05-03;27#art10-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 10, comma 1 della legge Regione Toscana 3 maggio 2007, n. 27" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art14" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art14-t8" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -558,10 +578,10 @@
 							<corpo>La mobilità dei dirigenti dalla struttura di massima dimensione cui sono assegnati ad altra è disposta, sentito il dirigente interessato, dal direttore generale competente in materia di personale, su richiesta del direttore generale della struttura di destinazione, sentito il direttore generale della struttura di provenienza.</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art14">
+					<articolo finevigore="t8" id="art14-t8" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 14</num>
 						<rubrica>(Dirigenti a contratto)</rubrica>
-						<comma id="art14-com1">
+						<comma id="art14-t8-com1">
 							<num>1.</num>
 							<corpo>
 								Gli incarichi previsti dall'
@@ -573,9 +593,43 @@
 								.
 							</corpo>
 						</comma>
-						<comma id="art14-com2">
+						<comma id="art14-t8-com2">
 							<num>2.</num>
 							<corpo>I dirigenti a contratto vengono scelti in relazione alle funzioni da svolgere tra soggetti in possesso di diploma di laurea conseguito in corso di durata almeno quadriennale, o laurea specialistica, che abbiano conseguito una particolare specializzazione professionale, culturale e scientifica, desumibile da concrete esperienze di lavoro maturate anche in posizioni dirigenziali o nella qualifica immediatamente inferiore a quella dirigenziale in enti pubblici, o in analoghe posizioni presso enti pubblici economici o aziende private.</corpo>
+						</comma>
+						<comma id="art14-t8-com3">
+							<num>3.</num>
+							<corpo>
+								Il contratto di cui al
+								<rif xlink:href="#art14-t8-com1" xlink:type="simple">comma 1</rif>
+								non può avere durata superiore a cinque anni ed è rinnovabile.
+							</corpo>
+						</comma>
+						<comma id="art14-t8-com4">
+							<num>4.</num>
+							<corpo>L'incarico di cui al presente articolo è conferito a soggetti provenienti dal settore pubblico previo collocamento in aspettativa o fuori ruolo, secondo l'ordinamento dell'amministrazione di provenienza.</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art14" iniziovigore="t8">
+						<num>Art. 14</num>
+						<rubrica>Dirigenti con contratto a tempo determinato</rubrica>
+						<comma id="art14-com1">
+							<num>1.</num>
+							<corpo>
+								Gli incarichi previsti dall'
+								<mrif>
+									<rif xlink:href="#art9" xlink:type="simple">articolo 9</rif>
+									e dall'
+									<rif xlink:href="#art12" xlink:type="simple">articolo 12</rif>
+								</mrif>
+								, al fine di sopperire ad individuate esigenze della struttura operativa, e limitatamente ad un numero di posti non superiore al 10 per cento della dotazione organica della qualifica dirigenziale, possono essere conferiti dal direttore generale della struttura competente in materia di personale, su proposta del direttore generale della struttura di assegnazione, con contratto di diritto privato a tempo determinato. Alla copertura dei posti della dotazione organica della qualifica dirigenziale del Consiglio regionale provvede il direttore generale della struttura competente in materia di personale in conformità alla richiesta del segretario generale del Consiglio regionale di cui all'
+								<rif xlink:href="#art24" xlink:type="simple">articolo 24</rif>
+								.
+							</corpo>
+						</comma>
+						<comma id="art14-com2">
+							<num>2.</num>
+							<corpo>I dirigenti con contratto a tempo determinato vengono scelti in relazione alle funzioni da svolgere tra soggetti in possesso del diploma di laurea conseguito in corso di durata almeno quadriennale, o di laurea specialistica, che abbiano conseguito una particolare capacità professionale, culturale e scientifica, desumibile da concrete esperienze di lavoro maturate anche in posizioni dirigenziali o nella qualifica immediatamente inferiore a quella dirigenziale in enti pubblici, o in analoghe posizioni presso enti pubblici economici o aziende private.</corpo>
 						</comma>
 						<comma id="art14-com3">
 							<num>3.</num>
@@ -587,7 +641,17 @@
 						</comma>
 						<comma id="art14-com4">
 							<num>4.</num>
-							<corpo>L'incarico di cui al presente articolo è conferito a soggetti provenienti dal settore pubblico previo collocamento in aspettativa o fuori ruolo, secondo l'ordinamento dell'amministrazione di provenienza.</corpo>
+							<corpo>L'incarico di cui al presente articolo è conferito a soggetti provenienti dal settore pubblico, ivi compresi i dipendenti della Regione Toscana, previo collocamento in aspettativa o fuori ruolo, secondo l'ordinamento dell'amministrazione di provenienza.</corpo>
+						</comma>
+						<comma id="art14-com5">
+							<num>5.</num>
+							<corpo>
+								I dipendenti regionali possono chiedere di essere collocati in aspettativa qualora vengano assunti a tempo determinato da altri enti pubblici come dirigenti con contratto a tempo determinato o con incarico di alta specializzazione di cui all'
+								<rif xlink:href="urn:nir:stato:decreto.legislativo:2000-08-18;267#art110" xlink:type="simple">articolo 110 del decreto legislativo 18 agosto 2000, n. 267</rif>
+								(Testo unico delle leggi sull'ordinamento degli enti locali), da ultimo modificato dalla
+								<rif xlink:href="urn:nir:stato:legge:2000-12-23;388" xlink:type="simple">legge 23 dicembre 2000, n. 388</rif>
+								.
+							</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art15">
