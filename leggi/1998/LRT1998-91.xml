@@ -12,7 +12,8 @@
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1998-12-11;91@1999-04-15" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1998-12-11;91@2001-01-16" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1998-12-11;91@2003-12-29" />
-					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1998-12-11;91@2005-02-01" />
+					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1998-12-11;91@2005-02-01" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1998-12-11;91@2007-05-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tutela Ambientale" />
 						<materia valore="Protezione Civile" />
@@ -26,6 +27,7 @@
 						<evento data="20010124" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="20040122" fonte="rp4" id="t5" tipo="modifica" />
 						<evento data="20050225" fonte="rp5" id="t6" tipo="modifica" />
+						<evento data="20070525" fonte="rp6" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-12-11;91" xlink:type="simple" />
@@ -34,6 +36,7 @@
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2001-01-16;1" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2003-12-29;67" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2005-02-01;27" xlink:type="simple" />
+						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2007-05-21;29" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -180,6 +183,30 @@
 							</dsp:norma>
 							<dsp:novella>
 								<dsp:pos xlink:href="#art12-com1ter" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art12" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-05-21;29" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-05-21;29#art11-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 11, comma 1 della legge Regione Toscana 21 maggio 2007, n. 29" id="itt12" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art12bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art14" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-05-21;29" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-05-21;29#art12-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 12, comma 1 della legge Regione Toscana 21 maggio 2007, n. 29" id="itt13" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art14bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 					</modifichepassive>
@@ -710,6 +737,44 @@
 							</corpo>
 						</comma>
 					</articolo>
+					<articolo id="art12bis" iniziovigore="t7">
+						<num>Art. 12 bis</num>
+						<rubrica>Disposizioni regionali per la riduzione e l'ottimizzazione dei consumi di acqua erogata per usi diversi da quello idropotabile</rubrica>
+						<comma id="art12bis-com1">
+							<num>1.</num>
+							<corpo>La Regione promuove iniziative per la riduzione dei consumi irrigui e produttivi e per il risparmio idrico, nonché per la costituzione di riserve idriche.</corpo>
+						</comma>
+						<comma id="art12bis-com2">
+							<num>2.</num>
+							<corpo>La Giunta regionale, acquisito il parere delle province e delle Autorità di bacino, emana un regolamento finalizzato alla riduzione dei consumi da parte dei soggetti che utilizzano acque a scopi diversi da quelli idropotabili, con particolare riferimento agli usi irrigui e produttivi.</corpo>
+						</comma>
+						<comma id="art12bis-com3">
+							<num>3.</num>
+							<corpo>Il regolamento persegue la riduzione dei consumi, la tutela della risorsa, la prevenzione delle crisi idriche, anche incidendo sulle concessioni di derivazione e sui relativi canoni; definisce i criteri per la costituzione di riserve di acqua e per il riutilizzo delle acque.</corpo>
+						</comma>
+						<comma id="art12bis-com4">
+							<num>4.</num>
+							<corpo>La violazione degli obblighi e divieti contenuti nel regolamento di cui al comma 2 comporta l'applicazione della sanzione amministrativa pecuniaria da euro 1.000,00 a 6.000,00.</corpo>
+						</comma>
+						<comma id="art12bis-com5">
+							<num>5.</num>
+							<corpo>
+								Le funzioni di vigilanza e controllo sul rispetto degli obblighi e divieti contenuti nel regolamento di cui al presente articolo, nonché le funzioni di applicazione delle sanzioni amministrative e l'introito dei relativi proventi, spettano alle province competenti, ai sensi degli
+								<mrif>
+									articoli
+									<rif xlink:href="urn:nir:regione.toscana:legge:2000;81#art9" xlink:type="simple">9</rif>
+									e
+									<rif xlink:href="urn:nir:regione.toscana:legge:2000;81#art10" xlink:type="simple">10</rif>
+									della l.r. 81/2000
+								</mrif>
+								.
+							</corpo>
+						</comma>
+						<comma id="art12bis-com6">
+							<num>6.</num>
+							<corpo>Restano ferme le competenze dei soggetti cui sono attribuiti i poteri di accertamento e contestazione di illeciti amministrativi in base alle vigenti leggi.</corpo>
+						</comma>
+					</articolo>
 					<articolo id="art13">
 						<num>Art. 13</num>
 						<rubrica>(Riorganizzazione degli Uffici del Genio Civile)</rubrica>
@@ -842,6 +907,32 @@
 								<rif xlink:href="urn:nir:regione.toscana:legge:1994-05-05;34" xlink:type="simple">legge regionale 5 maggio 1994, n. 34</rif>
 								(Norme in materia di bonifica), ricadenti nello stesso ambito di difesa del suolo, cartografia allegato "B".
 							</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art14bis" iniziovigore="t7">
+						<num>Art. 14 bis</num>
+						<rubrica>Piano provinciale per la gestione sostenibile degli usi della risorsa idrica</rubrica>
+						<comma id="art14bis-com1">
+							<num>1.</num>
+							<corpo>
+								Le province predispongono un piano di regolazione degli usi delle acque superficiali e sotterranee, finalizzato a garantire un'equilibrata distribuzione della risorsa disponibile, tenuto conto di quanto stabilito dall'Autorità di bacino ai sensi degli
+								<mrif>
+									articoli
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:2006;152#art65" xlink:type="simple">65</rif>
+									e
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:2006;152#art145" xlink:type="simple">145</rif>
+									del d.lgs. 152/2006
+								</mrif>
+								, degli indirizzi, degli obiettivi e delle misure definite dal piano di tutela delle acque (PTA), nonché delle esigenze idropotabili, ambientali e produttivi del territorio di riferimento.
+							</corpo>
+						</comma>
+						<comma id="art14bis-com2">
+							<num>2.</num>
+							<corpo>Il piano di cui al comma 1 contiene altresì le linee strategiche per la tempestiva adozione delle misure necessarie a fronteggiare situazioni di crisi idrica e a mitigarne gli effetti sull'intero sistema territoriale, ambientale e produttivo.</corpo>
+						</comma>
+						<comma id="art14bis-com3">
+							<num>3.</num>
+							<corpo>Il piano può essere sviluppato per stralci o approfondimenti successivi sulla base delle criticità ed è aggiornato annualmente.</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art15">
