@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20040107" num="1" tipo="BURT" />
 					<entratainvigore norm="20040122" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2003-12-29;67" />
+					<urn finevigore="t10" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2003-12-29;67" />
+					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:2003-12-29;67@2007-06-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Protezione Civile" />
 						<materia valore="Ordinamento" />
@@ -24,6 +25,7 @@
 						<evento data="20040122" fonte="ra6" id="t7" tipo="modifica" />
 						<evento data="20040122" fonte="ra7" id="t8" tipo="modifica" />
 						<evento data="20040724" fonte="ra8" id="t9" tipo="modifica" />
+						<evento data="20070717" fonte="rp1" id="t10" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2003-12-29;67" xlink:type="simple" />
@@ -35,6 +37,7 @@
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1998-12-11;91" xlink:type="simple" />
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:2000-03-20;30" xlink:type="simple" />
 						<attiva id="ra8" xlink:href="urn:nir:regione.toscana:legge:1988;14" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2007-06-21;35" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -143,6 +146,20 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8-com5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-06-21;35" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-06-21;35#art15-com1-letb" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 15, comma 1, lettera b) della legge Regione Toscana 21 giugno 2007, n. 35" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art8-com5-t10" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -580,7 +597,7 @@
 									(Disposizioni in materia di riordino territoriale e di incentivazione delle forme associate di comuni) e dei relativi provvedimenti di attuazione.
 								</corpo>
 							</comma>
-							<comma id="art8-com5">
+							<comma finevigore="t10" id="art8-com5-t10" iniziovigore="t1" status="abrogato">
 								<num>5.</num>
 								<corpo>
 									Ai fini delle incentivazioni previste dalla
