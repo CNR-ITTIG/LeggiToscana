@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t11" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20030416" num="16" tipo="BURT" />
 					<entratainvigore norm="20030417" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2003-04-04;17" />
+					<urn finevigore="t11" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2003-04-04;17" />
+					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:2003-04-04;17@2007-07-13" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Contabilità Contratti" />
@@ -25,6 +26,7 @@
 						<evento data="20030417" fonte="ra7" id="t8" tipo="modifica" />
 						<evento data="20030417" fonte="ra8" id="t9" tipo="modifica" />
 						<evento data="20030417" fonte="ra9" id="t10" tipo="modifica" />
+						<evento data="20070916" fonte="rp1" id="t11" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2003-04-04;17" xlink:type="simple" />
@@ -37,6 +39,7 @@
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:2001-03-08;12" xlink:type="simple" />
 						<attiva id="ra8" xlink:href="urn:nir:regione.toscana:legge:2001-03-08;12" xlink:type="simple" />
 						<attiva id="ra9" xlink:href="urn:nir:regione.toscana:legge:2001-03-08;12" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2007-07-13;38" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -297,6 +300,20 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:2003-04-04;17" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-07-13;38" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-07-13;38#art69-com1-lete" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 69, comma 1, lettera e) della legge Regione Toscana 13 luglio 2007, n. 38" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>

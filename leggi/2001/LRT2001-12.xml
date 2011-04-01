@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t9" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20010316" num="9" tipo="BURT" />
@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t7" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2001-03-08;12" />
 					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:2001-03-08;12@2002-05-27" />
-					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:2001-03-08;12@2003-04-04" />
+					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:2001-03-08;12@2003-04-04" />
+					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:2001-03-08;12@2007-07-13" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Contabilità Contratti" />
 					</materie>
@@ -24,6 +25,7 @@
 						<evento data="20010331" fonte="ra5" id="t6" tipo="modifica" />
 						<evento data="20020704" fonte="rp1" id="t7" tipo="modifica" />
 						<evento data="20030417" fonte="rp2" id="t8" tipo="modifica" />
+						<evento data="20070916" fonte="rp3" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2001-03-08;12" xlink:type="simple" />
@@ -34,6 +36,7 @@
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1981-06-25;54" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2002-05-27;18" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2003-04-04;17" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2007-07-13;38" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -508,6 +511,18 @@
 								<dsp:pos xlink:href="#art34-com1-letb-t8" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:2001-03-08;12" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-07-13;38" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-07-13;38#art69-com1-leta" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 69, comma 1, lettera a) della legge Regione Toscana 13 luglio 2007, n. 38" id="itt30" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -526,7 +541,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>DISPOSIZIONI GENERALI E DI PRINCIPIO</rubrica>
 					<articolo id="art1">
@@ -571,7 +586,7 @@
 							<num>4 bis.</num>
 							<corpo>
 								Le procedure di scelta del contraente di cui al
-								<rif xlink:href="#tit2" xlink:type="simple">Titolo II</rif>
+								<rif xlink:href="#LeggeRegionale1-tit2" xlink:type="simple">Titolo II</rif>
 								della presente legge non si applicano agli appalti espressamente esclusi dall'applicazione delle normative europee, nei casi in cui gli stessi sono disciplinati da specifiche disposizioni.
 							</corpo>
 						</comma>
@@ -856,10 +871,10 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>SCELTA DEL CONTRAENTE</rubrica>
-					<capo id="tit2-cap1">
+					<capo id="LeggeRegionale1-tit2-cap1">
 						<num>CAPO I</num>
 						<rubrica>NORME COMUNI</rubrica>
 						<articolo finevigore="t8" id="art8-t8" iniziovigore="t1" status="abrogato">
@@ -1115,7 +1130,7 @@
 							</comma>
 						</articolo>
 					</capo>
-					<capo id="tit2-cap2">
+					<capo id="LeggeRegionale1-tit2-cap2">
 						<num>CAPO II</num>
 						<rubrica>PROCEDURE APERTE E RISTRETTE</rubrica>
 						<articolo id="art12">
@@ -1565,7 +1580,7 @@
 							</comma>
 						</articolo>
 					</capo>
-					<capo id="tit2-cap3">
+					<capo id="LeggeRegionale1-tit2-cap3">
 						<num>CAPO III</num>
 						<rubrica>PROCEDURE NEGOZIATE</rubrica>
 						<articolo id="art20">
@@ -1957,7 +1972,7 @@
 						</articolo>
 					</capo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>TITOLO III</num>
 					<rubrica>IL CONTRATTO</rubrica>
 					<articolo id="art25">
@@ -2209,7 +2224,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit4">
+				<titolo id="LeggeRegionale1-tit4">
 					<num>TITOLO IV</num>
 					<rubrica>DISPOSIZIONI TRANSITORIE E FINALI</rubrica>
 					<articolo id="art33">
