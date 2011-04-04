@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t11" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19910919" num="56" tipo="BURT" />
 					<entratainvigore norm="19911004" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1991-09-09;48" />
+					<urn finevigore="t11" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1991-09-09;48" />
+					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1991-09-09;48@2005-02-07" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Informazione" />
 						<materia valore="Commercio" />
@@ -25,6 +26,7 @@
 						<evento data="19911004" fonte="ra7" id="t8" tipo="modifica" />
 						<evento data="19911004" fonte="ra8" id="t9" tipo="modifica" />
 						<evento data="19911004" fonte="ra9" id="t10" tipo="modifica" />
+						<evento data="20070701" fonte="rp1" id="t11" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1991-09-09;48" xlink:type="simple" />
@@ -37,6 +39,7 @@
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:1982-07-19;61" xlink:type="simple" />
 						<attiva id="ra8" xlink:href="urn:nir:regione.toscana:legge:1982-07-19;61" xlink:type="simple" />
 						<attiva id="ra9" xlink:href="urn:nir:regione.toscana:legge:1982-07-19;61" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2005-02-07;28" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -156,6 +159,20 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#??" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-02-07;28" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-02-07;28#art111bis-com2-letb" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo111bis, comma2, letterab, legge Regione Toscana 7 febbraio 2005, n. 28" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -192,20 +209,24 @@
 										<rubrica>(Indirizzi per la redazione dei piani di localizzazione)</rubrica>
 										<comma id="mod1-vir1-art5-com1">
 											<num />
-											<alinea>Sulla base delle informazioni e delle valutazioni di cui all'articolo precedente, i Comuni sono tenuti ad adottare il Piano di localizzazione dei punti ottimali di vendita. Con il piano di localizzazione i Comuni:</alinea>
-											<el id="mod1-vir1-art5-com1-leta">
+											<corpo>Sulla base delle informazioni e delle valutazioni di cui all'articolo precedente, i Comuni sono tenuti ad adottare il Piano di localizzazione dei punti ottimali di vendita.</corpo>
+										</comma>
+										<comma id="mod1-vir1-art5-com2">
+											<num />
+											<alinea>Con il piano di localizzazione i Comuni:</alinea>
+											<el id="mod1-vir1-art5-com2-leta">
 												<num>a)</num>
 												<corpo>determinano il numero complessivo dei punti di vendita nell'ambito del territorio comunale; all'interno di ciascuna delle zone I, II e III, individuano le aree di localizzazione, il numero dei punti di vendita per ciascuna area, nonché i criteri di ubicazione dei punti di vendita all'interno dell' area stessa,</corpo>
 											</el>
-											<el id="mod1-vir1-art5-com1-letb">
+											<el id="mod1-vir1-art5-com2-letb">
 												<num>b)</num>
 												<corpo>nell'ambito della zona IV, determinano le sole aree di localizzazione dei punti vendita, dovendosi tenere conto in modo particolare delle condizioni di accesso e della esigenza di non condizionare la diffusione della stampa al rispetto di standards numerici predeterminati;</corpo>
 											</el>
-											<el id="mod1-vir1-art5-com1-letc">
+											<el id="mod1-vir1-art5-com2-letc">
 												<num>c)</num>
 												<corpo>qualora l'attività di rivendita sia esercitata in apposite edicole, determinano altresì le caratteristiche tipologiche delle stesse al fine si assicurare la superficie più idonea all'esercizio dell'attività, compatibilmente agli altri interessi di uso pubblico del suolo, nonché al fine di salvaguardare, ove necessario, le caratteristiche ambientali della zona. A tale scopo il rilascio dell'autorizzazione da parte del Comune deve essere contestuale alla relativa concessione edilizia;</corpo>
 											</el>
-											<el id="mod1-vir1-art5-com1-letd">
+											<el id="mod1-vir1-art5-com2-letd">
 												<num>d)</num>
 												<corpo>
 													individuano gli esercizi della grande distribuzione, le librerie e le rivendite di tabacchi all'interno dei quali può essere autorizzata la vendita di giornali, quotidiani e periodici ai sensi del
@@ -215,14 +236,26 @@
 													;
 												</corpo>
 											</el>
-											<el id="mod1-vir1-art5-com1-lete">
+											<el id="mod1-vir1-art5-com2-lete">
 												<num>e)</num>
 												<corpo>ai fini del rilascio di autorizzazioni a carattere stagionale, indicano il numero e la localizzazione dei punti di vendita destinati ad assorbire la domanda aggiuntiva determinata da rilevanti flussi di popolazione non residente con particolare riguardo alle correnti turistiche stagionali risultanti dalle rilevazioni di cui all'art. 4.</corpo>
 											</el>
-											<el id="mod1-vir1-art5-com1-letf">
+											<el id="mod1-vir1-art5-com2-letf">
 												<num>f)</num>
-												<corpo>prevedono comunque la localizzazione di rivendite di giornali e periodici all'interno di stazioni ferroviarie, aeroporti, autostazioni, aree di servizio autostradali, ospedali, case di riposo, caserme, carceri ed in genere all'interno di quelle strutture in cui la vendita sia rivolta ad una cerchia determinata di utenti. I Comuni con popolazione inferiore a 20.000 abitanti applicano le disposizioni di cui al secondo comma, lettera a), del presente articolo in conformità alla diversa partizione territoriale operata ai sensi dell'art. 4, ultimo comma. Al fine di evitare casi di sovradimensionamento della rete distributiva su singole zone, nella predisposizione del Piano di localizzazione si deve tenere conto anche di punti vendita posti nei comuni limitrofi qualora siano ubicati ad una distanza inferiore a mt. 200 dal confine comunale. A tal fine deve darsi notizia ai Comuni limitrofi dell'adozione del Piano di localizzazione e del suo contenuto. Al medesimo fine, fino all'approvazione del Piano, il rilascio dell'autorizzazione è subordinata all'osservanza di una distanza non inferiore a mt. 400 da eventuali punti vendita localizzati nei Comuni limitrofi</corpo>
+												<corpo>prevedono comunque la localizzazione di rivendite di giornali e periodici all'interno di stazioni ferroviarie, aeroporti, autostazioni, aree di servizio autostradali, ospedali, case di riposo, caserme, carceri ed in genere all'interno di quelle strutture in cui la vendita sia rivolta ad una cerchia determinata di utenti.</corpo>
 											</el>
+										</comma>
+										<comma id="mod1-vir1-art5-com3">
+											<num />
+											<corpo>I Comuni con popolazione inferiore a 20.000 abitanti applicano le disposizioni di cui al secondo comma, lettera a), del presente articolo in conformità alla diversa partizione territoriale operata ai sensi dell'art. 4, ultimo comma.</corpo>
+										</comma>
+										<comma id="mod1-vir1-art5-com4">
+											<num />
+											<corpo>Al fine di evitare casi di sovradimensionamento della rete distributiva su singole zone, nella predisposizione del Piano di localizzazione si deve tenere conto anche di punti vendita posti nei comuni limitrofi qualora siano ubicati ad una distanza inferiore a mt. 200 dal confine comunale. A tal fine deve darsi notizia ai Comuni limitrofi dell'adozione del Piano di localizzazione e del suo contenuto.</corpo>
+										</comma>
+										<comma id="mod1-vir1-art5-com5">
+											<num />
+											<corpo>Al medesimo fine, fino all'approvazione del Piano, il rilascio dell'autorizzazione è subordinata all'osservanza di una distanza non inferiore a mt. 400 da eventuali punti vendita localizzati nei Comuni limitrofi</corpo>
 										</comma>
 									</articolo>
 								</virgolette>
@@ -341,8 +374,12 @@
 											<corpo>
 												In caso di chiusura temporanea e ricorrente dei punti fissi di rivendita o comunque di impedimento temporaneo dei titolari, questi devono provvedere all'affidamento in gestione a terzi, ai sensi dell'
 												<rif xlink:href="urn:nir:stato:legge:1981;41#art14-com1" xlink:type="simple">art. 14, comma 1, L. 41/81</rif>
-												. Trascorsi trenta giorni, se non si sia adempiuto a tale obbligo, ed all'erogazione del servizio non provvedano le imprese editrici e di distribuzione, il Comune ai soli fini e limitatamente al tempo necessario alla continuazione del servizio, può rilasciare a terzi, titolari o meno di altra licenza di esercizio di attività commerciale, un'autorizzazione temporanea alla vendita, anche porta a porta, di quotidiani e periodici
+												.
 											</corpo>
+										</comma>
+										<comma id="mod4-vir1-art8-com2">
+											<num />
+											<corpo>Trascorsi trenta giorni, se non si sia adempiuto a tale obbligo, ed all'erogazione del servizio non provvedano le imprese editrici e di distribuzione, il Comune ai soli fini e limitatamente al tempo necessario alla continuazione del servizio, può rilasciare a terzi, titolari o meno di altra licenza di esercizio di attività commerciale, un'autorizzazione temporanea alla vendita, anche porta a porta, di quotidiani e periodici</corpo>
 										</comma>
 									</articolo>
 								</virgolette>
@@ -393,8 +430,12 @@
 											<corpo>
 												In attuazione del disposto di cui al
 												<rif xlink:href="urn:nir:stato:legge:1981;416#art14-com9" xlink:type="simple">nono comma dell'art. 14 della L. 416/1981</rif>
-												in mancanza di Piano comunale, qualora nel territorio del comune, di una frazione di comune ovvero di una circoscrizione comunale non esistano punti di vendita, il Sindaco è tenuto a rilasciare l'autorizzazione per la prima rivendita anche ad esercizi esistenti, quali esercizi della grande distribuzione, librerie e rivendite di tabacchi. È parimenti dovuta, fino all'approvazione del Piano, l'autorizzazione qualora nelle aree urbane non esistano alcuni punti fissi di rivendita ad una distanza stradale, calcolata per il percorso più breve, di mt. 400
+												in mancanza di Piano comunale, qualora nel territorio del comune, di una frazione di comune ovvero di una circoscrizione comunale non esistano punti di vendita, il Sindaco è tenuto a rilasciare l'autorizzazione per la prima rivendita anche ad esercizi esistenti, quali esercizi della grande distribuzione, librerie e rivendite di tabacchi.
 											</corpo>
+										</comma>
+										<comma id="mod6-vir1-art10-com2">
+											<num />
+											<corpo>È parimenti dovuta, fino all'approvazione del Piano, l'autorizzazione qualora nelle aree urbane non esistano alcuni punti fissi di rivendita ad una distanza stradale, calcolata per il percorso più breve, di mt. 400</corpo>
 										</comma>
 									</articolo>
 								</virgolette>
