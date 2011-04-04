@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19981231" num="45" tipo="BURT" />
 					<entratainvigore norm="19981231" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1998-12-23;100" />
+					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1998-12-23;100" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1998-12-23;100@2007-07-27" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Trasporti" />
 					</materie>
@@ -16,10 +17,12 @@
 					<eventi>
 						<evento data="19981231" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19981231" fonte="ra1" id="t2" tipo="modifica" />
+						<evento data="20070731" fonte="rp1" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-12-23;100" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1983-05-18;33" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -37,6 +40,38 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com1-letg" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40#art32-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 32, comma 1 della legge Regione Toscana 27 luglio 2007, n. 40" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com1-letg" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com1-letg-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40#art33-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 33, comma 1 della legge Regione Toscana 27 luglio 2007, n. 40" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -154,9 +189,17 @@
 							<num>f)</num>
 							<corpo>ai mutilati e invalidi di guerra;</corpo>
 						</el>
-						<el id="art2-com1-letg">
+						<el finevigore="t3" id="art2-com1-letg-t3" iniziovigore="t1" status="abrogato">
 							<num>g)</num>
 							<corpo>ai Cavalieri di Vittorio Veneto o ai perseguitati politici antifascisti o razziali riconosciuti;</corpo>
+						</el>
+						<el id="art2-com1-letg" iniziovigore="t3">
+							<num>g)</num>
+							<corpo>
+								ai Cavalieri di Vittorio Veneto, ai titolari del diploma d'onore al combattente istituito con
+								<rif xlink:href="urn:nir:stato:legge:1983-03-16;75" xlink:type="simple">legge 16 marzo 1983, n. 75</rif>
+								(Concessione di un diploma d'onore attestante la qualifica di combattente per la libertà d'Italia 1943-1945), ai decorati al valor militare, ai perseguitati politici antifascisti o razziali riconosciuti;
+							</corpo>
 						</el>
 						<el id="art2-com1-leth">
 							<num>h)</num>
@@ -224,10 +267,10 @@
 						<corpo>Gli enti locali possono estendere, provvedendo alla necessaria copertura finanziaria, le agevolazioni di cui alla presente legge a categorie a rischio e a particolari soggetti svantaggiati, ivi compresi soggetti non appartenenti alla Unione Europea secondo i criteri e le modalità previsti dalla presente legge, sulla base di specifici accordi con le aziende di trasporto pubblico locale.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art4">
+				<articolo finevigore="t3" id="art4-t3" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 4</num>
 					<rubrica>(Criteri per la determinazione del reddito)</rubrica>
-					<comma id="art4-com1">
+					<comma id="art4-t3-com1">
 						<num>1.</num>
 						<alinea>
 							Ai fini della determinazione dei limiti di reddito previsti, rispettivamente, quali condizione per il rilascio dei titoli di viaggio in favore dei cittadini di età superiore ai 65 anni ai sensi dell'
@@ -236,14 +279,32 @@
 							<rif xlink:href="#art3" xlink:type="simple">art. 3</rif>
 							:
 						</alinea>
-						<el id="art4-com1-leta">
+						<el id="art4-t3-com1-leta">
 							<num>a)</num>
 							<corpo>non si computa il reddito derivante dall'unità immobiliare di proprietà sempre che la stessa sia adibita ad abitazione e costituisca l'unica immobiliare posseduta</corpo>
 						</el>
-						<el id="art4-com1-letb">
+						<el id="art4-t3-com1-letb">
 							<num>b)</num>
 							<corpo>si considera incrementato del 25% il rilimite di reddito per coloro che vivono soli o in un nucleo familiare in cui non sono previsti altri redditi.</corpo>
 						</el>
+					</comma>
+				</articolo>
+				<articolo id="art4" iniziovigore="t3">
+					<num>Art. 4</num>
+					<rubrica>Criteri per la determinazione del reddito</rubrica>
+					<comma id="art4-com1">
+						<num>1.</num>
+						<corpo>
+							I limiti di reddito previsti, rispettivamente, quali condizione per il rilascio dei titoli di viaggio in favore dei cittadini di età superiore ai sessantacinque anni ai sensi dell'
+							<rif xlink:href="#art2-com1-leth" xlink:type="simple">articolo 2, lettera h)</rif>
+							, e quali condizione per l'accesso alla fruizione delle riduzioni di tariffa, vengono stabiliti a seguito della valutazione della situazione economica del richiedente, effettuata con lo strumento dell'indicatore della situazione economica equivalente (ISEE), disciplinato dal
+							<rif xlink:href="urn:nir:stato:decreto.legislativo:1998-03-31;109" xlink:type="simple">decreto legislativo 31 marzo 1998, n. 109</rif>
+							(Definizioni di criteri unificati di valutazione della situazione economica dei soggetti che richiedono prestazioni sociali agevolate, a norma dell'
+							<rif xlink:href="urn:nir:stato:legge:1997-12-27;449#art59-com51" xlink:type="simple">articolo 59, comma 51 della l. 27 dicembre 1997, n. 449</rif>
+							), modificato dal
+							<rif xlink:href="urn:nir:stato:decreto.legislativo:2000-05-03;130" xlink:type="simple">decreto legislativo 3 maggio 2000, n. 130</rif>
+							.
+						</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art5">

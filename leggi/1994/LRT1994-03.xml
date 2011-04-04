@@ -14,7 +14,8 @@
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1994-01-12;3@2002-10-11" />
 					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1994-01-12;3@2005-02-23" />
 					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1994-01-12;3@2005-07-25" />
-					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1994-01-12;3@2007-04-04" />
+					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1994-01-12;3@2007-04-04" />
+					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1994-01-12;3@2007-07-27" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Fauna" />
 						<materia valore="Caccia" />
@@ -30,6 +31,7 @@
 						<evento data="20050319" fonte="rp5" id="t6" tipo="modifica" />
 						<evento data="20050804" fonte="rp6" id="t7" tipo="modifica" />
 						<evento data="20070426" fonte="rp7" id="t8" tipo="modifica" />
+						<evento data="20070731" fonte="rp8" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-01-12;3" xlink:type="simple" />
@@ -40,6 +42,7 @@
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2005-02-23;34" xlink:type="simple" />
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2005-07-25;47" xlink:type="simple" />
 						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:2007-04-04;19" xlink:type="simple" />
+						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -349,6 +352,36 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art34-t8" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art46-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40#art4-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1 della legge Regione Toscana 27 luglio 2007, n. 40" id="itt22" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art46-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art46-com1-t9" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art48" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40#art5-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 1 della legge Regione Toscana 27 luglio 2007, n. 40" id="itt23" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art48" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art48-t9" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -894,7 +927,7 @@
 								<num>b)</num>
 								<corpo>
 									gli interventi diretti alla valorizzazione, tutela e conservazione delle specie selvatiche e dell'ambiente, di cui all'
-									<rif xlink:href="#art48" xlink:type="simple">art. 48</rif>
+									<rif xlink:href="#art48-t9" xlink:type="simple">art. 48</rif>
 									;
 								</corpo>
 							</el>
@@ -2833,7 +2866,7 @@
 					<articolo id="art46">
 						<num>ARTICOLO 46</num>
 						<rubrica>(Miglioramenti ambientali)</rubrica>
-						<comma id="art46-com1">
+						<comma finevigore="t9" id="art46-com1-t9" iniziovigore="t1" status="abrogato">
 							<num>1.</num>
 							<corpo>
 								Ai proprietari o conduttori di fondi, per la realizzazione di progetti per la valorizzazione del territorio, l'incremento della fauna selvatica, il ripristino degli equilibri naturali, secondo le indicazioni previste dagli indirizzi di cui al
@@ -2841,6 +2874,14 @@
 								, potranno essere assegnati contributi in conto capitale. Tali progetti potranno prevedere la creazione di strutture per l'allevamento della fauna selvatica nonchè dei riproduttori nel periodo autunnale; la realizzazione e la manutenzione di strutture di ambientamento della fauna selvatica, coltivazioni programmate per l'alimentazione naturale dei mammiferi e degli uccelli; l'utilizzazione programmata secondo piani di assestamento delle aree boschive, l'adozione di forme di lotta integrata o di lotta guidata, il ricorso a tecniche colturali o tecnologiche innovative non pregiudizievoli per l'ambiente, la valorizzazione agrituristica di percorsi per l'accesso alla natura e alla conoscenza scientifica e culturale della fauna ospite, per la manutenzione e la pulizia dei boschi anche al fine di prevenire incendi, in riferimento anche ai contenuti della
 								<rif xlink:href="urn:nir:comunita.europee:direttiva:1979;409" xlink:type="simple">direttiva CEE 79/409</rif>
 								e della risoluzione dell'assemblea parlamentare del consiglio d'Europa n. 882 del 1 Luglio 1987.
+							</corpo>
+						</comma>
+						<comma id="art46-com1" iniziovigore="t9">
+							<num>1.</num>
+							<corpo>
+								Ai proprietari o conduttori di fondi, per la realizzazione di progetti per la valorizzazione del territorio, l'incremento della fauna selvatica, il ripristino degli equilibri naturali, secondo le indicazioni previste dagli indirizzi di cui all'
+								<rif xlink:href="#art7" xlink:type="simple">articolo 7</rif>
+								, possono essere assegnati contributi in conto capitale. Con deliberazione del Consiglio regionale sono stabiliti i criteri per l'assegnazione dei contributi.
 							</corpo>
 						</comma>
 						<comma id="art46-com2">
@@ -2930,10 +2971,10 @@
 							<corpo>La Giunta regionale e le Province, per il raggiungimento delle finalià di cui al presente articolo, possono stipulare apposite convenzioni con compagnie assicurative. Le convenzioni possono altresì comprendere coperture finanziarie per danni provocati dalla fauna selvatica alla proprietà  privata nonchè alle persone.</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art48">
+					<articolo finevigore="t9" id="art48-t9" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 48</num>
 						<rubrica>(Utilizzazione dei territori agricoli ai fini della gestione programmata della caccia)</rubrica>
-						<comma id="art48-com1">
+						<comma id="art48-t9-com1">
 							<num>1.</num>
 							<corpo>
 								Allo scopo di gestire il contributo dovuto ai proprietari o conduttori di fondi ai sensi dell'
@@ -2941,6 +2982,20 @@
 								la Giunta regionale ripartisce fra le Province, sulla base della superficie agro-silvo-pastorale, le somme di cui al
 								<rif xlink:href="#art50-com1-lete" xlink:type="simple">successivo art. 50, comma 1, lett. e)</rif>
 								. La gestione del fondo è affidata alle Province che la esercitano attraverso i comitati di gestione degli ATC. Hanno diritto all'erogazione del contributo di cui sopra, per ciascun anno finanziario, i proprietari o conduttori dei fondi che applicano metodi di produzione agricola compatibili con le esigenze di protezione dell'ambiente e con la cura dello spazio naturale ai sensi delle norme comunitarie vigenti, ovvero che presentano specifici progetti. L'importo del contributo sarà  definito tenuto conto dell'estensione dei fondi, delle condizioni agronomiche e delle misure dirette alla tutela e valorizzazione dell'ambiente.
+							</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art48" iniziovigore="t9">
+						<num>Art. 48</num>
+						<rubrica>Utilizzazione dei territori agricoli ai fini della gestione programmata della caccia</rubrica>
+						<comma id="art48-com1">
+							<num>1.</num>
+							<corpo>
+								Allo scopo di gestire il contributo dovuto ai proprietari o conduttori di fondi ai sensi dell'
+								<rif xlink:href="urn:nir:stato:legge:1992-02-11;157#art15-com1" xlink:type="simple">articolo 15, comma 1 della legge 11 febbraio 1992, n. 157</rif>
+								Norme per la protezione della fauna selvatica omeoterma e per il prelievo venatorio) la Giunta regionale ripartisce fra le province, sulla base della superficie agro-silvo-pastorale, le somme di cui all'
+								<rif xlink:href="#art50-com1-lete" xlink:type="simple">articolo 50, comma 1, lettera e)</rif>
+								. La gestione del fondo è affidata alle province, che la esercitano attraverso i comitati di gestione degli ATC. Con deliberazione del Consiglio regionale sono stabiliti i criteri per l'assegnazione del contributo.
 							</corpo>
 						</comma>
 					</articolo>
@@ -3071,7 +3126,7 @@
 								<num>e)</num>
 								<corpo>
 									nella misura del 20% per la realizzazione degli interventi di cui all'
-									<rif xlink:href="#art48" xlink:type="simple">art. 48</rif>
+									<rif xlink:href="#art48-t9" xlink:type="simple">art. 48</rif>
 									. Nella predisposizione dei programmi annuali le Province destinano almeno il 10% per gli interventi di cui al
 									<rif xlink:href="#art46" xlink:type="simple">precedente art. 46</rif>
 									.

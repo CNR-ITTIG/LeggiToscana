@@ -12,7 +12,8 @@
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1993-06-10;37@1996-02-29" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1993-06-10;37@1998-08-06" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1993-06-10;37@2001-10-31" />
-					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1993-06-10;37@2003-02-04" />
+					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1993-06-10;37@2003-02-04" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1993-06-10;37@2007-07-27" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organizzazioni Pubbliche" />
 						<materia valore="Ordinamento" />
@@ -27,6 +28,7 @@
 						<evento data="19980829" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="20011122" fonte="rp4" id="t5" tipo="modifica" />
 						<evento data="20030227" fonte="rp5" id="t6" tipo="modifica" />
+						<evento data="20070731" fonte="rp6" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1993-06-10;37" xlink:type="simple" />
@@ -35,6 +37,7 @@
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1998-08-06;55" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2003-02-04;11" xlink:type="simple" />
+						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -291,6 +294,21 @@
 								<dsp:pos xlink:href="#art3-com1bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13-com10" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40#art58-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 58, comma 1 della legge Regione Toscana 27 luglio 2007, n. 40" id="itt20" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art13-com10" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art13-com10-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -807,9 +825,13 @@
 								sono inviate all'Amministratore.
 							</corpo>
 						</comma>
-						<comma id="art13-com10">
+						<comma finevigore="t7" id="art13-com10-t7" iniziovigore="t1" status="abrogato">
 							<num>10.</num>
 							<corpo>Al Presidente del Comitato spetta un'indennità annua pari al 15 per cento del compenso spettante all'Amministratore; agli altri componenti spetta un'indennità pari al 10 per cento.</corpo>
+						</comma>
+						<comma id="art13-com10" iniziovigore="t7">
+							<num>10.</num>
+							<corpo>Al presidente del comitato spetta un'indennità annua pari al 14,25 per cento del compenso spettante all'amministratore. Agli altri componenti spetta un'indennità annua pari al 9,5 per cento.</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art14">

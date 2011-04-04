@@ -10,7 +10,8 @@
 					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1995-04-11;49" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1995-04-11;49@1998-08-13" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1995-04-11;49@2000-04-06" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1995-04-11;49@2005-01-03" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1995-04-11;49@2005-01-03" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1995-04-11;49@2007-07-27" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Parchi" />
 					</materie>
@@ -22,6 +23,7 @@
 						<evento data="19980908" fonte="rp1" id="t3" tipo="modifica" />
 						<evento data="20000502" fonte="rp2" id="t4" tipo="modifica" />
 						<evento data="20050120" fonte="rp3" id="t5" tipo="modifica" />
+						<evento data="20070731" fonte="rp4" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-04-11;49" xlink:type="simple" />
@@ -29,6 +31,7 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1998-08-13;60" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2000-04-06;56" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -190,7 +193,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art12-com2" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1#art162-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -225,6 +228,21 @@
 								<dsp:pos xlink:href="#art12-com4-t5" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com7" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40#art62-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 62, comma 1 della legge Regione Toscana 27 luglio 2007, n. 40" id="itt13" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3-com7" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-com7-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -425,9 +443,13 @@
 							<num>6.</num>
 							<corpo>Il membro della Consulta che, senza giustificato motivo, non sia intervenuto a tre sedute consecutive, decade dall'incarico. La decadenza è pronunciata dalla Giunta regionale, che provvede alla contestuale sostituzione con altro membro, scelto tra quelli ricompresi nel medesimo elenco di appartenenza del membro decaduto. Nello stesso modo si procede in caso di dimissioni o di decesso del membro della Consulta.</corpo>
 						</comma>
-						<comma id="art3-com7">
+						<comma finevigore="t6" id="art3-com7-t6" iniziovigore="t1" status="abrogato">
 							<num>7.</num>
 							<corpo>Ai membri della Consulta spetta un gettone di presenza per ogni giorno di riunione nella misura di lire 100.000 lorde, oltre al rimborso spese e all'indennità di missione, secondo la disciplina prevista per i dirigenti regionali. L'importo del gettone di presenza è aggiornato annualmente con atto della giunta regionale.</corpo>
+						</comma>
+						<comma id="art3-com7" iniziovigore="t6">
+							<num>7.</num>
+							<corpo>Ai membri della Consulta spetta un gettone di presenza per ogni giorno di riunione nella misura di euro 61,00 lordi, oltre al rimborso spese e all'indennità di missione, secondo la disciplina prevista per i dirigenti regionali.</corpo>
 						</comma>
 						<comma id="art3-com7bis" iniziovigore="t4">
 							<num>7 bis.</num>

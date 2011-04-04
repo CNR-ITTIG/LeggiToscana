@@ -8,7 +8,8 @@
 					<entratainvigore norm="20050315" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t25" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2005-02-18;31" />
-					<urn iniziovigore="t25" valore="urn:nir:regione.toscana:legge:2005-02-18;31@2005-12-27" />
+					<urn finevigore="t26" iniziovigore="t25" valore="urn:nir:regione.toscana:legge:2005-02-18;31@2005-12-27" />
+					<urn iniziovigore="t26" valore="urn:nir:regione.toscana:legge:2005-02-18;31@2007-07-27" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tributi" />
 						<materia valore="Ente Regione" />
@@ -41,6 +42,7 @@
 						<evento data="20050315" fonte="ra22" id="t23" tipo="modifica" />
 						<evento data="20050315" fonte="ra23" id="t24" tipo="modifica" />
 						<evento data="20051231" fonte="rp1" id="t25" tipo="modifica" />
+						<evento data="20070731" fonte="rp2" id="t26" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2005-02-18;31" xlink:type="simple" />
@@ -68,6 +70,7 @@
 						<attiva id="ra22" xlink:href="urn:nir:regione.toscana:legge:2002-12-20;43" xlink:type="simple" />
 						<attiva id="ra23" xlink:href="urn:nir:regione.toscana:legge:2003-12-19;58" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2005-12-27;70" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -380,6 +383,21 @@
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-12-27;70#art4-com1" xlink:type="simple" />
 								<dsp:subarg>
 									<ittig:notavigenza auto="articolo 4, comma 1 della legge Regione Toscana 27 dicembre 2005, n. 70" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h5" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art16-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40#art41-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 41, comma 1 della legge Regione Toscana 27 luglio 2007, n. 40" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
@@ -962,7 +980,10 @@
 							<comma id="art16-com3">
 								<num>3.</num>
 								<corpo>
-									Il debitore deve presentare istanza di rateizzazione, in bollo tramite apposita modulistica, alla competente struttura regionale entro il termine di sessanta giorni dalla notificazione della cartella di pagamento a pena di decadenza, allegando copia della documentazione attestante il reddito di cui al
+									Il debitore deve presentare istanza di rateizzazione, in bollo tramite apposita modulistica, alla competente struttura regionale
+									<h:span finevigore="t26" id="h2" iniziovigore="t1" status="abrogato">entro il termine di sessanta giorni dalla notificazione della cartella di pagamento</h:span>
+									<h:span id="h3" iniziovigore="t26">prima dell'inizio della procedura esecutiva</h:span>
+									a pena di decadenza, allegando copia della documentazione attestante il reddito di cui al
 									<rif xlink:href="#art16-com2" xlink:type="simple">comma 2</rif>
 									.
 								</corpo>
@@ -1312,10 +1333,10 @@
 									<rif xlink:href="#art19-com4" xlink:type="simple">4</rif>
 								</mrif>
 								, e
-								<h:span finevigore="t25" id="h2" iniziovigore="t1" status="abrogato">
+								<h:span finevigore="t25" id="h4" iniziovigore="t1" status="abrogato">
 									<rif xlink:href="#art21-com1" xlink:type="simple">21, comma 1</rif>
 								</h:span>
-								<h:span id="h3" iniziovigore="t25">
+								<h:span id="h5" iniziovigore="t25">
 									<mrif>
 										21, commi
 										<rif xlink:href="#art21-com1" xlink:type="simple">1</rif>

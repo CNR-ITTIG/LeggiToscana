@@ -12,7 +12,8 @@
 					<urn finevigore="t25" iniziovigore="t24" valore="urn:nir:regione.toscana:legge:1998-11-26;85@2001-08-16" />
 					<urn finevigore="t26" iniziovigore="t25" valore="urn:nir:regione.toscana:legge:1998-11-26;85@2001-10-31" />
 					<urn finevigore="t27" iniziovigore="t26" valore="urn:nir:regione.toscana:legge:1998-11-26;85@2002-07-26" />
-					<urn iniziovigore="t27" valore="urn:nir:regione.toscana:legge:1998-11-26;85@2004-06-30" />
+					<urn finevigore="t28" iniziovigore="t27" valore="urn:nir:regione.toscana:legge:1998-11-26;85@2004-06-30" />
+					<urn iniziovigore="t28" valore="urn:nir:regione.toscana:legge:1998-11-26;85@2007-07-27" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Attribuzioni Deleghe" />
 					</materie>
@@ -46,6 +47,7 @@
 						<evento data="20011122" fonte="rp3" id="t25" tipo="modifica" />
 						<evento data="20030902" fonte="rp4" id="t26" tipo="modifica" />
 						<evento data="20040724" fonte="rp5" id="t27" tipo="modifica" />
+						<evento data="20070731" fonte="rp6" id="t28" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-11-26;85" xlink:type="simple" />
@@ -75,6 +77,7 @@
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2004-06-30;31" xlink:type="simple" />
+						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -677,7 +680,7 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art16" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32#art33-com1-letj" xlink:type="simple" />
 								<dsp:subarg>
@@ -904,9 +907,36 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#h5" xlink:type="simple" />
+								<dsp:pos xlink:href="#h6" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art11-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40#art18-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 18, comma 1 della legge Regione Toscana 27 luglio 2007, n. 40" id="itt31" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h5" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art11-com7" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40#art18-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 18, comma 2 della legge Regione Toscana 27 luglio 2007, n. 40" id="itt32" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art11-com7" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art11-com7-t28" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -1345,6 +1375,13 @@
 							<corpo>
 								Spetta alla Regione il riconoscimento del servizio sanitario prestato all'estero di cui all'
 								<rif xlink:href="urn:nir:stato:decreto.legislativo:1998-03-31;112#art124-com2" xlink:type="simple">art.124, comma 2 del decreto</rif>
+								<h:span id="h5" iniziovigore="t28">
+									, e la corresponsione, ai sensi dell'
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:1998-03-31;112#art115" xlink:type="simple">articolo 115 del decreto stesso</rif>
+									, dell'indennizzo di cui alla
+									<rif xlink:href="urn:nir:stato:legge:1992-02-25;210" xlink:type="simple">legge 25 febbraio 1992, n. 210</rif>
+									(Indennizzo a favore di soggetti danneggiati da complicanze di tipo irreversibile a causa di vaccinazioni obbligatorie, trasfusioni e somministrazione di emoderivati).
+								</h:span>
 								.
 							</corpo>
 						</comma>
@@ -1364,9 +1401,13 @@
 								.
 							</corpo>
 						</comma>
-						<comma id="art11-com7">
+						<comma finevigore="t28" id="art11-com7-t28" iniziovigore="t1" status="abrogato">
 							<num>7.</num>
 							<corpo>I criteri e le modalità di esercizio delle funzioni di cui ai commi 4, 5 e 6 sono determinati con deliberazione del Consiglio Regionale.</corpo>
+						</comma>
+						<comma id="art11-com7" iniziovigore="t28">
+							<num>7.</num>
+							<corpo>Le modalità di esercizio delle funzioni di cui ai commi 4, 5 e 6 sono determinate con deliberazione della Giunta regionale.</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art12">
@@ -1484,7 +1525,7 @@
 								e come integrate ai sensi dell'
 								<rif xlink:href="urn:nir:stato:legge:1992-02-05;104#art4" xlink:type="simple">art. 4 della legge 5 febbraio 1992, n. 104</rif>
 								.
-								<h:span finevigore="t27" id="h5" iniziovigore="t1" status="abrogato">In caso di impugnativa giurisdizionale degli atti delle commissioni, le Aziende unità sanitarie locali stanno in giudizio tramite il proprio rappresentante legale.</h:span>
+								<h:span finevigore="t27" id="h6" iniziovigore="t1" status="abrogato">In caso di impugnativa giurisdizionale degli atti delle commissioni, le Aziende unità sanitarie locali stanno in giudizio tramite il proprio rappresentante legale.</h:span>
 							</corpo>
 						</comma>
 					</articolo>

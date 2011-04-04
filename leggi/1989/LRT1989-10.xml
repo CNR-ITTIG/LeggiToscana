@@ -14,7 +14,8 @@
 					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1989-01-23;10@2000-03-21" />
 					<urn finevigore="t9" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1989-01-23;10@2000-12-28" />
 					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1989-01-23;10@2003-04-14" />
-					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1989-01-23;10@2005-01-03" />
+					<urn finevigore="t11" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1989-01-23;10@2005-01-03" />
+					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1989-01-23;10@2007-07-27" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Attribuzioni Deleghe" />
 						<materia valore="Agricoltura" />
@@ -32,6 +33,7 @@
 						<evento data="20010217" fonte="rp6" id="t8" tipo="modifica" />
 						<evento data="20030502" fonte="rp7" id="t9" tipo="modifica" />
 						<evento data="20050908" fonte="rp8" id="t10" tipo="modifica" />
+						<evento data="20070731" fonte="rp9" id="t11" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1989-01-23;10" xlink:type="simple" />
@@ -44,6 +46,7 @@
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2000-03-21;39" xlink:type="simple" />
 						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:2003-04-14;22" xlink:type="simple" />
 						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:2005-01-03;7" xlink:type="simple" />
+						<passiva id="rp9" xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -295,6 +298,18 @@
 							</dsp:norma>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art5-com1-letc-t10" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 27 luglio 2007, n. 40" id="itt18" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art8-com2-t11" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>
@@ -733,7 +748,7 @@
 						<num>1.</num>
 						<corpo>Le leggi regionali stabiliscono i criteri e le modalità per il riparto tra gli enti delegati dei mezzi finanziari relativi alle funzioni di cui alla presente legge.</corpo>
 					</comma>
-					<comma id="art8-com2">
+					<comma finevigore="t11" id="art8-com2-t11" iniziovigore="t1" status="abrogato">
 						<num>2.</num>
 						<corpo>L'erogazione agli istituti di credito del concorso regionale sugli interessi per interventi creditizi agevolati previsti dalla legge è effettuato dalla Regione sulla base di rendiconti presentati dagli istituti stessi.</corpo>
 					</comma>

@@ -10,7 +10,8 @@
 					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1995-04-11;50" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1995-04-11;50@1996-08-07" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1995-04-11;50@1997-07-17" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1995-04-11;50@2001-02-21" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1995-04-11;50@2001-02-21" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1995-04-11;50@2007-07-27" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Prodotti Agricoli" />
 						<materia valore="Foreste" />
@@ -23,6 +24,7 @@
 						<evento data="19960828" fonte="rp1" id="t3" tipo="modifica" />
 						<evento data="19970810" fonte="rp2" id="t4" tipo="modifica" />
 						<evento data="20010317" fonte="rp3" id="t5" tipo="modifica" />
+						<evento data="20070731" fonte="rp4" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-04-11;50" xlink:type="simple" />
@@ -30,6 +32,7 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1996-08-07;64" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1997-07-17;52" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2001-02-21;10" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -275,7 +278,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art21" xlink:type="simple" />
+							<dsp:pos xlink:href="#art21-t6" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-02-21;10" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-02-21;10#art4-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -283,7 +286,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art21" xlink:type="simple" />
+								<dsp:pos xlink:href="#art21-t6" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art21-t5" xlink:type="simple" />
@@ -317,6 +320,21 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art25-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art21" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40#art8-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 8, comma 1 della legge Regione Toscana 27 luglio 2007, n. 40" id="itt19" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art21" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art21-t6" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -1459,13 +1477,13 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art21" iniziovigore="t5">
+				<articolo finevigore="t6" id="art21-t6" iniziovigore="t5" status="abrogato">
 					<num>Art. 21</num>
 					<rubrica>Sanzioni</rubrica>
-					<comma id="art21-com1">
+					<comma id="art21-t6-com1">
 						<num>1.</num>
 						<alinea>Per la violazione delle disposizioni della presente legge, si applicano le seguenti sanzioni:</alinea>
-						<el id="art21-com1-leta">
+						<el id="art21-t6-com1-leta">
 							<num>a)</num>
 							<corpo>
 								la sanzione da Lit. 150.000, pari a Euro 77,47, a Lit. 1.500.000, pari a Euro 774,68, per chi effettua la ricerca e la raccolta del tartufo senza aver conseguito il tesserino di cui all'
@@ -1473,7 +1491,7 @@
 								;
 							</corpo>
 						</el>
-						<el id="art21-com1-letb">
+						<el id="art21-t6-com1-letb">
 							<num>b)</num>
 							<corpo>
 								la sanzione da Lit. 150.000 pari a Euro 77,47 a Lit. 1.500.000 pari a Euro 774,68 per chi, pur essendo munito del tesserino, non ha provveduto al pagamento dell'importo relativo all'abilitazione di cui all'
@@ -1481,19 +1499,19 @@
 								;
 							</corpo>
 						</el>
-						<el id="art21-com1-letc">
+						<el id="art21-t6-com1-letc">
 							<num>c)</num>
 							<corpo>la sanzione da Lit. 150.000, pari a Euro 77,47, a Lit. 1.500.000, pari a Euro 774,68, per chi esercita la ricerca e la raccolta in periodo di divieto o in ore non consentite;</corpo>
 						</el>
-						<el id="art21-com1-letd">
+						<el id="art21-t6-com1-letd">
 							<num>d)</num>
 							<corpo>la sanzione da Lit. 150.000, pari a Euro 77,47 a Lit. 1.500.000, pari a Euro 774,68, per chi esercita la ricerca o la raccolta senza l'ausilio del cane appositamente addestrato o senza idoneo attrezzo;</corpo>
 						</el>
-						<el id="art21-com1-lete">
+						<el id="art21-t6-com1-lete">
 							<num>e)</num>
 							<corpo>la sanzione da Lit. 150.000, pari a Euro 77,47, a Lit. 1.500.000, pari a Euro 774,68, per chi esercita la raccolta o la ricerca mediante la lavorazione anche del terreno o effettua buche in soprannumero o non riempite subito con il medesimo terreno di scavo per deciara di terreno lavorato e per ogni cinque buche o frazione di cinque buche aperte e non riempite a regola d'arte;</corpo>
 						</el>
-						<el id="art21-com1-letf">
+						<el id="art21-t6-com1-letf">
 							<num>f)</num>
 							<corpo>
 								la sanzione da Lit. 150.000, pari a Euro 77,47, a Lit. 1.500.000, pari a Euro 774,68, per chi esercita la raccolta nelle aree rimboschite prima che siano trascorsi quindici anni dal rimboschimento; tali aree devono essere delimitate da tabelle recanti la scritta: "area di rimboschimento fino al ..." disposte con la tipologia e le modalità di cui al quarto comma del precedente
@@ -1501,15 +1519,15 @@
 								;
 							</corpo>
 						</el>
-						<el id="art21-com1-letg">
+						<el id="art21-t6-com1-letg">
 							<num>g)</num>
 							<corpo>la sanzione da Lit. 100.000, pari a Euro 51,64, a Lit. 1.000.000, pari a Euro 516,46, per chi raccoglie tartufi immaturi: in detto caso oltre alla sanzione precedente si applica una sanzione di Lit. 150.000, pari a Euro 77,47, per ogni tartufo colto immaturo;</corpo>
 						</el>
-						<el id="art21-com1-leth">
+						<el id="art21-t6-com1-leth">
 							<num>h)</num>
 							<corpo>la sanzione di Lit. 250.000, pari a Euro 129,11, a Lit. 2.500.000, pari a Euro 1.291,14 per la vendita al mercato pubblico di tartufi senza l'osservanza delle norme prescritte dalla presente legge;</corpo>
 						</el>
-						<el id="art21-com1-leti">
+						<el id="art21-t6-com1-leti">
 							<num>i)</num>
 							<corpo>
 								la sanzione da Lit. 600.000, pari a Euro 309,87, a Lit. 6.000.000, pari a Euro 3.098,74 per chi esercita il commercio di tartufi freschi fuori dal periodo di raccolta previsto dal calendario ovvero per chi esercita il commercio di tipi di tartufo non previsti dall'
@@ -1517,23 +1535,23 @@
 								;
 							</corpo>
 						</el>
-						<el id="art21-com1-letl">
+						<el id="art21-t6-com1-letl">
 							<num>l)</num>
 							<corpo>la sanzione da Lit. 300.000, pari a Euro 154,94, a Lit. 3.000.000, pari a Euro 1.549,37, per chi mette in commercio tartufi conservati senza l'osservanza delle norme prescritte dalla presente legge;</corpo>
 						</el>
-						<el id="art21-com1-letm">
+						<el id="art21-t6-com1-letm">
 							<num>m)</num>
 							<corpo>la sanzione da Lit. 150.000, pari a Euro 77,47, a Lit. 1.500.000, pari a Euro 774,68, salvo e impregiudicato ogni altra sanzione per chi esercita la raccolta dei tartufi nei terreni di "Raccolta di tartufo riservata"senza la necessaria autorizzazione da parte del proprietario o conducente il fondo o per chi esercita senza averne titolo la raccolta nei terreni d'uso civico tabellati con la scritta "raccolta di tartufo riservata - terre d'uso civico";</corpo>
 						</el>
-						<el id="art21-com1-letn">
+						<el id="art21-t6-com1-letn">
 							<num>n)</num>
 							<corpo>la tabellazione illegittima delle aree rimboschite, è punita con una sanzione di Lit. 25.000, pari a Euro 12,91, per ogni tabella apposta illegittimamente;</corpo>
 						</el>
-						<el id="art21-com1-leto">
+						<el id="art21-t6-com1-leto">
 							<num>o)</num>
 							<corpo>l'apposizione o il mantenimento di tabelle di riserva nelle tartufaie non riconosciute come coltivate o controllate è punita con una sanzione da Lit. 1.500.000, pari a Euro 774,68, a Lit. 15.000.000, pari a Euro 7.746,85;</corpo>
 						</el>
-						<el id="art21-com1-letp">
+						<el id="art21-t6-com1-letp">
 							<num>p)</num>
 							<corpo>
 								la sanzione da Lit. 75.000 pari a Euro 38,73 a Lit. 750.000 pari a Euro 387,34 per chi non esibisce, all'atto dell'accertamento o entro tre giorni dalla data dell'accertamento stesso, il tesserino di cui all'articolo 11 e la ricevuta di pagamento dell'importo relativo all'abilitazione di cui all'
@@ -1541,7 +1559,7 @@
 								a richiesta degli agenti accertatori;
 							</corpo>
 						</el>
-						<el id="art21-com1-letq">
+						<el id="art21-t6-com1-letq">
 							<num>q)</num>
 							<corpo>
 								la sanzione da Lit. 150.000, pari a Euro 77,47, a Lit. 1.500.000, pari a Euro 774,68, a chi non appone la tabellazione in conformità alle disposizioni di cui all'
@@ -1549,7 +1567,7 @@
 								;
 							</corpo>
 						</el>
-						<el id="art21-com1-letr">
+						<el id="art21-t6-com1-letr">
 							<num>r)</num>
 							<corpo>
 								la sanzione da Lit. 150.000, pari a Euro 77,47, a Lit. 1.500.000, pari a Euro 774,68, per la violazione di cui all'
@@ -1557,15 +1575,15 @@
 								commi 6 e 7 della presente legge;
 							</corpo>
 						</el>
-						<el id="art21-com1-lets">
+						<el id="art21-t6-com1-lets">
 							<num>s)</num>
 							<corpo>la sanzione da Lit. 150.000, pari a Euro 77,47, a Lit. 1.500.000, pari a Euro 774,68, per chi viola le disposizioni della presente legge o del calendario di raccolta non espressamente richiamate dal presente articolo.</corpo>
 						</el>
-						<el id="art21-com1-let2">
+						<el id="art21-t6-com1-let2">
 							<num>2.</num>
 							<corpo>In caso di recidiva le sanzioni di cui al comma precedente sono raddopiate.</corpo>
 						</el>
-						<el id="art21-com1-let3">
+						<el id="art21-t6-com1-let3">
 							<num>3.</num>
 							<corpo>
 								Qualora sia accertata la violazione di cui alla lettera g) del primo comma, l'ammontare del pagamento in misura ridotta è determinato, da un minimo ad un massimo, con i criteri di cui all'
@@ -1573,6 +1591,131 @@
 								e, per la parte proporzionale, moltiplicando l'importo base indicato nella stessa lettera g) per il numero dei tartufi immaturi risultante dal verbale di accertamento.
 							</corpo>
 						</el>
+					</comma>
+				</articolo>
+				<articolo id="art21" iniziovigore="t6">
+					<num>Art. 21</num>
+					<rubrica>Sanzioni amministrative</rubrica>
+					<comma id="art21-com1">
+						<num>1.</num>
+						<alinea>Per la violazione delle disposizioni della presente legge si applicano le seguenti sanzioni:</alinea>
+						<el id="art21-com1-leta">
+							<num>a)</num>
+							<corpo>
+								la sanzione da euro 150,00 a euro 900,00 per chi effettua la ricerca e la raccolta del tartufo senza aver conseguito il tesserino di cui all'
+								<rif xlink:href="#art11" xlink:type="simple">articolo 11</rif>
+								;
+							</corpo>
+						</el>
+						<el id="art21-com1-letb">
+							<num>b)</num>
+							<corpo>
+								la sanzione da euro 100,00 a euro 600,00 per chi, pur essendo munito del tesserino, non ha provveduto al pagamento dell'importo relativo all'abilitazione di cui all'
+								<rif xlink:href="#art23" xlink:type="simple">articolo 23</rif>
+								;
+							</corpo>
+						</el>
+						<el id="art21-com1-letc">
+							<num>c)</num>
+							<corpo>la sanzione da euro 150,00 a euro 900,00 per chi esercita la ricerca e la raccolta in periodo di divieto o in ore non consentite;</corpo>
+						</el>
+						<el id="art21-com1-letd">
+							<num>d)</num>
+							<corpo>la sanzione da euro 150,00 a euro 900,00 per chi esercita la ricerca o la raccolta senza l'ausilio del cane appositamente addestrato o senza idoneo attrezzo;</corpo>
+						</el>
+						<el id="art21-com1-lete">
+							<num>e)</num>
+							<corpo>la sanzione da euro 150,00 a euro 900,00 per chi esercita la raccolta o la ricerca mediante la lavorazione anche del terreno o effettua buche in soprannumero o non riempite subito con il medesimo terreno di scavo per deciara di terreno lavorato e per ogni cinque buche o frazione di cinque buche aperte e non riempite a regola d'arte;</corpo>
+						</el>
+						<el id="art21-com1-letf">
+							<num>f)</num>
+							<corpo>
+								la sanzione da euro 150,00 a euro 900,00 per chi esercita la raccolta nelle aree rimboschite prima che siano trascorsi quindici anni dal rimboschimento; tali aree devono essere delimitate da tabelle recanti la scritta "area di rimboschimento fino al ...", disposte con la tipologia e le modalità di cui all'
+								<rif xlink:href="#art3-com4" xlink:type="simple">articolo 3, comma 4</rif>
+								;
+							</corpo>
+						</el>
+						<el id="art21-com1-letg">
+							<num>g)</num>
+							<corpo>la sanzione da euro 150,00 a euro 900,00 per chi raccoglie tartufi immaturi: in detto caso si applica inoltre la sanzione di euro 100,00 per ogni tartufo colto immaturo;</corpo>
+						</el>
+						<el id="art21-com1-leth">
+							<num>h)</num>
+							<corpo>la sanzione da euro 300,00 a euro 1.800,00 per la vendita al mercato pubblico di tartufi senza l'osservanza delle norme prescritte dalla presente legge;</corpo>
+						</el>
+						<el id="art21-com1-leti">
+							<num>i)</num>
+							<corpo>
+								la sanzione da euro 500,00 a euro 3.000,00 per chi esercita il commercio di tartufi freschi fuori dal periodo di raccolta previsto dal calendario ovvero per chi esercita il commercio di tipi di tartufo non previsti dall'
+								<rif xlink:href="#art2" xlink:type="simple">articolo 2</rif>
+								;
+							</corpo>
+						</el>
+						<el id="art21-com1-letl">
+							<num>l)</num>
+							<corpo>la sanzione da euro 300,00 a euro 1.800,00 per chi mette in commercio tartufi conservati senza l'osservanza delle norme prescritte dalla presente legge;</corpo>
+						</el>
+						<el id="art21-com1-letm">
+							<num>m)</num>
+							<corpo>la sanzione da euro 300,00 a euro 1.800,00 per chi esercita la raccolta dei tartufi nei terreni di "raccolta di tartufo riservata" senza la necessaria autorizzazione da parte del proprietario o conducente il fondo o per chi esercita senza averne titolo la raccolta nei terreni d'uso civico tabellati con la scritta "raccolta di tartufo riservata - terre d'uso civico";</corpo>
+						</el>
+						<el id="art21-com1-letn">
+							<num>n)</num>
+							<corpo>la tabellazione illegittima delle aree rimboschite è punita con una sanzione di euro 25,00 per ogni tabella apposta illegittimamente;</corpo>
+						</el>
+						<el id="art21-com1-leto">
+							<num>o)</num>
+							<corpo>l'apposizione o il mantenimento di tabelle di riserva nelle tartufaie non riconosciute come coltivate o controllate è punita con una sanzione da euro 1.500,00 a euro 9.000,00;</corpo>
+						</el>
+						<el id="art21-com1-letp">
+							<num>p)</num>
+							<corpo>
+								la sanzione da euro 50,00 a euro 300,00 per chi non esibisce, all'atto dell'accertamento o entro tre giorni dalla data dell'accertamento stesso, il tesserino di cui all'
+								<rif xlink:href="#art11" xlink:type="simple">articolo 11</rif>
+								e la ricevuta di pagamento dell'importo relativo all'abilitazione di cui all'
+								<rif xlink:href="#art23" xlink:type="simple">articolo 23</rif>
+								a richiesta degli agenti accertatori;
+							</corpo>
+						</el>
+						<el id="art21-com1-letq">
+							<num>q)</num>
+							<corpo>
+								la sanzione da euro 150,00 a euro 900,00 a chi non appone la tabellazione in conformità alle disposizioni di cui all'
+								<rif xlink:href="#art3-com4" xlink:type="simple">articolo 3, comma 4</rif>
+								;
+							</corpo>
+						</el>
+						<el id="art21-com1-letr">
+							<num>r)</num>
+							<corpo>
+								la sanzione da euro 150,00, a euro 900,00 per la violazione di cui all'
+								<mrif>
+									articolo 3, commi
+									<rif xlink:href="#art3-com6" xlink:type="simple">6</rif>
+									e
+									<rif xlink:href="#art3-com7" xlink:type="simple">7</rif>
+								</mrif>
+								;
+							</corpo>
+						</el>
+						<el id="art21-com1-lets">
+							<num>s)</num>
+							<corpo>la sanzione da euro 150,00 a euro 900,00 per chi viola le disposizioni della presente legge o del calendario di raccolta non espressamente richiamate dal presente articolo.</corpo>
+						</el>
+					</comma>
+					<comma id="art21-com2">
+						<num>2.</num>
+						<corpo>In caso di recidiva, ai sensi dell'articolo 22, le sanzioni di cui al comma 1 sono raddoppiate.</corpo>
+					</comma>
+					<comma id="art21-com3">
+						<num>3.</num>
+						<corpo>
+							Qualora sia accertata la violazione di cui al comma 1, lettera g), l'ammontare del pagamento in misura ridotta è determinato, da un minimo ad un massimo, con i criteri di cui all'
+							<rif xlink:href="urn:nir:stato:legge:1981-11-24;689#art16" xlink:type="simple">articolo 16 della legge 24 novembre 1981, n. 689</rif>
+							(Modifiche al sistema penale), da ultimo modificato dall'
+							<rif xlink:href="urn:nir:stato:decreto.legislativo:1998-06-24;213#art52" xlink:type="simple">articolo 52 del decreto legislativo 24 giugno 1998, n. 213</rif>
+							e, per la parte proporzionale, moltiplicando l'importo base indicato nella stessa lettera g) per il numero dei tartufi immaturi risultante dal verbale di accertamento.
+						</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art22">

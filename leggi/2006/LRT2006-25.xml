@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20060628" num="20" tipo="BURT" />
 					<entratainvigore norm="20060629" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2006-06-21;25" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2006-06-21;25" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2006-06-21;25@2007-07-27" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Assistenza Sanitaria" />
 					</materie>
@@ -15,11 +16,29 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="20060629" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20070731" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2006-06-21;25" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40#art19-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 19, comma 1 della legge Regione Toscana 27 luglio 2007, n. 40" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -69,6 +88,26 @@
 					<comma id="art3-com2">
 						<num>2.</num>
 						<corpo>La Giunta regionale presenta annualmente al Consiglio regionale e alla commissione consiliare competente una relazione sull'attività svolta dalla fondazione e sui risultati conseguiti.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art3bis" iniziovigore="t2">
+					<num>Art. 3 bis</num>
+					<rubrica>Inquadramento della fondazione nell'ambito del sistema sanitario regionale.</rubrica>
+					<comma id="art3bis-com1">
+						<num>1.</num>
+						<corpo>La fondazione partecipa alle attività del servizio sanitario regionale (SSR) come presidio ospedaliero specialistico nell'ambito dell'area vasta nord-ovest e in relazione ai rapporti convenzionali con le aziende sanitarie toscane. Svolge attività di ricerca, sperimentazione e formazione in collaborazione con le università e le aziende ospedaliero-universitarie per il miglioramento e lo sviluppo dell'assistenza nel SSR.</corpo>
+					</comma>
+					<comma id="art3bis-com2">
+						<num>2.</num>
+						<corpo>Al fine di assicurare la coerenza del piano aziendale della fondazione con gli obiettivi degli atti di programmazione di area vasta, il direttore generale della fondazione o suo delegato partecipa alle attività del comitato di area vasta nord-ovest finalizzate alla elaborazione del piano di area vasta e si relaziona in ambito regionale per le medesime finalità con gli altri comitati di area vasta.</corpo>
+					</comma>
+					<comma id="art3bis-com3">
+						<num>3.</num>
+						<corpo>
+							Per la remunerazione delle attività assistenziali e le funzioni di riferimento regionale e di elevata qualificazione e innovazione svolte dalla fondazione a favore del SSR, si applica la disciplina prevista per il finanziamento delle aziende ospedaliero-universitarie di cui all'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2005-02-24;40#art28" xlink:type="simple">articolo 28, commi 1 e 2, della legge regionale 24 febbraio 2005, n. 40</rif>
+							(Disciplina del servizio sanitario regionale).
+						</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art4">

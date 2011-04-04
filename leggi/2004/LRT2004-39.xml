@@ -8,7 +8,8 @@
 					<entratainvigore norm="20040819" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t4" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2004-07-27;39" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:2004-07-27;39@2006-07-11" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:2004-07-27;39@2006-07-11" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2004-07-27;39@2007-07-27" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Programmazione" />
 						<materia valore="Enti Territoriali" />
@@ -20,12 +21,14 @@
 						<evento data="20040819" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="20040819" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="20060802" fonte="rp1" id="t4" tipo="modifica" />
+						<evento data="20070731" fonte="rp2" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2004-07-27;39" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1985-05-07;57" xlink:type="simple" />
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1999-11-02;58" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2006-07-11;31" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -76,6 +79,21 @@
 								<dsp:testo valore="" />
 							</dsp:dominio>
 						</dsp:variazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art15-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40#art64-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 64, comma 1 della legge Regione Toscana 27 luglio 2007, n. 40" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art15-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art15-com2-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -586,15 +604,19 @@
 								, e che risultano con valori del disagio superiori alla media regionale. Il fondo opera sino alla concessione massima complessiva di euro 2.000.000,00, destinati alle spese progettuali. L'importo massimo che può essere concesso per ogni progetto è determinato nella misura di euro 200.000,00.
 							</corpo>
 						</comma>
-						<comma id="art15-com2">
+						<comma finevigore="t5" id="art15-com2-t5" iniziovigore="t1" status="abrogato">
 							<num>2.</num>
 							<corpo>I comuni che accedono al fondo sono tenuti, entro diciotto mesi dalla data di erogazione del finanziamento regionale, al rimborso del finanziamento concesso, senza alcun onere per interessi.</corpo>
+						</comma>
+						<comma id="art15-com2" iniziovigore="t5">
+							<num>2.</num>
+							<corpo>I comuni che accedono al fondo sono tenuti, entro trentasei mesi dalla data di erogazione del finanziamento regionale, al rimborso del finanziamento concesso, senza alcun onere per interessi.</corpo>
 						</comma>
 						<comma id="art15-com3">
 							<num>3.</num>
 							<corpo>
 								In caso di mancata restituzione delle somme ai sensi del
-								<rif xlink:href="#art15-com2" xlink:type="simple">comma 2</rif>
+								<rif xlink:href="#art15-com2-t5" xlink:type="simple">comma 2</rif>
 								, la Regione si riserva di trattenere gli stessi importi da erogazioni dovute ai comuni beneficiari, relative anche a contributi concessi a qualunque titolo dallo Stato, dalla Unione europea o da altri enti.
 							</corpo>
 						</comma>
