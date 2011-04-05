@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20000317" num="10" tipo="BURT" />
 					<entratainvigore norm="20000401" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2000-03-08;23" />
+					<urn finevigore="t37" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2000-03-08;23" />
+					<urn iniziovigore="t37" valore="urn:nir:regione.toscana:legge:2000-03-08;23@2007-07-27" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Agricoltura" />
 					</materie>
@@ -50,6 +51,7 @@
 						<evento data="20000401" fonte="ra33" id="t34" tipo="modifica" />
 						<evento data="20000401" fonte="ra34" id="t35" tipo="modifica" />
 						<evento data="20000401" fonte="ra35" id="t36" tipo="modifica" />
+						<evento data="20070821" fonte="rp1" id="t37" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2000-03-08;23" xlink:type="simple" />
@@ -88,6 +90,7 @@
 						<attiva id="ra33" xlink:href="urn:nir:regione.toscana:legge:1981-09-07;69" xlink:type="simple" />
 						<attiva id="ra34" xlink:href="urn:nir:regione.toscana:legge:1994-07-29;60" xlink:type="simple" />
 						<attiva id="ra35" xlink:href="urn:nir:regione.toscana:legge:1994-12-31;114" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2007-07-27;45" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -818,6 +821,23 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-07-27;45" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-07-27;45#art16-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 16, comma 1 della legge Regione Toscana 27 luglio 2007, n. 45" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-t37" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -866,10 +886,10 @@
 							<corpo>l flussi informativi fra gli operatori del sistema avvengono principalmente per via telematica mediante la RTRT, e tutti i soggetti partecipanti sono tenuti a predisporre e fornire l'aggiornamento al S.I.A.RT sulla base delle determinazioni della Giunta regionale.</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art3">
+					<articolo finevigore="t37" id="art3-t37" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 3</num>
 						<rubrica>(Anagrafe regionale delle aziende agricole)</rubrica>
-						<comma id="art3-com1">
+						<comma id="art3-t37-com1">
 							<num>1.</num>
 							<corpo>
 								Per gli stessi fini di cui al
@@ -877,38 +897,38 @@
 								è istituita l'anagrafe regionale delle aziende agricole, quale nucleo del S.I.A.RT e strumento di organizzazione e snellimento dell'azione regionale.
 							</corpo>
 						</comma>
-						<comma id="art3-com2">
+						<comma id="art3-t37-com2">
 							<num>2.</num>
 							<corpo>L'anagrafe delle aziende agricole è organizzata e resa operativa con deliberazione della Giunta regionale.</corpo>
 						</comma>
-						<comma id="art3-com3">
+						<comma id="art3-t37-com3">
 							<num>3.</num>
 							<alinea>La deliberazione della Giunta regionale individua i dati che sono inseriti nell'anagrafe; in particolare l'anagrafe contiene:</alinea>
-							<el id="art3-com3-leta">
+							<el id="art3-t37-com3-leta">
 								<num>a)</num>
 								<corpo>le generalità del titolare dell'azienda;</corpo>
 							</el>
-							<el id="art3-com3-letb">
+							<el id="art3-t37-com3-letb">
 								<num>b)</num>
 								<corpo>il titolo giuridico di disponibilità dei beni immobili;</corpo>
 							</el>
-							<el id="art3-com3-letc">
+							<el id="art3-t37-com3-letc">
 								<num>c)</num>
 								<corpo>la consistenza fisica dei beni immobili;</corpo>
 							</el>
-							<el id="art3-com3-letd">
+							<el id="art3-t37-com3-letd">
 								<num>d)</num>
 								<corpo>le colture e gli allevamenti praticati, nonché le attività connesse;</corpo>
 							</el>
-							<el id="art3-com3-lete">
+							<el id="art3-t37-com3-lete">
 								<num>e)</num>
 								<corpo>i dati relativi alle richieste ed alle concessioni di finanziamenti regionali, nazionali, o comunitari.</corpo>
 							</el>
 						</comma>
-						<comma id="art3-com4">
+						<comma id="art3-t37-com4">
 							<num>4.</num>
 							<alinea>L'accesso all'anagrafe è consentito:</alinea>
-							<el id="art3-com4-leta">
+							<el id="art3-t37-com4-leta">
 								<num>a)</num>
 								<corpo>
 									alla Pubblica Amministrazione ed ai Centri Autorizzati di Assistenza Procedimentale, di cui alla
@@ -916,22 +936,90 @@
 									, "Norme per lo snellimento e la semplificazione dell'attività amministrativa in materia di agricoltura, foresta, caccia e pesca" limitatamente alle posizioni da essi trattate;
 								</corpo>
 							</el>
+							<el id="art3-t37-com4-letb">
+								<num>b)</num>
+								<corpo>all'imprenditore agricolo, o suo mandatario, limitatamente alla propria posizione.</corpo>
+							</el>
+						</comma>
+						<comma id="art3-t37-com5">
+							<num>5.</num>
+							<corpo>L'anagrafe delle aziende agricole contiene una sezione informativa, nella quale sono inserite le informazioni relative alle procedure di finanziamento e le informazioni utili alla rapida individuazione delle procedure amministrative rispondenti alle esigenze dell'utente.</corpo>
+						</comma>
+						<comma id="art3-t37-com6">
+							<num>6.</num>
+							<corpo>
+								La sezione informativa di cui al
+								<rif xlink:href="#art3-t37-com5" xlink:type="simple">comma 5</rif>
+								può essere consultata da tutti gli operatori, senza alcuna limitazione.
+							</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art3" iniziovigore="t37">
+						<num>Art. 3</num>
+						<rubrica>Anagrafe regionale delle aziende agricole</rubrica>
+						<comma id="art3-com1">
+							<num>1.</num>
+							<corpo>
+								Per gli stessi fini di cui al
+								<rif xlink:href="#art1-com1" xlink:type="simple">comma 1 dell'articolo 1</rif>
+								è istituita, presso l'Agenzia regionale toscana per le erogazioni in agricoltura (ARTEA), l'anagrafe regionale delle aziende agricole, quale nucleo del SIART e strumento di organizzazione e snellimento dell'azione regionale.
+							</corpo>
+						</comma>
+						<comma id="art3-com2">
+							<num>2.</num>
+							<alinea>Con regolamento adottato dalla Giunta regionale è disciplinata l'organizzazione dell'anagrafe regionale delle aziende agricole e sono individuati i dati che vi sono inseriti. In particolare l'anagrafe contiene:</alinea>
+							<el id="art3-com2-leta">
+								<num>a)</num>
+								<corpo>le generalità del titolare o legale rappresentante dell'azienda;</corpo>
+							</el>
+							<el id="art3-com2-letb">
+								<num>b)</num>
+								<corpo>le qualifiche dei soggetti che a vario titolo operano nell'azienda; la qualifica di imprenditore agricolo professionale (IAP) è registrata in una specifica sezione;</corpo>
+							</el>
+							<el id="art3-com2-letc">
+								<num>c)</num>
+								<corpo>il titolo giuridico di disponibilità dei beni immobili;</corpo>
+							</el>
+							<el id="art3-com2-letd">
+								<num>d)</num>
+								<corpo>la consistenza fisica dei beni immobili disponibili;</corpo>
+							</el>
+							<el id="art3-com2-lete">
+								<num>e)</num>
+								<corpo>le attività agricole praticate, sia principali che connesse;</corpo>
+							</el>
+							<el id="art3-com2-letf">
+								<num>f)</num>
+								<corpo>le richieste e le concessioni di finanziamenti regionali, nazionali e comunitari.</corpo>
+							</el>
+						</comma>
+						<comma id="art3-com3">
+							<num>3.</num>
+							<corpo>L'anagrafe regionale delle aziende agricole contiene una rubrica informativa, consultabile da chiunque, nella quale sono inserite le informazioni relative alle procedure di finanziamento e quelle utili alla rapida individuazione delle procedure amministrative rispondenti alle esigenze dell'azienda.</corpo>
+						</comma>
+						<comma id="art3-com4">
+							<num>4.</num>
+							<alinea>L'accesso all'anagrafe regionale delle aziende agricole è consentito:</alinea>
+							<el id="art3-com4-leta">
+								<num>a)</num>
+								<corpo>alle pubbliche amministrazioni;</corpo>
+							</el>
 							<el id="art3-com4-letb">
 								<num>b)</num>
+								<corpo>
+									ai centri autorizzati di assistenza agricola (CAA), di cui alla
+									<rif xlink:href="urn:nir:regione.toscana:legge:1998-02-09;11" xlink:type="simple">legge regionale 9 febbraio 1998, n. 11</rif>
+									(Norme per lo snellimento e la semplificazione dell'attività amministrativa in materia di agricoltura, foreste, caccia e pesca), limitatamente alle posizioni da essi trattate;
+								</corpo>
+							</el>
+							<el id="art3-com4-letc">
+								<num>c)</num>
 								<corpo>all'imprenditore agricolo, o suo mandatario, limitatamente alla propria posizione.</corpo>
 							</el>
 						</comma>
 						<comma id="art3-com5">
 							<num>5.</num>
-							<corpo>L'anagrafe delle aziende agricole contiene una sezione informativa, nella quale sono inserite le informazioni relative alle procedure di finanziamento e le informazioni utili alla rapida individuazione delle procedure amministrative rispondenti alle esigenze dell'utente.</corpo>
-						</comma>
-						<comma id="art3-com6">
-							<num>6.</num>
-							<corpo>
-								La sezione informativa di cui al
-								<rif xlink:href="#art3-com5" xlink:type="simple">comma 5</rif>
-								può essere consultata da tutti gli operatori, senza alcuna limitazione.
-							</corpo>
+							<corpo>L'ARTEA stipula protocolli d'intesa con le amministrazioni pubbliche che detengono dati e notizie relative agli imprenditori e alle aziende agricole, ai fini dell'inserimento delle stesse nell'anagrafe regionale delle aziende agricole e della reciproca comunicazione delle informazioni detenute.</corpo>
 						</comma>
 					</articolo>
 				</capo>

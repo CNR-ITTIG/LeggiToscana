@@ -34,6 +34,7 @@
 						<evento data="20030502" fonte="rp7" id="t9" tipo="modifica" />
 						<evento data="20050908" fonte="rp8" id="t10" tipo="modifica" />
 						<evento data="20070731" fonte="rp9" id="t11" tipo="modifica" />
+						<evento data="20070821" fonte="rp10" id="t12" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1989-01-23;10" xlink:type="simple" />
@@ -47,6 +48,7 @@
 						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:2003-04-14;22" xlink:type="simple" />
 						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:2005-01-03;7" xlink:type="simple" />
 						<passiva id="rp9" xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40" xlink:type="simple" />
+						<passiva id="rp10" xlink:href="urn:nir:regione.toscana:legge:2007-07-27;45" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -106,7 +108,7 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art2-com1-leth" xlink:type="simple" />
+							<dsp:pos xlink:href="#art2-com1-leth-t12" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-03-08;23" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-03-08;23#art31-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -301,7 +303,7 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art8-com2" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40#art3-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -310,6 +312,18 @@
 							</dsp:norma>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art8-com2-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com1-leth" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-07-27;45" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-07-27;45#art17-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 17, comma 1 della legge Regione Toscana 27 luglio 2007, n. 45" id="itt19" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com1-leth-t12" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>
@@ -328,8 +342,8 @@
 				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
-				<h:p>Il Presidente della Giunta Regionale</h:p>
-				<h:p>promulga la seguente legge regionale:</h:p>
+				<h:p>Il Presidente della Giunta Regionale promulga</h:p>
+				<h:p>la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
 				<articolo id="art1">
@@ -382,7 +396,7 @@
 							<num>g)</num>
 							<corpo>tenuta dell'elenco degli utenti dei motori agricoli e concessione dei carburanti a prezzo agevolato per l'agricoltura;</corpo>
 						</el>
-						<el id="art2-com1-leth">
+						<el finevigore="t12" id="art2-com1-leth-t12" iniziovigore="t1" status="abrogato">
 							<num>h)</num>
 							<corpo>
 								commissioni provinciali per la tenuta dell' albo degli imprenditori agricoli professionali
@@ -684,14 +698,16 @@
 							<corpo>
 								usi civici, relativamente alle funzioni di cui all'
 								<rif xlink:href="urn:nir:presidente.repubblica:decreto:1977;616#art66" xlink:type="simple">art. 66 del DPR 616/1977</rif>
-								, con esclusione delle funzioni delegate alle Province ai sensi del precedente art. 2, lett. o);
+								, con esclusione delle funzioni delegate alle Province ai sensi del
+								<rif xlink:href="#art2-com1-leto" xlink:type="simple">precedente art. 2, lett. o)</rif>
+								;
 							</corpo>
 						</el>
 						<el id="art6-com1-leti">
 							<num>i)</num>
 							<corpo>
 								classificazione e delimitazione dei bacini montani e funzioni in materia di bonifica integrale e montana, salvo quanto previsto al
-								<rif xlink:href="#art2-com1-letr" xlink:type="simple">precedente art. 2, comma 1o, lett. r)</rif>
+								<rif xlink:href="#art2-com1-letr" xlink:type="simple">precedente art. 2, comma 1°, lett. r)</rif>
 								;
 							</corpo>
 						</el>

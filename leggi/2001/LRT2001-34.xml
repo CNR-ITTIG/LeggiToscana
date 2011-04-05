@@ -7,7 +7,8 @@
 					<pubblicazione norm="20010813" num="25" tipo="BURT" />
 					<entratainvigore norm="20010828" />
 					<redazione id="red1" nome="" norm="" />
-					<urn iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2001-08-03;34" />
+					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2001-08-03;34" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2001-08-03;34@2007-07-27" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Agricoltura" />
 					</materie>
@@ -18,12 +19,14 @@
 						<evento data="20010828" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="20010828" fonte="rp1" id="t3" tipo="modifica" />
 						<evento data="20010731" fonte="ra2" id="t4" tipo="modifica" />
+						<evento data="20070821" fonte="rp2" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2001-08-03;34" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1990-03-31;32" xlink:type="simple" />
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1990-03-31;32" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2001-08-03;35" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2007-07-27;45" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -181,6 +184,21 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#h5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-07-27;45" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-07-27;45#art13-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 13, comma 1 della legge Regione Toscana 27 luglio 2007, n. 45" id="itt11" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-com3-t5" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -370,9 +388,13 @@
 							, lettera b), n. 2).
 						</corpo>
 					</comma>
-					<comma id="art4-com3">
+					<comma finevigore="t5" id="art4-com3-t5" iniziovigore="t1" status="abrogato">
 						<num>3.</num>
 						<corpo>Costituisce titolo di priorità, per la formazione dell'elenco di cui al comma 2, l'iscrizione all'albo degli imprenditori agricoli, disciplinato dalla normativa regionale.</corpo>
+					</comma>
+					<comma id="art4-com3" iniziovigore="t5">
+						<num>3.</num>
+						<corpo>Costituisce titolo di priorità per la formazione dell'elenco di cui al comma 2, la qualifica di imprenditore agricolo professionale, ai sensi della normativa regionale.</corpo>
 					</comma>
 					<comma id="art4-com4">
 						<num>4.</num>

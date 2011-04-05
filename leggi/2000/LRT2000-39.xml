@@ -12,7 +12,8 @@
 					<urn finevigore="t36" iniziovigore="t34" valore="urn:nir:regione.toscana:legge:2000-03-21;39@2003-01-02" />
 					<urn finevigore="t35" iniziovigore="t36" valore="urn:nir:regione.toscana:legge:2000-03-21;39@2004-12-27" />
 					<urn finevigore="t37" iniziovigore="t35" valore="urn:nir:regione.toscana:legge:2000-03-21;39@2004-08-02" />
-					<urn iniziovigore="t37" valore="urn:nir:regione.toscana:legge:2000-03-21;39@2005-01-03" />
+					<urn finevigore="t38" iniziovigore="t37" valore="urn:nir:regione.toscana:legge:2000-03-21;39@2005-01-03" />
+					<urn iniziovigore="t38" valore="urn:nir:regione.toscana:legge:2000-03-21;39@2007-07-27" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Foreste" />
 					</materie>
@@ -56,6 +57,7 @@
 						<evento data="20040812" fonte="rp3" id="t35" tipo="modifica" />
 						<evento data="20040120" fonte="rp4" id="t36" tipo="modifica" />
 						<evento data="20050120" fonte="rp5" id="t37" tipo="modifica" />
+						<evento data="20070821" fonte="rp6" id="t38" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2000-03-21;39" xlink:type="simple" />
@@ -95,6 +97,7 @@
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2004-08-02;40" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2004-12-27;77" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1" xlink:type="simple" />
+						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2007-07-27;45" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -2430,6 +2433,21 @@
 								<dsp:pos xlink:href="#art42-com6-t37" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art18-com1-letb" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-07-27;45" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-07-27;45#art14-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 14, comma 1 della legge Regione Toscana 27 luglio 2007, n. 45" id="itt135" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art18-com1-letb" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art18-com1-letb-t38" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -3235,13 +3253,17 @@
 									<num>a)</num>
 									<corpo>proprietari o possessori dei terreni interessati dagli interventi;</corpo>
 								</el>
-								<el id="art18-com1-letb">
+								<el finevigore="t38" id="art18-com1-letb-t38" iniziovigore="t1" status="abrogato">
 									<num>b)</num>
 									<corpo>
 										imprenditori agricoli professionali iscritti agli Albi di cui alla
 										<rif xlink:href="urn:nir:regione.toscana:legge:1994-01-12;6" xlink:type="simple">legge regionale 12 gennaio 1994, n. 6</rif>
 										"Istituzione degli Albi provinciali degli Imprenditori agricolo-professionali" e successive modificazioni;
 									</corpo>
+								</el>
+								<el id="art18-com1-letb" iniziovigore="t38">
+									<num>b)</num>
+									<corpo>imprenditori agricoli professionali iscritti nell'anagrafe regionale delle aziende agricole;</corpo>
 								</el>
 								<el id="art18-com1-letc">
 									<num>c)</num>
