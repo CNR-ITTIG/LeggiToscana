@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t4" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2002-06-10;20" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:2002-06-10;20@2002-12-20" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2002-06-10;20@2005-07-25" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2002-06-10;20@2005-07-25" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2002-06-10;20@2007-11-07" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Caccia" />
 					</materie>
@@ -21,6 +22,7 @@
 						<evento data="20020704" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="20021231" fonte="rp1" id="t4" tipo="modifica" />
 						<evento data="20050804" fonte="rp2" id="t5" tipo="modifica" />
+						<evento data="20071115" fonte="rp3" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2002-06-10;20" xlink:type="simple" />
@@ -28,6 +30,7 @@
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:2001-06-26;27" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2002-12-20;45" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2005-07-25;47" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2007-11-07;53" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -188,6 +191,18 @@
 								<dsp:pos xlink:href="#art8-com3-t5" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-11-07;53" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-11-07;53#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 7 novembre 2007, n. 53" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art8-com4bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -545,6 +560,10 @@
 						<comma id="art8-com4">
 							<num>4.</num>
 							<corpo>Le Province possono, sentiti i comitati di gestione degli ATC, vietare la caccia al fagiano, fatta eccezione per le aziende faunistico-venatorie e agrituristico-venatorie, nel periodo compreso tra il 1 ed il 31 gennaio.</corpo>
+						</comma>
+						<comma id="art8-com4bis" iniziovigore="t6">
+							<num>4 bis.</num>
+							<corpo>Le province adottano tutti i provvedimenti necessari all'eradicazione della minilepre dai propri territori. Durante la stagione venatoria le province possono consentire ai cacciatori l'abbattimento della minilepre.</corpo>
 						</comma>
 					</articolo>
 				</capo>
