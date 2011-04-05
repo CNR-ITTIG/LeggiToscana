@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20061229" num="39" tipo="BURT" />
 					<entratainvigore norm="20061230" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2006-12-22;65" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2006-12-22;65" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2006-12-22;65@2007-07-27" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Bilancio" />
@@ -16,11 +17,47 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="20061230" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20070818" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2006-12-22;65" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2007-07-27;43" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-07-27;43" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-07-27;43#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 27 luglio 2007, n. 43" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-07-27;43" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-07-27;43#art4-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1 della legge Regione Toscana 27 luglio 2007, n. 43" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art5" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -168,50 +205,78 @@
 						</el>
 					</comma>
 				</articolo>
-				<articolo id="art4">
+				<articolo finevigore="t2" id="art4-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 4</num>
 					<rubrica>(Disavanzo dell'esercizio 2007)</rubrica>
-					<comma id="art4-com1">
+					<comma id="art4-t2-com1">
 						<num>1.</num>
 						<corpo>Agli effetti di cui ai commi successivi il disavanzo per l'esercizio 2007 è approvato in euro 133.395.062,92.</corpo>
 					</comma>
-					<comma id="art4-com2">
+					<comma id="art4-t2-com2">
 						<num>2.</num>
 						<corpo>
 							La Giunta regionale è autorizzata a contrarre nell'esercizio 2007 mutui e ad emettere prestiti obbligazionari o titoli similari, per l'importo complessivo di euro 133.395.062,92 per la copertura del disavanzo di cui al
-							<rif xlink:href="#art4-com1" xlink:type="simple">comma 1</rif>
+							<rif xlink:href="#art4-t2-com1" xlink:type="simple">comma 1</rif>
 							per il finanziamento di spese di investimento di cui alle unità previsionali di base (UPB) indicate nell'allegato A.4.
 						</corpo>
 					</comma>
-					<comma id="art4-com3">
+					<comma id="art4-t2-com3">
 						<num>3.</num>
 						<corpo>
 							I mutui o prestiti di cui al
-							<rif xlink:href="#art4-com2" xlink:type="simple">comma 2</rif>
+							<rif xlink:href="#art4-t2-com2" xlink:type="simple">comma 2</rif>
 							, da estinguersi in un periodo non superiore ad anni trentacinque, sono assunti od emessi ad un tasso iniziale massimo del 6 per cento effettivo annuo. Per i mutui contratti dal 1 gennaio al 31 luglio 2007, l'ammortamento decorre dal giorno 1 agosto 2007; per i mutui contratti successivamente, l'ammortamento decorre dal 1 gennaio 2008. I prestiti obbligazionari, il cui ammortamento decorre dalla data di emissione, possono essere emessi nel corso del secondo semestre 2007. L'ammortamento dei mutui e prestiti avviene con pagamento in rate semestrali posticipate.
 						</corpo>
 					</comma>
-					<comma id="art4-com4">
+					<comma id="art4-t2-com4">
 						<num>4.</num>
 						<corpo>Gli oneri annui di ammortamento, relativi agli esercizi 2007, 2008 e 2009, trovano copertura finanziaria negli appositi stanziamenti del bilancio annuale e pluriennale approvato dalla presente legge alla UPB 732 "Oneri del ricorso al credito - spese correnti" e alla UPB 735 "Rimborso prestiti".</corpo>
 					</comma>
-					<comma id="art4-com5">
+					<comma id="art4-t2-com5">
 						<num>5.</num>
 						<corpo>
 							L'eventuale maggiorazione della rata di ammortamento dei mutui e prestiti di cui al
-							<rif xlink:href="#art4-com4" xlink:type="simple">comma 4</rif>
+							<rif xlink:href="#art4-t2-com4" xlink:type="simple">comma 4</rif>
 							, dovuta alla variabilità del tasso o dagli eventuali oneri conseguenti al rischio di cambio, trova copertura finanziaria con variazione ai bilanci annuali e pluriennali attraverso le singole leggi di bilancio.
 						</corpo>
 					</comma>
-					<comma id="art4-com6">
+					<comma id="art4-t2-com6">
 						<num>6.</num>
 						<corpo>Le rate di ammortamento relative agli anni successivi al 2009, determinate in misura non superiore a quella posta a carico dell'esercizio 2009, trovano copertura con le successive leggi di bilancio.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art5">
+				<articolo id="art4" iniziovigore="t2">
+					<num>Art. 4</num>
+					<rubrica>Disavanzo dell’esercizio 2007</rubrica>
+					<comma id="art4-com1">
+						<num>1.</num>
+						<corpo>Agli effetti di cui ai commi successivi il disavanzo per l’esercizio 2007 è approvato in euro 494.746.985,59 comprensivo della somma di euro 337.728.444,61 relativa al disavanzo del rendiconto 2006.</corpo>
+					</comma>
+					<comma id="art4-com2">
+						<num>2.</num>
+						<corpo>La Giunta regionale è autorizzata a contrarre nell’esercizio 2007 mutui e ad emettere prestiti obbligazionari o titoli similari, per l’importo complessivo di euro 494.746.985,59 per la copertura del disavanzo di cui al comma 1, per il finanziamento di spese di investimento di cui alle unità previsionali di base (UPB) indicate nell’allegato A.4 del bilancio di previsione per l’anno finanziario 2007 e pluriennale 2007-2009, come integrato dall’articolo 6 della legge regionale di assestamento 2007.</corpo>
+					</comma>
+					<comma id="art4-com3">
+						<num>3.</num>
+						<corpo>I mutui e le altre forme di indebitamento di cui al comma 2, da estinguersi in un periodo non superiore ad anni trentacinque, sono assunti od emessi ad un tasso iniziale massimo del 5 per cento effettivo annuo. Per i mutui contratti entro il 31 luglio 2007, l’ammortamento decorre dal giorno 1° agosto 2007; per i mutui contratti successivamente, l’ammortamento decorre dal 1° gennaio 2008. I prestiti obbligazionari, il cui ammortamento decorre dalla data di emissione, possono essere emessi nel corso del secondo semestre 2007. L’ammortamento dei mutui e prestiti avviene con pagamento in rate semestrali posticipate.</corpo>
+					</comma>
+					<comma id="art4-com4">
+						<num>4.</num>
+						<corpo>Gli oneri di preammortamento relativi all’esercizio 2007, determinati in euro 2.061.445,77, trovano copertura finanziaria negli appositi stanziamenti del bilancio annuale, alla UPB 732 “Oneri del ricorso al credito - spese correnti”; gli oneri annui di ammortamento relativi agli esercizi 2008 e 2009, determinati, per gli esercizi 2008 e 2009, in euro 29.846.512,11 trovano copertura finanziaria negli appositi stanziamenti del bilancio pluriennale approvato dalla presente legge, alla UPB 732 “Oneri del ricorso al credito - spese correnti” e alla UPB 735 “Rimborso prestiti”.</corpo>
+					</comma>
+					<comma id="art4-com5">
+						<num>5.</num>
+						<corpo>L’eventuale maggiorazione dell’onere annuo di ammortamento dei mutui e prestiti di cui al comma 4, dovuta alla variabilità del tasso od agli eventuali oneri conseguenti al rischio di cambio, trova copertura finanziaria con variazione ai bilanci annuali e pluriennali mediante le singole leggi di bilancio.</corpo>
+					</comma>
+					<comma id="art4-com6">
+						<num>6.</num>
+						<corpo>Le rate di ammortamento relative agli anni seguenti al 2009 trovano copertura con le successive leggi di bilancio.</corpo>
+					</comma>
+				</articolo>
+				<articolo finevigore="t2" id="art5-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 5</num>
 					<rubrica>(Intervento per il programma pluriennale degli investimenti)</rubrica>
-					<comma id="art5-com1">
+					<comma id="art5-t2-com1">
 						<num>1.</num>
 						<corpo>
 							La Giunta regionale è autorizzata a contrarre nel triennio 2007/2009 mutui, prestiti o titoli similari per l'importo complessivo di euro 458.749.365,81 di cui euro 315.735.437,28 nel 2007, euro 141.823.928,53 nel 2008 ed euro 1.190.000,00 nel 2009, per l'attuazione del programma pluriennale degli investimenti approvato con il documento di programmazione economica e finanziaria 2003 ai sensi dell'
@@ -219,33 +284,65 @@
 							(Norme in materia di programmazione regionale), e successive modifiche.
 						</corpo>
 					</comma>
-					<comma id="art5-com2">
+					<comma id="art5-t2-com2">
 						<num>2.</num>
 						<corpo>
 							I mutui e le altre forme di indebitamento di cui al
-							<rif xlink:href="#art5-com1" xlink:type="simple">comma 1</rif>
+							<rif xlink:href="#art5-t2-com1" xlink:type="simple">comma 1</rif>
 							, in relazione alla tipologia di spesa di investimento, possono essere estinti in un periodo non superiore ad anni cinquanta, nel limite massimo del 50 per cento dell'importo autorizzato.
 						</corpo>
 					</comma>
-					<comma id="art5-com3">
+					<comma id="art5-t2-com3">
 						<num>3.</num>
 						<corpo>
 							I mutui o prestiti di cui al
-							<rif xlink:href="#art5-com2" xlink:type="simple">comma 2</rif>
+							<rif xlink:href="#art5-t2-com2" xlink:type="simple">comma 2</rif>
 							sono assunti od emessi ad un tasso iniziale massimo del 6 per cento effettivo annuo. Per i mutui contratti dal 1 gennaio al 31 luglio 2007, l'ammortamento decorre dal giorno 1 agosto 2007; per i mutui contratti successivamente, l'ammortamento decorre dal 1 gennaio 2008. I prestiti obbligazionari, il cui ammortamento decorre dalla data di emissione, possono essere emessi nel corso del secondo semestre 2007. L'ammortamento dei mutui e prestiti avviene con pagamento in rate semestrali posticipate.
 						</corpo>
 					</comma>
-					<comma id="art5-com4">
+					<comma id="art5-t2-com4">
 						<num>4.</num>
 						<corpo>Gli oneri annui di ammortamento, relativi agli esercizi 2007, 2008 e 2009, trovano copertura finanziaria negli appositi stanziamenti del bilancio annuale e pluriennale approvato dalla presente legge alla UPB 732 "Oneri del ricorso al credito - spese correnti" e alla UPB 735 "Rimborso Prestiti".</corpo>
 					</comma>
-					<comma id="art5-com5">
+					<comma id="art5-t2-com5">
 						<num>5.</num>
 						<corpo>
 							L'eventuale maggiorazione dell'onere annuo di ammortamento dei mutui e delle altre forme di indebitamento di cui al
-							<rif xlink:href="#art5-com4" xlink:type="simple">comma 4</rif>
+							<rif xlink:href="#art5-t2-com4" xlink:type="simple">comma 4</rif>
 							, dovuta alla variabilità del tasso o dagli eventuali oneri conseguenti al rischio di cambio, trova copertura finanziaria con variazione ai bilanci annuali e pluriennali mediante le singole leggi di bilancio.
 						</corpo>
+					</comma>
+					<comma id="art5-t2-com6">
+						<num>6.</num>
+						<corpo>Le rate di ammortamento relative agli anni successivi al 2009 trovano copertura con le successive leggi di bilancio.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art5" iniziovigore="t2">
+					<num>Art. 5</num>
+					<rubrica>Intervento per il programma pluriennale degli investimenti</rubrica>
+					<comma id="art5-com1">
+						<num>1.</num>
+						<corpo>
+							La Giunta regionale è autorizzata a contrarre nel triennio 2007/2009 mutui, prestiti o titoli similari per l’importo complessivo di euro 801.157.356,34 di cui euro 658.143.427,81 nel 2007, euro 141.823.928,53 nel 2008 ed euro 1.190.000,00 nel 2009, per l’attuazione del programma pluriennale degli investimenti approvato con il documento di programmazione economica e finanziaria 2003 ai sensi dell’
+							<rif xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49#art9" xlink:type="simple">articolo 9 della legge regionale 11 agosto 1999, n. 49</rif>
+							(Norme in materia di programmazione regionale), e successive modifiche.
+						</corpo>
+					</comma>
+					<comma id="art5-com2">
+						<num>2.</num>
+						<corpo>I mutui e le altre forme di indebitamento di cui al comma 1 sono da estinguersi in un periodo non superiore ad anni trentacinque. In relazione alla tipologia di spesa di investimento i mutui e le altre forme di indebitamento di cui al comma 1 possono essere estinti in un periodo non superiore ad anni cinquanta, nel limite massimo del cinquanta per cento dell’importo autorizzato.</corpo>
+					</comma>
+					<comma id="art5-com3">
+						<num>3.</num>
+						<corpo>I mutui e le altre forme di indebitamento di cui al comma 1 sono assunti od emessi ad un tasso iniziale massimo del 5 per cento effettivo annuo e con ammortamento decorrente dal 1° gennaio dell’anno successivo a quello di contrazione. Per i mutui contratti entro il 31 luglio 2007, l’ammortamento decorre dal giorno 1° agosto 2007; per i mutui contratti successivamente, l’ammortamento decorre dal 1° gennaio 2008. I prestiti obbligazionari, il cui ammortamento decorre dalla data di emissione, possono essere emessi nel corso del secondo semestre 2007. L’ammortamento dei mutui e prestiti avviene con pagamento in rate semestrali posticipate.</corpo>
+					</comma>
+					<comma id="art5-com4">
+						<num>4.</num>
+						<corpo>Gli oneri di preammortamento relativi all’esercizio 2007, determinati in euro 2.742.264,28 trovano copertura finanziaria nell’apposito stanziamento del bilancio annuale dell’esercizio 2007 alla UPB 732 “Oneri del ricorso al credito - spese correnti”. Gli oneri annui di ammortamento, relativi agli esercizi 2008 e 20092, determinati in euro 38.248.401,60 per il 2008 ed euro 45.777.269,20 per il 2009, trovano copertura finanziaria negli appositi stanziamenti del bilancio pluriennale approvato dalla presente legge, alla UPB 732 “Oneri del ricorso al credito - spese correnti” e alla UPB 735 “Rimborso prestiti”.</corpo>
+					</comma>
+					<comma id="art5-com5">
+						<num>5.</num>
+						<corpo>L’eventuale maggiorazione dell’onere annuo di ammortamento dei mutui e delle altre forme di indebitamento di cui al comma 2 del presente articolo, dovuta alla variabilità del tasso o dagli eventuali oneri conseguenti al rischio di cambio, trova copertura finanziaria con variazione ai bilanci annuali e pluriennali mediante le singole leggi di bilancio.</corpo>
 					</comma>
 					<comma id="art5-com6">
 						<num>6.</num>
