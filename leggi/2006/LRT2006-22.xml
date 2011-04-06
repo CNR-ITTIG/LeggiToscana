@@ -8,7 +8,8 @@
 					<entratainvigore norm="20060701" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2006-06-09;22" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2006-06-09;22@2006-11-02" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2006-06-09;22@2006-11-02" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:2006-06-09;22@2007-11-12" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organi" />
 						<materia valore="Ente Regione" />
@@ -18,10 +19,12 @@
 					<eventi>
 						<evento data="20060701" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20061108" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="20071206" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2006-06-09;22" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2006-11-02;53" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2007-11-12;58" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -35,12 +38,24 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-11-12;58" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-11-12;58#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 12 novembre 2007, n. 58" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -83,7 +98,11 @@
 					</comma>
 					<comma id="art2-com2">
 						<num>2.</num>
-						<corpo>Lo statuto prevede che la presidenza della Fondazione sia attribuita al Presidente del Consiglio regionale e che gli altri componenti del Consiglio di amministrazione siano nominati dal Consiglio regionale.</corpo>
+						<corpo>
+							Lo statuto prevede che la presidenza della Fondazione sia attribuita al Presidente del Consiglio regionale
+							<h:span id="h1" iniziovigore="t3">od a consigliere regionale da lui delegato</h:span>
+							e che gli altri componenti del Consiglio di amministrazione siano nominati dal Consiglio regionale.
+						</corpo>
 					</comma>
 					<comma id="art2-com3">
 						<num>3.</num>
@@ -109,8 +128,8 @@
 						<num>1.</num>
 						<corpo>
 							La Regione concorre alla costituzione del fondo patrimoniale della Fondazione con la somma di euro 10.000,00 e conferisce inoltre alla Fondazione
-							<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">la somma di euro 5.000,00</h:span>
-							<h:span id="h2" iniziovigore="t2">la somma di euro 20.000,00</h:span>
+							<h:span finevigore="t2" id="h2" iniziovigore="t1" status="abrogato">la somma di euro 5.000,00</h:span>
+							<h:span id="h3" iniziovigore="t2">la somma di euro 20.000,00</h:span>
 							per le spese di funzionamento per l'anno 2006. Tali oneri gravano sul bilancio interno del Consiglio regionale per l'esercizio 2006.
 						</corpo>
 					</comma>
