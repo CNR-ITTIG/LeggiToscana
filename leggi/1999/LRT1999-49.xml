@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t4" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1999-08-11;49" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1999-08-11;49@2000-12-28" />
-					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1999-08-11;49@2004-11-15" />
+					<urn finevigore="t7" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1999-08-11;49@2004-11-15" />
+					<urn finevigore="t6" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1999-08-11;49@2007-12-21" />
 					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1999-08-11;49@2006-12-22" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Programmazione" />
@@ -25,6 +26,7 @@
 						<evento data="20010120" fonte="rp1" id="t4" tipo="modifica" />
 						<evento data="20041209" fonte="rp2" id="t5" tipo="modifica" />
 						<evento data="20091230" fonte="rp3" id="t6" tipo="modifica" />
+						<evento data="20071229" fonte="rp4" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49" xlink:type="simple" />
@@ -33,6 +35,7 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-12-28;82" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2004-11-15;61" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2006-12-22;64" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2007-12-21;67" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -354,6 +357,33 @@
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2006-12-22;64#mod19" xlink:type="simple" />
 							</dsp:norma>
 						</dsp:proroga>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art10-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-12-21;67" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-12-21;67#art12-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 12, comma 1 della legge Regione Toscana 21 dicembre 2007, n. 67" id="itt21" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art10-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art10-com2-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art10bis" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-12-21;67" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-12-21;67#art13-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 13, comma 1 della legge Regione Toscana 21 dicembre 2007, n. 67" id="itt22" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art10ter" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -860,9 +890,13 @@
 						<num>1.</num>
 						<corpo>Le strategie di intervento individuate dal PRS e specificate dai documenti di programmazione economica e finanziaria sono attuate tramite piani o programmi di durata pluriennale, aventi carattere settoriale o intersettoriale, che di norma fanno riferimento a leggi di spesa. I relativi modelli analitici e procedimenti per l'elaborazione, il monitoraggio e la valutazione sono deliberati dalla Giunta regionale.</corpo>
 					</comma>
-					<comma id="art10-com2">
+					<comma finevigore="t7" id="art10-com2-t7" iniziovigore="t1" status="abrogato">
 						<num>2.</num>
 						<corpo>Gli strumenti di cui al comma 1 determinano obiettivi, finalità e tipologie di intervento, e definiscono il quadro delle risorse attivabili; dispongono, di norma, per periodi corrispondenti a quelli del PRS. I relativi programmi finanziari operano nei limiti degli esercizi considerati dal bilancio pluriennale ed in conformità con le previsioni in esso rappresentate.</corpo>
+					</comma>
+					<comma id="art10-com2" iniziovigore="t7">
+						<num>2.</num>
+						<corpo>Gli strumenti di cui al comma 1 determinano obiettivi, finalità, tipologie di intervento e definiscono il quadro delle risorse attivabili. Di norma, hanno validità corrispondente a quella del PRS, sono soggetti ad eventuali aggiornamenti e restano in vigore per un periodo di sei mesi dalla data di approvazione del PRS della legislatura regionale successiva alla loro approvazione.</corpo>
 					</comma>
 					<comma id="art10-com3">
 						<num>3.</num>
@@ -900,6 +934,38 @@
 						<corpo>La Giunta presenta annualmente al Consiglio regionale documenti di monitoraggio e valutazione, che descrivono gli stati di realizzazione e i risultati dell'attuazione dei piani e programmi.</corpo>
 					</comma>
 				</articolo>
+				<articolo id="art10ter" iniziovigore="t7">
+					<num>Art. 10 ter</num>
+					<rubrica>Attuazione, monitoraggio e valutazione degli strumenti di programmazione comunitaria affidati alla gestione della Regione</rubrica>
+					<comma id="art10ter-com1">
+						<num>1</num>
+						<corpo>Nei casi in cui occorre realizzare il coordinamento tra gli strumenti della programmazione regionale e gli strumenti della programmazione comunitaria di cui l'amministrazione regionale è responsabile, nonché al fine di garantire una corretta gestione di questi ultimi, la Giunta regionale approva con propria deliberazione specifici documenti attuativi, a carattere pluriennale e/o annuale.</corpo>
+					</comma>
+					<comma id="art10ter-com2">
+						<num>2.</num>
+						<alinea>I documenti di cui al comma 1 contengono le disposizioni complementari e di dettaglio relative alle attività ed alle procedure di attuazione del programma comunitario, ed in particolare:</alinea>
+						<el id="art10ter-com2-leta">
+							<num>a)</num>
+							<corpo>l'ulteriore articolazione degli assi prioritari del programma comunitario;</corpo>
+						</el>
+						<el id="art10ter-com2-letb">
+							<num>b)</num>
+							<corpo>la ripartizione delle competenze all'attuazione del programma tra le direzioni generali coinvolte e la definizione di dettaglio del relativo quadro finanziario;</corpo>
+						</el>
+						<el id="art10ter-com2-letc">
+							<num>c)</num>
+							<corpo>le modalità di svolgimento delle attività di riprogrammazione finanziaria eventualmente necessarie nel corso della gestione;</corpo>
+						</el>
+						<el id="art10ter-com2-letd">
+							<num>d)</num>
+							<corpo>le modalità di valutazione in itinere e di rendicontazione delle attività.</corpo>
+						</el>
+					</comma>
+					<comma id="art10ter-com3">
+						<num>3.</num>
+						<corpo>La Giunta regionale presenta annualmente al Consiglio regionale documenti di monitoraggio e valutazione dei programmi comunitari gestiti.</corpo>
+					</comma>
+				</articolo>
 				<articolo finevigore="t5" id="art11-t5" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 11</num>
 					<rubrica>(Raccordo con la programmazione locale)</rubrica>
@@ -927,7 +993,7 @@
 						<num>1.</num>
 						<corpo>
 							I piani e i programmi di cui all'
-							<rif xlink:href="#art10-com2" xlink:type="simple">articolo 10, comma 2</rif>
+							<rif xlink:href="#art10-com2-t7" xlink:type="simple">articolo 10, comma 2</rif>
 							, nella parte in cui prevedono interventi raccordati alle scelte di sviluppo delle comunità locali, possono demandare ad atti di programmazione locale, previa intesa tra le rappresentanze istituzionali interessate, la determinazione delle azioni per la realizzazione degli obiettivi e la conseguente utilizzazione delle risorse finanziarie.
 						</corpo>
 					</comma>
