@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t7" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2005-02-24;41" />
 					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:2005-02-24;41@2007-11-12" />
-					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:2005-02-24;41@2007-11-16" />
+					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:2005-02-24;41@2007-11-16" />
+					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:2005-02-24;41@2007-12-27" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Assistenza Sociale" />
 					</materie>
@@ -24,6 +25,7 @@
 						<evento data="20050322" fonte="ra5" id="t6" tipo="modifica" />
 						<evento data="20071206" fonte="rp1" id="t7" tipo="modifica" />
 						<evento data="20071211" fonte="rp2" id="t8" tipo="modifica" />
+						<evento data="20080118" fonte="rp3" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2005-02-24;41" xlink:type="simple" />
@@ -34,6 +36,7 @@
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:2000-01-12;2" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2007-11-12;57" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2007-11-16;59" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2007-12-27;69" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -109,7 +112,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:integrazione completa="si" implicita="no">
@@ -121,7 +124,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:integrazione completa="si" implicita="no">
@@ -133,7 +136,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -184,7 +187,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+								<dsp:pos xlink:href="#h5" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:abrogazione completa="si" implicita="no">
@@ -208,7 +211,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#h5" xlink:type="simple" />
+								<dsp:pos xlink:href="#h6" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:integrazione completa="si" implicita="no">
@@ -245,6 +248,18 @@
 							</dsp:norma>
 							<dsp:novella>
 								<dsp:pos xlink:href="#art40-com4quater" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com1-leti" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-12-27;69" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-12-27;69#art23-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 23, comma 1 della legge Regione Toscana 27 dicembre 2007, n. 69" id="itt13" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 					</modifichepassive>
@@ -358,7 +373,15 @@
 								</el>
 								<el id="art3-com1-leti">
 									<num>i)</num>
-									<corpo>partecipazione attiva dei cittadini singoli o associati, nell'ambito dei principi di solidarietà e di auto-organizzazione;</corpo>
+									<corpo>
+										partecipazione attiva dei cittadini singoli o associati, nell'ambito dei principi di solidarietà e di auto-organizzazione
+										<h:span id="h1" iniziovigore="t9">
+											anche mediante processi partecipativi ai sensi della
+											<rif xlink:href="urn:nir:regione.toscana:legge:2007-12-27;69" xlink:type="simple">legge regionale 27 dicembre 2007, n. 69</rif>
+											(Norme sulla promozione della partecipazione alla elaborazione delle politiche regionali e locali)
+										</h:span>
+										;
+									</corpo>
 								</el>
 								<el id="art3-com1-letj">
 									<num>j)</num>
@@ -1010,7 +1033,7 @@
 									Le finalità di cui all'
 									<rif xlink:href="#art15" xlink:type="simple">articolo 15</rif>
 									sono perseguite anche tramite il riconoscimento ed il sostegno ad associazioni familiari, comunque denominate, nelle quali i nuclei familiari realizzano attività di cura e di assistenza alla persona loro affidata,
-									<h:span id="h1" iniziovigore="t7">e alle persone che accedono prioritariamente agli interventi e ai servizi erogati dal sistema sociale integrato,</h:span>
+									<h:span id="h2" iniziovigore="t7">e alle persone che accedono prioritariamente agli interventi e ai servizi erogati dal sistema sociale integrato,</h:span>
 									secondo i percorsi disciplinati dall'
 									<rif xlink:href="#art7" xlink:type="simple">articolo 7</rif>
 									.
@@ -1608,7 +1631,7 @@
 									<num>a)</num>
 									<corpo>
 										la rete dei servizi e degli interventi attivati e promossi dai comuni nel territorio
-										<h:span id="h2" iniziovigore="t7">, con indicazione delle capacità di intervento in termini sia di strutture che di servizi,</h:span>
+										<h:span id="h3" iniziovigore="t7">, con indicazione delle capacità di intervento in termini sia di strutture che di servizi,</h:span>
 										e le modalità di coordinamento e integrazione di tali servizi e interventi;
 									</corpo>
 								</el>
@@ -1616,7 +1639,7 @@
 									<num>b)</num>
 									<corpo>
 										gli obiettivi di politica sociale da perseguire
-										<h:span id="h3" iniziovigore="t7">anche con riferimento al fabbisogno di strutture residenziali e semiresidenziali</h:span>
+										<h:span id="h4" iniziovigore="t7">anche con riferimento al fabbisogno di strutture residenziali e semiresidenziali</h:span>
 										;
 									</corpo>
 								</el>
@@ -2916,7 +2939,7 @@
 										<num>2)</num>
 										<corpo>
 											le figure professionali
-											<h:span finevigore="t7" id="h4" iniziovigore="t1" status="abrogato">di profilo sociale</h:span>
+											<h:span finevigore="t7" id="h5" iniziovigore="t1" status="abrogato">di profilo sociale</h:span>
 											preposte alla direzione delle strutture;
 										</corpo>
 									</en>
@@ -2991,7 +3014,7 @@
 									I procedimenti per l'autorizzazione di strutture residenziali e semiresidenziali in corso alla data di entrata in vigore del regolamento, di cui all'
 									<rif xlink:href="#art62" xlink:type="simple">articolo 62</rif>
 									, sono conclusi sulla base delle leggi regionali abrogate dalla presente legge
-									<h:span id="h5" iniziovigore="t7">entro il termine massimo di un anno dalla data di entrata in vigore del medesimo regolamento.</h:span>
+									<h:span id="h6" iniziovigore="t7">entro il termine massimo di un anno dalla data di entrata in vigore del medesimo regolamento.</h:span>
 									.
 								</corpo>
 							</comma>
