@@ -10,7 +10,8 @@
 					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2002-12-20;43" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2002-12-20;43@2003-12-19" />
 					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2002-12-20;43@2002-12-20" />
-					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:2002-12-20;43@2005-02-18" />
+					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:2002-12-20;43@2005-02-18" />
+					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:2002-12-20;43@2007-12-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Bilancio" />
@@ -25,6 +26,7 @@
 						<evento data="20031230" fonte="rp1" id="t5" tipo="modifica" />
 						<evento data="20041113" fonte="rp2" id="t6" tipo="modifica" />
 						<evento data="20050315" fonte="rp3" id="t7" tipo="modifica" />
+						<evento data="20071229" fonte="rp4" id="t8" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2002-12-20;43" xlink:type="simple" />
@@ -34,6 +36,7 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2003-12-19;58" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir: :legge:2002-12-20;43" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2005-02-18;31" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2007-12-21;67" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -79,7 +82,7 @@
 					</modificheattive>
 					<modifichepassive>
 						<dsp:integrazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art5-com1-lete" xlink:type="simple" />
+							<dsp:pos xlink:href="#art5-t8-com1-lete" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-12-19;58" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-12-19;58#art9-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -87,7 +90,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art5-com1-letebis" xlink:type="simple" />
+								<dsp:pos xlink:href="#art5-t8-com1-letebis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:integrazione completa="si" implicita="no">
@@ -103,7 +106,7 @@
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art6" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-02-18;31" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-02-18;31#art28-com1-letg" xlink:type="simple" />
 								<dsp:subarg>
@@ -112,6 +115,18 @@
 							</dsp:norma>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art6-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-12-21;67" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-12-21;67#art9-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 9, comma 1 della legge Regione Toscana 21 dicembre 2007, n. 67" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-t8" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>
@@ -245,52 +260,52 @@
 							</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art5">
+					<articolo finevigore="t8" id="art5-t8" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 5</num>
 						<rubrica>(Addizionale regionale all'imposta di consumo sul gas metano - ARISGAM)</rubrica>
-						<comma id="art5-com1">
+						<comma id="art5-t8-com1">
 							<num>1.</num>
 							<alinea>
 								L'addizionale regionale all'imposta di consumo sul gas metano (ARISGAM), istituita dall'
 								<rif xlink:href="urn:nir:stato:decreto.legislativo:1990-12-21;398#art9-com1" xlink:type="simple">articolo 9, comma 1, del decreto legislativo 21 dicembre 1990, n. 398</rif>
 								, concernente, tra l'altro, l'istituzione e disciplina dell'addizionale regionale all'imposta di consumo sul gas metano e per le utenze esenti, è determinata, per l'anno 2003, nelle seguenti misure per metro cubo:
 							</alinea>
-							<el id="art5-com1-leta">
+							<el id="art5-t8-com1-leta">
 								<num>a)</num>
 								<corpo>T1 euro 0,020</corpo>
 							</el>
-							<el id="art5-com1-letb">
+							<el id="art5-t8-com1-letb">
 								<num>b)</num>
 								<corpo>T2 (fino a 250 mc. annui) euro 0,020</corpo>
 							</el>
-							<el id="art5-com1-letc">
+							<el id="art5-t8-com1-letc">
 								<num>c)</num>
 								<corpo>T2 (oltre 250 mc. annui) euro 0,026</corpo>
 							</el>
-							<el id="art5-com1-letd">
+							<el id="art5-t8-com1-letd">
 								<num>d)</num>
 								<corpo>Altri usi civili euro 0,026</corpo>
 							</el>
-							<el id="art5-com1-lete">
+							<el id="art5-t8-com1-lete">
 								<num>e)</num>
 								<corpo>Usi industriali, artigianali e agricoli euro 0,006</corpo>
 							</el>
-							<el id="art5-com1-letebis" iniziovigore="t5">
+							<el id="art5-t8-com1-letebis" iniziovigore="t5">
 								<num>e bis)</num>
 								<corpo>Usi industriali per consumi superiori a 1.200.000 mc. annui euro 0.0052.</corpo>
 							</el>
 						</comma>
-						<comma id="art5-com2">
+						<comma id="art5-t8-com2">
 							<num>2.</num>
 							<corpo>
 								L'imposta sostitutiva dell'addizionale di cui al
-								<rif xlink:href="#art5-com1" xlink:type="simple">comma 1</rif>
+								<rif xlink:href="#art5-t8-com1" xlink:type="simple">comma 1</rif>
 								, istituita dall'
 								<rif xlink:href="urn:nir:stato:decreto.legislativo:1990;398#art9-com2" xlink:type="simple">articolo 9, comma 2 del DLgs 398/1990</rif>
 								a carico delle utenze esenti, è determinata per l'anno 2003 nella misura di euro 0,026 al metro cubo.
 							</corpo>
 						</comma>
-						<comma id="art5-com3">
+						<comma id="art5-t8-com3">
 							<num>3.</num>
 							<corpo>
 								In assenza di disposizioni di variazione ai sensi dell'
@@ -298,14 +313,14 @@
 								, le tariffe di cui ai
 								<mrif>
 									commi
-									<rif xlink:href="#art5-com1" xlink:type="simple">1</rif>
+									<rif xlink:href="#art5-t8-com1" xlink:type="simple">1</rif>
 									e
-									<rif xlink:href="#art5-com2" xlink:type="simple">2</rif>
+									<rif xlink:href="#art5-t8-com2" xlink:type="simple">2</rif>
 								</mrif>
 								sono confermate anche per gli esercizi successivi.
 							</corpo>
 						</comma>
-						<comma id="art5-com4">
+						<comma id="art5-t8-com4">
 							<num>4.</num>
 							<corpo>
 								<mod id="mod2">
