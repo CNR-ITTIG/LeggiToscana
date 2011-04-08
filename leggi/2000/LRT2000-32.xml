@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20000330" num="13" tipo="BURT" />
 					<entratainvigore norm="20000414" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2000-03-20;32" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2000-03-20;32" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2000-03-20;32@2007-12-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tributi" />
 					</materie>
@@ -15,11 +16,29 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="20000414" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20071229" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2000-03-20;32" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2007-12-21;67" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art11" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-12-21;67" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-12-21;67#art4-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1 della legge Regione Toscana 21 dicembre 2007, n. 67" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art11bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -274,6 +293,41 @@
 								Le convenzioni di cui all'
 								<rif xlink:href="#art8" xlink:type="simple">articolo 8</rif>
 								prevedono le modalità di partecipazione di funzionari regionali alle attività relative al contenzioso tributario.
+							</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art11bis" iniziovigore="t2">
+						<num>Art. 11 bis</num>
+						<rubrica>Riscossione diretta</rubrica>
+						<comma id="art11bis-com1">
+							<num>1.</num>
+							<corpo>
+								In conformità di quanto previsto dall'
+								<rif xlink:href="urn:nir:stato:decreto.legislativo:1997;446#art24" xlink:type="simple">articolo 24 del d.lgs. 446/1997</rif>
+								, le somme dovute a seguito delle attività di controllo, liquidazione delle dichiarazioni e accertamento, accertamento con adesione, conciliazione giudiziale e contenzioso tributario di cui agli
+								<mrif>
+									articolo
+									<rif xlink:href="#art9" xlink:type="simple">9</rif>
+									,
+									<rif xlink:href="#art10" xlink:type="simple">10</rif>
+									e
+									<rif xlink:href="#art11" xlink:type="simple">11</rif>
+								</mrif>
+								, espletate dall'Agenzia delle entrate in base alla convenzione stipulata ai sensi dell'
+								<rif xlink:href="#art8" xlink:type="simple">articolo 8</rif>
+								, sono riscosse direttamente dalla Regione.
+							</corpo>
+						</comma>
+						<comma id="art11bis-com2">
+							<num>2.</num>
+							<corpo>Le somme di cui al comma 1 comprendono gli importi dovuti a titolo d'imposta regionale, interessi e sanzioni.</corpo>
+						</comma>
+						<comma id="art11bis-com3">
+							<num>3.</num>
+							<corpo>
+								Le modalità di attuazione di quanto disposto dal presente articolo sono stabilite nella convenzione con l'Agenzia delle entrate di cui all'
+								<rif xlink:href="#art8" xlink:type="simple">articolo 8</rif>
+								.
 							</corpo>
 						</comma>
 					</articolo>
