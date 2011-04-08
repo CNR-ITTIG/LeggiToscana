@@ -8,7 +8,8 @@
 					<entratainvigore norm="20030828" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t8" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2003-08-05;44" />
-					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:2003-08-05;44@2007-05-03" />
+					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:2003-08-05;44@2007-05-03" />
+					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:2003-08-05;44@2008-02-05" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Personale" />
 						<materia valore="Ente Regione" />
@@ -24,6 +25,7 @@
 						<evento data="20030828" fonte="ra5" id="t6" tipo="modifica" />
 						<evento data="20030828" fonte="ra6" id="t7" tipo="modifica" />
 						<evento data="20070510" fonte="rp1" id="t8" tipo="modifica" />
+						<evento data="20080228" fonte="rp2" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2003-08-05;44" xlink:type="simple" />
@@ -34,6 +36,7 @@
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:2000-03-17;26" xlink:type="simple" />
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:2000-03-17;26" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2007-05-03;27" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2008-02-05;4" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -143,6 +146,42 @@
 								<dsp:pos xlink:href="#art14-t8" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art24-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-02-05;4" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-02-05;4#art31-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 31, comma 2 della legge Regione Toscana 5 febbraio 2008, n. 4" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art24-com1-t9" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art24-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-02-05;4" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-02-05;4#art31-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 31, comma 2 della legge Regione Toscana 5 febbraio 2008, n. 4" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art24-com2-t9" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art24-com5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-02-05;4" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-02-05;4#art31-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 31, comma 2 della legge Regione Toscana 5 febbraio 2008, n. 4" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art24-com5-t9" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -989,11 +1028,11 @@
 					<articolo id="art24">
 						<num>ARTICOLO 24</num>
 						<rubrica>(Segretario generale del Consiglio regionale)</rubrica>
-						<comma id="art24-com1">
+						<comma finevigore="t9" id="art24-com1-t9" iniziovigore="t1" status="abrogato">
 							<num>1.</num>
 							<corpo>Il direttore generale del Consiglio regionale assume la denominazione di segretario generale del Consiglio regionale.</corpo>
 						</comma>
-						<comma id="art24-com2">
+						<comma finevigore="t9" id="art24-com2-t9" iniziovigore="t1" status="abrogato">
 							<num>2.</num>
 							<corpo>Il segretario generale del Consiglio regionale è nominato con deliberazione della Giunta regionale, in conformità alla richiesta dell'Ufficio di presidenza del Consiglio regionale.</corpo>
 						</comma>
@@ -1005,7 +1044,7 @@
 							<num>4.</num>
 							<corpo>Il segretario generale del Consiglio regionale provvede alla determinazione del fabbisogno annuale di personale per il Consiglio regionale, sulla base degli indirizzi espressi dall'Ufficio di presidenza del Consiglio regionale, sentita la Giunta regionale.</corpo>
 						</comma>
-						<comma id="art24-com5">
+						<comma finevigore="t9" id="art24-com5-t9" iniziovigore="t1" status="abrogato">
 							<num>5.</num>
 							<corpo>Il segretario generale può affidare ad un responsabile di area di coordinamento la responsabilità di progetti per il conseguimento di obiettivi integrati e trasversali, indicati dall'Ufficio di presidenza del Consiglio regionale.</corpo>
 						</comma>
