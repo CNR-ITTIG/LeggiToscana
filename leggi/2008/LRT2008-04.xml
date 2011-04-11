@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20080213" num="4" tipo="BURT" />
 					<entratainvigore norm="20080228" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2008-02-05;4" />
+					<urn finevigore="t7" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2008-02-05;4" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:2008-02-05;4@2008-03-13" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -17,6 +18,7 @@
 						<evento data="20080228" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="20080228" fonte="ra4" id="t5" tipo="modifica" />
 						<evento data="20080228" fonte="ra5" id="t6" tipo="modifica" />
+						<evento data="20080403" fonte="rp1" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2008-02-05;4" xlink:type="simple" />
@@ -25,6 +27,7 @@
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:2003-01-17;7" xlink:type="simple" />
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:2003-08-05;44" xlink:type="simple" />
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:2003-08-05;44" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2008-03-13;14" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -93,6 +96,20 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-03-13;14" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-03-13;14#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 13 marzo 2008, n. 14" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art1-com2-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -119,7 +136,7 @@
 							<num>1.</num>
 							<corpo>Il Consiglio regionale è l'Assemblea legislativa regionale della Toscana e rappresenta la comunità regionale.</corpo>
 						</comma>
-						<comma id="art1-com2">
+						<comma finevigore="t7" id="art1-com2-t7" iniziovigore="t1" status="abrogato">
 							<num>2.</num>
 							<corpo>Gli atti ufficiali del Consiglio regionale, compresi quelli dei gruppi consiliari, recano l'intestazione "Consiglio regionale - Assemblea legislativa della Regione Toscana".</corpo>
 						</comma>
