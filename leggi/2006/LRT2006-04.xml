@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t2" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20060227" num="5" tipo="BURT" />
 					<entratainvigore norm="20060228" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2006-02-16;4" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2006-02-16;4" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2006-02-16;4@2008-02-20" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Diritti" />
 					</materie>
@@ -15,11 +16,38 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="20060228" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20081114" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2006-02-16;4" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2008-02-20;9" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="LeggeRegionale1-n1">
+						<h:p>
+							Testo di legge abrogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2008-02-20;9#art14" xlink:type="simple">art. 14, della legge regionale 20 febbraio 2008, n. 9</rif>
+							, con decorrenza fissata alla data di entrata in vigore del regolamento previsto dall'art. 9, della stessa legge abrogante. Detto regolamento, approvato con D.P.G.R. 22 ottobre 2008, n. 54/R è stato pubblicato su BURT 29 ottobre 2008, n. 34 parte prima.
+						</h:p>
+					</nota>
+				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:2006-02-16;4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-02-20;9" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-02-20;9#art14-com1-letc" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 14, comma 1, lettera c) della legge Regione Toscana 20 febbraio 2008, n. 9" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -30,7 +58,9 @@
 				<titoloDoc>
 					Interpretazione autentica dell'
 					<rif xlink:href="urn:nir:regione.toscana:legge:2000-01-12;1#art4" xlink:type="simple">articolo 4 della legge regionale 12 gennaio 2000, n. 1</rif>
-					(Norme per la tutela e la difesa dei consumatori e degli utenti).
+					(Norme per la tutela e la difesa dei consumatori e degli utenti)
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
+					.
 				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
