@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t13" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19941223" num="85 ter" tipo="BURT" />
 					<entratainvigore norm="19950107" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1994-12-22;106" />
+					<urn finevigore="t13" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1994-12-22;106" />
+					<urn iniziovigore="t13" valore="urn:nir:regione.toscana:legge:1994-12-22;106@2008-04-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Imprese" />
 						<materia valore="Giovani" />
@@ -28,6 +29,7 @@
 						<evento data="19950107" fonte="ra9" id="t10" tipo="modifica" />
 						<evento data="19950107" fonte="ra10" id="t11" tipo="modifica" />
 						<evento data="19950107" fonte="ra11" id="t12" tipo="modifica" />
+						<evento data="19980522" fonte="rp1" id="t13" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-12-22;106" xlink:type="simple" />
@@ -42,6 +44,7 @@
 						<attiva id="ra9" xlink:href="urn:nir:regione.toscana:legge:1993-04-26;27" xlink:type="simple" />
 						<attiva id="ra10" xlink:href="urn:nir:regione.toscana:legge:1993-04-26;27" xlink:type="simple" />
 						<attiva id="ra11" xlink:href="urn:nir:regione.toscana:legge:1993-04-26;27" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2008-04-29;21" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -200,6 +203,20 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1994-12-22;106" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-04-29;21" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-04-29;21#art12-com1-letb" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 12, comma 1, lettera b) della legge Regione Toscana 29 aprile 2008, n. 21" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>

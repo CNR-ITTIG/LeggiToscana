@@ -7,7 +7,8 @@
 					<pubblicazione norm="19950821" num="53" tipo="BURT" />
 					<entratainvigore norm="19950905" />
 					<redazione id="red1" nome="" norm="" />
-					<urn finevigore="t6" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1995-08-11;87" />
+					<urn finevigore="t7" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1995-08-11;87" />
+					<urn finevigore="t6" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1995-08-11;87@2008-04-29" />
 					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1995-08-11;87@2002-04-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Credito" />
@@ -21,6 +22,7 @@
 						<evento data="19950905" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="19950905" fonte="ra4" id="t5" tipo="modifica" />
 						<evento data="20020427" fonte="rp1" id="t6" tipo="modifica" />
+						<evento data="19980522" fonte="rp2" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-08-11;87" xlink:type="simple" />
@@ -29,6 +31,7 @@
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1993-04-26;27" xlink:type="simple" />
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1993-04-26;27" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2008-04-29;21" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -101,6 +104,18 @@
 								<dsp:pos xlink:href="#art1-t6" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-04-29;21" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-04-29;21#art12-com1-letc" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 12, comma 1, lettera c) della legge Regione Toscana 29 aprile 2008, n. 21" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -160,9 +175,9 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art2">
+				<articolo finevigore="t7" id="art2-t7" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 2</num>
-					<comma id="art2-com1">
+					<comma id="art2-t7-com1">
 						<num>1.</num>
 						<corpo>
 							<mod id="mod2">
@@ -183,7 +198,7 @@
 							</mod>
 						</corpo>
 					</comma>
-					<comma id="art2-com2">
+					<comma id="art2-t7-com2">
 						<num>2.</num>
 						<corpo>
 							<mmod id="mmo1">
