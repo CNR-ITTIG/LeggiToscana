@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t11" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2000-03-28;45" />
 					<urn finevigore="t12" iniziovigore="t11" valore="urn:nir:regione.toscana:legge:2000-03-28;45@2004-01-27" />
-					<urn iniziovigore="t12" valore="urn:nir:regione.toscana:legge:2000-03-28;45@2006-06-29" />
+					<urn finevigore="t13" iniziovigore="t12" valore="urn:nir:regione.toscana:legge:2000-03-28;45@2006-06-29" />
+					<urn iniziovigore="t13" valore="urn:nir:regione.toscana:legge:2000-03-28;45@2008-02-20" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Attività Artistiche" />
 					</materie>
@@ -28,6 +29,7 @@
 						<evento data="20000422" fonte="ra9" id="t10" tipo="modifica" />
 						<evento data="20040219" fonte="rp1" id="t11" tipo="modifica" />
 						<evento data="20060720" fonte="rp2" id="t12" tipo="modifica" />
+						<evento data="20090514" fonte="rp3" id="t13" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2000-03-28;45" xlink:type="simple" />
@@ -42,8 +44,18 @@
 						<attiva id="ra9" xlink:href="urn:nir:regione.toscana:legge:1995;14" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2004-01-27;6" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2006-06-29;27" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2008-02-20;10" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							La presente lettera viene inserita dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2008-02-20;10#art12" xlink:type="simple">art.12, della legge regionale 20 febbraio 2008, n. 10</rif>
+							, a decorrere dalla data di entrata in vigore del regolamento previsto dall'art. 9,della stessa legge abrogante. Detto regolamento, approvato con D.P.G.R. 22 aprile 2009, n. 18/R, è stato pubblicato su BURT 29 aprile 2009, n. 14 parte prima.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:abrogazione completa="si" implicita="no">
@@ -200,6 +212,18 @@
 								<dsp:pos xlink:href="#art3-com1-t12" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com1-lete" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-02-20;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-02-20;10#art12-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 12, comma 1 della legge Regione Toscana 20 febbraio 2008, n. 10" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com1-letebis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -414,6 +438,18 @@
 							<el id="art4-com1-lete">
 								<num>e)</num>
 								<corpo>altri soggetti pubblici e privati, non aventi scopo di lucro, individuati dagli atti di programmazione regionale.</corpo>
+							</el>
+							<el id="art4-com1-letebis" iniziovigore="t13">
+								<num>e bis)</num>
+								<corpo>
+									i comitati di gestione di cui alla
+									<rif xlink:href="urn:nir:regione.toscana:legge:2008-02-20;10" xlink:type="simple">legge regionale 20 febbraio 2008, n. 10</rif>
+									(Disciplina delle strade della ceramica, della terracotta e del gesso in Toscana. Modifiche alla
+									<rif xlink:href="urn:nir:regione.toscana:legge:2000-03-28;45" xlink:type="simple">legge regionale 28 marzo 2000, n. 45</rif>
+									"Norme in materia di promozione delle attività nel settore dello spettacolo in Toscana")
+									<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+									.
+								</corpo>
 							</el>
 						</comma>
 					</articolo>
