@@ -8,7 +8,8 @@
 					<entratainvigore norm="20030531" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2003-05-13;25" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:2003-05-13;25@2005-05-12" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:2003-05-13;25@2005-05-12" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:2003-05-13;25@2008-05-28" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Zootecnia" />
 					</materie>
@@ -18,11 +19,13 @@
 						<evento data="20030531" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20030531" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="20050607" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="20080614" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2003-05-13;25" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2003-05-13;26" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2005-05-12;43" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2008-05-28;31" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -102,6 +105,42 @@
 								<dsp:pos xlink:href="#art4-t3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-05-28;31" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-05-28;31#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 28 maggio 2008, n. 31" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com1bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-05-28;31" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-05-28;31#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 28 maggio 2008, n. 31" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-05-28;31" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-05-28;31#art2-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 2 della legge Regione Toscana 28 maggio 2008, n. 31" id="itt8" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com1bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -209,6 +248,10 @@
 							<rif xlink:href="#art1-com2" xlink:type="simple">articolo 1, comma 2</rif>
 							è concesso alle aziende agricole con allevamento zootecnico ovino, caprino, bovino e bufalino, comprese in una o più celle di campionamento in cui è suddiviso il territorio toscano, che mettono a disposizione dell'autorità sanitaria un numero di capi adeguato alle esigenze del piano di sorveglianza sierologica. Il contributo è concesso proporzionalmente al numero dei capi che vengono annualmente resi disponibili per i prelievi a partire dal 1 gennaio 2004 fino al 31 dicembre 2005. Ogni singola azienda può rendere disponibili non più di dodici capi l'anno o il numero di capi ritenuti indispensabili dall'autorità sanitaria competente per territorio. Per ogni capo messo a disposizione dell'autorità sanitaria viene erogata una somma pari a 90,00 euro, rapportata all'intero anno solare, proporzionalmente ridotta in relazione al periodo di effettiva messa a disposizione.
 						</corpo>
+					</comma>
+					<comma id="art2-com1bis" iniziovigore="t4">
+						<num>1 bis.</num>
+						<corpo>Per i prelievi effettuati a partire dal 1° gennaio 2006 fino al 31 dicembre 2007, il contributo è concesso secondo le modalità di cui al comma 1 nella misura non superiore a euro 90,00 a capo.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art3">
@@ -352,7 +395,15 @@
 					<rubrica>Norma finanziaria</rubrica>
 					<comma id="art4-com1">
 						<num>1.</num>
-						<corpo>Agli oneri di spesa derivanti dall'attuazione della presente legge, stimati in complessivi euro 600.000,00, si fa fronte con le risorse dell'unità previsionale di base (UPB) n. 521 "Interventi per lo sviluppo rurale, aiuti al reddito, agli investimenti e allo sviluppo delle imprese agricole, zootecniche e forestali - spese correnti "del bilancio di previsione 2005.</corpo>
+						<corpo>
+							Agli oneri di spesa derivanti dall'attuazione della presente legge, stimati in complessivi euro 600.000,00
+							<h:span id="h1" iniziovigore="t4">fino al 31 dicembre 2005</h:span>
+							, si fa fronte con le risorse dell'unità previsionale di base (UPB) n. 521 "Interventi per lo sviluppo rurale, aiuti al reddito, agli investimenti e allo sviluppo delle imprese agricole, zootecniche e forestali - spese correnti "del bilancio di previsione 2005.
+						</corpo>
+					</comma>
+					<comma id="art4-com1bis" iniziovigore="t4">
+						<num>1 bis.</num>
+						<corpo>Per gli oneri di spesa derivanti dai contributi relativi ai prelievi effettuati negli anni 2006 e 2007 è autorizzata la spesa di euro 520.000,00 da imputarsi alla UPB 521 "Interventi per lo sviluppo rurale, aiuti al reddito, agli investimenti e allo sviluppo delle imprese agricole, zootecniche e forestali – Spese correnti" del bilancio di previsione 2007.</corpo>
 					</comma>
 				</articolo>
 			</articolato>
