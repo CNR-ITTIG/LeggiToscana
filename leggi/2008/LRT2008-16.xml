@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t5" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20080404" num="11" tipo="BURT" />
 					<entratainvigore norm="20080419" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2008-03-28;16" />
+					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2008-03-28;16" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2008-03-28;16@2008-05-28" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -15,12 +16,14 @@
 						<evento data="20080419" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="20080419" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="20080419" fonte="ra3" id="t4" tipo="modifica" />
+						<evento data="20080531" fonte="rp1" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2008-03-28;16" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:2005-01-03;2" xlink:type="simple" />
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:2005;2" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:2005;2" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2008-05-28;32" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -134,9 +137,24 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:2008-03-28;16" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-05-28;32" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-05-28;32#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 28 maggio 2008, n. 32" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
+				<emanante>Regione Toscana</emanante>
 				<tipoDoc>Legge Regionale</tipoDoc>
 				<dataDoc norm="20080328">28 marzo 2008</dataDoc>
 				, n.
@@ -146,7 +164,6 @@
 					<rif xlink:href="urn:nir:regione.toscana:legge:2005-01-03;2" xlink:type="simple">legge regionale 3 gennaio 2005, n. 2</rif>
 					(Discipline del benessere e bio-naturali).
 				</titoloDoc>
-				<emanante>Regione Toscana</emanante>
 			</intestazione>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato</h:p>
