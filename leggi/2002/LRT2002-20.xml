@@ -10,7 +10,8 @@
 					<urn finevigore="t4" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2002-06-10;20" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:2002-06-10;20@2002-12-20" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2002-06-10;20@2005-07-25" />
-					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2002-06-10;20@2007-11-07" />
+					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2002-06-10;20@2007-11-07" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:2002-06-10;20@2008-07-31" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Caccia" />
 					</materie>
@@ -23,6 +24,7 @@
 						<evento data="20021231" fonte="rp1" id="t4" tipo="modifica" />
 						<evento data="20050804" fonte="rp2" id="t5" tipo="modifica" />
 						<evento data="20071115" fonte="rp3" id="t6" tipo="modifica" />
+						<evento data="20080823" fonte="rp4" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2002-06-10;20" xlink:type="simple" />
@@ -31,6 +33,7 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2002-12-20;45" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2005-07-25;47" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2007-11-07;53" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2008-07-31;43" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -203,6 +206,33 @@
 								<dsp:pos xlink:href="#art8-com4bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-07-31;43" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-07-31;43#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 31 luglio 2008, n. 43" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art1-com3bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-07-31;43" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-07-31;43#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 31 luglio 2008, n. 43" id="itt8" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art8-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art8-com1-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -243,6 +273,10 @@
 						<comma id="art1-com3">
 							<num>3.</num>
 							<corpo>Nel periodo dal 1 ottobre al 30 novembre di ogni anno, fermo restando il divieto di caccia nei giorni di martedì e venerdì, è consentito ad ogni cacciatore, per la caccia da appostamento alla selvaggina migratoria, di usufruire anche in modo continuativo delle giornate di caccia a propria disposizione per l'intera stagione venatoria.</corpo>
+						</comma>
+						<comma id="art1-com3bis" iniziovigore="t7">
+							<num>3 bis.</num>
+							<corpo>In tutte le zone di protezione speciale (ZPS) individuate dalla Regione Toscana l'attività venatoria è consentita nel rispetto della normativa regionale di attuazione del decreto del Ministro dell'ambiente e della tutela del territorio e del mare 17 ottobre 2007 recante criteri minimi per la definizione di misure di conservazione relative a zone speciali di conservazione e a zone di pro tezione speciali. Nel mese di gennaio l'attività venatoria nelle ZPS è consentita, fatta eccezione per la caccia agli ungulati, nei soli giorni di domenica e giovedì.</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art2">
@@ -440,7 +474,7 @@
 									, dell'
 									<rif xlink:href="#art7-com5" xlink:type="simple">articolo 7comma 5</rif>
 									, dell'
-									<rif xlink:href="#art8-com1" xlink:type="simple">articolo 8 comma 1</rif>
+									<rif xlink:href="#art8-com1-t7" xlink:type="simple">articolo 8 comma 1</rif>
 								</mrif>
 								o in altre regioni sono cumulabili.
 							</corpo>
@@ -529,7 +563,7 @@
 					<articolo id="art8">
 						<num>ARTICOLO 8</num>
 						<rubrica>(Deroghe)</rubrica>
-						<comma id="art8-com1">
+						<comma finevigore="t7" id="art8-com1-t7" iniziovigore="t1" status="abrogato">
 							<num>1.</num>
 							<corpo>
 								La Giunta regionale può consentire, sulla base delle scelte effettuate nei piani faunistico-venatori provinciali, su richiesta delle Province, nel primo giorno utile di settembre e nella domenica successiva la caccia da appostamento all'alzavola, al germano reale, alla marzaiola, alla tortora (Streptopelia turtur), al colombaccio e al merlo. Nei giorni di cui sopra, il prelievo giornaliero del colombaccio non può superare i cinque capi, del merlo da appostamento temporaneo non può superare i quattro capi e per i palmipedi non può superare i quattro capi complessivi. La Giunta regionale nell'atto di autorizzazione individua gli orari di caccia e i territori ove questa può essere svolta, nel rispetto dell'arco temporale di cui all'
@@ -537,11 +571,19 @@
 								. La Giunta regionale può altresì consentire, su richiesta delle Province, nei laghi artificiali o altre superfici allagate artificialmente la caccia solo da appostamento fisso, all'alzavola, al germano reale e alla marzaiola.
 							</corpo>
 						</comma>
+						<comma id="art8-com1" iniziovigore="t7">
+							<num>1.</num>
+							<corpo>
+								La Giunta regionale può consentire, sulla base delle scelte effettuate nei piani faunistico-venatori provinciali, su richiesta delle province, nel primo giorno utile di settembre e nella domenica successiva la caccia da appostamento alle seguenti specie: tortora (Streptopelia turtur), colombaccio, merlo, gazza, ghiandaia, cornacchia grigia. La Giunta regionale può altresì consentire, su richiesta delle province, nei laghi artificiali o altre superfici allagate artificialmente la caccia solo da appostamento fisso, all'alzavola, al germano reale e alla marzaiola. Nei giorni di apertura anticipata della caccia il prelievo giornaliero del colombaccio non può superare i cinque capi, del merlo da appostamento temporaneo non può superare i quattro capi e per i palmipedi non può superare i quattro capi complessivi. La Giunta regionale individua gli orari di caccia e i territori ove questa può essere svolta, nel rispetto dell'arco temporale di cui all'
+								<rif xlink:href="urn:nir:stato:legge:1992;157#art18-com2" xlink:type="simple">articolo 18 comma 2 della l. 157/1992</rif>
+								.
+							</corpo>
+						</comma>
 						<comma id="art8-com2">
 							<num>2.</num>
 							<corpo>
 								L'allenamento e l'addestramento dei cani è vietato nelle giornate di caccia autorizzate ai sensi del
-								<rif xlink:href="#art8-com1" xlink:type="simple">comma 1</rif>
+								<rif xlink:href="#art8-com1-t7" xlink:type="simple">comma 1</rif>
 								.
 							</corpo>
 						</comma>
