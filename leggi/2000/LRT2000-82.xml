@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t21" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20010105" num="1" tipo="BURT" />
@@ -10,7 +10,8 @@
 					<urn finevigore="t17" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2000-12-28;82" />
 					<urn finevigore="t19" iniziovigore="t17" valore="urn:nir:regione.toscana:legge:2000-12-28;82@2002-10-14" />
 					<urn finevigore="t20" iniziovigore="t19" valore="urn:nir:regione.toscana:legge:2000-12-28;82@2004-11-29" />
-					<urn iniziovigore="t20" valore="urn:nir:regione.toscana:legge:2000-12-28;82@2005-02-18" />
+					<urn finevigore="t21" iniziovigore="t20" valore="urn:nir:regione.toscana:legge:2000-12-28;82@2005-02-18" />
+					<urn iniziovigore="t21" valore="urn:nir:regione.toscana:legge:2000-12-28;82@2008-06-26" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Enti Territoriali" />
 					</materie>
@@ -37,6 +38,7 @@
 						<evento data="20010120" fonte="ra16" id="t18" tipo="modifica" />
 						<evento data="20041204" fonte="rp2" id="t19" tipo="modifica" />
 						<evento data="20050301" fonte="rp3" id="t20" tipo="modifica" />
+						<evento data="20080628" fonte="rp4" id="t21" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2000-12-28;82" xlink:type="simple" />
@@ -59,10 +61,11 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2002-10-14;37" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2004-11-29;68" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2005-02-18;32" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2008-06-26;37" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>Come da errata corrige pubblicata in BURT n. 2 del 17 gennaio 2001.</h:p>
 					</nota>
 				</redazionale>
@@ -374,6 +377,18 @@
 								<dsp:pos xlink:href="#art10bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:2000-12-28;82" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-06-26;37" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-06-26;37#art30-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 30, comma 1 della legge Regione Toscana 26 giugno 2008, n. 37" id="itt10" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -392,7 +407,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>COSTITUZIONE DELLE COMUNITÀ MONTANE E NORME DI FUNZIONAMENTO</rubrica>
 					<articolo id="art1">
@@ -650,7 +665,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>DISPOSIZIONI FINALI E TRANSITORIE</rubrica>
 					<articolo id="art10">
@@ -797,7 +812,7 @@
 								<num>b)</num>
 								<corpo>
 									da un numero di membri non superiore a sei nei casi di popolazione complessiva compresa fra 10 mila e 100 mila abitanti.
-									<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+									<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 								</corpo>
 							</el>
 						</comma>
