@@ -1,22 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20071228" num="42" tipo="BURT" />
 					<entratainvigore norm="20071229" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2007-12-21;68" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2007-12-21;68" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2007-12-21;68@2008-07-14" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="20071229" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20080807" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2007-12-21;68" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2008-07-14;40" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-07-14;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-07-14;40#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 14 luglio 2008, n. 40" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-07-14;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-07-14;40#art4-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1 della legge Regione Toscana 14 luglio 2008, n. 40" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art5" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -164,46 +201,74 @@
 						</el>
 					</comma>
 				</articolo>
-				<articolo id="art4">
+				<articolo finevigore="t2" id="art4-t2" iniziovigore="t1" status="abrogato">
 					<num>Art. 4</num>
 					<rubrica>Disavanzo dell'esercizio 2008</rubrica>
-					<comma id="art4-com1">
+					<comma id="art4-t2-com1">
 						<num>1.</num>
 						<corpo>Agli effetti di cui ai commi successivi il disavanzo per l'esercizio 2008 è approvato in euro 217.991.229,47.</corpo>
 					</comma>
-					<comma id="art4-com2">
+					<comma id="art4-t2-com2">
 						<num>2.</num>
 						<corpo>
 							La Giunta regionale è autorizzata a contrarre nell'esercizio 2008 mutui e ad emettere prestiti obbligazionari o titoli similari, per l'importo complessivo di euro 217.991.229,47 per la copertura del disavanzo di cui al
-							<rif xlink:href="#art4-com1" xlink:type="simple">comma 1</rif>
+							<rif xlink:href="#art4-t2-com1" xlink:type="simple">comma 1</rif>
 							per il finanziamento di spese di investimento di cui alle unità previsionali di base (UPB) indicate nell'allegato A.4.
 						</corpo>
 					</comma>
-					<comma id="art4-com3">
+					<comma id="art4-t2-com3">
 						<num>3.</num>
 						<corpo>
 							I mutui o prestiti di cui al
-							<rif xlink:href="#art4-com2" xlink:type="simple">comma 2</rif>
+							<rif xlink:href="#art4-t2-com2" xlink:type="simple">comma 2</rif>
 							, da estinguersi in un periodo non superiore ad anni trentacinque, sono assunti od emessi ad un tasso iniziale massimo del 6 per cento effettivo annuo. Essi possono essere assunti o emessi successivamente al 31 luglio 2008. L'ammortamento dei mutui, avente decorrenza dal 1° gennaio 2009, e dei prestiti, avente decorrenza dalla data di emissione, avviene con pagamento in rate semestrali posticipate.
 						</corpo>
 					</comma>
-					<comma id="art4-com4">
+					<comma id="art4-t2-com4">
 						<num>4.</num>
 						<corpo>
 							Gli oneri di ammortamento di cui al
-							<rif xlink:href="#art4-com3" xlink:type="simple">comma 3</rif>
+							<rif xlink:href="#art4-t2-com3" xlink:type="simple">comma 3</rif>
 							, relativi agli esercizi 2009 e 2010, nonché l'eventuale maggiorazione della rata di ammortamento dei mutui e prestiti dovuta alla variabilità di tasso od agli eventuali oneri conseguenti al rischio di cambio, trovano copertura finanziaria con le singole leggi di bilancio, negli appositi stanziamenti del bilancio annuale e pluriennale, UPB 732 "Oneri del ricorso al credito – Spese correnti" e UPB 735 " Rimborso prestiti".
 						</corpo>
 					</comma>
-					<comma id="art4-com5">
+					<comma id="art4-t2-com5">
 						<num>5.</num>
 						<corpo>Le rate di ammortamento relative agli anni successivi al 2010, determinati in misura non superiore a quella posta a carico dell'esercizio 2010, trovano copertura con le successive leggi di bilancio.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art5">
+				<articolo id="art4" iniziovigore="t2">
+					<num>Art. 4</num>
+					<rubrica>Disavanzo dell'esercizio 2008</rubrica>
+					<comma id="art4-com1">
+						<num>1.</num>
+						<corpo>Agli effetti di cui ai commi successivi il disavanzo per l'esercizio 2008 è approvato in euro 850.672.312,63 comprensivo della somma di euro 575.100.624,89 relativa al disavanzo del rendiconto 2007.</corpo>
+					</comma>
+					<comma id="art4-com2">
+						<num>2.</num>
+						<corpo>
+							La Giunta regionale è autorizzata a contrarre nell'esercizio 2008 mutui e ad emettere prestiti obbligazionari o titoli similari, per l'importo complessivo di euro 850.672.312,63 per la copertura del disavanzo di cui al comma 1, per il finanziamento di spese di investimento di cui alle unità previsionali di base (UPB) indicate nell'allegato A.4 del bilancio di previsione per l'anno finanziario 2008 e pluriennale 2008-2010, come integrato dall'
+							<rif xlink:href="#art5" xlink:type="simple">articolo 5</rif>
+							della presente legge.
+						</corpo>
+					</comma>
+					<comma id="art4-com3">
+						<num>3.</num>
+						<corpo>I mutui o prestiti di cui al comma 2, da estinguersi in un periodo non superiore ad anni trentacinque, sono assunti od emessi ad un tasso iniziale massimo del 6 per cento effettivo annuo. Essi possono essere assunti o emessi successivamente al 31 luglio 2008. L'ammortamento dei mutui, avente decorrenza dal 1° gennaio 2009, e dei prestiti, avente decorrenza dalla data di emissione, avviene con pagamento in rate semestrali posticipate.</corpo>
+					</comma>
+					<comma id="art4-com4">
+						<num>4.</num>
+						<corpo>Gli oneri di ammortamento di cui al comma 3, relativi agli esercizi 2009 e 2010, nonché l'eventuale maggiorazione della rata di ammortamento dei mutui e prestiti dovuta alla variabilità di tasso od agli eventuali oneri conseguenti al rischio di cambio, trovano copertura finanziaria con le singole leggi di bilancio, negli appositi stanziamenti del bilancio annuale e pluriennale, UPB 732 "Oneri del ricorso al credito – Spese correnti" e UPB 735 "Rimborso prestiti".</corpo>
+					</comma>
+					<comma id="art4-com5">
+						<num>5.</num>
+						<corpo>Le rate di ammortamento relative agli anni successivi al 2010, determinate in misura non superiore a quella posta a carico dell'esercizio 2010, trovano copertura con le successive leggi di bilancio.</corpo>
+					</comma>
+				</articolo>
+				<articolo finevigore="t2" id="art5-t2" iniziovigore="t1" status="abrogato">
 					<num>Art. 5</num>
 					<rubrica>Intervento per il programma pluriennale degli investimenti</rubrica>
-					<comma id="art5-com1">
+					<comma id="art5-t2-com1">
 						<num>1.</num>
 						<corpo>
 							La Giunta regionale è autorizzata a contrarre nel triennio 2008/2010 mutui, prestiti o titoli similari per l'importo complessivo di euro 288.823.604,06, di cui euro 117.582.298,97 nel 2008 (allegato A.4), euro 123.714.301,22 nel 2009 ed euro 47.527.003,87 nel 2010, per l'attuazione del programma pluriennale degli investimenti approvato con il documento di programmazione economica e finanziaria 2003 ai sensi dell'
@@ -211,29 +276,57 @@
 							(Norme in materia di programmazione regionale) e successive modifiche.
 						</corpo>
 					</comma>
-					<comma id="art5-com2">
+					<comma id="art5-t2-com2">
 						<num>2.</num>
 						<corpo>
 							I mutui e le altre forme di indebitamento di cui al
-							<rif xlink:href="#art5-com1" xlink:type="simple">comma 1</rif>
+							<rif xlink:href="#art5-t2-com1" xlink:type="simple">comma 1</rif>
 							, in relazione alla tipologia di spesa di investimento, possono essere rimborsati in un periodo non superiore ad anni cinquanta, nel limite massimo del 50 per cento dell'importo autorizzato.
 						</corpo>
 					</comma>
-					<comma id="art5-com3">
+					<comma id="art5-t2-com3">
 						<num>3.</num>
 						<corpo>
 							I mutui e prestiti di cui al
-							<rif xlink:href="#art5-com1" xlink:type="simple">comma 1</rif>
+							<rif xlink:href="#art5-t2-com1" xlink:type="simple">comma 1</rif>
 							sono assunti od emessi ad un tasso iniziale massimo del 6 per cento effettivo annuo. Essi possono essere assunti o emessi successivamente al 31 luglio 2008. L'ammortamento dei mutui, avente decorrenza dal 1° gennaio 2009, e dei prestiti, avente decorrenza dalla data di emissione, avviene con pagamento in rate semestrali posticipate.
 						</corpo>
 					</comma>
-					<comma id="art5-com4">
+					<comma id="art5-t2-com4">
 						<num>4.</num>
 						<corpo>
 							Gli oneri di ammortamento annui di cui al
-							<rif xlink:href="#art5-com3" xlink:type="simple">comma 3</rif>
+							<rif xlink:href="#art5-t2-com3" xlink:type="simple">comma 3</rif>
 							, relativi agli esercizi 2009 e 2010, nonché l'eventuale maggiorazione della rata di ammortamento dei mutui e prestiti dovuta alla variabilità di tasso od agli eventuali oneri conseguenti al rischio di cambio, trovano copertura finanziaria con le singole leggi di bilancio, negli appositi stanziamenti del bilancio annuale e pluriennale, UPB 732 "Oneri del ricorso al credito – Spese correnti" e UPB 735 " Rimborso prestiti".
 						</corpo>
+					</comma>
+					<comma id="art5-t2-com5">
+						<num>5.</num>
+						<corpo>Le rate di ammortamento relative agli anni successivi al 2010 trovano copertura con le successive leggi di bilancio.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art5" iniziovigore="t2">
+					<num>Art. 5</num>
+					<rubrica>Intervento per il programma pluriennale degli investimenti</rubrica>
+					<comma id="art5-com1">
+						<num>1.</num>
+						<corpo>
+							La Giunta regionale è autorizzata a contrarre nel triennio 2008-2010 mutui, prestiti o titoli similari per l'importo complessivo di euro 600.834.816,24 di cui euro 404.193.511,15 nel 2008, euro 138.114.301,22 nel 2009 ed euro 58.527.003,87 nel 2010, per l'attuazione del programma pluriennale degli investimenti approvato con il documento di programmazione economica e finanziaria 2003 ai sensi dell'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49#art9" xlink:type="simple">articolo 9 della legge regionale 11 agosto 1999, n. 49</rif>
+							(Norme in materia di programmazione regionale) e successive modifiche.
+						</corpo>
+					</comma>
+					<comma id="art5-com2">
+						<num>2.</num>
+						<corpo>I mutui e le altre forme di indebitamento di cui al comma 1, in relazione alla tipologia di spesa di investimento, possono essere rimborsati in un periodo non superiore ad anni cinquanta, nel limite massimo del 50 per cento dell'importo autorizzato.</corpo>
+					</comma>
+					<comma id="art5-com3">
+						<num>3.</num>
+						<corpo>I mutui e prestiti di cui al comma 1 sono assunti od emessi ad un tasso iniziale massimo del 6 per cento effettivo annuo. Essi possono essere assunti o emessi successivamente al 31 luglio 2008. L'ammortamento dei mutui, avente decorrenza dal 1° gennaio 2009, e dei prestiti, avente decorrenza dalla data di emissione, avviene con pagamento in rate semestrali posticipate.</corpo>
+					</comma>
+					<comma id="art5-com4">
+						<num>4.</num>
+						<corpo>Gli oneri di ammortamento annui di cui al comma 3, relativi agli esercizi 2009 e 2010, nonché l'eventuale maggiorazione della rata di ammortamento dei mutui e prestiti dovuta alla variabilità di tasso od agli eventuali oneri conseguenti al rischio di cambio, trovano copertura finanziaria con le singole leggi di bilancio, negli appositi stanziamenti del bilancio annuale e pluriennale, UPB 732 "Oneri del ricorso al credito – Spese correnti" e UPB 735 "Rimborso prestiti".</corpo>
 					</comma>
 					<comma id="art5-com5">
 						<num>5.</num>
