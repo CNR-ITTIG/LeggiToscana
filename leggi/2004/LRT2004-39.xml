@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t4" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2004-07-27;39" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:2004-07-27;39@2006-07-11" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2004-07-27;39@2007-07-27" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2004-07-27;39@2007-07-27" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2004-07-27;39@2008-10-22" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Programmazione" />
 						<materia valore="Enti Territoriali" />
@@ -22,6 +23,7 @@
 						<evento data="20040819" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="20060802" fonte="rp1" id="t4" tipo="modifica" />
 						<evento data="20070731" fonte="rp2" id="t5" tipo="modifica" />
+						<evento data="20091029" fonte="rp3" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2004-07-27;39" xlink:type="simple" />
@@ -29,6 +31,7 @@
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1999-11-02;58" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2006-07-11;31" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2008-10-22;53" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -94,6 +97,18 @@
 								<dsp:pos xlink:href="#art15-com2-t5" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-10-22;53" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-10-22;53#art28-com2-lete" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 28, comma 2, lettera e) della legge Regione Toscana 22 ottobre 2008, n. 53" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art13-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -536,10 +551,10 @@
 							</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art13">
+					<articolo finevigore="t6" id="art13-t6" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 13</num>
 						<rubrica>(Artigianato artistico e tradizionale)</rubrica>
-						<comma id="art13-com1">
+						<comma id="art13-t6-com1">
 							<num>1.</num>
 							<corpo>
 								<mod id="mod2">
@@ -560,11 +575,11 @@
 								</mod>
 							</corpo>
 						</comma>
-						<comma id="art13-com2">
+						<comma id="art13-t6-com2">
 							<num>2.</num>
 							<corpo>
 								La Giunta regionale provvede ad adottare direttive per l'attuazione del
-								<rif xlink:href="#art13-com1" xlink:type="simple">comma 1</rif>
+								<rif xlink:href="#art13-t6-com1" xlink:type="simple">comma 1</rif>
 								, individuando la soglia del disagio rilevante per l'attuazione del comma medesimo.
 							</corpo>
 						</comma>

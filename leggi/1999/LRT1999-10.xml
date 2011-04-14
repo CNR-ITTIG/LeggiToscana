@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t55" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19990312" num="7" tipo="BURT" />
 					<entratainvigore norm="19990327" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1999-03-03;10" />
+					<urn finevigore="t55" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1999-03-03;10" />
+					<urn iniziovigore="t55" valore="urn:nir:regione.toscana:legge:1999-03-03;10@2008-10-22" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organi" />
 						<materia valore="Artigianato" />
@@ -70,6 +71,7 @@
 						<evento data="19990327" fonte="ra51" id="t52" tipo="modifica" />
 						<evento data="19990327" fonte="ra52" id="t53" tipo="modifica" />
 						<evento data="19990327" fonte="ra53" id="t54" tipo="modifica" />
+						<evento data="20091029" fonte="rp1" id="t55" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1999-03-03;10" xlink:type="simple" />
@@ -126,10 +128,11 @@
 						<attiva id="ra51" xlink:href="urn:nir:regione.toscana:legge:1995-08-29;91" xlink:type="simple" />
 						<attiva id="ra52" xlink:href="urn:nir:regione.toscana:legge:1988-08-01;54" xlink:type="simple" />
 						<attiva id="ra53" xlink:href="urn:nir:regione.toscana:legge:1988-04-23;29" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2008-10-22;53" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>Articolo inserito con Errata Corrige pubblicata sul BURT n. 8 del 19.3.1999, Parte Prima, Sezione I.</h:p>
 					</nota>
 				</redazionale>
@@ -906,6 +909,20 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1999-03-03;10" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-10-22;53" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-10-22;53#art28-com2-letc" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 28, comma 2, lettera c) della legge Regione Toscana 22 ottobre 2008, n. 53" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -1529,7 +1546,7 @@
 				<articolo id="art19">
 					<num>
 						ARTICOLO 19
-						<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+						<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 					</num>
 					<comma id="art19-com1">
 						<num>1.</num>
