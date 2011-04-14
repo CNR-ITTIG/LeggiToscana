@@ -13,7 +13,8 @@
 					<urn finevigore="t85" iniziovigore="t84" valore="urn:nir:regione.toscana:legge:2005-01-03;1@2006-06-21" />
 					<urn finevigore="t86" iniziovigore="t85" valore="urn:nir:regione.toscana:legge:2005-01-03;1@2006-07-28" />
 					<urn finevigore="t87" iniziovigore="t86" valore="urn:nir:regione.toscana:legge:2005-01-03;1@2007-03-20" />
-					<urn iniziovigore="t87" valore="urn:nir:regione.toscana:legge:2005-01-03;1@2007-07-27" />
+					<urn finevigore="t88" iniziovigore="t87" valore="urn:nir:regione.toscana:legge:2005-01-03;1@2007-07-27" />
+					<urn iniziovigore="t88" valore="urn:nir:regione.toscana:legge:2005-01-03;1@2008-10-24" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Urbanistica" />
 						<materia valore="Tutela Ambientale" />
@@ -108,6 +109,7 @@
 						<evento data="20060824" fonte="rp4" id="t85" tipo="modifica" />
 						<evento data="20070329" fonte="rp5" id="t86" tipo="modifica" />
 						<evento data="20070818" fonte="rp6" id="t87" tipo="modifica" />
+						<evento data="20081115" fonte="rp7" id="t88" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1" xlink:type="simple" />
@@ -197,6 +199,7 @@
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2006-07-28;37" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2007-03-20;15" xlink:type="simple" />
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2007-07-27;41" xlink:type="simple" />
+						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:2008-10-24;56" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -1953,6 +1956,30 @@
 								<dsp:pos xlink:href="#art26-t87" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art19-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-10-24;56" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-10-24;56#art9-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 9, comma 1 della legge Regione Toscana 24 ottobre 2008, n. 56" id="itt37" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art19-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-10-24;56" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-10-24;56#art9-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 9, comma 2 della legge Regione Toscana 24 ottobre 2008, n. 56" id="itt38" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art19-com2bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -2850,7 +2877,17 @@
 								<corpo>
 									Ai fini di cui al
 									<rif xlink:href="#art19-com1" xlink:type="simple">comma 1</rif>
-									, i comuni, le province e la Regione istituiscono il garante della comunicazione, che può essere scelto all'interno della struttura dell'ente ad esclusione del responsabile del procedimento o all'esterno, nel procedimento di formazione e approvazione degli strumenti della pianificazione territoriale e degli atti di governo del territorio disciplinandone, con apposito regolamento, l'esercizio delle relative funzioni.
+									, i comuni, le province e la Regione istituiscono il garante della comunicazione, che può essere scelto all'interno della struttura dell'ente
+									<h:span finevigore="t88" id="h2" iniziovigore="t1" status="abrogato">ad esclusione del responsabile del procedimento</h:span>
+									o all'esterno, nel procedimento di formazione e approvazione degli strumenti della pianificazione territoriale e degli atti di governo del territorio disciplinandone, con apposito regolamento, l'esercizio delle relative funzioni.
+								</corpo>
+							</comma>
+							<comma id="art19-com2bis" iniziovigore="t88">
+								<num>2 bis.</num>
+								<corpo>
+									Non può essere nominato garante della comunicazione il responsabile del procedimento di cui al capo II del presente titolo. Non può essere nominato garante regionale della comunicazione il soggetto che si trovi nelle situazioni di incompatibilità, ineleggibilità o di conflitto di interessi di cui alla
+									<rif xlink:href="urn:nir:regione.toscana:legge:2008-02-08;5" xlink:type="simple">legge regionale 8 febbraio 2008, n. 5</rif>
+									(Norme in materia di nomine e designazioni e di rinnovo degli organi amministrativi di competenza della Regione).
 								</corpo>
 							</comma>
 						</articolo>

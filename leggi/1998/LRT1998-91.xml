@@ -13,7 +13,8 @@
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1998-12-11;91@2001-01-16" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1998-12-11;91@2003-12-29" />
 					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1998-12-11;91@2005-02-01" />
-					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1998-12-11;91@2007-05-21" />
+					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1998-12-11;91@2007-05-21" />
+					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1998-12-11;91@2008-10-24" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tutela Ambientale" />
 						<materia valore="Protezione Civile" />
@@ -28,6 +29,7 @@
 						<evento data="20040122" fonte="rp4" id="t5" tipo="modifica" />
 						<evento data="20050225" fonte="rp5" id="t6" tipo="modifica" />
 						<evento data="20070525" fonte="rp6" id="t7" tipo="modifica" />
+						<evento data="20081115" fonte="rp7" id="t8" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-12-11;91" xlink:type="simple" />
@@ -37,6 +39,7 @@
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2003-12-29;67" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2005-02-01;27" xlink:type="simple" />
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2007-05-21;29" xlink:type="simple" />
+						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:2008-10-24;56" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -104,7 +107,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art4-com2bis" xlink:type="simple" />
+								<dsp:pos xlink:href="#art4-com2bis-t8" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art4-com2-t3" xlink:type="simple" />
@@ -209,6 +212,21 @@
 								<dsp:pos xlink:href="#art14bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-10-24;56" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-10-24;56#art11-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 11, comma 1 della legge Regione Toscana 24 ottobre 2008, n. 56" id="itt14" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-com2bis-t8" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -403,9 +421,13 @@
 							<num>2.</num>
 							<corpo>Il Comitato Tecnico è nominato dalla Giunta regionale ed è composto da un numero di membri designati dalle Province, uno per ciascuna, e da un ugual numero designato dalla Giunta regionale fra i dipendenti pubblici con profilo professionale tecnico adeguato. Del Comitato Tecnico fanno inoltre parte tre funzionari tecnici dello Stato, designati uno ciascuno dal Ministero dei Lavori Pubblici, dal Ministero dell'Ambiente e da quello per le Politiche Agricole.</corpo>
 						</comma>
-						<comma id="art4-com2bis" iniziovigore="t3">
+						<comma finevigore="t8" id="art4-com2bis-t8" iniziovigore="t3" status="abrogato">
 							<num />
 							<corpo>Il Comitato tecnico è nominato dalla Giunta Regionale ed è composto da un numero di membri designati dalle Province, uno per ciascuna, e da un ugual numero designato dalla Giunta Regionale fra i dipendenti pubblici con profilo professionale adeguato.</corpo>
+						</comma>
+						<comma id="art4-com2" iniziovigore="t8">
+							<num>2.</num>
+							<corpo>Il comitato tecnico è nominato dal Presidente della Giunta regionale ed è composto da un numero di membri designati dalle province, uno per ciascuna, e da un egual numero di membri scelti fra i dipendenti pubblici con profilo professionale adeguato.</corpo>
 						</comma>
 						<comma id="art4-com3">
 							<num>3.</num>
@@ -861,8 +883,7 @@
 								<num>f)</num>
 								<corpo>sbarramenti di ritenuta e relativi bacini di accumulo fino a 15 metri di altezza o capacità fino a 1 milione di metri cubi;</corpo>
 							</el>
-							<el finevigore="t4" id="art14-com1-letg-t4" iniziovigore="t2
-" status="abrogato">
+							<el finevigore="t4" id="art14-com1-letg-t4" iniziovigore="t2" status="abrogato">
 								<num>g)</num>
 								<corpo>gestione del demanio idrico, ivi comprese le funzioni relative alle derivazioni di acqua pubblica, alla ricerca, estrazione ed utilizzazione delle acque sotterranee, alla tutela del sistema idrico sotterraneo;</corpo>
 							</el>

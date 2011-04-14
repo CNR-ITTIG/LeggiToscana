@@ -12,7 +12,8 @@
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1993-09-06;67@1994-12-15" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1993-09-06;67@1993-09-06" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1993-09-06;67@2002-04-02" />
-					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1993-09-06;67@2007-07-27" />
+					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1993-09-06;67@2007-07-27" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1993-09-06;67@2008-10-24" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Trasporti" />
 					</materie>
@@ -25,6 +26,7 @@
 						<evento data="19970610" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="20020427" fonte="rp4" id="t5" tipo="modifica" />
 						<evento data="20070731" fonte="rp5" id="t6" tipo="modifica" />
+						<evento data="20081115" fonte="rp6" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1993-09-06;67" xlink:type="simple" />
@@ -33,6 +35,7 @@
 						<passiva id="rp3" xlink:href="urn:nir: :legge:1993-09-06;67" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40" xlink:type="simple" />
+						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2008-10-24;56" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -192,7 +195,7 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art2-com1-letd" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40#art59-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -227,6 +230,36 @@
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40#art60-com1" xlink:type="simple" />
 								<dsp:subarg>
 									<ittig:notavigenza auto="articolo 60, comma 1 della legge Regione Toscana 27 luglio 2007, n. 40" id="itt12" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h6" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com7" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-10-24;56" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-10-24;56#art16-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 16, comma 1 della legge Regione Toscana 24 ottobre 2008, n. 56" id="itt13" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6-com7" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art6-com7-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com8" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-10-24;56" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-10-24;56#art16-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 16, comma 2 della legge Regione Toscana 24 ottobre 2008, n. 56" id="itt14" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
@@ -684,13 +717,25 @@
 						<num>6.</num>
 						<corpo>Per la validità degli esami è necessaria la presenza di almeno due terzi dei componenti effettivi o supplenti.</corpo>
 					</comma>
-					<comma id="art6-com7">
+					<comma finevigore="t7" id="art6-com7-t7" iniziovigore="t1" status="abrogato">
 						<num>7.</num>
 						<corpo>Il membro della Commissione che, senza giustificato motivo, non sia intervenuto a tre sedute consecutive decade dall'incarico.</corpo>
 					</comma>
+					<comma id="art6-com7" iniziovigore="t7">
+						<num>7.</num>
+						<corpo>
+							Il membro della Commissione è revocato, oltre che nei casi previsti dal
+							<rif xlink:href="urn:nir:regione.toscana:legge:2008-02-08;5#art15-com4" xlink:type="simple">comma 4 dell'articolo 15 della legge regionale 8 febbraio 2008, n. 5</rif>
+							(Norme in materia di nomine e designazioni e di rinnovo degli organi amministrativi di competenza della Regione), anche qualora, senza giustificato motivo, non sia intervenuto a tre sedute consecutive della Commissione stessa.
+						</corpo>
+					</comma>
 					<comma id="art6-com8">
 						<num>8.</num>
-						<corpo>La decadenza è pronunciata, su proposta del Presidente della Commissione, con decreto del Presidente della Giunta regionale che promuove altresì le procedure per la sostituzione.</corpo>
+						<corpo>
+							<h:span finevigore="t7" id="h3" iniziovigore="t1" status="abrogato">La decadenza è pronunciata</h:span>
+							<h:span id="h4" iniziovigore="t7">La revoca è pronunciata</h:span>
+							, su proposta del Presidente della Commissione, con decreto del Presidente della Giunta regionale che promuove altresì le procedure per la sostituzione.
+						</corpo>
 					</comma>
 					<comma id="art6-com9">
 						<num>9.</num>
@@ -712,9 +757,8 @@
 						<num>12.</num>
 						<corpo>
 							Ai membri e al Segretario della Commissione è attribuito, per ogni giorno di seduta della Commissione e per un massimo di 12 sedute l'anno un gettone di presenza di
-							<h:span finevigore="t6" id="h3" iniziovigore="t2
-" status="abrogato">L. 100.000</h:span>
-							<h:span id="h4" iniziovigore="t6">euro 49,00</h:span>
+							<h:span finevigore="t6" id="h5" iniziovigore="t2" status="abrogato">L. 100.000</h:span>
+							<h:span id="h6" iniziovigore="t6">euro 49,00</h:span>
 							, ai membri della Commissione è attribuita l'indennità di missione ed il rimborso delle spese di viaggio eventualmente sostenute per la partecipazione alle sedute nella misura e secondo le modalità previste per i dirigenti regionali. Al Segretario della Commissione è attribuita l'indennità di missione e il rimborso delle spese di viaggio previste per la qualifica di appartenenza.
 						</corpo>
 					</comma>

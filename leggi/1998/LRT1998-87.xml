@@ -13,7 +13,8 @@
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1998-12-01;87@2001-08-16" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1998-12-01;87@2001-10-31" />
 					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1998-12-01;87@2003-03-03" />
-					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1998-12-01;87@2003-12-22" />
+					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1998-12-01;87@2003-12-22" />
+					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1998-12-01;87@2008-10-24" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sviluppo Economico" />
 						<materia valore="Attribuzioni Deleghe" />
@@ -28,6 +29,7 @@
 						<evento data="20011122" fonte="rp4" id="t5" tipo="modifica" />
 						<evento data="20030327" fonte="rp5" id="t6" tipo="modifica" />
 						<evento data="20040115" fonte="rp6" id="t7" tipo="modifica" />
+						<evento data="20081115" fonte="rp7" id="t8" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-12-01;87" xlink:type="simple" />
@@ -37,6 +39,7 @@
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2003-03-03;16" xlink:type="simple" />
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2003-12-22;61" xlink:type="simple" />
+						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:2008-10-24;56" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -257,6 +260,21 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art18-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art24-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-10-24;56" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-10-24;56#art10-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 10, comma 1 della legge Regione Toscana 24 ottobre 2008, n. 56" id="itt16" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art24-com4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art24-com4-t8" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -1510,13 +1528,17 @@
 								, su richiesta motivata della Giunta Regionale le Camere di commercio sono tenute a fornire alla Giunta stessa copia o facoltà di visione di ogni atto o documento necessario.
 							</corpo>
 						</comma>
-						<comma id="art24-com4">
+						<comma finevigore="t8" id="art24-com4-t8" iniziovigore="t1" status="abrogato">
 							<num>4.</num>
 							<corpo>
 								Il Presidente della Giunta Regionale designa, ai sensi dell'
 								<rif xlink:href="urn:nir:stato:legge:1993-12-29;580#art17-com1" xlink:type="simple">art. 17 comma 1 della Legge 29 dicembre 1993, n. 580</rif>
 								, i rappresentanti della Regione nei collegi dei revisori delle Camere di commercio.
 							</corpo>
+						</comma>
+						<comma id="art24-com4" iniziovigore="t8">
+							<num>4.</num>
+							<corpo>Il Consiglio regionale designa i rappresentanti della Regione nei collegi dei revisori delle camere di commercio.</corpo>
 						</comma>
 					</articolo>
 				</capo>

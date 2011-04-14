@@ -13,7 +13,8 @@
 					<urn finevigore="t32" iniziovigore="t31" valore="urn:nir:regione.toscana:legge:1994-03-16;24@2000-03-17" />
 					<urn finevigore="t33" iniziovigore="t32" valore="urn:nir:regione.toscana:legge:1994-03-16;24@2000-03-28" />
 					<urn finevigore="t34" iniziovigore="t33" valore="urn:nir:regione.toscana:legge:1994-03-16;24@2001-10-31" />
-					<urn iniziovigore="t34" valore="urn:nir:regione.toscana:legge:1994-03-16;24@2005-01-03" />
+					<urn finevigore="t35" iniziovigore="t34" valore="urn:nir:regione.toscana:legge:1994-03-16;24@2005-01-03" />
+					<urn iniziovigore="t35" valore="urn:nir:regione.toscana:legge:1994-03-16;24@2008-10-24" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Parchi" />
 						<materia valore="Ordinamento" />
@@ -55,6 +56,7 @@
 						<evento data="20000422" fonte="rp4" id="t32" tipo="modifica" />
 						<evento data="20011122" fonte="rp5" id="t33" tipo="modifica" />
 						<evento data="20050120" fonte="rp6" id="t34" tipo="modifica" />
+						<evento data="20081115" fonte="rp7" id="t35" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-03-16;24" xlink:type="simple" />
@@ -91,6 +93,7 @@
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2000-03-28;43" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53" xlink:type="simple" />
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1" xlink:type="simple" />
+						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:2008-10-24;56" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -728,6 +731,36 @@
 								<dsp:pos xlink:href="#art16-com4quater" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-10-24;56" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-10-24;56#art17-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 17, comma 1 della legge Regione Toscana 24 ottobre 2008, n. 56" id="itt23" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art5-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-com1-t35" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-10-24;56" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-10-24;56#art18-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 18, comma 1 della legge Regione Toscana 24 ottobre 2008, n. 56" id="itt24" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art8-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art8-com2-t35" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -841,9 +874,13 @@
 					<articolo id="art5">
 						<num>ARTICOLO 5</num>
 						<rubrica>(Presidente)</rubrica>
-						<comma id="art5-com1">
+						<comma finevigore="t35" id="art5-com1-t35" iniziovigore="t1" status="abrogato">
 							<num>1.</num>
 							<corpo>ll Presidente è nominato dal Consiglio regionale sulla base di un elenco di almeno 5 nominativi designati dalla Comunità del Parco.</corpo>
+						</comma>
+						<comma id="art5-com1" iniziovigore="t35">
+							<num>1.</num>
+							<corpo>Il Presidente è nominato dal Presidente della Giunta regionale sulla base di un elenco di almeno cinque nominativi designati dalla Comunità del Parco.</corpo>
 						</comma>
 						<comma id="art5-com2">
 							<num>2.</num>
@@ -932,9 +969,13 @@
 								. Due revisori sono eletti dal Consiglio regionale con voto limitato ad uno, il terzo è designato dal Ministero del Tesoro.
 							</corpo>
 						</comma>
-						<comma id="art8-com2">
+						<comma finevigore="t35" id="art8-com2-t35" iniziovigore="t1" status="abrogato">
 							<num>2.</num>
 							<corpo>Il Collegio è costituito con decreto del Presidente della Giunta regionale.</corpo>
+						</comma>
+						<comma id="art8-com2" iniziovigore="t35">
+							<num>2.</num>
+							<corpo>Il Collegio è costituito con decreto del Presidente del Consiglio regionale.</corpo>
 						</comma>
 						<comma id="art8-com3">
 							<num>3.</num>
