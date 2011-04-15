@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t4" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1996-03-28;24" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1996-03-28;24@2002-12-24" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1996-03-28;24@2007-07-27" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1996-03-28;24@2007-07-27" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1996-03-28;24@2008-11-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organizzazioni Pubbliche" />
 						<materia valore="Credito" />
@@ -23,6 +24,7 @@
 						<evento data="19960409" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="20030115" fonte="rp1" id="t4" tipo="modifica" />
 						<evento data="20070731" fonte="rp2" id="t5" tipo="modifica" />
+						<evento data="20081129" fonte="rp3" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1996-03-28;24" xlink:type="simple" />
@@ -30,6 +32,7 @@
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1994;41" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2002-12-24;46" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -117,7 +120,7 @@
 					</modificheattive>
 					<modifichepassive>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art5-com2-letb" xlink:type="simple" />
+							<dsp:pos xlink:href="#art5-com2-t6-letb" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-12-24;46" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-12-24;46#art1-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -125,14 +128,14 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art5-com2-letb" xlink:type="simple" />
+								<dsp:pos xlink:href="#art5-com2-t6-letb" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#art5-com2-letb-t4" xlink:type="simple" />
+								<dsp:pos xlink:href="#art5-com2-t6-letb-t4" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:integrazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art5-com2" xlink:type="simple" />
+							<dsp:pos xlink:href="#art5-com2-t6" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-12-24;46" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-12-24;46#art1-com2" xlink:type="simple" />
 								<dsp:subarg>
@@ -140,7 +143,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art5-com2bis" xlink:type="simple" />
+								<dsp:pos xlink:href="#art5-com2bis-t6" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -158,6 +161,57 @@
 								<dsp:pos xlink:href="#art5-com4-t5" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62#art9-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 9, comma 1 della legge Regione Toscana 21 novembre 2008, n. 62" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art5-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-com2-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com2bis" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62#art9-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 9, comma 2 della legge Regione Toscana 21 novembre 2008, n. 62" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-com2bis-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62#art9-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 9, comma 2 della legge Regione Toscana 21 novembre 2008, n. 62" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-com3-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62#art9-com3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 9, comma 3 della legge Regione Toscana 21 novembre 2008, n. 62" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -300,14 +354,14 @@
 						<num>1.</num>
 						<corpo>La Giunta regionale conferisce alla Fidi Agricola SpA mandato a gestire, vendere e ottenere il rimborso delle partecipazioni revenienti dalla liquidazione dell'ETSAF.</corpo>
 					</comma>
-					<comma id="art5-com2">
+					<comma finevigore="t6" id="art5-com2-t6" iniziovigore="t1" status="abrogato">
 						<num>2.</num>
 						<alinea>
 							Le somme recuperate dalla Fidi Agricola sia a titolo di recupero dei crediti sia dalla gestione o vendita delle partecipazioni di cui al punto precedente, detratte le spese relative al compenso di cui all'
 							<rif xlink:href="#art2-com2" xlink:type="simple">art. 2 comma 2</rif>
 							, verranno utilizzate dalla Fidi Agricola come segue:
 						</alinea>
-						<el id="art5-com2-leta">
+						<el id="art5-com2-t6-leta">
 							<num>a)</num>
 							<corpo>
 								per la dotazione finanziaria del Fondo di cui al punto B del
@@ -315,28 +369,36 @@
 								;
 							</corpo>
 						</el>
-						<el finevigore="t4" id="art5-com2-letb-t4" iniziovigore="t1" status="abrogato">
+						<el finevigore="t4" id="art5-com2-t6-letb-t4" iniziovigore="t1" status="abrogato">
 							<num>b)</num>
 							<corpo>per la costituzione di un Fondo indisponibile da utilizzare per l'assunzione di partecipazioni in imprese agricole, agroalimentari o di trasformazione e commercializzazione dei prodotti agricoli, costituite in forma di società di capitali, ivi comprese le società cooperative, in nome e per conto della Regione Toscana; la ripartizione delle disponibilità finanziarie fra i fondi di cui sopra è stabilita dalla Giunta regionale.</corpo>
 						</el>
-						<el id="art5-com2-letb" iniziovigore="t4">
+						<el id="art5-com2-t6-letb" iniziovigore="t4">
 							<num>b)</num>
 							<corpo>per la costituzione di un fondo indisponibile, da utilizzare per l'assunzione di partecipazioni e di obbligazioni, anche convertibili, in imprese agricole, agroalimentari o di trasformazione e commercializzazione di prodotti agricoli, costituite in forma di società di capitali, ivi comprese le società cooperative, in nome e per conto della Regione Toscana.</corpo>
 						</el>
 					</comma>
-					<comma id="art5-com2bis" iniziovigore="t4">
+					<comma id="art5-com2" iniziovigore="t6">
+						<num>2.</num>
+						<corpo>
+							Le somme recuperate dalla Fidi Toscana S.p.A. sia a titolo di recupero dei crediti sia dalla gestione o vendita delle partecipazioni di cui al comma 1, detratte le spese relative al compenso di cui all'articolo 2, comma 2, vengono utilizzate dalla Fidi Toscana S.p.A. per la dotazione finanziaria del fondo di cui all'
+							<rif xlink:href="urn:nir:regione.toscana:legge:1994;41#art17-com1-letb" xlink:type="simple">articolo 17, comma 1, lettera b) della l.r. 41/1994</rif>
+							.
+						</corpo>
+					</comma>
+					<comma finevigore="t6" id="art5-com2bis-t6" iniziovigore="t4" status="abrogato">
 						<num>2 bis.</num>
 						<corpo>
 							La ripartizione delle disponibilità finanziarie tra i fondi di cui al
-							<rif xlink:href="#art5-com2" xlink:type="simple">comma 2</rif>
+							<rif xlink:href="#art5-com2-t6" xlink:type="simple">comma 2</rif>
 							è stabilita dalla Giunta regionale
 						</corpo>
 					</comma>
-					<comma id="art5-com3">
+					<comma finevigore="t6" id="art5-com3-t6" iniziovigore="t1" status="abrogato">
 						<num>3.</num>
 						<corpo>
 							Le modalità e i criteri di funzionamento del fondo di cui al
-							<rif xlink:href="#art5-com2-letb-t4" xlink:type="simple">precedente comma 2 lett. b)</rif>
+							<rif xlink:href="#art5-com2-t6-letb-t4" xlink:type="simple">precedente comma 2 lett. b)</rif>
 							e della gestione delle partecipazioni sono definite da specifiche direttive del Consiglio regionale.
 						</corpo>
 					</comma>
@@ -346,7 +408,11 @@
 					</comma>
 					<comma id="art5-com4" iniziovigore="t5">
 						<num>4.</num>
-						<corpo>Gli interessi maturati sulle somme recuperate ai sensi del comma 2 e sulle disponibilità liquide del fondo di cui al comma 2, lettera b), al netto degli oneri fiscali, sono acquisiti al bilancio regionale.</corpo>
+						<corpo>
+							Gli interessi maturati sulle somme recuperate ai sensi del comma 2
+							<h:span finevigore="t6" id="h1" iniziovigore="t1" status="abrogato">e sulle disponibilità liquide del fondo di cui al comma 2, lettera b)</h:span>
+							, al netto degli oneri fiscali, sono acquisiti al bilancio regionale.
+						</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art6">

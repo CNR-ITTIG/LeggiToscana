@@ -8,7 +8,8 @@
 					<entratainvigore norm="20080228" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t6" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2008-02-08;5" />
-					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2008-02-08;5@2008-10-24" />
+					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2008-02-08;5@2008-10-24" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:2008-02-08;5@2008-11-21" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -18,6 +19,7 @@
 						<evento data="20080228" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="20080228" fonte="ra4" id="t5" tipo="modifica" />
 						<evento data="20081115" fonte="rp1" id="t6" tipo="modifica" />
+						<evento data="20081129" fonte="rp2" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2008-02-08;5" xlink:type="simple" />
@@ -26,6 +28,7 @@
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1992-12-30;61" xlink:type="simple" />
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1995-04-18;45" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2008-10-24;56" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -158,7 +161,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#h6" xlink:type="simple" />
+								<dsp:pos xlink:href="#h8" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -197,7 +200,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#h7" xlink:type="simple" />
+								<dsp:pos xlink:href="#h9" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:abrogazione completa="si" implicita="no">
@@ -209,7 +212,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#h8" xlink:type="simple" />
+								<dsp:pos xlink:href="#h10" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:integrazione completa="si" implicita="no">
@@ -251,6 +254,21 @@
 								<dsp:pos xlink:href="#art22-com2bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62#art66-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 66, comma 1 della legge Regione Toscana 21 novembre 2008, n. 62" id="itt14" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h7" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -715,9 +733,10 @@
 					<comma id="art7-com4">
 						<num>4.</num>
 						<corpo>
-							Le nomine e designazioni sono effettuate di norma tra i candidati indicati ai sensi dei commi 1 e 3, salvo che, per mancanza di indicazioni di candidature o per altra causa eccezionale, oltre che per le ragioni di urgenza di cui alla
-							<rif xlink:href="#art7-com1-t6-letf" xlink:type="simple">lettera f) del comma 1</rif>
-							, l'organo competente ritenga, motivatamente, di dover provvedere in deroga, fermo restando il rispetto dei criteri e dei principi della presente legge.
+							Le nomine e designazioni sono effettuate di norma tra i candidati indicati ai sensi dei commi 1 e 3, salvo che, per mancanza di indicazioni di candidature o per altra causa eccezionale, oltre che per le ragioni di urgenza
+							<h:span finevigore="t7" id="h6" iniziovigore="t1" status="abrogato">di cui alla lettera f)</h:span>
+							<h:span id="h7" iniziovigore="t7">di cui alla lettera c)</h:span>
+							del comma 1 , l'organo competente ritenga, motivatamente, di dover provvedere in deroga, fermo restando il rispetto dei criteri e dei principi della presente legge.
 						</corpo>
 					</comma>
 					<comma id="art7-com5">
@@ -903,7 +922,7 @@
 								coloro che ricadono nelle previsioni dell'
 								<rif xlink:href="urn:nir:stato:legge:1981-04-23;154#art2" xlink:type="simple">articolo 2 della legge 23 aprile 1981, n. 154</rif>
 								(Norme in materia di ineleggibilità ed incompatibilità alle cariche di consigliere regionale, provinciale, comunale e circoscrizionale e in materia di incompatibilità degli addetti al Servizio sanitario nazionale)
-								<h:span id="h6" iniziovigore="t6">
+								<h:span id="h8" iniziovigore="t6">
 									, ad esclusione dei dipendenti regionali, fermo restando quanto per essi previsto dalle
 									<mrif>
 										lettere
@@ -1083,7 +1102,7 @@
 						<num>4.</num>
 						<corpo>
 							Non è consentita la nomina per più di due mandati consecutivi nello stesso incarico.
-							<h:span id="h7" iniziovigore="t6">A tale fine si considerano anche i mandati svolti prima dell'entrata in vigore della presente legge.</h:span>
+							<h:span id="h9" iniziovigore="t6">A tale fine si considerano anche i mandati svolti prima dell'entrata in vigore della presente legge.</h:span>
 						</corpo>
 					</comma>
 					<comma id="art13-com5">
@@ -1204,7 +1223,7 @@
 						<num>5.</num>
 						<corpo>
 							La revoca è disposta, con provvedimento motivato, dallo stesso organo competente alla nomina o designazione.
-							<h:span finevigore="t6" id="h8" iniziovigore="t1" status="abrogato">In caso di nomina o designazione di competenza del Consiglio regionale la revoca è disposta previa istruttoria svolta dalla commissione consiliare competente.</h:span>
+							<h:span finevigore="t6" id="h10" iniziovigore="t1" status="abrogato">In caso di nomina o designazione di competenza del Consiglio regionale la revoca è disposta previa istruttoria svolta dalla commissione consiliare competente.</h:span>
 						</corpo>
 					</comma>
 					<comma id="art15-com6">

@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t4" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2003-07-09;35" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:2003-07-09;35@2000-12-22" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2003-07-09;35@2007-07-27" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2003-07-09;35@2007-07-27" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2003-07-09;35@2008-11-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sport" />
 						<materia valore="Assistenza Sanitaria" />
@@ -22,6 +23,7 @@
 						<evento data="20030802" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="20040101" fonte="rp1" id="t4" tipo="modifica" />
 						<evento data="20070731" fonte="rp2" id="t5" tipo="modifica" />
+						<evento data="20081129" fonte="rp3" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2003-07-09;35" xlink:type="simple" />
@@ -29,6 +31,7 @@
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1997-10-29;77" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-12-22;62" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -132,6 +135,21 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#h5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62#art22-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 22, comma 1 della legge Regione Toscana 21 novembre 2008, n. 62" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-com4-t6" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -407,7 +425,7 @@
 									articolo 4 , commi
 									<rif xlink:href="#art4-com3" xlink:type="simple">3</rif>
 									e
-									<rif xlink:href="#art4-com4" xlink:type="simple">4</rif>
+									<rif xlink:href="#art4-com4-t6" xlink:type="simple">4</rif>
 								</mrif>
 								, secondo le modalità previste da apposite convenzioni da stipularsi con le aziende unità sanitarie locali.
 							</corpo>
@@ -437,9 +455,13 @@
 							<num>3.</num>
 							<corpo>Le certificazioni di idoneità all'attività sportiva non agonistica sono rilasciate dal medico di medicina generale o dal pediatra di libera scelta limitatamente ai propri assistiti.</corpo>
 						</comma>
-						<comma id="art4-com4">
+						<comma finevigore="t6" id="art4-com4-t6" iniziovigore="t1" status="abrogato">
 							<num>4.</num>
 							<corpo>Le certificazioni di idoneità all'attività sportiva agonistica e non agonistica sono rilasciate dalle aziende unità sanitarie locali o da strutture ambulatoriali private accreditate per la medicina dello sport. Sono competenti al rilascio della certificazione l'azienda unità sanitaria locale in cui è residente l'atleta oppure l'azienda unità sanitaria locale ove è ubicata la società sportiva e le strutture ambulatoriali accreditate ubicate nel territorio delle medesime aziende.</corpo>
+						</comma>
+						<comma id="art4-com4" iniziovigore="t6">
+							<num>4.</num>
+							<corpo>Le certificazioni di idoneità agonistica e non agonistica sono rilasciate dalle aziende unità sanitarie locali o da strutture ambulatoriali private accreditate per la medicina dello sport.</corpo>
 						</comma>
 						<comma id="art4-com5">
 							<num>5.</num>
@@ -707,7 +729,7 @@
 							<num>5.</num>
 							<corpo>
 								La Commissione può, in relazione ai singoli casi da esaminare, avvalersi della consulenza di medici in possesso della specializzazione inerente al caso specifico, operanti presso le strutture pubbliche ed, ove ritenuto necessario, può disporre che il ricorrente sia sottoposto ad accertamenti sanitari presso le strutture di cui all'
-								<rif xlink:href="#art4-com4" xlink:type="simple">articolo 4, comma 4</rif>
+								<rif xlink:href="#art4-com4-t6" xlink:type="simple">articolo 4, comma 4</rif>
 								.
 							</corpo>
 						</comma>

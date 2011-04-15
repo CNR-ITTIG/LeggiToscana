@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20070806" num="25" tipo="BURT" />
 					<entratainvigore norm="20070821" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2007-07-27;45" />
+					<urn finevigore="t9" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2007-07-27;45" />
+					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:2007-07-27;45@2008-11-21" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -19,6 +20,7 @@
 						<evento data="20070821" fonte="ra5" id="t6" tipo="modifica" />
 						<evento data="20070821" fonte="ra6" id="t7" tipo="modifica" />
 						<evento data="20070821" fonte="ra7" id="t8" tipo="modifica" />
+						<evento data="20081129" fonte="rp1" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2007-07-27;45" xlink:type="simple" />
@@ -29,11 +31,12 @@
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1994-01-12;6" xlink:type="simple" />
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1995-04-18;69" xlink:type="simple" />
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:1989-01-23;10" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
 					<nota id="n1">
-						<h:p>Rubrica da leggersi "...della l.r. 10/89", con avviso di rettifica pubblicato su BURT del 7 maggio 2008, n. 13.</h:p>
+						<h:p>Rubrica corretta con avviso di rettifica pubblicato su BURT del 7 maggio 2008, n. 13, da leggersi "...della l.r. 10/89".</h:p>
 					</nota>
 				</redazionale>
 				<disposizioni xlink:type="simple">
@@ -159,6 +162,47 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62#art15-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 15, comma 1 della legge Regione Toscana 21 novembre 2008, n. 62" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art5-com4bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art19-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62#art16-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 16, comma 1 della legge Regione Toscana 21 novembre 2008, n. 62" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art19-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art19-com2-t9" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art20-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62#art17-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 17, comma 1 della legge Regione Toscana 21 novembre 2008, n. 62" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art20-com1bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -308,6 +352,16 @@
 						<comma id="art5-com4">
 							<num>4.</num>
 							<corpo>L'iscrizione nell'anagrafe regionale delle aziende agricole certifica il possesso della qualifica di IAP, con effetti che decorrono dalla data di presentazione della richiesta. Gli IAP cui la qualifica è attribuita in via provvisoria sono iscritti con apposita annotazione.</corpo>
+						</comma>
+						<comma id="art5-com4bis" iniziovigore="t9">
+							<num>4 bis.</num>
+							<corpo>
+								Il soggetto riconosciuto IAP, anche ai sensi dell'
+								<rif xlink:href="#art4" xlink:type="simple">articolo 4</rif>
+								, presenta richiesta di cancellazione dell'iscrizione di cui al comma 2, ad ARTEA entro centoventi giorni dalla data in cui l'atto o la circostanza che ha determinato la perdita dei requisiti di cui all'
+								<rif xlink:href="#art2" xlink:type="simple">articolo 2</rif>
+								, ha avuto esito definitivo.
+							</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art6">
@@ -791,10 +845,18 @@
 								.
 							</corpo>
 						</comma>
-						<comma id="art19-com2">
+						<comma finevigore="t9" id="art19-com2-t9" iniziovigore="t1" status="abrogato">
 							<num>2.</num>
 							<corpo>
 								Entro centoventi giorni dall'entrata in vigore della presente legge, le persone fisiche che alla data di entrata in vigore risultano iscritte all'albo provinciale di cui alla
+								<rif xlink:href="urn:nir:regione.toscana:legge:1994;6" xlink:type="simple">l.r. 6/1994</rif>
+								, nella seconda sezione e relativa sottosezione, e la cui azienda è iscritta all'anagrafe regionale delle aziende agricole, possono richiedere all'ARTEA il riconoscimento della qualifica di IAP, unicamente facendo valere la predetta iscrizione.
+							</corpo>
+						</comma>
+						<comma id="art19-com2" iniziovigore="t9">
+							<num>2.</num>
+							<corpo>
+								Entro il 31 dicembre 2008 le persone fisiche che alla data di entrata in vigore della presente legge risultano iscritte all'albo provinciale di cui alla
 								<rif xlink:href="urn:nir:regione.toscana:legge:1994;6" xlink:type="simple">l.r. 6/1994</rif>
 								, nella seconda sezione e relativa sottosezione, e la cui azienda è iscritta all'anagrafe regionale delle aziende agricole, possono richiedere all'ARTEA il riconoscimento della qualifica di IAP, unicamente facendo valere la predetta iscrizione.
 							</corpo>
@@ -826,12 +888,38 @@
 						<comma id="art20-com1">
 							<num>1.</num>
 							<corpo>
-								Per quanto non previsto dalla presente legge, si osserva quanto disposto dagli articoli 1 e 2 del
-								<rif xlink:href="urn:nir:stato:decreto.legislativo:2004;99" xlink:type="simple">d.lgs. 99/2004</rif>
-								e 5 bis del
-								<rif xlink:href="urn:nir:stato:decreto.legislativo:2001;228" xlink:type="simple">d.lgs. 228/2001</rif>
+								Per quanto non previsto dalla presente legge, si osserva quanto disposto dagli
+								<mrif>
+									articoli
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:2004;99#art1" xlink:type="simple">1</rif>
+									e
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:2004;99#art2" xlink:type="simple">2</rif>
+									del d.lgs. 99/2004
+								</mrif>
+								e
+								<rif xlink:href="urn:nir:stato:decreto.legislativo:2001;228#art5bis" xlink:type="simple">5 bis del d.lgs. 228/2001</rif>
 								.
 							</corpo>
+						</comma>
+						<comma id="art20-com1bis" iniziovigore="t9">
+							<num>1 bis.</num>
+							<alinea>
+								Le aziende degli enti pubblici che esercitano in via esclusiva attività definite agricole dall'
+								<rif xlink:href="urn:nir:stato:codice.civile:1942-03-16;262#art2135" xlink:type="simple">articolo 2135 del codice civile</rif>
+								e dalle leggi statali speciali, sono equiparate allo IAP ai seguenti fini:
+							</alinea>
+							<el id="art20-com1bis-leta">
+								<num>a)</num>
+								<corpo>attribuzione di provvidenze con gli strumenti di programmazione regionale che dispongono interventi finanziari in materia di agricoltura, foreste e sviluppo rurale;</corpo>
+							</el>
+							<el id="art20-com1bis-letb">
+								<num>b)</num>
+								<corpo>
+									applicazione delle disposizioni di cui al
+									<rif xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1#tit4-cap3" xlink:type="simple">titolo IV, capo III della legge regionale 3 gennaio 2005, n. 1</rif>
+									(Norme per il governo del territorio), concernenti le costruzioni sul territorio rurale.
+								</corpo>
+							</el>
 						</comma>
 					</articolo>
 				</capo>

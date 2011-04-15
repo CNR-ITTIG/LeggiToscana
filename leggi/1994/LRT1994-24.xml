@@ -14,7 +14,8 @@
 					<urn finevigore="t33" iniziovigore="t32" valore="urn:nir:regione.toscana:legge:1994-03-16;24@2000-03-28" />
 					<urn finevigore="t34" iniziovigore="t33" valore="urn:nir:regione.toscana:legge:1994-03-16;24@2001-10-31" />
 					<urn finevigore="t35" iniziovigore="t34" valore="urn:nir:regione.toscana:legge:1994-03-16;24@2005-01-03" />
-					<urn iniziovigore="t35" valore="urn:nir:regione.toscana:legge:1994-03-16;24@2008-10-24" />
+					<urn finevigore="t36" iniziovigore="t35" valore="urn:nir:regione.toscana:legge:1994-03-16;24@2008-10-24" />
+					<urn iniziovigore="t36" valore="urn:nir:regione.toscana:legge:1994-03-16;24@2008-11-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Parchi" />
 						<materia valore="Ordinamento" />
@@ -57,6 +58,7 @@
 						<evento data="20011122" fonte="rp5" id="t33" tipo="modifica" />
 						<evento data="20050120" fonte="rp6" id="t34" tipo="modifica" />
 						<evento data="20081115" fonte="rp7" id="t35" tipo="modifica" />
+						<evento data="20081129" fonte="rp8" id="t36" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-03-16;24" xlink:type="simple" />
@@ -94,6 +96,7 @@
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53" xlink:type="simple" />
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1" xlink:type="simple" />
 						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:2008-10-24;56" xlink:type="simple" />
+						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -761,6 +764,21 @@
 								<dsp:pos xlink:href="#art8-com2-t35" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art20-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62#art26-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 26, comma 1 della legge Regione Toscana 21 novembre 2008, n. 62" id="itt25" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art20-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art20-com2-t36" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -1351,7 +1369,7 @@
 								.
 							</corpo>
 						</comma>
-						<comma id="art20-com2">
+						<comma finevigore="t36" id="art20-com2-t36" iniziovigore="t1" status="abrogato">
 							<num>2.</num>
 							<corpo>
 								Il nulla-osta di cui al precedente comma, solo nel caso in cui sia stato espressamente rilasciato e non si sia determinato per decorrenza dei termini, tiene luogo, in deroga alle competenze di cui alle vigenti disposizioni, dell'autorizzazione per interventi in zone soggette a vincolo idrogeologico di cui al
@@ -1367,6 +1385,14 @@
 								, il suddetto nulla-osta è trasmesso al Ministero per i beni culturali ed ambientali
 								<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
 								.
+							</corpo>
+						</comma>
+						<comma id="art20-com2" iniziovigore="t36">
+							<num>2.</num>
+							<corpo>
+								Il nulla osta di cui al comma 1, nel caso in cui sia stato espressamente rilasciato e non si sia determinato per decorrenza dei termini, sostituisce, in deroga alle competenze di cui alle vigenti disposizioni, l'autorizza zione per interventi in zone soggette a vincolo idrogeologico di cui al
+								<rif xlink:href="urn:nir:stato:regio.decreto:1923-12-30;3267" xlink:type="simple">regio decreto 30 dicembre 1923, n. 3267</rif>
+								(Riordinamento e riforma della legislazione in materia di boschi e terreni montani).
 							</corpo>
 						</comma>
 					</articolo>

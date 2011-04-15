@@ -8,7 +8,8 @@
 					<entratainvigore norm="20000414" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t20" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2000-03-20;35" />
-					<urn iniziovigore="t20" valore="urn:nir:regione.toscana:legge:2000-03-20;35@2008-04-30" />
+					<urn finevigore="t21" iniziovigore="t20" valore="urn:nir:regione.toscana:legge:2000-03-20;35@2008-04-30" />
+					<urn iniziovigore="t21" valore="urn:nir:regione.toscana:legge:2000-03-20;35@2008-11-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sviluppo Economico" />
 						<materia valore="Attribuzioni Deleghe" />
@@ -36,6 +37,7 @@
 						<evento data="20000414" fonte="ra17" id="t18" tipo="modifica" />
 						<evento data="20000414" fonte="ra18" id="t19" tipo="modifica" />
 						<evento data="20080522" fonte="rp1" id="t20" tipo="modifica" />
+						<evento data="20081129" fonte="rp2" id="t21" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2000-03-20;35" xlink:type="simple" />
@@ -58,6 +60,7 @@
 						<attiva id="ra17" xlink:href="urn:nir:regione.toscana:legge:1997-02-04;10" xlink:type="simple" />
 						<attiva id="ra18" xlink:href="urn:nir:regione.toscana:legge:1995-12-04;103" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir: :legge:2008-04-30;22" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -450,6 +453,18 @@
 								<dsp:pos xlink:href="#art10-t20" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62#art10-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 10, comma 1 della legge Regione Toscana 21 novembre 2008, n. 62" id="itt17" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art9-com3bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -1403,6 +1418,16 @@
 								L'accertata violazione, in via definitiva, da parte degli organismi competenti, della prescrizione di cui all'
 								<rif xlink:href="#art4bis-com9" xlink:type="simple">articolo 4 bis, comma 9</rif>
 								, comporta la revoca totale del finanziamento concesso.
+							</corpo>
+						</comma>
+						<comma id="art9-com3bis" iniziovigore="t21">
+							<num>3 bis.</num>
+							<corpo>
+								Nel caso sia accertata l'indebita percezione del finanziamento per carenza dei requisiti essenziali oppure per irregolarità della documentazione prodotta, comunque imputabili al soggetto beneficiario e non sanabili, in sede di revoca del finanziamento si dispone la restituzione delle somme erogate e si procede all'applicazione della sanzione amministrativa di cui all'
+								<rif xlink:href="urn:nir:stato:decreto.legislativo:1998-03-31;123#art9" xlink:type="simple">articolo 9 del decreto legislativo 31 marzo 1998, n. 123</rif>
+								(Disposizioni per la razionalizzazione degli interventi di sostegno pubblico alle imprese, a norma dell'
+								<rif xlink:href="urn:nir:stato:legge:1997-03-15;59#art4-com4-letc" xlink:type="simple">articolo 4, comma 4, lettera c), della l. 15 marzo 1997, n. 59</rif>
+								).
 							</corpo>
 						</comma>
 					</articolo>

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20010105" num="1" tipo="BURT" />
 					<entratainvigore norm="20010120" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2000-12-28;81" />
+					<urn finevigore="t6" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2000-12-28;81" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2000-12-28;81@2008-11-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Attività Istituzionali" />
 					</materie>
@@ -19,6 +20,7 @@
 						<evento data="20010120" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="20010120" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="20010120" fonte="ra4" id="t5" tipo="modifica" />
+						<evento data="20081129" fonte="rp1" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2000-12-28;81" xlink:type="simple" />
@@ -26,6 +28,7 @@
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1993-11-12;85" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1997-04-10;27" xlink:type="simple" />
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1999-03-22;16" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -85,6 +88,50 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62#art63-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 63, comma 1 della legge Regione Toscana 21 novembre 2008, n. 62" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62#art64-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 64, comma 1 della legge Regione Toscana 21 novembre 2008, n. 62" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-com1-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art15-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62#art65-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 65, comma 1 della legge Regione Toscana 21 novembre 2008, n. 62" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art15-com2bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -125,9 +172,45 @@
 							</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art2">
+					<articolo finevigore="t6" id="art2-t6" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 2</num>
 						<rubrica>(Principi generali)</rubrica>
+						<comma id="art2-t6-com1">
+							<num>1.</num>
+							<corpo>
+								Salvo che non sia diversamente stabilito da legge regionale, all'applicazione delle sanzioni amministrative per violazioni di norme nelle materie di competenza regionale provvedono gli enti che ai sensi dell'
+								<rif xlink:href="urn:nir:stato:costituzione:1947-12-27#art118" xlink:type="simple">articolo 118 della Costituzione</rif>
+								esercitano le funzioni di amministrazione attiva cui esse accedono. L'autorità competente all'applicazione delle sanzioni è individuata in conformità ai rispettivi ordinamenti.
+							</corpo>
+						</comma>
+						<comma id="art2-t6-com2">
+							<num>2.</num>
+							<alinea>
+								In relazione a quanto disposto dal
+								<rif xlink:href="#art2-t6-com1" xlink:type="simple">comma 1</rif>
+								:
+							</alinea>
+							<el id="art2-t6-com2-leta">
+								<num>a)</num>
+								<corpo>il conferimento di funzioni di amministrazione attiva alle Province, ai Comuni ed agli altri enti locali comprende anche le potestà sanzionatorie connesse;</corpo>
+							</el>
+							<el id="art2-t6-com2-letb">
+								<num>b)</num>
+								<corpo>resta ferma la competenza della Regione all'applicazione delle sanzioni amministrative connesse alle funzioni di amministrazione attiva da essa esercitate.</corpo>
+							</el>
+						</comma>
+						<comma id="art2-t6-com3">
+							<num>3.</num>
+							<corpo>Qualora le funzioni di amministrazione attiva siano riservate all'amministrazione dello Stato l'applicazione delle sanzioni amministrative compete agli enti cui la legge attribuisce funzioni di vigilanza e controllo.</corpo>
+						</comma>
+						<comma id="art2-t6-com4">
+							<num>4.</num>
+							<corpo>I proventi derivanti dall'applicazione delle sanzioni amministrative spettano all'ente competente alla loro applicazione e non sono soggette a vincolo di destinazione.</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art2" iniziovigore="t6">
+						<num>Art. 2</num>
+						<rubrica>Principi generali</rubrica>
 						<comma id="art2-com1">
 							<num>1.</num>
 							<corpo>
@@ -138,27 +221,19 @@
 						</comma>
 						<comma id="art2-com2">
 							<num>2.</num>
-							<alinea>
-								In relazione a quanto disposto dal
-								<rif xlink:href="#art2-com1" xlink:type="simple">comma 1</rif>
-								:
-							</alinea>
-							<el id="art2-com2-leta">
-								<num>a)</num>
-								<corpo>il conferimento di funzioni di amministrazione attiva alle Province, ai Comuni ed agli altri enti locali comprende anche le potestà sanzionatorie connesse;</corpo>
-							</el>
-							<el id="art2-com2-letb">
-								<num>b)</num>
-								<corpo>resta ferma la competenza della Regione all'applicazione delle sanzioni amministrative connesse alle funzioni di amministrazione attiva da essa esercitate.</corpo>
-							</el>
+							<corpo>Qualora le funzioni di amministrazione attiva siano riservate all'amministrazione dello Stato, l'applicazione delle sanzioni amministrative compete agli enti cui la legge attribuisce funzioni di vigilanza e controllo.</corpo>
 						</comma>
 						<comma id="art2-com3">
 							<num>3.</num>
-							<corpo>Qualora le funzioni di amministrazione attiva siano riservate all'amministrazione dello Stato l'applicazione delle sanzioni amministrative compete agli enti cui la legge attribuisce funzioni di vigilanza e controllo.</corpo>
+							<corpo>
+								Nel caso in cui la legge statale attribuisca alla Regione ulteriori funzioni sanzionatorie, la relativa competenza è ripartita secondo i criteri di cui al comma 1. Nel caso in cui le nuove funzioni non siano riconducibili all'esercizio di funzioni di amministrazione attiva, vigilanza e controllo da parte degli enti, queste sono esercitate dalla Regione, previa integrazione della deliberazione di cui all'
+								<rif xlink:href="#art4" xlink:type="simple">articolo 4</rif>
+								.
+							</corpo>
 						</comma>
 						<comma id="art2-com4">
 							<num>4.</num>
-							<corpo>I proventi derivanti dall'applicazione delle sanzioni amministrative spettano all'ente competente alla loro applicazione e non sono soggette a vincolo di destinazione.</corpo>
+							<corpo>I proventi derivanti dall'applicazione delle sanzioni amministrative spettano all'ente competente alla loro applicazione e non sono soggetti a vincolo di destinazione.</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art3">
@@ -168,7 +243,7 @@
 							<num>1.</num>
 							<corpo>
 								In applicazione dei principi stabiliti dall'
-								<rif xlink:href="#art2" xlink:type="simple">articolo 2</rif>
+								<rif xlink:href="#art2-t6" xlink:type="simple">articolo 2</rif>
 								, e fatto salvo quanto disposto dall'
 								<rif xlink:href="#art4" xlink:type="simple">articolo 4</rif>
 								, le potestà sanzionatorie esercitate dalla Regione alla data di entrata in vigore della presente legge sono conferite agli enti che esercitano le funzioni di amministrazione attiva cui esse accedono.
@@ -194,18 +269,18 @@
 					<articolo id="art4">
 						<num>ARTICOLO 4</num>
 						<rubrica>(Funzioni riservate alla Regione)</rubrica>
-						<comma id="art4-com1">
+						<comma finevigore="t6" id="art4-com1-t6" iniziovigore="t1" status="abrogato">
 							<num>1.</num>
 							<alinea>Sono riservate alla Giunta regionale le funzioni amministrative concernenti le potestà sanzionatorie relative a:</alinea>
-							<el id="art4-com1-leta">
+							<el id="art4-com1-t6-leta">
 								<num>a)</num>
 								<corpo>
 									le infrazioni amministrative ascrivibili in via solidale all'ente competente all'applicazione delle sanzioni secondo i principi di cui all'
-									<rif xlink:href="#art2" xlink:type="simple">articolo 2</rif>
+									<rif xlink:href="#art2-t6" xlink:type="simple">articolo 2</rif>
 									;
 								</corpo>
 							</el>
-							<el id="art4-com1-letb">
+							<el id="art4-com1-t6-letb">
 								<num>b)</num>
 								<corpo>
 									l'igiene dei prodotti alimentari garantita attraverso procedure di autocontrollo [
@@ -217,10 +292,10 @@
 									della Commissione, del 26 gennaio 1996, concernenti l'igiene dei prodotti alimentari)];
 								</corpo>
 							</el>
-							<el id="art4-com1-letc">
+							<el id="art4-com1-t6-letc">
 								<num>c)</num>
 								<alinea>l'igiene dei prodotti e dei sottoprodotti di origine animale, ottenuti in stabilimenti soggetti a riconoscimento ai sensi della normativa comunitaria</alinea>
-								<en id="art4-com1-letc-num1">
+								<en id="art4-com1-t6-letc-num1">
 									<num>1.</num>
 									<corpo>
 										<rif xlink:href="urn:nir:presidente.repubblica:decreto:1982-06-08;503" xlink:type="simple">decreto del Presidente della Repubblica 8 giugno 1982, n. 503</rif>
@@ -235,7 +310,7 @@
 										in materia di rifiuti di origine animale;
 									</corpo>
 								</en>
-								<en id="art4-com1-letc-num2">
+								<en id="art4-com1-t6-letc-num2">
 									<num>2.</num>
 									<corpo>
 										<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;530" xlink:type="simple">decreto legislativo 30 dicembre 1992, n. 530</rif>
@@ -244,7 +319,7 @@
 										, che stabilisce le norme sanitarie applicabili alla produzione e commercializzazione dei molluschi bivalvi vivi);
 									</corpo>
 								</en>
-								<en id="art4-com1-letc-num3">
+								<en id="art4-com1-t6-letc-num3">
 									<num>3.</num>
 									<corpo>
 										<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;531" xlink:type="simple">decreto legislativo 30 dicembre 1992, n. 531</rif>
@@ -253,7 +328,7 @@
 										, che stabilisce le norme sanitarie applicabili alla produzione e commercializzazione dei prodotti della pesca);
 									</corpo>
 								</en>
-								<en id="art4-com1-letc-num4">
+								<en id="art4-com1-t6-letc-num4">
 									<num>4.</num>
 									<corpo>
 										<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-12-30;537" xlink:type="simple">decreto legislativo 30 dicembre 1992, n. 537</rif>
@@ -262,7 +337,7 @@
 										, relativa a problemi sanitari in materia di produzione e commercializzazione di prodotti a base di carne e di alcuni prodotti di origine animale);
 									</corpo>
 								</en>
-								<en id="art4-com1-letc-num5">
+								<en id="art4-com1-t6-letc-num5">
 									<num>5.</num>
 									<corpo>
 										<rif xlink:href="urn:nir:stato:decreto.legislativo:1994-04-18;286" xlink:type="simple">decreto legislativo 18 aprile 1994, n. 286</rif>
@@ -273,7 +348,7 @@
 										del Consiglio, del 29 luglio 1991 concernenti problemi sanitari in materia di produzione e di immissione sul mercato di carni fresche);
 									</corpo>
 								</en>
-								<en id="art4-com1-letc-num6">
+								<en id="art4-com1-t6-letc-num6">
 									<num>6.</num>
 									<corpo>
 										<rif xlink:href="urn:nir:presidente.repubblica:decreto:1997-01-14;54" xlink:type="simple">decreto del Presidente della Repubblica 14 gennaio 1997, n. 54</rif>
@@ -284,7 +359,7 @@
 										del Consiglio, del 16 giugno 1992 in materia di produzione e di immissione sul mercato di latte e di prodotti a base di latte);
 									</corpo>
 								</en>
-								<en id="art4-com1-letc-num7">
+								<en id="art4-com1-t6-letc-num7">
 									<num>7.</num>
 									<corpo>
 										<rif xlink:href="urn:nir:presidente.repubblica:decreto:1998-08-03;309" xlink:type="simple">decreto del Presidente della Repubblica 3 agosto 1998, n. 309</rif>
@@ -294,17 +369,17 @@
 									</corpo>
 								</en>
 							</el>
-							<el id="art4-com1-letd">
+							<el id="art4-com1-t6-letd">
 								<num>d)</num>
 								<alinea>la produzione, commercializzazione ed impiego degli alimenti per animali ed integratori</alinea>
-								<en id="art4-com1-letd-num1">
+								<en id="art4-com1-t6-letd-num1">
 									<num>1.</num>
 									<corpo>
 										<rif xlink:href="urn:nir:stato:legge:1963-02-15;281" xlink:type="simple">Legge 15 febbraio 1963, n. 281</rif>
 										(Disciplina della preparazione e del commercio dei mangimi);
 									</corpo>
 								</en>
-								<en id="art4-com1-letd-num2">
+								<en id="art4-com1-t6-letd-num2">
 									<num>2.</num>
 									<corpo>
 										<rif xlink:href="urn:nir:stato:decreto.legislativo:1999-04-13;123" xlink:type="simple">decreto legislativo 13 aprile 1999, n. 123</rif>
@@ -314,10 +389,10 @@
 									</corpo>
 								</en>
 							</el>
-							<el id="art4-com1-lete">
+							<el id="art4-com1-t6-lete">
 								<num>e)</num>
 								<alinea>i farmaci veterinari, i presidi veterinari e l'impiego negli allevamenti di sostanze vietate</alinea>
-								<en id="art4-com1-lete-num1">
+								<en id="art4-com1-t6-lete-num1">
 									<num>1.</num>
 									<corpo>
 										<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-01-27;119" xlink:type="simple">decreto legislativo 27 gennaio 1992 n. 119</rif>
@@ -334,7 +409,7 @@
 										del Consiglio, del 13 dicembre 1990, relative ai medicinali veterinari);
 									</corpo>
 								</en>
-								<en id="art4-com1-lete-num2">
+								<en id="art4-com1-t6-lete-num2">
 									<num>2.</num>
 									<corpo>
 										<rif xlink:href="urn:nir:stato:decreto.legislativo:1999-08-04;336" xlink:type="simple">decreto legislativo 4 agosto 1999, n. 336</rif>
@@ -346,7 +421,7 @@
 									</corpo>
 								</en>
 							</el>
-							<el id="art4-com1-letf">
+							<el id="art4-com1-t6-letf">
 								<num>f)</num>
 								<corpo>
 									la qualità delle acque destinate al consumo umano [
@@ -356,10 +431,10 @@
 									del Consiglio, del 15 luglio 1980, concernente la qualità delle acque destinate al consumo umano)];
 								</corpo>
 							</el>
-							<el id="art4-com1-letg">
+							<el id="art4-com1-t6-letg">
 								<num>g)</num>
 								<alinea>la produzione ed il commercio di prodotti dietetici, alimenti per la prima infanzia e cosmetici</alinea>
-								<en id="art4-com1-letg-num1">
+								<en id="art4-com1-t6-letg-num1">
 									<num>1.</num>
 									<corpo>
 										<rif xlink:href="urn:nir:stato:decreto.legislativo:1992-01-27;111" xlink:type="simple">decreto legislativo 27 gennaio 1992, n. 111</rif>
@@ -368,7 +443,7 @@
 										, concernente i prodotti alimentari destinati ad una alimentazione particolare);
 									</corpo>
 								</en>
-								<en id="art4-com1-letg-num2">
+								<en id="art4-com1-t6-letg-num2">
 									<num>2.</num>
 									<corpo>
 										<rif xlink:href="urn:nir:stato:decreto.legislativo:1996-03-19;241" xlink:type="simple">decreto legislativo 19 marzo 1996, n. 241</rif>
@@ -380,7 +455,7 @@
 									</corpo>
 								</en>
 							</el>
-							<el id="art4-com1-leth">
+							<el id="art4-com1-t6-leth">
 								<num>h)</num>
 								<corpo>
 									i materiali e gli oggetti destinati a venire in contatto con i prodotti alimentari [
@@ -388,7 +463,7 @@
 									(Attuazione della direttiva CEE n. 76/893 del Consiglio, del 23 novembre 1976, relativa ai materiali e agli oggetti destinati a venire a contatto con i prodotti alimentari)];
 								</corpo>
 							</el>
-							<el id="art4-com1-leti">
+							<el id="art4-com1-t6-leti">
 								<num>i)</num>
 								<corpo>
 									gli aromi destinati ad essere impiegati nei prodotti alimentari [
@@ -400,7 +475,7 @@
 									della Commissione, del 16 gennaio 1991, relative agli aromi destinati ad essere impiegati nei prodotti alimentari ed ai materiali di base per la loro preparazione)];
 								</corpo>
 							</el>
-							<el id="art4-com1-letj">
+							<el id="art4-com1-t6-letj">
 								<num>j)</num>
 								<corpo>
 									i prodotti cosmetici [
@@ -408,7 +483,7 @@
 									(Norme per l'attuazione delle direttive della Comunità Economica Europea sulla produzione e la vendita dei cosmetici)];
 								</corpo>
 							</el>
-							<el id="art4-com1-letk">
+							<el id="art4-com1-t6-letk">
 								<num>k)</num>
 								<corpo>
 									la difesa dai pericoli dall'impiego dell'amianto [
@@ -416,7 +491,7 @@
 									(Norme relative alla cessazione dell'impiego dell'amianto)];
 								</corpo>
 							</el>
-							<el id="art4-com1-letl">
+							<el id="art4-com1-t6-letl">
 								<num>l)</num>
 								<corpo>
 									il divieto di fumo negli uffici della Regione, degli enti da essa dipendenti e delle aziende sanitarie ed ospedaliere [
@@ -424,7 +499,7 @@
 									(Norme in materia di tutela della salute contro i danni derivanti dal fumo)];
 								</corpo>
 							</el>
-							<el id="art4-com1-letm">
+							<el id="art4-com1-t6-letm">
 								<num>m)</num>
 								<corpo>
 									la sicurezza ed igiene dei luoghi di lavoro [
@@ -432,10 +507,10 @@
 									(Attuazione delle direttive riguardanti il miglioramento della sicurezza e della salute dei lavoratori durante il lavoro)];
 								</corpo>
 							</el>
-							<el id="art4-com1-letn">
+							<el id="art4-com1-t6-letn">
 								<num>n)</num>
 								<alinea>l'autorizzazione, l'immissione in commercio e l'utilizzazione di prodotti fitosanitari</alinea>
-								<en id="art4-com1-letn-num1">
+								<en id="art4-com1-t6-letn-num1">
 									<num>1.</num>
 									<corpo>
 										<rif xlink:href="urn:nir:stato:decreto.legislativo:1995-03-17;194" xlink:type="simple">decreto legislativo 17 marzo 1995, n. 194</rif>
@@ -444,13 +519,29 @@
 										in materia di immissione in commercio di prodotti fitosanitari),
 									</corpo>
 								</en>
-								<en id="art4-com1-letn-num2">
+								<en id="art4-com1-t6-letn-num2">
 									<num>2.</num>
 									<corpo>
 										<rif xlink:href="urn:nir:regione.toscana:legge:1999-07-01;36" xlink:type="simple">legge regionale 1 luglio 1999, n. 36</rif>
 										(Disciplina per l'impiego dei diserbanti e geodisinfestanti nei settori non agricoli e procedure per l'impiego dei diserbanti e geodisinfestanti in agricoltura).
 									</corpo>
 								</en>
+							</el>
+						</comma>
+						<comma id="art4-com1" iniziovigore="t6">
+							<num>1.</num>
+							<alinea>Sono riservate alla Giunta regionale le funzioni amministrative concernenti le potestà sanzionatorie relative a:</alinea>
+							<el id="art4-com1-leta">
+								<num>a)</num>
+								<corpo>
+									infrazioni amministrative ascrivibili in via solidale all'ente competente all'applicazione delle sanzioni secondo i principi di cui all'
+									<rif xlink:href="#art2" xlink:type="simple">articolo 2</rif>
+									;
+								</corpo>
+							</el>
+							<el id="art4-com1-letb">
+								<num>b)</num>
+								<corpo>infrazioni amministrative, individuate con deliberazione della Giunta regionale, nelle materie dell'igiene degli alimenti, dell'etichettatura, presentazione e pubblicità dei prodotti alimentari, della sicurezza dei luoghi di lavoro, della qualità delle acque destinate al consumo umano.</corpo>
 							</el>
 						</comma>
 						<comma id="art4-com2">
@@ -814,6 +905,14 @@
 								I procedimenti sanzionatori relativi a violazioni accertate prima del termine di cui al
 								<rif xlink:href="#art15-com1" xlink:type="simple">primo comma</rif>
 								sono conclusi dall'autorità competente ai sensi delle norme previgenti.
+							</corpo>
+						</comma>
+						<comma id="art15-com2bis" iniziovigore="t6">
+							<num>2 bis.</num>
+							<corpo>
+								I procedimenti sanzionatori in corso fino al trentesimo giorno successivo alla data di approvazione della deliberazione di cui all'
+								<rif xlink:href="#art4" xlink:type="simple">articolo 4</rif>
+								sono portati a termine secondo le disposizioni previgenti.
 							</corpo>
 						</comma>
 					</articolo>

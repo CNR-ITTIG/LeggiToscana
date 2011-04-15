@@ -15,7 +15,8 @@
 					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1994-05-05;34@1998-11-18" />
 					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1994-05-05;34@2003-07-29" />
 					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1994-05-05;34@2004-01-27" />
-					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1994-05-05;34@2006-05-08" />
+					<urn finevigore="t11" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1994-05-05;34@2006-05-08" />
+					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1994-05-05;34@2008-11-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tutela Ambientale" />
 						<materia valore="Assetto Idrogeologico" />
@@ -34,6 +35,7 @@
 						<evento data="20030807" fonte="rp6" id="t8" tipo="modifica" />
 						<evento data="20040205" fonte="rp7" id="t9" tipo="modifica" />
 						<evento data="20060527" fonte="rp8" id="t10" tipo="modifica" />
+						<evento data="20081129" fonte="rp9" id="t11" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-05-05;34" xlink:type="simple" />
@@ -46,6 +48,7 @@
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2003-07-29;38" xlink:type="simple" />
 						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:2004-01-27;3" xlink:type="simple" />
 						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:2006-05-08;16" xlink:type="simple" />
+						<passiva id="rp9" xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -476,6 +479,18 @@
 								<dsp:pos xlink:href="#art61bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62#art8-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 8, comma 1 della legge Regione Toscana 21 novembre 2008, n. 62" id="itt29" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6-com1bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -641,6 +656,21 @@
 							<corpo>
 								La delimitazione dei comprensori di bonifica può essere modificata con le procedure di cui all'
 								<rif xlink:href="#art5" xlink:type="simple">art. 5</rif>
+								.
+							</corpo>
+						</comma>
+						<comma id="art6-com1bis" iniziovigore="t11">
+							<num>1 bis.</num>
+							<corpo>
+								Il Consiglio regionale può deliberare una proposta di nuova delimitazione che è trasmessa alla Giunta regionale per l'avvio delle procedure di cui all'
+								<mrif>
+									articolo 5, commi
+									<rif xlink:href="#art5-com3" xlink:type="simple">3</rif>
+									,
+									<rif xlink:href="#art5-com4" xlink:type="simple">4</rif>
+									e
+									<rif xlink:href="#art5-com5" xlink:type="simple">5</rif>
+								</mrif>
 								.
 							</corpo>
 						</comma>
@@ -1189,8 +1219,7 @@
 								.
 							</corpo>
 						</comma>
-						<comma finevigore="t9" id="art16-com8-t9" iniziovigore="t8
-" status="abrogato">
+						<comma finevigore="t9" id="art16-com8-t9" iniziovigore="t8" status="abrogato">
 							<num>8.</num>
 							<corpo>
 								I consorzi di bonifica o gli altri soggetti competenti stipulano, entro il 31 dicembre 2003, una convenzione con la competente Autorità di ambito ottimale di cui alla

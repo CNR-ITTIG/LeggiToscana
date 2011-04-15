@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20080208" num="3" tipo="BURT" />
 					<entratainvigore norm="20080209" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2008-02-04;3" />
+					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2008-02-04;3" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:2008-02-04;3@2008-11-21" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="20080209" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20080209" fonte="ra1" id="t2" tipo="modifica" />
+						<evento data="20081129" fonte="rp1" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2008-02-04;3" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:2000-04-06;52" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -34,6 +37,20 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62#art23-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 23, comma 1 della legge Regione Toscana 21 novembre 2008, n. 62" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com4bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -103,6 +120,10 @@
 						<comma id="art2-com4">
 							<num>4.</num>
 							<corpo>L'ISPO effettua anche attività di aggiornamento professionale nella prevenzione oncologica per le aziende del servizio sanitario regionale e nazionale (formazione esterna).</corpo>
+						</comma>
+						<comma id="art2-com4bis" iniziovigore="t3">
+							<num>4 bis.</num>
+							<corpo>Per l'esercizio delle proprie funzioni l'ISPO può accedere alle banche dati della Regione, delle aziende unità sanitarie locali (aziende USL), degli enti, agenzie e fondazioni regionali.</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art3">
