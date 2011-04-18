@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20061107" num="33" tipo="BURT" />
 					<entratainvigore norm="20061108" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2006-11-02;52" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2006-11-02;52" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2006-11-02;52@2008-11-03" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tributi" />
 					</materie>
@@ -15,11 +16,53 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="20061108" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20081108" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2006-11-02;52" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2008-11-03;58" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-11-03;58" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-11-03;58#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 3 novembre 2008, n. 58" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art1bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1bis" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-11-03;58" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-11-03;58#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 3 novembre 2008, n. 58" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art1ter" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1ter" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-11-03;58" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-11-03;58#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 3 novembre 2008, n. 58" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art1quater" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -54,6 +97,111 @@
 							Gli aumenti di cui al
 							<rif xlink:href="#art1-com1" xlink:type="simple">comma 1</rif>
 							si applicano agli importi vigenti nell'anno 2006 ed hanno effetto dai pagamenti da eseguire dal 1 gennaio 2007, relativi a periodi fissi posteriori a tale data.
+						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art1bis" iniziovigore="t2">
+					<num>Art. 1 bis</num>
+					<rubrica>Riduzioni</rubrica>
+					<comma id="art1bis-com1">
+						<num>1.</num>
+						<alinea>
+							L'aumento del 10 per cento della tassa automobilistica regionale, stabilito dall'
+							<rif xlink:href="#art1" xlink:type="simple">articolo 1</rif>
+							, non si applica alle seguenti categorie di veicoli:
+						</alinea>
+						<el id="art1bis-com1-leta">
+							<num>a)</num>
+							<corpo>autovetture ed autoveicoli per il trasporto promiscuo immatricolati come "euro 4" o "euro 5";</corpo>
+						</el>
+						<el id="art1bis-com1-letb">
+							<num>b)</num>
+							<corpo>
+								autocarri per i quali la tassazione è commisurata alla potenza effettiva dei motori, ai sensi dell'
+								<rif xlink:href="urn:nir:presidente.repubblica:decreto:1953-02-05;39#art2-com1-letd" xlink:type="simple">articolo 2, comma 1, lettera d) del decreto del Presidente della Repubblica 5 febbraio 1953, n. 39</rif>
+								(Testo unico delle leggi sulle tasse automobilistiche), immatricolati come "euro 4" o "euro 5";
+							</corpo>
+						</el>
+						<el id="art1bis-com1-letc">
+							<num>c)</num>
+							<corpo>
+								autovetture, autoveicoli per il trasporto promiscuo ed autocarri di cui alla
+								<rif xlink:href="#art1bis-com1-letb" xlink:type="simple">lettera b)</rif>
+								omologati per la circolazione mediante alimentazione del motore, esclusiva o doppia, a gas metano, a gas di petrolio liquefatto (GPL), ad idrogeno od elettrica.
+							</corpo>
+						</el>
+					</comma>
+					<comma id="art1bis-com2">
+						<num>2.</num>
+						<corpo>
+							La riduzione di cui al
+							<rif xlink:href="#art1bis-com1" xlink:type="simple">comma 1</rif>
+							ha effetto per i pagamento da eseguirsi dal 1° gennaio 2009 relativi a periodi fissi posteriori a tale data.
+						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art1ter" iniziovigore="t2">
+					<num>Art. 1 ter</num>
+					<rubrica>Esenzioni</rubrica>
+					<comma id="art1ter-com1">
+						<num>1.</num>
+						<alinea>
+							Dal 1° gennaio 2009 sono esentati dal pagamento della tassa automobilistica regionale, in applicazione dell'
+							<mrif>
+								articolo 2, commi
+								<rif xlink:href="urn:nir:stato:decreto.legge:2006-10-03;262#art2-com60" xlink:type="simple">60</rif>
+								,
+								<rif xlink:href="urn:nir:stato:decreto.legge:2006-10-03;262#art2-com61" xlink:type="simple">61</rif>
+								e
+								<rif xlink:href="urn:nir:stato:decreto.legge:2006-10-03;262#art2-com62" xlink:type="simple">62</rif>
+								del decreto legge 3 ottobre 2006, n. 262
+							</mrif>
+							(Disposizioni urgenti in mate- ria tributaria e finanziaria), come convertito con
+							<rif xlink:href="urn:nir:stato:legge:2006-11-24;286" xlink:type="simple">legge 24 novembre 2006, n. 286</rif>
+							(Conversione in legge, con modificazioni, del
+							<rif xlink:href="urn:nir:stato:decreto.legge:2006-10-03;262" xlink:type="simple">decreto legge 3 ottobre 2006, n. 262</rif>
+							, recante disposizioni urgenti in materia tributaria e finanziaria):
+						</alinea>
+						<el id="art1ter-com1-leta">
+							<num>a)</num>
+							<corpo>
+								per il primo periodo fisso di cui all'articolo 2 del regolamento di cui al decreto del Ministro delle finanze 18 novembre 1998, n. 462 (Regolamento recante modalità e termini di pagamento delle tasse automobilistiche, ai sensi dell'
+								<rif xlink:href="urn:nir:stato:legge:1955-05-21;463#art18" xlink:type="simple">articolo 18 della legge 21 maggio 1955, n. 463</rif>
+								) e per le cinque annualità successive, i veicoli nuovi di potenza non superiore a 100 chilowatt (KW) a doppia alimentazione a benzina/GPL o a benzina/ metano, appartenenti alle categorie internazionali M1 e N1, immatricolati per la prima volta dal 1° gennaio al 31 dicembre 2009;
+							</corpo>
+						</el>
+						<el id="art1ter-com1-letb">
+							<num>b)</num>
+							<corpo>
+								per cinque annualità successive i veicoli immatricolati prima della data di entrata in vigore della presente legge, conformi alla
+								<rif xlink:href="urn:nir:comunita.europee:direttiva:1994-03-23;94-12-ce" xlink:type="simple">direttiva 94/12/CE del Parlamento europeo e del Consiglio del 23 marzo 1994</rif>
+								, appartenenti alle categorie internazionali M1 e N1, su cui sia installato un sistema di alimentazione a GPL o a metano, collaudato nel 2009.
+							</corpo>
+						</el>
+					</comma>
+					<comma id="art1ter-com2">
+						<num>2.</num>
+						<corpo>
+							Le cinque annualità di cui al
+							<rif xlink:href="#art1ter-com1-letb" xlink:type="simple">comma 1, lettera b)</rif>
+							, decorrono dal periodo d'imposta seguente a quello durante il quale avviene il collaudo dell'installazione del sistema di alimentazione a GPL o metano se il veicolo ha già corrisposto la tassa automobilistica per tale periodo, ovvero dal periodo d'imposta nel quale avviene il collaudo dell'installazione del sistema GPL o metano se l'obbligo del pagamento della tassa automobilistica è stato precedentemente interrotto ai sensi di legge.
+						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art1quater" iniziovigore="t2">
+					<num>Art. 1 quater</num>
+					<rubrica>Norma finanziaria</rubrica>
+					<comma id="art1quater-com1">
+						<num>1.</num>
+						<corpo>
+							Alle minori entrate derivanti dagli
+							<mrif>
+								articoli
+								<rif xlink:href="#art1bis" xlink:type="simple">1 bis</rif>
+								e
+								<rif xlink:href="#art1ter" xlink:type="simple">1 ter</rif>
+							</mrif>
+							, stimate in euro 20.000.000,00 per il 2009 ed in euro 22.000.000,00 per il 2010 a valere sull'unità previsionale di base (UPB) 111 "Imposte e tasse" , si fa fronte attraverso il maggior gettito tributario strutturale derivante dalla legislazione vigente ed imputabile alla medesima UPB 111 "Imposte e tasse".
 						</corpo>
 					</comma>
 				</articolo>
