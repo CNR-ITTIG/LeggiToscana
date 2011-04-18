@@ -16,7 +16,8 @@
 					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1994-05-05;34@2003-07-29" />
 					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1994-05-05;34@2004-01-27" />
 					<urn finevigore="t11" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1994-05-05;34@2006-05-08" />
-					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1994-05-05;34@2008-11-21" />
+					<urn finevigore="t12" iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1994-05-05;34@2008-11-21" />
+					<urn iniziovigore="t12" valore="urn:nir:regione.toscana:legge:1994-05-05;34@2008-12-30" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tutela Ambientale" />
 						<materia valore="Assetto Idrogeologico" />
@@ -36,6 +37,7 @@
 						<evento data="20040205" fonte="rp7" id="t9" tipo="modifica" />
 						<evento data="20060527" fonte="rp8" id="t10" tipo="modifica" />
 						<evento data="20081129" fonte="rp9" id="t11" tipo="modifica" />
+						<evento data="20090101" fonte="rp10" id="t12" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-05-05;34" xlink:type="simple" />
@@ -49,6 +51,7 @@
 						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:2004-01-27;3" xlink:type="simple" />
 						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:2006-05-08;16" xlink:type="simple" />
 						<passiva id="rp9" xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple" />
+						<passiva id="rp10" xlink:href="urn:nir:regione.toscana:legge:2008-12-30;72" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -489,6 +492,42 @@
 							</dsp:norma>
 							<dsp:novella>
 								<dsp:pos xlink:href="#art6-com1bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art24-com8" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-12-30;72" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-12-30;72#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 30 dicembre 2008, n. 72" id="itt30" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art24-com8bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art25-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-12-30;72" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-12-30;72#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 30 dicembre 2008, n. 72" id="itt31" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art25-com3bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art25-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-12-30;72" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-12-30;72#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 30 dicembre 2008, n. 72" id="itt32" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art25-com3ter" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 					</modifichepassive>
@@ -1572,6 +1611,10 @@
 							<num>8.</num>
 							<corpo>Lo statuto consortile stabilisce le modalità per la sostituzione dei componenti la Deputazione che cessino dalla carica.</corpo>
 						</comma>
+						<comma id="art24-com8bis" iniziovigore="t12">
+							<num>8 bis.</num>
+							<corpo>Ai membri del consiglio dei delegati e della deputazione amministrativa è corrisposto esclusivamente il rimborso delle spese sostenute.</corpo>
+						</comma>
 					</articolo>
 					<articolo id="art25">
 						<num>ARTICOLO 25</num>
@@ -1587,6 +1630,14 @@
 						<comma id="art25-com3">
 							<num>3.</num>
 							<corpo>In caso di assenza o impedimento, il Presidente è sostituito con le modalità stabilite dallo statuto.</corpo>
+						</comma>
+						<comma id="art25-com3bis" iniziovigore="t12">
+							<num>3 bis.</num>
+							<corpo>Al presidente può essere attribuita una indennità di funzione omnicomprensiva non superiore a quella percepita dal sindaco di un comune fino a diecimila abitanti, qualora lo Statuto preveda la figura del vicepresidente, allo stesso potrà essere attribuita un'indennità di funzione pari al 25 per cento di quella attribuita al presidente.</corpo>
+						</comma>
+						<comma id="art25-com3ter" iniziovigore="t12">
+							<num>3 ter.</num>
+							<corpo>Le indennità attualmente percepite dai presidenti dei consorzi, dovranno essere adeguate solo se di importo superiore a quello stabilito al precedente comma.</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art26">
