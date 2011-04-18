@@ -8,7 +8,8 @@
 					<entratainvigore norm="20060825" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2006-08-02;43" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2006-08-02;43@2006-12-22" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2006-08-02;43@2006-12-22" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:2006-08-02;43@2008-12-24" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Informazione" />
 					</materie>
@@ -17,10 +18,12 @@
 					<eventi>
 						<evento data="20060825" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20061230" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="20090101" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2006-08-02;43" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2006-12-22;64" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2008-12-24;69" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -40,6 +43,18 @@
 								<dsp:pos xlink:href="#h1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-12-24;69" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-12-24;69#art10-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 10, comma 1 della legge Regione Toscana 24 dicembre 2008, n. 69" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -302,7 +317,9 @@
 						<corpo>
 							I giornalisti appartenenti al ruolo unico regionale in servizio a tempo indeterminato rispettivamente presso l'ufficio stampa del Consiglio regionale e presso l'ufficio stampa della Giunta regionale alla data di entrata in vigore della presente legge possono, entro quarantacinque giorni dall'entrata in vigore della presente legge, presentare domanda per transitare dal comparto Regioni e autonomie locali nel ruolo delle rispettive Agenzie di cui all'
 							<rif xlink:href="#art1" xlink:type="simple">articolo 1</rif>
-							; tale personale cessa di appartenere al ruolo unico regionale al quale si applica il contratto del comparto Regioni e autonomie locali e contestualmente, previa sottoscrizione di apposito contratto di diritto privato a tempo indeterminato, entra a far parte del ruolo unico del personale regionale al quale si applica il contratto nazionale del lavoro giornalistico, con attribuzione dello stato giuridico e del trattamento economico corrispondente alla qualifica di redattore con oltre trenta mesi di anzianità professionale. Ai soli fini dell'anzianità di servizio sono valutati interamente gli anni prestati presso gli uffici stampa degli organi regionali.
+							; tale personale cessa di appartenere al ruolo unico regionale al quale si applica il contratto del comparto Regioni e autonomie locali e contestualmente, previa sottoscrizione di apposito contratto di diritto privato a tempo indeterminato, entra a far parte del ruolo unico del personale regionale al quale si applica il contratto nazionale del lavoro giornalistico, con attribuzione dello stato giuridico e del trattamento economico corrispondente alla qualifica di redattore con oltre trenta mesi di anzianità professionale. Ai soli fini dell'anzianità di servizio sono valutati interamente gli anni prestati presso gli uffici stampa degli organi regionali
+							<h:span id="h3" iniziovigore="t3">o gli anni in cui sono state svolte attività di informazione e comunicazione presso gli enti dipendenti od altri enti pubblici</h:span>
+							.
 						</corpo>
 					</comma>
 					<comma id="art6-com5">

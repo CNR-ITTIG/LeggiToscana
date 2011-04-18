@@ -8,7 +8,8 @@
 					<entratainvigore norm="20000414" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2000-03-20;32" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2000-03-20;32@2007-12-21" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2000-03-20;32@2007-12-21" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:2000-03-20;32@2008-12-24" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tributi" />
 					</materie>
@@ -17,10 +18,12 @@
 					<eventi>
 						<evento data="20000414" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20071229" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="20090101" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2000-03-20;32" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2007-12-21;67" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2008-12-24;69" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -37,6 +40,33 @@
 								<dsp:pos xlink:href="#art11bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-12-24;69" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-12-24;69#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 24 dicembre 2008, n. 69" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art1-com1bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-12-24;69" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-12-24;69#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 24 dicembre 2008, n. 69" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art7" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art7-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -67,6 +97,14 @@
 								La presente legge disciplina, ai sensi del
 								<rif xlink:href="urn:nir:stato:decreto.legislativo:1997-12-15;446#tit1" xlink:type="simple">titolo I del decreto legislativo 15 dicembre 1997 n. 446</rif>
 								e nel rispetto dei principi generali in materia di imposte sui redditi, l'esercizio delle competenze regionali relative all'imposta regionale sulle attività produttive, nonché le connesse procedure applicative.
+							</corpo>
+						</comma>
+						<comma id="art1-com1bis" iniziovigore="t3">
+							<num>1 bis.</num>
+							<corpo>
+								A decorrere dal 1° gennaio 2009 l'imposta regionale sulle attività produttive (IRAP) è istituita quale tributo proprio della Regione ai sensi dell'
+								<rif xlink:href="urn:nir:stato:legge:2007-12-24;244#art1-com43" xlink:type="simple">articolo 1, comma 43, della legge 24 dicembre 2007, n. 244</rif>
+								( Disposizioni per la formazione del bilancio annuale e pluriennale dello Stato. Legge finanziaria 2008).
 							</corpo>
 						</comma>
 					</articolo>
@@ -196,20 +234,38 @@
 				<capo id="cap2">
 					<num>CAPO II</num>
 					<rubrica>ALIQUOTA ED AGEVOLAZIONI</rubrica>
-					<articolo id="art7">
+					<articolo finevigore="t3" id="art7-t3" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 7</num>
 						<rubrica>(Determinazione dell'aliquota)</rubrica>
-						<comma id="art7-com1">
+						<comma id="art7-t3-com1">
 							<num>1.</num>
 							<corpo>A decorrere dall'anno di imposta 2001, la Regione ha facoltà di variare l'aliquota di imposta nei limiti di quanto previsto dalla normativa statale, anche differenziandola per settori di attività e per categorie di soggetti passivi, mediante legge approvata dal Consiglio regionale entro il 31 dicembre di ogni esercizio precedente all'anno di imposta per cui si dispone.</corpo>
 						</comma>
-						<comma id="art7-com2">
+						<comma id="art7-t3-com2">
 							<num>2.</num>
 							<corpo>
 								Laddove non intervenga il provvedimento di cui al
-								<rif xlink:href="#art7-com1" xlink:type="simple">comma 1</rif>
+								<rif xlink:href="#art7-t3-com1" xlink:type="simple">comma 1</rif>
 								si intendono confermate le aliquote in vigore per l'anno di imposta precedente.
 							</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art7" iniziovigore="t3">
+						<num>Art. 7</num>
+						<rubrica>Determinazione dell'aliquota. Detrazioni, deduzioni e speciali agevolazioni</rubrica>
+						<comma id="art7-com1">
+							<num>1.</num>
+							<corpo>
+								Con la medesima decorrenza di cui all'
+								<rif xlink:href="#art1-com1bis" xlink:type="simple">articolo 1, comma 1 bis</rif>
+								, la Regione può variare l'aliquota d'imposta, anche differenziandola per settori di attività e per categorie di soggetti passivi, modificare detrazioni e deduzioni ed introdurre speciali agevolazioni, ai sensi dell'
+								<rif xlink:href="urn:nir:stato:legge:2007;244#art1-com43" xlink:type="simple">articolo 1, comma 43, della l. 244/2007</rif>
+								, mediante legge approvata entro il 31 dicembre dell'anno precedente il periodo d'imposta per cui si dispone.
+							</corpo>
+						</comma>
+						<comma id="art7-com2">
+							<num>2.</num>
+							<corpo>Laddove non intervenga il provvedimento di cui al comma 1 si intendono confermate le aliquote in vigore per l'anno di imposta precedente.</corpo>
 						</comma>
 					</articolo>
 				</capo>
