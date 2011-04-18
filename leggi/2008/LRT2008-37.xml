@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20080627" num="21" tipo="BURT" />
 					<entratainvigore norm="20080628" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2008-06-26;37" />
+					<urn finevigore="t6" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2008-06-26;37" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2008-06-26;37@2008-12-30" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -16,6 +17,7 @@
 						<evento data="20080628" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="20080628" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="20080628" fonte="ra4" id="t5" tipo="modifica" />
+						<evento data="20090101" fonte="rp1" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2008-06-26;37" xlink:type="simple" />
@@ -23,6 +25,7 @@
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:2001-08-16;40" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:2001;40" xlink:type="simple" />
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:2000-12-28;82" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2008-12-30;71" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -77,6 +80,50 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art27" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-12-30;71" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-12-30;71#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 30 dicembre 2008, n. 71" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art27" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art27-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art25" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-12-30;71" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-12-30;71#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 30 dicembre 2008, n. 71" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art25-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-12-30;71" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-12-30;71#art2-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 2 della legge Regione Toscana 30 dicembre 2008, n. 71" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art25-com3bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -1520,7 +1567,10 @@
 					</articolo>
 					<articolo id="art25">
 						<num>Art. 25</num>
-						<rubrica>Incentivazione delle gestioni associate per l'anno 2008</rubrica>
+						<rubrica>
+							<h:span finevigore="t6" id="h1" iniziovigore="t1" status="abrogato">Incentivazione delle gestioni associate per l'anno 2008</h:span>
+							<h:span id="h2" iniziovigore="t6">Incentivazione delle gestioni associate per gli anni 2008 e 2009</h:span>
+						</rubrica>
 						<comma id="art25-com1">
 							<num>1.</num>
 							<corpo>
@@ -1541,6 +1591,23 @@
 								.
 							</corpo>
 						</comma>
+						<comma id="art25-com3bis" iniziovigore="t6">
+							<num>3 bis.</num>
+							<corpo>
+								Nell'anno 2009, a valere sulle risorse previste con legge di bilancio per l'attuazione della
+								<rif xlink:href="urn:nir:regione.toscana:legge:2001;40" xlink:type="simple">l.r. 40/2001</rif>
+								, sono ammesse specifiche misure di incentivazione per le unioni di comuni costituite ai sensi degli
+								<mrif>
+									articoli
+									<rif xlink:href="#art14" xlink:type="simple">14</rif>
+									e
+									<rif xlink:href="#art27" xlink:type="simple">27</rif>
+								</mrif>
+								. Il comma 1 del presente articolo si applica anche per il procedimento di incentivazione dell'anno 2009, in relazione alle gestioni associate che risultano incentivante nell'anno 2008 e in corso di svolgimento alla data stabilita nei provvedimenti di attuazione della
+								<rif xlink:href="urn:nir:regione.toscana:legge:2001;40" xlink:type="simple">l.r. 40/2001</rif>
+								.
+							</corpo>
+						</comma>
 					</articolo>
 					<articolo id="art26">
 						<num>Art. 26</num>
@@ -1558,10 +1625,10 @@
 							</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art27">
+					<articolo finevigore="t6" id="art27-t6" iniziovigore="t1" status="abrogato">
 						<num>Art. 27</num>
 						<rubrica>Disposizioni speciali per l'arcipelago toscano</rubrica>
-						<comma id="art27-com1">
+						<comma id="art27-t6-com1">
 							<num>1.</num>
 							<corpo>
 								In considerazione delle specifiche caratteristiche economiche, sociali e ambientali del territorio insulare toscano, in deroga a quanto previsto dall'
@@ -1576,7 +1643,7 @@
 								, tutti i comuni dell'Isola d'Elba e i comuni di Capraia Isola e di Isola del Giglio possono costituire una comunità di arcipelago.
 							</corpo>
 						</comma>
-						<comma id="art27-com2">
+						<comma id="art27-t6-com2">
 							<num>2.</num>
 							<corpo>
 								Per la costituzione della comunità di arcipelago e la successione e il subentro nei rapporti e nelle funzioni della disciolta Comunità montana dell'arcipelago toscano si applicano le disposizioni dell'
@@ -1593,11 +1660,80 @@
 								.
 							</corpo>
 						</comma>
-						<comma id="art27-com3">
+						<comma id="art27-t6-com3">
 							<num>3.</num>
 							<corpo>
 								Le disposizioni della presente legge che fanno riferimento alle unioni di comuni si applicano anche alla comunità di arcipelago. Alla comunità medesima non si applicano le disposizioni dell'
 								<rif xlink:href="urn:nir:stato:decreto.legislativo:2000;267#art29" xlink:type="simple">articolo 29 del d.lgs 267/2000</rif>
+								.
+							</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art27" iniziovigore="t6">
+						<num>Art. 27</num>
+						<rubrica>Disposizioni speciali per l'arcipelago toscano</rubrica>
+						<comma id="art27-com1">
+							<num>1.</num>
+							<corpo>In considerazione delle specifiche caratteristiche economiche, sociali e ambientali del territorio insulare toscano, possono costituire una unione di comuni, ai sensi e per gli effetti della presente legge, tutti i comuni della disciolta comunità montana dell'arcipelago toscano, ovvero un parte di essi, che rappresentino almeno la maggioranza dei comuni della disciolta Comunità montana ovvero almeno la metà dei comuni aventi la maggioranza della popolazione complessiva.</corpo>
+						</comma>
+						<comma id="art27-com2">
+							<num>2.</num>
+							<corpo>Per la costituzione dell'unione di comuni di cui al comma 1 e la successione e il subentro nei rapporti e nelle funzioni della disciolta Comunità montana dell'arcipelago toscano si applicano le disposizioni previste dalla presente legge per le comunità montane disciolte, salvo quanto espressamente stabilito dal presente articolo.</corpo>
+						</comma>
+						<comma id="art27-com3">
+							<num>3.</num>
+							<corpo>
+								Il termine del 31 ottobre 2008 previsto dall'
+								<rif xlink:href="#art14-com6" xlink:type="simple">articolo 14, comma 6</rif>
+								, è stabilito al 31 gennaio 2009.
+							</corpo>
+						</comma>
+						<comma id="art27-com4">
+							<num>4.</num>
+							<corpo>
+								Il termine del 15 dicembre 2008 previsto dall'
+								<rif xlink:href="#art14-com7" xlink:type="simple">articolo 14, comma 7</rif>
+								, è stabilito al 15 febbraio 2009.
+							</corpo>
+						</comma>
+						<comma id="art27-com5">
+							<num>5.</num>
+							<corpo>
+								Il termine del 31 gennaio 2009 previsto dall'
+								<rif xlink:href="#art14-com11" xlink:type="simple">articolo 14, comma 11</rif>
+								, è stabilito al 15 marzo 2009.
+							</corpo>
+						</comma>
+						<comma id="art27-com6">
+							<num>6.</num>
+							<corpo>
+								Non si applicano le disposizioni dell'
+								<mrif>
+									articolo 13,
+									<rif xlink:href="#art13-com4" xlink:type="simple">comma 4, ultimo periodo</rif>
+									, e
+									<rif xlink:href="#art13-com8" xlink:type="simple">comma 8</rif>
+								</mrif>
+								.
+							</corpo>
+						</comma>
+						<comma id="art27-com7">
+							<num>7.</num>
+							<corpo>Le disposizioni della presente legge relative alla successione e al subentro dell'unione di comuni nei rapporti e nelle funzioni della disciolta comunità montana si applicano se l'unione è costituita ai sensi del comma 1. In tal caso, fino a diversa determinazione assunta secondo la vigente legislazione regionale, le funzioni conferite o assegnate dalla Regione alla disciolta comunità montana sono svolte dall'unione su tutto il territorio della comunità montana medesima.</corpo>
+						</comma>
+						<comma id="art27-com8">
+							<num>8.</num>
+							<corpo>
+								L'ambito territoriale dell'unione costituisce livello ottimale ai sensi della
+								<rif xlink:href="urn:nir:regione.toscana:legge:2001;40" xlink:type="simple">l.r.40/2001</rif>
+								. Se all'unione non partecipano tutti i comuni della disciolta comunità montana, detto livello ottimale può essere modificato, con deliberazione della Giunta regionale, prevedendo che ad esso partecipino gli altri comuni.
+							</corpo>
+						</comma>
+						<comma id="art27-com9">
+							<num>9.</num>
+							<corpo>
+								L'unione assume la denominazione di comunità di arcipelago se ad essa partecipano tutti i comuni dell'Isola d'Elba e i comuni di Capraia Isola e di Isola del Giglio. Alla comunità medesima non si applicano le disposizioni dell'
+								<rif xlink:href="urn:nir:stato:decreto.legislativo:2000;267#art29" xlink:type="simple">articolo 29 del d.lgs. 267/2000</rif>
 								.
 							</corpo>
 						</comma>
