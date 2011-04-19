@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t11" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19920729" num="43" tipo="BURT" />
 					<entratainvigore norm="19920813" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t10" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1992-07-20;32" />
-					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1992-07-20;32@2002-04-02" />
+					<urn finevigore="t11" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1992-07-20;32@2002-04-02" />
+					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1992-07-20;32@2009-01-08" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Donna" />
 					</materie>
@@ -25,6 +26,7 @@
 						<evento data="19920813" fonte="ra7" id="t8" tipo="modifica" />
 						<evento data="19920813" fonte="ra8" id="t9" tipo="modifica" />
 						<evento data="20020427" fonte="rp1" id="t10" tipo="modifica" />
+						<evento data="20090117" fonte="rp2" id="t11" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1992-07-20;32" xlink:type="simple" />
@@ -37,6 +39,7 @@
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:1990-04-09;41" xlink:type="simple" />
 						<attiva id="ra8" xlink:href="urn:nir:regione.toscana:legge:1990-04-09;41" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2009-01-08;1" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -179,6 +182,18 @@
 								<dsp:pos xlink:href="#art15-t10" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1992-07-20;32" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-01-08;1" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-01-08;1#art73-com1-letb" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 73, comma 1, lettera b) della legge Regione Toscana 8 gennaio 2009, n. 1" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -197,7 +212,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>NORME GENERALI</rubrica>
 					<articolo id="art1">
@@ -323,10 +338,10 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>AZIONI POSITIVE</rubrica>
-					<capo id="tit2-cap1">
+					<capo id="LeggeRegionale1-tit2-cap1">
 						<num>Capo I</num>
 						<rubrica>FORMAZIONE ED AGGIORNAMENTO DEL PERSONALE</rubrica>
 						<articolo id="art8">
@@ -354,7 +369,7 @@
 							</comma>
 						</articolo>
 					</capo>
-					<capo id="tit2-cap2">
+					<capo id="LeggeRegionale1-tit2-cap2">
 						<num>Capo II</num>
 						<rubrica>RAPPORTO DI LAVORO</rubrica>
 						<articolo id="art9">
@@ -433,7 +448,7 @@
 							</comma>
 						</articolo>
 					</capo>
-					<capo id="tit2-cap3">
+					<capo id="LeggeRegionale1-tit2-cap3">
 						<num>Capo III</num>
 						<rubrica>ALTRI INTERVENTI</rubrica>
 						<articolo id="art13">
@@ -475,7 +490,7 @@
 						</articolo>
 					</capo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>TITOLO III</num>
 					<rubrica>COMITATO D'ENTE PER LE PARI OPPORTUNITÀ</rubrica>
 					<articolo finevigore="t10" id="art15-t10" iniziovigore="t1" status="abrogato">

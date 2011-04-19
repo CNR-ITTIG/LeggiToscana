@@ -8,7 +8,8 @@
 					<entratainvigore norm="20020718" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2002-06-25;22" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2002-06-25;22@2007-12-27" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2002-06-25;22@2007-12-27" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2002-06-25;22@2009-01-08" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Informazione" />
 					</materie>
@@ -20,6 +21,7 @@
 						<evento data="20020718" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="20020718" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="20080118" fonte="rp1" id="t5" tipo="modifica" />
+						<evento data="20090117" fonte="rp2" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2002-06-25;22" xlink:type="simple" />
@@ -27,6 +29,7 @@
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:2000-02-01;10" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:2000-12-28;80" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2007-12-27;69" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2009-01-08;1" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -81,6 +84,18 @@
 								<dsp:pos xlink:href="#art3-com1-letgbis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-01-08;1" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-01-08;1#art73-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 73, comma 2 della legge Regione Toscana 8 gennaio 2009, n. 1" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art8-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -336,26 +351,26 @@
 								</corpo>
 							</comma>
 						</articolo>
-						<articolo id="art8">
+						<articolo finevigore="t6" id="art8-t6" iniziovigore="t1" status="abrogato">
 							<num>Articolo 8</num>
 							<rubrica>(Portavoce)</rubrica>
-							<comma id="art8-com1">
+							<comma id="art8-t6-com1">
 								<num>1.</num>
 								<corpo>Il Presidente della Giunta regionale ed il Presidente del Consiglio regionale possono avvalersi, per l'intera durata del loro mandato, di un portavoce, anche esterno all'amministrazione, con compiti di diretta collaborazione ai fini dei rapporti di carattere politico-istituzionale con gli organi di informazione.</corpo>
 							</comma>
-							<comma id="art8-com2">
+							<comma id="art8-t6-com2">
 								<num>2.</num>
 								<corpo>Il portavoce è scelto fra giornalisti o esperti in comunicazione e non può esercitare altra attività professionale per tutta la durata dell'incarico.</corpo>
 							</comma>
-							<comma id="art8-com3">
+							<comma id="art8-t6-com3">
 								<num>3.</num>
 								<corpo>L'incarico è disposto con decreto del Presidente della Giunta regionale e, per quanto concerne il Presidente del Consiglio regionale, con deliberazione dell'Ufficio di presidenza del Consiglio regionale.</corpo>
 							</comma>
-							<comma id="art8-com4">
+							<comma id="art8-t6-com4">
 								<num>4.</num>
 								<corpo>Il relativo contratto a tempo determinato è rinnovabile e revocabile e si risolve di diritto con la cessazione dalla carica del soggetto proponente. Il trattamento economico non può essere superiore a quello spettante ai dirigenti regionali titolari di area, servizio o struttura equiparata.</corpo>
 							</comma>
-							<comma id="art8-com5">
+							<comma id="art8-t6-com5">
 								<num>5.</num>
 								<corpo>
 									Qualora il portavoce sia scelto fra dipendenti della Regione, di enti locali o di altre amministrazioni pubbliche, si applicano le disposizioni di cui all'
@@ -363,7 +378,7 @@
 									(riordino della legislazione regionale in materia di organizzazione del personale), e successive modifiche.
 								</corpo>
 							</comma>
-							<comma id="art8-com6">
+							<comma id="art8-t6-com6">
 								<num>6.</num>
 								<corpo>L'incarico di portavoce non costituisce titolo valutabile nelle selezioni bandite dalla Regione.</corpo>
 							</comma>
