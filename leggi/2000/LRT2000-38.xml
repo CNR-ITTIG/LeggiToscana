@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20000331" num="14" tipo="BURT" />
 					<entratainvigore norm="20000415" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2000-03-21;38" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2000-03-21;38" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2000-03-21;38@2009-01-09" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organi" />
 						<materia valore="Ente Regione" />
@@ -16,11 +17,29 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="20000415" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20090131" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2000-03-21;38" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2009-01-09;3" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-01-09;3" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-01-09;3#art39-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 39, comma 2 della legge Regione Toscana 9 gennaio 2009, n. 3" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -53,7 +72,8 @@
 							<rif xlink:href="urn:nir:regione.toscana:legge:1983;49" xlink:type="simple">49/83</rif>
 							e
 							<rif xlink:href="urn:nir:regione.toscana:legge:1983;68" xlink:type="simple">68/83</rif>
-							nonché la normativa in materia di indennità, rimborsi spese, trattamenti di missione, aspettative, assicurazioni e previdenza prevista per i componenti della Giunta che ricoprono la carica di consigliere regionale.
+							<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">nonché la normativa in materia di indennità, rimborsi spese, trattamenti di missione, aspettative, assicurazioni e previdenza prevista per i componenti della Giunta che ricoprono la carica di consigliere regionale</h:span>
+							.
 						</corpo>
 					</comma>
 				</articolo>

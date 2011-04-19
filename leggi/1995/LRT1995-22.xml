@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t30" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19950309" num="18" tipo="BURT" />
 					<entratainvigore norm="19950324" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1995-02-27;22" />
+					<urn finevigore="t30" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1995-02-27;22" />
+					<urn iniziovigore="t30" valore="urn:nir:regione.toscana:legge:1995-02-27;22@2009-01-09" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organi" />
 						<materia valore="Ente Regione" />
@@ -44,6 +45,7 @@
 						<evento data="19950324" fonte="ra26" id="t27" tipo="modifica" />
 						<evento data="19950324" fonte="ra27" id="t28" tipo="modifica" />
 						<evento data="19950324" fonte="ra28" id="t29" tipo="modifica" />
+						<evento data="20090131" fonte="rp1" id="t30" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-02-27;22" xlink:type="simple" />
@@ -75,6 +77,7 @@
 						<attiva id="ra26" xlink:href="urn:nir:regione.toscana:legge:1983-06-13;48" xlink:type="simple" />
 						<attiva id="ra27" xlink:href="urn:nir:regione.toscana:legge:1983-06-13;47" xlink:type="simple" />
 						<attiva id="ra28" xlink:href="urn:nir:regione.toscana:legge:1983-06-13;47" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2009-01-09;3" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -456,6 +459,20 @@
 							</dsp:novella>
 						</dsp:integrazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1995-02-27;22" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-01-09;3" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-01-09;3#art39-com1-num8" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 39, comma 1, numero 8 della legge Regione Toscana 9 gennaio 2009, n. 3" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>

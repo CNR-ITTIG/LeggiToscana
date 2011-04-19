@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t12" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19830622" num="31" tipo="BURT" />
@@ -16,7 +16,8 @@
 					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1983-06-13;47@2001-10-31" />
 					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1983-06-13;47@2004-08-03" />
 					<urn finevigore="t11" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1983-06-13;47@2007-02-19" />
-					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1983-06-13;47@2007-03-02" />
+					<urn finevigore="t12" iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1983-06-13;47@2007-03-02" />
+					<urn iniziovigore="t12" valore="urn:nir:regione.toscana:legge:1983-06-13;47@2009-01-09" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organi" />
 					</materie>
@@ -34,6 +35,7 @@
 						<evento data="20040828" fonte="rp7" id="t9" tipo="modifica" />
 						<evento data="20070309" fonte="rp8" id="t10" tipo="modifica" />
 						<evento data="20070322" fonte="rp9" id="t11" tipo="modifica" />
+						<evento data="20090131" fonte="rp10" id="t12" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1983-06-13;47" xlink:type="simple" />
@@ -47,10 +49,11 @@
 						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:2004-08-03;44" xlink:type="simple" />
 						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:2007-02-19;8" xlink:type="simple" />
 						<passiva id="rp9" xlink:href="urn:nir:regione.toscana:legge:2007-03-02;13" xlink:type="simple" />
+						<passiva id="rp10" xlink:href="urn:nir:regione.toscana:legge:2009-01-09;3" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Il presente articolo viene sostituito dall'
 							<rif xlink:href="urn:nir:regione.toscana:legge:2004-08-03;44#art1" xlink:type="simple">art. 1 della legge regionale 3 agosto 2004, n. 44</rif>
@@ -464,6 +467,18 @@
 								<dsp:pos xlink:href="#h6" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1983-06-13;47" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-01-09;3" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-01-09;3#art39-com1-num1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 39, comma 1, numero 1 della legge Regione Toscana 9 gennaio 2009, n. 3" id="itt30" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -581,7 +596,7 @@
 				<articolo id="art2bis" iniziovigore="t8">
 					<num>
 						Art. 2bis
-						<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+						<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 					</num>
 					<comma id="art2bis-com1">
 						<num>1.</num>
@@ -609,8 +624,7 @@
 							<num>b)</num>
 							<corpo>Componente della Giunta regionale e Vice Presidente del Consiglio regionale: 15%;</corpo>
 						</el>
-						<el finevigore="t6" id="art2ter-com1-letc-t6" iniziovigore="t5
-" status="abrogato">
+						<el finevigore="t6" id="art2ter-com1-letc-t6" iniziovigore="t5" status="abrogato">
 							<num>c)</num>
 							<corpo>Consigliere Segretario del Consiglio e Presidente di Commissione: 10%;</corpo>
 						</el>
