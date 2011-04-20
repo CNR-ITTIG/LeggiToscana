@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2004-01-26;1" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2004-01-26;1@2007-06-04" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:2004-01-26;1@2007-12-27" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:2004-01-26;1@2007-12-27" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:2004-01-26;1@2009-04-02" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Reti Telematiche" />
 						<materia valore="Informazione" />
@@ -20,11 +21,13 @@
 						<evento data="20040131" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20070628" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="20080118" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="20090407" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2004-01-26;1" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2007-06-04;33" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2007-12-27;69" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2009-04-02;16" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -101,7 +104,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:integrazione completa="si" implicita="no">
@@ -212,7 +215,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+								<dsp:pos xlink:href="#h5" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:integrazione completa="si" implicita="no">
@@ -224,7 +227,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#h6" xlink:type="simple" />
+								<dsp:pos xlink:href="#h7" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -263,7 +266,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#h5" xlink:type="simple" />
+								<dsp:pos xlink:href="#h6" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:integrazione completa="si" implicita="no">
@@ -287,7 +290,19 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#h7" xlink:type="simple" />
+								<dsp:pos xlink:href="#h8" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com2-letg" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-04-02;16" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-04-02;16#art19-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 19, comma 2 della legge Regione Toscana 2 aprile 2009, n. 16" id="itt21" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 					</modifichepassive>
@@ -514,7 +529,11 @@
 							</el>
 							<el id="art4-com2-letg">
 								<num>g)</num>
-								<corpo>realizzazione di iniziative e adozione di misure rivolte a generare la fiducia degli utenti nei diversi usi della rete;</corpo>
+								<corpo>
+									realizzazione di iniziative e adozione di misure rivolte a generare la fiducia degli utenti nei diversi usi della rete
+									<h:span id="h3" iniziovigore="t4">con attenzione alle pari opportunità tra donne e uomini nell'accesso alle tecnologie dell'informazione</h:span>
+									;
+								</corpo>
 							</el>
 							<el id="art4-com2-leth">
 								<num>h)</num>
@@ -565,7 +584,7 @@
 								, definisce, sulla base di determinazioni assunte dalla Rete, le misure di carattere tecnico a valenza generale alle quali i soggetti di cui all'
 								<rif xlink:href="#art8-com2" xlink:type="simple">articolo 8, comma 2</rif>
 								, sono tenuti a conformarsi
-								<h:span id="h3" iniziovigore="t2">e concorre a proteggere, nell'ambito delle politiche di sviluppo della società dell'informazione e della conoscenza, i termini generalmente riferiti a concetti geografici o geopolitici di interesse dei soggetti della Rete.</h:span>
+								<h:span id="h4" iniziovigore="t2">e concorre a proteggere, nell'ambito delle politiche di sviluppo della società dell'informazione e della conoscenza, i termini generalmente riferiti a concetti geografici o geopolitici di interesse dei soggetti della Rete.</h:span>
 								.
 							</corpo>
 						</comma>
@@ -889,7 +908,7 @@
 							<num>2.</num>
 							<corpo>
 								Il Comitato strategico disciplina le funzioni e le modalità di nomina del Coordinatore della Rete
-								<h:span id="h4" iniziovigore="t2">; la durata del mandato del Coordinatore non può superare quella del Comitato strategico.</h:span>
+								<h:span id="h5" iniziovigore="t2">; la durata del mandato del Coordinatore non può superare quella del Comitato strategico.</h:span>
 								.
 							</corpo>
 						</comma>
@@ -925,7 +944,7 @@
 							<num>1.</num>
 							<corpo>
 								Al fine di favorire l'efficacia dei servizi telematici delle pubbliche amministrazioni del territorio regionale
-								<h:span id="h5" iniziovigore="t3">e promuovere la partecipazione di cittadini</h:span>
+								<h:span id="h6" iniziovigore="t3">e promuovere la partecipazione di cittadini</h:span>
 								, è istituito l'Osservatorio degli utenti presso la Direzione tecnico operativa.
 							</corpo>
 						</comma>
@@ -933,7 +952,7 @@
 							<num>2.</num>
 							<corpo>
 								Il Comitato strategico disciplina la composizione e le modalità di organizzazione dell'Osservatorio, assicurandone il coordinato rapporto con le altre forme organizzative della Rete e garantendo la partecipazione in esso delle varie componenti di carattere economico e sociale della società civile organizzata, prevedendo modalità di informazione al Consiglio regionale dei risultati delle attività dell'Osservatorio stesso
-								<h:span id="h6" iniziovigore="t2">. Il Consiglio regionale nomina due membri dell'Osservatorio.</h:span>
+								<h:span id="h7" iniziovigore="t2">. Il Consiglio regionale nomina due membri dell'Osservatorio.</h:span>
 								.
 							</corpo>
 						</comma>
@@ -956,7 +975,7 @@
 								<num>b)</num>
 								<corpo>
 									indica gli obiettivi e le azioni di impulso e sostegno per l'attuazione dell'amministrazione elettronica e la promozione della società dell'informazione e della conoscenza
-									<h:span id="h7" iniziovigore="t3">, dell'uso della rete a fini partecipativi.</h:span>
+									<h:span id="h8" iniziovigore="t3">, dell'uso della rete a fini partecipativi.</h:span>
 									;
 								</corpo>
 							</el>

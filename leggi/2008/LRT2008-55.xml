@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20081029" num="34" tipo="BURT" />
 					<entratainvigore norm="20081113" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2008-10-22;55" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2008-10-22;55" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2008-10-22;55@2009-04-02" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="20081113" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20090407" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2008-10-22;55" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2009-04-02;16" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -22,6 +25,22 @@
 						<h:p>La numerazione del presente comma, omessa per mero errore materiale nella pubblicazione originale, è stata inserita con errata corrige pubblicata su BURT 10 dicembre 2008, n. 43.</h:p>
 					</nota>
 				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-04-02;16" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-04-02;16#art9-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 9, comma 1 della legge Regione Toscana 2 aprile 2009, n. 16" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -125,7 +144,10 @@
 						<rubrica>Strumenti di analisi preventiva degli effetti degli atti normativi</rubrica>
 						<comma id="art4-com1">
 							<num>1.</num>
-							<corpo>L'analisi di impatto della regolazione (AIR) consiste nella valutazione preventiva socio-economica, mediante comparazione di differenti ipotesi di intervento normativo, degli effetti di detti interventi sulle attività dei cittadini e delle imprese, nonché sull'organizzazione e sul funzionamento delle pubbliche amministrazioni.</corpo>
+							<corpo>
+								L'analisi di impatto della regolazione (AIR) consiste nella valutazione preventiva socio-economica, mediante comparazione di differenti ipotesi di intervento normativo, degli effetti di detti interventi sulle attività dei cittadini e delle imprese, nonché sull'organizzazione e sul funzionamento delle pubbliche amministrazioni.
+								<h:span id="h1" iniziovigore="t2">L'AIR tiene conto delle conseguenze delle opzioni normative sulla condizione di donne e uomini.</h:span>
+							</corpo>
 						</comma>
 						<comma id="art4-com2">
 							<num>2.</num>
