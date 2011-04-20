@@ -1,22 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20081105" num="36" tipo="BURT" />
 					<entratainvigore norm="20081106" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2008-10-27;57" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2008-10-27;57" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2008-10-27;57@2009-03-30" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="20081106" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20090421" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2008-10-27;57" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2009-03-30;14" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-03-30;14" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-03-30;14#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 30 marzo 2009, n. 14" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-03-30;14" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-03-30;14#art1-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2 della legge Regione Toscana 30 marzo 2009, n. 14" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -72,7 +103,11 @@
 						<corpo>
 							I beneficiari del contributo di cui all'
 							<rif xlink:href="#art2" xlink:type="simple">articolo 2</rif>
-							sono il coniuge della vittima di incidente mortale avvenuto sul luogo di lavoro nel territorio regionale, i figli legittimi, naturali riconosciuti, adottivi e affiliati, oppure, in mancanza di questi, gli ascendenti fiscalmente a carico, oppure, in mancanza di questi, i fratelli e le sorelle minori di età o fiscalmente a carico.
+							sono il coniuge della vittima di incidente mortale avvenuto sul luogo di lavoro nel territorio regionale, i figli legittimi, naturali riconosciuti, adottivi e affiliati, oppure, in mancanza di questi, gli ascendenti
+							<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">fiscalmente a carico</h:span>
+							, oppure, in mancanza di questi, i fratelli e le sorelle
+							<h:span finevigore="t2" id="h2" iniziovigore="t1" status="abrogato">minori di età o fiscalmente a carico</h:span>
+							.
 						</corpo>
 					</comma>
 					<comma id="art3-com2">
