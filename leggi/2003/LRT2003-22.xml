@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t9" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20030417" num="19" tipo="BURT" />
 					<entratainvigore norm="20030502" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2003-04-14;22" />
+					<urn finevigore="t9" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2003-04-14;22" />
+					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:2003-04-14;22@2009-03-18" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Foreste" />
 						<materia valore="Caccia" />
@@ -24,6 +25,7 @@
 						<evento data="20030502" fonte="ra5" id="t6" tipo="modifica" />
 						<evento data="20030502" fonte="ra6" id="t7" tipo="modifica" />
 						<evento data="20030502" fonte="ra7" id="t8" tipo="modifica" />
+						<evento data="20091001" fonte="rp1" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2003-04-14;22" xlink:type="simple" />
@@ -34,6 +36,7 @@
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:2002;21" xlink:type="simple" />
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:2002;21" xlink:type="simple" />
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:1989-01-23;10" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2009-03-18;9" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -151,6 +154,20 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:2003-04-14;22" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-03-18;9" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-03-18;9#art20-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 20, comma 2 della legge Regione Toscana 18 marzo 2009, n. 9" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -173,7 +190,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<capo id="cap1">
+				<capo id="LeggeRegionale1-cap1">
 					<num>Capo I</num>
 					<rubrica>
 						Modifiche alla
@@ -360,7 +377,7 @@
 						</comma>
 					</articolo>
 				</capo>
-				<capo id="cap2">
+				<capo id="LeggeRegionale1-cap2">
 					<num>Capo II</num>
 					<rubrica>
 						Modifiche alla
