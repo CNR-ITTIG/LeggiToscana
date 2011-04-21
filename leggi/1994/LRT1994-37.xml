@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t4" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19940525" num="36" tipo="BURT" />
 					<entratainvigore norm="19940609" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1994-05-16;37" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1994-05-16;37@1996-02-01" />
+					<urn finevigore="t4" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1994-05-16;37@1996-02-01" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1994-05-16;37@2009-05-22" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Unione Europea" />
 					</materie>
@@ -18,15 +19,17 @@
 						<evento data="19940609" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19960207" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19961224" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="20090611" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-05-16;37" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1996-02-01;9" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1996-02-01;9" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2009-05-22;26" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Articolo così sostituito dall'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1996-02-01;9#art1" xlink:type="simple">articolo unico della legge regionale 1 febbraio 1996, n. 9</rif>
@@ -53,6 +56,18 @@
 								<dsp:pos xlink:href="#art12-t2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1994-05-16;37" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-05-22;26" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-05-22;26#art56-com1-leta" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 56, comma 1, lettera a) della legge Regione Toscana 22 maggio 2009, n. 26" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -71,7 +86,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>DISPOSIZIONI GENERALI</rubrica>
 					<articolo id="art1">
@@ -83,7 +98,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>PARTECIPAZIONE REGIONALE ALLA ELABORAZIONE DELLE NORME COMUNITARIE</rubrica>
 					<articolo id="art2">
@@ -149,7 +164,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>TITOLO III</num>
 					<rubrica>ATTUAZIONE REGIONALE DEGLI ATTI COMUNITARI</rubrica>
 					<articolo id="art4">
@@ -266,7 +281,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit4">
+				<titolo id="LeggeRegionale1-tit4">
 					<num>TITOLO IV</num>
 					<rubrica>COORDINAMENTO ED ORGANIZZAZIONE DELL'ATTIVITÀ REGIONALE. RAPPORTI CONSIGLIO-GIUNTA REGIONALE</rubrica>
 					<articolo id="art9">
@@ -324,7 +339,7 @@
 					<articolo id="art11">
 						<num>ARTICOLO 11</num>
 						<rubrica>(Sessione comunitaria della Giunta regionale)</rubrica>
-						<comma id="art11-com1-t3">
+						<comma id="art11-com1">
 							<num>1.</num>
 							<corpo>Il Presidente della Giunta regionale convoca, almeno ogni sei mesi, la sessione comunitaria della Giunta regionale al fine di controllare e verificare lo stato di avanzamento degli interventi regionali di interesse comunitario ed i risultati conseguiti.</corpo>
 						</comma>
@@ -340,7 +355,7 @@
 					<articolo id="art12" iniziovigore="t2">
 						<num>
 							ARTICOLO 12
-							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 						</num>
 						<rubrica>(Principi per l'attuazione dell'art. 93 del trattato dell'Unione Europea)</rubrica>
 						<comma id="art12-com1">

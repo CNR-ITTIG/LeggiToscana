@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t13" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20030813" num="33" tipo="BURT" />
 					<entratainvigore norm="20030828" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2003-08-04;41" />
+					<urn finevigore="t13" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2003-08-04;41" />
+					<urn iniziovigore="t13" valore="urn:nir:regione.toscana:legge:2003-08-04;41@2009-05-22" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Emigrazione" />
 					</materie>
@@ -26,6 +27,7 @@
 						<evento data="20030828" fonte="ra9" id="t10" tipo="modifica" />
 						<evento data="20030828" fonte="ra10" id="t11" tipo="modifica" />
 						<evento data="20030828" fonte="ra11" id="t12" tipo="modifica" />
+						<evento data="20090611" fonte="rp1" id="t13" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2003-08-04;41" xlink:type="simple" />
@@ -40,6 +42,7 @@
 						<attiva id="ra9" xlink:href="urn:nir:regione.toscana:legge:1999;19" xlink:type="simple" />
 						<attiva id="ra10" xlink:href="urn:nir:regione.toscana:legge:1999;19" xlink:type="simple" />
 						<attiva id="ra11" xlink:href="urn:nir:regione.toscana:legge:1999;19" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2009-05-22;26" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -379,6 +382,20 @@
 							</dsp:novella>
 						</dsp:integrazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:2003-08-04;41" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-05-22;26" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-05-22;26#art56-com1-letg" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 56, comma 1, lettera g) della legge Regione Toscana 22 maggio 2009, n. 26" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>

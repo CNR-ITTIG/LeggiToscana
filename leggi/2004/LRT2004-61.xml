@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20041124" num="46" tipo="BURT" />
 					<entratainvigore norm="20041209" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2004-11-15;61" />
+					<urn finevigore="t8" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2004-11-15;61" />
+					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:2004-11-15;61@2009-05-22" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Attività Istituzionali" />
 					</materie>
@@ -21,6 +22,7 @@
 						<evento data="20041209" fonte="ra4" id="t5" tipo="modifica" />
 						<evento data="20041209" fonte="ra5" id="t6" tipo="modifica" />
 						<evento data="20041209" fonte="ra6" id="t7" tipo="modifica" />
+						<evento data="20090611" fonte="rp1" id="t8" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2004-11-15;61" xlink:type="simple" />
@@ -30,6 +32,7 @@
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1997-07-30;55" xlink:type="simple" />
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1999-03-23;17" xlink:type="simple" />
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1999;49" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2009-05-22;26" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -407,6 +410,32 @@
 							</dsp:novella>
 						</dsp:integrazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art21" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-05-22;26" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-05-22;26#art56-com1-leth" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 56, comma 1, lettera h) della legge Regione Toscana 22 maggio 2009, n. 26" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art21-t8" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art22" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-05-22;26" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-05-22;26#art56-com1-leth" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 56, comma 1, lettera h) della legge Regione Toscana 22 maggio 2009, n. 26" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art22-t8" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -1272,14 +1301,14 @@
 							</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art21">
+					<articolo finevigore="t8" id="art21-t8" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 21</num>
 						<rubrica>
 							(Sostituzione dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1997;55#art4" xlink:type="simple">articolo 4 della LR 55/1997</rif>
 							)
 						</rubrica>
-						<comma id="art21-com1">
+						<comma id="art21-t8-com1">
 							<num>1.</num>
 							<corpo>
 								<mod id="mod21">
@@ -1309,14 +1338,14 @@
 							</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art22">
+					<articolo finevigore="t8" id="art22-t8" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 22</num>
 						<rubrica>
 							(Sostituzione dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1999;17#art6" xlink:type="simple">articolo 6 della LR 17/1999</rif>
 							)
 						</rubrica>
-						<comma id="art22-com1">
+						<comma id="art22-t8-com1">
 							<num>1.</num>
 							<corpo>
 								<mod id="mod22">

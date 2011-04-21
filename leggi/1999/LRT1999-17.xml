@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t7" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19990331" num="9" tipo="BURT" />
@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1999-03-23;17" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1999-03-23;17@2002-04-02" />
-					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1999-03-23;17@2004-11-15" />
+					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1999-03-23;17@2004-11-15" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1999-03-23;17@2009-05-22" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Cooperazione Internazionale" />
 					</materie>
@@ -22,6 +23,7 @@
 						<evento data="19990415" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="20020427" fonte="rp1" id="t5" tipo="modifica" />
 						<evento data="20041209" fonte="rp2" id="t6" tipo="modifica" />
+						<evento data="20090611" fonte="rp3" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1999-03-23;17" xlink:type="simple" />
@@ -30,6 +32,7 @@
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1991-04-22;14" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2004-11-15;61" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2009-05-22;26" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -99,6 +102,18 @@
 								<dsp:pos xlink:href="#art6-t6" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1999-03-23;17" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-05-22;26" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-05-22;26#art56-com1-lete" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 56, comma 1, lettera e) della legge Regione Toscana 22 maggio 2009, n. 26" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -117,7 +132,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>FINALITÀ E OGGETTI DEGLI INTERVENTI</rubrica>
 					<articolo id="art1">
@@ -256,7 +271,7 @@
 								La Regione Toscana, pur riconoscendo l'unitarietà degli interventi di cooperazione internazionale e promuovendo la programmazione e il coordinamento degli stessi, destina una parte delle risorse, determinata nel piano regionale di cui all'
 								<rif xlink:href="#art5" xlink:type="simple">articolo 5</rif>
 								, ad una linea di emergenza, al di fuori delle procedure di programmazione di cui al
-								<rif xlink:href="#tit2" xlink:type="simple">titolo II</rif>
+								<rif xlink:href="#LeggeRegionale1-tit2" xlink:type="simple">titolo II</rif>
 								della presente legge.
 							</corpo>
 						</comma>
@@ -278,7 +293,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>PROGRAMMAZIONE DEGLI INTERVENTI</rubrica>
 					<articolo id="art5">
@@ -468,7 +483,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>TITOLO III</num>
 					<rubrica>ORGANISMI CONSULTIVI E STRUMENTI DI PARTECIPAZIONE</rubrica>
 					<articolo id="art9">
@@ -542,7 +557,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit4">
+				<titolo id="LeggeRegionale1-tit4">
 					<num>TITOLO IV</num>
 					<rubrica>NORME FINALI E TRANSITORIE</rubrica>
 					<articolo id="art12">
