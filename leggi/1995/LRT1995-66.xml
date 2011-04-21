@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t23" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19950428" num="33" tipo="BURT" />
@@ -14,7 +14,8 @@
 					<urn finevigore="t20" iniziovigore="t19" valore="urn:nir:regione.toscana:legge:1995-04-18;66@2000-01-21" />
 					<urn finevigore="t21" iniziovigore="t20" valore="urn:nir:regione.toscana:legge:1995-04-18;66@2000-04-06" />
 					<urn finevigore="t22" iniziovigore="t21" valore="urn:nir:regione.toscana:legge:1995-04-18;66@2001-10-17" />
-					<urn iniziovigore="t22" valore="urn:nir:regione.toscana:legge:1995-04-18;66@2003-12-19" />
+					<urn finevigore="t23" iniziovigore="t22" valore="urn:nir:regione.toscana:legge:1995-04-18;66@2003-12-19" />
+					<urn iniziovigore="t23" valore="urn:nir:regione.toscana:legge:1995-04-18;66@2009-06-22" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tutela Ambientale" />
 						<materia valore="Organizzazioni Pubbliche" />
@@ -45,6 +46,7 @@
 						<evento data="20000502" fonte="rp5" id="t20" tipo="modifica" />
 						<evento data="20011024" fonte="rp6" id="t21" tipo="modifica" />
 						<evento data="20031230" fonte="rp7" id="t22" tipo="modifica" />
+						<evento data="20090711" fonte="rp8" id="t23" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-04-18;66" xlink:type="simple" />
@@ -69,10 +71,11 @@
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2000-04-06;57" xlink:type="simple" />
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2001-10-17;50" xlink:type="simple" />
 						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:2003-12-19;58" xlink:type="simple" />
+						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:2009-06-22;30" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							La presente modifica, operata dalla
 							<rif xlink:href="urn:nir:regione.toscana:legge:1999-12-31;73" xlink:type="simple">Legge Regionale 31 dicembre 1999 n. 73</rif>
@@ -83,7 +86,7 @@
 							della legge modificante.
 						</h:p>
 					</nota>
-					<nota id="n2">
+					<nota id="LeggeRegionale1-n2">
 						<h:p>
 							Relativamente alla determinazione del presente contributo si veda l'
 							<rif xlink:href="urn:nir:regione.toscana:legge:2001-10-17;50#art3" xlink:type="simple">art. 3 della legge regionale 17 ottobre 2001, n. 50</rif>
@@ -495,6 +498,18 @@
 								<dsp:testo valore="" />
 							</dsp:dominio>
 						</dsp:variazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1995-04-18;66" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-06-22;30" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-06-22;30#art37-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 37, comma 1 della legge Regione Toscana 22 giugno 2009, n. 30" id="itt14" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -513,7 +528,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>PRINCIPI GENERALI COORDINAMENTO CON GLI ENTI LOCALI E CON IL SERVIZIO SANITARIO</rubrica>
 					<articolo id="art1">
@@ -820,7 +835,7 @@
 									<rif xlink:href="#art6-com2" xlink:type="simple">2</rif>
 								</mrif>
 								è assicurato attraverso l'istituzione all'interno dei dipartimenti provinciali dell'ARPAT del modello organizzativo di cui al
-								<rif xlink:href="#tit3" xlink:type="simple">Titolo III</rif>
+								<rif xlink:href="#LeggeRegionale1-tit3" xlink:type="simple">Titolo III</rif>
 								.
 							</corpo>
 						</comma>
@@ -830,7 +845,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>NATURA GIURIDICA DELL'ARPAT E NORME SULL'ATTIVITÀ E DI ORGANIZZAZIONE</rubrica>
 					<articolo id="art7">
@@ -1045,8 +1060,7 @@
 									</h:span>
 									<h:span id="h2" iniziovigore="t20">alla legge regionale___</h:span>
 									e quelle comunque già attribuite al Servizio fitosanitario regionale da disposizioni nazionali e regionali,
-									<h:span finevigore="t20" id="h3" iniziovigore="t16
-" status="abrogato">
+									<h:span finevigore="t20" id="h3" iniziovigore="t16" status="abrogato">
 										con esclusione di quelle di cui all'
 										<rif xlink:href="urn:nir:regione.toscana:legge:1995;55#art12" xlink:type="simple">art. 12 della Legge citata</rif>
 									</h:span>
@@ -1231,7 +1245,7 @@
 								, inserito dall'
 								<rif xlink:href="urn:nir:stato:decreto.legislativo:1999-06-19;229#art3-com3" xlink:type="simple">art. 3, comma 3 del DLgs 19 giugno 1999, n. 229</rif>
 								, con diritto di rivalsa nei confronti dell'ARPAT.
-								<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+								<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 							</corpo>
 						</comma>
 						<comma id="art12-com6">
@@ -1421,7 +1435,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>TITOLO III</num>
 					<rubrica>ORGANIZZAZIONE DELLA STRUTTURA CENTRALE DELL'ARPAT E ISTITUZIONE DEI DIPARTIMENTI PROVINCIALI PER LA PROTEZIONE AMBIENTALE</rubrica>
 					<articolo id="art18">
@@ -1583,7 +1597,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit4">
+				<titolo id="LeggeRegionale1-tit4">
 					<num>TITOLO IV</num>
 					<rubrica>PERSONALE, FINANZIAMENTO, CONTABILITÀ PATRIMONIO E SISTEMA INFORMATIVO DELL'ARPAT</rubrica>
 					<articolo id="art24">
@@ -1680,7 +1694,7 @@
 								<num>a)</num>
 								<corpo>
 									un contributo annuale per l'esercizio delle funzioni trasferite dalla Regione e dalle Aziende Sanitarie Locali (ASL), comprese le spese di personale e di beni e servizi
-									<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+									<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(b)</ndr>
 									.
 								</corpo>
 							</el>
@@ -1775,7 +1789,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit5">
+				<titolo id="LeggeRegionale1-tit5">
 					<num>TITOLO V</num>
 					<rubrica>NORME TRANSITORIE E FINALI</rubrica>
 					<articolo id="art28">
