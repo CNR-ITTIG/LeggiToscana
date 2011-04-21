@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20050307" num="19" tipo="BURT" />
 					<entratainvigore norm="20050322" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2005-02-24;39" />
+					<urn finevigore="t9" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2005-02-24;39" />
+					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:2005-02-24;39@2009-05-08" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Fonti Energetiche" />
 					</materie>
@@ -22,6 +23,7 @@
 						<evento data="20050322" fonte="ra5" id="t6" tipo="modifica" />
 						<evento data="20050322" fonte="ra6" id="t7" tipo="modifica" />
 						<evento data="20050322" fonte="ra7" id="t8" tipo="modifica" />
+						<evento data="20090528" fonte="rp1" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2005-02-24;39" xlink:type="simple" />
@@ -32,6 +34,7 @@
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:2000-03-21;37" xlink:type="simple" />
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1998-12-01;88" xlink:type="simple" />
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:2000-03-21;37" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2009-05-08;24" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -98,6 +101,32 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art23-com12" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-05-08;24" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-05-08;24#art9-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 9, comma 1 della legge Regione Toscana 8 maggio 2009, n. 24" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art23-com12bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art23-com12bis" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-05-08;24" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-05-08;24#art9-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 9, comma 2 della legge Regione Toscana 8 maggio 2009, n. 24" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art23-com12ter" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -1769,6 +1798,22 @@
 						<comma id="art23-com12">
 							<num>12.</num>
 							<corpo>Il professionista che rilascia una certificazione energetica non veritiera o dichiara un impedimento alla installazione dell'impianto solare termico non veritiero è soggetto ad una sanzione amministrativa non inferiore allo 0,5 per mille e non superiore al 3 per mille del valore venale dell'unità immobiliare, determinato a cura dell'ufficio tecnico comunale, fatti salvi i casi di responsabilità penale.</corpo>
+						</comma>
+						<comma id="art23-com12bis" iniziovigore="t9">
+							<num>12 bis.</num>
+							<corpo>
+								Nell'ambito del sistema informativo geografico regionale di cui all'
+								<rif xlink:href="urn:nir:regione.toscana:legge:2005;1#art28" xlink:type="simple">articolo 28 della l.r. 1/2005</rif>
+								, è istituito il sistema informativo regionale sull'efficienza e sulla certificazione energetica degli edifici e dei relativi impianti, gestito dalla struttura regionale competente.
+							</corpo>
+						</comma>
+						<comma id="art23-com12ter" iniziovigore="t9">
+							<num>12 ter.</num>
+							<corpo>
+								Il sistema informativo di cui al comma 12 bis comprende l'archivio informatico delle certificazioni energetiche, nonché il catasto degli impianti di climatizzazione. Le modalità di organizzazione, di gestione, di implementazione del sistema informativo sono disciplinate dal regolamento di cui al comma 7, nel rispetto degli standard di cui alla
+								<rif xlink:href="urn:nir:regione.toscana:legge:2004-01-26;1" xlink:type="simple">legge regionale 26 gennaio 2004, n. 1</rif>
+								(Promozione dell'amministrazione elettronica e della società dell'informazione e della conoscenza nel sistema regionale. Disciplina della "Rete telematica regionale Toscana").
+							</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art24">
