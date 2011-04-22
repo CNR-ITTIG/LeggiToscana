@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t16" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2003-12-19;58" />
 					<urn finevigore="t17" iniziovigore="t16" valore="urn:nir:regione.toscana:legge:2003-12-19;58@2004-12-20" />
-					<urn iniziovigore="t17" valore="urn:nir:regione.toscana:legge:2003-12-19;58@2005-02-18" />
+					<urn finevigore="t19" iniziovigore="t17" valore="urn:nir:regione.toscana:legge:2003-12-19;58@2005-02-18" />
+					<urn iniziovigore="t19" valore="urn:nir:regione.toscana:legge:2003-12-19;58@2009-07-17" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Bilancio" />
@@ -35,6 +36,7 @@
 						<evento data="20041230" fonte="rp1" id="t16" tipo="modifica" />
 						<evento data="20050315" fonte="rp2" id="t17" tipo="modifica" />
 						<evento data="20031230" fonte="ra15" id="t18" tipo="modifica" />
+						<evento data="20090725" fonte="rp3" id="t19" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2003-12-19;58" xlink:type="simple" />
@@ -55,8 +57,20 @@
 						<attiva id="ra15" xlink:href="urn:nir:regione.toscana:legge:2001-01-26;2" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2004-12-20;71" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2005-02-18;31" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2009-07-17;37" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Il presente articolo stato abrogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2007-07-17;37#art4-com1-leti" xlink:type="simple">art. 4, comma 1, let. i), della legge regionale 17 luglio 2007, n. 37</rif>
+							, a decorrere dalla data di iscrizione di Fidi Toscana s.p.a. all'albo delle banche di cui all'
+							<rif xlink:href="urn:nir:stato:decreto.legislativo:1993-09-01;385#art13" xlink:type="simple">articolo 13 del decreto legislativo 1 settembre 1993, n. 385</rif>
+							(Testo Unico delle leggi in materia bancaria e creditizia).
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -274,6 +288,15 @@
 								<dsp:pos xlink:href="#art12-t17" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:termine da="#t19" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-17;37" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-17;37#mod10" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:variazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -772,7 +795,10 @@
 						</comma>
 					</articolo>
 					<articolo id="art18">
-						<num>ARTICOLO 18</num>
+						<num>
+							ARTICOLO 18
+							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+						</num>
 						<rubrica>(Aumento di capitale della società Fidi Toscana SpA)</rubrica>
 						<comma id="art18-com1">
 							<num>1.</num>
