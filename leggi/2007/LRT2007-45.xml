@@ -8,7 +8,8 @@
 					<entratainvigore norm="20070821" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t9" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2007-07-27;45" />
-					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:2007-07-27;45@2008-11-21" />
+					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:2007-07-27;45@2008-11-21" />
+					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:2007-07-27;45@2009-07-23" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -21,6 +22,7 @@
 						<evento data="20070821" fonte="ra6" id="t7" tipo="modifica" />
 						<evento data="20070821" fonte="ra7" id="t8" tipo="modifica" />
 						<evento data="20081129" fonte="rp1" id="t9" tipo="modifica" />
+						<evento data="20090813" fonte="rp2" id="t10" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2007-07-27;45" xlink:type="simple" />
@@ -32,6 +34,7 @@
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1995-04-18;69" xlink:type="simple" />
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:1989-01-23;10" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -200,6 +203,45 @@
 							</dsp:norma>
 							<dsp:novella>
 								<dsp:pos xlink:href="#art20-com1bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art11-com2-letd" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40#art65-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 65, comma 1 della legge Regione Toscana 23 luglio 2009, n. 40" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art11-com2-letd-t10" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art11-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40#art65-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 65, comma 2 della legge Regione Toscana 23 luglio 2009, n. 40" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art11-com3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art11-com3-t10" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art11-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40#art65-com3" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 65, comma 3 della legge Regione Toscana 23 luglio 2009, n. 40" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art11-com3bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 					</modifichepassive>
@@ -572,14 +614,22 @@
 								<num>c)</num>
 								<corpo>le richieste di accesso ad aiuti comunitari e regionali;</corpo>
 							</el>
-							<el id="art11-com2-letd">
+							<el finevigore="t10" id="art11-com2-letd-t10" iniziovigore="t1" status="abrogato">
 								<num>d)</num>
 								<corpo>le richieste di certificazioni, autorizzazioni, concessioni.</corpo>
 							</el>
 						</comma>
-						<comma id="art11-com3">
+						<comma finevigore="t10" id="art11-com3-t10" iniziovigore="t1" status="abrogato">
 							<num>3.</num>
 							<corpo>L'attivazione dei procedimenti le cui informazioni preliminari sono contenute nella DUA e la cui gestione è oggetto di convenzione tra ARTEA e gli enti locali titolari del procedimento, avviene in via automatica da parte degli enti competenti, senza ulteriori adempimenti da parte dell'interessato, salvo eventuali richieste di chiarimenti ed integrazioni.</corpo>
+						</comma>
+						<comma id="art11-com3" iniziovigore="t10">
+							<num>3.</num>
+							<corpo>L'attivazione dei procedimenti di cui al comma 2 avviene in via automatica da parte degli enti competenti, senza ulteriori adempimenti da parte dell'interessato, salvo eventuali richieste di chiarimenti ed integrazioni.</corpo>
+						</comma>
+						<comma id="art11-com3bis" iniziovigore="t10">
+							<num>3 bis.</num>
+							<corpo>La Regione può stabilire l'attivazione tramite la DUA di ulteriori procedimenti di interesse dell'azienda agricola.</corpo>
 						</comma>
 						<comma id="art11-com4">
 							<num>4.</num>

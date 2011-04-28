@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale id="LeggeRegionale1">
+		<LeggeRegionale finevigore="t9" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19950209" num="13" tipo="BURT" />
@@ -13,7 +13,8 @@
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1995-02-01;14@1999-08-11" />
 					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1995-02-01;14@2000-03-28" />
 					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1995-02-01;14@2006-06-29" />
-					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1995-02-01;14@2006-12-22" />
+					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1995-02-01;14@2006-12-22" />
+					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1995-02-01;14@2009-07-23" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Finanziamenti" />
 						<materia valore="Beni Culturali" />
@@ -29,6 +30,7 @@
 						<evento data="20000422" fonte="rp4" id="t6" tipo="modifica" />
 						<evento data="20060720" fonte="rp5" id="t7" tipo="modifica" />
 						<evento data="20061230" fonte="rp6" id="t8" tipo="modifica" />
+						<evento data="20090813" fonte="rp7" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-02-01;14" xlink:type="simple" />
@@ -39,6 +41,7 @@
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2000-03-28;45" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2006-06-29;27" xlink:type="simple" />
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2006-12-22;64" xlink:type="simple" />
+						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -308,6 +311,18 @@
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2006-12-22;64#mod16" xlink:type="simple" />
 							</dsp:norma>
 						</dsp:proroga>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1995-02-01;14" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40#ann1-art6-com60" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 6, comma 60 della legge Regione Toscana 23 luglio 2009, n. 40" id="itt11" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -369,8 +384,7 @@
 						<num>1.</num>
 						<corpo>
 							Le procedure di finanziamento relative agli interventi previsti nel settore delle attività e dei beni culturali delle leggi regionali nn.
-							<h:span finevigore="t6" id="h2" iniziovigore="t5
-" status="abrogato">
+							<h:span finevigore="t6" id="h2" iniziovigore="t5" status="abrogato">
 								<rif xlink:href="urn:nir:regione.toscana:legge:1980;11" xlink:type="simple">11/1980</rif>
 							</h:span>
 							,

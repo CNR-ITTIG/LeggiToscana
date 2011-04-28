@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale id="LeggeRegionale1">
+		<LeggeRegionale finevigore="t6" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19960503" num="24 bis" tipo="BURT" />
 					<entratainvigore norm="19960503" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1996-04-29;30" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1996-04-29;30@2006-06-29" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1996-04-29;30@2006-06-29" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1996-04-29;30@2009-07-23" />
 					<materie vocabolario="CNIPA">
 						<materia valore="Gestione dei flussi documentali" />
 					</materie>
@@ -24,6 +25,7 @@
 						<evento data="19960503" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="19960503" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="20060720" fonte="rp1" id="t5" tipo="modifica" />
+						<evento data="20090813" fonte="rp2" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1996-04-29;30" xlink:type="simple" />
@@ -31,6 +33,7 @@
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1995-02-01;14" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1995-02-01;14" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2006-06-29;27" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -91,6 +94,20 @@
 							</dsp:novella>
 						</dsp:integrazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1996-04-29;30" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40#ann1-art6-com61" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 6, comma 61 della legge Regione Toscana 23 luglio 2009, n. 40" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>

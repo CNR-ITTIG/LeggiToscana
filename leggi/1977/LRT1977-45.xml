@@ -1,34 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t3" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19770812" num="42" tipo="BURT" />
 					<entratainvigore norm="19770827" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1977-08-04;45" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1977-08-04;45@1979-06-28" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1977-08-04;45@1979-06-28" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1977-08-04;45@2009-07-23" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="19770827" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19790721" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="20090813" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1977-08-04;45" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1979-06-28;30" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Per il finanziamento della presente legge si veda anche la
 							<rif xlink:href="urn:nir:regione.toscana:legge:1978-02-24;14" xlink:type="simple">legge regionale 24 febbraio 1978, n. 14</rif>
 							.
 						</h:p>
 					</nota>
-					<nota id="n2">
+					<nota id="LeggeRegionale1-n2">
 						<h:p>
 							Si vedano inoltre i commi 2 e 3 dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1979-06-28;30#art1" xlink:type="simple">art. 1 della legge regionale 28 giugno 1979 n. 30</rif>
@@ -140,6 +143,18 @@
 								<dsp:pos xlink:href="#art13-com3-t2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1977-08-04;45" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40#ann1-art1-com5" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 1, comma 5 della legge Regione Toscana 23 luglio 2009, n. 40" id="itt9" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -151,7 +166,7 @@
 				<numDoc>45</numDoc>
 				<titoloDoc>
 					Interventi regionali per il miglioramento e potenziamento delle attività zootecniche.
-					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
@@ -161,7 +176,7 @@
 				<h:p>la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<capo id="cap1">
+				<capo id="LeggeRegionale1-cap1">
 					<num>Capo I</num>
 					<rubrica>DISPOSIZIONI GENERALI</rubrica>
 					<articolo id="art1">
@@ -237,7 +252,7 @@
 						</comma>
 					</articolo>
 				</capo>
-				<capo id="cap2">
+				<capo id="LeggeRegionale1-cap2">
 					<num>Capo II</num>
 					<rubrica>POTENZIAMENTO E MIGLIORAMENTO DELLE STRUTTURE ZOOTECNICHE</rubrica>
 					<articolo id="art4">
@@ -410,13 +425,13 @@
 								Al fine di sviluppare le attività zootecniche nel senso più lato ed ampliare le fonti di reddito del settore agricolo, specialmente mediante l'applicazione di moderne tecnologie ed utilizzando le risorse presenti sul territorio, possono essere concessi, ai soggetti di cui all'
 								<rif xlink:href="#art3" xlink:type="simple">articolo 3</rif>
 								della presente legge, contributi in conto capitale fino al 50% della spesa ammissibile, per l'impianto, l'ampliamento e l'ammodernamento delle strutture, nonchè per l'acquisto delle attrezzature necessarie alla buona conduzione di allevamenti avicoli e cunicoli, per le zoocolture e per l'esercizio della piscicoltura
-								<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+								<ndr num="#LeggeRegionale1-n2" valore="" xlink:type="simple">(b)</ndr>
 								.
 							</corpo>
 						</comma>
 					</articolo>
 				</capo>
-				<capo id="cap3">
+				<capo id="LeggeRegionale1-cap3">
 					<num>Capo III</num>
 					<rubrica>INCENTIVAZIONE MEDIANTE L'IMPIEGO DI CAPITALI DI ESERCIZIO</rubrica>
 					<articolo id="art8">
@@ -626,7 +641,7 @@
 						</comma>
 					</articolo>
 				</capo>
-				<capo id="cap4">
+				<capo id="LeggeRegionale1-cap4">
 					<num>Capo IV</num>
 					<rubrica>MIGLIORAMENTO GENETICO DEL BESTIAME E FECONDAZIONE ARTIFICIALE E NATURALE</rubrica>
 					<articolo id="art12">
@@ -746,7 +761,7 @@
 						</comma>
 					</articolo>
 				</capo>
-				<capo id="cap5">
+				<capo id="LeggeRegionale1-cap5">
 					<num>Capo V</num>
 					<rubrica>SERVIZI PER LO SVILUPPO DELLE ATTIVITA' ZOOTECNICHE</rubrica>
 					<articolo id="art15">
@@ -792,7 +807,7 @@
 						</comma>
 					</articolo>
 				</capo>
-				<capo id="cap6">
+				<capo id="LeggeRegionale1-cap6">
 					<num>Capo VI</num>
 					<rubrica>NORME PROCEDURALI E FINANZIARIE</rubrica>
 					<articolo id="art17">

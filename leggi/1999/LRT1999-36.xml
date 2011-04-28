@@ -8,7 +8,8 @@
 					<entratainvigore norm="19990724" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1999-07-01;36" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1999-07-01;36@2006-08-01" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1999-07-01;36@2006-08-01" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1999-07-01;36@2009-07-23" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Fitobiologia" />
 					</materie>
@@ -17,10 +18,12 @@
 					<eventi>
 						<evento data="19990724" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20060825" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="20090813" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1999-07-01;36" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2006-08-01;41" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -115,6 +118,21 @@
 								<dsp:pos xlink:href="#art11-t2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40#art64-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 64, comma 1 della legge Regione Toscana 23 luglio 2009, n. 40" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art4-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -206,43 +224,67 @@
 						<corpo>L'impiego è consentito solo nel rispetto di tutte le indicazioni e prescrizioni riportate sull'etichetta appositamente approvata, con decreto di registrazione del Ministero della Sanità, per ogni preparato commerciale.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art4">
+				<articolo finevigore="t3" id="art4-t3" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 4</num>
 					<rubrica>(Comunicazione preventiva)</rubrica>
-					<comma id="art4-com1">
+					<comma id="art4-t3-com1">
 						<num>1.</num>
 						<corpo>Chiunque per sé o per conto terzi, impiega prodotti fitosanitari contenenti sostanze ad azione diserbante e geodisinfestante, destinati all'utilizzo in agricoltura, deve darne preventiva comunicazione almeno cinque giorni prima del previsto periodo del/dei trattamenti, al Dipartimento di Prevenzione dell'Azienda USL competente per territorio, al fine di consentire alle Aziende medesime di effettuare un monitoraggio sul territorio regionale relativo all'uso di tali prodotti.</corpo>
+					</comma>
+					<comma id="art4-t3-com2">
+						<num>2.</num>
+						<corpo>
+							Nel caso di utilizzo ripetuto dei prodotti di cui al
+							<rif xlink:href="#art4-t3-com1" xlink:type="simple">comma 1</rif>
+							, in periodi successivi del medesimo anno solare, è sufficiente una unica comunicazione preventiva annuale comprensiva degli interventi programmati.
+						</corpo>
+					</comma>
+					<comma id="art4-t3-com3">
+						<num>3.</num>
+						<corpo>La comunicazione preventiva viene effettuata con il modulo di cui all'allegato 1 della presente legge.</corpo>
+					</comma>
+					<comma id="art4-t3-com4">
+						<num>4.</num>
+						<corpo>La comunicazione preventiva non è necessaria nel caso di interventi di geodisinfestante contro gli attacchi di nottue in considerazione del carattere di urgenza di tali interventi. L'effettuazione dell'intervento deve comunque essere comunicata all'Azienda USL competente per territorio nei successivi tre giorni.</corpo>
+					</comma>
+					<comma id="art4-t3-com5">
+						<num>5.</num>
+						<corpo>
+							Il Consiglio regionale, entro 3 anni dall'entrata in vigore della presente legge adotta, su proposta della Giunta regionale, un atto di individuazione delle aree dove, in base al monitoraggio effettuato ai sensi del
+							<rif xlink:href="#art4-t3-com1" xlink:type="simple">comma 1</rif>
+							, l'uso dei prodotti fitosanitari ad azione diserbante e geodisinfestante, è tale da comportare rischi di natura sanitaria e/o ambientale.
+						</corpo>
+					</comma>
+					<comma id="art4-t3-com6">
+						<num>6.</num>
+						<corpo>
+							In seguito all'adozione dell'atto di cui al
+							<rif xlink:href="#art4-t3-com5" xlink:type="simple">comma 5</rif>
+							, sono tenuti alla presentazione della comunicazione preventiva esclusivamente i soggetti che effettuano trattamenti nelle aree individuate dalla deliberazione del Consiglio regionale.
+						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art4" iniziovigore="t3">
+					<num>Art. 4</num>
+					<rubrica>Utilizzazione dei prodotti fitosanitari</rubrica>
+					<comma id="art4-com1">
+						<num>1.</num>
+						<corpo>
+							Al fine di consentire alle aziende USL di effettuare un monitoraggio sul territorio, relativo ai prodotti fitosanitari, chiunque impieghi per sé o per conto terzi prodotti fitosanitari contenenti sostanze ad azione diserbante e geodisinfestante, destinati all'utilizzo in agricoltura, deve effettuarne la registrazione, entro trenta giorni dall'impiego, nel registro dei trattamenti di cui al
+							<rif xlink:href="urn:nir:presidente.repubblica:decreto:2001-04-23;290" xlink:type="simple">decreto del Presidente della Repubblica 23 aprile 2001, n. 290</rif>
+							(Regolamento di semplificazione dei procedimenti di autorizzazione alla produzione, alla immissione in commercio e alla vendita di prodotti fitosanitari e relativi coadiuvanti "n. 46, allegato 1,
+							<rif xlink:href="urn:nir:stato:legge:1997;59" xlink:type="simple">L. n. 59/1997</rif>
+							") o in altri registri aziendali dei trattamenti, detenuti per l'adempimento di impegni comunitari o regionali purché completi delle informazioni previste dal registro di cui al
+							<rif xlink:href="urn:nir:presidente.repubblica:decreto:2001;290" xlink:type="simple">d.p.r. 290/2001</rif>
+							.
+						</corpo>
 					</comma>
 					<comma id="art4-com2">
 						<num>2.</num>
 						<corpo>
-							Nel caso di utilizzo ripetuto dei prodotti di cui al
-							<rif xlink:href="#art4-com1" xlink:type="simple">comma 1</rif>
-							, in periodi successivi del medesimo anno solare, è sufficiente una unica comunicazione preventiva annuale comprensiva degli interventi programmati.
-						</corpo>
-					</comma>
-					<comma id="art4-com3">
-						<num>3.</num>
-						<corpo>La comunicazione preventiva viene effettuata con il modulo di cui all'allegato 1 della presente legge.</corpo>
-					</comma>
-					<comma id="art4-com4">
-						<num>4.</num>
-						<corpo>La comunicazione preventiva non è necessaria nel caso di interventi di geodisinfestante contro gli attacchi di nottue in considerazione del carattere di urgenza di tali interventi. L'effettuazione dell'intervento deve comunque essere comunicata all'Azienda USL competente per territorio nei successivi tre giorni.</corpo>
-					</comma>
-					<comma id="art4-com5">
-						<num>5.</num>
-						<corpo>
-							Il Consiglio regionale, entro 3 anni dall'entrata in vigore della presente legge adotta, su proposta della Giunta regionale, un atto di individuazione delle aree dove, in base al monitoraggio effettuato ai sensi del
-							<rif xlink:href="#art4-com1" xlink:type="simple">comma 1</rif>
-							, l'uso dei prodotti fitosanitari ad azione diserbante e geodisinfestante, è tale da comportare rischi di natura sanitaria e/o ambientale.
-						</corpo>
-					</comma>
-					<comma id="art4-com6">
-						<num>6.</num>
-						<corpo>
-							In seguito all'adozione dell'atto di cui al
-							<rif xlink:href="#art4-com5" xlink:type="simple">comma 5</rif>
-							, sono tenuti alla presentazione della comunicazione preventiva esclusivamente i soggetti che effettuano trattamenti nelle aree individuate dalla deliberazione del Consiglio regionale.
+							Al fine del monitoraggio di cui al comma 1 le registrazioni restano a disposizione delle aziende USL presso i soggetti utilizzatori di cui al comma 1 così come previsto dal
+							<rif xlink:href="urn:nir:presidente.repubblica:decreto:2001;290" xlink:type="simple">d.p.r. 290/2001</rif>
+							per la durata di cinque anni.
 						</corpo>
 					</comma>
 				</articolo>
@@ -539,7 +581,7 @@
 						<num>1.</num>
 						<corpo>
 							I trasgressori alle disposizioni di cui all'
-							<rif xlink:href="#art4" xlink:type="simple">art. 4</rif>
+							<rif xlink:href="#art4-t3" xlink:type="simple">art. 4</rif>
 							sono soggetti alla sanzione amministrativa del pagamento di una somma da lire 100.000 a 600.000.
 						</corpo>
 					</comma>
@@ -594,7 +636,7 @@
 						<num>1.</num>
 						<corpo>
 							La violazione alle disposizioni di cui all'
-							<rif xlink:href="#art4" xlink:type="simple">articolo 4</rif>
+							<rif xlink:href="#art4-t3" xlink:type="simple">articolo 4</rif>
 							comporta l'applicazione della sanzione amministrativa del pagamento di una somma minima di euro 52,00 e massima di euro 310,00.
 						</corpo>
 					</comma>

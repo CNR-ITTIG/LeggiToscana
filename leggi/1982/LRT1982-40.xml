@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<LeggeRegionale finevigore="t3" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19820601" num="32" tipo="BURT" />
 					<entratainvigore norm="19820616" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1982-05-22;40" />
+					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1982-05-22;40" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1982-05-22;40@2009-07-23" />
 					<materie vocabolario="Grandi voci TESEO">
 						<materia valore="Affari europei" />
 					</materie>
@@ -20,14 +21,16 @@
 					<eventi>
 						<evento data="19820616" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19900511" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="20090813" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1982-05-22;40" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1990-04-14;42" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Cifra elevata a L. 50.000 ai sensi della
 							<rif xlink:href="urn:nir:regione.toscana:legge:1990-04-14;42" xlink:type="simple">legge regionale 14 aprile 1990, n. 42</rif>
@@ -35,6 +38,22 @@
 						</h:p>
 					</nota>
 				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1982-05-22;40" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40#ann1-art2-com32" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 2, comma 32 della legge Regione Toscana 23 luglio 2009, n. 40" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -246,7 +265,7 @@
 						<num />
 						<corpo>
 							Ai componenti del Comitato provinciale per i prezzi e della Commissione consultiva provinciale, che siano estranei all'Amministrazione regionale, è dovuto un gettone di presenza di Lire 10.000
-							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 							per ogni giorno di partecipazione alle sedute del Comitato provinciale per i prezzi e della Commissione consultiva. Ai dipendenti di pubbliche amministrazioni il gettone è dovuto ove consentito dalle norme dell'Amministrazione di appartenenza.
 						</corpo>
 					</comma>

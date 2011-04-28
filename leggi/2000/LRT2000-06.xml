@@ -8,7 +8,8 @@
 					<entratainvigore norm="20000222" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2000-01-28;6" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2000-01-28;6@2001-10-31" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2000-01-28;6@2001-10-31" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:2000-01-28;6@2009-07-23" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sviluppo Economico" />
 						<materia valore="Attività Istituzionali" />
@@ -18,12 +19,30 @@
 					<eventi>
 						<evento data="20000222" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20011122" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="20090813" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2000-01-28;6" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Si veda l'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40#art69" xlink:type="simple">art. 69 della legge regionale 23 luglio 2009, n. 40</rif>
+							, il quale dispone sulla decorrenza della presente modifica.
+						</h:p>
+					</nota>
+					<nota id="n2">
+						<h:p>
+							Si veda l'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40#art69" xlink:type="simple">art. 69 della legge regionale 23 luglio 2009, n. 40</rif>
+							, il quale dispone sulla decorrenza della presente modifica.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -39,6 +58,36 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40#art66-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 66, comma 1 della legge Regione Toscana 23 luglio 2009, n. 40" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art5-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-com2-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40#art66-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 66, comma 1 della legge Regione Toscana 23 luglio 2009, n. 40" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art5-com3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-com3-t3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -197,16 +246,32 @@
 						<num>1.</num>
 						<corpo>Il Direttore rappresenta legalmente l'A.P.E.T. ed è responsabile della gestione complessiva della medesima nel rispetto degli indirizzi della Regione.</corpo>
 					</comma>
-					<comma id="art5-com2">
+					<comma finevigore="t3" id="art5-com2-t3" iniziovigore="t1" status="abrogato">
 						<num>2.</num>
 						<corpo>Il Direttore dell'A.P.E.T. è individuato, d'intesa tra la Giunta regionale, l'Unioncamere Toscana, l'I.C.E. e l'E.N.I.T., tramite avviso pubblico predisposto dalla Giunta regionale, tra soggetti di comprovata professionalità ed esperienza nell'organizzazione o amministrazione di enti o organismi pubblici o privati con competenze in materia di sviluppo economico.</corpo>
 					</comma>
-					<comma id="art5-com3">
+					<comma id="art5-com2" iniziovigore="t3">
+						<num>2.</num>
+						<corpo>
+							Il Direttore è individuato d'intesa tra il Presidente della Giunta regionale, l'Unioncamere Toscana, l'ICE e l'ENIT, tramite avviso pubblico predisposto dalla Giunta regionale pubblicato su almeno tre quotidiani a diffusione nazionale, di cui uno almeno a carattere economico e finanziario, e sul Bollettino ufficiale della Regione Toscana, tra soggetti di età non superiore ai sessantacinque anni, in possesso di idonea laurea magistrale, o equivalente, di comprovata esperienza manageriale almeno quinquennale nel settore dello sviluppo economico e della promozione economica o, in alternativa, con documentata esperienza almeno quinquennale di direzione amministrativa, tecnica o gestionale in strutture pubbliche o private operanti nel settore dello sviluppo e della promozione economica equiparabili all'Agenzia per entità di bilancio e complessità organizzativa
+							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							.
+						</corpo>
+					</comma>
+					<comma finevigore="t3" id="art5-com3-t3" iniziovigore="t1" status="abrogato">
 						<num>3.</num>
 						<corpo>
 							La Giunta regionale, conseguita l'intesa di cui al
-							<rif xlink:href="#art5-com2" xlink:type="simple">comma 2</rif>
+							<rif xlink:href="#art5-com2-t3" xlink:type="simple">comma 2</rif>
 							, procede alla nomina. Ove l'intesa non si realizzi entro novanta giorni dall'inizio della relativa procedura, la Giunta regionale provvede direttamente alla nomina.
+						</corpo>
+					</comma>
+					<comma id="art5-com3" iniziovigore="t3">
+						<num>3.</num>
+						<corpo>
+							La nomina è effettuata dal Presidente della Giunta regionale a seguito del conseguimento dell'intesa di cui al comma 2. Ove l'intesa non si realizzi entro novanta giorni dall'avvio della relativa procedura, il Presidente della Giunta regionale provvede in autonomia
+							<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+							.
 						</corpo>
 					</comma>
 					<comma id="art5-com4">
@@ -521,7 +586,7 @@
 						<num>2.</num>
 						<corpo>
 							La Giunta regionale emana l'avviso pubblico di cui all'
-							<rif xlink:href="#art5-com2" xlink:type="simple">articolo 5, comma 2</rif>
+							<rif xlink:href="#art5-com2-t3" xlink:type="simple">articolo 5, comma 2</rif>
 							, per l'individuazione del Direttore, entro sessanta giorni dall'entrata in vigore della presente legge.
 						</corpo>
 					</comma>

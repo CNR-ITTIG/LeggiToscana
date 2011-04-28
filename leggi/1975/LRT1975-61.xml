@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t6" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19750604" num="25" tipo="BURT" />
@@ -10,7 +10,8 @@
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1975-05-31;61" />
 					<urn finevigore="t4" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1975-05-31;61@1980-01-28" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1975-05-31;61@1982-04-13" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1975-05-31;61@1985-01-28" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1975-05-31;61@1985-01-28" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1975-05-31;61@2009-07-23" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -19,6 +20,7 @@
 						<evento data="19811216" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="19820420" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="19850221" fonte="rp4" id="t5" tipo="modifica" />
+						<evento data="20090813" fonte="rp5" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1975-05-31;61" xlink:type="simple" />
@@ -26,6 +28,7 @@
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1980-01-28;11" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1982-04-13;32" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1985-01-28;9" xlink:type="simple" />
+						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -198,6 +201,18 @@
 								<dsp:pos xlink:href="#art2-com1-lety" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1975-05-31;61" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40#ann1-art6-com50" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 6, comma 50 della legge Regione Toscana 23 luglio 2009, n. 40" id="itt13" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -232,8 +247,7 @@
 				</articolo>
 				<articolo id="art1" iniziovigore="t2">
 					<num>Art. 1</num>
-					<comma finevigore="t4" id="art1-com1-t4" iniziovigore="t2
-" status="abrogato">
+					<comma finevigore="t4" id="art1-com1-t4" iniziovigore="t2" status="abrogato">
 						<num />
 						<corpo>E' costituita la Consulta regionale toscana dei beni e delle attività culturali. La Consulta regionale dei beni e delle attività culturali è l'organo consultivo del Consiglio e della Giunta regionale toscana per l'esercizio delle funzioni legislative ed amministrative di competenza regionale, nonchè di quelle delegate relative al patrimonio e agli istituti culturali della Regione.</corpo>
 					</comma>

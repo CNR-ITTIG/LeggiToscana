@@ -1,22 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20080528" num="16" tipo="BURT" />
 					<entratainvigore norm="20080612" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2008-05-21;28" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2008-05-21;28" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2008-05-21;28@2009-07-23" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="20080612" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20090813" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2008-05-21;28" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Si veda l'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40#art69" xlink:type="simple">art. 69 della legge regionale 23 luglio 2009, n. 40</rif>
+							, il quale dispone sulla decorrenza della presente modifica.
+						</h:p>
+					</nota>
+				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40#art68-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 68, comma 1 della legge Regione Toscana 23 luglio 2009, n. 40" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40#art68-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 68, comma 2 della legge Regione Toscana 23 luglio 2009, n. 40" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6-com3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art6-com3-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -175,11 +218,20 @@
 							Il Presidente della Giunta regionale nomina e revoca l'amministratore unico con funzioni di direzione della società, con le modalità di cui all'
 							<rif xlink:href="urn:nir:regione.toscana:legge:2008-02-08;5#art4" xlink:type="simple">articolo 4 della legge regionale 8 febbraio 2008, n. 5</rif>
 							(Norme in materia di nomine e designazioni e di rinnovo degli organi amministrativi di competenza della Regione).
+							<h:span id="h1" iniziovigore="t2">
+								L'amministratore è nominato tra soggetti di età non superiore ai sessantacinque anni, in possesso di idonea laurea magistrale, o equivalente, e di comprovata esperienza manageriale almeno quinquennale o, in alternativa, con documentata esperienza almeno quinquennale di direzione amministrativa, tecnica o gestionale in strutture pubbliche o private equiparabili alla Società per entità di bilancio e complessità organizzativa
+								<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+								.
+							</h:span>
 						</corpo>
 					</comma>
-					<comma id="art6-com3">
+					<comma finevigore="t2" id="art6-com3-t2" iniziovigore="t1" status="abrogato">
 						<num>3.</num>
 						<corpo>Il compenso annuale lordo, omnicomprensivo, spettante all'amministratore unico con funzioni di direzione, non può essere superiore al 50 per cento dell'indennità spettante al Presidente della Giunta regionale.</corpo>
+					</comma>
+					<comma id="art6-com3" iniziovigore="t2">
+						<num>3.</num>
+						<corpo>Il compenso annuale lordo, omnicomprensivo, spettante all'amministratore unico con funzioni di direzione, è determinato nel 50 per cento dell'indennità spettante al Presidente della Giunta regionale.</corpo>
 					</comma>
 					<comma id="art6-com4">
 						<num>4.</num>

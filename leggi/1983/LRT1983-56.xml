@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t10" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19830727" num="36" tipo="BURT" />
@@ -11,7 +11,8 @@
 					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1983-07-19;56@1987-03-02" />
 					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1983-07-19;56@1988-03-02" />
 					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1983-07-19;56@1988-12-17" />
-					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1983-07-19;56@1992-09-02" />
+					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1983-07-19;56@1992-09-02" />
+					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1983-07-19;56@2009-07-23" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Pubbliche Calamità" />
 						<materia valore="Agricoltura" />
@@ -28,6 +29,7 @@
 						<evento data="19880326" fonte="rp2" id="t7" tipo="modifica" />
 						<evento data="19890106" fonte="rp3" id="t8" tipo="modifica" />
 						<evento data="19920926" fonte="rp4" id="t9" tipo="modifica" />
+						<evento data="20090813" fonte="rp5" id="t10" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1983-07-19;56" xlink:type="simple" />
@@ -39,6 +41,7 @@
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1988-03-02;14" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1988-12-17;89" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1992-09-02;45" xlink:type="simple" />
+						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -213,6 +216,18 @@
 								<dsp:pos xlink:href="#h3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1983-07-19;56" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40#ann1-art1-com13" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 1, comma 13 della legge Regione Toscana 23 luglio 2009, n. 40" id="itt9" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>

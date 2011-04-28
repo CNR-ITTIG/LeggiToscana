@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t20" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19970414" num="17" tipo="BURT" />
 					<entratainvigore norm="19970429" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t18" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1997-04-04;25" />
-					<urn iniziovigore="t18" valore="urn:nir:regione.toscana:legge:1997-04-04;25@1997-11-27" />
+					<urn finevigore="t20" iniziovigore="t18" valore="urn:nir:regione.toscana:legge:1997-04-04;25@1997-11-27" />
+					<urn iniziovigore="t20" valore="urn:nir:regione.toscana:legge:1997-04-04;25@2009-07-23" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Urbanistica" />
 						<materia valore="Agricoltura" />
@@ -35,6 +36,7 @@
 						<evento data="19970429" fonte="ra16" id="t17" tipo="modifica" />
 						<evento data="19971205" fonte="rp1" id="t18" tipo="modifica" />
 						<evento data="19971205" fonte="ra17" id="t19" tipo="modifica" />
+						<evento data="20090813" fonte="rp2" id="t20" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1997-04-04;25" xlink:type="simple" />
@@ -56,6 +58,7 @@
 						<attiva id="ra16" xlink:href="urn:nir:regione.toscana:legge:1994;76" xlink:type="simple" />
 						<attiva id="ra17" xlink:href="urn:nir:regione.toscana:legge:1995;64" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1997-11-27;88" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -362,6 +365,18 @@
 								<dsp:pos xlink:href="#h1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1997-04-04;25" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40#ann1-art1-com20" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 1, comma 20 della legge Regione Toscana 23 luglio 2009, n. 40" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -386,7 +401,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>
 						MODIFICHE E INTEGRAZIONI ALLA
@@ -1159,7 +1174,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>
 						MODIFICHE ALLA
