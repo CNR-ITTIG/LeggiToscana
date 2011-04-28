@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t8" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19960701" num="36" tipo="BURT" />
@@ -11,7 +11,8 @@
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1996-06-27;46@1996-08-08" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1996-06-27;46@1996-11-14" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1996-06-27;46@1997-06-05" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1996-06-27;46@1997-08-11" />
+					<urn finevigore="t8" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1996-06-27;46@1997-08-11" />
+					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1996-06-27;46@2009-07-23" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Pubbliche Calamità" />
 						<materia valore="Finanziamenti" />
@@ -26,6 +27,7 @@
 						<evento data="19970821" fonte="rp4" id="t5" tipo="modifica" />
 						<evento data="19970821" fonte="rp5" id="t6" tipo="modifica" />
 						<evento data="19980202" fonte="rp6" id="t7" tipo="modifica" />
+						<evento data="20090813" fonte="rp7" id="t8" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1996-06-27;46" xlink:type="simple" />
@@ -35,6 +37,7 @@
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1997-08-11;64" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1997-08-11;64" xlink:type="simple" />
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:1997-08-11;64" xlink:type="simple" />
+						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -183,6 +186,18 @@
 								<dsp:pos xlink:href="#art3ter" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1996-06-27;46" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40#ann1-art13-com181" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 13, comma 181 della legge Regione Toscana 23 luglio 2009, n. 40" id="itt12" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -285,11 +300,11 @@
 				</articolo>
 				<articolo id="art3ter" iniziovigore="t7">
 					<num>Art. 3 ter</num>
-										<rubrica>(Interventi straordinari per la frazione di Fornovolasco)</rubrica>
-										<comma id="mod3-vir1-art3ter-com1">
-											<num>1.</num>
-											<corpo>Le disposizioni di cui ai comma 1, 2, 3. 4, 5 dell'art. 2 bis si applicano anche nel comune di Vergemoli, frazione di Fornovolasco.</corpo>
-										</comma>
+					<rubrica>(Interventi straordinari per la frazione di Fornovolasco)</rubrica>
+					<comma id="art3ter-com1">
+						<num>1.</num>
+						<corpo>Le disposizioni di cui ai comma 1, 2, 3. 4, 5 dell'art. 2 bis si applicano anche nel comune di Vergemoli, frazione di Fornovolasco.</corpo>
+					</comma>
 				</articolo>
 				<articolo id="art4">
 					<num>ARTICOLO 4</num>
@@ -353,8 +368,7 @@
 						<num>1.</num>
 						<corpo>
 							La documentazione prevista ai fini dell'erogazione dei contributi in conto interessi di cui all'art. 4, comprendente, tra l'altro, l'attestazione dell'erogazione del finanziamento da parte della banca e del completamento dell'investimento da parte dei soggetti beneficiari, deve pervenire alla Fidi Toscana SpA entro il termine perentorio del
-							<h:span finevigore="t5" id="h6" iniziovigore="t4
-" status="abrogato">15 luglio 1997</h:span>
+							<h:span finevigore="t5" id="h6" iniziovigore="t4" status="abrogato">15 luglio 1997</h:span>
 							<h:span id="h7" iniziovigore="t5">31 ottobre 1997</h:span>
 							.
 						</corpo>

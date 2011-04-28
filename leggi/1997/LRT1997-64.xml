@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t7" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19970821" num="33" tipo="BURT" />
 					<entratainvigore norm="19970821" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t4" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1997-08-11;64" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1997-08-11;64@1998-01-23" />
+					<urn finevigore="t7" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1997-08-11;64@1998-01-23" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1997-08-11;64@2009-07-23" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Pubbliche Calamità" />
 						<materia valore="Finanziamenti" />
@@ -22,6 +23,7 @@
 						<evento data="19980202" fonte="rp1" id="t4" tipo="modifica" />
 						<evento data="19980202" fonte="ra3" id="t5" tipo="modifica" />
 						<evento data="19980202" fonte="ra4" id="t6" tipo="modifica" />
+						<evento data="20090813" fonte="rp2" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1997-08-11;64" xlink:type="simple" />
@@ -30,6 +32,7 @@
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1996-06-27;46" xlink:type="simple" />
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1996-06-27;46" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1998-01-23;6" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -118,6 +121,18 @@
 								<dsp:pos xlink:href="#mod1-vir1-art3ter" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1997-08-11;64" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40#ann1-art13-com184" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 13, comma 184 della legge Regione Toscana 23 luglio 2009, n. 40" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>

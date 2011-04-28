@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t7" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19930813" num="50" tipo="BURT" />
@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t4" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1993-08-05;47" />
 					<urn finevigore="t6" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1993-08-05;47@1994-07-29" />
-					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1993-08-05;47@2002-04-02" />
+					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1993-08-05;47@2002-04-02" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1993-08-05;47@2009-07-23" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Trasporti" />
 						<materia valore="Finanziamenti" />
@@ -24,6 +25,7 @@
 						<evento data="19940818" fonte="rp1" id="t4" tipo="modifica" />
 						<evento data="19940818" fonte="ra3" id="t5" tipo="modifica" />
 						<evento data="20020427" fonte="rp2" id="t6" tipo="modifica" />
+						<evento data="20090813" fonte="rp3" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1993-08-05;47" xlink:type="simple" />
@@ -32,6 +34,7 @@
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1983-05-18;33" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1994-07-29;58" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -178,7 +181,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2002-04-02;11#ann1-art15-com615" xlink:type="simple" />
 								<dsp:subarg>
@@ -199,6 +202,18 @@
 							</dsp:norma>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art7-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1993-08-05;47" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40#ann1-art14-com197" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 14, comma 197 della legge Regione Toscana 23 luglio 2009, n. 40" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>

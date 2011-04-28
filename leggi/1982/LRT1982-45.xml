@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t3" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19820608" num="33" tipo="BURT" />
 					<entratainvigore norm="19820623" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1982-05-29;45" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1982-05-29;45@1986-09-02" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1982-05-29;45@1986-09-02" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1982-05-29;45@2009-07-23" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="ORGANI" />
 						<materia valore="ENTI SANITARI" />
@@ -19,10 +20,12 @@
 					<eventi>
 						<evento data="19820623" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19860926" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="20090813" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1982-05-29;45" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1986-09-02;46" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -37,6 +40,18 @@
 							</dsp:norma>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art11-com7-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1982-05-29;45" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40#ann1-art10-com121" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 10, comma 121 della legge Regione Toscana 23 luglio 2009, n. 40" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>

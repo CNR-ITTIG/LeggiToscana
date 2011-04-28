@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t14" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19960409" num="20 ter" tipo="BURT" />
@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t12" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1996-03-28;26" />
 					<urn finevigore="t13" iniziovigore="t12" valore="urn:nir:regione.toscana:legge:1996-03-28;26@1997-08-11" />
-					<urn iniziovigore="t13" valore="urn:nir:regione.toscana:legge:1996-03-28;26@2005-01-03" />
+					<urn finevigore="t14" iniziovigore="t13" valore="urn:nir:regione.toscana:legge:1996-03-28;26@2005-01-03" />
+					<urn iniziovigore="t14" valore="urn:nir:regione.toscana:legge:1996-03-28;26@2009-07-23" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tutela Ambientale" />
 						<materia valore="Pesca" />
@@ -31,6 +32,7 @@
 						<evento data="19970101" fonte="ra10" id="t11" tipo="modifica" />
 						<evento data="19970821" fonte="rp1" id="t12" tipo="modifica" />
 						<evento data="20050908" fonte="rp2" id="t13" tipo="modifica" />
+						<evento data="20090813" fonte="rp3" id="t14" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1996-03-28;26" xlink:type="simple" />
@@ -46,10 +48,11 @@
 						<attiva id="ra10" xlink:href="urn:nir:regione.toscana:legge:1984;25" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1997-08-11;63" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2005-01-03;7" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Articolo abrogato dall'
 							<rif xlink:href="urn:nir:regione.toscana:legge:2005-01-03;7#art24" xlink:type="simple">art. 24, della legge regionale 3 gennaio 2005, n. 7</rif>
@@ -216,6 +219,18 @@
 								<dsp:pos xlink:href="#art12bis-t13" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1996-03-28;26" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40#ann1-art12-com170" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 12, comma 170 della legge Regione Toscana 23 luglio 2009, n. 40" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -238,7 +253,7 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>Titolo I</num>
 					<rubrica>SCIOGLIMENTO DEL CRIP</rubrica>
 					<articolo id="art1">
@@ -310,7 +325,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>Titolo II</num>
 					<rubrica>CONTROLLI AMBIENTALI E FITOSANITARI</rubrica>
 					<articolo id="art5">
@@ -455,7 +470,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>Titolo III</num>
 					<rubrica>DISPOSIZIONI PER IL TRASFERIMENTO DEL PERSONALE</rubrica>
 					<articolo id="art7">
@@ -685,7 +700,7 @@
 					<articolo finevigore="t13" id="art12bis-t13" iniziovigore="t1" status="abrogato">
 						<num>
 							ARTICOLO 12/bis
-							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 						</num>
 						<rubrica>
 							(Modifica alla

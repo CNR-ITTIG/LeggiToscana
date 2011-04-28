@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t9" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20010202" num="4" tipo="BURT" />
@@ -11,7 +11,8 @@
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2001-01-26;3@2001-04-18" />
 					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2001-01-26;3@2001-08-16" />
 					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:2001-01-26;3@2002-07-05" />
-					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:2001-01-26;3@2002-07-26" />
+					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:2001-01-26;3@2002-07-26" />
+					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:2001-01-26;3@2009-07-23" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Bilancio" />
@@ -27,6 +28,7 @@
 						<evento data="20010827" fonte="rp2" id="t6" tipo="modifica" />
 						<evento data="20020730" fonte="rp3" id="t7" tipo="modifica" />
 						<evento data="20030902" fonte="rp4" id="t8" tipo="modifica" />
+						<evento data="20090813" fonte="rp5" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2001-01-26;3" xlink:type="simple" />
@@ -37,10 +39,11 @@
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2001-08-16;42" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2002-07-05;25" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32" xlink:type="simple" />
+						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
-					<nota id="n1">
+					<nota id="LeggeRegionale1-n1">
 						<h:p>
 							Articolo abrogato dall'
 							<rif xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32#art33-com1-letn" xlink:type="simple">art. 33, comma 1 lettera n), della legge regionale 26 luglio 2002, n. 32</rif>
@@ -143,6 +146,18 @@
 							</dsp:norma>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art11-t8" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:2001-01-26;3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40#ann1-art8-com91" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 8, comma 91 della legge Regione Toscana 23 luglio 2009, n. 40" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>
@@ -412,7 +427,7 @@
 				<articolo finevigore="t8" id="art11-t8" iniziovigore="t1" status="abrogato">
 					<num>
 						ARTICOLO 11
-						<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+						<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
 					</num>
 					<rubrica>(Benefici per il personale delle Aziende Regionali per il diritto allo studio universitario)</rubrica>
 					<comma id="art11-t8-com1">
