@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t21" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19990305" num="6" tipo="BURT" />
@@ -13,7 +13,8 @@
 					<urn finevigore="t18" iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1999-02-23;8@2003-07-08" />
 					<urn finevigore="t19" iniziovigore="t18" valore="urn:nir:regione.toscana:legge:1999-02-23;8@2004-10-22" />
 					<urn finevigore="t20" iniziovigore="t19" valore="urn:nir:regione.toscana:legge:1999-02-23;8@2007-11-12" />
-					<urn iniziovigore="t20" valore="urn:nir:regione.toscana:legge:1999-02-23;8@2008-10-24" />
+					<urn finevigore="t21" iniziovigore="t20" valore="urn:nir:regione.toscana:legge:1999-02-23;8@2008-10-24" />
+					<urn iniziovigore="t21" valore="urn:nir:regione.toscana:legge:1999-02-23;8@2009-08-05" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Enti Sanitari" />
 					</materie>
@@ -40,6 +41,7 @@
 						<evento data="20041117" fonte="rp4" id="t18" tipo="modifica" />
 						<evento data="20071206" fonte="rp5" id="t19" tipo="modifica" />
 						<evento data="20081115" fonte="rp6" id="t20" tipo="modifica" />
+						<evento data="20101229" fonte="rp7" id="t21" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1999-02-23;8" xlink:type="simple" />
@@ -62,8 +64,18 @@
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2004-10-22;58" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2007-11-12;56" xlink:type="simple" />
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2008-10-24;56" xlink:type="simple" />
+						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:2009-08-05;51" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="LeggeRegionale1-n1">
+						<h:p>
+							Testo di legge abrogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2009-08-05;51#art52-com1-leta" xlink:type="simple">art. 52, comma 1, lettera a), della legge regionale 5 agosto 2009, n. 51</rif>
+							con decorrenza fissata alla data di entrata in vigore del regolamento previsto dall'art. 48, della stessa legge abrogante. Detto regolamento, approvato con D.P.G.R. 24 dicembre 2010, n. 61/R, è stato pubblicato su BURT 28 dicembre 2010, n. 52 parte prima.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:abrogazione completa="si" implicita="no">
@@ -1217,6 +1229,18 @@
 								<dsp:pos xlink:href="#art19-com5ter" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1999-02-23;8" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-08-05;51" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-08-05;51#art52-com1-leta" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 52, comma 1, lettera a) della legge Regione Toscana 5 agosto 2009, n. 51" id="itt72" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -1226,7 +1250,11 @@
 				<dataDoc norm="19990223">23 febbraio 1999</dataDoc>
 				, n.
 				<numDoc>8</numDoc>
-				<titoloDoc>Norme in materia di requisiti strutturali, tecnologici ed organizzativi delle strutture sanitarie: autorizzazione e procedura di accreditamento.</titoloDoc>
+				<titoloDoc>
+					Norme in materia di requisiti strutturali, tecnologici ed organizzativi delle strutture sanitarie: autorizzazione e procedura di accreditamento
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
+					.
+				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 19-1-1999</h:p>
@@ -1296,7 +1324,7 @@
 						</el>
 					</comma>
 				</articolo>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>Titolo I</num>
 					<rubrica>REQUISITI PER L'ESERCIZIO DELLE ATTIVITÀ SANITARIE</rubrica>
 					<articolo id="art2">
@@ -1400,7 +1428,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>Titolo II</num>
 					<rubrica>AUTORIZZAZIONE</rubrica>
 					<articolo finevigore="t11" id="art4-t11" iniziovigore="t1" status="abrogato">
@@ -2592,7 +2620,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>Titolo III</num>
 					<rubrica>ACCREDITAMENTO</rubrica>
 					<articolo id="art18">
@@ -2837,7 +2865,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit4">
+				<titolo id="LeggeRegionale1-tit4">
 					<num>Titolo IV</num>
 					<rubrica>NORME FINALI</rubrica>
 					<articolo finevigore="t11" id="art20-t11" iniziovigore="t1" status="abrogato">

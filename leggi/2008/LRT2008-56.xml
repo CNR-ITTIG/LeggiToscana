@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20081031" num="35" tipo="BURT" />
 					<entratainvigore norm="20081115" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2008-10-24;56" />
+					<urn finevigore="t31" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2008-10-24;56" />
+					<urn iniziovigore="t31" valore="urn:nir:regione.toscana:legge:2008-10-24;56@2009-08-05" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -41,6 +42,7 @@
 						<evento data="20081115" fonte="ra27" id="t28" tipo="modifica" />
 						<evento data="20081115" fonte="ra28" id="t29" tipo="modifica" />
 						<evento data="20081115" fonte="ra29" id="t30" tipo="modifica" />
+						<evento data="20101229" fonte="rp1" id="t31" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2008-10-24;56" xlink:type="simple" />
@@ -73,8 +75,18 @@
 						<attiva id="ra27" xlink:href="urn:nir:regione.toscana:legge:2001-08-16;39" xlink:type="simple" />
 						<attiva id="ra28" xlink:href="urn:nir:regione.toscana:legge:2007;9" xlink:type="simple" />
 						<attiva id="ra29" xlink:href="urn:nir:regione.toscana:legge:2007;9" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2009-08-05;51" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Articolo abrogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2009-08-05;51#art52-com1-letg" xlink:type="simple">art. 52, comma 1, lettera g), della legge regionale 5 agosto 2009, n. 51</rif>
+							con decorrenza fissata alla data di entrata in vigore del regolamento previsto dall'art. 48, della stessa legge abrogante. Detto regolamento, approvato con D.P.G.R. 24 dicembre 2010, n. 61/R, è stato pubblicato su BURT 28 dicembre 2010, n. 52 parte prima.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:integrazione completa="si" implicita="no">
@@ -1013,6 +1025,20 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art25" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-08-05;51" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-08-05;51#art52-com1-letg" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 52, comma 1, lettera g) della legge Regione Toscana 5 agosto 2009, n. 51" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art25-t31" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -1822,13 +1848,16 @@
 							</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art25">
-						<num>Art. 25</num>
+					<articolo finevigore="t31" id="art25-t31" iniziovigore="t1" status="abrogato">
+						<num>
+							Art. 25
+							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+						</num>
 						<rubrica>
 							Modifiche all'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1999;8#art19" xlink:type="simple">articolo 19 della l.r. 8/1999</rif>
 						</rubrica>
-						<comma id="art25-com1">
+						<comma id="art25-t31-com1">
 							<num>1.</num>
 							<corpo>
 								<mod id="mod35">
@@ -1842,7 +1871,7 @@
 								</mod>
 							</corpo>
 						</comma>
-						<comma id="art25-com2">
+						<comma id="art25-t31-com2">
 							<num>2.</num>
 							<corpo>
 								<mod id="mod36">
