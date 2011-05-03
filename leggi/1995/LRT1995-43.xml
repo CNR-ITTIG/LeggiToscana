@@ -11,7 +11,8 @@
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1995-04-08;43@1998-12-04" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1995-04-08;43@2002-11-22" />
 					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1995-04-08;43@2004-02-09" />
-					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1995-04-08;43@2006-05-30" />
+					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1995-04-08;43@2006-05-30" />
+					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1995-04-08;43@2009-10-20" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Fauna" />
 					</materie>
@@ -25,6 +26,7 @@
 						<evento data="20021217" fonte="rp2" id="t5" tipo="modifica" />
 						<evento data="20040219" fonte="rp3" id="t6" tipo="modifica" />
 						<evento data="20060622" fonte="rp4" id="t7" tipo="modifica" />
+						<evento data="20091110" fonte="rp5" id="t8" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-04-08;43" xlink:type="simple" />
@@ -34,8 +36,20 @@
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2002-11-22;41" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2004-02-09;10" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2006-05-30;19" xlink:type="simple" />
+						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2009-10-20;59" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							La presente leggeviene abrogata dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2009-10-20;59#art43-com1" xlink:type="simple">art. 43, comma 1, della legge regionale 20 ottobre 2009, n.59</rif>
+							, a decorrere dalla data di entrata in vigore del regolamento di attuazione di cui all'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2009-10-20;59#art41" xlink:type="simple">art. 41 della stessa</rif>
+							.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:abrogazione completa="si" implicita="no">
@@ -481,6 +495,15 @@
 								<dsp:pos xlink:href="#art19-com4bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:termine da="#t8" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-10-20;59" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-10-20;59#mod1" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:variazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -490,7 +513,11 @@
 				<dataDoc norm="19950408">8 aprile 1995</dataDoc>
 				, n.
 				<numDoc>43</numDoc>
-				<titoloDoc>Norme per la gestione dell'anagrafe del cane, la tutela degli animali d'affezione e la prevenzione del randagismo.</titoloDoc>
+				<titoloDoc>
+					Norme per la gestione dell'anagrafe del cane, la tutela degli animali d'affezione e la prevenzione del randagismo
+					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					.
+				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 28-2-1995</h:p>
@@ -619,8 +646,7 @@
 					<comma id="art3-com3">
 						<num>3.</num>
 						<corpo>
-							<h:span finevigore="t6" id="h2" iniziovigore="t5
-" status="abrogato">La Giunta regionale, entro novanta giorni dalla vigenza della legge, emana un regolamento dove sono definite</h:span>
+							<h:span finevigore="t6" id="h2" iniziovigore="t5" status="abrogato">La Giunta regionale, entro novanta giorni dalla vigenza della legge, emana un regolamento dove sono definite</h:span>
 							<h:span id="h3" iniziovigore="t6">Il regolamento definisce</h:span>
 							le caratteristiche e le modalità d'acquisizione dei microchip, le procedure di anagrafe canina, le eventuali eccezioni per determinate razze al rispetto del termine per l'identificazione, le modalità di costituzione della banca dati regionale canina.
 						</corpo>
