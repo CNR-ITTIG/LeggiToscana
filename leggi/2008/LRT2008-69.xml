@@ -8,7 +8,8 @@
 					<entratainvigore norm="20090101" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t6" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2008-12-24;69" />
-					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2008-12-24;69@2009-03-27" />
+					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2008-12-24;69@2009-03-27" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:2008-12-24;69@2009-07-31" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -18,6 +19,9 @@
 						<evento data="20090101" fonte="ra3" id="t4" tipo="modifica" />
 						<evento data="20090101" fonte="ra4" id="t5" tipo="modifica" />
 						<evento data="20090402" fonte="rp1" id="t6" tipo="modifica" />
+						<evento data="20090806" fonte="rp2" id="t7" tipo="modifica" />
+						<evento data="20090101" fonte="ra5" id="t8" tipo="modifica" />
+						<evento data="20090806" fonte="ra6" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2008-12-24;69" xlink:type="simple" />
@@ -25,7 +29,10 @@
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:2000;32" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:2006-08-02;43" xlink:type="simple" />
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:2001-01-26;2" xlink:type="simple" />
+						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:2001-01-26;2" xlink:type="simple" />
+						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:2006-11-02;52" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2009-03-27;12" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -65,7 +72,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:integrazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#mod4" xlink:type="simple" />
+							<dsp:pos xlink:href="#mod5" xlink:type="simple" />
 							<dsp:termine da="#t4" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2006-08-02;43" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2006-08-02;43#art6-com4" xlink:type="simple" />
@@ -76,7 +83,7 @@
 								</dsp:pos>
 							</dsp:posizione>
 							<dsp:novella>
-								<dsp:pos xlink:href="#mod4-vir1" xlink:type="simple" />
+								<dsp:pos xlink:href="#mod5-vir1" xlink:type="simple" />
 								<dsp:subarg>
 									<ittig:tipo valore="parole" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
 								</dsp:subarg>
@@ -84,7 +91,7 @@
 						</dsp:integrazione>
 						<dsp:integrazione completa="si" implicita="no">
 							<dsp:pos xlink:href="#mod3" xlink:type="simple" />
-							<dsp:termine da="#t5" />
+							<dsp:termine da="#t8" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-01-26;2" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-01-26;2#art2" xlink:type="simple" />
 							</dsp:norma>
@@ -95,6 +102,24 @@
 								</dsp:subarg>
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#mod4" xlink:type="simple" />
+							<dsp:termine da="#t9" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2006-11-02;52" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2006-11-02;52#art1ter-com1-letb" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#mod4-vir1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:tipo valore="lettera" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:subarg>
+									<ittig:tipo valore="lettera" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modificheattive>
 					<modifichepassive>
 						<dsp:integrazione completa="si" implicita="no">
@@ -190,7 +215,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#con3" xlink:type="simple" />
+								<dsp:pos xlink:href="#con3-t7" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#con2-t6" xlink:type="simple" />
@@ -205,10 +230,10 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#con10" xlink:type="simple" />
+								<dsp:pos xlink:href="#con13-t7" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#con9-t6" xlink:type="simple" />
+								<dsp:pos xlink:href="#con12-t6" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -220,10 +245,10 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#con12" xlink:type="simple" />
+								<dsp:pos xlink:href="#con16-t7" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#con11-t6" xlink:type="simple" />
+								<dsp:pos xlink:href="#con15-t6" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:integrazione completa="si" implicita="no">
@@ -235,7 +260,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#con20" xlink:type="simple" />
+								<dsp:pos xlink:href="#con30" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:integrazione completa="si" implicita="no">
@@ -250,6 +275,366 @@
 								<dsp:pos xlink:href="#ann2" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#tit1-cap2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 31 luglio 2009, n. 44" id="itt13" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#tit1-capiibis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 31 luglio 2009, n. 44" id="itt14" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 31 luglio 2009, n. 44" id="itt15" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art5" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44#art4-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1 della legge Regione Toscana 31 luglio 2009, n. 44" id="itt16" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#tit1-cap3bis" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44#art5-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 5, comma 1 della legge Regione Toscana 31 luglio 2009, n. 44" id="itt17" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#tit3-capiiiter" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7ter" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44#art6-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 6, comma 1 della legge Regione Toscana 31 luglio 2009, n. 44" id="itt18" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art7quater" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#tit3-cap5" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44#art7-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 7, comma 1 della legge Regione Toscana 31 luglio 2009, n. 44" id="itt19" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#tit3-capbis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44#art8-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 8, comma 1 della legge Regione Toscana 31 luglio 2009, n. 44" id="itt20" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art9bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9bis" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44#art9-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 9, comma 1 della legge Regione Toscana 31 luglio 2009, n. 44" id="itt21" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art9ter" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#tit3-cap5bis" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44#art10-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 10, comma 1 della legge Regione Toscana 31 luglio 2009, n. 44" id="itt22" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#tit3-capvter" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9ter" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44#art11-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 11, comma 1 della legge Regione Toscana 31 luglio 2009, n. 44" id="itt23" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art9quater" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#tit3-cap5ter" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44#art12-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 12, comma 1 della legge Regione Toscana 31 luglio 2009, n. 44" id="itt24" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#tit3-capvquater" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9quater" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44#art13-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 13, comma 1 della legge Regione Toscana 31 luglio 2009, n. 44" id="itt25" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art9quinquies" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#tit3-cap5quater" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44#art14-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 14, comma 1 della legge Regione Toscana 31 luglio 2009, n. 44" id="itt26" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#tit3-capvquinquies" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9quinquies" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44#art15-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 15, comma 1 della legge Regione Toscana 31 luglio 2009, n. 44" id="itt27" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art9sexies" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#tit3-cap5quinquies" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44#art16-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 16, comma 1 della legge Regione Toscana 31 luglio 2009, n. 44" id="itt28" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#tit3-capvsexies" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9sexies" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44#art17-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 17, comma 1 della legge Regione Toscana 31 luglio 2009, n. 44" id="itt29" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art9septies" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#??" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44#art18" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo18, legge Regione Toscana 31 luglio 2009, n. 44" id="itt30" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#con4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#con3-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#??" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44#art18" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo18, legge Regione Toscana 31 luglio 2009, n. 44" id="itt31" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#con6" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#con5-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#??" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44#art18" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo18, legge Regione Toscana 31 luglio 2009, n. 44" id="itt32" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#con10" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#con9-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#??" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44#art18" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo18, legge Regione Toscana 31 luglio 2009, n. 44" id="itt33" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#con14" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#con13-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#??" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44#art18" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo18, legge Regione Toscana 31 luglio 2009, n. 44" id="itt34" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#con17" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#con16-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#??" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44#art18" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo18, legge Regione Toscana 31 luglio 2009, n. 44" id="itt35" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#con19" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#con18-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#??" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44#art18" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo18, legge Regione Toscana 31 luglio 2009, n. 44" id="itt36" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#con22" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#con21-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#??" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44#art18" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo18, legge Regione Toscana 31 luglio 2009, n. 44" id="itt37" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#con24" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#con23-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#??" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44#art18" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo18, legge Regione Toscana 31 luglio 2009, n. 44" id="itt38" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#con26" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#con25-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#??" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44#art18" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo18, legge Regione Toscana 31 luglio 2009, n. 44" id="itt39" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#con28" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#con27-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -383,6 +768,41 @@
 							</comma>
 						</articolo>
 					</capo>
+					<capo id="tit1-capiibis" iniziovigore="t7">
+						<num>Capo II bis</num>
+						<rubrica>
+							Modifiche alla
+							<rif xlink:href="urn:nir:regione.toscana:legge:2006-11-02;52" xlink:type="simple">legge regionale 2 novembre 2006, n. 52</rif>
+							(Determinazione dell'importo della tassa automobilistica regionale a decorrere dal 1° gennaio 2007)
+						</rubrica>
+						<articolo id="art3bis" iniziovigore="t7">
+							<num>Art. 3 bis</num>
+							<rubrica>
+								Modifiche all'
+								<rif xlink:href="urn:nir:regione.toscana:legge:2006;52#art1ter" xlink:type="simple">articolo 1 ter della l.r. 52/2006</rif>
+							</rubrica>
+							<comma id="art3bis-com1">
+								<num>1.</num>
+								<corpo>
+									<mod id="mod4">
+										La
+										<rif xlink:href="urn:nir:regione.toscana:legge:2006-11-02;52#art1ter-com1-letb" xlink:type="simple">lettera b) del comma 1 dell'articolo 1 ter della legge regionale 2 novembre 2006, n. 52</rif>
+										(Determinazione dell'importo della tassa automobilistica regionale a decorrere dal 1° gennaio 2007), è sostituita dalla seguente: "
+										<virgolette id="mod4-vir1" tipo="struttura">
+											<el id="mod4-vir1-letb">
+												<num>b)</num>
+												<corpo>
+													per cinque annualità successive i veicoli immatricolati entro il 31 dicembre 2008, conformi alla
+													<rif xlink:href="urn:nir:comunita.europee:direttiva:1994-03-23;94-12-ce" xlink:type="simple">direttiva 94/12/CE del Parlamento europeo e del Consiglio del 23 marzo 1994</rif>
+													, appartenenti alle categorie internazionali M1 e N1, su cui sia installato un sistema di alimentazione a GPL o a metano, collaudato nel 2009.
+												</corpo>
+											</el>
+										</virgolette>
+									</mod>
+								</corpo>
+							</comma>
+						</articolo>
+					</capo>
 				</titolo>
 				<titolo id="tit2">
 					<num>Titolo II</num>
@@ -410,10 +830,10 @@
 					<capo id="tit3-cap1">
 						<num>Capo I</num>
 						<rubrica>Misure a sostegno dell'innovazione e della riorganizzazione amministrativa</rubrica>
-						<articolo id="art5">
+						<articolo finevigore="t7" id="art5-t7" iniziovigore="t1" status="abrogato">
 							<num>Art. 5</num>
 							<rubrica>Finanziamento dei processi di innovazione e di riorganizzazione della struttura regionale</rubrica>
-							<comma id="art5-com1">
+							<comma id="art5-t7-com1">
 								<num>1.</num>
 								<corpo>
 									Al fine di favorire l'avanzamento dei processi di innovazione e di riorganizzazione della struttura regionale e di valorizzare le professionalità del personale nel quadro del mutato assetto istituzionale e dell'avvio del processo di attuazione dell'autonomia consiliare ai sensi della
@@ -421,13 +841,43 @@
 									(Autonomia dell'Assemblea legislativa regionale), le risorse destinate a finanziarie gli istituti di cui all'articolo 31, comma 2, del contratto collettivo nazionale di lavoro 22 gennaio 2004 (CCNL del personale del comparto delle regioni e delle autonomie locali per il quadriennio normativo 2002-2005 ed il biennio economico 2002-2003), sono incrementate di euro 130.000,00 al netto degli oneri riflessi, a decorrere dall'annualità 2009.
 								</corpo>
 							</comma>
-							<comma id="art5-com2">
+							<comma id="art5-t7-com2">
 								<num>2.</num>
 								<corpo>
 									All'onere di spesa di cui al
-									<rif xlink:href="#art5-com1" xlink:type="simple">comma 1</rif>
+									<rif xlink:href="#art5-t7-com1" xlink:type="simple">comma 1</rif>
 									si fa fronte con le risorse stanziate sull'unità previsionale di base (UPB) 711 "Funzionamento della struttura regionale – Spese correnti" del bilancio di previsione 2009 e pluriennale 2009 – 2011. Agli oneri per gli anni successivi si fa fronte con legge di bilancio.
 								</corpo>
+							</comma>
+						</articolo>
+						<articolo id="art5" iniziovigore="t7">
+							<num>Art. 5</num>
+							<rubrica>Finanziamento dei processi di innovazione e di riorganizzazione della struttura regionale e di miglioramento dei servizi</rubrica>
+							<comma id="art5-com1">
+								<num>1.</num>
+								<corpo>
+									Al fine di sostenere l'avanzamento dei processi di innovazione e di riorganizzazione della struttura regionale e di valorizzare le professionalità del personale nel quadro del mutato assetto istituzionale anche a seguito dell'applicazione della
+									<rif xlink:href="urn:nir:regione.toscana:legge:2009-01-08;1" xlink:type="simple">legge regionale 8 gennaio 2009, n. 1</rif>
+									(Testo unico in materia di organizzazione e ordinamento del personale), e dell'avvio del processo di attuazione dell'autonomia consiliare ai sensi della
+									<rif xlink:href="urn:nir:regione.toscana:legge:2008-02-05;4" xlink:type="simple">legge regionale 5 febbraio 2008, n. 4</rif>
+									(Autonomia dell'Assemblea legislativa regionale), le risorse destinate a finanziare gli istituti di cui all'articolo 31, comma 2, del contratto collettivo nazionale di lavoro 22 gennaio 2004 (CCNL del personale del comparto delle regioni e delle autonomie locali per il quadriennio normativo 2002 - 2005 ed il biennio economico 2002 - 2003), sono incrementate di euro 1.990.000,00 al netto degli oneri riflessi, a decorrere dall'annualità 2009.
+								</corpo>
+							</comma>
+							<comma id="art5-com2">
+								<num>2.</num>
+								<corpo>
+									Per la medesima finalità di cui al
+									<rif xlink:href="#art5-com1" xlink:type="simple">comma 1</rif>
+									, le risorse destinate a finanziare gli istituti di cui agli articoli 27 e 29 del contratto collettivo nazionale 23 dicembre 1999 (CCNL per il quadriennio normativo 1998 - 2001 e per il biennio economico 1998 - 1999 relativo all'area della dirigenza del comparto delle regioni e delle autonomie locali), sono incrementate di euro 470.000,00 al netto degli oneri riflessi, a decorrere dall'annualità 2009.
+								</corpo>
+							</comma>
+							<comma id="art5-com3">
+								<num>3.</num>
+								<corpo>All'onere di spesa di cui al presente articolo si fa fronte con le risorse stanziate sulla sull'unità previsionale di base (UPB) 711 "Funzionamento della struttura regionale - Spese correnti" del bilancio annuale 2009 e pluriennale 2009 -2011. Per gli anni successivi si fa fronte con legge di bilancio.</corpo>
+							</comma>
+							<comma id="art5-com4">
+								<num>4.</num>
+								<corpo>Per l'attuazione dell'articolo 46 del contratto collettivo di lavoro giornalistico a decorrere dall'annualità 2009 è stanziata la somma di euro 55.000,00, di cui euro 27.500,00 a valere UPB 714 "Agenzia per le attività di informazione del Consiglio regionale - Spese correnti" ed euro 27.500,00 a valere sulla UPB 715 "Agenzia per le attività di informazione degli organi di governo della Regione - Spese correnti" del bilancio annuale 2009 e pluriennale 2009 -2011. Per gli anni successivi si fa fronte con legge di bilancio.</corpo>
 							</comma>
 						</articolo>
 					</capo>
@@ -482,7 +932,10 @@
 								<corpo>
 									Agli oneri di spesa di cui al
 									<rif xlink:href="#art6-com1" xlink:type="simple">comma 1</rif>
-									pari ad euro 700.000,00 per l'annualità 2009 si fa fronte con le risorse stanziate nella UPB 514 "Interventi per lo sviluppo del sistema economico e produttivo – Spese di investimento" del bilancio di previsione 2009.
+									pari ad
+									<h:span finevigore="t7" id="h1" iniziovigore="t1" status="abrogato">euro 700.000,00</h:span>
+									<h:span id="h2" iniziovigore="t7">euro 4.700.000,00</h:span>
+									per l'annualità 2009 si fa fronte con le risorse stanziate nella UPB 514 "Interventi per lo sviluppo del sistema economico e produttivo – Spese di investimento" del bilancio di previsione 2009.
 								</corpo>
 							</comma>
 						</articolo>
@@ -730,6 +1183,10 @@
 								<corpo>Agli oneri derivanti dal presente articolo quantificati in complessi euro 3.408.615,54 si fa fronte con le risorse stanziate sulla UPB 1.1.1. "Azioni di sistema Regione enti locali - Spese correnti" del bilancio di previsione 2009.</corpo>
 							</comma>
 						</articolo>
+					</capo>
+					<capo id="tit3-capiiiter" iniziovigore="t7">
+						<num>Capo III ter</num>
+						<rubrica>Misure per l'attuazione del programma ELISA sul territorio regionale della Toscana</rubrica>
 						<articolo id="art7ter" iniziovigore="t6">
 							<num>Art. 7 ter</num>
 							<rubrica>Fondo di anticipazione per i piccoli comuni</rubrica>
@@ -773,6 +1230,30 @@
 									"Finanziamenti per la redazione e l'attuazione di piani di recupero del patrimonio edilizio esistente". Modifiche alla
 									<rif xlink:href="urn:nir:regione.toscana:legge:1999-11-02;58" xlink:type="simple">legge regionale 2 novembre 1999, n. 58</rif>
 									"Norme sulla tutela dell'artigianato artistico e tradizionale toscano e disposizioni in materia di oneri contributivi per gli apprendisti artigiani").
+								</corpo>
+							</comma>
+						</articolo>
+						<articolo id="art7quater" iniziovigore="t7">
+							<num>Art. 7 quater</num>
+							<rubrica>Sostegno al Comune di Fabbriche di Vallico quale ente pilota del programma ELISA</rubrica>
+							<comma id="art7quater-com1">
+								<num>1.</num>
+								<corpo>Al fine di favorire l'attuazione sul territorio regionale del programma Enti Locali - Innovazione di sistema (ELISA), sulla gestione digitale dei servizi locali in materia fiscale e catastale di cui al decreto ministeriale 18 giugno 2007, è autorizzata l'anticipazione di euro 1.415.000,00 a favore del Comune di Fabbriche di Vallico (LU), ente pilota e soggetto pubblico capofila dell'aggregazione a livello toscano.</corpo>
+							</comma>
+							<comma id="art7quater-com2">
+								<num>2.</num>
+								<corpo>Il Comune di Fabbriche di Vallico (LU) è tenuto al rimborso dell'anticipazione di cui al comma 1, senza alcun onere di interesse, nel termine massimo di trentasei mesi dalla data di erogazione della stessa.</corpo>
+							</comma>
+							<comma id="art7quater-com3">
+								<num>3.</num>
+								<corpo>Le modalità di attribuzione, di erogazione e di recupero delle somme anticipate sono definite da apposita convenzione, anche in considerazione degli impegni assunti a livello nazionale e locale.</corpo>
+							</comma>
+							<comma id="art7quater-com4">
+								<num>4.</num>
+								<corpo>
+									All'onere di spesa di cui al
+									<rif xlink:href="#art7quater-com1" xlink:type="simple">comma 1</rif>
+									, si fa fronte, con contestuale pari previsione di entrata e di spesa, mediante lo stanziamento iscritto, per la parte di spesa nella UPB 146 "Innovazione tecnologica, organizzativa e sviluppo risorse umane per l'attuazione delle politiche regionali - Spese di investimento" e per l'entrata nella UPB 461 "Riscossione di crediti" del bilancio di previsione 2009 e pluriennale 2009 - 2011.
 								</corpo>
 							</comma>
 						</articolo>
@@ -820,6 +1301,238 @@
 							</comma>
 						</articolo>
 					</capo>
+					<capo id="tit3-capbis" iniziovigore="t7">
+						<num>CapoV bis</num>
+						<rubrica>Misure in materia di attività culturali</rubrica>
+						<articolo id="art9bis" iniziovigore="t7">
+							<num>Art. 9 bis</num>
+							<rubrica>Partecipazione al progetto "La Costituzione siamo noi"</rubrica>
+							<comma id="art9bis-com1">
+								<num>1.</num>
+								<corpo>
+									Nell'ambito delle iniziative di cui all'
+									<rif xlink:href="urn:nir:regione.toscana:legge:2002-10-14;38#art6" xlink:type="simple">articolo 6 della legge regionale 14 ottobre 2002, n. 38</rif>
+									(Norme in materia di tutela e valorizzazione del patrimonio storico, politico e culturale dell'antifascismo e della resistenza e di promozione di una cultura di libertà, democrazia, pace e collaborazione tra i popoli) e delle celebrazioni del 150° anniversario dell'unità d'Italia, la Regione concorre alla realizzazione del progetto "La Costituzione siamo noi", memoriale della Costituzione e laboratorio di educazione alla legalità costituzionale unitamente al Comune di Firenze, al Ministero della giustizia ed all'Associazione Gian Paolo Meucci.
+								</corpo>
+							</comma>
+							<comma id="art9bis-com2">
+								<num>2.</num>
+								<corpo>
+									Ai fini di cui al
+									<rif xlink:href="#art9bis-com1" xlink:type="simple">comma 1</rif>
+									è autorizzato un contributo finanziario, fino ad un massimo di euro 500.000,00 a favore del Comune di Firenze, coordinatore dell'iniziativa, da erogare per le specifiche finalità, nei termini e nei limiti definiti in un'apposita convenzione fra i soggetti coinvolti.
+								</corpo>
+							</comma>
+							<comma id="art9bis-com3">
+								<num>3.</num>
+								<corpo>
+									Agli oneri di cui al
+									<rif xlink:href="#art9bis-com1" xlink:type="simple">comma 1</rif>
+									si fa fronte mediante lo stanziamento iscritto nella UPB 116 "Interventi per la salvaguardia dei valori dell'antifascismo e della resistenza - Spese correnti" del bilancio di previsione 2009.
+								</corpo>
+							</comma>
+						</articolo>
+						<articolo id="art9ter" iniziovigore="t7">
+							<num>Art. 9 ter</num>
+							<rubrica>Interventi per il sostegno delle attività di formazione musicale di base</rubrica>
+							<comma id="art9ter-com1">
+								<num>1.</num>
+								<corpo>Al fine di garantire continuità alle iniziative intraprese dalla Regione Toscana in occasione del 150° anniversario della nascita di Giacomo Puccini mediante un sostegno straordinario alla formazione musicale di base, per l'anno 2009 è autorizzata la spesa di euro 200.000,00 per il contributo ai corsi di formazione organizzati dalle scuole di musica, dalle bande, dai cori, da erogarsi nella misura del 50 per cento in favore delle scuole di musica e per il restante 50 per cento in favore delle bande e dei cori.</corpo>
+							</comma>
+							<comma id="art9ter-com2">
+								<num>2.</num>
+								<corpo>
+									Le risorse di cui al
+									<rif xlink:href="#art9ter-com1" xlink:type="simple">comma 1</rif>
+									, sono assegnate con deliberazione della Giunta regionale sulla base del numero dei corsi attivati.
+								</corpo>
+							</comma>
+							<comma id="art9ter-com3">
+								<num>3.</num>
+								<corpo>
+									Agli oneri di cui al
+									<rif xlink:href="#art9ter-com1" xlink:type="simple">comma 1</rif>
+									, si fa fronte mediante lo stanziamento iscritto nella UPB 631 "Promozione e sviluppo della cultura - Spese correnti" del bilancio di previsione 2009.
+								</corpo>
+							</comma>
+						</articolo>
+					</capo>
+					<capo id="tit3-capvter" iniziovigore="t7">
+						<num>Capo V ter</num>
+						<rubrica>Misure a sostegno del sistema del servizio civile</rubrica>
+						<articolo id="art9quater" iniziovigore="t7">
+							<num>Art. 9 quater</num>
+							<rubrica>Disposizioni straordinarie a sostegno del servizio civile nazionale</rubrica>
+							<comma id="art9quater-com1">
+								<num>1.</num>
+								<corpo>
+									Per l'anno 2009, nelle more dell'approvazione del piano regionale per il servizio civile regionale di cui all'
+									<rif xlink:href="urn:nir:regione.toscana:legge:2006-07-25;35#art16-com1" xlink:type="simple">articolo 16, comma 1, della legge regionale 25 luglio 2006, n. 35</rif>
+									(Istituzione del servizio civile regionale), è autorizzato l'utilizzo della somma di euro 1.500.000,00, stanziata nella UPB 136 "Servizio civile regionale - Spese correnti", da destinarsi, secondo quanto previsto dall'
+									<mrif>
+										articolo 11,
+										<rif xlink:href="urn:nir:stato:legge:2001-03-06;64#art11-com1-letb" xlink:type="simple">comma 1, lett. b)</rif>
+										e
+										<rif xlink:href="urn:nir:stato:legge:2001-03-06;64#art11-com2" xlink:type="simple">comma 2</rif>
+										, della legge 6 marzo 2001, n. 64
+									</mrif>
+									(Istituzione del servizio civile nazionale) al servizio civile nazionale per la realizzazione di progetti da parte degli enti iscritti all'albo regionale per il Servizio civile nazionale che hanno la loro sede di svolgimento in Toscana.
+								</corpo>
+							</comma>
+						</articolo>
+					</capo>
+					<capo id="tit3-capvquater" iniziovigore="t7">
+						<num>Capo V quater</num>
+						<rubrica>Misure per la tutela biodiversità nel settore agricolo e dello sviluppo rurale</rubrica>
+						<articolo id="art9quinquies" iniziovigore="t7">
+							<num>Art. 9 quinquies</num>
+							<rubrica>Contributo straordinario alla Fondazione Slow Food per la Biodiversità - Onlus</rubrica>
+							<comma id="art9quinquies-com1">
+								<num>1.</num>
+								<corpo>Al fine di promuovere la cultura della biodiversità come fattore di crescita umana, civile e democratica, nel triennio 2009 - 2011 la Regione sostiene la Fondazione Slow Food per la Biodiversità - Onlus.</corpo>
+							</comma>
+							<comma id="art9quinquies-com2">
+								<num>2.</num>
+								<alinea>
+									Ai fini di cui al
+									<rif xlink:href="#art9quinquies-com1" xlink:type="simple">comma 1</rif>
+									, la Regione in particolare sostiene:
+								</alinea>
+								<el id="art9quinquies-com2-leta">
+									<num>a)</num>
+									<corpo>
+										iniziative di formazione e divulgazione legate alla biodiversità, alla filiera corta ed alla tutela delle conoscenze tradizionali, in coordinamento con le attività relative alla
+										<rif xlink:href="urn:nir:regione.toscana:legge:2004-11-16;64" xlink:type="simple">legge regionale 16 novembre 2004, n. 64</rif>
+										(Tutela e valorizzazione del patrimonio di razze e varietà locali di interesse agrario, zootecnico e forestale);
+									</corpo>
+								</el>
+								<el id="art9quinquies-com2-letb">
+									<num>b)</num>
+									<corpo>attività di comunicazione e valorizzazione della biodiversità agricola della Toscana, anche attraverso il supporto ai presidi e alle comunità del cibo;</corpo>
+								</el>
+								<el id="art9quinquies-com2-letc">
+									<num>c)</num>
+									<corpo>
+										progetti di cooperazione internazionale sui temi della salvaguardia della biodiversità e del sostegno ai piccoli produttori, nel rispetto delle procedure di cui alla
+										<rif xlink:href="urn:nir:regione.toscana:legge:2009-05-22;26" xlink:type="simple">legge regionale 22 maggio 2009, n. 26</rif>
+										(Disciplina delle attività europee e di rilievo internazionale della Regione Toscana).
+									</corpo>
+								</el>
+							</comma>
+							<comma id="art9quinquies-com3">
+								<num>3.</num>
+								<corpo>Le condizioni e le modalità del sostegno regionale alle attività di cui al comma 2 sono definite con deliberazione della Giunta regionale.</corpo>
+							</comma>
+							<comma id="art9quinquies-com4">
+								<num>4.</num>
+								<corpo>
+									Agli oneri di cui al
+									<rif xlink:href="#art9quinquies-com2" xlink:type="simple">comma 2</rif>
+									, quantificati in euro 225.000,00 annuali, si fa fronte per il triennio 2009 - 2011 con le risorse allocate nella UPB 521 "Interventi per lo sviluppo rurale, aiuti al reddito, agli investimenti e allo sviluppo delle imprese agricole, zootecniche e forestali - Spese correnti" del bilancio di previsione 2009 e del bilancio pluriennale vigente 2009 - 2011.
+								</corpo>
+							</comma>
+						</articolo>
+					</capo>
+					<capo id="tit3-capvquinquies" iniziovigore="t7">
+						<num>Capo V quinquies</num>
+						<rubrica>Misure a sostegno di interventi di prevenzione e mitigazione dei rischi idrogeologici</rubrica>
+						<articolo id="art9sexies" iniziovigore="t7">
+							<num>Art. 9 sexies</num>
+							<rubrica>Sostegno alla realizzazione di interventi ed opere di prevenzione e mitigazione dei rischi idrogeologici</rubrica>
+							<comma id="art9sexies-com1">
+								<num>1.</num>
+								<corpo>
+									In attuazione degli strumenti regionali di programmazione e pianificazione territoriale, al fine di consentire la mitigazione dei rischi idrogeologici per persone, infrastrutture e beni, per il triennio 2009 - 2011 è autorizzato un contributo straordinario di euro 71.461.435,68 in favore degli enti locali per la realizzazione di interventi ed opere di loro competenza ai sensi della
+									<rif xlink:href="urn:nir:regione.toscana:legge:1998-12-11;91" xlink:type="simple">legge regionale 11 dicembre 1998, n. 91</rif>
+									(Norme in materia di difesa di difesa del suolo) e della
+									<rif xlink:href="urn:nir:regione.toscana:legge:1998-12-10;88" xlink:type="simple">legge regionale 10 dicembre 1998, n.88</rif>
+									(Attribuzione agli enti locali e disciplina generale delle funzioni amministrative e dei compiti in materia di urbanistica e pianificazione territoriale, protezione della natura e dell'ambiente, tutela dell'ambiente dagli inquinamenti e gestione dei rifiuti, risorse idriche e difesa del suolo, energia e risorse geotermiche, opere pubbliche, viabilità e trasporti conferite alla Regione dal
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:1998-03-31;112" xlink:type="simple">d.lgs. 31 marzo 1998, n. 112</rif>
+									).
+								</corpo>
+							</comma>
+							<comma id="art9sexies-com2">
+								<num>2.</num>
+								<corpo>
+									Gli interventi di cui al
+									<rif xlink:href="#art9sexies-com1" xlink:type="simple">comma 1</rif>
+									, definiti in coerenza con gli obiettivi e le finalità degli strumenti di pianificazione di bacino idrografico, non devono pregiudicare le condizioni di equilibrio idrogeologico in altre aree.
+								</corpo>
+							</comma>
+							<comma id="art9sexies-com3">
+								<num>3.</num>
+								<alinea>La Giunta regionale, con deliberazione, individua gli enti locali beneficiari e quantifica gli importi del contributo straordinario, sulla base delle seguenti condizioni:</alinea>
+								<el id="art9sexies-com3-leta">
+									<num>a)</num>
+									<corpo>
+										il contributo massimo non deve essere superiore al 50 per cento del costo degli interventi, elevabile al 70 per cento per i comuni di cui alla
+										<rif xlink:href="urn:nir:regione.toscana:legge:2004-07-27;39" xlink:type="simple">legge regionale 27 luglio 2004, n. 39</rif>
+										, (Norme a favore dei comuni montani e dei piccoli comuni in situazione di disagio. Modifiche alla
+										<rif xlink:href="urn:nir:regione.toscana:legge:1985-05-07;57" xlink:type="simple">legge regionale 7 maggio 1985, n. 57</rif>
+										"Finanziamenti per la redazione e l'attuazione di piani di recupero del patrimonio edilizio esistente". Modifiche alla
+										<rif xlink:href="urn:nir:regione.toscana:legge:1999-11-02;58" xlink:type="simple">legge regionale 2 novembre 1999, n. 58</rif>
+										"Norme sulla tutela dell'artigianato artistico e tradizionale toscano e disposizioni in materia di oneri contributivi per gli apprendisti artigiani"). Il limite del 70 per cento può essere derogato in presenza di condizioni di rischio incombente, pericolosità e urgenza, laddove l'ente certifichi la propria incapacità finanziaria.
+									</corpo>
+								</el>
+								<el id="art9sexies-com3-letb">
+									<num>b)</num>
+									<corpo>il contributo è assegnato in via prioritaria per le opere ed interventi previsti dagli strumenti di programmazione e da accordi di programma vigenti.</corpo>
+								</el>
+							</comma>
+							<comma id="art9sexies-com4">
+								<num>4.</num>
+								<corpo>Il contributo è concesso sulla base di specifiche istanze presentate dagli enti locali interessati secondo modalità e termini definiti con decreto del dirigente competente per materia.</corpo>
+							</comma>
+							<comma id="art9sexies-com5">
+								<num>5.</num>
+								<corpo>
+									Agli oneri di cui al
+									<rif xlink:href="#art9sexies-com1" xlink:type="simple">comma 1</rif>
+									si fa fronte per il triennio 2009 -2011 con le risorse allocate nella UPB 421 "Difesa del suolo,riduzione del rischio idrogeologico e prevenzione del rischio sismico - Spese di investimento" del bilancio di previsione 2009 e del bilancio di pluriennale vigente 2009 - 2011, di cui euro 46.321.435,68 per l'anno 2009, euro 14.700.000,00 per l'anno 2010 ed euro 10.440.000,00 per l'anno 2011.
+								</corpo>
+							</comma>
+						</articolo>
+					</capo>
+					<capo id="tit3-capvsexies" iniziovigore="t7">
+						<num>Capo V sexies</num>
+						<rubrica>Interventi finanziari straordinari a seguito dell'incidente ferroviario di Viareggio</rubrica>
+						<articolo id="art9septies" iniziovigore="t7">
+							<num>Art. 9 septies</num>
+							<rubrica>Interventi finanziari straordinari a seguito dell'incidente ferroviario di Viareggio</rubrica>
+							<comma id="art9septies-com1">
+								<num>1.</num>
+								<alinea>Al fine di favorire il ritorno alle normali condizioni di vita della popolazione e il superamento dell'emergenza conseguente l'incidente ferroviario occorso in data 29 giugno 2009 nel comune di Viareggio, la Giunta regionale, nel limite complessivo di euro 2 milioni, può:</alinea>
+								<el id="art9septies-com1-leta">
+									<num>a)</num>
+									<corpo>
+										disporre gli interventi finanziari previsti dall'
+										<rif xlink:href="urn:nir:regione.toscana:legge:2003-12-29;67#art23-com2" xlink:type="simple">articolo 23, comma 2, della legge regionale 29 dicembre 2003, n. 67</rif>
+										(Ordinamento del sistema regionale della protezione civile e disciplina delle relative attività), anche in deroga ai limiti massimi di importo e alle tipologie di spesa di cui ai relativi regolamenti attuativi;
+									</corpo>
+								</el>
+								<el id="art9septies-com1-letb">
+									<num>b)</num>
+									<corpo>disporre interventi finanziari straordinari per il ripristino dei beni distrutti o danneggiati di proprietà pubblica o privata.</corpo>
+								</el>
+							</comma>
+							<comma id="art9septies-com2">
+								<num>2.</num>
+								<corpo>
+									La Giunta regionale dispone gli interventi finanziari di cui al
+									<rif xlink:href="#art9septies-com1" xlink:type="simple">comma 1</rif>
+									, con propria deliberazione, assumendo le opportune iniziative per il recupero delle somme erogate presso gli eventuali soggetti tenuti al relativo pagamento a titolo di responsabilità civile o di contratto di assicurazione, o, comunque, a qualsiasi altro titolo in base all'ordinamento vigente.
+								</corpo>
+							</comma>
+							<comma id="art9septies-com3">
+								<num>3.</num>
+								<corpo>
+									All'onere di spesa di cui al
+									<rif xlink:href="#art9septies-com1" xlink:type="simple">comma 1</rif>
+									, si fa fronte con le risorse stanziate sulla UPB 114 "Interventi derivanti da eventi calamitosi - Spese correnti" del bilancio di previsione 2009.
+								</corpo>
+							</comma>
+						</articolo>
+					</capo>
 				</titolo>
 				<titolo id="tit4">
 					<num>Titolo IV</num>
@@ -840,11 +1553,11 @@
 							<comma id="art10-com1">
 								<num>1.</num>
 								<corpo>
-									<mod id="mod4">
+									<mod id="mod5">
 										All'
 										<rif xlink:href="urn:nir:regione.toscana:legge:2006-08-02;43#art6-com4" xlink:type="simple">articolo 6, comma 4, della legge regionale 2 agosto 2006, n. 43</rif>
 										(Istituzione di due strutture speciali per le attività di informazione del Consiglio regionale e degli organi di governo della Regione), sono aggiunte, in fine, le parole "
-										<virgolette id="mod4-vir1" tipo="parola">o gli anni in cui sono state svolte attività di informazione e comunicazione presso gli enti dipendenti od altri enti pubblici</virgolette>
+										<virgolette id="mod5-vir1" tipo="parola">o gli anni in cui sono state svolte attività di informazione e comunicazione presso gli enti dipendenti od altri enti pubblici</virgolette>
 										".
 									</mod>
 								</corpo>
@@ -970,7 +1683,7 @@
 									</h:tbody>
 								</h:table>
 							</contenitore>
-							<contenitore id="con3" iniziovigore="t6" nome="">
+							<contenitore finevigore="t7" id="con3-t7" iniziovigore="t6" nome="" status="abrogato">
 								<h:p>1. Programma regionale per la promozione e lo sviluppo dell'amministrazione elettronica e della società dell'informazione e della conoscenza nel sistema regionale 2007/2010, approvato con Delibera del Consiglio Regionale n. 68 del 11 luglio 2007:</h:p>
 								<h:table>
 									<h:tbody>
@@ -1031,7 +1744,68 @@
 									</h:tbody>
 								</h:table>
 							</contenitore>
-							<contenitore id="con4" nome="">
+							<contenitore id="con4" iniziovigore="t7" nome="">
+								<h:p>1. Programma regionale per la promozione e lo sviluppo dell'amministrazione elettronica e della società dell'informazione e della conoscenza nel sistema regionale 2007/2010, approvato con deliberazione del Consiglio regionale n. 68 del 11 luglio 2007:</h:p>
+								<h:table>
+									<h:tbody>
+										<h:tr>
+											<h:td>U.P.B.</h:td>
+											<h:td>Importo previsto nel piano per il 2009</h:td>
+											<h:td>Importo rimodulato su bilancio di previsione 2009</h:td>
+											<h:td>Importo previsto nel piano per il 2010</h:td>
+											<h:td>Importo rimodulato su bilancio pluriennale, annualità 2010</h:td>
+											<h:td>Importo previsto nel piano per il 2011</h:td>
+											<h:td>Importo rimodulato su bilancio pluriennale, annualità 2011</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+										</h:tr>
+										<h:tr>
+											<h:td>141</h:td>
+											<h:td>€ 3.940.000,00</h:td>
+											<h:td>€ 4.171.500,00</h:td>
+											<h:td>€ 3.349.880,00</h:td>
+											<h:td>€ 3.597.380,00</h:td>
+											<h:td />
+											<h:td>€ 3.831.380,00</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>142</h:td>
+											<h:td>€ 330.000,00</h:td>
+											<h:td>€ 50.000,00</h:td>
+											<h:td>€ 290.000,00</h:td>
+											<h:td>€ 50.000,00</h:td>
+											<h:td />
+											<h:td>€ 50.000,00</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>146</h:td>
+											<h:td>€ 4.900.000,00</h:td>
+											<h:td>€ 2.900.000,00</h:td>
+											<h:td>€ 400.000,00</h:td>
+											<h:td>€ 1.900.000,00</h:td>
+											<h:td />
+											<h:td>€ 2.166.000,00</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>Totale</h:td>
+											<h:td>€ 9.170.000,00</h:td>
+											<h:td>€ 7.121.500,00</h:td>
+											<h:td>€ 4.039.880,00</h:td>
+											<h:td>€ 5.547.380,00</h:td>
+											<h:td>€ _</h:td>
+											<h:td>€ 6.047.380,00</h:td>
+										</h:tr>
+									</h:tbody>
+								</h:table>
+							</contenitore>
+							<contenitore finevigore="t7" id="con5-t7" iniziovigore="t1" nome="" status="abrogato">
 								<h:p>
 									2.
 									<rif xlink:href="urn:nir:regione.toscana:legge:1999-03-23;17" xlink:type="simple">Legge regionale 23 marzo 1999, n. 17</rif>
@@ -1096,7 +1870,72 @@
 									</h:tbody>
 								</h:table>
 							</contenitore>
-							<contenitore id="con5" nome="">
+							<contenitore id="con6" iniziovigore="t7" nome="">
+								<h:p>
+									2.
+									<rif xlink:href="urn:nir:regione.toscana:legge:1999-03-23;17" xlink:type="simple">Legge regionale 23 marzo 1999, n. 17</rif>
+									(Interventi per la promozione dell'attività di cooperazione e partenariato internazionale, a livello regionale e locale). Piano regionale della cooperazione internazionale e delle attività di partenariato 2007/2010, approvato con deliberazione del Consiglio regionale n. 46 del 4 aprile 2007:
+								</h:p>
+								<h:table>
+									<h:tbody>
+										<h:tr>
+											<h:td>U.P.B.</h:td>
+											<h:td>Importo previsto nel piano per il 2009</h:td>
+											<h:td>Importo rimodulato su bilancio di previsione 2009</h:td>
+											<h:td>Importo previsto nel piano per il 2010</h:td>
+											<h:td>Importo rimodulato su bilancio pluriennale, annualità 2010</h:td>
+											<h:td>Importo previsto nel piano per il 2011</h:td>
+											<h:td>Importo rimodulato su bilancio pluriennale, annualità 2011</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+										</h:tr>
+										<h:tr>
+											<h:td>122</h:td>
+											<h:td>€ 3.377.506,24</h:td>
+											<h:td>€ 3.907.506,24</h:td>
+											<h:td>€ 3.377.506,24</h:td>
+											<h:td>€ 3.377.506,24</h:td>
+											<h:td />
+											<h:td>€ 3.377.506,24</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>741</h:td>
+											<h:td>€ 630.000,00</h:td>
+											<h:td>€ 630.000,00</h:td>
+											<h:td>€ 630.000,00</h:td>
+											<h:td>€ 630.000,00</h:td>
+											<h:td />
+											<h:td>€ 30.000,00</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>743</h:td>
+											<h:td>€ 50.000,00</h:td>
+											<h:td>€ _</h:td>
+											<h:td>€ 50.000,00</h:td>
+											<h:td>€ _</h:td>
+											<h:td />
+											<h:td>€ _</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>Totale</h:td>
+											<h:td>€ 4.057.506,24</h:td>
+											<h:td>€ 4.537.506,24</h:td>
+											<h:td>€ 4.057.506,24</h:td>
+											<h:td>€ 4.007.506,24</h:td>
+											<h:td>€ _</h:td>
+											<h:td>€ 3.407.506,24</h:td>
+										</h:tr>
+									</h:tbody>
+								</h:table>
+							</contenitore>
+							<contenitore id="con7" nome="">
 								<h:p>
 									3.
 									<rif xlink:href="urn:nir:regione.toscana:legge:1999-04-09;19" xlink:type="simple">Legge regionale 9 aprile 1999, n. 19</rif>
@@ -1152,7 +1991,7 @@
 									</h:tbody>
 								</h:table>
 							</contenitore>
-							<contenitore id="con6" nome="">
+							<contenitore id="con8" nome="">
 								<h:p>
 									4.
 									<rif xlink:href="urn:nir:regione.toscana:legge:1997-07-30;55" xlink:type="simple">Legge regionale 30 luglio 1997, n. 55</rif>
@@ -1199,7 +2038,7 @@
 									</h:tbody>
 								</h:table>
 							</contenitore>
-							<contenitore id="con7" nome="">
+							<contenitore finevigore="t7" id="con9-t7" iniziovigore="t1" nome="" status="abrogato">
 								<h:p>5. Piano di indirizzo per la tutela dei consumatori e degli utenti 2007/2009, approvato con Delibera del Consiglio Regionale n. 33 del 13 marzo 2007:</h:p>
 								<h:table>
 									<h:tbody>
@@ -1260,7 +2099,77 @@
 									</h:tbody>
 								</h:table>
 							</contenitore>
-							<contenitore id="con8" nome="">
+							<contenitore id="con10" iniziovigore="t7" nome="">
+								<h:p>5. Piano di indirizzo per la tutela dei consumatori e degli utenti 2007/2009, approvato con deliberazione del Consiglio regionale n. 33 del 13 marzo 2007:</h:p>
+								<h:table>
+									<h:tbody>
+										<h:tr>
+											<h:td>U.P.B.</h:td>
+											<h:td>Importo previsto nel piano per il 2009</h:td>
+											<h:td>Importo rimodulato su bilancio di previsione 2009</h:td>
+											<h:td>Importo previsto nel piano per il 2010</h:td>
+											<h:td>Importo rimodulato su bilancio pluriennale, annualità 2010</h:td>
+											<h:td>Importo previsto nel piano per il 2011</h:td>
+											<h:td>Importo rimodulato su bilancio pluriennale, annualità 2011</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+										</h:tr>
+										<h:tr>
+											<h:td>117</h:td>
+											<h:td>€ 300.000,00</h:td>
+											<h:td>€ 299.550,00</h:td>
+											<h:td />
+											<h:td>€ 300.000,00</h:td>
+											<h:td />
+											<h:td>€ 300.000,00</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>131</h:td>
+											<h:td>€ _</h:td>
+											<h:td>€ 450,00</h:td>
+											<h:td />
+											<h:td>€ _</h:td>
+											<h:td />
+											<h:td>€ _</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>142</h:td>
+											<h:td>€ 20.000,00</h:td>
+											<h:td>€ 20.000,00</h:td>
+											<h:td />
+											<h:td>€ 20.000,00</h:td>
+											<h:td />
+											<h:td>€ 20.000,00</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>243</h:td>
+											<h:td>€ 50.993,00</h:td>
+											<h:td>€ 50.993,00</h:td>
+											<h:td />
+											<h:td>€ 50.993,00</h:td>
+											<h:td />
+											<h:td>€ 50.993,00</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>Totale</h:td>
+											<h:td>€ 370.993,00</h:td>
+											<h:td>€ 370.993,00</h:td>
+											<h:td>€ _</h:td>
+											<h:td>€ 370.993,00</h:td>
+											<h:td>€ _</h:td>
+											<h:td>€ 370.993,00</h:td>
+										</h:tr>
+									</h:tbody>
+								</h:table>
+							</contenitore>
+							<contenitore id="con11" nome="">
 								<h:p>
 									6.
 									<rif xlink:href="urn:nir:regione.toscana:legge:2005-12-07;66" xlink:type="simple">Legge regionale 7 dicembre 2005, n. 66</rif>
@@ -1316,7 +2225,7 @@
 									</h:tbody>
 								</h:table>
 							</contenitore>
-							<contenitore finevigore="t6" id="con9-t6" iniziovigore="t1" nome="" status="abrogato">
+							<contenitore finevigore="t6" id="con12-t6" iniziovigore="t1" nome="" status="abrogato">
 								<h:p>7. Programma forestale regionale 2007-2011, approvato con Delibera del Consiglio Regionale n. 125 del 13 dicembre 2006:</h:p>
 								<h:table>
 									<h:tbody>
@@ -1377,7 +2286,7 @@
 									</h:tbody>
 								</h:table>
 							</contenitore>
-							<contenitore id="con10" iniziovigore="t6" nome="">
+							<contenitore finevigore="t7" id="con13-t7" iniziovigore="t6" nome="" status="abrogato">
 								<h:p>7. Programma forestale regionale 2007-2011, approvato con Delibera del Consiglio Regionale n. 125 del 13 dicembre 2006:</h:p>
 								<h:table>
 									<h:tbody>
@@ -1438,7 +2347,68 @@
 									</h:tbody>
 								</h:table>
 							</contenitore>
-							<contenitore finevigore="t6" id="con11-t6" iniziovigore="t1" nome="" status="abrogato">
+							<contenitore id="con14" iniziovigore="t7" nome="">
+								<h:p>7. Programma forestale regionale 2007 – 2011, approvato con deliberazione del Consiglio regionale n. 125 del 13 dicembre 2006:</h:p>
+								<h:table>
+									<h:tbody>
+										<h:tr>
+											<h:td>U.P.B.</h:td>
+											<h:td>Importo previsto nel piano per il 2009</h:td>
+											<h:td>Importo rimodulato su bilancio di previsione 2009</h:td>
+											<h:td>Importo previsto nel piano per il 2010</h:td>
+											<h:td>Importo rimodulato su bilancio pluriennale, annualità 2010</h:td>
+											<h:td>Importo previsto nel piano per il 2011</h:td>
+											<h:td>Importo rimodulato su bilancio pluriennale, annualità 2011</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+										</h:tr>
+										<h:tr>
+											<h:td>113</h:td>
+											<h:td>€ 470.000,00</h:td>
+											<h:td>€ 470.000,00</h:td>
+											<h:td>€ 470.000,00</h:td>
+											<h:td>€ 470.000,00</h:td>
+											<h:td>€ 515.000,00</h:td>
+											<h:td>€ 470.000,00</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>523</h:td>
+											<h:td>€ 12.431.645,69</h:td>
+											<h:td>€ 12.285.862,84</h:td>
+											<h:td>€ 12.431.645,69</h:td>
+											<h:td>€ 12.417.148,84</h:td>
+											<h:td>€ 13.410.531,00</h:td>
+											<h:td>€ 12.417.148,84</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>524</h:td>
+											<h:td>€ 14.461.646,00</h:td>
+											<h:td>€ 14.592.932,00</h:td>
+											<h:td>€ 14.461.646,00</h:td>
+											<h:td>€ 14.461.646,00</h:td>
+											<h:td>€ 13.900.000,00</h:td>
+											<h:td>€ 14.461.646,00</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>Totale</h:td>
+											<h:td>€ 27.363.291,69</h:td>
+											<h:td>€ 27.348.794,84</h:td>
+											<h:td>€ 27.363.291,69</h:td>
+											<h:td>€ 27.348.794,84</h:td>
+											<h:td>€ 27.825.531,00</h:td>
+											<h:td>€ 27.348.794,84</h:td>
+										</h:tr>
+									</h:tbody>
+								</h:table>
+							</contenitore>
+							<contenitore finevigore="t6" id="con15-t6" iniziovigore="t1" nome="" status="abrogato">
 								<h:p>8. Piano regionale dello sviluppo economico (PRSE) 2007-2010, approvato con Delibera del Consiglio regionale n. 66 del 10 luglio 2007: (1)</h:p>
 								<h:table>
 									<h:tbody>
@@ -1572,7 +2542,7 @@
 								</h:table>
 								<h:p>(1) Per consentire una più completa rappresentazione delle risorse disponibili nella colonna "Importo rimodulato su bilancio …" sono state inserite anche le risorse FAS 2007/2013 per la quota destinata ad integrare le risorse libere regionali finalizzate al finanziamento degli interventi di spesa aggiuntivi; sono stati inoltre considerati gli importi recuperati dai fondi costituiti presso gli organismi intermedi.</h:p>
 							</contenitore>
-							<contenitore id="con12" iniziovigore="t6" nome="">
+							<contenitore finevigore="t7" id="con16-t7" iniziovigore="t6" nome="" status="abrogato">
 								<h:p>8. Piano regionale dello sviluppo economico (PRSE) 2007-2010, approvato con Delibera del Consiglio regionale n. 66 del 10 luglio 2007: (1)</h:p>
 								<h:table>
 									<h:tbody>
@@ -1706,7 +2676,141 @@
 								</h:table>
 								<h:p>(1) Per consentire una più completa rappresentazione delle risorse disponibili nella colonna "Importo rimodulato su bilancio …" sono state inserite anche le risorse FAS 2007/2013 per la quota destinata ad integrare le risorse libere regionali finalizzate al finanziamento degli interventi di spesa aggiuntivi; sono stati inoltre considerati gli importi recuperati dai fondi costituiti presso gli organismi intermedi.</h:p>
 							</contenitore>
-							<contenitore id="con13" nome="">
+							<contenitore id="con17" iniziovigore="t7" nome="">
+								<h:p>8. Piano regionale dello sviluppo economico (PRSE) 2007-2010, approvato con Delibera del Consiglio regionale n. 66 del 10 luglio 2007: (1)</h:p>
+								<h:table>
+									<h:tbody>
+										<h:tr>
+											<h:td>U.P.B.</h:td>
+											<h:td>Importo previsto nel piano per il 2009</h:td>
+											<h:td>Importo rimodulato su bilancio di previsione 2009</h:td>
+											<h:td>Importo previsto nel piano per il 2010</h:td>
+											<h:td>Importo rimodulato su bilancio pluriennale, annualità 2010</h:td>
+											<h:td>Importo previsto nel piano per il 2011</h:td>
+											<h:td>Importo rimodulato su bilancio pluriennale, annualità 2011</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+										</h:tr>
+										<h:tr>
+											<h:td>513</h:td>
+											<h:td>€ 13.907.000,00</h:td>
+											<h:td>€ 17.618.619,00</h:td>
+											<h:td>€ 13.955.260,00</h:td>
+											<h:td>€ 15.266.559,00</h:td>
+											<h:td />
+											<h:td>€ 15.158.059,00</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>514</h:td>
+											<h:td>€ 11.194.248,00</h:td>
+											<h:td>€ 56.344.917,63</h:td>
+											<h:td>€ 23.539.102,00</h:td>
+											<h:td>€ 71.221.571,00</h:td>
+											<h:td />
+											<h:td>€ 29.179.999,99</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>531</h:td>
+											<h:td>€ 502.745,00</h:td>
+											<h:td>€ 442.750,50</h:td>
+											<h:td>€ 482.745,00</h:td>
+											<h:td>€ 437.745,00</h:td>
+											<h:td />
+											<h:td>€ 446.645,00</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>532</h:td>
+											<h:td>€ 4.255.000,00</h:td>
+											<h:td>€ 5.975.000,00</h:td>
+											<h:td>€ 4.255.000,00</h:td>
+											<h:td>€ 4.275.000,00</h:td>
+											<h:td />
+											<h:td>€ 2.221.473,89</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>533</h:td>
+											<h:td>€ 918.559,00</h:td>
+											<h:td>€ 845.000,00</h:td>
+											<h:td>€ 918.559,00</h:td>
+											<h:td>€ 845.000,00</h:td>
+											<h:td />
+											<h:td>€ 845.000,00</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>534</h:td>
+											<h:td>€ 2.046.600,00</h:td>
+											<h:td>€ 2.046.600,00</h:td>
+											<h:td>€ 2.046.600,00</h:td>
+											<h:td>€ 2.046.600,00</h:td>
+											<h:td />
+											<h:td>€ 2.113.144,65</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>541</h:td>
+											<h:td>€ 100.000,00</h:td>
+											<h:td>€ 300.000,00</h:td>
+											<h:td>€ 100.000,00</h:td>
+											<h:td>€ 300.000,00</h:td>
+											<h:td />
+											<h:td>€ 300.000,00</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>542</h:td>
+											<h:td>€ 1.025.006,52</h:td>
+											<h:td>€ 2.050.538,15</h:td>
+											<h:td>€ 1.069.157,81</h:td>
+											<h:td>€ 1.278.684,88</h:td>
+											<h:td />
+											<h:td>€ 1.278.684,88</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>543</h:td>
+											<h:td>€ 1.947.000,00</h:td>
+											<h:td>€ 1.947.000,00</h:td>
+											<h:td>€ 1.947.000,00</h:td>
+											<h:td>€ 1.947.000,00</h:td>
+											<h:td />
+											<h:td>€ 1.947.000,00</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>544</h:td>
+											<h:td>€ _</h:td>
+											<h:td>€ _</h:td>
+											<h:td>€ _</h:td>
+											<h:td>€ _</h:td>
+											<h:td />
+											<h:td>€ _</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>721</h:td>
+											<h:td>€ 16.656.063,00</h:td>
+											<h:td>€ 16.656.063,00</h:td>
+											<h:td>€ 16.457.205,00</h:td>
+											<h:td>€ 16.457.205,00</h:td>
+											<h:td />
+											<h:td>€ 17.000.000,00</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>Totale € € € € € -€ 70.490.007,41</h:td>
+											<h:td>€ 52.552.221,52</h:td>
+											<h:td>€ 104.226.488,28</h:td>
+											<h:td>€ 64.770.628,81</h:td>
+											<h:td>€ 114.075.364,88</h:td>
+											<h:td>€ _</h:td>
+											<h:td>€ 70.490.007,41</h:td>
+										</h:tr>
+									</h:tbody>
+								</h:table>
+								<h:p>(1) Per consentire una più completa rappresentazione delle risorse disponibili nella colonna "Importo rimodulato su bilancio ..." sono state inserite anche le risorse FAS 2007 – 2013 per la quota destinata ad integrare le risorse libere regionali finalizzate al finanziamento degli interventi di spesa aggiuntivi; sono stati inoltre considerati gli importi recuperati dai fondi costituiti presso gli organismi intermedi.</h:p>
+							</contenitore>
+							<contenitore finevigore="t7" id="con18-t7" iniziovigore="t1" nome="" status="abrogato">
 								<h:p>9. Piano regionale di azione ambientale (PRAA) 2007/2010, approvato con Delibera del Consiglio Regionale n. 32 del 14 marzo 2007: (2)</h:p>
 								<h:table>
 									<h:tbody>
@@ -1844,7 +2948,145 @@
 									; la diminuzione delle risorse evidenziata nelle colonne relative al bilancio di previsione 2009/2011 corrisponde alle risorse confluite nel PRRM 2008/2010 approvato con DCR n. 44/2008.
 								</h:p>
 							</contenitore>
-							<contenitore id="con14" nome="">
+							<contenitore id="con19" iniziovigore="t7" nome="">
+								<h:p>9. Piano regionale di azione ambientale (PRAA) 2007/2010, approvato con deliberazione del Consiglio regionale n. 32 del 14 marzo 2007: (2)</h:p>
+								<h:table>
+									<h:tbody>
+										<h:tr>
+											<h:td>U.P.B.</h:td>
+											<h:td>Importo previsto nel piano per il 2009</h:td>
+											<h:td>Importo rimodulato su bilancio di previsione 2009</h:td>
+											<h:td>Importo previsto nel piano per il 2010</h:td>
+											<h:td>Importo rimodulato su bilancio pluriennale, annualità 2010</h:td>
+											<h:td>Importo previsto nel piano per il 2011</h:td>
+											<h:td>Importo rimodulato su bilancio pluriennale, annualità 2011</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+										</h:tr>
+										<h:tr>
+											<h:td>131</h:td>
+											<h:td>€ _</h:td>
+											<h:td>€ _</h:td>
+											<h:td>€ _</h:td>
+											<h:td>€ _</h:td>
+											<h:td />
+											<h:td>€ _</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>343</h:td>
+											<h:td>€ 650.000,00</h:td>
+											<h:td>€ 650.000,00</h:td>
+											<h:td>€ 650.000,00</h:td>
+											<h:td>€ 650.000,00</h:td>
+											<h:td />
+											<h:td>€ 650.000,00</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>421</h:td>
+											<h:td>€ 965.000,00</h:td>
+											<h:td>€ 951.300,00</h:td>
+											<h:td>€ 965.000,00</h:td>
+											<h:td>€ 965.000,00</h:td>
+											<h:td />
+											<h:td>€ 965.000,00</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>422</h:td>
+											<h:td>€ 1.555.000,00</h:td>
+											<h:td>€ 1.555.000,00</h:td>
+											<h:td>€ 1.555.000,00</h:td>
+											<h:td>€ 1.555.000,00</h:td>
+											<h:td />
+											<h:td>€ 1.555.000,00</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>427</h:td>
+											<h:td>€ 5.160.070,00</h:td>
+											<h:td>€ 3.170.000,00</h:td>
+											<h:td>€ 5.160.070,00</h:td>
+											<h:td>€ 3.170.000,00</h:td>
+											<h:td />
+											<h:td>€ 3.170.000,00</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>428</h:td>
+											<h:td>€ 3.000.000,00</h:td>
+											<h:td>€ _</h:td>
+											<h:td>€ 3.000.000,00</h:td>
+											<h:td>€ _</h:td>
+											<h:td />
+											<h:td>€ _</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>431</h:td>
+											<h:td>€ _</h:td>
+											<h:td>€ _</h:td>
+											<h:td>€ _</h:td>
+											<h:td>€ _</h:td>
+											<h:td />
+											<h:td>€ _</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>432</h:td>
+											<h:td>€ 983.000,00</h:td>
+											<h:td>€ 1.028.500,00</h:td>
+											<h:td>€ 983.000,00</h:td>
+											<h:td>€ 1.003.000,00</h:td>
+											<h:td />
+											<h:td>€ 1.003.000,00</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>433</h:td>
+											<h:td>€ 250.000,00</h:td>
+											<h:td>€ 250.000,00</h:td>
+											<h:td>€ 250.000,00</h:td>
+											<h:td>€ 250.000,00</h:td>
+											<h:td />
+											<h:td>€ 250.000,00</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>434</h:td>
+											<h:td>€ 120.000,00</h:td>
+											<h:td>€ 120.000,00</h:td>
+											<h:td>€ 120.000,00</h:td>
+											<h:td>€ 120.000,00</h:td>
+											<h:td />
+											<h:td>€ 120.000,00</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>713</h:td>
+											<h:td>€ _</h:td>
+											<h:td>€ _</h:td>
+											<h:td>€ _</h:td>
+											<h:td>€ _</h:td>
+											<h:td />
+											<h:td>€ _</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>Totale</h:td>
+											<h:td>€ 12.683.070,00</h:td>
+											<h:td>€ 7.724.800,00</h:td>
+											<h:td>€ 12.683.070,00</h:td>
+											<h:td>€ 7.713.000,00</h:td>
+											<h:td>€ _</h:td>
+											<h:td>€ 7.713.000,00</h:td>
+										</h:tr>
+									</h:tbody>
+								</h:table>
+								<h:p>
+									(2) Risorse relative agli interventi di cui il PRAA costituisce autorizzazione di spesa ai sensi dell'
+									<rif xlink:href="urn:nir:regione.toscana:legge:2007;14#art3-com3" xlink:type="simple">articolo 3, comma 3, della l.r. 14/2007</rif>
+									; la diminuzione delle risorse evidenziata nelle colonne relative al bilancio di previsione 2009 - 2011 corrisponde alle risorse confluite nel PRRM 2008 - 2010 approvato con deliberazione del Consiglio regionale n. 44 del 25 giugno 2008.
+								</h:p>
+							</contenitore>
+							<contenitore id="con20" nome="">
 								<h:p>10. Piano regionale di risanamento e di mantenimento della qualità dell'aria (PRRM) 2008/2010, approvato con Delibera del Consiglio Regionale n. 44 del 25 giugno 2008</h:p>
 								<h:table>
 									<h:tbody>
@@ -1896,7 +3138,7 @@
 									</h:tbody>
 								</h:table>
 							</contenitore>
-							<contenitore id="con15" nome="">
+							<contenitore finevigore="t7" id="con21-t7" iniziovigore="t1" nome="" status="abrogato">
 								<h:p>11. Piano di indirizzo energetico regionale (PIER), approvato con Delibera del Consiglio Regionale n. 47 del 8 luglio 2008:</h:p>
 								<h:table>
 									<h:tbody>
@@ -1948,7 +3190,59 @@
 									</h:tbody>
 								</h:table>
 							</contenitore>
-							<contenitore id="con16" nome="">
+							<contenitore id="con22" iniziovigore="t7" nome="">
+								<h:p>11. Piano di indirizzo energetico regionale (PIER), approvato con deliberazione del Consiglio regionale n. 47 del 8 luglio 2008:</h:p>
+								<h:table>
+									<h:tbody>
+										<h:tr>
+											<h:td>U.P.B.</h:td>
+											<h:td>Importo previsto nel piano per il 2009</h:td>
+											<h:td>Importo rimodulato su bilancio di previsione 2009</h:td>
+											<h:td>Importo previsto nel piano per il 2010</h:td>
+											<h:td>Importo rimodulato su bilancio pluriennale, annualità 2010</h:td>
+											<h:td>Importo previsto nel piano per il 2011</h:td>
+											<h:td>Importo rimodulato su bilancio pluriennale, annualità 2011</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+										</h:tr>
+										<h:tr>
+											<h:td>413</h:td>
+											<h:td>€ 6.725.762,88</h:td>
+											<h:td>€ 6.910.762,00</h:td>
+											<h:td>€ 6.696.458,12</h:td>
+											<h:td>€ 6.696.458,00</h:td>
+											<h:td />
+											<h:td>€ 4.200.000,00</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>414</h:td>
+											<h:td>€ 347.982,31</h:td>
+											<h:td>€ 102.982,00</h:td>
+											<h:td>€ 347.861,96</h:td>
+											<h:td>€ 347.861,00</h:td>
+											<h:td />
+											<h:td>€ 346.053,00</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>Totale</h:td>
+											<h:td>€ 7.073.745,19</h:td>
+											<h:td>€ 7.013.744,00</h:td>
+											<h:td>€ 7.044.320,08</h:td>
+											<h:td>€ 7.044.319,00</h:td>
+											<h:td>€ _</h:td>
+											<h:td>€ 4.546.053,00</h:td>
+										</h:tr>
+									</h:tbody>
+								</h:table>
+							</contenitore>
+							<contenitore finevigore="t7" id="con23-t7" iniziovigore="t1" nome="" status="abrogato">
 								<h:p>
 									12. Piano di indirizzo generale integrato (PIGI) 2006/2010 di cui all'
 									<rif xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32#art31" xlink:type="simple">art. 31 della legge regionale 26 luglio 2002, n. 32</rif>
@@ -2050,7 +3344,109 @@
 								</h:table>
 								<h:p>(3) Per consentire una più completa rappresentazione delle risorse disponibili nella colonna "Importo rimodulato su bilancio …" sono state inserite anche le risorse FAS 2007/2013 per la quota destinata ad integrare le risorse libere regionali finalizzate al finanziamento degli interventi di spesa aggiuntivi.</h:p>
 							</contenitore>
-							<contenitore id="con17" nome="">
+							<contenitore id="con24" iniziovigore="t7" nome="">
+								<h:p>
+									12. Piano di indirizzo generale integrato (PIGI) 2006 - 2010 di cui all'
+									<rif xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32#art31" xlink:type="simple">articolo 31 della legge regionale 26 luglio 2002, n. 32</rif>
+									(Testo unico della normativa regionale in materia di educazione, istruzione, orientamento, formazione professionale e lavoro), approvato con deliberazione del Consiglio regionale n. 93 del 20 settembre 2006: (3)
+								</h:p>
+								<h:table>
+									<h:tbody>
+										<h:tr>
+											<h:td>U.P.B.</h:td>
+											<h:td>Importo previsto nel piano per il 2009</h:td>
+											<h:td>Importo rimodulato su bilancio di previsione 2009</h:td>
+											<h:td>Importo previsto nel piano per il 2010</h:td>
+											<h:td>Importo rimodulato su bilancio pluriennale, annualità 2010</h:td>
+											<h:td>Importo previsto nel piano per il 2011</h:td>
+											<h:td>Importo rimodulato su bilancio pluriennale, annualità 2011</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+										</h:tr>
+										<h:tr>
+											<h:td>1.3.3</h:td>
+											<h:td>€ 220.000,00</h:td>
+											<h:td>€ 220.000,00</h:td>
+											<h:td>€ 220.000,00</h:td>
+											<h:td>€ 220.000,00</h:td>
+											<h:td />
+											<h:td>€ 220.000,00</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>2.3.3</h:td>
+											<h:td>€ 3.000.000,00</h:td>
+											<h:td>€ ... _</h:td>
+											<h:td>€ 3.000.000,00</h:td>
+											<h:td>€ _</h:td>
+											<h:td />
+											<h:td>€ _</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>2.4.4</h:td>
+											<h:td>€ _</h:td>
+											<h:td>€ .. .. _</h:td>
+											<h:td>€ _</h:td>
+											<h:td>€ _</h:td>
+											<h:td />
+											<h:td>€ _</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>6.1.1</h:td>
+											<h:td>€ 212.000,00</h:td>
+											<h:td>€ 198.784,00</h:td>
+											<h:td>€ 212.000,00</h:td>
+											<h:td>€ 254.800,00</h:td>
+											<h:td />
+											<h:td>€ 254.800,00</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>6.1.2</h:td>
+											<h:td>€ 9.497.800,00</h:td>
+											<h:td>€ 10.475.000,00</h:td>
+											<h:td>€ 9.497.800,00</h:td>
+											<h:td>€ 10.475.000,00</h:td>
+											<h:td />
+											<h:td>€ 10.475.000,00</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>6.1.3</h:td>
+											<h:td>€ 62.084.578,00</h:td>
+											<h:td>€ 71.386.288,27</h:td>
+											<h:td>€ 61.084.578,00</h:td>
+											<h:td>€ 64.464.578,00</h:td>
+											<h:td />
+											<h:td>€ 65.464.578,00</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>6.1.4</h:td>
+											<h:td>€ 8.285.891,91</h:td>
+											<h:td>€ 21.785.892,00</h:td>
+											<h:td>€ 1.300.000,00</h:td>
+											<h:td>€ 7.800.000,00</h:td>
+											<h:td />
+											<h:td>€ 7.500.000,00</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>Totale</h:td>
+											<h:td>€ 83.300.269,91</h:td>
+											<h:td>€ 104.065.964,27</h:td>
+											<h:td>€ 75.314.378,00</h:td>
+											<h:td>€ 83.214.378,00</h:td>
+											<h:td>€ _</h:td>
+											<h:td>€ 83.914.378,00</h:td>
+										</h:tr>
+									</h:tbody>
+								</h:table>
+								<h:p>(3) Per consentire una più completa rappresentazione delle risorse disponibili nella colonna "Importo rimodulato su bilancio ..." sono state inserite anche le risorse FAS 2007 - 2013 per la quota destinata ad integrare le risorse libere regionali finalizzate al finanziamento degli interventi di spesa aggiuntivi.</h:p>
+							</contenitore>
+							<contenitore finevigore="t7" id="con25-t7" iniziovigore="t1" nome="" status="abrogato">
 								<h:p>13. Piano integrato della cultura (PIC) 2008/2010, approvato con Delibera del Consiglio Regionale n. 129 del 5 dicembre 2007:</h:p>
 								<h:table>
 									<h:tbody>
@@ -2102,7 +3498,59 @@
 									</h:tbody>
 								</h:table>
 							</contenitore>
-							<contenitore id="con18" nome="">
+							<contenitore id="con26" iniziovigore="t7" nome="">
+								<h:p>13. Piano integrato della cultura (PIC) 2008 - 2010, approvato con deliberazione del Consiglio regionale n. 129 del 5 dicembre 2007:</h:p>
+								<h:table>
+									<h:tbody>
+										<h:tr>
+											<h:td>U.P.B.</h:td>
+											<h:td>Importo previsto nel piano per il 2009</h:td>
+											<h:td>Importo rimodulato su bilancio di previsione 2009</h:td>
+											<h:td>Importo previsto nel piano per il 2010</h:td>
+											<h:td>Importo rimodulato su bilancio pluriennale, annualità 2010</h:td>
+											<h:td>Importo previsto nel piano per il 2011</h:td>
+											<h:td>Importo rimodulato su bilancio pluriennale, annualità 2011</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+										</h:tr>
+										<h:tr>
+											<h:td>631</h:td>
+											<h:td>€ 15.485.758,42</h:td>
+											<h:td>€ 18.353.006,42</h:td>
+											<h:td>€ 15.168.889,85</h:td>
+											<h:td>€ 15.689.902,35</h:td>
+											<h:td />
+											<h:td>€ 15.439.902,35</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>632</h:td>
+											<h:td>€ 6.150.000,00</h:td>
+											<h:td>€ 6.650.000,00</h:td>
+											<h:td>€ 5.000.000,00</h:td>
+											<h:td>€ 8.750.000,00</h:td>
+											<h:td />
+											<h:td>€ 8.750.000,00</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>Totale</h:td>
+											<h:td>€ 21.635.758,42</h:td>
+											<h:td>€ 25.003.006,42</h:td>
+											<h:td>€ 20.168.889,85</h:td>
+											<h:td>€ 24.439.902,35</h:td>
+											<h:td>€ _</h:td>
+											<h:td>€ 24.189.902,35</h:td>
+										</h:tr>
+									</h:tbody>
+								</h:table>
+							</contenitore>
+							<contenitore finevigore="t7" id="con27-t7" iniziovigore="t1" nome="" status="abrogato">
 								<h:p>14. Piano per la promozione della cultura e della pratica delle attività motorie 2008/2010, approvato con Delibera del Consiglio Regionale n. 40 del 15 maggio 2008:</h:p>
 								<h:table>
 									<h:tbody>
@@ -2154,7 +3602,59 @@
 									</h:tbody>
 								</h:table>
 							</contenitore>
-							<contenitore id="con19" nome="">
+							<contenitore id="con28" iniziovigore="t7" nome="">
+								<h:p>14. Piano per la promozione della cultura e della pratica delle attività motorie 2008 - 2010, approvato con deliberazione del Consiglio regionale n. 40 del 15 maggio 2008:</h:p>
+								<h:table>
+									<h:tbody>
+										<h:tr>
+											<h:td>U.P.B.</h:td>
+											<h:td>Importo previsto nel piano per il 2009</h:td>
+											<h:td>Importo rimodulato su bilancio di previsione 2009</h:td>
+											<h:td>Importo previsto nel piano per il 2010</h:td>
+											<h:td>Importo rimodulato su bilancio pluriennale, annualità 2010</h:td>
+											<h:td>Importo previsto nel piano per il 2011</h:td>
+											<h:td>Importo rimodulato su bilancio pluriennale, annualità 2011</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+											<h:td />
+										</h:tr>
+										<h:tr>
+											<h:td>621</h:td>
+											<h:td>€ 700.000,00</h:td>
+											<h:td>€ 850.000,00</h:td>
+											<h:td>€ 700.000,00</h:td>
+											<h:td>€ 700.000,00</h:td>
+											<h:td />
+											<h:td>€ 700.000,00</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>623</h:td>
+											<h:td>€ 1.000.000,00</h:td>
+											<h:td>€ 5.000.000,00</h:td>
+											<h:td>€ 1.000.000,00</h:td>
+											<h:td>€ 1.000.000,00</h:td>
+											<h:td />
+											<h:td>€ 1.000.000,00</h:td>
+										</h:tr>
+										<h:tr>
+											<h:td>Totale</h:td>
+											<h:td>€ 1.700.000,00</h:td>
+											<h:td>€ 5.850.000,00</h:td>
+											<h:td>€ 1.700.000,00</h:td>
+											<h:td>€ 1.700.000,00</h:td>
+											<h:td>€ _</h:td>
+											<h:td>€ 1.700.000,00</h:td>
+										</h:tr>
+									</h:tbody>
+								</h:table>
+							</contenitore>
+							<contenitore id="con29" nome="">
 								<h:p>15. Piano integrato sociale regionale (PISR) 2007/2010, approvato con Delibera del Consiglio Regionale n. 113 del 31 ottobre 2007: (4)</h:p>
 								<h:table>
 									<h:tbody>
@@ -2288,7 +3788,7 @@
 								</h:table>
 								<h:p>(4) Comprende le risorse regionali aggiuntive stanziate per il PIR "Assistenza e integrazione per la non autosufficienza"</h:p>
 							</contenitore>
-							<contenitore id="con20" iniziovigore="t6" nome="">
+							<contenitore id="con30" iniziovigore="t6" nome="">
 								<h:p>15 bis. Piano agricolo regionale (PAR) 2008-2010, approvato con Delibera del Consiglio regionale n. 98 del 23 dicembre 2008:</h:p>
 								<h:table>
 									<h:tbody>
@@ -2406,7 +3906,7 @@
 							<titoloDoc>Prospetto degli incrementi del contributo per le gestioni associate per l'anno 2009</titoloDoc>
 						</intestazione>
 						<formulainiziale />
-						<contenitore id="con21" nome="">
+						<contenitore id="con31" nome="">
 							<h:p />
 							<h:table>
 								<h:tbody>

@@ -17,10 +17,12 @@
 					<eventi>
 						<evento data="20061108" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20081108" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="20090806" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2006-11-02;52" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2008-11-03;58" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2008-11-03;58" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -61,6 +63,21 @@
 								<dsp:pos xlink:href="#art1quater" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1ter-com1-letb-t3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-11-03;58" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-11-03;58#art3bis" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo3bis, legge Regione Toscana 3 novembre 2008, n. 58" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art1ter-com1-letc" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art1ter-com1-letb-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -170,10 +187,18 @@
 								) e per le cinque annualità successive, i veicoli nuovi di potenza non superiore a 100 chilowatt (KW) a doppia alimentazione a benzina/GPL o a benzina/ metano, appartenenti alle categorie internazionali M1 e N1, immatricolati per la prima volta dal 1° gennaio al 31 dicembre 2009;
 							</corpo>
 						</el>
-						<el id="art1ter-com1-letb">
+						<el finevigore="t3" id="art1ter-com1-letb-t3" iniziovigore="t1" status="abrogato">
 							<num>b)</num>
 							<corpo>
 								per cinque annualità successive i veicoli immatricolati prima della data di entrata in vigore della presente legge, conformi alla
+								<rif xlink:href="urn:nir:comunita.europee:direttiva:1994-03-23;94-12-ce" xlink:type="simple">direttiva 94/12/CE del Parlamento europeo e del Consiglio del 23 marzo 1994</rif>
+								, appartenenti alle categorie internazionali M1 e N1, su cui sia installato un sistema di alimentazione a GPL o a metano, collaudato nel 2009.
+							</corpo>
+						</el>
+						<el id="art1ter-com1-letc" iniziovigore="t3">
+							<num>b)</num>
+							<corpo>
+								per cinque annualità successive i veicoli immatricolati entro il 31 dicembre 2008, conformi alla
 								<rif xlink:href="urn:nir:comunita.europee:direttiva:1994-03-23;94-12-ce" xlink:type="simple">direttiva 94/12/CE del Parlamento europeo e del Consiglio del 23 marzo 1994</rif>
 								, appartenenti alle categorie internazionali M1 e N1, su cui sia installato un sistema di alimentazione a GPL o a metano, collaudato nel 2009.
 							</corpo>
@@ -183,7 +208,7 @@
 						<num>2.</num>
 						<corpo>
 							Le cinque annualità di cui al
-							<rif xlink:href="#art1ter-com1-letb" xlink:type="simple">comma 1, lettera b)</rif>
+							<rif xlink:href="#art1ter-com1-letb-t3" xlink:type="simple">comma 1, lettera b)</rif>
 							, decorrono dal periodo d'imposta seguente a quello durante il quale avviene il collaudo dell'installazione del sistema di alimentazione a GPL o metano se il veicolo ha già corrisposto la tassa automobilistica per tale periodo, ovvero dal periodo d'imposta nel quale avviene il collaudo dell'installazione del sistema GPL o metano se l'obbligo del pagamento della tassa automobilistica è stato precedentemente interrotto ai sensi di legge.
 						</corpo>
 					</comma>
