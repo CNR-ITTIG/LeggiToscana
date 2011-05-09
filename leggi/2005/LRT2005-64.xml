@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20051212" num="44" tipo="BURT" />
 					<entratainvigore norm="20051227" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2005-12-02;64" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2005-12-02;64" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2005-12-02;64@2009-11-19" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Assistenza Sanitaria" />
 					</materie>
@@ -15,11 +16,29 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="20051227" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20100101" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2005-12-02;64" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2009-11-19;69" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-11-19;69" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-11-19;69#art12-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 12, comma 1 della legge Regione Toscana 19 novembre 2009, n. 69" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art8-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -217,18 +236,18 @@
 						<corpo>Le risorse finalizzate al servizio sanitario penitenziario sono assegnate annualmente dalla Giunta regionale alle aziende unità sanitarie locali, tenendo conto delle tipologie degli istituti penitenziari, della consistenza della popolazione carceraria e dei problemi specifici di salute rilevati dalle aziende unità sanitarie locali, sentite le direzioni carcerarie.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art8">
+				<articolo finevigore="t2" id="art8-t2" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 8</num>
 					<rubrica>(Ufficio del garante delle persone sottoposte a misure restrittive della libertà personale)</rubrica>
-					<comma id="art8-com1">
+					<comma id="art8-t2-com1">
 						<num>1.</num>
 						<corpo>
 							La Regione istituisce, così come previsto dal
-							<rif xlink:href="#art8-com2" xlink:type="simple">successivo comma 2</rif>
+							<rif xlink:href="#art8-t2-com2" xlink:type="simple">successivo comma 2</rif>
 							, l'ufficio del garante, presso il Consiglio regionale, al quale è demandato il compito di assumere, in piena autonomia e indipendenza di giudizio e valutazione, le iniziative necessarie perché sia garantita la tutela della salute e la qualità della vita delle persone sottoposte a misure restrittive della libertà personale.
 						</corpo>
 					</comma>
-					<comma id="art8-com2">
+					<comma id="art8-t2-com2">
 						<num>2.</num>
 						<corpo>Con apposito provvedimento della Regione, da approvarsi entro centoventi giorni dall'entrata in vigore della presente legge, sono definite le funzioni e le modalità organizzative dell'ufficio del garante.</corpo>
 					</comma>
