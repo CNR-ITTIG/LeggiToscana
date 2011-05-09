@@ -15,7 +15,8 @@
 					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1998-12-11;91@2005-02-01" />
 					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1998-12-11;91@2007-05-21" />
 					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1998-12-11;91@2008-10-24" />
-					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1998-12-11;91@2008-11-21" />
+					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1998-12-11;91@2008-11-21" />
+					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1998-12-11;91@2009-11-09" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tutela Ambientale" />
 						<materia valore="Protezione Civile" />
@@ -32,6 +33,7 @@
 						<evento data="20070525" fonte="rp6" id="t7" tipo="modifica" />
 						<evento data="20081115" fonte="rp7" id="t8" tipo="modifica" />
 						<evento data="20081129" fonte="rp8" id="t9" tipo="modifica" />
+						<evento data="20091128" fonte="rp9" id="t10" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-12-11;91" xlink:type="simple" />
@@ -43,6 +45,7 @@
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2007-05-21;29" xlink:type="simple" />
 						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:2008-10-24;56" xlink:type="simple" />
 						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple" />
+						<passiva id="rp9" xlink:href="urn:nir:regione.toscana:legge:2009-11-09;66" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -141,7 +144,7 @@
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art14-com1-letg" xlink:type="simple" />
+							<dsp:pos xlink:href="#art14-com1-letg-t10" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-01-16;1" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-01-16;1#art31-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -149,7 +152,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art14-com1-letg" xlink:type="simple" />
+								<dsp:pos xlink:href="#art14-com1-letg-t10" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art14-com1-letg-t4" xlink:type="simple" />
@@ -269,6 +272,21 @@
 								<dsp:pos xlink:href="#art12quater" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art14-com1-letg" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-11-09;66" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-11-09;66#art7-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 7, comma 1 della legge Regione Toscana 9 novembre 2009, n. 66" id="itt18" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art14-com1-letg" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art14-com1-letg-t10" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -1051,9 +1069,19 @@
 								<num>g)</num>
 								<corpo>gestione del demanio idrico, ivi comprese le funzioni relative alle derivazioni di acqua pubblica, alla ricerca, estrazione ed utilizzazione delle acque sotterranee, alla tutela del sistema idrico sotterraneo;</corpo>
 							</el>
-							<el id="art14-com1-letg" iniziovigore="t4">
+							<el finevigore="t10" id="art14-com1-letg-t10" iniziovigore="t4" status="abrogato">
 								<num>g)</num>
 								<corpo>gestione del demanio idrico, ivi comprese le funzioni relative alle derivazioni di acqua pubblica, alla ricerca, estrazione ed utilizzazione delle acque sotterranee, alla tutela del sistema idrico sotterraneo, nonché la determinazione dei canoni di concessione per l'utilizzo del demanio stesso e l'introito dei relativi proventi,</corpo>
+							</el>
+							<el id="art14-com1-letg" iniziovigore="t10">
+								<num>g)</num>
+								<corpo>
+									gestione del demanio idrico, ivi comprese le funzioni relative alle derivazioni di acqua pubblica, alla ricerca, estrazione ed utilizzazione delle acque sotterranee, alla tutela del sistema idrico sotterraneo, nonché la determinazione dei canoni di concessione per l'utilizzo del demanio stesso e l'introito dei relativi proventi, anche nel rispetto dei criteri specifici previsti per le aree demaniali prospicienti le vie navigabili di cui all'
+									<rif xlink:href="urn:nir:regione.toscana:legge:1998-12-01;88#art27bis" xlink:type="simple">articolo 27 bis della legge regionale 1 dicembre 1998, n. 88</rif>
+									(Attribuzione agli enti locali e disciplina generale delle funzioni amministrative e dei compiti in materia di urbanistica e pianificazione territoriale, protezione della natura e dell'ambiente, tutela dell'ambiente dagli inquinamenti e gestione dei rifiuti, risorse idriche e difesa del suolo, energia e risorse geotermiche, opere pubbliche, viabilità e trasporti conferite alla Regione dal
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:1998-03-31;112" xlink:type="simple">decreto legislativo 31 marzo 1998, n. 112</rif>
+									);
+								</corpo>
 							</el>
 							<el id="art14-com1-leth">
 								<num>h)</num>
