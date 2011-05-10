@@ -16,7 +16,8 @@
 					<urn finevigore="t16" iniziovigore="t15" valore="urn:nir:regione.toscana:legge:1997-08-11;65@2006-04-03" />
 					<urn finevigore="t17" iniziovigore="t16" valore="urn:nir:regione.toscana:legge:1997-08-11;65@2006-12-18" />
 					<urn finevigore="t18" iniziovigore="t17" valore="urn:nir:regione.toscana:legge:1997-08-11;65@2008-10-24" />
-					<urn iniziovigore="t18" valore="urn:nir:regione.toscana:legge:1997-08-11;65@2008-11-21" />
+					<urn finevigore="t19" iniziovigore="t18" valore="urn:nir:regione.toscana:legge:1997-08-11;65@2008-11-21" />
+					<urn iniziovigore="t19" valore="urn:nir:regione.toscana:legge:1997-08-11;65@2009-11-30" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Parchi" />
 					</materie>
@@ -41,6 +42,7 @@
 						<evento data="20070106" fonte="rp7" id="t16" tipo="modifica" />
 						<evento data="20081115" fonte="rp8" id="t17" tipo="modifica" />
 						<evento data="20081129" fonte="rp9" id="t18" tipo="modifica" />
+						<evento data="20091224" fonte="rp10" id="t19" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1997-08-11;65" xlink:type="simple" />
@@ -61,6 +63,7 @@
 						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:2006-12-18;63" xlink:type="simple" />
 						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:2008-10-24;56" xlink:type="simple" />
 						<passiva id="rp9" xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple" />
+						<passiva id="rp10" xlink:href="urn:nir:regione.toscana:legge:2009-11-30;73" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -353,6 +356,15 @@
 								<dsp:pos xlink:href="#art20-com2-t18" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:termine da="#t19" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-11-30;73" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-11-30;73#mod1" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:variazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -1576,8 +1588,22 @@
 									<materia valore="Parchi" />
 								</materie>
 							</descrittori>
+							<redazionale xlink:type="simple">
+								<nota id="ann1-n1">
+									<h:p>
+										Cartografia modificata dalla
+										<rif xlink:href="urn:nir:regione.toscana:legge:2009-11-30;73" xlink:type="simple">legge regionale 30 novembre 2009, n. 73</rif>
+										.
+									</h:p>
+								</nota>
+							</redazionale>
 						</meta>
-						<intestazione />
+						<intestazione>
+							<titoloDoc>
+								Cartografia
+								<ndr num="#ann1-n1" valore="" xlink:type="simple">(c)</ndr>
+							</titoloDoc>
+						</intestazione>
 						<formulainiziale />
 						<contenitore id="con1" nome="">
 							<h:p>Omissis</h:p>
