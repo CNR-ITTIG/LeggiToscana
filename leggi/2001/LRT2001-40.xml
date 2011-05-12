@@ -12,7 +12,8 @@
 					<urn finevigore="t16" iniziovigore="t15" valore="urn:nir:regione.toscana:legge:2001-08-16;40@2005-12-27" />
 					<urn finevigore="t17" iniziovigore="t16" valore="urn:nir:regione.toscana:legge:2001-08-16;40@2006-07-11" />
 					<urn finevigore="t18" iniziovigore="t17" valore="urn:nir:regione.toscana:legge:2001-08-16;40@2007-06-21" />
-					<urn iniziovigore="t18" valore="urn:nir:regione.toscana:legge:2001-08-16;40@2008-06-26" />
+					<urn finevigore="t19" iniziovigore="t18" valore="urn:nir:regione.toscana:legge:2001-08-16;40@2008-06-26" />
+					<urn iniziovigore="t19" valore="urn:nir:regione.toscana:legge:2001-08-16;40@2009-12-14" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ordinamento" />
 						<materia valore="Enti Territoriali" />
@@ -38,6 +39,7 @@
 						<evento data="20060802" fonte="rp3" id="t16" tipo="modifica" />
 						<evento data="20070717" fonte="rp4" id="t17" tipo="modifica" />
 						<evento data="20080628" fonte="rp5" id="t18" tipo="modifica" />
+						<evento data="20100102" fonte="rp6" id="t19" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2001-08-16;40" xlink:type="simple" />
@@ -58,6 +60,7 @@
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2006-07-11;31" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2007-06-21;35" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2008-06-26;37" xlink:type="simple" />
+						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -793,6 +796,18 @@
 								<dsp:pos xlink:href="#art8-com4-letc-num5bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75#art12-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 12, comma 1 della legge Regione Toscana 14 dicembre 2009, n. 75" id="itt37" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art13-t19" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -1626,10 +1641,10 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art13">
+				<articolo finevigore="t19" id="art13-t19" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 13</num>
 					<rubrica>(Ambiti territoriali delle comunità montane)</rubrica>
-					<comma id="art13-com1">
+					<comma id="art13-t19-com1">
 						<num>1.</num>
 						<corpo>
 							Resta ferma la procedura di individuazione degli ambiti territoriali delle comunità montane disciplinata dalla

@@ -13,7 +13,8 @@
 					<urn finevigore="t15" iniziovigore="t13" valore="urn:nir:regione.toscana:legge:2000-02-25;16@2004-04-21" />
 					<urn finevigore="t16" iniziovigore="t15" valore="urn:nir:regione.toscana:legge:2000-02-25;16@2007-06-28" />
 					<urn finevigore="t14" iniziovigore="t16" valore="urn:nir:regione.toscana:legge:2000-02-25;16@2008-11-21" />
-					<urn iniziovigore="t14" valore="urn:nir:regione.toscana:legge:2000-02-25;16@2004-07-27" />
+					<urn finevigore="t17" iniziovigore="t14" valore="urn:nir:regione.toscana:legge:2000-02-25;16@2004-07-27" />
+					<urn iniziovigore="t17" valore="urn:nir:regione.toscana:legge:2000-02-25;16@2009-12-14" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Assistenza Sanitaria" />
 					</materie>
@@ -36,6 +37,7 @@
 						<evento data="20090331" fonte="rp4" id="t14" tipo="modifica" />
 						<evento data="20070717" fonte="rp5" id="t15" tipo="modifica" />
 						<evento data="20081129" fonte="rp6" id="t16" tipo="modifica" />
+						<evento data="20100102" fonte="rp7" id="t17" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2000-02-25;16" xlink:type="simple" />
@@ -54,6 +56,7 @@
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2004-07-27;38" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2007-06-28;36" xlink:type="simple" />
 						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple" />
+						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -1134,11 +1137,11 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art7-com1bis" xlink:type="simple" />
+								<dsp:pos xlink:href="#art7-com1bis-t17" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:integrazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art17-com2" xlink:type="simple" />
+							<dsp:pos xlink:href="#art17-com2-t17" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62#art20-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -1174,6 +1177,36 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art4-com1-t16" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7-com1bis" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75#art70-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 70, comma 1 della legge Regione Toscana 14 dicembre 2009, n. 75" id="itt72" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art7-com1bis" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art7-com1bis-t17" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art17-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75#art71-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 71, comma 1 della legge Regione Toscana 14 dicembre 2009, n. 75" id="itt73" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art17-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art17-com2-t17" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -1529,12 +1562,28 @@
 								.
 							</corpo>
 						</comma>
-						<comma id="art7-com1bis" iniziovigore="t16">
+						<comma finevigore="t17" id="art7-com1bis-t17" iniziovigore="t16" status="abrogato">
 							<num>1 bis.</num>
 							<alinea>Con riferimento ai procedimenti finalizzati a garantire l'igiene degli alimenti, le aziende USL nella loro attività di vigilanza e di controllo:</alinea>
-							<el id="art7-com1bis-leta">
+							<el id="art7-com1bis-t17-leta">
 								<num>a)</num>
 								<corpo>formulano prescrizioni dirette ad assicurare il rispetto della normativa in materia di igiene alimentare;</corpo>
+							</el>
+							<el id="art7-com1bis-t17-letb">
+								<num>b)</num>
+								<corpo>dispongono il sequestro e la distruzione degli alimenti considerati pericolosi per la salute, a meno che possano essere utilizzati per scopi diversi dall'alimentazione umana;</corpo>
+							</el>
+							<el id="art7-com1bis-t17-letc">
+								<num>c)</num>
+								<corpo>dispongono il blocco ufficiale di alimenti e mangimi o la sospensione di attività o la chiusura temporanea dello stabilimento.</corpo>
+							</el>
+						</comma>
+						<comma id="art7-com1bis" iniziovigore="t17">
+							<num>1 bis.</num>
+							<alinea>Con riferimento ai procedimenti finalizzati a garantire l'igiene degli alimenti e dei mangimi, la salute e il benessere degli animali, le aziende USL, nella loro attività di vigilanza e controllo:</alinea>
+							<el id="art7-com1bis-leta">
+								<num>a)</num>
+								<corpo>formulano prescrizioni dirette ad assicurare il rispetto della normativa in materia di igiene alimentare e di mangimi, di salute e benessere degli animali;</corpo>
 							</el>
 							<el id="art7-com1bis-letb">
 								<num>b)</num>
@@ -1542,7 +1591,15 @@
 							</el>
 							<el id="art7-com1bis-letc">
 								<num>c)</num>
-								<corpo>dispongono il blocco ufficiale di alimenti e mangimi o la sospensione di attività o la chiusura temporanea dello stabilimento.</corpo>
+								<corpo>dispongono il sequestro di mangimi pericolosi per la salute degli animali e per le produzioni zootecniche destinate al consumo umano;</corpo>
+							</el>
+							<el id="art7-com1bis-letd">
+								<num>d)</num>
+								<corpo>dispongono il blocco ufficiale e l'abbattimento degli animali, nonché il blocco ufficiale e la distruzione di attrezzature fisse e mobili, di mangimi, di prodotti agricoli e di prodotti zootecnici, quando previsto dalle norme sul patrimonio zootecnico;</corpo>
+							</el>
+							<el id="art7-com1bis-lete">
+								<num>e)</num>
+								<corpo>dispongono il blocco ufficiale di alimenti e mangimi o la sospensione di attività o la chiusura temporanea dello stabilimento, nonché il blocco ufficiale di animali e delle loro produzioni.</corpo>
 							</el>
 						</comma>
 						<comma id="art7-com2">
@@ -2431,7 +2488,7 @@
 								<num>1.</num>
 								<corpo>La proiezione è un presidio farmaceutico sussidiario della farmacia nell'ambito della sede farmaceutica di sua pertinenza prevista in pianta organica. Essa svolge il normale servizio farmaceutico e non ha obbligo di laboratorio per la spedizione di ricette galeniche "ex tempore".</corpo>
 							</comma>
-							<comma id="art17-com2">
+							<comma finevigore="t17" id="art17-com2-t17" iniziovigore="t1" status="abrogato">
 								<num>2.</num>
 								<corpo>
 									Nei comuni con popolazione fino a dodicimilacinquecento abitanti
@@ -2442,6 +2499,10 @@
 									<rif xlink:href="urn:nir:stato:decreto.legislativo:1998-03-31;114" xlink:type="simple">decreto legislativo 31 marzo 1998, n. 114</rif>
 									"), nelle aree territoriali individuate con deliberazione del Consiglio regionale 21 febbraio 2000, n. 69.
 								</corpo>
+							</comma>
+							<comma id="art17-com2" iniziovigore="t17">
+								<num>2.</num>
+								<corpo>Nei comuni con popolazione fino a dodicimilacinquecento abitanti, o nei comuni classificati montani o parzialmente montani ai sensi della normativa statale e regionale, qualora non vi siano i requisiti per aprire una farmacia ai sensi della normativa statale, il sindaco, nel mese di febbraio di ogni anno, al fine di garantire più adeguati livelli di assistenza farmaceutica, in presenza di particolari condizioni topografiche e di viabilità può proporre l'istituzione, all'interno di ciascuna sede farmaceutica, di una proiezione della farmacia stessa, a condizione che la stessa venga ubicata in un centro o nucleo abitato con una popolazione non inferiore a mille abitanti. Tale limite non si applica nelle aree territoriali individuate con deliberazione del Consiglio regionale 21 febbraio 2000, n. 69.</corpo>
 							</comma>
 							<comma id="art17-com3">
 								<num>3.</num>

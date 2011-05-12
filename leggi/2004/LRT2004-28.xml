@@ -10,7 +10,8 @@
 					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2004-05-31;28" />
 					<urn finevigore="t4" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2004-05-31;28@2007-07-27" />
 					<urn finevigore="t6" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:2004-05-31;28@2006-12-18" />
-					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2004-05-31;28@2007-12-07" />
+					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2004-05-31;28@2007-12-07" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:2004-05-31;28@2009-12-14" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sicurezza" />
 					</materie>
@@ -23,6 +24,7 @@
 						<evento data="20071025" fonte="rp1" id="t4" tipo="modifica" />
 						<evento data="20070731" fonte="rp2" id="t5" tipo="modifica" />
 						<evento data="20071229" fonte="rp3" id="t6" tipo="modifica" />
+						<evento data="20100102" fonte="rp4" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2004-05-31;28" xlink:type="simple" />
@@ -31,6 +33,7 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2006-12-18;62" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2007-12-07;63" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -238,6 +241,21 @@
 								<dsp:pos xlink:href="#art12-com6bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75#art72-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 72, comma 1 della legge Regione Toscana 14 dicembre 2009, n. 75" id="itt14" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h12" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -877,7 +895,10 @@
 						<corpo>
 							Per un periodo non superiore a cinque anni dall'entrata in vigore del regolamento regionale di cui all'
 							<rif xlink:href="#art5" xlink:type="simple">articolo 5</rif>
-							, coloro che, alla stessa data, esercitano attività di tatuaggio ed attività di piercing senza una specifica qualificazione professionale, possono continuare dette attività trasmettendo, entro un anno dall'entrata in vigore del regolamento regionale, il certificato d'iscrizione al percorso formativo d'interesse al comune competente al rilascio dell'autorizzazione per l'attività, cui dovrà seguire, nei quattro anni successivi l'attestazione dell'avvenuta acquisizione della qualifica. A seguito della mancata trasmissione nei termini, previa diffida a provvedere, il comune dispone la cessazione dell'attività.
+							, coloro che, alla stessa data, esercitano attività di tatuaggio ed attività di piercing senza una specifica qualificazione professionale, possono continuare dette attività trasmettendo, entro un anno dall'entrata in vigore del regolamento regionale, il certificato d'iscrizione al percorso formativo d'interesse al
+							<h:span finevigore="t7" id="h11" iniziovigore="t1" status="abrogato">comune competente al rilascio dell'autorizzazione per l'attività</h:span>
+							<h:span id="h12" iniziovigore="t7">comune competente a ricevere la dichiarazione di inizio attività</h:span>
+							, cui dovrà seguire, nei quattro anni successivi l'attestazione dell'avvenuta acquisizione della qualifica. A seguito della mancata trasmissione nei termini, previa diffida a provvedere, il comune dispone la cessazione dell'attività.
 						</corpo>
 					</comma>
 				</articolo>

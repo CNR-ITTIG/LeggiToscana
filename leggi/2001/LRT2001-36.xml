@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t18" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2001-08-06;36" />
 					<urn finevigore="t19" iniziovigore="t18" valore="urn:nir:regione.toscana:legge:2001-08-06;36@2004-12-27" />
-					<urn iniziovigore="t19" valore="urn:nir:regione.toscana:legge:2001-08-06;36@2008-02-05" />
+					<urn finevigore="t20" iniziovigore="t19" valore="urn:nir:regione.toscana:legge:2001-08-06;36@2008-02-05" />
+					<urn iniziovigore="t20" valore="urn:nir:regione.toscana:legge:2001-08-06;36@2009-12-14" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Contabilità Contratti" />
@@ -36,6 +37,7 @@
 						<evento data="20020101" fonte="ra16" id="t17" tipo="modifica" />
 						<evento data="20050106" fonte="rp1" id="t18" tipo="modifica" />
 						<evento data="20080228" fonte="rp2" id="t19" tipo="modifica" />
+						<evento data="20100102" fonte="rp3" id="t20" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2001-08-06;36" xlink:type="simple" />
@@ -57,6 +59,7 @@
 						<attiva id="ra16" xlink:href="urn:nir:regione.toscana:legge:1998-08-13;59" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2004-12-27;76" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2008-02-05;4" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -328,7 +331,7 @@
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art12-com2" xlink:type="simple" />
+							<dsp:pos xlink:href="#art12-t20-com2" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-12-27;76" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-12-27;76#art6-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -336,10 +339,10 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art12-com2" xlink:type="simple" />
+								<dsp:pos xlink:href="#art12-t20-com2" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#art12-com2-t18" xlink:type="simple" />
+								<dsp:pos xlink:href="#art12-t20-com2-t18" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -642,6 +645,21 @@
 								<dsp:pos xlink:href="#art3-t19" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art12" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75#art105-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 105, comma 1 della legge Regione Toscana 14 dicembre 2009, n. 75" id="itt29" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art12" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art12-t20" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -1193,10 +1211,10 @@
 							<corpo>Le leggi che comportano oneri a carico di esercizi successivi a quelli considerati dal bilancio pluriennale, si considerano integralmente coperte qualora lo siano con riguardo al periodo considerato dal bilancio pluriennale a legislazione vigente ed alle sue previsioni, a condizione che i relativi oneri abbiano nel tempo un andamento costante o raggiungano comunque l'importo maggiore nel periodo considerato dal bilancio pluriennale.</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art12">
+					<articolo finevigore="t20" id="art12-t20" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 12</num>
 						<rubrica>(Relazione tecnica sulle metodologie di quantificazione)</rubrica>
-						<comma id="art12-com1">
+						<comma id="art12-t20-com1">
 							<num>1.</num>
 							<corpo>
 								Le proposte di legge che disciplinano le entrate, mediante disposizioni suscettibili di influire sull'entità del loro gettito, e quelle che disciplinano le spese, prevedendo o modificando le disposizioni di cui all'
@@ -1204,29 +1222,49 @@
 								, sono corredate da una relazione tecnica.
 							</corpo>
 						</comma>
-						<comma finevigore="t18" id="art12-com2-t18" iniziovigore="t1" status="abrogato">
+						<comma finevigore="t18" id="art12-t20-com2-t18" iniziovigore="t1" status="abrogato">
 							<num>2.</num>
 							<corpo>
 								La relazione di cui al
-								<rif xlink:href="#art12-com1" xlink:type="simple">comma 1</rif>
+								<rif xlink:href="#art12-t20-com1" xlink:type="simple">comma 1</rif>
 								fornisce una valutazione sulla attendibilità della quantificazione delle grandezze finanziarie ed esplicita le metodologie a tal fine seguite e gli elementi e i criteri di calcolo impiegati, evidenziando gli eventuali oneri di gestione indotti dagli interventi di investimento. Nel caso di leggi inerenti le entrate, la relazione tecnica quantifica in termini di competenza il gettito che, nei singoli esercizi, sarà presuntivamente prodotto dalle relative disposizioni.
 							</corpo>
 						</comma>
-						<comma id="art12-com2" iniziovigore="t18">
+						<comma id="art12-t20-com2" iniziovigore="t18">
 							<num>2.</num>
 							<corpo>
 								La relazione di cui al
-								<rif xlink:href="#art12-com1" xlink:type="simple">comma 1</rif>
+								<rif xlink:href="#art12-t20-com1" xlink:type="simple">comma 1</rif>
 								fornisce una valutazione sull'attendibilità della quantificazione delle grandezze finanziarie ed esplicita le metodologie a tal fine seguite e gli elementi ed i criteri di calcolo impiegati, evidenziando gli eventuali oneri di gestione indotti dagli interventi; nel caso di leggi inerenti le entrate, la relazione tecnica quantifica in termini di competenza il gettito che, nei singoli esercizi, sarà presuntivamente prodotto dalle relative disposizioni.
 							</corpo>
 						</comma>
-						<comma id="art12-com3">
+						<comma id="art12-t20-com3">
 							<num>3.</num>
 							<corpo>
 								In caso di progetti legislativi e di emendamenti consiliari che contengano le disposizioni di cui al
-								<rif xlink:href="#art12-com1" xlink:type="simple">comma 1</rif>
+								<rif xlink:href="#art12-t20-com1" xlink:type="simple">comma 1</rif>
 								, il Presidente del Consiglio regionale richiede alla Giunta una verifica sui contenuti delle relazioni tecniche correlate. La Giunta regionale provvede entro trenta giorni dalla richiesta, nel caso di progetti di legge, e nel più breve termine tecnicamente possibile, nel caso di emendamenti.
 							</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art12" iniziovigore="t20">
+						<num>Art. 12</num>
+						<rubrica>Relazione tecnico-finanziaria</rubrica>
+						<comma id="art12-com1">
+							<num>1.</num>
+							<corpo>
+								Le proposte di legge che disciplinano le entrate, mediante disposizioni suscettibili di influire sull'entità del loro gettito, e quelle che disciplinano le spese, pre vedendo o modificando le disposizioni di cui all'
+								<rif xlink:href="#art10-com1" xlink:type="simple">articolo 10, comma 1</rif>
+								, lettere b) e c), sono corredate di una rela zione tecnico-finanziaria.
+							</corpo>
+						</comma>
+						<comma id="art12-com2">
+							<num>2.</num>
+							<corpo>La relazione tecnico-finanziaria fornisce una valutazione sull'attendibilità della quantificazione delle grandezze finanziarie ed esplicita le metodologie a tal fine seguite e gli elementi ed i criteri di calcolo impiegati, evidenziando gli eventuali oneri di gestione indotti dagli interventi. Nel caso di leggi inerenti le entrate, la relazione tecnico-finanziaria quantifica in termini di competenza il gettito che, nei singoli esercizi, sarà presuntivamente prodotto dalle relative disposizioni.</corpo>
+						</comma>
+						<comma id="art12-com3">
+							<num>3.</num>
+							<corpo>In caso di progetti legislativi e di emendamenti consiliari che contengano le disposizioni di cui al comma 1, il Presidente del Consiglio regionale richiede alla Giunta regionale una verifica sui contenuti delle relazioni tecnico-finanziarie correlate. La Giunta regionale provvede entro trenta giorni dalla richiesta, nel caso di progetti di legge, e nel più breve termine tecnicamente possibile, nel caso di emendamenti.</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art13">

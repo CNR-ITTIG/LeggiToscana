@@ -8,7 +8,8 @@
 					<entratainvigore norm="20041221" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2004-12-17;70" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2004-12-17;70@2005-01-27" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2004-12-17;70@2005-01-27" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:2004-12-17;70@2009-12-14" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Attività Istituzionali" />
 					</materie>
@@ -17,10 +18,12 @@
 					<eventi>
 						<evento data="20041221" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20050129" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="20100102" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2004-12-17;70" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2005-01-27;16" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -149,7 +152,7 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art4" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-01-27;16" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-01-27;16#art5-com1-letb" xlink:type="simple" />
 								<dsp:subarg>
@@ -209,7 +212,7 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art18" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-01-27;16" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-01-27;16#art5-com1-letf" xlink:type="simple" />
 								<dsp:subarg>
@@ -220,6 +223,21 @@
 								<dsp:pos xlink:href="#art18-t2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art17" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75#art13-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 13, comma 1 della legge Regione Toscana 14 dicembre 2009, n. 75" id="itt16" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art17" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art17-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -1063,12 +1081,24 @@
 							</el>
 						</comma>
 					</articolo>
-					<articolo id="art17">
+					<articolo finevigore="t3" id="art17-t3" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 17</num>
 						<rubrica>(Rimborsi ai comuni)</rubrica>
-						<comma id="art17-com1">
+						<comma id="art17-t3-com1">
 							<num>1.</num>
 							<corpo>Gli oneri sostenuti dai comuni sono rimborsati dalla Regione, a seguito di rendiconto da presentare entro novanta giorni dallo svolgimento delle elezioni primarie.</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art17" iniziovigore="t3">
+						<num>Art. 17</num>
+						<rubrica>Rimborsi ai comuni</rubrica>
+						<comma id="art17-com1">
+							<num>1.</num>
+							<corpo>Gli oneri sostenuti dai comuni per lo svolgimento delle elezioni primarie sono rimborsati dalla Regione, nella misura stabilita ai sensi del comma 2, a seguito di rendiconto da presentare entro novanta giorni dallo svolgimento delle elezioni primarie.</corpo>
+						</comma>
+						<comma id="art17-com2">
+							<num>2.</num>
+							<corpo>Il rimborso di cui al comma 1, spettante ai comuni, è calcolato in base ad importi stabiliti per elettore e per sezione elettorale da una deliberazione della Giunta regionale.</corpo>
 						</comma>
 					</articolo>
 					<articolo finevigore="t2" id="art18-t2" iniziovigore="t1" status="abrogato">

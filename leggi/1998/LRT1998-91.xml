@@ -16,7 +16,8 @@
 					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1998-12-11;91@2007-05-21" />
 					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1998-12-11;91@2008-10-24" />
 					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:1998-12-11;91@2008-11-21" />
-					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1998-12-11;91@2009-11-09" />
+					<urn finevigore="t11" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:1998-12-11;91@2009-11-09" />
+					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1998-12-11;91@2009-12-14" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tutela Ambientale" />
 						<materia valore="Protezione Civile" />
@@ -34,6 +35,7 @@
 						<evento data="20081115" fonte="rp7" id="t8" tipo="modifica" />
 						<evento data="20081129" fonte="rp8" id="t9" tipo="modifica" />
 						<evento data="20091128" fonte="rp9" id="t10" tipo="modifica" />
+						<evento data="20100102" fonte="rp10" id="t11" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-12-11;91" xlink:type="simple" />
@@ -46,6 +48,7 @@
 						<passiva id="rp7" xlink:href="urn:nir:regione.toscana:legge:2008-10-24;56" xlink:type="simple" />
 						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple" />
 						<passiva id="rp9" xlink:href="urn:nir:regione.toscana:legge:2009-11-09;66" xlink:type="simple" />
+						<passiva id="rp10" xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -287,6 +290,36 @@
 								<dsp:pos xlink:href="#art14-com1-letg-t10" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75#art87-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 87, comma 1 della legge Regione Toscana 14 dicembre 2009, n. 75" id="itt19" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art5-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-com1-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art12bis-com4-leth" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75#art88-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 88, comma 1 della legge Regione Toscana 14 dicembre 2009, n. 75" id="itt20" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art12bis-com4-leth" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art12bis-com4-leth-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -515,11 +548,19 @@
 					<articolo id="art5">
 						<num>Art. 5</num>
 						<rubrica>(Segretario Generale)</rubrica>
-						<comma id="art5-com1">
+						<comma finevigore="t11" id="art5-com1-t11" iniziovigore="t1" status="abrogato">
 							<num>1.</num>
 							<corpo>
 								Il Segretario Generale è nominato dalla Giunta regionale, sentita la Conferenza di bacino, tra i membri del Comitato Tecnico di cui al
 								<rif xlink:href="#art4-com2-t3" xlink:type="simple">comma 2 dell'art. 4</rif>
+								.
+							</corpo>
+						</comma>
+						<comma id="art5-com1" iniziovigore="t11">
+							<num>1.</num>
+							<corpo>
+								Il segretario generale è nominato dal Presidente della Giunta regionale, sentita la conferenza di bacino, tra i membri del comitato tecnico di cui all'
+								<rif xlink:href="#art4-com2" xlink:type="simple">articolo 4, comma 2</rif>
 								.
 							</corpo>
 						</comma>
@@ -915,11 +956,19 @@
 								<num>g)</num>
 								<corpo>la definizione di criteri per la costituzione di riserve di acqua;</corpo>
 							</el>
-							<el id="art12bis-com4-leth">
+							<el finevigore="t11" id="art12bis-com4-leth-t11" iniziovigore="t1" status="abrogato">
 								<num>h)</num>
 								<corpo>
 									la definizione di criteri per il riuso delle acque, anche in attuazione di quanto previsto dall'
 									<rif xlink:href="urn:nir:stato:decreto.legislativo:2006;152#art99" xlink:type="simple">articolo 99 del d.lgs. 152/2006</rif>
+									;
+								</corpo>
+							</el>
+							<el id="art12bis-com4-leth" iniziovigore="t11">
+								<num>h)</num>
+								<corpo>
+									nel rispetto dei principi della legislazione statale, le norme e le misure volte a favorire il riciclo dell'acqua e il riutilizzo delle acque reflue depurate, ai sensi dell'
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:2006;152#art99-com2" xlink:type="simple">articolo 99, comma 2, del d.lgs. 152/2006</rif>
 									;
 								</corpo>
 							</el>
