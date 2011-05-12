@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1995-07-21;81" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1995-07-21;81@2000-03-08" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1995-07-21;81@2007-05-21" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1995-07-21;81@2007-05-21" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1995-07-21;81@2009-12-14" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Risorse Idriche" />
 					</materie>
@@ -19,11 +20,13 @@
 						<evento data="19950817" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20000401" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="20070525" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="20100102" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1995-07-21;81" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-03-08;21" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2007-05-21;29" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -131,6 +134,18 @@
 							</dsp:norma>
 							<dsp:novella>
 								<dsp:pos xlink:href="#art8bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8bis" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75#art83-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 83, comma 1 della legge Regione Toscana 14 dicembre 2009, n. 75" id="itt9" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art8ter" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 					</modifichepassive>
@@ -699,6 +714,66 @@
 					<comma id="art8bis-com7">
 						<num>7.</num>
 						<corpo>Restano ferme le competenze dei soggetti cui sono attribuiti i poteri di accertamento e contestazione di illeciti amministrativi in base alle vigenti leggi.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art8ter" iniziovigore="t4">
+					<num>Art. 8 ter</num>
+					<rubrica>Disciplina delle aree di salvaguardia delle acque superficiali e sotterranee destinate al consumo umano erogate a terzi mediante impianto di pubblico acquedotto</rubrica>
+					<comma id="art8ter-com1">
+						<num>1.</num>
+						<alinea>
+							In attuazione dell'
+							<mrif>
+								articolo 94, commi
+								<rif xlink:href="urn:nir:stato:decreto.legislativo:2006;152#art94-com1" xlink:type="simple">1</rif>
+								e
+								<rif xlink:href="urn:nir:stato:decreto.legislativo:2006;152#art94-com5" xlink:type="simple">5</rif>
+								del d.lgs. 152/2006
+							</mrif>
+							e nel rispetto di quanto previsto in detto articolo, con regolamento sono stabilite le norme tecniche per individuare le aree di salvaguardia delle acque superficiali e sotterranee destinate al consumo umano sulla base dei criteri idrogeologici, temporali o geometrici da applicare in relazione:
+						</alinea>
+						<el id="art8ter-com1-leta">
+							<num>a)</num>
+							<corpo>al grado di protezione naturale dell'acquifero e delle sue caratteristiche geologiche, idrogeologiche e podologiche;</corpo>
+						</el>
+						<el id="art8ter-com1-letb">
+							<num>b)</num>
+							<corpo>alle caratteristiche idrochimiche della falda captata;</corpo>
+						</el>
+						<el id="art8ter-com1-letc">
+							<num>c)</num>
+							<corpo>all'importanza della captazione in termini di volumi estratti e abitanti serviti;</corpo>
+						</el>
+						<el id="art8ter-com1-letd">
+							<num>d)</num>
+							<corpo>al contesto territoriale in cui è inserita la captazione.</corpo>
+						</el>
+					</comma>
+					<comma id="art8ter-com2">
+						<num>2.</num>
+						<alinea>Il regolamento di cui al comma 1, disciplina altresì:</alinea>
+						<el id="art8ter-com2-leta">
+							<num>a)</num>
+							<corpo>i tempi e le modalità di presentazione della proposta di perimetrazione delle aree di salvaguardia da parte delle autorità dell'ambito territoriale ottimale;</corpo>
+						</el>
+						<el id="art8ter-com2-letb">
+							<num>b)</num>
+							<corpo>
+								la struttura e le attività all'interno delle zone di rispetto, in attuazione dell'
+								<rif xlink:href="urn:nir:stato:decreto.legislativo:2006;152#art94-com5" xlink:type="simple">articolo 94, comma 5, del d.lgs.152/2006</rif>
+								.
+							</corpo>
+						</el>
+					</comma>
+					<comma id="art8ter-com3">
+						<num>3.</num>
+						<corpo>
+							Sulla base delle disposizioni del regolamento di cui al presente articolo ed in raccordo con il piano di indirizzo territoriale di cui all'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1#art48" xlink:type="simple">articolo 48 della legge regionale 3 gennaio 2005, n. 1</rif>
+							(Norme per il governo del territorio), il piano di tutela delle acque di cui all'
+							<rif xlink:href="urn:nir:stato:decreto.legislativo:2006;152#art121" xlink:type="simple">articolo 121 del d.lgs. 152/2006</rif>
+							individua le aree di salvaguardia distinte in zone di tutela assoluta e zone di rispetto.
+						</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art9">

@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1996-09-03;76" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1996-09-03;76@2005-01-03" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1996-09-03;76@2009-07-23" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1996-09-03;76@2009-07-23" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1996-09-03;76@2009-12-14" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ordinamento" />
 						<materia valore="Enti Territoriali" />
@@ -21,11 +22,13 @@
 						<evento data="19960927" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20050120" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="20090813" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="20100102" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1996-09-03;76" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -115,6 +118,18 @@
 							</dsp:norma>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art22-com2-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 14 dicembre 2009, n. 75" id="itt8" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h5" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>
@@ -440,9 +455,12 @@
 						<comma id="art9-com1">
 							<num>1.</num>
 							<corpo>
-								Il responsabile del procedimento, verificato il compimento degli eventuali adempimenti istruttori, provvede ad inviare ai legali rappresentanti di tutte le amministrazioni ed enti pubblici partecipanti, il testo definitivo dell'accordo di programma. Ai fini del compimento degli atti istruttori di competenza regionale, è sempre convocata prima della firma dell'accordo, una apposita conferenza dei servizi interna, secondo le modalità previste dal
-								<rif xlink:href="#art13" xlink:type="simple">successivo art. 13</rif>
-								, alla quale partecipano le strutture organizzative regionali coinvolte nel procedimento. Il verbale della conferenza dei servizi interna da atto della attività istruttoria svolta dalle singole strutture organizzative regionali e si esprime sul testo definitivo dell'accordo.
+								Il responsabile del procedimento, verificato il compimento degli eventuali adempimenti istruttori, provvede ad inviare ai legali rappresentanti di tutte le amministrazioni ed enti pubblici partecipanti, il testo definitivo dell'accordo di programma.
+								<h:span finevigore="t4" id="h5" iniziovigore="t1" status="abrogato">
+									Ai fini del compimento degli atti istruttori di competenza regionale, è sempre convocata prima della firma dell'accordo, una apposita conferenza dei servizi interna, secondo le modalità previste dal
+									<rif xlink:href="#art13" xlink:type="simple">successivo art. 13</rif>
+									, alla quale partecipano le strutture organizzative regionali coinvolte nel procedimento. Il verbale della conferenza dei servizi interna da atto della attività istruttoria svolta dalle singole strutture organizzative regionali e si esprime sul testo definitivo dell'accordo.
+								</h:span>
 							</corpo>
 						</comma>
 						<comma id="art9-com2">
