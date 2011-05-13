@@ -7,7 +7,8 @@
 					<pubblicazione norm="20080103" num="1" tipo="BURT" />
 					<entratainvigore norm="20080118" />
 					<redazione id="red1" nome="" norm="" />
-					<urn finevigore="t11" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2007-12-27;69" />
+					<urn finevigore="t12" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2007-12-27;69" />
+					<urn finevigore="t11" iniziovigore="t12" valore="urn:nir:regione.toscana:legge:2007-12-27;69@2009-12-14" />
 					<urn finevigore="t11" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:2007-12-27;69@2008-11-21" />
 					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:2007-12-27;69@2007-12-27" />
 				</descrittori>
@@ -24,6 +25,7 @@
 						<evento data="20080118" fonte="ra8" id="t9" tipo="modifica" />
 						<evento data="20081129" fonte="rp1" id="t10" tipo="modifica" />
 						<evento data="20121231" fonte="rp2" id="t11" tipo="modifica" />
+						<evento data="20100102" fonte="rp3" id="t12" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2007-12-27;69" xlink:type="simple" />
@@ -37,6 +39,7 @@
 						<attiva id="ra8" xlink:href="urn:nir:regione.toscana:legge:1998;25" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2007-12-27;69" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -256,6 +259,36 @@
 								<dsp:pos xlink:href="#art28-com1bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75#art21-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 21, comma 1 della legge Regione Toscana 14 dicembre 2009, n. 75" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6-com3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art6-com3-t12" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art14-com2-letb" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75#art22-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 22, comma 1 della legge Regione Toscana 14 dicembre 2009, n. 75" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -290,7 +323,7 @@
 								<num>2.</num>
 								<alinea>
 									La presente legge si pone in attuazione, in particolare, delle seguenti disposizioni dello
-									<rif xlink:href="urn:nir:regione.toscana:statuto:2005-02-11;nir-1" xlink:type="simple">xlink:type="simple"&gt;Statuto</rif>
+									<rif xlink:href="urn:nir:regione.toscana:statuto:2005-02-11;nir-1" xlink:type="simple">Statuto</rif>
 									:
 								</alinea>
 								<el id="art1-com2-leta">
@@ -545,12 +578,20 @@
 								<num>2.</num>
 								<corpo>L'Autorità definisce le opportune intese con la Giunta regionale, nonché con le agenzie e con gli enti strumentali della Regione, nell'ambito dei rispettivi compiti istituzionali, per attivare le necessarie forme di collaborazione fra gli uffici, ivi compresa l'utilizzazione dei dati documentali e statistici.</corpo>
 							</comma>
-							<comma id="art6-com3">
+							<comma finevigore="t12" id="art6-com3-t12" iniziovigore="t1" status="abrogato">
 								<num>3.</num>
 								<corpo>
 									L'Autorità riceve un'indennità di funzione determinata con deliberazione dell'Ufficio di presidenza del Consiglio regionale con riferimento all'indennità di carica spettante ai consiglieri regionali. Alla determinazione dell'indennità non concorre l'importo corrispondente alle ritenute previdenziali obbligatorie di cui alla
 									<rif xlink:href="urn:nir:regione.toscana:legge:1983-06-13;48" xlink:type="simple">legge regionale 13 giugno 1983, n. 48</rif>
 									(Norme sulla previdenza, l'assicurazione infortuni e l'indennità di fine mandato dei consiglieri della Regione toscana), e successive modificazioni.
+								</corpo>
+							</comma>
+							<comma id="art6-com3" iniziovigore="t12">
+								<num>3.</num>
+								<corpo>
+									L'Autorità riceve un'indennità di funzione deter minata con deliberazione dell'Ufficio di presidenza del Consiglio regionale con riferimento all'indennità di carica spettante ai consiglieri regionali. Alla determinazione dell'indennità non concorre l'importo corrispondente alla ritenuta previdenziale obbligatoria di cui all'
+									<rif xlink:href="urn:nir:regione.toscana:legge:2009-01-09;3#art4-com1" xlink:type="simple">articolo 4, comma 1, della legge regionale 9 gennaio 2009, n. 3</rif>
+									(Testo unico delle norme sui consiglieri e sui componenti della Giunta regionale). A far data dal 1° luglio 2009 all'Autorità spetta inoltre il rimborso, nella misura prevista per i consiglieri regionali, delle spese di vitto, alloggio e trasporto per gli spostamenti effettuati per lo svolgimento delle attività istituzionali effettivamente sostenute, ivi compresi gli spostamenti dalla sede di residenza o dalla sede abituale di lavoro alla sede dell'Autorità.
 								</corpo>
 							</comma>
 						</articolo>
@@ -908,7 +949,12 @@
 								</el>
 								<el id="art14-com2-letb">
 									<num>b)</num>
-									<corpo>il 31 luglio per i progetti che hanno inizio dal 10 ottobre;</corpo>
+									<corpo>
+										il 31 luglio per i progetti che hanno inizio dal 10
+										<h:span finevigore="t12" id="h1" iniziovigore="t1" status="abrogato">ottobre</h:span>
+										<h:span id="h2" iniziovigore="t12">settembre</h:span>
+										;
+									</corpo>
 								</el>
 								<el id="art14-com2-letc">
 									<num>c)</num>
@@ -1552,7 +1598,7 @@
 								L'indizione del referendum consultivo su un grande intervento, ai sensi della
 								<rif xlink:href="urn:nir:regione.toscana:legge:2007-11-23;62" xlink:type="simple">legge regionale 23 novembre 2007, n. 62</rif>
 								(Disciplina dei referendum regionali previsti dalla Costituzione e dallo
-								<rif xlink:href="urn:nir:regione.toscana:statuto:2005-02-11;nir-1" xlink:type="simple">xlink:type="simple"&gt;Statuto</rif>
+								<rif xlink:href="urn:nir:regione.toscana:statuto:2005-02-11;nir-1" xlink:type="simple">Statuto</rif>
 								) determina l'inammissibilità del dibattito pubblico sullo stesso oggetto, fermo restando quanto disposto dall' articolo 46, comma 1, lettera c) della stessa legge.
 							</corpo>
 						</comma>

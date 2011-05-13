@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20071130" num="40" tipo="BURT" />
 					<entratainvigore norm="20071215" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2007-11-23;62" />
+					<urn finevigore="t9" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2007-11-23;62" />
+					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:2007-11-23;62@2009-12-14" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -19,6 +20,7 @@
 						<evento data="20071215" fonte="ra5" id="t6" tipo="modifica" />
 						<evento data="20071215" fonte="ra6" id="t7" tipo="modifica" />
 						<evento data="20071215" fonte="ra7" id="t8" tipo="modifica" />
+						<evento data="20100102" fonte="rp1" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2007-11-23;62" xlink:type="simple" />
@@ -29,6 +31,7 @@
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:2003-01-17;6" xlink:type="simple" />
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:2004-11-15;60" xlink:type="simple" />
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:2004-11-24;66" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -118,6 +121,23 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75#art20-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 20, comma 1 della legge Regione Toscana 14 dicembre 2009, n. 75" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -643,7 +663,10 @@
 								<num>1.</num>
 								<corpo>
 									Il Presidente della Giunta regionale indice il referendum con proprio decreto entro trenta giorni dal ricevimento del verbale di cui all'
-									<rif xlink:href="#art9-com7" xlink:type="simple">articolo 9, comma 7</rif>
+									<rif xlink:href="#art9" xlink:type="simple">articolo 9</rif>
+									,
+									<h:span finevigore="t9" id="h1" iniziovigore="t1" status="abrogato">comma 7</h:span>
+									<h:span id="h2" iniziovigore="t9">comma 8</h:span>
 									. Il decreto è pubblicato sul b.u.r.t..
 								</corpo>
 							</comma>

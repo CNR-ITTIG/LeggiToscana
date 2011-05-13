@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20060803" num="24" tipo="BURT" />
 					<entratainvigore norm="20060818" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2006-07-25;35" />
+					<urn finevigore="t4" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2006-07-25;35" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:2006-07-25;35@2009-12-14" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Giovani" />
 					</materie>
@@ -17,11 +18,13 @@
 						<evento data="20060818" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20090414" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="20090414" fonte="ra2" id="t3" tipo="modifica" />
+						<evento data="20100102" fonte="rp1" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2006-07-25;35" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1996-05-02;35" xlink:type="simple" />
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1999-10-27;56" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -51,6 +54,32 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art22-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75#art82-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 82, comma 1 della legge Regione Toscana 14 dicembre 2009, n. 75" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art22-com1bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art22-com1bis" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75#art82-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 82, comma 2 della legge Regione Toscana 14 dicembre 2009, n. 75" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art22-com1ter" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -999,6 +1028,26 @@
 							<rif xlink:href="#art21-com2" xlink:type="simple">articolo 21, comma 2</rif>
 							, sono conclusi sulla base delle disposizioni di cui alle medesime leggi abrogate.
 						</corpo>
+					</comma>
+					<comma id="art22-com1bis" iniziovigore="t4">
+						<num>1 bis.</num>
+						<corpo>Nelle more dell'approvazione del piano regionale del servizio civile e fino a sei mesi dalla data di approvazione del prossimo programma regionale di sviluppo (PRS), i criteri per la selezione e l'approvazione dei progetti di servizio civile regionale sono quelli indicati dal decreto ministeriale 3 agosto 2006 (Appro vazione del prontuario concernente le caratteristiche e le modalità per la redazione e la presentazione dei progetti di servizio civile nazionale da realizzare in Italia e all'estero, nonché i criteri per la selezione e l'approvazione degli stessi).</corpo>
+					</comma>
+					<comma id="art22-com1ter" iniziovigore="t4">
+						<num>1 ter.</num>
+						<alinea>Nelle more dell'approvazione del piano regio nale del servizio civile e fino a sei mesi dalla data di approvazione del prossimo PRS, la capacità di impiego complessiva dei soggetti nell'ambito dei progetti di servizio civile regionale è determinata con deliberazione della Giunta regionale, tenuto conto:</alinea>
+						<el id="art22-com1ter-leta">
+							<num>a)</num>
+							<corpo>delle risorse stanziate nel bilancio annuale di previsione;</corpo>
+						</el>
+						<el id="art22-com1ter-letb">
+							<num>b)</num>
+							<corpo>
+								del costo unitario per ciascun giovane stabilito ai sensi dell'
+								<rif xlink:href="#art10-com2" xlink:type="simple">articolo 10, comma 2</rif>
+								.
+							</corpo>
+						</el>
 					</comma>
 				</articolo>
 				<articolo id="art23">

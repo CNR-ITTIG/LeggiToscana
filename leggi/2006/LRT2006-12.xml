@@ -8,7 +8,8 @@
 					<entratainvigore norm="20060427" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t7" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2006-04-03;12" />
-					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:2006-04-03;12@2007-12-11" />
+					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:2006-04-03;12@2007-12-11" />
+					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:2006-04-03;12@2009-12-14" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Enti Territoriali" />
 						<materia valore="Amministrazione" />
@@ -23,6 +24,7 @@
 						<evento data="20090326" fonte="ra4" id="t5" tipo="modifica" />
 						<evento data="20090326" fonte="ra5" id="t6" tipo="modifica" />
 						<evento data="20071229" fonte="rp1" id="t7" tipo="modifica" />
+						<evento data="20100102" fonte="rp2" id="t8" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2006-04-03;12" xlink:type="simple" />
@@ -32,6 +34,7 @@
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1998-11-18;82" xlink:type="simple" />
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1998-11-18;82" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2007-12-11;65" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -159,6 +162,21 @@
 								<dsp:pos xlink:href="#art24-com2quater" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art23-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75#art15-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 15, comma 1 della legge Regione Toscana 14 dicembre 2009, n. 75" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -886,7 +904,10 @@
 						<comma id="art23-com3">
 							<num>3.</num>
 							<corpo>
-								Gli enti locali, entro centottanta giorni dall'entrata in vigore del regolamento regionale di cui all'
+								Gli enti locali, entro
+								<h:span finevigore="t8" id="h1" iniziovigore="t1" status="abrogato">centottanta</h:span>
+								<h:span id="h2" iniziovigore="t8">dodici mesi</h:span>
+								giorni dall'entrata in vigore del regolamento regionale di cui all'
 								<rif xlink:href="#art12" xlink:type="simple">articolo 12</rif>
 								, adeguano i propri regolamenti alle disposizioni di quest'ultimo.
 							</corpo>
