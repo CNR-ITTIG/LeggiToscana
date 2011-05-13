@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20090406" num="11" tipo="BURT" />
 					<entratainvigore norm="20090407" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2009-04-02;16" />
+					<urn finevigore="t11" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2009-04-02;16" />
+					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:2009-04-02;16@2009-12-14" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -21,6 +22,7 @@
 						<evento data="20090407" fonte="ra7" id="t8" tipo="modifica" />
 						<evento data="20090407" fonte="ra8" id="t9" tipo="modifica" />
 						<evento data="20090407" fonte="ra9" id="t10" tipo="modifica" />
+						<evento data="20100102" fonte="rp1" id="t11" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2009-04-02;16" xlink:type="simple" />
@@ -33,6 +35,7 @@
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:2005;40" xlink:type="simple" />
 						<attiva id="ra8" xlink:href="urn:nir:regione.toscana:legge:2002;22" xlink:type="simple" />
 						<attiva id="ra9" xlink:href="urn:nir:regione.toscana:legge:2004-01-26;1" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -204,6 +207,38 @@
 							</dsp:novella>
 						</dsp:integrazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75#art38-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 38, comma 1 della legge Regione Toscana 14 dicembre 2009, n. 75" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art8-com4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art8-com4-t11" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art25-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75#art39-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 39, comma 1 della legge Regione Toscana 14 dicembre 2009, n. 75" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -541,9 +576,13 @@
 								<num>3.</num>
 								<corpo>Il Tavolo è la sede di confronto dei soggetti interessati per l'esame delle problematiche e delle politiche oggetto della presente legge e dei relativi strumenti di programmazione e di intervento.</corpo>
 							</comma>
-							<comma id="art8-com4">
+							<comma finevigore="t11" id="art8-com4-t11" iniziovigore="t1" status="abrogato">
 								<num>4.</num>
 								<corpo>I componenti del Tavolo sono nominati dal Presidente della Giunta regionale.</corpo>
+							</comma>
+							<comma id="art8-com4" iniziovigore="t11">
+								<num>4.</num>
+								<corpo>Con deliberazione della Giunta regionale sono individuate le istituzioni nonché i soggetti che promuovono politiche di genere e di pari opportunità chiamati a far parte del Tavolo.</corpo>
 							</comma>
 						</articolo>
 						<articolo id="art9">
@@ -1136,9 +1175,14 @@
 							<comma id="art25-com3">
 								<num>3.</num>
 								<corpo>
-									Per il finanziamento delle iniziative di cui all'
-									<rif xlink:href="#art21-com2" xlink:type="simple">articolo 21, comma 2</rif>
-									, è autorizzata la spesa di euro 208.000 a carico dell'UPB 513 "Interventi per lo sviluppo del sistema economico e produttivo - Spese correnti" del bilancio di previsione 2009.
+									Per il finanziamento delle iniziative di cui all'articolo
+									<h:span finevigore="t11" id="h1" iniziovigore="t1" status="abrogato">
+										<rif xlink:href="#art21" xlink:type="simple">21</rif>
+									</h:span>
+									<h:span id="h2" iniziovigore="t11">
+										<rif xlink:href="#art24" xlink:type="simple">24</rif>
+									</h:span>
+									, comma 2 , è autorizzata la spesa di euro 208.000 a carico dell'UPB 513 "Interventi per lo sviluppo del sistema economico e produttivo - Spese correnti" del bilancio di previsione 2009.
 								</corpo>
 							</comma>
 							<comma id="art25-com4">

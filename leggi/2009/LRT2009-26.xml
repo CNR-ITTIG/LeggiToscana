@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20090527" num="18" tipo="BURT" />
 					<entratainvigore norm="20090611" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2009-05-22;26" />
+					<urn finevigore="t12" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2009-05-22;26" />
+					<urn iniziovigore="t12" valore="urn:nir:regione.toscana:legge:2009-05-22;26@2009-12-14" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -22,6 +23,7 @@
 						<evento data="20090611" fonte="ra8" id="t9" tipo="modifica" />
 						<evento data="20090611" fonte="ra9" id="t10" tipo="modifica" />
 						<evento data="20090611" fonte="ra10" id="t11" tipo="modifica" />
+						<evento data="20100102" fonte="rp1" id="t12" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2009-05-22;26" xlink:type="simple" />
@@ -35,6 +37,7 @@
 						<attiva id="ra8" xlink:href="urn:nir:regione.toscana:legge:2003-08-04;41" xlink:type="simple" />
 						<attiva id="ra9" xlink:href="urn:nir:regione.toscana:legge:2004-11-15;61" xlink:type="simple" />
 						<attiva id="ra10" xlink:href="urn:nir:regione.toscana:legge:2004-11-15;61" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -166,6 +169,32 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art15-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75#art41-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 41, comma 1 della legge Regione Toscana 14 dicembre 2009, n. 75" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art15-com2bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art23-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75#art42-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 42, comma 1 della legge Regione Toscana 14 dicembre 2009, n. 75" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art23-com3bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -762,6 +791,14 @@
 									<num>2.</num>
 									<corpo>L'indennità è pari a quella spettante per analogo titolo e per analoga qualifica professionale al personale statale del Ministero degli Affari esteri in servizio presso le sedi di rappresentanza all'estero.</corpo>
 								</comma>
+								<comma id="art15-com2bis" iniziovigore="t12">
+									<num>2 bis.</num>
+									<corpo>
+										Al personale assegnato all'ufficio di collegamento di cui all'
+										<rif xlink:href="#art14" xlink:type="simple">articolo 14</rif>
+										, successivamente alla data del 31 dicembre 2009, l'indennità mensile è corrisposta fino al 50 per cento di quella spettante ai sensi dei commi 1 e 2.
+									</corpo>
+								</comma>
 							</articolo>
 						</sezione>
 					</capo>
@@ -977,6 +1014,10 @@
 							<comma id="art23-com3">
 								<num>3.</num>
 								<corpo>L'Ufficio di presidenza del Consiglio regionale può proporre alla Giunta regionale l'attivazione di rapporti e relazioni internazionali, compresi accordi con stati e intese con enti territoriali interni ad altri stati.</corpo>
+							</comma>
+							<comma id="art23-com3bis" iniziovigore="t12">
+								<num>3 bis.</num>
+								<corpo>Il Consiglio regionale, con deliberazione dell'Ufficio di presidenza, può approvare progetti d'intervento nelle materie di cui alla presente legge da finanziare con risorse del proprio bilancio, in coerenza con quanto previsto dal piano integrato delle attività internazionali. La deliberazione dell'Ufficio di presidenza è comunicata alla Giunta regionale che assicura gli adempimenti attuativi, d'intesa con lo stesso Ufficio di presidenza.</corpo>
 							</comma>
 						</articolo>
 						<articolo id="art24">
@@ -2253,7 +2294,7 @@
 									<rif xlink:href="urn:nir:regione.toscana:legge:2006-01-24;1#art3-com1-leta-num3" xlink:type="simple">numero 3) della lettera a) del comma 1 dell'articolo 3 della legge regionale 24 gennaio 2006, n.1</rif>
 									(Disciplina degli interventi regionali in materia di agricoltura e di sviluppo rurale), è sostituito dal seguente: "
 									<virgolette id="mod10-vir1" tipo="struttura">
-										<en id="mod10-vir1-com3">
+										<en id="mod10-vir1-num3">
 											<num>3)</num>
 											<corpo>sostegno alle attività di valorizzazione delle produzioni agroalimentari ai fini della promozione e della internazionalizzazione.</corpo>
 										</en>

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20090116" num="1" tipo="BURT" />
 					<entratainvigore norm="20090131" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2009-01-09;3" />
+					<urn finevigore="t19" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2009-01-09;3" />
+					<urn iniziovigore="t19" valore="urn:nir:regione.toscana:legge:2009-01-09;3@2009-12-14" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -29,6 +30,7 @@
 						<evento data="20090131" fonte="ra15" id="t16" tipo="modifica" />
 						<evento data="20090131" fonte="ra16" id="t17" tipo="modifica" />
 						<evento data="20090131" fonte="ra17" id="t18" tipo="modifica" />
+						<evento data="20100102" fonte="rp1" id="t19" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2009-01-09;3" xlink:type="simple" />
@@ -49,6 +51,7 @@
 						<attiva id="ra15" xlink:href="urn:nir:regione.toscana:legge:2004-08-03;45" xlink:type="simple" />
 						<attiva id="ra16" xlink:href="urn:nir:regione.toscana:legge:2006-07-28;36" xlink:type="simple" />
 						<attiva id="ra17" xlink:href="urn:nir:regione.toscana:legge:2000-03-21;38" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -259,6 +262,20 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art31-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75#art37-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 37, comma 1 della legge Regione Toscana 14 dicembre 2009, n. 75" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -1599,7 +1616,11 @@
 						</comma>
 						<comma id="art31-com2">
 							<num>2.</num>
-							<corpo>La missione è preventivamente autorizzata dal presidente del Consiglio per i consiglieri e dal presidente della Giunta per i componenti della Giunta.</corpo>
+							<corpo>
+								La missione è preventivamente autorizzata dal presidente del Consiglio per i consiglieri e
+								<h:span id="h1" iniziovigore="t19">, limitatamente alle missioni all'estero,</h:span>
+								dal presidente della Giunta per i componenti della Giunta.
+							</corpo>
 						</comma>
 						<comma id="art31-com3">
 							<num>3.</num>

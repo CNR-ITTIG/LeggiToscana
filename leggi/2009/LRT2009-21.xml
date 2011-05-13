@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20090506" num="15" tipo="BURT" />
 					<entratainvigore norm="20090521" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2009-04-29;21" />
+					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2009-04-29;21" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:2009-04-29;21@2009-12-14" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="20090521" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20090521" fonte="ra1" id="t2" tipo="modifica" />
+						<evento data="20100102" fonte="rp1" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2009-04-29;21" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1995-04-18;69" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -34,6 +37,20 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13-com6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75#art69-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 69, comma 1 della legge Regione Toscana 14 dicembre 2009, n. 75" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art13-com6-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -457,7 +474,7 @@
 							, i servizi veterinari delle aziende USL ravvisino la pericolosità dell'alveare abbandonato comminano al titolare dello stesso una sanzione amministrativa da euro 50,00 a euro 300,00.
 						</corpo>
 					</comma>
-					<comma id="art13-com6">
+					<comma finevigore="t3" id="art13-com6-t3" iniziovigore="t1" status="abrogato">
 						<num>6.</num>
 						<corpo>All'irrogazione delle sanzioni provvede l'azienda USL competente per territorio, che introita i relativi proventi.</corpo>
 					</comma>
