@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t7" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2008-02-05;4" />
 					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:2008-02-05;4@2008-03-13" />
-					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:2008-02-05;4@2009-01-08" />
+					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:2008-02-05;4@2009-01-08" />
+					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:2008-02-05;4@2009-12-14" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -21,6 +22,7 @@
 						<evento data="20080228" fonte="ra5" id="t6" tipo="modifica" />
 						<evento data="20080403" fonte="rp1" id="t7" tipo="modifica" />
 						<evento data="20090117" fonte="rp2" id="t8" tipo="modifica" />
+						<evento data="20100102" fonte="rp3" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2008-02-05;4" xlink:type="simple" />
@@ -31,6 +33,7 @@
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:2003-08-05;44" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2008-03-13;14" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2009-01-08;1" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -101,7 +104,7 @@
 					</modificheattive>
 					<modifichepassive>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art1-com2" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-03-13;14" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-03-13;14#art1-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -292,6 +295,18 @@
 								<dsp:pos xlink:href="#art30-t8" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art15" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75#art100-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 100, comma 1 della legge Regione Toscana 14 dicembre 2009, n. 75" id="itt16" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art15bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -723,6 +738,56 @@
 							<comma id="art15-com3">
 								<num>3.</num>
 								<corpo>Il personale del Consiglio regionale rappresenta la risorsa essenziale per l'esercizio delle funzioni istituzionali consiliari, attraverso l'impiego delle peculiari competenze richieste.</corpo>
+							</comma>
+						</articolo>
+						<articolo id="art15bis" iniziovigore="t9">
+							<num>Art. 15 bis</num>
+							<rubrica>Disposizioni in materia di tutela della salute e della sicurezza nei luoghi di lavoro del Consiglio regionale</rubrica>
+							<comma id="art15bis-com1">
+								<num>1.</num>
+								<corpo>
+									Il Segretario generale del Consiglio regionale assume le funzioni di datore di lavoro agli effetti dell'
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:2008-04-09;81#art2-com1-letb" xlink:type="simple">articolo 2, comma 1, lettera b), del decreto legislativo 9 aprile 2008, n. 81</rif>
+									(Attuazione dell'
+									<rif xlink:href="urn:nir:stato:legge:2007-08-03;123#art1" xlink:type="simple">articolo 1 della legge 3 agosto 2007, n. 123</rif>
+									in materia di tutela della salute e della sicurezza nei luoghi di lavoro).
+								</corpo>
+							</comma>
+							<comma id="art15bis-com2">
+								<num>2.</num>
+								<corpo>
+									Il datore di lavoro individuato ai sensi del comma 1, definisce l'articolazione delle funzioni fra i soggetti tenuti all'adempimento degli obblighi di cui all'
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:2008;81#art18" xlink:type="simple">articolo 18 del d.lgs. 81/2008</rif>
+									, ed esercita le proprie funzioni, ad eccezione di quelle previste nell'
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:2008;81#art17" xlink:type="simple">articolo 17 del d.lgs. 81/2008</rif>
+									, anche tramite delega ai dirigenti e funzionari del Consiglio regionale, nel rispetto di quanto prescritto dall'
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:2008;81#art16" xlink:type="simple">articolo 16 del d.lgs 81/2008</rif>
+									, tenendo conto dell'ubicazione delle sedi consiliari e delle attribuzioni di ciascuna articolazione in ordine alla tutela della salute e della sicurezza nei luoghi di lavoro.
+								</corpo>
+							</comma>
+							<comma id="art15bis-com3">
+								<num>3.</num>
+								<corpo>
+									Il datore di lavoro esercita le proprie funzioni con il supporto del Servizio di prevenzione e protezione (SEPP) e del suo responsabile (RSPP), ai sensi dell'
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:2008;81#art31" xlink:type="simple">articolo 31 del d.lgs 81/2008</rif>
+									. A tal fine può avvalersi del Servizio prevenzione e protezione della Giunta regionale e del suo responsabile, nelle forme definite con apposita intesa stipulata ai sensi dell'
+									<rif xlink:href="#art29-com6" xlink:type="simple">articolo 29, comma 6</rif>
+									.
+								</corpo>
+							</comma>
+							<comma id="art15bis-com4">
+								<num>4.</num>
+								<corpo>
+									Nelle sedi di proprietà della Regione in uso al Consiglio regionale, ai sensi dell'
+									<rif xlink:href="#art10" xlink:type="simple">articolo 10</rif>
+									, per gli interventi di manutenzione relativi alla tutela della salute e della sicurezza che eccedono il limite previsto dall'
+									<rif xlink:href="urn:nir:regione.toscana:legge:2004-12-27;77#art1-com1ter" xlink:type="simple">articolo 1, comma 1 ter, della legge regionale 27 dicembre 2004, n. 77</rif>
+									(Demanio e patrimonio della Regione Toscana. Modifiche alla
+									<rif xlink:href="urn:nir:regione.toscana:legge:2000-03-21;39" xlink:type="simple">legge regionale 21 marzo 2000, n.39</rif>
+									–Legge forestale della Toscana), il datore di lavoro del Consiglio regionale inoltra richiesta alla competente struttura della Giunta regionale che provvede a titolo d'intervento obbligatorio ai sensi del
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:2008;81" xlink:type="simple">d.lgs. 81/2008</rif>
+									.
+								</corpo>
 							</comma>
 						</articolo>
 					</capo>

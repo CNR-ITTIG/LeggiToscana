@@ -8,16 +8,19 @@
 					<entratainvigore norm="20081113" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2008-10-22;55" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2008-10-22;55@2009-04-02" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2008-10-22;55@2009-04-02" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:2008-10-22;55@2009-12-14" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="20081113" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20090407" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="20100102" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2008-10-22;55" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2009-04-02;16" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -39,6 +42,51 @@
 								<dsp:pos xlink:href="#h1" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75#art34-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 34, comma 1 della legge Regione Toscana 14 dicembre 2009, n. 75" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art7" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art7-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75#art35-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 35, comma 1 della legge Regione Toscana 14 dicembre 2009, n. 75" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art13" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art13-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art18" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75#art36-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 36, comma 1 della legge Regione Toscana 14 dicembre 2009, n. 75" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -204,41 +252,93 @@
 							<corpo>I presidenti delle commissioni consiliari, tramite le strutture tecniche di assistenza, curano la qualità normativa dei testi sottoposti all'esame delle stesse, nei modi stabiliti dal regolamento interno del Consiglio.</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art7">
+					<articolo finevigore="t3" id="art7-t3" iniziovigore="t1" status="abrogato">
 						<num>Art. 7</num>
 						<rubrica>Documentazione a corredo delle proposte di legge</rubrica>
-						<comma id="art7-com1">
+						<comma id="art7-t3-com1">
 							<num>1.</num>
 							<corpo>Le proposte di legge sono corredate della relazione illustrativa delle finalità generali, della relazione tecnico-normativa e della relazione tecnico-finanziaria. La relazione tecnico-normativa indica l'eventuale avvenuta notifica della proposta alla Commissione europea, ai sensi delle disposizioni in materia di regime di aiuti alle imprese.</corpo>
 						</comma>
-						<comma id="art7-com2">
+						<comma id="art7-t3-com2">
 							<num>2.</num>
 							<alinea>Le proposte di legge sono corredate, nei casi e nelle forme previsti dai regolamenti interni del Consiglio e della Giunta, di:</alinea>
-							<el id="art7-com2-leta">
+							<el id="art7-t3-com2-leta">
 								<num>a)</num>
 								<corpo>relazione sugli esiti dell'AIR;</corpo>
 							</el>
-							<el id="art7-com2-letb">
+							<el id="art7-t3-com2-letb">
 								<num>b)</num>
 								<corpo>scheda di legittimità;</corpo>
 							</el>
-							<el id="art7-com2-letc">
+							<el id="art7-t3-com2-letc">
 								<num>c)</num>
 								<corpo>scheda di fattibilità;</corpo>
 							</el>
-							<el id="art7-com2-letd">
+							<el id="art7-t3-com2-letd">
 								<num>d)</num>
 								<corpo>altri documenti idonei a fornire un più ampio quadro conoscitivo sulla proposta di legge e le sue finalità.</corpo>
 							</el>
 						</comma>
-						<comma id="art7-com3">
+						<comma id="art7-t3-com3">
 							<num>3.</num>
 							<corpo>Per le proposte di legge di iniziativa consiliare la relazione illustrativa può sostituire la relazione tecniconormativa.</corpo>
 						</comma>
-						<comma id="art7-com4">
+						<comma id="art7-t3-com4">
 							<num>4.</num>
 							<corpo>
 								I regolamenti interni del Consiglio e della Giunta possono dettare ulteriori specifiche disposizioni sui contenuti dei documenti di cui al commi 1 e 2, sulla base delle intese di cui all'
+								<rif xlink:href="#art20" xlink:type="simple">articolo 20</rif>
+								.
+							</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art7" iniziovigore="t3">
+						<num>Art. 7</num>
+						<rubrica>Documentazione a corredo delle proposte di legge</rubrica>
+						<comma id="art7-com1">
+							<num>1.</num>
+							<corpo>Le proposte di legge sono corredate della relazione illustrativa delle finalità generali, della relazione tecniconormativa e della relazione tecnico-finanziaria, salvo quanto previsto dal comma 2.</corpo>
+						</comma>
+						<comma id="art7-com2">
+							<num>2.</num>
+							<corpo>Non sono corredate della relazione tecnico-finanziaria le leggi di bilancio e relative leggi di variazione, le leggi di assestamento, le leggi di rendiconto e le leggi che, secondo quanto attestato espressamente dalla relazione illustrativa, non comportano effetti finanziari.</corpo>
+						</comma>
+						<comma id="art7-com3">
+							<num>3.</num>
+							<corpo>La relazione tecnico-normativa indica l'eventuale avvenuta notifica della proposta alla Commissione europea, ai sensi delle disposizioni in materia di regime di aiuti alle imprese, di servizi nel mercato interno e di norme tecniche.</corpo>
+						</comma>
+						<comma id="art7-com4">
+							<num>4.</num>
+							<alinea>Le proposte di legge sono corredate, nei casi e nelle forme previsti dai regolamenti interni del Consiglio e della Giunta, di:</alinea>
+							<el id="art7-com4-leta">
+								<num>a)</num>
+								<corpo>relazione sugli esiti dell'AIR;</corpo>
+							</el>
+							<el id="art7-com4-letb">
+								<num>b)</num>
+								<corpo>scheda di legittimità;</corpo>
+							</el>
+							<el id="art7-com4-letc">
+								<num>c)</num>
+								<corpo>scheda di fattibilità;</corpo>
+							</el>
+							<el id="art7-com4-letd">
+								<num>d)</num>
+								<corpo>altri documenti idonei a fornire un più ampio qua dro conoscitivo sulla proposta di legge e le sue finalità.</corpo>
+							</el>
+						</comma>
+						<comma id="art7-com5">
+							<num>5.</num>
+							<corpo>
+								Per le proposte di legge di iniziativa consiliare e per la legge di manutenzione di cui all'
+								<rif xlink:href="#art13" xlink:type="simple">articolo 13</rif>
+								, la relazione illustrativa può sostituire la relazione tecniconormativa.
+							</corpo>
+						</comma>
+						<comma id="art7-com6">
+							<num>6.</num>
+							<corpo>
+								I regolamenti interni del Consiglio e della Giunta possono dettare ulteriori specifiche disposizioni sui contenuti dei documenti di cui ai commi 1 e 4, sulla base delle intese di cui all'
 								<rif xlink:href="#art20" xlink:type="simple">articolo 20</rif>
 								.
 							</corpo>
@@ -332,7 +432,39 @@
 							<corpo>I testi unici, o loro parti, di mero coordinamento di leggi o di regolamenti contengono la puntuale individuazione delle fonti normative inserite nel testo coordinato.</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art13">
+					<articolo finevigore="t3" id="art13-t3" iniziovigore="t1" status="abrogato">
+						<num>Art. 13</num>
+						<rubrica>Manutenzione della normativa</rubrica>
+						<comma id="art13-t3-com1">
+							<num>1.</num>
+							<alinea>Il Consiglio e la Giunta, nell'esercizio delle rispettive competenze, assicurano la costante manutenzione dell'ordinamento normativo regionale, in particolare per quanto attiene a:</alinea>
+							<el id="art13-t3-com1-leta">
+								<num>a)</num>
+								<corpo>la correzione di errori materiali o imprecisioni;</corpo>
+							</el>
+							<el id="art13-t3-com1-letb">
+								<num>b)</num>
+								<corpo>l'adeguamento dei rinvii interni ed esterni;</corpo>
+							</el>
+							<el id="art13-t3-com1-letc">
+								<num>c)</num>
+								<corpo>l'inserimento di contenuti divenuti obbligatori per disposizioni comunitarie o nazionali;</corpo>
+							</el>
+							<el id="art13-t3-com1-letd">
+								<num>d)</num>
+								<corpo>l'adeguamento a sentenze della Corte di giustizia dell'Unione europea, della Corte europea dei diritti dell'uomo o della Corte costituzionale.</corpo>
+							</el>
+						</comma>
+						<comma id="art13-t3-com2">
+							<num>2.</num>
+							<corpo>
+								Con un'unica legge o un unico regolamento possono essere disposti periodici interventi di manutenzione di una pluralità di disposizioni, rispettivamente, legislative o regolamentari, nel limite in cui ciò riguardi esclusivamente i casi di cui alle lettere a), b), c) e d) del
+								<rif xlink:href="#art13-t3-com1" xlink:type="simple">comma 1</rif>
+								e limitati adeguamenti che non comportano innovazioni sostanziali della disciplina della materia.
+							</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art13" iniziovigore="t3">
 						<num>Art. 13</num>
 						<rubrica>Manutenzione della normativa</rubrica>
 						<comma id="art13-com1">
@@ -348,20 +480,20 @@
 							</el>
 							<el id="art13-com1-letc">
 								<num>c)</num>
-								<corpo>l'inserimento di contenuti divenuti obbligatori per disposizioni comunitarie o nazionali;</corpo>
+								<corpo>l'inserimento di contenuti divenuti obbligatori per disposizioni comunitarie, nazionali o regionali;</corpo>
 							</el>
 							<el id="art13-com1-letd">
 								<num>d)</num>
-								<corpo>l'adeguamento a sentenze della Corte di giustizia dell'Unione europea, della Corte europea dei diritti dell'uomo o della Corte costituzionale.</corpo>
+								<corpo>l'adeguamento a sentenze della Corte di giustizia dell'Unione europea, della Corte europea dei diritti dell'uomo o della Corte costituzionale;</corpo>
+							</el>
+							<el id="art13-com1-lete">
+								<num>e)</num>
+								<corpo>l'interpretazione autentica di disposizioni regionali.</corpo>
 							</el>
 						</comma>
 						<comma id="art13-com2">
 							<num>2.</num>
-							<corpo>
-								Con un'unica legge o un unico regolamento possono essere disposti periodici interventi di manutenzione di una pluralità di disposizioni, rispettivamente, legislative o regolamentari, nel limite in cui ciò riguardi esclusivamente i casi di cui alle lettere a), b), c) e d) del
-								<rif xlink:href="#art13-com1" xlink:type="simple">comma 1</rif>
-								e limitati adeguamenti che non comportano innovazioni sostanziali della disciplina della materia.
-							</corpo>
+							<corpo>Con un'unica legge o un unico regolamento possono essere disposti periodici interventi di manutenzione di una pluralità di disposizioni, rispettivamente, legislative o regolamentari, nel limite in cui ciò riguardi esclusivamente i casi di cui al comma 1 e limitati adeguamenti che non comportano innovazioni sostanziali della disciplina della materia.</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art14">
@@ -436,7 +568,10 @@
 					</articolo>
 					<articolo id="art18">
 						<num>Art. 18</num>
-						<rubrica>Formule di emanazione dei regolamenti</rubrica>
+						<rubrica>
+							<h:span finevigore="t3" id="h2" iniziovigore="t1" status="abrogato">Formule di emanazione dei regolamenti</h:span>
+							<h:span id="h3" iniziovigore="t3">Formule di emanazione e disposizioni formali relative ai regolamenti</h:span>
+						</rubrica>
 						<comma id="art18-com1">
 							<num>1.</num>
 							<corpo>I regolamenti sono emanati con decreto del Presidente della Giunta e recano nel titolo la denominazione di "regolamento".</corpo>

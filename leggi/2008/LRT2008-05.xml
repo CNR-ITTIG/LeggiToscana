@@ -10,7 +10,8 @@
 					<urn finevigore="t6" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2008-02-08;5" />
 					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2008-02-08;5@2008-10-24" />
 					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:2008-02-08;5@2008-11-21" />
-					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:2008-02-08;5@2009-04-02" />
+					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:2008-02-08;5@2009-04-02" />
+					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:2008-02-08;5@2009-12-14" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -22,6 +23,7 @@
 						<evento data="20081115" fonte="rp1" id="t6" tipo="modifica" />
 						<evento data="20081129" fonte="rp2" id="t7" tipo="modifica" />
 						<evento data="20090407" fonte="rp3" id="t8" tipo="modifica" />
+						<evento data="20100102" fonte="rp4" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2008-02-08;5" xlink:type="simple" />
@@ -32,6 +34,7 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2008-10-24;56" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2009-04-02;16" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -299,6 +302,21 @@
 								<dsp:pos xlink:href="#art19-com3bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com8" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75#art23-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 23, comma 1 della legge Regione Toscana 14 dicembre 2009, n. 75" id="itt17" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2-com8" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com8-t9" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -488,9 +506,13 @@
 							, ad organi di dette società od organismi ai quali partecipa, in rappresentanza della Regione, il Presidente della Giunta regionale o suo delegato, quest'ultimo, nell'espressione del voto per dette nomine, si conforma ad una preventiva deliberazione del Consiglio regionale.
 						</corpo>
 					</comma>
-					<comma id="art2-com8">
+					<comma finevigore="t9" id="art2-com8-t9" iniziovigore="t1" status="abrogato">
 						<num>8.</num>
 						<corpo>Nel caso in cui nomine o designazioni di competenza del Consiglio regionale ai sensi della presente legge debbano essere effettuate, per disposizione di statuti di società, associazioni, fondazioni od altri organismi di diritto privato, d'intesa con altri soggetti, alla definizione di tali intese provvede il Presidente del Consiglio regionale.</corpo>
+					</comma>
+					<comma id="art2-com8" iniziovigore="t9">
+						<num>8.</num>
+						<corpo>Nel caso in cui nomine o designazioni di competenza del Consiglio regionale ai sensi della presente legge debbano essere effettuate d'intesa con altri soggetti, pubblici o privati, alla definizione di tali intese provvede il Presidente del Consiglio regionale.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art3">
