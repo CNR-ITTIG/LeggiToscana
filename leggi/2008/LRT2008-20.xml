@@ -1,22 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20080507" num="13" tipo="BURT" />
 					<entratainvigore norm="20080522" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2008-04-28;20" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2008-04-28;20" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2008-04-28;20@2009-12-14" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="20080522" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20100102" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2008-04-28;20" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75#art24-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 24, comma 1 della legge Regione Toscana 14 dicembre 2009, n. 75" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-com2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art18" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75#art25-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 25, comma 1 della legge Regione Toscana 14 dicembre 2009, n. 75" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art18bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art19-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75#art26-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 26, comma 1 della legge Regione Toscana 14 dicembre 2009, n. 75" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art19-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art19-com2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art19-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75#art26-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 26, comma 2 della legge Regione Toscana 14 dicembre 2009, n. 75" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art19-com3bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art22" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75#art27-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 27, comma 1 della legge Regione Toscana 14 dicembre 2009, n. 75" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art22bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -74,7 +144,7 @@
 								<corpo>semplificare gli strumenti di partecipazione della Regione;</corpo>
 							</el>
 						</comma>
-						<comma id="art2-com2">
+						<comma finevigore="t2" id="art2-com2-t2" iniziovigore="t1" status="abrogato">
 							<num>2.</num>
 							<corpo>
 								La presente legge costituisce inoltre attuazione dei principi in materia di coordinamento della finanza pubblica di cui all'
@@ -439,6 +509,14 @@
 							</corpo>
 						</comma>
 					</articolo>
+					<articolo id="art18bis" iniziovigore="t2">
+						<num>Art. 18 bis</num>
+						<rubrica>Esclusione</rubrica>
+						<comma id="art18bis-com1">
+							<num>1.</num>
+							<corpo>Le disposizioni del presente capo non si applicano alle società quotate in borsa.</corpo>
+						</comma>
+					</articolo>
 				</capo>
 				<capo id="cap7">
 					<num>Capo VII</num>
@@ -450,7 +528,7 @@
 							<num>1.</num>
 							<corpo>Il compenso annuale lordo, omnicomprensivo, spettante al presidente e ai membri del consiglio di amministrazione delle società partecipate totalmente dalla Regione non può essere superiore rispettivamente al 25 per cento e al 10 per cento dell'indennità spettante al Presidente della Giunta regionale.</corpo>
 						</comma>
-						<comma id="art19-com2">
+						<comma finevigore="t2" id="art19-com2-t2" iniziovigore="t1" status="abrogato">
 							<num>2.</num>
 							<corpo>
 								Per i soggetti di cui al
@@ -458,9 +536,21 @@
 								gli statuti societari possono prevedere indennità di risultato solo in caso di produzione di utili e in misura ragionevole e proporzionata.
 							</corpo>
 						</comma>
+						<comma id="art19-com2" iniziovigore="t2">
+							<num>2.</num>
+							<corpo>
+								Per i soggetti di cui al comma 1, lo statuto o l'organo competente ai sensi del
+								<rif xlink:href="urn:nir:stato:codice.civile:1942-03-16;262" xlink:type="simple">codice civile</rif>
+								può prevedere indennità di risultato solo in caso di produzione di utili e in misura ragionevole e proporzionata.
+							</corpo>
+						</comma>
 						<comma id="art19-com3">
 							<num>3.</num>
 							<corpo>Le disposizioni di cui al presente articolo si applicano agli organi amministrativi comunque denominati.</corpo>
+						</comma>
+						<comma id="art19-com3bis" iniziovigore="t2">
+							<num>3 bis.</num>
+							<corpo>Il compenso annuale lordo, onnicomprensivo, spettante all'amministratore delegato non può essere superiore al limite massimo determinato ai sensi del comma 1, con riferimento al presidente del consiglio di amministrazione.</corpo>
 						</comma>
 						<comma id="art19-com4">
 							<num>4.</num>
@@ -543,6 +633,14 @@
 						<comma id="art22-com1">
 							<num>1.</num>
 							<corpo>Agli amministratori delle società di cui al presente capo è dovuto il rimborso delle spese effettivamente sostenute in ragione delloro mandato, nella misura fissata con deliberazione della Giunta regionale, in analogia a quanto stabilito per i dirigenti regionali.</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art22bis" iniziovigore="t2">
+						<num>Art. 22 bis</num>
+						<rubrica>Esclusione</rubrica>
+						<comma id="art22bis-com1">
+							<num>1.</num>
+							<corpo>Le disposizioni di cui al presente capo non si applicano alle società quotate in borsa.</corpo>
 						</comma>
 					</articolo>
 				</capo>
