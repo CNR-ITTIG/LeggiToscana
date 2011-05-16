@@ -10,7 +10,8 @@
 					<urn finevigore="t25" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2005-02-18;31" />
 					<urn finevigore="t26" iniziovigore="t25" valore="urn:nir:regione.toscana:legge:2005-02-18;31@2005-12-27" />
 					<urn finevigore="t27" iniziovigore="t26" valore="urn:nir:regione.toscana:legge:2005-02-18;31@2007-07-27" />
-					<urn iniziovigore="t27" valore="urn:nir:regione.toscana:legge:2005-02-18;31@2007-12-21" />
+					<urn finevigore="t28" iniziovigore="t27" valore="urn:nir:regione.toscana:legge:2005-02-18;31@2007-12-21" />
+					<urn iniziovigore="t28" valore="urn:nir:regione.toscana:legge:2005-02-18;31@2009-12-23" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tributi" />
 						<materia valore="Ente Regione" />
@@ -45,6 +46,7 @@
 						<evento data="20051231" fonte="rp1" id="t25" tipo="modifica" />
 						<evento data="20070731" fonte="rp2" id="t26" tipo="modifica" />
 						<evento data="20071229" fonte="rp3" id="t27" tipo="modifica" />
+						<evento data="20100101" fonte="rp4" id="t28" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2005-02-18;31" xlink:type="simple" />
@@ -74,6 +76,7 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2005-12-27;70" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2007-12-21;67" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2009-12-23;77" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -479,6 +482,18 @@
 								<dsp:pos xlink:href="#art16-com6-t27" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-23;77" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-23;77#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 23 dicembre 2009, n. 77" id="itt9" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art8bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -760,6 +775,38 @@
 									<rif xlink:href="#art11" xlink:type="simple">articolo 11</rif>
 									.
 								</corpo>
+							</comma>
+						</articolo>
+						<articolo id="art8bis" iniziovigore="t28">
+							<num>Art. 8 bis</num>
+							<rubrica>Partecipazione dei comuni all'accertamento dei tributi regionali</rubrica>
+							<comma id="art8bis-com1">
+								<num>1.</num>
+								<corpo>Al fine di potenziare l'azione di contrasto all'evasione fiscale, ai comuni che partecipano all'accertamento fiscale dei tributi regionali è attribuita una quota pari al cinquanta per cento delle maggiori somme riscosse a titolo definitivo per tributi regionali.</corpo>
+							</comma>
+							<comma id="art8bis-com2">
+								<num>2.</num>
+								<corpo>La partecipazione di cui al comma 1, si sostanzia nella trasmissione, alla Regione Toscana o ai soggetti incaricati della gestione dei tributi regionali, di segnalazioni qualificate di atti, fatti e negozi che manifestino immediatamente, senza la necessità di ulteriori elaborazioni logiche, comportamenti evasivi ed elusivi da parte di soggetti passivi di tributi regionali.</corpo>
+							</comma>
+							<comma id="art8bis-com3">
+								<num>3.</num>
+								<corpo>La partecipazione si realizza a seguito dell'adesione del comune, singolo o in forma associata, ad una convenzione che disciplina le modalità attuative della collaborazione con la Regione Toscana.</corpo>
+							</comma>
+							<comma id="art8bis-com4">
+								<num>4.</num>
+								<corpo>Entro centoventi giorni dall'entrata in vigore della presente legge la Giunta regionale approva con deliberazione lo schema tipo della convenzione di cui al comma 3.</corpo>
+							</comma>
+							<comma id="art8bis-com5">
+								<num>5.</num>
+								<corpo>
+									Il trattamento e la comunicazione dei dati e delle notizie derivanti dall'applicazione della presente disposizione sono effettuati nel rispetto del
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:2003-06-30;196" xlink:type="simple">decreto legislativo 30 giugno 2003, n. 196</rif>
+									(Codice in materia di protezione dei dati personali).
+								</corpo>
+							</comma>
+							<comma id="art8bis-com6">
+								<num>6.</num>
+								<corpo>Le entrate e le uscite di cui al comma 1, sono iscritte rispettivamente all'unità previsionale di base (UPB) di entrata 111 "Imposte e tasse" e all'UPB di uscita 731 "Sistema di gestione delle entrate tributarie ed extra-tributarie - Spese correnti " del bilancio regionale di previsione 2010 e pluriennale 2010 - 2012.</corpo>
 							</comma>
 						</articolo>
 					</sezione>

@@ -10,7 +10,8 @@
 					<urn finevigore="t11" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2004-12-20;71" />
 					<urn finevigore="t12" iniziovigore="t11" valore="urn:nir:regione.toscana:legge:2004-12-20;71@2005-09-16" />
 					<urn finevigore="t13" iniziovigore="t12" valore="urn:nir:regione.toscana:legge:2004-12-20;71@2005-12-27" />
-					<urn iniziovigore="t13" valore="urn:nir:regione.toscana:legge:2004-12-20;71@2009-07-17" />
+					<urn finevigore="t14" iniziovigore="t13" valore="urn:nir:regione.toscana:legge:2004-12-20;71@2009-07-17" />
+					<urn iniziovigore="t14" valore="urn:nir:regione.toscana:legge:2004-12-20;71@2009-12-23" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Bilancio" />
@@ -31,6 +32,7 @@
 						<evento data="20050927" fonte="rp1" id="t11" tipo="modifica" />
 						<evento data="20051231" fonte="rp2" id="t12" tipo="modifica" />
 						<evento data="20090725" fonte="rp3" id="t13" tipo="modifica" />
+						<evento data="20100101" fonte="rp4" id="t14" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2004-12-20;71" xlink:type="simple" />
@@ -46,6 +48,7 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2005-09-16;55" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2005-12-27;70" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2009-07-17;37" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2009-12-23;77" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -250,6 +253,30 @@
 								<dsp:testo valore="" />
 							</dsp:dominio>
 						</dsp:variazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art24" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-23;77" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-23;77#art20-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 20, comma 1 della legge Regione Toscana 23 dicembre 2009, n. 77" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art24-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-23;77" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-23;77#art20-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 20, comma 2 della legge Regione Toscana 23 dicembre 2009, n. 77" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -908,10 +935,18 @@
 					</articolo>
 					<articolo id="art24">
 						<num>ARTICOLO 24</num>
-						<rubrica>(Fondo di rotazione per anticipazione alle Aziende sanitarie di risorse provenienti da alienazioni)</rubrica>
+						<rubrica>
+							(Fondo
+							<h:span finevigore="t14" id="h1" iniziovigore="t1" status="abrogato">di rotazione</h:span>
+							per anticipazione alle Aziende sanitarie di risorse provenienti da alienazioni)
+						</rubrica>
 						<comma id="art24-com1">
 							<num>1.</num>
-							<corpo>Allo scopo di accelerare la realizzazione e il completamento del patrimonio strutturale e strumentale nel settore sanitario, la Regione Toscana istituisce per gli anni 2005, 2006 e 2007 un fondo di rotazione per la erogazione di anticipazioni, fino alla concorrenza di euro 30.000.000,00 annui.</corpo>
+							<corpo>
+								Allo scopo di accelerare la realizzazione e il completamento del patrimonio strutturale e strumentale nel settore sanitario, la Regione Toscana istituisce per gli anni 2005, 2006 e 2007 un fondo
+								<h:span finevigore="t14" id="h2" iniziovigore="t1" status="abrogato">di rotazione</h:span>
+								per la erogazione di anticipazioni, fino alla concorrenza di euro 30.000.000,00 annui.
+							</corpo>
 						</comma>
 						<comma id="art24-com2">
 							<num>2.</num>

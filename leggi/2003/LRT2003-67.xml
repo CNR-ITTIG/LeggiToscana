@@ -8,7 +8,8 @@
 					<entratainvigore norm="20040122" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t10" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2003-12-29;67" />
-					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:2003-12-29;67@2007-06-21" />
+					<urn finevigore="t11" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:2003-12-29;67@2007-06-21" />
+					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:2003-12-29;67@2009-12-23" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Protezione Civile" />
 						<materia valore="Ordinamento" />
@@ -26,6 +27,7 @@
 						<evento data="20040122" fonte="ra7" id="t8" tipo="modifica" />
 						<evento data="20040724" fonte="ra8" id="t9" tipo="modifica" />
 						<evento data="20070717" fonte="rp1" id="t10" tipo="modifica" />
+						<evento data="20100101" fonte="rp2" id="t11" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2003-12-29;67" xlink:type="simple" />
@@ -38,6 +40,7 @@
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:2000-03-20;30" xlink:type="simple" />
 						<attiva id="ra8" xlink:href="urn:nir:regione.toscana:legge:1988;14" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2007-06-21;35" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2009-12-23;77" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -157,6 +160,33 @@
 							</dsp:norma>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art8-com5-t10" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art30" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-23;77" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-23;77#art18-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 18, comma 1 della legge Regione Toscana 23 dicembre 2009, n. 77" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art30-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-23;77" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-23;77#art18-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 18, comma 2 della legge Regione Toscana 23 dicembre 2009, n. 77" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>
@@ -1639,7 +1669,12 @@
 					</articolo>
 					<articolo id="art30">
 						<num>ARTICOLO 30</num>
-						<rubrica>(Fondo regionale di rotazione)</rubrica>
+						<rubrica>
+							(Fondo regionale
+							<h:span finevigore="t11" id="h1" iniziovigore="t1" status="abrogato">di rotazione</h:span>
+							<h:span id="h2" iniziovigore="t11">di anticipazione</h:span>
+							)
+						</rubrica>
 						<comma id="art30-com1">
 							<num>1.</num>
 							<corpo>
@@ -1660,7 +1695,11 @@
 						</comma>
 						<comma id="art30-com4">
 							<num>4.</num>
-							<corpo>Per la concessione delle anticipazioni di cui al presente articolo è istituito apposito fondo di rotazione, il cui utilizzo è disciplinato dalla Regione con regolamento da adottare entro tre mesi dalla entrata in vigore della presente legge.</corpo>
+							<corpo>
+								Per la concessione delle anticipazioni di cui al presente articolo è istituito apposito fondo
+								<h:span finevigore="t11" id="h3" iniziovigore="t1" status="abrogato">di rotazione</h:span>
+								, il cui utilizzo è disciplinato dalla Regione con regolamento da adottare entro tre mesi dalla entrata in vigore della presente legge.
+							</corpo>
 						</comma>
 						<comma id="art30-com5">
 							<num>5.</num>

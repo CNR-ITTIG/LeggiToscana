@@ -10,7 +10,8 @@
 					<urn finevigore="t4" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2004-07-27;39" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:2004-07-27;39@2006-07-11" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2004-07-27;39@2007-07-27" />
-					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2004-07-27;39@2008-10-22" />
+					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2004-07-27;39@2008-10-22" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:2004-07-27;39@2009-12-23" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Programmazione" />
 						<materia valore="Enti Territoriali" />
@@ -24,6 +25,7 @@
 						<evento data="20060802" fonte="rp1" id="t4" tipo="modifica" />
 						<evento data="20070731" fonte="rp2" id="t5" tipo="modifica" />
 						<evento data="20091029" fonte="rp3" id="t6" tipo="modifica" />
+						<evento data="20100101" fonte="rp4" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2004-07-27;39" xlink:type="simple" />
@@ -32,6 +34,7 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2006-07-11;31" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2008-10-22;53" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2009-12-23;77" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -118,6 +121,36 @@
 								<dsp:pos xlink:href="#art13-t6" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art15" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-23;77" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-23;77#art19-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 19, comma 1 della legge Regione Toscana 23 dicembre 2009, n. 77" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art15-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-23;77" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-23;77#art19-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 19, comma 2 della legge Regione Toscana 23 dicembre 2009, n. 77" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -622,11 +655,19 @@
 					</articolo>
 					<articolo id="art15">
 						<num>ARTICOLO 15</num>
-						<rubrica>(Fondo di rotazione per spese progettuali)</rubrica>
+						<rubrica>
+							(Fondo
+							<h:span finevigore="t7" id="h1" iniziovigore="t1" status="abrogato">di rotazione</h:span>
+							<h:span id="h2" iniziovigore="t7">di anticipazione</h:span>
+							per spese progettuali)
+						</rubrica>
 						<comma id="art15-com1">
 							<num>1.</num>
 							<corpo>
-								È istituito un fondo di rotazione per favorire la progettualità dei comuni facenti parte dell'elenco di cui all'
+								È istituito un fondo
+								<h:span finevigore="t7" id="h3" iniziovigore="t1" status="abrogato">di rotazione</h:span>
+								<h:span id="h4" iniziovigore="t7">di anticipazione</h:span>
+								per favorire la progettualità dei comuni facenti parte dell'elenco di cui all'
 								<rif xlink:href="#art2-com3" xlink:type="simple">articolo 2, comma 3</rif>
 								, e che risultano con valori del disagio superiori alla media regionale. Il fondo opera sino alla concessione massima complessiva di euro 2.000.000,00, destinati alle spese progettuali. L'importo massimo che può essere concesso per ogni progetto è determinato nella misura di euro 200.000,00.
 							</corpo>
