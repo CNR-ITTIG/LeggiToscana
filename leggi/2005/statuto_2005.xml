@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
@@ -13,10 +13,12 @@
 					<eventi>
 						<evento data="20050212" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20050212" fonte="ra1" id="t2" tipo="modifica" />
+						<evento data="20100113" fonte="rp1" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:statuto:2005-02-11;da assegnare" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:statuto:1971-05-22;343" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2010-01-08;1" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -34,6 +36,50 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com2-t3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-01-08;1" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-01-08;1#art1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo1, legge Regione Toscana 8 gennaio 2010, n. 1" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art6-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art6-com2-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art35-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-01-08;1" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-01-08;1#art1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo1, legge Regione Toscana 8 gennaio 2010, n. 1" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art35-com3-t3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-01-08;1" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-01-08;1#art1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo1, legge Regione Toscana 8 gennaio 2010, n. 1" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art35-com3-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -220,9 +266,13 @@
 									<num>1.</num>
 									<corpo>Il consiglio regionale è eletto a suffragio universale e diretto con le modalità previste dalla legge elettorale regionale.</corpo>
 								</comma>
-								<comma id="art6-com2">
+								<comma finevigore="t3" id="art6-com2-t3" iniziovigore="t1" status="abrogato">
 									<num>2.</num>
 									<corpo>Il numero dei consiglieri è sessantacinque.</corpo>
+								</comma>
+								<comma id="art6-com2" iniziovigore="t3">
+									<num>2.</num>
+									<corpo>Il Consiglio regionale è composto da cinquantatre consiglieri, fatti salvi gli effetti dell'applicazione della legge elettorale.</corpo>
 								</comma>
 							</articolo>
 							<articolo id="art7">
@@ -258,7 +308,7 @@
 								<rubrica>Prerogative dei consiglieri</rubrica>
 								<comma id="art9-com1">
 									<num>1.</num>
-									<corpo>I consiglieri regionali rappresentano l'intera Regio ne senza vincolo di mandato e non possono essere chiamati a rispondere per le opinioni espresse e i voti dati nell'esercizio delle loro funzioni.</corpo>
+									<corpo>I consiglieri regionali rappresentano l'intera Regione senza vincolo di mandato e non possono essere chiamati a rispondere per le opinioni espresse e i voti dati nell'esercizio delle loro funzioni.</corpo>
 								</comma>
 								<comma id="art9-com2">
 									<num>2.</num>
@@ -808,13 +858,18 @@
 								<rubrica>Composizione</rubrica>
 								<comma id="art35-com1">
 									<num>1.</num>
-									<corpo>La giunta è composta dal presidente e da un numero di componenti, denominati assessori, non inferiore a otto e non superiore a quattordici.</corpo>
+									<corpo>
+										La giunta è composta dal presidente e da un numero di componenti, denominati assessori,
+										<h:span finevigore="t3" id="h1" iniziovigore="t1" status="abrogato">non inferiore a otto e non superiore a quattordici</h:span>
+										<h:span id="h2" iniziovigore="t3">non superiore a dieci</h:span>
+										.
+									</corpo>
 								</comma>
 								<comma id="art35-com2">
 									<num>2.</num>
 									<corpo>Gli assessori sono nominati dal presidente della giunta.</corpo>
 								</comma>
-								<comma id="art35-com3">
+								<comma finevigore="t3" id="art35-com3-t3" iniziovigore="t1" status="abrogato">
 									<num>3.</num>
 									<corpo>La nomina ad assessore comporta la sospensione di diritto dall'incarico di consigliere regionale e la sostituzione con un supplente, secondo le modalità previste dalla legge elettorale regionale.</corpo>
 								</comma>
@@ -1626,13 +1681,13 @@
 							<num>1.</num>
 							<corpo>
 								L'
-								<rif xlink:href="#art6-com2" xlink:type="simple">articolo 6, comma 2</rif>
+								<rif xlink:href="#art6-com2-t3" xlink:type="simple">articolo 6, comma 2</rif>
 								, e l'
 								<mrif>
 									articolo 35, comma
 									<rif xlink:href="#art35-com1" xlink:type="simple">1</rif>
 									e
-									<rif xlink:href="#art35-com3" xlink:type="simple">3</rif>
+									<rif xlink:href="#art35-com3-t3" xlink:type="simple">3</rif>
 								</mrif>
 								, si applicano a decorrere dalla prima elezione del consiglio regionale da effettuarsi ai sensi della legge elettorale regionale.
 							</corpo>
