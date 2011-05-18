@@ -8,7 +8,8 @@
 					<entratainvigore norm="19890926" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t7" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1989-09-02;61" />
-					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1989-09-02;61@1998-05-18" />
+					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1989-09-02;61@1998-05-18" />
+					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1989-09-02;61@2009-12-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Rifiuti" />
 					</materie>
@@ -22,6 +23,7 @@
 						<evento data="19890926" fonte="ra4" id="t5" tipo="modifica" />
 						<evento data="19890926" fonte="ra5" id="t6" tipo="modifica" />
 						<evento data="19980612" fonte="rp1" id="t7" tipo="modifica" />
+						<evento data="20100119" fonte="rp2" id="t8" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1989-09-02;61" xlink:type="simple" />
@@ -31,6 +33,7 @@
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1988-08-19;60" xlink:type="simple" />
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1988-08-19;60" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2009-12-29;87" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -39,6 +42,13 @@
 							Intero testo di legge abrogato dall'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25#art38-com1" xlink:type="simple">art. 38, comma 1, della legge regionale 18 maggio 1998, n. 25</rif>
 							, ad eccezione del comma 5 dell'art. unico.
+						</h:p>
+					</nota>
+					<nota id="n2">
+						<h:p>
+							Il presente comma viene abrogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2009-12-29;87#art14-com1" xlink:type="simple">art. 14, comma 1, della legge regionale 29 dicembre 2009, n. 87</rif>
+							, con la decorrenza ivi indicata.
 						</h:p>
 					</nota>
 				</redazionale>
@@ -181,6 +191,24 @@
 								<dsp:pos xlink:href="#artunico-com4-t7" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:termine da="#t8" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-29;87" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-29;87#mod3" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:variazione>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:termine da="" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-29;87" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-29;87#mod7" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:variazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -297,6 +325,8 @@
 								, è sostituito con
 								<virgolette id="mod5-vir2" tipo="parola">
 									<rif xlink:href="urn:nir:presidente.repubblica:decreto:1982-09-10#art6-com5" xlink:type="simple">art. 6, comma 5, del DPR 10 settembre 1982</rif>
+									.
+									<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
 								</virgolette>
 							</mod>
 						</corpo>

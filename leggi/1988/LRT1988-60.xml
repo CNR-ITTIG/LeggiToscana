@@ -11,7 +11,8 @@
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1988-08-19;60@1989-09-02" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1988-08-19;60@1993-09-06" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1988-08-19;60@1995-04-04" />
-					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1988-08-19;60@1998-05-18" />
+					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1988-08-19;60@1998-05-18" />
+					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1988-08-19;60@2009-12-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Rifiuti" />
 					</materie>
@@ -24,6 +25,7 @@
 						<evento data="19930930" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="19950422" fonte="rp4" id="t5" tipo="modifica" />
 						<evento data="19980612" fonte="rp5" id="t6" tipo="modifica" />
+						<evento data="20100119" fonte="rp6" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1988-08-19;60" xlink:type="simple" />
@@ -32,14 +34,22 @@
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1993-09-06;64" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:1995-04-04;35" xlink:type="simple" />
 						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25" xlink:type="simple" />
+						<passiva id="rp6" xlink:href="urn:nir:regione.toscana:legge:2009-12-29;87" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
 					<nota id="n1">
 						<h:p>
-							Intero testo di legge abrogatodall'
+							Intero testo di legge abrogato dall'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25#art38-com1" xlink:type="simple">art. 38, comma 1, della legge regionale 18 maggio 1998, n. 25</rif>
 							, ad eccezzione dell'art. 10.
+						</h:p>
+					</nota>
+					<nota id="n2">
+						<h:p>
+							Il presente articolo viene abrogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2009-12-29;87#art14-com1" xlink:type="simple">art. 14, comma 1, della legge regionale 29 dicembre 2009, n. 87</rif>
+							, con la decorrenza ivi indicata.
 						</h:p>
 					</nota>
 				</redazionale>
@@ -331,7 +341,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art1" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25#art32-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -546,6 +556,15 @@
 								<dsp:pos xlink:href="#art14-t6" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:termine da="#t7" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-12-29;87" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-12-29;87#mod2" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:variazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -1152,7 +1171,10 @@
 					</comma>
 				</articolo>
 				<articolo id="art10">
-					<num>ARTICOLO 10</num>
+					<num>
+						ARTICOLO 10
+						<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+					</num>
 					<rubrica>(Costituzione della Agenzia regionale per la commercializzazione delle materie prime secondarie)</rubrica>
 					<comma id="art10-com1">
 						<num>1.</num>
