@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20020412" num="Supplemento Straordinario n. 67 al Bollettino Ufficiale della Regione Toscana n. 8" tipo="BURT" />
 					<entratainvigore norm="20020427" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2002-04-02;12" />
+					<urn finevigore="t8" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2002-04-02;12" />
+					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:2002-04-02;12@2010-02-11" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tutela Ambientale" />
 					</materie>
@@ -21,6 +22,7 @@
 						<evento data="20020427" fonte="ra4" id="t5" tipo="modifica" />
 						<evento data="20020427" fonte="ra5" id="t6" tipo="modifica" />
 						<evento data="20020427" fonte="ra6" id="t7" tipo="modifica" />
+						<evento data="20100304" fonte="rp1" id="t8" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2002-04-02;12" xlink:type="simple" />
@@ -30,6 +32,7 @@
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1998;63" xlink:type="simple" />
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:2001;64" xlink:type="simple" />
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:2001;64" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2010-02-11;9" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -166,6 +169,32 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-02-11;9" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-02-11;9#art18-com1-letd" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 18, comma 1, lettera d) della legge Regione Toscana 11 febbraio 2010, n. 9" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art1-t8" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-02-11;9" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-02-11;9#art18-com1-letd" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 18, comma 1, lettera d) della legge Regione Toscana 11 febbraio 2010, n. 9" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-t8" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -192,10 +221,10 @@
 				<h:p>promulga la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<articolo id="art1">
+				<articolo finevigore="t8" id="art1-t8" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 1</num>
 					<rubrica>Inserimento dell'articolo 7 bis</rubrica>
-					<comma id="art1-com1">
+					<comma id="art1-t8-com1">
 						<num>1.</num>
 						<corpo>
 							<mod id="mod1">
@@ -232,10 +261,10 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art2">
+				<articolo finevigore="t8" id="art2-t8" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 2</num>
 					<rubrica>Modifiche all'articolo 8</rubrica>
-					<comma id="art2-com1">
+					<comma id="art2-t8-com1">
 						<num>1.</num>
 						<corpo>
 							<mod id="mod2">
