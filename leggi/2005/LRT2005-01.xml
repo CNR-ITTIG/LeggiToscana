@@ -19,7 +19,8 @@
 					<urn finevigore="t91" iniziovigore="t90" valore="urn:nir:regione.toscana:legge:2005-01-03;1@2009-07-23" />
 					<urn finevigore="t93" iniziovigore="t91" valore="urn:nir:regione.toscana:legge:2005-01-03;1@2009-11-09" />
 					<urn finevigore="t92" iniziovigore="t93" valore="urn:nir:regione.toscana:legge:2005-01-03;1@2009-12-23" />
-					<urn iniziovigore="t92" valore="urn:nir:regione.toscana:legge:2005-01-03;1@2009-12-14" />
+					<urn finevigore="t94" iniziovigore="t92" valore="urn:nir:regione.toscana:legge:2005-01-03;1@2009-12-14" />
+					<urn iniziovigore="t94" valore="urn:nir:regione.toscana:legge:2005-01-03;1@2010-02-12" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Urbanistica" />
 						<materia valore="Tutela Ambientale" />
@@ -120,6 +121,7 @@
 						<evento data="20091128" fonte="rp10" id="t91" tipo="modifica" />
 						<evento data="20100102" fonte="rp11" id="t92" tipo="modifica" />
 						<evento data="20100101" fonte="rp12" id="t93" tipo="modifica" />
+						<evento data="20100218" fonte="rp13" id="t94" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1" xlink:type="simple" />
@@ -215,6 +217,7 @@
 						<passiva id="rp10" xlink:href="urn:nir:regione.toscana:legge:2009-11-09;66" xlink:type="simple" />
 						<passiva id="rp11" xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple" />
 						<passiva id="rp12" xlink:href="urn:nir:regione.toscana:legge:2009-12-23;77" xlink:type="simple" />
+						<passiva id="rp13" xlink:href="urn:nir:regione.toscana:legge:2010-02-12;10" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -2811,6 +2814,21 @@
 								<dsp:pos xlink:href="#art105quinquies-com3ter" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art11" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-02-12;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-02-12;10#art36-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 36, comma 1 della legge Regione Toscana 12 febbraio 2010, n. 10" id="itt98" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art11" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art11-t94" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -3244,10 +3262,10 @@
 					<capo id="tit2-cap1">
 						<num>CAPO I</num>
 						<rubrica>Valutazione integrata di piani e programmi</rubrica>
-						<articolo id="art11">
+						<articolo finevigore="t94" id="art11-t94" iniziovigore="t1" status="abrogato">
 							<num>ARTICOLO 11</num>
 							<rubrica>(Disposizioni generali)</rubrica>
-							<comma id="art11-com1">
+							<comma id="art11-t94-com1">
 								<num>1.</num>
 								<corpo>
 									I comuni, le province e la Regione, ai fini dell'adozione degli strumenti della pianificazione territoriale di cui all'
@@ -3255,7 +3273,7 @@
 									, provvedono alla previa effettuazione di una valutazione integrata degli effetti territoriali, ambientali, sociali ed economici e sulla salute umana.
 								</corpo>
 							</comma>
-							<comma id="art11-com2">
+							<comma id="art11-t94-com2">
 								<num>2.</num>
 								<corpo>
 									Sono soggetti a valutazione integrata gli atti comunali di governo del territorio, salva diversa previsione del piano strutturale sulla base dei criteri di cui all'
@@ -3263,15 +3281,15 @@
 									.
 								</corpo>
 							</comma>
-							<comma id="art11-com3">
+							<comma id="art11-t94-com3">
 								<num>3.</num>
 								<corpo>La valutazione integrata comprende la verifica tecnica di compatibilità relativamente all'uso delle risorse essenziali del territorio.</corpo>
 							</comma>
-							<comma id="art11-com4">
+							<comma id="art11-t94-com4">
 								<num>4.</num>
 								<corpo>La valutazione integrata di cui al presente articolo è effettuata anche in più momenti procedurali, a partire dalla prima fase utile delle elaborazioni. Essa deve intervenire, in ogni caso, preliminarmente alla definizione di qualunque determinazione impegnativa, anche al fine di consentire la scelta motivata tra possibili alternative, oltre che per individuare aspetti che richiedano ulteriori integrazioni o approfondimenti.</corpo>
 							</comma>
-							<comma id="art11-com5">
+							<comma id="art11-t94-com5">
 								<num>5.</num>
 								<corpo>
 									Con apposito regolamento, da emanarsi entro trecentosessantacinque giorni dall'entrata in vigore della presente legge, la Regione disciplina, in coerenza con la
@@ -3284,6 +3302,70 @@
 								</corpo>
 							</comma>
 						</articolo>
+						<articolo id="art11" iniziovigore="t94">
+							<num>Art. 11</num>
+							<rubrica>Disposizioni generali</rubrica>
+							<comma id="art11-com1">
+								<num>1.</num>
+								<alinea>I comuni, le province e la Regione, per quanto di rispettiva competenza, provvedono alla previa effettuazione di una valutazione integrata degli effetti territoriali, ambientali, sociali ed economici e sulla salute umana ai fini dell'adozione ed approvazione dei seguenti strumenti ed atti:</alinea>
+								<el id="art11-com1-leta">
+									<num>a)</num>
+									<corpo>piano di indirizzo territoriale;</corpo>
+								</el>
+								<el id="art11-com1-letb">
+									<num>b)</num>
+									<corpo>piano territoriale di coordinamento;</corpo>
+								</el>
+								<el id="art11-com1-letc">
+									<num>c)</num>
+									<corpo>piano strutturale;</corpo>
+								</el>
+								<el id="art11-com1-letd">
+									<num>d)</num>
+									<corpo>regolamento urbanistico;</corpo>
+								</el>
+								<el id="art11-com1-lete">
+									<num>e)</num>
+									<corpo>piano complesso di intervento;</corpo>
+								</el>
+								<el id="art11-com1-letf">
+									<num>f)</num>
+									<corpo>
+										atti di cui all'
+										<rif xlink:href="#art10-com2" xlink:type="simple">articolo 10, comma 2</rif>
+										, qualora inci dano sull'assetto definito dagli strumenti della pianificazione territoriale in vigore, determinando modifiche o variazioni di essi;
+									</corpo>
+								</el>
+								<el id="art11-com1-letg">
+									<num>g)</num>
+									<corpo>le varianti agli strumenti ed atti di cui al presente comma, ove queste costituiscano quadro di riferimento di progetti ed altre attività, sia in relazione all'ubicazione che alla natura, alle dimensioni e alle condizioni operative di esse, sia con riferimento alla ripartizione di risorse.</corpo>
+								</el>
+							</comma>
+							<comma id="art11-com2">
+								<num>2.</num>
+								<corpo>
+									Fatto salvo quanto disposto al comma 4, sono esclusi dalla valutazione integrata i piani attuativi di cui all'
+									<rif xlink:href="#art65" xlink:type="simple">articolo 65</rif>
+									, salva diversa disposizione del regolamento urbanistico.
+								</corpo>
+							</comma>
+							<comma id="art11-com3">
+								<num>3.</num>
+								<corpo>L'esclusione dall'effettuazione della valutazione integrata è espressamente motivata negli atti deliberativi di adozione ed approvazione.</corpo>
+							</comma>
+							<comma id="art11-com4">
+								<num>4.</num>
+								<corpo>La valutazione integrata è comunque prevista per gli strumenti della pianificazione territoriale e per gli atti di governo del territorio soggetti a valutazione ambientale strategica secondo la normativa vigente.</corpo>
+							</comma>
+							<comma id="art11-com5">
+								<num>5.</num>
+								<corpo>La valutazione integrata comprende la verifica tecnica di compatibilità relativamente all'uso delle risorse essenziali del territorio.</corpo>
+							</comma>
+							<comma id="art11-com6">
+								<num>6.</num>
+								<corpo>La valutazione integrata di cui al presente articolo è effettuata anche in più momenti procedurali, a partire dalla prima fase utile delle elaborazioni. Essa deve intervenire, in ogni caso, prima dell'approvazione finale, anche al fine di consentire la scelta motivata tra possibili alternative, oltre che per individuare aspetti che richiedano ulteriori integrazioni o approfondimenti.</corpo>
+							</comma>
+						</articolo>
 						<articolo id="art12">
 							<num>ARTICOLO 12</num>
 							<rubrica>(I raccordi tra gli atti del governo del territorio)</rubrica>
@@ -3293,7 +3375,7 @@
 									I piani e i programmi di settore di cui all'
 									<rif xlink:href="#art10-com2" xlink:type="simple">articolo 10, comma 2</rif>
 									, e gli altri atti di governo modificativi degli strumenti della pianificazione territoriale, sono soggetti alla valutazione integrata di cui all'
-									<rif xlink:href="#art11" xlink:type="simple">articolo 11</rif>
+									<rif xlink:href="#art11-t94" xlink:type="simple">articolo 11</rif>
 									e, a tal fine, sono integrati da uno specifico elaborato nel quale siano evidenziate le risorse essenziali del territorio di cui si prevede l'utilizzazione, i relativi tempi e modalità, gli altri atti delle politiche di settore eventualmente interessati, le possibili sinergie e i parametri per il monitoraggio degli effetti.
 								</corpo>
 							</comma>
@@ -3301,7 +3383,7 @@
 								<num>2.</num>
 								<corpo>
 									Il provvedimento di approvazione del piano, programma o altro atto di governo del territorio modificativo di alcuno degli strumenti della pianificazione territoriale, nonché quelli di approvazione di varianti o aggiornamenti di essi, devono dare atto espressamente dell'esito delle verifiche effettuate ai fini della valutazione integrata degli effetti di cui all'
-									<rif xlink:href="#art11-com1" xlink:type="simple">articolo 11, comma 1</rif>
+									<rif xlink:href="#art11-t94-com1" xlink:type="simple">articolo 11, comma 1</rif>
 									.
 								</corpo>
 							</comma>
@@ -3315,7 +3397,7 @@
 									Gli strumenti della pianificazione territoriale e gli atti di governo del territorio sono sottoposti, da parte dei soggetti istituzionali competenti di cui all'
 									<rif xlink:href="#art7" xlink:type="simple">articolo 7</rif>
 									, al monitoraggio degli effetti di cui all'
-									<rif xlink:href="#art11-com1" xlink:type="simple">articolo 11, comma 1</rif>
+									<rif xlink:href="#art11-t94-com1" xlink:type="simple">articolo 11, comma 1</rif>
 									.
 								</corpo>
 							</comma>
@@ -3325,7 +3407,7 @@
 									Gli atti, di cui al
 									<rif xlink:href="#art13-com1" xlink:type="simple">comma 1</rif>
 									, individuano, nei casi previsti dalla presente legge, le principali modalità e gli indicatori idonei al monitoraggio medesimo, nel rispetto delle disposizioni dettate dal regolamento regionale di cui all'
-									<rif xlink:href="#art11-com5" xlink:type="simple">articolo 11, comma 5</rif>
+									<rif xlink:href="#art11-t94-com5" xlink:type="simple">articolo 11, comma 5</rif>
 									.
 								</corpo>
 							</comma>
@@ -3335,7 +3417,7 @@
 									La Giunta regionale informa il Consiglio regionale sull'attività di monitoraggio degli effetti di cui al
 									<rif xlink:href="#art13-com1" xlink:type="simple">comma 1</rif>
 									. A tal fine, a partire dal secondo anno di entrata in vigore del regolamento di cui all'
-									<rif xlink:href="#art11-com5" xlink:type="simple">articolo 11, comma 5</rif>
+									<rif xlink:href="#art11-t94-com5" xlink:type="simple">articolo 11, comma 5</rif>
 									, e con cadenza biennale, entro il primo semestre di ogni biennio, la Giunta regionale presenta al Consiglio regionale una relazione che evidenzi le azioni di monitoraggio compiute sugli strumenti della pianificazione territoriale e sugli atti di governo del territorio e sui risultati conseguiti in termini di controllo e garanzia della sostenibilità ambientale delle attività pubbliche e private che incidano sul territorio medesimo.
 								</corpo>
 							</comma>
@@ -3347,7 +3429,7 @@
 								<num>1.</num>
 								<corpo>
 									Ai fini dell'effettuazione o meno della valutazione integrata di cui all'
-									<rif xlink:href="#art11" xlink:type="simple">articolo 11</rif>
+									<rif xlink:href="#art11-t94" xlink:type="simple">articolo 11</rif>
 									, deve tenersi conto, prioritariamente, della misura in cui l'atto di cui si tratti costituisca quadro di riferimento di progetti ed altre attività, sia in relazione all'ubicazione che alla natura, alle dimensioni e alle condizioni operative di esse, sia con riferimento alla ripartizione di risorse.
 								</corpo>
 							</comma>
@@ -3499,7 +3581,7 @@
 									Ai fini di cui al presente articolo, il responsabile del procedimento assicura l'acquisizione, prima dell'adozione dell'atto, di tutti i pareri richiesti dalla legge, delle eventuali segnalazioni, proposte, contributi e condizioni, formulate dagli altri soggetti, pubblici e privati, interessati. In particolare, provvede ad allegare, agli atti da adottare, il rapporto del garante della comunicazione di cui all'
 									<rif xlink:href="#art19" xlink:type="simple">articolo 19</rif>
 									, unitamente ad una relazione di sintesi concernente la valutazione integrata, effettuata ai sensi dell'
-									<rif xlink:href="#art11" xlink:type="simple">articolo 11</rif>
+									<rif xlink:href="#art11-t94" xlink:type="simple">articolo 11</rif>
 									.
 								</corpo>
 							</comma>
@@ -13758,7 +13840,7 @@
 									Le disposizioni di cui al
 									<rif xlink:href="#tit2-cap1" xlink:type="simple">titolo II, capo I</rif>
 									, si applicano dalla data di entrata in vigore del regolamento di cui all'
-									<rif xlink:href="#art11-com4" xlink:type="simple">articolo 11, comma 4</rif>
+									<rif xlink:href="#art11-t94-com4" xlink:type="simple">articolo 11, comma 4</rif>
 									.
 								</corpo>
 							</comma>
