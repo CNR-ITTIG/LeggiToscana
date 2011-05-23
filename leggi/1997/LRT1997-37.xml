@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19970530" num="23" tipo="BURT" />
 					<entratainvigore norm="19970614" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1997-05-21;37" />
+					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1997-05-21;37" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1997-05-21;37@2010-02-25" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Cultura" />
 					</materie>
@@ -16,12 +17,30 @@
 					<eventi>
 						<evento data="19970614" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19970614" fonte="ra1" id="t2" tipo="modifica" />
+						<evento data="20100502" fonte="rp1" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1997-05-21;37" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1980-12-04;89" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2010-02-25;21" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							La presente legge viene abrogata dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2010-02-25;21#art55-com1-letg" xlink:type="simple">art. 55, comma 1, let. g), della legge regionale 25 febbraio 2010, n. 21</rif>
+							, a decorrere dalla data di entrata in vigore del regolamento di attuazione di cui all'art. 53 della stessa.
+						</h:p>
+					</nota>
+					<nota id="n2">
+						<h:p>
+							La presente legge viene abrogata dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2010-02-25;21#art55-com1-letg" xlink:type="simple">art. 55, comma 1, let. g), della legge regionale 25 febbraio 2010, n. 21</rif>
+							, a decorrere dalla data di entrata in vigore del regolamento di attuazione di cui all'art. 53 della stessa.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:integrazione completa="si" implicita="no">
@@ -38,6 +57,17 @@
 							</dsp:novella>
 						</dsp:integrazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:termine da="#t3" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-02-25;21" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-02-25;21#mod8" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:variazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -49,7 +79,9 @@
 				<titoloDoc>
 					Integrazione alla
 					<rif xlink:href="urn:nir:regione.toscana:legge:1980-12-04;89" xlink:type="simple">LR 4 dicembre 1980, n. 89</rif>
-					concernente norme in materia di musei e di raccolte di enti locali e di interesse locale.
+					concernente norme in materia di musei e di raccolte di enti locali e di interesse locale
+					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					.
 				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
@@ -60,7 +92,10 @@
 			</formulainiziale>
 			<articolato>
 				<articolo id="art1">
-					<num>ARTICOLO 1</num>
+					<num>
+						ARTICOLO 1
+						<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+					</num>
 					<rubrica>
 						(Inserimento dell'art. 13 bis nella
 						<rif xlink:href="urn:nir:regione.toscana:legge:1980-12-04;89" xlink:type="simple">LR 4 dicembre 1980, n. 89</rif>

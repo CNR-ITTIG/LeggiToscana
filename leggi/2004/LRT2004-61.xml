@@ -8,7 +8,8 @@
 					<entratainvigore norm="20041209" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t8" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2004-11-15;61" />
-					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:2004-11-15;61@2009-05-22" />
+					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:2004-11-15;61@2009-05-22" />
+					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:2004-11-15;61@2010-02-25" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Attività Istituzionali" />
 					</materie>
@@ -23,6 +24,7 @@
 						<evento data="20041209" fonte="ra5" id="t6" tipo="modifica" />
 						<evento data="20041209" fonte="ra6" id="t7" tipo="modifica" />
 						<evento data="20090611" fonte="rp1" id="t8" tipo="modifica" />
+						<evento data="20100502" fonte="rp2" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2004-11-15;61" xlink:type="simple" />
@@ -33,8 +35,18 @@
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:1999-03-23;17" xlink:type="simple" />
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1999;49" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2009-05-22;26" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2010-02-25;21" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Il presentearticolo viene abrogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2010-02-25;21#art55-com1-letn" xlink:type="simple">art. 55, comma 1, let. n), della legge regionale 25 febbraio 2010, n. 21</rif>
+							, a decorrere dalla data di entrata in vigore del regolamento di attuazione di cui all'art. 53 della stessa.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -435,6 +447,15 @@
 								<dsp:pos xlink:href="#art22-t8" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:termine da="#t9" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-02-25;21" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-02-25;21#mod13" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:variazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -1277,7 +1298,10 @@
 						<rif xlink:href="urn:nir:regione.toscana:legge:1999;17" xlink:type="simple">LR 17/1999</rif>
 					</rubrica>
 					<articolo id="art20">
-						<num>ARTICOLO 20</num>
+						<num>
+							ARTICOLO 20
+							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+						</num>
 						<rubrica>
 							(Modifiche all'
 							<rif xlink:href="urn:nir:regione.toscana:legge:1994;88#art6" xlink:type="simple">articolo 6 della LR 88/1994</rif>

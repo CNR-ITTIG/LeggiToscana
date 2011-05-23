@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19940803" num="52" tipo="BURT" />
 					<entratainvigore norm="19940818" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1994-07-29;57" />
+					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1994-07-29;57" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1994-07-29;57@2010-02-25" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organizzazioni Pubbliche" />
 						<materia valore="Finanziamenti" />
@@ -18,12 +19,23 @@
 					<eventi>
 						<evento data="19940818" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19940818" fonte="ra1" id="t2" tipo="modifica" />
+						<evento data="20100502" fonte="rp1" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1994-07-29;57" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1987-05-06;27" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2010-02-25;21" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							La presente legge viene abrogata dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2010-02-25;21#art55-com1-lete" xlink:type="simple">art. 55, comma 1, let. e), della legge regionale 25 febbraio 2010, n. 21</rif>
+							, adecorrere dalla data di entrata in vigore del regolamento di attuazione di cui all'art. 53 della stessa.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:integrazione completa="si" implicita="no">
@@ -40,6 +52,17 @@
 							</dsp:novella>
 						</dsp:integrazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:termine da="#t3" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-02-25;21" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-02-25;21#mod6" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:variazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -51,7 +74,9 @@
 				<titoloDoc>
 					Integrazione alla
 					<rif xlink:href="urn:nir:regione.toscana:legge:1987-05-06;27" xlink:type="simple">Legge regionale 6 maggio 1987, n. 27</rif>
-					sulla partecipazione della Regione Toscana alla Fondazione Scuola di Musica di Fiesole.
+					sulla partecipazione della Regione Toscana alla Fondazione Scuola di Musica di Fiesole
+					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					.
 				</titoloDoc>
 			</intestazione>
 			<formulainiziale>

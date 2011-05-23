@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20040204" num="4" tipo="BURT" />
 					<entratainvigore norm="20040219" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2004-01-27;6" />
+					<urn finevigore="t4" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2004-01-27;6" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:2004-01-27;6@2010-02-25" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Attività Artistiche" />
 					</materie>
@@ -17,13 +18,31 @@
 						<evento data="20040219" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20040219" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="20040219" fonte="ra2" id="t3" tipo="modifica" />
+						<evento data="20100502" fonte="rp1" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2004-01-27;6" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:2000-03-28;45" xlink:type="simple" />
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:2000;45" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2010-02-25;21" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							La presente legge viene abrogata dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2010-02-25;21#art55-com1-letm" xlink:type="simple">art. 55, comma 1, let. m), della legge regionale 25 febbraio 2010, n. 21</rif>
+							, a decorrere dalla data di entrata in vigore del regolamento di attuazione di cui all'art. 53 della stessa.
+						</h:p>
+					</nota>
+					<nota id="n2">
+						<h:p>
+							La presente legge viene abrogata dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2010-02-25;21#art55-com1-letm" xlink:type="simple">art. 55, comma 1, let. m), della legge regionale 25 febbraio 2010, n. 21</rif>
+							, a decorrere dalla data di entrata in vigore del regolamento di attuazione di cui all'art. 53 della stessa.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -63,6 +82,17 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:termine da="#t4" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-02-25;21" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-02-25;21#mod12" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:variazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -74,7 +104,9 @@
 				<titoloDoc>
 					Modifiche alla
 					<rif xlink:href="urn:nir:regione.toscana:legge:2000-03-28;45" xlink:type="simple">legge regionale 28 marzo 2000, n. 45</rif>
-					(Norme in materia di promozione delle attività nel settore dello spettacolo in Toscana).
+					(Norme in materia di promozione delle attività nel settore dello spettacolo in Toscana)
+					<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					.
 				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
@@ -84,7 +116,10 @@
 			</formulainiziale>
 			<articolato>
 				<articolo id="art1">
-					<num>ARTICOLO 1</num>
+					<num>
+						ARTICOLO 1
+						<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+					</num>
 					<rubrica>
 						Modifiche all'
 						<rif xlink:href="urn:nir:regione.toscana:legge:2000;45#art6" xlink:type="simple">articolo 6 della LR 45/2000</rif>

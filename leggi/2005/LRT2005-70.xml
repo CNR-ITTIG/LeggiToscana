@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t31" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2005-12-27;70" />
 					<urn finevigore="t32" iniziovigore="t31" valore="urn:nir:regione.toscana:legge:2005-12-27;70@2006-04-05" />
-					<urn iniziovigore="t32" valore="urn:nir:regione.toscana:legge:2005-12-27;70@2006-07-28" />
+					<urn finevigore="t35" iniziovigore="t32" valore="urn:nir:regione.toscana:legge:2005-12-27;70@2006-07-28" />
+					<urn iniziovigore="t35" valore="urn:nir:regione.toscana:legge:2005-12-27;70@2010-02-25" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Ente Regione" />
 						<materia valore="Bilancio" />
@@ -51,6 +52,7 @@
 						<evento data="20060824" fonte="rp2" id="t32" tipo="modifica" />
 						<evento data="20060824" fonte="ra30" id="t33" tipo="modifica" />
 						<evento data="20051231" fonte="ra31" id="t34" tipo="modifica" />
+						<evento data="20100502" fonte="rp3" id="t35" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2005-12-27;70" xlink:type="simple" />
@@ -87,8 +89,25 @@
 						<attiva id="ra31" xlink:href="urn:nir:regione.toscana:legge:2005-02-18;31" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2006-04-05;14" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2006-07-28;37" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2010-02-25;21" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Il presente articolo viene abrogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2010-02-25;21#art55-com1-letr" xlink:type="simple">art. 55, comma 1, let. r), della legge regionale 25 febbraio 2010, n. 21</rif>
+							, a decorrere dalla data di entrata in vigore del regolamento di attuazione di cui all'art. 53 della stessa.
+						</h:p>
+					</nota>
+					<nota id="n2">
+						<h:p>
+							Il presente articolo viene abrogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2010-02-25;21#art55-com1-letr" xlink:type="simple">art. 55, comma 1, let. r), della legge regionale 25 febbraio 2010, n. 21</rif>
+							, a decorrere dalla data di entrata in vigore del regolamento di attuazione di cui all'art. 53 della stessa.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -632,6 +651,15 @@
 								<dsp:pos xlink:href="#art46septies" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:termine da="#t35" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-02-25;21" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-02-25;21#mod18" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:variazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -1340,7 +1368,10 @@
 							(Norme in materia di musei e di raccolte di Enti locali e di interesse locale - Delega delle funzioni amministrative agli Enti locali)
 						</rubrica>
 						<articolo id="art19">
-							<num>ARTICOLO 19</num>
+							<num>
+								ARTICOLO 19
+								<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							</num>
 							<rubrica>
 								(Modifiche all'
 								<rif xlink:href="urn:nir:regione.toscana:legge:1980;89#art16" xlink:type="simple">articolo 16 della l.r. 89/1980</rif>
@@ -1601,7 +1632,10 @@
 							(Interventi finalizzati alla promozione della cultura contemporanea in Toscana)
 						</rubrica>
 						<articolo id="art26">
-							<num>ARTICOLO 26</num>
+							<num>
+								ARTICOLO 26
+								<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+							</num>
 							<rubrica>
 								(Modifiche all'
 								<rif xlink:href="urn:nir:regione.toscana:legge:2005;33#art7" xlink:type="simple">articolo 7 della l.r. 33/2005</rif>
