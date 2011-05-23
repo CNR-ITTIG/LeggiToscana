@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20091231" num="55" tipo="BURT" />
 					<entratainvigore norm="20100101" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2009-12-23;77" />
+					<urn finevigore="t14" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2009-12-23;77" />
+					<urn iniziovigore="t14" valore="urn:nir:regione.toscana:legge:2009-12-23;77@2010-02-15" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -24,6 +25,7 @@
 						<evento data="20100101" fonte="ra10" id="t11" tipo="modifica" />
 						<evento data="20100101" fonte="ra11" id="t12" tipo="modifica" />
 						<evento data="20100101" fonte="ra12" id="t13" tipo="modifica" />
+						<evento data="20100223" fonte="rp1" id="t14" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2009-12-23;77" xlink:type="simple" />
@@ -39,6 +41,7 @@
 						<attiva id="ra10" xlink:href="urn:nir:regione.toscana:legge:2006-12-22;64" xlink:type="simple" />
 						<attiva id="ra11" xlink:href="urn:nir:regione.toscana:legge:2006;64" xlink:type="simple" />
 						<attiva id="ra12" xlink:href="urn:nir:regione.toscana:legge:2004-07-27;39" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2010-02-15;12" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -108,7 +111,7 @@
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:integrazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#mod5" xlink:type="simple" />
+							<dsp:pos xlink:href="#mod6" xlink:type="simple" />
 							<dsp:termine da="#t5" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-02-24;40" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-02-24;40#art115" xlink:type="simple" />
@@ -117,14 +120,14 @@
 								<dsp:pos dove="dopo" xlink:href="#null" xlink:type="simple" />
 							</dsp:posizione>
 							<dsp:novella>
-								<dsp:pos xlink:href="#mod5-vir1" xlink:type="simple" />
+								<dsp:pos xlink:href="#mod6-vir1" xlink:type="simple" />
 								<dsp:subarg>
 									<ittig:tipo valore="articolo" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
 								</dsp:subarg>
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#mod6" xlink:type="simple" />
+							<dsp:pos xlink:href="#mod7" xlink:type="simple" />
 							<dsp:termine da="#t6" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003-12-29;67" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003-12-29;67#art30" xlink:type="simple" />
@@ -133,26 +136,109 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#mod6-vir2" xlink:type="simple" />
+								<dsp:pos xlink:href="#mod7-vir2" xlink:type="simple" />
 								<dsp:subarg>
 									<ittig:tipo valore="parole" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
 								</dsp:subarg>
 							</dsp:novella>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#mod6-vir1" xlink:type="simple" />
+								<dsp:pos xlink:href="#mod7-vir1" xlink:type="simple" />
 								<dsp:subarg>
 									<ittig:tipo valore="parole" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
 								</dsp:subarg>
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#mod7" xlink:type="simple" />
+							<dsp:pos xlink:href="#mod8" xlink:type="simple" />
 							<dsp:termine da="#t7" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2003;67" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2003;67#art30-com4" xlink:type="simple" />
 							</dsp:norma>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#mod7-vir1" xlink:type="simple" />
+								<dsp:pos xlink:href="#mod8-vir1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:tipo valore="parole" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#mod10" xlink:type="simple" />
+							<dsp:termine da="#t8" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004;39" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004;39#art15-com1" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#mod10-vir2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:tipo valore="parole" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#mod10-vir1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:tipo valore="parole" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#mod11" xlink:type="simple" />
+							<dsp:termine da="#t9" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-12-20;71" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-12-20;71#art24" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:bordo num="" tipo="rubrica" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#mod11-vir1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:tipo valore="parole" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#mod12" xlink:type="simple" />
+							<dsp:termine da="#t10" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004;71" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004;71#art24-com1" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#mod12-vir1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:tipo valore="parole" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#mod13" xlink:type="simple" />
+							<dsp:termine da="#t11" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2006-12-22;64" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2006-12-22;64#art34" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:bordo num="" tipo="rubrica" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#mod13-vir2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:tipo valore="parole" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#mod13-vir1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:tipo valore="parole" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#mod14" xlink:type="simple" />
+							<dsp:termine da="#t12" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2006;64" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2006;64#art34-com1" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#mod14-vir1" xlink:type="simple" />
 								<dsp:subarg>
 									<ittig:tipo valore="parole" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
 								</dsp:subarg>
@@ -160,9 +246,12 @@
 						</dsp:abrogazione>
 						<dsp:sostituzione completa="si" implicita="no">
 							<dsp:pos xlink:href="#mod9" xlink:type="simple" />
-							<dsp:termine da="#t8" />
-							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004;39" xlink:type="simple">
-								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004;39#art15-com1" xlink:type="simple" />
+							<dsp:termine da="#t13" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-07-27;39" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-07-27;39#art15" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:bordo num="" tipo="rubrica" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
 								<dsp:pos xlink:href="#mod9-vir2" xlink:type="simple" />
@@ -177,93 +266,39 @@
 								</dsp:subarg>
 							</dsp:novellando>
 						</dsp:sostituzione>
-						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#mod10" xlink:type="simple" />
-							<dsp:termine da="#t9" />
-							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-12-20;71" xlink:type="simple">
-								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-12-20;71#art24" xlink:type="simple" />
-								<dsp:subarg>
-									<ittig:bordo num="" tipo="rubrica" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
-								</dsp:subarg>
-							</dsp:norma>
-							<dsp:novellando>
-								<dsp:pos xlink:href="#mod10-vir1" xlink:type="simple" />
-								<dsp:subarg>
-									<ittig:tipo valore="parole" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
-								</dsp:subarg>
-							</dsp:novellando>
-						</dsp:abrogazione>
-						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#mod11" xlink:type="simple" />
-							<dsp:termine da="#t10" />
-							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004;71" xlink:type="simple">
-								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004;71#art24-com1" xlink:type="simple" />
-							</dsp:norma>
-							<dsp:novellando>
-								<dsp:pos xlink:href="#mod11-vir1" xlink:type="simple" />
-								<dsp:subarg>
-									<ittig:tipo valore="parole" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
-								</dsp:subarg>
-							</dsp:novellando>
-						</dsp:abrogazione>
-						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#mod12" xlink:type="simple" />
-							<dsp:termine da="#t11" />
-							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2006-12-22;64" xlink:type="simple">
-								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2006-12-22;64#art34" xlink:type="simple" />
-								<dsp:subarg>
-									<ittig:bordo num="" tipo="rubrica" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
-								</dsp:subarg>
-							</dsp:norma>
-							<dsp:novella>
-								<dsp:pos xlink:href="#mod12-vir2" xlink:type="simple" />
-								<dsp:subarg>
-									<ittig:tipo valore="parole" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
-								</dsp:subarg>
-							</dsp:novella>
-							<dsp:novellando>
-								<dsp:pos xlink:href="#mod12-vir1" xlink:type="simple" />
-								<dsp:subarg>
-									<ittig:tipo valore="parole" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
-								</dsp:subarg>
-							</dsp:novellando>
-						</dsp:sostituzione>
-						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#mod13" xlink:type="simple" />
-							<dsp:termine da="#t12" />
-							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2006;64" xlink:type="simple">
-								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2006;64#art34-com1" xlink:type="simple" />
-							</dsp:norma>
-							<dsp:novellando>
-								<dsp:pos xlink:href="#mod13-vir1" xlink:type="simple" />
-								<dsp:subarg>
-									<ittig:tipo valore="parole" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
-								</dsp:subarg>
-							</dsp:novellando>
-						</dsp:abrogazione>
-						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#mod8" xlink:type="simple" />
-							<dsp:termine da="#t13" />
-							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2004-07-27;39" xlink:type="simple">
-								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2004-07-27;39#art15" xlink:type="simple" />
-								<dsp:subarg>
-									<ittig:bordo num="" tipo="rubrica" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
-								</dsp:subarg>
-							</dsp:norma>
-							<dsp:novella>
-								<dsp:pos xlink:href="#mod8-vir2" xlink:type="simple" />
-								<dsp:subarg>
-									<ittig:tipo valore="parole" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
-								</dsp:subarg>
-							</dsp:novella>
-							<dsp:novellando>
-								<dsp:pos xlink:href="#mod8-vir1" xlink:type="simple" />
-								<dsp:subarg>
-									<ittig:tipo valore="parole" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
-								</dsp:subarg>
-							</dsp:novellando>
-						</dsp:sostituzione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art14" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-02-15;12" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-02-15;12#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 15 febbraio 2010, n. 12" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art14" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art14-t14" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#??" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-02-15;12" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-02-15;12#art1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo1, legge Regione Toscana 15 febbraio 2010, n. 12" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -384,7 +419,11 @@
 							<rif xlink:href="urn:nir:regione.toscana:legge:2008-04-29;21" xlink:type="simple">legge regionale 29 aprile 2008, n. 21</rif>
 							(Promozione dell'imprenditoria giovanile), in quanto l'avvio della piena operatività della legge regionale ha coinciso con l'attuale congiuntura economica incidendo negativamente sulla nascita di nuove imprese;
 							<h:br />
-							f) a prevedere, a fronte dell'ulteriore riduzione per l'anno 2010 del contributo ordinario statale per le comunità montane, un contributo regionale finalizzato ad incentivare la trasformazione di comunità montane in unioni di comuni, in grado di assumere da subito l'esercizio di funzioni di particolare rilevanza;
+							<h:span finevigore="t14" id="h1" iniziovigore="t1" status="abrogato">f) a prevedere, a fronte dell'ulteriore riduzione per l'anno 2010 del contributo ordinario statale per le comunità montane, un contributo regionale finalizzato ad incentivare la trasformazione di comunità montane in unioni di comuni, in grado di assumere da subito l'esercizio di funzioni di particolare rilevanza;</h:span>
+							<h:span id="h2" iniziovigore="t14">
+								<h:br />
+								f) a prevedere, a fronte dell'ulteriore riduzione per l'anno 2010 del contributo ordinario statale per le comunità montane, un contributo regionale destinato alle comunità montane ed alle unioni di comuni costituite a seguito di trasformazione di comunità montane;
+							</h:span>
 							<h:br />
 							g) a definire compiutamente la composizione del patrimonio delle aziende ospedaliero-universitarie nonché a disciplinare le modalità con le quali si realizzano interventi edilizi sui beni a destinazione sanitaria di proprietà delle università, concessi in uso gratuito alle aziende. Inoltre, al fine di favorire l'incremento del patrimonio aziendale a fronte di consistenti investimenti, si prevede per le aziende la facoltà di acquisto dei beni di proprietà delle università interessati dagli interventi.
 							<h:br />
@@ -724,7 +763,7 @@
 						<comma id="art12-com1">
 							<num>1.</num>
 							<corpo>
-								<mod id="">
+								<mod id="mod5">
 									La tabella allegato A di cui ai commi 1 e 2 dell'
 									<rif xlink:href="urn:nir:regione.toscana:legge:2005;1#art105quinquies" xlink:type="simple">articolo 105 quinquies della l.r. 1/2005</rif>
 									, è sostituita dalla tabella B allegata alla presente legge.
@@ -747,10 +786,10 @@
 							</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art14">
+					<articolo finevigore="t14" id="art14-t14" iniziovigore="t1" status="abrogato">
 						<num>Art. 14</num>
 						<rubrica>Contributi alle unioni di comuni costituite per trasformazione di comunità montane</rubrica>
-						<comma id="art14-com1">
+						<comma id="art14-t14-com1">
 							<num>1.</num>
 							<corpo>
 								Per l'anno 2010 è autorizzata la spesa pari a 2,2 milioni di euro, a valere sulle risorse complessive destinate all'incentivazione delle gestioni associate di comuni di cui alla
@@ -760,23 +799,93 @@
 								(Riordino delle Comunità Montane).
 							</corpo>
 						</comma>
-						<comma id="art14-com2">
+						<comma id="art14-t14-com2">
 							<num>2.</num>
 							<corpo>Il contributo da assegnare a ciascuna unione di comuni è calcolato nella medesima proporzione in cui il contributo ordinario concesso dallo Stato nell'anno 2009 alla comunità montana trasformata sta rispetto al totale dei contributi ordinari concessi dallo Stato nell'anno medesimo a tutte le comunità montane della Toscana.</corpo>
 						</comma>
-						<comma id="art14-com3">
+						<comma id="art14-t14-com3">
 							<num>3.</num>
 							<corpo>
 								Il contributo di cui al
-								<rif xlink:href="#art14-com2" xlink:type="simple">comma 2</rif>
+								<rif xlink:href="#art14-t14-com2" xlink:type="simple">comma 2</rif>
 								, è attribuito con deliberazione della Giunta regionale a ciascuna unione di comuni a condizione che alla data del 30 novembre 2010 l'unione di comuni sia stata costituita ed eserciti effettivamente gestioni associate corrispondenti al requisito minimo di cui all'
 								<rif xlink:href="urn:nir:regione.toscana:legge:2001;40#art8-com4-letc" xlink:type="simple">articolo 8, comma 4, lettera c), della l.r. 40/2001</rif>
 								. Il contributo concesso alla singola unione è ripartito in misura uguale per ciascuna gestione associata incentivata.
 							</corpo>
 						</comma>
-						<comma id="art14-com4">
+						<comma id="art14-t14-com4">
 							<num>4.</num>
 							<corpo>All'onere di spesa si provvede con le risorse stanziate nella UPB 111 "Azioni di sistema Regione-Enti Locali - Spese correnti" del bilancio di previsione 2010.</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art14" iniziovigore="t14">
+						<num>Art. 14</num>
+						<rubrica>Contributi alle comunità montane e alle unioni di comuni</rubrica>
+						<comma id="art14-com1">
+							<num>1.</num>
+							<corpo>
+								Per l'anno 2010 è autorizzata la spesa pari a 2 milioni di euro, a valere sulle risorse complessive destinate all'incentivazione delle gestioni associate di comuni di cui alla
+								<rif xlink:href="urn:nir:regione.toscana:legge:2001-08-16;40" xlink:type="simple">legge regionale 16 agosto 2001, n. 40</rif>
+								(Disposizioni in materia di riordino territoriale e di incentivazione delle forme associative di comuni), per l'erogazione di contributi alle comunità montane.
+							</corpo>
+						</comma>
+						<comma id="art14-com2">
+							<num>2.</num>
+							<alinea>Le risorse di cui al comma 1, sono ripartite tra le singole comunità montane secondo i seguenti criteri:</alinea>
+							<el id="art14-com2-leta">
+								<num>a)</num>
+								<corpo>1,4 milioni di euro in proporzione alle risorse tra sferite dallo Stato alle comunità montane nell'anno 2009 a titolo di contributo ordinario e contributo consolidato;</corpo>
+							</el>
+							<el id="art14-com2-letb">
+								<num>b)</num>
+								<corpo>600.000,00 euro in proporzione alla differenza tra l'ammontare delle risorse già assegnate dallo Stato nell'anno 2009 e quelle assegnate dallo Stato nell'anno 2010.</corpo>
+							</el>
+						</comma>
+						<comma id="art14-com3">
+							<num>3.</num>
+							<corpo>
+								Qualora la comunità montana destinataria del contributo di cui al comma 1, sia estinta a seguito di trasformazione in unione di comuni ai sensi dell'
+								<rif xlink:href="urn:nir:regione.toscana:legge:2008-06-26;37#art15" xlink:type="simple">articolo 15 della legge regionale 26 giugno 2008, n. 37</rif>
+								(Riordino delle Comunità montane), il contributo è concesso all'unione di comuni.
+							</corpo>
+						</comma>
+						<comma id="art14-com4">
+							<num>4.</num>
+							<corpo>
+								Per l'anno 2010 è autorizzata la spesa pari a 200.000,00 euro, a valere sulle risorse complessive destinate all'incentivazione delle gestioni associate di comuni di cui alla
+								<rif xlink:href="urn:nir:regione.toscana:legge:2001;40" xlink:type="simple">l.r. 40/2001</rif>
+								, per l'erogazione di contributi alle unioni di comuni costituite per trasformazione delle comunità montane ai sensi dell'
+								<rif xlink:href="urn:nir:regione.toscana:legge:2008;37#art15" xlink:type="simple">articolo 15 della l.r. 37/2008</rif>
+								. Le risorse sono ripartite in parti uguali tra le medesime unioni di comuni costituite alla data del 30 novembre 2010. Il contributo concesso alla singola unione è ripartito in misura uguale per ciascuna gestione associata incentivata ai sensi della
+								<rif xlink:href="urn:nir:regione.toscana:legge:2001;40" xlink:type="simple">l.r. 40/2001</rif>
+								.
+							</corpo>
+						</comma>
+						<comma id="art14-com5">
+							<num>5.</num>
+							<corpo>
+								Nell'ambito delle altre risorse complessivamente destinate all'incentivazione delle gestioni associate di comuni di cui alla
+								<rif xlink:href="urn:nir:regione.toscana:legge:2001;40" xlink:type="simple">l.r. 40/2001</rif>
+								, nell'anno 2010 è riservata la somma di 600.000,00 euro in favore delle unioni di comuni già costituite ai sensi degli articoli 14 e 27 della
+								<rif xlink:href="urn:nir:regione.toscana:legge:2008;37" xlink:type="simple">l.r. 37/2008</rif>
+								. Tali risorse sono ripartite tra le singole unioni di comuni in proporzione alla differenza tra l'ammontare delle risorse già assegnate dallo Stato nell'anno 2009 e quelle assegnate dallo Stato nell'anno 2010.
+							</corpo>
+						</comma>
+						<comma id="art14-com6">
+							<num>6.</num>
+							<corpo>
+								Le risorse non concesse ai sensi del comma 2, lettera b), vanno ad incrementare le risorse di cui al comma 4. Le risorse non concesse ai sensi del comma 4, sono assegnate secondo i criteri stabiliti dai provvedimenti attuativi della
+								<rif xlink:href="urn:nir:regione.toscana:legge:2001;40" xlink:type="simple">l.r. 40/2001</rif>
+								.
+							</corpo>
+						</comma>
+						<comma id="art14-com7">
+							<num>7.</num>
+							<corpo>L'importo del contributo concesso a ciascuno degli enti ai sensi del comma 2, lettera b), e del comma 5, non può in ogni caso essere superiore alla differenza tra l'ammontare delle risorse già assegnate dallo Stato nell'anno 2009 e quelle assegnate dallo Stato nell'anno 2010 al medesimo ente. A tal fine la Giunta regionale quantifica con propria deliberazione la misura massima del contributo, prendendo a riferimento le risorse statali assegnate a titolo di contributo ordinario, contributo consolidato e contributo sviluppo investimenti.</corpo>
+						</comma>
+						<comma id="art14-com8">
+							<num>8.</num>
+							<corpo>All'onere di spesa si provvede con le risorse stanziate nell'unità previsionale di base (UPB) 111 "Azioni di sistema Regione-Enti Locali-Spese correnti" del bilancio di previsione 2010.</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art15">
@@ -788,22 +897,22 @@
 						<comma id="art15-com1">
 							<num>1.</num>
 							<corpo>
-								<mod id="mod5">
+								<mod id="mod6">
 									Dopo l'
 									<rif xlink:href="urn:nir:regione.toscana:legge:2005-02-24;40#art115" xlink:type="simple">articolo 115 della legge regionale 24 febbraio 2005, n. 40</rif>
 									(Disciplina del servizio sanitario regionale), è inserito il seguente: "
-									<virgolette id="mod5-vir1" tipo="struttura">
-										<articolo id="mod5-vir1-art115bis">
+									<virgolette id="mod6-vir1" tipo="struttura">
+										<articolo id="mod6-vir1-art115bis">
 											<num>Art.115 bis</num>
 											<rubrica>Patrimonio delle aziende ospedaliero-universitarie</rubrica>
-											<comma id="mod5-vir1-art115bis-com1">
+											<comma id="mod6-vir1-art115bis-com1">
 												<num>1.</num>
 												<alinea>Il patrimonio delle aziende ospedaliero-universitarie è costituito:</alinea>
-												<el id="mod5-vir1-art115bis-com1-leta">
+												<el id="mod6-vir1-art115bis-com1-leta">
 													<num>a)</num>
 													<corpo>dai beni trasferiti alle aziende ai sensi dell'articolo 113, comma 2;</corpo>
 												</el>
-												<el id="mod5-vir1-art115bis-com1-letb">
+												<el id="mod6-vir1-art115bis-com1-letb">
 													<num>b)</num>
 													<corpo>
 														dai beni demaniali, o comunque in uso gratuito e perpetuo alle università, nonché dai beni immobili e mobili di proprietà delle università, già destinati in modo prevalente ad attività assistenziali, concessi a titolo gratuito alle aziende in conformità di quanto previsto dall'
@@ -814,7 +923,7 @@
 													</corpo>
 												</el>
 											</comma>
-											<comma id="mod5-vir1-art115bis-com2">
+											<comma id="mod6-vir1-art115bis-com2">
 												<num>2.</num>
 												<corpo>
 													Secondo quanto disposto dall'
@@ -822,15 +931,15 @@
 													, le aziende ospedaliero-universitarie assumono a proprio carico gli oneri di manutenzione ordinaria e straordinaria dei beni di cui al comma 1, lettera b).
 												</corpo>
 											</comma>
-											<comma id="mod5-vir1-art115bis-com3">
+											<comma id="mod6-vir1-art115bis-com3">
 												<num>3.</num>
 												<corpo>Eventuali interventi di ristrutturazione o di demolizione e conseguente ricostruzione dei beni immobili di cui al comma 1, lettera b), sono effettuati, in coerenza con il programma aziendale di edilizia sanitaria, sulla base di specifiche intese con le università proprietarie dei beni stessi, volte a definire le modalità di realizzazione degli interventi, i relativi oneri economici ed il regime giuridico dei beni stessi a seguito degli interventi edilizi.</corpo>
 											</comma>
-											<comma id="mod5-vir1-art115bis-com4">
+											<comma id="mod6-vir1-art115bis-com4">
 												<num>4.</num>
 												<corpo>Nell'ambito delle intese di cui al comma 3, le aziende ospedaliero-universitarie possono concordare con le università l'acquisto della proprietà dei beni, qualora ciò risulti opportuno e conveniente per la ottimale gestione economico-finanziaria dell'intervento.</corpo>
 											</comma>
-											<comma id="mod5-vir1-art115bis-com5">
+											<comma id="mod6-vir1-art115bis-com5">
 												<num>5.</num>
 												<corpo>Nel caso di cui al comma 4, il valore dell'immobile è calcolato al netto del valore degli interventi di manutenzione eventualmente già eseguiti sull'immobile stesso dall'azienda ospedaliero-universitaria con fondi propri, regionali o nazionali.</corpo>
 											</comma>
@@ -894,13 +1003,13 @@
 						<comma id="art18-com1">
 							<num>1.</num>
 							<corpo>
-								<mod id="mod6">
+								<mod id="mod7">
 									Nella rubrica dell'
 									<rif xlink:href="urn:nir:regione.toscana:legge:2003-12-29;67#art30" xlink:type="simple">articolo 30 della legge regionale 29 dicembre 2003 n. 67</rif>
 									(Ordinamento del sistema regionale della protezione civile e disciplina della relativa attività), le parole: "
-									<virgolette id="mod6-vir1" tipo="parola">di rotazione</virgolette>
+									<virgolette id="mod7-vir1" tipo="parola">di rotazione</virgolette>
 									" sono sostituite dalle seguenti: "
-									<virgolette id="mod6-vir2" tipo="parola">di anticipazione</virgolette>
+									<virgolette id="mod7-vir2" tipo="parola">di anticipazione</virgolette>
 									".
 								</mod>
 							</corpo>
@@ -908,11 +1017,11 @@
 						<comma id="art18-com2">
 							<num>2.</num>
 							<corpo>
-								<mod id="mod7">
+								<mod id="mod8">
 									Al
 									<rif xlink:href="urn:nir:regione.toscana:legge:2003;67#art30-com4" xlink:type="simple">comma 4 dell'articolo 30 della l.r. 67/2003</rif>
 									le parole: "
-									<virgolette id="mod7-vir1" tipo="parola">di rotazione</virgolette>
+									<virgolette id="mod8-vir1" tipo="parola">di rotazione</virgolette>
 									" sono abrogate.
 								</mod>
 							</corpo>
@@ -927,7 +1036,7 @@
 						<comma id="art19-com1">
 							<num>1.</num>
 							<corpo>
-								<mod id="mod8">
+								<mod id="mod9">
 									Nella rubrica dell'
 									<rif xlink:href="urn:nir:regione.toscana:legge:2004-07-27;39#art15" xlink:type="simple">articolo 15 della legge regionale 27 luglio 2004, n. 39</rif>
 									(Norme a favore dei comuni e dei piccoli comuni in situazione di disagio. Modifiche alla
@@ -935,9 +1044,9 @@
 									"Finanziamenti per la redazione e l'attuazione di piani di recupero del patrimonio edilizio esistente". Modifiche alla
 									<rif xlink:href="urn:nir:regione.toscana:legge:1999-11-02;58" xlink:type="simple">legge regionale 2 novembre 1999, n. 58</rif>
 									"Norme sulla tutela dell'artigianato artistico e tradizionale toscano e disposizioni in materia di oneri contributivi per gli apprendisti artigiani"), le parole: "
-									<virgolette id="mod8-vir1" tipo="parola">di rotazione</virgolette>
+									<virgolette id="mod9-vir1" tipo="parola">di rotazione</virgolette>
 									" sono sostituite dalle seguenti: "
-									<virgolette id="mod8-vir2" tipo="parola">di anticipazione</virgolette>
+									<virgolette id="mod9-vir2" tipo="parola">di anticipazione</virgolette>
 									".
 								</mod>
 							</corpo>
@@ -945,13 +1054,13 @@
 						<comma id="art19-com2">
 							<num>2.</num>
 							<corpo>
-								<mod id="mod9">
+								<mod id="mod10">
 									Al
 									<rif xlink:href="urn:nir:regione.toscana:legge:2004;39#art15-com1" xlink:type="simple">comma 1 dell'articolo 15 della l.r. 39/2004</rif>
 									le parole: "
-									<virgolette id="mod9-vir1" tipo="parola">di rotazione</virgolette>
+									<virgolette id="mod10-vir1" tipo="parola">di rotazione</virgolette>
 									" sono sostituite dalle seguenti: "
-									<virgolette id="mod9-vir2" tipo="parola">di anticipazione</virgolette>
+									<virgolette id="mod10-vir2" tipo="parola">di anticipazione</virgolette>
 									".
 								</mod>
 							</corpo>
@@ -966,11 +1075,11 @@
 						<comma id="art20-com1">
 							<num>1.</num>
 							<corpo>
-								<mod id="mod10">
+								<mod id="mod11">
 									Nella rubrica dell'
 									<rif xlink:href="urn:nir:regione.toscana:legge:2004-12-20;71#art24" xlink:type="simple">articolo 24 della legge regionale 20 dicembre 2004 n. 71</rif>
 									(Legge finanziaria per l'anno 2005), le parole: "
-									<virgolette id="mod10-vir1" tipo="parola">di rotazione</virgolette>
+									<virgolette id="mod11-vir1" tipo="parola">di rotazione</virgolette>
 									" sono abrogate.
 								</mod>
 							</corpo>
@@ -978,11 +1087,11 @@
 						<comma id="art20-com2">
 							<num>2.</num>
 							<corpo>
-								<mod id="mod11">
+								<mod id="mod12">
 									Al
 									<rif xlink:href="urn:nir:regione.toscana:legge:2004;71#art24-com1" xlink:type="simple">comma 1 dell'articolo 24 della l.r. 71/2004</rif>
 									le parole: "
-									<virgolette id="mod11-vir1" tipo="parola">di rotazione</virgolette>
+									<virgolette id="mod12-vir1" tipo="parola">di rotazione</virgolette>
 									" sono abrogate.
 								</mod>
 							</corpo>
@@ -997,13 +1106,13 @@
 						<comma id="art21-com1">
 							<num>1.</num>
 							<corpo>
-								<mod id="mod12">
+								<mod id="mod13">
 									Nella rubrica dell'
 									<rif xlink:href="urn:nir:regione.toscana:legge:2006-12-22;64#art34" xlink:type="simple">articolo 34 della legge regionale 22 dicembre 2006, n. 64</rif>
 									(Legge finanziaria per l'anno 2007), le parole: "
-									<virgolette id="mod12-vir1" tipo="parola">di rotazione</virgolette>
+									<virgolette id="mod13-vir1" tipo="parola">di rotazione</virgolette>
 									" sono sostituite dalle seguenti: "
-									<virgolette id="mod12-vir2" tipo="parola">di anticipazione</virgolette>
+									<virgolette id="mod13-vir2" tipo="parola">di anticipazione</virgolette>
 									".
 								</mod>
 							</corpo>
@@ -1011,11 +1120,11 @@
 						<comma id="art21-com2">
 							<num>2.</num>
 							<corpo>
-								<mod id="mod13">
+								<mod id="mod14">
 									Al
 									<rif xlink:href="urn:nir:regione.toscana:legge:2006;64#art34-com1" xlink:type="simple">comma 1 dell'articolo 34 della l.r. 64/2006</rif>
 									le parole: "
-									<virgolette id="mod13-vir1" tipo="parola">di rotazione</virgolette>
+									<virgolette id="mod14-vir1" tipo="parola">di rotazione</virgolette>
 									" sono abrogate.
 								</mod>
 							</corpo>
@@ -1030,7 +1139,7 @@
 						<comma id="art22-com1">
 							<num>1.</num>
 							<corpo>
-								<mod id="">
+								<mod id="mod15">
 									Il fondo di cui all'
 									<rif xlink:href="urn:nir:regione.toscana:legge:2006;64#art34" xlink:type="simple">articolo 34 della l.r. 64/2006</rif>
 									è prorogato fino al 31 dicembre 2012.
