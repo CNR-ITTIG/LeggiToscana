@@ -1,26 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20080808" num="27" tipo="BURT" />
 					<entratainvigore norm="20080823" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2008-07-31;42" />
+					<urn finevigore="t4" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2008-07-31;42" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:2008-07-31;42@2010-02-25" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="20080823" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20080823" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="20080823" fonte="ra2" id="t3" tipo="modifica" />
+						<evento data="20100502" fonte="rp1" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2008-07-31;42" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1984;75" xlink:type="simple" />
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1983;20" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2010-02-25;21" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Il presente articolo viene abrogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2010-02-25;21#art55-com2-letc" xlink:type="simple">art. 55, comma 2, let. c), della legge regionale 25 febbraio 2010, n. 21</rif>
+							, a decorrere dalla data di approvazione del piano della cultura di cui all'art. 4 della stessa.
+						</h:p>
+					</nota>
+					<nota id="n2">
+						<h:p>
+							Il presente articolo viene abrogato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2010-02-25;21#art55-com2-letc" xlink:type="simple">art. 55, comma 2, let. c), della legge regionale 25 febbraio 2010, n. 21</rif>
+							, a decorrere dalla data di approvazione del piano della cultura di cui all'art. 4 della stessa.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:variazione completa="si" implicita="no">
@@ -44,6 +63,17 @@
 							</dsp:dominio>
 						</dsp:variazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:termine da="#t4" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-02-25;21" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-02-25;21#mod26" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:variazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -81,7 +111,10 @@
 					</comma>
 				</articolo>
 				<articolo id="art2">
-					<num>Art. 2</num>
+					<num>
+						Art. 2
+						<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+					</num>
 					<rubrica>Contributi</rubrica>
 					<comma id="art2-com1">
 						<num>1.</num>
@@ -105,7 +138,10 @@
 					</comma>
 				</articolo>
 				<articolo id="art3">
-					<num>Art. 3</num>
+					<num>
+						Art. 3
+						<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+					</num>
 					<rubrica>Procedure di bilancio</rubrica>
 					<comma id="art3-com1">
 						<num>1.</num>
