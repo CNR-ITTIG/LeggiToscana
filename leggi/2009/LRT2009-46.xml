@@ -1,22 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20090812" num="30" tipo="BURT" />
 					<entratainvigore norm="20090813" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2009-08-05;46" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2009-08-05;46" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2009-08-05;46@2010-03-01" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="20090813" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20100320" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2009-08-05;46" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2010-03-01;25" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-03-01;25" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-03-01;25#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 1 marzo 2010, n. 25" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-03-01;25" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-03-01;25#art1-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2 della legge Regione Toscana 1 marzo 2010, n. 25" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -114,12 +151,20 @@
 						<corpo>
 							Le procedure di cessione relative ad alloggi di edilizia residenziale pubblica possono concludersi nel caso in cui l'ente gestore dichiari che sia intervenuto, alla data del 27 maggio 2008, accordo tra le parti sulla compravendita dell'immobile, alle condizioni ed al prezzo di cessione stabiliti dalla
 							<rif xlink:href="urn:nir:stato:legge:1993-12-24;560" xlink:type="simple">legge 24 dicembre 1993, n. 560</rif>
-							(Norme in materia di alienazione degli alloggi di edilizia residenziale pubblica), e previa ulteriore verifica dei requisiti di legge e delle condizioni. Tali procedure devono concludersi entro centottanta giorni dalla data di entrata in vigore della presente legge.
+							(Norme in materia di alienazione degli alloggi di edilizia residenziale pubblica), e previa ulteriore verifica dei requisiti di legge e delle condizioni. Tali procedure devono concludersi entro
+							<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">centottanta giorni dalla data di entrata in vigore della presente legge</h:span>
+							<h:span id="h2" iniziovigore="t2">il 31 dicembre 2010</h:span>
+							.
 						</corpo>
 					</comma>
 					<comma id="art1-com3">
 						<num>3.</num>
-						<corpo>Alla luce del principio di buona amministrazione, gli enti proprietari si impegnano, secondo criteri di imparzialità, trasparenza ed equità, a verificare che i gestori abbiano effettivamente dato una risposta in merito alla loro posizione a tutti gli assegnatari che abbiano presentato domanda o abbiano in corso l'istruttoria per l'acquisto dell'alloggio alla data del 27 maggio 2008. Tale risposta deve essere trasmessa all'assegnatario entro centottanta giorni dalla data di entrata in vigore della presente legge.</corpo>
+						<corpo>
+							Alla luce del principio di buona amministrazione, gli enti proprietari si impegnano, secondo criteri di imparzialità, trasparenza ed equità, a verificare che i gestori abbiano effettivamente dato una risposta in merito alla loro posizione a tutti gli assegnatari che abbiano presentato domanda o abbiano in corso l'istruttoria per l'acquisto dell'alloggio alla data del 27 maggio 2008. Tale risposta deve essere trasmessa all'assegnatario entro
+							<h:span finevigore="t2" id="h3" iniziovigore="t1" status="abrogato">centottanta giorni dalla data di entrata in vigore della presente legge</h:span>
+							<h:span id="h4" iniziovigore="t2">il 31 dicembre 2010</h:span>
+							.
+						</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art2">
