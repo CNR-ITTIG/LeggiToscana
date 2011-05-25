@@ -8,7 +8,8 @@
 					<entratainvigore norm="20000415" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2000-03-21;38" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2000-03-21;38@2009-01-09" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2000-03-21;38@2009-01-09" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:2000-03-21;38@2010-07-23" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Organi" />
 						<materia valore="Ente Regione" />
@@ -18,16 +19,18 @@
 					<eventi>
 						<evento data="20000415" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20090131" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="20100819" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2000-03-21;38" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2009-01-09;3" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2010-07-23;42" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art2-com1" xlink:type="simple" />
+							<dsp:pos xlink:href="#art2-t3-com1" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2009-01-09;3" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2009-01-09;3#art39-com2" xlink:type="simple" />
 								<dsp:subarg>
@@ -38,6 +41,21 @@
 								<dsp:pos xlink:href="#h1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-07-23;42" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-07-23;42#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 23 luglio 2010, n. 42" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -63,9 +81,9 @@
 						<corpo>I componenti della Giunta regionale sono nominati, anche al di fuori dei componenti del Consiglio, fra i cittadini in possesso dei requisiti di eleggibilità e compatibilità alla carica di consigliere regionale.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art2">
+				<articolo finevigore="t3" id="art2-t3" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 2</num>
-					<comma id="art2-com1">
+					<comma id="art2-t3-com1">
 						<num>1.</num>
 						<corpo>
 							Ai componenti della Giunta non consiglieri regionali si applicano le disposizioni di cui alle leggi regionali
@@ -74,6 +92,24 @@
 							<rif xlink:href="urn:nir:regione.toscana:legge:1983;68" xlink:type="simple">68/83</rif>
 							<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">nonché la normativa in materia di indennità, rimborsi spese, trattamenti di missione, aspettative, assicurazioni e previdenza prevista per i componenti della Giunta che ricoprono la carica di consigliere regionale</h:span>
 							.
+						</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art2" iniziovigore="t3">
+					<num>Art. 2</num>
+					<rubrica />
+					<comma id="art2-com1">
+						<num>1.</num>
+						<corpo>
+							Ai componenti della Giunta regionale si applicano, dalla data di nomina e per l'intera durata dell'incarico, le disposizioni di cui alla
+							<rif xlink:href="urn:nir:regione.toscana:legge:1983-06-21;49" xlink:type="simple">legge regionale 21 giugno 1983, n. 49</rif>
+							(Disposizioni per la pubblicità della situazione patrimoniale dei titolari di cariche elettive e di cariche direttive in alcuni enti) e della
+							<rif xlink:href="urn:nir:regione.toscana:legge:1983-08-29;68" xlink:type="simple">legge regionale 29 agosto 1983, n. 68</rif>
+							(Norme di attuazione dell'
+							<rif xlink:href="urn:nir:stato:costituzione:1947-12-27#art18" xlink:type="simple">articolo 18 della Costituzione</rif>
+							e della
+							<rif xlink:href="urn:nir:stato:legge:1982-01-25;17" xlink:type="simple">legge 25 gennaio 1982 n. 17</rif>
+							in materia di Associazioni segrete e norme per garantire la pubblicità della situazione associativa dei titolari di cariche elettive o di nomine e designazioni regionali). Si applicano altresì le disposizioni vigenti concernenti i consiglieri regionali relativamente al collocamento in aspettativa senza assegni per l'espletamento di cariche pubbliche.
 						</corpo>
 					</comma>
 				</articolo>
