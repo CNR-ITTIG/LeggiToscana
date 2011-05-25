@@ -11,7 +11,8 @@
 					<urn finevigore="t26" iniziovigore="t25" valore="urn:nir:regione.toscana:legge:2005-02-18;31@2005-12-27" />
 					<urn finevigore="t27" iniziovigore="t26" valore="urn:nir:regione.toscana:legge:2005-02-18;31@2007-07-27" />
 					<urn finevigore="t28" iniziovigore="t27" valore="urn:nir:regione.toscana:legge:2005-02-18;31@2007-12-21" />
-					<urn iniziovigore="t28" valore="urn:nir:regione.toscana:legge:2005-02-18;31@2009-12-23" />
+					<urn finevigore="t29" iniziovigore="t28" valore="urn:nir:regione.toscana:legge:2005-02-18;31@2009-12-23" />
+					<urn iniziovigore="t29" valore="urn:nir:regione.toscana:legge:2005-02-18;31@2010-08-05" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tributi" />
 						<materia valore="Ente Regione" />
@@ -47,6 +48,7 @@
 						<evento data="20070731" fonte="rp2" id="t26" tipo="modifica" />
 						<evento data="20071229" fonte="rp3" id="t27" tipo="modifica" />
 						<evento data="20100101" fonte="rp4" id="t28" tipo="modifica" />
+						<evento data="20100810" fonte="rp5" id="t29" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2005-02-18;31" xlink:type="simple" />
@@ -77,6 +79,7 @@
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2007-07-27;40" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2007-12-21;67" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2009-12-23;77" xlink:type="simple" />
+						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2010-08-05;46" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -494,6 +497,18 @@
 								<dsp:pos xlink:href="#art8bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8bis-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-08-05;46" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-08-05;46#art7-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 7, comma 1 della legge Regione Toscana 5 agosto 2010, n. 46" id="itt10" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art8bis-com1bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -783,6 +798,10 @@
 							<comma id="art8bis-com1">
 								<num>1.</num>
 								<corpo>Al fine di potenziare l'azione di contrasto all'evasione fiscale, ai comuni che partecipano all'accertamento fiscale dei tributi regionali è attribuita una quota pari al cinquanta per cento delle maggiori somme riscosse a titolo definitivo per tributi regionali.</corpo>
+							</comma>
+							<comma id="art8bis-com1bis" iniziovigore="t29">
+								<num>1 bis.</num>
+								<corpo>La quota di cui al comma 1, è elevata al 60 per cento nel caso in cui il comune abbia accettato nell'esercizio precedente un obiettivo migliorativo ai fini del patto di stabilità territoriale, a valere sulle entrate derivanti dall'azione di accertamento nell'anno successivo.</corpo>
 							</comma>
 							<comma id="art8bis-com2">
 								<num>2.</num>
