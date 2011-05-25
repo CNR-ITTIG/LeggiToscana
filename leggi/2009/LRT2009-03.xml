@@ -33,6 +33,7 @@
 						<evento data="20090131" fonte="ra17" id="t18" tipo="modifica" />
 						<evento data="20100102" fonte="rp1" id="t19" tipo="modifica" />
 						<evento data="20100710" fonte="rp2" id="t20" tipo="modifica" />
+						<evento data="20100710" fonte="rp3" id="t21" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2009-01-09;3" xlink:type="simple" />
@@ -55,6 +56,7 @@
 						<attiva id="ra17" xlink:href="urn:nir:regione.toscana:legge:2000-03-21;38" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2010-06-21;37" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2010-08-02;44" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -275,7 +277,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:integrazione completa="si" implicita="no">
@@ -287,9 +289,36 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com1-leta" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-08-02;44" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-08-02;44#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 2 agosto 2010, n. 44" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com1-letb" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-08-02;44" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-08-02;44#art1-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2 della legge Regione Toscana 2 agosto 2010, n. 44" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art5-com1-letb" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art5-com1-letb-t21" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -502,11 +531,19 @@
 							</alinea>
 							<el id="art5-com1-leta">
 								<num>a)</num>
-								<corpo>presidente della Giunta e presidente del Consiglio: 25 per cento;</corpo>
+								<corpo>
+									presidente della Giunta
+									<h:span finevigore="t21" id="h1" iniziovigore="t1" status="abrogato">e presidente del Consiglio</h:span>
+									: 25 per cento;
+								</corpo>
 							</el>
-							<el id="art5-com1-letb">
+							<el finevigore="t21" id="art5-com1-letb-t21" iniziovigore="t1" status="abrogato">
 								<num>b)</num>
 								<corpo>componente della Giunta e vicepresidente del Consiglio: 15 per cento;</corpo>
+							</el>
+							<el id="art5-com1-letb" iniziovigore="t21">
+								<num>b)</num>
+								<corpo>presidente e vicepresidente del Consiglio, componente della Giunta: 15 per cento;</corpo>
 							</el>
 							<el id="art5-com1-letc">
 								<num>c)</num>
@@ -516,7 +553,7 @@
 								<num>d)</num>
 								<corpo>
 									vicepresidente e consigliere segretario di commissione
-									<h:span id="h1" iniziovigore="t20">, vicepresidente di gruppo consiliare composto da almeno tredici consiglieri</h:span>
+									<h:span id="h2" iniziovigore="t20">, vicepresidente di gruppo consiliare composto da almeno tredici consiglieri</h:span>
 									: 5 per cento.
 								</corpo>
 							</el>
@@ -1637,7 +1674,7 @@
 							<num>2.</num>
 							<corpo>
 								La missione è preventivamente autorizzata dal presidente del Consiglio per i consiglieri e
-								<h:span id="h2" iniziovigore="t19">, limitatamente alle missioni all'estero,</h:span>
+								<h:span id="h3" iniziovigore="t19">, limitatamente alle missioni all'estero,</h:span>
 								dal presidente della Giunta per i componenti della Giunta.
 							</corpo>
 						</comma>

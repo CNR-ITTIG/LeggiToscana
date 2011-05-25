@@ -8,7 +8,8 @@
 					<entratainvigore norm="20071215" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t9" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2007-11-23;62" />
-					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:2007-11-23;62@2009-12-14" />
+					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:2007-11-23;62@2009-12-14" />
+					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:2007-11-23;62@2010-07-23" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -21,6 +22,7 @@
 						<evento data="20071215" fonte="ra6" id="t7" tipo="modifica" />
 						<evento data="20071215" fonte="ra7" id="t8" tipo="modifica" />
 						<evento data="20100102" fonte="rp1" id="t9" tipo="modifica" />
+						<evento data="20100819" fonte="rp2" id="t10" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2007-11-23;62" xlink:type="simple" />
@@ -32,6 +34,7 @@
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:2004-11-15;60" xlink:type="simple" />
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:2004-11-24;66" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2010-07-23;43" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -137,6 +140,18 @@
 								<dsp:pos xlink:href="#h1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art84" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-07-23;43" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-07-23;43#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 23 luglio 2010, n. 43" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art84bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -2989,6 +3004,20 @@
 										, il Consiglio regionale non si pronuncia espressamente.
 									</corpo>
 								</el>
+							</comma>
+						</articolo>
+						<articolo id="art84bis" iniziovigore="t10">
+							<num>Art. 84 bis</num>
+							<rubrica>Sospensione dei termini</rubrica>
+							<comma id="art84bis-com1">
+								<num>1.</num>
+								<corpo>
+									Dal 1° settembre 2010, il decorso dei termini di cui all'
+									<rif xlink:href="#art26-com1" xlink:type="simple">articolo 26, comma 1</rif>
+									, e all'
+									<rif xlink:href="#art33-com1" xlink:type="simple">articolo 33, comma 1</rif>
+									, è sospeso nel periodo dal 1° agosto al 31 agosto.
+								</corpo>
 							</comma>
 						</articolo>
 						<articolo id="art85">
