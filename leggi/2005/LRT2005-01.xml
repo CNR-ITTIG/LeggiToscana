@@ -20,7 +20,8 @@
 					<urn finevigore="t93" iniziovigore="t91" valore="urn:nir:regione.toscana:legge:2005-01-03;1@2009-11-09" />
 					<urn finevigore="t92" iniziovigore="t93" valore="urn:nir:regione.toscana:legge:2005-01-03;1@2009-12-23" />
 					<urn finevigore="t94" iniziovigore="t92" valore="urn:nir:regione.toscana:legge:2005-01-03;1@2009-12-14" />
-					<urn iniziovigore="t94" valore="urn:nir:regione.toscana:legge:2005-01-03;1@2010-02-12" />
+					<urn finevigore="t95" iniziovigore="t94" valore="urn:nir:regione.toscana:legge:2005-01-03;1@2010-02-12" />
+					<urn iniziovigore="t95" valore="urn:nir:regione.toscana:legge:2005-01-03;1@2010-12-27" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Urbanistica" />
 						<materia valore="Tutela Ambientale" />
@@ -122,6 +123,7 @@
 						<evento data="20100102" fonte="rp11" id="t92" tipo="modifica" />
 						<evento data="20100101" fonte="rp12" id="t93" tipo="modifica" />
 						<evento data="20100218" fonte="rp13" id="t94" tipo="modifica" />
+						<evento data="20101230" fonte="rp14" id="t95" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2005-01-03;1" xlink:type="simple" />
@@ -218,6 +220,7 @@
 						<passiva id="rp11" xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple" />
 						<passiva id="rp12" xlink:href="urn:nir:regione.toscana:legge:2009-12-23;77" xlink:type="simple" />
 						<passiva id="rp13" xlink:href="urn:nir:regione.toscana:legge:2010-02-12;10" xlink:type="simple" />
+						<passiva id="rp14" xlink:href="urn:nir:regione.toscana:legge:2010-12-27;63" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -2829,6 +2832,18 @@
 								<dsp:pos xlink:href="#art11-t94" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art105quater-com8" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-12-27;63" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-12-27;63#art4-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1 della legge Regione Toscana 27 dicembre 2010, n. 63" id="itt99" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art105quater-com8bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -9614,6 +9629,14 @@
 									I criteri in base ai quali il sorteggio è effettuato sono stabiliti con il regolamento di cui all'
 									<rif xlink:href="#art117" xlink:type="simple">articolo 117</rif>
 									, tenuto conto della natura e delle caratteristiche degli interventi.
+								</corpo>
+							</comma>
+							<comma id="art105quater-com8bis" iniziovigore="t95">
+								<num>8 bis.</num>
+								<corpo>
+									L'esito della verifica obbligatoria delle opere di carattere strategico o rilevante di cui all'
+									<rif xlink:href="#art105ter-com4" xlink:type="simple">articolo 105 ter, comma 4</rif>
+									, è reso noto entro il termine di sessanta giorni dalla data della comunicazione dell'avvio della verifica stessa.
 								</corpo>
 							</comma>
 						</articolo>
