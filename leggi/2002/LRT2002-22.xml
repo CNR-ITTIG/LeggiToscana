@@ -10,7 +10,8 @@
 					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2002-06-25;22" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2002-06-25;22@2007-12-27" />
 					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2002-06-25;22@2009-01-08" />
-					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:2002-06-25;22@2009-04-02" />
+					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:2002-06-25;22@2009-04-02" />
+					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:2002-06-25;22@2010-12-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Informazione" />
 					</materie>
@@ -24,6 +25,7 @@
 						<evento data="20080118" fonte="rp1" id="t5" tipo="modifica" />
 						<evento data="20090117" fonte="rp2" id="t6" tipo="modifica" />
 						<evento data="20090407" fonte="rp3" id="t7" tipo="modifica" />
+						<evento data="20110101" fonte="rp4" id="t8" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2002-06-25;22" xlink:type="simple" />
@@ -33,8 +35,32 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2007-12-27;69" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2009-01-08;1" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2009-04-02;16" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2010-12-29;64" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Parola sostituita con: "cinque" ai sensi dell'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2010-12-29;64#art3-com1" xlink:type="simple">art. 3, comma 1 della legge regionale 29 dicembre 2010, n. 64</rif>
+							, a decorrere, ai sensi dell'art. 6 della stessa, dal primo rinnovo del CORECOM Toscana successivo alla data di entrata in vigore della suddetta legge.
+						</h:p>
+					</nota>
+					<nota id="n2">
+						<h:p>
+							Parola sostituita con: "quattro" ai sensi dell'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2010-12-29;64#art3-com2" xlink:type="simple">art. 3, comma 2 della legge regionale 29 dicembre 2010, n. 64</rif>
+							, a decorrere, ai sensi dell'art. 6 della stessa, dal primo rinnovo del CORECOM Toscana successivo alla data di entrata in vigore della suddetta legge.
+						</h:p>
+					</nota>
+					<nota id="n3">
+						<h:p>
+							Parola sostituita con: "due" ai sensi dell'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2010-12-29;64#art3-com2" xlink:type="simple">art. 3, comma 2 della legge regionale 29 dicembre 2010, n. 64</rif>
+							, a decorrere, ai sensi dell'art. 6 della stessa, dal primo rinnovo del CORECOM Toscana successivo alla data di entrata in vigore della suddetta legge.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:abrogazione completa="si" implicita="no">
@@ -108,12 +134,21 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art29-com1-letb-com1" xlink:type="simple" />
+								<dsp:pos xlink:href="#art29-com1-letb-num1" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art29-com1-letb-num1-t7" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:termine da="#t8" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-12-29;64" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-12-29;64#mod2" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:variazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -644,11 +679,21 @@
 							<rubrica>(Composizione)</rubrica>
 							<comma id="art21-com1">
 								<num>1.</num>
-								<corpo>Il CORECOM è costituito da sette componenti, compreso il Presidente, scelti fra persone in possesso dei necessari requisiti di competenza ed esperienza nel settore della comunicazione nei suoi aspetti culturali, giuridici, economici e tecnologici, documentati e appositamente valutati.</corpo>
+								<corpo>
+									Il CORECOM è costituito da sette
+									<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+									componenti, compreso il Presidente, scelti fra persone in possesso dei necessari requisiti di competenza ed esperienza nel settore della comunicazione nei suoi aspetti culturali, giuridici, economici e tecnologici, documentati e appositamente valutati.
+								</corpo>
 							</comma>
 							<comma id="art21-com2">
 								<num>2.</num>
-								<corpo>Il Presidente è nominato dal Presidente della Giunta regionale di concerto con il Presidente del Consiglio regionale. Gli altri sei componenti sono eletti dal Consiglio regionale, con voto limitato a tre.</corpo>
+								<corpo>
+									Il Presidente è nominato dal Presidente della Giunta regionale di concerto con il Presidente del Consiglio regionale. Gli altri sei
+									<ndr num="#n2" valore="" xlink:type="simple">(b)</ndr>
+									componenti sono eletti dal Consiglio regionale, con voto limitato a tre
+									<ndr num="#n3" valore="" xlink:type="simple">(c)</ndr>
+									.
+								</corpo>
 							</comma>
 							<comma id="art21-com3">
 								<num>3.</num>
@@ -904,14 +949,14 @@
 											(nuove norme in materia di diffusione radiofonica e televisiva);
 										</corpo>
 									</en>
-									<comma id="art29-com1-letb-com1" iniziovigore="t7">
+									<en id="art29-com1-letb-num1" iniziovigore="t7">
 										<num>1)</num>
 										<corpo>
 											regola l'accesso radiofonico e televisivo regionale di cui all'
 											<rif xlink:href="urn:nir:stato:legge:1975-04-14;103#art3" xlink:type="simple">articolo 3 della legge 14 aprile 1975, n. 103</rif>
 											(Nuove norme in materia di comunicazione radiofonica e televisiva), garantendo adeguati spazi di informazione ed espressione in ordine alla trattazione delle tematiche in materia di parità di genere
 										</corpo>
-									</comma>
+									</en>
 									<en id="art29-com1-letb-num2">
 										<num>2)</num>
 										<corpo>
