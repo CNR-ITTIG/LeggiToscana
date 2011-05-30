@@ -25,7 +25,8 @@
 					<urn finevigore="t35" iniziovigore="t34" valore="urn:nir:regione.toscana:legge:1998-05-18;25@2008-11-21" />
 					<urn finevigore="t36" iniziovigore="t35" valore="urn:nir:regione.toscana:legge:1998-05-18;25@2009-11-09" />
 					<urn finevigore="t37" iniziovigore="t36" valore="urn:nir:regione.toscana:legge:1998-05-18;25@2009-12-29" />
-					<urn iniziovigore="t37" valore="urn:nir:regione.toscana:legge:1998-05-18;25@2010-03-03" />
+					<urn finevigore="t38" iniziovigore="t37" valore="urn:nir:regione.toscana:legge:1998-05-18;25@2010-03-03" />
+					<urn iniziovigore="t38" valore="urn:nir:regione.toscana:legge:1998-05-18;25@2010-12-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tutela Ambientale" />
 						<materia valore="Rifiuti" />
@@ -70,6 +71,7 @@
 						<evento data="20100101" fonte="rp19" id="t35" tipo="modifica" />
 						<evento data="20100119" fonte="rp20" id="t36" tipo="modifica" />
 						<evento data="20100324" fonte="rp21" id="t37" tipo="modifica" />
+						<evento data="20110101" fonte="rp22" id="t38" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25" xlink:type="simple" />
@@ -109,6 +111,7 @@
 						<passiva id="rp19" xlink:href="urn:nir:regione.toscana:legge:2009-11-09;67" xlink:type="simple" />
 						<passiva id="rp20" xlink:href="urn:nir:regione.toscana:legge:2009-12-29;87" xlink:type="simple" />
 						<passiva id="rp21" xlink:href="urn:nir:regione.toscana:legge:2010-03-03;28" xlink:type="simple" />
+						<passiva id="rp22" xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -2457,6 +2460,21 @@
 								<dsp:pos xlink:href="#art20ter" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65#art126-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 126, comma 1 della legge Regione Toscana 29 dicembre 2010, n. 65" id="itt156" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-com2-t38" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -2663,9 +2681,13 @@
 								(Norme in materia ambientale), finalizzate ad incentivare la riduzione dello smaltimento finale e della produzione dei rifiuti, nonché il recupero degli stessi, compresa l'erogazione di contributi per la realizzazione di investimenti.
 							</corpo>
 						</comma>
-						<comma id="art3-com2">
+						<comma finevigore="t38" id="art3-com2-t38" iniziovigore="t1" status="abrogato">
 							<num>2.</num>
 							<corpo>I contributi di cui al comma 1, possono essere attribuiti alle comunità di ambito che li assegnano ai soggetti gestori, ovvero direttamente a questi ultimi, per la realizzazione di investimenti pubblici, con effetti calmieranti sulle tariffe degli utenti dell'intero territorio regionale.</corpo>
+						</comma>
+						<comma id="art3-com2" iniziovigore="t38">
+							<num>2.</num>
+							<corpo>I contributi di cui al comma 1, possono essere attribuiti alle comunità di ambito che li assegnano ai soggetti gestori, ovvero direttamente a questi ultimi, per il finanziamento di investimenti pubblici, con effetti calmieranti sulle tariffe degli utenti dell'intero territorio regionale;</corpo>
 						</comma>
 						<comma id="art3-com3">
 							<num>3.</num>
@@ -2714,7 +2736,7 @@
 								<num>a)</num>
 								<corpo>
 									i criteri specifici e le modalità per la concessione dei contributi di cui all'
-									<rif xlink:href="#art3-com2" xlink:type="simple">articolo 3, comma 2</rif>
+									<rif xlink:href="#art3-com2-t38" xlink:type="simple">articolo 3, comma 2</rif>
 									;
 								</corpo>
 							</el>
