@@ -1,24 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20090724" num="26" tipo="BURT" />
 					<entratainvigore norm="20090808" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2009-07-17;39" />
+					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2009-07-17;39" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:2009-07-17;39@2010-12-29" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="20090808" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20090808" fonte="ra1" id="t2" tipo="modifica" />
+						<evento data="20110101" fonte="rp1" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2009-07-17;39" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:2005-02-23;35" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="n1">
+						<h:p>
+							Le disposizioni del presente comma, modificato dall'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65#art67" xlink:type="simple">art. 67 della legge regionale 29 dicembre 2010, n. 65</rif>
+							, decorrono, ai sensi dell'art. 69 della stessa, a partire dal primo rinnovo degli organi successivo all'entrata in vigore della suddetta legge.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:abrogazione completa="si" implicita="no">
@@ -34,6 +46,65 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65#art65-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 65, comma 1 della legge Regione Toscana 29 dicembre 2010, n. 65" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art11-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65#art66-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 66, comma 1 della legge Regione Toscana 29 dicembre 2010, n. 65" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art12-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65#art67-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 67, comma 1 della legge Regione Toscana 29 dicembre 2010, n. 65" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art12-com4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art12-com4-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art14-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65#art68-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 68, comma 1 della legge Regione Toscana 29 dicembre 2010, n. 65" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h5" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -401,7 +472,10 @@
 						<corpo>
 							Ai membri del comitato tecnico-scientifico è riconosciuto un gettone di presenza per ogni giorno di riunione nella misura determinata dall'assemblea, ai sensi dell'
 							<rif xlink:href="#art8-com4-leth" xlink:type="simple">articolo 8, comma 4, lettera h)</rif>
-							, e, comunque, non superiore a euro 250.
+							, e, comunque, non superiore a euro
+							<h:span finevigore="t3" id="h1" iniziovigore="t1" status="abrogato">250</h:span>
+							<h:span id="h2" iniziovigore="t3">30,00</h:span>
+							.
 						</corpo>
 					</comma>
 					<comma id="art9-com4">
@@ -458,7 +532,10 @@
 					</comma>
 					<comma id="art11-com4">
 						<num>4.</num>
-						<corpo>Il trattamento economico dell'amministratore unico è determinato dall'assemblea con riferimento agli emolumenti spettanti, ai sensi dei contratti collettivi, ai dirigenti regionali di ruolo, inclusa la retribuzione di posizione e di risultato, e, comunque, in misura non superiore a quella del responsabile di area di coordinamento.</corpo>
+						<corpo>
+							Il trattamento economico dell'amministratore unico è determinato dall'assemblea con riferimento agli emolumenti spettanti, ai sensi dei contratti collettivi, ai dirigenti regionali di ruolo, inclusa la retribuzione di posizione e di risultato, e, comunque, in misura non superiore a quella del responsabile di area di coordinamento.
+							<h:span id="h3" iniziovigore="t3">Tale trattamento economico è adeguato automaticamente alle modifiche cui sono soggetti gli emolumenti spettanti ai dirigenti regionali di ruolo</h:span>
+						</corpo>
 					</comma>
 					<comma id="art11-com5">
 						<num>5.</num>
@@ -514,21 +591,29 @@
 						<num>3.</num>
 						<corpo>Il collegio delibera validamente anche con la presenza di due componenti; in caso di parità, prevale il voto del presidente; in assenza del presidente, prevale il voto del membro più anziano.</corpo>
 					</comma>
-					<comma id="art12-com4">
+					<comma finevigore="t3" id="art12-com4-t3" iniziovigore="t1" status="abrogato">
 						<num>4.</num>
 						<alinea>
 							Ai membri del collegio dei revisori spetta un'indennità annua nella misura stabilita dall'assemblea, ai sensi dell'
 							<rif xlink:href="#art8-com4-leth" xlink:type="simple">articolo 8, comma 4, lettera h)</rif>
 							, e comunque non superiore:
 						</alinea>
-						<el id="art12-com4-leta">
+						<el id="art12-com4-t3-leta">
 							<num>a)</num>
 							<corpo>per il presidente del collegio, al 10 per cento dell'indennità annua spettante all'amministratore unico, esclusa la retribuzione di risultato;</corpo>
 						</el>
-						<el id="art12-com4-letb">
+						<el id="art12-com4-t3-letb">
 							<num>b)</num>
 							<corpo>per gli altri membri del collegio, all'8 per cento dell'indennità annua spettante all'amministratore unico esclusa la retribuzione di risultato.</corpo>
 						</el>
+					</comma>
+					<comma id="art12-com4" iniziovigore="t3">
+						<num>4.</num>
+						<corpo>
+							Al Presidente e agli altri membri del Collegio dei revisori è corrisposta un'indennità annua pari rispettivamente al 3 per cento e al 2 per cento dell'indennità spettante al Presidente della Giunta regionale
+							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							.
+						</corpo>
 					</comma>
 					<comma id="art12-com5">
 						<num>5.</num>
@@ -606,7 +691,12 @@
 					</comma>
 					<comma id="art14-com2">
 						<num>2.</num>
-						<corpo>Il bilancio di esercizio è adottato dall'assemblea dei soci entro il 30 aprile dell'anno successivo a quello di riferimento, ed è trasmesso alla Giunta regionale, corredato dalla relazione del collegio dei revisori. La Giunta regionale lo invia al Consiglio regionale per l'approvazione.</corpo>
+						<corpo>
+							Il bilancio di esercizio è adottato dall'assemblea dei soci entro il 30 aprile dell'anno successivo a quello di riferimento, ed è trasmesso alla Giunta regionale, corredato dalla relazione del collegio dei revisori. La Giunta regionale lo invia al Consiglio regionale
+							<h:span finevigore="t3" id="h4" iniziovigore="t1" status="abrogato">per l'approvazione</h:span>
+							<h:span id="h5" iniziovigore="t3">che lo approva entro sessanta giorni dal ricevimento.</h:span>
+							.
+						</corpo>
 					</comma>
 					<comma id="art14-com3">
 						<num>3.</num>

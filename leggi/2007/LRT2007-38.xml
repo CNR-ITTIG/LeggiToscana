@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t10" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2007-07-13;38" />
 					<urn finevigore="t11" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:2007-07-13;38@2008-02-29" />
-					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:2007-07-13;38@2008-11-21" />
+					<urn finevigore="t12" iniziovigore="t11" valore="urn:nir:regione.toscana:legge:2007-07-13;38@2008-11-21" />
+					<urn iniziovigore="t12" valore="urn:nir:regione.toscana:legge:2007-07-13;38@2010-12-29" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -24,6 +25,7 @@
 						<evento data="20070916" fonte="ra8" id="t9" tipo="modifica" />
 						<evento data="20080306" fonte="rp1" id="t10" tipo="modifica" />
 						<evento data="20081129" fonte="rp2" id="t11" tipo="modifica" />
+						<evento data="20110101" fonte="rp3" id="t12" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2007-07-13;38" xlink:type="simple" />
@@ -37,6 +39,7 @@
 						<attiva id="ra8" xlink:href="urn:nir:regione.toscana:legge:2003-04-04;17" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2008-02-29;13" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -627,6 +630,18 @@
 								<dsp:pos xlink:href="#h14" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art45" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65#art124-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 124, comma 1 della legge Regione Toscana 29 dicembre 2010, n. 65" id="itt38" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art45bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -756,8 +771,11 @@
 									<rif xlink:href="urn:nir:stato:decreto.legislativo:2006;163#art3" xlink:type="simple">articolo 3 del d.lgs. 163/2006</rif>
 									ed individuati dall'
 									<rif xlink:href="urn:nir:stato:decreto.legislativo:2006;163#art32" xlink:type="simple">articolo 32 del medesimo decreto legislativo</rif>
-									<h:span id="h2" iniziovigore="t10">ad esclusione dei soggetti individuati all' articolo 117, secondo comma, lettera g) della Costituzione .</h:span>
-									.
+									<h:span id="h2" iniziovigore="t10">
+										ad esclusione dei soggetti individuati all'
+										<rif xlink:href="urn:nir:stato:costituzione:1947-12-27;nir-1#art117-com2-letg" xlink:type="simple">articolo 117, secondo comma, lettera g) della Costituzione</rif>
+										.
+									</h:span>
 								</corpo>
 							</el>
 						</comma>
@@ -2359,6 +2377,28 @@
 									Nelle ipotesi di cui al
 									<rif xlink:href="#art45-com1" xlink:type="simple">comma 1</rif>
 									, il bando e la documentazione di gara indicano il ricorso a tale forma di gestione della procedura, gli enti interessati, nonché la quota dell'importo posto a base di gara di rispettiva competenza.
+								</corpo>
+							</comma>
+						</articolo>
+						<articolo id="art45bis" iniziovigore="t12">
+							<num>Art. 45 bis</num>
+							<rubrica>Ricorso agli ESTAV quali centrali di committenza</rubrica>
+							<comma id="art45bis-com1">
+								<num>1.</num>
+								<corpo>
+									La Regione può richiedere agli enti per i servizi tecnico amministrativi di area vasta (ESTAV) di cui alla
+									<rif xlink:href="urn:nir:regione.toscana:legge:2005-02-25;40" xlink:type="simple">legge regionale 25 febbraio 2005 n. 40</rif>
+									(Disciplina del servizio sanitario regionale), lo svolgimento, quale centrale di committenza ai sensi dell'
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:2006;163#art33" xlink:type="simple">articolo 33 del d. lgs. 163/2006</rif>
+									, di procedure di gara per l'affidamento di forniture e servizi di proprio interesse.
+								</corpo>
+							</comma>
+							<comma id="art45bis-com2">
+								<num>2.</num>
+								<corpo>
+									La Regione ed i soggetti di cui all'articolo 2, comma 1, lettera a), possono acquisire forniture e servizi aderendo ai contratti stipulati dagli ESTAV, quale centrale di committenza ai sensi dell'
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:2006;163#art33" xlink:type="simple">articolo 33 del d.lgs 163/2006</rif>
+									.
 								</corpo>
 							</comma>
 						</articolo>
