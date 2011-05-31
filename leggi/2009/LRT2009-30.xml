@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20090626" num="22" tipo="BURT" />
 					<entratainvigore norm="20090711" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2009-06-22;30" />
+					<urn finevigore="t3" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2009-06-22;30" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:2009-06-22;30@2010-12-29" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="20090711" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20090711" fonte="ra1" id="t2" tipo="modifica" />
+						<evento data="20110101" fonte="rp1" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2009-06-22;30" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1995-04-18;66" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -34,6 +37,38 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art27-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65#art63-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 63, comma 1 della legge Regione Toscana 29 dicembre 2010, n. 65" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art27-com4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art27-com4-t3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art31-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65#art64-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 64, comma 1 della legge Regione Toscana 29 dicembre 2010, n. 65" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -1128,9 +1163,13 @@
 							<num>3.</num>
 							<corpo>La durata in carica del collegio dei revisori coincide con quella della legislatura regionale e i suoi componenti possono essere confermati una sola volta.</corpo>
 						</comma>
-						<comma id="art27-com4">
+						<comma finevigore="t3" id="art27-com4-t3" iniziovigore="t1" status="abrogato">
 							<num>4.</num>
 							<corpo>Al presidente ed agli altri componenti del collegio spetta una indennità annua la cui entità è stabilita in misura pari, rispettivamente, al 10 per cento ed al 7 per cento del trattamento economico spettante al direttore generale, esclusa la retribuzione di risultato.</corpo>
+						</comma>
+						<comma id="art27-com4" iniziovigore="t3">
+							<num>4.</num>
+							<corpo>Al Presidente ed agli altri componenti del Collegio spetta un'indennità annua la cui entità è stabilita in misura pari, rispettivamente, al 3 per cento ed al 2 per cento dell'indennità spettante al Presidente della Giunta regionale.</corpo>
 						</comma>
 						<comma id="art27-com5">
 							<num>5.</num>
@@ -1279,7 +1318,10 @@
 							<corpo>
 								Entro il 30 aprile di ogni anno, il direttore generale adotta e trasmette il bilancio di esercizio, con allegata la relazione del collegio dei revisori, alla Giunta regionale che, acquisito il parere della conferenza permanente di cui all'
 								<rif xlink:href="#art14-com5-letd" xlink:type="simple">articolo 14, comma 5, lettera d)</rif>
-								, lo inoltra al Consiglio regionale per l'approvazione di competenza. Il bilancio di esercizio è corredato da una relazione del direttore generale sui risultati conseguiti che evidenzia in particolare i rapporti tra gli eventi economici e patrimoniali e le attività poste in essere.
+								, lo inoltra al Consiglio regionale
+								<h:span finevigore="t3" id="h1" iniziovigore="t1" status="abrogato">per l'approvazione di competenza</h:span>
+								<h:span id="h2" iniziovigore="t3">, che lo approva entro sessanta giorni dal ricevimento.</h:span>
+								. Il bilancio di esercizio è corredato da una relazione del direttore generale sui risultati conseguiti che evidenzia in particolare i rapporti tra gli eventi economici e patrimoniali e le attività poste in essere.
 							</corpo>
 						</comma>
 						<comma id="art31-com5">

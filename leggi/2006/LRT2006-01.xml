@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t4" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2006-01-26;1" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:2006-01-26;1@2008-12-02" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2006-01-26;1@2009-05-22" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2006-01-26;1@2009-05-22" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2006-01-26;1@2010-12-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Agricoltura" />
 					</materie>
@@ -21,6 +22,7 @@
 						<evento data="20081223" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="20081225" fonte="rp1" id="t4" tipo="modifica" />
 						<evento data="20090611" fonte="rp2" id="t5" tipo="modifica" />
+						<evento data="20110101" fonte="rp3" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2006-01-26;1" xlink:type="simple" />
@@ -28,6 +30,7 @@
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:2003-08-04;40" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2008-12-02;63" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2009-05-22;26" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -65,7 +68,7 @@
 					</modificheattive>
 					<modifichepassive>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art2-com5" xlink:type="simple" />
+							<dsp:pos xlink:href="#art2-t6-com5" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-12-02;63" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-12-02;63#art1-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -73,10 +76,10 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art2-com5" xlink:type="simple" />
+								<dsp:pos xlink:href="#art2-t6-com5" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#art2-com5-t4" xlink:type="simple" />
+								<dsp:pos xlink:href="#art2-t6-com5-t4" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:integrazione completa="si" implicita="no">
@@ -112,10 +115,55 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art3-com1-leta-com3" xlink:type="simple" />
+								<dsp:pos xlink:href="#art3-com1-leta-num3" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art3-com1-leta-num3-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65#art105-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 105, comma 1 della legge Regione Toscana 29 dicembre 2010, n. 65" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-t6" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65#art106-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 106, comma 1 della legge Regione Toscana 29 dicembre 2010, n. 65" id="itt6" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art11-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65#art107-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 107, comma 1 della legge Regione Toscana 29 dicembre 2010, n. 65" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -202,14 +250,14 @@
 							<corpo>L'intervento della Regione è attuato secondo i principi di sussidiarietà, decentramento, snellimento e semplificazione delle attività amministrative.</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art2">
+					<articolo finevigore="t6" id="art2-t6" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 2</num>
 						<rubrica>(Piano agricolo regionale)</rubrica>
-						<comma id="art2-com1">
+						<comma id="art2-t6-com1">
 							<num>1.</num>
 							<corpo>Il piano agricolo regionale (PAR) è il documento programmatorio unitario, distinto in specifiche sezioni di intervento, che realizza le politiche economiche agricole e di sviluppo rurale definite dal programma regionale di sviluppo (PRS) e specificate nel documento di programmazione economico finanziaria (DPEF) assumendone le priorità, perseguendone gli obiettivi ed applicandone i criteri di intervento per il periodo di riferimento, nel rispetto degli indirizzi di politica agricola comunitaria e nazionale ed in linea con il criterio della gestione flessibile delle risorse finanziarie.</corpo>
 						</comma>
-						<comma id="art2-com2">
+						<comma id="art2-t6-com2">
 							<num>2.</num>
 							<corpo>
 								Il PAR è approvato, su proposta della Giunta regionale, dal Consiglio regionale ai sensi della
@@ -223,7 +271,7 @@
 								.
 							</corpo>
 						</comma>
-						<comma id="art2-com3">
+						<comma id="art2-t6-com3">
 							<num>3.</num>
 							<corpo>
 								Per la definizione della proposta di PAR la Giunta regionale, secondo quanto previsto dallo
@@ -233,35 +281,35 @@
 								, attiva il confronto con le province e le comunità montane, con i soggetti pubblici e privati e con le loro organizzazioni rappresentative.
 							</corpo>
 						</comma>
-						<comma id="art2-com4">
+						<comma id="art2-t6-com4">
 							<num>4.</num>
 							<alinea>Il PAR, in particolare:</alinea>
-							<el id="art2-com4-leta">
+							<el id="art2-t6-com4-leta">
 								<num>a)</num>
 								<corpo>definisce gli obiettivi e le strategie di intervento;</corpo>
 							</el>
-							<el id="art2-com4-letb">
+							<el id="art2-t6-com4-letb">
 								<num>b)</num>
 								<corpo>individua l'ammontare delle risorse destinate agli interventi nei campi dell'agricoltura, dell'agroindustria, delle infrastrutture rurali, della ricomposizione della proprietà fondiaria, dell'agriturismo e delle azioni connesse con lo sviluppo rurale, che possono essere articolati per ambiti di intervento settoriale, intersettoriale e territoriale;</corpo>
 							</el>
-							<el id="art2-com4-letc">
+							<el id="art2-t6-com4-letc">
 								<num>c)</num>
 								<corpo>individua l'ammontare del finanziamento di interventi urgenti e imprevisti;</corpo>
 							</el>
-							<el id="art2-com4-letd">
+							<el id="art2-t6-com4-letd">
 								<num>d)</num>
 								<corpo>individua i soggetti attuatori e i soggetti beneficiari degli interventi;</corpo>
 							</el>
-							<el id="art2-com4-lete">
+							<el id="art2-t6-com4-lete">
 								<num>e)</num>
 								<corpo>individua gli strumenti di intervento operanti ai sensi delle norme comunitarie, nazionali e regionali in materia;</corpo>
 							</el>
-							<el id="art2-com4-letf">
+							<el id="art2-t6-com4-letf">
 								<num>f)</num>
 								<corpo>definisce gli indirizzi per l'attuazione degli interventi.</corpo>
 							</el>
 						</comma>
-						<comma finevigore="t4" id="art2-com5-t4" iniziovigore="t1" status="abrogato">
+						<comma finevigore="t4" id="art2-t6-com5-t4" iniziovigore="t1" status="abrogato">
 							<num>5.</num>
 							<corpo>
 								Il PAR si raccorda con gli strumenti di programmazione previsti dalla normativa comunitaria, in particolare con il programma di sviluppo rurale, e con gli strumenti della programmazione negoziata; il programma forestale regionale, di cui all'
@@ -275,7 +323,7 @@
 								, si rapportano al PAR.
 							</corpo>
 						</comma>
-						<comma id="art2-com5" iniziovigore="t4">
+						<comma id="art2-t6-com5" iniziovigore="t4">
 							<num>5.</num>
 							<corpo>
 								Il PAR si raccorda con gli strumenti di programmazione previsti dalla normativa comunitaria, in particolare con il programma di sviluppo rurale, e con gli strumenti della programmazione negoziata. Il programma forestale regionale, di cui all'
@@ -283,41 +331,109 @@
 								(Legge forestale della Toscana), si rapporta al PAR.
 							</corpo>
 						</comma>
-						<comma id="art2-com6">
+						<comma id="art2-t6-com6">
 							<num>6.</num>
 							<corpo>Il PAR costituisce il documento programmatorio di recepimento per gli strumenti di programmazione nazionale ed interregionale operanti nel settore.</corpo>
 						</comma>
-						<comma id="art2-com7">
+						<comma id="art2-t6-com7">
 							<num>7.</num>
 							<corpo>Il PAR costituisce il documento programmatorio di riferimento per i piani e i programmi degli enti locali e delle autonomie funzionali in materia di agricoltura e di sviluppo rurale, anche ai fini dell'accesso ai finanziamenti regionali ed al fine di favorire il coordinamento degli interventi degli enti locali medesimi.</corpo>
 						</comma>
-						<comma id="art2-com8">
+						<comma id="art2-t6-com8">
 							<num>8.</num>
 							<corpo>La Giunta regionale provvede all'attuazione del PAR con propria deliberazione, aggiornata annualmente in coerenza con il DPEF e con il bilancio di previsione annuale.</corpo>
 						</comma>
-						<comma id="art2-com9">
+						<comma id="art2-t6-com9">
 							<num>9.</num>
 							<alinea>
 								La deliberazione di cui al
-								<rif xlink:href="#art2-com8" xlink:type="simple">comma 8</rif>
+								<rif xlink:href="#art2-t6-com8" xlink:type="simple">comma 8</rif>
 								, in particolare:
 							</alinea>
-							<el id="art2-com9-leta">
+							<el id="art2-t6-com9-leta">
 								<num>a)</num>
 								<corpo>specifica gli obiettivi e le strategie di intervento;</corpo>
 							</el>
-							<el id="art2-com9-letb">
+							<el id="art2-t6-com9-letb">
 								<num>b)</num>
 								<corpo>determina le modalità di attuazione degli interventi, secondo criteri di riduzione, semplificazione e snellimento delle procedure ed ai fini della riduzione dell'impatto sui costi delle imprese;</corpo>
 							</el>
-							<el id="art2-com9-letc">
+							<el id="art2-t6-com9-letc">
 								<num>c)</num>
 								<corpo>
 									individua gli interventi urgenti ed imprevisti, di cui al
-									<rif xlink:href="#art2-com4-letc" xlink:type="simple">comma 4, lettera c)</rif>
+									<rif xlink:href="#art2-t6-com4-letc" xlink:type="simple">comma 4, lettera c)</rif>
 									.
 								</corpo>
 							</el>
+						</comma>
+					</articolo>
+					<articolo id="art2" iniziovigore="t6">
+						<num>Art. 2</num>
+						<rubrica>Piano regionale agricolo forestale (PRAF)</rubrica>
+						<comma id="art2-com1">
+							<num>1.</num>
+							<corpo>Il piano regionale agricolo forestale (PRAF) è il documento programmatorio unitario che realizza le politiche agricole, forestali e di sviluppo rurale definite nel programma regionale di sviluppo (PRS) e specificate nel documento di programmazione economico-finanziaria (DPEF), assumendone le priorità, perseguendone gli obiettivi ed applicandone i criteri di intervento per il periodo di riferimento, nel rispetto degli indirizzi di politica agricola comunitaria e nazionale ed in linea con il criterio della gestione flessibile delle risorse finanziarie.</corpo>
+						</comma>
+						<comma id="art2-com2">
+							<num>2.</num>
+							<corpo>Il PRAF è articolato in sezione agricola e sezione forestale. La sezione agricola è articolata nelle seguenti tematiche principali: agricoltura, zootecnia, faunisticovenatoria, pesca marittima e delle acque interne. La sezione forestale è strutturata nelle seguenti tematiche principali: filiera foresta - legno, gestione del patrimonio agricolo-forestale regionale, interventi pubblici forestali, prevenzione e lotta agli incendi boschivi, prodotti del sottobosco.</corpo>
+						</comma>
+						<comma id="art2-com3">
+							<num>3.</num>
+							<alinea>La sezione agricola del PRAF:</alinea>
+							<el id="art2-com3-leta">
+								<num>a)</num>
+								<corpo>definisce gli obiettivi e le strategie di intervento;</corpo>
+							</el>
+							<el id="art2-com3-letb">
+								<num>b)</num>
+								<corpo>individua l'ammontare delle risorse destinate agli interventi nei settori di cui al comma 2, che possono essere articolati per ambiti di intervento settoriale, intersettoriale e territoriale;</corpo>
+							</el>
+							<el id="art2-com3-letc">
+								<num>c)</num>
+								<corpo>individua l'ammontare del finanziamento di interventi urgenti e imprevisti;</corpo>
+							</el>
+							<el id="art2-com3-letd">
+								<num>d)</num>
+								<corpo>individua i soggetti attuatori e i soggetti beneficiari degli interventi;</corpo>
+							</el>
+							<el id="art2-com3-lete">
+								<num>e)</num>
+								<corpo>individua gli strumenti di intervento operanti ai sensi delle norme comunitarie, nazionali e regionali in materia;</corpo>
+							</el>
+							<el id="art2-com3-letf">
+								<num>f)</num>
+								<corpo>definisce gli indirizzi per l'attuazione degli interventi.</corpo>
+							</el>
+						</comma>
+						<comma id="art2-com4">
+							<num>4.</num>
+							<corpo>
+								La sezione forestale del PRAF contiene quanto previsto dall'
+								<rif xlink:href="urn:nir:regione.toscana:legge:2000-03-21;39#art4" xlink:type="simple">articolo 4 della legge regionale 21 marzo 2000, n. 39</rif>
+								(Legge forestale della Toscana). Può altresì contenere interventi forestali di sostegno alle attività imprenditoriali nel settore forestale complementari alle azioni finanziate attraverso altri strumenti di programmazione.
+							</corpo>
+						</comma>
+						<comma id="art2-com5">
+							<num>5.</num>
+							<corpo>Il PRAF si raccorda con gli strumenti di programmazione previsti dalla normativa comunitaria, in particolare con il programma di sviluppo rurale, e con gli strumenti della programmazione negoziata.</corpo>
+						</comma>
+						<comma id="art2-com6">
+							<num>6.</num>
+							<corpo>Il PRAF costituisce il documento programmatorio di recepimento per gli strumenti di programmazione nazionale ed interregionale operanti nel settore.</corpo>
+						</comma>
+						<comma id="art2-com7">
+							<num>7.</num>
+							<corpo>Il PRAF costituisce il documento programmatorio di riferimento per i piani e i programmi degli enti locali e delle autonomie funzionali in materia di agricoltura e di sviluppo rurale, anche ai fini dell'accesso ai finanziamenti regionali ed al fine di favorire il coordinamento degli interventi degli enti locali medesimi.</corpo>
+						</comma>
+						<comma id="art2-com8">
+							<num>8.</num>
+							<corpo>
+								Il PRAF è approvato ed attuato in conformità a quanto previsto dalla
+								<rif xlink:href="urn:nir:regione.toscana:legge:1999-08-11;49" xlink:type="simple">legge regionale 11 agosto 1999, n. 49</rif>
+								(Norme in materia di programmazione regionale).
+							</corpo>
 						</comma>
 					</articolo>
 				</capo>
@@ -345,7 +461,7 @@
 									<num>3)</num>
 									<corpo>la promozione e internazionalizzazione;</corpo>
 								</en>
-								<en id="art3-com1-leta-com3" iniziovigore="t5">
+								<en id="art3-com1-leta-num3" iniziovigore="t5">
 									<num>3)</num>
 									<corpo>sostegno alle attività di valorizzazione delle produzioni agroalimentari ai fini della promozione e della internazionalizzazione.</corpo>
 								</en>
@@ -603,7 +719,12 @@
 						<rubrica>(Valutazione di efficacia)</rubrica>
 						<comma id="art9-com1">
 							<num>1.</num>
-							<corpo>La Giunta regionale assicura la valutazione di efficacia degli interventi previsti dal PAR.</corpo>
+							<corpo>
+								La Giunta regionale assicura la valutazione di efficacia degli interventi previsti dal
+								<h:span finevigore="t6" id="h1" iniziovigore="t1" status="abrogato">PAR</h:span>
+								<h:span id="h2" iniziovigore="t6">PRAF</h:span>
+								.
+							</corpo>
 						</comma>
 						<comma id="art9-com2">
 							<num>2.</num>
@@ -643,7 +764,12 @@
 						<rubrica>(Norme finanziarie)</rubrica>
 						<comma id="art11-com1">
 							<num>1.</num>
-							<corpo>IL PAR indica la proiezione finanziaria delle risorse attivabili relativamente al periodo di validità del piano stesso, individuando le risorse regionali stanziate dal bilancio pluriennale limitatamente agli esercizi da quest'ultimo considerati.</corpo>
+							<corpo>
+								IL
+								<h:span finevigore="t6" id="h3" iniziovigore="t1" status="abrogato">PAR</h:span>
+								<h:span id="h4" iniziovigore="t6">PRAF</h:span>
+								indica la proiezione finanziaria delle risorse attivabili relativamente al periodo di validità del piano stesso, individuando le risorse regionali stanziate dal bilancio pluriennale limitatamente agli esercizi da quest'ultimo considerati.
+							</corpo>
 						</comma>
 						<comma id="art11-com2">
 							<num>2.</num>

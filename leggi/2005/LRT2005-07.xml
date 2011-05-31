@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20050112" num="3" tipo="BURT" />
 					<entratainvigore norm="20050127" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2005-01-03;7" />
+					<urn finevigore="t10" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2005-01-03;7" />
+					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:2005-01-03;7@2010-12-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Pesca" />
 					</materie>
@@ -23,6 +24,7 @@
 						<evento data="20050908" fonte="ra6" id="t7" tipo="modifica" />
 						<evento data="20050908" fonte="ra7" id="t8" tipo="modifica" />
 						<evento data="20050908" fonte="ra8" id="t9" tipo="modifica" />
+						<evento data="20110101" fonte="rp1" id="t10" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2005-01-03;7" xlink:type="simple" />
@@ -34,6 +36,7 @@
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:1996-11-14;82" xlink:type="simple" />
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:1999-05-19;29" xlink:type="simple" />
 						<attiva id="ra8" xlink:href="urn:nir:regione.toscana:legge:2001-12-21;65" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -135,6 +138,50 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65#art110-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 110, comma 1 della legge Regione Toscana 29 dicembre 2010, n. 65" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art8-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art8-com1-t10" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art8-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65#art110-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 110, comma 2 della legge Regione Toscana 29 dicembre 2010, n. 65" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art26" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65#art111-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 111, comma 1 della legge Regione Toscana 29 dicembre 2010, n. 65" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art26" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art26-t10" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -479,13 +526,25 @@
 					<articolo id="art8">
 						<num>ARTICOLO 8</num>
 						<rubrica>(Piano regionale per la pesca nelle acque interne)</rubrica>
-						<comma id="art8-com1">
+						<comma finevigore="t10" id="art8-com1-t10" iniziovigore="t1" status="abrogato">
 							<num>1.</num>
 							<corpo>Il Consiglio regionale, su proposta della Giunta, entro centottanta giorni dall'entrata in vigore della presente legge, approva il piano regionale per la pesca nelle acque interne.</corpo>
 						</comma>
+						<comma id="art8-com1" iniziovigore="t10">
+							<num>1.</num>
+							<corpo>
+								Il piano regionale per la pesca nelle acque interne è contenuto nella sezione agricola del piano regionale agricolo forestale (PRAF) di cui all'
+								<rif xlink:href="urn:nir:regione.toscana:legge:2006-01-24;1#art2" xlink:type="simple">articolo 2 della legge regionale 24 gennaio 2006, n. 1</rif>
+								(Disciplina degli interventi regionali in materia di agricoltura e di sviluppo rurale).
+							</corpo>
+						</comma>
 						<comma id="art8-com2">
 							<num>2.</num>
-							<corpo>Il piano regionale ha validità di sei anni e detta i criteri per la suddivisione in zone ittiche dei corpi idrici, per la realizzazione degli istituti previsti dalla presente legge, gli indirizzi per l'esercizio della pesca dilettantistica, sportiva e professionale nonché gli obiettivi, le tipologie degli interventi, le priorità, l'individuazione delle specie ittiche alloctone che necessitano di interventi di contenimento o riduzione e ogni ulteriore elemento utile a conseguire le finalità della presente legge.</corpo>
+							<corpo>
+								Il piano regionale
+								<h:span finevigore="t10" id="h1" iniziovigore="t1" status="abrogato">ha validità di sei anni e</h:span>
+								detta i criteri per la suddivisione in zone ittiche dei corpi idrici, per la realizzazione degli istituti previsti dalla presente legge, gli indirizzi per l'esercizio della pesca dilettantistica, sportiva e professionale nonché gli obiettivi, le tipologie degli interventi, le priorità, l'individuazione delle specie ittiche alloctone che necessitano di interventi di contenimento o riduzione e ogni ulteriore elemento utile a conseguire le finalità della presente legge.
+							</corpo>
 						</comma>
 						<comma id="art8-com3">
 							<num>3.</num>
@@ -1206,10 +1265,10 @@
 							<corpo>Le licenze di pesca in corso alla data di entrata in vigore della presente legge mantengono la loro validità fino alla scadenza.</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art26">
+					<articolo finevigore="t10" id="art26-t10" iniziovigore="t1" status="abrogato">
 						<num>ARTICOLO 26</num>
 						<rubrica>(Norma finanziaria)</rubrica>
-						<comma id="art26-com1">
+						<comma id="art26-t10-com1">
 							<num>1.</num>
 							<corpo>
 								Le entrate derivanti dalle tasse di concessione di cui all'
@@ -1217,7 +1276,7 @@
 								sono introitate nella unità previsionale di base (UPB) 111 "Imposte e tasse" del bilancio regionale.
 							</corpo>
 						</comma>
-						<comma id="art26-com2">
+						<comma id="art26-t10-com2">
 							<num>2.</num>
 							<corpo>
 								Gli oneri derivanti dalla presente legge, stimati in complessivi 1.550.000,00 euro per l'anno 2005, trovano copertura nell'ambito delle risorse allocate alla UPB 553 "Interventi per la pesca, la tutela ittiofaunistica e l'itticoltura - Spese correnti", rese disponibili dall'abrogazione della
@@ -1225,9 +1284,29 @@
 								.
 							</corpo>
 						</comma>
-						<comma id="art26-com3">
+						<comma id="art26-t10-com3">
 							<num>3.</num>
 							<corpo>Per gli esercizi successivi le risorse sono annualmente stabilite con legge di bilancio.</corpo>
+						</comma>
+					</articolo>
+					<articolo id="art26" iniziovigore="t10">
+						<num>Art. 26</num>
+						<rubrica>Norma finanziaria</rubrica>
+						<comma id="art26-com1">
+							<num>1.</num>
+							<corpo>
+								Le entrate derivanti dalle tasse di concessione di cui all'
+								<rif xlink:href="#art15-com2" xlink:type="simple">articolo 15, comma 2</rif>
+								, sono introitate nella unità previsionale di base (UPB) 111 "Imposte e tasse" del bilancio regionale.
+							</corpo>
+						</comma>
+						<comma id="art26-com2">
+							<num>2.</num>
+							<corpo>
+								Le risorse per l'attuazione degli interventi di cui alla presente legge sono definiti nel PRAF in coerenza con gli stanziamenti di bilancio e con le disposizioni di cui all'
+								<rif xlink:href="#art8" xlink:type="simple">articolo 8</rif>
+								.
+							</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art27">

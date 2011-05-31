@@ -1,22 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20081231" num="46" tipo="BURT" />
 					<entratainvigore norm="20081231" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2008-12-30;73" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2008-12-30;73" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2008-12-30;73@2010-12-29" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="20081231" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20110101" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2008-12-30;73" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65#art131-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 131, comma 1 della legge Regione Toscana 29 dicembre 2010, n. 65" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art9-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -338,28 +360,80 @@
 								<rif xlink:href="#art6" xlink:type="simple">6</rif>
 							</mrif>
 							, comporta l'assegnazione delle relative risorse al fondo di rotazione di cui all'
-							<rif xlink:href="#art9" xlink:type="simple">articolo 9</rif>
+							<rif xlink:href="#art9-t2" xlink:type="simple">articolo 9</rif>
 							.
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art9">
+				<articolo finevigore="t2" id="art9-t2" iniziovigore="t1" status="abrogato">
 					<num>Art. 9</num>
 					<rubrica>Interventi finanziari a favore dei professionisti. Istituzione di fondo regionale di rotazione per le professioni</rubrica>
-					<comma id="art9-com1">
+					<comma id="art9-t2-com1">
 						<num>1.</num>
 						<corpo>E' costituito un fondo regionale di rotazione per la concessione di agevolazioni finanziarie per i giovani professionisti.</corpo>
 					</comma>
-					<comma id="art9-com2">
+					<comma id="art9-t2-com2">
 						<num>2.</num>
 						<alinea>
 							In particolare, il fondo di cui al
-							<rif xlink:href="#art9-com1" xlink:type="simple">comma 1</rif>
+							<rif xlink:href="#art9-t2-com1" xlink:type="simple">comma 1</rif>
 							provvede alla concessione di garanzia per:
 						</alinea>
-						<el id="art9-com2-leta">
+						<el id="art9-t2-com2-leta">
 							<num>a)</num>
 							<corpo>prestiti d'onore per gli esercenti la pratica od il tirocinio professionale e per gli appartenenti alle associazioni di professionisti prestatori d'opera intellettuali, di età non superiore ai trenta anni; il prestito è erogato per le spese di acquisizione di strumenti informatici;</corpo>
+						</el>
+						<el id="art9-t2-com2-letb">
+							<num>b)</num>
+							<alinea>prestiti ai giovani con età inferiore a quaranta anni, finalizzati al supporto alle spese di impianto dei nuovi studi professionali, mediante:</alinea>
+							<en id="art9-t2-com2-letb-num1">
+								<num>1)</num>
+								<corpo>progetti di avvio e sviluppo di studi professionali, con priorità per quelli organizzati, nelle forme previste dalla legge, in modo associato od intersettoriale tra giovani professionisti;</corpo>
+							</en>
+							<en id="art9-t2-com2-letb-num2">
+								<num>2)</num>
+								<corpo>programmi per l'acquisizione di beni strumentali innovativi e tecnologie per l'attività professionale, in coerenza con le iniziative regionali di sviluppo e standardizzazione delle tecnologie dell'informazione e della conoscenza;</corpo>
+							</en>
+							<en id="art9-t2-com2-letb-num3">
+								<num>3)</num>
+								<corpo>progetti finalizzati a garantire la sicurezza dei locali in cui si svolge l'attività professionale.</corpo>
+							</en>
+						</el>
+					</comma>
+					<comma id="art9-t2-com3">
+						<num>3.</num>
+						<corpo>
+							Il 50 per cento dell'ammontare del fondo è riservato ai prestiti d'onore di cui alla
+							<rif xlink:href="#art9-t2-com2-leta" xlink:type="simple">lettera a) del comma 2</rif>
+							.
+						</corpo>
+					</comma>
+					<comma id="art9-t2-com4">
+						<num>4.</num>
+						<corpo>
+							Gli strumenti attuativi del piano di indirizzo generale integrato di cui all'
+							<rif xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32#art31" xlink:type="simple">articolo 31 della legge regionale 26 luglio 2002, n. 32</rif>
+							(Testo unico della normativa della Regione Toscana in materia di educazione, istruzione, orientamento, formazione professionale e lavoro), definiscono il supporto regionale alle iniziative di formazione e aggiornamento per i professionisti.
+						</corpo>
+					</comma>
+					<comma id="art9-t2-com5">
+						<num>5.</num>
+						<corpo>La Giunta regionale approva il regolamento di attuazione entro sessanta giorni dall'entrata in vigore della presente legge. Il regolamento di attuazione definisce, nel rispetto della normativa europea sui limiti degli aiuti di importanza minore "de minimis", le modalità di funzionamento del fondo e le condizioni per assicurare l'accesso delle donne al fondo.</corpo>
+					</comma>
+				</articolo>
+				<articolo id="art9" iniziovigore="t2">
+					<num>Art. 9</num>
+					<rubrica>Interventi finanziari a favore del sistema professionale. Istituzione di fondo regionale di rotazione per le professioni</rubrica>
+					<comma id="art9-com1">
+						<num>1.</num>
+						<corpo>È costituito un fondo regionale di rotazione per la concessione di agevolazioni finanziarie per i giovani professionisti e per interventi innovativi proposti da ordini o collegi ed associazioni professionali, anche di secondo grado.</corpo>
+					</comma>
+					<comma id="art9-com2">
+						<num>2.</num>
+						<alinea>In particolare, il fondo di cui al comma 1, provvede alla concessione di garanzia per:</alinea>
+						<el id="art9-com2-leta">
+							<num>a)</num>
+							<corpo>prestiti d'onore per gli esercenti la pratica od il tirocinio professionale e per gli appartenenti alle associazioni di professionisti prestatori d'opera intellettuali, di età non superiore ai trenta anni. Il prestito è erogato per le spese di acquisizione di strumenti informatici;</corpo>
 						</el>
 						<el id="art9-com2-letb">
 							<num>b)</num>
@@ -381,22 +455,30 @@
 					<comma id="art9-com3">
 						<num>3.</num>
 						<corpo>
-							Il 50 per cento dell'ammontare del fondo è riservato ai prestiti d'onore di cui alla
-							<rif xlink:href="#art9-com2-leta" xlink:type="simple">lettera a) del comma 2</rif>
-							.
+							Il fondo provvede altresì al finanziamento di progetti innovativi proposti da ordini, collegi od associazioni professionali, anche di secondo grado, realizzati secondo modelli uniformi e metodologie comuni definite dal soggetto di cui all'
+							<rif xlink:href="#art8" xlink:type="simple">articolo 8</rif>
+							. I progetti possono avere ad oggetto la migliore strutturazione od organizzazione di ordini, collegi od associazioni, per il cofinanziamento di quote di progetti europei o azioni od attività che innovino i servizi professionali verso gli utenti.
 						</corpo>
 					</comma>
 					<comma id="art9-com4">
 						<num>4.</num>
+						<corpo>Il cinquanta per cento dell'ammontare del fondo è riservato ai prestiti di cui al comma 2, lettere a) e b), ed il restante 50 per cento agli interventi di cui al comma 3.</corpo>
+					</comma>
+					<comma id="art9-com5">
+						<num>5.</num>
 						<corpo>
 							Gli strumenti attuativi del piano di indirizzo generale integrato di cui all'
 							<rif xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32#art31" xlink:type="simple">articolo 31 della legge regionale 26 luglio 2002, n. 32</rif>
 							(Testo unico della normativa della Regione Toscana in materia di educazione, istruzione, orientamento, formazione professionale e lavoro), definiscono il supporto regionale alle iniziative di formazione e aggiornamento per i professionisti.
 						</corpo>
 					</comma>
-					<comma id="art9-com5">
-						<num>5.</num>
-						<corpo>La Giunta regionale approva il regolamento di attuazione entro sessanta giorni dall'entrata in vigore della presente legge. Il regolamento di attuazione definisce, nel rispetto della normativa europea sui limiti degli aiuti di importanza minore "de minimis", le modalità di funzionamento del fondo e le condizioni per assicurare l'accesso delle donne al fondo.</corpo>
+					<comma id="art9-com6">
+						<num>6.</num>
+						<corpo>
+							La Giunta regionale entro sessanta giorni dall'entrata in vigore della
+							<rif xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65" xlink:type="simple">legge regionale 29 dicembre 2010, n.65</rif>
+							(Legge finanziaria per l'anno 2011) realizza gli adeguamenti alle modalità di funzionamento del Fondo nel rispetto della normativa europea sui limiti degli aiuti di importanza minore "de minimis".
+						</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art10">
@@ -408,7 +490,7 @@
 							Ai fini del finanziamento della presente legge, è autorizzata la spesa complessiva di euro 1.400.000,00 di cui euro 400.000,00 per il finanziamento del soggetto consortile multidisciplinare previsto all'
 							<rif xlink:href="#art8" xlink:type="simple">articolo 8</rif>
 							cui si fa fronte con le risorse della unità previsionale di base (UPB) 513 "Interventi per lo sviluppo economico e produttivo – Spese correnti" ed euro 1.000.000,00 per la costituzione del fondo regionale di rotazione di cui all'
-							<rif xlink:href="#art9" xlink:type="simple">articolo 9</rif>
+							<rif xlink:href="#art9-t2" xlink:type="simple">articolo 9</rif>
 							cui si fa fronte con le risorse della UPB 514 "Interventi per lo sviluppo economico e produttivo - Spese di investimento" del bilancio di previsione 2008.
 						</corpo>
 					</comma>
