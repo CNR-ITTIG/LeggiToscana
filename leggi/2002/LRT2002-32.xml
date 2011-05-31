@@ -18,7 +18,8 @@
 					<urn finevigore="t27" iniziovigore="t26" valore="urn:nir:regione.toscana:legge:2002-07-26;32@2008-05-19" />
 					<urn finevigore="t28" iniziovigore="t27" valore="urn:nir:regione.toscana:legge:2002-07-26;32@2008-11-21" />
 					<urn finevigore="t29" iniziovigore="t28" valore="urn:nir:regione.toscana:legge:2002-07-26;32@2009-04-02" />
-					<urn iniziovigore="t29" valore="urn:nir:regione.toscana:legge:2002-07-26;32@2009-11-05" />
+					<urn finevigore="t30" iniziovigore="t29" valore="urn:nir:regione.toscana:legge:2002-07-26;32@2009-11-05" />
+					<urn iniziovigore="t30" valore="urn:nir:regione.toscana:legge:2002-07-26;32@2010-12-29" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sistema Educativo" />
 						<materia valore="Lavoro" />
@@ -56,6 +57,7 @@
 						<evento data="20081129" fonte="rp9" id="t27" tipo="modifica" />
 						<evento data="20090407" fonte="rp10" id="t28" tipo="modifica" />
 						<evento data="20091112" fonte="rp11" id="t29" tipo="modifica" />
+						<evento data="20110101" fonte="rp12" id="t30" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2002-07-26;32" xlink:type="simple" />
@@ -87,6 +89,7 @@
 						<passiva id="rp9" xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple" />
 						<passiva id="rp10" xlink:href="urn:nir:regione.toscana:legge:2009-04-02;16" xlink:type="simple" />
 						<passiva id="rp11" xlink:href="urn:nir:regione.toscana:legge:2009-11-05;63" xlink:type="simple" />
+						<passiva id="rp12" xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -427,7 +430,7 @@
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:integrazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art18" xlink:type="simple" />
+							<dsp:pos xlink:href="#art18-t30" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2005-02-01;20" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2005-02-01;20#art2-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -1045,6 +1048,21 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art29-com3-t29" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art18" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65#art118-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 118, comma 1 della legge Regione Toscana 29 dicembre 2010, n. 65" id="itt58" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art18" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art18-t30" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -2464,10 +2482,10 @@
 								</corpo>
 							</comma>
 						</articolo>
-						<articolo id="art18">
+						<articolo finevigore="t30" id="art18-t30" iniziovigore="t1" status="abrogato">
 							<num>ARTICOLO 18</num>
 							<rubrica>(Accertamento del reddito per l'accesso alle prestazioni)</rubrica>
-							<comma id="art18-com1">
+							<comma id="art18-t30-com1">
 								<num>1.</num>
 								<corpo>
 									L'accesso alle prestazioni per cui rilevano le condizioni economiche dei destinatari è subordinato all'accertamento del reddito effettuato secondo gli indicatori della situazione economica equivalente di cui al
@@ -2476,6 +2494,44 @@
 									<rif xlink:href="urn:nir:stato:legge:1997-12-27;449#art59-com51" xlink:type="simple">articolo 59, comma 51, della legge 27 dicembre 1997, n. 449</rif>
 									), e successive modifiche.
 								</corpo>
+							</comma>
+						</articolo>
+						<articolo id="art18" iniziovigore="t30">
+							<num>Art. 18</num>
+							<rubrica>Accertamento della situazione economica per l'accesso alle prestazioni</rubrica>
+							<comma id="art18-com1">
+								<num>1.</num>
+								<corpo>
+									L'accesso alle prestazioni per cui rilevano le condizioni economiche dei destinatari è subordinato all'accertamento della situazione economica effettuato secondo gli indicatori di cui al
+									<rif xlink:href="urn:nir:stato:decreto.legislativo:1998-03-31;109" xlink:type="simple">decreto legislativo 31 marzo 1998, n. 109</rif>
+									(Definizioni di criteri unificati di valutazione della situazione economica dei soggetti che richiedono prestazioni sociali agevolate, a norma dell'
+									<rif xlink:href="urn:nir:stato:legge:1997-12-27;449#art59-com51" xlink:type="simple">articolo 59, comma 51, della legge 27 dicembre 1997, n. 449</rif>
+									).
+								</corpo>
+							</comma>
+							<comma id="art18-com2">
+								<num>2.</num>
+								<alinea>Ulteriori criteri rispetto a quelli previsti dalla disciplina ISEE sono definiti con apposito atto di indirizzo, adottato con deliberazione del Consiglio regionale al fine di assicurare uniformità ed omogeneità agli interventi sul territorio regionale. L'atto di indirizzo tiene conto, in particolare, dei seguenti elementi:</alinea>
+								<el id="art18-com2-leta">
+									<num>a)</num>
+									<corpo>valutazione del reddito realmente disponibile del nucleo familiare;</corpo>
+								</el>
+								<el id="art18-com2-letb">
+									<num>b)</num>
+									<corpo>valutazione della situazione patrimoniale del nucleo familiare attraverso specifica ponderazione delle relative componenti;</corpo>
+								</el>
+								<el id="art18-com2-letc">
+									<num>c)</num>
+									<corpo>applicazione di riduzioni parametrate sulla base della composizione e delle caratteristiche del nucleo familiare.</corpo>
+								</el>
+							</comma>
+							<comma id="art18-com3">
+								<num>3.</num>
+								<corpo>L'Azienda regionale per il diritto allo studio universitario è tenuta all'applicazione dell'atto di indirizzo a decorrere dall'anno accademico successivo a quello di adozione dell'atto stesso.</corpo>
+							</comma>
+							<comma id="art18-com4">
+								<num>4.</num>
+								<corpo>Gli enti locali adeguano i regolamenti che disciplinano l'accesso alle prestazioni e definiscono le modalità di compartecipazione degli utenti ai costi nel rispetto dei criteri indicati ai commi 1 e 2. L'avvenuto adeguamento, nei termini definiti dall'atto di indirizzo, costituisce elemento di priorità nell'attribuzione di contributi finanziari regionali finalizzati al sostegno del sistema dei servizi per i quali è prevista compartecipazione dell'utenza.</corpo>
 							</comma>
 						</articolo>
 						<articolo id="art18bis" iniziovigore="t23">
