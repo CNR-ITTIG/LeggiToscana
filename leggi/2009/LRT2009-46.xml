@@ -8,16 +8,19 @@
 					<entratainvigore norm="20090813" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2009-08-05;46" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2009-08-05;46@2010-03-01" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2009-08-05;46@2010-03-01" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:2009-08-05;46@2010-12-30" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="20090813" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20100320" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="20110115" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2009-08-05;46" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2010-03-01;25" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2010-12-30;68" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -46,10 +49,40 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
+								<dsp:pos xlink:href="#h6" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-12-30;68" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-12-30;68#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 30 dicembre 2010, n. 68" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
 								<dsp:pos xlink:href="#h4" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-12-30;68" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-12-30;68#art1-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 2 della legge Regione Toscana 30 dicembre 2010, n. 68" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h8" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h7" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -153,7 +186,11 @@
 							<rif xlink:href="urn:nir:stato:legge:1993-12-24;560" xlink:type="simple">legge 24 dicembre 1993, n. 560</rif>
 							(Norme in materia di alienazione degli alloggi di edilizia residenziale pubblica), e previa ulteriore verifica dei requisiti di legge e delle condizioni. Tali procedure devono concludersi entro
 							<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">centottanta giorni dalla data di entrata in vigore della presente legge</h:span>
-							<h:span id="h2" iniziovigore="t2">il 31 dicembre 2010</h:span>
+							<h:span id="h2" iniziovigore="t2">
+								il
+								<h:span finevigore="t3" id="h3" iniziovigore="t2" status="abrogato">31 dicembre 2010</h:span>
+								<h:span id="h4" iniziovigore="t3">31 dicembre 2011</h:span>
+							</h:span>
 							.
 						</corpo>
 					</comma>
@@ -161,8 +198,12 @@
 						<num>3.</num>
 						<corpo>
 							Alla luce del principio di buona amministrazione, gli enti proprietari si impegnano, secondo criteri di imparzialità, trasparenza ed equità, a verificare che i gestori abbiano effettivamente dato una risposta in merito alla loro posizione a tutti gli assegnatari che abbiano presentato domanda o abbiano in corso l'istruttoria per l'acquisto dell'alloggio alla data del 27 maggio 2008. Tale risposta deve essere trasmessa all'assegnatario entro
-							<h:span finevigore="t2" id="h3" iniziovigore="t1" status="abrogato">centottanta giorni dalla data di entrata in vigore della presente legge</h:span>
-							<h:span id="h4" iniziovigore="t2">il 31 dicembre 2010</h:span>
+							<h:span finevigore="t2" id="h5" iniziovigore="t1" status="abrogato">centottanta giorni dalla data di entrata in vigore della presente legge</h:span>
+							<h:span id="h6" iniziovigore="t2">
+								il
+								<h:span finevigore="t3" id="h7" iniziovigore="t2" status="abrogato">31 dicembre 2010</h:span>
+								<h:span id="h8" iniziovigore="t3">31 dicembre 2011</h:span>
+							</h:span>
 							.
 						</corpo>
 					</comma>
