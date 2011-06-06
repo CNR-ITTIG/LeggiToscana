@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19971029" num="39" tipo="BURT" />
 					<entratainvigore norm="19971113" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:1997-10-21;76" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1997-10-21;76" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1997-10-21;76@2011-02-24" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Unione Europea" />
 						<materia valore="Regionalismo" />
@@ -17,11 +18,44 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="19971113" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20110317" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1997-10-21;76" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2011-02-24;8" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art3-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2011-02-24;8" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2011-02-24;8#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 24 febbraio 2011, n. 8" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art3-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art3-com2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2011-02-24;8" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2011-02-24;8#art2-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 2, comma 1 della legge Regione Toscana 24 febbraio 2011, n. 8" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -58,9 +92,13 @@
 						<num>1.</num>
 						<corpo>Il Consiglio regionale mette a disposizione gratuita della Federazione Regionale Toscana dell'AICCRE i locali, gli arredi e le attrezzature per la sede ed assume, a carico del proprio bilancio, le relative spese di illuminazione, di riscaldamento, telefoniche e postali.</corpo>
 					</comma>
-					<comma id="art3-com2">
+					<comma finevigore="t2" id="art3-com2-t2" iniziovigore="t1" status="abrogato">
 						<num>2.</num>
 						<corpo>Il Consiglio regionale può altresì disporre il distacco temporaneo, a tempo pieno o parziale, di personale del ruolo regionale ed autorizzarlo a prestare la sua collaborazione in favore di tale Federazione.</corpo>
+					</comma>
+					<comma id="art3-com2" iniziovigore="t2">
+						<num>2.</num>
+						<corpo>Il Consiglio regionale può sostenere l'attuazione del programma di attività dell'AICCRE mediante il distacco temporaneo, a tempo pieno e parziale, di personale del ruolo regionale, oppure, in alternativa, mediante la concessione di un contributo finanziario.</corpo>
 					</comma>
 					<comma id="art3-com3">
 						<num />
@@ -71,7 +109,11 @@
 					<num>ARTICOLO 4</num>
 					<comma id="art4-com1">
 						<num />
-						<corpo>L'Ufficio di Presidenza del Consiglio regionale provvede, con propria deliberazione, a quanto previsto al precedente articolo, stabilendo i limiti degli interventi in ordine al numero dei locali e alla tipologia degli arredi e delle attrezzature, all'importo massimo delle spese per il funzionamento della sede e ai dipendenti da distaccarsi.</corpo>
+						<corpo>
+							L'Ufficio di Presidenza del Consiglio regionale provvede, con propria deliberazione, a quanto previsto al precedente articolo, stabilendo i limiti degli interventi in ordine al numero dei locali e alla tipologia degli arredi e delle attrezzature, all'importo massimo delle spese per il funzionamento della sede e ai dipendenti da distaccarsi
+							<h:span id="h1" iniziovigore="t2">oppure all'importo del contributo finanziario per l'attuazione del programma di attività</h:span>
+							.
+						</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art5">
