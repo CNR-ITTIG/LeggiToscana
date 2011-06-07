@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t8" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2007-04-23;23" />
 					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:2007-04-23;23@2008-11-21" />
-					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:2007-04-23;23@2009-12-14" />
+					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:2007-04-23;23@2009-12-14" />
+					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:2007-04-23;23@2011-03-21" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -22,6 +23,7 @@
 						<evento data="20080101" fonte="ra6" id="t7" tipo="modifica" />
 						<evento data="20081129" fonte="rp1" id="t8" tipo="modifica" />
 						<evento data="20100102" fonte="rp2" id="t9" tipo="modifica" />
+						<evento data="20110324" fonte="rp3" id="t10" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2007-04-23;23" xlink:type="simple" />
@@ -33,6 +35,7 @@
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:2000-08-03;63" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2009-12-14;75" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -273,6 +276,30 @@
 								<dsp:pos xlink:href="#art16-com3-t9" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10#art10-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 10, comma 1 della legge Regione Toscana 21 marzo 2011, n. 10" id="itt12" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art9-com2bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10#art10-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 10, comma 1 della legge Regione Toscana 21 marzo 2011, n. 10" id="itt13" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art9-com2ter" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -576,6 +603,14 @@
 						<comma id="art9-com2">
 							<num>2.</num>
 							<corpo>Qualora il testo di un atto normativo promulgato o emanato dal Presidente della Giunta regionale presenti difformità rispetto al testo effettivamente approvato dal Consiglio regionale o dalla Giunta regionale, la redazione del BURT provvede alla correzione mediante la pubblicazione di un comunicato del Presidente della Giunta regionale, che indica la parte erronea del testo promulgato o emanato e quale parte di esso deve essere sostituita. Se necessario è ripubblicato l'intero testo.</corpo>
+						</comma>
+						<comma id="art9-com2bis" iniziovigore="t10">
+							<num>2 bis.</num>
+							<corpo>Qualora nel testo di un atto normativo approvato e pubblicato si riscontri un evidente ed in equivoco errore materiale, il dirigente dell'ufficio del BURT, d'intesa con il dirigente dell'ufficio legislativo del Consiglio regionale, può disporre la pubblicazione sul BURT di un avviso tecnico di errore materiale, in cui sono indicati la parte evidentemente erronea del testo ed il testo esatto. Nel caso in cui l'errore riguardi un atto approvato dalla Giunta regionale e pubblicato, il dirigente del BURT provvede d'intesa con il dirigente dell'ufficio legislativo della Giunta regionale o di propria iniziativa, se le due figure coincidono.</corpo>
+						</comma>
+						<comma id="art9-com2ter" iniziovigore="t10">
+							<num>2 ter.</num>
+							<corpo>L'avviso di cui al comma 2 bis, costituisce una mera segnalazione tecnica degli uffici, a supporto degli utenti, non ha valore legale e non determina la correzione del testo approvato, cui si provvede con successivo intervento normativo di manutenzione.</corpo>
 						</comma>
 						<comma id="art9-com3">
 							<num>3.</num>

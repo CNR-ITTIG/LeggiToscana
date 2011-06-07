@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t6" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2008-12-24;69" />
 					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2008-12-24;69@2009-03-27" />
-					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:2008-12-24;69@2009-07-31" />
+					<urn finevigore="t10" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:2008-12-24;69@2009-07-31" />
+					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:2008-12-24;69@2011-03-21" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -22,6 +23,7 @@
 						<evento data="20090806" fonte="rp2" id="t7" tipo="modifica" />
 						<evento data="20090101" fonte="ra5" id="t8" tipo="modifica" />
 						<evento data="20090806" fonte="ra6" id="t9" tipo="modifica" />
+						<evento data="20110324" fonte="rp3" id="t10" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2008-12-24;69" xlink:type="simple" />
@@ -33,6 +35,7 @@
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:2006-11-02;52" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2009-03-27;12" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2009-07-31;44" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -633,6 +636,21 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#con27-t7" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art19-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10#art20-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 20, comma 1 della legge Regione Toscana 21 marzo 2011, n. 10" id="itt40" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -1289,7 +1307,12 @@
 							</comma>
 							<comma id="art9-com2">
 								<num>2.</num>
-								<corpo>I comuni beneficiari sono tenuti al rimborso dell'anticipazione, senza alcun onere di interesse, nel termine massimo di ventiquattro mesi dalla data di erogazione del finanziamento regionale.</corpo>
+								<corpo>
+									I comuni beneficiari sono tenuti al rimborso dell'anticipazione, senza alcun onere di interesse, nel termine massimo di
+									<h:span finevigore="t10" id="h3" iniziovigore="t1" status="abrogato">ventiquattro mesi</h:span>
+									<h:span id="h4" iniziovigore="t10">sessanta mesi</h:span>
+									dalla data di erogazione del finanziamento regionale.
+								</corpo>
 							</comma>
 							<comma id="art9-com3">
 								<num>3.</num>

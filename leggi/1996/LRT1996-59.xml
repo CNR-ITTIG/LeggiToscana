@@ -16,7 +16,8 @@
 					<urn finevigore="t12" iniziovigore="t11" valore="urn:nir:regione.toscana:legge:1996-07-29;59@2005-12-27" />
 					<urn finevigore="t13" iniziovigore="t12" valore="urn:nir:regione.toscana:legge:1996-07-29;59@2006-12-22" />
 					<urn finevigore="t14" iniziovigore="t13" valore="urn:nir:regione.toscana:legge:1996-07-29;59@2008-10-24" />
-					<urn iniziovigore="t14" valore="urn:nir:regione.toscana:legge:1996-07-29;59@2010-12-29" />
+					<urn finevigore="t15" iniziovigore="t14" valore="urn:nir:regione.toscana:legge:1996-07-29;59@2010-12-29" />
+					<urn iniziovigore="t15" valore="urn:nir:regione.toscana:legge:1996-07-29;59@2011-03-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Programmazione" />
 						<materia valore="Organizzazioni Pubbliche" />
@@ -39,6 +40,7 @@
 						<evento data="20061230" fonte="rp8" id="t12" tipo="modifica" />
 						<evento data="20081115" fonte="rp9" id="t13" tipo="modifica" />
 						<evento data="20110101" fonte="rp10" id="t14" tipo="modifica" />
+						<evento data="20110324" fonte="rp11" id="t15" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1996-07-29;59" xlink:type="simple" />
@@ -55,6 +57,7 @@
 						<passiva id="rp8" xlink:href="urn:nir:regione.toscana:legge:2006-12-22;64" xlink:type="simple" />
 						<passiva id="rp9" xlink:href="urn:nir:regione.toscana:legge:2008-10-24;56" xlink:type="simple" />
 						<passiva id="rp10" xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65" xlink:type="simple" />
+						<passiva id="rp11" xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -587,7 +590,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art6" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65#art30-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -689,7 +692,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art11" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65#art35-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -701,7 +704,7 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art12" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65#art35-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -784,6 +787,18 @@
 								<dsp:pos xlink:href="#art19-com5-t14" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art19-com3" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10#art4-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 4, comma 1 della legge Regione Toscana 21 marzo 2011, n. 10" id="itt49" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art19-com3bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -1783,6 +1798,10 @@
 					<comma id="art19-com3" iniziovigore="t14">
 						<num>3.</num>
 						<corpo>Il bilancio preventivo economico è adottato dal direttore dell'Istituto entro il 31 ottobre dell'anno precedente all'esercizio di riferimento e approvato dalla Giunta regionale entro il 31 dicembre successivo, acquisito il parere del Consiglio regionale.</corpo>
+					</comma>
+					<comma id="art19-com3bis" iniziovigore="t15">
+						<num>3 bis.</num>
+						<corpo>Ai fini del comma 3, al bilancio preventivo economico sono allegati i programmi pluriennale ed annuale di attività.</corpo>
 					</comma>
 					<comma finevigore="t14" id="art19-com4-t14" iniziovigore="t1" status="abrogato">
 						<num>4.</num>

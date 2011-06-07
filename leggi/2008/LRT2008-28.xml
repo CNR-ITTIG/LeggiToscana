@@ -8,16 +8,19 @@
 					<entratainvigore norm="20080612" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2008-05-21;28" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2008-05-21;28@2009-07-23" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2008-05-21;28@2009-07-23" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:2008-05-21;28@2011-03-21" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="20080612" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20090813" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="20110324" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2008-05-21;28" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -56,6 +59,36 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art6-com3-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10#art19-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 19, comma 1 della legge Regione Toscana 21 marzo 2011, n. 10" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art6-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10#art19-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo19, comma1, legge Regione Toscana 21 marzo 2011, n. 10" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h5" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -235,7 +268,15 @@
 					</comma>
 					<comma id="art6-com4">
 						<num>4.</num>
-						<corpo>Il compenso annuale lordo, omnicomprensivo, spettante al presidente del Collegio sindacale ed ai membri del Collegio, non può essere superiore rispettivamente al 7 per cento e al 5 per cento della indennità spettante al Presidente della Giunta regionale.</corpo>
+						<corpo>
+							Il compenso annuale lordo, omnicomprensivo, spettante al presidente del Collegio sindacale ed ai membri del Collegio, non può essere superiore rispettivamente al
+							<h:span finevigore="t3" id="h2" iniziovigore="t1" status="abrogato">7</h:span>
+							<h:span id="h3" iniziovigore="t3">3</h:span>
+							per cento e al
+							<h:span finevigore="t3" id="h4" iniziovigore="t1" status="abrogato">5</h:span>
+							<h:span id="h5" iniziovigore="t3">2</h:span>
+							per cento della indennità spettante al Presidente della Giunta regionale.
+						</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art7">

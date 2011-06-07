@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t6" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2010-02-12;10" />
 					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2010-02-12;10@2010-02-12" />
-					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:2010-02-12;10@2010-12-30" />
+					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:2010-02-12;10@2010-12-30" />
+					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:2010-02-12;10@2011-03-21" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -20,6 +21,7 @@
 						<evento data="20100218" fonte="ra4" id="t5" tipo="modifica" />
 						<evento data="20100218" fonte="rp1" id="t6" tipo="modifica" />
 						<evento data="20110101" fonte="rp2" id="t7" tipo="modifica" />
+						<evento data="20110324" fonte="rp3" id="t8" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2010-02-12;10" xlink:type="simple" />
@@ -29,6 +31,7 @@
 						<attiva id="ra4" xlink:href="urn:nir:regione.toscana:legge:1998-11-03;79" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2010-02-12;11" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2010-12-30;69" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -769,6 +772,21 @@
 								<dsp:pos xlink:href="#art26-com4-t7" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art45-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10#art69-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 69, comma 1 della legge Regione Toscana 21 marzo 2011, n. 10" id="itt18" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h6" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -2827,7 +2845,11 @@
 									Sono di competenza regionale le procedure di cui al presente
 									<rif xlink:href="#tit3" xlink:type="simple">titolo III</rif>
 									relative ai progetti compresi negli allegati A1 e B1 alla presente legge e ai progetti di cui all'
-									<rif xlink:href="#art43-com1-letd" xlink:type="simple">articolo 43, comma 1, lettera d)</rif>
+									<rif xlink:href="#art43-com1-letd" xlink:type="simple">
+										articolo 43, comma 1,
+										<h:span finevigore="t8" id="h5" iniziovigore="t1" status="abrogato">lettera d)</h:span>
+										<h:span id="h6" iniziovigore="t8">lettera c)</h:span>
+									</rif>
 									, nonché la procedura per l'espressione del parere regionale nella procedura di VIA di competenza dello Stato. La pronuncia di compatibilità ambientale di cui all'
 									<rif xlink:href="#art57" xlink:type="simple">articolo 57</rif>
 									e il parere di cui all'

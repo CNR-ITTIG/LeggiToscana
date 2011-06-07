@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20060315" num="8" tipo="BURT" />
 					<entratainvigore norm="20060330" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2006-03-09;8" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2006-03-09;8" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2006-03-09;8@2011-03-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sport" />
 					</materie>
@@ -15,11 +16,68 @@
 				<ciclodivita>
 					<eventi>
 						<evento data="20060330" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20110324" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2006-03-09;8" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art13-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10#art40-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 40, comma 1 della legge Regione Toscana 21 marzo 2011, n. 10" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art14-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10#art41-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 41, comma 1 della legge Regione Toscana 21 marzo 2011, n. 10" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art19-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10#art42-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 42, comma 1 della legge Regione Toscana 21 marzo 2011, n. 10" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art19-com1" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art19-com1-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art19-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10#art42-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 42, comma 2 della legge Regione Toscana 21 marzo 2011, n. 10" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art19-com2-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -445,7 +503,9 @@
 						<comma id="art13-com1">
 							<num>1.</num>
 							<corpo>
-								Il titolare della piscina presenta la richiesta di autorizzazione all'esercizio dell'impianto al comune in cui ha sede l'impianto per le piscine pubbliche, le piscine private aperte al pubblico e gli impianti finalizzati al gioco acquatico di cui all'
+								Il titolare della piscina presenta
+								<h:span id="h1" iniziovigore="t2">tramite lo sportello unico attività produttive (SUAP)</h:span>
+								la richiesta di autorizzazione all'esercizio dell'impianto al comune in cui ha sede l'impianto per le piscine pubbliche, le piscine private aperte al pubblico e gli impianti finalizzati al gioco acquatico di cui all'
 								<mrif>
 									articolo 3, comma 1, lettera a), numeri
 									<rif xlink:href="#art3-com1-leta-num1" xlink:type="simple">1)</rif>
@@ -486,7 +546,9 @@
 							<corpo>
 								Per le piscine private ad uso collettivo di cui all'
 								<rif xlink:href="#art3-com1-leta-num2" xlink:type="simple">articolo 3, comma 1, lettera a), numero 2)</rif>
-								, il titolare presenta al comune ove ha sede l'impianto una dichiarazione di inizio di attività (DIA), corredata dai documenti che attestano il rispetto di quanto previsto dalla legge e dal regolamento regionale di cui all'
+								, il titolare presenta
+								<h:span id="h2" iniziovigore="t2">, tramite lo SUAP,</h:span>
+								al comune ove ha sede l'impianto una dichiarazione di inizio di attività (DIA), corredata dai documenti che attestano il rispetto di quanto previsto dalla legge e dal regolamento regionale di cui all'
 								<rif xlink:href="#art5" xlink:type="simple">articolo 5</rif>
 								, almeno trenta giorni prima dell'apertura dell'impianto.
 							</corpo>
@@ -713,7 +775,7 @@
 					<articolo id="art19">
 						<num>ARTICOLO 19</num>
 						<rubrica>(Norme transitorie e deroghe)</rubrica>
-						<comma id="art19-com1">
+						<comma finevigore="t2" id="art19-com1-t2" iniziovigore="t1" status="abrogato">
 							<num>1.</num>
 							<corpo>
 								Le piscine in esercizio alla data di entrata in vigore della presente legge sono adeguate alle disposizioni della presente legge e del regolamento regionale di cui all'
@@ -721,11 +783,19 @@
 								, entro il termine di un anno dalla data di entrata in vigore del regolamento regionale; qualora gli adeguamenti prevedano interventi di particolare complessità, il comune può concedere un ulteriore termine di un anno.
 							</corpo>
 						</comma>
-						<comma id="art19-com2">
+						<comma id="art19-com1" iniziovigore="t2">
+							<num>1.</num>
+							<corpo>
+								Le piscine in esercizio alla data di entrata in vigore del regolamento regionale di cui all'
+								<rif xlink:href="#art5" xlink:type="simple">articolo 5</rif>
+								, si adeguano alle disposizioni della presente legge e del regolamento regionale entro il termine di tre anni dalla data di entrata in vigore del regolamento stesso.
+							</corpo>
+						</comma>
+						<comma finevigore="t2" id="art19-com2-t2" iniziovigore="t1" status="abrogato">
 							<num>2.</num>
 							<corpo>
 								Le piscine in esercizio alla data di entrata in vigore della presente legge sono tenute a comunicare al comune, nei termini indicati al
-								<rif xlink:href="#art19-com1" xlink:type="simple">comma 1</rif>
+								<rif xlink:href="#art19-com1-t2" xlink:type="simple">comma 1</rif>
 								, l'avvenuto adeguamento alle disposizioni della presente legge e del regolamento regionale di cui all'
 								<rif xlink:href="#art5" xlink:type="simple">articolo 5</rif>
 								.

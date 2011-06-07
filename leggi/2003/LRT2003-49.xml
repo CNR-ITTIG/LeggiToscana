@@ -10,7 +10,8 @@
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2003-09-22;49" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2003-09-22;49@2003-12-19" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:2003-09-22;49@2004-11-15" />
-					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:2003-09-22;49@2006-12-22" />
+					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:2003-09-22;49@2006-12-22" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2003-09-22;49@2011-03-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tributi" />
 						<materia valore="Ente Regione" />
@@ -22,12 +23,14 @@
 						<evento data="20031230" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="20041209" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="20061230" fonte="rp3" id="t4" tipo="modifica" />
+						<evento data="20110324" fonte="rp4" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2003-09-22;49" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2003-12-19;58" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2004-11-15;62" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2006-12-22;64" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -81,6 +84,18 @@
 							</dsp:norma>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com4" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10#art9-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 9, comma 1 della legge Regione Toscana 21 marzo 2011, n. 10" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>
@@ -396,7 +411,11 @@
 							<num>4.</num>
 							<corpo>
 								L'esenzione può essere trasferita
-								<h:span finevigore="t4" id="h1" iniziovigore="t1" status="abrogato">, su istanza e senza l'obbligo di presentare nuovamente la documentazione sanitaria,</h:span>
+								<h:span finevigore="t4" id="h1" iniziovigore="t1" status="abrogato">
+									, su istanza e senza l'obbligo di presentare nuovamente la documentazione
+									<h:span finevigore="t5" id="h2" iniziovigore="t1" status="abrogato">sanitaria</h:span>
+									,
+								</h:span>
 								su altro veicolo di proprietà della persona disabile o del soggetto di cui il disabile risulti fiscalmente a carico.
 							</corpo>
 						</comma>

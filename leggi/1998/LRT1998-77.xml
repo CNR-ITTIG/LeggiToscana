@@ -10,7 +10,8 @@
 					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1998-11-03;77" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1998-11-03;77@2010-11-08" />
 					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1998-11-03;77@1999-12-22" />
-					<urn iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1998-11-03;77@2001-01-16" />
+					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:1998-11-03;77@2001-01-16" />
+					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:1998-11-03;77@2011-03-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Edilizia" />
 					</materie>
@@ -24,6 +25,7 @@
 						<evento data="19981231" fonte="rp1" id="t5" tipo="modifica" />
 						<evento data="19991231" fonte="rp2" id="t6" tipo="modifica" />
 						<evento data="20010124" fonte="rp3" id="t7" tipo="modifica" />
+						<evento data="20110324" fonte="rp4" id="t8" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-11-03;77" xlink:type="simple" />
@@ -33,6 +35,7 @@
 						<passiva id="rp1" xlink:href="urn:nir: :legge:2010-11-08;da assegnare" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1999-12-22;67" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2001-01-16;1" xlink:type="simple" />
+						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -76,7 +79,7 @@
 					</modificheattive>
 					<modifichepassive>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							<dsp:pos xlink:href="#art9-t8" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir: :legge:2010-11-08;da assegnare" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir: :legge:2010-11-08;da assegnare#artunico-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -91,7 +94,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:integrazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art9-com1" xlink:type="simple" />
+							<dsp:pos xlink:href="#art9-t8-com1" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir: :legge:2010-11-08;da assegnare" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir: :legge:2010-11-08;da assegnare#artunico-com2" xlink:type="simple" />
 								<dsp:subarg>
@@ -99,7 +102,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art9-com1bis-t7" xlink:type="simple" />
+								<dsp:pos xlink:href="#art9-t8-com1bis-t7" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -142,7 +145,7 @@
 							</dsp:novella>
 						</dsp:integrazione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art9-com1bis" xlink:type="simple" />
+							<dsp:pos xlink:href="#art9-t8-com1bis" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2001-01-16;1" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2001-01-16;1#art8-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -150,12 +153,36 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novella>
-								<dsp:pos xlink:href="#art9-com1bis" xlink:type="simple" />
+								<dsp:pos xlink:href="#art9-t8-com1bis" xlink:type="simple" />
 							</dsp:novella>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#art9-com1bis-t7" xlink:type="simple" />
+								<dsp:pos xlink:href="#art9-t8-com1bis-t7" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art7" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10#art38-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 38, comma 1 della legge Regione Toscana 21 marzo 2011, n. 10" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art7-t8" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10#art38-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 38, comma 1 della legge Regione Toscana 21 marzo 2011, n. 10" id="itt8" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art9-t8" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -454,10 +481,10 @@
 						<corpo>Il Consiglio regionale stabilisce i termini per la nomina, da parte dei Comuni, degli organi dell'azienda e i relativi poteri sostitutivi regionali in caso di inosservanza dei termini stessi.</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art7">
+				<articolo finevigore="t8" id="art7-t8" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 7</num>
 					<rubrica>(Norme sulle ATER)</rubrica>
-					<comma id="art7-com1">
+					<comma id="art7-t8-com1">
 						<num>1.</num>
 						<corpo>
 							Con deliberazione del Consiglio regionale, da adottare entro il termine di cui all'
@@ -465,11 +492,11 @@
 							, sono disciplinate le modalità di scioglimento delle ATER esistenti e di liquidazione delle relative attività e passività.
 						</corpo>
 					</comma>
-					<comma id="art7-com2">
+					<comma id="art7-t8-com2">
 						<num>2.</num>
 						<corpo>
 							La Giunta regionale, in esecuzione della deliberazione di cui al comma precedente, con provvedimento da adottare, sentite le rappresentanze sindacali del personale, entro trenta giorni dalla deliberazione di cui al
-							<rif xlink:href="#art7-com1" xlink:type="simple">comma 1</rif>
+							<rif xlink:href="#art7-t8-com1" xlink:type="simple">comma 1</rif>
 							, disciplina le modalità di assegnazione del personale in servizio presso le ATER ai soggetti individuati per l'esercizio delle funzioni. Il contratto di lavoro applicato dovrà essere riferito al CCNL degli addetti al settore. Il personale trasferito conserva la posizione giuridica ed economica in godimento all'atto del trasferimento, compresa l'anzianità già maturata.
 						</corpo>
 					</comma>
@@ -496,7 +523,7 @@
 						</corpo>
 					</comma>
 				</articolo>
-				<articolo id="art9">
+				<articolo finevigore="t8" id="art9-t8" iniziovigore="t1" status="abrogato">
 					<num>ARTICOLO 9</num>
 					<rubrica>
 						(
@@ -504,7 +531,7 @@
 						<h:span id="h2" iniziovigore="t5">Norme transitorie</h:span>
 						)
 					</rubrica>
-					<comma id="art9-com1">
+					<comma id="art9-t8-com1">
 						<num>1.</num>
 						<corpo>
 							L'attribuzione del patrimonio immobiliare delle ATER ai Comuni, secondo la disposizione di cui all'
@@ -516,11 +543,11 @@
 							.
 						</corpo>
 					</comma>
-					<comma finevigore="t7" id="art9-com1bis-t7" iniziovigore="t5" status="abrogato">
+					<comma finevigore="t7" id="art9-t8-com1bis-t7" iniziovigore="t5" status="abrogato">
 						<num>1bis)</num>
 						<corpo>
 							Gli amministratori straordinari e i collegi dei sindaci revisori delle ATER in carica alla data del 3 novembre 1998, sono prorogati nelle loro funzioni fino all'emanazione della deliberazione del Consiglio regionale prevista dall'
-							<rif xlink:href="#art7-com1" xlink:type="simple">art. 7, comma 1</rif>
+							<rif xlink:href="#art7-t8-com1" xlink:type="simple">art. 7, comma 1</rif>
 							. Con tale atto il Consiglio può regolare lo svolgimento delle attività correnti delle ATER, anche attraverso ulteriori proroghe a ciò necessarie, fino all'operatività dei nuovi soggetti di cui all'
 							<mrif>
 								art. 6, commi
@@ -531,11 +558,11 @@
 							.
 						</corpo>
 					</comma>
-					<comma id="art9-com1bis" iniziovigore="t7">
+					<comma id="art9-t8-com1bis" iniziovigore="t7">
 						<num>1 bis.</num>
 						<corpo>
 							Gli amministratori straordinari e i collegi dei sindaci revisori della ATER in carica alla data del 3 novembre 1998 sono prorogati nelle loro funzioni fino all'emanazione della deliberazione del Consiglio regionale prevista dall'
-							<rif xlink:href="#art7-com1" xlink:type="simple">art. 7, comma 1</rif>
+							<rif xlink:href="#art7-t8-com1" xlink:type="simple">art. 7, comma 1</rif>
 							; con tale atto il Consiglio può regolare lo svolgimento delle attività correnti delle ATER, anche attraverso ulteriori proroghe a ciò necessarie, fino all'operatività dei nuovi soggetti di cui all'
 							<rif xlink:href="#art6" xlink:type="simple">art. 6</rif>
 							, commi 1 e 3; fino a tale ultima scadenza, le funzioni degli amministratori straordinari e dei sindaci e ogni altra funzione concernente le ATER sono esercitate in conformità alla normativa previgente alle abrogazioni di cui all'

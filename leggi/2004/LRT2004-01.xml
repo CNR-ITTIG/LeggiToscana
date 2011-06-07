@@ -11,7 +11,8 @@
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2004-01-26;1@2007-06-04" />
 					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:2004-01-26;1@2007-12-27" />
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:2004-01-26;1@2009-04-02" />
-					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2004-01-26;1@2009-10-05" />
+					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2004-01-26;1@2009-10-05" />
+					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2004-01-26;1@2011-03-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Reti Telematiche" />
 						<materia valore="Informazione" />
@@ -24,6 +25,7 @@
 						<evento data="20080118" fonte="rp2" id="t3" tipo="modifica" />
 						<evento data="20090407" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="20091029" fonte="rp4" id="t5" tipo="modifica" />
+						<evento data="20110324" fonte="rp5" id="t6" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2004-01-26;1" xlink:type="simple" />
@@ -31,6 +33,7 @@
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2007-12-27;69" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2009-04-02;16" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2009-10-05;54" xlink:type="simple" />
+						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -398,6 +401,21 @@
 								<dsp:pos xlink:href="#art17-com2bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art19" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10#art70-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 70, comma 1 della legge Regione Toscana 21 marzo 2011, n. 10" id="itt29" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h10" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h9" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -1181,7 +1199,12 @@
 						<rubrica>Norma finanziaria</rubrica>
 						<comma id="art19-com1">
 							<num>1.</num>
-							<corpo>Agli oneri derivanti dall'applicazione della presente legge si provvede con imputazione alle Unità revisionali di base (UPB) "Innovazione tecnologica, organizzativa e sviluppo risorse umane per l'attuazione delle politiche regionali" n. 146 e n. 141 del bilancio di previsione 2004. Per i successivi esercizi si provvederà con le relative leggi di bilancio.</corpo>
+							<corpo>
+								Agli oneri derivanti dall'applicazione della presente legge si provvede con imputazione alle Unità
+								<h:span finevigore="t6" id="h9" iniziovigore="t1" status="abrogato">revisionali</h:span>
+								<h:span id="h10" iniziovigore="t6">previsionali</h:span>
+								di base (UPB) "Innovazione tecnologica, organizzativa e sviluppo risorse umane per l'attuazione delle politiche regionali" n. 146 e n. 141 del bilancio di previsione 2004. Per i successivi esercizi si provvederà con le relative leggi di bilancio.
+							</corpo>
 						</comma>
 					</articolo>
 				</capo>

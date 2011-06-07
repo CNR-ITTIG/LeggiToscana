@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20091021" num="40" tipo="BURT" />
 					<entratainvigore norm="20091105" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2009-10-15;57" />
+					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2009-10-15;57" />
+					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2009-10-15;57@2011-03-21" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="20091105" fonte="ro1" id="t1" tipo="entrata in vigore" />
+						<evento data="20110324" fonte="rp1" id="t2" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2009-10-15;57" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -22,6 +25,40 @@
 						<h:p>Riferimento da leggersi: "all'articolo 3", con avvisso di rettifica pubblicato su BURT 24 marzo 2010, n. 17.</h:p>
 					</nota>
 				</redazionale>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:2009-10-15;57" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10#art23-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 23, comma 1 della legge Regione Toscana 21 marzo 2011, n. 10" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10#art24-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 24, comma 1 della legge Regione Toscana 21 marzo 2011, n. 10" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h4" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h3" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
@@ -29,7 +66,12 @@
 				<dataDoc norm="20091015">15 ottobre 2009</dataDoc>
 				, n.
 				<numDoc>57</numDoc>
-				<titoloDoc>Trasferimento del patrimonio regionale al patrimonio comunale dei Comuni di Chiusi, Pescia, Radda in Chianti e Pisa di beni immobili.</titoloDoc>
+				<titoloDoc>
+					Trasferimento
+					<h:span finevigore="t2" id="h1" iniziovigore="t1" status="abrogato">del</h:span>
+					<h:span id="h2" iniziovigore="t2">dal</h:span>
+					patrimonio regionale al patrimonio comunale dei Comuni di Chiusi, Pescia, Radda in Chianti e Pisa di beni immobili.
+				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
 				<h:p>Il Consiglio regionale ha approvato</h:p>
@@ -173,8 +215,13 @@
 						<num>1.</num>
 						<corpo>
 							Ai fini della concessione dei contributi di cui all'
-							<rif xlink:href="#art3" xlink:type="simple">articolo 4</rif>
+							<h:span finevigore="t2" id="h3" iniziovigore="t1" status="abrogato">
+								<rif xlink:href="#art4" xlink:type="simple">articolo 4</rif>
+							</h:span>
 							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
+							<h:span id="h4" iniziovigore="t2">
+								<rif xlink:href="#art3" xlink:type="simple">articolo 3</rif>
+							</h:span>
 							, è autorizzata la spesa complessiva di euro 4.000.000,00, cui si fa fronte con le risorse di cui all'
 							<rif xlink:href="urn:nir:regione.toscana:legge:2005-12-27;70#art28-com1" xlink:type="simple">articolo 28, comma 1, della legge regionale 27 dicembre 2005, n. 70</rif>
 							(Legge finanziaria per l´anno 2006), stanziate sull'unità previsionale di base (UPB) 522 "Interventi per lo sviluppo rurale, aiuti al reddito, agli investimenti e allo sviluppo delle imprese agricole, zootecniche e forestali - Spese di investimento" del bilancio di previsione 2009.

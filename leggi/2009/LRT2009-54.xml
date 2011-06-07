@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20091014" num="38" tipo="BURT" />
 					<entratainvigore norm="20091029" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2009-10-05;54" />
+					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2009-10-05;54" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2009-10-05;54@2011-03-21" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -15,12 +16,14 @@
 						<evento data="20091029" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="20091029" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="20091029" fonte="ra3" id="t4" tipo="modifica" />
+						<evento data="20110324" fonte="rp1" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2009-10-05;54" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:2004;1" xlink:type="simple" />
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1992-09-02;43" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:2004;1" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -135,6 +138,23 @@
 							</dsp:novella>
 						</dsp:integrazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art20-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10#art78-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 78, comma 1 della legge Regione Toscana 21 marzo 2011, n. 10" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art20-com2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art20-com2-t5" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -975,13 +995,17 @@
 								relativa al riutilizzo di documenti nel settore pubblico), fatta salva la normativa regionale in materia di accesso agli atti.
 							</corpo>
 						</comma>
-						<comma id="art20-com2">
+						<comma finevigore="t5" id="art20-com2-t5" iniziovigore="t1" status="abrogato">
 							<num>2.</num>
 							<corpo>
 								La Giunta regionale e il Consiglio regionale dispongono, con deliberazione, le modalità di accesso ai documenti di cui al
 								<rif xlink:href="#art20-com1" xlink:type="simple">comma 1</rif>
 								.
 							</corpo>
+						</comma>
+						<comma id="art20-com2" iniziovigore="t5">
+							<num>2.</num>
+							<corpo>La Giunta regionale e l'Ufficio di presidenza del Consiglio regionale dispongono, con rispettiva deliberazione, le modalità di accesso ai documenti di cui al comma 1.</corpo>
 						</comma>
 					</articolo>
 					<articolo id="art21">

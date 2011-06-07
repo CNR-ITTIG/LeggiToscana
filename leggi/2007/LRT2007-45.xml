@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t9" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2007-07-27;45" />
 					<urn finevigore="t10" iniziovigore="t9" valore="urn:nir:regione.toscana:legge:2007-07-27;45@2008-11-21" />
-					<urn iniziovigore="t10" valore="urn:nir:regione.toscana:legge:2007-07-27;45@2009-07-23" />
+					<urn finevigore="t11" iniziovigore="t10" valore="urn:nir:regione.toscana:legge:2007-07-27;45@2009-07-23" />
+					<urn iniziovigore="t11" valore="urn:nir:regione.toscana:legge:2007-07-27;45@2011-03-21" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -23,6 +24,7 @@
 						<evento data="20070821" fonte="ra7" id="t8" tipo="modifica" />
 						<evento data="20081129" fonte="rp1" id="t9" tipo="modifica" />
 						<evento data="20090813" fonte="rp2" id="t10" tipo="modifica" />
+						<evento data="20110324" fonte="rp3" id="t11" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2007-07-27;45" xlink:type="simple" />
@@ -35,6 +37,7 @@
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:1989-01-23;10" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2008-11-21;62" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2009-07-23;40" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -244,6 +247,21 @@
 								<dsp:pos xlink:href="#art11-com3bis" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art17" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10#art36-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 36, comma 1 della legge Regione Toscana 21 marzo 2011, n. 10" id="itt7" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h2" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -856,7 +874,11 @@
 						<num>Art. 17</num>
 						<rubrica>
 							Modifiche all'
-							<rif xlink:href="urn:nir:regione.toscana:legge:1989;10#art2" xlink:type="simple">articolo 2 della l.r. 19/1989</rif>
+							<rif xlink:href="urn:nir:regione.toscana:legge:1989;10#art2" xlink:type="simple">
+								articolo 2 della
+								<h:span finevigore="t11" id="h1" iniziovigore="t1" status="abrogato">l.r. 19/1989</h:span>
+								<h:span id="h2" iniziovigore="t11">l.r. 10/1989</h:span>
+							</rif>
 							<ndr num="#n1" valore="" xlink:type="simple">(a)</ndr>
 						</rubrica>
 						<comma id="art17-com1">

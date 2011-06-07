@@ -21,7 +21,8 @@
 					<urn finevigore="t25" iniziovigore="t24" valore="urn:nir:regione.toscana:legge:1998-12-01;88@2006-11-28" />
 					<urn finevigore="t26" iniziovigore="t25" valore="urn:nir:regione.toscana:legge:1998-12-01;88@2008-02-21" />
 					<urn finevigore="t27" iniziovigore="t26" valore="urn:nir:regione.toscana:legge:1998-12-01;88@2009-11-09" />
-					<urn iniziovigore="t27" valore="urn:nir:regione.toscana:legge:1998-12-01;88@2010-12-29" />
+					<urn finevigore="t28" iniziovigore="t27" valore="urn:nir:regione.toscana:legge:1998-12-01;88@2010-12-29" />
+					<urn iniziovigore="t28" valore="urn:nir:regione.toscana:legge:1998-12-01;88@2011-03-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Urbanistica" />
 						<materia valore="Tutela Ambientale" />
@@ -57,6 +58,7 @@
 						<evento data="20080313" fonte="rp12" id="t25" tipo="modifica" />
 						<evento data="20091128" fonte="rp13" id="t26" tipo="modifica" />
 						<evento data="20110101" fonte="rp14" id="t27" tipo="modifica" />
+						<evento data="20110324" fonte="rp15" id="t28" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-12-01;88" xlink:type="simple" />
@@ -86,6 +88,7 @@
 						<passiva id="rp12" xlink:href="urn:nir:regione.toscana:legge:2008-02-21;11" xlink:type="simple" />
 						<passiva id="rp13" xlink:href="urn:nir:regione.toscana:legge:2009-11-09;66" xlink:type="simple" />
 						<passiva id="rp14" xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65" xlink:type="simple" />
+						<passiva id="rp15" xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -960,6 +963,18 @@
 							</dsp:norma>
 							<dsp:novella>
 								<dsp:pos xlink:href="#art27quater" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art25-com1-letb" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10#art53-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 53, comma 1 della legge Regione Toscana 21 marzo 2011, n. 10" id="itt49" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h8" xlink:type="simple" />
 							</dsp:novella>
 						</dsp:integrazione>
 					</modifichepassive>
@@ -2167,7 +2182,14 @@
 							</el>
 							<el id="art25-com1-letb">
 								<num>b)</num>
-								<corpo>la valutazione dell'idoneità tecnica dei progetti relativi alle opere realizzate nei porti di interesse regionale ivi compresi i progetti relativi alle opere di grande infrastrutturazione portuale.</corpo>
+								<corpo>
+									la valutazione dell'idoneità tecnica dei progetti relativi alle opere realizzate nei porti di interesse regionale ivi compresi i progetti relativi alle opere di grande infrastrutturazione portuale.
+									<h:span id="h8" iniziovigore="t28">
+										Si applica in ogni caso la disposizione di cui all'
+										<rif xlink:href="urn:nir:regione.toscana:legge:2005;1#art47quater-com1bis" xlink:type="simple">articolo 47 quater, comma 1 bis, della l.r. 1/2005</rif>
+										.
+									</h:span>
+								</corpo>
 							</el>
 						</comma>
 						<comma id="art25-com2">

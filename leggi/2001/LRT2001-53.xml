@@ -8,7 +8,8 @@
 					<entratainvigore norm="20011122" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t20" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2001-10-31;53" />
-					<urn iniziovigore="t20" valore="urn:nir:regione.toscana:legge:2001-10-31;53@2008-04-28" />
+					<urn finevigore="t21" iniziovigore="t20" valore="urn:nir:regione.toscana:legge:2001-10-31;53@2008-04-28" />
+					<urn iniziovigore="t21" valore="urn:nir:regione.toscana:legge:2001-10-31;53@2011-03-21" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Attività Istituzionali" />
 					</materie>
@@ -35,6 +36,7 @@
 						<evento data="20011122" fonte="ra17" id="t18" tipo="modifica" />
 						<evento data="20011122" fonte="ra18" id="t19" tipo="modifica" />
 						<evento data="20080522" fonte="rp1" id="t20" tipo="modifica" />
+						<evento data="20110324" fonte="rp2" id="t21" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2001-10-31;53" xlink:type="simple" />
@@ -57,6 +59,7 @@
 						<attiva id="ra17" xlink:href="urn:nir:regione.toscana:legge:1994-03-16;24" xlink:type="simple" />
 						<attiva id="ra18" xlink:href="urn:nir:regione.toscana:legge:1994-03-16;24" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2008-04-28;19" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -412,7 +415,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art13-com3" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2008-04-28;19" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2008-04-28;19#art5-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -438,6 +441,18 @@
 								<dsp:pos xlink:href="#h4" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art17-com3-letd" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10#art8-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 8, comma 1 della legge Regione Toscana 21 marzo 2011, n. 10" id="itt10" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h6" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -1323,7 +1338,9 @@
 							<num>d)</num>
 							<corpo>
 								<mod id="mod7">
-									al comma dell'
+									al comma
+									<h:span id="h6" iniziovigore="t21">2</h:span>
+									dell'
 									<rif xlink:href="urn:nir:regione.toscana:legge:1998-12-01;88#art6" xlink:type="simple">articolo 6, della legge regionale 1 dicembre 1998, n. 88</rif>
 									(Attribuzione agli enti locali e disciplina generale delle funzioni amministrative e dei compiti in materia di urbanistica e pianificazione territoriale, protezione della natura e dell'ambiente, tutela dell'ambiente dagli inquinamenti e gestione dei rifiuti, risorse idriche e difesa del suolo, energia e risorse geotermiche, opere pubbliche, viabilità e trasporti, conferite alla Regione dal
 									<rif xlink:href="urn:nir:stato:decreto.legislativo:1998-03-31;112" xlink:type="simple">decreto legislativo 31 marzo 1998, n. 112</rif>

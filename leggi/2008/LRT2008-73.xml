@@ -8,16 +8,19 @@
 					<entratainvigore norm="20081231" />
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2008-12-30;73" />
-					<urn iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2008-12-30;73@2010-12-29" />
+					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:2008-12-30;73@2010-12-29" />
+					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:2008-12-30;73@2011-03-21" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
 						<evento data="20081231" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="20110101" fonte="rp1" id="t2" tipo="modifica" />
+						<evento data="20110324" fonte="rp2" id="t3" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2008-12-30;73" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -35,6 +38,21 @@
 							</dsp:novella>
 							<dsp:novellando>
 								<dsp:pos xlink:href="#art9-t2" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:sostituzione>
+						<dsp:sostituzione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art9-com6" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10#art37-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 37, comma 1 della legge Regione Toscana 21 marzo 2011, n. 10" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art9-com6" xlink:type="simple" />
+							</dsp:novella>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art9-com6-t3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
 					</modifichepassive>
@@ -472,13 +490,17 @@
 							(Testo unico della normativa della Regione Toscana in materia di educazione, istruzione, orientamento, formazione professionale e lavoro), definiscono il supporto regionale alle iniziative di formazione e aggiornamento per i professionisti.
 						</corpo>
 					</comma>
-					<comma id="art9-com6">
+					<comma finevigore="t3" id="art9-com6-t3" iniziovigore="t1" status="abrogato">
 						<num>6.</num>
 						<corpo>
 							La Giunta regionale entro sessanta giorni dall'entrata in vigore della
 							<rif xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65" xlink:type="simple">legge regionale 29 dicembre 2010, n.65</rif>
 							(Legge finanziaria per l'anno 2011) realizza gli adeguamenti alle modalità di funzionamento del Fondo nel rispetto della normativa europea sui limiti degli aiuti di importanza minore "de minimis".
 						</corpo>
+					</comma>
+					<comma id="art9-com6" iniziovigore="t3">
+						<num>6.</num>
+						<corpo>Con regolamento di attuazione sono definiti, nel rispetto della normativa europea sui limiti degli aiuti di importanza minore "de minimis", le modalità di funzionamento del fondo.</corpo>
 					</comma>
 				</articolo>
 				<articolo id="art10">
