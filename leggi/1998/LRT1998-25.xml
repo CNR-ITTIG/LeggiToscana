@@ -27,7 +27,8 @@
 					<urn finevigore="t37" iniziovigore="t36" valore="urn:nir:regione.toscana:legge:1998-05-18;25@2009-12-29" />
 					<urn finevigore="t38" iniziovigore="t37" valore="urn:nir:regione.toscana:legge:1998-05-18;25@2010-03-03" />
 					<urn finevigore="t39" iniziovigore="t38" valore="urn:nir:regione.toscana:legge:1998-05-18;25@2010-12-29" />
-					<urn iniziovigore="t39" valore="urn:nir:regione.toscana:legge:1998-05-18;25@2011-03-21" />
+					<urn finevigore="t40" iniziovigore="t39" valore="urn:nir:regione.toscana:legge:1998-05-18;25@2011-03-21" />
+					<urn iniziovigore="t40" valore="urn:nir:regione.toscana:legge:1998-05-18;25@2011-04-01" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Tutela Ambientale" />
 						<materia valore="Rifiuti" />
@@ -74,6 +75,7 @@
 						<evento data="20100324" fonte="rp21" id="t37" tipo="modifica" />
 						<evento data="20110101" fonte="rp22" id="t38" tipo="modifica" />
 						<evento data="20110324" fonte="rp23" id="t39" tipo="modifica" />
+						<evento data="20110401" fonte="rp24" id="t40" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1998-05-18;25" xlink:type="simple" />
@@ -115,6 +117,7 @@
 						<passiva id="rp21" xlink:href="urn:nir:regione.toscana:legge:2010-03-03;28" xlink:type="simple" />
 						<passiva id="rp22" xlink:href="urn:nir:regione.toscana:legge:2010-12-29;65" xlink:type="simple" />
 						<passiva id="rp23" xlink:href="urn:nir:regione.toscana:legge:2011-03-21;10" xlink:type="simple" />
+						<passiva id="rp24" xlink:href="urn:nir:regione.toscana:legge:2011-04-01;12" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -1699,7 +1702,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art23-com1" xlink:type="simple" />
+							<dsp:pos xlink:href="#art23-com1-t40" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2007-11-22;61" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2007-11-22;61#art16-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -2493,6 +2496,30 @@
 								<dsp:pos xlink:href="#h28" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art23-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2011-04-01;12" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2011-04-01;12#art12-com1-letb" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 12, comma 1, lettera b) della legge Regione Toscana 1 aprile 2011, n. 12" id="itt158" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art23-com1-t40" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art23-com7" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2011-04-01;12" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2011-04-01;12#art12-com1-letb" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 12, comma 1, lettera b) della legge Regione Toscana 1 aprile 2011, n. 12" id="itt159" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art23-com7-t40" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -5034,7 +5061,7 @@
 					<articolo id="art23">
 						<num>ARTICOLO 23</num>
 						<rubrica>(Comunità d'Ambito)</rubrica>
-						<comma id="art23-com1">
+						<comma finevigore="t40" id="art23-com1-t40" iniziovigore="t1" status="abrogato">
 							<num>1.</num>
 							<corpo>
 								Per superare la frammentazione delle gestioni, per conseguire economicità gestionale e per garantire che la gestione risponda a criteri di efficienza ed efficacia,
@@ -5048,7 +5075,7 @@
 							<corpo>
 								<h:span finevigore="t30" id="h44" iniziovigore="t1" status="abrogato">La Comunità di Ambito si costituisce entro sei mesi dall'entrata in vigore della presente legge, ai sensi dei commi seguenti.</h:span>
 								La Comunità di Ambito opera per il raggiungimento degli obiettivi di cui al
-								<rif xlink:href="#art23-com1" xlink:type="simple">comma 1</rif>
+								<rif xlink:href="#art23-com1-t40" xlink:type="simple">comma 1</rif>
 								e consegue, ai sensi dell'
 								<rif xlink:href="urn:nir:stato:decreto.legislativo:1997-02-05;22#art5-com3-leta" xlink:type="simple">art. 5, comma 3, lettera a) del Decreto</rif>
 								, l'autosufficienza per la gestione dei rifiuti urbani non pericolosi all'interno del territorio di riferimento.
@@ -5102,18 +5129,18 @@
 							<num>6.</num>
 							<corpo>Se la forma scelta è la convenzione, la provincia, o le province d'intesa in caso di ATO compreso nel territorio di più province, individuano il comune responsabile del coordinamento, il quale convoca la conferenza dei servizi per la stipula della convenzione, da adottarsi nel rispetto dello schema-tipo, completo del contratto di servizio-tipo con allegata carta dei servizi, approvato dal Consiglio Regionale entro trenta giorni dall'entrata in vigore della presente legge. La provincia provvede in via sostitutiva nel caso di inadempimento nel termine di centocinquanta giorni dall'entrata in vigore della presente legge.</corpo>
 						</comma>
-						<comma id="art23-com7">
+						<comma finevigore="t40" id="art23-com7-t40" iniziovigore="t1" status="abrogato">
 							<num>7.</num>
 							<alinea>Il peso dei Comuni all'interno della Comunità di Ambito è determinato dallo Statuto o dalla Convenzione in base ai seguenti fattori fondamentali riferiti ai rispettivi territori comunali:</alinea>
-							<el id="art23-com7-leta">
+							<el id="art23-com7-t40-leta">
 								<num>a)</num>
 								<corpo>quantità di rifiuti prodotti;</corpo>
 							</el>
-							<el id="art23-com7-letb">
+							<el id="art23-com7-t40-letb">
 								<num>b)</num>
 								<corpo>quantità di rifiuti raccolti in maniera differenziata e avviati al recupero;</corpo>
 							</el>
-							<el id="art23-com7-letc">
+							<el id="art23-com7-t40-letc">
 								<num>c)</num>
 								<corpo>quantità di rifiuti smaltiti sul territorio comunale.</corpo>
 							</el>
