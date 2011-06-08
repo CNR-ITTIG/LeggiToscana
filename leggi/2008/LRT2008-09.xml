@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20080227" num="6" tipo="BURT" />
 					<entratainvigore norm="20080313" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2008-02-20;9" />
+					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2008-02-20;9" />
+					<urn iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2008-02-20;9@2011-05-11" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -15,12 +16,14 @@
 						<evento data="20081114" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="20081114" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="20081114" fonte="ra3" id="t4" tipo="modifica" />
+						<evento data="20110604" fonte="rp1" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2008-02-20;9" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:2000-01-12;1" xlink:type="simple" />
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:2000-10-25;74" xlink:type="simple" />
 						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:2006-02-16;4" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2011-05-11;19" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -62,6 +65,20 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com1" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2011-05-11;19" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2011-05-11;19#art10-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 10, comma 1 della legge Regione Toscana 11 maggio 2011, n. 19" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -285,6 +302,7 @@
 							Il piano di indirizzo per la tutela e la difesa dei consumatori e degli utenti è lo strumento che, su propo sta della Giunta regionale, previo parere del Comitato, approva gli indirizzi per definire le priorità di intervento e i criteri per la scelta delle iniziative da realizzare annualmente, nonché i criteri per l'assegnazione dei contributi da riservare alle associazioni dei consumatori e utenti, al fine di perseguire gli obiettivi di cui all'
 							<rif xlink:href="#art1" xlink:type="simple">articolo 1</rif>
 							.
+							<h:span id="h1" iniziovigore="t5">Il piano definisce inoltre per l'ambito della difesa e tutela dei consumatori l'attuazione della strategia regionale coordinata e continuativa in materia di sicurezza stradale.</h:span>
 						</corpo>
 					</comma>
 					<comma id="art5-com2">

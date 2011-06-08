@@ -11,7 +11,8 @@
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:2002-06-25;22@2007-12-27" />
 					<urn finevigore="t7" iniziovigore="t6" valore="urn:nir:regione.toscana:legge:2002-06-25;22@2009-01-08" />
 					<urn finevigore="t8" iniziovigore="t7" valore="urn:nir:regione.toscana:legge:2002-06-25;22@2009-04-02" />
-					<urn iniziovigore="t8" valore="urn:nir:regione.toscana:legge:2002-06-25;22@2010-12-29" />
+					<urn finevigore="t9" iniziovigore="t8" valore="urn:nir:regione.toscana:legge:2002-06-25;22@2010-12-29" />
+					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:2002-06-25;22@2011-05-11" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Informazione" />
 					</materie>
@@ -26,6 +27,7 @@
 						<evento data="20090117" fonte="rp2" id="t6" tipo="modifica" />
 						<evento data="20090407" fonte="rp3" id="t7" tipo="modifica" />
 						<evento data="20110101" fonte="rp4" id="t8" tipo="modifica" />
+						<evento data="20110604" fonte="rp5" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2002-06-25;22" xlink:type="simple" />
@@ -36,6 +38,7 @@
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2009-01-08;1" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:2009-04-02;16" xlink:type="simple" />
 						<passiva id="rp4" xlink:href="urn:nir:regione.toscana:legge:2010-12-29;64" xlink:type="simple" />
+						<passiva id="rp5" xlink:href="urn:nir:regione.toscana:legge:2011-05-11;19" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<redazionale xlink:type="simple">
@@ -149,6 +152,30 @@
 								<dsp:testo valore="" />
 							</dsp:dominio>
 						</dsp:variazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art4-com2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2011-05-11;19" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2011-05-11;19#art9-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 9, comma 1 della legge Regione Toscana 11 maggio 2011, n. 19" id="itt4" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art4-com2bis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art5-com1-lete" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2011-05-11;19" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2011-05-11;19#art9-com2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 9, comma 2 della legge Regione Toscana 11 maggio 2011, n. 19" id="itt5" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art5-com1-letebis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -281,6 +308,10 @@
 								<num>2.</num>
 								<corpo>La Giunta regionale ed il Consiglio regionale collaborano, attraverso le competenti strutture, nell'elaborazione dei rispettivi programmi annuali, al fine di conseguire efficaci sinergie ed un utile impiego delle risorse e di offrire un riferimento per iniziative integrate con gli enti locali.</corpo>
 							</comma>
+							<comma id="art4-com2bis" iniziovigore="t9">
+								<num>2 bis.</num>
+								<corpo>I programmi di cui al presente articolo individuano adeguate forme di informazione e comunicazione ai cittadini circa l'attività svolta dalla Regione in favore della sicurezza stradale.</corpo>
+							</comma>
 						</articolo>
 						<articolo id="art5">
 							<num>Articolo 5</num>
@@ -327,6 +358,10 @@
 										<rif xlink:href="#art37" xlink:type="simple">articolo 37</rif>
 										.
 									</corpo>
+								</el>
+								<el id="art5-com1-letebis" iniziovigore="t9">
+									<num>e bis)</num>
+									<corpo>gli interventi dedicati a realizzare campagne informative e di comunicazione atte a diffondere comportamenti virtuosi negli utenti delle infrastrutture e dei mezzi di trasporto e mobilità in Toscana in materia di sicurezza stradale.</corpo>
 								</el>
 							</comma>
 						</articolo>
