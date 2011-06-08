@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
-	<NIR tipo="originale" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<LeggeRegionale>
 			<meta>
 				<descrittori>
 					<pubblicazione norm="20101231" num="54" tipo="BURT" />
 					<entratainvigore norm="20110101" />
 					<redazione id="red1" nome="" norm="" />
-					<urn valore="urn:nir:regione.toscana:legge:2010-12-29;64" />
+					<urn finevigore="t9" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:2010-12-29;64" />
+					<urn iniziovigore="t9" valore="urn:nir:regione.toscana:legge:2010-12-29;64@2011-05-03" />
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -19,6 +20,8 @@
 						<evento data="20110101" fonte="ra5" id="t6" tipo="modifica" />
 						<evento data="20110101" fonte="ra6" id="t7" tipo="modifica" />
 						<evento data="20110101" fonte="ra7" id="t8" tipo="modifica" />
+						<evento data="20110526" fonte="rp1" id="t9" tipo="modifica" />
+						<evento data="20110526" fonte="rp2" id="t10" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:2010-12-29;64" xlink:type="simple" />
@@ -29,6 +32,8 @@
 						<attiva id="ra5" xlink:href="urn:nir:regione.toscana:legge:2009;3" xlink:type="simple" />
 						<attiva id="ra6" xlink:href="urn:nir:regione.toscana:legge:2009;3" xlink:type="simple" />
 						<attiva id="ra7" xlink:href="urn:nir:regione.toscana:legge:2002;22" xlink:type="simple" />
+						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2011-05-03;17" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:2011-05-03;17" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
 				<disposizioni xlink:type="simple">
@@ -135,6 +140,53 @@
 							</dsp:dominio>
 						</dsp:variazione>
 					</modificheattive>
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art2" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2011-05-03;17" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2011-05-03;17#art1-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 1, comma 1 della legge Regione Toscana 3 maggio 2011, n. 17" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#art2-t9" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:termine da="#t10" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2011-05-03;17" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2011-05-03;17#mod2" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:variazione>
+						<dsp:integrazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#art1-com1-letf" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2011-05-03;17" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2011-05-03;17#art3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 3, comma 1 della legge Regione Toscana 3 maggio 2011, n. 17" id="itt2" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novella>
+								<dsp:pos xlink:href="#art1-com1-letfbis" xlink:type="simple" />
+							</dsp:novella>
+						</dsp:integrazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#??" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2011-05-03;17" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2011-05-03;17#art2" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo2, legge Regione Toscana 3 maggio 2011, n. 17" id="itt3" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#h1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
 				</disposizioni>
 			</meta>
 			<intestazione>
@@ -264,7 +316,7 @@
 							<rif xlink:href="urn:nir:regione.toscana:legge:2007;20" xlink:type="simple">l.r. 20/2007</rif>
 							, in quanto ai suoi componenti spetta già unicamente il rimborso delle spese nella misura prevista per i dirigenti regionali;
 						</h:li>
-						<h:li>
+						<h:li> <h:span finevigore="t10" id="h1" iniziovigore="t1" status="abrogato">
 							Per il presidente ed i componenti del Consiglio della autonomie locali, che per previsione della
 							<rif xlink:href="urn:nir:regione.toscana:legge:2000;36" xlink:type="simple">l.r. 36/2000</rif>
 							sono necessariamente amministratori di enti locali, trova applicazione la disposizione di cui all'
@@ -273,7 +325,7 @@
 							<rif xlink:href="urn:nir:stato:decreto.legge:2010;78#art5-com8-letb" xlink:type="simple">articolo 5, comma 8, lettera b), del d.l. 78/2010</rif>
 							, convertito dalla
 							<rif xlink:href="urn:nir:stato:legge:2010;122" xlink:type="simple">l. 122/2010</rif>
-							, che esclude ogni compenso agli amministratori locali per la partecipazione ad organi o commissioni comunque denominate, se tale partecipazione è connessa all'esercizio delle proprie funzioni pubbliche;
+							, che esclude ogni compenso agli amministratori locali per la partecipazione ad organi o commissioni comunque denominate, se tale partecipazione è connessa all'esercizio delle proprie funzioni pubbliche;</h:span>
 						</h:li>
 						<h:li>
 							In coerenza con i principi della citato
@@ -346,6 +398,13 @@
 									(Istituzione del Garante per l'infanzia e l'adolescenza).
 								</corpo>
 							</el>
+							<el id="art1-com1-letfbis" iniziovigore="t10">
+								<num>f bis)</num>
+								<corpo>
+									<rif xlink:href="urn:nir:regione.toscana:legge:2000-03-21;36#art17" xlink:type="simple">articolo 17 della legge regionale 21 marzo 2000, n. 36</rif>
+									(Nuova disciplina del Consiglio delle autonomie locali) e conseguente deliberazione dell'Ufficio di presidenza del Consiglio regionale 3 luglio 2000, n. 24 (Gettone di presenza ai componenti il Consiglio delle Autonomie locali).
+								</corpo>
+							</el>
 						</comma>
 						<comma id="art1-com2">
 							<num>2.</num>
@@ -356,13 +415,13 @@
 							</corpo>
 						</comma>
 					</articolo>
-					<articolo id="art2">
+					<articolo finevigore="t9" id="art2-t9" iniziovigore="t1" status="abrogato">
 						<num>Art. 2</num>
 						<rubrica>
 							Modifiche dell'
 							<rif xlink:href="urn:nir:regione.toscana:legge:2000;36#art17" xlink:type="simple">articolo 17 della l.r. 36/2000</rif>
 						</rubrica>
-						<comma id="art2-com1">
+						<comma id="art2-t9-com1">
 							<num>1.</num>
 							<corpo>
 								<mod id="mod1">
