@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t7" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19720714" num="26" tipo="BURT" />
@@ -13,6 +13,11 @@
 					<urn finevigore="t5" iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1972-07-06;18@1981-02-12" />
 					<urn finevigore="t6" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1972-07-06;18@1988-07-15" />
 					<urn iniziovigore="t6" valore="urn:nir:regione.toscana:legge:1972-07-06;18@1992-07-07" />
+					<materie vocabolario="Regione Toscana">
+						<materia valore="Personale" />
+						<materia valore="Ordinamento" />
+						<materia valore="Controlli" />
+					</materie>
 				</descrittori>
 				<ciclodivita>
 					<eventi>
@@ -22,7 +27,7 @@
 						<evento data="19810307" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="19880804" fonte="rp4" id="t5" tipo="modifica" />
 						<evento data="19920730" fonte="rp5" id="t6" tipo="modifica" />
-						<evento data="19930111" fonte="rp6" id="t7" tipo="modifica" />
+						<evento data="19930101" fonte="rp6" id="t7" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1972-07-06;18" xlink:type="simple" />
@@ -37,7 +42,7 @@
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:sostituzione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art2-com2" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1974-11-21;69" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1974-11-21;69#artunico-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -82,7 +87,7 @@
 							</dsp:novellando>
 						</dsp:sostituzione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art3-com2" xlink:type="simple" />
+							<dsp:pos xlink:href="" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1981-02-12;20" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1981-02-12;20#art3-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -451,7 +456,7 @@
 							</dsp:novellando>
 						</dsp:abrogazione>
 						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art10-t7" xlink:type="simple" />
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1972-07-06;18" xlink:type="simple" />
 							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1992-07-07;31" xlink:type="simple">
 								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1992-07-07;31#art55-com1" xlink:type="simple" />
 								<dsp:subarg>
@@ -459,19 +464,7 @@
 								</dsp:subarg>
 							</dsp:norma>
 							<dsp:novellando>
-								<dsp:pos xlink:href="#art10-t7" xlink:type="simple" />
-							</dsp:novellando>
-						</dsp:abrogazione>
-						<dsp:abrogazione completa="si" implicita="no">
-							<dsp:pos xlink:href="#art11-t7" xlink:type="simple" />
-							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1992-07-07;31" xlink:type="simple">
-								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1992-07-07;31#art55-com1" xlink:type="simple" />
-								<dsp:subarg>
-									<ittig:notavigenza auto="articolo55, comma1, legge Regione Toscana 7 luglio 1992, n. 31" id="itt35" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
-								</dsp:subarg>
-							</dsp:norma>
-							<dsp:novellando>
-								<dsp:pos xlink:href="#art11-t7" xlink:type="simple" />
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
 					</modifichepassive>
@@ -680,16 +673,16 @@
 						<corpo>I provvedimenti dell'organo di controllo sono definitivi.</corpo>
 					</comma>
 				</articolo>
-				<articolo finevigore="t7" id="art10-t7" iniziovigore="t1" status="abrogato">
+				<articolo id="art10">
 					<num>ARTICOLO 10</num>
-					<comma id="art10-t7-com1">
+					<comma id="art10-com1">
 						<num />
 						<alinea>Il comitato regionale esercita il controllo sugli atti:</alinea>
-						<el id="art10-t7-com1-leta">
+						<el id="art10-com1-leta">
 							<num>a)</num>
 							<corpo>delle Province;</corpo>
 						</el>
-						<el id="art10-t7-com1-letb">
+						<el id="art10-com1-letb">
 							<num>b)</num>
 							<corpo>
 								degli Enti ospedalieri comprendenti almeno un ospedale regionale o provinciale, ai sensi della
@@ -697,30 +690,30 @@
 								;
 							</corpo>
 						</el>
-						<el id="art10-t7-com1-letc">
+						<el id="art10-com1-letc">
 							<num>c)</num>
 							<corpo>dei Consorzi di cui fanno parte le Province;</corpo>
 						</el>
-						<el id="art10-t7-com1-letd">
+						<el id="art10-com1-letd">
 							<num>d)</num>
 							<corpo>dei Consigli di valle o comunità montane di cui fanno parte le Province.</corpo>
 						</el>
 					</comma>
 				</articolo>
-				<articolo finevigore="t7" id="art11-t7" iniziovigore="t1" status="abrogato">
+				<articolo id="art11">
 					<num>ARTICOLO 11</num>
-					<comma id="art11-t7-com1">
+					<comma id="art11-com1">
 						<num />
 						<alinea>Le sezioni decentrate esercitano il controllo sugli atti:</alinea>
-						<el id="art11-t7-com1-leta">
+						<el id="art11-com1-leta">
 							<num>a)</num>
 							<corpo>dei Comuni;</corpo>
 						</el>
-						<el id="art11-t7-com1-letb">
+						<el id="art11-com1-letb">
 							<num>b)</num>
 							<corpo>delle istituzioni pubbliche di assistenza e beneficienza;</corpo>
 						</el>
-						<el id="art11-t7-com1-letc">
+						<el id="art11-com1-letc">
 							<num>c)</num>
 							<corpo>
 								degli Enti ospedalieri comprendenti almeno un ospedale di zona ai sensi della
@@ -728,16 +721,16 @@
 								;
 							</corpo>
 						</el>
-						<el id="art11-t7-com1-letd">
+						<el id="art11-com1-letd">
 							<num>d)</num>
 							<corpo>dei Consorzi operanti nell'ambito del territorio di uno o più Comuni della Provincia. Ove del Consorzio facciano parte Comuni appartenenti a più Province, il controllo è esercitato dalla sezione istituita per la Provincia nella cui circoscrizione ha sede l'amministrazione del Consorzio;</corpo>
 						</el>
-						<el id="art11-t7-com1-lete">
+						<el id="art11-com1-lete">
 							<num>e)</num>
 							<corpo>dei Consigli di valle o comunità montane tra Comuni di una stessa Provincia. Ove il Consiglio di valle o comunità montana comprenda Comuni appartenenti a più Provincie, il controllo è esercitato dalla sezione istituita per la Provincia nella cui circoscrizione ha sede l'amministrazione del Consiglio di valle o comunità montana.</corpo>
 						</el>
 					</comma>
-					<comma id="art11-t7-com2">
+					<comma id="art11-com2">
 						<num />
 						<corpo>Ogni sezione esercita il controllo nella circoscrizione della Provincia nel cui capoluogo ha sede.</corpo>
 					</comma>
@@ -930,9 +923,9 @@
 							, dal Comitato regionale di controllo e dalle sezioni decentrate in conformità degli
 							<mrif>
 								artt
-								<rif xlink:href="#art10-t7" xlink:type="simple">. 10</rif>
+								<rif xlink:href="#10" xlink:type="simple">. 10</rif>
 								e
-								<rif xlink:href="#art11-t7" xlink:type="simple">11</rif>
+								<rif xlink:href="#11" xlink:type="simple">11</rif>
 							</mrif>
 							della presente legge e mediante invito all'Ente a compiere l'atto entro un termine determinato.
 						</corpo>
