@@ -7,7 +7,8 @@
 					<pubblicazione norm="19780911" num="46" tipo="BURT" />
 					<entratainvigore norm="19780911" />
 					<redazione id="red1" nome="" norm="" />
-					<urn finevigore="t4" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1978-09-05;60" />
+					<urn finevigore="t5" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1978-09-05;60" />
+					<urn finevigore="t4" iniziovigore="t5" valore="urn:nir:regione.toscana:legge:1978-09-05;60@1980-03-15" />
 					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1978-09-05;60@1999-03-10" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="CONTROLLI" />
@@ -20,14 +21,25 @@
 						<evento data="19780911" fonte="ra1" id="t2" tipo="modifica" />
 						<evento data="19780911" fonte="ra2" id="t3" tipo="modifica" />
 						<evento data="19990403" fonte="rp1" id="t4" tipo="modifica" />
+						<evento data="19800405" fonte="rp2" id="t5" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1978-09-05;60" xlink:type="simple" />
 						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1974-07-04;35" xlink:type="simple" />
 						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1974-07-04;35" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1999-03-10;12" xlink:type="simple" />
+						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1980-03-15;17" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<redazionale xlink:type="simple">
+					<nota id="LeggeRegionale1-n1">
+						<h:p>
+							A decorrere dalla data di entrata in vigore della
+							<rif xlink:href="urn:nir:regione.toscana:legge:1980-03-15;17" xlink:type="simple">legge regionale 15 marzo 1980, n. 17</rif>
+							, ai sensi dell'art 43 della stessa, le disposizioni della presente legge cessano di avere applicazione.
+						</h:p>
+					</nota>
+				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modificheattive>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -194,6 +206,15 @@
 								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:abrogazione>
+						<dsp:variazione completa="si" implicita="no">
+							<dsp:termine da="#t5" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1980-03-15;17" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1980-03-15;17#" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:dominio>
+								<dsp:testo valore="" />
+							</dsp:dominio>
+						</dsp:variazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -206,7 +227,9 @@
 				<titoloDoc>
 					Norme integrative alla
 					<rif xlink:href="urn:nir:regione.toscana:legge:1974;35" xlink:type="simple">LR 35/74</rif>
-					e successive modificazioni e integrazioni concernente la difesa della fauna e regolamentazione dell'attività venatoria.
+					e successive modificazioni e integrazioni concernente la difesa della fauna e regolamentazione dell'attività venatoria
+					<ndr num="#LeggeRegionale1-n1" valore="" xlink:type="simple">(a)</ndr>
+					.
 				</titoloDoc>
 			</intestazione>
 			<formulainiziale>
