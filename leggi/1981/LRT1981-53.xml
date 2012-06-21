@@ -25,9 +25,15 @@
 						<evento data="19960220" fonte="rp3" id="t4" tipo="modifica" />
 						<evento data="19981219" fonte="rp4" id="t5" tipo="modifica" />
 						<evento data="20030902" fonte="rp5" id="t6" tipo="modifica" />
+						<evento data="19810901" fonte="ra1" id="t7" tipo="modifica" />
+						<evento data="19810901" fonte="ra2" id="t8" tipo="modifica" />
+						<evento data="19810901" fonte="ra3" id="t9" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1981-06-19;53" xlink:type="simple" />
+						<attiva id="ra1" xlink:href="urn:nir:regione.toscana:legge:1975-06-07;71" xlink:type="simple" />
+						<attiva id="ra2" xlink:href="urn:nir:regione.toscana:legge:1975-06-07;71" xlink:type="simple" />
+						<attiva id="ra3" xlink:href="urn:nir:regione.toscana:legge:1980-05-24;66" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1989-06-14;37" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1993-06-23;41" xlink:type="simple" />
 						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1996-01-25;6" xlink:type="simple" />
@@ -61,6 +67,32 @@
 					</nota>
 				</redazionale>
 				<disposizioni xlink:type="simple">
+					<modificheattive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#mod1" xlink:type="simple" />
+							<dsp:termine da="#t7" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1975-06-07;71" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1975-06-07;71" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:subarg>
+									<ittig:tipo valore="atto" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novellando>
+						</dsp:abrogazione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#mod2" xlink:type="simple" />
+							<dsp:termine da="#t9" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1980-05-24;66" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1980-05-24;66" xlink:type="simple" />
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:subarg>
+									<ittig:tipo valore="atto" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modificheattive>
 					<modifichepassive>
 						<dsp:abrogazione completa="si" implicita="no">
 							<dsp:pos xlink:href="#art3-com1" xlink:type="simple" />
@@ -988,8 +1020,7 @@
 								;
 							</corpo>
 						</el>
-						<el finevigore="t5" id="art13-com1-letd-t5" iniziovigore="t3
-" status="abrogato">
+						<el finevigore="t5" id="art13-com1-letd-t5" iniziovigore="t3" status="abrogato">
 							<num>d)</num>
 							<corpo>alla definizione degli specifici obiettivi operativi da perseguire con i progetti di area in ciascun ambito provinciale ed alla individuazione delle priorità.</corpo>
 						</el>
@@ -1356,13 +1387,17 @@
 					<comma id="art16-t3-com1">
 						<num />
 						<corpo>
-							<mod id="mod1">
-								La presente legge entra in vigore con l'inizio dell'anno scolastico 1981/82. A partire da tale data sono abrogate le leggi regionali
-								<rif xlink:href="urn:nir:regione.toscana:legge:1975-06-07;71" xlink:type="simple">7 giugno 1975, n. 71</rif>
-								e
-								<rif xlink:href="urn:nir:regione.toscana:legge:1980-05-24;66" xlink:type="simple">24 maggio 1980, n. 66</rif>
-								.
-							</mod>
+							<mmod id="mmo1">
+								<mod id="mod1">
+									La presente legge entra in vigore con l'inizio dell'anno scolastico 1981/82. A partire da tale data sono abrogate le leggi regionali
+									<rif xlink:href="urn:nir:regione.toscana:legge:1975-06-07;71" xlink:type="simple">7 giugno 1975, n. 71</rif>
+								</mod>
+								<mod id="mod2">
+									e
+									<rif xlink:href="urn:nir:regione.toscana:legge:1980-05-24;66" xlink:type="simple">24 maggio 1980, n. 66</rif>
+									.
+								</mod>
+							</mmod>
 						</corpo>
 					</comma>
 					<comma id="art16-t3-com2">

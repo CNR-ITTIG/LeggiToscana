@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nirflessibile.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale>
+		<LeggeRegionale finevigore="t4" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19750613" num="26" tipo="BURT" />
@@ -9,7 +9,8 @@
 					<redazione id="red1" nome="" norm="" />
 					<urn finevigore="t2" iniziovigore="t1" valore="urn:nir:regione.toscana:legge:1975-06-07;71" />
 					<urn finevigore="t3" iniziovigore="t2" valore="urn:nir:regione.toscana:legge:1975-06-07;71@1976-02-04" />
-					<urn iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1975-06-07;71@1977-09-01" />
+					<urn finevigore="t4" iniziovigore="t3" valore="urn:nir:regione.toscana:legge:1975-06-07;71@1977-09-01" />
+					<urn iniziovigore="t4" valore="urn:nir:regione.toscana:legge:1975-06-07;71@1981-06-19" />
 					<materie vocabolario="Regione Toscana">
 						<materia valore="Sistema Educativo" />
 						<materia valore="Attribuzioni Deleghe" />
@@ -20,18 +21,15 @@
 						<evento data="19750628" fonte="ro1" id="t1" tipo="entrata in vigore" />
 						<evento data="19760228" fonte="rp1" id="t2" tipo="modifica" />
 						<evento data="19770924" fonte="rp2" id="t3" tipo="modifica" />
+						<evento data="19810901" fonte="rp3" id="t4" tipo="modifica" />
 					</eventi>
 					<relazioni>
 						<originale id="ro1" xlink:href="urn:nir:regione.toscana:legge:1975-06-07;71" xlink:type="simple" />
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:1976-02-04;10" xlink:type="simple" />
 						<passiva id="rp2" xlink:href="urn:nir:regione.toscana:legge:1977-09-01;69" xlink:type="simple" />
+						<passiva id="rp3" xlink:href="urn:nir:regione.toscana:legge:1981-06-19;53" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
-				<redazionale xlink:type="simple">
-					<nota id="n1">
-						<h:p>La presente legge è da considerarsi abrogata a partire dalla data d'inizio dell'anno scolastico 1981/82.</h:p>
-					</nota>
-				</redazionale>
 				<disposizioni xlink:type="simple">
 					<modifichepassive>
 						<dsp:sostituzione completa="si" implicita="no">
@@ -169,6 +167,18 @@
 								<dsp:pos xlink:href="#h3" xlink:type="simple" />
 							</dsp:novellando>
 						</dsp:sostituzione>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1975-06-07;71" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:1981-06-19;53" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:1981-06-19;53#art16-t3-com1" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto="articolo 16, comma 1 della legge Regione Toscana 19 giugno 1981, n. 53" id="itt11" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
 					</modifichepassive>
 				</disposizioni>
 			</meta>
@@ -178,10 +188,7 @@
 				<dataDoc norm="19750607">7 giugno 1975</dataDoc>
 				, n.
 				<numDoc>71</numDoc>
-				<titoloDoc>
-					Interventi per il diritto allo studio e delega delle relative funzioni agli Enti locali.
-					<ndr num="#n1" valore="" xlink:type="simple">(1)</ndr>
-				</titoloDoc>
+				<titoloDoc>Interventi per il diritto allo studio e delega delle relative funzioni agli Enti locali.</titoloDoc>
 			</intestazione>
 			<formulainiziale>
 				<h:p>Il Consiglio Regionale ha approvato il 1-7-1975</h:p>
@@ -189,7 +196,7 @@
 				<h:p>la seguente legge regionale:</h:p>
 			</formulainiziale>
 			<articolato>
-				<titolo id="tit1">
+				<titolo id="LeggeRegionale1-tit1">
 					<num>TITOLO I</num>
 					<rubrica>RIORDINAMENTO DEGLI INTERVENTI</rubrica>
 					<articolo id="art1">
@@ -325,7 +332,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit2">
+				<titolo id="LeggeRegionale1-tit2">
 					<num>TITOLO II</num>
 					<rubrica>DELEGA DELLE FUNZIONI</rubrica>
 					<articolo id="art6">
@@ -678,7 +685,7 @@
 						</comma>
 					</articolo>
 				</titolo>
-				<titolo id="tit3">
+				<titolo id="LeggeRegionale1-tit3">
 					<num>TITOLO III</num>
 					<rubrica>MODALITA' DI FINANZIAMENTO</rubrica>
 					<articolo id="art17">
