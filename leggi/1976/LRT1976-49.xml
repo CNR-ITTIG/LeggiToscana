@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE NIR SYSTEM 'nircompleto.dtd'>
 	<NIR tipo="multivigente" xmlns="http://www.normeinrete.it/nir/2.2/" xmlns:dsp="http://www.normeinrete.it/nir/disposizioni/2.2/" xmlns:h="http://www.w3.org/HTML/1998/html4" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<LeggeRegionale id="LeggeRegionale1">
+		<LeggeRegionale finevigore="t2" id="LeggeRegionale1" iniziovigore="t1" status="abrogato">
 			<meta>
 				<descrittori>
 					<pubblicazione norm="19760820" num="41" tipo="BURT" />
@@ -23,6 +23,22 @@
 						<passiva id="rp1" xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19" xlink:type="simple" />
 					</relazioni>
 				</ciclodivita>
+				<disposizioni xlink:type="simple">
+					<modifichepassive>
+						<dsp:abrogazione completa="si" implicita="no">
+							<dsp:pos xlink:href="#urn:nir:regione.toscana:legge:1976-08-12;50" xlink:type="simple" />
+							<dsp:norma xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19" xlink:type="simple">
+								<dsp:pos xlink:href="urn:nir:regione.toscana:legge:2000-02-29;19#ann1-art5-com30" xlink:type="simple" />
+								<dsp:subarg>
+									<ittig:notavigenza auto=", articolo 5, comma 30 della legge Regione Toscana 29 febbraio 2000, n. 19" id="itt1" xmlns:ittig="http://www.ittig.cnr.it/provvedimenti/2.2" />
+								</dsp:subarg>
+							</dsp:norma>
+							<dsp:novellando>
+								<dsp:pos xlink:href="#LeggeRegionale1" xlink:type="simple" />
+							</dsp:novellando>
+						</dsp:abrogazione>
+					</modifichepassive>
+				</disposizioni>
 			</meta>
 			<intestazione>
 				<emanante>Regione Toscana</emanante>
